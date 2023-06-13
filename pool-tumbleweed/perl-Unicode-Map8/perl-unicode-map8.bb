@@ -13,6 +13,7 @@ RPM_HASH = "e99e256fcb0e535fa5f9df15de01c9e2b7782b69efd819fa5b7ba7ffda7aeb387007
 RPROVIDES:${PN} += "perl(Unicode::Map8) \
 perl-Unicode-Map8 \
 perl-Unicode-Map8(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

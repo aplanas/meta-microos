@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arraycols.sty) \
 texlive-arraycols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(annee-scolaire.sty) \
 texlive-annee-scolaire"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

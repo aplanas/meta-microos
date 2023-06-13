@@ -26,6 +26,7 @@ ocamlx(Ocaml_common) \
 ocamlx(Ocaml_optcomp) \
 ocamlx(Ocaml_shadow) \
 ocamlx(Ocaml_toplevel)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml-ocaml-compiler-libs \

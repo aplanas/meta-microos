@@ -57,6 +57,7 @@ locale(xfce4-mpc-plugin:zh_TW) \
 xfce4-mpc-plugin-lang \
 xfce4-mpc-plugin-lang-all \
 xfce4-panel-plugin-mpc-lang"
+
 RDEPENDS:${PN} += "xfce4-mpc-plugin"
 
 inherit rpm

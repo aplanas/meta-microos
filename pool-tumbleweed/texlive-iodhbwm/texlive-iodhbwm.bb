@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(iodhbwm-i18n.def) \
 tex(iodhbwm-templates.sty) \
 tex(iodhbwm.cls) \
 texlive-iodhbwm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

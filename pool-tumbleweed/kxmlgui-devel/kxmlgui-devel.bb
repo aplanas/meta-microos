@@ -13,6 +13,7 @@ RPM_HASH = "26f14d291a2ee01484a26eeed3aa27d680a13a468e43fd74a21d285174a6f1838bbc
 RPROVIDES:${PN} += "cmake(KF5XmlGui) \
 kxmlgui-devel \
 kxmlgui-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5ConfigWidgets) \
 cmake(Qt5DBus) \

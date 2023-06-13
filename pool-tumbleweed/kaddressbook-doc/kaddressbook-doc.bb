@@ -9,6 +9,7 @@ RPM_HASH = "78c79507890ebdb99fdb77fc1db4662d07ea9d35edb54029b560b730acf19578ecfb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaddressbook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

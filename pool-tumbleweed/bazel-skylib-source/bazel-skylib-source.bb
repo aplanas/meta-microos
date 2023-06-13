@@ -13,6 +13,7 @@ RPM_HASH = "8176d94e0df8ff36caa9a5f6f987d790dffe12817327109f50eb991760e737ea9bd9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-skylib-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

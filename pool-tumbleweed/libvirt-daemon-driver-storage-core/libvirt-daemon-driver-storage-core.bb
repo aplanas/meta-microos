@@ -15,6 +15,7 @@ libvirt-daemon-driver-storage-core(aarch-64) \
 libvirt_driver_storage.so()(64bit) \
 libvirt_storage_backend_fs.so()(64bit) \
 libvirt_storage_file_fs.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/qemu-img \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "f833195041ab2d792d4b34cd3ea7ba65ad71fca11e44b77d2305653c44f1a306ecb5
 RPROVIDES:${PN} += "config(golang-github-czerwonk-ping_exporter) \
 golang-github-czerwonk-ping_exporter \
 golang-github-czerwonk-ping_exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

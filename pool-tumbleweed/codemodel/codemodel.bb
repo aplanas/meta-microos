@@ -17,6 +17,7 @@ mvn(com.sun.codemodel:codemodel-annotation-compiler) \
 mvn(com.sun.codemodel:codemodel-annotation-compiler:pom:) \
 mvn(com.sun.codemodel:codemodel-project:pom:) \
 mvn(com.sun.codemodel:codemodel:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

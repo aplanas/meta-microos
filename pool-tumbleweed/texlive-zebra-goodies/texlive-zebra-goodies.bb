@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zebra-goodies.sty) \
 texlive-zebra-goodies"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

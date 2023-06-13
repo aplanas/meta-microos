@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-isodate \
 python3.10dist(isodate) \
 python310-isodate \
 python3dist(isodate)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

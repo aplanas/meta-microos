@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-oidc-provider) \
 python39-django-oidc-provider \
 python3dist(django-oidc-provider)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-pyjwkest"

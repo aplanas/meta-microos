@@ -19,6 +19,7 @@ perl(Daemon::Generic::AnyEvent) \
 perl(Daemon::Generic::Event) \
 perl(Daemon::Generic::While1) \
 perl-Daemon-Generic"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Flock) \
 perl(File::Slurp)"

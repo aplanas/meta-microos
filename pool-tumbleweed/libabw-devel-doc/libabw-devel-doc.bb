@@ -9,6 +9,7 @@ RPM_HASH = "943cc2962d68feb79bcae8a475ecb29a6233451d4683c48a6d0dcf7413e59a891bd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libabw-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

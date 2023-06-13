@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(estonian.ldf) \
 texlive-babel-estonian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

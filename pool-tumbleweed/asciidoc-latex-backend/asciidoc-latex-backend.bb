@@ -10,6 +10,7 @@ RPM_HASH = "f7831237e13a05adf616187e00e47fa30149f1194bcbdaacd503ab6f967d4b97e458
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc-latex-backend"
+
 RDEPENDS:${PN} += "asciidoc \
 dblatex \
 tex(8r.enc) \

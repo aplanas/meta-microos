@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytz-deprecation-shim) \
 python39-pytz-deprecation-shim \
 python3dist(pytz-deprecation-shim)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

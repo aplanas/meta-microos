@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(libarchive-c) \
 python39-libarchive-c \
 python3dist(libarchive-c)"
+
 RDEPENDS:${PN} += "libarchive13 \
 python(abi)"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-power \
 python3.10dist(power) \
 python310-power \
 python3dist(power)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

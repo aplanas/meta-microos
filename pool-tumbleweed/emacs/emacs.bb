@@ -13,6 +13,7 @@ emacs \
 emacs(aarch-64) \
 epg \
 nxml-mode"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 emacs-info \

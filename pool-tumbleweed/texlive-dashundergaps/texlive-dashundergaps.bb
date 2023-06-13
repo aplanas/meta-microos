@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dashundergaps.sty) \
 texlive-dashundergaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

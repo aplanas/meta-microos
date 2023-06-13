@@ -808,6 +808,7 @@ tex(zxlz-8r.tfm) \
 tex(zxlz-caps.tfm) \
 tex(zxlzi-8r.tfm) \
 texlive-newtx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

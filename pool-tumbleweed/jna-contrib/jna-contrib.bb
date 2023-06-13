@@ -14,6 +14,7 @@ mvn(net.java.dev.jna:jna-platform:pom:) \
 mvn(net.java.dev.jna:platform) \
 mvn(net.java.dev.jna:platform:pom:) \
 osgi(com.sun.jna.platform)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jna \

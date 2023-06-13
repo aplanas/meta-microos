@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxnewfont.sty) \
 texlive-bxnewfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

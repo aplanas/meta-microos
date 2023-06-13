@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xstatic-angular-schema-form) \
 python39-XStatic-Angular-Schema-Form \
 python3dist(xstatic-angular-schema-form)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

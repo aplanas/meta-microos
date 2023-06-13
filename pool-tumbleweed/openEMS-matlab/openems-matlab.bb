@@ -11,6 +11,7 @@ RPM_HASH = "1536262b12ca1fdda5df52c313cc5a307f3104392fb2fc1242a39f3305eb08fc6ff9
 
 RPROVIDES:${PN} += "openEMS-matlab \
 openEMS-matlab(aarch-64)"
+
 RDEPENDS:${PN} += "AppCSXCAD \
 CSXCAD-matlab \
 openEMS"

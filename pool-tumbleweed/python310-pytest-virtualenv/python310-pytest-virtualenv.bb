@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-virtualenv \
 python3.10dist(pytest-virtualenv) \
 python310-pytest-virtualenv \
 python3dist(pytest-virtualenv)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-path.py \
 python310-pytest-fixture-config \

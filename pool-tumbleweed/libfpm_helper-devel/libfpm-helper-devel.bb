@@ -9,6 +9,7 @@ RPM_HASH = "2884002e99e3cbb51f1e940e8012362adb3009e60dafb200026549e4c4622de28c28
 
 RPROVIDES:${PN} += "libfpm_helper-devel \
 libfpm_helper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfpm_helper0"
 
 inherit rpm

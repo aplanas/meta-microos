@@ -9,6 +9,7 @@ RPM_HASH = "9a0184d0fae1cbaa71b076d7d0510dc22303f4527ad566e5f3a91dcb72378cc89a45
 
 RPROVIDES:${PN} += "okteta-part \
 okteta-part(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

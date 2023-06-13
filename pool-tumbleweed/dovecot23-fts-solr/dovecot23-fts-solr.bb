@@ -20,6 +20,7 @@ dovecot23-fts-solr \
 dovecot23-fts-solr(aarch-64) \
 dovecot_fts_backend \
 lib21_fts_solr_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "dovecot23 \
 dovecot23-fts \
 ld-linux-aarch64.so.1()(64bit) \

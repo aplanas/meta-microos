@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-pptp-frontend \
 plasma-nm-pptp \
 plasma-nm5-pptp \
 plasma-nm5-pptp(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-pptp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

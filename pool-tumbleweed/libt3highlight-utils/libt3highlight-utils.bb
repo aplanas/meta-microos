@@ -12,6 +12,7 @@ RPM_HASH = "5d6e5188c555a935c3348d8259a4dfd7d842bea92fdb43b261ff97f244d10c23c6f5
 
 RPROVIDES:${PN} += "libt3highlight-utils \
 libt3highlight-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

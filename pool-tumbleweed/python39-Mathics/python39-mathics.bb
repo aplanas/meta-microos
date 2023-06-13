@@ -12,6 +12,7 @@ python39-Mathics \
 python39-Mathics(aarch-64) \
 python39-Mathics3 \
 python3dist(mathics3)"
+
 RDEPENDS:${PN} += "(python39-Pillow >= 9.2 if python39-base >= 3.7) \
 /bin/sh \
 /usr/bin/python3.9 \

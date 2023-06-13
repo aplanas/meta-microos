@@ -31,6 +31,7 @@ locale(wxMaxima:zh_CN) \
 locale(wxMaxima:zh_TW) \
 wxMaxima-lang \
 wxMaxima-lang-all"
+
 RDEPENDS:${PN} += "wxMaxima"
 
 inherit rpm

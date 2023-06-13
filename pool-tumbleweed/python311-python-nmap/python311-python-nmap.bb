@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-nmap) \
 python311-python-nmap \
 python3dist(python-nmap)"
+
 RDEPENDS:${PN} += "nmap \
 python(abi)"
 

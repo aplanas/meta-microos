@@ -33,6 +33,7 @@ mimehandler(image/x-olympus-orf) \
 mimehandler(image/x-pentax-pef) \
 mimehandler(image/x-raw) \
 mimehandler(image/x-sony-arw)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

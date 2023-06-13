@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "application() \
 application(tkx11vnc.desktop) \
 x11vnc-frontend \
 x11vnc-frontend(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 tcl \
 tk \

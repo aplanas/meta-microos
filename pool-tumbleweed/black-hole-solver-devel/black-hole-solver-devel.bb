@@ -10,6 +10,7 @@ RPM_HASH = "9392e7a6fb6ec6aa80476c7c9ac402e6b168c9a0bd5131fd86a1d1c2120d3118ba4a
 RPROVIDES:${PN} += "black-hole-solver-devel \
 black-hole-solver-devel(aarch-64) \
 pkgconfig(libblack-hole-solver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libblack_hole_solver1"
 

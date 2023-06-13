@@ -15,6 +15,7 @@ ejb_api \
 geronimo-ejb-2_1-api \
 mvn(org.apache.geronimo.specs:geronimo-ejb_2.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-ejb_2.1_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

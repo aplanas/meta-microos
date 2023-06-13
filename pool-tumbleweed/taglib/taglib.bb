@@ -14,6 +14,7 @@ RPM_HASH = "5576e1ac9547ddc355566c3adee8fa7da82a92b84f59a48fd43326f05059d1da4957
 
 RPROVIDES:${PN} += "taglib \
 taglib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

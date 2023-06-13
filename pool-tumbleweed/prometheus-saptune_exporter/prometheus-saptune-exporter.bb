@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "prometheus(saptune_exporter) \
 prometheus-saptune_exporter \
 prometheus-saptune_exporter(aarch-64) \
 saptune_exporter"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

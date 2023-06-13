@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(inlinedef.sty) \
 texlive-inlinedef"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

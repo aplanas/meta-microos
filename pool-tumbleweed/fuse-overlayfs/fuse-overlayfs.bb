@@ -9,6 +9,7 @@ RPM_HASH = "2511734d7094271043927e759077e01ed0c89bd7907addf192543218da5847a42855
 
 RPROVIDES:${PN} += "fuse-overlayfs \
 fuse-overlayfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

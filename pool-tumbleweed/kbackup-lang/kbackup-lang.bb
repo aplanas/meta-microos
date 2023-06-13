@@ -43,6 +43,7 @@ locale(kbackup:tr) \
 locale(kbackup:uk) \
 locale(kbackup:zh_CN) \
 locale(kbackup:zh_TW)"
+
 RDEPENDS:${PN} += "kbackup"
 
 inherit rpm

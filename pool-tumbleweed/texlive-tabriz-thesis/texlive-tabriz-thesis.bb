@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabriz-thesis.cls) \
 texlive-tabriz-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

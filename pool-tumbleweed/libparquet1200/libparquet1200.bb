@@ -17,6 +17,7 @@ RPM_HASH = "88da005bb231603a4fcbed034c0319139c136c84db15fe2e683696609a09771ca822
 RPROVIDES:${PN} += "libparquet.so.1200()(64bit) \
 libparquet1200 \
 libparquet1200(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

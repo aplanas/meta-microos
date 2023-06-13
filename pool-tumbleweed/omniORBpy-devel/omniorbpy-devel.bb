@@ -9,6 +9,7 @@ RPM_HASH = "1a86c490f834dcd0f4de52542d4f59798915ec585a8112af6f6b7535f88b7df4b505
 
 RPROVIDES:${PN} += "omniORBpy-devel \
 omniORBpy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "omniORBpy"
 
 inherit rpm

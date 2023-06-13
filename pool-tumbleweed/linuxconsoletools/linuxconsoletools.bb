@@ -20,6 +20,7 @@ RPM_HASH = "d699a14b702b0a1f27206d91df2815831f5c57199324df69db66132aca7833b74f59
 RPROVIDES:${PN} += "input-utils \
 linuxconsoletools \
 linuxconsoletools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

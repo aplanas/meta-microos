@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pseudo.sty) \
 texlive-pseudo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

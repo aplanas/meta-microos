@@ -10,6 +10,7 @@ RPM_HASH = "2ee59c3e5c75187a72c007cfee8a5fb907da0ce2c94cb4c88de732f63c4409b29b10
 
 RPROVIDES:${PN} += "madplay \
 madplay(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "2ca26287a8c2be3ab638d2797ad8d4a419ce38066babf3fd8617ee113707a10bbc7f
 
 RPROVIDES:${PN} += "libtextstyle-devel \
 libtextstyle-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtextstyle0"
 
 inherit rpm

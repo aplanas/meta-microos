@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-impacket \
 python3.10dist(impacket) \
 python310-impacket \
 python3dist(impacket)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

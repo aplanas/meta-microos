@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libklu-1_3_9 \
 libklu.so.1()(64bit) \
 libklu1 \
 libklu1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

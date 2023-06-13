@@ -13,6 +13,7 @@ RPM_HASH = "22ee33e8b90fe3b36f3c4c360dccce9b47191c21101f7ca9ff1b95b4506880d93bc0
 RPROVIDES:${PN} += "perl(Crypt::OpenSSL::Random) \
 perl-Crypt-OpenSSL-Random \
 perl-Crypt-OpenSSL-Random(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

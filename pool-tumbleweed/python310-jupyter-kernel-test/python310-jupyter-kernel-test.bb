@@ -15,6 +15,7 @@ python3.10dist(jupyter-kernel-test) \
 python310-jupyter-kernel-test \
 python310-jupyter_kernel_test \
 python3dist(jupyter-kernel-test)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonschema \
 python310-jupyter_client"

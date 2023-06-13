@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgfgantt.sty) \
 texlive-pgfgantt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

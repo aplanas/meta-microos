@@ -9,6 +9,7 @@ RPM_HASH = "fad7771b624459814dde0722f5eefa1eff5b2bef6f53733ab039985422ecb2f002de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbenv-bundle-exec"
+
 RDEPENDS:${PN} += "rbenv"
 
 inherit rpm

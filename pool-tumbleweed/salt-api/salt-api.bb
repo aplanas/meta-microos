@@ -9,6 +9,7 @@ RPM_HASH = "e66858baebfce4c2aade0de150fddcae6b17fef815c6bf375e51bcb7c4d49885d101
 
 RPROVIDES:${PN} += "salt-api \
 salt-api(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python3-CherryPy \

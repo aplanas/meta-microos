@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5PimCommon) \
 cmake(KF5PimCommonAkonadi) \
 pimcommon-devel \
 pimcommon-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5Contacts) \
 cmake(KF5KIO) \

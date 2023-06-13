@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(icinga2-ido-mysql) \
 icinga2-ido-mysql \
 icinga2-ido-mysql(aarch-64) \
 libmysql_shim.so.2.13.7()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 icinga2-bin \
 libmariadb.so.3()(64bit) \

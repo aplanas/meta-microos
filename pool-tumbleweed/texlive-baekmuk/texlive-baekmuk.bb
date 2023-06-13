@@ -12,6 +12,7 @@ RPM_HASH = "b7f4e6028beaa2f810e88a98f443d8fbf536def7bc4a5fc5f4ffa2b55a95f43e296f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-baekmuk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

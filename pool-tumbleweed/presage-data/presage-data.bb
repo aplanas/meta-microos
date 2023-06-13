@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(presage-data) \
 libpresage-data \
 presage-data \
 presage-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

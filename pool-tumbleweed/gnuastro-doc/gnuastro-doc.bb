@@ -9,6 +9,7 @@ RPM_HASH = "f87762f209182709cb5aaa302c7bf95f96c553676c322288a7693e4ab7a9a2942970
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuastro-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

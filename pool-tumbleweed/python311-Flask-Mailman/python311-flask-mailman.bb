@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-mailman) \
 python311-Flask-Mailman \
 python3dist(flask-mailman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask"
 

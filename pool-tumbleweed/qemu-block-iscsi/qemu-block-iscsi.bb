@@ -10,6 +10,7 @@ RPM_HASH = "0704a788d263b75daec955cf7248d4ad585f513b18fd48f50878fc60d87d27a425d1
 
 RPROVIDES:${PN} += "qemu-block-iscsi \
 qemu-block-iscsi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

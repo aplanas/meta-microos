@@ -42,6 +42,7 @@ tex(mathx7.tfm) \
 tex(mathx8.tfm) \
 tex(mathx9.tfm) \
 texlive-mathabx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(HAP-ppr-prv.def) \
 tex(ppr-prv.cls) \
 texlive-ppr-prv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "dd19e3b523d96ebaf93709dd4d4f7eeb1dd812cf08e0a8fe090ee8dc38df3436ebdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dad-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

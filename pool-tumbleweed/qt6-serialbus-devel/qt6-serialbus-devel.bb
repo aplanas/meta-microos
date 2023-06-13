@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6SerialBus) \
 pkgconfig(Qt6SerialBus) \
 qt6-serialbus-devel \
 qt6-serialbus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 cmake(Qt6SerialPort) \

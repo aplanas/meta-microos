@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vdmlisting.sty) \
 texlive-vdmlisting"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

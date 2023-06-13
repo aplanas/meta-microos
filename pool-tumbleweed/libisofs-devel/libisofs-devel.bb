@@ -10,6 +10,7 @@ RPM_HASH = "86b457e6449e9b8d65fa5396b48c9ad7194068b4e6b1deb90f460efe6f4dcd800536
 RPROVIDES:${PN} += "libisofs-devel \
 libisofs-devel(aarch-64) \
 pkgconfig(libisofs-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libisofs6"
 

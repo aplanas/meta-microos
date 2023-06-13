@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-core-tracing-opencensus) \
 python311-azure-core-tracing-opencensus \
 python3dist(azure-core-tracing-opencensus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-nspkg \

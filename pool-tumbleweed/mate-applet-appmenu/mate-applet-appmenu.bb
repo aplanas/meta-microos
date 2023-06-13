@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libappmenu-mate.so()(64bit) \
 mate-applet-appmenu \
 mate-applet-appmenu(aarch-64) \
 mate-vala-penel-appmenu-plugin"
+
 RDEPENDS:${PN} += "appmenu-gtk2-module \
 appmenu-gtk3-module \
 appmenu-registrar \

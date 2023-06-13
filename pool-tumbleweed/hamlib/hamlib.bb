@@ -11,6 +11,7 @@ RPM_HASH = "549622c8affabe43af9f0159ee5b73cd59f1f688b064065381f96adb19c29410d614
 
 RPROVIDES:${PN} += "hamlib \
 hamlib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

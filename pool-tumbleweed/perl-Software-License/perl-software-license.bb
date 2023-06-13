@@ -43,6 +43,7 @@ perl(Software::License::Sun) \
 perl(Software::License::Zlib) \
 perl(Software::LicenseUtils) \
 perl-Software-License"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Section) \
 perl(Module::Load) \

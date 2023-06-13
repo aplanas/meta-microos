@@ -17,6 +17,7 @@ RPM_HASH = "c65ae59697d0b3d8c856b050d8e45c4444ca8fe41a040adb543eb33db6f2006b1347
 RPROVIDES:${PN} += "nvml-tools \
 pmdk-tools \
 pmdk-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash-completion \
 ld-linux-aarch64.so.1()(64bit) \

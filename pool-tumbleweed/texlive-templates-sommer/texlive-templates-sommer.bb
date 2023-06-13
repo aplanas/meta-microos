@@ -12,6 +12,7 @@ RPM_HASH = "46ed2bb40026e6ae83ed5cfc4296689693ac17b6e6e82f94a878b2ef3c4a87f4e627
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-templates-sommer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

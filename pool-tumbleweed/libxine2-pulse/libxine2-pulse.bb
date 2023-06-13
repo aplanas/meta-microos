@@ -15,6 +15,7 @@ RPM_HASH = "f6a38942272b9fe55bf5305459cf6ff3d0c90c8c076f9b3c566f1c7669920cab0215
 
 RPROVIDES:${PN} += "libxine2-pulse \
 libxine2-pulse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

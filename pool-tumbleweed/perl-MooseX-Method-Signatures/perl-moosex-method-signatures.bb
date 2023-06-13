@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(MooseX::Method::Signatures) \
 perl(MooseX::Method::Signatures::Meta::Method) \
 perl(MooseX::Method::Signatures::Types) \
 perl-MooseX-Method-Signatures"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::EndOfScope) \
 perl(Context::Preserve) \

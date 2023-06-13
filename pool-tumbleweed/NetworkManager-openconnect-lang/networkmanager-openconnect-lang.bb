@@ -65,6 +65,7 @@ locale(NetworkManager-openconnect:vi) \
 locale(NetworkManager-openconnect:zh_CN) \
 locale(NetworkManager-openconnect:zh_HK) \
 locale(NetworkManager-openconnect:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-openconnect"
 
 inherit rpm

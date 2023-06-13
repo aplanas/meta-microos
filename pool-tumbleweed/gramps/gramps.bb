@@ -22,6 +22,7 @@ mimehandler(application/x-gramps-package) \
 mimehandler(application/x-gramps-xml) \
 python3.10dist(gramps) \
 python3dist(gramps)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

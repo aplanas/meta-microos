@@ -9,6 +9,7 @@ RPM_HASH = "9775174a371dbb986053505e22052ba33a43489d134df0ec81f3f900b4dac9d76e1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-footnotehyper-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "27f769cd36707c75bda4a65ba07383cdfbfb4f8255da5120b837f168c52dd1932400
 RPROVIDES:${PN} += "libdovi-devel \
 libdovi-devel(aarch-64) \
 pkgconfig(dovi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdovi3"
 

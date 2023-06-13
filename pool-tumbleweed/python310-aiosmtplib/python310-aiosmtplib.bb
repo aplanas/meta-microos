@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiosmtplib \
 python3.10dist(aiosmtplib) \
 python310-aiosmtplib \
 python3dist(aiosmtplib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "ed7f0703bda46f24033f66c0a3ad379ef9cf3d74223d7c97bf15a2ca0d53784d66b5
 
 RPROVIDES:${PN} += "texlive-asymptote-bin \
 texlive-asymptote-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOSMesa.so.8()(64bit) \

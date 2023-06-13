@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:docker-api) \
 rubygem(ruby:3.2.0:docker-api:2) \
 rubygem(ruby:3.2.0:docker-api:2.2) \
 rubygem(ruby:3.2.0:docker-api:2.2.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:excon) \
 rubygem(ruby:3.2.0:multi_json)"

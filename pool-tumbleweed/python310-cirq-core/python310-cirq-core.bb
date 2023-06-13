@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-cirq-core \
 python3.10dist(cirq-core) \
 python310-cirq-core \
 python3dist(cirq-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-duet \
 python310-matplotlib \

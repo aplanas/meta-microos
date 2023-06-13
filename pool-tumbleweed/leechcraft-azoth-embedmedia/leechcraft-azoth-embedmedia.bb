@@ -11,6 +11,7 @@ RPM_HASH = "d587b30afe21e1015bade608aa8458aede2eb635483e49ab20e55a83bf79eb4f19f8
 RPROVIDES:${PN} += "leechcraft-azoth-embedmedia \
 leechcraft-azoth-embedmedia(aarch-64) \
 libleechcraft_azoth_embedmedia.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

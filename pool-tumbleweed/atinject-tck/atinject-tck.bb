@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "atinject-tck \
 mvn(javax.inject:javax.inject-tck) \
 mvn(javax.inject:javax.inject-tck:pom:) \
 osgi(com.google.code.atinject.tck)"
+
 RDEPENDS:${PN} += "atinject \
 java-headless \
 javapackages-filesystem \

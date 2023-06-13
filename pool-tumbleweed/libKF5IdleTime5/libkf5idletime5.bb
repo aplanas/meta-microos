@@ -12,6 +12,7 @@ RPM_HASH = "c58496686332f0c005d834aabb487ddb5227624d1daa8150c87ac5cd5bb4133a2dab
 RPROVIDES:${PN} += "libKF5IdleTime.so.5()(64bit) \
 libKF5IdleTime5 \
 libKF5IdleTime5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

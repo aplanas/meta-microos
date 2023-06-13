@@ -13,6 +13,7 @@ RPM_HASH = "5f25ba1fcccfe1232b0746405d27574832fec72bc94d6af012147ffc50fb0cb149ea
 RPROVIDES:${PN} += "w3m-inline-image \
 w3m-inline-image(aarch-64) \
 w3m:/usr/lib64/w3m/w3mimgdisplay"
+
 RDEPENDS:${PN} += "imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

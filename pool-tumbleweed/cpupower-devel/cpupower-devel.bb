@@ -9,6 +9,7 @@ RPM_HASH = "2ef9b8d1d7afe78d8ad3f9227da486b58d8b07341f45136f564af2b518e87b0c6482
 
 RPROVIDES:${PN} += "cpupower-devel \
 cpupower-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcpupower0"
 
 inherit rpm

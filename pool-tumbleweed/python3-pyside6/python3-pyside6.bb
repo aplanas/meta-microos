@@ -14,6 +14,7 @@ python3-pyside6 \
 python3-pyside6(aarch-64) \
 python3.10dist(pyside6) \
 python3dist(pyside6)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGLESv2.so.2()(64bit) \
 libQt63DAnimation.so.6()(64bit) \

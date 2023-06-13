@@ -23,6 +23,7 @@ RPM_HASH = "9ad36353ba48829a8b592c3d76596dc0ff305d03ff66f9f0c5d370e6c25b97d1d1a3
 RPROVIDES:${PN} += "libshadowdive.so.0.0.0-suse()(64bit) \
 libshadowdive0_0_0-suse \
 libshadowdive0_0_0-suse(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libpng16.so.16()(64bit) \

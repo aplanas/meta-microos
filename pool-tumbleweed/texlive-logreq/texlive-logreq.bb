@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(logreq.def) \
 tex(logreq.sty) \
 texlive-logreq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

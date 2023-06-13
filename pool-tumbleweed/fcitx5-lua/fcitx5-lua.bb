@@ -12,6 +12,7 @@ fcitx5-lua(aarch-64) \
 libluaaddonloader.so()(64bit) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.Lua.metainfo.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5Config.so.6()(64bit) \

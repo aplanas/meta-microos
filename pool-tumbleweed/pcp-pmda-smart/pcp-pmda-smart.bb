@@ -11,6 +11,7 @@ RPM_HASH = "21348fa66de1dba27581d0ad2826b692eb2f161c2ff4943378ac98423db86bf9d735
 
 RPROVIDES:${PN} += "pcp-pmda-smart \
 pcp-pmda-smart(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

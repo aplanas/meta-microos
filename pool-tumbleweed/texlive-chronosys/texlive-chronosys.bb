@@ -14,6 +14,7 @@ tex(chronosys.tex) \
 tex(chronosyschr.tex) \
 tex(x-chronosys.tex) \
 texlive-chronosys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

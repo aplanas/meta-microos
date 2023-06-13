@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiosqlite) \
 python311-aiosqlite \
 python3dist(aiosqlite)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

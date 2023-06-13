@@ -24,6 +24,7 @@ python3.10dist(pyscss) \
 python310-pyScss \
 python310-pyScss(aarch-64) \
 python3dist(pyscss)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

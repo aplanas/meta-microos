@@ -14,6 +14,7 @@ RPM_HASH = "4a9f0f1ba8a587019eec8c9afd21c03fa4ac39fa80ecd943b2d6235098b6593fc782
 RPROVIDES:${PN} += "pkgconfig(synctex) \
 texlive-synctex-devel \
 texlive-synctex-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsynctex2 \
 pkgconfig(zlib)"

@@ -21,6 +21,7 @@ mvn(com.github.javaparser:javaparser-symbol-solver-testing:pom:) \
 mvn(com.google.code.javaparser:javaparser) \
 mvn(com.google.code.javaparser:javaparser:pom:) \
 osgi(com.github.javaparser.javaparser-core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.guava:guava) \

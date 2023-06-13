@@ -9,6 +9,7 @@ RPM_HASH = "275882248deadf039c3622ebd5e276cddbe3f2e05b3509b6ea242889ecb7b86d78a8
 
 RPROVIDES:${PN} += "rpm-build-perl \
 rpm-build-perl(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-base"
 

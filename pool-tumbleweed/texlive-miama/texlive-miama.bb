@@ -40,6 +40,7 @@ tex(t5fmm.fd) \
 tex(x2-miama.enc) \
 tex(x2fmm.fd) \
 texlive-miama"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

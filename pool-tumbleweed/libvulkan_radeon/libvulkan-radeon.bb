@@ -10,6 +10,7 @@ RPM_HASH = "ddf6e3b0397f96e09dfa41ebd1edba7c7f2f3d0d17375b9050b5e2cdb21ec5f51f8a
 RPROVIDES:${PN} += "libvulkan_radeon \
 libvulkan_radeon(aarch-64) \
 libvulkan_radeon.so()(64bit)"
+
 RDEPENDS:${PN} += "Mesa-vulkan-device-select \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

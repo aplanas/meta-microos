@@ -88,6 +88,7 @@ font(:lang=zu) \
 font(asap) \
 font(asapsymbol) \
 texlive-asapsym-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

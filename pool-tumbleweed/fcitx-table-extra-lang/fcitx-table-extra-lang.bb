@@ -19,6 +19,7 @@ locale(fcitx-table-extra:ru) \
 locale(fcitx-table-extra:tr) \
 locale(fcitx-table-extra:zh_CN) \
 locale(fcitx-table-extra:zh_TW)"
+
 RDEPENDS:${PN} += "fcitx-table-extra"
 
 inherit rpm

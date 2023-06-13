@@ -27,6 +27,7 @@ tex(ukrhypmt.tex) \
 tex(ukrhypsm.tex) \
 tex(ukrhypst.tex) \
 texlive-ukrhyph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

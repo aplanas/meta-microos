@@ -10,6 +10,7 @@ RPM_HASH = "254b4deb064140922045f85420b9adf6ae3e21e3704d41e74cabc9d16fe3f14090ee
 
 RPROVIDES:${PN} += "libsubtitleeditor-devel \
 libsubtitleeditor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsubtitleeditor0"
 
 inherit rpm

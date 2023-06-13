@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xfakebold.sty) \
 texlive-xfakebold"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

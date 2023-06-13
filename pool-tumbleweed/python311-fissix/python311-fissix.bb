@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fissix) \
 python311-fissix \
 python3dist(fissix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-appdirs"
 

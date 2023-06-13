@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "deepin-wayland-devel \
 deepin-wayland-devel(aarch-64) \
 pkgconfig(dde-wayland-client) \
 pkgconfig(dde-wayland-server)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdde-wayland-client0 \
 libdde-wayland-server0"

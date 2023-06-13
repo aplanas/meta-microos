@@ -9,6 +9,7 @@ RPM_HASH = "5a749a5d6cc9584f72041e3508b469ade5157d6ce1aaec613d42716dd6b2fd1508f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkgloader-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "62cf9a1ca4c8e42a8cebd27c9cb6eba6d217fdfe19a6c30550a23265fecbffb2b288
 
 RPROVIDES:${PN} += "etcdutl \
 etcdutl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(grab) \
 python311-grab \
 python3dist(grab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-defusedxml \
 python311-lxml \

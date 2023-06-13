@@ -562,6 +562,7 @@ tex(wncy-iwonami.tfm) \
 tex(wncy-iwonar.tfm) \
 tex(wncy-iwonari.tfm) \
 texlive-iwona"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

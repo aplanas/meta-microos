@@ -13,6 +13,7 @@ RPM_HASH = "7f8e719deb04a0622b8d18617445ce137f636a97a194ade9fdfc5fec79d78ea2e915
 RPROVIDES:${PN} += "libxatracker.so.2()(64bit) \
 libxatracker2 \
 libxatracker2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

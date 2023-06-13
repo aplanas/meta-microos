@@ -9,6 +9,7 @@ RPM_HASH = "cd9d616f9a8fc6a1a1ecb4043865210fc1d17f2363336db119473eb8507502b31be1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trajan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

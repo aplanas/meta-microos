@@ -28,6 +28,7 @@ tex(philosophy-verbose.bbx) \
 tex(philosophy-verbose.cbx) \
 tex(spanish-philosophy.lbx) \
 texlive-biblatex-philosophy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

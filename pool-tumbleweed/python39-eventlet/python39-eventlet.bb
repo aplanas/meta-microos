@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(eventlet) \
 python39-eventlet \
 python3dist(eventlet)"
+
 RDEPENDS:${PN} += "libnss_usrfiles2 \
 netcfg \
 python(abi) \

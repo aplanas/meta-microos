@@ -74,6 +74,7 @@ locale(simple-scan:zh_HK) \
 locale(simple-scan:zh_TW) \
 simple-scan-lang \
 simple-scan-lang-all"
+
 RDEPENDS:${PN} += "simple-scan"
 
 inherit rpm

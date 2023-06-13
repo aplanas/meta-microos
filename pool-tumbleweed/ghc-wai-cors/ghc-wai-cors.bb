@@ -12,6 +12,7 @@ RPM_HASH = "b88a528490a0c9e3536274031c3697a5e7131dd8e1458fb9c9e6a75fb2543ce2a233
 RPROVIDES:${PN} += "ghc-wai-cors \
 ghc-wai-cors(aarch-64) \
 libHSwai-cors-0.2.7-CSepwpjFO1f9DnlkYc71mV-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

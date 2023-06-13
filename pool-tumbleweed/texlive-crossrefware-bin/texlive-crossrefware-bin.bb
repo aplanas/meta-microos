@@ -9,6 +9,7 @@ RPM_HASH = "40bb0e5b70ba0f6ac81af3166a029900c82990ccd111ac07f334f7b045637e6578f6
 
 RPROVIDES:${PN} += "texlive-crossrefware-bin \
 texlive-crossrefware-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-crossrefware"
 
 inherit rpm

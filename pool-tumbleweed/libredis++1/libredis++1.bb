@@ -10,6 +10,7 @@ RPM_HASH = "02ca8931857e32d08fc8e77e3f0e356782f88571ab1faf155f00419f7b056598da68
 RPROVIDES:${PN} += "libredis++.so.1()(64bit) \
 libredis++1 \
 libredis++1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

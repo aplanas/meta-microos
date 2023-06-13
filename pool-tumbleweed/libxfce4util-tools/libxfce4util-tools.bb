@@ -10,6 +10,7 @@ RPM_HASH = "86b7b7a481772c0664d587250afe8c670bb6d73c8730995c5450751fdb9845ea21c8
 RPROVIDES:${PN} += "libxfce4util-tools \
 libxfce4util-tools(aarch-64) \
 libxfce4util:/usr/sbin/xfce4-kiosk-query"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libxfce4util.so.7()(64bit)"
 

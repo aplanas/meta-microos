@@ -11,6 +11,7 @@ RPM_HASH = "bc3d2980cd51a2ecc26d05bde9702d23eb39c812171f8ccb0914664c1292ec97df0a
 RPROVIDES:${PN} += "rmt \
 tar-rmt \
 tar-rmt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

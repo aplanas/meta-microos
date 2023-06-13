@@ -9,6 +9,7 @@ RPM_HASH = "ceed5da9f5b8aabd1561fc58681f7400cd873f14c456872f97760402c995143a5b32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hamnosys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

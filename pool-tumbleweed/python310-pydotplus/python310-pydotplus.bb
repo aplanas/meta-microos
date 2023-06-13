@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pydotplus \
 python3.10dist(pydotplus) \
 python310-pydotplus \
 python3dist(pydotplus)"
+
 RDEPENDS:${PN} += "graphviz \
 python(abi) \
 python310-pyparsing"

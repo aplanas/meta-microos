@@ -10,6 +10,7 @@ RPM_HASH = "11724e4b997f7cfffb61af3a2a2d6434f1687b83544a021d1a310016e38d4b01a004
 RPROVIDES:${PN} += "ghc-prof(th-lift-instances-0.1.20-7156sTBHd79IaWXpYE3Pjx) \
 ghc-th-lift-instances-prof \
 ghc-th-lift-instances-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-prof(containers-0.6.7) \

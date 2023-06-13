@@ -13,6 +13,7 @@ RPM_HASH = "780408664566bc7897eb68aa34e558a5ae6f56dd690a464e14ceb1932ae6113eb345
 RPROVIDES:${PN} += "cross-s390x-gcc7 \
 cross-s390x-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-s390x-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

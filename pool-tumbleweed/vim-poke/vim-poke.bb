@@ -9,6 +9,7 @@ RPM_HASH = "7188dc55e2165b8a400b75cbfc98a8b4ed5feed73402f3a2964d4a2bde2571098c26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-poke"
+
 RDEPENDS:${PN} += "poke \
 vim"
 

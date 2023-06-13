@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5IMAP) \
 cmake(KPim5IMAP) \
 kimap-devel \
 kimap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cmake(KPim5Mime) \
 cyrus-sasl-devel \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pbsheet-doc:fr) \
 texlive-pbsheet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

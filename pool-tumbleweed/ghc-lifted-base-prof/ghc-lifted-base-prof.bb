@@ -10,6 +10,7 @@ RPM_HASH = "b10a549bb3d436803141b574aaea777fd515096ed8e79bb0cadb4a5473d6ea060455
 RPROVIDES:${PN} += "ghc-lifted-base-prof \
 ghc-lifted-base-prof(aarch-64) \
 ghc-prof(lifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo)"
+
 RDEPENDS:${PN} += "ghc-lifted-base-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX) \

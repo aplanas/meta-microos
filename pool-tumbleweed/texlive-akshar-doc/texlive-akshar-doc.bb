@@ -9,6 +9,7 @@ RPM_HASH = "36fcc6c4e2a73fe2646e7babc490d2f92815e1eedbac01327ac9bd34a9ec9fc03ebf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-akshar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

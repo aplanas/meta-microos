@@ -10,6 +10,7 @@ RPM_HASH = "c09ed9ebdaf5ac53a4ed6822cc28a4f3bee2e536af502bd2e49e6ab6f8f2e22bb8f6
 
 RPROVIDES:${PN} += "hdajacksensetest \
 hdajacksensetest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

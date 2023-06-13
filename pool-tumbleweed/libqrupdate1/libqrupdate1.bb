@@ -10,6 +10,7 @@ RPM_HASH = "891d31f5574f7068b446c337cf67385f7508792566c1c9ce053e1afce47c4351203a
 RPROVIDES:${PN} += "libqrupdate.so.1()(64bit) \
 libqrupdate1 \
 libqrupdate1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libblas.so.3()(64bit) \
 libgfortran.so.5()(64bit) \

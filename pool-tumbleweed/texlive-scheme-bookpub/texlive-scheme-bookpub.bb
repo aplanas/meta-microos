@@ -14,6 +14,7 @@ RPM_HASH = "f62f89444c7b4db20b759133891db4a5969bb25e820a7c5527f35910586ebd0458cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-bookpub"
+
 RDEPENDS:${PN} += "texlive-barcodes \
 texlive-biber \
 texlive-biblatex \

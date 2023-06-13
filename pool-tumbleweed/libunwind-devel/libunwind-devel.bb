@@ -16,6 +16,7 @@ pkgconfig(libunwind-coredump) \
 pkgconfig(libunwind-generic) \
 pkgconfig(libunwind-ptrace) \
 pkgconfig(libunwind-setjmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunwind-coredump0 \
 libunwind-ptrace0 \

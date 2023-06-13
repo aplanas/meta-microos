@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(palapeli-data) \
 palapeli-data"
+
 RDEPENDS:${PN} += "palapeli"
 
 inherit rpm

@@ -16,6 +16,7 @@ tex(ubbm.fd) \
 tex(ubbmss.fd) \
 tex(ubbmtt.fd) \
 texlive-bbm-macros"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

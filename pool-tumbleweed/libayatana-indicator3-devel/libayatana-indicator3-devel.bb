@@ -11,6 +11,7 @@ RPM_HASH = "fdf8c20d24a043be424be81f4b6032ef554329e16f6bdf756095bcf1fddafe28b73d
 RPROVIDES:${PN} += "libayatana-indicator3-devel \
 libayatana-indicator3-devel(aarch-64) \
 pkgconfig(ayatana-indicator3-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libayatana-indicator3-7 \
 pkgconfig(gtk+-3.0) \

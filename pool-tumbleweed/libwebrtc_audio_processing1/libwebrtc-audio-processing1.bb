@@ -14,6 +14,7 @@ RPM_HASH = "d5a97bfbb21fb7bcf08d26299b0d98fd31f32ea8370e80508ef6c8ae046bcfa283ca
 RPROVIDES:${PN} += "libwebrtc_audio_processing.so.1()(64bit) \
 libwebrtc_audio_processing1 \
 libwebrtc_audio_processing1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

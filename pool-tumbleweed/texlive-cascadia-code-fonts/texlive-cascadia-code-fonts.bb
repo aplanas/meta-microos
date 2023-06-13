@@ -159,6 +159,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(cascadiacod3) \
 texlive-cascadia-code-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

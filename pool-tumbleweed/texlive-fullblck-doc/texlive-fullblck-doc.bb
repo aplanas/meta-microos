@@ -9,6 +9,7 @@ RPM_HASH = "821e6794286b0c492be7de67f14704ef8b61aa5026a5146ffb7d9feee151950b4cb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fullblck-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

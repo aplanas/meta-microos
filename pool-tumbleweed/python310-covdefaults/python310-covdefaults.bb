@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-covdefaults \
 python3.10dist(covdefaults) \
 python310-covdefaults \
 python3dist(covdefaults)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coverage"
 

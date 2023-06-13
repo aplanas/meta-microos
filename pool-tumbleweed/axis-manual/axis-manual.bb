@@ -9,6 +9,7 @@ RPM_HASH = "6f2c14ef10be99984348c9bf99a207b4962ed055efeecadf8317008ff321f97c0f85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "axis-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

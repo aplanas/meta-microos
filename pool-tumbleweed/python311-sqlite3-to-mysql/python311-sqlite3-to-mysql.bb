@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sqlite3-to-mysql) \
 python311-sqlite3-to-mysql \
 python3dist(sqlite3-to-mysql)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

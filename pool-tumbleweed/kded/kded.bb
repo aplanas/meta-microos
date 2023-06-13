@@ -10,6 +10,7 @@ RPM_HASH = "cfb4308c59142a0b4b52c9f8d32e24d9ad753c2cc05b196dbefce0aff4a0e16a582c
 
 RPROVIDES:${PN} += "kded \
 kded(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

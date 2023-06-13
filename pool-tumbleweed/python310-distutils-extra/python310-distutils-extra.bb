@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-distutils-extra \
 python3.10dist(python-distutils-extra) \
 python310-distutils-extra \
 python3dist(python-distutils-extra)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

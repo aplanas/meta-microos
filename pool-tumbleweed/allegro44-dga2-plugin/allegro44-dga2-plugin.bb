@@ -9,6 +9,7 @@ RPM_HASH = "d724bc9b2c26ee8cd684323d0a67ab422513eae6dfbfa7e4865068039f6b80e91b07
 
 RPROVIDES:${PN} += "allegro44-dga2-plugin \
 allegro44-dga2-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "allegro44 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

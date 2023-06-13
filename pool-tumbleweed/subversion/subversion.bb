@@ -32,6 +32,7 @@ subversion \
 subversion(aarch-64) \
 subversion-javahl \
 user(svn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -10,6 +10,7 @@ RPM_HASH = "c6fa041f438f7cdc0f7fffd704639834aae4956f25f9e27b45a2739a40fd794763d0
 
 RPROVIDES:${PN} += "kup-client \
 kup-client(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl(Config::Simple) \

@@ -14,6 +14,7 @@ RPM_HASH = "dc47d8136c93360285b2aa785a7f44af280c90f80f0147bbe28bbf27cbfd46334863
 
 RPROVIDES:${PN} += "fuseiso \
 fuseiso(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

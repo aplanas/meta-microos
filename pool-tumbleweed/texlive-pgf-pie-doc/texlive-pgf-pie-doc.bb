@@ -9,6 +9,7 @@ RPM_HASH = "d6ccd84301d3005159f3b0bf160802dffbe88d0b1b6d43300f36022f94fcd8b65dbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-pie-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

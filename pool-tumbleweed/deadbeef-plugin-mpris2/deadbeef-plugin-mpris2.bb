@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "deadbeef-MPRIS-plugin \
 deadbeef-mpris2-plugin \
 deadbeef-plugin-mpris2 \
 deadbeef-plugin-mpris2(aarch-64)"
+
 RDEPENDS:${PN} += "deadbeef \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -47,6 +47,7 @@ RPROVIDES:${PN} += "config(torsocks) \
 libtorsocks.so.0()(64bit) \
 torsocks \
 torsocks(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

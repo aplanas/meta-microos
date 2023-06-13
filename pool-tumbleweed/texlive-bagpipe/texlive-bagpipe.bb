@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bagpipe.tex) \
 texlive-bagpipe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

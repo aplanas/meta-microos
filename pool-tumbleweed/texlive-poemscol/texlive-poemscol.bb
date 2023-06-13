@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(poemscol.sty) \
 texlive-poemscol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

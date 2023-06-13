@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(pegtl) \
 pegtl-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

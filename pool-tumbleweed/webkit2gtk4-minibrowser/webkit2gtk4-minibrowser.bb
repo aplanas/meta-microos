@@ -9,6 +9,7 @@ RPM_HASH = "c5f320315473866a1112f7f52e14a06a0766a244a4ee94c4dc2a170fdd6a0c9e7ace
 
 RPROVIDES:${PN} += "webkit2gtk4-minibrowser \
 webkit2gtk4-minibrowser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "converseen-lang \
 converseen-lang-all"
+
 RDEPENDS:${PN} += "converseen"
 
 inherit rpm

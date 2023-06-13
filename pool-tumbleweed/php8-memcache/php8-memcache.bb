@@ -16,6 +16,7 @@ RPM_HASH = "af5268539aa4898217e60b11cea24a713524622f865c6557317fd757efa17f89519a
 RPROVIDES:${PN} += "config(php8-memcache) \
 php8-memcache \
 php8-memcache(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.25)(64bit) \

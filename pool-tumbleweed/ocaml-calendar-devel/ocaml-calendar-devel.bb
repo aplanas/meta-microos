@@ -37,6 +37,7 @@ ocamlx(CalendarLib__Time) \
 ocamlx(CalendarLib__Time_Zone) \
 ocamlx(CalendarLib__Utils) \
 ocamlx(CalendarLib__Version)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(Re) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libsuil-x11-in-gtk2 \
 libsuil_x11_in_gtk2.so()(64bit) \
 suil-plugin-x11-in-gtk2 \
 suil-plugin-x11-in-gtk2(aarch-64)"
+
 RDEPENDS:${PN} += "gtk2-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

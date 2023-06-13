@@ -16,6 +16,7 @@ liburiparser-devel \
 pkgconfig(liburiparser) \
 uriparser-devel \
 uriparser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 liburiparser1"

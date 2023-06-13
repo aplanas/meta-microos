@@ -11,6 +11,7 @@ RPM_HASH = "06eb908970692b09cf98388b7b47ba4fb0bd552b9e740c32b02a3ffcc1a0f68c21ee
 RPROVIDES:${PN} += "librttopo.so.1()(64bit) \
 librttopo1 \
 librttopo1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

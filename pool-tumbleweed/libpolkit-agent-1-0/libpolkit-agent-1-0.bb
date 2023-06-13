@@ -14,6 +14,7 @@ RPM_HASH = "ff0c7e22b137d7fb52f4094e341b222ab9580afaea4a26598f260b3dfef69d530da8
 RPROVIDES:${PN} += "libpolkit-agent-1-0 \
 libpolkit-agent-1-0(aarch-64) \
 libpolkit-agent-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "da24b45d501267286240898270a394dccf552b3602306c3e807bb505ccb893bd51b1
 
 RPROVIDES:${PN} += "libvsapm-tools \
 libvsapm-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

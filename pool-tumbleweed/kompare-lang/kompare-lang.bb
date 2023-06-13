@@ -75,6 +75,7 @@ locale(kompare:ug) \
 locale(kompare:uk) \
 locale(kompare:zh_CN) \
 locale(kompare:zh_TW)"
+
 RDEPENDS:${PN} += "kompare"
 
 inherit rpm

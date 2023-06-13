@@ -16,6 +16,7 @@ locale(ephoto:fr) \
 locale(ephoto:it) \
 locale(ephoto:sk) \
 locale(ephoto:sl)"
+
 RDEPENDS:${PN} += "ephoto"
 
 inherit rpm

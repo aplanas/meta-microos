@@ -18,6 +18,7 @@ pkgconfig(webkitgtk-6.0) \
 pkgconfig(webkitgtk-web-process-extension-6.0) \
 webkit2gtk4-devel \
 webkit2gtk4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjavascriptcoregtk6_0-1 \
 libwebkitgtk6_0-4 \

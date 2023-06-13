@@ -41,6 +41,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Data::OptList) \
 perl-Data-OptList"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Params::Util) \
 perl(Sub::Install)"

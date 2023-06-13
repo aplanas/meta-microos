@@ -80,6 +80,7 @@ locale(knavalbattle:uk) \
 locale(knavalbattle:vi) \
 locale(knavalbattle:zh_CN) \
 locale(knavalbattle:zh_TW)"
+
 RDEPENDS:${PN} += "knavalbattle"
 
 inherit rpm

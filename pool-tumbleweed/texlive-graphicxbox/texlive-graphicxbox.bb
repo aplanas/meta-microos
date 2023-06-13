@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphicxbox.sty) \
 texlive-graphicxbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "165971e68ef3a15c27ada04c8930ba82a084ec01646ba7119067693ca2c79da60d61
 RPROVIDES:${PN} += "gkeyfile-sharp \
 gkeyfile-sharp(aarch-64) \
 mono(gkeyfile-sharp)"
+
 RDEPENDS:${PN} += "glib-sharp2 \
 mono(glib-sharp) \
 mono(mscorlib) \

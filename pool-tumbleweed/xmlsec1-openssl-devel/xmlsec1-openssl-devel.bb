@@ -10,6 +10,7 @@ RPM_HASH = "278d79b11f22c797b1f303e81c861156d14adaf56bb499217186aa3ee18709486897
 RPROVIDES:${PN} += "pkgconfig(xmlsec1-openssl) \
 xmlsec1-openssl-devel \
 xmlsec1-openssl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxmlsec1-openssl1 \
 pkgconfig(libxml-2.0) \

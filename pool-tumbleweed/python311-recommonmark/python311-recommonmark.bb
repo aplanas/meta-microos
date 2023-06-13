@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(recommonmark) \
 python311-reCommonMark \
 python311-recommonmark \
 python3dist(recommonmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

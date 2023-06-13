@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "mvn(org.powermock:powermock-api-support) \
 mvn(org.powermock:powermock-api-support:pom:) \
 osgi(org.powermock.powermock-api-support) \
 powermock-api-support"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.powermock:powermock-core) \

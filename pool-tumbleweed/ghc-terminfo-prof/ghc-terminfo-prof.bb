@@ -10,6 +10,7 @@ RPM_HASH = "c89f8f754ae97b85b47321859d3cf1556699e590148c40f0c51e4597ff76cb421c10
 RPROVIDES:${PN} += "ghc-prof(terminfo-0.4.1.5) \
 ghc-terminfo-prof \
 ghc-terminfo-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-terminfo-devel(aarch-64)"
 

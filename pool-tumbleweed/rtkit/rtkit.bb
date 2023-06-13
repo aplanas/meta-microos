@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "group(rtkit) \
 rtkit \
 rtkit(aarch-64) \
 user(rtkit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "7d25f1720931b3616ec4289e56135f195526727fc98491f40207db9e5d19f808e503
 RPROVIDES:${PN} += "erlang-rebar-devel \
 erlang-rebar-src \
 erlang-rebar-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-rebar"
 
 inherit rpm

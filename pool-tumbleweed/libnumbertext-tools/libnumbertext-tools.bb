@@ -9,6 +9,7 @@ RPM_HASH = "72d5f04ce9469e4df9142def7864aa7dfc632f522beb56d2e74f77cdf9aed34756b3
 
 RPROVIDES:${PN} += "libnumbertext-tools \
 libnumbertext-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(automotive-dlt) \
 dlt-libs-devel \
 dlt-libs-devel(aarch-64) \
 pkgconfig(automotive-dlt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dlt-libs"
 

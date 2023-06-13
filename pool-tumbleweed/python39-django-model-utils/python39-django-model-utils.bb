@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-model-utils) \
 python39-django-model-utils \
 python3dist(django-model-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

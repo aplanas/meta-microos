@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(huawei.cls) \
 texlive-huawei"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

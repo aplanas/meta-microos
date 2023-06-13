@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kblocks.sty) \
 texlive-kblocks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

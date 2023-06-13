@@ -17,6 +17,7 @@ RPM_HASH = "7660cc08844428fdc1a881235b6b2f0dba086953566a33470636062dc53cb6ceed1a
 RPROVIDES:${PN} += "typelib(Template) \
 typelib-1_0-Template-1_0 \
 typelib-1_0-Template-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libtemplate_glib-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

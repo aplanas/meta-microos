@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-file_server \
 patterns-server-file_server \
 patterns-server-file_server(aarch-64)"
+
 RDEPENDS:${PN} += "nfs-kernel-server \
 pattern()"
 

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Mojo::MemoryMap) \
 perl(Mojo::MemoryMap::Writer) \
 perl(Mojolicious::Plugin::Status) \
 perl-Mojolicious-Plugin-Status"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(BSD::Resource) \
 perl(File::Map) \

@@ -10,6 +10,7 @@ RPM_HASH = "25714971ffa32f8e3e80e954bcc636fe177a65b461367c762d875ced139fe8245536
 RPROVIDES:${PN} += "guestfs-data \
 libguestfs-appliance \
 libguestfs-appliance(aarch-64)"
+
 RDEPENDS:${PN} += "augeas \
 augeas-lenses \
 libaugeas0 \

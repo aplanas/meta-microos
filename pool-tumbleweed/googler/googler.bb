@@ -13,6 +13,7 @@ RPM_HASH = "cf14aae8acf995d02be5d5522e92e5bebfd8aabde2b916c4f8bc1d53c29c787cea04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "googler"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

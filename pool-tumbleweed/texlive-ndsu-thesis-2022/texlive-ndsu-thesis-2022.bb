@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ndsu-thesis-2022.cls) \
 texlive-ndsu-thesis-2022"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

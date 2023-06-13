@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-voikko \
 enchant-2-backend-voikko(aarch-64) \
 locale(libenchant-2-2:fi)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

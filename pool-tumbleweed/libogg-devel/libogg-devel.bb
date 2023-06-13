@@ -11,6 +11,7 @@ RPM_HASH = "781291d76832fa3f000d0eded5a2d302e2409b28b1adf06c092a589f676d1eed6bbf
 RPROVIDES:${PN} += "libogg-devel \
 libogg-devel(aarch-64) \
 pkgconfig(ogg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libogg0"

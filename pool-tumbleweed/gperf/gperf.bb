@@ -11,6 +11,7 @@ RPM_HASH = "282644a1c34da27edb89d6cb5b64685806c7748a1a81334fbd324251276ee9ad54d7
 
 RPROVIDES:${PN} += "gperf \
 gperf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

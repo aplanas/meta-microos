@@ -11,6 +11,7 @@ RPM_HASH = "52b6dfe9e19cd356b44f5607d88eef221a4be28ea9f1d8f000d8551fae2a3cdfb63e
 
 RPROVIDES:${PN} += "python312-testsuite \
 python312-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

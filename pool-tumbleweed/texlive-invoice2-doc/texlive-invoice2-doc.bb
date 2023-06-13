@@ -9,6 +9,7 @@ RPM_HASH = "196ad6704caf08dff3bdd2b1368ded1d269a7b8a80b2f74a720bfe66aa47df1cd904
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-invoice2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

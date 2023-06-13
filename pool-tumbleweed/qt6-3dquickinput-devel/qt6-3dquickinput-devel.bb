@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DQuickInput) \
 pkgconfig(Qt63DQuickInput) \
 qt6-3dquickinput-devel \
 qt6-3dquickinput-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt63DInput) \

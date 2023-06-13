@@ -60,6 +60,7 @@ tex(bchro8r.tfm) \
 tex(bchro8t.tfm) \
 tex(bchro8t.vf) \
 texlive-charter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

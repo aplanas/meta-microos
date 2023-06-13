@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(padcount.sty) \
 texlive-padcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

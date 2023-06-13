@@ -9,6 +9,7 @@ RPM_HASH = "d3662a887856d727652fbfcc7ad77dadc6a7f632a8a7fe4d12f0ed5c43d2953e7951
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fullminipage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

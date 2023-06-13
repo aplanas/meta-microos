@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-appconfiguration) \
 python311-azure-appconfiguration \
 python3dist(azure-appconfiguration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-nspkg \

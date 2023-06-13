@@ -82,6 +82,7 @@ locale(xdg-user-dirs-gtk:zh_HK) \
 locale(xdg-user-dirs-gtk:zh_TW) \
 xdg-user-dirs-gtk-lang \
 xdg-user-dirs-gtk-lang-all"
+
 RDEPENDS:${PN} += "xdg-user-dirs-gtk"
 
 inherit rpm

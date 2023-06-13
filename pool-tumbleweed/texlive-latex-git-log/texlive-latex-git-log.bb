@@ -12,6 +12,7 @@ RPM_HASH = "ef480fdba90e1f7ac893b81a005187a09f5b7530500982862bdfb30fc9759c04f39f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-git-log"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

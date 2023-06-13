@@ -18,6 +18,7 @@ RPM_HASH = "0cabcb6bcb6119123c6a0efed767dbaf4251ccc571c4d7b540eefdfde843e9a8b6e9
 
 RPROVIDES:${PN} += "zstd \
 zstd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

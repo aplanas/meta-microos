@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libosmoctrl.so.0()(64bit) \
 libosmoctrl.so.0(LIBOSMOCTRL_1.0)(64bit) \
 libosmoctrl0 \
 libosmoctrl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

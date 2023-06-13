@@ -31,6 +31,7 @@ locale(arianna:sl) \
 locale(arianna:tr) \
 locale(arianna:uk) \
 locale(arianna:zh_CN)"
+
 RDEPENDS:${PN} += "arianna"
 
 inherit rpm

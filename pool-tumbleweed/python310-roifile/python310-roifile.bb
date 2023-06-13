@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-roifile \
 python3.10dist(roifile) \
 python310-roifile \
 python3dist(roifile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

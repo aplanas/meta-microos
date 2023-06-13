@@ -22,6 +22,7 @@ perl(CPAN::Changes::Group) \
 perl(CPAN::Changes::Release) \
 perl(Test::CPAN::Changes) \
 perl-CPAN-Changes"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

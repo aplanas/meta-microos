@@ -10,6 +10,7 @@ RPM_HASH = "2d7e687b11f90813b9b2ef39708ef65c96b20162753abc7c2480a404bbfa1fe4525b
 RPROVIDES:${PN} += "librepair-2.0.so.5()(64bit) \
 librepair-2_0-5 \
 librepair-2_0-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

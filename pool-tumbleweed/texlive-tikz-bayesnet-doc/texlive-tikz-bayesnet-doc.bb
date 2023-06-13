@@ -9,6 +9,7 @@ RPM_HASH = "0b4693a792e0dff1d43eae7ab7604d86df05896f3915adb554e2bc7146d9100d00bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-bayesnet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

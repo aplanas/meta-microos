@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(dnf-data) \
 dnf-conf \
 dnf-data"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

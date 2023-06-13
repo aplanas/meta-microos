@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.11dist(numpy) \
 python311-numpy \
 python311-numpy(aarch-64) \
 python3dist(numpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

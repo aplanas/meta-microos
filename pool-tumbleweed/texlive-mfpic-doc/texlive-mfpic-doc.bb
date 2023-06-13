@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-mfpic-doc:en) \
 texlive-mfpic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

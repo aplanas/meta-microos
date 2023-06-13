@@ -15,6 +15,7 @@ perl(Module::CPANfile::Prereq) \
 perl(Module::CPANfile::Prereqs) \
 perl(Module::CPANfile::Requirement) \
 perl-Module-CPANfile"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta) \

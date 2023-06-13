@@ -11,6 +11,7 @@ RPM_HASH = "b1dcee8dc09a4f41130ef16e6a9e1de2c8b98847e36222279b54791c512fd690d951
 
 RPROVIDES:${PN} += "delayacct-utils \
 delayacct-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

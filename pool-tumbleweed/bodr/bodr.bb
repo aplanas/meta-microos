@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bodr \
 pkgconfig(bodr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

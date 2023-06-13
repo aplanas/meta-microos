@@ -15,6 +15,7 @@ RPM_HASH = "50f8f219ea8caf6f2d3569de218d2d18a0ece708a6322566ff039da3506cf04a6704
 
 RPROVIDES:${PN} += "mumps-mvapich2-devel-static-compat \
 mumps-mvapich2-devel-static-compat(aarch-64)"
+
 RDEPENDS:${PN} += "mumps-devel-static"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "1a6e2ae74202ea8d7655e0064b5b96c5734e8acc62a18e9c9af2065846da86070098
 RPROVIDES:${PN} += "libKF5Attica.so.5()(64bit) \
 libKF5Attica5 \
 libKF5Attica5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 attica-qt5 \
 ld-linux-aarch64.so.1()(64bit) \

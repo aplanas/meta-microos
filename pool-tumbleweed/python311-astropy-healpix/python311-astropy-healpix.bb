@@ -13,6 +13,7 @@ python311-astropy-healpix \
 python311-astropy-healpix(aarch-64) \
 python311-astropy_healpix \
 python3dist(astropy-healpix)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

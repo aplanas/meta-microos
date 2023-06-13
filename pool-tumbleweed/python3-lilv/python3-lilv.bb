@@ -10,6 +10,7 @@ RPM_HASH = "1788de425fc4c4a62062b612040b6f003559c5e4e0cbbc19e634ce9382322b167ed8
 
 RPROVIDES:${PN} += "python3-lilv \
 python3-lilv(aarch-64)"
+
 RDEPENDS:${PN} += "liblilv-0-0 \
 python(abi)"
 

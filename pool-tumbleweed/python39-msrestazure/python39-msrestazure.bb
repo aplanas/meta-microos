@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(msrestazure) \
 python39-msrestazure \
 python3dist(msrestazure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-adal \
 python39-msrest \

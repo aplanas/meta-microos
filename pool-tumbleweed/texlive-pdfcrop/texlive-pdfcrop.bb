@@ -10,6 +10,7 @@ RPM_HASH = "cdf0745114fc234e6b5d3ce3e7b2b34f75154c5da5898ac0ef28e4743589b88bdf97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfcrop"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

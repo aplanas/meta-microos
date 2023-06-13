@@ -11,6 +11,7 @@ RPM_HASH = "b9a8a350793bd7cab7e6cd3f545f149b48730f9ed58040aade794b7b305a065ae444
 RPROVIDES:${PN} += "perl(MusicBrainz::DiscID) \
 perl-MusicBrainz-DiscID \
 perl-MusicBrainz-DiscID(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

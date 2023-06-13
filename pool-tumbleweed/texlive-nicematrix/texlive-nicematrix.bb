@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nicematrix.sty) \
 texlive-nicematrix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

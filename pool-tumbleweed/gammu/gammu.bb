@@ -24,6 +24,7 @@ RPM_HASH = "7bb48690dbb902712aa504a542db573f3e6d43d04570122400024ddd1e39d4b6a1dd
 
 RPROVIDES:${PN} += "gammu \
 gammu(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dialog \

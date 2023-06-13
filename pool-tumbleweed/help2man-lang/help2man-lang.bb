@@ -33,6 +33,7 @@ locale(help2man:ta) \
 locale(help2man:uk) \
 locale(help2man:vi) \
 locale(help2man:zh_CN)"
+
 RDEPENDS:${PN} += "help2man"
 
 inherit rpm

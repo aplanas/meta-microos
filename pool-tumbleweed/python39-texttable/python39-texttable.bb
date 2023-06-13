@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(texttable) \
 python39-texttable \
 python3dist(texttable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-base"
 

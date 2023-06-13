@@ -9,6 +9,7 @@ RPM_HASH = "9c5279fb2d063211add9fe7876f2a119e1fe5d2a607eaf48a7a51b4eae388cd98587
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redminecli-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 redminecli"
 

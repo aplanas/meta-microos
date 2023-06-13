@@ -17,6 +17,7 @@ metainfo(org.kde.angelfish.metainfo.xml) \
 mimehandler(text/html) \
 mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

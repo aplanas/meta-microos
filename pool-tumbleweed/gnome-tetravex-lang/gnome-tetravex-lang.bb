@@ -93,6 +93,7 @@ locale(gnome-tetravex:wa) \
 locale(gnome-tetravex:zh_CN) \
 locale(gnome-tetravex:zh_HK) \
 locale(gnome-tetravex:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-tetravex"
 
 inherit rpm

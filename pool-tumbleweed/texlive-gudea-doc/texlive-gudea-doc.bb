@@ -9,6 +9,7 @@ RPM_HASH = "90b0435c0a1cdeaabac62d9b51368e4d63920003e5369fbd9f2e17b2f6a432f67039
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gudea-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

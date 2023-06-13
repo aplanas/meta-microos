@@ -9,6 +9,7 @@ RPM_HASH = "1b6612ac6e616c29f98b333316caaef7360c22acf50f1c76d2951085142d552728ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bodegraph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

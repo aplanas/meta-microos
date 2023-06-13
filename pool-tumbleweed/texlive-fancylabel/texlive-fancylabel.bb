@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancylabel.sty) \
 texlive-fancylabel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "b13feef533d4150326d469f3567ef47d161371c84bde509bfe13188f947eea044d3e
 RPROVIDES:${PN} += "libgphobos.so.4()(64bit) \
 libgphobos4 \
 libgphobos4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

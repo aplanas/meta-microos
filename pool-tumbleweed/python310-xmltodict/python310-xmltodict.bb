@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-xmltodict \
 python3.10dist(xmltodict) \
 python310-xmltodict \
 python3dist(xmltodict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-xml"
 

@@ -12,6 +12,7 @@ RPM_HASH = "53988ca6091aa5aaba4d95bbbbaa8590883b02ad52a1d718be5192db973f71800d10
 
 RPROVIDES:${PN} += "libpwquality-tools \
 libpwquality-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

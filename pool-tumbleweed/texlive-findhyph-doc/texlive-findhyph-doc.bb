@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(findhyph.1) \
 texlive-findhyph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1ec30a619b3761bc35d8b2f83d4ad1e378088d3eb384e06f99e02c4a1a756184f9ed
 
 RPROVIDES:${PN} += "scotch_6_1_0-gnu-hpc-devel \
 scotch_6_1_0-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

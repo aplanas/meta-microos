@@ -118,6 +118,7 @@ perl(Net::DNS::ZoneFile) \
 perl(Net::DNS::ZoneFile::Generator) \
 perl(Net::DNS::ZoneFile::Text) \
 perl-Net-DNS"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(Digest::HMAC) \

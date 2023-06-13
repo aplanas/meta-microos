@@ -23,6 +23,7 @@ pkgconfig(libpgtypes) \
 pkgconfig(libpq) \
 postgresql-devel \
 postgresql-devel-noarch"
+
 RDEPENDS:${PN} += "postgresql-devel-implementation"
 
 inherit rpm

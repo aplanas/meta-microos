@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_BO) \
 myspell-dictionary \
 myspell-es_BO \
 myspell-spanish-bolivian"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

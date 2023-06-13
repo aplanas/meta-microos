@@ -17,6 +17,7 @@ tex(pgfmanual.pdflinks.code.tex) \
 tex(pgfmanual.prettyprinter.code.tex) \
 tex(tikz-dependency.sty) \
 texlive-tikz-dependency"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

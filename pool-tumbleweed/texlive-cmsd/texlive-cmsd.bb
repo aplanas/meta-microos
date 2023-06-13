@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(cmsd.sty) \
 tex(t1cmsd.fd) \
 tex(ts1cmsd.fd) \
 texlive-cmsd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

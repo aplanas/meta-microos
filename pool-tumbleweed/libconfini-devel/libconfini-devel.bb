@@ -11,6 +11,7 @@ RPM_HASH = "f07fa016d5798513b852419ac5375ca707e8c777539c600624959505075f7ed2ac67
 RPROVIDES:${PN} += "libconfini-devel \
 libconfini-devel(aarch-64) \
 pkgconfig(libconfini)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libconfini0"
 

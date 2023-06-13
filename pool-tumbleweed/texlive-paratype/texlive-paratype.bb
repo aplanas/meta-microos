@@ -699,6 +699,7 @@ tex(ptserif_t2c.enc) \
 tex(ptserif_ts1.enc) \
 tex(ptserif_x2.enc) \
 texlive-paratype"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

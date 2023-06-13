@@ -9,6 +9,7 @@ RPM_HASH = "fd2dc13fb49572804ef8eb867b3f0b88a3708d68f92bcf2fd4dc1dd000a499944798
 
 RPROVIDES:${PN} += "apache2-mod_auth_openidc \
 apache2-mod_auth_openidc(aarch-64)"
+
 RDEPENDS:${PN} += "apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

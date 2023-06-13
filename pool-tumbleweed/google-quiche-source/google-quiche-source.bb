@@ -13,6 +13,7 @@ RPM_HASH = "e569896f006a1bcfd41876cd16f2b3cf9b9b2b3f9025133e27bdbb3fef0c5208de67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-quiche-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

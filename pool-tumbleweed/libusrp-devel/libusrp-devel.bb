@@ -13,6 +13,7 @@ RPM_HASH = "bc5361b21e6a30c8c456df440087d80616cfe82b42b1590ac3420bfb0a55378616ff
 RPROVIDES:${PN} += "libusrp-devel \
 libusrp-devel(aarch-64) \
 pkgconfig(usrp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusrp1 \
 pkgconfig(libusb-1.0)"

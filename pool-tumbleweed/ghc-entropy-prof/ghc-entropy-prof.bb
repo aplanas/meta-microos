@@ -10,6 +10,7 @@ RPM_HASH = "edc9b19cbab5696844596fd0c98668a884ecdba64e85b1334335b71e515731fd8773
 RPROVIDES:${PN} += "ghc-entropy-prof \
 ghc-entropy-prof(aarch-64) \
 ghc-prof(entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP)"
+
 RDEPENDS:${PN} += "ghc-entropy-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

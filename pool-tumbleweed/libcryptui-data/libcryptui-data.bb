@@ -9,6 +9,7 @@ RPM_HASH = "0a446a8d0b0e7ca8c4cf1d507d10f4013151e4a78f19bc7651c702d8ba6103195289
 
 RPROVIDES:${PN} += "libcryptui-data \
 libcryptui-data(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

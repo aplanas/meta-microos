@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tinyrecord) \
 python311-tinyrecord \
 python3dist(tinyrecord)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tinydb"
 

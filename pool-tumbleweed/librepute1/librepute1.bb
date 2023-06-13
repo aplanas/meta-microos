@@ -11,6 +11,7 @@ RPM_HASH = "0a985ef38d5b9f867c78275da39b1889e1d55750b85ba8e44fd550efe73584bc77c8
 RPROVIDES:${PN} += "librepute.so.1()(64bit) \
 librepute1 \
 librepute1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

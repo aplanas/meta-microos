@@ -11,6 +11,7 @@ RPM_HASH = "678cc13f746dd5abec2302fb20d9978f3220b5c916d4a06dfba5242be976bc6361d0
 
 RPROVIDES:${PN} += "aer-inject \
 aer-inject(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

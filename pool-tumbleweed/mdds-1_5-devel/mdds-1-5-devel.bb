@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mdds-1_5-devel \
 pkgconfig(mdds-1.5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost_headers-devel"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(friulan.ldf) \
 texlive-babel-friulan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

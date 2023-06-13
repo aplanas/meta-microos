@@ -180,6 +180,7 @@ tex(tmp_xvqxbr.enc) \
 tex(tmp_y4r4km.enc) \
 tex(tmp_yz5x6b.enc) \
 texlive-tempora"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

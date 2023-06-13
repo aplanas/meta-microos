@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makecmds.sty) \
 texlive-makecmds"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

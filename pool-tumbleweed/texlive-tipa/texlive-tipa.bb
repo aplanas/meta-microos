@@ -107,6 +107,7 @@ tex(xipxsi10.tfm) \
 tex(xipxsl10.tfm) \
 tex(xipxss10.tfm) \
 texlive-tipa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

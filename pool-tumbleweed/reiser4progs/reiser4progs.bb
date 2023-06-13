@@ -10,6 +10,7 @@ RPM_HASH = "00a57e0a6a412a089721d737586388ae2ca57ad63ee2f36cbc6b471e2fe514059644
 
 RPROVIDES:${PN} += "reiser4progs \
 reiser4progs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaal-1.0.so.7()(64bit) \

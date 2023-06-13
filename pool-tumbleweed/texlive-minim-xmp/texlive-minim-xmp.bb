@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minim-xmp.tex) \
 texlive-minim-xmp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -88,6 +88,7 @@ perl(Amavis::ZMQ) \
 perl(Amavis::rfc2821_2822_Tools) \
 perl(JpegTester) \
 perl(Mail::SpamAssassin::Logger::Amavislog)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/newaliases \

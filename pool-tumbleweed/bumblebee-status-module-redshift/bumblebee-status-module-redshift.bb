@@ -9,6 +9,7 @@ RPM_HASH = "045c091c96e850348b9ee04fa29412961ce30b30def8526b40108f07661cb20df645
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-redshift"
+
 RDEPENDS:${PN} += "bumblebee-status \
 redshift"
 

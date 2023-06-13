@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-csbulletin-doc:cs) \
 texlive-csbulletin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

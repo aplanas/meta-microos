@@ -43,6 +43,7 @@ locale(DVDStyler:uk) \
 locale(DVDStyler:vi) \
 locale(DVDStyler:zh_CN) \
 locale(DVDStyler:zh_TW)"
+
 RDEPENDS:${PN} += "DVDStyler"
 
 inherit rpm

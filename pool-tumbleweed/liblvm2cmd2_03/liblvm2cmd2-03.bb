@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblvm2cmd.so.2.03()(64bit) \
 liblvm2cmd.so.2.03(Base)(64bit) \
 liblvm2cmd2_03 \
 liblvm2cmd2_03(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

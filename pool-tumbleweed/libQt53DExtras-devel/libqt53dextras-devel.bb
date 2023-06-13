@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DExtras) \
 libQt53DExtras-devel \
 libQt53DExtras-devel(aarch-64) \
 pkgconfig(Qt53DExtras)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DExtras5 \
 pkgconfig(Qt53DCore) \

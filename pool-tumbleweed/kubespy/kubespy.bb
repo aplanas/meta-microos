@@ -11,6 +11,7 @@ RPM_HASH = "4b428f3abb7082ffda38780efbeed5937e3fa11e945d790e6f6e0301c22360e6a51d
 
 RPROVIDES:${PN} += "kubespy \
 kubespy(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

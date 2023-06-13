@@ -10,6 +10,7 @@ RPM_HASH = "02b2e80e7cc743649eb0faccb9ad6d281bfc65921b53e9acddd8119c1bc89c6b6077
 
 RPROVIDES:${PN} += "collectd-plugin-virt \
 collectd-plugin-virt(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

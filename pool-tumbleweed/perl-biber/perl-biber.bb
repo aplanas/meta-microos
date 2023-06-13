@@ -40,6 +40,7 @@ perl(Biber::Sections) \
 perl(Biber::UCollate) \
 perl(Biber::Utils) \
 perl-biber"
+
 RDEPENDS:${PN} += "perl(Business::ISBN) \
 perl(Business::ISMN) \
 perl(Business::ISSN) \

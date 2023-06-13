@@ -16,6 +16,7 @@ tex(beamerinnerthemefocus.sty) \
 tex(beamerouterthemefocus.sty) \
 tex(beamerthemefocus.sty) \
 texlive-beamertheme-focus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

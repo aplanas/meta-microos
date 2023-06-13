@@ -49,6 +49,7 @@ locale(libkdecorations2-5:tr) \
 locale(libkdecorations2-5:uk) \
 locale(libkdecorations2-5:zh_CN) \
 locale(libkdecorations2-5:zh_TW)"
+
 RDEPENDS:${PN} += "libkdecorations2-5"
 
 inherit rpm

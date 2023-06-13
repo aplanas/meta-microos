@@ -9,6 +9,7 @@ RPM_HASH = "13c7c833101b10aa6cedd680350566ef9ffed349a384804eb1688d5e2f90f3614ef4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xmonad-contrib-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

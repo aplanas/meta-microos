@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(synproof.sty) \
 texlive-synproof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

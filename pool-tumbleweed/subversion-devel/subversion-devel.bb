@@ -27,6 +27,7 @@ pkgconfig(libsvn_subr) \
 pkgconfig(libsvn_wc) \
 subversion-devel \
 subversion-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libapr-util1-devel \
 pkgconfig(apr-1) \

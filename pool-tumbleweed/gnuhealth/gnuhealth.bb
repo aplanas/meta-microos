@@ -112,6 +112,7 @@ python3dist(gnuhealth-stock) \
 python3dist(gnuhealth-surgery) \
 python3dist(gnuhealth-webdav3-server) \
 python3dist(gnuhealth-who-essential-medicines)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

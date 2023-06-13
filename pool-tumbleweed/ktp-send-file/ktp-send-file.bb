@@ -10,6 +10,7 @@ RPM_HASH = "4b5872d247e4c68f95d38e91bc7762cee57f04ba1b5e6a945bc23c09c44f12a38528
 RPROVIDES:${PN} += "ktp-send-file \
 ktp-send-file(aarch-64) \
 ktp-send-file5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

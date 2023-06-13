@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamerinnerthemetcolorbox.sty) \
 texlive-beamertheme-tcolorbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-mixedreality-authentication \
 python3.10dist(azure-mixedreality-authentication) \
 python310-azure-mixedreality-authentication \
 python3dist(azure-mixedreality-authentication)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-mixedreality-nspkg \

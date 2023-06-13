@@ -9,6 +9,7 @@ RPM_HASH = "ffbfbe3ea81e0d672ceeafffa3d5e1653b4245bca5f1dd49359e9cc4cf97c787a2d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "enlightenment-profiles-openSUSE"
+
 RDEPENDS:${PN} += "enlightenment-theme-dft"
 
 inherit rpm

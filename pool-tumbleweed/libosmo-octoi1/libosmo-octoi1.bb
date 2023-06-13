@@ -10,6 +10,7 @@ RPM_HASH = "7ac1a453afdf4c20449bb5334a444247dc3b42fd4b5d01d2c7bba8c7b51ca4510773
 RPROVIDES:${PN} += "libosmo-octoi.so.1()(64bit) \
 libosmo-octoi1 \
 libosmo-octoi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

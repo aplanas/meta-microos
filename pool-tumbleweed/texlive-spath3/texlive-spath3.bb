@@ -16,6 +16,7 @@ tex(tikzlibrarycalligraphy.code.tex) \
 tex(tikzlibraryknots.code.tex) \
 tex(tikzlibraryspath3.code.tex) \
 texlive-spath3"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

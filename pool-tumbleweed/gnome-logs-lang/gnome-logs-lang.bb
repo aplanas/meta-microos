@@ -70,6 +70,7 @@ locale(gnome-logs:vi) \
 locale(gnome-logs:zh_CN) \
 locale(gnome-logs:zh_HK) \
 locale(gnome-logs:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-logs"
 
 inherit rpm

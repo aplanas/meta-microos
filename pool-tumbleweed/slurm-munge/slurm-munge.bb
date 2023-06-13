@@ -10,6 +10,7 @@ RPM_HASH = "cd05e3c17cf9158070fa034ef5771073a6d785aaac41acd7885eb45f4b4203fea48a
 RPROVIDES:${PN} += "slurm-auth-munge \
 slurm-munge \
 slurm-munge(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

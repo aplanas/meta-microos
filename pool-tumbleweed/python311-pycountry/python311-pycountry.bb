@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pycountry) \
 python311-pycountry \
 python3dist(pycountry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lxml"
 

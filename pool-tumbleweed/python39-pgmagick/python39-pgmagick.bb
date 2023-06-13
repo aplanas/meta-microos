@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pgmagick) \
 python39-pgmagick \
 python39-pgmagick(aarch-64) \
 python3dist(pgmagick)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGraphicsMagick++-Q16.so.12()(64bit) \

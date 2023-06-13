@@ -21,6 +21,7 @@ mariadb-server \
 mysql \
 mysql-debug \
 mysql-server"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/hostname \
 /bin/sh \

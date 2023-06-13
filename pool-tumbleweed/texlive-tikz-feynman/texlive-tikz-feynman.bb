@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(tikz-feynman.sty) \
 tex(tikzfeynman.keys.code.tex) \
 tex(tikzlibraryfeynman.code.tex) \
 texlive-tikz-feynman"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

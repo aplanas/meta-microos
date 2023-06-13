@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bibdoiadd.cfg) \
 tex(ltx2crossrefxml.cfg) \
 texlive-crossrefware"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

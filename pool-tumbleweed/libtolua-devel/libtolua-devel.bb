@@ -11,6 +11,7 @@ RPM_HASH = "f3add72ef7c68a9d246392e5cc2eac5e099862908e439d6776f93de49191e8f79202
 RPROVIDES:${PN} += "libtolua-devel \
 libtolua-devel(aarch-64) \
 tolua-devel"
+
 RDEPENDS:${PN} += "tolua"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sanitize-umlaut.sty) \
 texlive-sanitize-umlaut"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

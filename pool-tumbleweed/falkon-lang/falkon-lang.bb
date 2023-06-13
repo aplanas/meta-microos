@@ -60,6 +60,7 @@ locale(falkon:uk) \
 locale(falkon:zh_CN) \
 locale(falkon:zh_HK) \
 locale(falkon:zh_TW)"
+
 RDEPENDS:${PN} += "falkon"
 
 inherit rpm

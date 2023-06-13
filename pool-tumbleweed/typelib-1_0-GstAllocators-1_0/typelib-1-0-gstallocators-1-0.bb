@@ -17,6 +17,7 @@ RPM_HASH = "df14133db3017bd4d91464bea779b6db5cd618d3ecd65e186e0ab5b60a0cea055996
 RPROVIDES:${PN} += "typelib(GstAllocators) \
 typelib-1_0-GstAllocators-1_0 \
 typelib-1_0-GstAllocators-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstallocators-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

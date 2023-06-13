@@ -13,6 +13,7 @@ RPM_HASH = "fd6a2b199b1b290e266fd8bba17c75a2825fc56267e4b93fc532a00c4b07dab2c92d
 
 RPROVIDES:${PN} += "libgpod-tools \
 libgpod-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

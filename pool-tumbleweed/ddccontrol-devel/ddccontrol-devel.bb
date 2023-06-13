@@ -11,6 +11,7 @@ RPM_HASH = "fadbff0fc2adcde2b671bafb0a9237274b3dedf3beef809a764bdf192e33d8515073
 RPROVIDES:${PN} += "ddccontrol-devel \
 ddccontrol-devel(aarch-64) \
 pkgconfig(ddccontrol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libddccontrol0"

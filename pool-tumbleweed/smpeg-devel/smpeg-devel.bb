@@ -13,6 +13,7 @@ RPM_HASH = "e12be289eebc851347b570f24ed1a44f24f5bc654e04aa6582058f31e645ff34500c
 
 RPROVIDES:${PN} += "smpeg-devel \
 smpeg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libsmpeg-0_4-0"
 

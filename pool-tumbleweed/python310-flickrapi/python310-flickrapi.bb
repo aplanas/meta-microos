@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-flickrapi \
 python3.10dist(flickrapi) \
 python310-flickrapi \
 python3dist(flickrapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-requests-oauthlib \

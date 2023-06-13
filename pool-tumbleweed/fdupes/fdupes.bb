@@ -11,6 +11,7 @@ RPM_HASH = "c496cbd738748afea86a658eb62b43590fdab57203ee5a97f2bddc0a00631827c65f
 RPROVIDES:${PN} += "fdupes \
 fdupes(aarch-64) \
 rpm_macro(fdupes)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

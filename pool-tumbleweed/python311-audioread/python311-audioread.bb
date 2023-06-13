@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(audioread) \
 python311-audioread \
 python3dist(audioread)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

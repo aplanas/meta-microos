@@ -13,6 +13,7 @@ libsp_link.so()(64bit) \
 libsp_midi.so()(64bit) \
 sonic-pi \
 sonic-pi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

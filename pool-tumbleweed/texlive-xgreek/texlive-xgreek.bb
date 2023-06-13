@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xelistings.sty) \
 tex(xgreek.sty) \
 texlive-xgreek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

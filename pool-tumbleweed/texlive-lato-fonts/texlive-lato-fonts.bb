@@ -191,6 +191,7 @@ font(latomedium) \
 font(latosemibold) \
 font(latothin) \
 texlive-lato-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -10,6 +10,7 @@ RPM_HASH = "2f53efbb52b02c80a41edc6de9d650ada9733d8710b3a5fbc393e4f588d98b828c31
 RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.13()(64bit) \
 orthanc-dicomweb \
 orthanc-dicomweb(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

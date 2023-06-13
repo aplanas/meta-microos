@@ -90,6 +90,7 @@ locale(kdialog:vi) \
 locale(kdialog:wa) \
 locale(kdialog:zh_CN) \
 locale(kdialog:zh_TW)"
+
 RDEPENDS:${PN} += "kdialog"
 
 inherit rpm

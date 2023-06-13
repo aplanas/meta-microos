@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(drawstack.sty) \
 texlive-drawstack"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

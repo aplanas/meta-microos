@@ -11,6 +11,7 @@ RPM_HASH = "1172790d164703b2d96a5570d9f40c92ac1b4dd82176453efdc1185d561d606f2f7c
 RPROVIDES:${PN} += "libaddrxlat-devel \
 libaddrxlat-devel(aarch-64) \
 pkgconfig(libaddrxlat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libaddrxlat3"

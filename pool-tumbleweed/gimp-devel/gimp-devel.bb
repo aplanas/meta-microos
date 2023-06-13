@@ -21,6 +21,7 @@ pkgconfig(gimpthumb-2.0) \
 pkgconfig(gimpui-2.0) \
 rpm_macro(gimp_abi_version) \
 rpm_macro(gimp_api_version)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

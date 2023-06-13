@@ -10,6 +10,7 @@ RPM_HASH = "660a926d0d35d4c667b65107a6e55cbb895f74def63725625ad4a52843a5d8a5f550
 RPROVIDES:${PN} += "libopeniscsiusr.so.0()(64bit) \
 libopeniscsiusr0 \
 libopeniscsiusr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

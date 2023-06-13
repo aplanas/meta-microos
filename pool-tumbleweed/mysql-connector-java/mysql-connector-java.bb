@@ -21,6 +21,7 @@ mysql-connector-j \
 mysql-connector-java \
 mysql-connector-java-manual \
 osgi(com.mysql.cj)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jta \

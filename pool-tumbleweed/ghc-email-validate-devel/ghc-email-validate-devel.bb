@@ -10,6 +10,7 @@ RPM_HASH = "70ed4cc56d72b1e2722b4cd5362e00a5d4b52283992b2d89bd73d883f72501b31247
 RPROVIDES:${PN} += "ghc-devel(email-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD) \
 ghc-email-validate-devel \
 ghc-email-validate-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

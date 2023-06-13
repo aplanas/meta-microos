@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-canonicaljson \
 python3.10dist(canonicaljson) \
 python310-canonicaljson \
 python3dist(canonicaljson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-frozendict \
 python310-simplejson \

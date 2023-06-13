@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(usbauth.desktop) \
 yast2-usbauth"
+
 RDEPENDS:${PN} += "libusbauth-configparser1 \
 rubygem(ffi) \
 xdg-utils \

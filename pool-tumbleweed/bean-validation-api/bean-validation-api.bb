@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "bean-validation-api \
 mvn(javax.validation:validation-api) \
 mvn(javax.validation:validation-api:pom:) \
 osgi(javax.validation.api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

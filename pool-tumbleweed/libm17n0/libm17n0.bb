@@ -18,6 +18,7 @@ libm17n0 \
 libm17n0(aarch-64) \
 libmimx-anthy.so()(64bit) \
 libmimx-ispell.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

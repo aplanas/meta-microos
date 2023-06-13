@@ -59,6 +59,7 @@ locale(ktp-approver:ug) \
 locale(ktp-approver:uk) \
 locale(ktp-approver:zh_CN) \
 locale(ktp-approver:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-approver"
 
 inherit rpm

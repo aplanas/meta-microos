@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mslapa.sty) \
 texlive-mslapa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

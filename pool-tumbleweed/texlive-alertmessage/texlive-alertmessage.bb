@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(alertmessage.sty) \
 texlive-alertmessage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

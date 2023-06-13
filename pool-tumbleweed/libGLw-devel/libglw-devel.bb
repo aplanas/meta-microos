@@ -11,6 +11,7 @@ RPM_HASH = "c7e5aefb9666efe3e9e308f9c7222a57187ef5fab4893be56578fbad733bd9f06126
 RPROVIDES:${PN} += "libGLw-devel \
 libGLw-devel(aarch-64) \
 pkgconfig(glw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 GLw1 \

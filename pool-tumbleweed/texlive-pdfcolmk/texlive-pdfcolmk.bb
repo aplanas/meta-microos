@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfcolmk.sty) \
 texlive-pdfcolmk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

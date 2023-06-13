@@ -13,6 +13,7 @@ RPM_HASH = "8691746847efe14c53bcd2447fac3772ae2a00d37cc4f5261b1e14990d5ca29664b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-jam"
+
 RDEPENDS:${PN} += "boost1_82_0-jam"
 
 inherit rpm

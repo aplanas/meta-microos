@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "felix-osgi-obr \
 mvn(org.apache.felix:org.osgi.service.obr) \
 mvn(org.apache.felix:org.osgi.service.obr:pom:) \
 osgi(org.osgi.service.obr)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.osgi:osgi.core)"

@@ -13,6 +13,7 @@ RPM_HASH = "7c98a8c4799967d9e41afa845f833afb241d1d017c461bb9a7e824c33264419a43ad
 RPROVIDES:${PN} += "libbeecrypt.so.6()(64bit) \
 libbeecrypt6 \
 libbeecrypt6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

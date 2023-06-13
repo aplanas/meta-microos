@@ -11,6 +11,7 @@ RPM_HASH = "6ab60aee45bd2a62b936249af1f152d039b0841fbcb0abf968a50a51f7cc7474b445
 
 RPROVIDES:${PN} += "portmidi \
 portmidi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

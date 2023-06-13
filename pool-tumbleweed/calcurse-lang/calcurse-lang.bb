@@ -17,6 +17,7 @@ locale(calcurse:fr) \
 locale(calcurse:nl) \
 locale(calcurse:pt_BR) \
 locale(calcurse:ru)"
+
 RDEPENDS:${PN} += "calcurse"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "application() \
 application(qemu.desktop) \
 qemu \
 qemu(aarch-64)"
+
 RDEPENDS:${PN} += "(qemu-guest-agent = 8.0.2 if qemu-guest-agent) \
 /bin/bash \
 /bin/sh \

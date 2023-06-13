@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(lxqt-build-tools) \
 lxqt-build-tools-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 pkgconfig \
 pkgconfig(Qt5Core)"

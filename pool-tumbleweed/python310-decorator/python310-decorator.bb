@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-decorator \
 python3.10dist(decorator) \
 python310-decorator \
 python3dist(decorator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

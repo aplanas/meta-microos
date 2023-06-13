@@ -11,6 +11,7 @@ RPM_HASH = "fd41f3c10103f5a71269987df0d72f351d9477587ea823318a35f18e74888997c6bc
 
 RPROVIDES:${PN} += "uwsgi-ldap \
 uwsgi-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

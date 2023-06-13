@@ -9,6 +9,7 @@ RPM_HASH = "092bcaecf5514baeb8699400ca0caa34edf8b8baa51734576f7858495e05b952f8ac
 
 RPROVIDES:${PN} += "scalapack_2_1_0-gnu-mvapich2-hpc-module \
 scalapack_2_1_0-gnu-mvapich2-hpc-module(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

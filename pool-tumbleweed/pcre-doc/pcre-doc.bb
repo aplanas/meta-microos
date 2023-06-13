@@ -11,6 +11,7 @@ RPM_HASH = "e10491b6ac660daea0c158d871c3b926e440bf407eb96558fd943b41b6e5ec0b9cba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

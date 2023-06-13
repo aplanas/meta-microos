@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nkarta15.tfm) \
 texlive-nkarta"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

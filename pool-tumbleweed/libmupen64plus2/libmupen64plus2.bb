@@ -15,6 +15,7 @@ RPM_HASH = "548150ad210c3cd249cda6bf6ec0b46c8ebbf892c8e581d757851f96de129ce891c6
 RPROVIDES:${PN} += "libmupen64plus.so.2()(64bit) \
 libmupen64plus2 \
 libmupen64plus2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dejavu \
 ld-linux-aarch64.so.1()(64bit) \

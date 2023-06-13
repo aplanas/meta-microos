@@ -11,6 +11,7 @@ RPM_HASH = "9eaf571dc8c7a221783a0a1358bc260db4074dab41cb0f377b65102a828311b6190c
 
 RPROVIDES:${PN} += "maven \
 maven(aarch-64)"
+
 RDEPENDS:${PN} += "aaa_base \
 maven-lib"
 

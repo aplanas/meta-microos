@@ -9,6 +9,7 @@ RPM_HASH = "25c4b4345d5997bec6aa379d92b299e29b4f6f00c9fd4de0fcabe8960332fff6a5f3
 
 RPROVIDES:${PN} += "lighttpd-mod_authn_gssapi \
 lighttpd-mod_authn_gssapi(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgssapi_krb5.so.2()(64bit) \
 libgssapi_krb5.so.2(gssapi_krb5_2_MIT)(64bit) \

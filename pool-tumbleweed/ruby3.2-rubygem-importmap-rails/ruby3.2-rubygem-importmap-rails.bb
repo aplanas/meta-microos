@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:importmap-rails) \
 rubygem(ruby:3.2.0:importmap-rails:1) \
 rubygem(ruby:3.2.0:importmap-rails:1.1) \
 rubygem(ruby:3.2.0:importmap-rails:1.1.5)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Tools) \
 cmake(Qt6ToolsTools) \
 qt6-tools-devel \
 qt6-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-tools \
 qt6-tools-helpgenerators \
 qt6-tools-qdoc"

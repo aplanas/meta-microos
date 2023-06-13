@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.opensuse.yast.DRBD.metainfo.xml) \
 yast2-drbd \
 yast2-drbd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby \
 drbd \

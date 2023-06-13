@@ -14,6 +14,7 @@ RPM_HASH = "33bfdb6aba24282805af0c3216aa19981d366b4d029bb10b9ccffef2053719d0a671
 RPROVIDES:${PN} += "libosmo-mtp-devel \
 libosmo-mtp-devel(aarch-64) \
 pkgconfig(libosmo-mtp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-mtp-1_7_0"
 

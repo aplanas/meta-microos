@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Devel::Cover::Report::Codecovbash) \
 perl-Devel-Cover-Report-Codecovbash"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(JSON::MaybeXS) \
 perl(namespace::autoclean)"

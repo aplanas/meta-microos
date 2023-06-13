@@ -12,6 +12,7 @@ ghc-bytestring-devel(aarch-64) \
 ghc-bytestring-static \
 ghc-bytestring-static(aarch-64) \
 ghc-devel(bytestring-0.11.4.0)"
+
 RDEPENDS:${PN} += "ghc-bytestring(aarch-64) \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

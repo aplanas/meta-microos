@@ -72,6 +72,7 @@ locale(cogl:vi) \
 locale(cogl:zh_CN) \
 locale(cogl:zh_HK) \
 locale(cogl:zh_TW)"
+
 RDEPENDS:${PN} += "cogl"
 
 inherit rpm

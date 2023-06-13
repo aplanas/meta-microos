@@ -10,6 +10,7 @@ RPM_HASH = "e9581a7de6e91916430104dd5ce660f7d6aad5a55de69a5013643c6242774971f09e
 
 RPROVIDES:${PN} += "pentobi-kde-thumbnailer \
 pentobi-kde-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

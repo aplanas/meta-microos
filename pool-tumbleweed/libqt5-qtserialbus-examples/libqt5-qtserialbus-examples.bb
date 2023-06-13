@@ -9,6 +9,7 @@ RPM_HASH = "8b332948572b321144efe6011aca217aaa20e179194ab5aea16dd287b8552898f637
 
 RPROVIDES:${PN} += "libqt5-qtserialbus-examples \
 libqt5-qtserialbus-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

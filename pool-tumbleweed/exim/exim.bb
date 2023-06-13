@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "config(exim) \
 exim \
 exim(aarch-64) \
 smtp_daemon"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

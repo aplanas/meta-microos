@@ -12,6 +12,7 @@ RPM_HASH = "3b0aa886523307c447d95d269c7fe296b1cf1b3504589e5c3382e0655d593f5e72da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

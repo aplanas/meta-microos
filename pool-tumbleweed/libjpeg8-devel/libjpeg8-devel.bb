@@ -15,6 +15,7 @@ libjpeg8-devel \
 libjpeg8-devel(aarch-64) \
 pkgconfig(libjpeg) \
 pkgconfig(libturbojpeg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg8 \
 libturbojpeg0"

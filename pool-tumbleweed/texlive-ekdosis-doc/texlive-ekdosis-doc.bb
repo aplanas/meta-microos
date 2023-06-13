@@ -9,6 +9,7 @@ RPM_HASH = "600c6c68a639fb25c53837e105256518d118fec26201470bbdf92556b5f13101bc73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ekdosis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

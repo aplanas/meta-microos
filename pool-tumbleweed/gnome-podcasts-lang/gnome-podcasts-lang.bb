@@ -40,6 +40,7 @@ locale(gnome-podcasts:sv) \
 locale(gnome-podcasts:tr) \
 locale(gnome-podcasts:uk) \
 locale(gnome-podcasts:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-podcasts"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6c4969f1ca24fb6a6bf730e60cc9e6d603835e0fbaa36c22606b0880b8a51fd840c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-subrepo"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 git-core"

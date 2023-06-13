@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(tre:fi) \
 locale(tre:sv) \
 tre-lang \
 tre-lang-all"
+
 RDEPENDS:${PN} += "tre"
 
 inherit rpm

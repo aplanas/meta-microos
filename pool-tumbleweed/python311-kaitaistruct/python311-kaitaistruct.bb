@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(kaitaistruct) \
 python311-kaitaistruct \
 python3dist(kaitaistruct)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

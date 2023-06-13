@@ -10,6 +10,7 @@ RPM_HASH = "8ff0748c85153d829818f2d3b08975246431fa267e5ea8e889330144a4d7c498b150
 RPROVIDES:${PN} += "ghc-commonmark-extensions-prof \
 ghc-commonmark-extensions-prof(aarch-64) \
 ghc-prof(commonmark-extensions-0.2.3.4-fvyaRimQueHtxCz9MhD8e)"
+
 RDEPENDS:${PN} += "ghc-commonmark-extensions-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(commonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz) \

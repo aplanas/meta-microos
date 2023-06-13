@@ -13,6 +13,7 @@ RPM_HASH = "864114ad6072bd1879424cc87071ddf0b3a97a96f4358423c0ce8c4615182bc3e637
 RPROVIDES:${PN} += "config(openfortivpn) \
 openfortivpn \
 openfortivpn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

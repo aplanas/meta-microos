@@ -13,6 +13,7 @@ RPM_HASH = "8fb0cf8d45f07fe5053712b9b4f51eb86bbdaa8d41525f837a1673f7b87265ae6d29
 
 RPROVIDES:${PN} += "courier-authlib-devel \
 courier-authlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "courier-authlib \
 courier-authlib-ldap \
 courier-authlib-mysql \

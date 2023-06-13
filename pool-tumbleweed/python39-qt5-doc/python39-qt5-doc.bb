@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-PyQt5-doc \
 python39-qt5-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

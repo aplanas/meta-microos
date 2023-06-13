@@ -12,6 +12,7 @@ RPM_HASH = "d331ff172a327d50e6f1cbdca8250a2c2cd5d0c3696bc404b2ad98d408bb2f036a85
 RPROVIDES:${PN} += "libpy2UI.so.2()(64bit) \
 yast2-ycp-ui-bindings \
 yast2-ycp-ui-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

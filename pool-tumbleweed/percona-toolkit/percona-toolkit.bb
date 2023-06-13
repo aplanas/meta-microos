@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "config(percona-toolkit) \
 maatkit \
 percona-toolkit \
 percona-toolkit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

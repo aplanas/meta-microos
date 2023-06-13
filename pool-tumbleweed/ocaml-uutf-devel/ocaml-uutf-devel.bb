@@ -13,6 +13,7 @@ ocaml-uutf-devel \
 ocaml-uutf-devel(aarch-64) \
 ocamlfind(uutf) \
 ocamlx(Uutf)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Array) \

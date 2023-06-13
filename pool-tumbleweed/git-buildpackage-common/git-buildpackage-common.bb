@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(git-buildpackage-common) \
 git-buildpackage-common \
 python3.10dist(gbp) \
 python3dist(gbp)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
 man \

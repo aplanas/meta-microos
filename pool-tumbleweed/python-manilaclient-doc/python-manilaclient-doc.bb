@@ -11,6 +11,7 @@ RPM_HASH = "03965a00893054406f57cf4bfc1409b66e1bde50cc5b0da109b1af001aeb67c558a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-manilaclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

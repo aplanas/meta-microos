@@ -15,6 +15,7 @@ RPM_HASH = "f1399b951a41a115ecaeccb31907e9e609fedf7b01fad9e2c54b57a5e9800371f715
 RPROVIDES:${PN} += "libosmo-sccp-devel \
 libosmo-sccp-devel(aarch-64) \
 pkgconfig(libosmo-sccp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-sccp-1_7_0"
 

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(forarray.sty) \
 texlive-forarray"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

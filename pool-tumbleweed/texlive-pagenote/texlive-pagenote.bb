@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pagenote.sty) \
 texlive-pagenote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

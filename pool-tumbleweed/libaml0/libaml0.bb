@@ -10,6 +10,7 @@ RPM_HASH = "501824dc6fbece55f0dd974cfa27d6dd1dfbd332c548ec1b136ff67a50e2fb3a7ac3
 RPROVIDES:${PN} += "libaml.so.0()(64bit) \
 libaml0 \
 libaml0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pymacaroons-pynacl) \
 python39-pymacaroons-pynacl \
 python3dist(pymacaroons-pynacl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyNaCl \
 python39-cffi \

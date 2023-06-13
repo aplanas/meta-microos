@@ -15,6 +15,7 @@ dnf-plugin-show-leaves \
 dnf-plugins-extras-show-leaves \
 python3-dnf-plugin-show-leaves \
 python3-dnf-plugins-extras-show-leaves"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugin-leaves \
 python3-dnf-plugins-core"

@@ -11,6 +11,7 @@ RPM_HASH = "4768ab7d124092d5f98a338ad30caf257354c05ec4fd6ada1761cec932581d62f4a2
 RPROVIDES:${PN} += "libeot.so.0()(64bit) \
 libeot0 \
 libeot0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

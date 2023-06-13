@@ -9,6 +9,7 @@ RPM_HASH = "36032b813c4b79d237bf57c2ebb729653212cecd9dca2cf9bad3bc75b74e31b65826
 
 RPROVIDES:${PN} += "hashlink-hdlls \
 hashlink-hdlls(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

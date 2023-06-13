@@ -10,6 +10,7 @@ RPM_HASH = "bf1c9475a712915b267651ca056ed15671986f35806062bb80ead9406db96d95f441
 RPROVIDES:${PN} += "ghc-config-ini-prof \
 ghc-config-ini-prof(aarch-64) \
 ghc-prof(config-ini-0.2.5.0-RR92dYVdpi9XWpA99EDX9)"
+
 RDEPENDS:${PN} += "ghc-config-ini-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

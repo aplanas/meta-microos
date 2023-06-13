@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libv3270-config) \
 libv3270-config"
+
 RDEPENDS:${PN} += "libv3270-5_4"
 
 inherit rpm

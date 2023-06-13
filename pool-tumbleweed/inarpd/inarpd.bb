@@ -9,6 +9,7 @@ RPM_HASH = "f08cc4bafd4292b197f5a45b3154b6efa820b037b1dcb204955d0da4deb911be0d2d
 
 RPROVIDES:${PN} += "inarpd \
 inarpd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

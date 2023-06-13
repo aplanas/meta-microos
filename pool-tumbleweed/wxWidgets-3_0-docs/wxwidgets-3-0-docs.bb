@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxWidgets-3_0-docs \
 wxWidgets-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

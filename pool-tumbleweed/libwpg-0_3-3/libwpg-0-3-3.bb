@@ -11,6 +11,7 @@ RPM_HASH = "e04f2f3e2022716eed95b925e66666026e791b003085369e5a09f8551399f18b478c
 RPROVIDES:${PN} += "libwpg-0.3.so.3()(64bit) \
 libwpg-0_3-3 \
 libwpg-0_3-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

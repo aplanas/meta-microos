@@ -87,6 +87,7 @@ tex(ts1-stixgeneral-italic.tfm) \
 tex(ts1-stixgeneral.tfm) \
 tex(ts1stix.fd) \
 texlive-stix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

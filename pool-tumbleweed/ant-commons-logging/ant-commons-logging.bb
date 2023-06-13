@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-commons-logging \
 config(ant-commons-logging) \
 mvn(org.apache.ant:ant-commons-logging) \
 mvn(org.apache.ant:ant-commons-logging:pom:)"
+
 RDEPENDS:${PN} += "ant \
 apache-commons-logging \
 java-headless \

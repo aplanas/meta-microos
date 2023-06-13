@@ -10,6 +10,7 @@ RPM_HASH = "c281db43c8cbfb9cb154311f128e1ae598c1005a349bb065188104c86efbc55f64bd
 RPROVIDES:${PN} += "config(weblug) \
 weblug \
 weblug(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit)"
 

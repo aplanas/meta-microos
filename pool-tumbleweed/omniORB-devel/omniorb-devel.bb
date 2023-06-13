@@ -18,6 +18,7 @@ pkgconfig(omniORB4) \
 pkgconfig(omniZIOP4) \
 pkgconfig(omniZIOPDynamic4) \
 pkgconfig(omnithread3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libomniORB4-3 \
 libomnithread4 \

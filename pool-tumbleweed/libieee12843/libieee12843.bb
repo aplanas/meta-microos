@@ -12,6 +12,7 @@ RPM_HASH = "e13d42d355d29c46997f6d2e6dfd79dd5941f37f9ad5e78cf28b2ec9c9cd71ed65bd
 RPROVIDES:${PN} += "libieee1284.so.3()(64bit) \
 libieee12843 \
 libieee12843(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

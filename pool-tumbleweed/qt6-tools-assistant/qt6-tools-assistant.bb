@@ -12,6 +12,7 @@ application(org.qt.assistant6.desktop) \
 mimehandler(application/x-assistant) \
 qt6-tools-assistant \
 qt6-tools-assistant(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

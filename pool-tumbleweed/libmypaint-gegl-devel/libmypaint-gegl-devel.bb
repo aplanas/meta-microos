@@ -12,6 +12,7 @@ RPM_HASH = "8988c8b5a4f4c148849ab58e5390473682e20ae7300af8ae6f7c40e677d61f1dcd0d
 RPROVIDES:${PN} += "libmypaint-gegl-devel \
 libmypaint-gegl-devel(aarch-64) \
 pkgconfig(libmypaint-gegl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmypaint-gegl0 \
 libmypaint0 \

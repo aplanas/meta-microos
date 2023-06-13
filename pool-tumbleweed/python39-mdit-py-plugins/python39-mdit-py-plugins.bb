@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mdit-py-plugins) \
 python39-mdit-py-plugins \
 python3dist(mdit-py-plugins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-markdown-it-py"
 

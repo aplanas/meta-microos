@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-ant-factory) \
 mvn(org.codehaus.plexus:plexus-ant-factory:pom:) \
 plexus-ant-factory"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant) \

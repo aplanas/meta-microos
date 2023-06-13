@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mpmath) \
 python311-mpmath \
 python3dist(mpmath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-gmpy2"
 

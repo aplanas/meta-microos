@@ -13,6 +13,7 @@ RPM_HASH = "1262c26755523fa141272cdc8963f64070da1ffdca18f809199226abec1fb9c7461a
 RPROVIDES:${PN} += "cmake(MEDFile) \
 libmed-devel \
 libmed-devel(aarch-64)"
+
 RDEPENDS:${PN} += "hdf5-devel \
 libmed11 \
 libmedC11 \

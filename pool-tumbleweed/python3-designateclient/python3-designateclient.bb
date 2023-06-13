@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-designateclient \
 python3.10dist(python-designateclient) \
 python3dist(python-designateclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-cliff \
 python3-debtcollector \

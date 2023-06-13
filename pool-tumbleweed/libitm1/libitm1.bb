@@ -13,6 +13,7 @@ libitm.so.1(LIBITM_1.0)(64bit) \
 libitm.so.1(LIBITM_1.1)(64bit) \
 libitm1 \
 libitm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

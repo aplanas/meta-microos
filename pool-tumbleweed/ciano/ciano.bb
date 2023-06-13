@@ -13,6 +13,7 @@ ciano \
 ciano(aarch-64) \
 metainfo() \
 metainfo(com.github.robertsanseries.ciano.appdata.xml)"
+
 RDEPENDS:${PN} += "ImageMagick \
 ffmpeg \
 ld-linux-aarch64.so.1()(64bit) \

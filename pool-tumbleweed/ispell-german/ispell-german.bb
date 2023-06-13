@@ -15,6 +15,7 @@ ispell-german \
 ispell-german(aarch-64) \
 ispell_dictionary \
 locale(ispell:de;de_DE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

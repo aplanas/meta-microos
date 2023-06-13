@@ -9,6 +9,7 @@ RPM_HASH = "8605c0553ccbc4eecc8e9970a3142908f02ad666b1f007019f62ea00f00bcd872056
 
 RPROVIDES:${PN} += "texlive-pdfxup-bin \
 texlive-pdfxup-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pdfxup"
 
 inherit rpm

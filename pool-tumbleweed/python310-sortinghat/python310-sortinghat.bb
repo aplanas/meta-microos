@@ -34,6 +34,7 @@ RPROVIDES:${PN} += "python3-sortinghat \
 python3.10dist(sortinghat) \
 python310-sortinghat \
 python3dist(sortinghat)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

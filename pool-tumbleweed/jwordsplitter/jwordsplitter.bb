@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jwordsplitter \
 mvn(de.danielnaber:jwordsplitter) \
 mvn(de.danielnaber:jwordsplitter:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

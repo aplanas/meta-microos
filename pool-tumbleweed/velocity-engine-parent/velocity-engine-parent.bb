@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-parent:pom:) \
 velocity-engine-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.plugins:maven-compiler-plugin) \

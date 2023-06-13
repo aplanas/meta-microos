@@ -16,6 +16,7 @@ gsmartcontrol \
 gsmartcontrol(aarch-64) \
 metainfo() \
 metainfo(gsmartcontrol.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \

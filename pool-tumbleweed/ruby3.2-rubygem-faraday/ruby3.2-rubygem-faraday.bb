@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:faraday) \
 rubygem(ruby:3.2.0:faraday:2) \
 rubygem(ruby:3.2.0:faraday:2.7) \
 rubygem(ruby:3.2.0:faraday:2.7.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:faraday-net_http) \
 rubygem(ruby:3.2.0:ruby2_keywords)"

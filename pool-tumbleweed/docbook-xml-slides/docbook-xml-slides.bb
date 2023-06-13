@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(docbook-xml-slides) \
 docbook-xml-slides"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/edit-xml-catalog \
 /usr/bin/sgml-register-catalog \

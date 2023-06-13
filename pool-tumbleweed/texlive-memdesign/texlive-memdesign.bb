@@ -14,6 +14,7 @@ RPM_HASH = "be016b97da4f0580ce40a50252ee16f2d601d29616c3ae2d69360289f2e50ed0b54e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-memdesign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

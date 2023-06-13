@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-weblate-schemas \
 python3.10dist(weblate-schemas) \
 python310-weblate-schemas \
 python3dist(weblate-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonschema"
 

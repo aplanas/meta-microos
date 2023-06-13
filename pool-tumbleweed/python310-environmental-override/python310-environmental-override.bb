@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-environmental-override \
 python3.10dist(environmental-override) \
 python310-environmental-override \
 python3dist(environmental-override)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

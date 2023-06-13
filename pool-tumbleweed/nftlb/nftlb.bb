@@ -31,6 +31,7 @@ RPM_HASH = "36f6998ad06ce51e9b9be3b9f0a56b83274b159f70dbbee64209f57f0979ea6091fa
 
 RPROVIDES:${PN} += "nftlb \
 nftlb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

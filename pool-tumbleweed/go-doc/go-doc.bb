@@ -10,6 +10,7 @@ RPM_HASH = "5d53ed3c4a458e68183955221a510e15f3d655e21639ab60f615e6b7a3231e2b1ab4
 RPROVIDES:${PN} += "go-doc \
 go-doc(aarch-64) \
 golang-docs"
+
 RDEPENDS:${PN} += "go \
 go1.20-doc"
 

@@ -10,6 +10,7 @@ RPM_HASH = "e24ab5f13adc0bab4cad77285c8be8279ed6a8feed3f0af74ab16717154d299419d8
 RPROVIDES:${PN} += "ghc-hslua-objectorientation \
 ghc-hslua-objectorientation(aarch-64) \
 libHShslua-objectorientation-2.3.0-7bmusH4WO3b1DlNe7DJ9Sl-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

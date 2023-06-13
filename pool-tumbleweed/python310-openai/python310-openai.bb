@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-openai \
 python3.10dist(openai) \
 python310-openai \
 python3dist(openai)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

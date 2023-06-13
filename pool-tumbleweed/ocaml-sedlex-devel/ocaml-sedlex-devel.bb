@@ -24,6 +24,7 @@ ocamlx(Sedlex_ppx__Sedlex) \
 ocamlx(Sedlex_ppx__Sedlex_cset) \
 ocamlx(Sedlex_ppx__Unicode) \
 ocamlx(Sedlexing)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

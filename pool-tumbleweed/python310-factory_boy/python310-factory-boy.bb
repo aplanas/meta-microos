@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-factory_boy \
 python3.10dist(factory-boy) \
 python310-factory_boy \
 python3dist(factory-boy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Faker"
 

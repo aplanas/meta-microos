@@ -10,6 +10,7 @@ RPM_HASH = "bb07ffcca7cac52b1540715a4a2ebe46f9f7b4bd33a64dcb4b0a3f76932ed98dcd7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-twemoji-colr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

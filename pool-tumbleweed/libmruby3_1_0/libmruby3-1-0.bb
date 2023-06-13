@@ -11,6 +11,7 @@ RPM_HASH = "c614ce853315f8216acc2cb4f3a47c43b60d94602761b9159971210fe1d455f2fba4
 RPROVIDES:${PN} += "libmruby.so.3.1.0()(64bit) \
 libmruby3_1_0 \
 libmruby3_1_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit)"
 

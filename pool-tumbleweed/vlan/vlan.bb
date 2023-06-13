@@ -16,6 +16,7 @@ RPM_HASH = "0b2b28f90d33225051c8357aae57ea77b276cf0f8575ee7a373a76fa207ed0308f57
 
 RPROVIDES:${PN} += "vlan \
 vlan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

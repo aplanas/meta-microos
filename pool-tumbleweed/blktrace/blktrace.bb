@@ -12,6 +12,7 @@ RPM_HASH = "202fba145a5c00c8fe522390edbf67f47751f0ec8603627e6a7a001a4b79734e85b7
 
 RPROVIDES:${PN} += "blktrace \
 blktrace(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

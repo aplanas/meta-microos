@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-openvpn-frontend \
 plasma-nm-openvpn \
 plasma-nm5-openvpn \
 plasma-nm5-openvpn(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-openvpn \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(dbus-1-common) \
 dbus-1-common \
 group(messagebus) \
 user(messagebus)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

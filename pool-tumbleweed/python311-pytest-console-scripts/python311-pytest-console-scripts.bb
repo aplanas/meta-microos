@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-console-scripts) \
 python311-pytest-console-scripts \
 python3dist(pytest-console-scripts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

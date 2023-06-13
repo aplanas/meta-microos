@@ -11,6 +11,7 @@ RPM_HASH = "551b5421daa3dde519b32b6f33877b1d8395d79b5efef21815cbf27616361874b7c9
 RPROVIDES:${PN} += "libgadu-devel \
 libgadu-devel(aarch-64) \
 pkgconfig(libgadu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libgadu3 \

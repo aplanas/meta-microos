@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:crass) \
 rubygem(ruby:3.2.0:crass:1) \
 rubygem(ruby:3.2.0:crass:1.0) \
 rubygem(ruby:3.2.0:crass:1.0.6)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

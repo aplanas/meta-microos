@@ -9,6 +9,7 @@ RPM_HASH = "b5a12e41858420b7847b86bea45cccf750aaae69fe2532043f7b3b5fd16442c8d6d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hadolint-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

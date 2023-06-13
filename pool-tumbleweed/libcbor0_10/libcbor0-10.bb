@@ -14,6 +14,7 @@ RPM_HASH = "b6cfc8c045199a5cff937935dea69d9a0a5ae8b99c138d371484bdbad5639d95933d
 RPROVIDES:${PN} += "libcbor.so.0.10()(64bit) \
 libcbor0_10 \
 libcbor0_10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

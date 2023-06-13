@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "fox-devel \
 fox16-devel \
 fox16-devel(aarch-64) \
 pkgconfig(fox)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 bzip2 \

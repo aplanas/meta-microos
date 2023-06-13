@@ -19,6 +19,7 @@ RPM_HASH = "f33b3f9869501a37d9a208295ff05e6df19eab4e15daa923ae53cb60c24186359cb7
 
 RPROVIDES:${PN} += "clFFT \
 clFFT(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenCL.so.1()(64bit) \

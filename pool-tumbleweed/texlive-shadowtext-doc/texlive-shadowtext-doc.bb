@@ -9,6 +9,7 @@ RPM_HASH = "bdf719f65488d1747b425853b549c05f809c95d93a07a4d48c10cc89ddba7174feb6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shadowtext-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

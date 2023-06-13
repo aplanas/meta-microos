@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm12-vim-plugins \
 vim-plugin-llvm"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

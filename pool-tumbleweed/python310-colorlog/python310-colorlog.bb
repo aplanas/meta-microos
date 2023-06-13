@@ -16,6 +16,7 @@ python3.10dist(colorlog) \
 python310-colorlog \
 python310-colorlog(aarch-64) \
 python3dist(colorlog)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

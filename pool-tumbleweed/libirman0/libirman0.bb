@@ -11,6 +11,7 @@ RPM_HASH = "a5919e78abe781d92ebdbd279f405a949dc5d836297cd586fdde20a3421e654fba1c
 RPROVIDES:${PN} += "libirman.so.0()(64bit) \
 libirman0 \
 libirman0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

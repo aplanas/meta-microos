@@ -10,6 +10,7 @@ RPM_HASH = "504a357a7280b3253ba7d8531dd002580fe3e8a881c61533a7f1a2b3d6f518568324
 RPROVIDES:${PN} += "libjim.so.0.81()(64bit) \
 libjim0_81 \
 libjim0_81(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

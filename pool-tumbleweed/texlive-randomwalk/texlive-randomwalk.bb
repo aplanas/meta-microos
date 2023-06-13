@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(randomwalk.sty) \
 texlive-randomwalk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(turnpageetex.sty) \
 tex(turnpagewoetex.sty) \
 tex(turnthepage.sty) \
 texlive-turnthepage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

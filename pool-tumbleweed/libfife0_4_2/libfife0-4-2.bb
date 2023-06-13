@@ -12,6 +12,7 @@ RPM_HASH = "aae1c5b22c7a24e038d349ee70d5287a82fcf0f17457aaa5af5958f4fcc4dee34652
 RPROVIDES:${PN} += "libfife.so.0.4.2()(64bit) \
 libfife0_4_2 \
 libfife0_4_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

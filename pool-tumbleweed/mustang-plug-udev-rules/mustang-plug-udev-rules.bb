@@ -13,6 +13,7 @@ RPM_HASH = "9a2faca8aae5f042217cdd073fb9dc93fe6c95504d37e89b1e50afc71d12d69d739d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mustang-plug-udev-rules"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

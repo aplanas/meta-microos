@@ -15,6 +15,7 @@ RPM_HASH = "ad841a3ce9bd96e66acfd1252b4951ebf73c8b9f9513ffd899e012c38486c1f70d80
 
 RPROVIDES:${PN} += "snobol4 \
 snobol4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

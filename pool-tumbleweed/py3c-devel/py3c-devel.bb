@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(py3c) \
 py3c-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

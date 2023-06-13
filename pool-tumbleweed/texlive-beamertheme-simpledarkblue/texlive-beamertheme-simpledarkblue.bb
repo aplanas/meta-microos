@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(beamercolorthemeSimpleDarkBlue.sty) \
 tex(beamerfontthemeSimpleDarkBlue.sty) \
 tex(beamerthemeSimpleDarkBlue.sty) \
 texlive-beamertheme-simpledarkblue"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

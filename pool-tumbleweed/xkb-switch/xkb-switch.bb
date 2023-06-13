@@ -10,6 +10,7 @@ RPM_HASH = "d1f427e6c8521f6cda5cbdf2157b6c799fc11d8d79fef72ef0abcfe058b721f82333
 RPROVIDES:${PN} += "libxkbswitch.so.1()(64bit) \
 xkb-switch \
 xkb-switch(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

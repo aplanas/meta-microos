@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "perl(MIME::Type) \
 perl(MIME::Types) \
 perl(MojoX::MIME::Types) \
 perl-MIME-Types"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

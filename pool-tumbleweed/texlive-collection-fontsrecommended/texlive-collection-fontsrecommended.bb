@@ -11,6 +11,7 @@ RPM_HASH = "679804bd50dea107a149e6c068acd0ac918793b255bece22f8532cd1c8e35bcc7c19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-fontsrecommended"
+
 RDEPENDS:${PN} += "texlive-avantgar \
 texlive-bookman \
 texlive-charter \

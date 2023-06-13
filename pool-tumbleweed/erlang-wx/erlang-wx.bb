@@ -9,6 +9,7 @@ RPM_HASH = "a3e72064df6a8027e97d613b1696c729c2de05bb90b3b9b3b1a9f41b62a32d9bb4eb
 
 RPROVIDES:${PN} += "erlang-wx \
 erlang-wx(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

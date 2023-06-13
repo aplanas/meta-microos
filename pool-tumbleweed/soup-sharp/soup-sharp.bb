@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libsoupsharpglue-2.42.2.so()(64bit) \
 mono(soup-sharp) \
 soup-sharp \
 soup-sharp(aarch-64)"
+
 RDEPENDS:${PN} += "mono(mscorlib)"
 
 inherit rpm

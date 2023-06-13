@@ -12,6 +12,7 @@ RPM_HASH = "a94cea5da65c2e2322743dacf2957498231e2729e60ef7d81a71dbfae89e84b13e29
 RPROVIDES:${PN} += "libsyn123-0 \
 libsyn123-0(aarch-64) \
 libsyn123.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

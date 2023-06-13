@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "istack-commons-tools \
 mvn(com.sun.istack:istack-commons-tools) \
 mvn(com.sun.istack:istack-commons-tools:pom:) \
 osgi(com.sun.istack.commons-tools)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant)"

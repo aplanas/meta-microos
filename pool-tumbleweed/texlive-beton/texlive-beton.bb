@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beton.sty) \
 texlive-beton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

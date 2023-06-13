@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-source-plugin \
 mvn(org.apache.maven.plugins:maven-source-plugin) \
 mvn(org.apache.maven.plugins:maven-source-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-archiver) \

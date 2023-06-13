@@ -59,6 +59,7 @@ writerperfect \
 writerperfect(aarch-64) \
 zmf2epub \
 zmf2odg"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabw-0.1.so.1()(64bit) \

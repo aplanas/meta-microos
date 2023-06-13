@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(kafka-python) \
 python39-kafka-python \
 python3dist(kafka-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "9a0afa5434c5cb79043a8563baa61b3bbd5e50a1ae06f916c02d5331c3fa3ada0893
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-apple-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

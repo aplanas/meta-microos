@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "docserv-auxserver \
 docserv-auxserver(aarch-64) \
 group(docserv-aux) \
 user(docserv-aux)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 sysuser-shadow"

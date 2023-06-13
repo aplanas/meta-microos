@@ -10,6 +10,7 @@ RPM_HASH = "4db33a98baff83617159dae93b769165152d3cd729653eaafdcf6969156ce020f5ab
 RPROVIDES:${PN} += "pattern() \
 patterns-server-printing-32bit \
 patterns-server-printing-32bit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

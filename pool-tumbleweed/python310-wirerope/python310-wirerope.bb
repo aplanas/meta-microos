@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-wirerope \
 python3.10dist(wirerope) \
 python310-wirerope \
 python3dist(wirerope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

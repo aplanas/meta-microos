@@ -9,6 +9,7 @@ RPM_HASH = "8c4621d600eb2f0fddadb65372a519c90d4b869aa1f34280c6f7e2ba366a142f0b57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-appdata-extra"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

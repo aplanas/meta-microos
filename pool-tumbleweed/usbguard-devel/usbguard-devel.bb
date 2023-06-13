@@ -11,6 +11,7 @@ RPM_HASH = "0aa14ab068a20dd33f733784138b8c61cb7683356d5ec7195b47c2a1f3611f4c4153
 RPROVIDES:${PN} += "pkgconfig(libusbguard) \
 usbguard-devel \
 usbguard-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstdc++-devel \
 libusbguard1 \

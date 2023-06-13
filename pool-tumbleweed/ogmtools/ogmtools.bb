@@ -11,6 +11,7 @@ RPM_HASH = "967d3343bb93ce6e1a04a7f3e7cc91ae91f4b0691558e27caf0fa3729bccf96b27db
 
 RPROVIDES:${PN} += "ogmtools \
 ogmtools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

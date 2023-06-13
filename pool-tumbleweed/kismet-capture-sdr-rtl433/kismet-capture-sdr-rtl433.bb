@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "kismet-capture-sdr-rtl433 \
 kismet-capture-sdr-rtl433(aarch-64) \
 python3.10dist(kismetcapturertl433) \
 python3dist(kismetcapturertl433)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-protobuf \

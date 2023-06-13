@@ -10,6 +10,7 @@ RPM_HASH = "66aa3a8778fded9322717bf65b52e3997079143fd93be0897ac4f840e84cb4d1b697
 
 RPROVIDES:${PN} += "ddccontrol \
 ddccontrol(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mathalfa.sty) \
 tex(mathalpha.sty) \
 texlive-mathalpha"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

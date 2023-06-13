@@ -14,6 +14,7 @@ RPM_HASH = "086f84de13a1d15de37e30e73a43e2655c463297caddca4164b55b69ba79674341ea
 
 RPROVIDES:${PN} += "zisofs-tools \
 zisofs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

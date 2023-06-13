@@ -9,6 +9,7 @@ RPM_HASH = "eb8dd10a87835e304819bd99154b89822b7488ee039f96874028a4e21b66ca6a934f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxgw-wenkai-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8761822e609ac451dcb6c1bfe6830d8cd4464bdbdb7294cd7f8c76ce8877fbe0f45a
 RPROVIDES:${PN} += "libxkbui.so.1()(64bit) \
 libxkbui1 \
 libxkbui1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

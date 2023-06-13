@@ -11,6 +11,7 @@ RPM_HASH = "3e1dc724a6e564e97b9bd05f6e7e62da636c42e90523fd07c12a8cc3f53771f005b1
 RPROVIDES:${PN} += "libbd_btrfs-devel \
 libbd_btrfs-devel(aarch-64) \
 libblockdev-btrfs-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_btrfs2 \
 libbd_utils-devel"

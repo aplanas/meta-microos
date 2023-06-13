@@ -12,6 +12,7 @@ RPM_HASH = "4af2df1a8920a4d2f4809e2e2f3044dca2803d9e4fc6e3a7aac3b772077353cbdd36
 RPROVIDES:${PN} += "libtestshade.so.1.12()(64bit) \
 libtestshade1_12 \
 libtestshade1_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

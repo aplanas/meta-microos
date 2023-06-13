@@ -10,6 +10,7 @@ RPM_HASH = "242e4d87374b833bc62f67a9f86fbb791041613c77ecf72202e7d414872ed684cfaa
 RPROVIDES:${PN} += "libtracecmd.so.1()(64bit) \
 libtracecmd1 \
 libtracecmd1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

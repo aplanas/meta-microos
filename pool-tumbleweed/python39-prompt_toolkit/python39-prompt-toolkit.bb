@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(prompt-toolkit) \
 python39-prompt_toolkit \
 python3dist(prompt-toolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-wcwidth"
 

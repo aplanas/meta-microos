@@ -140,6 +140,7 @@ font(kurierheavy) \
 font(kurierlight) \
 font(kuriermedium) \
 texlive-kurier-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

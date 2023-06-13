@@ -9,6 +9,7 @@ RPM_HASH = "f9036200b90d3ce3db3860648976fc7bf8a802b07c03472a9c4128946718fe6add9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typogrid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

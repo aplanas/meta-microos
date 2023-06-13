@@ -25,6 +25,7 @@ xfce-mcs-manager \
 xfce-mcs-plugins \
 xfce4-settings \
 xfce4-settings(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "bc2617b8151e906b75787ddc8de47ee341144408db4c661b5d383b69c2214a8f1488
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-songproj-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

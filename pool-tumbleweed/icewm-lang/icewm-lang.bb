@@ -47,6 +47,7 @@ locale(icewm:uk) \
 locale(icewm:vi) \
 locale(icewm:zh_CN) \
 locale(icewm:zh_TW)"
+
 RDEPENDS:${PN} += "icewm"
 
 inherit rpm

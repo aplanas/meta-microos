@@ -9,6 +9,7 @@ RPM_HASH = "753f2e5a925f676efb9eb6067254dbe647d9d106fff214708233c63ea5b8ed2cae6f
 
 RPROVIDES:${PN} += "syncplay-common \
 syncplay-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

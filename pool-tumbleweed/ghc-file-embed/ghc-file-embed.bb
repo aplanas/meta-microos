@@ -11,6 +11,7 @@ RPM_HASH = "3e07e750ae8d48f9c9a02a2bf22d842e0c65d6b36ef49b7389dffa78cc376adfd4a7
 RPROVIDES:${PN} += "ghc-file-embed \
 ghc-file-embed(aarch-64) \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

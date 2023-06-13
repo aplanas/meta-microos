@@ -10,6 +10,7 @@ RPM_HASH = "e2dc507d1f48a911b95a8850532ccc67d0aefd805d5359fd18432c21b7205dcb6f15
 RPROVIDES:${PN} += "libicecream-devel \
 libicecream-devel(aarch-64) \
 pkgconfig(icecc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libarchive-devel \
 libcap-ng-devel \

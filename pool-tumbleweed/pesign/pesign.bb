@@ -16,6 +16,7 @@ rpm_macro(_pesign) \
 rpm_macro(_pesign_client) \
 rpm_macro(pesign) \
 user(pesign)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

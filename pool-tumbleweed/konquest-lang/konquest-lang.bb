@@ -76,6 +76,7 @@ locale(konquest:ug) \
 locale(konquest:uk) \
 locale(konquest:zh_CN) \
 locale(konquest:zh_TW)"
+
 RDEPENDS:${PN} += "konquest"
 
 inherit rpm

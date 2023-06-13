@@ -10,6 +10,7 @@ RPM_HASH = "dd1b8bc1f4daffcec5a14a995c7d5b827906ace7e08d0cbf0cf08ac455ab1c176fe5
 
 RPROVIDES:${PN} += "dds2tar \
 dds2tar(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/csh \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::Types::LoadableClass) \
 perl-MooseX-Types-LoadableClass"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Runtime) \
 perl(MooseX::Types) \

@@ -12,6 +12,7 @@ RPM_HASH = "ba7f349a130663f1ab076679a8756fc45b0a10e89efa91e21a41bcd2a2db57a910a9
 
 RPROVIDES:${PN} += "mercurial-tests \
 mercurial-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

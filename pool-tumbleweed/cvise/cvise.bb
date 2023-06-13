@@ -18,6 +18,7 @@ RPM_HASH = "7345e7143da2ff849a14a3d091f2a7ae4abd3bae7282c09931e6c50ee9e3775ed544
 
 RPROVIDES:${PN} += "cvise \
 cvise(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 astyle \
 clang \

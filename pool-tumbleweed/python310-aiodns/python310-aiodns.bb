@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiodns \
 python3.10dist(aiodns) \
 python310-aiodns \
 python3dist(aiodns)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pycares"
 

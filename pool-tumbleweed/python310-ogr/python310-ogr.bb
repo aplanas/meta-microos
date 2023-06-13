@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ogr \
 python3.10dist(ogr) \
 python310-ogr \
 python3dist(ogr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Deprecated \
 python310-GitPython \

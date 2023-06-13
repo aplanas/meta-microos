@@ -30,6 +30,7 @@ libomp15-devel(aarch-64) \
 libompd.so()(64bit) \
 libomptarget.so.15()(64bit) \
 libomptarget.so.15(VERS1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f87824ca2855d6b7ea0e33f5dc321f11011bee23a4f41b4a41185bc7cf86bc703c04
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-libxml-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

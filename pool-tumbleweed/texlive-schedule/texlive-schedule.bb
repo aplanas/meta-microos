@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(schedule.sty) \
 texlive-schedule"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

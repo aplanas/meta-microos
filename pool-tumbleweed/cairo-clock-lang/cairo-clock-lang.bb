@@ -28,6 +28,7 @@ locale(cairo-clock:sv) \
 locale(cairo-clock:tr) \
 locale(cairo-clock:zh_CN) \
 locale(cairo-clock:zh_TW)"
+
 RDEPENDS:${PN} += "cairo-clock"
 
 inherit rpm

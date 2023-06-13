@@ -10,6 +10,7 @@ RPM_HASH = "cbf5c2c9f179283a9b1f409fea53c1b1a124d9a3ec6861a30a9f4721507c944b37d9
 RPROVIDES:${PN} += "libtracecmd-devel \
 libtracecmd-devel(aarch-64) \
 pkgconfig(libtracecmd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtracecmd1 \
 pkgconfig(libtraceevent) \

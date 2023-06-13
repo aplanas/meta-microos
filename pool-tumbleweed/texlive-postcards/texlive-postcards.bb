@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(postcards.cls) \
 texlive-postcards"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

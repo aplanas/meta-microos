@@ -30,6 +30,7 @@ RPM_HASH = "bd784fb378f9d89421be734e5608747baf34719db86df711fd26e606a437397133ea
 RPROVIDES:${PN} += "ghc-http-media \
 ghc-http-media(aarch-64) \
 libHShttp-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

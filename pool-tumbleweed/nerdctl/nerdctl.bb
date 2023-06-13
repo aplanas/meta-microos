@@ -9,6 +9,7 @@ RPM_HASH = "2c06fd36943c4821190ef1ad664ead7547d5f89b2905d91b29c42e00350938e33a99
 
 RPROVIDES:${PN} += "nerdctl \
 nerdctl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 buildkit \
 cni-plugins \

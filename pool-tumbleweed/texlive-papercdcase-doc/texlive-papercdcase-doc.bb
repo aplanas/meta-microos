@@ -9,6 +9,7 @@ RPM_HASH = "5f2c0ef097e132166a69c2cef8a5d9945ad28c76087547639c7f51f018fe1b1a7169
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-papercdcase-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

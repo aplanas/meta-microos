@@ -28,6 +28,7 @@ locale(grsync:sv) \
 locale(grsync:tr) \
 locale(grsync:zh_CN) \
 locale(grsync:zh_TW)"
+
 RDEPENDS:${PN} += "grsync"
 
 inherit rpm

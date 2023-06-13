@@ -10,6 +10,7 @@ RPM_HASH = "f611293fecccca2b26ac7ed46792eba5ef88997aa9a2630101e2c43a4cb7f2897438
 RPROVIDES:${PN} += "libgomokugameplugin.so()(64bit) \
 psi+-plugins-gomokugameplugin \
 psi+-plugins-gomokugameplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

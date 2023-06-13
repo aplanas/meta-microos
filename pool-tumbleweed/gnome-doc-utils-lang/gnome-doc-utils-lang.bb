@@ -84,6 +84,7 @@ locale(gnome-doc-utils:wa) \
 locale(gnome-doc-utils:zh_CN) \
 locale(gnome-doc-utils:zh_HK) \
 locale(gnome-doc-utils:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-doc-utils"
 
 inherit rpm

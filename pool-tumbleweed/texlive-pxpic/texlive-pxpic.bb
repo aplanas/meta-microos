@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pxpic.sty) \
 texlive-pxpic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -41,6 +41,7 @@ locale(xournalpp:zh_HK) \
 locale(xournalpp:zh_TW) \
 xournalpp-lang \
 xournalpp-lang-all"
+
 RDEPENDS:${PN} += "xournalpp"
 
 inherit rpm

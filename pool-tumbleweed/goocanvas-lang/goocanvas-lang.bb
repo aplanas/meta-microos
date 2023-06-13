@@ -23,6 +23,7 @@ locale(goocanvas:pl) \
 locale(goocanvas:pt_BR) \
 locale(goocanvas:sr) \
 locale(goocanvas:sv)"
+
 RDEPENDS:${PN} += "goocanvas"
 
 inherit rpm

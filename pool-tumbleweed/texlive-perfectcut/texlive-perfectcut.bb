@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(perfectcut.sty) \
 texlive-perfectcut"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

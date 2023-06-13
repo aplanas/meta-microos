@@ -19,6 +19,7 @@ kraft \
 kraft(aarch-64) \
 metainfo() \
 metainfo(de.volle_kraft_voraus.kraft.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "7c5b9b9a60a2e40324f737a4abccabdebd1f6efecc56fb244b3585674319f03f8594
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linode-cli-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

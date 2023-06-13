@@ -11,6 +11,7 @@ RPM_HASH = "6383f18bf26149c8a6b08d99652023c149a9e7f0e43b78ccddc78bc446ee51bde702
 
 RPROVIDES:${PN} += "adplugdb \
 adplugdb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadplug-2.3.3.so.0()(64bit) \

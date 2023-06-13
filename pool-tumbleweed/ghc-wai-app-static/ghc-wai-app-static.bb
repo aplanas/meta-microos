@@ -11,6 +11,7 @@ RPM_HASH = "2b8151ec58b772851bc67cc6183811c7318b1d0467d9c8e0dfd19d7f2bc48f9847f2
 RPROVIDES:${PN} += "ghc-wai-app-static \
 ghc-wai-app-static(aarch-64) \
 libHSwai-app-static-3.1.7.4-9UpsDZD9lQf3J0Cj3szLw2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so()(64bit) \

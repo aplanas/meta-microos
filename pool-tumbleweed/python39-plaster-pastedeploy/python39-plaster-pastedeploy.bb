@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(plaster-pastedeploy) \
 python39-plaster-pastedeploy \
 python39-plaster_pastedeploy \
 python3dist(plaster-pastedeploy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PasteDeploy \
 python39-plaster"

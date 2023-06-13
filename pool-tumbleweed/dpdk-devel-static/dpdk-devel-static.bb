@@ -10,6 +10,7 @@ RPM_HASH = "53cb8a7b8630bb5b5100c8308a9bb99d0855b6cc58bbc60a45902a82a6f106ab3df9
 
 RPROVIDES:${PN} += "dpdk-devel-static \
 dpdk-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "dpdk-devel"
 
 inherit rpm

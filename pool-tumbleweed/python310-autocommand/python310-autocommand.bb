@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-autocommand \
 python3.10dist(autocommand) \
 python310-autocommand \
 python3dist(autocommand)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

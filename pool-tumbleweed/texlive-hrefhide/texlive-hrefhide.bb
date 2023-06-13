@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hrefhide.sty) \
 texlive-hrefhide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grc) \
 grc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

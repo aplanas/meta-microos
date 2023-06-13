@@ -60,6 +60,7 @@ RPM_HASH = "98e6b7ae8b2145e9b98e4af45c211aee0909fca51ce262531936725cc1e922c5aa10
 RPROVIDES:${PN} += "libarchive.so.13()(64bit) \
 libarchive13 \
 libarchive13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

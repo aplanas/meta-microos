@@ -13,6 +13,7 @@ RPM_HASH = "f909b31ec5e74b5008759d412cda536e67134267381b181de5f60385fce49b16fe87
 
 RPROVIDES:${PN} += "lxqt-sudo \
 lxqt-sudo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

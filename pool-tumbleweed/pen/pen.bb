@@ -30,6 +30,7 @@ RPM_HASH = "81847bc361a8d783e7b37ed61e449b4bf80f7678afb7cb9c09e3e9f864638dde5f50
 RPROVIDES:${PN} += "config(pen) \
 pen \
 pen(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

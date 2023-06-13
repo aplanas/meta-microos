@@ -35,6 +35,7 @@ libptyssh.so()(64bit) \
 libzmodem.so()(64bit) \
 mlterm-common \
 mlterm-common(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 group(tty) \
 ld-linux-aarch64.so.1()(64bit) \

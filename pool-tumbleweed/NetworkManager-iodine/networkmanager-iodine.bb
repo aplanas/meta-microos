@@ -14,6 +14,7 @@ NetworkManager-iodine(aarch-64) \
 group(nm-iodine) \
 libnm-vpn-plugin-iodine.so()(64bit) \
 user(nm-iodine)"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 iodine \

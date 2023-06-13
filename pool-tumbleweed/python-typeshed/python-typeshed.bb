@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-typeshed \
 python2-typeshed \
 python3-typeshed"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

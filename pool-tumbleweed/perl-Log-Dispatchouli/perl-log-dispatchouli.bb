@@ -28,6 +28,7 @@ perl(Log::Dispatchouli::Global) \
 perl(Log::Dispatchouli::Proxy) \
 perl(Log::Fmt) \
 perl-Log-Dispatchouli"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Log::Dispatch) \
 perl(Log::Dispatch::Array) \

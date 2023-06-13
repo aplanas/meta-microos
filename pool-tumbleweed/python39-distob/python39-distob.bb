@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(distob) \
 python39-distob \
 python3dist(distob)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dill \
 python39-ipyparallel \

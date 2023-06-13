@@ -9,6 +9,7 @@ RPM_HASH = "febf63aedd36765ad634a96acf417c8fb9f0e5ae45b85a5ddfda170509238265168b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tensor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

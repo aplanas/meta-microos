@@ -35,6 +35,7 @@ tex(qtxmi.vf) \
 tex(qtxmia.tfm) \
 tex(qtxmia.vf) \
 texlive-qpxqtx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

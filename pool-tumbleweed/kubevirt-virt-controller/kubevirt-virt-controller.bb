@@ -9,6 +9,7 @@ RPM_HASH = "ffb1ac7226515bee21d2f1617a3459dff3046ac58dabcff4b3789105034820d5be59
 
 RPROVIDES:${PN} += "kubevirt-virt-controller \
 kubevirt-virt-controller(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

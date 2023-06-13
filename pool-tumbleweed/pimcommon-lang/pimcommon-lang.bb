@@ -55,6 +55,7 @@ locale(pimcommon:zh_CN) \
 locale(pimcommon:zh_TW) \
 pimcommon-lang \
 pimcommon-lang-all"
+
 RDEPENDS:${PN} += "pimcommon"
 
 inherit rpm

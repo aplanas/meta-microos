@@ -81,6 +81,7 @@ RPM_HASH = "0a254249e6ef167a74a017e41711601903cb8a49a140117cea0f54dbafda0a0e9ac4
 RPROVIDES:${PN} += "ghc-wai-extra \
 ghc-wai-extra(aarch-64) \
 libHSwai-extra-3.1.13.0-B4Szpcpv4Gy5mM28jLfYmX-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so()(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \

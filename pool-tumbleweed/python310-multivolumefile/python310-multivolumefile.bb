@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-multivolumefile \
 python3.10dist(multivolumefile) \
 python310-multivolumefile \
 python3dist(multivolumefile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

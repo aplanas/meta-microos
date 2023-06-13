@@ -9,6 +9,7 @@ RPM_HASH = "60b0c9a8c0adc14740c71f2d46ab3b596005db3576bf60def4625f0a330035d29f82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-foldl-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

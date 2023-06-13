@@ -12,6 +12,7 @@ RPM_HASH = "5445365e7ce548c9712366b31e5ab3301f4036e589235960995d5fbc0de89529810d
 RPROVIDES:${PN} += "pkgconfig(popt) \
 popt-devel \
 popt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libpopt0"

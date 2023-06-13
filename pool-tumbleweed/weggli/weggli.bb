@@ -20,6 +20,7 @@ RPM_HASH = "c9c54bb5bdb537f9b561f87c1110ee3fc35f330b84d5ed57874616287ca513222f35
 
 RPROVIDES:${PN} += "weggli \
 weggli(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

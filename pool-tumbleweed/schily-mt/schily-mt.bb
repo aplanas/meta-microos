@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mt \
 schily-mt \
 schily-mt(aarch-64) \
 star-rmt:/usr/bin/smt"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

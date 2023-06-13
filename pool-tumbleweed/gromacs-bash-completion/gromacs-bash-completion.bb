@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gromacs-bash \
 gromacs-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

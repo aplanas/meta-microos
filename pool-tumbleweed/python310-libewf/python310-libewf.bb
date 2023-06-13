@@ -14,6 +14,7 @@ RPM_HASH = "b5fc118c583c10278f182a9ebd0d574cf2c249e2536587e4418afd9ca7e15de408f4
 RPROVIDES:${PN} += "python3-libewf \
 python310-libewf \
 python310-libewf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

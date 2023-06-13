@@ -15,6 +15,7 @@ RPM_HASH = "0a681c7c98ab9e093cd9a29654082f8dc24c749d6043e4311e74b6177eb2578b8068
 RPROVIDES:${PN} += "libkddockwidgets-qt6-1_7 \
 libkddockwidgets-qt6-1_7(aarch-64) \
 libkddockwidgets-qt6.so.1.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

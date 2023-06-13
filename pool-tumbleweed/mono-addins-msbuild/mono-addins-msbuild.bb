@@ -20,6 +20,7 @@ mono(policy.0.4.Mono.Addins.MSBuild) \
 mono(policy.0.5.Mono.Addins.MSBuild) \
 mono(policy.0.6.Mono.Addins.MSBuild) \
 mono-addins-msbuild"
+
 RDEPENDS:${PN} += "mono(Microsoft.Build.Framework) \
 mono(Microsoft.Build.Utilities.v4.0) \
 mono(Mono.Addins) \

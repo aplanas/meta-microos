@@ -12,6 +12,7 @@ RPM_HASH = "715088c963101fb0dbfeeee83b5108ead0e114b0348d0a471cded3e52a9bb6a54214
 RPROVIDES:${PN} += "libOIS-devel \
 libOIS-devel(aarch-64) \
 pkgconfig(OIS)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOIS1_5_0"
 

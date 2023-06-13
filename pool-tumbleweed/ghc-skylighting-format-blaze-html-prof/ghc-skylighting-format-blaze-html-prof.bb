@@ -10,6 +10,7 @@ RPM_HASH = "7c89cdead95bf0e8719478329e9df0e7056ce4f217e6e88d10ba0ebaa8d8a3ca0b10
 RPROVIDES:${PN} += "ghc-prof(skylighting-format-blaze-html-0.1.1-GSLRiRB6bjcEjUjplnknYR) \
 ghc-skylighting-format-blaze-html-prof \
 ghc-skylighting-format-blaze-html-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR) \
 ghc-prof(containers-0.6.7) \

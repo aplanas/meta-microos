@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "babeltrace-devel \
 babeltrace-devel(aarch-64) \
 pkgconfig(babeltrace) \
 pkgconfig(babeltrace-ctf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 babeltrace \
 pkgconfig(babeltrace) \

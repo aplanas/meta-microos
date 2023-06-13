@@ -9,6 +9,7 @@ RPM_HASH = "6914904dbb6dc4f4e3e951b4b22d85c5079bf774ba7b2bb8c9502b46d04cde2f5072
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-regexp-demo"
+
 RDEPENDS:${PN} += "gnu-getopt \
 gnu-regexp"
 

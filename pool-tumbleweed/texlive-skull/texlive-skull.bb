@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(skull.sty) \
 tex(skull.tfm) \
 texlive-skull"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

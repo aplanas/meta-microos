@@ -21,6 +21,7 @@ postgresql-init \
 postgresql-server \
 postgresql-server-noarch \
 user(postgres)"
+
 RDEPENDS:${PN} += "/bin/sh \
 postgresql \
 postgresql-server-implementation \

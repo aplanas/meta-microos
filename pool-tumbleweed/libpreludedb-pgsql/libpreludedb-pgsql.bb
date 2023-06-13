@@ -9,6 +9,7 @@ RPM_HASH = "f6f7dc5e1772ef585d655bc9b4ff914563d568ddf67b74903fb6bdbf30e47af1cf6c
 
 RPROVIDES:${PN} += "libpreludedb-pgsql \
 libpreludedb-pgsql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

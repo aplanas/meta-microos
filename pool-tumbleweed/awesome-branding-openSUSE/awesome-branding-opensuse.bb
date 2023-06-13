@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "awesome-branding \
 awesome-branding-openSUSE \
 config(awesome-branding-openSUSE)"
+
 RDEPENDS:${PN} += "adwaita-icon-theme \
 awesome \
 awesome-freedesktop \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bibleref-parse.sty) \
 texlive-bibleref-parse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

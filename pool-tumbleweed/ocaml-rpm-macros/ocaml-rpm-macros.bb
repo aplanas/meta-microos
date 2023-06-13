@@ -40,6 +40,7 @@ rpm_macro(ocaml_oasis_test) \
 rpm_macro(ocaml_preserve_bytecode) \
 rpm_macro(ocaml_standard_library) \
 rpm_macro(suse_ocaml_native_compiler)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -22,6 +22,7 @@ locale(mercurial:zh_CN) \
 locale(mercurial:zh_TW) \
 mercurial-lang \
 mercurial-lang-all"
+
 RDEPENDS:${PN} += "mercurial"
 
 inherit rpm

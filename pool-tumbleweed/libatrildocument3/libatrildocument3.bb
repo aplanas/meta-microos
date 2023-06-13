@@ -11,6 +11,7 @@ RPM_HASH = "616d2066f3166c0882793b4aec11f9561ff43e158f868cd44278296df2091ae588db
 RPROVIDES:${PN} += "libatrildocument.so.3()(64bit) \
 libatrildocument3 \
 libatrildocument3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

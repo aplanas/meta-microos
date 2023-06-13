@@ -14,6 +14,7 @@ python3.10dist(jupyter-server-fileid) \
 python310-jupyter-server-fileid \
 python310-jupyter_server_fileid \
 python3dist(jupyter-server-fileid)"
+
 RDEPENDS:${PN} += "(python310-jupyter-server >= 1.15 with python310-jupyter-server < 3) \
 /bin/sh \
 /usr/bin/python3.10 \

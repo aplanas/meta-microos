@@ -11,6 +11,7 @@ RPM_HASH = "167ab9a5a085d26e77b5af4721cc6cf4a554e93f340037a6587da6588d6b2dc7acf1
 
 RPROVIDES:${PN} += "gcc7-obj-c++ \
 gcc7-obj-c++(aarch-64)"
+
 RDEPENDS:${PN} += "gcc7-c++ \
 gcc7-objc \
 libc.so.6(GLIBC_2.34)(64bit) \

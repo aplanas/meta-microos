@@ -16,6 +16,7 @@ RPM_HASH = "b8370cdaf4633596a9204c155c755d3f0d6bc19b3837f31cf6ea81dbea8756a6f905
 RPROVIDES:${PN} += "lldpd-devel \
 lldpd-devel(aarch-64) \
 pkgconfig(lldpctl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblldpctl4"
 

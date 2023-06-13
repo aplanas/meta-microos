@@ -13,6 +13,7 @@ RPM_HASH = "118e344370e2fb43727f9a44ba986a61b586332cc1f3bf775b815b1359a680fbc065
 RPROVIDES:${PN} += "libpurple-client.so.0()(64bit) \
 libpurple-client0 \
 libpurple-client0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libdbus-glib-1.so.2()(64bit) \

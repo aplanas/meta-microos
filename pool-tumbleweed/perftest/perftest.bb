@@ -9,6 +9,7 @@ RPM_HASH = "36537265de1882c1ac97365085d5ac622781fad5c4a0819a1eee96ce82718d3e3f0e
 
 RPROVIDES:${PN} += "perftest \
 perftest(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

@@ -17,6 +17,7 @@ application(chromium-bsu.desktop) \
 chromium-bsu \
 chromium-bsu(aarch-64) \
 config(chromium-bsu)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

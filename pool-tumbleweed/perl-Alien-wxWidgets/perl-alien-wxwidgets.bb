@@ -15,6 +15,7 @@ perl(Alien::wxWidgets::Config::gtk2_3_0_5_uni_gcc_3_4) \
 perl(Alien::wxWidgets::Utility) \
 perl-Alien-wxWidgets \
 perl-Alien-wxWidgets(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Pluggable)"
 

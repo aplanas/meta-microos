@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sounddevice) \
 python311-sounddevice \
 python3dist(sounddevice)"
+
 RDEPENDS:${PN} += "portaudio \
 python(abi) \
 python311-cffi"

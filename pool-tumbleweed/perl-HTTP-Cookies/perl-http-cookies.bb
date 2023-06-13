@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "perl(HTTP::Cookies) \
 perl(HTTP::Cookies::Microsoft) \
 perl(HTTP::Cookies::Netscape) \
 perl-HTTP-Cookies"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Date) \
 perl(HTTP::Headers::Util) \

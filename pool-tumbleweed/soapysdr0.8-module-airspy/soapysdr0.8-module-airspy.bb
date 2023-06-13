@@ -11,6 +11,7 @@ RPM_HASH = "84212dad6f9a6c3d9de4011e3d1556c420425000a0e3b13599d61a2724cfc3558d6a
 RPROVIDES:${PN} += "libairspySupport.so()(64bit) \
 soapysdr0.8-module-airspy \
 soapysdr0.8-module-airspy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3c29a388ba0d2c32135cb4b86b550e32cd9b69cb07f61e0aecd23b6c1e6eb60d421d
 RPROVIDES:${PN} += "libopencv_videostab.so.407()(64bit) \
 libopencv_videostab407 \
 libopencv_videostab407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

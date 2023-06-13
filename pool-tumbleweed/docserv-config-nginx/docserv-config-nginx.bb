@@ -9,6 +9,7 @@ RPM_HASH = "df47fb2aa0b6ce9291ddc3115485c7b37589ed5e881ee73ad65687ddb8a0cc2fc270
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docserv-config-nginx"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "b29a80371566fc84adcba7abded7ea7f39a2e86c1f4296ff93a159ab1887075a0b4e
 
 RPROVIDES:${PN} += "dvdisaster \
 dvdisaster(aarch-64)"
+
 RDEPENDS:${PN} += "dvdisaster-docs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

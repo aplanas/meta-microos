@@ -10,6 +10,7 @@ RPM_HASH = "15efef32ed16541d2ff201175ae970c07cca54270f9a887475a305f0e6d2216d84d6
 
 RPROVIDES:${PN} += "zopfli \
 zopfli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

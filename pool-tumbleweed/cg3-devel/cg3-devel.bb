@@ -16,6 +16,7 @@ RPM_HASH = "81768ece96a3da763f50eef14f578a374822b613032c433000e002c1d244371db798
 RPROVIDES:${PN} += "cg3-devel \
 cg3-devel(aarch-64) \
 pkgconfig(cg3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcg3-1"
 

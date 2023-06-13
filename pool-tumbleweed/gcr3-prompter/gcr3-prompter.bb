@@ -12,6 +12,7 @@ application(gcr-prompter.desktop) \
 gcr-prompter \
 gcr3-prompter \
 gcr3-prompter(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcr-base-3.so.1()(64bit) \
 libgcr-ui-3.so.1()(64bit) \

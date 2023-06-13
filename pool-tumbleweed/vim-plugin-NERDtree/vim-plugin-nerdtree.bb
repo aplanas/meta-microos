@@ -12,6 +12,7 @@ RPM_HASH = "cee77a0b921bbf7a81bf0d68d012c4723041f946f2981064046518fd05c6da938f73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-NERDtree"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

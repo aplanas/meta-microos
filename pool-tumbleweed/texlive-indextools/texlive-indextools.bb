@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(indextools.sty) \
 texlive-indextools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

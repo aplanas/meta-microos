@@ -20,6 +20,7 @@ locale(rhash:ru) \
 locale(rhash:uk) \
 rhash-lang \
 rhash-lang-all"
+
 RDEPENDS:${PN} += "rhash"
 
 inherit rpm

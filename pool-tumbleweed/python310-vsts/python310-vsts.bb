@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vsts \
 python3.10dist(vsts) \
 python310-vsts \
 python3dist(vsts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msrest"
 

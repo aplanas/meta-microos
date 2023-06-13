@@ -13,6 +13,7 @@ libmpicxx.so.12()(64bit) \
 libmpifort.so.12()(64bit) \
 mvapich2 \
 mvapich2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

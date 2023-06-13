@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libmpeg2-devel \
 libmpeg2-devel(aarch-64) \
 pkgconfig(libmpeg2) \
 pkgconfig(libmpeg2convert)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpeg2-0 \
 libmpeg2convert0"

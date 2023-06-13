@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgnomekbd-devel \
 libgnomekbd-devel(aarch-64) \
 pkgconfig(libgnomekbd) \
 pkgconfig(libgnomekbdui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnomekbd-tools \
 libgnomekbd8 \

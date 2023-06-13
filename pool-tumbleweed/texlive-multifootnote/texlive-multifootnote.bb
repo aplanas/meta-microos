@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multifootnote.sty) \
 texlive-multifootnote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

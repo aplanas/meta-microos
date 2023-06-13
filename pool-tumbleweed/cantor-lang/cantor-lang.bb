@@ -60,6 +60,7 @@ locale(cantor:ug) \
 locale(cantor:uk) \
 locale(cantor:zh_CN) \
 locale(cantor:zh_TW)"
+
 RDEPENDS:${PN} += "cantor"
 
 inherit rpm

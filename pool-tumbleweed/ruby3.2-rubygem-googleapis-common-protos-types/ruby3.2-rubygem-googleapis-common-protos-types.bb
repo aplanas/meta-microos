@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:googleapis-common-protos-types) \
 rubygem(ruby:3.2.0:googleapis-common-protos-types:1) \
 rubygem(ruby:3.2.0:googleapis-common-protos-types:1.4) \
 rubygem(ruby:3.2.0:googleapis-common-protos-types:1.4.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:google-protobuf:3)"
 

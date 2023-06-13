@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-restructuredtext_lint \
 python3.10dist(restructuredtext-lint) \
 python310-restructuredtext_lint \
 python3dist(restructuredtext-lint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(nmcli_dmenu.desktop) \
 nmcli-dmenu"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 NetworkManager \
 dmenu"

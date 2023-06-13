@@ -11,6 +11,7 @@ RPM_HASH = "c0443df8409430ab0abf80e58caba47e6957ec96f49ab70ac6a83f665f2c71f19e7c
 RPROVIDES:${PN} += "libxml++30-devel \
 libxml++30-devel(aarch-64) \
 pkgconfig(libxml++-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibmm2-devel \
 libxml++-3_0-1 \

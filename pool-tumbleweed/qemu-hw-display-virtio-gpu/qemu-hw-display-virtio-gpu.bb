@@ -9,6 +9,7 @@ RPM_HASH = "1b4f83eb1fd9490a5f57903a3a4b27bafb2f9c40b6cf5fc794cd927bb8b05024900a
 
 RPROVIDES:${PN} += "qemu-hw-display-virtio-gpu \
 qemu-hw-display-virtio-gpu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

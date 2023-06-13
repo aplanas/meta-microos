@@ -13,6 +13,7 @@ gdal-devel(aarch-64) \
 libgdal-devel \
 libgdal32-devel \
 pkgconfig(gdal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libgdal32 \

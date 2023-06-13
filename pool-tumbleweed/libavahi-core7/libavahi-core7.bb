@@ -11,6 +11,7 @@ RPM_HASH = "4dbf4a3136ae046a0846ccc6b8540ce80dfb92602e392dca5e132f0d2c4ee36a51b4
 RPROVIDES:${PN} += "libavahi-core.so.7()(64bit) \
 libavahi-core7 \
 libavahi-core7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

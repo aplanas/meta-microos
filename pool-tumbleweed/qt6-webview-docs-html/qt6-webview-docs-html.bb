@@ -9,6 +9,7 @@ RPM_HASH = "fbfdaae8451c814dae4587e375c14d3dffb51eae686d9eaf49b77329805e5e6a7732
 
 RPROVIDES:${PN} += "qt6-webview-docs-html \
 qt6-webview-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

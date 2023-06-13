@@ -11,6 +11,7 @@ RPM_HASH = "94313a3aaa6677789384f77f114154668847faf2bc2f840da57ca19a51b92bb337da
 RPROVIDES:${PN} += "libtexpdf.so.0()(64bit) \
 libtexpdf0 \
 libtexpdf0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

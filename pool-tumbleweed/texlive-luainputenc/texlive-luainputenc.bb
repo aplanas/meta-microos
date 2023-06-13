@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(luainputenc.sty) \
 tex(lutf8.def) \
 tex(lutf8x.def) \
 texlive-luainputenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

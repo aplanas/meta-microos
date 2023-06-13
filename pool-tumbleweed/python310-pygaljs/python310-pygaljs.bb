@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pygaljs \
 python3.10dist(pygaljs) \
 python310-pygaljs \
 python3dist(pygaljs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

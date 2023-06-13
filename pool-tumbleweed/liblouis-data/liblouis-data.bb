@@ -13,6 +13,7 @@ RPM_HASH = "bcc066ca92b48481ac81108161da943d5ada48cc71978ee111472d679f736a9a0242
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblouis-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

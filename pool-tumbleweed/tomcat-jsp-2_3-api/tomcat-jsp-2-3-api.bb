@@ -17,6 +17,7 @@ mvn(org.eclipse.jetty.orbit:javax.servlet.jsp:pom:) \
 osgi(org.apache.tomcat-jsp-api) \
 tomcat-jsp-2.3-api \
 tomcat-jsp-2_3-api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

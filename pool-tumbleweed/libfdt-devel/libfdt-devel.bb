@@ -10,6 +10,7 @@ RPM_HASH = "885e69cc3ff844bab9bf87705af1ee1dc111025a8beb93e11bf698313332241a868c
 RPROVIDES:${PN} += "libfdt-devel \
 libfdt-devel(aarch-64) \
 libfdt1-devel"
+
 RDEPENDS:${PN} += "libfdt1"
 
 inherit rpm

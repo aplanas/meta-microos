@@ -15,6 +15,7 @@ RPM_HASH = "b660885833ae30ae87bac7d625b145c479cf6aed0a6582b64e85004ffaf148aeb437
 RPROVIDES:${PN} += "libsigc++3-devel \
 libsigc++3-devel(aarch-64) \
 pkgconfig(sigc++-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsigc-3_0-0 \
 libstdc++-devel"

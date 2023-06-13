@@ -81,6 +81,7 @@ locale(ark:uk) \
 locale(ark:zh_CN) \
 locale(ark:zh_HK) \
 locale(ark:zh_TW)"
+
 RDEPENDS:${PN} += "ark"
 
 inherit rpm

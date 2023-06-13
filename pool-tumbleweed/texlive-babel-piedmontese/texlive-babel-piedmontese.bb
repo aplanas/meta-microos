@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(piedmontese.ldf) \
 texlive-babel-piedmontese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

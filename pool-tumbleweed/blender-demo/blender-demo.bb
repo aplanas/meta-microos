@@ -12,6 +12,7 @@ RPM_HASH = "940fa15709d52a6fbd77ec04587e16efcbd137923b0118a46b9e9b986a800395254f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blender-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

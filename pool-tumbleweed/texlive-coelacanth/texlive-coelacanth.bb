@@ -638,6 +638,7 @@ tex(coel_z3thca.enc) \
 tex(coel_z4xltd.enc) \
 tex(coelacanth.sty) \
 texlive-coelacanth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

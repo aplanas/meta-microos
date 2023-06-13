@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(proxmoxer) \
 python311-proxmoxer \
 python3dist(proxmoxer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

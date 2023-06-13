@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-xapp \
 python3.10dist(python-xapp) \
 python310-xapp \
 python3dist(python-xapp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-psutil \
 xdg-utils"

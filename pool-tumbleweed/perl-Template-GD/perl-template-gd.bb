@@ -26,6 +26,7 @@ perl(Template::Plugin::GD::Text) \
 perl(Template::Plugin::GD::Text::Align) \
 perl(Template::Plugin::GD::Text::Wrap) \
 perl-Template-GD"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(GD) \
 perl(Template)"

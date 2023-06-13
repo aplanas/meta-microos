@@ -269,6 +269,7 @@ tex(lcsln_yiohbm.enc) \
 tex(lcsln_zdmgtj.enc) \
 tex(librecaslon.sty) \
 texlive-librecaslon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

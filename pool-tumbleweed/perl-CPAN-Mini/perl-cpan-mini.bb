@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(CPAN::Mini) \
 perl(CPAN::Mini::App) \
 perl-CPAN-Mini"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Zlib) \

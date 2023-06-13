@@ -13,6 +13,7 @@ RPM_HASH = "1763b3a338cdd3faa06bccb8c0106876010030b934303a595f4a6e10902f2e7047cd
 RPROVIDES:${PN} += "ghc-wai \
 ghc-wai(aarch-64) \
 libHSwai-3.2.3-LsLg4DRwusRI7b3SRdjDzn-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

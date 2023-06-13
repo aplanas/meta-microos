@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libXrender-devel \
 libXrender-devel(aarch-64) \
 pkgconfig(xrender) \
 xorg-x11-libXrender-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXrender1 \
 pkgconfig(renderproto) \

@@ -10,6 +10,7 @@ RPM_HASH = "3353212e81b24f84ca020e2625933e8ae3c0050ea534ae9801b9d07acd0fbaf21b0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rovasiras-roga-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

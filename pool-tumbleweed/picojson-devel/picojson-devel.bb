@@ -14,6 +14,7 @@ RPM_HASH = "c3b8a1577e8819d8c08275fca91f782cec717862378cacfe9962d67a95b05386d06d
 RPROVIDES:${PN} += "picojson-devel \
 picojson-devel(aarch-64) \
 picojson-static"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

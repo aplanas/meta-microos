@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "/sbin/isserial \
 blog \
 blog(aarch-64) \
 sysvinit-tools:/sbin/blogd"
+
 RDEPENDS:${PN} += "coreutils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

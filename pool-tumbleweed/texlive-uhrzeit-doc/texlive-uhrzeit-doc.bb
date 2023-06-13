@@ -9,6 +9,7 @@ RPM_HASH = "dbdf7b47289eaf441237ddef855a67260cd0ac3f35fc7569e5b3b4de23a89cc4f44f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uhrzeit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

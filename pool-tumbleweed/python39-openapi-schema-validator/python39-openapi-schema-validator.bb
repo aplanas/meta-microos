@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(openapi-schema-validator) \
 python39-openapi-schema-validator \
 python39-openapi_schema_validator \
 python3dist(openapi-schema-validator)"
+
 RDEPENDS:${PN} += "(python39-jsonschema >= 4 with python39-jsonschema < 4.18) \
 python(abi) \
 python39-rfc3339-validator"

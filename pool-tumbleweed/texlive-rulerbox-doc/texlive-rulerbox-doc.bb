@@ -9,6 +9,7 @@ RPM_HASH = "72d7cc24dc3ee85df24719c0acbb4c13bba91081fd470ac56d55c3fa16b42efebd15
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rulerbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

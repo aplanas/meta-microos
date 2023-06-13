@@ -15,6 +15,7 @@ locale(cpupower:de) \
 locale(cpupower:fr) \
 locale(cpupower:it) \
 locale(cpupower:pt)"
+
 RDEPENDS:${PN} += "cpupower"
 
 inherit rpm

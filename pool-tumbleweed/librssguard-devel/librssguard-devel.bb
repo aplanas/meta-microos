@@ -9,6 +9,7 @@ RPM_HASH = "2e8a09704605f93e8a19ba076536a80616d8b9b00640f53a3c4c13525ae5cbf5f111
 
 RPROVIDES:${PN} += "librssguard-devel \
 librssguard-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librssguard-4_3_4"
 
 inherit rpm

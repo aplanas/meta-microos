@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-asciimatics \
 python3.10dist(asciimatics) \
 python310-asciimatics \
 python3dist(asciimatics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-curses \

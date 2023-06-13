@@ -9,6 +9,7 @@ RPM_HASH = "4b669d61ba3d80c805aad5fe994e517d4b427ddb0ab5856202e573a7aebc2ad0e934
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guava-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

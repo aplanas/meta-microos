@@ -20,6 +20,7 @@ tex(pbsi8t.tfm) \
 tex(pbsi8t.vf) \
 tex(t1pbsi.fd) \
 texlive-brushscr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

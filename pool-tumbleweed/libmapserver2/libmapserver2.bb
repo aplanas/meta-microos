@@ -11,6 +11,7 @@ RPM_HASH = "2429e06adf262fb2af8b8900a8a91a34aec6ecb001b3d17b49199feea3e317c4b9c7
 RPROVIDES:${PN} += "libmapserver.so.2()(64bit) \
 libmapserver2 \
 libmapserver2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

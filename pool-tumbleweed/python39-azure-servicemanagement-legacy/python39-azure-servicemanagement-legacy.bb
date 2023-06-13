@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-servicemanagement-legacy) \
 python39-azure-servicemanagement-legacy \
 python3dist(azure-servicemanagement-legacy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-nspkg \

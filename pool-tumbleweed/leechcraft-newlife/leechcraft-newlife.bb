@@ -20,6 +20,7 @@ RPM_HASH = "98e8a614430f0ff524a98b55311e189a9a9f8d214e48ef00ef0ec99a18ad89ebc8f6
 RPROVIDES:${PN} += "leechcraft-newlife \
 leechcraft-newlife(aarch-64) \
 libleechcraft_newlife.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

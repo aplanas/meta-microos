@@ -10,6 +10,7 @@ RPM_HASH = "67bdf6178efa05bf2a8957b6ad882ed5d668ee1c697727e7d9fcfbdb69b389a4d6e5
 RPROVIDES:${PN} += "ghc-feed-prof \
 ghc-feed-prof(aarch-64) \
 ghc-prof(feed-1.3.2.1-9QdnKoSJqFXKInoiUUJDkf)"
+
 RDEPENDS:${PN} += "ghc-feed-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov) \

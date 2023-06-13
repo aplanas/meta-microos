@@ -11,6 +11,7 @@ RPM_HASH = "2eba542863815023f9b951376e2e423c97395468fb471872c610cca08021c6288050
 RPROVIDES:${PN} += "ghc-devel(tls-session-manager-0.0.4-1K8vLYLuq115RYgesNa5lw) \
 ghc-tls-session-manager-devel \
 ghc-tls-session-manager-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \

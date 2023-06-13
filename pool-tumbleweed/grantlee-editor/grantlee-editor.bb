@@ -15,6 +15,7 @@ application(org.kde.headerthemeeditor.desktop) \
 grantlee-editor \
 grantlee-editor(aarch-64) \
 libgrantleethemeeditor.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kaddressbook \
 kmail-application-icons \

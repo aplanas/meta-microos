@@ -11,6 +11,7 @@ RPM_HASH = "96bf73b553c286f26939627e0e9f3b8373be50eb52e7380cf66623fe4eed2a3a75e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-small"
+
 RDEPENDS:${PN} += "texlive-babel-basque \
 texlive-babel-czech \
 texlive-babel-danish \

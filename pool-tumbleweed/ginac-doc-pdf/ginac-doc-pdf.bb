@@ -12,6 +12,7 @@ RPM_HASH = "7e37e1ea42925a2ab9127689d9bfd45064895bc413766caefced439f66cfb1d7f2dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ginac-doc-pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

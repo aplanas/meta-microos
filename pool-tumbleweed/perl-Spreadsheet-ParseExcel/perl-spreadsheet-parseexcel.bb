@@ -28,6 +28,7 @@ perl(Spreadsheet::ParseExcel::Utility) \
 perl(Spreadsheet::ParseExcel::Workbook) \
 perl(Spreadsheet::ParseExcel::Worksheet) \
 perl-Spreadsheet-ParseExcel"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::RC4) \
 perl(Digest::Perl::MD5) \

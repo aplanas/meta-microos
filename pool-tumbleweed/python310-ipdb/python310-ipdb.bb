@@ -17,6 +17,7 @@ python3.10dist(ipdb) \
 python310-ipdb \
 python310-jupyter_ipdb \
 python3dist(ipdb)"
+
 RDEPENDS:${PN} += "(python310-ipython >= 7.16.3 if python310-base < 3.7) \
 (python310-ipython >= 7.31.1 if python310-base >= 3.7) \
 (python310-tomli if python310-base < 3.11) \

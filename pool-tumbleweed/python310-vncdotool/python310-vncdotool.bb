@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vncdotool \
 python3.10dist(vncdotool) \
 python310-vncdotool \
 python3dist(vncdotool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(breakurl.sty) \
 texlive-breakurl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

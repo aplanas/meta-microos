@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-steamtricks \
 steamtricks-data-252950-Rocket_League"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ca-certificates \

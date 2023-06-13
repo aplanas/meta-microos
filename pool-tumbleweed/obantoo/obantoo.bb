@@ -9,6 +9,7 @@ RPM_HASH = "75df754997639127c5b7c0a99496f08949f3292d78fbef3fe21489d152e69df8a9ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obantoo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

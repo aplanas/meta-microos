@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "tex(chemmacros-2015-02-08.sty) \
 tex(chemmacros-2020-03-07.sty) \
 tex(chemmacros.sty) \
 texlive-chemmacros"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

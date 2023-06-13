@@ -11,6 +11,7 @@ RPM_HASH = "3ef1c93f700f0199ad3c00842babf3be07bdec056eb0c501e32430c5fcef590b705f
 RPROVIDES:${PN} += "libsss_proxy.so()(64bit) \
 sssd-proxy \
 sssd-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

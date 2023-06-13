@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-bobo \
 python3.10dist(bobo) \
 python310-bobo \
 python3dist(bobo)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

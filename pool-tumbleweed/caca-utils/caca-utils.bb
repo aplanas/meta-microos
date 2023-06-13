@@ -21,6 +21,7 @@ RPM_HASH = "059fa92c4442486a19629f1b89e3163b52a0a97261ea72196f902eea8f6f1f703abc
 
 RPROVIDES:${PN} += "caca-utils \
 caca-utils(aarch-64)"
+
 RDEPENDS:${PN} += "imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

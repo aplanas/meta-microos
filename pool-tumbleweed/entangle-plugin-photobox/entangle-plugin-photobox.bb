@@ -13,6 +13,7 @@ RPM_HASH = "d4961bde814a71f4ec31d681b7378e1fd95d1df9f32a6f758adacd5de98fa5a0c7b1
 
 RPROVIDES:${PN} += "entangle-plugin-photobox \
 entangle-plugin-photobox(aarch-64)"
+
 RDEPENDS:${PN} += "entangle \
 python3 \
 python3-gobject \

@@ -48,6 +48,7 @@ locale(gramps:vi) \
 locale(gramps:zh_CN) \
 locale(gramps:zh_HK) \
 locale(gramps:zh_TW)"
+
 RDEPENDS:${PN} += "gramps"
 
 inherit rpm

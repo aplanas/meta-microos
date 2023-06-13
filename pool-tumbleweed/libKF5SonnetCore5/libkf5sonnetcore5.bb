@@ -12,6 +12,7 @@ RPM_HASH = "a3efe5de2e30c03450b8b80a64260c14fd94b08eade9d8796cc9a8019bc6bdd194e8
 RPROVIDES:${PN} += "libKF5SonnetCore.so.5()(64bit) \
 libKF5SonnetCore5 \
 libKF5SonnetCore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

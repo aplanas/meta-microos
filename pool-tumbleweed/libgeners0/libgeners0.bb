@@ -12,6 +12,7 @@ RPM_HASH = "18ef6d83b181b4556f3ee6733b29c024e47329ca9c5bfc442dea36ed13a9120db7aa
 RPROVIDES:${PN} += "libgeners.so.0()(64bit) \
 libgeners0 \
 libgeners0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

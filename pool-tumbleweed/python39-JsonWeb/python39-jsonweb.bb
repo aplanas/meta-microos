@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jsonweb) \
 python39-JsonWeb \
 python3dist(jsonweb)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

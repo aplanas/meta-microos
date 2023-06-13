@@ -15,6 +15,7 @@ RPM_HASH = "ab3257c4bdad0b7c66bdc7ea43cdb5b5bdfa1b8335a16fb47b9edb6e7f9e2a252e11
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-srcredact"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

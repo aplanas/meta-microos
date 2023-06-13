@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(waybar-branding-upstream) \
 waybar-branding \
 waybar-branding-upstream"
+
 RDEPENDS:${PN} += "waybar"
 
 inherit rpm

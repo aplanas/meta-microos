@@ -13,6 +13,7 @@ cmake(KPim5MailTransportDBusService) \
 cmake(MailTransportDBusService) \
 libkdepim-devel \
 libkdepim-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KPim5Akonadi) \
 cmake(KPim5AkonadiContact) \
 libKPim5Libkdepim5 \

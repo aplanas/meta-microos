@@ -25,6 +25,7 @@ ocamlx(Logs_cli) \
 ocamlx(Logs_fmt) \
 ocamlx(Logs_threaded) \
 ocamlx(Logs_top)"
+
 RDEPENDS:${PN} += "ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

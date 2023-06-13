@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-removed-in \
 python3.10dist(sphinx-removed-in) \
 python310-sphinx-removed-in \
 python3dist(sphinx-removed-in)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

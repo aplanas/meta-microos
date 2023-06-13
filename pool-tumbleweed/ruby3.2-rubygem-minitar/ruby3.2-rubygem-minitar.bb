@@ -20,6 +20,7 @@ rubygem(minitar) \
 rubygem(ruby:3.2.0:minitar) \
 rubygem(ruby:3.2.0:minitar:0) \
 rubygem(ruby:3.2.0:minitar:0.9)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

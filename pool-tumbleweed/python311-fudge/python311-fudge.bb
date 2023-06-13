@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fudge) \
 python311-fudge \
 python3dist(fudge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

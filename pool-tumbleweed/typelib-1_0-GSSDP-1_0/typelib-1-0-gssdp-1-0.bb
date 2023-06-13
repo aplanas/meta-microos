@@ -13,6 +13,7 @@ RPM_HASH = "4ce04b8c39f365aa45479f888f73ccb078db62d0b0d2b9d576a99040053314e05051
 RPROVIDES:${PN} += "typelib(GSSDP) \
 typelib-1_0-GSSDP-1_0 \
 typelib-1_0-GSSDP-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgssdp-1.6.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

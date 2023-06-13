@@ -128,6 +128,7 @@ font(homa) \
 font(nazli) \
 font(titr) \
 texlive-arabi-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

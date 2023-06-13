@@ -9,6 +9,7 @@ RPM_HASH = "f44755efac528e8d67b4ac5f2d83c32127372dad6f8fddde936e18746d43dd9cb500
 
 RPROVIDES:${PN} += "slirp4netns \
 slirp4netns(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

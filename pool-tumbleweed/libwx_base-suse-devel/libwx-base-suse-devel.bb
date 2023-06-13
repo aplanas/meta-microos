@@ -12,6 +12,7 @@ RPM_HASH = "f6d436c58e7f57890106850fb8e7cbf018133b4d3b90a13ab6f12ea64451cff36b04
 RPROVIDES:${PN} += "libwx_base-devel \
 libwx_base-suse-devel \
 libwx_base-suse-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libwx_baseu-suse9_0_0 \
 libwx_baseu_net-suse9_0_0 \
 libwx_baseu_xml-suse9_0_0"

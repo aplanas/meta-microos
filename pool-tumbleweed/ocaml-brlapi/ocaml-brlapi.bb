@@ -18,6 +18,7 @@ RPM_HASH = "716d8ec04061793e8a2b962546fa73b8cb2af31aa52cf7c93827d2b118b0c6f818ce
 
 RPROVIDES:${PN} += "ocaml-brlapi \
 ocaml-brlapi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrlapi.so.0.8()(64bit) \

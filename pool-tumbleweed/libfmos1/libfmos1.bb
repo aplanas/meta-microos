@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libfmos.so.1()(64bit) \
 libfmos.so.1(V_20220811)(64bit) \
 libfmos1 \
 libfmos1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

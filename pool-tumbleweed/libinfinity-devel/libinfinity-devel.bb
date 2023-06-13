@@ -17,6 +17,7 @@ pkgconfig(libinfinity-0.7) \
 pkgconfig(libinfinoted-plugin-manager-0.7) \
 pkgconfig(libinftext-0.7) \
 pkgconfig(libinftextgtk-0.7)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnutls-devel \
 libgsasl-devel \

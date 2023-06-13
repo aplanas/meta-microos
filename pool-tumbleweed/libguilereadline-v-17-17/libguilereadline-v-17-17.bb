@@ -13,6 +13,7 @@ RPM_HASH = "2ce307b585b6c0a3656b14b2a4b8e7d82aa31d5224ffd16b76f314abf1c52ab2693f
 RPROVIDES:${PN} += "libguilereadline-v-17-17 \
 libguilereadline-v-17-17(aarch-64) \
 libguilereadline-v-17.so.17()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

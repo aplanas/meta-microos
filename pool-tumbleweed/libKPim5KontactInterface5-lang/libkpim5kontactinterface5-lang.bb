@@ -68,6 +68,7 @@ locale(libKPim5KontactInterface5:vi) \
 locale(libKPim5KontactInterface5:wa) \
 locale(libKPim5KontactInterface5:zh_CN) \
 locale(libKPim5KontactInterface5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5KontactInterface5"
 
 inherit rpm

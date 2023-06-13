@@ -20,6 +20,7 @@ RPM_HASH = "d3ec81e99ae284b2e2d207988092494c157fbf86a63c261cfa46af46eac5a1aea400
 RPROVIDES:${PN} += "libudtrace.so()(64bit) \
 udtrace \
 udtrace(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

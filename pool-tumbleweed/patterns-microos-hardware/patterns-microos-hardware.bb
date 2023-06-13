@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-hardware \
 patterns-microos-hardware(aarch-64)"
+
 RDEPENDS:${PN} += "ethtool \
 fcoe-utils \
 hwinfo \

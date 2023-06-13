@@ -16,6 +16,7 @@ perl(XrdCmsNotify) \
 user(xrootd) \
 xrootd-server \
 xrootd-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

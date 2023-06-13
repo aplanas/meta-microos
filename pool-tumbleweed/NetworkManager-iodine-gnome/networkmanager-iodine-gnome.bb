@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "NetworkManager-iodine-gnome \
 NetworkManager-iodine-gnome(aarch-64) \
 metainfo() \
 metainfo(network-manager-iodine.appdata.xml)"
+
 RDEPENDS:${PN} += "NetworkManager-iodine \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

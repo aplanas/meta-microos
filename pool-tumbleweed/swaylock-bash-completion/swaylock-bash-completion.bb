@@ -9,6 +9,7 @@ RPM_HASH = "bc5321f730aa0a4b954d876dca5e999293b65ebaa20b54818eb2d0ef00616f932f9e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaylock-bash-completion"
+
 RDEPENDS:${PN} += "swaylock"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "624eb7e4def741877e6dc139286d3d5ecc2a30c6132439df7bccc9584cd125899e6d
 RPROVIDES:${PN} += "ghc-devel(timerep-2.1.0.0-I3sgV342xF22sEKbdw3Ltk) \
 ghc-timerep-devel \
 ghc-timerep-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

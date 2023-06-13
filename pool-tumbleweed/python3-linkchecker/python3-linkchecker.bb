@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "linkchecker \
 python3-linkchecker \
 python3.10dist(linkchecker) \
 python3dist(linkchecker)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

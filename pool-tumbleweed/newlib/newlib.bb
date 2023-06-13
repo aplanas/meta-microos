@@ -11,6 +11,7 @@ RPM_HASH = "7593c7e4d313b82e3f40cc791a9b2b1c7066789afa2d19bdc9bbb899a0e66e847629
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "newlib"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

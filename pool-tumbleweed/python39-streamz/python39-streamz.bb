@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(streamz) \
 python39-streamz \
 python3dist(streamz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools \
 python39-six \

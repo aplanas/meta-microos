@@ -10,6 +10,7 @@ RPM_HASH = "b2bf7d932dad672f31ded4bab189e70fa95bf3ee8750d860f25f849e9f6b8d417ab2
 RPROVIDES:${PN} += "libconferenceloggerplugin.so()(64bit) \
 psi+-plugins-conferenceloggerplugin \
 psi+-plugins-conferenceloggerplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "31dd0858b727bf254a3de87a68d6b713f5da4740819288d1e699ff4c845f73ead191
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-menucard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

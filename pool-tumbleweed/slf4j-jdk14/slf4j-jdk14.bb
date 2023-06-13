@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.slf4j:slf4j-jdk14) \
 mvn(org.slf4j:slf4j-jdk14:pom:) \
 osgi(slf4j.jdk14) \
 slf4j-jdk14"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

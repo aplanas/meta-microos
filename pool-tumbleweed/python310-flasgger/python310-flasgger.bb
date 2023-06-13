@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flasgger \
 python3.10dist(flasgger) \
 python310-flasgger \
 python3dist(flasgger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-PyYAML \

@@ -32,6 +32,7 @@ perl(Remind::PDF::Entry::week) \
 perl(Remind::PDF::Multi) \
 remind \
 remind(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

@@ -27,6 +27,7 @@ RPM_HASH = "d1e7001804f468afe7f5be8390b1ff4eb40b72bb8aaebb12e18655e319dd88184efa
 RPROVIDES:${PN} += "librelp-devel \
 librelp-devel(aarch-64) \
 pkgconfig(relp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnutls-devel \
 librelp0 \

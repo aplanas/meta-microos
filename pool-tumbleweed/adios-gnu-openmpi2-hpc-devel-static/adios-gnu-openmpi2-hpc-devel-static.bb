@@ -11,6 +11,7 @@ RPM_HASH = "6b5be3cfedd3dbe632207d4af4610161dfafdef3005c4ae2a70242a96b473709ab7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-openmpi2-hpc-devel-static"
+
 RDEPENDS:${PN} += "/bin/sh \
 adios_1_13_1-gnu-openmpi2-hpc-devel-static"
 

@@ -14,6 +14,7 @@ RPM_HASH = "2a1d2544a0766deb5a955bca46c447adb3c7f860c30fc8064a0e1c89d62051e92cc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

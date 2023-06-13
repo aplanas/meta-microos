@@ -14,6 +14,7 @@ RPM_HASH = "a4abeda10a10c799b7a9c9c2008f8f4b3e61aea53d6cad155665d7155f3b3b804b09
 RPROVIDES:${PN} += "libgstbasecamerabinsrc-1.0.so.0()(64bit) \
 libgstbasecamerabinsrc-1_0-0 \
 libgstbasecamerabinsrc-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

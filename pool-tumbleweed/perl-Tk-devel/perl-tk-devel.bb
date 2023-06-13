@@ -9,6 +9,7 @@ RPM_HASH = "758dcc6ed60fb51ffe96521003caa9f1c856d4cd0da4e7ab686d17e4b47971d69878
 
 RPROVIDES:${PN} += "perl-Tk-devel \
 perl-Tk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Tk"
 

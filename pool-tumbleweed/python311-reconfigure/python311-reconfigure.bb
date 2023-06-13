@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(reconfigure) \
 python311-reconfigure \
 python3dist(reconfigure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-chardet"
 

@@ -10,6 +10,7 @@ RPM_HASH = "27d48dc25507fa998e0c5af7baf39f184300fc15bb9783c74b70729b3068380163f1
 RPROVIDES:${PN} += "libsixel-devel \
 libsixel-devel(aarch-64) \
 pkgconfig(libsixel)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsixel1"
 

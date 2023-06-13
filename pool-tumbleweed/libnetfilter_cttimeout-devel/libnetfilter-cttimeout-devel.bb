@@ -11,6 +11,7 @@ RPM_HASH = "c117ef2b09eafd44908f926b95899b0693700970dc7597ec5c4da702e747b860c5b1
 RPROVIDES:${PN} += "libnetfilter_cttimeout-devel \
 libnetfilter_cttimeout-devel(aarch-64) \
 pkgconfig(libnetfilter_cttimeout)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_cttimeout1"
 

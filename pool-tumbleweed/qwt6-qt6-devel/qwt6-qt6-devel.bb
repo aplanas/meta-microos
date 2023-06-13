@@ -11,6 +11,7 @@ RPM_HASH = "50939502ab2a406a12f03614d6195aef1e3e04481c1eeddbbaefdb8976635c69734b
 RPROVIDES:${PN} += "pkgconfig(Qt6Qwt6) \
 qwt6-qt6-devel \
 qwt6-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 freetype2-devel \
 gcc-c++ \

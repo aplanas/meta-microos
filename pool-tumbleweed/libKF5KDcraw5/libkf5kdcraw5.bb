@@ -15,6 +15,7 @@ RPM_HASH = "8b6da55e471c32b5d3e958d988ae61491f968153fa83bf8e201784c12e1991a4becd
 RPROVIDES:${PN} += "libKF5KDcraw.so.5()(64bit) \
 libKF5KDcraw5 \
 libKF5KDcraw5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

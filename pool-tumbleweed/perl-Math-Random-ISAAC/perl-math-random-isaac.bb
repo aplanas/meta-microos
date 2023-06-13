@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Math::Random::ISAAC) \
 perl(Math::Random::ISAAC::PP) \
 perl-Math-Random-ISAAC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

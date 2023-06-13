@@ -10,6 +10,7 @@ RPM_HASH = "69ecec15abc4de7dc03ca14c4472a1d41c467938a1db958486806ef2e915fbdd624a
 RPROVIDES:${PN} += "pkgconfig(libpragha) \
 pragha-plugins-devel \
 pragha-plugins-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gstreamer-1.0) \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(HTTP::Thin) \
 perl-HTTP-Thin"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(HTTP::Response) \

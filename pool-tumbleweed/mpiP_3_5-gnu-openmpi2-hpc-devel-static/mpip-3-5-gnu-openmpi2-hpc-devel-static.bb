@@ -11,6 +11,7 @@ RPM_HASH = "db7ccfddc0eb64e7bbf8dd88edb72db5f1e3094f05d0ad68b88dbf59420063c6eb5c
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-openmpi2-hpc-devel-static \
 mpiP_3_5-gnu-openmpi2-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 openmpi2-gnu-hpc-devel"
 

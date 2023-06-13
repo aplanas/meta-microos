@@ -11,6 +11,7 @@ RPM_HASH = "bcce7be17f386e3a4341d6fe539afae169503a351096f51038d37f8ca1238791bdec
 
 RPROVIDES:${PN} += "gnu-efi \
 gnu-efi(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

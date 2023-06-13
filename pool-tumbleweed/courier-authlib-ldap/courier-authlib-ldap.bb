@@ -12,6 +12,7 @@ RPM_HASH = "b45b2fe817b58c096c95ba5bb999ee45329ceaa29b91a321310582ee7a788044b46d
 RPROVIDES:${PN} += "courier-authlib-ldap \
 courier-authlib-ldap(aarch-64) \
 libauthldap.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

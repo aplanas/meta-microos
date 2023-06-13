@@ -15,6 +15,7 @@ group(public) \
 group(sys) \
 group(xok) \
 system-group-obsolete"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

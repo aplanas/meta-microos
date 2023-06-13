@@ -9,6 +9,7 @@ RPM_HASH = "dc607888cf6c8f558118adb04bcf53420e667bb3828076971d638e6709f7f30c7eb1
 
 RPROVIDES:${PN} += "libklu-doc \
 libklu-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

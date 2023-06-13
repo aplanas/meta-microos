@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-flask-jwt-extended \
 python3.10dist(flask-jwt-extended) \
 python310-flask-jwt-extended \
 python3dist(flask-jwt-extended)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-PyJWT \

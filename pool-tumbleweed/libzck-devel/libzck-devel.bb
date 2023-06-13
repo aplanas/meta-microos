@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libzck-devel \
 libzck-devel(aarch-64) \
 pkgconfig(zck) \
 zchunk-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzck1 \
 pkgconfig(libzstd) \

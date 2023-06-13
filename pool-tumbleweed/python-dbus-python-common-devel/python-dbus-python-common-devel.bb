@@ -16,6 +16,7 @@ python-dbus-python-common-devel(aarch-64) \
 python310-dbus-python-common-devel \
 python311-dbus-python-common-devel \
 python39-dbus-python-common-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1-devel \
 pkgconfig(dbus-1) \

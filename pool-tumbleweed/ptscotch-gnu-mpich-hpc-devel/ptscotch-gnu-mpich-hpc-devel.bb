@@ -11,6 +11,7 @@ RPM_HASH = "03444f8552927b5386e3ce66ec4861ba2054aae276b9e57660cba3572606702fe1da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ptscotch-gnu-mpich-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ptscotch_6_1_0-gnu-mpich-hpc-devel"
 

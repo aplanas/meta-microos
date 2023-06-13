@@ -10,6 +10,7 @@ RPM_HASH = "39df0f60bb47e0e52ba1bc4bf281cbd57e681092b44081b8a831608f4611534a753d
 
 RPROVIDES:${PN} += "pnglite-devel \
 pnglite-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpnglite0"
 
 inherit rpm

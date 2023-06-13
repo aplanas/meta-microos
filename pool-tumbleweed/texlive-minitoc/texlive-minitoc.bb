@@ -22,6 +22,7 @@ tex(mtcmess.sty) \
 tex(mtcoff.sty) \
 tex(mtcpatchmem.sty) \
 texlive-minitoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

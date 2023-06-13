@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-jsonschema \
 python3.10dist(sphinx-jsonschema) \
 python310-sphinx-jsonschema \
 python3dist(sphinx-jsonschema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-docutils \

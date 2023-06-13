@@ -10,6 +10,7 @@ RPM_HASH = "80fc90c70b086b464ee83cde9b65e7b145e150dccff06c533ebd387b21866cce6dfd
 RPROVIDES:${PN} += "libiodbcadm.so.2()(64bit) \
 libiodbcadm2 \
 libiodbcadm2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

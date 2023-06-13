@@ -9,6 +9,7 @@ RPM_HASH = "211cd9ffc78e35b94eb1c10cd320479b333a9b3257cb6bb400510542ef73522a9fd1
 
 RPROVIDES:${PN} += "vncmanager-controller-gnome \
 vncmanager-controller-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-shell \
 vncmanager-controller"
 

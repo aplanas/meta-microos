@@ -10,6 +10,7 @@ RPM_HASH = "30218f51170a29615dac11f05cff6048718613c02262ead1d18333dfe84af694223d
 RPROVIDES:${PN} += "librfxencode.so.0()(64bit) \
 librfxencode0 \
 librfxencode0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

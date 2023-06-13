@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "group(usbmux) \
 usbmuxd \
 usbmuxd(aarch-64) \
 user(usbmux)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(nogroup) \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ltabptch.sty) \
 texlive-ltabptch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

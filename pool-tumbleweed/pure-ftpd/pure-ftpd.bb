@@ -19,6 +19,7 @@ ftp-server \
 pure-ftpd \
 pure-ftpd(aarch-64) \
 pureftpd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "a7c7990d0dc465c36f57866f951ea6f38ff5684a2b425c6ebe840854039cf7e2e6a0
 
 RPROVIDES:${PN} += "mathgl-tools \
 mathgl-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

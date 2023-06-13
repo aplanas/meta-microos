@@ -9,6 +9,7 @@ RPM_HASH = "10d192a3ef03f398e2841045ae515b9cd294f95ac7af1b27808ccc22aa94cd5979db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-musikui-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "tex(load-unicode-data.tex) \
 tex(load-unicode-math-classes.tex) \
 tex(load-unicode-xetex-classes.tex) \
 texlive-unicode-data"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "02422a1ad0552ec96d5cdfe7df42068f2427e71f6d360dd5173bdecd3f57be4a47df
 
 RPROVIDES:${PN} += "fityk-devel \
 fityk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfityk4"
 
 inherit rpm

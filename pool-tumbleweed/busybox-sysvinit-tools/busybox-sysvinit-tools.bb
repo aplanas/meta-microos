@@ -9,6 +9,7 @@ RPM_HASH = "5e037b150d367738fe3e56d9ef4888fa3efb5d1074ac1e23e239ab3e7aeea7ddaa81
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sysvinit-tools"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

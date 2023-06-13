@@ -10,6 +10,7 @@ RPM_HASH = "46ca79b76cb18ff59ee02d71ec2dfda8ff70103bc854d00f7a29903bdb390ac3605e
 RPROVIDES:${PN} += "ghc-comonad \
 ghc-comonad(aarch-64) \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so()(64bit) \

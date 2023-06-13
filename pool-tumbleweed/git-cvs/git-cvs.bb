@@ -9,6 +9,7 @@ RPM_HASH = "67e7a50a30a26e6cf26d895d032efe4a568a75f8305e26551e6d3c5436830187e0f6
 
 RPROVIDES:${PN} += "git-cvs \
 git-cvs(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 cvs \
 cvsps \

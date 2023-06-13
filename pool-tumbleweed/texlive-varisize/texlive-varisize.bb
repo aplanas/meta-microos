@@ -21,6 +21,7 @@ tex(7point.tex) \
 tex(8point.tex) \
 tex(9point.tex) \
 texlive-varisize"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

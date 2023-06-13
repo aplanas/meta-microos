@@ -25,6 +25,7 @@ RPM_HASH = "950cd4836fa4e5334b542d5fdb0814a199c523343d356913f5c85ce4416a969fbbba
 RPROVIDES:${PN} += "libOgreTerrain.so.13.5()(64bit) \
 libOgreTerrain13_5 \
 libOgreTerrain13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

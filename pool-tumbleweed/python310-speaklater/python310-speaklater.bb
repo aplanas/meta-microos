@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-speaklater \
 python3.10dist(speaklater) \
 python310-speaklater \
 python3dist(speaklater)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

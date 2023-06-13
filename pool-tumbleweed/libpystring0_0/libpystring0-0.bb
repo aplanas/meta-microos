@@ -21,6 +21,7 @@ RPM_HASH = "ec503f3dd93aed22230ee047cf7ee6276fe1bf2cc4c3a4e8424267548536c51ba9d3
 RPROVIDES:${PN} += "libpystring.so.0.0()(64bit) \
 libpystring0_0 \
 libpystring0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

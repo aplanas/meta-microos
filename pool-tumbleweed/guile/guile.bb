@@ -11,6 +11,7 @@ RPM_HASH = "74ec9b7365d984af6f5eb8260e895b635553fcfc08a41ea964d0e1ba1f958ce8f2dc
 
 RPROVIDES:${PN} += "guile \
 guile(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fileutils \
 ld-linux-aarch64.so.1()(64bit) \

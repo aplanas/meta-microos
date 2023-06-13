@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sklearn-pandas) \
 python39-sklearn-pandas \
 python3dist(sklearn-pandas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-pandas \

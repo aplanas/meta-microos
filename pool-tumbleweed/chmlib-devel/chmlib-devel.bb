@@ -11,6 +11,7 @@ RPM_HASH = "9c7e6b601997077b9c1a0b38ff919d118cc2637f68f364219491b9a3ea6c52f317e3
 
 RPROVIDES:${PN} += "chmlib-devel \
 chmlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libchm0"
 
 inherit rpm

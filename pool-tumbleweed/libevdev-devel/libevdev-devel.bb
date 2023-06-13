@@ -14,6 +14,7 @@ RPM_HASH = "0fc5838e8c082ada020b7033667aeea30afbfece0116161f0601366fbba64be63abd
 RPROVIDES:${PN} += "libevdev-devel \
 libevdev-devel(aarch-64) \
 pkgconfig(libevdev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libevdev2"
 

@@ -15,6 +15,7 @@ mvn(org.antlr:antlr4-master:pom:) \
 mvn(org.antlr:antlr4-runtime) \
 mvn(org.antlr:antlr4-runtime:pom:) \
 osgi(org.antlr.antlr4-runtime)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -18,6 +18,7 @@ locale(rmw:ru) \
 locale(rmw:uk) \
 rmw-lang \
 rmw-lang-all"
+
 RDEPENDS:${PN} += "rmw"
 
 inherit rpm

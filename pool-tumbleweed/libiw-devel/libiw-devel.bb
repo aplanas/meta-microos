@@ -11,6 +11,7 @@ RPM_HASH = "06acd5028f2164bb2aa316eef2884008adce6411a08e00b916e00fac5839a16920dc
 
 RPROVIDES:${PN} += "libiw-devel \
 libiw-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libiw30"
 

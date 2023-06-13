@@ -10,6 +10,7 @@ RPM_HASH = "d6ce3fd20c2553be52ae551ef6ab74a6671d8f867f52bedaf738dfdd48edbc11e44f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mygnuhealth-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

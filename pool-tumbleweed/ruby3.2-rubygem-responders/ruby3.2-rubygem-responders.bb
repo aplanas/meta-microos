@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:responders) \
 rubygem(ruby:3.2.0:responders:3) \
 rubygem(ruby:3.2.0:responders:3.0) \
 rubygem(ruby:3.2.0:responders:3.0.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:railties)"

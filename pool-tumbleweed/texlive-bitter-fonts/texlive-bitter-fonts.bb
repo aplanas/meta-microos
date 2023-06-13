@@ -106,6 +106,7 @@ font(:lang=zu) \
 font(bitter) \
 font(bttr) \
 texlive-bitter-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

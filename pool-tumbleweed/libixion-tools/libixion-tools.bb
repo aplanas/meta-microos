@@ -9,6 +9,7 @@ RPM_HASH = "f79d7dec119cacd7629fd950a0a3a3254a4fe77b62834880295db375a4c232eda53d
 
 RPROVIDES:${PN} += "libixion-tools \
 libixion-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

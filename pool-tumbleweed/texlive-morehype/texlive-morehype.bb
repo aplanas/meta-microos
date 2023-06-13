@@ -23,6 +23,7 @@ tex(lnavicol.sty) \
 tex(markblog.sty) \
 tex(texlinks.sty) \
 texlive-morehype"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

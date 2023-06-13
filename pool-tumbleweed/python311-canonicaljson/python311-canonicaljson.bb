@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(canonicaljson) \
 python311-canonicaljson \
 python3dist(canonicaljson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-frozendict \
 python311-simplejson \

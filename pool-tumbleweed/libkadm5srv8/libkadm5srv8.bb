@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libkadm5srv.so.8()(64bit) \
 libkadm5srv.so.8(HEIMDAL_KAMD5_SERVER_1.0)(64bit) \
 libkadm5srv8 \
 libkadm5srv8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

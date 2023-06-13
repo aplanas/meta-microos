@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-premailer \
 python3.10dist(premailer) \
 python310-premailer \
 python3dist(premailer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cachetools \
 python310-cssselect \

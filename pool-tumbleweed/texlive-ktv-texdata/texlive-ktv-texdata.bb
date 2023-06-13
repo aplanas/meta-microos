@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ktv-buildnum.sty) \
 tex(ktv-texdata.sty) \
 texlive-ktv-texdata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

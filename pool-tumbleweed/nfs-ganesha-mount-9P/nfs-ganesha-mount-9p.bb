@@ -10,6 +10,7 @@ RPM_HASH = "29f763a0efe731df6816207882077dd03dfcf0c34be7b3ef56ca712778fa3c709c9b
 
 RPROVIDES:${PN} += "nfs-ganesha-mount-9P \
 nfs-ganesha-mount-9P(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

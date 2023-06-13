@@ -16,6 +16,7 @@ RPM_HASH = "acf9b01f286fb52dc0d954f6643c0f58a59d311f67cfba088e7306ab907fe9386c20
 
 RPROVIDES:${PN} += "glucat-devel \
 glucat-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

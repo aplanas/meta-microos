@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pyth_pdf \
 python-doc-pdf \
 python2-doc-pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

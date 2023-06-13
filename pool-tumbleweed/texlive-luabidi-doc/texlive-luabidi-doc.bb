@@ -9,6 +9,7 @@ RPM_HASH = "ba277562aed5f5d0c95159ca1096b05ff41cf2da88cbb398ebc07b0aa0fbd6f60a7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luabidi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

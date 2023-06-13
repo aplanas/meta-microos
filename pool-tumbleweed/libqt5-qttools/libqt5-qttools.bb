@@ -20,6 +20,7 @@ libqt5-qttools \
 libqt5-qttools(aarch-64) \
 mimehandler(application/x-assistant) \
 mimehandler(application/x-designer)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

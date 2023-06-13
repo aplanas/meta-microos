@@ -9,6 +9,7 @@ RPM_HASH = "ceb05ecf8799dbf7d730f800936ee3e94008c94d03af4835853a267c9be242aaea66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-sound-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

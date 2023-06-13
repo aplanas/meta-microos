@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(slixmpp) \
 python39-slixmpp \
 python39-slixmpp(aarch-64) \
 python3dist(slixmpp)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

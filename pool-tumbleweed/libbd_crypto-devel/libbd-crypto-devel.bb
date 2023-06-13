@@ -11,6 +11,7 @@ RPM_HASH = "6e293e04ccf9c60e786f6090ddec9f049600434ca143114771bbcbf5a567dffc0bf2
 RPROVIDES:${PN} += "libbd_crypto-devel \
 libbd_crypto-devel(aarch-64) \
 libblockdev-crypto-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_crypto2"
 

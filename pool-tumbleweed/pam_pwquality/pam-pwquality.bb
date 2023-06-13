@@ -10,6 +10,7 @@ RPM_HASH = "803fe6357f39d2c42f79ae9d151cd0bf842c73ff7ac52222ff8236dded7ce235ca0b
 
 RPROVIDES:${PN} += "pam_pwquality \
 pam_pwquality(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

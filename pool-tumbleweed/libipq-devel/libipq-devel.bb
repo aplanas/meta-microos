@@ -16,6 +16,7 @@ RPM_HASH = "d34825c03f661cfce288f9f93e0b2898457fe02b2b8c75a46dd528fc86531a2ed054
 RPROVIDES:${PN} += "libipq-devel \
 libipq-devel(aarch-64) \
 pkgconfig(libipq)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libipq0"
 

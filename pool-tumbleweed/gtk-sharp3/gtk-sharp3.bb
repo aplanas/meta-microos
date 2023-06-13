@@ -20,6 +20,7 @@ mono(gdk-sharp) \
 mono(gtk-dotnet) \
 mono(gtk-sharp) \
 mono(pango-sharp)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libatk-1.0.so.0()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

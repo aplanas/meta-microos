@@ -10,6 +10,7 @@ RPM_HASH = "1bbf9e87b2f58fb3774b2a8977b9d51437d473769421f4f64a174bbb88336038b9dd
 
 RPROVIDES:${PN} += "gwenhywfar-gwenbuild \
 gwenhywfar-gwenbuild(aarch-64)"
+
 RDEPENDS:${PN} += "gwenhywfar-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

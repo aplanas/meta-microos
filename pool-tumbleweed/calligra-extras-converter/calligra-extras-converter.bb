@@ -10,6 +10,7 @@ RPM_HASH = "ef45744708509b86d7eb86653c718265d6312548094865bb099b36369c7ec9af0bdf
 
 RPROVIDES:${PN} += "calligra-extras-converter \
 calligra-extras-converter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "254ece327a2aea12e8f019c4f7842e29d8fb39fc7f92b5632058f02584d9dedd31d5
 
 RPROVIDES:${PN} += "budgie-workspace-stopwatch-applet \
 budgie-workspace-stopwatch-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 typelib(Budgie) \

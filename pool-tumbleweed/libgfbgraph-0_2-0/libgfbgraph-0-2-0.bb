@@ -10,6 +10,7 @@ RPM_HASH = "258084e6f49462e5472ab8a7a6fd7fadb9025b174332097281ae139c04541c4d7fa0
 RPROVIDES:${PN} += "libgfbgraph-0.2.so.0()(64bit) \
 libgfbgraph-0_2-0 \
 libgfbgraph-0_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

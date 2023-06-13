@@ -9,6 +9,7 @@ RPM_HASH = "1981249c6fee09b79875777506480a4e1c6fc8650ad9e6142e2d30f9189269cc7975
 
 RPROVIDES:${PN} += "texlive-mltex-bin \
 texlive-mltex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mltex"
 
 inherit rpm

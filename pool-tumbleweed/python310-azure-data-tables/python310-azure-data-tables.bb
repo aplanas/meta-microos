@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-data-tables \
 python3.10dist(azure-data-tables) \
 python310-azure-data-tables \
 python3dist(azure-data-tables)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-core \

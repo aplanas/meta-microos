@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flex \
 python3.10dist(flex) \
 python310-flex \
 python3dist(flex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

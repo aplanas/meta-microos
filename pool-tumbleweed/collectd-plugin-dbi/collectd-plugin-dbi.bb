@@ -10,6 +10,7 @@ RPM_HASH = "f64c5c85de1952b45a783a98f12850f74f8083ba11fd4dd80d03644287c8c30864d1
 
 RPROVIDES:${PN} += "collectd-plugin-dbi \
 collectd-plugin-dbi(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

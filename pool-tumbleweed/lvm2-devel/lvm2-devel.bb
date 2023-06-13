@@ -9,6 +9,7 @@ RPM_HASH = "0f4d2e7666ff0371f5f2d990c6781bfdc8169134e53d57726a2ac11eeb9612f19516
 
 RPROVIDES:${PN} += "lvm2-devel \
 lvm2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "device-mapper-devel \
 liblvm2cmd2_03 \
 lvm2"

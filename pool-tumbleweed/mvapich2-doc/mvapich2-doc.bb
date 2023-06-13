@@ -10,6 +10,7 @@ RPM_HASH = "77498bdb0498a25504a5601d7c7c0e0170942566735e26874c2d3da46368652373fc
 
 RPROVIDES:${PN} += "mvapich2-doc \
 mvapich2-doc(aarch-64)"
+
 RDEPENDS:${PN} += "mvapich2"
 
 inherit rpm

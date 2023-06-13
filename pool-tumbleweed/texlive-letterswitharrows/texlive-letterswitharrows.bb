@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(letterswitharrows.sty) \
 texlive-letterswitharrows"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

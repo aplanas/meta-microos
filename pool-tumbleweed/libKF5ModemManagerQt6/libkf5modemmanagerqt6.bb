@@ -10,6 +10,7 @@ RPM_HASH = "53b7ab19ea27daa41a2c91b459c532847b579a352ca2b19e3da9adeaa6a324a29ddb
 RPROVIDES:${PN} += "libKF5ModemManagerQt.so.6()(64bit) \
 libKF5ModemManagerQt6 \
 libKF5ModemManagerQt6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

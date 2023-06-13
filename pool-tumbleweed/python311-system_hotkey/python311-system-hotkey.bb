@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(system-hotkey) \
 python311-system_hotkey \
 python3dist(system-hotkey)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-xcffib \
 python311-xpybutil"

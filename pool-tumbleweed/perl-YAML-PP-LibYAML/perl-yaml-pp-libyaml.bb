@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "perl(YAML::PP::LibYAML) \
 perl(YAML::PP::LibYAML::Emitter) \
 perl(YAML::PP::LibYAML::Parser) \
 perl-YAML-PP-LibYAML"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(YAML::LibYAML::API) \
 perl(YAML::LibYAML::API::XS) \

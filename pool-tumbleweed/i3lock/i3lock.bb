@@ -11,6 +11,7 @@ RPM_HASH = "2668718ba81d55a39fc0b96ff9f83f18b385054d78c20e02cc6a2752f8925f39c064
 
 RPROVIDES:${PN} += "i3lock \
 i3lock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:capistrano) \
 rubygem(ruby:3.2.0:capistrano:3) \
 rubygem(ruby:3.2.0:capistrano:3.17) \
 rubygem(ruby:3.2.0:capistrano:3.17.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

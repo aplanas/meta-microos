@@ -33,6 +33,7 @@ pkgconfig(r_syscall) \
 pkgconfig(r_util) \
 radare2-devel \
 radare2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 file-devel \
 pkgconfig(capstone) \

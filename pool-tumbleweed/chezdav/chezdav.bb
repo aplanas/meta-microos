@@ -10,6 +10,7 @@ RPM_HASH = "09de7c572097568b8e726f2c9284ca35e15cfd625bb48d9bbe7c5e52e64b79cf1684
 
 RPROVIDES:${PN} += "chezdav \
 chezdav(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-gobject.so.0()(64bit) \

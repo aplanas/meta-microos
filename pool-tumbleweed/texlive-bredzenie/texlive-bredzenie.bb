@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bredzenie.sty) \
 texlive-bredzenie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

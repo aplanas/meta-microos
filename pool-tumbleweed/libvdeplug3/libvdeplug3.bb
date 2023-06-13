@@ -11,6 +11,7 @@ RPM_HASH = "4a11c45b052563cf7bfed81c3e2fc48eb5eb9a05b873f4fdaffedd4ab0a684e96796
 RPROVIDES:${PN} += "libvdeplug.so.3()(64bit) \
 libvdeplug3 \
 libvdeplug3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

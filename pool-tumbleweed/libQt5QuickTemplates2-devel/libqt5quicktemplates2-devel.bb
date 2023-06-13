@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5QuickTemplates2) \
 libQt5QuickTemplates2-devel \
 libQt5QuickTemplates2-devel(aarch-64) \
 pkgconfig(Qt5QuickTemplates2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5QuickTemplates2-5 \
 pkgconfig(Qt5Core) \

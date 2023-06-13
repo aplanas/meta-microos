@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-funcparserlib \
 python3.10dist(funcparserlib) \
 python310-funcparserlib \
 python3dist(funcparserlib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

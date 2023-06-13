@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-deepin-deepin \
 patterns-deepin-deepin(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e95c758700692b4524e86e18a100b813dce52bb2158213b0e2d7f54775569f39874c
 RPROVIDES:${PN} += "neard-devel \
 neard-devel(aarch-64) \
 pkgconfig(neard)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(dbus-1) \
 pkgconfig(glib-2.0) \

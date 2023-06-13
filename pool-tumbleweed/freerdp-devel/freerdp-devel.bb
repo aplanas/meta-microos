@@ -18,6 +18,7 @@ pkgconfig(freerdp-client2) \
 pkgconfig(freerdp-server2) \
 pkgconfig(freerdp-shadow2) \
 pkgconfig(freerdp2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfreerdp2-2 \
 pkgconfig(freerdp2) \

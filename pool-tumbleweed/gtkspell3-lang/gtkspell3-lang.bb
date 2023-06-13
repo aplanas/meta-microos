@@ -55,6 +55,7 @@ locale(gtkspell3:wa) \
 locale(gtkspell3:zh_CN) \
 locale(gtkspell3:zh_HK) \
 locale(gtkspell3:zh_TW)"
+
 RDEPENDS:${PN} += "gtkspell3"
 
 inherit rpm

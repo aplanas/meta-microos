@@ -12,6 +12,7 @@ RPM_HASH = "152a2e941b2cb82900dbb994b564fbb43333f46de8042c6cde74b19082cf3bf9a1ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtremoteobjects-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtremoteobjects-devel"
 

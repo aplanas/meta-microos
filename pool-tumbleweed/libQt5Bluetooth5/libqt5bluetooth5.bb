@@ -28,6 +28,7 @@ libQt5Bluetooth.so.5(Qt_5.8)(64bit) \
 libQt5Bluetooth.so.5(Qt_5.9)(64bit) \
 libQt5Bluetooth5 \
 libQt5Bluetooth5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

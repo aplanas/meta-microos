@@ -9,6 +9,7 @@ RPM_HASH = "d897f0ec3327271a37032c6054af0c3f9aa682d0c2c43105f615a5884f6b0c098b4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-numerica-tables-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(daiquiri) \
 python39-daiquiri \
 python3dist(daiquiri)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-json-logger"
 

@@ -9,6 +9,7 @@ RPM_HASH = "4aa8756e76c1e930f41183038788930db399abb95d8f4698158af92a0fe016ea9484
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "findbugs-bcel-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

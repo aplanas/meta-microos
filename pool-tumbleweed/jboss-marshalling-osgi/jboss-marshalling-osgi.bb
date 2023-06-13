@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jboss-marshalling-osgi \
 mvn(org.jboss.marshalling:jboss-marshalling-osgi) \
 mvn(org.jboss.marshalling:jboss-marshalling-osgi:pom:) \
 osgi(org.jboss.marshalling.jboss-marshalling-osgi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jboss.marshalling:jboss-marshalling) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unam-thesis.cls) \
 texlive-unam-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

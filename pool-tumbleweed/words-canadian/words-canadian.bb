@@ -13,6 +13,7 @@ RPM_HASH = "d9059b62b26cff587420c107e876294a6751ab7d45b2107b5dcacbec4016795f7dd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "words-canadian"
+
 RDEPENDS:${PN} += "words"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-md2workflow-plugins-jira \
 python310-md2workflow-plugins-jira"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jira \
 python310-md2workflow"

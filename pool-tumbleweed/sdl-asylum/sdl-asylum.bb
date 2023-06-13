@@ -17,6 +17,7 @@ application(sdl-asylum.desktop) \
 config(sdl-asylum) \
 sdl-asylum \
 sdl-asylum(aarch-64)"
+
 RDEPENDS:${PN} += "libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \
 libSDL-1.2.so.0()(64bit) \

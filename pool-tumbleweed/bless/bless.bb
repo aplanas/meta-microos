@@ -35,6 +35,7 @@ mono(Bless.Tools.Export.Plugins) \
 mono(Bless.Tools.Find) \
 mono(Bless.Util) \
 mono(bless)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(Mono.Posix) \
 mono(System) \

@@ -9,6 +9,7 @@ RPM_HASH = "d8dbe8ed91880398f77c03802a89ffe5a3398b169de148f0b0fe9773c444ac7886c1
 
 RPROVIDES:${PN} += "supercollider-gedit \
 supercollider-gedit(aarch-64)"
+
 RDEPENDS:${PN} += "supercollider"
 
 inherit rpm

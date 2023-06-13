@@ -60,6 +60,7 @@ locale(ktp-text-ui:vi) \
 locale(ktp-text-ui:wa) \
 locale(ktp-text-ui:zh_CN) \
 locale(ktp-text-ui:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-text-ui"
 
 inherit rpm

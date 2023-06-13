@@ -9,6 +9,7 @@ RPM_HASH = "e9c5f0df289cd86fd0d057dccb7fc5e6935b30696666c9ee1c2c5c196fc71aff978c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-widows-and-orphans-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ ocaml-pcre-devel \
 ocaml-pcre-devel(aarch-64) \
 ocamlfind(pcre) \
 ocamlx(Pcre)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libpcre.so.1()(64bit) \
 ocaml(CamlinternalFormatBasics) \

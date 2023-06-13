@@ -14,6 +14,7 @@ RPM_HASH = "ba1609a8ba27aafa6c8948d3771dba241365e9a1b123a01327729105e4ee539de256
 
 RPROVIDES:${PN} += "libtomcrypt-examples \
 libtomcrypt-examples(aarch-64)"
+
 RDEPENDS:${PN} += "libtomcrypt-devel"
 
 inherit rpm

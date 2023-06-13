@@ -69,6 +69,7 @@ tex(luatexja-ruby.sty) \
 tex(luatexja-zhfonts.sty) \
 tex(luatexja.sty) \
 texlive-luatexja"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

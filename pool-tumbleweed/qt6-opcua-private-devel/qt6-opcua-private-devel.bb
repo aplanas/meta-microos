@@ -10,6 +10,7 @@ RPM_HASH = "642fcfff1a250ec7d06b0fdf41b0dafb8df712d1a78e75a823448fb4b5f564e7bcbc
 
 RPROVIDES:${PN} += "qt6-opcua-private-devel \
 qt6-opcua-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6OpcUa)"
 
 inherit rpm

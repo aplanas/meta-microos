@@ -51,6 +51,7 @@ locale(thunar-plugin-vcs:zh_CN) \
 locale(thunar-plugin-vcs:zh_TW) \
 thunar-plugin-vcs-lang \
 thunar-plugin-vcs-lang-all"
+
 RDEPENDS:${PN} += "thunar-plugin-vcs"
 
 inherit rpm

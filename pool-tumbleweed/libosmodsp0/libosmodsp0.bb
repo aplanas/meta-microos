@@ -10,6 +10,7 @@ RPM_HASH = "e905dd789fb2b985909c678f9eb202cc4bc27555205c9e1b568738e20bf148900735
 RPROVIDES:${PN} += "libosmodsp.so.0()(64bit) \
 libosmodsp0 \
 libosmodsp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

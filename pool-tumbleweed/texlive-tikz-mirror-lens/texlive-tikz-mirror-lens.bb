@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-mirror-lens.sty) \
 texlive-tikz-mirror-lens"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

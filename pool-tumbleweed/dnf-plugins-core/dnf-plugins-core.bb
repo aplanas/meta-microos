@@ -42,6 +42,7 @@ dnf-plugins-extras-debug \
 dnf-plugins-extras-repoclosure \
 dnf-plugins-extras-repograph \
 dnf-plugins-extras-repomanage"
+
 RDEPENDS:${PN} += "python3-dnf-plugins-core"
 
 inherit rpm

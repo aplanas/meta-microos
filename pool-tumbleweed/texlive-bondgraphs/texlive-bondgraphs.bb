@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bondgraphs.sty) \
 texlive-bondgraphs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

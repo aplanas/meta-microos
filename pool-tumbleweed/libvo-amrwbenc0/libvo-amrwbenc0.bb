@@ -13,6 +13,7 @@ RPM_HASH = "bac2a74b3d111e0cf32985a248f791a47cb87f2831c0a7a110ac3b444b705364c218
 RPROVIDES:${PN} += "libvo-amrwbenc.so.0()(64bit) \
 libvo-amrwbenc0 \
 libvo-amrwbenc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

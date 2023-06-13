@@ -15,6 +15,7 @@ RPM_HASH = "a6eb68bb174cc066c0feed2ed3ec728fd43e8e168ae6c0275f0c8a0e525cf97d5326
 RPROVIDES:${PN} += "libcrc32c.so.1()(64bit) \
 libcrc32c1 \
 libcrc32c1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libstdc++.so.6()(64bit) \

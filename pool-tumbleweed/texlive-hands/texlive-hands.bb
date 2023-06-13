@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hands.tfm) \
 texlive-hands"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

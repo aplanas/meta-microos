@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ifnteuro \
 intlfonts-euro-bitmap-fonts \
 locale(xorg-x11:cs;el)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

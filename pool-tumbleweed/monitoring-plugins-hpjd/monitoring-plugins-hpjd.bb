@@ -10,6 +10,7 @@ RPM_HASH = "357f1b5f64851ff25de96692c1a416f53f1c323b4205755932f39ede5e2d3ab54ecb
 RPROVIDES:${PN} += "monitoring-plugins-hpjd \
 monitoring-plugins-hpjd(aarch-64) \
 nagios-plugins-hpjd"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -22,6 +22,7 @@ libopenconnect.so.5(OPENCONNECT_5_9)(64bit) \
 libopenconnect.so.5(OPENCONNECT_PRIVATE)(64bit) \
 libopenconnect5 \
 libopenconnect5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

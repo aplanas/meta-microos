@@ -10,6 +10,7 @@ RPM_HASH = "0397933eca4c1a9d0dd542c7189422fe553d21b29a3ec8a8cff7cb1bad7e1d85d46b
 RPROVIDES:${PN} += "libfifechan.so.0.1.5()(64bit) \
 libfifechan0_1_5 \
 libfifechan0_1_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

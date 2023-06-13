@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:debase-ruby_core_source) \
 rubygem(ruby:3.2.0:debase-ruby_core_source:0) \
 rubygem(ruby:3.2.0:debase-ruby_core_source:0.10) \
 rubygem(ruby:3.2.0:debase-ruby_core_source:0.10.18)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

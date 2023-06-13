@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fouridx.sty) \
 texlive-fouridx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

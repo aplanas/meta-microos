@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:jbuilder) \
 rubygem(ruby:3.2.0:jbuilder:2) \
 rubygem(ruby:3.2.0:jbuilder:2.11) \
 rubygem(ruby:3.2.0:jbuilder:2.11.5)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionview) \
 rubygem(ruby:3.2.0:activesupport)"

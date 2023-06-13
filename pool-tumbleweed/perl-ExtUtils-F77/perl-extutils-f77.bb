@@ -40,6 +40,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(ExtUtils::F77) \
 perl-ExtUtils-F77"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which)"
 

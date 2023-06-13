@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-osmviz \
 python3.10dist(osmviz) \
 python310-osmviz \
 python3dist(osmviz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pygame"
 

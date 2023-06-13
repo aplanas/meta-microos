@@ -14,6 +14,7 @@ RPM_HASH = "b9fe9c9c1f01e737027ed09fb9d875d1fe521a101dd21ebf5d738e1964622ee8f5f9
 RPROVIDES:${PN} += "config(ptokax) \
 ptokax \
 ptokax(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

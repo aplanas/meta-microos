@@ -16,6 +16,7 @@ mvn(org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:pom:) \
 ws_metadata_2_0_api \
 ws_metadata_api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

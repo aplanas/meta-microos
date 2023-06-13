@@ -10,6 +10,7 @@ RPM_HASH = "27379c044167ef640050ea45c3d50f89663fa16bdc17d9fa8bd790655a4c0859c709
 RPROVIDES:${PN} += "chafa-devel \
 chafa-devel(aarch-64) \
 pkgconfig(chafa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libchafa0 \
 pkgconfig(glib-2.0)"

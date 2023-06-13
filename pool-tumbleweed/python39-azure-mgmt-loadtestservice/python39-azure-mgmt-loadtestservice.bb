@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-loadtestservice) \
 python39-azure-mgmt-loadtestservice \
 python3dist(azure-mgmt-loadtestservice)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

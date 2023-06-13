@@ -73,6 +73,7 @@ tex(thedid_whuz6y.enc) \
 tex(thedid_xgfkyc.enc) \
 tex(thedid_zj2gif.enc) \
 texlive-theanomodern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(begingreek.sty) \
 texlive-begingreek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

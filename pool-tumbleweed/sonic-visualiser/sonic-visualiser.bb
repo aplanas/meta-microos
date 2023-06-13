@@ -53,6 +53,7 @@ mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav) \
 sonic-visualiser \
 sonic-visualiser(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dssi \
 ladspa \

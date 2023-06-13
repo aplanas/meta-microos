@@ -11,6 +11,7 @@ RPM_HASH = "baf243c8145aecf24e1247b0041ba3fa47fabc6892e14db8fba40f892d6dd3e72d50
 
 RPROVIDES:${PN} += "xapian-core-doc \
 xapian-core-doc(aarch-64)"
+
 RDEPENDS:${PN} += "xapian-core"
 
 inherit rpm

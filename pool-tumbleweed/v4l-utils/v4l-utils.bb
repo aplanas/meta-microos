@@ -10,6 +10,7 @@ RPM_HASH = "86311ab480b81b4754ad52c7b306805ae812081214321803814fcb6a598383323209
 RPROVIDES:${PN} += "config(v4l-utils) \
 v4l-utils \
 v4l-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

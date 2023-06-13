@@ -9,6 +9,7 @@ RPM_HASH = "37db2022df8a2de654a19b973b62f77a402b4f6a5a3725e7d8ab5aa4df195960d196
 
 RPROVIDES:${PN} += "qt6-sensors-docs-html \
 qt6-sensors-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

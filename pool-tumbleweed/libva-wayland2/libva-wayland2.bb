@@ -11,6 +11,7 @@ RPM_HASH = "a0b41d46905fe6cffbd80437e45d555262a8046334f5f9ab526f2dc1f5c8c302df0e
 RPROVIDES:${PN} += "libva-wayland.so.2()(64bit) \
 libva-wayland2 \
 libva-wayland2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

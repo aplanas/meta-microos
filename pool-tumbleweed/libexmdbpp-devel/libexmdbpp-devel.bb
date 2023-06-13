@@ -12,6 +12,7 @@ RPM_HASH = "6a65de4df40dc10c1a0089c6ee65a459040b653d9a19371da31cafaa6141cc92963b
 
 RPROVIDES:${PN} += "libexmdbpp-devel \
 libexmdbpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libexmdbpp0"
 
 inherit rpm

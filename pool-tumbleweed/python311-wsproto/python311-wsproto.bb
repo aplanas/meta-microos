@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wsproto) \
 python311-wsproto \
 python3dist(wsproto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-h11"
 

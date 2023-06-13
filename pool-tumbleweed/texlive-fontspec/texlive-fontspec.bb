@@ -17,6 +17,7 @@ tex(fontspec-xetex.sty) \
 tex(fontspec.cfg) \
 tex(fontspec.sty) \
 texlive-fontspec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

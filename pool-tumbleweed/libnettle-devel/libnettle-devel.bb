@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libnettle-devel \
 libnettle-devel(aarch-64) \
 pkgconfig(hogweed) \
 pkgconfig(nettle)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 gmp-devel \

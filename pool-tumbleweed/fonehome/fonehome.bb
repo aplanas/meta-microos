@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(fonehome) \
 fonehome"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bc \

@@ -11,6 +11,7 @@ RPM_HASH = "4922318e1d768198b0a7a61d84dd7a224467f1cc41adad44685f6817ea43b876417c
 
 RPROVIDES:${PN} += "signify \
 signify(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \

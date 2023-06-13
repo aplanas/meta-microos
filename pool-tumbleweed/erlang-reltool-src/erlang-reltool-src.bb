@@ -11,6 +11,7 @@ RPM_HASH = "03dd4ccf53970f85ef8a46ec208d0d5974bbf1937a40aa5f621e42eecd47cd466154
 
 RPROVIDES:${PN} += "erlang-reltool-src \
 erlang-reltool-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-reltool"
 
 inherit rpm

@@ -40,6 +40,7 @@ mimehandler(audio/x-speex) \
 mimehandler(audio/x-vorbis) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav)"
+
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

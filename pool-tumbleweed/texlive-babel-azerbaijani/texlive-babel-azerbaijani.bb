@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(azerbaijani.ldf) \
 texlive-babel-azerbaijani"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

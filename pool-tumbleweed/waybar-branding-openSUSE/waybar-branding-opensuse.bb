@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(waybar-branding-openSUSE) \
 waybar-branding \
 waybar-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

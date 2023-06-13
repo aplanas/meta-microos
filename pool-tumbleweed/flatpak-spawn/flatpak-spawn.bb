@@ -10,6 +10,7 @@ RPM_HASH = "1baf1aaef066e3efb86dec5d5e3b92f96d1e559c91814c059f7636bd026250465fe9
 
 RPROVIDES:${PN} += "flatpak-spawn \
 flatpak-spawn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

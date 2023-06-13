@@ -17,6 +17,7 @@ RPM_HASH = "6695f5b2f17acfa78d48959e4449bc7fc39337865d7d0f6df4d3906f12f784d3bbff
 RPROVIDES:${PN} += "ghc-concurrent-output \
 ghc-concurrent-output(aarch-64) \
 libHSconcurrent-output-1.10.17-8XvoUl0e7ll2y9NMBdkV0e-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

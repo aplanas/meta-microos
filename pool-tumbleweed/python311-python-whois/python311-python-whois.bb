@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-whois) \
 python311-python-whois \
 python3dist(python-whois)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(marshmallow) \
 python39-marshmallow \
 python3dist(marshmallow)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ application(fish.desktop) \
 config(fish) \
 fish \
 fish(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 bc \

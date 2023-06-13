@@ -9,6 +9,7 @@ RPM_HASH = "b08a89b9a72aec7140fbad1e0826869304fdb60aeb6d987bf75ca64787301d2ac30d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuastro-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

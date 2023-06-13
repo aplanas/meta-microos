@@ -9,6 +9,7 @@ RPM_HASH = "8e977eeda5e10e361afca3c22b02f9e5ec451a751ede0848fcc1fce163afafb543cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "godot-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

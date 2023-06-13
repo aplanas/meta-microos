@@ -12,6 +12,7 @@ application(linguist5.desktop) \
 libqt5-linguist \
 libqt5-linguist(aarch-64) \
 mimehandler(application/x-linguist)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

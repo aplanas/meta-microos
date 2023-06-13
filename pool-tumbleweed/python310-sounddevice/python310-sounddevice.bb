@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sounddevice \
 python3.10dist(sounddevice) \
 python310-sounddevice \
 python3dist(sounddevice)"
+
 RDEPENDS:${PN} += "portaudio \
 python(abi) \
 python310-cffi"

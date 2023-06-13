@@ -11,6 +11,7 @@ RPM_HASH = "89e7d30708f27c1885f2a23c4de50fe2a8bccf1b337334c227bb4cf15bd0d896d5b0
 RPROVIDES:${PN} += "htmlcxx-devel \
 htmlcxx-devel(aarch-64) \
 pkgconfig(htmlcxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 htmlcxx"
 

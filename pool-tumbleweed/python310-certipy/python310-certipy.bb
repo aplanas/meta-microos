@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-certipy \
 python3.10dist(certipy) \
 python310-certipy \
 python3dist(certipy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

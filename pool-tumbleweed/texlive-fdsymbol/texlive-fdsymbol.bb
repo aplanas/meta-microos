@@ -43,6 +43,7 @@ tex(fdsymbol-f.enc) \
 tex(fdsymbol.map) \
 tex(fdsymbol.sty) \
 texlive-fdsymbol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

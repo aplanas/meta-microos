@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8-debugger) \
 python39-flake8-debugger \
 python3dist(flake8-debugger)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

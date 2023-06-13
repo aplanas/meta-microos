@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libhandle.so.1()(64bit) \
 libhandle.so.1(LIBHANDLE_1.0.3)(64bit) \
 libhandle1 \
 libhandle1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

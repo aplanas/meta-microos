@@ -9,6 +9,7 @@ RPM_HASH = "2cae73195b4411e246e971c3f2cd15c8f321dcd9cb9de10c52bb162b3e57cfddd1ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etckeeper-zsh-completion"
+
 RDEPENDS:${PN} += "etckeeper"
 
 inherit rpm

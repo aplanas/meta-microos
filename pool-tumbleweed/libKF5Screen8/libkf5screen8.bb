@@ -10,6 +10,7 @@ RPM_HASH = "00fc81dff3d311f689f7865842bf6f7b90040759186f8a800cd5b955449fd7936867
 RPROVIDES:${PN} += "libKF5Screen.so.8()(64bit) \
 libKF5Screen8 \
 libKF5Screen8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

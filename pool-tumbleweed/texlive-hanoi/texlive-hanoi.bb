@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hanoi.tex) \
 texlive-hanoi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

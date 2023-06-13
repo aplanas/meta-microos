@@ -10,6 +10,7 @@ RPM_HASH = "f2ac87b5f04eede9dc0a4391e972abf852817d50e2b2aff8a878e3d4723758240eb3
 RPROVIDES:${PN} += "libixml.so.11()(64bit) \
 libixml11 \
 libixml11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

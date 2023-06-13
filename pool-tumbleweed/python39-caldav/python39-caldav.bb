@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(caldav) \
 python39-caldav \
 python3dist(caldav)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-requests \

@@ -9,6 +9,7 @@ RPM_HASH = "9c01b0b5fe48260bf02b35530fb3853c4fcc6e6f45950d5efc5901eb63d44b8051cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fouriernc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

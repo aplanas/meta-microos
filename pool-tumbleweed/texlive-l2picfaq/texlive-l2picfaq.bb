@@ -11,6 +11,7 @@ RPM_HASH = "579d02a8e9364a8b656dd3ace02f0a974c296b613d45638cbcf808cfab9d1dd9dcc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2picfaq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

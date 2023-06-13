@@ -81,6 +81,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Class::Base) \
 perl-Class-Base"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone)"
 

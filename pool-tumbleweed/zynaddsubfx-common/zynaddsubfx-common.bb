@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ZynAddSubFX-common \
 zynaddsubfx-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

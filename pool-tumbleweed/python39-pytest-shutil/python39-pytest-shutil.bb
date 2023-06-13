@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-shutil) \
 python39-pytest-shutil \
 python3dist(pytest-shutil)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-execnet \
 python39-path \

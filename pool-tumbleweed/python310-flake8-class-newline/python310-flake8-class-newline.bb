@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-class-newline \
 python3.10dist(flake8-class-newline) \
 python310-flake8-class-newline \
 python3dist(flake8-class-newline)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

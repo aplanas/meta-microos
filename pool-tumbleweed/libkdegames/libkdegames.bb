@@ -10,6 +10,7 @@ RPM_HASH = "0c2caefc87caa279698a2ef3c4c5ced433fd56cd6b61f24afbbf3b41a919b5ab7e1b
 RPROVIDES:${PN} += "libkdegames \
 libkdegames(aarch-64) \
 libkdegames-kf5"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

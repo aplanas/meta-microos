@@ -16,6 +16,7 @@ RPM_HASH = "ade3152b7f1086941977976684847681486e5160e57a3d529fd5d5e82f81bf6925a7
 
 RPROVIDES:${PN} += "pam_cifscreds \
 pam_cifscreds(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

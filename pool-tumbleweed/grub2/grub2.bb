@@ -15,6 +15,7 @@ RPM_HASH = "dcc876257a6aebf7d72a721bf446d9a602f5f1fb0dbdeb94cc016615b9a7b790f7db
 RPROVIDES:${PN} += "config(grub2) \
 grub2 \
 grub2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

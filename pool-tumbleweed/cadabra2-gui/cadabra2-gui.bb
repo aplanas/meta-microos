@@ -19,6 +19,7 @@ metainfo() \
 metainfo(cadabra2-gtk.appdata.xml) \
 mimehandler(application/cadabra) \
 mimehandler(application/x-cadabra)"
+
 RDEPENDS:${PN} += "cadabra2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

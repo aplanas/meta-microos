@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6WebView) \
 pkgconfig(Qt6WebView) \
 qt6-webview-devel \
 qt6-webview-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 libQt6WebView6 \

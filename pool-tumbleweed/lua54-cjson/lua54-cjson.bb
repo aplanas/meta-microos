@@ -10,6 +10,7 @@ RPM_HASH = "e03be72bc8ee4078f8c04aa3f0cae72b6c574c1c4889e3cb1abfb30492a2fc0387b5
 RPROVIDES:${PN} += "lua-cjson \
 lua54-cjson \
 lua54-cjson(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

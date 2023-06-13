@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64(lib:mpc) \
 mingw64-mpc-devel"
+
 RDEPENDS:${PN} += "mingw64(lib:mpfr)"
 
 inherit rpm

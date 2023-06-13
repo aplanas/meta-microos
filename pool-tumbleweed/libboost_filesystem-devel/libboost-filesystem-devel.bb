@@ -13,6 +13,7 @@ RPM_HASH = "c0f9975d74f892b076a80630ea02fc97cbdee9e45d9dbcae370429a999d7f673278b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_filesystem-devel"
+
 RDEPENDS:${PN} += "libboost_filesystem1_82_0-devel"
 
 inherit rpm

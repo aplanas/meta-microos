@@ -12,6 +12,7 @@ RPM_HASH = "cab33ef372f2f0570d9a5b9f6fdbbdc7d2fefec40b22ff1051a34bbbe853dee1ed6c
 RPROVIDES:${PN} += "ghostscript-x11 \
 ghostscript-x11(aarch-64) \
 ghostscript_x11"
+
 RDEPENDS:${PN} += "ghostscript \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

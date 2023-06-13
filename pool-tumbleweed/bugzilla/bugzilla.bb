@@ -207,6 +207,7 @@ perl(Pod::Simple::HTMLBatch::Bugzilla) \
 perl(Support::Files) \
 perl(Support::Systemexec) \
 perl(Support::Templates)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

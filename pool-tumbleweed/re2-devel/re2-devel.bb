@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(re2) \
 pkgconfig(re2) \
 re2-devel \
 re2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libre2-10 \
 pkgconfig(icu-uc)"

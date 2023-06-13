@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-sugar \
 python3.10dist(pytest-sugar) \
 python310-pytest-sugar \
 python3dist(pytest-sugar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-termcolor"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-uc-micro-py \
 python3.10dist(uc-micro-py) \
 python310-uc-micro-py \
 python3dist(uc-micro-py)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

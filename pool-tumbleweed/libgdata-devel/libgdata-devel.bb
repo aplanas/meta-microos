@@ -14,6 +14,7 @@ RPM_HASH = "33c12d4d0caba014e734c605c475caa1e45a3d16b877e90dd859ecee532a0df49a09
 RPROVIDES:${PN} += "libgdata-devel \
 libgdata-devel(aarch-64) \
 pkgconfig(libgdata)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdata22 \
 pkgconfig(gcr-4) \

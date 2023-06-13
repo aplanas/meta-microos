@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-zope.exceptions \
 python3.10dist(zope.exceptions) \
 python310-zope.exceptions \
 python3dist(zope.exceptions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.interface"
 

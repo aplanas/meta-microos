@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-core \
 python3.10dist(azure-mgmt-core) \
 python310-azure-mgmt-core \
 python3dist(azure-mgmt-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-mgmt-nspkg \

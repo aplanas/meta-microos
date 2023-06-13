@@ -12,6 +12,7 @@ RPM_HASH = "c47ea60627a2eedcd50fee0adeeda65b063c41c4dc84c7c87239a8c179cdc8147dd1
 RPROVIDES:${PN} += "cyrus-sasl-crammd5 \
 cyrus-sasl-crammd5(aarch-64) \
 libcrammd5.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

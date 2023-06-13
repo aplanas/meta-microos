@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "alsa-plugins-maemo \
 alsa-plugins-maemo(aarch-64) \
 libasound_module_ctl_dsp_ctl.so()(64bit) \
 libasound_module_pcm_alsa_dsp.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

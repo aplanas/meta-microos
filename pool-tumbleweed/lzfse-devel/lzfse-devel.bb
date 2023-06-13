@@ -13,6 +13,7 @@ RPM_HASH = "95b40509e1caacde93c060b678ca123276f28d4d7163f1911e37e8d7e382f94770a2
 
 RPROVIDES:${PN} += "lzfse-devel \
 lzfse-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lzfse"
 
 inherit rpm

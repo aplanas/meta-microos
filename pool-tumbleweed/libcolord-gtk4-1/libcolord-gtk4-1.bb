@@ -12,6 +12,7 @@ RPM_HASH = "33afa49c133b78b7336cab1d4594181eee80a60aafa22c9ba8e6acac08697db0f9ba
 RPROVIDES:${PN} += "libcolord-gtk4-1 \
 libcolord-gtk4-1(aarch-64) \
 libcolord-gtk4.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

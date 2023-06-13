@@ -10,6 +10,7 @@ RPM_HASH = "b5d27caf435f081b0fa2f3f985dc333d3f858dfe0740758342c32888b3260e384271
 RPROVIDES:${PN} += "fcitx-qt6 \
 fcitx-qt6(aarch-64) \
 libfcitxplatforminputcontextplugin-qt6.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

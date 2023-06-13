@@ -16,6 +16,7 @@ python3.10dist(pastedeploy) \
 python310-PasteDeploy \
 python310-pastedeploy \
 python3dist(pastedeploy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Paste \
 python310-setuptools"

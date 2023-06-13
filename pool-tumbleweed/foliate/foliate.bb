@@ -23,6 +23,7 @@ mimehandler(application/x-fictionbook+xml) \
 mimehandler(application/x-mobipocket-ebook) \
 mimehandler(application/x-zip-compressed-fb2) \
 mimehandler(x-scheme-handler/opds)"
+
 RDEPENDS:${PN} += "gjs \
 typelib(Gio) \
 typelib(Gspell) \

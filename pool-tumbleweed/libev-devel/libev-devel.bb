@@ -20,6 +20,7 @@ RPM_HASH = "a97b883c7950e0bcd293deafb02f9fd49f193e9d7ff2498f39733eba5f618ca17433
 RPROVIDES:${PN} += "libev-devel \
 libev-devel(aarch-64) \
 pkgconfig(libev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libev4"
 

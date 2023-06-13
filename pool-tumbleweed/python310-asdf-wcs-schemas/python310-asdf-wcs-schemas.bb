@@ -18,6 +18,7 @@ python3.10dist(asdf-wcs-schemas) \
 python310-asdf-wcs-schemas \
 python310-asdf_wcs_schemas \
 python3dist(asdf-wcs-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asdf"
 

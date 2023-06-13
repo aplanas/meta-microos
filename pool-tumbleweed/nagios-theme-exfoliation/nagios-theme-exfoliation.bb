@@ -10,6 +10,7 @@ RPM_HASH = "cc56e9f5658ea7511050d9b16eb1be1683d2a2a5a648a1222a78ba94705076fe8088
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nagios-theme-exfoliation"
+
 RDEPENDS:${PN} += "/bin/sh \
 nagios-theme-switcher \
 nagios-www"

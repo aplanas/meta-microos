@@ -10,6 +10,7 @@ RPM_HASH = "488d64233aa14257fce56c9b142b6ffc1d4fd78201caadaaeb6806c21b687084d33b
 RPROVIDES:${PN} += "liballegro_memfile5_2-devel \
 liballegro_memfile5_2-devel(aarch-64) \
 pkgconfig(allegro_memfile-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_memfile5_2 \
 pkgconfig(allegro-5)"

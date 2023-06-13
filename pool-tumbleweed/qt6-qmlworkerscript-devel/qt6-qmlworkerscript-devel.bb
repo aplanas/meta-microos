@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlWorkerScript) \
 pkgconfig(Qt6QmlWorkerScript) \
 qt6-qmlworkerscript-devel \
 qt6-qmlworkerscript-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Qml) \

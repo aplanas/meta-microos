@@ -11,6 +11,7 @@ RPM_HASH = "fad592041013062a1afe985a8e353d688b73c73fe0928d667fd51e9b19e29b1179af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "taisei-data"
+
 RDEPENDS:${PN} += "taisei"
 
 inherit rpm

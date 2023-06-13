@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ushyphex.tex) \
 texlive-hyphenex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

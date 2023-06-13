@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(Olm) \
 olm-devel \
 olm-devel(aarch-64) \
 pkgconfig(olm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libolm3"
 

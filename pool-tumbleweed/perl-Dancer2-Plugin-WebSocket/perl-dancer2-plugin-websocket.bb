@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(Dancer2::Plugin::WebSocket) \
 perl(Dancer2::Plugin::WebSocket::Connection) \
 perl(Dancer2::Plugin::WebSocket::Group) \
 perl-Dancer2-Plugin-WebSocket"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Dancer2::Plugin) \
 perl(JSON::MaybeXS) \

@@ -67,6 +67,7 @@ locale(ksquares:ug) \
 locale(ksquares:uk) \
 locale(ksquares:zh_CN) \
 locale(ksquares:zh_TW)"
+
 RDEPENDS:${PN} += "ksquares"
 
 inherit rpm

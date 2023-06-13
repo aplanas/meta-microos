@@ -9,6 +9,7 @@ RPM_HASH = "22adbd7d03efe91a16881e9f289a40f0de3323b48915d654da7eac12811cbbf01324
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zellij-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

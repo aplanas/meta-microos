@@ -17,6 +17,7 @@ tex(countriesofeurope.map) \
 tex(countriesofeurope.sty) \
 tex(countriesofeurope.tfm) \
 texlive-countriesofeurope"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

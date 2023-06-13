@@ -9,6 +9,7 @@ RPM_HASH = "a13b6ebc2e52d4361c7c65ab30b5ab5d474c507ba4d67749a8f98836b09a98572afa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

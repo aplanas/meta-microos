@@ -15,6 +15,7 @@ python3.10dist(brotlipy) \
 python310-brotlipy \
 python310-brotlipy(aarch-64) \
 python3dist(brotlipy)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlidec.so.1()(64bit) \

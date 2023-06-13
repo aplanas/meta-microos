@@ -13,6 +13,7 @@ RPM_HASH = "266e0351937e3714a88041d5a7d71845cb3ebe6dd07c074e3e19a265bbd37f130d01
 RPROVIDES:${PN} += "cups-ddk \
 cups-ddk(aarch-64) \
 cupsddk"
+
 RDEPENDS:${PN} += "cups \
 cups-devel \
 libc.so.6(GLIBC_2.34)(64bit) \

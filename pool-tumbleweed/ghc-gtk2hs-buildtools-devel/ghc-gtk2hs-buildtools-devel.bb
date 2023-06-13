@@ -10,6 +10,7 @@ RPM_HASH = "8200514512c172c9a7a3341816c29eb52d76447ce6198f3fecd20e8a70eb79ad8718
 RPROVIDES:${PN} += "ghc-devel(gtk2hs-buildtools-0.13.8.3-1HEgD6xsgMLLqS6Eg0gkhE) \
 ghc-gtk2hs-buildtools-devel \
 ghc-gtk2hs-buildtools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(Cabal-3.8.1.0) \

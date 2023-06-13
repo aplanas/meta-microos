@@ -20,6 +20,7 @@ python3.10dist(zc.lockfile) \
 python310-zc-lockfile \
 python310-zc.lockfile \
 python3dist(zc.lockfile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

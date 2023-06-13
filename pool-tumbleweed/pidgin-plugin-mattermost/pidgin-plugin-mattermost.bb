@@ -14,6 +14,7 @@ RPM_HASH = "f23882d138061fbce1a07f577aafd66d8f6e86d8ff8a59c91be5109db552796f9328
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-mattermost"
+
 RDEPENDS:${PN} += "libpurple-plugin-mattermost"
 
 inherit rpm

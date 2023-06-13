@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsbeautifier \
 python3.10dist(jsbeautifier) \
 python310-jsbeautifier \
 python3dist(jsbeautifier)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(changelog.sty) \
 texlive-changelog"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-traitlets \
 python3.10dist(traitlets) \
 python310-traitlets \
 python3dist(traitlets)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

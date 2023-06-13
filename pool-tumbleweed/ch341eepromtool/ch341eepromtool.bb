@@ -9,6 +9,7 @@ RPM_HASH = "89075e854b8e8d4d18f3d744890b81d4727d0fd4f8ecc8f5754bc4a6b61a262469e1
 
 RPROVIDES:${PN} += "ch341eepromtool \
 ch341eepromtool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

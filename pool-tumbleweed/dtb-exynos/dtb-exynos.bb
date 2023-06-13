@@ -10,6 +10,7 @@ RPM_HASH = "5e427aaa22c4ff5ac86311a88abf7290f83f3541a4364860a0d405156a3d08354fce
 RPROVIDES:${PN} += "dtb-exynos \
 dtb-exynos(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

@@ -9,6 +9,7 @@ RPM_HASH = "db3c0bfb8e17172c4651eae3efb27063b7b02d7b65f3f79756d4c6d7c64e70fa8f27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prettytok-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

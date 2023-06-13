@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tugboat-doc:en) \
 texlive-tugboat-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "c9f97c04b3f2b612212a9863514c96aad15a3002ca0914b6cc27703b12046d5eaa76
 
 RPROVIDES:${PN} += "libmetis_5_1_0-gnu-hpc \
 libmetis_5_1_0-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

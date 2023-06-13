@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(detex.1) \
 texlive-detex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

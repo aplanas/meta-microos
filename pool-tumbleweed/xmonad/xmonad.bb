@@ -17,6 +17,7 @@ RPM_HASH = "351868412735d887e36ec79ebed58bd46fc6098483307818842a34d0c843868d6ce2
 RPROVIDES:${PN} += "windowmanager \
 xmonad \
 xmonad(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

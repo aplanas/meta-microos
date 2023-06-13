@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(munkres) \
 python39-munkres \
 python3dist(munkres)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

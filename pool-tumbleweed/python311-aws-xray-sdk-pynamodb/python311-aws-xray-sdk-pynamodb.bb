@@ -12,6 +12,7 @@ RPM_HASH = "9600476294f50f94894b575c3066d6bb69e6d4ae38bd6af74d4d81c938083a4a946b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-pynamodb"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aws-xray-sdk \
 python311-pynamodb"

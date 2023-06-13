@@ -19,6 +19,7 @@ metainfo(fi.skyjake.Lagrange.appdata.xml) \
 mimehandler(x-scheme-handler/gemini) \
 mimehandler(x-scheme-handler/gopher) \
 mimehandler(x-scheme-handler/spartan)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

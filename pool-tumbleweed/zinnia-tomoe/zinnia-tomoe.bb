@@ -10,6 +10,7 @@ RPM_HASH = "cabe9bd80dad7f374da619c18deb506df3bd6afd5b7cd61e667de60acad66f4e3b0c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zinnia-tomoe"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -52,6 +52,7 @@ locale(xkeyboard-config:zh_CN) \
 locale(xkeyboard-config:zh_TW) \
 xkeyboard-config-lang \
 xkeyboard-config-lang-all"
+
 RDEPENDS:${PN} += "xkeyboard-config"
 
 inherit rpm

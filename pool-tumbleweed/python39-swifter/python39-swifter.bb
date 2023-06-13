@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(swifter) \
 python39-swifter \
 python3dist(swifter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-bleach \
 python39-cloudpickle \

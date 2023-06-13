@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(quiz2socrative.sty) \
 texlive-quiz2socrative"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

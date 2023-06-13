@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-retry \
 python3.10dist(retry) \
 python310-retry \
 python3dist(retry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-decorator \
 python310-py"

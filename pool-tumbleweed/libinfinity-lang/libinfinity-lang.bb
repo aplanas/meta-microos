@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libinfinity-lang \
 libinfinity-lang-all \
 locale(libinfinity:ca) \
 locale(libinfinity:de)"
+
 RDEPENDS:${PN} += "libinfinity"
 
 inherit rpm

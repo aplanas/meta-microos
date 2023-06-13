@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "m17n-contrib \
 m17n-db \
 pkgconfig(m17n-db)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gawk \
 /usr/bin/pkg-config"

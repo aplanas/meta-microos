@@ -12,6 +12,7 @@ RPM_HASH = "60b3396cfef885dde7ae1b900d4182ee69a790d79a5f101cbd57bec95935b3817b03
 
 RPROVIDES:${PN} += "libhdf5_fortran_1_12_2-gnu-openmpi1-hpc \
 libhdf5_fortran_1_12_2-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-openmpi1-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \

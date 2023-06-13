@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libavfilter.so.7.110()(64bit) \
 libavfilter.so.7.110(LIBAVFILTER_7)(64bit) \
 libavfilter7_110 \
 libavfilter7_110(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

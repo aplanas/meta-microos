@@ -9,6 +9,7 @@ RPM_HASH = "31e1d5746727eefdf566638d20b0fc2c78b91927602a0b26cc513a7e07a5a7b5ac4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langczechslovak"
+
 RDEPENDS:${PN} += "texlive-babel-czech \
 texlive-babel-slovak \
 texlive-cnbwp \

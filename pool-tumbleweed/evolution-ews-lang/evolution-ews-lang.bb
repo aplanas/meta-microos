@@ -53,6 +53,7 @@ locale(evolution-ews:te) \
 locale(evolution-ews:tr) \
 locale(evolution-ews:uk) \
 locale(evolution-ews:zh_CN)"
+
 RDEPENDS:${PN} += "evolution-ews"
 
 inherit rpm

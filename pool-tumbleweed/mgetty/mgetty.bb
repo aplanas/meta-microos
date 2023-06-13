@@ -19,6 +19,7 @@ RPM_HASH = "f2a2df4602c1a7997d1c9f07e0659ec45818d9c0e1cd716058ae5a95bcbd7367e2c6
 RPROVIDES:${PN} += "config(mgetty) \
 mgetty \
 mgetty(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 g3utils \
 ld-linux-aarch64.so.1()(64bit) \

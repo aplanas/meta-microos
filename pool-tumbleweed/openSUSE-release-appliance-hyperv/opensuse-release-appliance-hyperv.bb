@@ -12,6 +12,7 @@ openSUSE-release-appliance-hyperv \
 openSUSE-release-appliance-hyperv(aarch-64) \
 product_flavor() \
 product_flavor(openSUSE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

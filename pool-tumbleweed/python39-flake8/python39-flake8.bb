@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8) \
 python39-flake8 \
 python3dist(flake8)"
+
 RDEPENDS:${PN} += "(python39-mccabe >= 0.7.0 with python39-mccabe < 0.8.0) \
 (python39-pycodestyle >= 2.10.0 with python39-pycodestyle < 2.11.0) \
 (python39-pyflakes >= 3.0.0 with python39-pyflakes < 3.1.0) \

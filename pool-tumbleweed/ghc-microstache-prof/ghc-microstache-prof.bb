@@ -10,6 +10,7 @@ RPM_HASH = "75857963cad91c9aaaad375942b398fcddd264c18e235a0d42281949f4bc9ef3c327
 RPROVIDES:${PN} += "ghc-microstache-prof \
 ghc-microstache-prof(aarch-64) \
 ghc-prof(microstache-1.0.2.3-AHAKnK06lT6DHccapktUKL)"
+
 RDEPENDS:${PN} += "ghc-microstache-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

@@ -21,6 +21,7 @@ RPM_HASH = "1b32fb4eb9d71511b5febf829571de7ac75398b7aae855ec236d3b3e3b14c24adaad
 RPROVIDES:${PN} += "perl(Scalar::String) \
 perl-Scalar-String \
 perl-Scalar-String(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

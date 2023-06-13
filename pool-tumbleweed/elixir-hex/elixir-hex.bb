@@ -13,6 +13,7 @@ RPM_HASH = "1a8892231bebae8adea7ec399463354de320725d982cfbc1d9955bb8f9a5518932e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elixir-hex"
+
 RDEPENDS:${PN} += "elixir"
 
 inherit rpm

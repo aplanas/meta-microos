@@ -11,6 +11,7 @@ RPM_HASH = "89d2888761e01406703b194c546685df2d2040fc2301eccdb38cd70116adefc0591a
 
 RPROVIDES:${PN} += "libav-tools \
 libav-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \

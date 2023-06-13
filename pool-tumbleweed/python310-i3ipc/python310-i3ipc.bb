@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-i3ipc \
 python3.10dist(i3ipc) \
 python310-i3ipc \
 python3dist(i3ipc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-xlib"
 

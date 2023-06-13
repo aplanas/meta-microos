@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(docbook_5) \
 docbook_5"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 sgml-skel"

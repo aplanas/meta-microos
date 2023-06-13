@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-console \
 patterns-base-console(aarch-64) \
 patterns-openSUSE-console"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-qdatamatrix) \
 python311-python-qdatamatrix \
 python3dist(python-qdatamatrix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-QtPy \
 python311-python-datamatrix"

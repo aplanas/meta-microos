@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(python-ligo-lw) \
 python39-ligo-lw \
 python39-ligo-lw(aarch-64) \
 python3dist(python-ligo-lw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

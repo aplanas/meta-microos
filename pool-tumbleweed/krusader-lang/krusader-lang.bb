@@ -61,6 +61,7 @@ locale(krusader:ug) \
 locale(krusader:uk) \
 locale(krusader:zh_CN) \
 locale(krusader:zh_TW)"
+
 RDEPENDS:${PN} += "krusader"
 
 inherit rpm

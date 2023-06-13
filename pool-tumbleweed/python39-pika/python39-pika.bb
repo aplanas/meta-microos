@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pika) \
 python39-pika \
 python3dist(pika)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39"
 

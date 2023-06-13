@@ -12,6 +12,7 @@ RPM_HASH = "eea9ecb2bcc93cbd251ce9a4b2c9df28897019e2a16d13dca5a7ccd7172bccd06bce
 
 RPROVIDES:${PN} += "jitterentropy-devel-static \
 jitterentropy-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

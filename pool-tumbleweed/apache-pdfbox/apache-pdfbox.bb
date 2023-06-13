@@ -22,6 +22,7 @@ mvn(org.apache.pdfbox:pdfbox-tools:pom:) \
 mvn(org.apache.pdfbox:pdfbox:pom:) \
 osgi(org.apache.pdfbox) \
 osgi(org.apache.pdfbox.fontbox)"
+
 RDEPENDS:${PN} += "apache-commons-logging \
 java-headless \
 javapackages-filesystem \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(routes) \
 python39-Routes \
 python39-routes \
 python3dist(routes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-repoze.lru \
 python39-six"

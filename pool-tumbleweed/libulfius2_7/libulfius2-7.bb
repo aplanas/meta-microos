@@ -13,6 +13,7 @@ RPM_HASH = "ae427070f3d92db2baa089b2c29e53f8dbe2d1904dc3b1a5d0a19bc5a235fb54602e
 RPROVIDES:${PN} += "libulfius.so.2.7()(64bit) \
 libulfius2_7 \
 libulfius2_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

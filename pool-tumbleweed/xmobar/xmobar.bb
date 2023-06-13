@@ -12,6 +12,7 @@ RPM_HASH = "162c1848fa03ae5d7c36648a3bf4160c1337944750db978761f6dfddcb7865bbbcc2
 
 RPROVIDES:${PN} += "xmobar \
 xmobar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "3d2dcfda5c736bf58329c9a5c57741ece67ab968f4221c092899bf1f7cae80eceb8d
 RPROVIDES:${PN} += "typelib(GstTag) \
 typelib-1_0-GstTag-1_0 \
 typelib-1_0-GstTag-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgsttag-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

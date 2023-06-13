@@ -12,6 +12,7 @@ RPM_HASH = "b1086d7a04fc03cfc48352cbad6eacb56d8f6cfbfa9a00f577d233f4204f621cbc83
 RPROVIDES:${PN} += "libmediastreamer.so.11()(64bit) \
 libmediastreamer11 \
 libmediastreamer11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

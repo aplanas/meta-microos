@@ -11,6 +11,7 @@ RPM_HASH = "6671ea7705b365271c04b1806617031a9a2dd9db17d158485edecccdfe9467c2e169
 
 RPROVIDES:${PN} += "libpetsc-gnu-openmpi4-hpc \
 libpetsc-gnu-openmpi4-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpetsc_3_18_5-gnu-openmpi4-hpc"
 

@@ -14,6 +14,7 @@ application(org.opensuse.yast.Support.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Support.metainfo.xml) \
 yast2-support"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

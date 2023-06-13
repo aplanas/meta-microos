@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-icon-theme \
 mate-icon-theme-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

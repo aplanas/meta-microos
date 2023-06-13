@@ -30,6 +30,7 @@ tex(amsppt.sty) \
 tex(amsppt1.tex) \
 tex(amstex.tex) \
 texlive-amstex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

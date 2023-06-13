@@ -18,6 +18,7 @@ RPM_HASH = "c22dad61df5dd8df2dfce62c8854e78839f73cf9fd62dc0dee0c11ade3bba907bc19
 RPROVIDES:${PN} += "librep-devel \
 librep-devel(aarch-64) \
 pkgconfig(librep)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/rep \
 ld-linux-aarch64.so.1()(64bit) \

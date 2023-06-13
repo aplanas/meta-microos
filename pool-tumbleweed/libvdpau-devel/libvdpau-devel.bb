@@ -12,6 +12,7 @@ RPM_HASH = "98b0770c320e7cda00327db941aaa1fae61dd0ec8343e4ebaa0945858ea1c42a4d00
 RPROVIDES:${PN} += "libvdpau-devel \
 libvdpau-devel(aarch-64) \
 pkgconfig(vdpau)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvdpau1"
 

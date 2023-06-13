@@ -74,6 +74,7 @@ tex(musixtri.tex) \
 tex(musixvbm.tex) \
 tex(tuplet.tex) \
 texlive-musixtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

@@ -12,6 +12,7 @@ RPM_HASH = "7073e899f00d1516014885924d345ef7dbf9bdbccb2f5b7ab587a734cd4d44140dbd
 RPROVIDES:${PN} += "typelib(Graphene) \
 typelib-1_0-Graphene-1_0 \
 typelib-1_0-Graphene-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgraphene-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

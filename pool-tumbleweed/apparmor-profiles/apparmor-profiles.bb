@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apparmor-profiles \
 config(apparmor-profiles) \
 subdomain-profiles"
+
 RDEPENDS:${PN} += "/bin/sh \
 apparmor-abstractions \
 apparmor-parser(CAP_SYSLOG)"

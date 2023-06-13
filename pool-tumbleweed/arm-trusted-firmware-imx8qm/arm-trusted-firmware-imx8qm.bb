@@ -11,6 +11,7 @@ RPM_HASH = "b724c496c113805ff1a3a892d0b0f9464f2091a17c5494643bf279c2f79c831f3545
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-imx8qm"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

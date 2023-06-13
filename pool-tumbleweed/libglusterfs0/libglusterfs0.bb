@@ -11,6 +11,7 @@ RPM_HASH = "3a030e22b4ad96fe0053e13461d639b027f913e38c41ecc7f868c6dcb96fa24bf790
 RPROVIDES:${PN} += "libglusterfs.so.0()(64bit) \
 libglusterfs0 \
 libglusterfs0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

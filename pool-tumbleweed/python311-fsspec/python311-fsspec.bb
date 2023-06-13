@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fsspec) \
 python311-fsspec \
 python3dist(fsspec)"
+
 RDEPENDS:${PN} += "fuse \
 python(abi)"
 

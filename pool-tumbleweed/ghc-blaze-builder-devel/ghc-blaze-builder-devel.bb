@@ -10,6 +10,7 @@ RPM_HASH = "f5ae7d9bbd3bb5cd9b04dfb990e1d672c2bfefa13571700ee7d651f7f4a1d9b1c410
 RPROVIDES:${PN} += "ghc-blaze-builder-devel \
 ghc-blaze-builder-devel(aarch-64) \
 ghc-devel(blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-blaze-builder \
 ghc-compiler \

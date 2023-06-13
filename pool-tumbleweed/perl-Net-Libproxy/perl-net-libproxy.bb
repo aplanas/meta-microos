@@ -13,6 +13,7 @@ RPM_HASH = "1600c3d77418cf0d8bef37bcc24741f2e539cb3e906cc6a3773570e98427504afe97
 RPROVIDES:${PN} += "perl(Net::Libproxy) \
 perl-Net-Libproxy \
 perl-Net-Libproxy(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libproxy.so.1()(64bit) \
 libproxy.so.1(LIBPROXY_0.4.16)(64bit) \

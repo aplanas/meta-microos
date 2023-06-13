@@ -11,6 +11,7 @@ RPM_HASH = "2b098b5a806c172bcc218c98c4cf6fab79f8db49808a351dff34ca9fbf0b8b919a81
 RPROVIDES:${PN} += "pkgconfig(libvcdinfo) \
 vcdimager-devel \
 vcdimager-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvcdinfo0 \
 pkgconfig(libcdio)"

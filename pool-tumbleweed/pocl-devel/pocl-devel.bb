@@ -14,6 +14,7 @@ RPM_HASH = "3f770ec318d40abf7c52f549b7f1abae01f2d805150e5eb0bfc89b3547dd159fca0d
 RPROVIDES:${PN} += "pkgconfig(pocl) \
 pocl-devel \
 pocl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpocl2 \
 opencl-headers \

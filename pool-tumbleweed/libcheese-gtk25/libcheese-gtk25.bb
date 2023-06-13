@@ -14,6 +14,7 @@ RPM_HASH = "1343fceca536e574289fc2ab0cd51642a8e8356e23bb264cd74900293b432f683d71
 RPROVIDES:${PN} += "libcheese-gtk.so.25()(64bit) \
 libcheese-gtk25 \
 libcheese-gtk25(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pgflibrarymatrix.skeleton.code.tex) \
 tex(tikzlibrarymatrix.skeleton.code.tex) \
 texlive-matrix-skeleton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

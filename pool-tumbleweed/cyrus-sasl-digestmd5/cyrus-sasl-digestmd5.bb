@@ -12,6 +12,7 @@ RPM_HASH = "5fc8402f9b3bee8fa5fefd29ea3153e01a04bdd9a022fa2ddba85f7f39434997cf13
 RPROVIDES:${PN} += "cyrus-sasl-digestmd5 \
 cyrus-sasl-digestmd5(aarch-64) \
 libdigestmd5.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

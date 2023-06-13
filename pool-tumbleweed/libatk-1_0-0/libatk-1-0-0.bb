@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "atk \
 libatk-1.0.so.0()(64bit) \
 libatk-1_0-0 \
 libatk-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

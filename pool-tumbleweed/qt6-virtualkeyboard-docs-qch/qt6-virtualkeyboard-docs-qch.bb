@@ -9,6 +9,7 @@ RPM_HASH = "be13224db16373366e5ccc7d94d0fc0b5fa3201d1dc5ad97baf46e61fb23b201cba6
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-docs-qch \
 qt6-virtualkeyboard-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

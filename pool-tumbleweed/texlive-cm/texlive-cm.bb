@@ -94,6 +94,7 @@ tex(cmtt9.tfm) \
 tex(cmu10.tfm) \
 tex(cmvtt10.tfm) \
 texlive-cm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

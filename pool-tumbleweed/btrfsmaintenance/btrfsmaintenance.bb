@@ -11,6 +11,7 @@ RPM_HASH = "fdf02b2f1290b70e23998f00caf6d15856f38a3c835a4c10eba40a0420d9b023b728
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsmaintenance"
+
 RDEPENDS:${PN} += "(libzypp(plugin:commit) if zypper) \
 /bin/bash \
 /bin/sh \

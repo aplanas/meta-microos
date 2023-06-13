@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(dracut) \
 dracut \
 dracut(aarch-64) \
 pkgconfig(dracut)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/get_kernel_version \

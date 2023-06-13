@@ -9,6 +9,7 @@ RPM_HASH = "5992830c9789046d39968d2e0f07d5f6b7096940b9b8a8fe1a7bd97856bc56368f80
 
 RPROVIDES:${PN} += "rds-tools-devel \
 rds-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

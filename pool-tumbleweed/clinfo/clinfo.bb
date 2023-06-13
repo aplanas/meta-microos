@@ -14,6 +14,7 @@ RPM_HASH = "fe224a495d0aed0a70a46fafc75edf528064e9a80c503c97d351ebdd5f2c434ef55f
 
 RPROVIDES:${PN} += "clinfo \
 clinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenCL.so.1()(64bit) \

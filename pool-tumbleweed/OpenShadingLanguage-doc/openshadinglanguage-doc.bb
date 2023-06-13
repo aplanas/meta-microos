@@ -12,6 +12,7 @@ RPM_HASH = "63d17e707e991fee83bddf7b69a0dd5af03d0c3eb9f90aa70960d44ceff896051521
 
 RPROVIDES:${PN} += "OpenShadingLanguage-doc \
 OpenShadingLanguage-doc(aarch-64)"
+
 RDEPENDS:${PN} += "OpenShadingLanguage"
 
 inherit rpm

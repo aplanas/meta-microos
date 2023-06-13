@@ -9,6 +9,7 @@ RPM_HASH = "6b0a7a4a2dbd220df8549bce08d08e6b6b24fdf41a508f67f97f4310db6b7b13df97
 
 RPROVIDES:${PN} += "kubectl-neat \
 kubectl-neat(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

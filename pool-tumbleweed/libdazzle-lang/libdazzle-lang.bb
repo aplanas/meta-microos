@@ -17,6 +17,7 @@ locale(libdazzle:pl) \
 locale(libdazzle:sv) \
 locale(libdazzle:uk) \
 locale(libdazzle:zh_CN)"
+
 RDEPENDS:${PN} += "libdazzle"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(Text::Autoformat) \
 perl(Text::Autoformat::Hang) \
 perl(Text::Autoformat::NullHang) \
 perl-Text-Autoformat"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Text::Reform)"
 

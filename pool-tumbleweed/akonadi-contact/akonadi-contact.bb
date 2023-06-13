@@ -11,6 +11,7 @@ RPM_HASH = "e7a88d3d143461334aa6a1565570ec61709f542fddbadc43d91e86443d9620a41008
 RPROVIDES:${PN} += "akonadi-contact \
 akonadi-contact(aarch-64) \
 akonadi-contacts"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \

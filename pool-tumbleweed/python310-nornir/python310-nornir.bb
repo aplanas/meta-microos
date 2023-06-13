@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-nornir \
 python3.10dist(nornir) \
 python310-nornir \
 python3dist(nornir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mypy_extensions \
 python310-ruamel.yaml \

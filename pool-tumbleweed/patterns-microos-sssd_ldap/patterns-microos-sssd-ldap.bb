@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-sssd_ldap \
 patterns-microos-sssd_ldap(aarch-64)"
+
 RDEPENDS:${PN} += "sssd \
 sssd-ldap"
 

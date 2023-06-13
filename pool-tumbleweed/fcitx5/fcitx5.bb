@@ -37,6 +37,7 @@ libxcb.so()(64bit) \
 libxim.so()(64bit) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

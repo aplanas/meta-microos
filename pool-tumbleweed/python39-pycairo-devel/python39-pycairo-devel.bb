@@ -13,6 +13,7 @@ RPM_HASH = "6d0642af719aeec0e968fcd7c25ba87a63aea6d56f33bf2525a000d554347c78acfa
 RPROVIDES:${PN} += "python39-cairo-devel \
 python39-pycairo-devel \
 python39-pycairo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-devel \
 python39-pycairo \
 python39-pycairo-common-devel"

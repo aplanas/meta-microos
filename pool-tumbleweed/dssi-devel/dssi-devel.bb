@@ -10,6 +10,7 @@ RPM_HASH = "944c6e2afa55fe22d1b77f901f086dc5cce00e6e9e61872bffd6f6b56c543385c0f8
 RPROVIDES:${PN} += "dssi-devel \
 dssi-devel(aarch-64) \
 pkgconfig(dssi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ladspa-devel"

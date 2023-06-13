@@ -10,6 +10,7 @@ RPM_HASH = "eacbaad62ef8ae96adee7a61ed3a9b04592124b37059ca23bde67be6ca1dcf3951a1
 RPROVIDES:${PN} += "input-pad-devel \
 input-pad-devel(aarch-64) \
 pkgconfig(input-pad)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 input-pad \
 pkgconfig(gio-2.0) \

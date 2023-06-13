@@ -12,6 +12,7 @@ RPM_HASH = "3a738990a6c5294a5dd3b9e1b240dc087161a57a7fa51ebb178988e86a1968a49f34
 RPROVIDES:${PN} += "libdbdsqlite3.so()(64bit) \
 libdbi-drivers-dbd-sqlite3 \
 libdbi-drivers-dbd-sqlite3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -84,6 +84,7 @@ tex(telprint.sty) \
 tex(thepdfnumber.sty) \
 tex(twoopt.sty) \
 texlive-oberdiek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

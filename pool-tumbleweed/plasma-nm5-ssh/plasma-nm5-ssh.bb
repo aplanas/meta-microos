@@ -10,6 +10,7 @@ RPM_HASH = "674a29eb203ccf98a830795074fb9aed2fc8906a6159d8889c8f9e9f06d941929e0a
 RPROVIDES:${PN} += "NetworkManager-ssh-frontend \
 plasma-nm5-ssh \
 plasma-nm5-ssh(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

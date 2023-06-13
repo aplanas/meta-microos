@@ -37,6 +37,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::Most) \
 perl(Test::Most::Exception) \
 perl-Test-Most"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exception::Class) \
 perl(Test::Deep) \

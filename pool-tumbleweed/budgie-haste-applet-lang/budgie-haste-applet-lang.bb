@@ -15,6 +15,7 @@ locale(budgie-haste-applet:da) \
 locale(budgie-haste-applet:de) \
 locale(budgie-haste-applet:lt) \
 locale(budgie-haste-applet:nl_BE)"
+
 RDEPENDS:${PN} += "budgie-haste-applet"
 
 inherit rpm

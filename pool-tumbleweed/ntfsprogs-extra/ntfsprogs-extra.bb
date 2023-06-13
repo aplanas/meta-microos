@@ -14,6 +14,7 @@ RPM_HASH = "f4adb9e59ebe215ad52506b9ca89aa1701a948ee2ade2848080d043906bfe34737ff
 
 RPROVIDES:${PN} += "ntfsprogs-extra \
 ntfsprogs-extra(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "01d0ec8e1db536b6676fe7da09fe29743da7d4f02edb54891c7a9dc8aa3f71b88f48
 
 RPROVIDES:${PN} += "gdk-pixbuf-query-loaders \
 gdk-pixbuf-query-loaders(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

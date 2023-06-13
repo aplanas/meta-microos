@@ -9,6 +9,7 @@ RPM_HASH = "2accbf45a75f0cf9c51b4dd21c06db8a4a7acd553638ad5a5ec2210fa880ad3c6ce5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-shortfields-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

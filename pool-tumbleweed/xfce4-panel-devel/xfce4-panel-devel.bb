@@ -11,6 +11,7 @@ RPM_HASH = "abc2fccd915e4caf92d9834fc8ea3a290071574f6531607ab9f7733cec82d211c9ad
 RPROVIDES:${PN} += "pkgconfig(libxfce4panel-2.0) \
 xfce4-panel-devel \
 xfce4-panel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(glib-2.0) \
 pkgconfig(gmodule-2.0) \

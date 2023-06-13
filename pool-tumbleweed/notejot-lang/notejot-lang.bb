@@ -27,6 +27,7 @@ locale(notejot:sv) \
 locale(notejot:tr_TR) \
 notejot-lang \
 notejot-lang-all"
+
 RDEPENDS:${PN} += "notejot"
 
 inherit rpm

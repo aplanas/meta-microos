@@ -20,6 +20,7 @@ tex(beamerinnerthemeArguelles.sty) \
 tex(beamerouterthemeArguelles.sty) \
 tex(beamerthemeArguelles.sty) \
 texlive-beamertheme-arguelles"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

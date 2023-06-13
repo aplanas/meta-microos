@@ -39,6 +39,7 @@ mimehandler(image/x-xbitmap) \
 mimehandler(image/x-xpixmap) \
 qiv \
 qiv(aarch-64)"
+
 RDEPENDS:${PN} += "imlib2-loaders \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

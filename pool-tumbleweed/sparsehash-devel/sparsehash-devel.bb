@@ -13,6 +13,7 @@ RPM_HASH = "c6be869c1050ff36f8d14db934b8c7979162ac62b43e74145b10aa4c295b886f4211
 RPROVIDES:${PN} += "pkgconfig(libsparsehash) \
 sparsehash-devel \
 sparsehash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

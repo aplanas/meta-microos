@@ -10,6 +10,7 @@ RPM_HASH = "abce5989cdf65b3aa040ad99e4134ffe8b23f1a40e8e729e31fede4128f35bb11e61
 RPROVIDES:${PN} += "libparlatype.so.5()(64bit) \
 libparlatype5 \
 libparlatype5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

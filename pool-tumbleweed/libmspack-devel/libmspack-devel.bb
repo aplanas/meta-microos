@@ -11,6 +11,7 @@ RPM_HASH = "fa39a80475c3304432f23ef22d4327b67b16f552e28be2ea49e728b6041053d71af3
 RPROVIDES:${PN} += "libmspack-devel \
 libmspack-devel(aarch-64) \
 pkgconfig(libmspack)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmspack0"
 

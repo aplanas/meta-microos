@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sides.cls) \
 texlive-sides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

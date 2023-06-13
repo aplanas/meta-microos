@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-robustcommand-doc:de) \
 texlive-robustcommand-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

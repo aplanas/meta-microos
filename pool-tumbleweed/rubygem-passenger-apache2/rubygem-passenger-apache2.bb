@@ -14,6 +14,7 @@ RPM_HASH = "a10bd6093a4454c5a6cfcebe72725c0d5b60abd9cd4b19294c825474b0f2a289ee94
 RPROVIDES:${PN} += "config(rubygem-passenger-apache2) \
 rubygem-passenger-apache2 \
 rubygem-passenger-apache2(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

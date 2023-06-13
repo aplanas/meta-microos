@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bidishadowtext.sty) \
 texlive-bidishadowtext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

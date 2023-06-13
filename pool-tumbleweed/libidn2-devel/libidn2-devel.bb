@@ -10,6 +10,7 @@ RPM_HASH = "3f586aff7e34ddd946a662b069e282dc3e6fb15199c7b1905d31224769e1aeb620ac
 RPROVIDES:${PN} += "libidn2-devel \
 libidn2-devel(aarch-64) \
 pkgconfig(libidn2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libidn2-0"
 

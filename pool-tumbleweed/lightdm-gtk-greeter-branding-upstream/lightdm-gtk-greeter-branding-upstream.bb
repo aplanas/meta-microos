@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(lightdm-gtk-greeter-branding-upstream) \
 lightdm-gtk-greeter-branding \
 lightdm-gtk-greeter-branding-upstream"
+
 RDEPENDS:${PN} += "lightdm-gtk-greeter"
 
 inherit rpm

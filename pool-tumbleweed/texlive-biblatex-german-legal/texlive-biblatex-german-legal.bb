@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(german-legal-book.bbx) \
 tex(german-legal-book.cbx) \
 texlive-biblatex-german-legal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

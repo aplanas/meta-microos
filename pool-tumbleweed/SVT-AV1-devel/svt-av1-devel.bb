@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SVT-AV1-devel \
 SVT-AV1-devel(aarch-64) \
 pkgconfig(SvtAv1Dec) \
 pkgconfig(SvtAv1Enc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSvtAv1Dec0 \
 libSvtAv1Enc1"

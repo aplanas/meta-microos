@@ -9,6 +9,7 @@ RPM_HASH = "3a78cf86535f9e7bac5e373c9a5c30a37bd883ac5d3f19fa619cbec38892e2d44eee
 
 RPROVIDES:${PN} += "mfoc \
 mfoc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

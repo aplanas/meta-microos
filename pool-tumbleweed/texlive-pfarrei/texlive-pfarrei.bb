@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(a5toa4.tex) \
 tex(pfarrei.sty) \
 texlive-pfarrei"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

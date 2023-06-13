@@ -13,6 +13,7 @@ RPM_HASH = "ae9d78574e93ed6e912bef6695f765b49e0c46a7dc486ef068cba1036ac037e2cf72
 
 RPROVIDES:${PN} += "postgresql13-plr-doc \
 postgresql13-plr-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

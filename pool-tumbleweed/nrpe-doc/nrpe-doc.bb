@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nagios-nrpe-doc \
 nrpe-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

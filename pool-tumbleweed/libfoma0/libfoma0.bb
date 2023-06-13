@@ -15,6 +15,7 @@ RPM_HASH = "5b21c44329eaa52e318c7503c085d42f4315aa1002d917c57b42de25cfcfe4a3d7f4
 RPROVIDES:${PN} += "libfoma.so.0()(64bit) \
 libfoma0 \
 libfoma0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

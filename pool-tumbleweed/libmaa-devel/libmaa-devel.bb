@@ -9,6 +9,7 @@ RPM_HASH = "29cdaa01e687e731d4a26badedb3f22f8100f9af73074c0e1b590b4cef9cbe88be30
 
 RPROVIDES:${PN} += "libmaa-devel \
 libmaa-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmaa4"
 
 inherit rpm

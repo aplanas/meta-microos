@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libXmu.so.6()(64bit) \
 libXmu6 \
 libXmu6(aarch-64) \
 xorg-x11-libXmu"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

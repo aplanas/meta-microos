@@ -10,6 +10,7 @@ RPM_HASH = "beef0cd653cd4da0f6f2c2b27b73289b874cfccf3e919ccf3e7bc6a9a79ab48ff2d7
 RPROVIDES:${PN} += "ghc-distributive-prof \
 ghc-distributive-prof(aarch-64) \
 ghc-prof(distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79)"
+
 RDEPENDS:${PN} += "ghc-distributive-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8) \

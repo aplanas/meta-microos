@@ -22,6 +22,7 @@ opensp \
 opensp(aarch-64) \
 sp \
 sp_libs"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
 ld-linux-aarch64.so.1()(64bit) \

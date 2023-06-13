@@ -11,6 +11,7 @@ RPM_HASH = "a0a77dcd2e44a415170b5f15dd9f49bdf1c7ad6d8de377ed06df4d5d84cccc0c60c1
 
 RPROVIDES:${PN} += "openldap2-back-sql \
 openldap2-back-sql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "34800682e4d4481124804f6c79384469e584d291b8057fafc48c248c4fe087dd6e9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mateweather-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

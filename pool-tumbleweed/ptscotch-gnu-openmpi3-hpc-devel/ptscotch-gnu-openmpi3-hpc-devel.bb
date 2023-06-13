@@ -11,6 +11,7 @@ RPM_HASH = "874afee698b1777e2f5917085bfd21e97bd2c44649158c67cc39bad1e7dbf8fb131a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ptscotch-gnu-openmpi3-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ptscotch_6_1_0-gnu-openmpi3-hpc-devel"
 

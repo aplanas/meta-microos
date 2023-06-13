@@ -9,6 +9,7 @@ RPM_HASH = "1e9611fb36e4ed6c714633526b145f6b69ba6f6947428dcf93ad91a4b3059ce54391
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libe-book-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

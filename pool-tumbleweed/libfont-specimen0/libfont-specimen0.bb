@@ -11,6 +11,7 @@ RPM_HASH = "5234d1e0de6d416b034fb0692cc60eea6be516263c7c438faa4c13710f530c68c26e
 RPROVIDES:${PN} += "libfont-specimen.so.0()(64bit) \
 libfont-specimen0 \
 libfont-specimen0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

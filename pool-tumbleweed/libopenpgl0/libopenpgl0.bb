@@ -14,6 +14,7 @@ RPM_HASH = "3f3b7b619662d6efde76b0fac29554e2db16788e0915d61b8a07483ee3b8fb09fd1d
 RPROVIDES:${PN} += "libopenpgl.so.0()(64bit) \
 libopenpgl0 \
 libopenpgl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

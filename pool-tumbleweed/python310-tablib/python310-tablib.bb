@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-tablib \
 python3.10dist(tablib) \
 python310-tablib \
 python3dist(tablib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-MarkupPy \
 python310-PyYAML \

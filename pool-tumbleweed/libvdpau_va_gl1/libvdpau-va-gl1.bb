@@ -20,6 +20,7 @@ libvdpau_va_gl \
 libvdpau_va_gl.so.1()(64bit) \
 libvdpau_va_gl1 \
 libvdpau_va_gl1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jgraphx \
 mvn(com.mxgraph:jgraphx) \
 mvn(com.mxgraph:jgraphx:pom:) \
 osgi(com.mxgraph)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

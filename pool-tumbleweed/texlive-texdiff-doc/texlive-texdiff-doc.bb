@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texdiff.1) \
 texlive-texdiff-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ dnf-plugins-extras-versionlock \
 python3-dnf-plugin-versionlock \
 python3-dnf-plugins-extras-versionlock \
 yum-versionlock"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-core"
 

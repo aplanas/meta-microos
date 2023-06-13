@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-openid-teams) \
 python39-python-openid-teams \
 python3dist(python-openid-teams)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

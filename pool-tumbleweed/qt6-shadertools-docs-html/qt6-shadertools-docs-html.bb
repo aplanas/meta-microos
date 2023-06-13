@@ -9,6 +9,7 @@ RPM_HASH = "9f74a18e4888705643f21a4bbb84594e2f75e30e0fda44ab17ff9d282e698fea9595
 
 RPROVIDES:${PN} += "qt6-shadertools-docs-html \
 qt6-shadertools-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

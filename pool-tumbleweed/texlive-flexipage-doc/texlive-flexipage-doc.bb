@@ -9,6 +9,7 @@ RPM_HASH = "dc7414c5dd52c93add636330f781d87540e5df86402fa728a1fcf584773fe4d4b757
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flexipage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

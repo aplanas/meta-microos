@@ -12,6 +12,7 @@ RPM_HASH = "b5e48f6a3db22e5dd049dd17562678513e8e349f69b841df78905f52d5f7b92b8533
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.concurrency-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

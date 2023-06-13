@@ -12,6 +12,7 @@ RPM_HASH = "35c767e49001c268883f2923eaf51824271482f81f42f647885fe015f199ca02932f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unamth-template"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ tex(jurabook.cls) \
 tex(juraovw.cls) \
 tex(juraurtl.cls) \
 texlive-juramisc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

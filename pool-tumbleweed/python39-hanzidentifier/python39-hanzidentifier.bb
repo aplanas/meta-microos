@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hanzidentifier) \
 python39-hanzidentifier \
 python3dist(hanzidentifier)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zhon"
 

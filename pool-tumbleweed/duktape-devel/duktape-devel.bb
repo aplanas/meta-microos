@@ -13,6 +13,7 @@ RPM_HASH = "b2041e1c4e4829ceaeff372d9ade4456944fc51679036305535af73498cf0879a6f6
 RPROVIDES:${PN} += "duktape-devel \
 duktape-devel(aarch-64) \
 pkgconfig(duktape)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libduktape207"
 

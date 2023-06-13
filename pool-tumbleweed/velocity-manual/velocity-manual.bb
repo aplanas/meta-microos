@@ -27,6 +27,7 @@ RPM_HASH = "cab964a674aefebf5eb35d72ec34d20ec0dfecadc8aaf6644494cd8038aba1d71c3c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "velocity-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

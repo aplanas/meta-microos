@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mvn(org.scalamacros:quasiquotes_2.10) \
 mvn(org.scalamacros:quasiquotes_2.10:pom:) \
 quasiquotes \
 quasiquotes(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library) \

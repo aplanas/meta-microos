@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "auto-value \
 mvn(com.google.auto.value:auto-value) \
 mvn(com.google.auto.value:auto-value:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.auto:auto-common) \

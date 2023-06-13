@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(googlemaps) \
 python39-googlemaps \
 python3dist(googlemaps)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

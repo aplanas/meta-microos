@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(imagesize) \
 python311-imagesize \
 python3dist(imagesize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

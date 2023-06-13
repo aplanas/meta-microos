@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "httpcomponents-asyncclient \
 mvn(org.apache.httpcomponents:httpasyncclient) \
 mvn(org.apache.httpcomponents:httpasyncclient:pom:) \
 osgi(org.apache.httpcomponents.httpasyncclient)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging) \

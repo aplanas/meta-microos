@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-youtube-dl \
 python3.10dist(youtube-dl) \
 python310-youtube-dl \
 python3dist(youtube-dl)"
+
 RDEPENDS:${PN} += "ffmpeg \
 python(abi) \
 python310-xml"

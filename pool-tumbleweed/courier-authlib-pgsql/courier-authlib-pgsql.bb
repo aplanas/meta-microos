@@ -12,6 +12,7 @@ RPM_HASH = "c722331f4869ea43ee4c79b18c950ec3dc555d5f22040e45f9c8d848e863592fe74f
 RPROVIDES:${PN} += "courier-authlib-pgsql \
 courier-authlib-pgsql(aarch-64) \
 libauthpgsql.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

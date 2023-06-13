@@ -14,6 +14,7 @@ RPM_HASH = "4e5003ac24b573a3f8537a4512964fb99b942ad63a93da8e1142ae76d00156100061
 RPROVIDES:${PN} += "librevenge-generators-0.0.so.0()(64bit) \
 librevenge-generators-0_0-0 \
 librevenge-generators-0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

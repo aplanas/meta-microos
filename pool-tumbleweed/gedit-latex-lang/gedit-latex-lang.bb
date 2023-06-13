@@ -40,6 +40,7 @@ locale(gedit-latex:sv) \
 locale(gedit-latex:th) \
 locale(gedit-latex:zh_CN) \
 locale(gedit-latex:zh_TW)"
+
 RDEPENDS:${PN} += "gedit-latex"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "5d8800d5eed8d2cf54e9620c2aeaa334bf3278807337d021f6ebc43965079e45ab3b
 RPROVIDES:${PN} += "libpepchangenotifyplugin.so()(64bit) \
 psi+-plugins-pepchangenotifyplugin \
 psi+-plugins-pepchangenotifyplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

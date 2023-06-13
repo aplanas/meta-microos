@@ -65,6 +65,7 @@ tex(a_lksl5v.enc) \
 tex(a_qnu4g5.enc) \
 tex(a_ys4752.enc) \
 texlive-gudea"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

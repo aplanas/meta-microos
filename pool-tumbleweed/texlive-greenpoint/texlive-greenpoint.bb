@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(greenpoint.tfm) \
 texlive-greenpoint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

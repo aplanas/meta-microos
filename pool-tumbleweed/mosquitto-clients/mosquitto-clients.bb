@@ -18,6 +18,7 @@ RPM_HASH = "580f0bd9956409c31b44573aa2e4e437696c5fac1f8dd9254f5c05ddd0d11e2e65a2
 
 RPROVIDES:${PN} += "mosquitto-clients \
 mosquitto-clients(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

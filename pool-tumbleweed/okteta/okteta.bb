@@ -14,6 +14,7 @@ metainfo(org.kde.okteta.appdata.xml) \
 okteta \
 okteta(aarch-64) \
 okteta5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

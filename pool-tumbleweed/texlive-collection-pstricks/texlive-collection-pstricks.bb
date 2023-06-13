@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pstricks) \
 texlive-collection-pstricks"
+
 RDEPENDS:${PN} += "texlive-auto-pst-pdf \
 texlive-bclogo \
 texlive-collection-basic \

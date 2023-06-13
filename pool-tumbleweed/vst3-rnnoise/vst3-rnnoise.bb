@@ -22,6 +22,7 @@ RPM_HASH = "99eaf0f63e740c24b557e77eb7bd795f1d79cbfbce155ee5de7d1d09cd70107b360f
 
 RPROVIDES:${PN} += "vst3-rnnoise \
 vst3-rnnoise(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

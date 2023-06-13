@@ -26,6 +26,7 @@ qt5qmlimport(org.deepin.kwin.decoration.0) \
 qt5qmlimport(org.kde.kwin.decorations.plastik.1) \
 qt5qmlimport(org.kde.kwin.private.kdecoration.1) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

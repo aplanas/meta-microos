@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libpmem2-1 \
 libpmem2-1(aarch-64) \
 libpmem2.so.1()(64bit) \
 libpmem2.so.1(LIBPMEM2_1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

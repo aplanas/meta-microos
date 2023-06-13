@@ -24,6 +24,7 @@ pkgconfig(libmlx5) \
 pkgconfig(librdmacm) \
 rdma-core-devel \
 rdma-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 infiniband-diags \
 libefa1 \

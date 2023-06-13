@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::MarkAsMethods) \
 perl(MooseX::MarkAsMethods::MetaRole::MethodMarker) \
 perl-MooseX-MarkAsMethods"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::EndOfScope) \
 perl(Moose) \

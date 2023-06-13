@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hatch) \
 python39-hatch \
 python3dist(hatch)"
+
 RDEPENDS:${PN} += "(python3.9dist(pexpect) >= 4.8 with python3.9dist(pexpect) < 5) \
 (python3.9dist(userpath) >= 1.7 with python3.9dist(userpath) < 2) \
 /bin/sh \

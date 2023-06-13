@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/sbin/modprobe \
 busybox-kmod"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

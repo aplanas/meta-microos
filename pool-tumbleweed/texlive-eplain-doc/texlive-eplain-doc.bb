@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(eplain.1) \
 texlive-eplain-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk"
 

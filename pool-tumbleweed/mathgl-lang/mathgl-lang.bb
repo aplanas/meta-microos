@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(mathgl:es) \
 locale(mathgl:ru) \
 mathgl-lang \
 mathgl-lang-all"
+
 RDEPENDS:${PN} += "mathgl"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPM_HASH = "feddf9a6c365bb105ee3b960d10fc7846bff22088cd61cd825a1235f541e57f4d80b
 RPROVIDES:${PN} += "libyang-devel \
 libyang-devel(aarch-64) \
 pkgconfig(libyang)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyang2 \
 pkgconfig(libpcre2-8)"

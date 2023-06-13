@@ -11,6 +11,7 @@ RPM_HASH = "3554d239304e3f2448d663880180c381a8766b0d710123dfc6425f932a89b94fccc2
 RPROVIDES:${PN} += "crda \
 crda(aarch-64) \
 libreg.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

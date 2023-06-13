@@ -10,6 +10,7 @@ RPM_HASH = "6b2639945092265aaf4ec8dc4612989adc9400dee02c3c8a93118a8957fdf76f6213
 
 RPROVIDES:${PN} += "dbview \
 dbview(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

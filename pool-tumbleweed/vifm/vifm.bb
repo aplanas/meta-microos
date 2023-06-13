@@ -15,6 +15,7 @@ application(vifm.desktop) \
 mimehandler(inode/directory) \
 vifm \
 vifm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

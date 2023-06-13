@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-user-agents) \
 python311-django-user-agents \
 python3dist(django-user-agents)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-user-agents"

@@ -10,6 +10,7 @@ RPM_HASH = "5f0f134b216ed5d2f77d8cb7a30b799891e2122ec2bd2b96420dc4c40839c79469df
 RPROVIDES:${PN} += "libfpm_helper.so.0()(64bit) \
 libfpm_helper0 \
 libfpm_helper0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

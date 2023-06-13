@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgnutls-dane.so.0()(64bit) \
 libgnutls-dane.so.0(DANE_0_0)(64bit) \
 libgnutls-dane0 \
 libgnutls-dane0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "351cdb67a6fe2c4fc6637e477a505d1550ed424a23068d49cb366ebe5ae1af6cbf1a
 RPROVIDES:${PN} += "libvlccore.so.9()(64bit) \
 libvlccore9 \
 libvlccore9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

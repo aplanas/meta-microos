@@ -10,6 +10,7 @@ RPM_HASH = "6195b75a7f59379d7990317377b89f5a8d6d565cccf38f428f1e09d9a287157c4112
 
 RPROVIDES:${PN} += "librasqal-devel-doc \
 librasqal-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

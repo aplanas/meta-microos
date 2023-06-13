@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(starlette) \
 python311-starlette \
 python3dist(starlette)"
+
 RDEPENDS:${PN} += "(python311-typing_extensions >= 3.10.0 if python311-base < 3.10) \
 python(abi) \
 python311-anyio"

@@ -9,6 +9,7 @@ RPM_HASH = "a83a8ba86c4533e4cfa60d43dcf64f9ddace3cc9cb9135927971661da3af94bfb47c
 
 RPROVIDES:${PN} += "sudo-devel \
 sudo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "sudo"
 
 inherit rpm

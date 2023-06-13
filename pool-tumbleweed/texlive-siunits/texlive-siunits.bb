@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(SIunits.cfg) \
 tex(SIunits.sty) \
 tex(binary.sty) \
 texlive-siunits"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

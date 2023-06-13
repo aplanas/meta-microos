@@ -295,6 +295,7 @@ tex(cphwt_sz67he.enc) \
 tex(cphwt_tjvrzf.enc) \
 tex(cphwt_vrwj46.enc) \
 texlive-cooperhewitt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

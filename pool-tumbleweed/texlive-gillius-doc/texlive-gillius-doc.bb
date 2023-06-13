@@ -9,6 +9,7 @@ RPM_HASH = "00bd2c5768dcffd042bfcf183ce0db274e0f2d545e57e3061b4676a107b9e1e95752
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gillius-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

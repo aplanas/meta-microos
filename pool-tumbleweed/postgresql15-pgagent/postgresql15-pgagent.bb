@@ -11,6 +11,7 @@ RPM_HASH = "f9e8e38d2c59df03bb805d7195d7b98f1d8929504a17d32421cc92c4096364ccbda7
 RPROVIDES:${PN} += "config(postgresql15-pgagent) \
 postgresql15-pgagent \
 postgresql15-pgagent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

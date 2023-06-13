@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pyte \
 python3.10dist(pyte) \
 python310-pyte \
 python3dist(pyte)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wcwidth"
 

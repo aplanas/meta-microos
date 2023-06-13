@@ -57,6 +57,7 @@ locale(rocs:zh_CN) \
 locale(rocs:zh_TW) \
 rocs-lang \
 rocs-lang-all"
+
 RDEPENDS:${PN} += "rocs"
 
 inherit rpm

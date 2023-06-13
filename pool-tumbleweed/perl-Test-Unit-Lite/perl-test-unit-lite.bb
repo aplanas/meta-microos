@@ -27,6 +27,7 @@ perl(Test::Unit::TestCase) \
 perl(Test::Unit::TestRunner) \
 perl(Test::Unit::TestSuite) \
 perl-Test-Unit-Lite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

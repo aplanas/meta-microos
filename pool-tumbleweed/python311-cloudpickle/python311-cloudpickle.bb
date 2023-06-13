@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cloudpickle) \
 python311-cloudpickle \
 python3dist(cloudpickle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

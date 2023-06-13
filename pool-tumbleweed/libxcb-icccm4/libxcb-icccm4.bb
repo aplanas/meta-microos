@@ -16,6 +16,7 @@ RPM_HASH = "0e47344397f3505721fc9f2d70c0555a2874c501ebf4c51d870642821fb96052e4a7
 RPROVIDES:${PN} += "libxcb-icccm.so.4()(64bit) \
 libxcb-icccm4 \
 libxcb-icccm4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libxcb.so.1()(64bit)"

@@ -13,6 +13,7 @@ RPM_HASH = "eecd039f4e8d1c7efd07fb27dbc818dc1c76938755dd24c9f6e768524d11cfd36665
 RPROVIDES:${PN} += "libsundials_generic.so.6()(64bit) \
 libsundials_generic6-openmpi3 \
 libsundials_generic6-openmpi3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ libfreeradius-dhcp.so()(64bit) \
 libfreeradius-eap.so()(64bit) \
 libfreeradius-radius.so()(64bit) \
 libfreeradius-server.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

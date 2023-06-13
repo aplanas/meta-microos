@@ -25,6 +25,7 @@ python3.11dist(pymol) \
 python311-pymol \
 python311-pymol(aarch-64) \
 python3dist(pymol)"
+
 RDEPENDS:${PN} += "/bin/csh \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

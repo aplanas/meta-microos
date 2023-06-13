@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-branding \
 fcitx-branding-openSUSE"
+
 RDEPENDS:${PN} += "fcitx"
 
 inherit rpm

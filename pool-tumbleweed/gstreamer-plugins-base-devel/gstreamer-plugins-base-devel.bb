@@ -28,6 +28,7 @@ pkgconfig(gstreamer-rtsp-1.0) \
 pkgconfig(gstreamer-sdp-1.0) \
 pkgconfig(gstreamer-tag-1.0) \
 pkgconfig(gstreamer-video-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgstallocators-1_0-0 \
 libgstapp-1_0-0 \

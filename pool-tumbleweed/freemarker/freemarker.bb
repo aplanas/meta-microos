@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "freemarker \
 mvn(org.freemarker:freemarker) \
 mvn(org.freemarker:freemarker:pom:) \
 osgi(org.freemarker.freemarker)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

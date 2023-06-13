@@ -11,6 +11,7 @@ RPM_HASH = "7f6b054b28da5da835563338205ba0c47b4bfadbea7eeffb8cfcc7c63a5fa50a6628
 RPROVIDES:${PN} += "feedbackd-devel \
 feedbackd-devel(aarch-64) \
 pkgconfig(libfeedback-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 feedbackd \
 libfeedback-0_0-0 \

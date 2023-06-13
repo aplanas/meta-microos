@@ -9,6 +9,7 @@ RPM_HASH = "0c2fdbe057a9661ec3d98904aff999cb1a8d2b37819e445bd23c687edbc6e774eb1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcharter-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-eventgrid \
 python3.10dist(azure-mgmt-eventgrid) \
 python310-azure-mgmt-eventgrid \
 python3dist(azure-mgmt-eventgrid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

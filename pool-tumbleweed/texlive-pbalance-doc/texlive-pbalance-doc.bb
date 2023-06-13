@@ -9,6 +9,7 @@ RPM_HASH = "628c891933bdf28ff941e64fb7ba95fbac647a4c7b3b27085b9b8a3976d3d5daa864
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pbalance-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

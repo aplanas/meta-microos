@@ -17,6 +17,7 @@ RPM_HASH = "02768b2463504bd6506909320d90cc9f5b9a92f53cfed6aaca6e1eafdba25a651b0e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-poi"
+
 RDEPENDS:${PN} += "jakarta-commons-beanutils \
 jakarta-commons-collections \
 jakarta-commons-lang \

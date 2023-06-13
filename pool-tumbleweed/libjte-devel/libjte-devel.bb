@@ -10,6 +10,7 @@ RPM_HASH = "d3bdfd1b30e80d487a3fcba58671ac1124ef9bbab990d48784af6ba128800a484553
 RPROVIDES:${PN} += "libjte-devel \
 libjte-devel(aarch-64) \
 pkgconfig(libjte-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjte2"
 

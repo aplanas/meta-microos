@@ -11,6 +11,7 @@ RPM_HASH = "cb3c7775e7ea0fd3c3c271722f990c5ed5eda43f0fc399a6735f730404cdaa7775a8
 RPROVIDES:${PN} += "libKF5DAV.so.5()(64bit) \
 libKF5DAV5 \
 libKF5DAV5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdav \
 ld-linux-aarch64.so.1()(64bit) \

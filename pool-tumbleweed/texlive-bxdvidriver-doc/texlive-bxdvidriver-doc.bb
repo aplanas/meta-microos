@@ -9,6 +9,7 @@ RPM_HASH = "3a9c5d951d1a8021b61f0bbc41ce7abbca012508271b93e5c716a5ad2e1bc6904b99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxdvidriver-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

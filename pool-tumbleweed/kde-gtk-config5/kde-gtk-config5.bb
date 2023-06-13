@@ -14,6 +14,7 @@ kde-gtk-config5(aarch-64) \
 kde-gtk-config5-gtk2 \
 libcolorreload-gtk-module.so()(64bit) \
 libwindow-decorations-gtk-module.so()(64bit)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \

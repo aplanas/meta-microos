@@ -11,6 +11,7 @@ RPM_HASH = "cd5966518e70b6053e789e5522d1c46d97f937d723c5fbefe1fc42b161ab63748178
 RPROVIDES:${PN} += "libxcam-devel \
 libxcam-devel(aarch-64) \
 pkgconfig(libxcam)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcam1"
 

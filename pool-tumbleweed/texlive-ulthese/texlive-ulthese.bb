@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ulthese.cls) \
 texlive-ulthese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

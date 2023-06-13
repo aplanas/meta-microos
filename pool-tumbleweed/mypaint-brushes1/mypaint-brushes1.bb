@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes \
 mypaint-brushes1"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "6c23d8cc935c16e90b5c004234e742c48dcfd152b0b5dbb1c61fde61225b487162ed
 
 RPROVIDES:${PN} += "libbtrfs-devel \
 libbtrfs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "btrfsprogs \
 libbtrfs0"
 

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:rack-proxy) \
 rubygem(ruby:3.2.0:rack-proxy:0) \
 rubygem(ruby:3.2.0:rack-proxy:0.7) \
 rubygem(ruby:3.2.0:rack-proxy:0.7.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rack)"
 

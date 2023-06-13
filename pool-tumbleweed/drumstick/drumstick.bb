@@ -20,6 +20,7 @@ metainfo(net.sourceforge.drumstick-vpiano.metainfo.xml) \
 mimehandler(audio/cakewalk) \
 mimehandler(audio/midi) \
 mimehandler(audio/x-midi)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

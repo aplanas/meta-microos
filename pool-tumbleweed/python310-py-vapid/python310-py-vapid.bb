@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-py-vapid \
 python3.10dist(py-vapid) \
 python310-py-vapid \
 python3dist(py-vapid)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

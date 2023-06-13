@@ -12,6 +12,7 @@ RPM_HASH = "6f3cf32a4e171b300c9a64fcbef8ef18207c487e2672c0adfe5794130d74c57bab54
 RPROVIDES:${PN} += "libkea-asiolink.so.40()(64bit) \
 libkea-asiolink40 \
 libkea-asiolink40(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

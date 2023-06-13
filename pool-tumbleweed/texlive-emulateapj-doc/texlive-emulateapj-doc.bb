@@ -9,6 +9,7 @@ RPM_HASH = "49475573fa26ef1d9b83f19c9e0b73958e9140b0574f664dc9e16c960d5a67b518d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emulateapj-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

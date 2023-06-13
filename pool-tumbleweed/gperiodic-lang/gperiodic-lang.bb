@@ -37,6 +37,7 @@ locale(gperiodic:sv) \
 locale(gperiodic:tr) \
 locale(gperiodic:uk) \
 locale(gperiodic:zh_CN)"
+
 RDEPENDS:${PN} += "gperiodic"
 
 inherit rpm

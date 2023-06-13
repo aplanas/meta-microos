@@ -76,6 +76,7 @@ perl(_p_svn_wc_status_t) \
 perl(_p_svn_wc_t) \
 subversion-perl \
 subversion-perl(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

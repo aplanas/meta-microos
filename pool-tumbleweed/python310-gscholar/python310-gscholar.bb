@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-gscholar \
 python3.10dist(gscholar) \
 python310-gscholar \
 python3dist(gscholar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

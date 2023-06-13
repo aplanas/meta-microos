@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-sortedm2m \
 python3.10dist(django-sortedm2m) \
 python310-django-sortedm2m \
 python3dist(django-sortedm2m)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

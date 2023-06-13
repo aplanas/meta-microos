@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytweening) \
 python39-PyTweening \
 python3dist(pytweening)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "7611917a3d2707d57792e0fac246a29d23f6993b212beee6d6f0205e36e4743c0c88
 
 RPROVIDES:${PN} += "fltk-devel-static \
 fltk-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "fltk-devel \
 libfltk1_3"
 

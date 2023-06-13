@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-box \
 python3.10dist(python-box) \
 python310-python-box \
 python3dist(python-box)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msgpack \
 python310-ruamel.yaml \

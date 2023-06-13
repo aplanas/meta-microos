@@ -20,6 +20,7 @@ mvn(org.apache.commons:commons-vfs-examples:pom:) \
 mvn(org.apache.commons:commons-vfs-sandbox) \
 mvn(org.apache.commons:commons-vfs-sandbox:pom:) \
 mvn(org.apache.commons:commons-vfs:pom:)"
+
 RDEPENDS:${PN} += "jakarta-commons-codec \
 jakarta-commons-collections \
 jakarta-commons-httpclient3 \

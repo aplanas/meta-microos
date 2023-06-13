@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libpcp_trace.so.2()(64bit) \
 libpcp_trace.so.2(PCP_TRACE_2.0)(64bit) \
 libpcp_trace2 \
 libpcp_trace2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

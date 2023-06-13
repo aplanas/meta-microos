@@ -13,6 +13,7 @@ RPM_HASH = "9e1599e22aebb91e6da945d022f23c81208ff918d62ac8c27ef204af4012efeeb874
 
 RPROVIDES:${PN} += "libreoffice-calc-extensions \
 libreoffice-calc-extensions(aarch-64)"
+
 RDEPENDS:${PN} += "jre-64 \
 libreoffice \
 libreoffice-calc \

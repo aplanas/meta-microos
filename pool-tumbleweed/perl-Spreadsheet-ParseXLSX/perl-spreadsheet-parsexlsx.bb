@@ -17,6 +17,7 @@ perl(Spreadsheet::ParseXLSX::Decryptor) \
 perl(Spreadsheet::ParseXLSX::Decryptor::Agile) \
 perl(Spreadsheet::ParseXLSX::Decryptor::Standard) \
 perl-Spreadsheet-ParseXLSX"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(Crypt::Mode::CBC) \

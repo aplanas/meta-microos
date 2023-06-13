@@ -11,6 +11,7 @@ RPM_HASH = "8f2726454ff3aee626c9334666e1545005ded9d77decdebbffd2fdcae987dcb320aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trilinos-hpc-doc"
+
 RDEPENDS:${PN} += "trilinos_14_0_0-hpc-doc"
 
 inherit rpm

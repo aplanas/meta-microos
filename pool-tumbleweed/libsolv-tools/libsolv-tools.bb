@@ -13,6 +13,7 @@ RPM_HASH = "13b84654c2ab6f4cd7e4339b6b9491c26012ffe7f50678ce17894cd2563c777e015b
 RPROVIDES:${PN} += "libsolv-tools \
 libsolv-tools(aarch-64) \
 satsolver-tools"
+
 RDEPENDS:${PN} += "findutils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

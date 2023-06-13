@@ -12,6 +12,7 @@ RPM_HASH = "720a283ea42e9a87e9849d28a73990e287ecd911dc8f341982191560e0b36981b112
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-openshift"
+
 RDEPENDS:${PN} += "tuned"
 
 inherit rpm

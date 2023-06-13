@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-habanero \
 python3.10dist(habanero) \
 python310-habanero \
 python3dist(habanero)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-tqdm"

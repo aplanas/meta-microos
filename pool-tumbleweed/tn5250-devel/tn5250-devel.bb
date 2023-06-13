@@ -10,6 +10,7 @@ RPM_HASH = "b9a87e020f1189c440606f5332ee6ff2f71f8831cc37d17ac36e35072f18bb955cb9
 RPROVIDES:${PN} += "tn5250-devel \
 tn5250-devel(aarch-64) \
 tn5250:/usr/include/tn5250/tn5250d.h"
+
 RDEPENDS:${PN} += "lib5250-0"
 
 inherit rpm

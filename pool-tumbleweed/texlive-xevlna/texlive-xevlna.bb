@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xevlna.sty) \
 texlive-xevlna"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

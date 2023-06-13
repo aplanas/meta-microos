@@ -9,6 +9,7 @@ RPM_HASH = "87f0c2bf903c9ab34868d501b718dc137ed6d36124dc19be2eddc56c92ccd014b341
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpustat-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 cpustat"
 

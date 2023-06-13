@@ -12,6 +12,7 @@ RPM_HASH = "685550e5e5434f85af4802bc50f1b3a588bb28ffb16e66c9b05b31467f4e64c19f37
 
 RPROVIDES:${PN} += "icoutils \
 icoutils(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

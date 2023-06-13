@@ -10,6 +10,7 @@ RPM_HASH = "bfacdee13560fc7abeca0461f8fb859c4bb673ebe23e4d2ca4ea2d957cd26fd0d2b9
 RPROVIDES:${PN} += "ghc-devel(skylighting-0.13.2.1-BFihQrd5v8J7nFEx17mOBW) \
 ghc-skylighting-devel \
 ghc-skylighting-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

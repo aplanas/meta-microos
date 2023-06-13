@@ -10,6 +10,7 @@ RPM_HASH = "888ecd0ffa9732aa93544ae2ced9a94b906a96dc1fb95154b5929b8c2b97f582cbaf
 
 RPROVIDES:${PN} += "ocaml-hivex \
 ocaml-hivex(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

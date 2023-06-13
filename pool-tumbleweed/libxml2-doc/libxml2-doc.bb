@@ -11,6 +11,7 @@ RPM_HASH = "44d9cc934f3318901206dbb48f397158667d65e83ac01d3d0a998b73e4beb580fbd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxml2-doc"
+
 RDEPENDS:${PN} += "libxml2-2"
 
 inherit rpm

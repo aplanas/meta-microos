@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(qgrid) \
 python39-qgrid \
 python3dist(qgrid)"
+
 RDEPENDS:${PN} += "jupyter-qgrid \
 python(abi) \
 python39-ipywidgets \

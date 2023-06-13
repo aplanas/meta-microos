@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cartonaugh.sty) \
 texlive-cartonaugh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

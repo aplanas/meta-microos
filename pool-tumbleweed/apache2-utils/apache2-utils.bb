@@ -13,6 +13,7 @@ RPM_HASH = "0b856a7dba92069f6b91731e1d4f264c0a2ad6d3d1df12672f449deef67da59893b8
 
 RPROVIDES:${PN} += "apache2-utils \
 apache2-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

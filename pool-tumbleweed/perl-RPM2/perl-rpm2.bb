@@ -15,6 +15,7 @@ perl(RPM2::PackageIterator) \
 perl(RPM2::Transaction) \
 perl-RPM2 \
 perl-RPM2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

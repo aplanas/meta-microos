@@ -31,6 +31,7 @@ libQt5PositioningQuick5 \
 libQt5PositioningQuick5(aarch-64) \
 libdeclarative_positioning.so()(64bit) \
 qt5qmlimport(QtPositioning.5)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

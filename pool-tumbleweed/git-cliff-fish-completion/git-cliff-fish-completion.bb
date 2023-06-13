@@ -9,6 +9,7 @@ RPM_HASH = "d4d7e27693fe6f826e44a32e0a937049e846c1841195779d57c10fd03591e2a51c4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-cliff-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

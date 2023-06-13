@@ -10,6 +10,7 @@ RPM_HASH = "0ab0faf22f6365c84d255b15e303ab4354f7893ad8a4d3d17f985fadb43916addf0f
 RPROVIDES:${PN} += "ghc-devel(wai-logger-2.4.0-9XzUYLocOmA4DcbxilrxA0) \
 ghc-wai-logger-devel \
 ghc-wai-logger-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

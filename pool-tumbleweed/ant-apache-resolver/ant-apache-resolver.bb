@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-apache-resolver \
 config(ant-apache-resolver) \
 mvn(org.apache.ant:ant-apache-resolver) \
 mvn(org.apache.ant:ant-apache-resolver:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

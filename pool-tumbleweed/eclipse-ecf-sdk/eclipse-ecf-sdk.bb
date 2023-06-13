@@ -268,6 +268,7 @@ osgi(org.eclipse.team.ecf.core) \
 osgi(org.eclipse.team.ecf.core.source) \
 osgi(org.eclipse.team.ecf.ui) \
 osgi(org.eclipse.team.ecf.ui.source)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.ecf) \

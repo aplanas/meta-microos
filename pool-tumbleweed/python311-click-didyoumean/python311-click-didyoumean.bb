@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(click-didyoumean) \
 python311-click-didyoumean \
 python3dist(click-didyoumean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-click"
 

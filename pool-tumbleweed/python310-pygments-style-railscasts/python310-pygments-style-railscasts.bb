@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pygments-style-railscasts \
 python3.10dist(pygments-style-railscasts) \
 python310-pygments-style-railscasts \
 python3dist(pygments-style-railscasts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pygments"
 

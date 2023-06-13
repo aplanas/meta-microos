@@ -17,6 +17,7 @@ mvn(jline:jline:1.0) \
 mvn(jline:jline:pom:1) \
 mvn(jline:jline:pom:1.0) \
 osgi(jline)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

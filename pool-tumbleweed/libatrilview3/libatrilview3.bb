@@ -11,6 +11,7 @@ RPM_HASH = "f3e3694818771615821a7532ae441701b6b37836e1bcc668f4b7fd4993940fcc171b
 RPROVIDES:${PN} += "libatrilview.so.3()(64bit) \
 libatrilview3 \
 libatrilview3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -43,6 +43,7 @@ tex(hpstatement.sty) \
 tex(mhchem.sty) \
 tex(rsphrase.sty) \
 texlive-mhchem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

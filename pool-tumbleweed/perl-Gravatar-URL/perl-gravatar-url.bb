@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(Gravatar::URL) \
 perl(Libravatar::URL) \
 perl(Unicornify::URL) \
 perl-Gravatar-URL"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::SHA) \
 perl(Net::DNS) \

@@ -10,6 +10,7 @@ RPM_HASH = "3ea020d80d03528dc85bff46cde3993d16739cc2ca1babce8aa3d8f8f0f3d446312b
 RPROVIDES:${PN} += "ibus-unikey \
 ibus-unikey(aarch-64) \
 locale(ibus:vi)"
+
 RDEPENDS:${PN} += "ibus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

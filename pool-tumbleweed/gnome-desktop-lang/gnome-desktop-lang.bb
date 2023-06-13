@@ -96,6 +96,7 @@ locale(gnome-desktop:wa) \
 locale(gnome-desktop:zh_CN) \
 locale(gnome-desktop:zh_HK) \
 locale(gnome-desktop:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-desktop"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "enchant \
 libenchant.so.1()(64bit) \
 libenchant1 \
 libenchant1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 enchant-1-backend \
 ld-linux-aarch64.so.1()(64bit) \

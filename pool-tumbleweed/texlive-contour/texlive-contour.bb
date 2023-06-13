@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(contour.cfg) \
 tex(contour.sty) \
 texlive-contour"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

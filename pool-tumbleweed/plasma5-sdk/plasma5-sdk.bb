@@ -21,6 +21,7 @@ metainfo(org.kde.plasmoidviewer.appdata.xml) \
 plasma5-sdk \
 plasma5-sdk(aarch-64) \
 plasma5-sdk-zsh-completion"
+
 RDEPENDS:${PN} += "bash \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

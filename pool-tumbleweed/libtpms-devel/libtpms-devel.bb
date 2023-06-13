@@ -10,6 +10,7 @@ RPM_HASH = "90bed7de21ce77bf93ba7a44cf0562ecc46eb4a5625c0ef681830cbe1bfd548a0ed0
 RPROVIDES:${PN} += "libtpms-devel \
 libtpms-devel(aarch-64) \
 pkgconfig(libtpms)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenssl-devel \
 libtpms0 \

@@ -15,6 +15,7 @@ RPM_HASH = "12d282c8f2dcf0a822fcdc6ae0e28e55873666f5c7d7bd86130bd3d11afd9b4f1644
 
 RPROVIDES:${PN} += "bluez-deprecated \
 bluez-deprecated(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

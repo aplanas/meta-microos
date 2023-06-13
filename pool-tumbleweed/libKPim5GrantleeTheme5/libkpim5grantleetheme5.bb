@@ -10,6 +10,7 @@ RPM_HASH = "2f52f008fab3062c08939946e80e58a3f8f32cdc354f8f39819319a152f95895ee70
 RPROVIDES:${PN} += "libKPim5GrantleeTheme.so.5()(64bit) \
 libKPim5GrantleeTheme5 \
 libKPim5GrantleeTheme5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

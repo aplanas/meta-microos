@@ -16,6 +16,7 @@ RPM_HASH = "f4ec0ec1580364c8cc8203ac7a12dcbf301fa3b559b58042433d1ee0d4453fd997af
 RPROVIDES:${PN} += "typelib(GtkClutter) \
 typelib-1_0-GtkClutter-1_0 \
 typelib-1_0-GtkClutter-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libclutter-gtk-1.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(Clutter) \

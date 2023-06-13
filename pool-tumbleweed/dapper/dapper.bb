@@ -9,6 +9,7 @@ RPM_HASH = "eec631537bc5b186c27f196694cb729094fb27b1197d8b80616e5e8c11db3a585f90
 
 RPROVIDES:${PN} += "dapper \
 dapper(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -51,6 +51,7 @@ libos_tp.so.1()(64bit) \
 libosd_tp.so.1()(64bit) \
 python3.10dist(ceph-volume) \
 python3dist(ceph-volume)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ceph-common \

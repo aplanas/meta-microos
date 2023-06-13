@@ -14,6 +14,7 @@ RPM_HASH = "b4b558785290d751fa603f79d37250d367236d2a807545db7428fd9cad20f13ad395
 RPROVIDES:${PN} += "znc-python \
 znc-python3 \
 znc-python3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "liblogg-devel \
 liblogg44-devel \
 liblogg44-devel(aarch-64) \
 pkgconfig(logg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblogg4_4 \
 pkgconfig(allegro)"

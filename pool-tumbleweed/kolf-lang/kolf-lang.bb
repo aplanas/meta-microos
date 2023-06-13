@@ -77,6 +77,7 @@ locale(kolf:ug) \
 locale(kolf:uk) \
 locale(kolf:zh_CN) \
 locale(kolf:zh_TW)"
+
 RDEPENDS:${PN} += "kolf"
 
 inherit rpm

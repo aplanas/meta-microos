@@ -12,6 +12,7 @@ python3-shiboken6 \
 python3-shiboken6(aarch-64) \
 python3.10dist(shiboken6) \
 python3dist(shiboken6)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 libQt6Core.so.6()(64bit) \

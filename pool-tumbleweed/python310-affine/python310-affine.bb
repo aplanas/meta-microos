@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-affine \
 python3.10dist(affine) \
 python310-affine \
 python3dist(affine)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

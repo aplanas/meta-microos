@@ -18,6 +18,7 @@ RPM_HASH = "3f455b49b0323c38f28040630097b269d099ca44075a36fce6ae001eb8c721c18878
 RPROVIDES:${PN} += "libgavl-devel \
 libgavl-devel(aarch-64) \
 pkgconfig(gavl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgavl1"
 

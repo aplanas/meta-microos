@@ -71,6 +71,7 @@ locale(kiten:ug) \
 locale(kiten:uk) \
 locale(kiten:zh_CN) \
 locale(kiten:zh_TW)"
+
 RDEPENDS:${PN} += "kiten"
 
 inherit rpm

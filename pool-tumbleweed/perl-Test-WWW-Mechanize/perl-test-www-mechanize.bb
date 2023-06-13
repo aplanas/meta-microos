@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::WWW::Mechanize) \
 perl-Test-WWW-Mechanize"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Assert::More) \
 perl(HTML::Form) \

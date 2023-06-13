@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pypdf3) \
 python39-PyPDF3 \
 python3dist(pypdf3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tqdm"
 

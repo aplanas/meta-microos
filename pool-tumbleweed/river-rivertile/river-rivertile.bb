@@ -10,6 +10,7 @@ RPM_HASH = "4d76eb141696d9504e8d0a9c7cc895db9a439cdb1eee6edf8d55c9ae7515705c9ede
 
 RPROVIDES:${PN} += "river-rivertile \
 river-rivertile(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

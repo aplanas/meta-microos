@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Feed::Find) \
 perl-Feed-Find"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::ErrorHandler) \
 perl(HTML::Parser) \

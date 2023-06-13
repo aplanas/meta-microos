@@ -11,6 +11,7 @@ RPM_HASH = "667d074c7872156865579a1ae75f80d519ab681e1633ebd5b60e1ce990b8ae635360
 
 RPROVIDES:${PN} += "smemstat \
 smemstat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "e95d1561cce4fe71963b2b7ec46b7dc62e183547eb9458bdcc369cd2fd1ddcdaf2be
 
 RPROVIDES:${PN} += "apache2-mod_apparmor \
 apache2-mod_apparmor(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapparmor.so.1()(64bit) \

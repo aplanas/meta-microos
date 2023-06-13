@@ -11,6 +11,7 @@ RPM_HASH = "89398408d5c9df0abaec2af3d757efafcb20b711b6c155e43ea0773060c770bfbb47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu_parallel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "012fc3ae549c72d51235cabb5b06497f5dbfa16e30e6cb3e2999239df8b78f9d793b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnu-freefont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

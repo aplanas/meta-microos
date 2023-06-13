@@ -10,6 +10,7 @@ RPM_HASH = "1d535e60650a1e7854eb49c3fa1eb51c729f26c70d8e69a1bffc6e4844a5f22af31b
 RPROVIDES:${PN} += "ghc-prof(topograph-1.0.0.2-FAmn9lLfwsBEVgB5YGdVHh) \
 ghc-topograph-prof \
 ghc-topograph-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8) \

@@ -15,6 +15,7 @@ RPM_HASH = "c738871520a89bc507d6d09371773ab5eda5474dfb6bff8143b3b165bc3d755bf31c
 
 RPROVIDES:${PN} += "argon2 \
 argon2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

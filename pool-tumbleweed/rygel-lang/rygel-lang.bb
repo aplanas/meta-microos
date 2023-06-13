@@ -74,6 +74,7 @@ locale(rygel:zh_HK) \
 locale(rygel:zh_TW) \
 rygel-lang \
 rygel-lang-all"
+
 RDEPENDS:${PN} += "rygel"
 
 inherit rpm

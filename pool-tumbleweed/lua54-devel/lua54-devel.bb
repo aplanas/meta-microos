@@ -18,6 +18,7 @@ lua54-devel \
 lua54-devel(aarch-64) \
 pkgconfig(lua) \
 pkgconfig(lua5.4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 liblua5_4-5 \

@@ -9,6 +9,7 @@ RPM_HASH = "3096321317d562e0ff2e3d83d0eaed0d8db93ba3d1edb29472aeb4cff9a7bd89d9b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crossword-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

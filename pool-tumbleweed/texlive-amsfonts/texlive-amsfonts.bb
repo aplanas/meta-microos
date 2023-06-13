@@ -133,6 +133,7 @@ tex(wncyss10.tfm) \
 tex(wncyss8.tfm) \
 tex(wncyss9.tfm) \
 texlive-amsfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

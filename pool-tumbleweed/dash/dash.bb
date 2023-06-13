@@ -10,6 +10,7 @@ RPM_HASH = "6b780bbb30c6c55c344c666d422e5b571c77c3f75c6d6421856c44e5255fb5f9d871
 
 RPROVIDES:${PN} += "dash \
 dash(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

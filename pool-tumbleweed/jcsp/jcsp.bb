@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "jcsp \
 mvn(org.codehaus.jcsp:jcsp) \
 mvn(org.codehaus.jcsp:jcsp:pom:) \
 osgi(org.codehaus.jcsp)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.osgi:osgi.core)"

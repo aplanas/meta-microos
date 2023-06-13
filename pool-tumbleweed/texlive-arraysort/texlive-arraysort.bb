@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arraysort.sty) \
 texlive-arraysort"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

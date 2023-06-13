@@ -10,6 +10,7 @@ RPM_HASH = "23b5b4ba14313920db0371344862e0291570819a9559c3478e54a9ff0d4e9f26a58e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccrtp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

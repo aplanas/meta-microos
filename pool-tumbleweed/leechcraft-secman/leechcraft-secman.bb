@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "leechcraft-secman \
 leechcraft-secman(aarch-64) \
 leechcraft-securestorage \
 libleechcraft_secman.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

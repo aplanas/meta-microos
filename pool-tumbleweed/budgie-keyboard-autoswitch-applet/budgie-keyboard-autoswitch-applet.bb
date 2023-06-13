@@ -11,6 +11,7 @@ RPM_HASH = "6e0fff9f97497837a6748d58656dfe7cbc00767f49e39f4b5e223e136c7d2cdc9dbb
 
 RPROVIDES:${PN} += "budgie-keyboard-autoswitch-applet \
 budgie-keyboard-autoswitch-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 python3-psutil \

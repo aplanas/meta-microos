@@ -9,6 +9,7 @@ RPM_HASH = "6f124fa2e4b59d2bc1dc2fe55a06aab2bd5f22044b381fb78b05786c39d200d6f1b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bencode-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

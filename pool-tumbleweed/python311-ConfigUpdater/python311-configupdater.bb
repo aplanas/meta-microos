@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(configupdater) \
 python311-ConfigUpdater \
 python311-configupdater \
 python3dist(configupdater)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

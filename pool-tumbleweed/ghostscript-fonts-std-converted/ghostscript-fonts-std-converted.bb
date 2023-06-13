@@ -156,6 +156,7 @@ font(urwchanceryl) \
 font(urwgothicl) \
 font(urwpalladiol) \
 ghostscript-fonts-std-converted"
+
 RDEPENDS:${PN} += "/bin/sh \
 fonts-config"
 

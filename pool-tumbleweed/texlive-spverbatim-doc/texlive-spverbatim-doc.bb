@@ -9,6 +9,7 @@ RPM_HASH = "6df4390ac59d0411535d1d869b07146510947b5c6be8971a14d8ee00842ac60b9ec5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spverbatim-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

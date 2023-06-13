@@ -14,6 +14,7 @@ RPM_HASH = "bce3279e006a6218e36251441d4253e48ef4895a64afb137b9473415b1832e58f916
 
 RPROVIDES:${PN} += "ftop \
 ftop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

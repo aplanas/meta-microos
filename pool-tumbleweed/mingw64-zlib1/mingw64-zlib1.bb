@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-zlib \
 mingw64-zlib1"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

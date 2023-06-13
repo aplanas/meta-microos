@@ -13,6 +13,7 @@ RPM_HASH = "75273746633540a3c9c9fdeff80c256e353f30ef3a6e7c94ac4dae3da21048ce13a0
 
 RPROVIDES:${PN} += "python-chewing \
 python-chewing(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

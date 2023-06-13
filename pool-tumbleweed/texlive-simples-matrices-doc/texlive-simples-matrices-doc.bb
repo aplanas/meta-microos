@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-simples-matrices-doc:fr;en) \
 texlive-simples-matrices-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

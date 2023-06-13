@@ -11,6 +11,7 @@ RPM_HASH = "3aa202b9f0f9d2f9fa0ebc9651849dcba512b18e0f4d6eda4df62a61bad949375698
 
 RPROVIDES:${PN} += "openhpi-daemon \
 openhpi-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

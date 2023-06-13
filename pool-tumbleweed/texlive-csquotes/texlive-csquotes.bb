@@ -26,6 +26,7 @@ tex(csquotes.cfg) \
 tex(csquotes.def) \
 tex(csquotes.sty) \
 texlive-csquotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

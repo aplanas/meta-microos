@@ -124,6 +124,7 @@ font(computermodern) \
 font(computermodernbright) \
 font(computermodernconcrete) \
 texlive-cm-super-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

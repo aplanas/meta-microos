@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyLibravatar \
 python3.10dist(pylibravatar) \
 python310-pyLibravatar \
 python3dist(pylibravatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-py3dns"
 

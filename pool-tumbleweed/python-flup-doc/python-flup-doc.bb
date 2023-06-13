@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-flup-doc \
 python310-flup-doc \
 python311-flup-doc \
 python39-flup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

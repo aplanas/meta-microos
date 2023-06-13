@@ -17,6 +17,7 @@ RPM_HASH = "f4ee46aa2a97371f3bc9c88f3588b704c307c91b0e3c9f9a0359b82d379393b4c906
 RPROVIDES:${PN} += "nkitb:/usr/bin/telnet \
 telnet \
 telnet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

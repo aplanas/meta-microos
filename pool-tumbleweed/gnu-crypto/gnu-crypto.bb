@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-crypto \
 jce"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

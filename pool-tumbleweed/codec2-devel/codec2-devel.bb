@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(codec2) \
 codec2-devel \
 codec2-devel(aarch-64) \
 pkgconfig(codec2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcodec2-1_1"
 

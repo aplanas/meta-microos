@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ogr) \
 python311-ogr \
 python3dist(ogr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Deprecated \
 python311-GitPython \

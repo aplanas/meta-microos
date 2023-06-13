@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tetex) \
 texlive-scheme-tetex"
+
 RDEPENDS:${PN} += "texlive-acronym \
 texlive-amslatex-primer \
 texlive-bbm \

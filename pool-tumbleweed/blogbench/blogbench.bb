@@ -12,6 +12,7 @@ RPM_HASH = "33748da99fdaba0beb4da9847521e6c0540a15dd159d73c0b85a6be65923f2988794
 
 RPROVIDES:${PN} += "blogbench \
 blogbench(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

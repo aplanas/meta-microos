@@ -19,6 +19,7 @@ RPM_HASH = "69cba50d4e393ebf9bad59474f86b7fa2be0958bde94cfa5df244fa8fe8fda28028e
 RPROVIDES:${PN} += "config(keepalived) \
 keepalived \
 keepalived(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

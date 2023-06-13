@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libsoci4_0-backend \
 libsoci_sqlite3-4_0 \
 libsoci_sqlite3-4_0(aarch-64) \
 libsoci_sqlite3.so.4.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

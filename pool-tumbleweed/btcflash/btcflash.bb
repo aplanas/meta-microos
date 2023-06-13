@@ -11,6 +11,7 @@ RPM_HASH = "9d36253f06a62cd36cde5d802b70dd7f06334c1033023818377eb774f87fdb6fe6f4
 
 RPROVIDES:${PN} += "btcflash \
 btcflash(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

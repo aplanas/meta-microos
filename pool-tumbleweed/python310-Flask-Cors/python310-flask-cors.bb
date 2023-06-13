@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Flask-Cors \
 python3.10dist(flask-cors) \
 python310-Flask-Cors \
 python3dist(flask-cors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-six"

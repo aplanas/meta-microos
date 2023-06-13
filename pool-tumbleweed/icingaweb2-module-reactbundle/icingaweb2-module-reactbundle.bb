@@ -9,6 +9,7 @@ RPM_HASH = "c918aa1c9bf7234f777483234f704418af5951475d8244f29faf9f3433bfd5f3fdc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-reactbundle"
+
 RDEPENDS:${PN} += "icingaweb2 \
 icingaweb2-module-director"
 

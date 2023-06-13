@@ -9,6 +9,7 @@ RPM_HASH = "c88b410f98eb7825f06a536776204f43cabc19381fb3e2e303e9239e7a4f8447642c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-medstarbeamer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

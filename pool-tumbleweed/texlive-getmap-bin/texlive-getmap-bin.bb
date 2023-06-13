@@ -9,6 +9,7 @@ RPM_HASH = "80e0bda9f395be7211bd77d8f018905003ab8008655f1a44203a499b71b76722004c
 
 RPROVIDES:${PN} += "texlive-getmap-bin \
 texlive-getmap-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-getmap"
 
 inherit rpm

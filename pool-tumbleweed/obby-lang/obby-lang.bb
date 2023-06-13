@@ -23,6 +23,7 @@ locale(obby:sv) \
 locale(obby:uk) \
 obby-lang \
 obby-lang-all"
+
 RDEPENDS:${PN} += "obby"
 
 inherit rpm

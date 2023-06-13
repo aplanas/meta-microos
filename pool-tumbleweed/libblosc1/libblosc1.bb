@@ -12,6 +12,7 @@ RPM_HASH = "2dbfc72ff32f4abdfd52f4b27c551c2dd7956eac909c65efea9017f4bc409e82cff5
 RPROVIDES:${PN} += "libblosc.so.1()(64bit) \
 libblosc1 \
 libblosc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

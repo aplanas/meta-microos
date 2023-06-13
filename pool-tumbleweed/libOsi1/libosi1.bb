@@ -12,6 +12,7 @@ RPM_HASH = "5cfac6b30306b90d54f260140d4af8bb15eee92df8d403a2de369e090352c353a5d0
 RPROVIDES:${PN} += "libOsi.so.1()(64bit) \
 libOsi1 \
 libOsi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

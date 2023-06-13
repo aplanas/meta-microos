@@ -12,6 +12,7 @@ RPM_HASH = "22d953c2b57defe517c690f383596c350fc36e6296635ad106824bb59b7695fe77d5
 RPROVIDES:${PN} += "libcdda_paranoia.so.0()(64bit) \
 libcdda_paranoia0 \
 libcdda_paranoia0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

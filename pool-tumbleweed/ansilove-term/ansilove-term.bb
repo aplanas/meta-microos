@@ -10,6 +10,7 @@ RPM_HASH = "702922e00037f30fe016d28a894d971918c8f831b7ef36dd4e59f1d999edcd03314b
 
 RPROVIDES:${PN} += "ansilove-term \
 ansilove-term(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "43d26369d4899682a3fd669df452e9e9846b9b0a03aff1f6f0e4f2fca26f29148646
 
 RPROVIDES:${PN} += "packETH \
 packETH(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

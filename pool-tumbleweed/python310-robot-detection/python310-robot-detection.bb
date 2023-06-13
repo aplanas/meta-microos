@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-robot-detection \
 python3.10dist(robot-detection) \
 python310-robot-detection \
 python3dist(robot-detection)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

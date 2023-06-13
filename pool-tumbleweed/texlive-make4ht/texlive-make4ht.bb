@@ -12,6 +12,7 @@ RPM_HASH = "1c4e7f9bdae1e3bf4a94f300d9afbb51663bbe9575346111a1ae47ddeee59938e40a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-make4ht"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 /usr/bin/texlua \

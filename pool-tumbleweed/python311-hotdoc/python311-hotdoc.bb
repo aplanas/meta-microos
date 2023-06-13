@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(hotdoc) \
 python311-hotdoc \
 python311-hotdoc(aarch-64) \
 python3dist(hotdoc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 /usr/bin/sh \

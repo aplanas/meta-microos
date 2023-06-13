@@ -14,6 +14,7 @@ RPM_HASH = "b2e37ef36736b319ee89ddbca4e84fa147b03f96b8b253b7719308774b151e3f92ab
 RPROVIDES:${PN} += "icewm-bin \
 icewm-default \
 icewm-default(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 adwaita-icon-theme \

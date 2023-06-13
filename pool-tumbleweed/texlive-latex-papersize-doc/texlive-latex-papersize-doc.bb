@@ -9,6 +9,7 @@ RPM_HASH = "6fa5e7d067742414747cdf9f4e062e209f26ba4f42e815447cd82ec40050e22be877
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-papersize-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

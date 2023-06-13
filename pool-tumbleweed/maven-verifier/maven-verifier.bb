@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-verifier \
 mvn(org.apache.maven.shared:maven-verifier) \
 mvn(org.apache.maven.shared:maven-verifier:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(junit:junit) \

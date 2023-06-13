@@ -10,6 +10,7 @@ RPM_HASH = "38661df64fcafd445ea92c4419a65ca762858a17b36ee44e294d6c3e0c8bd6438699
 
 RPROVIDES:${PN} += "wxlua-devel \
 wxlua-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libwxlua"
 
 inherit rpm

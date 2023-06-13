@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-osgi \
 mvn(org.apache.maven.shared:maven-osgi) \
 mvn(org.apache.maven.shared:maven-osgi:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(biz.aQute:bndlib) \

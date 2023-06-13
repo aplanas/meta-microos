@@ -12,6 +12,7 @@ RPM_HASH = "d0b073c51b94d2d0f06b1fd044831f136892d7e80a887993c2aaaaec6a9d9c358f09
 
 RPROVIDES:${PN} += "MyGUI-demo \
 MyGUI-demo(aarch-64)"
+
 RDEPENDS:${PN} += "MyGUI \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

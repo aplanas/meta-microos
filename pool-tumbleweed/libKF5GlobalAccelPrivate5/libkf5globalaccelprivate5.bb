@@ -12,6 +12,7 @@ RPM_HASH = "a1b17d21aa08d04310e551c18eb3a319bbd5516276e6c86e0db2e6772dba9b5f5d3f
 RPROVIDES:${PN} += "libKF5GlobalAccelPrivate.so.5()(64bit) \
 libKF5GlobalAccelPrivate5 \
 libKF5GlobalAccelPrivate5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

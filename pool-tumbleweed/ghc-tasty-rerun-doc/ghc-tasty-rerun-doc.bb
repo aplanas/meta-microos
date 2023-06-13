@@ -9,6 +9,7 @@ RPM_HASH = "a20bc04b4dddb4e19d9f4666a8dbed858ed8051edfc51514da63576c1a75309a7b36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tasty-rerun-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

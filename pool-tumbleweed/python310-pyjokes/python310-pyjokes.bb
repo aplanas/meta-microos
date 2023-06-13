@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyjokes \
 python3.10dist(pyjokes) \
 python310-pyjokes \
 python3dist(pyjokes)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

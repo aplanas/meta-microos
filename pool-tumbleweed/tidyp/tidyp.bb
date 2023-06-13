@@ -15,6 +15,7 @@ RPM_HASH = "9fb185a296c72d4b889ce7437826749c1afe55c4a49b8f4902684f0400ee6f6b694e
 
 RPROVIDES:${PN} += "tidyp \
 tidyp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

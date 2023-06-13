@@ -9,6 +9,7 @@ RPM_HASH = "e92d2d167687b70ade22e80924bc61105fca76072e7293677e9ab78c8784cf38147f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libosmo-dsp-doc"
+
 RDEPENDS:${PN} += "libosmodsp0"
 
 inherit rpm

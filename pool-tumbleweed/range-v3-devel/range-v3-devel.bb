@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(range-v3) \
 range-v3-devel \
 range-v3-devel(aarch-64) \
 range-v3-static"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "42d418823d51f2f63b6fd82a968a1afb86012c80552597f4a240ac288994143b84e9
 
 RPROVIDES:${PN} += "remmina-plugin-rdp \
 remmina-plugin-rdp(aarch-64)"
+
 RDEPENDS:${PN} += "freerdp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

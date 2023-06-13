@@ -10,6 +10,7 @@ RPM_HASH = "5e5e1c2f71f6187d8079a462f7de43c82b851f18bc77e152555030d2ae8d22eeffef
 
 RPROVIDES:${PN} += "flatpak-xdg-utils \
 flatpak-xdg-utils(aarch-64)"
+
 RDEPENDS:${PN} += "flatpak-spawn \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

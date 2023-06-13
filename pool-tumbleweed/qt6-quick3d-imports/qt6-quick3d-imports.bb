@@ -79,6 +79,7 @@ qt6qmlimport(QtQuick3D.Helpers.1) \
 qt6qmlimport(QtQuick3D.Helpers.6) \
 qt6qmlimport(QtQuick3D.Helpers.impl.6) \
 qt6qmlimport(QtQuick3D.MaterialEditor.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

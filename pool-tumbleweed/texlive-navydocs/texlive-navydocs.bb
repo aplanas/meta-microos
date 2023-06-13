@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(navydocs.sty) \
 texlive-navydocs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

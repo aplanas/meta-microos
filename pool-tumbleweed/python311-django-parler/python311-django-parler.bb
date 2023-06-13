@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-parler) \
 python311-django-parler \
 python3dist(django-parler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

@@ -27,6 +27,7 @@ python311-Fabric3 \
 python311-fabric \
 python311-fabric2 \
 python3dist(fabric)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

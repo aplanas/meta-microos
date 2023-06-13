@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mocket) \
 python311-mocket \
 python3dist(mocket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-decorator \
 python311-httptools \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(saxon:saxon-aelfred) \
 saxon-aelfred \
 saxon6-aelfred"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 xml-commons-apis"

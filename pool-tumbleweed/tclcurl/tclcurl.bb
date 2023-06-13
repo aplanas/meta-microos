@@ -10,6 +10,7 @@ RPM_HASH = "3ee000d9313f17c82c54ced1127319f6b972c68774661757c57cdb7147eb7fd111a0
 RPROVIDES:${PN} += "libTclCurl7.22.0.so()(64bit) \
 tclcurl \
 tclcurl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

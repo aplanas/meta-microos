@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-runner \
 python3.10dist(ansible-runner) \
 python3dist(ansible-runner)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 python(abi) \

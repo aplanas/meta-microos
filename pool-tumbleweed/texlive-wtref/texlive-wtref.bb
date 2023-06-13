@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wtref.sty) \
 texlive-wtref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

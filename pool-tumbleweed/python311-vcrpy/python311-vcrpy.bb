@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vcrpy) \
 python311-vcrpy \
 python3dist(vcrpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-six \

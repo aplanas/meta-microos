@@ -16,6 +16,7 @@ RPM_HASH = "70e7d6c9031caaae1ac85f36856f6b00634f6346ee7601c128b3944cc06ddbfd0d24
 RPROVIDES:${PN} += "parallel-netcdf-mpich-devel-static \
 pnetcdf-mpich-devel-static \
 pnetcdf-mpich-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "pnetcdf-mpich-devel"
 
 inherit rpm

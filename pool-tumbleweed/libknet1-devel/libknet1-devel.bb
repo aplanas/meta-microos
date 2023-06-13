@@ -12,6 +12,7 @@ RPM_HASH = "d0c2a9d99d04b42a50cd726bbae8892bc4b7ee637e8cf6a870fff5bfd0c3b3d00996
 RPROVIDES:${PN} += "libknet1-devel \
 libknet1-devel(aarch-64) \
 pkgconfig(libknet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libknet1(aarch-64) \
 pkgconfig"

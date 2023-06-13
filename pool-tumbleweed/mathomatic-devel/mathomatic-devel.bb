@@ -12,6 +12,7 @@ RPM_HASH = "27f5b562b3107289952a9f10da46bd68aae66e2fcc3532990118b08c636b1d558575
 
 RPROVIDES:${PN} += "mathomatic-devel \
 mathomatic-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

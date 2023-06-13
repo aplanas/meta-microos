@@ -12,6 +12,7 @@ RPM_HASH = "abba3bf94220ef5c5dc83531014fb636ccb8c3693c828fa4e802556a879b3954dcfe
 RPROVIDES:${PN} += "libzbarqt-devel \
 libzbarqt-devel(aarch-64) \
 pkgconfig(zbar-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzbar-devel \
 libzbarqt0 \

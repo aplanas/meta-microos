@@ -16,6 +16,7 @@ RPM_HASH = "d971cffc7a350db48f4782c50cb1903a8b42d7f0f97f23b05a2804a63f725ae4c9b4
 RPROVIDES:${PN} += "libbinio-devel \
 libbinio-devel(aarch-64) \
 pkgconfig(libbinio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbinio1"
 

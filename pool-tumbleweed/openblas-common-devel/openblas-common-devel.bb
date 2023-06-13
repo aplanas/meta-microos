@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "openblas-common-devel \
 openblas-common-devel(aarch-64) \
 openblas-devel-headers \
 pkgconfig(openblas)"
+
 RDEPENDS:${PN} += "(openblas-devel(default) or openblas-devel(other)) \
 /bin/sh \
 /usr/bin/pkg-config"

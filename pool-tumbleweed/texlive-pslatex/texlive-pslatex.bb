@@ -30,6 +30,7 @@ tex(pcrr8tn.tfm) \
 tex(pcrr8tn.vf) \
 tex(pslatex.sty) \
 texlive-pslatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

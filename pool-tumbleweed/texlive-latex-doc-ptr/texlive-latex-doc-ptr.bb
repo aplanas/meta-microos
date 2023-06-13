@@ -13,6 +13,7 @@ RPM_HASH = "36ce0708785b1b544b8a200e208a5f409586342957bd4e82dc73514ade9c48fbae2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-doc-ptr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

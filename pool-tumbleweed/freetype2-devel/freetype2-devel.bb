@@ -16,6 +16,7 @@ freetype2-devel \
 freetype2-devel(aarch-64) \
 libfreetype6-devel-static \
 pkgconfig(freetype2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libfreetype6 \

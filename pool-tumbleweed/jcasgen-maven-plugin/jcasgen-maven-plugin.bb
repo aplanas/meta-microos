@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jcasgen-maven-plugin \
 mvn(org.apache.uima:jcasgen-maven-plugin) \
 mvn(org.apache.uima:jcasgen-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-core) \

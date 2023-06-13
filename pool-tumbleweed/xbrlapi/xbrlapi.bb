@@ -9,6 +9,7 @@ RPM_HASH = "b33e9e58e5021fd59110e046b6fd930631c9845b78692c75487acff3b10764ca6c34
 
 RPROVIDES:${PN} += "xbrlapi \
 xbrlapi(aarch-64)"
+
 RDEPENDS:${PN} += "brltty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

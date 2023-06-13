@@ -11,6 +11,7 @@ RPM_HASH = "ce65226478ca29500265d2e36f4b4101fa4318fdc0b30fc5478fe448184a374ff6d9
 RPROVIDES:${PN} += "ghc-devel(hslua-packaging-2.3.0-G1L5YnYzXF0JtyxtKuFgZ4) \
 ghc-hslua-packaging-devel \
 ghc-hslua-packaging-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

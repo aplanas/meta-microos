@@ -12,6 +12,7 @@ RPM_HASH = "13b3c920b8ed05aef637fffa68c0d9b8b06c147e5520d901b8f8a9430ab6979f46e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aldusleaf-crimson-text-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sarif-om) \
 python39-sarif-om \
 python3dist(sarif-om)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-pbr"

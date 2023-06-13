@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Minion::Backend::SQLite) \
 perl-Minion-Backend-SQLite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Minion) \
 perl(Mojo::SQLite) \

@@ -10,6 +10,7 @@ RPM_HASH = "9cbf614a968b30deccacecbf4227f87464fa895ada7b71e02a0a7963c82639c10e10
 
 RPROVIDES:${PN} += "pcp-pmda-rabbitmq \
 pcp-pmda-rabbitmq(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

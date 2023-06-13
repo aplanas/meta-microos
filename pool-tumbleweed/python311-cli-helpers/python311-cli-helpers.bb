@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cli-helpers) \
 python311-cli-helpers \
 python3dist(cli-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pygments \
 python311-configobj \

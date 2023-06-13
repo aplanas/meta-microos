@@ -15,6 +15,7 @@ mvn(org.eclipse.swtchart:org.eclipse.swtchart.extensions) \
 osgi(org.eclipse.swtchart) \
 osgi(org.eclipse.swtchart.customcharts) \
 osgi(org.eclipse.swtchart.extensions)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

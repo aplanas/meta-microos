@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(sblim-cim-client2) \
 sblim-cim-client \
 sblim-cim-client2"
+
 RDEPENDS:${PN} += "jpackage-utils"
 
 inherit rpm

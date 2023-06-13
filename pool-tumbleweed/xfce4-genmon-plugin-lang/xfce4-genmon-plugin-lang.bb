@@ -58,6 +58,7 @@ locale(xfce4-genmon-plugin:zh_TW) \
 xfce4-genmon-plugin-lang \
 xfce4-genmon-plugin-lang-all \
 xfce4-panel-plugin-genmon-lang"
+
 RDEPENDS:${PN} += "xfce4-genmon-plugin"
 
 inherit rpm

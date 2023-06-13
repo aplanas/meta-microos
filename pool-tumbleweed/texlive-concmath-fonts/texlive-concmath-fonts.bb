@@ -40,6 +40,7 @@ tex(xccsy7.tfm) \
 tex(xccsy8.tfm) \
 tex(xccsy9.tfm) \
 texlive-concmath-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

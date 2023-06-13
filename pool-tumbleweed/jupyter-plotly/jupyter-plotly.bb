@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-plotly \
 jupyterlab-plotly"
+
 RDEPENDS:${PN} += "python3-plotly-jupyter"
 
 inherit rpm

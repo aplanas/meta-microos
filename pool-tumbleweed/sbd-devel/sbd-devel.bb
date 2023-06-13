@@ -11,6 +11,7 @@ RPM_HASH = "99eeb4c42c09890dd39e6ea436e44f0046488c058a5fe8fbdc33c4d5a0d6164c60cb
 RPROVIDES:${PN} += "libsbdtestbed.so.0()(64bit) \
 sbd-devel \
 sbd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

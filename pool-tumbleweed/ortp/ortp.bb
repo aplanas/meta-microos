@@ -9,6 +9,7 @@ RPM_HASH = "02cf3691842a3cf9099769d83c3c5dd4070e86896b1a25bbc6dc36a1878846448eca
 
 RPROVIDES:${PN} += "ortp \
 ortp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox-tester.so.1()(64bit) \

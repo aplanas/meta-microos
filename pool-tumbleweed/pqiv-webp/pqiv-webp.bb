@@ -9,6 +9,7 @@ RPM_HASH = "a99ee38d8a2f5535edafd93369621eea13a604692b7088a73b9faa088284382c78e4
 
 RPROVIDES:${PN} += "pqiv-webp \
 pqiv-webp(aarch-64)"
+
 RDEPENDS:${PN} += "libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \

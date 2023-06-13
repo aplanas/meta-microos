@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dejagnu) \
 dejagnu"
+
 RDEPENDS:${PN} += "/bin/sh \
 expect \
 info \

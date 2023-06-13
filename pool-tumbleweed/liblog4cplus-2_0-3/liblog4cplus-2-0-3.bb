@@ -14,6 +14,7 @@ liblog4cplus-2_0-3 \
 liblog4cplus-2_0-3(aarch-64) \
 liblog4cplusU-2.0.so.3()(64bit) \
 log4cplus"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

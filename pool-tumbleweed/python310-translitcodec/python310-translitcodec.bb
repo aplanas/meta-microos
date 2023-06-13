@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-translitcodec \
 python3.10dist(translitcodec) \
 python310-translitcodec \
 python3dist(translitcodec)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

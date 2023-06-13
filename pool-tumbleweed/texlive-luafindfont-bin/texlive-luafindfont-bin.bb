@@ -9,6 +9,7 @@ RPM_HASH = "b67946064d2d1ae842a4b0ff39840175944d91dee26c1c37dba95e44c1df043277ab
 
 RPROVIDES:${PN} += "texlive-luafindfont-bin \
 texlive-luafindfont-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-luafindfont"
 
 inherit rpm

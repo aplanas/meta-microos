@@ -9,6 +9,7 @@ RPM_HASH = "f5c87c54adfc9a0f93b7933d116e88d516a22324c634624b05a9dd4c6fef0b5920b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rhino-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

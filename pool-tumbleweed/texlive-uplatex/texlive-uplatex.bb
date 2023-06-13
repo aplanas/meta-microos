@@ -35,6 +35,7 @@ tex(utsize10.clo) \
 tex(utsize11.clo) \
 tex(utsize12.clo) \
 texlive-uplatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

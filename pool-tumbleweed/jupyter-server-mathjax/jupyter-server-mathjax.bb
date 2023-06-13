@@ -11,6 +11,7 @@ RPM_HASH = "84b81872464d80e34f00f9b0fb1cfdc01de247f3f77e0485b68c4b98fed3936d337d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-mathjax"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

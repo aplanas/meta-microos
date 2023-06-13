@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-translationstring-doc \
 python310-translationstring-doc \
 python311-translationstring-doc \
 python39-translationstring-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

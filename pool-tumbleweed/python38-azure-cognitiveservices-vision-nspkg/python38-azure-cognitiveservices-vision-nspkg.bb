@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(azure-cognitiveservices-vision-nspkg) \
 python38-azure-cognitiveservices-vision-nspkg \
 python3dist(azure-cognitiveservices-vision-nspkg)"
+
 RDEPENDS:${PN} += "python38-azure-cognitiveservices-nspkg \
 python38-azure-nspkg"
 

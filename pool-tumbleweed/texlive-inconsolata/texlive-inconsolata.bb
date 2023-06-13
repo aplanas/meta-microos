@@ -187,6 +187,7 @@ tex(ts1zi4.fd) \
 tex(zi4.map) \
 tex(zi4.sty) \
 texlive-inconsolata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

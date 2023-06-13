@@ -9,6 +9,7 @@ RPM_HASH = "801c73f58203c5befb20376e90c5bbcc920aeceb821b0afd2732de32f3569168d713
 
 RPROVIDES:${PN} += "hplip-udev-rules \
 hplip-udev-rules(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

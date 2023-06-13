@@ -49,6 +49,7 @@ locale(plasma5-systemmonitor:zh_CN) \
 locale(plasma5-systemmonitor:zh_TW) \
 plasma5-systemmonitor-lang \
 plasma5-systemmonitor-lang-all"
+
 RDEPENDS:${PN} += "plasma5-systemmonitor"
 
 inherit rpm

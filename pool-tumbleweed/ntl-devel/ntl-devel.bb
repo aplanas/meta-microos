@@ -13,6 +13,7 @@ RPM_HASH = "663761d32f73e4f4fa763d80caf7a7c784e3072cfd8b9763db6368abe2541e4351ed
 
 RPROVIDES:${PN} += "ntl-devel \
 ntl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libntl44"
 
 inherit rpm

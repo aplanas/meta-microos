@@ -9,6 +9,7 @@ RPM_HASH = "bfde118156c10519095df04a6182f37dc49db4eabcf699da1df6577bbefc228765e0
 
 RPROVIDES:${PN} += "nbdkit-python-plugin \
 nbdkit-python-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

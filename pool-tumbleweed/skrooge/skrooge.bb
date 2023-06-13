@@ -31,6 +31,7 @@ mimehandler(application/x-skg) \
 mimehandler(application/x-skgc) \
 skrooge \
 skrooge(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 hicolor-icon-theme \

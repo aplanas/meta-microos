@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-python-louvain \
 python3.10dist(python-louvain) \
 python310-python-louvain \
 python3dist(python-louvain)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

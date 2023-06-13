@@ -14,6 +14,7 @@ libgnome-desktop-4-devel(aarch-64) \
 pkgconfig(gnome-bg-4) \
 pkgconfig(gnome-desktop-4) \
 pkgconfig(gnome-rr-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-desktop-4-2 \
 pkgconfig(gdk-pixbuf-2.0) \

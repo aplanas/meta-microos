@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(EBML) \
 libebml-devel \
 libebml-devel(aarch-64) \
 pkgconfig(libebml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libebml5 \

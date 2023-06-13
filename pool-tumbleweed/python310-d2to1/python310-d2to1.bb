@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-d2to1 \
 python3.10dist(d2to1) \
 python310-d2to1 \
 python3dist(d2to1)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

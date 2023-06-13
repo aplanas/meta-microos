@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:en_NZ) \
 myspell-dictionary \
 myspell-en_NZ \
 myspell-new-zaeland"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
 myspell-en_GB \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bluez-auto-enable-devices \
 config(bluez-auto-enable-devices)"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

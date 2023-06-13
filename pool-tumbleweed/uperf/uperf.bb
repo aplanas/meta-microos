@@ -32,6 +32,7 @@ RPM_HASH = "bc18a38b73cfb422dd90057ec7ff203cd9a991dea79032b082d943dc17e7aea0de2e
 
 RPROVIDES:${PN} += "uperf \
 uperf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

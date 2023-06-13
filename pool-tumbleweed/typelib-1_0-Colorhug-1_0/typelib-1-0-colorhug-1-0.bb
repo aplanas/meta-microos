@@ -15,6 +15,7 @@ RPM_HASH = "a351b30bcbd6f445a68bce12f2fb0f09b9d55280eb2a523db3e8687ccbc6dcf9cbfb
 RPROVIDES:${PN} += "typelib(Colorhug) \
 typelib-1_0-Colorhug-1_0 \
 typelib-1_0-Colorhug-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcolorhug.so.2()(64bit) \
 typelib(Colord) \
 typelib(GLib) \

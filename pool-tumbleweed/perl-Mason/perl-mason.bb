@@ -106,6 +106,7 @@ perl(Mason::t::StaticSource) \
 perl(Mason::t::Syntax) \
 perl(Mason::t::Util) \
 perl-Mason"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \

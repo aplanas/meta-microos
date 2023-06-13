@@ -10,6 +10,7 @@ RPM_HASH = "f3d754af9ab88fafc568e5daee0d7b311c40a6d9740fc10f76db7d0db5f6c403c583
 
 RPROVIDES:${PN} += "python311-avahi \
 python311-avahi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 avahi \

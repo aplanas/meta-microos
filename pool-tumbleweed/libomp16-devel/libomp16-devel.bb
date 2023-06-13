@@ -42,6 +42,7 @@ libomptarget.rtl.cuda.so.16()(64bit) \
 libomptarget.rtl.cuda.so.16(VERS1.0)(64bit) \
 libomptarget.so.16()(64bit) \
 libomptarget.so.16(VERS1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

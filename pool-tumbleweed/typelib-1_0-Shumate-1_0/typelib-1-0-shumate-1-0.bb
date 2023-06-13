@@ -11,6 +11,7 @@ RPM_HASH = "fb5f64e57ab66db53378eb257ad8c794c4acdefc47b3831521571e70c6dff57bbe65
 RPROVIDES:${PN} += "typelib(Shumate) \
 typelib-1_0-Shumate-1_0 \
 typelib-1_0-Shumate-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libshumate-1.0.so.1()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

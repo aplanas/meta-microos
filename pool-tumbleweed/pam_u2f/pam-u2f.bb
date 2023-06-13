@@ -11,6 +11,7 @@ RPM_HASH = "c5b9fc5ba62b8dcde8d35360d86f4e4fb66791b04ff7cb0817a9c7fc2be53faa806a
 
 RPROVIDES:${PN} += "pam_u2f \
 pam_u2f(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

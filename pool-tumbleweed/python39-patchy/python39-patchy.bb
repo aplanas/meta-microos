@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(patchy) \
 python39-patchy \
 python3dist(patchy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pkgutil-resolve-name"
 

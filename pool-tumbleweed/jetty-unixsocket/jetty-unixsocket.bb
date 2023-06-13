@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "jetty-unixsocket \
 mvn(org.eclipse.jetty:jetty-unixsocket) \
 mvn(org.eclipse.jetty:jetty-unixsocket:pom:) \
 osgi(org.eclipse.jetty.unixsocket)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jnr-unixsocket) \

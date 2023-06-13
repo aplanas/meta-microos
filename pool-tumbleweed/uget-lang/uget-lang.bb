@@ -40,6 +40,7 @@ locale(uget:zh_CN) \
 locale(uget:zh_TW) \
 uget-lang \
 uget-lang-all"
+
 RDEPENDS:${PN} += "uget"
 
 inherit rpm

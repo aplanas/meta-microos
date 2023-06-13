@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "mvn(org.codehaus.woodstox:stax2-api) \
 mvn(org.codehaus.woodstox:stax2-api:pom:) \
 osgi(stax2-api) \
 stax2-api"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

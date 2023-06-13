@@ -14,6 +14,7 @@ RPM_HASH = "c2ec88640d9dfbbf60f17495c6fe346c036be2fd7796484edcdf0ba8375a15e04cfd
 RPROVIDES:${PN} += "typelib(GrlPls) \
 typelib-1_0-GrlPls-0_3 \
 typelib-1_0-GrlPls-0_3(aarch-64)"
+
 RDEPENDS:${PN} += "libgrlpls-0.3.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

@@ -14,6 +14,7 @@ RPM_HASH = "8161594a77f2a6e69d1098fe429cb6ab870206425d5769868db098c33a5af41149b6
 RPROVIDES:${PN} += "caddy \
 caddy(aarch-64) \
 config(caddy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

@@ -14,6 +14,7 @@ RPM_HASH = "6cc509ac0f1f574342a4d18c61fb4b54fcbdf2816cd008b138876ae0d088f53689ca
 
 RPROVIDES:${PN} += "tini \
 tini(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

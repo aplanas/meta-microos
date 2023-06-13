@@ -15,6 +15,7 @@ RPM_HASH = "469a9e28584c07f665b702bd71e825d73b6dbe04d11c86e268d843d08580d1b4b2ab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuplot-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot"
 

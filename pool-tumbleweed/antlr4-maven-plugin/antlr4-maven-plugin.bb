@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "antlr4-maven-plugin \
 mvn(org.antlr:antlr4-maven-plugin) \
 mvn(org.antlr:antlr4-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.antlr:antlr4) \

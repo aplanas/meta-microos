@@ -12,6 +12,7 @@ RPM_HASH = "f2212c14382fb03b1329db1b050994cfbda2a07cdd36ccdd47cce5ed41bb084d4dee
 RPROVIDES:${PN} += "mate-applet-sensors-devel \
 mate-applet-sensors-devel(aarch-64) \
 mate-sensors-applet-devel"
+
 RDEPENDS:${PN} += "libmate-sensors-applet-plugin0"
 
 inherit rpm

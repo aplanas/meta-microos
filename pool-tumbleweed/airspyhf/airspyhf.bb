@@ -10,6 +10,7 @@ RPM_HASH = "2cd0417bb4343cd7e26e3c30703ee46ed21d7b9a0eebd730a6bdc324fb783151619b
 
 RPROVIDES:${PN} += "airspyhf \
 airspyhf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libairspyhf.so.0()(64bit) \

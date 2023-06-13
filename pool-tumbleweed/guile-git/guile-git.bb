@@ -10,6 +10,7 @@ RPM_HASH = "402b9990cd0c73fa16458946271a39b4a4d4f4453e44209e26dbf89e28586aa1e3ce
 
 RPROVIDES:${PN} += "guile-git \
 guile-git(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 guile \
 guile-bytestructures \

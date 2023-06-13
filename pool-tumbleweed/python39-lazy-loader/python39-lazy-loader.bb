@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(lazy-loader) \
 python39-lazy-loader \
 python39-lazy_loader \
 python3dist(lazy-loader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

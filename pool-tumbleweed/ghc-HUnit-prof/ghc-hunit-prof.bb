@@ -10,6 +10,7 @@ RPM_HASH = "909681ff60a2eb0abc21b777f2eda7f92e8d13f80bdc9080e97fc728506a603ac20c
 RPROVIDES:${PN} += "ghc-HUnit-prof \
 ghc-HUnit-prof(aarch-64) \
 ghc-prof(HUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb)"
+
 RDEPENDS:${PN} += "ghc-HUnit-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk) \

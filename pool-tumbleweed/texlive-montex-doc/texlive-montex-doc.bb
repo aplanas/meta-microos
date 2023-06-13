@@ -9,6 +9,7 @@ RPM_HASH = "f2346fbd9a385e43e3ccb7652010eeb081c59faff3ba977bc22fd481b6015694c4fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-montex-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

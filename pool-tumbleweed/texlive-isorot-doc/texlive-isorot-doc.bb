@@ -9,6 +9,7 @@ RPM_HASH = "8a1fac44ca1f9428bca98dd49d61eae64fd12809a652866ab009e9bbd13588ede09e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-isorot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

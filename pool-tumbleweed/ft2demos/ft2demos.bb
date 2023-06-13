@@ -9,6 +9,7 @@ RPM_HASH = "dff5af5ef324f7560237d0db23857701b93a934db5bb7e2ea8d5b474e452580ec8bf
 
 RPROVIDES:${PN} += "ft2demos \
 ft2demos(aarch-64)"
+
 RDEPENDS:${PN} += "ftbench \
 ftdiff \
 ftdump \

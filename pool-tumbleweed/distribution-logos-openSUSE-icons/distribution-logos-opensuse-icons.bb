@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "distribution-logos-openSUSE-icons \
 systemd-icon-branding \
 systemd-icon-branding-openSUSE"
+
 RDEPENDS:${PN} += "distribution-logos"
 
 inherit rpm

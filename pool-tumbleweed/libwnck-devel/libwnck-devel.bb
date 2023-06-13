@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libwnck-devel \
 libwnck-devel(aarch-64) \
 libwnck-doc \
 pkgconfig(libwnck-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwnck-3-0 \
 pkgconfig(cairo) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(freetype2-profile-tti35) \
 freetype2-profile-tti35"
+
 RDEPENDS:${PN} += "bash \
 freetype2"
 

@@ -16,6 +16,7 @@ RPM_HASH = "4111bf7c4382fca6f604eb5ea61d858762bca0881200ee932b81ee175418b866efbd
 RPROVIDES:${PN} += "ghc-js-chart \
 ghc-js-chart(aarch-64) \
 libHSjs-chart-2.9.4.1-3Q5pmv83RztDkZZL9zv96d-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

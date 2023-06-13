@@ -12,6 +12,7 @@ RPM_HASH = "0c73aa68b3756e0fe32fbae78f1cbd9258751688551294bbd2c0a79b3ec621895874
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcovr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

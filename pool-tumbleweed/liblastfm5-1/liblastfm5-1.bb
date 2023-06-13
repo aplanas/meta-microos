@@ -12,6 +12,7 @@ RPM_HASH = "affe048e12652109373deee8237aef149c82e64a29628b715e889ed050e2c588ec55
 RPROVIDES:${PN} += "liblastfm5-1 \
 liblastfm5-1(aarch-64) \
 liblastfm5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

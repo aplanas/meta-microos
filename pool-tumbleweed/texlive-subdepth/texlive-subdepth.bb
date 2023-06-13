@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(subdepth.sty) \
 texlive-subdepth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

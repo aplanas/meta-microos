@@ -11,6 +11,7 @@ RPM_HASH = "38675a21cd6755b87b70460e066f089447687ef0d387b8b109d2af6de4488ae441f3
 RPROVIDES:${PN} += "python3-Pillow-tk \
 python310-Pillow-tk \
 python310-Pillow-tk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

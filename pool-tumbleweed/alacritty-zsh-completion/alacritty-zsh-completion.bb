@@ -9,6 +9,7 @@ RPM_HASH = "85cf03870268e7069e4a44b3339d0e5f09d55855b429fc280bedda7e8617f04ba62c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacritty-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

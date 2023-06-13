@@ -12,6 +12,7 @@ RPM_HASH = "844a28b70b4fee3086ec7b88d6ccd598fd2122d9a23ede9d9784300cf1dbd1488bb6
 RPROVIDES:${PN} += "cmake(Lightly) \
 lightly-style \
 lightly-style(aarch-64)"
+
 RDEPENDS:${PN} += "kconf_update5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

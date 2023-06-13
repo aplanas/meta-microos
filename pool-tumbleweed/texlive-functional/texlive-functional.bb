@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(functional.sty) \
 texlive-functional"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

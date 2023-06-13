@@ -12,6 +12,7 @@ RPM_HASH = "36ecc6f770dfca7ce55a679ffbdf8a0d44ded7bbb81f0ff024cee38a69b98999eb14
 RPROVIDES:${PN} += "typelib(Notify) \
 typelib-1_0-Notify-0_7 \
 typelib-1_0-Notify-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "libnotify.so.4()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

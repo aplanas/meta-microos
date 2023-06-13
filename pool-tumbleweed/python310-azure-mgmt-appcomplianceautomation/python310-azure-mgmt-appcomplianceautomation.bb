@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-appcomplianceautomation \
 python3.10dist(azure-mgmt-appcomplianceautomation) \
 python310-azure-mgmt-appcomplianceautomation \
 python3dist(azure-mgmt-appcomplianceautomation)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

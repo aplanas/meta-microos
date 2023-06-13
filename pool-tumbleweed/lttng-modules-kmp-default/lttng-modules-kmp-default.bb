@@ -59,6 +59,7 @@ lttng-modules-kmp-default \
 lttng-modules-kmp-default(aarch-64) \
 lttng-modules-kmp-default-k6.3.4_1 \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

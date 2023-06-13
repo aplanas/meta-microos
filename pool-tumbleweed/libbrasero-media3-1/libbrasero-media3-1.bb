@@ -13,6 +13,7 @@ RPM_HASH = "a909faf02f7e4157789b0a8c0944466b85f737b8764f00c6540798ff2af42e765c31
 RPROVIDES:${PN} += "libbrasero-media3-1 \
 libbrasero-media3-1(aarch-64) \
 libbrasero-media3.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

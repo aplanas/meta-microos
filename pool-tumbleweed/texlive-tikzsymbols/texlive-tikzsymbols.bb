@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzsymbols.sty) \
 texlive-tikzsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

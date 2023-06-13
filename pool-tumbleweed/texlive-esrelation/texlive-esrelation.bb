@@ -29,6 +29,7 @@ tex(esrelation.sty) \
 tex(esrelation10.tfm) \
 tex(uesrelation.fd) \
 texlive-esrelation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

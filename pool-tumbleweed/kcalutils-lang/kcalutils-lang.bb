@@ -63,6 +63,7 @@ locale(kcalutils:ug) \
 locale(kcalutils:uk) \
 locale(kcalutils:zh_CN) \
 locale(kcalutils:zh_TW)"
+
 RDEPENDS:${PN} += "kcalutils"
 
 inherit rpm

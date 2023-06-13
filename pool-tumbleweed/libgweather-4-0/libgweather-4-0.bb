@@ -10,6 +10,7 @@ RPM_HASH = "afa757124e1297bb6d13e994b262a3768ac7528ec7daa0f1e3c0c84d346b525de488
 RPROVIDES:${PN} += "libgweather-4-0 \
 libgweather-4-0(aarch-64) \
 libgweather-4.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gweather4-data \
 ld-linux-aarch64.so.1()(64bit) \

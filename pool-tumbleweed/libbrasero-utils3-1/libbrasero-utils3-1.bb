@@ -14,6 +14,7 @@ RPM_HASH = "bf5417d714f447cbbbd5bbc43f96d731892523526589d474497749a116850404b5a5
 RPROVIDES:${PN} += "libbrasero-utils3-1 \
 libbrasero-utils3-1(aarch-64) \
 libbrasero-utils3.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

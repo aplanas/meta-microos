@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(Git::Repository::Log) \
 perl(Git::Repository::Log::Iterator) \
 perl(Git::Repository::Plugin::Log) \
 perl-Git-Repository-Plugin-Log"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Git::Repository) \
 perl(Git::Repository::Command) \

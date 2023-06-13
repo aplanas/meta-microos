@@ -15,6 +15,7 @@ RPM_HASH = "f37f59b5a82d983c8c50ed740095cae02e13a11cce33bde1e0218ebea5f4c1ad82a5
 
 RPROVIDES:${PN} += "schily-ctags \
 schily-ctags(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

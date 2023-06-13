@@ -10,6 +10,7 @@ RPM_HASH = "ac20f1d8cdb8e490f64a2489d0bae336069d986a4cc9f84a44a25c3f28144c5612e8
 
 RPROVIDES:${PN} += "libsvm-devel \
 libsvm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsvm3"
 
 inherit rpm

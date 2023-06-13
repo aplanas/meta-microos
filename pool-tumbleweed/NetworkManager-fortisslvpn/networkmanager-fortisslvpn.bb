@@ -11,6 +11,7 @@ RPM_HASH = "1e81d7944ad0d73f14b7bc5cc5c3e3ed2bc2d430fc92e4ff3aa48ad3d557b1b14a8a
 RPROVIDES:${PN} += "NetworkManager-fortisslvpn \
 NetworkManager-fortisslvpn(aarch-64) \
 libnm-vpn-plugin-fortisslvpn.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

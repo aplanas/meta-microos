@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(parse-type) \
 python311-parse_type \
 python3dist(parse-type)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-parse \
 python311-six"

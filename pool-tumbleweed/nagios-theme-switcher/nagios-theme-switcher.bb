@@ -10,6 +10,7 @@ RPM_HASH = "9a6842e5eac58f844538f6873111ea5c5800358bf3741c6ad0b6b601d922f3b46462
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nagios-theme-switcher"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

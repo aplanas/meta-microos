@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(alnumsec.sty) \
 texlive-alnumsec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

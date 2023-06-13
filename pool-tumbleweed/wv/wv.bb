@@ -11,6 +11,7 @@ RPM_HASH = "4cb766da013ef70c2ec9d405c4d702e3e031471756ba10299fec9ae3641c236801f7
 
 RPROVIDES:${PN} += "wv \
 wv(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

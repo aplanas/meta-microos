@@ -14,6 +14,7 @@ RPM_HASH = "5fc07b32947ec1386b2b7c6fdc0c6d700b4b866aec977d826b18cc28746a3ece3655
 RPROVIDES:${PN} += "libwebpdecoder.so.3()(64bit) \
 libwebpdecoder3 \
 libwebpdecoder3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

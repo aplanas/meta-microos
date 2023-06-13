@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(vdirsyncer) \
 python311-vdirsyncer \
 python3dist(vdirsyncer) \
 vdirsyncer"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

@@ -17,6 +17,7 @@ RPM_HASH = "767e57647f262da3f80e3f60ea25c32fa5e6a9a82f5d769d10fc9705b2a91b8ae82d
 
 RPROVIDES:${PN} += "lapack-devel-static \
 lapack-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "lapack-devel"
 
 inherit rpm

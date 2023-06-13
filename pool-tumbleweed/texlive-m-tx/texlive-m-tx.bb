@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mtx.tex) \
 tex(mtxlatex.sty) \
 texlive-m-tx"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

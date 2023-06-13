@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luamodulartables.sty) \
 texlive-luamodulartables"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

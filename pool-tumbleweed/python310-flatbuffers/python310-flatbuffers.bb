@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flatbuffers \
 python3.10dist(flatbuffers) \
 python310-flatbuffers \
 python3dist(flatbuffers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

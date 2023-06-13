@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-slaxml \
 lua54-slaxml"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

@@ -24,6 +24,7 @@ perl(Unicode::Stringprep::Prohibited) \
 perl(Unicode::Stringprep::Unassigned) \
 perl(Unicode::Stringprep::_Common) \
 perl-Unicode-Stringprep"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Unicode::Normalize)"
 

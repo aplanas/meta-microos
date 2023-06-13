@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-untokenize \
 python3.10dist(untokenize) \
 python310-untokenize \
 python3dist(untokenize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

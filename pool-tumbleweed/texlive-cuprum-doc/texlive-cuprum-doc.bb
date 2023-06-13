@@ -9,6 +9,7 @@ RPM_HASH = "344b5930e761ae0700bc52c0f35c41f4fdc6ee98fd98efd8a87d0ada3c2f4805bb64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cuprum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-buttplug \
 python3.10dist(buttplug) \
 python310-buttplug \
 python3dist(buttplug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-websockets"
 

@@ -13,6 +13,7 @@ RPM_HASH = "efc34dfe9d9cf5ccf330031dcb02ff4c0728fa4b0ae71ee6c1366921a55ed43c5575
 RPROVIDES:${PN} += "ghc-constraints \
 ghc-constraints(aarch-64) \
 libHSconstraints-0.13.4-8c0InBhz3htJzug27IqVE7-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

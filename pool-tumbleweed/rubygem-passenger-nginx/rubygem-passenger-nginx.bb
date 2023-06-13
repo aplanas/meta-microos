@@ -14,6 +14,7 @@ RPM_HASH = "7e8d42d129718f02208ad742d5a2cc94b9fa1bc5084c90b9d4a9a8d2218333e7cc2e
 RPROVIDES:${PN} += "config(rubygem-passenger-nginx) \
 rubygem-passenger-nginx \
 rubygem-passenger-nginx(aarch-64)"
+
 RDEPENDS:${PN} += "nginx \
 rubygem-passenger"
 

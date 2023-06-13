@@ -9,6 +9,7 @@ RPM_HASH = "297883715f937e3148a3ddc0b54a0d47c8c77248fb9a279dc0e388fe5497371059c0
 
 RPROVIDES:${PN} += "demumble \
 demumble(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

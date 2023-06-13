@@ -19,6 +19,7 @@ metainfo() \
 metainfo(gobby-0.5.appdata.xml) \
 mimehandler(text/plain) \
 mimehandler(x-scheme-handler/infinote)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatkmm-1.6.so.1()(64bit) \

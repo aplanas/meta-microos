@@ -15,6 +15,7 @@ libglvnd-devel(aarch-64) \
 pkgconfig(glx) \
 pkgconfig(libglvnd) \
 pkgconfig(opengl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglvnd"
 

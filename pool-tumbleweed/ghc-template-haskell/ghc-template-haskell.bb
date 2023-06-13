@@ -10,6 +10,7 @@ RPM_HASH = "aabe0fd394175a810ee3b9b731d141d9558f5f3abd01fc8159744e383843820b6364
 RPROVIDES:${PN} += "ghc-template-haskell \
 ghc-template-haskell(aarch-64) \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

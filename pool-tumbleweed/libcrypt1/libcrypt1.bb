@@ -22,6 +22,7 @@ libcrypt1 \
 libcrypt1(aarch-64) \
 libowcrypt.so.1()(64bit) \
 libowcrypt.so.1(OW_CRYPT_1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

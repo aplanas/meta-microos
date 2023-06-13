@@ -18,6 +18,7 @@ python3.10dist(jupyter-events) \
 python310-jupyter-events \
 python310-jupyter_events \
 python3dist(jupyter-events)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

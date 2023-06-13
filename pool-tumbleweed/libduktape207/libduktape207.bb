@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libduktape.so.207()(64bit) \
 libduktape207 \
 libduktape207(aarch-64) \
 libduktaped.so.207()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libm.so.6()(64bit) \

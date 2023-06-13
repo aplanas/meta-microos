@@ -12,6 +12,7 @@ RPM_HASH = "427ef99c0010fe3fa3d14a25c41063a30cecba10781b97cf01b70d16a9b8ba68dfe2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-patterns-sle11"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 sca-patterns-base"

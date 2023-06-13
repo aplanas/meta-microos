@@ -29,6 +29,7 @@ RPM_HASH = "691a6935a893fc837d0b31aa6e57de58ea0cfc3edcdd5639004e584bb60bc4b93d3f
 
 RPROVIDES:${PN} += "omnispeak \
 omnispeak(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

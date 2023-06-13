@@ -12,6 +12,7 @@ RPM_HASH = "879eaf1de3e3a33d28feacf63cbca7634ee1d8091e70a11c39b19cd88238ba746e6a
 RPROVIDES:${PN} += "libdebuginfod-devel \
 libdebuginfod-dummy-devel \
 libdebuginfod-dummy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdebuginfod1-dummy"
 
 inherit rpm

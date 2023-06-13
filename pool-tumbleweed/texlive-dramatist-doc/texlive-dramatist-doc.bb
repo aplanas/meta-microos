@@ -9,6 +9,7 @@ RPM_HASH = "ff38e4790c48ca6064530e9e1e326426da61e3d543a16fcf9d71e24be01d630ce5b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dramatist-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

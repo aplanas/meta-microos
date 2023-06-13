@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-nptyping \
 python3.10dist(nptyping) \
 python310-nptyping \
 python3dist(nptyping)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

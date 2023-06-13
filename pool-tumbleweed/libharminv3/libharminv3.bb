@@ -14,6 +14,7 @@ RPM_HASH = "900bf624bf9ee6beaf19217150fd34047a1efec1d8e5768eb8bc6ef5e169e6d556b8
 RPROVIDES:${PN} += "libharminv.so.3()(64bit) \
 libharminv3 \
 libharminv3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "evolution-plugin-bogofilter \
 evolution-plugin-bogofilter(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Evolution-bogofilter.metainfo.xml)"
+
 RDEPENDS:${PN} += "bogofilter \
 evolution \
 ld-linux-aarch64.so.1()(64bit) \

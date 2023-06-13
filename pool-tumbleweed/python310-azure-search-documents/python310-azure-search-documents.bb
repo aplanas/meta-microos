@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-search-documents \
 python3.10dist(azure-search-documents) \
 python310-azure-search-documents \
 python3dist(azure-search-documents)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

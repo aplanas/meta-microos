@@ -11,6 +11,7 @@ RPM_HASH = "1e9166f81980f1a8124e526f35dcd10aa4afeb740800ada9017ae783f7357824df13
 RPROVIDES:${PN} += "pcapplusplus-devel \
 pcapplusplus-devel(aarch-64) \
 pkgconfig(PcapPlusPlus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpcap-devel"
 

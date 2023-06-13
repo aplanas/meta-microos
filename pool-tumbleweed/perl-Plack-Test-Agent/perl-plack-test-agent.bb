@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Plack::Test::Agent) \
 perl(Test::WWW::Mechanize::Bound) \
 perl-Plack-Test-Agent"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Cookies) \
 perl(HTTP::Message::PSGI) \

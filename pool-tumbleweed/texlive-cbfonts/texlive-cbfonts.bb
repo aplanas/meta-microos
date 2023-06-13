@@ -962,6 +962,7 @@ tex(gttu2488.tfm) \
 tex(gttu2986.tfm) \
 tex(gttu3583.tfm) \
 texlive-cbfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

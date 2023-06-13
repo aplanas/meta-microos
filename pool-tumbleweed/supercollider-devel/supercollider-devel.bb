@@ -10,6 +10,7 @@ RPM_HASH = "406f8fc6aee054ae96f6dde6ebcc1180d77a10593648f3c1cd8ae3bae1e83be35178
 
 RPROVIDES:${PN} += "supercollider-devel \
 supercollider-devel(aarch-64)"
+
 RDEPENDS:${PN} += "alsa-devel \
 avahi-devel \
 libjack-devel \

@@ -19,6 +19,7 @@ libjson-c.so.5(JSONC_0.16)(64bit) \
 libjson-c.so.5(JSONC_PRIVATE)(64bit) \
 libjson-c5 \
 libjson-c5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.36)(64bit)"
 

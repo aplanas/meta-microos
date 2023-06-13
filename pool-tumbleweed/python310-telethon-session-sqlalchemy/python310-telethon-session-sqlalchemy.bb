@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-telethon-session-sqlalchemy \
 python3.10dist(telethon-session-sqlalchemy) \
 python310-telethon-session-sqlalchemy \
 python3dist(telethon-session-sqlalchemy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-SQLAlchemy"
 

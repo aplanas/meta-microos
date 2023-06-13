@@ -16,6 +16,7 @@ noto-sans-cjkjp \
 noto-sans-cjkjp-fonts \
 noto-sans-jp-fonts \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "google-noto-sans-jp-bold-fonts \
 google-noto-sans-jp-regular-fonts"
 

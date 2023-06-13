@@ -9,6 +9,7 @@ RPM_HASH = "f6fe775b4d01aa6c2e756277eb2d91400e07c9e36ebe5e6cbab914c43c7eb4703087
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-utopia-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

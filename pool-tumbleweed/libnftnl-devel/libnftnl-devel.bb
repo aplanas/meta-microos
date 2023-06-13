@@ -14,6 +14,7 @@ RPM_HASH = "a6dee0c17752e00d8e3efe65e325c2a833fd986bbc8ded79d3acb2456f3f055efd01
 RPROVIDES:${PN} += "libnftnl-devel \
 libnftnl-devel(aarch-64) \
 pkgconfig(libnftnl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnftnl11 \
 pkgconfig(libmnl)"

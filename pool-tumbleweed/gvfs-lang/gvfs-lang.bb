@@ -86,6 +86,7 @@ locale(gvfs:vi) \
 locale(gvfs:zh_CN) \
 locale(gvfs:zh_HK) \
 locale(gvfs:zh_TW)"
+
 RDEPENDS:${PN} += "gvfs"
 
 inherit rpm

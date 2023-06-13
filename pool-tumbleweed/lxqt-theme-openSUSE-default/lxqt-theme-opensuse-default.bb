@@ -9,6 +9,7 @@ RPM_HASH = "30afaab0382b7d09f484bb249a97d773b0a02d791a868634e37cb18e99085f9be61e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-theme-openSUSE-default"
+
 RDEPENDS:${PN} += "lxqt-themes"
 
 inherit rpm

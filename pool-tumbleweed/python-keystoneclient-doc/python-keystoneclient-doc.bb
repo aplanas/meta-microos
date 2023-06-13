@@ -10,6 +10,7 @@ RPM_HASH = "c2df39652c2302eb6e6a980aa4e442b05256713281b295432ef4a9ca2d36a5cf3618
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-keystoneclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

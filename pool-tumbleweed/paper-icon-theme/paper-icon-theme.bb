@@ -9,6 +9,7 @@ RPM_HASH = "730126cf385fdd84a368345f9231e99d3c03e02d60e0f19b7749d7119e00f301da56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paper-icon-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

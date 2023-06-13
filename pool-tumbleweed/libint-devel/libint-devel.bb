@@ -20,6 +20,7 @@ RPM_HASH = "9ed341062abe99c60bed37d551686f9a60c082f80d16b9a0af477583861b03b6b717
 RPROVIDES:${PN} += "libint-devel \
 libint-devel(aarch-64) \
 pkgconfig(libint2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 eigen3-devel \
 libint2-2"

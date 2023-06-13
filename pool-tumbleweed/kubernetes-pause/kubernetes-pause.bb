@@ -10,6 +10,7 @@ RPM_HASH = "775cd557d4b7880a07751171cf17e1a069ddf318de8e635016dd445c51a580d775f5
 RPROVIDES:${PN} += "kubernetes-pause \
 kubernetes-pause(aarch-64) \
 kubic-pause"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

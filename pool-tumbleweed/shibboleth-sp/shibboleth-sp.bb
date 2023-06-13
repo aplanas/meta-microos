@@ -15,6 +15,7 @@ RPM_HASH = "9fbb21773f652c44fb27eeb52e3a62bcaf6e69c8f2e6a91827190f2cdc2cd12490ae
 RPROVIDES:${PN} += "config(shibboleth-sp) \
 shibboleth-sp \
 shibboleth-sp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \

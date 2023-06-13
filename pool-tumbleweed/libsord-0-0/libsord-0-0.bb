@@ -11,6 +11,7 @@ RPM_HASH = "2639ce3ce010bd70f1d0599f26bdf3223b1d85fc21dd8689336a773de31e940eade2
 RPROVIDES:${PN} += "libsord-0-0 \
 libsord-0-0(aarch-64) \
 libsord-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

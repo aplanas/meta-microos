@@ -9,6 +9,7 @@ RPM_HASH = "41ab01527663f2b32c5857c26a633896c5edcaa89a7cdbb36cecb89f0b584070be47
 
 RPROVIDES:${PN} += "nfs-client-provisioner-k8s-yaml \
 nfs-client-provisioner-k8s-yaml(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

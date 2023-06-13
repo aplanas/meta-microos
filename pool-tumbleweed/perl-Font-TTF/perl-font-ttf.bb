@@ -84,6 +84,7 @@ perl(Font::TTF::Woff::MetaData) \
 perl(Font::TTF::Woff::PrivateData) \
 perl(Font::TTF::XMLparse) \
 perl-Font-TTF"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::String)"
 

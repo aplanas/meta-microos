@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(xreader-document-1.5) \
 pkgconfig(xreader-view-1.5) \
 xreader-devel \
 xreader-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gthread-2.0) \

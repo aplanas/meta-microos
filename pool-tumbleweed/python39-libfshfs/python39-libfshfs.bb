@@ -29,6 +29,7 @@ RPM_HASH = "a5ffe8b9ef6c9eead59f4ee6d111fcc5eabb3d194eb042026e7b2ab9d2f0cc4a7111
 
 RPROVIDES:${PN} += "python39-libfshfs \
 python39-libfshfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

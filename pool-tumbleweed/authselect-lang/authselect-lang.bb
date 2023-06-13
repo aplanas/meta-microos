@@ -33,6 +33,7 @@ locale(authselect:tr) \
 locale(authselect:uk) \
 locale(authselect:zh_CN) \
 locale(authselect:zh_TW)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

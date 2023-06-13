@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(resumemac.tex) \
 texlive-resumemac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

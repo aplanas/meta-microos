@@ -9,6 +9,7 @@ RPM_HASH = "45af6acb3a8b4940153c598333d75dcd1ea5e06e605ee211b6db32e26dc053b5f7e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

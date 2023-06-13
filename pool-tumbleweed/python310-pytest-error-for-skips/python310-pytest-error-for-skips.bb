@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pytest-error-for-skips \
 python3.10dist(pytest-error-for-skips) \
 python310-pytest-error-for-skips \
 python3dist(pytest-error-for-skips)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

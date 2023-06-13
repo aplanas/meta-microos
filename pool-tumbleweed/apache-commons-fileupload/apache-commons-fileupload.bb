@@ -20,6 +20,7 @@ mvn(commons-fileupload:commons-fileupload:pom:) \
 mvn(org.apache.commons:commons-fileupload) \
 mvn(org.apache.commons:commons-fileupload:pom:) \
 osgi(org.apache.commons.fileupload)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io)"

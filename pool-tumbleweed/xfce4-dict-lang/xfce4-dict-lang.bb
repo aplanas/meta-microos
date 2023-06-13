@@ -56,6 +56,7 @@ locale(xfce4-dict:zh_CN) \
 locale(xfce4-dict:zh_TW) \
 xfce4-dict-lang \
 xfce4-dict-lang-all"
+
 RDEPENDS:${PN} += "xfce4-dict"
 
 inherit rpm

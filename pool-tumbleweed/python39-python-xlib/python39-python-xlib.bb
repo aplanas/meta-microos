@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(python-xlib) \
 python39-python-xlib \
 python39-xlib \
 python3dist(python-xlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

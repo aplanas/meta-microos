@@ -15,6 +15,7 @@ RPM_HASH = "336664722eec98dabe326a3e4fc707f669e7f907b745ea940a921e82863f55019f80
 RPROVIDES:${PN} += "libgupnp-devel \
 libgupnp-devel(aarch-64) \
 pkgconfig(gupnp-1.6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 libgupnp-1_6-0 \

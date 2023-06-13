@@ -9,6 +9,7 @@ RPM_HASH = "85071d5022ddf983f81abb0aea60fe89c19484c179cdaa7c7d0f8e95276e82384971
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfssolomos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

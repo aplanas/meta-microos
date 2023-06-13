@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(intopdf.sty) \
 texlive-intopdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

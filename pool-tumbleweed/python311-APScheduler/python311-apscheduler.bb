@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(apscheduler) \
 python311-APScheduler \
 python3dist(apscheduler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz \
 python311-six \

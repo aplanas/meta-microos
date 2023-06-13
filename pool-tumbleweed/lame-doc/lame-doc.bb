@@ -11,6 +11,7 @@ RPM_HASH = "1242f441e6854c62925dc6e2dd5e53cfc1dbeeedad9e941ffcfe9140ac9c8b03522a
 
 RPROVIDES:${PN} += "lame-doc \
 lame-doc(aarch-64)"
+
 RDEPENDS:${PN} += "lame"
 
 inherit rpm

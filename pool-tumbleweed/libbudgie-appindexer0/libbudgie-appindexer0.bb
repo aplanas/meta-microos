@@ -10,6 +10,7 @@ RPM_HASH = "aef272b708c688e4fb73a33dbf829e9dc80d5b05c107eb20d3cfb7fc4e59ee4463de
 RPROVIDES:${PN} += "libbudgie-appindexer.so.0()(64bit) \
 libbudgie-appindexer0 \
 libbudgie-appindexer0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

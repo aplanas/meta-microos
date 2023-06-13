@@ -9,6 +9,7 @@ RPM_HASH = "662017abe929adffd88f5716ad24b071f7d5d132f7fdf028ba48afd36c589c1c3eaf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-logbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

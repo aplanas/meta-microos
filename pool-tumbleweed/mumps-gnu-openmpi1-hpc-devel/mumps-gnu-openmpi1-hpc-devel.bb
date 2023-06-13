@@ -11,6 +11,7 @@ RPM_HASH = "1acdf2c6354cb64d6441bdd6912a533ed7dfd4dea9abe0e55db20e8278be9d5dc5eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-openmpi1-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 mumps_5_3_5-gnu-openmpi1-hpc-devel"
 

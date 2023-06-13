@@ -10,6 +10,7 @@ RPM_HASH = "4754a654d3b8bce052734164c62a330dca1aeab8979312cd187a2318855f40003f0b
 RPROVIDES:${PN} += "libgtk-layer-shell.so.0()(64bit) \
 libgtk-layer-shell0 \
 libgtk-layer-shell0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

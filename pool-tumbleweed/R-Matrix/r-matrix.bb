@@ -10,6 +10,7 @@ RPM_HASH = "10422f7481bbf1697a8873eaaf68e4a399f3480f53bc6006bc927b32b9c1f1377d0c
 RPROVIDES:${PN} += "R-Matrix \
 R-Matrix(aarch-64) \
 R-Matrix-devel"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

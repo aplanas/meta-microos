@@ -9,6 +9,7 @@ RPM_HASH = "144f569712bb4bd9fb005ac79f6fdb4608e187188f1dc057199cdc967f662fcc734e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-logzero-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

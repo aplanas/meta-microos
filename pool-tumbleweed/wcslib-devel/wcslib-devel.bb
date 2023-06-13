@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libwcs-devel \
 pkgconfig(wcslib) \
 wcslib-devel \
 wcslib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cfitsio-devel \
 libwcs7"

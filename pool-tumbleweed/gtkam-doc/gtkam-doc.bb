@@ -9,6 +9,7 @@ RPM_HASH = "d153f6b5ea1e6a5ad5273198ed698ba19487a47cd9ec2ecd27acc0fbf5928d5f00e2
 
 RPROVIDES:${PN} += "gtkam-doc \
 gtkam-doc(aarch-64)"
+
 RDEPENDS:${PN} += "gtkam"
 
 inherit rpm

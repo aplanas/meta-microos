@@ -17,6 +17,7 @@ tex(cmbtt8.tfm) \
 tex(cmbtt9.tfm) \
 tex(cmttb10.tfm) \
 texlive-cm-mf-extra-bold"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

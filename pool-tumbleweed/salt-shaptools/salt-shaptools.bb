@@ -9,6 +9,7 @@ RPM_HASH = "8581f623c85b424e567d9a60d14bb1f18da08387badcaa6ff93805ca65d5e5738f4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "salt-shaptools"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

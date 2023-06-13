@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.typesafe:config) \
 mvn(com.typesafe:config:pom:) \
 typesafe-config"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:tilt:2) \
 rubygem(ruby:3.2.0:tilt:2.0) \
 rubygem(ruby:3.2.0:tilt:2.0.11) \
 rubygem(tilt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

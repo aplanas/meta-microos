@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-clingo \
 python3-clingo(aarch-64) \
 python3.10dist(clingo) \
 python3dist(clingo)"
+
 RDEPENDS:${PN} += "clingo \
 libc.so.6(GLIBC_2.17)(64bit) \
 libclingo.so.4()(64bit) \

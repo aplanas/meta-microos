@@ -26,6 +26,7 @@ perl(GraphViz::Regex) \
 perl(GraphViz::Small) \
 perl(GraphViz::XML) \
 perl-GraphViz"
+
 RDEPENDS:${PN} += "cairo \
 graphviz \
 graphviz-gnome \

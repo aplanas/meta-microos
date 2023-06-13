@@ -12,6 +12,7 @@ RPM_HASH = "a8d552bfa014c2a7a893417a7d47c3264611fbc0117cce1c1eefc803c5bd537aeb43
 RPROVIDES:${PN} += "libspectre.so.1()(64bit) \
 libspectre1 \
 libspectre1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

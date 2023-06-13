@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(addlines.sty) \
 texlive-addlines"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

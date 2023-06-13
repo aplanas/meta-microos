@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(placeins.tex) \
 texlive-placeins-plain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

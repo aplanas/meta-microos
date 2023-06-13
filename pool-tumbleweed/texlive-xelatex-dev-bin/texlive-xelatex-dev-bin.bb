@@ -9,6 +9,7 @@ RPM_HASH = "99fa1583b4b7e323ff1c40a02721658e19d60f458b30c5cfcc4ad7f4c597350d9cf3
 
 RPROVIDES:${PN} += "texlive-xelatex-dev-bin \
 texlive-xelatex-dev-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-xelatex-dev"
 
 inherit rpm

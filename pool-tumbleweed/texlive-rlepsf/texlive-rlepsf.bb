@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rlepsf.tex) \
 texlive-rlepsf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

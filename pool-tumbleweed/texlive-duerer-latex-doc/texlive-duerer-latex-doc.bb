@@ -9,6 +9,7 @@ RPM_HASH = "d972c5980a0dd730bd98fb63e4919ec97cf77de7ed7221ff4dc23b958637c39af1f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-duerer-latex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

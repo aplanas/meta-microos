@@ -47,6 +47,7 @@ perl(Code::TidyAll::Util::Zglob) \
 perl(Code::TidyAll::Zglob) \
 perl(Test::Code::TidyAll) \
 perl-Code-TidyAll"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \

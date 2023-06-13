@@ -10,6 +10,7 @@ RPM_HASH = "d5ba209663665681c5222bf3ea9520cec9c2746609c5a22f68b19d959df0ab725584
 RPROVIDES:${PN} += "ghc-crypto-random \
 ghc-crypto-random(aarch-64) \
 libHScrypto-random-0.0.9-JRbP8k0BmeXEHkvOdlpIfk-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(DBus1) \
 dbus-1-devel \
 dbus-1-devel(aarch-64) \
 pkgconfig(dbus-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1 \
 glibc-devel \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-pipeline \
 python3.10dist(django-pipeline) \
 python310-django-pipeline \
 python3dist(django-pipeline)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Jinja2"

@@ -26,6 +26,7 @@ tex(tikzlibrarywargame.util.code.tex) \
 tex(wargame.sty) \
 tex(wgexport.cls) \
 texlive-wargame"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

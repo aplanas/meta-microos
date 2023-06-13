@@ -13,6 +13,7 @@ RPM_HASH = "f052b26a47304deb8c026cbc386a82ec8b38047a7f7b502be92ad0d6056b3a02dca5
 
 RPROVIDES:${PN} += "dump \
 dump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3a6a5e1b69dcaabb879789e6770792c358764b1e1efadee4c47dd49807ba6a4f7b2b
 RPROVIDES:${PN} += "libuimplatforminputcontextplugin.so()(64bit) \
 uim-qt5 \
 uim-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

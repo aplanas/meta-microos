@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "aspell-se \
 aspell-sv \
 aspell-sv(aarch-64) \
 locale(aspell:sv)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

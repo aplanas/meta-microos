@@ -16,6 +16,7 @@ RPM_HASH = "87d87558fcba4c7957941aaae2aca7c9a5cc9c7d74881b89bb261f4c8b6639763394
 
 RPROVIDES:${PN} += "notcurses-demos \
 notcurses-demos(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

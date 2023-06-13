@@ -12,6 +12,7 @@ RPM_HASH = "e13f465b6bd0ab6661ab339519fd047c3c79830a59cc9a0c2e46d6e3764cafcbb978
 RPROVIDES:${PN} += "libxcb-imdkit.so.1()(64bit) \
 libxcb-imdkit1 \
 libxcb-imdkit1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

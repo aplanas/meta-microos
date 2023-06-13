@@ -9,6 +9,7 @@ RPM_HASH = "f71758beda745d06cec29324ff4bdd8dab4642ee4e43988563d85aad7226bbe75ac9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-optexcount-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

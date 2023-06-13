@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:multi_xml) \
 rubygem(ruby:3.2.0:multi_xml:0) \
 rubygem(ruby:3.2.0:multi_xml:0.6) \
 rubygem(ruby:3.2.0:multi_xml:0.6.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-user_agent \
 python3.10dist(user-agent) \
 python310-user_agent \
 python3dist(user-agent)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

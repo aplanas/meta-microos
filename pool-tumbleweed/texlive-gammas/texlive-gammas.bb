@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gammas.cls) \
 texlive-gammas"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

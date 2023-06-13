@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "j2objc-annotations \
 mvn(com.google.j2objc:j2objc-annotations) \
 mvn(com.google.j2objc:j2objc-annotations:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

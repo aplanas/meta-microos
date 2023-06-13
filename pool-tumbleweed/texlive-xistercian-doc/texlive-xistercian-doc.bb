@@ -9,6 +9,7 @@ RPM_HASH = "2755eb351ece3e607842379033156fb7ec209f65a9f55c8269da718a5ed63a962807
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xistercian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newspaper.sty) \
 texlive-newspaper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

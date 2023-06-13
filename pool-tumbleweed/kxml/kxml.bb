@@ -15,6 +15,7 @@ mvn(net.sf.kxml:kxml2-min) \
 mvn(net.sf.kxml:kxml2-min:pom:) \
 mvn(net.sf.kxml:kxml2:pom:) \
 osgi(org.kxml2)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 xpp3"

@@ -10,6 +10,7 @@ RPM_HASH = "a722d7b4dbcc16712f47ad57e6414917c130f026d0ae404b0d24237cef7d4489f279
 
 RPROVIDES:${PN} += "openfst \
 openfst(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

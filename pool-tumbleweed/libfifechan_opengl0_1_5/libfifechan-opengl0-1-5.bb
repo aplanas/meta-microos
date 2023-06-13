@@ -10,6 +10,7 @@ RPM_HASH = "c3d9c05580dd04605fb5748552563854be0abb01800d7aec186bb58574cdc31f14b4
 RPROVIDES:${PN} += "libfifechan_opengl.so.0.1.5()(64bit) \
 libfifechan_opengl0_1_5 \
 libfifechan_opengl0_1_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

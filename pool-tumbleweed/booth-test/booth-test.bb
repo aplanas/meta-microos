@@ -10,6 +10,7 @@ RPM_HASH = "ac926abedc5d94033981e4417540a7324f95c168ba81d5c4d94312d4e8ae3ce86358
 
 RPROVIDES:${PN} += "booth-test \
 booth-test(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 booth \

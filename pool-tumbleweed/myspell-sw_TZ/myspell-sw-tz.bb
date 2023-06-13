@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:sw_TZ) \
 myspell-dictionary \
 myspell-kiswahili \
 myspell-sw_TZ"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

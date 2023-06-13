@@ -10,6 +10,7 @@ RPM_HASH = "edc0be229124ad0c80d46100ef9b1deb2c324bbad911bded6d10999fbf885e42cc85
 RPROVIDES:${PN} += "libstorage-ng.so.1()(64bit) \
 libstorage-ng1 \
 libstorage-ng1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 coreutils \
 device-mapper \

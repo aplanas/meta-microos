@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cinnamon-desktop-devel \
 libcinnamon-desktop-devel \
 libcinnamon-desktop-devel(aarch-64) \
 pkgconfig(cinnamon-desktop)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcinnamon-desktop4 \
 pkgconfig \

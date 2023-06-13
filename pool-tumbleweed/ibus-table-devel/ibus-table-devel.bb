@@ -10,6 +10,7 @@ RPM_HASH = "5515b5459235ca58112b0178d40217c8f1db6aaebc8c599a9bfa3bd6b4fed9a62344
 RPROVIDES:${PN} += "ibus-table-devel \
 ibus-table-devel(aarch-64) \
 pkgconfig(ibus-table)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ibus-table"
 

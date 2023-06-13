@@ -10,6 +10,7 @@ RPM_HASH = "a84ad3f9b4956a0e4a69d3627606ff8b21f950ca1197099591bf31c3b1dd97cf7692
 RPROVIDES:${PN} += "ghc-prof(warp-3.3.25-E7dqXF5eh0k5u5fIPKRjLZ) \
 ghc-warp-prof \
 ghc-warp-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(array-0.5.4.0) \
 ghc-prof(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \
 ghc-prof(base-4.17.1.0) \

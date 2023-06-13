@@ -9,6 +9,7 @@ RPM_HASH = "930c4b1f759e7c305943b1eeb625b609a6354a1dda891517850d336dd8a777f7c302
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-belleek-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

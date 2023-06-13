@@ -13,6 +13,7 @@ RPM_HASH = "0732b16ffe2c94b4e8c592f62247108b97d6cb6a18966a505e2a80bf6edfac96f0c7
 RPROVIDES:${PN} += "pkgconfig(plplot-c++) \
 plplotcxx-devel \
 plplotcxx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libplplotcxx15 \
 pkgconfig(plplot) \

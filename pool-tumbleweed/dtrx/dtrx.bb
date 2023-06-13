@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dtrx \
 python3.10dist(dtrx) \
 python3dist(dtrx)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 bzip2 \
 cpio \

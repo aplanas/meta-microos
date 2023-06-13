@@ -15,6 +15,7 @@ libnsssysinit.so()(64bit) \
 libnsssysinit.so(NSS_3.15)(64bit) \
 mozilla-nss-sysinit \
 mozilla-nss-sysinit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \

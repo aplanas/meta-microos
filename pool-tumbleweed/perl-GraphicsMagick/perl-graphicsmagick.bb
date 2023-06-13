@@ -18,6 +18,7 @@ RPM_HASH = "a2f4494ee2c3d43f4ec47d93b5841d84f7523d46d78df157027b9bfd5063e3c36865
 RPROVIDES:${PN} += "perl(Graphics::Magick) \
 perl-GraphicsMagick \
 perl-GraphicsMagick(aarch-64)"
+
 RDEPENDS:${PN} += "GraphicsMagick \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

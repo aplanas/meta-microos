@@ -14,6 +14,7 @@ font(mxedc10) \
 font(mxedi10) \
 font(xuc10) \
 texlive-mxedruli-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

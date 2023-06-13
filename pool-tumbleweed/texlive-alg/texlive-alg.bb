@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(alg.sty) \
 texlive-alg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

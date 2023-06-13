@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adwaita-xfce-icon-theme \
 openSUSE-xfce-icon-theme"
+
 RDEPENDS:${PN} += "adwaita-icon-theme"
 
 inherit rpm

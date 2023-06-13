@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "hppc-templateprocessor \
 mvn(com.carrotsearch:hppc-template-processor) \
 mvn(com.carrotsearch:hppc-template-processor:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.guava:guava) \

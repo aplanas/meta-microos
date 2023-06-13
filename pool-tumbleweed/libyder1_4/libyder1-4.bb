@@ -14,6 +14,7 @@ RPM_HASH = "f5650bc070c68fe7e6aca808265d53560f51b8414b71541a960204b39dcf136db6fa
 RPROVIDES:${PN} += "libyder.so.1.4()(64bit) \
 libyder1_4 \
 libyder1_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

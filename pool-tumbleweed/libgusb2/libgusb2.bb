@@ -27,6 +27,7 @@ libgusb.so.2(LIBGUSB_0.3.6)(64bit) \
 libgusb.so.2(LIBGUSB_0.3.8)(64bit) \
 libgusb2 \
 libgusb2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

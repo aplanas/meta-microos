@@ -9,6 +9,7 @@ RPM_HASH = "a0c98312eb6819ea8d474b3098e4132f5ab54e3e59cdf1c183a57bd1d2867182a095
 
 RPROVIDES:${PN} += "myspell-lightproof-hu_HU \
 myspell-lightproof-hu_HU(aarch-64)"
+
 RDEPENDS:${PN} += "myspell-hu_HU"
 
 inherit rpm

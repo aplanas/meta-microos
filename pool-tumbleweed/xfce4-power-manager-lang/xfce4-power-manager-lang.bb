@@ -65,6 +65,7 @@ locale(xfce4-power-manager:zh_HK) \
 locale(xfce4-power-manager:zh_TW) \
 xfce4-power-manager-lang \
 xfce4-power-manager-lang-all"
+
 RDEPENDS:${PN} += "xfce4-power-manager"
 
 inherit rpm

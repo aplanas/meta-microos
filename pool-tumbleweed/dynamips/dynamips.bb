@@ -15,6 +15,7 @@ RPM_HASH = "db9e6f0a0355737bc4da958fe9ebe90ae52ac4d68dcb990bd9a6c9f53a7178b08372
 
 RPROVIDES:${PN} += "dynamips \
 dynamips(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

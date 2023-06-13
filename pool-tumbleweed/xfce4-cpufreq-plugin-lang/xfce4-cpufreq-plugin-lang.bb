@@ -58,6 +58,7 @@ locale(xfce4-cpufreq-plugin:zh_TW) \
 xfce4-cpufreq-plugin-lang \
 xfce4-cpufreq-plugin-lang-all \
 xfce4-panel-plugin-cpufreq-lang"
+
 RDEPENDS:${PN} += "xfce4-cpufreq-plugin"
 
 inherit rpm

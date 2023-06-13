@@ -16,6 +16,7 @@ RPM_HASH = "799fa9674e76d708dec99cdd41cd43fcd2de1105af7af26dd7c74baa50844a418381
 RPROVIDES:${PN} += "libplotter.so.2()(64bit) \
 libplotter2 \
 libplotter2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

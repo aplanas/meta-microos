@@ -11,6 +11,7 @@ RPM_HASH = "f9ffa75a7dd63235d9829830093ea90d9cf571f8c73e79e063ea508219301c6bf088
 
 RPROVIDES:${PN} += "python39-qt5-quick3d \
 python39-qt5-quick3d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

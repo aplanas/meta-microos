@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(freeipmi) \
 freeipmi \
 freeipmi(aarch-64) \
 freeipmi-ipmimonitoring"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 info \

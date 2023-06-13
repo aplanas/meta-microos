@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-cosmo \
 lua54-cosmo"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-lpeg"
 

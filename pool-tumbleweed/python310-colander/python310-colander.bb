@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-colander \
 python3.10dist(colander) \
 python310-colander \
 python3dist(colander)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-iso8601 \
 python310-translationstring"

@@ -84,6 +84,7 @@ locale(vinagre:zh_HK) \
 locale(vinagre:zh_TW) \
 vinagre-lang \
 vinagre-lang-all"
+
 RDEPENDS:${PN} += "vinagre"
 
 inherit rpm

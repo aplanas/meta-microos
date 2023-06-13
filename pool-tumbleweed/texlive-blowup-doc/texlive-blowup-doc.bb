@@ -9,6 +9,7 @@ RPM_HASH = "7df97e677f20448acddbcab86187168b95210e5322f745768fac86444241c351e3f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blowup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

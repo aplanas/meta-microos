@@ -10,6 +10,7 @@ RPM_HASH = "a6106e01185061853a5d820b9d3256a3ff577a7e557354efc890e5c43a5bd23609e1
 
 RPROVIDES:${PN} += "chewing-data \
 chewing-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

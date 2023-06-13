@@ -14,6 +14,7 @@ RPM_HASH = "e28a7fcc4d7e8c44d296ed07c2b5c12ea3a1b4b7c20e8d03fdb71a67b5391d70888a
 RPROVIDES:${PN} += "libpackagekitqt6-1 \
 libpackagekitqt6-1(aarch-64) \
 libpackagekitqt6.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

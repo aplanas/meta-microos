@@ -9,6 +9,7 @@ RPM_HASH = "ea7aea2ec834f2a37a94cdbdb9dd20c361abe35831cc8f29a2fdd812bd7edb96613f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-timing-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

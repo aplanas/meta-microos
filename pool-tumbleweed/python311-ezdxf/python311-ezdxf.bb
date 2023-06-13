@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(ezdxf) \
 python311-ezdxf \
 python311-ezdxf(aarch-64) \
 python3dist(ezdxf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

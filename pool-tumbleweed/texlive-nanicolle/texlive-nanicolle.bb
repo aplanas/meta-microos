@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nanicolle.cls) \
 texlive-nanicolle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

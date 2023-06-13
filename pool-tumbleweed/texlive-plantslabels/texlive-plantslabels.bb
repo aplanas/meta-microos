@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(plantslabels.sty) \
 texlive-plantslabels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

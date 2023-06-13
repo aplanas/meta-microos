@@ -9,6 +9,7 @@ RPM_HASH = "139f390ced24ea7fbff50039360721b89ee07f68f811f452b466118cf58657f30dc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

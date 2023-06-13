@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ryethesis.cls) \
 texlive-ryethesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -45,6 +45,7 @@ mimehandler(audio/x-xm) \
 ocp \
 ocp(aarch-64) \
 opencubicplayer"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-unifont-otf-fonts \
 ld-linux-aarch64.so.1()(64bit) \

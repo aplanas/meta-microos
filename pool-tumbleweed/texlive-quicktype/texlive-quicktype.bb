@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(quicktype.sty) \
 texlive-quicktype"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

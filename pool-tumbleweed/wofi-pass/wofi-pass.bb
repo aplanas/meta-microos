@@ -13,6 +13,7 @@ RPM_HASH = "484b7cc26c354353f8b5c9b19b5d93b1f7bbf71a9144451d8e07f524ddf9e930c36f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wofi-pass"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

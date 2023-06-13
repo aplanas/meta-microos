@@ -9,6 +9,7 @@ RPM_HASH = "91af0aee91335b34ec09ff55a3b481b2e9eb94695e41fe5b67615522a05038231d3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-overlock-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

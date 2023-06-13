@@ -10,6 +10,7 @@ RPM_HASH = "50fd0531cf9c37d0c1bef72282f6dfbb36d15cb5a5c4416c217afc51de6cf1989ee7
 RPROVIDES:${PN} += "gcin-gtk3 \
 gcin-gtk3(aarch-64) \
 gcin-gtk3-immodule"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcin \
 gtk3-tools \

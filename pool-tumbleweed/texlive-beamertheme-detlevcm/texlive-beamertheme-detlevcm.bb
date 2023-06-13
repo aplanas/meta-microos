@@ -14,6 +14,7 @@ tex(beamerfontthemeDetlevCM.sty) \
 tex(beamerouterthemeDetlevCM.sty) \
 tex(beamerthemeDetlevCM.sty) \
 texlive-beamertheme-detlevcm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

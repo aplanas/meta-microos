@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caml-mode \
 ocaml-emacs"
+
 RDEPENDS:${PN} += "emacs \
 ocaml"
 

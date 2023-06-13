@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pathvalidate) \
 python311-pathvalidate \
 python3dist(pathvalidate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools"
 

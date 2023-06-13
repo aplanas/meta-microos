@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(KF5QQC2DeskopStyle) \
 cmake(KF5QQC2DesktopStyle) \
 qqc2-desktop-style-devel \
 qqc2-desktop-style-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules \
 qqc2-desktop-style"
 

@@ -19,6 +19,7 @@ perl(Mojo::SQLite::PubSub) \
 perl(Mojo::SQLite::Results) \
 perl(Mojo::SQLite::Transaction) \
 perl-Mojo-SQLite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBD::SQLite) \
 perl(DBI) \

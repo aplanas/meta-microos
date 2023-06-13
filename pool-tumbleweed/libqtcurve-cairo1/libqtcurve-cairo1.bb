@@ -11,6 +11,7 @@ RPM_HASH = "70c02a6207c5a537c5ec16c50f71a769465279a35f70571c6c26d2a138ec266795c3
 RPROVIDES:${PN} += "libqtcurve-cairo.so.1()(64bit) \
 libqtcurve-cairo1 \
 libqtcurve-cairo1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

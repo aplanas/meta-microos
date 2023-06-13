@@ -11,6 +11,7 @@ RPM_HASH = "31236c65333750113caee9b3aa042d22ee24c7f55fd6802a53a80ec0054bc304bfb1
 RPROVIDES:${PN} += "ghc-asn1-encoding \
 ghc-asn1-encoding(aarch-64) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "9d400a886834ea1719923c6aa2f65d494137f0b49bf8d826678f91ba466404e8c478
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-bezier-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

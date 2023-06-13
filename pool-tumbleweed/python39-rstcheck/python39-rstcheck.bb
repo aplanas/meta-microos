@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(rstcheck) \
 python39-rstcheck \
 python3dist(rstcheck) \
 rstcheck"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

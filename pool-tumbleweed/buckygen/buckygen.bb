@@ -12,6 +12,7 @@ RPM_HASH = "f42ca8bf61117c29c70eef19628a773254ff5edc21bd03083002b33d5aaa19cc5523
 
 RPROVIDES:${PN} += "buckygen \
 buckygen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bibarts.sty) \
 texlive-bibarts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

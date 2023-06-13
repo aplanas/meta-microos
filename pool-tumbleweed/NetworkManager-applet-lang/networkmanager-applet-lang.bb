@@ -86,6 +86,7 @@ locale(NetworkManager-applet:wa) \
 locale(NetworkManager-applet:zh_CN) \
 locale(NetworkManager-applet:zh_HK) \
 locale(NetworkManager-applet:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-applet"
 
 inherit rpm

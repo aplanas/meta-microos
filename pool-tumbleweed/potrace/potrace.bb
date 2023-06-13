@@ -16,6 +16,7 @@ RPM_HASH = "65a1274fadcf562c51afc21ae820761b35fb11d20312aa37e49344285fdfd0dc3e53
 RPROVIDES:${PN} += "bitmap_tracing \
 potrace \
 potrace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

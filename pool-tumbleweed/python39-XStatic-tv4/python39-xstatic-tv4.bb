@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xstatic-tv4) \
 python39-XStatic-tv4 \
 python3dist(xstatic-tv4)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

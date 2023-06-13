@@ -9,6 +9,7 @@ RPM_HASH = "eb6b3b2ad8bfbd19540ceab8a25313d4b721151b72ce12b0e9740ed758de04a33f74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-scenario-gtk"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 virt-scenario"

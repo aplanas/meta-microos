@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(qcircuit.sty) \
 texlive-qcircuit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

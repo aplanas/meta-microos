@@ -28,6 +28,7 @@ libevolution-ews.so()(64bit) \
 libevolution-microsoft365.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.Evolution-ews.metainfo.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

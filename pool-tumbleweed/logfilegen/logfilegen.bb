@@ -13,6 +13,7 @@ RPM_HASH = "f6249f678e267c82c81a1a340835f2601ffb06f4d14867bbfaa9b5c9d446e1189189
 
 RPROVIDES:${PN} += "logfilegen \
 logfilegen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

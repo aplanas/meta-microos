@@ -16,6 +16,7 @@ python3-xlsxwriter \
 python3.10dist(xlsxwriter) \
 python310-XlsxWriter \
 python3dist(xlsxwriter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

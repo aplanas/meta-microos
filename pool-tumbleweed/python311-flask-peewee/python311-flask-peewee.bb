@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-peewee) \
 python311-flask-peewee \
 python3dist(flask-peewee)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-Jinja2 \

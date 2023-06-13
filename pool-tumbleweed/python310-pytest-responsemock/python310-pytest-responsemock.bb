@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-responsemock \
 python3.10dist(pytest-responsemock) \
 python310-pytest-responsemock \
 python3dist(pytest-responsemock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-responses"

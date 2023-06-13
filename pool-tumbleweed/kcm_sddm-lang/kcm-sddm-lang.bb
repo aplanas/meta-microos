@@ -58,6 +58,7 @@ locale(kcm_sddm:tr) \
 locale(kcm_sddm:uk) \
 locale(kcm_sddm:zh_CN) \
 locale(kcm_sddm:zh_TW)"
+
 RDEPENDS:${PN} += "kcm_sddm"
 
 inherit rpm

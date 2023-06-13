@@ -11,6 +11,7 @@ RPM_HASH = "8bb8d0c9c41730f38d4f18d3c1c085a44663bd55440884c1ce99ef750a616aec9112
 
 RPROVIDES:${PN} += "rng-tools \
 rng-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

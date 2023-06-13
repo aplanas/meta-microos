@@ -36,6 +36,7 @@ libges-1_0-0 \
 libges-1_0-0(aarch-64) \
 libgstges.so()(64bit) \
 libgstnle.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

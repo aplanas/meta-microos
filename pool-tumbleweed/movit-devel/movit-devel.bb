@@ -14,6 +14,7 @@ RPM_HASH = "7fd50c8606014d85041893cbce2f9032da7fd68519206f391ddd9eeff7ccf55d14e1
 RPROVIDES:${PN} += "movit-devel \
 movit-devel(aarch-64) \
 pkgconfig(movit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmovit8 \
 pkgconfig(eigen3) \

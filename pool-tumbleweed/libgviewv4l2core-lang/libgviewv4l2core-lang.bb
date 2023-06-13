@@ -35,6 +35,7 @@ locale(libgviewv4l2core:sr) \
 locale(libgviewv4l2core:tr) \
 locale(libgviewv4l2core:uk) \
 locale(libgviewv4l2core:zh_TW)"
+
 RDEPENDS:${PN} += "libgviewv4l2core-2_1-2"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "06ca555864f45c3adce9c906f272bdcf11e35161d76469cb9023dcab900e61444762
 RPROVIDES:${PN} += "airspy-devel \
 airspy-devel(aarch-64) \
 pkgconfig(libairspy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libairspy0"
 

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gitstatus.sty) \
 texlive-gitstatus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

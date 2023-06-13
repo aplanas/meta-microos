@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(wp-cli) \
 wp-cli"
+
 RDEPENDS:${PN} += "php \
 php-json \
 php-openssl \

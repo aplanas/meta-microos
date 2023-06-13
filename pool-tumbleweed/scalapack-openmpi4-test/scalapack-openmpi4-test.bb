@@ -10,6 +10,7 @@ RPM_HASH = "c829b73e9733a1dd1f6f320ee14fe99a9d3cffe7db476483b0adcc29aa0e254ee350
 
 RPROVIDES:${PN} += "scalapack-openmpi4-test \
 scalapack-openmpi4-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblas.so.3()(64bit) \

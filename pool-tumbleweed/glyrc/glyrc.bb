@@ -27,6 +27,7 @@ RPM_HASH = "3cfbec80487b47a63dd69a39c94d118c477421120803e79374ba81d46c84bb68dcbb
 RPROVIDES:${PN} += "glyr \
 glyrc \
 glyrc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

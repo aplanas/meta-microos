@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pywebdav3-gnuhealth) \
 python39-PyWebDAV3-GNUHealth \
 python3dist(pywebdav3-gnuhealth)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

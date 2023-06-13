@@ -15,6 +15,7 @@ RPM_HASH = "d86333ccdb78517762053d9f69200f21401f93cd79631538ee4438de630f48cb49b3
 RPROVIDES:${PN} += "cmake(KF5WindowSystem) \
 kwindowsystem-devel \
 kwindowsystem-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5Widgets) \
 extra-cmake-modules \

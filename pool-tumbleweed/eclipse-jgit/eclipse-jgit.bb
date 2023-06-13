@@ -17,6 +17,7 @@ mvn(org.eclipse.jgit.feature:org.eclipse.jgit.lfs) \
 mvn(org.eclipse.jgit.feature:org.eclipse.jgit.pgm) \
 mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.apache) \
 mvn(org.eclipse.jgit.feature:org.eclipse.jgit.ssh.jsch)"
+
 RDEPENDS:${PN} += "apache-commons-compress \
 apache-sshd \
 args4j \

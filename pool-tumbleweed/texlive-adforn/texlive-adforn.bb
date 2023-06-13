@@ -18,6 +18,7 @@ tex(OrnementsADF.tfm) \
 tex(adforn.sty) \
 tex(uornementsadf.fd) \
 texlive-adforn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

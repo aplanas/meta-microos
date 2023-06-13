@@ -13,6 +13,7 @@ RPM_HASH = "c40edaa9cd87ffe4478c7ba62eae004b7de42bd0184e13dc89550e8f5d4717809847
 RPROVIDES:${PN} += "pkgconfig(soup-sharp-2.4) \
 soup-sharp-devel \
 soup-sharp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 soup-sharp"
 

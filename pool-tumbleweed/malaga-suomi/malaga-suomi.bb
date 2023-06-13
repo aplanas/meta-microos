@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "malaga-suomi \
 suomi-malaga \
 voikko-fi"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "472d796bf8571b4f97ae90f78c0bf9843b7db38ab303798befdd484ee689083b0134
 RPROVIDES:${PN} += "libxls-devel \
 libxls-devel(aarch-64) \
 pkgconfig(libxls)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxlsreader8"
 

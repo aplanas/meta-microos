@@ -12,6 +12,7 @@ RPM_HASH = "8a1a9c7c01f432d161d1804dd5ce92fb542f3e7bf81bab985c4c3cc929e685c80356
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-seadata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

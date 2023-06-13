@@ -9,6 +9,7 @@ RPM_HASH = "fce4b1c7682354e9ab8f7d43e413bb6b585efb18484068b437567cbb4b45f07244dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-pulley-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

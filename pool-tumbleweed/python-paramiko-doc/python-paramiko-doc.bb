@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python-paramiko-doc \
 python310-paramiko-doc \
 python311-paramiko-doc \
 python39-paramiko-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

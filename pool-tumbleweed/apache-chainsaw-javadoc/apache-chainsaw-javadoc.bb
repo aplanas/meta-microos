@@ -9,6 +9,7 @@ RPM_HASH = "c720be974c6d495bbaeb12d32fe67fc4cada541ee4b26a442bb21f1db6f98fd8a2e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-chainsaw-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

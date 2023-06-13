@@ -15,6 +15,7 @@ jsp_2_0_api \
 jsp_api \
 mvn(org.apache.geronimo.specs:geronimo-jsp_2.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jsp_2.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

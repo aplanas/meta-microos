@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(childdoc.def) \
 texlive-childdoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

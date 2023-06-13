@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "docker-client-java \
 mvn(com.spotify:docker-client) \
 mvn(com.spotify:docker-client:pom:) \
 osgi(com.spotify.docker.client)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-databind) \

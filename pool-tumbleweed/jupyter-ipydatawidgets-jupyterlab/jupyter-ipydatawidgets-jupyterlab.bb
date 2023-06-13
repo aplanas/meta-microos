@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-datawidgets-jupyterlab \
 jupyter-ipydatawidgets-jupyterlab \
 jupyter_ipydatawidgets_jupyterlab"
+
 RDEPENDS:${PN} += "jupyter-ipydatawidgets \
 jupyter-jupyterlab"
 

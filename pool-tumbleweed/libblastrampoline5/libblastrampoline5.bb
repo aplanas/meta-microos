@@ -14,6 +14,7 @@ RPM_HASH = "64c0f2574ab228630486981404b7ccacb3693f061744828ddefef8caf47aafe57496
 RPROVIDES:${PN} += "libblastrampoline.so.5()(64bit) \
 libblastrampoline5 \
 libblastrampoline5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

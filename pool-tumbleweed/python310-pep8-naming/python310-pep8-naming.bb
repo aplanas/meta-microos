@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pep8-naming \
 python3.10dist(pep8-naming) \
 python310-pep8-naming \
 python3dist(pep8-naming)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8 \
 python310-flake8-polyfill \

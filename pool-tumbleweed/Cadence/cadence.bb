@@ -25,6 +25,7 @@ application(catarina.desktop) \
 application(catia.desktop) \
 application(claudia-launcher.desktop) \
 application(claudia.desktop)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 a2jmidid \

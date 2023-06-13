@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pyasn1-modules \
 python3.10dist(pyasn1-modules) \
 python310-pyasn1-modules \
 python3dist(pyasn1-modules)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyasn1"
 

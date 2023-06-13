@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-lazy-fixture) \
 python311-pytest-lazy-fixture \
 python3dist(pytest-lazy-fixture)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

@@ -9,6 +9,7 @@ RPM_HASH = "4149903f15ef690a762a11afbaf0492d4d25440b9a1dc3b221d24191b14199bcd350
 
 RPROVIDES:${PN} += "salt-doc \
 salt-doc(aarch-64)"
+
 RDEPENDS:${PN} += "salt"
 
 inherit rpm

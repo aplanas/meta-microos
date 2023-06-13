@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codedoc.cls) \
 texlive-codedoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

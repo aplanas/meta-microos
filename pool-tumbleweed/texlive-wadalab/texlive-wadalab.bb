@@ -946,6 +946,7 @@ tex(umrj9f.vf) \
 tex(umrjff.tfm) \
 tex(umrjff.vf) \
 texlive-wadalab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

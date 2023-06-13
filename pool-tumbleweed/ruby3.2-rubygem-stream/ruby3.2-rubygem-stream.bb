@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:stream:0) \
 rubygem(ruby:3.2.0:stream:0.5) \
 rubygem(ruby:3.2.0:stream:0.5.5) \
 rubygem(stream)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

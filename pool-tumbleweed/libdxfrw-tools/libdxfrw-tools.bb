@@ -9,6 +9,7 @@ RPM_HASH = "fcff361af729288365263e2a7077a10f080dcafa45612d58a541977d91f892a9040c
 
 RPROVIDES:${PN} += "libdxfrw-tools \
 libdxfrw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

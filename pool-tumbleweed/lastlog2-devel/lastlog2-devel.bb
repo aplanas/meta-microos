@@ -11,6 +11,7 @@ RPM_HASH = "b96a58d697044cae6f06fbe4fea5ab2f88d32f42cf5e9dc2d968b1c70c3fbe7d1fd6
 RPROVIDES:${PN} += "lastlog2-devel \
 lastlog2-devel(aarch-64) \
 pkgconfig(liblastlog2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblastlog2-1"
 

@@ -38,6 +38,7 @@ mimehandler(application/x-msaccess) \
 mimehandler(application/x-sqlite3) \
 mimehandler(text/csv) \
 mimehandler(text/tab-separated-values)"
+
 RDEPENDS:${PN} += "(breeze5-icons-rcc or breeze5-icons < 5.78.0) \
 /sbin/ldconfig \
 hicolor-icon-theme \

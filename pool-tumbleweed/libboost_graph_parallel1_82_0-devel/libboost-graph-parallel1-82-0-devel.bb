@@ -10,6 +10,7 @@ RPM_HASH = "d0448f8a14338f18e6d9fc5d4203fbd2f3321a940f44c33e7ef67703c8b4dd9f8e54
 RPROVIDES:${PN} += "libboost_graph_parallel-devel-impl \
 libboost_graph_parallel1_82_0-devel \
 libboost_graph_parallel1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_graph_parallel1_82_0 \
 libboost_headers1_82_0-devel \
 libboost_mpi1_82_0-devel"

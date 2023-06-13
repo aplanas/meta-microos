@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ispell-estonian \
 ispell-estonian(aarch-64) \
 ispell_dictionary \
 locale(ispell:et)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-falcon \
 python3.10dist(falcon) \
 python310-falcon \
 python3dist(falcon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ RPM_HASH = "167569e6f0749093da6c9ff78a77f019093e11e1545c49cc0cbda6d7e0a59b8000b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-git-latexdiff"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

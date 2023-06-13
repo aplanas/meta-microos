@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(polynom.sty) \
 texlive-polynom"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

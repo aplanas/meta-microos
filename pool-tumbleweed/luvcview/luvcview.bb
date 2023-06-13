@@ -16,6 +16,7 @@ RPM_HASH = "09f999d7d5653be75b55cced7fd419b38cf59339e80d739a600fe2927622602e9725
 
 RPROVIDES:${PN} += "luvcview \
 luvcview(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"
 

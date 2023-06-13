@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bophook.sty) \
 texlive-bophook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

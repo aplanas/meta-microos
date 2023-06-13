@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty-web-uwsgi \
 config(HyperKitty-web-uwsgi)"
+
 RDEPENDS:${PN} += "HyperKitty-web \
 python39-uwsgi-python3"
 

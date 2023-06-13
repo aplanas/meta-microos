@@ -33,6 +33,7 @@ libxine2-devel \
 pkgconfig(libxine) \
 xine-devel \
 xine-lib2-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 freetype2-devel \

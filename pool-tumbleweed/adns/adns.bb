@@ -9,6 +9,7 @@ RPM_HASH = "fd92c3b66697b33978107767c178234abc63c1e2d555a300bb2b1e2781b46d464374
 
 RPROVIDES:${PN} += "adns \
 adns(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadns.so.1()(64bit) \

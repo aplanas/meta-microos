@@ -16,6 +16,7 @@ RPM_HASH = "e7efdf2e0f913ae9786de8f23d69bec601716e2fc632d422add76166a8b962578d98
 
 RPROVIDES:${PN} += "smssend \
 smssend(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

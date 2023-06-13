@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-roboto-fonts \
 metainfo() \
 metainfo(google-roboto.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -10,6 +10,7 @@ RPM_HASH = "2b0a35d8156854f88b1daa34dcc0c959bbf32816ae07593da69213090268922b1505
 RPROVIDES:${PN} += "libboost_fiber.so.1.82.0()(64bit) \
 libboost_fiber1_82_0 \
 libboost_fiber1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(bleach) \
 python39-bleach \
 python3dist(bleach)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-html5lib"
 

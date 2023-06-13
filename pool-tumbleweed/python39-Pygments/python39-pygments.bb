@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3.9dist(pygments) \
 python39-Pygments \
 python39-pygments \
 python3dist(pygments)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

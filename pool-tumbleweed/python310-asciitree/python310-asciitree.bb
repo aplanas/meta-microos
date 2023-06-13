@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-asciitree \
 python3.10dist(asciitree) \
 python310-asciitree \
 python3dist(asciitree)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

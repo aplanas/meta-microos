@@ -10,6 +10,7 @@ RPM_HASH = "f4502a234d85aa543cd6bc4010cab053ddd9dca7a0b3e0d6e0bf994f22199661df9f
 RPROVIDES:${PN} += "ghc-csv-prof \
 ghc-csv-prof(aarch-64) \
 ghc-prof(csv-0.1.2-LKioaw43aTAAAKpIk04xxN)"
+
 RDEPENDS:${PN} += "ghc-csv-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(filepath-1.4.2.2) \

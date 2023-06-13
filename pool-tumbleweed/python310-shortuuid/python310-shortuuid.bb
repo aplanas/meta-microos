@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-shortuuid \
 python3.10dist(shortuuid) \
 python310-shortuuid \
 python3dist(shortuuid)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

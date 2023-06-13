@@ -11,6 +11,7 @@ RPM_HASH = "808863922ecb88ce345845e4aec4ffc52b543f8294ba52610366b99016e61d753a6b
 RPROVIDES:${PN} += "libsecret-tools \
 secret-tool \
 secret-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

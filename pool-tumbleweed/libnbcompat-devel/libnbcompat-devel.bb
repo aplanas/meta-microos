@@ -12,6 +12,7 @@ RPM_HASH = "c90694471b92a664a06b014f122130f6abaad3b3cdd4ab7ebd342950b0109daa56ad
 
 RPROVIDES:${PN} += "libnbcompat-devel \
 libnbcompat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnbcompat0"
 
 inherit rpm

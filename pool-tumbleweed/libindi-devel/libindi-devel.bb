@@ -10,6 +10,7 @@ RPM_HASH = "f70d146744b1d829950df964f8b0f4eefc547823898dddb790c507126ff73f96ba9d
 RPROVIDES:${PN} += "libindi-devel \
 libindi-devel(aarch-64) \
 pkgconfig(libindi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libindiAlignmentDriver2 \

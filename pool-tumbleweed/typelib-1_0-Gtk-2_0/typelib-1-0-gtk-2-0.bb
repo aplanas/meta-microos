@@ -16,6 +16,7 @@ typelib(GdkX11) \
 typelib(Gtk) \
 typelib-1_0-Gtk-2_0 \
 typelib-1_0-Gtk-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgdk-x11-2.0.so.0()(64bit) \
 libgtk-x11-2.0.so.0()(64bit) \
 typelib(Atk) \

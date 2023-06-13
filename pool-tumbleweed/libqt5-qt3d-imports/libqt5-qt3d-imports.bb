@@ -28,6 +28,7 @@ qt5qmlimport(Qt3D.Logic.2) \
 qt5qmlimport(Qt3D.Render.2) \
 qt5qmlimport(QtQuick.Scene2D.2) \
 qt5qmlimport(QtQuick.Scene3D.2)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt53DAnimation.so.5()(64bit) \

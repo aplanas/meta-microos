@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pypsexec) \
 python311-pypsexec \
 python3dist(pypsexec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-smbprotocol"
 

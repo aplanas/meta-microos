@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(usbsdmux) \
 python39-usbsdmux \
 python39-usbsdmux(aarch-64) \
 python3dist(usbsdmux)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

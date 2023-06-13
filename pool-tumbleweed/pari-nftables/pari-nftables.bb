@@ -10,6 +10,7 @@ RPM_HASH = "d9acdb8a7c9fd537e8c721e07b47e9c42e678e10b61522088557fc4f5da37296d05e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-nftables"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

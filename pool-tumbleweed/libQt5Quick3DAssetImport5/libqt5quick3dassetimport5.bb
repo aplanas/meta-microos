@@ -30,6 +30,7 @@ libQt5Quick3DAssetImport5 \
 libQt5Quick3DAssetImport5(aarch-64) \
 libassimp.so()(64bit) \
 libuip.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

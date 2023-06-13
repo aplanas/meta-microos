@@ -17,6 +17,7 @@ metainfo(org.kde.tellico.appdata.xml) \
 mimehandler(application/x-tellico) \
 tellico \
 tellico(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/dbus-send \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

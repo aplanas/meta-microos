@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-babelfish \
 python3.10dist(babelfish) \
 python310-babelfish \
 python3dist(babelfish)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

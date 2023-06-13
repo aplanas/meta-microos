@@ -36,6 +36,7 @@ locale(gnome-directory-thumbnailer:sr) \
 locale(gnome-directory-thumbnailer:sr@latin) \
 locale(gnome-directory-thumbnailer:sv) \
 locale(gnome-directory-thumbnailer:tr)"
+
 RDEPENDS:${PN} += "gnome-directory-thumbnailer"
 
 inherit rpm

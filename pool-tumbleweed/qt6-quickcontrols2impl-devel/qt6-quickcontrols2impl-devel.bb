@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickControls2Impl) \
 pkgconfig(Qt6QuickControls2Impl) \
 qt6-quickcontrols2impl-devel \
 qt6-quickcontrols2impl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 libQt6QuickControls2Impl6 \

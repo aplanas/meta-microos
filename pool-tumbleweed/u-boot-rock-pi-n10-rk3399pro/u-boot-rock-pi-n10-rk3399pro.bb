@@ -11,6 +11,7 @@ RPM_HASH = "6f8cce205d48aa069b90dc58931f1b8e4466f12d5dda293b573e4bcdf1f72ed2f381
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rock-pi-n10-rk3399pro \
 u-boot-rock-pi-n10-rk3399pro(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

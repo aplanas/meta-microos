@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zennote.sty) \
 texlive-zennote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

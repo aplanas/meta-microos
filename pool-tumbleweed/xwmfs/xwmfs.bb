@@ -24,6 +24,7 @@ RPM_HASH = "05ea03fa302cabea4e7803f0e97e5dee660a2edd2ab296b3f2d35ab2420cda10dfa3
 
 RPROVIDES:${PN} += "xwmfs \
 xwmfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "6ee983bf6ed8fb5493f416bf3d2fc275dcbfc67389097828159be14815661462a205
 
 RPROVIDES:${PN} += "kpeoplevcard \
 kpeoplevcard(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Contacts.so.5()(64bit) \

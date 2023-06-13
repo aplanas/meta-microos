@@ -9,6 +9,7 @@ RPM_HASH = "6de7685eb221603684971f78e9ccb12338d04c55d1eb8138cdc776db21bea1840b49
 
 RPROVIDES:${PN} += "kImageAnnotator \
 kImageAnnotator(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

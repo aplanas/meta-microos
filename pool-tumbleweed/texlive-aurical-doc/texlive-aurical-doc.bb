@@ -9,6 +9,7 @@ RPM_HASH = "14fb0a78cd79fe7b842a5d2fa83b3f269cc1a5c00361ba26525a631a004c9a48f17d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aurical-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "f7d2d88471c08c6e232c09245535e876cd60481d14a8266b110e3293e497d478d313
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "AMF-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

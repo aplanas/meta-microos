@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sshtunnel) \
 python39-sshtunnel \
 python3dist(sshtunnel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 openssh \

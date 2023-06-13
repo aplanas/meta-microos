@@ -48,6 +48,7 @@ perl(Regexp::Common::profanity) \
 perl(Regexp::Common::whitespace) \
 perl(Regexp::Common::zip) \
 perl-Regexp-Common"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

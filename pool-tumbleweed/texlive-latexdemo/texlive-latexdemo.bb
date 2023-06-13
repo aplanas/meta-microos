@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latexdemo.sty) \
 texlive-latexdemo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

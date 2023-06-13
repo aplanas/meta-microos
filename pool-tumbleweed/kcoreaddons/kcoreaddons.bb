@@ -12,6 +12,7 @@ RPM_HASH = "f2e85eb57d81165cc7969cbb48ef3704709290b00e9d9abebd229741aa529acda621
 
 RPROVIDES:${PN} += "kcoreaddons \
 kcoreaddons(aarch-64)"
+
 RDEPENDS:${PN} += "shared-mime-info"
 
 inherit rpm

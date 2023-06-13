@@ -11,6 +11,7 @@ RPM_HASH = "f7ff9955921eb4c53cc02e23901a628459423f77d6d61c5c0a7e2de6581def6a75bd
 RPROVIDES:${PN} += "libotrplugin.so()(64bit) \
 psi+-plugins-otrplugin \
 psi+-plugins-otrplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

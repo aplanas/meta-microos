@@ -9,6 +9,7 @@ RPM_HASH = "dcd59ebdbda86a8257f7fa25beb9dba746cc8566f2bb61cf02fdd25571744cd08466
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qgis-sample-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

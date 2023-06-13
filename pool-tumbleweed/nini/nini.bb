@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mono(Nini) \
 nini \
 pkgconfig(nini-1.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono(System) \
 mono(System.Xml) \

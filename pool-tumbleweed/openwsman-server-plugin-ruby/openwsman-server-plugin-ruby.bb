@@ -11,6 +11,7 @@ RPM_HASH = "477b539bc218fcf7d5f7357934011f8ecd555aa3b87530dd47a33f1c758213135a42
 RPROVIDES:${PN} += "libwsman_ruby_plugin.so()(64bit) \
 openwsman-server-plugin-ruby \
 openwsman-server-plugin-ruby(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

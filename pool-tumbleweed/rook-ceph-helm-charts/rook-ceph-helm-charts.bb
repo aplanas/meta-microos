@@ -15,6 +15,7 @@ RPM_HASH = "3b595d53d39816fd99017fd146ba6fe0e573f7a2f83dd16a2f0084ffef1dd1ff1737
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rook-ceph-helm-charts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

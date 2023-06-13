@@ -22,6 +22,7 @@ libnss_ldap.so.2(EXPORTED)(64bit) \
 nss-ldapd \
 nss-pam-ldapd \
 nss-pam-ldapd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

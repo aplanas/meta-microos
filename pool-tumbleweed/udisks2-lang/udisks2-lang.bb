@@ -79,6 +79,7 @@ locale(udisks2:zh_HK) \
 locale(udisks2:zh_TW) \
 udisks2-lang \
 udisks2-lang-all"
+
 RDEPENDS:${PN} += "udisks2"
 
 inherit rpm

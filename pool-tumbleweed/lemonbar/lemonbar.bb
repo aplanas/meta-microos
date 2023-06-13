@@ -11,6 +11,7 @@ RPM_HASH = "2e302f101b819b883493dc7b291c3d78adfa0e33cd33ee43f72727b04bd64525a583
 
 RPROVIDES:${PN} += "lemonbar \
 lemonbar(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libxcb-randr.so.0()(64bit) \
 libxcb.so.1()(64bit)"

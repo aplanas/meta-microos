@@ -15,6 +15,7 @@ application(org.opensuse.yast.TFTPServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.TFTPServer.metainfo.xml) \
 yast2-tftp-server"
+
 RDEPENDS:${PN} += "augeas-lenses \
 lsof \
 rubygem(ruby:3.2.0:cfa) \

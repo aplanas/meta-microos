@@ -186,6 +186,7 @@ font(qtvagaround) \
 font(qtweise) \
 font(qtwestend) \
 texlive-qualitype-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

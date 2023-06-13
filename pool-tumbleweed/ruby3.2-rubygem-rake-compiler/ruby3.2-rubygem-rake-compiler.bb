@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:rake-compiler) \
 rubygem(ruby:3.2.0:rake-compiler:1) \
 rubygem(ruby:3.2.0:rake-compiler:1.2) \
 rubygem(ruby:3.2.0:rake-compiler:1.2.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

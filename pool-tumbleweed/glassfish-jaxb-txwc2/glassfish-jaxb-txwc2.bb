@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-jaxb-txwc2 \
 mvn(org.glassfish.jaxb:txwc2) \
 mvn(org.glassfish.jaxb:txwc2:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(args4j:args4j) \

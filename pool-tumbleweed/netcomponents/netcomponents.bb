@@ -20,6 +20,7 @@ RPM_HASH = "b131916bb68c3862634f3a5eee47882363b49101df607531d6646bfec95d1271dbfb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcomponents"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

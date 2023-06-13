@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-ecgdraw-doc:it) \
 texlive-ecgdraw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

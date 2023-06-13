@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-rputover.sty) \
 tex(pst-rputover.tex) \
 texlive-pst-rputover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ RPM_HASH = "6047a8a686fda81bc606527beef080e0b723d3b68c6973be53b3e58f94b59b48da49
 
 RPROVIDES:${PN} += "dav1d \
 dav1d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

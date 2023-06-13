@@ -14,6 +14,7 @@ python-avahi-gtk \
 python-avahi:/usr/bin/avahi-discover \
 python3-avahi-gtk \
 python3-avahi-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

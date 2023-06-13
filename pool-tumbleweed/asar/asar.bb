@@ -26,6 +26,7 @@ own(minimatch) \
 own(once) \
 own(path-is-absolute) \
 own(wrappy)"
+
 RDEPENDS:${PN} += "/usr/bin/node \
 nodejs(engine)"
 

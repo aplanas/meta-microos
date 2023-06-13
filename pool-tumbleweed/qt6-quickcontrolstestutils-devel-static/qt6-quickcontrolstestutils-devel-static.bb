@@ -10,6 +10,7 @@ RPM_HASH = "e8f135bb802a8d4cbc2698ee1fccfb45b9df9a3af35d56bfef31e9fd6d5b94c85d18
 RPROVIDES:${PN} += "cmake(Qt6QuickControlsTestUtilsPrivate) \
 qt6-quickcontrolstestutils-devel-static \
 qt6-quickcontrolstestutils-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Qml) \
 cmake(Qt6Quick) \
 cmake(Qt6QuickControls2) \

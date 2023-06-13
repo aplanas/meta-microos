@@ -9,6 +9,7 @@ RPM_HASH = "36f5a84dd5594b59eeaddd18d235624a2ce1acb4eff5dadddfb03b01c33dd37f4f65
 
 RPROVIDES:${PN} += "libvirt-dbus \
 libvirt-dbus(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

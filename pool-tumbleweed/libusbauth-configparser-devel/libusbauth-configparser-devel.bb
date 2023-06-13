@@ -10,6 +10,7 @@ RPM_HASH = "a9c3819a79e09f71d204167be634168dcf597414aa7952d5bfc683639de368b8e059
 RPROVIDES:${PN} += "libusbauth-configparser-devel \
 libusbauth-configparser-devel(aarch-64) \
 pkgconfig(libusbauth-configparser)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusbauth-configparser1"
 

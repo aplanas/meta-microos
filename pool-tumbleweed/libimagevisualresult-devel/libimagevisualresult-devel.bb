@@ -11,6 +11,7 @@ RPM_HASH = "717f26fffe2faf5d590f7bf608cc213f056ca312c5bd9629ac66aad5ae28a2dc3c85
 RPROVIDES:${PN} += "libimagevisualresult-devel \
 libimagevisualresult-devel(aarch-64) \
 pkgconfig(libimagevisualresult)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libimagevisualresult0_1"
 

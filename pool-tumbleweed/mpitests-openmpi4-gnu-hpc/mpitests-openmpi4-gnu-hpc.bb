@@ -9,6 +9,7 @@ RPM_HASH = "918c0fcb9845fc663bc6478d86131f8be3063d0347338b2f589136764eb28751a679
 
 RPROVIDES:${PN} += "mpitests-openmpi4-gnu-hpc \
 mpitests-openmpi4-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

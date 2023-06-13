@@ -10,6 +10,7 @@ RPM_HASH = "c3daaf82849b2d5d6c78596b31a621e3ee4717219cb6a4b11b317afddd593baa7095
 RPROVIDES:${PN} += "lapacke \
 lapacke-devel \
 lapacke-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblapacke3"
 
 inherit rpm

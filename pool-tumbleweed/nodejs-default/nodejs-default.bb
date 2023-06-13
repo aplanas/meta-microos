@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "nodejs \
 nodejs(engine) \
 nodejs-default \
 nodejs-default(aarch-64)"
+
 RDEPENDS:${PN} += "nodejs-common \
 nodejs20"
 

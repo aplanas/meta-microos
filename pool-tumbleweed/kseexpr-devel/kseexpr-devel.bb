@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(kseexpr) \
 kseexpr-devel \
 kseexpr-devel(aarch-64) \
 pkgconfig(kseexpr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libKSeExpr4"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(linuxptp) \
 linuxptp \
 linuxptp(aarch-64) \
 ptp-timekeeping"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(feynmp-auto.sty) \
 texlive-feynmp-auto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

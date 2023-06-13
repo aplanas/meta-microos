@@ -10,6 +10,7 @@ RPM_HASH = "ce5b0f8ec4ca07d0ebc339ceca93c161017fafe67ac7b4f332514f852221ec83c919
 RPROVIDES:${PN} += "ghc-crypto-cipher-types \
 ghc-crypto-cipher-types(aarch-64) \
 libHScrypto-cipher-types-0.0.9-4A4LPNV9DwQ1VQ3vwUnE52-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

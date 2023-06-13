@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-colorlover \
 python3.10dist(colorlover) \
 python310-colorlover \
 python3dist(colorlover)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

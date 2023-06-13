@@ -37,6 +37,7 @@ perl(Net::XMPP::Protocol) \
 perl(Net::XMPP::Roster) \
 perl(Net::XMPP::Stanza) \
 perl-Net-XMPP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Authen::SASL) \
 perl(Digest::SHA) \

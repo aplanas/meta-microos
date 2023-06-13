@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-keystoneauth1 \
 python3.10dist(keystoneauth1) \
 python3dist(keystoneauth1)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML \
 python3-iso8601 \

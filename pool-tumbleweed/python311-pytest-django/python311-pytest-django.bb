@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-django) \
 python311-pytest-django \
 python3dist(pytest-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-pytest"

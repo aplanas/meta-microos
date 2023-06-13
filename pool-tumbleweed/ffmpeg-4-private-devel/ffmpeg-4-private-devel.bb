@@ -17,6 +17,7 @@ RPM_HASH = "c062bfb1247afe9c903a74c431363b1f191709762e7d63188d7f0ea171167d3a08a1
 RPROVIDES:${PN} += "ffmpeg-4-private-devel \
 ffmpeg-4-private-devel(aarch-64) \
 ffmpeg-private-devel"
+
 RDEPENDS:${PN} += "ffmpeg-4-libavcodec-devel \
 ffmpeg-4-libavformat-devel \
 ffmpeg-4-libavutil-devel"

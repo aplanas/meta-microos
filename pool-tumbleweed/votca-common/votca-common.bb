@@ -19,6 +19,7 @@ perl(CsgSimplex) \
 votca-common \
 votca-csg-common \
 votca-xtp-common"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/awk \
 /usr/bin/perl \

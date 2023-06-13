@@ -12,6 +12,7 @@ RPM_HASH = "d5f197859cba954fa9e889d570c035feba1e2500dc90025b60171abbf80f85953b5a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-sambacc"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-pyxattr \
 samba-python3"

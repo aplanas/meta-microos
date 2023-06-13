@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(graphene-django) \
 python311-graphene-django \
 python3dist(graphene-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-graphene \

@@ -15,6 +15,7 @@ RPM_HASH = "5804ca2f3fb7503dda71d4a800e94a5daff9074ea6d8c2afef8b5535a3cde9833add
 RPROVIDES:${PN} += "config(ndppd) \
 ndppd \
 ndppd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ application(timidity.desktop) \
 config(timidity) \
 timidity \
 timidity(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

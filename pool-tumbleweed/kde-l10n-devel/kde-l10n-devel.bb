@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kde-l10n-devel \
 kde-l10n-devel(aarch-64) \
 kde4-l10n-devel \
 poxml"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

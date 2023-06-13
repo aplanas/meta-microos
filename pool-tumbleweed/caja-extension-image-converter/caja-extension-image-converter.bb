@@ -15,6 +15,7 @@ caja-extension-image-converter(aarch-64) \
 caja-image-converter \
 libcaja-image-converter.so()(64bit) \
 mate-file-manager-image-converter"
+
 RDEPENDS:${PN} += "ImageMagick \
 caja \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "adf2125f2d565b0044313b76bf7b370e4e3421c14272d306ae800fa9b83b21e18188
 RPROVIDES:${PN} += "v4l-conf \
 v4l-conf(aarch-64) \
 xawtv:/usr/bin/v4l-conf"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

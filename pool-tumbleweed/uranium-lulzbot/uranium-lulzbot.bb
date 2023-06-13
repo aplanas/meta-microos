@@ -13,6 +13,7 @@ RPM_HASH = "0b0cbdd9d9554465dee9cf759d9854df584be8d08d9bff88effd69498ec261ab9631
 
 RPROVIDES:${PN} += "uranium-lulzbot \
 uranium-lulzbot(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "abb7484e3cfc11e4ae20c04c89388cc9dcf47656c8b5a755a07c34cb0f50b542b935
 RPROVIDES:${PN} += "libleechcraft-util-x11-qt5-0_6_75 \
 libleechcraft-util-x11-qt5-0_6_75(aarch-64) \
 libleechcraft-util-x11-qt5.so.0.6.75()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-contrib-core) \
 python311-jupyter-contrib-core \
 python311-jupyter_contrib_core \
 python3dist(jupyter-contrib-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

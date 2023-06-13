@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffmk \
 perl-diffmk"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl-Algorithm-Diff \

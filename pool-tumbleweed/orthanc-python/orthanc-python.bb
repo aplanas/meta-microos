@@ -11,6 +11,7 @@ RPM_HASH = "20ca34ee88948b4386ac2d064b24288dc91f80d856f0465d8a8ffad442d1c610b46c
 RPROVIDES:${PN} += "libOrthancPython.so.4.0()(64bit) \
 orthanc-python \
 orthanc-python(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

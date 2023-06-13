@@ -223,6 +223,7 @@ ocamlx(Reloc) \
 ocamlx(Stdpp) \
 ocamlx(Token) \
 ocamlx(Versdep)"
+
 RDEPENDS:${PN} += "ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

@@ -23,6 +23,7 @@ RPM_HASH = "6ceaf0fc5ed5f0dc6966a35ca598af3555d1bc7b867b04c2221841c54876f36eaccc
 RPROVIDES:${PN} += "config(multitail) \
 multitail \
 multitail(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

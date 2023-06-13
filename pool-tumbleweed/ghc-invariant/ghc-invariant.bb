@@ -14,6 +14,7 @@ RPM_HASH = "5ab99dd66e32f3224607acd5003bedd5e2909301629dedd9025b42de51d62f593511
 RPROVIDES:${PN} += "ghc-invariant \
 ghc-invariant(aarch-64) \
 libHSinvariant-0.6.1-B19sct74tP6Cqvpbmm6WZv-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

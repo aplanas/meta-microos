@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(asypictureB.sty) \
 texlive-asypictureb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

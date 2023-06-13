@@ -15,6 +15,7 @@ RPM_HASH = "87f9e8000a6af84c04b30f9f47e7d24ed232f21725035166d5d7f5e5e0bd9ee48054
 RPROVIDES:${PN} += "libSoQt.so.20()(64bit) \
 libSoQt20 \
 libSoQt20(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

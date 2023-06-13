@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DBICx::Sugar) \
 perl-DBICx-Sugar"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBIx::Class) \
 perl(Module::Load) \

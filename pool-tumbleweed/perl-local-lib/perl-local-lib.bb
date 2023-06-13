@@ -40,6 +40,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(lib::core::only) \
 perl(local::lib) \
 perl-local-lib"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN) \
 perl(ExtUtils::Install) \

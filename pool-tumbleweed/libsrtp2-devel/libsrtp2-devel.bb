@@ -14,6 +14,7 @@ RPM_HASH = "7a11552f7bc2c9021413e007651ba5e480f8ad0c408cf5ed933b43b7e20e7b3a2393
 RPROVIDES:${PN} += "libsrtp2-devel \
 libsrtp2-devel(aarch-64) \
 pkgconfig(libsrtp2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsrtp2-1"
 

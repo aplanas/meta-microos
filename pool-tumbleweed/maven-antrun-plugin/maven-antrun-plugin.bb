@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-antrun-plugin \
 mvn(org.apache.maven.plugins:maven-antrun-plugin) \
 mvn(org.apache.maven.plugins:maven-antrun-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant) \

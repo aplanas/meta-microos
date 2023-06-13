@@ -14,6 +14,7 @@ RPM_HASH = "01cf0f216d11cb0634aa92b38fba1bbf7f44c05937fd34e8733cd15a983090ea693a
 RPROVIDES:${PN} += "Xalan-C \
 xalan-c \
 xalan-c(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

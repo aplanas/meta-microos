@@ -11,6 +11,7 @@ RPM_HASH = "4fb3aa630f184d4cfc39fad7819f75c38aea270615dd6a271305457a94fce9b5912f
 RPROVIDES:${PN} += "libvbr.so.2()(64bit) \
 libvbr2 \
 libvbr2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

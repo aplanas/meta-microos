@@ -12,6 +12,7 @@ evolution-plugin-pst-import(aarch-64) \
 liborg-gnome-pst-import.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.Evolution-pst.metainfo.xml)"
+
 RDEPENDS:${PN} += "evolution \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

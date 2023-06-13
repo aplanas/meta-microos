@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rterface.sty) \
 texlive-rterface"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

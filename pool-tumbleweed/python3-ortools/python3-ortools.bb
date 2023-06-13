@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ortools \
 python3-ortools(aarch-64) \
 python3.10dist(ortools) \
 python3dist(ortools)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_flags_internal.so.2301.0.0()(64bit) \

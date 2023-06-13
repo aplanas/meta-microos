@@ -9,6 +9,7 @@ RPM_HASH = "6e52e75b13223a2c26918eceddfc761e443712a269f476d96610486faaba58ecac45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqrtr-glib-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Network) \
 libQt5Network-devel \
 libQt5Network-devel(aarch-64) \
 pkgconfig(Qt5Network)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Network5 \

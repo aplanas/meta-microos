@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-GitPython \
 python3.10dist(gitpython) \
 python310-GitPython \
 python3dist(gitpython)"
+
 RDEPENDS:${PN} += "git-core \
 python(abi) \
 python310-gitdb"

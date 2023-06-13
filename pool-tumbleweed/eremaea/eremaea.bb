@@ -9,6 +9,7 @@ RPM_HASH = "556d72c3baabb1f8cde70fc41435b8b40d56a3f67f95083670b35c4a7a1d8ef10d7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eremaea"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/eremaeactl"
 

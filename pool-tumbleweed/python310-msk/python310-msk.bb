@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-msk \
 python3.10dist(msk) \
 python310-msk \
 python3dist(msk)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

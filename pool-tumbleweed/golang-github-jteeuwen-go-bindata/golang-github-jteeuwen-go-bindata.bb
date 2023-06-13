@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "go-bindata \
 golang(github.com/jteeuwen/go-bindata) \
 golang-github-jteeuwen-go-bindata \
 golang-github-jteeuwen-go-bindata(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

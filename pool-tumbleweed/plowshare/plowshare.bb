@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(plowshare) \
 plowshare \
 plowshare-bash-completion"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 bash \
 curl \

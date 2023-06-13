@@ -9,6 +9,7 @@ RPM_HASH = "d11c83af5a55e887f46d36f8a6f38b324d51d962a5c10c03775115e0033daf00c3bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidishadowtext-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

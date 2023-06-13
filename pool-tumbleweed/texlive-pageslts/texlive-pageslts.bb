@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pageslts.sty) \
 texlive-pageslts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

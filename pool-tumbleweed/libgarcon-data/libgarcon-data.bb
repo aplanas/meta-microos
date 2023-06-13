@@ -9,6 +9,7 @@ RPM_HASH = "444cd853380195fc1f5d8bfd221f7a7588c6bf70ad28adc75aa599e6764c5d1bffd0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgarcon-data"
+
 RDEPENDS:${PN} += "libgarcon-branding"
 
 inherit rpm

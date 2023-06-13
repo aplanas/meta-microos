@@ -10,6 +10,7 @@ RPM_HASH = "a507019c43a45273bfcfa0b334d7f14bf0b26f53ff02292f023bcdb4cea29a4c1b83
 RPROVIDES:${PN} += "libdecor-0-0 \
 libdecor-0-0(aarch-64) \
 libdecor-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

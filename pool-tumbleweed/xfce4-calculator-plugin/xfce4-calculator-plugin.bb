@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcalculator.so()(64bit) \
 xfce4-calculator-plugin \
 xfce4-calculator-plugin(aarch-64) \
 xfce4-panel-plugin-calculator"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

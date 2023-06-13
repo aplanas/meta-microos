@@ -9,6 +9,7 @@ RPM_HASH = "7eb2db67c10e97ed7da9dae613de966a3fad05f82ddbecda3add868d428565f7100d
 
 RPROVIDES:${PN} += "libpamtest-devel-doc \
 libpamtest-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ mvn(org.jboss.logging:jboss-logging-annotations:pom:) \
 mvn(org.jboss.logging:jboss-logging-processor) \
 mvn(org.jboss.logging:jboss-logging-processor:pom:) \
 mvn(org.jboss.logging:jboss-logging-tools-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jboss.jdeparser:jdeparser)"

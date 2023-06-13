@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python \
 python(aarch-64) \
 python2 \
 python2_split_startup"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

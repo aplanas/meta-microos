@@ -82,6 +82,7 @@ mimehandler(video/x-theora) \
 mimehandler(video/x-theora+ogg) \
 python3.10dist(kawaii-player) \
 python3dist(kawaii-player)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpegthumbnailer \
 python(abi) \

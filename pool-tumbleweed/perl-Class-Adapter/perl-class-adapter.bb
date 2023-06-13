@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(Class::Adapter) \
 perl(Class::Adapter::Builder) \
 perl(Class::Adapter::Clear) \
 perl-Class-Adapter"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

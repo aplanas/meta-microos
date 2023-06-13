@@ -9,6 +9,7 @@ RPM_HASH = "e05d1a6748ae32e50549458572916270b78b91ce73bf628513797167923449044e75
 
 RPROVIDES:${PN} += "opam-file-format \
 opam-file-format(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

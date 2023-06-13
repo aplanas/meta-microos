@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "booth \
 booth(aarch-64) \
 config(booth) \
 pkgconfig(booth)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/pkg-config \

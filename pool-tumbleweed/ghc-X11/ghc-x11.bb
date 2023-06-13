@@ -12,6 +12,7 @@ RPM_HASH = "1b184a04ab7c248002ad2ae05dc85c068715f393fa92106ea60514486369c1742966
 RPROVIDES:${PN} += "ghc-X11 \
 ghc-X11(aarch-64) \
 libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

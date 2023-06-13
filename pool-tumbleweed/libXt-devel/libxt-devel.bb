@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libXt-devel \
 libXt-devel(aarch-64) \
 pkgconfig(xt) \
 xorg-x11-libXt-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXt6 \
 pkgconfig(ice) \

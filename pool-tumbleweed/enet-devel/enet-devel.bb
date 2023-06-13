@@ -11,6 +11,7 @@ RPM_HASH = "caf48909bb64900ca673a0e36525a5ec7f695bfe7a3c2517f3e6cef6f4d852017c5b
 RPROVIDES:${PN} += "enet-devel \
 enet-devel(aarch-64) \
 pkgconfig(libenet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libenet7"
 

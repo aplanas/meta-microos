@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nolbreaks.sty) \
 texlive-nolbreaks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "5739c0f4b7fd0f208b070d443e1d57e53422c74324906749107031bee83ebd4b377a
 
 RPROVIDES:${PN} += "plplot-driver-cairo \
 plplot-driver-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

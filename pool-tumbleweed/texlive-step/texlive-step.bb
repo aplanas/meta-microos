@@ -480,6 +480,7 @@ tex(a_ylmzrw.enc) \
 tex(a_zbkikv.enc) \
 tex(step.sty) \
 texlive-step"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

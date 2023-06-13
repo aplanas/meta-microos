@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pygal \
 python3.10dist(pygal) \
 python310-pygal \
 python3dist(pygal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

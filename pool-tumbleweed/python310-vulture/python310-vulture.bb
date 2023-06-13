@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-vulture \
 python3.10dist(vulture) \
 python310-vulture \
 python3dist(vulture)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

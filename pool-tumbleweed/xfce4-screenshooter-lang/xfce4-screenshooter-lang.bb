@@ -64,6 +64,7 @@ locale(xfce4-screenshooter:zh_CN) \
 locale(xfce4-screenshooter:zh_TW) \
 xfce4-screenshooter-lang \
 xfce4-screenshooter-lang-all"
+
 RDEPENDS:${PN} += "xfce4-screenshooter"
 
 inherit rpm

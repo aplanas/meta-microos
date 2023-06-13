@@ -24,6 +24,7 @@ libgcc_s.so.1(GLIBC_2.0)(64bit) \
 libgcc_s1 \
 libgcc_s1-gcc7 \
 libgcc_s1-gcc7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

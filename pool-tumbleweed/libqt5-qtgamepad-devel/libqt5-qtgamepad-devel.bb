@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Gamepad) \
 libqt5-qtgamepad-devel \
 libqt5-qtgamepad-devel(aarch-64) \
 pkgconfig(Qt5Gamepad)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Gamepad5 \
 pkgconfig(Qt5Core) \

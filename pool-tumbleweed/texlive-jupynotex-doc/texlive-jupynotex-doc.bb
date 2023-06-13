@@ -9,6 +9,7 @@ RPM_HASH = "2f5c6fa08c19280f5a5acf03b79be799a122d015d9617235f3771fbf81d3cddeb719
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jupynotex-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

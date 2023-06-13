@@ -11,6 +11,7 @@ RPM_HASH = "b8058f7de89afd729fcd6a6338ba4333169c52ed89256a3fc580da8af5e0ea39c4ef
 RPROVIDES:${PN} += "leechcraft-lmp-brainslugz \
 leechcraft-lmp-brainslugz(aarch-64) \
 libleechcraft_lmp_brainslugz.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

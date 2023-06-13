@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-apptools \
 python3.10dist(apptools) \
 python310-apptools \
 python3dist(apptools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-configobj \
 python310-traits"

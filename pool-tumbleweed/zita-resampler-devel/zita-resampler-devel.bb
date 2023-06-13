@@ -9,6 +9,7 @@ RPM_HASH = "601ca294d3001d70e497a3279074c6b79ab720b968f8aa0360b574bec9141ad068b4
 
 RPROVIDES:${PN} += "zita-resampler-devel \
 zita-resampler-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzita-resampler1"
 
 inherit rpm

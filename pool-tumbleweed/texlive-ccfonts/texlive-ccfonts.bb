@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(ccfonts.sty) \
 tex(t1ccr.fd) \
 tex(ts1ccr.fd) \
 texlive-ccfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

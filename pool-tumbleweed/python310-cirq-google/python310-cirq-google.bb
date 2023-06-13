@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cirq-google \
 python3.10dist(cirq-google) \
 python310-cirq-google \
 python3dist(cirq-google)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cirq-core \
 python310-google-api-core \

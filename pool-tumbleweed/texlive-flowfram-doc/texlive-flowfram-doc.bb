@@ -9,6 +9,7 @@ RPM_HASH = "db27be7d764d35c4af08c90d271bc503c23ebc7caa380d1ff4cac477b6d5b0c6012c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flowfram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

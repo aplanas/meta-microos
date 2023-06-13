@@ -11,6 +11,7 @@ RPM_HASH = "78de24dd294292c03fe86a2fd5ad5b00dd1fd3d78ddce6342072aa5c899259ca2376
 RPROVIDES:${PN} += "audaspace-devel \
 audaspace-devel(aarch-64) \
 pkgconfig(audaspace)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaudaspace-c1_4 \
 libaudaspace-py1_4 \

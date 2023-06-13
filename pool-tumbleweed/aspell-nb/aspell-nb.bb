@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "aspell-nb \
 aspell-nb(aarch-64) \
 aspell-no \
 locale(aspell:nb)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

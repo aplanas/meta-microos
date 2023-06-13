@@ -10,6 +10,7 @@ RPM_HASH = "3916d29edee5bba74716fd094ca27a1d39f3f974c5cfe55fe015dfb3e28fef94b386
 RPROVIDES:${PN} += "cmake(KReport) \
 kreport-devel \
 kreport-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KPropertyCore) \
 cmake(Qt5Qml) \
 libKReport3-4"

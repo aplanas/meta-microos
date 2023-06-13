@@ -9,6 +9,7 @@ RPM_HASH = "b7a72d7cd484a5fe2a42289f768571bc72d2c6c2dc7daddf0e7923f931d20f646b12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gustprog"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 /usr/bin/perl \

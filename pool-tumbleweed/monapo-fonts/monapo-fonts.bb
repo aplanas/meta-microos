@@ -15,6 +15,7 @@ monapo \
 monapo-font \
 monapo-fonts \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

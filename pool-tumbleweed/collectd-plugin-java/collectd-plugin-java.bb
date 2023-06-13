@@ -10,6 +10,7 @@ RPM_HASH = "dd53ecf093aaa6b152e368a6b8369c56ba27ef3ade45eb0fa66282d385070a139f9a
 
 RPROVIDES:${PN} += "collectd-plugin-java \
 collectd-plugin-java(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

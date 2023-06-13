@@ -9,6 +9,7 @@ RPM_HASH = "fae0b4aee7db022a51ce5be9f5cf5fcdf1963b844e04af95fb87d28f05396b24aa23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kanaparser-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

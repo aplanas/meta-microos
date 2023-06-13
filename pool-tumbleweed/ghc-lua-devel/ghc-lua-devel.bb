@@ -10,6 +10,7 @@ RPM_HASH = "5e3f7ece7f9d43b0e885535c441d2471805f12245ab6533b8ca7c85ddd310135491d
 RPROVIDES:${PN} += "ghc-devel(lua-2.3.1-16mGxirchUh4T3oJJYdFzu) \
 ghc-lua-devel \
 ghc-lua-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

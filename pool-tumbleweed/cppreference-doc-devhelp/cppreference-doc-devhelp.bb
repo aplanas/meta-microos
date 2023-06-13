@@ -11,6 +11,7 @@ RPM_HASH = "0638d57add51dba31bb5c653816978057d0bcf7c62648c34730ecf77b19a8420a45a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppreference-doc-devhelp"
+
 RDEPENDS:${PN} += "cppreference-doc"
 
 inherit rpm

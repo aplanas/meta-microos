@@ -10,6 +10,7 @@ RPM_HASH = "2eb137d137e016fda13bbe65a018a8fbe081da79d7a81e52c5f333ea1ab531655f50
 RPROVIDES:${PN} += "libsubid.so.4()(64bit) \
 libsubid4 \
 libsubid4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

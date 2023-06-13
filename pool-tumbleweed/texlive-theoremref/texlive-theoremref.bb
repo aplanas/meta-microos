@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(theoremref.sty) \
 texlive-theoremref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

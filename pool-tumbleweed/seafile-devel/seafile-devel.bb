@@ -11,6 +11,7 @@ RPM_HASH = "6da258622f5aaadfdf7b6e695265e9113fb09cd602c5d2a519b4b6b597ffa8466132
 RPROVIDES:${PN} += "pkgconfig(libseafile) \
 seafile-devel \
 seafile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(glib-2.0) \
 pkgconfig(gobject-2.0) \

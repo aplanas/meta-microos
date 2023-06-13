@@ -91,6 +91,7 @@ locale(nautilus-sendto:zh_HK) \
 locale(nautilus-sendto:zh_TW) \
 nautilus-sendto-lang \
 nautilus-sendto-lang-all"
+
 RDEPENDS:${PN} += "nautilus-sendto"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(xstatic-term.js) \
 python311-XStatic-term.js \
 python311-XStatic-term.js(aarch-64) \
 python3dist(xstatic-term.js)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

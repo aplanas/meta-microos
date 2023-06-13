@@ -15,6 +15,7 @@ RPM_HASH = "9857b0e86a17e52c6b2c1f8114ce3e13c8567091d1dd3e73f63f60c949896d0b8c2a
 
 RPROVIDES:${PN} += "sensors \
 sensors(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-customproviders \
 python3.10dist(azure-mgmt-customproviders) \
 python310-azure-mgmt-customproviders \
 python3dist(azure-mgmt-customproviders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

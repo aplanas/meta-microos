@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_office \
 patterns-gnome-gnome_office(aarch-64) \
 patterns-openSUSE-gnome_office"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

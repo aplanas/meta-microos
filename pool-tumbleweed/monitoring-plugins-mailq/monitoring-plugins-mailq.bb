@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-mailq) \
 monitoring-plugins-mailq \
 monitoring-plugins-mailq(aarch-64) \
 nagios-plugins-mailq"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl \

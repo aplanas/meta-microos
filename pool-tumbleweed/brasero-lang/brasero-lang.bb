@@ -89,6 +89,7 @@ locale(brasero:vi) \
 locale(brasero:zh_CN) \
 locale(brasero:zh_HK) \
 locale(brasero:zh_TW)"
+
 RDEPENDS:${PN} += "brasero"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "54609220fc5f226ec972ea7fce99776c3b482284eb15e9ef268cb43d6247dd2bf530
 RPROVIDES:${PN} += "libindiAlignmentDriver.so.1()(64bit) \
 libindiAlignmentDriver1 \
 libindiAlignmentDriver1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "527c37e1f7f26214b1674b1b0c314154fdc3e1c27b3251411ca8373332dfb71adf2f
 RPROVIDES:${PN} += "cmake(ensmallen) \
 ensmallen-devel \
 ensmallen-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "78816d82791621380eec591b818c4e18d94d6ab04653fd8441db1f66e06d93177e91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "argon2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "a8c3234a0d7acf19ada0c7ee4dc7c2fa5cf42a3d39b22db7e8dc5b4e0de74626c89d
 RPROVIDES:${PN} += "ghc-ansi-terminal \
 ghc-ansi-terminal(aarch-64) \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so()(64bit) \

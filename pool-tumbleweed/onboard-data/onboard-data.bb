@@ -9,6 +9,7 @@ RPM_HASH = "cc263bdc5db4299a2a55962fbd8b9bf1dc97db1ffaf7817a11594c12b6b9cba81ff3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "onboard-data"
+
 RDEPENDS:${PN} += "onboard"
 
 inherit rpm

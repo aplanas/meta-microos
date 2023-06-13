@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hypernat.sty) \
 texlive-hypernat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

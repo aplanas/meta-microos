@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libtolua++-5_3-devel \
 libtolua++-5_3-devel(aarch-64) \
 pkgconfig(tolua++) \
 toluapp-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 toluapp-5.3"
 

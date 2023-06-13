@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(libvirtdbus) \
 system-user-libvirt-dbus \
 user(libvirtdbus)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(libvirt) \
 sysuser-shadow"

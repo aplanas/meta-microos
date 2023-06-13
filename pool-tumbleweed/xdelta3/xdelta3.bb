@@ -14,6 +14,7 @@ RPM_HASH = "3e981b20038526a76b71062450ee5eb0baf9dee2ea3a8a92f05e77f1d25c5da6a153
 RPROVIDES:${PN} += "xdelta \
 xdelta3 \
 xdelta3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

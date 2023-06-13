@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-fluidity-sm \
 python3.10dist(fluidity-sm) \
 python310-fluidity-sm \
 python3dist(fluidity-sm)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

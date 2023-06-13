@@ -18,6 +18,7 @@ RPM_HASH = "a7160fad6e2f427f16ff99de4e030443a3aa8fc7ca4ea8401323b1e69ea3441940aa
 
 RPROVIDES:${PN} += "smem \
 smem(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

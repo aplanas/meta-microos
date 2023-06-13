@@ -27,6 +27,7 @@ RPM_HASH = "39f087d5a735d2a57e4e38f2b2c77320960784c8c29f78cef733a12e9c7b2cfc6e60
 
 RPROVIDES:${PN} += "autocutsel \
 autocutsel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

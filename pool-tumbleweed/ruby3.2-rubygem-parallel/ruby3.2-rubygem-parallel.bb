@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:parallel) \
 rubygem(ruby:3.2.0:parallel:1) \
 rubygem(ruby:3.2.0:parallel:1.22) \
 rubygem(ruby:3.2.0:parallel:1.22.1)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

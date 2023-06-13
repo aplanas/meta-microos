@@ -17,6 +17,7 @@ tex(wlc39.tfm) \
 tex(wlc93.tfm) \
 tex(wlcr39.tfm) \
 texlive-barcodes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

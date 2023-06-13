@@ -10,6 +10,7 @@ RPM_HASH = "518500e51ff4fe738ab211e988383928b415609890947448b539ab121e679278eee8
 RPROVIDES:${PN} += "hexchat-devel \
 hexchat-devel(aarch-64) \
 pkgconfig(hexchat-plugin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hexchat"
 

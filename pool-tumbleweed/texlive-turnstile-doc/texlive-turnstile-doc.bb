@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-turnstile-doc:pt) \
 texlive-turnstile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

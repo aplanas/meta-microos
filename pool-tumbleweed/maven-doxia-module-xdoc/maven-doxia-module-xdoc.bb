@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-doxia-module-xdoc \
 mvn(org.apache.maven.doxia:doxia-module-xdoc) \
 mvn(org.apache.maven.doxia:doxia-module-xdoc:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-core) \

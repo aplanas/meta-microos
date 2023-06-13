@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pybind11-stubgen \
 python3.10dist(pybind11-stubgen) \
 python310-pybind11-stubgen \
 python3dist(pybind11-stubgen)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

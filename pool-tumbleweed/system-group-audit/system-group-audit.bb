@@ -10,6 +10,7 @@ RPM_HASH = "7b136f40f0e4fe8b58ef4a217a637fc5a49bc5f6c53e463b9443d7d0407ed572c466
 RPROVIDES:${PN} += "group(audit) \
 system-group-audit \
 system-group-audit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

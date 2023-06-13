@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nptyping) \
 python39-nptyping \
 python3dist(nptyping)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-typing_extensions"

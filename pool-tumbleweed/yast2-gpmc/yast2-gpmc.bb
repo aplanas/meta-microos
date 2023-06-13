@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.opensuse.yast.GPMC.metainfo.xml) \
 yast-gpmc \
 yast2-gpmc"
+
 RDEPENDS:${PN} += "krb5-client \
 python3-ldap \
 samba-ad-dc \

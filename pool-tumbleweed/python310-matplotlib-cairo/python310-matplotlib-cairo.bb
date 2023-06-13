@@ -11,6 +11,7 @@ RPM_HASH = "fea39b5af4c41ea8beff2e09c14964c38702f5407d46b32c6f09f74d9c3b5900fbf8
 RPROVIDES:${PN} += "python3-matplotlib-cairo \
 python310-matplotlib-cairo \
 python310-matplotlib-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cairo \
 python310-matplotlib"

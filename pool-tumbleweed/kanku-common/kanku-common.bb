@@ -116,6 +116,7 @@ perl(OpenStack::API::Nova) \
 perl(OpenStack::API::Quantum) \
 perl(OpenStack::API::Role::Client) \
 perl(OpenStack::API::Role::Service)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl \

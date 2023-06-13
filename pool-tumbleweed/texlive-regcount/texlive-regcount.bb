@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(regcount.sty) \
 texlive-regcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

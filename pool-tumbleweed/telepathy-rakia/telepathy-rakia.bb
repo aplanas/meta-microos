@@ -11,6 +11,7 @@ RPM_HASH = "63ecc0e1f2cbf771801f6b6686285037190068302c5828147bb1fcd8aa8e75665a08
 RPROVIDES:${PN} += "telepathy-rakia \
 telepathy-rakia(aarch-64) \
 telepathy-sofiasip"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

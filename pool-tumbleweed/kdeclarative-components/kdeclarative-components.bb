@@ -30,6 +30,7 @@ qt5qmlimport(org.kde.kquickcontrolsaddons.1) \
 qt5qmlimport(org.kde.kquickcontrolsaddons.2) \
 qt5qmlimport(org.kde.kwindowsystem.1) \
 qt5qmlimport(org.kde.private.kquickcontrols.2)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

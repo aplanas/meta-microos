@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-powerbiembedded \
 python3.10dist(azure-mgmt-powerbiembedded) \
 python310-azure-mgmt-powerbiembedded \
 python3dist(azure-mgmt-powerbiembedded)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

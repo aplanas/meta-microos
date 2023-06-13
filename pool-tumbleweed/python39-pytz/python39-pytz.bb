@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytz) \
 python39-pytz \
 python3dist(pytz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python39-base \

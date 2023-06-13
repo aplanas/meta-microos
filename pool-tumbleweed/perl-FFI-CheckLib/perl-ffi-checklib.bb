@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(FFI::CheckLib) \
 perl-FFI-CheckLib"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which) \
 perl(List::Util)"

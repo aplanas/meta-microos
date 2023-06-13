@@ -26,6 +26,7 @@ RPM_HASH = "117083121e3752b5255c2b35b21e70f58c8bc3e296ed95138d88977fd855a94c0c0f
 RPROVIDES:${PN} += "ghc-pandoc-types \
 ghc-pandoc-types(aarch-64) \
 libHSpandoc-types-1.23-EFziwPO22I72D2SxHphq63-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

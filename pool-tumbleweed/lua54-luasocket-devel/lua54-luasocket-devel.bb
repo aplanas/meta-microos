@@ -10,6 +10,7 @@ RPM_HASH = "9dbeb4a3889b786edfc71cf17357b414e5b7270ebd957e71e96f4699c4522af14250
 
 RPROVIDES:${PN} += "lua54-luasocket-devel \
 lua54-luasocket-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lua54-luasocket"
 
 inherit rpm

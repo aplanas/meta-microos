@@ -11,6 +11,7 @@ RPM_HASH = "2149c7f33577f87b5e6ded98d3b20dcd8a0ddd6bbb44b75dfe77512fd8b18d32d03a
 
 RPROVIDES:${PN} += "htcondor-vm-gahp \
 htcondor-vm-gahp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/awk \
 htcondor \
 htcondor-classads \

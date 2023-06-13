@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-autoaligne-doc:fr) \
 texlive-autoaligne-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

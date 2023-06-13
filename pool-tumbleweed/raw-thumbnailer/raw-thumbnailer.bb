@@ -9,6 +9,7 @@ RPM_HASH = "e9867450fbb465a6d63c3709603f2c024a0a367ec9de03a65f052c5f26530a461e88
 
 RPROVIDES:${PN} += "raw-thumbnailer \
 raw-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

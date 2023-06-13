@@ -15,6 +15,7 @@ libpils.so.2()(64bit) \
 libplumb.so.2()(64bit) \
 libplumbgpl.so.2()(64bit) \
 libstonith.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cluster-glue \
 ld-linux-aarch64.so.1()(64bit) \

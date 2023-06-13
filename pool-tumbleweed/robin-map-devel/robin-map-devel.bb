@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(tsl-robin-map) \
 robin-map-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

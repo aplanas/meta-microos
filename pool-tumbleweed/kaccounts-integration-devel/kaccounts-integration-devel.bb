@@ -12,6 +12,7 @@ RPM_HASH = "78e609e69dd1c0df09e7f4f7280cfb42873118919ae94a114866f4934521095a410e
 RPROVIDES:${PN} += "cmake(KAccounts) \
 kaccounts-integration-devel \
 kaccounts-integration-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(AccountsQt5) \
 cmake(KF5CoreAddons) \
 cmake(Qt5Core) \

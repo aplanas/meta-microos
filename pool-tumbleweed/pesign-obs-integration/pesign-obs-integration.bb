@@ -10,6 +10,7 @@ RPM_HASH = "1275a34a5c06f38487b5bea161152f87e7deeaeebbbed5b17d475bded7e4e8680b9d
 
 RPROVIDES:${PN} += "pesign-obs-integration \
 pesign-obs-integration(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 fipscheck \

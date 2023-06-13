@@ -44,6 +44,7 @@ perl(Data::Perl::Role::Number) \
 perl(Data::Perl::Role::String) \
 perl(Data::Perl::String) \
 perl-Data-Perl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(List::MoreUtils) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-jupyter \
 python3.10dist(pytest-jupyter) \
 python310-pytest-jupyter \
 python3dist(pytest-jupyter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jupyter_core \
 python310-pytest"

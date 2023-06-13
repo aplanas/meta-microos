@@ -14,6 +14,7 @@ locale(madplay:fr) \
 locale(madplay:hr) \
 madplay-lang \
 madplay-lang-all"
+
 RDEPENDS:${PN} += "madplay"
 
 inherit rpm

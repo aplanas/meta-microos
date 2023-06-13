@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(ddskk) \
 ddskk \
 locale(emacs:ja)"
+
 RDEPENDS:${PN} += "/bin/sh \
 apel \
 emacs \

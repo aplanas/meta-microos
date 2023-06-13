@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-cli) \
 mvn(org.codehaus.plexus:plexus-cli:pom:) \
 plexus-cli"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-cli:commons-cli) \

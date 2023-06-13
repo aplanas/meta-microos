@@ -15,6 +15,7 @@ RPM_HASH = "7405eb9d9e888c3c0627f0bf56dd6d391d0eb3d886343d10eb6002e8f27fbbf591fc
 
 RPROVIDES:${PN} += "plantri \
 plantri(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

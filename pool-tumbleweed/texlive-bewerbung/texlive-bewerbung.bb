@@ -21,6 +21,7 @@ tex(bewerbung-cv.sty) \
 tex(bewerbung.cls) \
 tex(bewerbung.sty) \
 texlive-bewerbung"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

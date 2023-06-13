@@ -10,6 +10,7 @@ RPM_HASH = "59265e74e55d54117b6ea8e4f8fed44010e6e68d1f5432cbf06ed1169425a92aea02
 
 RPROVIDES:${PN} += "kidentitymanagement \
 kidentitymanagement(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

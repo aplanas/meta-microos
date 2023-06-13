@@ -11,6 +11,7 @@ RPM_HASH = "81480e4f8bf96a94149df690901303185e768938e225d559e4f1e12aa78e6b7f4190
 
 RPROVIDES:${PN} += "lilypond \
 lilypond(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ghostscript \
 ld-linux-aarch64.so.1()(64bit) \

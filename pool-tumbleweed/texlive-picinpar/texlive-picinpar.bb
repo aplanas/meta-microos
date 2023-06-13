@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(picinpar.sty) \
 texlive-picinpar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

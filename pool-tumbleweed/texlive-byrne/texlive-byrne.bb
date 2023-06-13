@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(byrne.sty) \
 texlive-byrne"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

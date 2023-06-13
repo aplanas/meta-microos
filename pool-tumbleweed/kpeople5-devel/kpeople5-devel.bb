@@ -11,6 +11,7 @@ RPM_HASH = "cf56b66d2bc1a5d1a14667335831fdf3b86e80b05e6de988682551ef136ee57d7015
 RPROVIDES:${PN} += "cmake(KF5People) \
 kpeople5-devel \
 kpeople5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 kpeople5"
 

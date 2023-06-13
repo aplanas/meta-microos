@@ -12,6 +12,7 @@ RPM_HASH = "bff89d20cc344fd515f99f1e9d5e1126181418bff2ed0909eb667368d9d8997205cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Twisted-tls"
+
 RDEPENDS:${PN} += "python311-Twisted \
 python311-idna \
 python311-pyOpenSSL \

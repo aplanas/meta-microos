@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(semantic-markup.sty) \
 texlive-semantic-markup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

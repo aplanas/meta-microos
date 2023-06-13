@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simples-matrices.sty) \
 texlive-simples-matrices"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

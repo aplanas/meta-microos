@@ -14,6 +14,7 @@ RPM_HASH = "4e2e3738508118db84a62f42e772bd741b96d1cb6667f2de20299d84716dec18512c
 RPROVIDES:${PN} += "gspell-devel \
 gspell-devel(aarch-64) \
 pkgconfig(gspell-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgspell-1-2 \
 pkgconfig(enchant-2) \

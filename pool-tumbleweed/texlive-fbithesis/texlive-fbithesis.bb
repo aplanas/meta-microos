@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(fbithesis.cfg) \
 tex(fbithesis.cls) \
 texlive-fbithesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

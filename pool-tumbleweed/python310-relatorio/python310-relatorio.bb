@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-relatorio \
 python3.10dist(relatorio) \
 python310-relatorio \
 python3dist(relatorio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -13,6 +13,7 @@ RPM_HASH = "22f46b4bc58e93493357ab3778ffcb5d258f4a934d119d067831a1ce0a50a94af362
 RPROVIDES:${PN} += "libslp.so.1()(64bit) \
 libslp1 \
 libslp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

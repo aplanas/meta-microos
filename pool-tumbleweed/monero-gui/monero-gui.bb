@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(monero-gui.desktop) \
 monero-gui \
 monero-gui(aarch-64)"
+
 RDEPENDS:${PN} += "graphviz \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

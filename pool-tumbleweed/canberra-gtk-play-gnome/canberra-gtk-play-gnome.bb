@@ -19,6 +19,7 @@ RPM_HASH = "a7b8939bb977962677c4427946b38f458badbb24ba60ed35afc2de575d2ddaacd04c
 RPROVIDES:${PN} += "canberra-gtk-play-gnome \
 canberra-gtk-play-gnome(aarch-64) \
 libcanberra-gtk-gnome"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

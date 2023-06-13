@@ -11,6 +11,7 @@ RPM_HASH = "ac09312869ae9c19e89ab1379f770647b354c75f2782fea77ccc81ef32be8c60770f
 RPROVIDES:${PN} += "librvngabw-0.0.so.0()(64bit) \
 librvngabw-0_0-0 \
 librvngabw-0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

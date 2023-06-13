@@ -17,6 +17,7 @@ perl(Net::OpenID::ClaimedIdentity) \
 perl(Net::OpenID::Consumer) \
 perl(Net::OpenID::VerifiedIdentity) \
 perl-Net-OpenID-Consumer"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::SHA) \
 perl(HTTP::Request) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(bibtexparser) \
 python39-bibtexparser \
 python3dist(bibtexparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-future \
 python39-pyparsing"

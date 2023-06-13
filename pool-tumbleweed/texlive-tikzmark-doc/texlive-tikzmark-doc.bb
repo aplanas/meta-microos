@@ -9,6 +9,7 @@ RPM_HASH = "7ceec21fc4f117c1b0865f2a3665028eb92c7ca0deb15b44a00fd21ace599b8b9366
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzmark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

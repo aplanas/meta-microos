@@ -20,6 +20,7 @@ mono(Mono.Cecil.VB.Mdb) \
 mono(Mono.Cecil.VB.Pdb) \
 mono(vbnc) \
 mono-basic"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(System) \
 mono(System.Core) \

@@ -9,6 +9,7 @@ RPM_HASH = "67f6e6ad948eac813394119b2e5b38d70511e68c63bbdc64942b663f9f2e38cf18e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-electron-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

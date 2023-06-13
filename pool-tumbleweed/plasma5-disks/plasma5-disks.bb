@@ -12,6 +12,7 @@ metainfo(org.kde.plasma.disks.metainfo.xml) \
 plasma-disks \
 plasma5-disks \
 plasma5-disks(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/sbin/smartctl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

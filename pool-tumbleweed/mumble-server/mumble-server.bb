@@ -17,6 +17,7 @@ metainfo(info.mumble.Mumble.appdata.xml) \
 mumble-server \
 mumble-server(aarch-64) \
 user(_mumble-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(numerica-plus.sty) \
 texlive-numerica-plus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

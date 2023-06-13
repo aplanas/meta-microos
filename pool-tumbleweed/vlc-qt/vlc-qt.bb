@@ -11,6 +11,7 @@ RPM_HASH = "6275afd3cf81cfccf31bfc0a2e3f6e9577fa839b9410af7d53905956592cc530d7c0
 RPROVIDES:${PN} += "libqt_plugin.so()(64bit) \
 vlc-qt \
 vlc-qt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

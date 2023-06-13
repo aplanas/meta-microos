@@ -11,6 +11,7 @@ RPM_HASH = "3ad155498b2cd91990eaae7bbecf63cf05f650fb5ecfd10828ea86cfc079e410e1f1
 
 RPROVIDES:${PN} += "jshon \
 jshon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

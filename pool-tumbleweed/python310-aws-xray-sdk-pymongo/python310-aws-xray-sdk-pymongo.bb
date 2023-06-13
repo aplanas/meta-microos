@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-xray-sdk-pymongo \
 python310-aws-xray-sdk-pymongo"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aws-xray-sdk \
 python310-pymongo"

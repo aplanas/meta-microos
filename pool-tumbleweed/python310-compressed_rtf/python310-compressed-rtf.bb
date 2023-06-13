@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-compressed_rtf \
 python3.10dist(compressed-rtf) \
 python310-compressed_rtf \
 python3dist(compressed-rtf)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

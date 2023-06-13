@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "args4j-tools \
 mvn(args4j:args4j-tools) \
 mvn(args4j:args4j-tools:pom:) \
 osgi(org.kohsuke.args4j-tools)"
+
 RDEPENDS:${PN} += "args4j \
 java-headless \
 javapackages-filesystem \

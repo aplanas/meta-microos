@@ -11,6 +11,7 @@ RPM_HASH = "d1c8a1724cca1ac13aafdf200eaf82b3b3853dc52dc95ecc6f79741590a200541ed3
 
 RPROVIDES:${PN} += "ppl-devel \
 ppl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gmp-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

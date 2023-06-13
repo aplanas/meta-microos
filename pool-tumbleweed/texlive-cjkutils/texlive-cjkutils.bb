@@ -31,6 +31,7 @@ tex(j2so12.cfg) \
 tex(jsso12.cfg) \
 tex(ksso17.cfg) \
 texlive-cjkutils"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

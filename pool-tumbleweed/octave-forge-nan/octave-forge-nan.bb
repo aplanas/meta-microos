@@ -10,6 +10,7 @@ RPM_HASH = "f06af684d463c047cf9de715fc205a6d45fe385cb6dbf0d00580e98fa27287066ed2
 
 RPROVIDES:${PN} += "octave-forge-nan \
 octave-forge-nan(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

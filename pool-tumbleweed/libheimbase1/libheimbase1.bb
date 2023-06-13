@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libheimbase.so.1()(64bit) \
 libheimbase.so.1(HEIMDAL_BASE_1.0)(64bit) \
 libheimbase1 \
 libheimbase1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

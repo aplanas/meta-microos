@@ -9,6 +9,7 @@ RPM_HASH = "1975013704444f6a34545bdb253579020efcbee3662d7b239dfc371fa5806126bbf8
 
 RPROVIDES:${PN} += "syslog-ng-java \
 syslog-ng-java(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

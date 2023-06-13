@@ -12,6 +12,7 @@ cmake(Qt6ShaderToolsTools) \
 pkgconfig(Qt6ShaderTools) \
 qt6-shadertools-devel \
 qt6-shadertools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 libQt6ShaderTools6 \

@@ -11,6 +11,7 @@ RPM_HASH = "34e6dd4a78728cb06606961d1c8e16e687501a2bc8c90e2b7293279b25a78f9a224d
 RPROVIDES:${PN} += "u-boot-khadas-vim2 \
 u-boot-khadas-vim2(aarch-64) \
 u-boot-loader"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

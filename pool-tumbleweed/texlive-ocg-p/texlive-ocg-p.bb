@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ocg-p.sty) \
 texlive-ocg-p"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

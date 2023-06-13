@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-timeout-decorator \
 python3.10dist(timeout-decorator) \
 python310-timeout-decorator \
 python3dist(timeout-decorator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

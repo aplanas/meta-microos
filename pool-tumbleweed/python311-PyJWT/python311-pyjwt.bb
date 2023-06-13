@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyjwt) \
 python311-PyJWT \
 python3dist(pyjwt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography \
 python311-typing-extensions \

@@ -13,6 +13,7 @@ RPM_HASH = "2adc79c5de4bc4b59ea1561e198727dacf76056deb5b297348266ad973754b481a13
 RPROVIDES:${PN} += "libsundials_idas.so.5()(64bit) \
 libsundials_idas5-mvapich2 \
 libsundials_idas5-mvapich2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

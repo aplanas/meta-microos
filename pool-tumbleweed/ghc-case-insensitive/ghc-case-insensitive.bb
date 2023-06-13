@@ -12,6 +12,7 @@ RPM_HASH = "b23a2f09330501173d038387d7a5a30c3f520a2593ea02fe960c45295be91262ae8a
 RPROVIDES:${PN} += "ghc-case-insensitive \
 ghc-case-insensitive(aarch-64) \
 libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

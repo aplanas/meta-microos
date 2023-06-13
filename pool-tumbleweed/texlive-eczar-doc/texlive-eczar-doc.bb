@@ -9,6 +9,7 @@ RPM_HASH = "40fb6eddf12f19bf0c2c28b07c853befc8798c2842054b7b465b4b7a43fdabb8eb78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eczar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

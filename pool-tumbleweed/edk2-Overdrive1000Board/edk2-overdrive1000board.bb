@@ -9,6 +9,7 @@ RPM_HASH = "65b5c50aa088ebe92500c2320174fae6783e183462bead2f08f6c5c8e3e03194c6f0
 
 RPROVIDES:${PN} += "edk2-Overdrive1000Board \
 edk2-Overdrive1000Board(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

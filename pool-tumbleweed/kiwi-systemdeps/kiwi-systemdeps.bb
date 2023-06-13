@@ -10,6 +10,7 @@ RPM_HASH = "beb93ec3c3857f21d866fd0ff6cd79ed2bf1ef5b3c0457d3f78a8d8a8d6feb92fa26
 
 RPROVIDES:${PN} += "kiwi-systemdeps \
 kiwi-systemdeps(aarch-64)"
+
 RDEPENDS:${PN} += "kiwi-systemdeps-bootloaders \
 kiwi-systemdeps-containers \
 kiwi-systemdeps-containers-wsl \

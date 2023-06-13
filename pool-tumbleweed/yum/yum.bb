@@ -21,6 +21,7 @@ yum-protect-packages \
 yum-protectbase \
 yum-refresh-updatesd \
 yum-tsflags"
+
 RDEPENDS:${PN} += "dnf"
 
 inherit rpm

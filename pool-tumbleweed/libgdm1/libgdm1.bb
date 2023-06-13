@@ -11,6 +11,7 @@ RPM_HASH = "6fbf1e324d7097df857349b19098a11b56fe689558ce0d6f9e8b5f8d46514cb7f09c
 RPROVIDES:${PN} += "libgdm.so.1()(64bit) \
 libgdm1 \
 libgdm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gdm-schema \
 ld-linux-aarch64.so.1()(64bit) \

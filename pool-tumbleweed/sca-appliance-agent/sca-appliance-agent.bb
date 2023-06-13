@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sca-appliance-agent) \
 sca-appliance-agent"
+
 RDEPENDS:${PN} += "/bin/bash \
 sca-appliance-common \
 sca-patterns-base"

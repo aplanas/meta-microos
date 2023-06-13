@@ -19,6 +19,7 @@ perl(DBIx::Class::Fixtures::DBI::mysql) \
 perl(DBIx::Class::Fixtures::External::File) \
 perl(DBIx::Class::Fixtures::Schema) \
 perl-DBIx-Class-Fixtures"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Grouped) \
 perl(Config::Any) \

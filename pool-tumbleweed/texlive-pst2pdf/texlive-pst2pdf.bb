@@ -17,6 +17,7 @@ RPM_HASH = "f1b881609178194be524cc45fa8cfcf0d9e1eddeb855fcf71fb0d29f5851f041ec5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst2pdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

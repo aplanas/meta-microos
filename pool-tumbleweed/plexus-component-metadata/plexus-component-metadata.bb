@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-component-metadata) \
 mvn(org.codehaus.plexus:plexus-component-metadata:pom:) \
 plexus-component-metadata"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.qdox:qdox) \

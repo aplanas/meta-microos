@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rvwrite.sty) \
 texlive-rvwrite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

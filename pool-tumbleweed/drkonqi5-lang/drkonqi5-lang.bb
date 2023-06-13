@@ -90,6 +90,7 @@ locale(drkonqi5:vi) \
 locale(drkonqi5:wa) \
 locale(drkonqi5:zh_CN) \
 locale(drkonqi5:zh_TW)"
+
 RDEPENDS:${PN} += "drkonqi5"
 
 inherit rpm

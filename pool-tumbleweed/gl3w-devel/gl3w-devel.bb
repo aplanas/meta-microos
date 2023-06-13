@@ -12,6 +12,7 @@ RPM_HASH = "0486ecee3c9534cf192dcbc89f85aa8bee466070f9d318b017039fa2fc6c29e766ae
 
 RPROVIDES:${PN} += "gl3w-devel \
 gl3w-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

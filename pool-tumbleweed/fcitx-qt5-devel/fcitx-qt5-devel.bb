@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(FcitxQt5DBusAddons) \
 cmake(FcitxQt5WidgetsAddons) \
 fcitx-qt5-devel \
 fcitx-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx-qt5"
 
 inherit rpm

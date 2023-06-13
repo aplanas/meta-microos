@@ -13,6 +13,7 @@ RPM_HASH = "9aae8ce531f82187c02c1d96399cc20ccc322159f20583ce175396fd0a5a60230bb4
 RPROVIDES:${PN} += "libbinio.so.1()(64bit) \
 libbinio1 \
 libbinio1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

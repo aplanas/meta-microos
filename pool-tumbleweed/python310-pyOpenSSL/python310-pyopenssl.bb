@@ -19,6 +19,7 @@ python3-pyOpenSSL \
 python3.10dist(pyopenssl) \
 python310-pyOpenSSL \
 python3dist(pyopenssl)"
+
 RDEPENDS:${PN} += "(python310-cryptography >= 38.0.0 with python310-cryptography < 41) \
 python(abi) \
 python310-cffi"

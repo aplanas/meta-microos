@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-knowledge-qnamaker \
 python3.10dist(azure-cognitiveservices-knowledge-qnamaker) \
 python310-azure-cognitiveservices-knowledge-qnamaker \
 python3dist(azure-cognitiveservices-knowledge-qnamaker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-knowledge-nspkg \
 python310-azure-cognitiveservices-nspkg \

@@ -25,6 +25,7 @@ RPM_HASH = "9520aa9c63f5bbcdaf1830be7a1aac7a221c55e22c3f59f9d8e778d73483d8df694b
 RPROVIDES:${PN} += "perl(Scope::Upper) \
 perl-Scope-Upper \
 perl-Scope-Upper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

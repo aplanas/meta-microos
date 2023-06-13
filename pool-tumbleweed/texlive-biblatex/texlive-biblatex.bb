@@ -154,6 +154,7 @@ tex(verbose-trad3.cbx) \
 tex(verbose.bbx) \
 tex(verbose.cbx) \
 texlive-biblatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

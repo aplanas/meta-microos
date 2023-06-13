@@ -12,6 +12,7 @@ gedit-plugin-synctex(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/synctex.plugin \
 metainfo() \
 metainfo(gedit-synctex.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gedit-plugins-data \
 typelib(GObject) \

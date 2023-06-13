@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyvips) \
 python311-pyvips \
 python3dist(pyvips)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cffi"
 

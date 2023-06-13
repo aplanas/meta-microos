@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pycdlib) \
 python311-pycdlib \
 python3dist(pycdlib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 mkisofs \

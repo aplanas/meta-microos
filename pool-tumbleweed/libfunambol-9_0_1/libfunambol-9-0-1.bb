@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libfunambol-9.0.1.so()(64bit) \
 libfunambol-9_0_1 \
 libfunambol-9_0_1(aarch-64) \
 libfunambol9"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "3c92b45af189b2d654a804211f2659c3f7e3194ae505fae128cf50ea4e78360c8227
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moderncv-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

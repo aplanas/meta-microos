@@ -18,6 +18,7 @@ libgphoto2_port.so.12(LIBGPHOTO2_5_0)(64bit) \
 libgphoto2_port.so.12(LIBGPHOTO2_INTERNAL)(64bit) \
 libgphoto2_port12 \
 libgphoto2_port12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

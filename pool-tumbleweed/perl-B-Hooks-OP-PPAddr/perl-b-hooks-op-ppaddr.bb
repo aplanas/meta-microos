@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "perl(B::Hooks::OP::PPAddr) \
 perl(B::Hooks::OP::PPAddr::Install::Files) \
 perl-B-Hooks-OP-PPAddr \
 perl-B-Hooks-OP-PPAddr(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"

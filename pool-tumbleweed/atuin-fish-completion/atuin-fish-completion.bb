@@ -9,6 +9,7 @@ RPM_HASH = "1b998962766fdfaae30657cd9f8a565c25924d9df762f075196846d0b3713bf3fc13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atuin-fish-completion"
+
 RDEPENDS:${PN} += "atuin"
 
 inherit rpm

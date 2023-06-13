@@ -9,6 +9,7 @@ RPM_HASH = "ee99af536fd2b2e75d88cdd840a6e99b3665726c140781d1e353906091dca0941030
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bat-fish-completion"
+
 RDEPENDS:${PN} += "bat"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "727fa5d0e0c9d047c9d473d5bf63ac3a52e445d9324cfc7658e4ccefc3ec97e4e4a6
 
 RPROVIDES:${PN} += "mvapich2-devel \
 mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-c++ \
 gcc-fortran \
 libibumad-devel \

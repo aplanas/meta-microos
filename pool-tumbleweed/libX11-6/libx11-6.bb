@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libX11-6 \
 libX11-6(aarch-64) \
 libX11.so.6()(64bit) \
 xorg-x11-libX11"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

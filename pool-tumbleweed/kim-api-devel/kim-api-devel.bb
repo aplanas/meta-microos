@@ -18,6 +18,7 @@ cmake(kim-api-items) \
 kim-api-devel \
 kim-api-devel(aarch-64) \
 pkgconfig(libkim-api)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 kim-api \
 libkim-api2 \

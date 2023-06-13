@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "klatexformula-devel \
 klftools-devel \
 klftools-devel(aarch-64) \
 libklftools-devel"
+
 RDEPENDS:${PN} += "libklftools"
 
 inherit rpm

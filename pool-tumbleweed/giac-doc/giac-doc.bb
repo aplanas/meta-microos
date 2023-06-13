@@ -10,6 +10,7 @@ RPM_HASH = "5848e4b31474adf3dc917b0941cf0cb98461404f4c5bb845e33000448d3aecb524dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "giac-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

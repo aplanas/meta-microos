@@ -77,6 +77,7 @@ locale(kstars:ug) \
 locale(kstars:uk) \
 locale(kstars:zh_CN) \
 locale(kstars:zh_TW)"
+
 RDEPENDS:${PN} += "kstars"
 
 inherit rpm

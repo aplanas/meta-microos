@@ -25,6 +25,7 @@ RPM_HASH = "5f12fa40123e41951145c53802fdc439284099a31a997bedb0182917ad04849f8ea7
 RPROVIDES:${PN} += "perl(Compress::Bzip2) \
 perl-Compress-Bzip2 \
 perl-Compress-Bzip2(aarch-64)"
+
 RDEPENDS:${PN} += "bzip2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

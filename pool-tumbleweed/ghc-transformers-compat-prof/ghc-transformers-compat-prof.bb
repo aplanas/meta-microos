@@ -10,6 +10,7 @@ RPM_HASH = "f2b50ddd9861101d7ac948104a2136dd8ac88be88aaef8c8f3e04474207e92cc8491
 RPROVIDES:${PN} += "ghc-prof(transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd) \
 ghc-transformers-compat-prof \
 ghc-transformers-compat-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(ghc-prim-0.9.0) \
 ghc-prof(transformers-0.5.6.2) \

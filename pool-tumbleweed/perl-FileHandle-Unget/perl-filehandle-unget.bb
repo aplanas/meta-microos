@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(FileHandle::Unget) \
 perl(FileHandle::Unget::Tie) \
 perl-FileHandle-Unget"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

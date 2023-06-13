@@ -12,6 +12,7 @@ python-pygraphviz-doc(aarch-64) \
 python310-pygraphviz-doc \
 python311-pygraphviz-doc \
 python39-pygraphviz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

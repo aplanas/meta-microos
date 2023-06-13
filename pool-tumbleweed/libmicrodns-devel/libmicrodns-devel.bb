@@ -11,6 +11,7 @@ RPM_HASH = "8def85a309741f081f44ee77c6957941d5a2801d0fa4d769869b96f21ce316ad8f25
 RPROVIDES:${PN} += "libmicrodns-devel \
 libmicrodns-devel(aarch-64) \
 pkgconfig(microdns)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmicrodns1"
 

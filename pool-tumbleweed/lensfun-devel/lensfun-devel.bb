@@ -11,6 +11,7 @@ RPM_HASH = "a1c4f6a6b7fcedfbdfee358154adf63848bec5f941ba779e12ab53e6f3c0aac60e38
 RPROVIDES:${PN} += "lensfun-devel \
 lensfun-devel(aarch-64) \
 pkgconfig(lensfun)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lensfun-data \
 liblensfun1 \

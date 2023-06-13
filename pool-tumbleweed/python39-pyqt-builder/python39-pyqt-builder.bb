@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(pyqt-builder) \
 python39-PyQt-builder \
 python39-pyqt-builder \
 python3dist(pyqt-builder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

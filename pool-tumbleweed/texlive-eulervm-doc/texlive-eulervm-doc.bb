@@ -9,6 +9,7 @@ RPM_HASH = "fe4ff27656ff09173c8c1f58297cd9d4ba4467cfae74567cfdb04367956d07a7c009
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eulervm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

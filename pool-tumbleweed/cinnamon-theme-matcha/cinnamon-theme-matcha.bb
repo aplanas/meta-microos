@@ -11,6 +11,7 @@ RPM_HASH = "ebaa4430f5b84a46650c93815a11e6a60a1ca36cb0e2382fcaa9e720039e0cae900e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-theme-matcha"
+
 RDEPENDS:${PN} += "cinnamon \
 metatheme-matcha-common"
 

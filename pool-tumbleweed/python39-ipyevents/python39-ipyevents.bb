@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipyevents) \
 python39-ipyevents \
 python3dist(ipyevents)"
+
 RDEPENDS:${PN} += "jupyter-ipyevents \
 python(abi) \
 python39-ipywidgets"

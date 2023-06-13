@@ -13,6 +13,7 @@ mvn(org.apache.maven.plugin-testing:maven-plugin-testing-harness) \
 mvn(org.apache.maven.plugin-testing:maven-plugin-testing-harness:pom:) \
 mvn(org.apache.maven.shared:maven-plugin-testing-harness) \
 mvn(org.apache.maven.shared:maven-plugin-testing-harness:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

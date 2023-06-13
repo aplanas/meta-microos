@@ -9,6 +9,7 @@ RPM_HASH = "bc0c3f330c00a7a623a29950654b61ad5df17d2e339916111f5948aef7197d0dfebc
 
 RPROVIDES:${PN} += "qemu-chardev-spice \
 qemu-chardev-spice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

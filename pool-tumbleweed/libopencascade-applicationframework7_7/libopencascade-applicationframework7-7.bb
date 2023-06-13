@@ -25,6 +25,7 @@ libTKXmlL.so.7.7()(64bit) \
 libTKXmlTObj.so.7.7()(64bit) \
 libopencascade-applicationframework7_7 \
 libopencascade-applicationframework7_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-marshmallow-doc \
 python-marshmallow-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

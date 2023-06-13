@@ -14,6 +14,7 @@ python3-git-pw \
 python3.10dist(git-pw) \
 python310-git-pw \
 python3dist(git-pw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \

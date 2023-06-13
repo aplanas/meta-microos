@@ -11,6 +11,7 @@ RPM_HASH = "4b31cb3895485501f305c05c88520f2ab5f1f86ff9302730ef271de6d143add3b02d
 RPROVIDES:${PN} += "pkgconfig(pyldb-util.cpython-310-aarch64-linux-gnu) \
 python3-ldb-devel \
 python3-ldb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconf-pkg-config \
 pkgconfig(ldb) \

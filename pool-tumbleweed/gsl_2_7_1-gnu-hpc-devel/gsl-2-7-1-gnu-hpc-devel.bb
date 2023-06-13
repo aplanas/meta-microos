@@ -16,6 +16,7 @@ RPM_HASH = "ae98fe6d13071ad4e387622d2ae054c15046318bb61efae686c834d369678cfd7a04
 
 RPROVIDES:${PN} += "gsl_2_7_1-gnu-hpc-devel \
 gsl_2_7_1-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \

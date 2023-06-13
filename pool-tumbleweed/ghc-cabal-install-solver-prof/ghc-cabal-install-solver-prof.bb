@@ -10,6 +10,7 @@ RPM_HASH = "ad29d9b05ff09b53a9bfc6ba2cd3b2e1903b1fed377753e0bcacf96757db38293545
 RPROVIDES:${PN} += "ghc-cabal-install-solver-prof \
 ghc-cabal-install-solver-prof(aarch-64) \
 ghc-prof(cabal-install-solver-3.8.1.0-IpM66GQ0mvV3BDvTXL2kvp)"
+
 RDEPENDS:${PN} += "ghc-cabal-install-solver-devel \
 ghc-prof(Cabal-3.8.1.0) \
 ghc-prof(Cabal-syntax-3.8.1.0) \

@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:celluloid) \
 rubygem(ruby:3.2.0:celluloid:0) \
 rubygem(ruby:3.2.0:celluloid:0.18) \
 rubygem(ruby:3.2.0:celluloid:0.18.0)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi) \
 rubygem(ruby:3.2.0:timers)"

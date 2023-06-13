@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-saharaclient \
 python3.10dist(python-saharaclient) \
 python3dist(python-saharaclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-Babel \
 python3-keystoneauth1 \

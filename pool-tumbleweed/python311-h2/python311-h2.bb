@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(h2) \
 python311-h2 \
 python3dist(h2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-hpack \
 python311-hyperframe"

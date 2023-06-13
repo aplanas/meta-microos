@@ -13,6 +13,7 @@ RPM_HASH = "a832a7911b1a2c295b490ea5a8ce0bbeff67f1023c98e3a3ea2bc0a6b33bc351b73b
 RPROVIDES:${PN} += "libnk2-devel \
 libnk2-devel(aarch-64) \
 pkgconfig(libnk2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libnk2-1"

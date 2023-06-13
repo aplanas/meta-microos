@@ -25,6 +25,7 @@ RPM_HASH = "7c3e8338a63b9bcadfff460978364cc43215108e1fe4fb98b2bbd47b0e0036dda1f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-bag"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dask"
 

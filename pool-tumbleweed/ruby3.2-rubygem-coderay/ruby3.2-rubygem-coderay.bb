@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:coderay) \
 rubygem(ruby:3.2.0:coderay:1) \
 rubygem(ruby:3.2.0:coderay:1.1) \
 rubygem(ruby:3.2.0:coderay:1.1.3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

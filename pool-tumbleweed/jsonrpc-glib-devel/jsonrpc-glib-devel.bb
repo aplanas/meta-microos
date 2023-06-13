@@ -16,6 +16,7 @@ RPM_HASH = "3da978fc29c74173d7f9c56c3ab89ab46c9e19fb222f20fb8cfa914b2e97d0fc0a33
 RPROVIDES:${PN} += "jsonrpc-glib-devel \
 jsonrpc-glib-devel(aarch-64) \
 pkgconfig(jsonrpc-glib-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjsonrpc-glib-1_0-1 \
 pkgconfig(gio-2.0) \

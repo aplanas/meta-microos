@@ -10,6 +10,7 @@ RPM_HASH = "e70774e94a7de121f091303b06898e4eb1952d2ebf5f33b5f017e5c5f18571223a23
 RPROVIDES:${PN} += "libical-glib-devel \
 libical-glib-devel(aarch-64) \
 pkgconfig(libical-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

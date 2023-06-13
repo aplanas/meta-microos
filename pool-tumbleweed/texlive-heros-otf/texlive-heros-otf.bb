@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(heros-otf.sty) \
 texlive-heros-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

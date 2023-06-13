@@ -10,6 +10,7 @@ RPM_HASH = "316130821fb283a48de28eddf8abb58aaf793ce7effd9bf10959e2e38f5b2baea67f
 RPROVIDES:${PN} += "ghc-gridtables-prof \
 ghc-gridtables-prof(aarch-64) \
 ghc-prof(gridtables-0.1.0.0-I8M3kz7LaeTJ8iEjDWUjrS)"
+
 RDEPENDS:${PN} += "ghc-gridtables-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-debreach \
 python3.10dist(django-debreach) \
 python310-django-debreach \
 python3dist(django-debreach)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

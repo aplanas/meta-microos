@@ -93,6 +93,7 @@ locale(capnet-assist:zh) \
 locale(capnet-assist:zh_CN) \
 locale(capnet-assist:zh_HK) \
 locale(capnet-assist:zh_TW)"
+
 RDEPENDS:${PN} += "capnet-assist"
 
 inherit rpm

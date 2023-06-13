@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-milog-doc:de) \
 texlive-milog-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -33,6 +33,7 @@ tex(ursfs.fd) \
 tex(ustmary.fd) \
 tex(young.sty) \
 texlive-jknapltx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

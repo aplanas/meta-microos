@@ -35,6 +35,7 @@ RPM_HASH = "a60ef89e0d07b7d76f1bf5e1d6158c1ffe6f766c0f583d5885204f8512450aa6e00b
 
 RPROVIDES:${PN} += "qemacs \
 qemacs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

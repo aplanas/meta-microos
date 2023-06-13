@@ -11,6 +11,7 @@ RPM_HASH = "893cebf1c035c83dc7b8067629485b0feb4612e94c83f990100e22a78d6caa0ae1ff
 
 RPROVIDES:${PN} += "mozc \
 mozc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "989efeebcab2cbad86612b65a93a478549f0eb4256d4bcaf72f6ac06f292c4e182c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tufte-latex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

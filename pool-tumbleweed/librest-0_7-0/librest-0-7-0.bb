@@ -21,6 +21,7 @@ librest-0_7-0 \
 librest-0_7-0(aarch-64) \
 librest-extras-0.7.so.0()(64bit) \
 librest0"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

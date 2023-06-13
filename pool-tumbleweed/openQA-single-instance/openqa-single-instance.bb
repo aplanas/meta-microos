@@ -9,6 +9,7 @@ RPM_HASH = "0a3681ae5d57c202996fa67f02ed04ef21a5f9037c0e44195cf1312a7d7229972bd6
 
 RPROVIDES:${PN} += "openQA-single-instance \
 openQA-single-instance(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 openQA \
 openQA-local-db \

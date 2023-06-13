@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 xfwm4-theme-dracula"
+
 RDEPENDS:${PN} += "metatheme-dracula-common \
 xfwm4"
 

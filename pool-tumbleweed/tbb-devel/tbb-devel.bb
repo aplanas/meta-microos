@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(TBB) \
 pkgconfig(tbb) \
 tbb-devel \
 tbb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 c++_compiler \
 libirml1 \

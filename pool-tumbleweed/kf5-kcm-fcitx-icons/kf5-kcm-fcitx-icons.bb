@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "fcitx-config-kde5-icons \
 fcitx-kcm-icons \
 kf5-kcm-fcitx-icons"
+
 RDEPENDS:${PN} += "kf5-kcm-fcitx"
 
 inherit rpm

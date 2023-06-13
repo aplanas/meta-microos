@@ -10,6 +10,7 @@ RPM_HASH = "624d00102796bfbf028d59af64d0b8f9eeed2d61df24535e60490438438fe2c45402
 
 RPROVIDES:${PN} += "gvfs-backends \
 gvfs-backends(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gvfs \
 ld-linux-aarch64.so.1()(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-gast \
 python3.10dist(gast) \
 python310-gast \
 python3dist(gast)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

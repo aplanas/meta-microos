@@ -22,6 +22,7 @@ perl(Net::Daemon::Test) \
 perl(Net::Daemon::Test::Fork) \
 perl(Net::Daemon::Test::Win32) \
 perl-Net-Daemon"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Sys::Syslog)"
 

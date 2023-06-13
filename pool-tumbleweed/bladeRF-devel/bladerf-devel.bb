@@ -11,6 +11,7 @@ RPM_HASH = "2bc3e30ed482ea9be17c13c7d9029b39ae7b20bbd53c241e174b7deb81d9fa74823a
 RPROVIDES:${PN} += "bladeRF-devel \
 bladeRF-devel(aarch-64) \
 pkgconfig(libbladeRF)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbladeRF2"
 

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tar-backup-scripts) \
 tar-backup-scripts"
+
 RDEPENDS:${PN} += "/bin/sh \
 tar"
 

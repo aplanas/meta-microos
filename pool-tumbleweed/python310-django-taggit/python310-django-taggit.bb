@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-taggit \
 python3.10dist(django-taggit) \
 python310-django-taggit \
 python3dist(django-taggit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

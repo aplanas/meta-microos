@@ -9,6 +9,7 @@ RPM_HASH = "ba9bb1d2d9d1a5f01b5a50f4eb411413079752651353752d724d8a22577e348bf845
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfido2-udev"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -15,6 +15,7 @@ mvn(com.google.inject.extensions:guice-jmx:pom:) \
 mvn(org.sonatype.sisu.inject:guice-jmx) \
 mvn(org.sonatype.sisu.inject:guice-jmx:pom:) \
 osgi(com.google.inject.tools.jmx)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

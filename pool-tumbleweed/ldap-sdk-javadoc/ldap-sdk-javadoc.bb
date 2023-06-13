@@ -9,6 +9,7 @@ RPM_HASH = "1b05b6e1257865bb508a9f4036580bfb309c6c3b358a14259e502e40971e1a3cd503
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldap-sdk-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

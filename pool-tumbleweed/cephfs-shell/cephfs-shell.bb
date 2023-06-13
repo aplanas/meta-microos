@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cephfs-shell \
 cephfs-shell(aarch-64) \
 python3.10dist(cephfs-shell) \
 python3dist(cephfs-shell)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-cephfs \
 python3-cmd2 \

@@ -10,6 +10,7 @@ RPM_HASH = "b46712ea425e3b38426c08fe6b54a57d7f33d5c34c675a17d5f58f3a036d7f6fbbf0
 RPROVIDES:${PN} += "ghc-prof(splitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe) \
 ghc-splitmix-prof \
 ghc-splitmix-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-splitmix-devel"

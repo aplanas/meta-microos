@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(easy-rsa) \
 easy-rsa"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

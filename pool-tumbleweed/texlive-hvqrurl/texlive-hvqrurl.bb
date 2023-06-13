@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hvqrurl.sty) \
 texlive-hvqrurl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

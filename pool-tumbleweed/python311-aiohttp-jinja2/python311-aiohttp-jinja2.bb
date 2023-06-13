@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiohttp-jinja2) \
 python311-aiohttp-jinja2 \
 python3dist(aiohttp-jinja2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Jinja2 \
 python311-aiohttp"

@@ -9,6 +9,7 @@ RPM_HASH = "30c2553302abdc18fcb15353479eefc6dc756b553df7789578ab2ac27d2db8b0079b
 
 RPROVIDES:${PN} += "xditview \
 xditview(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

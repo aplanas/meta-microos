@@ -37,6 +37,7 @@ tex(bguq10t10.tfm) \
 tex(bguq10t11.tfm) \
 tex(bguq10t12.tfm) \
 texlive-bguq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

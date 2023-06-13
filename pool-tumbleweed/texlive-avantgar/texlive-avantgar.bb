@@ -159,6 +159,7 @@ tex(uagro8r.tfm) \
 tex(uagro8t.tfm) \
 tex(uagro8t.vf) \
 texlive-avantgar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

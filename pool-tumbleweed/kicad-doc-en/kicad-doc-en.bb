@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-en \
 locale(kicad-doc:en)"
+
 RDEPENDS:${PN} += "kicad \
 kicad-doc"
 

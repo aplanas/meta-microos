@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(zc.buildout) \
 python311-zc.buildout \
 python311-zc_buildout \
 python3dist(zc.buildout)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

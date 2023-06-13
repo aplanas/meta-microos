@@ -131,6 +131,7 @@ tex(a_vqpkf5.enc) \
 tex(a_zrxj4s.enc) \
 tex(cascadia-code.sty) \
 texlive-cascadia-code"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

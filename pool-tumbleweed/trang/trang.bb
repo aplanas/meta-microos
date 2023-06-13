@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "mvn(com.thaiopensource:trang) \
 mvn(org.relaxng:trang) \
 mvn(org.relaxng:trang:pom:) \
 trang"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

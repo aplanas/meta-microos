@@ -16,6 +16,7 @@ hylafax \
 hylafax+ \
 hylafax+(aarch-64) \
 libfaxserver.so.7.0.7()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gawk \
 ghostscript \

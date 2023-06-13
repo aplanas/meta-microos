@@ -11,6 +11,7 @@ RPM_HASH = "6fc074656d85742ac393b716394ad2d6c08bfcbb07d4c2f137f90cd728341b080838
 RPROVIDES:${PN} += "libdbi-devel \
 libdbi-devel(aarch-64) \
 pkgconfig(dbi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbi3"
 

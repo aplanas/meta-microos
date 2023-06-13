@@ -70,6 +70,7 @@ locale(polkit-kde-agent-5:zh_CN) \
 locale(polkit-kde-agent-5:zh_TW) \
 polkit-kde-agent-5-lang \
 polkit-kde-agent-5-lang-all"
+
 RDEPENDS:${PN} += "polkit-kde-agent-5"
 
 inherit rpm

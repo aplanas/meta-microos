@@ -10,6 +10,7 @@ RPM_HASH = "679fde6ec67dd9553028d3a74df0ea1fc382762310aeb567523674d5981e11afc721
 
 RPROVIDES:${PN} += "pam-test \
 pam-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

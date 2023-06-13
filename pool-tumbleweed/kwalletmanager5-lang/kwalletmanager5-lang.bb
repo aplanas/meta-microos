@@ -79,6 +79,7 @@ locale(kwalletmanager5:uk) \
 locale(kwalletmanager5:vi) \
 locale(kwalletmanager5:zh_CN) \
 locale(kwalletmanager5:zh_TW)"
+
 RDEPENDS:${PN} += "kwalletmanager5"
 
 inherit rpm

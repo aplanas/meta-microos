@@ -13,6 +13,7 @@ RPM_HASH = "1aa470ddf5bf1d856dee344f730b2f663f9d6c189d9d31ce6a68e6db5e414a28e682
 
 RPROVIDES:${PN} += "rrdtool-cached \
 rrdtool-cached(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -11,6 +11,7 @@ RPM_HASH = "1b13f9a96b09bd6bf165ee02c5f00961aca839ee8d5fe8975b88bac2a056aff84ee0
 RPROVIDES:${PN} += "libykcs11-devel \
 libykcs11-devel(aarch-64) \
 pkgconfig(ykcs11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libykcs11-2"
 

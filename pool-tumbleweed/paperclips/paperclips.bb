@@ -9,6 +9,7 @@ RPM_HASH = "0f42fb32faaaa80cbe2e234fe6b9d09f1e719332d9b64054dbc84c2858eec7fd0350
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paperclips"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "11f7a3f382bfd49b46a3deb93d01aa21d7aeb16c6c645ffc259400551a1b9cb14af6
 
 RPROVIDES:${PN} += "znc-tcl \
 znc-tcl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

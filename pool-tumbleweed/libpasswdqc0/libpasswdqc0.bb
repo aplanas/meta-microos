@@ -12,6 +12,7 @@ RPM_HASH = "41d8b286dd2e01957841a01ed40e818601a71016077a5cb5fbcf668d2df52dc9c28d
 RPROVIDES:${PN} += "libpasswdqc.so.0()(64bit) \
 libpasswdqc0 \
 libpasswdqc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "5724a954c3abde58655ed5ef3008a7b6281debfc074a87a816dfb045957a899f212b
 
 RPROVIDES:${PN} += "qt6-uitools-private-devel \
 qt6-uitools-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6UiTools)"
 
 inherit rpm

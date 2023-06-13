@@ -237,6 +237,7 @@ tex(waree_bo.vf) \
 tex(waree_o.tfm) \
 tex(waree_o.vf) \
 texlive-fonts-tlwg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

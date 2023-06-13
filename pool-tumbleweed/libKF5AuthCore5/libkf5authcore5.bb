@@ -10,6 +10,7 @@ RPM_HASH = "5a5e13c79875e5253a280004a23797a077311829459944107795f6ee99e25e5c965a
 RPROVIDES:${PN} += "libKF5AuthCore.so.5()(64bit) \
 libKF5AuthCore5 \
 libKF5AuthCore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

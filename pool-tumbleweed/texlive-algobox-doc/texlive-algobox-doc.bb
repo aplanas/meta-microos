@@ -9,6 +9,7 @@ RPM_HASH = "89b4d0c8a1700a240e3695cc4588e343257fa13073afb3908041c08602271eb5af9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-algobox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

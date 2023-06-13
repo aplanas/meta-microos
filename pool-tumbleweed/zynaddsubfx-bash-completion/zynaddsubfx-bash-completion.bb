@@ -9,6 +9,7 @@ RPM_HASH = "86aee90d135ac9c50149c21d01c3d47e08684e1349dad42e9094b93bff2f6f4b7c26
 
 RPROVIDES:${PN} += "zynaddsubfx-bash-completion \
 zynaddsubfx-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash \
 zynaddsubfx"
 

@@ -11,6 +11,7 @@ RPM_HASH = "8bfb6482090981e6d946dec763b617f66f5d25e2b664a9cd7d2ad5deb317696a4364
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tclap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "15f24e5e9e066cbc422822027ba5b9d01eb6b134fbcf23ae18fa0427cab27b0bd068
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scirenderer-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

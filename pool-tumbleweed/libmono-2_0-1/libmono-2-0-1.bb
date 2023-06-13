@@ -15,6 +15,7 @@ RPM_HASH = "8b7d59adf21d7a875a1da28f39473bf1ef3f856e31381ad35bff3331a8a529a799ae
 
 RPROVIDES:${PN} += "libmono-2_0-1 \
 libmono-2_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libmonosgen-2_0-1"
 

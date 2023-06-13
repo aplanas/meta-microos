@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibraryoverlay-beamer-styles.code.tex) \
 texlive-aobs-tikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

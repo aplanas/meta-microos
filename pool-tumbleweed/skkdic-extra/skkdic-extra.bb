@@ -9,6 +9,7 @@ RPM_HASH = "8e5d21d82b0e3e927227e487a4bf1114dbbf696c1927657e87db6a9a3090537b0cd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skkdic-extra"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

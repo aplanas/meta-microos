@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pilkit) \
 python311-pilkit \
 python3dist(pilkit)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

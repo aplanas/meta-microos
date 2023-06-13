@@ -18,6 +18,7 @@ metainfo() \
 metainfo(lonote.appdata.xml) \
 python3.10dist(lonote) \
 python3dist(lonote)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-dbm \

@@ -14,6 +14,7 @@ ksnakeduel(aarch-64) \
 ksnakeduel5 \
 metainfo() \
 metainfo(org.kde.ksnakeduel.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \

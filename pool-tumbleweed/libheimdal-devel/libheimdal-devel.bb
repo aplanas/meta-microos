@@ -18,6 +18,7 @@ RPM_HASH = "f2ccf18840e1b66642c86c7abc17fb1340a0f5189c1a0d48d642d36ffa00bac2664e
 RPROVIDES:${PN} += "libheimdal \
 libheimdal-devel \
 libheimdal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "db-devel \
 glibc-devel \
 libasn1-8 \

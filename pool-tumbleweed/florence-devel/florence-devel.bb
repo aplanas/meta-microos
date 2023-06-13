@@ -11,6 +11,7 @@ RPM_HASH = "e052a440b30998a0cd3afa557ae7eb88b70b8b0f101efedeacbd36a9ba7520b64296
 RPROVIDES:${PN} += "florence-devel \
 florence-devel(aarch-64) \
 pkgconfig(florence-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 florence \
 pkgconfig(gio-2.0)"

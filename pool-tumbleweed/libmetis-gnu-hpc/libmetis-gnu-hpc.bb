@@ -11,6 +11,7 @@ RPM_HASH = "2ca96c8cc887331c2d02ab77ac5f53b31bd7a2773f5ef5eb796e37d50c720dcda26a
 
 RPROVIDES:${PN} += "libmetis-gnu-hpc \
 libmetis-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libmetis_5_1_0-gnu-hpc"
 

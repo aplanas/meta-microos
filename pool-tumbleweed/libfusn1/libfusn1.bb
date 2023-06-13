@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libfusn.so.1()(64bit) \
 libfusn.so.1(V_20220119)(64bit) \
 libfusn1 \
 libfusn1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcerror.so.1()(64bit) \

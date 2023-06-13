@@ -10,6 +10,7 @@ RPM_HASH = "8465638e64799022f428463bb4402cca25159553142d7a23528898e282b23b3bf930
 RPROVIDES:${PN} += "cblas \
 cblas-devel \
 cblas-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcblas3"
 
 inherit rpm

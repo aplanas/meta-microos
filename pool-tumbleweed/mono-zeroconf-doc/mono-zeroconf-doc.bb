@@ -19,6 +19,7 @@ RPM_HASH = "6a46e6085b7ab7e82c25c651ca6578f009e8c8814dad25184130ea012fe0c1eed7e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-zeroconf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

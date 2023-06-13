@@ -878,6 +878,7 @@ tex(etbb_yziesh.enc) \
 tex(etbb_yzoycr.enc) \
 tex(etbb_zpkt7y.enc) \
 texlive-etbb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ged4py \
 python3.10dist(ged4py) \
 python310-ged4py \
 python3dist(ged4py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ansel"
 

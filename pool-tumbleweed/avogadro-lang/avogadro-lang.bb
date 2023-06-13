@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avogadro-lang \
 avogadro-lang-all"
+
 RDEPENDS:${PN} += "avogadro"
 
 inherit rpm

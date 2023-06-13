@@ -35,6 +35,7 @@ locale(kasts:tr) \
 locale(kasts:uk) \
 locale(kasts:zh_CN) \
 locale(kasts:zh_TW)"
+
 RDEPENDS:${PN} += "kasts"
 
 inherit rpm

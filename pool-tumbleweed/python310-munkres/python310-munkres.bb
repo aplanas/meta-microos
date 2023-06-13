@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-munkres \
 python3.10dist(munkres) \
 python310-munkres \
 python3dist(munkres)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

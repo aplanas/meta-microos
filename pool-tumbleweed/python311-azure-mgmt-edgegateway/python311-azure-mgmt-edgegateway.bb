@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-edgegateway) \
 python311-azure-mgmt-edgegateway \
 python3dist(azure-mgmt-edgegateway)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-nspkg \

@@ -110,6 +110,7 @@ libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.0)(64bit) \
 libtelepathy-glib.so.0(TELEPATHY_GLIB_0.9.2)(64bit) \
 libtelepathy-glib0 \
 libtelepathy-glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

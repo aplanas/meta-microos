@@ -10,6 +10,7 @@ RPM_HASH = "6cf852d746d35e98ef70bc38d1519713af715c86b6db74bd699bac2e6854d0f899e0
 RPROVIDES:${PN} += "ghc-prof(type-equality-1-FqVAbwBXnIKCXHvrA6xdY8) \
 ghc-type-equality-prof \
 ghc-type-equality-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-type-equality-devel"
 

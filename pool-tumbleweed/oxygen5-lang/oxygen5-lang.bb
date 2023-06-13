@@ -89,6 +89,7 @@ locale(oxygen5:zh_CN) \
 locale(oxygen5:zh_TW) \
 oxygen5-lang \
 oxygen5-lang-all"
+
 RDEPENDS:${PN} += "oxygen5"
 
 inherit rpm

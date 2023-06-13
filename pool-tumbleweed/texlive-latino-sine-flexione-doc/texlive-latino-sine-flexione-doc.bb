@@ -9,6 +9,7 @@ RPM_HASH = "dbc19f174de9e1b3060c9db9148f2b21f29ba4003ff8007f551e8fbe46b11122c733
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latino-sine-flexione-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

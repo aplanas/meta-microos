@@ -13,6 +13,7 @@ RPM_HASH = "7af79f1043a3b011d79a836735821445a8d24bad89c33fef20d70e25b7b298c43206
 RPROVIDES:${PN} += "libumockdev.so.0()(64bit) \
 libumockdev0 \
 libumockdev0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

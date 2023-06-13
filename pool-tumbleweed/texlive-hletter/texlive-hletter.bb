@@ -21,6 +21,7 @@ tex(hletter.cls) \
 tex(hsetup.sty) \
 tex(mergeh.sty) \
 texlive-hletter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

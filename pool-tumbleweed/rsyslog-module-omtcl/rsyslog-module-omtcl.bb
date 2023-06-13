@@ -12,6 +12,7 @@ RPM_HASH = "6d2d9012969be4caa1ab8196ca6051e5b33893998b12a440feb7e7f8546eca99895c
 
 RPROVIDES:${PN} += "rsyslog-module-omtcl \
 rsyslog-module-omtcl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

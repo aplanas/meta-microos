@@ -12,6 +12,7 @@ RPM_HASH = "b27dd8f8404fd841ba5d5768599d215f6a892e32e8f136e64184e6bda233fe750070
 RPROVIDES:${PN} += "postgresql-test-implementation \
 postgresql13-test \
 postgresql13-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "57ddbfaff77c67474ea44afb6b5838468c4938bf950f96433bab129e209b7b894d14
 
 RPROVIDES:${PN} += "mimic \
 mimic(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

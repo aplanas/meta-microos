@@ -9,6 +9,7 @@ RPM_HASH = "b8ad8938e2bc53b613eae3a6522be1de84993416008c2122bd9bcc669291e85c96f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfreehand-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

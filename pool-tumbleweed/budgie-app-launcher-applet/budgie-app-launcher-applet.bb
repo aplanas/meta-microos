@@ -9,6 +9,7 @@ RPM_HASH = "3cf83efe9264a2358ed96cf63da6d88b412e59b31375fe698e198102f27976ff7bc9
 
 RPROVIDES:${PN} += "budgie-app-launcher-applet \
 budgie-app-launcher-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 typelib(Budgie) \

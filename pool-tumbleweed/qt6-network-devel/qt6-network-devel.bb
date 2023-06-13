@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Network) \
 pkgconfig(Qt6Network) \
 qt6-network-devel \
 qt6-network-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Network6 \

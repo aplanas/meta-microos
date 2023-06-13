@@ -9,6 +9,7 @@ RPM_HASH = "52728a9d54ac0a413da0cae6e87ea3080b18e71cf701586095b563ab0e34b7e509db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-osmosdr-doc"
+
 RDEPENDS:${PN} += "gr-osmosdr"
 
 inherit rpm

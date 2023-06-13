@@ -58,6 +58,7 @@ locale(gtk-vnc:uk) \
 locale(gtk-vnc:zh_CN) \
 locale(gtk-vnc:zh_HK) \
 locale(gtk-vnc:zh_TW)"
+
 RDEPENDS:${PN} += "gtk-vnc"
 
 inherit rpm

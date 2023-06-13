@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(astrosym.tfm) \
 texlive-astro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

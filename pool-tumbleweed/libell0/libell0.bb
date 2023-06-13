@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libell.so.0()(64bit) \
 libell.so.0(ELL_0.56)(64bit) \
 libell0 \
 libell0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

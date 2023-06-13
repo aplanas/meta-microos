@@ -17,6 +17,7 @@ RPM_HASH = "989ca77c410519c714d5db612eb7f0942cf2caf775d7fc0548ec977a34f70a4f4024
 
 RPROVIDES:${PN} += "premake4 \
 premake4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

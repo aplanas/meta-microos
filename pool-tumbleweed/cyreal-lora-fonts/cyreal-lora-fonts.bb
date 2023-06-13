@@ -18,6 +18,7 @@ RPM_HASH = "b87180ecb6ff874e20ec332baccb79b58b77d8a7fab8a539615b732c9c5500b89402
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-lora-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

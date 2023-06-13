@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mocket) \
 python39-mocket \
 python3dist(mocket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-decorator \
 python39-httptools \

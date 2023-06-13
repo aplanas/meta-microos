@@ -43,6 +43,7 @@ tex(xob-lwarp.sty) \
 tex(xob-paralist.sty) \
 tex(xoblivoir.cls) \
 texlive-kotex-oblivoir"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

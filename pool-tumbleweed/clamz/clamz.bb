@@ -16,6 +16,7 @@ application(clamz.desktop) \
 clamz \
 clamz(aarch-64) \
 mimehandler(audio/x-amzxml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

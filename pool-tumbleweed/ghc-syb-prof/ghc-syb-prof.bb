@@ -10,6 +10,7 @@ RPM_HASH = "07cf6792bc88e2e3feae7c079f6ab1fa01b9c7f24059560e96861780ee443b616ac6
 RPROVIDES:${PN} += "ghc-prof(syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i) \
 ghc-syb-prof \
 ghc-syb-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-syb-devel"
 

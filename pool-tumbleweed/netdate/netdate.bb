@@ -18,6 +18,7 @@ RPM_HASH = "bc69b3bffc2cf19dfd27602c62c84c010496d7e01e71e711e944fd15be55b2bf3035
 RPROVIDES:${PN} += "netdate \
 netdate(aarch-64) \
 nkitb:/usr/sbin/netdate"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

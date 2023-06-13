@@ -15,6 +15,7 @@ python-pycairo-common-devel \
 python2-cairo-common-devel \
 python2-pycairo-common-devel \
 python2-pycairo-common-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cairo-devel"
 
 inherit rpm

@@ -22,6 +22,7 @@ libospgrove.so.0()(64bit) \
 libostyle.so.0()(64bit) \
 openjade \
 openjade(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
 ld-linux-aarch64.so.1()(64bit) \

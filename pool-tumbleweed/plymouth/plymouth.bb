@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "bootsplash \
 plymouth \
 plymouth(aarch-64) \
 systemd-plymouth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

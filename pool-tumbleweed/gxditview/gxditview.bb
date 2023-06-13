@@ -12,6 +12,7 @@ RPM_HASH = "7f9fae3f9d3c017bfa39636bdcc13f4fe5bb53790248ea5e7f0929e7dfc82ee6facd
 RPROVIDES:${PN} += "gxditview \
 gxditview(aarch-64) \
 gxdview"
+
 RDEPENDS:${PN} += "groff-full \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

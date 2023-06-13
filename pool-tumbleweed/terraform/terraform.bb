@@ -11,6 +11,7 @@ RPM_HASH = "e7b9b50a13e22e8b29de4d4e168049f30289d81adfae434d0aba34b2ef6d048bc231
 
 RPROVIDES:${PN} += "terraform \
 terraform(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

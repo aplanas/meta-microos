@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-uvicorn \
 python3.10dist(uvicorn) \
 python310-uvicorn \
 python3dist(uvicorn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

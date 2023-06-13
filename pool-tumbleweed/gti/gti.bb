@@ -11,6 +11,7 @@ RPM_HASH = "bf5c0847284e3fb1b8460f001156f2529953494f6a921836fa77f9bdcdd34dd7bf78
 
 RPROVIDES:${PN} += "gti \
 gti(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

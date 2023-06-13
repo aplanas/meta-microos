@@ -16,6 +16,7 @@ tex(hyph-fur.tex) \
 tex(hyph-quote-fur.tex) \
 tex(loadhyph-fur.tex) \
 texlive-hyphen-friulan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

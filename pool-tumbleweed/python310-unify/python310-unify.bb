@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-unify \
 python3.10dist(unify) \
 python310-unify \
 python3dist(unify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

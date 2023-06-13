@@ -25,6 +25,7 @@ RPM_HASH = "4c1047bb0b3637e8780278cd26acbe6febb2a2cf63bd4110cfedcd635ab5bbbf8bb2
 RPROVIDES:${PN} += "ghc-brick \
 ghc-brick(aarch-64) \
 libHSbrick-1.6-LMplG6IsGlb3C6L6NTrgWE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \

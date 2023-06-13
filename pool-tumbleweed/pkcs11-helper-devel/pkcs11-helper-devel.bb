@@ -14,6 +14,7 @@ RPM_HASH = "a227cc09b66fab1b125462aac564a6a8e89d45cc91069a824070186895f452eb1ac9
 RPROVIDES:${PN} += "pkcs11-helper-devel \
 pkcs11-helper-devel(aarch-64) \
 pkgconfig(libpkcs11-helper-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkcs11-helper \
 pkgconfig(openssl)"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "frozen-bubble-lang \
 frozen-bubble-lang-all"
+
 RDEPENDS:${PN} += "frozen-bubble"
 
 inherit rpm

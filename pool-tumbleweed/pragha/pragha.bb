@@ -62,6 +62,7 @@ mimehandler(audio/x-wav) \
 mimehandler(video/x-ms-asf) \
 pragha \
 pragha(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \

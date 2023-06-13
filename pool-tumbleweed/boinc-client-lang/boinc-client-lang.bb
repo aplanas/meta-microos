@@ -40,6 +40,7 @@ locale(boinc-client:tr) \
 locale(boinc-client:uk) \
 locale(boinc-client:zh_CN) \
 locale(boinc-client:zh_TW)"
+
 RDEPENDS:${PN} += "boinc-client"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tkz-graph-doc:fr) \
 texlive-tkz-graph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

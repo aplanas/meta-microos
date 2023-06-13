@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rb-fsevent) \
 rubygem(ruby:3.2.0:rb-fsevent:0) \
 rubygem(ruby:3.2.0:rb-fsevent:0.11) \
 rubygem(ruby:3.2.0:rb-fsevent:0.11.2)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -27,6 +27,7 @@ locale(pidgin-plugin-birthday-reminder:ta) \
 locale(pidgin-plugin-birthday-reminder:tr) \
 pidgin-plugin-birthday-reminder-lang \
 pidgin-plugin-birthday-reminder-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-birthday-reminder"
 
 inherit rpm

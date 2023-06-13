@@ -9,6 +9,7 @@ RPM_HASH = "a140302fe89727f2b2bddff50260ed5bac746e3d19507c1099e245fdbad3684854d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-euclideangeometry-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "ec8da508b6510c1819109708a088c8105d7a827f8caf4044d7ccf18b70010cd247ba
 
 RPROVIDES:${PN} += "wesnoth-campaign-server \
 wesnoth-campaign-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_coroutine.so.1.82.0()(64bit) \

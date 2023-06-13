@@ -12,6 +12,7 @@ RPM_HASH = "e4ff6981d5de709293e1c82b84fe8735ed7652b76961588e5b8dfa3733fda7ad8bea
 RPROVIDES:${PN} += "cmake(KF5NewStuff) \
 knewstuff-devel \
 knewstuff-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5NewStuffQuick) \
 cmake(KF5Service) \
 cmake(KF5XmlGui) \

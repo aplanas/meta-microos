@@ -12,6 +12,7 @@ RPM_HASH = "8301c043ed12ed6b1eb3e8f0ae15e31a57b9748446db73cf209cc4651e727380ae93
 
 RPROVIDES:${PN} += "systemtap-headers \
 systemtap-headers(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

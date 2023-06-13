@@ -9,6 +9,7 @@ RPM_HASH = "88e523cc86c48dab70e9e365365f0a61e898df5c2953b23802f770ade510cfbe1690
 
 RPROVIDES:${PN} += "keybinder-lua \
 keybinder-lua(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libkeybinder.so.0()(64bit) \
 libkeybinder0"

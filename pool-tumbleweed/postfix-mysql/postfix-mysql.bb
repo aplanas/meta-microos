@@ -13,6 +13,7 @@ group(vmail) \
 postfix-mysql \
 postfix-mysql(aarch-64) \
 user(vmail)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \

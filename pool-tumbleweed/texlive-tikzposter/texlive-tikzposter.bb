@@ -21,6 +21,7 @@ tex(tikzposterLayoutthemes.tex) \
 tex(tikzposterNotestyles.tex) \
 tex(tikzposterTitlestyles.tex) \
 texlive-tikzposter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

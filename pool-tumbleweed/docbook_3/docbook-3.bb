@@ -12,6 +12,7 @@ RPM_HASH = "667835342236ef0e2aa9c01edffd83806cfbf1ae9e7f10a364091be9d9b3097dd32c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook_3"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog \
 /usr/bin/xmlcatalog \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ecdsa) \
 python311-ecdsa \
 python3dist(ecdsa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

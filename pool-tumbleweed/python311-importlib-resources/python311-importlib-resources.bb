@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.11dist(importlib-resources) \
 python311-importlib-resources \
 python311-importlib_resources \
 python3dist(importlib-resources)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

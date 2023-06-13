@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(skt.map) \
 texlive-sanskrit-t1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

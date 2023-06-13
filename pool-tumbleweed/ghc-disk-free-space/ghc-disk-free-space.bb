@@ -10,6 +10,7 @@ RPM_HASH = "c3cabd40065561878c4f2997500110e84f6b1746ee96ed49e11db1332773424cb2f4
 RPROVIDES:${PN} += "ghc-disk-free-space \
 ghc-disk-free-space(aarch-64) \
 libHSdisk-free-space-0.1.0.1-CGtWAgWYeLt876pNI1pHoX-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

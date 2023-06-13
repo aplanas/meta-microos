@@ -9,6 +9,7 @@ RPM_HASH = "978d73307d6986b81b4dede692a4cee14499360f12986cdd1534bfc25a0f00ba51ce
 
 RPROVIDES:${PN} += "nilfs-utils-devel \
 nilfs-utils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnilfs0"
 
 inherit rpm

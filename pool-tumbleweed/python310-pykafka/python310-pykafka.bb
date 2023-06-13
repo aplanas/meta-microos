@@ -21,6 +21,7 @@ python3.10dist(pykafka) \
 python310-pykafka \
 python310-pykafka(aarch-64) \
 python3dist(pykafka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

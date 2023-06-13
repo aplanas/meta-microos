@@ -15,6 +15,7 @@ NetworkManager-gnome \
 NetworkManager-gnome-lang \
 application() \
 application(nm-applet.desktop)"
+
 RDEPENDS:${PN} += "NetworkManager \
 dbus(org.freedesktop.secrets) \
 iso-codes \

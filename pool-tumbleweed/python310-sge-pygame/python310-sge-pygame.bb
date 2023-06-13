@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-sge-pygame \
 python3.10dist(sge) \
 python310-sge-pygame \
 python3dist(sge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pygame \
 python310-six \

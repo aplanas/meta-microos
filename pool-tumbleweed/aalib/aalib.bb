@@ -11,6 +11,7 @@ RPM_HASH = "54bee63310ee9f63e4c034c4db950b82d65b4bb5cf2f2efb7daad35d62e2cea946fc
 
 RPROVIDES:${PN} += "aalib \
 aalib(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

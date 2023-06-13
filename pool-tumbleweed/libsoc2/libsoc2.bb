@@ -14,6 +14,7 @@ RPM_HASH = "51dcebed731a938d23150f8847820c40ca9f26e855702f41f8d3ffe687aee2e15807
 RPROVIDES:${PN} += "libsoc.so.2()(64bit) \
 libsoc2 \
 libsoc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

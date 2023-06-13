@@ -11,6 +11,7 @@ RPM_HASH = "7f7775d31df48878e7830362823d33335ee63467f1f7e0a7f6d6eeb24f2bc227bc2d
 RPROVIDES:${PN} += "python-qtcharts-qt5-sip \
 python311-qtcharts-qt5-sip \
 python311-qtcharts-qt5-sip(aarch-64)"
+
 RDEPENDS:${PN} += "python311-qt5-devel"
 
 inherit rpm

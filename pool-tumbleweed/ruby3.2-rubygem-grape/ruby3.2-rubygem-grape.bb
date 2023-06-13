@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:grape) \
 rubygem(ruby:3.2.0:grape:1) \
 rubygem(ruby:3.2.0:grape:1.6) \
 rubygem(ruby:3.2.0:grape:1.6.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:builder) \

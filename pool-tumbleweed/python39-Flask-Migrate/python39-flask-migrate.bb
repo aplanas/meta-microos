@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-migrate) \
 python39-Flask-Migrate \
 python3dist(flask-migrate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-Flask-SQLAlchemy \

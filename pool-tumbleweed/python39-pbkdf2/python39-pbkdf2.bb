@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pbkdf2) \
 python39-pbkdf2 \
 python3dist(pbkdf2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pycrypto"
 

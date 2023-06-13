@@ -10,6 +10,7 @@ RPM_HASH = "0b2410d56c25241e4989e44c9c7b028b17f911b1ce62a1960c662f067f7703456cd3
 RPROVIDES:${PN} += "ghc-base-orphans-prof \
 ghc-base-orphans-prof(aarch-64) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8)"
+
 RDEPENDS:${PN} += "ghc-base-orphans-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(ghc-prim-0.9.0)"

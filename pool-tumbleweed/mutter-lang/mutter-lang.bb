@@ -93,6 +93,7 @@ locale(mutter:zh_HK) \
 locale(mutter:zh_TW) \
 mutter-lang \
 mutter-lang-all"
+
 RDEPENDS:${PN} += "mutter"
 
 inherit rpm

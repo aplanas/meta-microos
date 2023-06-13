@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(influxdb) \
 python311-influxdb \
 python311-influxdb(aarch-64) \
 python3dist(influxdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msgpack \
 python311-python-dateutil \

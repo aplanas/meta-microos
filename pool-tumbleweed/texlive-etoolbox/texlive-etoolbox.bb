@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(etoolbox.def) \
 tex(etoolbox.sty) \
 texlive-etoolbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

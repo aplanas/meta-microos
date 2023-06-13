@@ -14,6 +14,7 @@ RPM_HASH = "7540099020e066fc3e56313bc5ba51ffcbc7e5015c48202be15d1f560e82d4c18e48
 RPROVIDES:${PN} += "libXfontcache-devel \
 libXfontcache-devel(aarch-64) \
 pkgconfig(xfontcache)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXfontcache1 \
 pkgconfig(fontcacheproto) \

@@ -13,6 +13,7 @@ RPM_HASH = "09944c8114789e70919ec9374b3097f5aaca30ee334366026d2e8b7296f9d991651d
 
 RPROVIDES:${PN} += "dumb-devel-doc \
 dumb-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "5d02e01dd97c99f782df34f3c393f20775550b4a8edabfad0d25332899e2172edc15
 
 RPROVIDES:${PN} += "python311-pyliblo-doc \
 python311-pyliblo-doc(aarch-64)"
+
 RDEPENDS:${PN} += "python311-pyliblo"
 
 inherit rpm

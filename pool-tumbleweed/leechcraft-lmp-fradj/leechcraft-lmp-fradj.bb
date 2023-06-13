@@ -10,6 +10,7 @@ RPM_HASH = "e5edfcc8064abe020274bf487b67c9c4660c23bb75c7b08871ab452c0f12b04c3199
 RPROVIDES:${PN} += "leechcraft-lmp-fradj \
 leechcraft-lmp-fradj(aarch-64) \
 libleechcraft_lmp_fradj.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

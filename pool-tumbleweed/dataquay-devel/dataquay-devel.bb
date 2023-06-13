@@ -14,6 +14,7 @@ RPM_HASH = "4809e9ca39763affc466dc357ba3343e60ed227f5455f61480c9b185d158eaccebbe
 RPROVIDES:${PN} += "dataquay-devel \
 dataquay-devel(aarch-64) \
 pkgconfig(dataquay)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdataquay0"
 

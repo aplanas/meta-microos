@@ -9,6 +9,7 @@ RPM_HASH = "13d8785b412330c7eaac3a2318e012a3ca70582d7340e447c4b2471f33973f08e0d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-venndiagram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

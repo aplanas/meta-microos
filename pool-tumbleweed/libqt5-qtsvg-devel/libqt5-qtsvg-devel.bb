@@ -12,6 +12,7 @@ libQt5Svg-devel \
 libqt5-qtsvg-devel \
 libqt5-qtsvg-devel(aarch-64) \
 pkgconfig(Qt5Svg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Svg5 \
 pkgconfig(Qt5Core) \

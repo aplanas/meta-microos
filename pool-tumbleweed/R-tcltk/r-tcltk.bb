@@ -9,6 +9,7 @@ RPM_HASH = "71e3c7c3cff20ce9cadeb0b02d3cddf8d9c19709f9d29522fba27c4404af8a3dde92
 
 RPROVIDES:${PN} += "R-tcltk \
 R-tcltk(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-requests_ntlm \
 python3.10dist(requests-ntlm) \
 python310-requests_ntlm \
 python3dist(requests-ntlm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-pyspnego \

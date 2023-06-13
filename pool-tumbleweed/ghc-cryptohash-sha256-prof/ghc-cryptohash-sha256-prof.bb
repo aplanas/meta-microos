@@ -10,6 +10,7 @@ RPM_HASH = "883ec521be9ffae8ca27fb85daca175b5fdb85c610c0614bddaa2f8b5340a097decd
 RPROVIDES:${PN} += "ghc-cryptohash-sha256-prof \
 ghc-cryptohash-sha256-prof(aarch-64) \
 ghc-prof(cryptohash-sha256-0.11.102.1-Hqbk8cbDzn9JgCAqvbhMBD)"
+
 RDEPENDS:${PN} += "ghc-cryptohash-sha256-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0)"

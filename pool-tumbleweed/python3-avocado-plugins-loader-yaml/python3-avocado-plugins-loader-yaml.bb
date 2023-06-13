@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-avocado-plugins-loader-yaml \
 python3.10dist(avocado-framework-plugin-loader-yaml) \
 python3dist(avocado-framework-plugin-loader-yaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-avocado-plugins-varianter-yaml-to-mux"
 

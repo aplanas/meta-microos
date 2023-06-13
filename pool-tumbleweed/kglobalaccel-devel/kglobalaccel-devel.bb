@@ -12,6 +12,7 @@ RPM_HASH = "2859e0e2c1387dee70fcc5fb232077bc4137b4d0a4cfce030c6ab33bff71c39be8e5
 RPROVIDES:${PN} += "cmake(KF5GlobalAccel) \
 kglobalaccel-devel \
 kglobalaccel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5DBus) \
 cmake(Qt5Widgets) \
 extra-cmake-modules \

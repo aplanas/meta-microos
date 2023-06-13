@@ -10,6 +10,7 @@ RPM_HASH = "1d45ab446a9dad7efc0626e6298d983681de263b81be3bd376f355e8b1fbf57e0f76
 
 RPROVIDES:${PN} += "gzrt \
 gzrt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

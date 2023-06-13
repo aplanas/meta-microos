@@ -10,6 +10,7 @@ RPM_HASH = "cd32f3717b0f52458278a59de2171211e2de066fa2d5a71c2f231b41cd0537cf66c5
 RPROVIDES:${PN} += "girara-devel \
 girara-devel(aarch-64) \
 pkgconfig(girara-gtk3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgirara-gtk3-3 \
 pkgconfig(glib-2.0) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyopenal) \
 python311-PyOpenAL \
 python3dist(pyopenal)"
+
 RDEPENDS:${PN} += "libopenal1 \
 python(abi)"
 

@@ -30,6 +30,7 @@ RPM_HASH = "657571437b1d0b9fb71b902ef7abc8eb16ffd8e1e71a070021107388cbd853eb1d08
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dumpzilla"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-lz4 \
 python3-python-magic"

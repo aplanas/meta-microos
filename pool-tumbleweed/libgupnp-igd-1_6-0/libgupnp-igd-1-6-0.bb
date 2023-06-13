@@ -11,6 +11,7 @@ RPM_HASH = "f6b205db7d8d2bcca24ca6d80d61e24b7dea906014f6e6abda45338b6dee296dceae
 RPROVIDES:${PN} += "libgupnp-igd-1.6.so.0()(64bit) \
 libgupnp-igd-1_6-0 \
 libgupnp-igd-1_6-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

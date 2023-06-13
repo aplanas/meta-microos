@@ -15,6 +15,7 @@ RPM_HASH = "b5bece5ae317a9a9758fb1cfe389c3bf9e56f4f54bbbf40ef1ebfd75a22dff35315b
 
 RPROVIDES:${PN} += "mumps-openmpi1-devel-static-compat \
 mumps-openmpi1-devel-static-compat(aarch-64)"
+
 RDEPENDS:${PN} += "mumps-devel-static"
 
 inherit rpm

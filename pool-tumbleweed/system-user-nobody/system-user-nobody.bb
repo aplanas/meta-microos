@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "group(nobody) \
 group(nogroup) \
 system-user-nobody \
 user(nobody)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

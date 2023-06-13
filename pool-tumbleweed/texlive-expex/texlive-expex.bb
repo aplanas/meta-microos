@@ -18,6 +18,7 @@ tex(expex-demo.tex) \
 tex(expex.sty) \
 tex(expex.tex) \
 texlive-expex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

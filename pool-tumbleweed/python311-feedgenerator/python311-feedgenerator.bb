@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(feedgenerator) \
 python311-feedgenerator \
 python3dist(feedgenerator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-cors-headers \
 python3.10dist(django-cors-headers) \
 python310-django-cors-headers \
 python3dist(django-cors-headers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

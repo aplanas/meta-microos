@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "log4j-taglib \
 mvn(org.apache.logging.log4j:log4j-taglib) \
 mvn(org.apache.logging.log4j:log4j-taglib:pom:) \
 osgi(org.apache.logging.log4j.taglib)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.logging.log4j:log4j-api)"

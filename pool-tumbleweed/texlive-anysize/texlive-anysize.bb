@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(anysize.sty) \
 texlive-anysize"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

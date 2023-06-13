@@ -10,6 +10,7 @@ RPM_HASH = "600528a7563375aa768fa7a157bd2140e1051e3ecc3729b8a68f9be18231a2fa8b99
 RPROVIDES:${PN} += "budgie-network-manager-applet \
 budgie-network-manager-applet(aarch-64) \
 libnetworkapplet.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

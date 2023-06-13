@@ -10,6 +10,7 @@ RPM_HASH = "656d8c5649c586bd4b32b0948ecd61286ec5e23db9f9f942ba3d8d73589809f35306
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecothesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

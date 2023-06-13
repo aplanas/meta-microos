@@ -9,6 +9,7 @@ RPM_HASH = "9835df7b399d3f8ad3fed2aa1d8e5e37c3e7cb9078564fbd972101aacbf44d483c6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-supertab"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

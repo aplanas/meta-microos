@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libLTO.so.16()(64bit) \
 libLTO.so.16(LLVM_16)(64bit) \
 libLTO16 \
 libLTO16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

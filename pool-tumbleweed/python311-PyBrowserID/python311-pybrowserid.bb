@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pybrowserid) \
 python311-PyBrowserID \
 python3dist(pybrowserid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

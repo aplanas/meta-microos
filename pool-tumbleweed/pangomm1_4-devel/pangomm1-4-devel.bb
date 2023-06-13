@@ -10,6 +10,7 @@ RPM_HASH = "a6779ee3fafdee3f4a9ddfc4c3c39754dc695db9b3d7a369c71d1d41c1a97e9b5383
 RPROVIDES:${PN} += "pangomm1_4-devel \
 pangomm1_4-devel(aarch-64) \
 pkgconfig(pangomm-1.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpangomm-1_4-1 \
 pkgconfig(cairomm-1.0) \

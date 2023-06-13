@@ -35,6 +35,7 @@ locale(ghostwriter:tr) \
 locale(ghostwriter:uk) \
 locale(ghostwriter:zh_CN) \
 locale(ghostwriter:zh_TW)"
+
 RDEPENDS:${PN} += "ghostwriter"
 
 inherit rpm

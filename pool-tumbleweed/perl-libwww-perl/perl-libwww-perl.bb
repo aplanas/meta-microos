@@ -32,6 +32,7 @@ perl(LWP::RobotUA) \
 perl(LWP::Simple) \
 perl(LWP::UserAgent) \
 perl-libwww-perl"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Encode::Locale) \

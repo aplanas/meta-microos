@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiomisc \
 python3.10dist(aiomisc) \
 python310-aiomisc \
 python3dist(aiomisc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-colorlog \
 python310-logging-journald"

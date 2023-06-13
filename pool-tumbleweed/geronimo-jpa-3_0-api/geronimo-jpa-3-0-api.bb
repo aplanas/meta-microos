@@ -18,6 +18,7 @@ mvn(javax.persistence:persistence-api) \
 mvn(javax.persistence:persistence-api:pom:) \
 mvn(org.apache.geronimo.specs:geronimo-jpa_3.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jpa_3.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

@@ -26,6 +26,7 @@ perl(JSON::Validator::Store) \
 perl(JSON::Validator::URI) \
 perl(JSON::Validator::Util) \
 perl-JSON-Validator"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(Mojolicious) \

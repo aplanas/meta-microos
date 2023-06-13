@@ -11,6 +11,7 @@ RPM_HASH = "0e9ffdfad2aab9daadff61556b359dc26112e56459d0b0d08ff2a4ca2e1eeecbd535
 RPROVIDES:${PN} += "leechcraft-azoth-abbrev \
 leechcraft-azoth-abbrev(aarch-64) \
 libleechcraft_azoth_abbrev.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth-protocolplugin \

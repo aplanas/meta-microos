@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:et_EE) \
 myspell-dictionary \
 myspell-estonian \
 myspell-et_EE"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

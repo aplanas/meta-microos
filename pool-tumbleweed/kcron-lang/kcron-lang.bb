@@ -80,6 +80,7 @@ locale(kcron:wa) \
 locale(kcron:zh_CN) \
 locale(kcron:zh_HK) \
 locale(kcron:zh_TW)"
+
 RDEPENDS:${PN} += "kcron"
 
 inherit rpm

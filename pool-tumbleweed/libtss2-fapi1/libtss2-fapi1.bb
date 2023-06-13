@@ -12,6 +12,7 @@ RPM_HASH = "52037e6f922f751d8f371c44f68484c57d8ead441293fd8f707e70120e1e2c8da7ba
 RPROVIDES:${PN} += "libtss2-fapi.so.1()(64bit) \
 libtss2-fapi1 \
 libtss2-fapi1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

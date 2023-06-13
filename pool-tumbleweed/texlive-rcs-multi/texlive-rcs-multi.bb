@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rcs-multi.sty) \
 texlive-rcs-multi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

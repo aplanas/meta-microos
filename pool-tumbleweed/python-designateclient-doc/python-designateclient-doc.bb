@@ -9,6 +9,7 @@ RPM_HASH = "d7fe4ca3a3cac5daa2fefdb29b34d2bbae44859c57e3586234df4be1f4b1e6a6a00d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-designateclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

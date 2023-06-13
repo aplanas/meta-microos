@@ -12,6 +12,7 @@ RPM_HASH = "fa1d40c756b2030dbaf150ef98a32984149b1c480948d0a2c27c5f97b491381b2487
 RPROVIDES:${PN} += "libnumbertext-devel \
 libnumbertext-devel(aarch-64) \
 pkgconfig(libnumbertext)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnumbertext-1_0-0"
 

@@ -29,6 +29,7 @@ perl(Autom4te::General) \
 perl(Autom4te::Getopt) \
 perl(Autom4te::Request) \
 perl(Autom4te::XFile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 info \

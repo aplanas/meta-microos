@@ -14,6 +14,7 @@ RPM_HASH = "0c60110f4560e3e633e513b4da5dbc17409a9a77913d24e0836959674d2387b8ff52
 RPROVIDES:${PN} += "leechcraft-gmailnotifier \
 leechcraft-gmailnotifier(aarch-64) \
 libleechcraft_gmailnotifier.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "ansifilter-gui \
 ansifilter-gui(aarch-64) \
 application() \
 application(ansifilter.desktop)"
+
 RDEPENDS:${PN} += "ansifilter \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

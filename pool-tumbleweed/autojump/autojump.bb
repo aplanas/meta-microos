@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autojump \
 config(autojump)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

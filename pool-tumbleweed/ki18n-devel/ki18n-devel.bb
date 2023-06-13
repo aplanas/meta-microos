@@ -14,6 +14,7 @@ RPM_HASH = "1efd2ccd8b4bad245d2050891848d5b29125dc5be90bcb563b2336c22d9dace11ea2
 RPROVIDES:${PN} += "cmake(KF5I18n) \
 ki18n-devel \
 ki18n-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules \
 gettext-runtime \
 gettext-tools \

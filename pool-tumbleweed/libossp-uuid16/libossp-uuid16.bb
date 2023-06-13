@@ -27,6 +27,7 @@ RPM_HASH = "b23ff45b5bc89c3b9981dbf38bb8f3d6178417212796e6c1a7eb57299e7f8274062b
 RPROVIDES:${PN} += "libossp-uuid.so.16()(64bit) \
 libossp-uuid16 \
 libossp-uuid16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

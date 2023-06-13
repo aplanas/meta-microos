@@ -14,6 +14,7 @@ RPM_HASH = "2aa8336a0f757be663eea1cb8f70fdbe59f4a7df9ca3f6249ce4ba41de7d1d0088c6
 RPROVIDES:${PN} += "typelib(GstPlayer) \
 typelib-1_0-GstPlayer-1_0 \
 typelib-1_0-GstPlayer-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstplayer-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

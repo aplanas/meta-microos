@@ -10,6 +10,7 @@ RPM_HASH = "0df007b38f6179ea47bf5066a5e4351acd091a3309cef2a39d759e43dc353ecc8da4
 RPROVIDES:${PN} += "ghc-prof(vty-5.38-E9MiSc6Hkm5LKREDrOQCil) \
 ghc-vty-prof \
 ghc-vty-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

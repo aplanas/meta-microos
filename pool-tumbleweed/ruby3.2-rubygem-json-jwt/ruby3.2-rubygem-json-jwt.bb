@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:json-jwt) \
 rubygem(ruby:3.2.0:json-jwt:1) \
 rubygem(ruby:3.2.0:json-jwt:1.16) \
 rubygem(ruby:3.2.0:json-jwt:1.16.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:aes_key_wrap) \

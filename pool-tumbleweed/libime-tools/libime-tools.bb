@@ -9,6 +9,7 @@ RPM_HASH = "c2c501f4b360b8a47fb9fe229eadbc4a1b09f4a6245358a0a1c0e22ab4e5643d2816
 
 RPROVIDES:${PN} += "libime-tools \
 libime-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5Utils.so.2()(64bit) \

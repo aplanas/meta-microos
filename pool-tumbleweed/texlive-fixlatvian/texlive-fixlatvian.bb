@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixlatvian.sty) \
 texlive-fixlatvian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

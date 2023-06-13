@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(citation-style-language.sty) \
 texlive-citation-style-language"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 /usr/bin/texlua \

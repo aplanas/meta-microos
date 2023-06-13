@@ -16,6 +16,7 @@ RPM_HASH = "1401ee4179197288ab0d124ba9d465bad6540f0f29f8e8edb01bee790bf125bd338c
 RPROVIDES:${PN} += "config(trojan) \
 trojan \
 trojan(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

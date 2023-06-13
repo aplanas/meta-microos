@@ -9,6 +9,7 @@ RPM_HASH = "1b312dbac56dee9b24fa211c12cb3acc485cee4ed4afd65f3b79802ef4068b7a5e6d
 
 RPROVIDES:${PN} += "no-more-secrets \
 no-more-secrets(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

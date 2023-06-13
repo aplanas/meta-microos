@@ -10,6 +10,7 @@ RPM_HASH = "5e8a611af547f0e21094aeb13404861f5a51ae60daf822f7af38699f340c70b25334
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-yuyo"
+
 RDEPENDS:${PN} += "metatheme-yuyo-common"
 
 inherit rpm

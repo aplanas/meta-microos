@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-openid-teams \
 python3.10dist(python-openid-teams) \
 python310-python-openid-teams \
 python3dist(python-openid-teams)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

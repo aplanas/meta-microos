@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(pdfetex.1) \
 man(pdftex.1) \
 texlive-pdftex-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

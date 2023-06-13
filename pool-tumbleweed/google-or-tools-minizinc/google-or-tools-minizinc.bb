@@ -9,6 +9,7 @@ RPM_HASH = "2c36e40ddb9838793ed1d5709d1753e1a8e29b5bdb12aab80a29964a1a8548bce9a2
 
 RPROVIDES:${PN} += "google-or-tools-minizinc \
 google-or-tools-minizinc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_flags_internal.so.2301.0.0()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "arphic-gkai00mp-fonts \
 config(arphic-gkai00mp-fonts) \
 ttf-arphic-gkai00mp"
+
 RDEPENDS:${PN} += "/bin/sh \
 arphic-fonts"
 

@@ -21,6 +21,7 @@ RPM_HASH = "cd2f2af5e194cece51e4d7cdd6767b4c05b26ee5a0f7cd4a050a00a07915a07eebb2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sty2dtx"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

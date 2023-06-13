@@ -66,6 +66,7 @@ libxml2.so.2(LIBXML2_2.9.0)(64bit) \
 libxml2.so.2(LIBXML2_2.9.1)(64bit) \
 libxml2.so.2(LIBXML2_2.9.11)(64bit) \
 libxml2.so.2(LIBXML2_2.9.8)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "59f125b0f38b50499e029ac10daf2508384e527014bd98317e76cffd502f117c7aee
 RPROVIDES:${PN} += "libXcursor.so.1()(64bit) \
 libXcursor1 \
 libXcursor1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

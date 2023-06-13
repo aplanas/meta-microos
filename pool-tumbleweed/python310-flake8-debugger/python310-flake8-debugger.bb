@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-debugger \
 python3.10dist(flake8-debugger) \
 python310-flake8-debugger \
 python3dist(flake8-debugger)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

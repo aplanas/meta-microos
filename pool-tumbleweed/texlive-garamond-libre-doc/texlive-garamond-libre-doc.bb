@@ -9,6 +9,7 @@ RPM_HASH = "ef947f9733f341d5acc14904ae8364ad0b968941a052b5db26507d1e000cbe1b047b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garamond-libre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

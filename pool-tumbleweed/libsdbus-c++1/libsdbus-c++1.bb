@@ -10,6 +10,7 @@ RPM_HASH = "d194b6c4ff0c444904684d25ba4faea3de7a69edbe154e3b558b5257f7cfb7bc87de
 RPROVIDES:${PN} += "libsdbus-c++.so.1()(64bit) \
 libsdbus-c++1 \
 libsdbus-c++1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

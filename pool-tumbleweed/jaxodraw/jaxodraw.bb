@@ -25,6 +25,7 @@ application(jaxodraw.desktop) \
 jaxodraw \
 metainfo() \
 metainfo(jaxodraw.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java \
 javapackages-tools"

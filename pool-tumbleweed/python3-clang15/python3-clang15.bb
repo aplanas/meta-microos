@@ -11,6 +11,7 @@ RPM_HASH = "69357e589cfc74bc9eba1b7d16a0f39b2ab3da776f85341dc196243795b6a7f56f33
 RPROVIDES:${PN} += "/usr/lib64/python3.10/site-packages/clang/ \
 python3-clang15 \
 python3-clang15(aarch-64)"
+
 RDEPENDS:${PN} += "libclang13 \
 python(abi) \
 python3-base"

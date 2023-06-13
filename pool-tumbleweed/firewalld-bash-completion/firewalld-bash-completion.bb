@@ -9,6 +9,7 @@ RPM_HASH = "befcf1494be671034c5bb31bc95a2991cf9e5eadb6d884e5b5b9845d1516ece7b8ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 firewalld"
 

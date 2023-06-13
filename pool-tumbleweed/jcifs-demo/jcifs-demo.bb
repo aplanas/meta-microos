@@ -19,6 +19,7 @@ RPM_HASH = "5a7917a22cfc8b4b1a107bc1be56f54154e0ec223ddd93958a7e535799e3fa9f9f67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcifs-demo"
+
 RDEPENDS:${PN} += "jcifs"
 
 inherit rpm

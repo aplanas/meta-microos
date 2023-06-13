@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(finnish.ldf) \
 texlive-babel-finnish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

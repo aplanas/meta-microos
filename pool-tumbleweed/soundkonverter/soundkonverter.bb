@@ -14,6 +14,7 @@ metainfo() \
 metainfo(soundkonverter.appdata.xml) \
 soundkonverter \
 soundkonverter(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cdparanoia \
 flac \

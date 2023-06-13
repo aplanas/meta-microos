@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(vobject) \
 python39-vobject \
 python3dist(vobject) \
 vobject"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

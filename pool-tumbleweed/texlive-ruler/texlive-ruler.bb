@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ruler.tex) \
 texlive-ruler"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "1b765db46f81493b89a76701bc946a83b4c6dc2118437feed5ef7e12261a583c2b76
 RPROVIDES:${PN} += "libetpan-devel \
 libetpan-devel(aarch-64) \
 pkgconfig(libetpan)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cyrus-sasl-devel \
 db-devel \

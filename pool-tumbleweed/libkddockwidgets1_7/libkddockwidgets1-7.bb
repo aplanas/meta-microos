@@ -15,6 +15,7 @@ RPM_HASH = "e0ca534b60650fe9519af46eba906d54f7f495b45422566a63a912690bc9f9eda1ea
 RPROVIDES:${PN} += "libkddockwidgets.so.1.7()(64bit) \
 libkddockwidgets1_7 \
 libkddockwidgets1_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "e000936420b1c9695227366dbe717f46f1f6ba69a49d468b609b9aaf953b1b1410f0
 RPROVIDES:${PN} += "libpocl.so.2()(64bit) \
 libpocl2 \
 libpocl2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

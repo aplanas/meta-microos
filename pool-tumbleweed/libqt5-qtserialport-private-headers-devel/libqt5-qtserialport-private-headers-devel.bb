@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5SerialPort-private-headers-devel \
 libqt5-qtserialport-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtserialport-devel"
 

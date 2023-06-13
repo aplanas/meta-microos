@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-cppclean \
 python3.10dist(cppclean) \
 python310-cppclean \
 python3dist(cppclean)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

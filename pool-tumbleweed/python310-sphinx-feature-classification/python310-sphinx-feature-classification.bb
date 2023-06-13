@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sphinx-feature-classification \
 python3.10dist(sphinx-feature-classification) \
 python310-sphinx-feature-classification \
 python3dist(sphinx-feature-classification)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-docutils \
 python310-pbr"

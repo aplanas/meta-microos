@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-frontespizio-doc:it) \
 texlive-frontespizio-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

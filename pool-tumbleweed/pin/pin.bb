@@ -11,6 +11,7 @@ RPM_HASH = "0aabbabfa9944bf38a1f9184ed32134a6865525ecaa56177ad117d590f24f49f6f28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pin"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(social-auth-core) \
 python39-social-auth-core \
 python3dist(social-auth-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-cryptography \

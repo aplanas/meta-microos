@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(python-jenkins) \
 python39-jenkins \
 python39-python-jenkins \
 python3dist(python-jenkins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-multi_key_dict \
 python39-pbr \

@@ -15,6 +15,7 @@ RPM_HASH = "508facfdb53d427745e17a020c3828557d462ac37e21c5ee11a493c903311810c3b1
 RPROVIDES:${PN} += "typelib(GnomeBG) \
 typelib-1_0-GnomeBG-4_0 \
 typelib-1_0-GnomeBG-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-bg-4.so.2()(64bit) \
 typelib(GDesktopEnums) \
 typelib(GLib) \

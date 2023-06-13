@@ -84,6 +84,7 @@ locale(libcryptui:vi) \
 locale(libcryptui:zh_CN) \
 locale(libcryptui:zh_HK) \
 locale(libcryptui:zh_TW)"
+
 RDEPENDS:${PN} += "libcryptui"
 
 inherit rpm

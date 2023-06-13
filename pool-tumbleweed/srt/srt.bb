@@ -11,6 +11,7 @@ RPM_HASH = "b747b41b805f054ea4676e5ddb5f11bf108b7f6cce9ad9ceca7be9153a20c822f5be
 
 RPROVIDES:${PN} += "srt \
 srt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

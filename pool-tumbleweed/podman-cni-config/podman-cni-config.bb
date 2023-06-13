@@ -11,6 +11,7 @@ RPM_HASH = "ad4caaa08387f7ae26699dbc3dac431a4843a862ed84dddd1d267dac772991d46fee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "podman-cni-config"
+
 RDEPENDS:${PN} += "iproute2 \
 podman"
 

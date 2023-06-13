@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(peakutils) \
 python39-PeakUtils \
 python3dist(peakutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-scipy"

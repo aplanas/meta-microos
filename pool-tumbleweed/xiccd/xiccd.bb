@@ -23,6 +23,7 @@ RPM_HASH = "0beb56f6c0c12f54368f7e7b1e4c24056329715045ca0911bde46e1baadd2a2bcfe9
 
 RPROVIDES:${PN} += "xiccd \
 xiccd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

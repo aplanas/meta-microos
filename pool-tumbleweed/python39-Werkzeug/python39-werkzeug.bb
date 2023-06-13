@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.9dist(werkzeug) \
 python39-Werkzeug \
 python39-Werkzeug-doc \
 python3dist(werkzeug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-MarkupSafe"
 

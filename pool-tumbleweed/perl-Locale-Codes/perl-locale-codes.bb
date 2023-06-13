@@ -67,6 +67,7 @@ perl(Locale::Currency) \
 perl(Locale::Language) \
 perl(Locale::Script) \
 perl-Locale-Codes"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

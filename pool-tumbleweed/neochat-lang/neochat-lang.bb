@@ -46,6 +46,7 @@ locale(neochat:zh_CN) \
 locale(neochat:zh_TW) \
 neochat-lang \
 neochat-lang-all"
+
 RDEPENDS:${PN} += "neochat"
 
 inherit rpm

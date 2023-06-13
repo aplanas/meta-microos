@@ -13,6 +13,7 @@ RPM_HASH = "19b0d476621b9ce1a2a1ca652618fdbe7ed3e147d3c354a21667bdc5d9a9fabe9e34
 RPROVIDES:${PN} += "libv4l \
 libv4l(aarch-64) \
 libv4l-mplane.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

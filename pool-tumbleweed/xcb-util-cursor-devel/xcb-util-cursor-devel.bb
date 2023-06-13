@@ -15,6 +15,7 @@ RPM_HASH = "6ac5adc9fdf277c960029d0d9161cee7721dce2d6f4b2a3ab7bf6d0e2bce97149768
 RPROVIDES:${PN} += "pkgconfig(xcb-cursor) \
 xcb-util-cursor-devel \
 xcb-util-cursor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-cursor0 \
 pkgconfig(xcb) \

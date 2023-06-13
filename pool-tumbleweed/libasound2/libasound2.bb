@@ -22,6 +22,7 @@ libasound.so.2(ALSA_1.2.6)(64bit) \
 libasound.so.2(ALSA_1.2.9)(64bit) \
 libasound2 \
 libasound2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

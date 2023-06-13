@@ -94,6 +94,7 @@ locale(iso-codes:zh_HK) \
 locale(iso-codes:zh_Hans) \
 locale(iso-codes:zh_Hant) \
 locale(iso-codes:zh_TW)"
+
 RDEPENDS:${PN} += "iso-codes"
 
 inherit rpm

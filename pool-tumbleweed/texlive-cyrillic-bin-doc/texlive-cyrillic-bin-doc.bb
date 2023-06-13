@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(rubibtex.1) \
 man(rumakeindex.1) \
 texlive-cyrillic-bin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

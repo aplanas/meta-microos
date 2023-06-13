@@ -9,6 +9,7 @@ RPM_HASH = "3f45de989952b5c91be8d00b67c4906b1f318c84d8528d0703eecbeef25475cce0f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptolemaicastronomy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

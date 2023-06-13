@@ -11,6 +11,7 @@ RPM_HASH = "704eb95b3688b8fc16a19d80df782f1d54b8b627be4a2e101446957fb488a3926cbb
 RPROVIDES:${PN} += "libayatana-indicator3-7 \
 libayatana-indicator3-7(aarch-64) \
 libayatana-indicator3.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

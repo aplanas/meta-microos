@@ -10,6 +10,7 @@ RPM_HASH = "0c0c50ea69ecd9afa72862d7e77c944517ea6bda1bb9b2b9dcfa04fdde98c6d5cf68
 RPROVIDES:${PN} += "NetworkManager-fortisslvpn-frontend \
 plasma-nm5-fortisslvpn \
 plasma-nm5-fortisslvpn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

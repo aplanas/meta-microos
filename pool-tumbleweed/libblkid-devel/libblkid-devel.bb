@@ -11,6 +11,7 @@ RPM_HASH = "65cf35727eb1b727929fc978d8473070a0d3ede0194638a98a091cb08c76de1d8824
 RPROVIDES:${PN} += "libblkid-devel \
 libblkid-devel(aarch-64) \
 pkgconfig(blkid)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libblkid1"
 

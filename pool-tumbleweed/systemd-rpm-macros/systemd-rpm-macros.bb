@@ -59,6 +59,7 @@ rpm_macro(tmpfiles_create_package) \
 rpm_macro(udev_hwdb_update) \
 rpm_macro(udev_rules_update) \
 systemd-rpm-macros"
+
 RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

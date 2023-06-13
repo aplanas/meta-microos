@@ -14,6 +14,7 @@ liborcus-0_17-0(aarch-64) \
 liborcus-mso-0.17.so.0()(64bit) \
 liborcus-parser-0.17.so.0()(64bit) \
 liborcus-spreadsheet-model-0.17.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

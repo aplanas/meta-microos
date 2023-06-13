@@ -15,6 +15,7 @@ locale(udiskie:ru_RU) \
 locale(udiskie:tr_TR) \
 udiskie-lang \
 udiskie-lang-all"
+
 RDEPENDS:${PN} += "udiskie"
 
 inherit rpm

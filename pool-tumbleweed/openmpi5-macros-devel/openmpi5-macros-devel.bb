@@ -14,6 +14,7 @@ rpm_macro(openmpi_devel_requires) \
 rpm_macro(openmpi_prefix) \
 rpm_macro(openmpi_requires) \
 rpm_macro(setup_openmpi)"
+
 RDEPENDS:${PN} += "openmpi5-devel"
 
 inherit rpm

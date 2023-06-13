@@ -12,6 +12,7 @@ RPM_HASH = "4eff0aec498ac3f4276fffde7920aa4e8ff582bdefb282f9d6a50646ec8a8205aad9
 
 RPROVIDES:${PN} += "audaspace \
 audaspace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudaspace.so.1.4()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "aec0361c6c2a1f78d4f73c60253fe80fedcd8ce9650919b41ac8688c15c2ebb7e4bd
 RPROVIDES:${PN} += "pkgconfig(xorg-synaptics) \
 xf86-input-synaptics-devel \
 xf86-input-synaptics-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

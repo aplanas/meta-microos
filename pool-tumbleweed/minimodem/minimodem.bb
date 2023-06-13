@@ -20,6 +20,7 @@ RPM_HASH = "4c07525d25ac65bf15db5aa0ee008f1431a676fb808b5ccefbc5fdb3e92b55ce6e3a
 
 RPROVIDES:${PN} += "minimodem \
 minimodem(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

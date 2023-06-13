@@ -13,6 +13,7 @@ RPM_HASH = "a38ad68da811f9c776e8579cd9f023dabe671df8e9b81e5ab2c26822177c90623a18
 
 RPROVIDES:${PN} += "ocr_1_0_1-gnu-openmpi4-hpc-doc \
 ocr_1_0_1-gnu-openmpi4-hpc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

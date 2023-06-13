@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hyperframe) \
 python39-hyperframe \
 python3dist(hyperframe)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

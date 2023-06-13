@@ -10,6 +10,7 @@ RPM_HASH = "70b8ea10d3a840037707c779865e869c229e6b30183bfb81b7434e744dacc3342120
 RPROVIDES:${PN} += "libepubdocument.so()(64bit) \
 xreader-plugin-epubdocument \
 xreader-plugin-epubdocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

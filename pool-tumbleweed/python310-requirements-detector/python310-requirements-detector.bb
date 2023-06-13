@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-requirements-detector \
 python3.10dist(requirements-detector) \
 python310-requirements-detector \
 python3dist(requirements-detector)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

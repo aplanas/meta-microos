@@ -10,6 +10,7 @@ RPM_HASH = "8c632627e5221e0adf25e32bcbc393912c15b488749604e1f6ea4270cb6ee5f8d0c0
 RPROVIDES:${PN} += "libcompel.so.1()(64bit) \
 libcompel1 \
 libcompel1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ application(org.xfce.PanelProfiles.desktop) \
 metainfo() \
 metainfo(org.xfce.PanelProfiles.appdata.xml) \
 xfce4-panel-profiles"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python3 \

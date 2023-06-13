@@ -9,6 +9,7 @@ RPM_HASH = "dd7570e4e0e7de8d2d2ab58d28dec98053c8c2edb82a0d7b1630a4cad98f7ed9ee3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvfloat-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

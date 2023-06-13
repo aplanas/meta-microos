@@ -19,6 +19,7 @@ mvn(com.google.guava:failureaccess:pom:) \
 mvn(com.google.guava:guava) \
 mvn(com.google.guava:guava:pom:) \
 osgi(com.google.guava)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305)"

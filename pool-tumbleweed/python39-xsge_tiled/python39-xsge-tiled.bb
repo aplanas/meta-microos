@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xsge-tiled) \
 python39-xsge_tiled \
 python3dist(xsge-tiled)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sge-pygame \
 python39-xsge_path"

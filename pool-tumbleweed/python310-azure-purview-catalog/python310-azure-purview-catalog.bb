@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-purview-catalog \
 python3.10dist(azure-purview-catalog) \
 python310-azure-purview-catalog \
 python3dist(azure-purview-catalog)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

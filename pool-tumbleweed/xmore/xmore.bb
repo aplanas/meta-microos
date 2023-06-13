@@ -9,6 +9,7 @@ RPM_HASH = "713e51d6eda8a4b2f19d92da060aa4481bc3f5e288a1e80826a543bfee02c0d28c4f
 
 RPROVIDES:${PN} += "xmore \
 xmore(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXaw.so.7()(64bit) \

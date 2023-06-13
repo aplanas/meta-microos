@@ -10,6 +10,7 @@ RPM_HASH = "5af88761faf247749ffce0aee2cbe632f365badac481ac082e91eb348c9ba4b47b93
 
 RPROVIDES:${PN} += "numactl \
 numactl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

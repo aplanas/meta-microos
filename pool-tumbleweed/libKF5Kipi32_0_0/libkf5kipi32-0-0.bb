@@ -12,6 +12,7 @@ RPM_HASH = "d6b6727cccd8e01c684d2747b102f329f5fdad7cbb7d1f079087b55118b8dc94410e
 RPROVIDES:${PN} += "libKF5Kipi.so.32.0.0()(64bit) \
 libKF5Kipi32_0_0 \
 libKF5Kipi32_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

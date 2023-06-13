@@ -13,6 +13,7 @@ libatomic.so.1(LIBATOMIC_1.1)(64bit) \
 libatomic.so.1(LIBATOMIC_1.2)(64bit) \
 libatomic1 \
 libatomic1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

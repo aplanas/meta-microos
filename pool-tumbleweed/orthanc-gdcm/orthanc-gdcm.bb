@@ -10,6 +10,7 @@ RPM_HASH = "3f5c7d4de0da0035e32b7bc6ec7367794634420660fa7cc8d67f977eb94e6c0b0aea
 RPROVIDES:${PN} += "libOrthancGdcm.so.1.5()(64bit) \
 orthanc-gdcm \
 orthanc-gdcm(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

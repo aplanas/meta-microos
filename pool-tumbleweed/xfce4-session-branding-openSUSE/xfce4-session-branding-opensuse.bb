@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-session-branding-openSUSE) \
 xfce4-session-branding \
 xfce4-session-branding-openSUSE"
+
 RDEPENDS:${PN} += "adwaita-xfce-icon-theme \
 desktop-file-utils \
 gtk2-metatheme-greybird-geeko \

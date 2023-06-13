@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-geoposition) \
 python39-django-geoposition \
 python3dist(django-geoposition)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

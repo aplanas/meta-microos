@@ -14,6 +14,7 @@ RPM_HASH = "cd71c46e2c2ae4fa20d666722309b6cf3ca0015f8b9dffaf57f283484e84941f5c99
 RPROVIDES:${PN} += "python-YODA \
 python3-YODA \
 python3-YODA(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

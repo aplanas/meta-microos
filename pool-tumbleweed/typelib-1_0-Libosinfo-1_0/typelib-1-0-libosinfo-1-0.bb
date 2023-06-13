@@ -12,6 +12,7 @@ RPM_HASH = "ffa68af35285db1b25058e82c4910864f1332b76652eff2fe5f82e65046f7edcb124
 RPROVIDES:${PN} += "typelib(Libosinfo) \
 typelib-1_0-Libosinfo-1_0 \
 typelib-1_0-Libosinfo-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libosinfo-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -61,6 +61,7 @@ mvn(org.apache.maven.scm:maven-scm-providers-standard:pom:) \
 mvn(org.apache.maven.scm:maven-scm-providers-svn:pom:) \
 mvn(org.apache.maven.scm:maven-scm-providers:pom:) \
 mvn(org.apache.maven.scm:maven-scm:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

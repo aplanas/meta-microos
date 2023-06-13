@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-finance_enums \
 python3.10dist(finance-enums) \
 python310-finance_enums \
 python3dist(finance-enums)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pandas"
 

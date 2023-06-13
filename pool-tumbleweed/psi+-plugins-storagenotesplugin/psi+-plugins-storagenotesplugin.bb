@@ -10,6 +10,7 @@ RPM_HASH = "25d2e5bd5b27acba69c86940720fc3c7027904fc72ba38cabb5e7248d96d08dbda01
 RPROVIDES:${PN} += "libstoragenotesplugin.so()(64bit) \
 psi+-plugins-storagenotesplugin \
 psi+-plugins-storagenotesplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

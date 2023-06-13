@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(stmary.tex) \
 texlive-plstmary"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

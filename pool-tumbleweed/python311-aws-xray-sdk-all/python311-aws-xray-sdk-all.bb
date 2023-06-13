@@ -12,6 +12,7 @@ RPM_HASH = "211feb733de752d8c0981f2041273ce94ba6b9b970e3784de7ad55668a6147d88571
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-all"
+
 RDEPENDS:${PN} += "python311-aws-xray-sdk"
 
 inherit rpm

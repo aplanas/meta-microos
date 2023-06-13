@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:ca_ES_valencia) \
 myspell-ca_ES_valencia \
 myspell-dictionary \
 myspell-valencian"
+
 RDEPENDS:${PN} += "myspell-ca \
 myspell-dictionaries"
 

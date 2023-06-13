@@ -11,6 +11,7 @@ RPM_HASH = "582da0ab0bc086bf3cdd4317267376b7691e07bc17e8d5cb5a157113e051a9736457
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "simple-obfs-doc"
+
 RDEPENDS:${PN} += "simple-obfs"
 
 inherit rpm

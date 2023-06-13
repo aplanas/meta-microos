@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:libyui-rake) \
 rubygem(ruby:3.2.0:libyui-rake:0) \
 rubygem(ruby:3.2.0:libyui-rake:0.1) \
 rubygem(ruby:3.2.0:libyui-rake:0.1.24)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:packaging_rake_tasks:1) \
 rubygem(ruby:3.2.0:rake)"

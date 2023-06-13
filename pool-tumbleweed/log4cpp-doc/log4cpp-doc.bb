@@ -10,6 +10,7 @@ RPM_HASH = "acc9f3e3ec331a89fd05d6f6043f5ac97570f6e1da6fb19eb91cf45dffdb5c0fa031
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4cpp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

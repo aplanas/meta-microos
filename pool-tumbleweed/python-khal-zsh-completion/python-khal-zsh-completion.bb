@@ -9,6 +9,7 @@ RPM_HASH = "a29b33c2496c7f997ff08c959c91b76b2819d0410412897ef87ecf46501e929012c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-khal-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(libavif) \
 libavif-devel \
 libavif-devel(aarch-64) \
 pkgconfig(libavif)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavif15"
 

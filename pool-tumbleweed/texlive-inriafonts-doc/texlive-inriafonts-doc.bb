@@ -9,6 +9,7 @@ RPM_HASH = "9c557013af9605c190bd47d821bdbf2483260801b9cf4ed0ce97201a0a050dc26bc5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-inriafonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

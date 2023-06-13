@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "debuginfo(build-id) \
 installation-images-debuginfodeps \
 installation-images-debuginfodeps-openSUSE \
 installation-images-debuginfodeps-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += "debuginfo(build-id)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "b05ae3abcfa15c56b89dceea5009987f48bb96b14fab37f91c9c77bf0f601144fdf1
 RPROVIDES:${PN} += "ghc-xss-sanitize \
 ghc-xss-sanitize(aarch-64) \
 libHSxss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

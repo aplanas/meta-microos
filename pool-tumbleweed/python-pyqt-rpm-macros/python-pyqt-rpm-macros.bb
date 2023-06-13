@@ -18,6 +18,7 @@ rpm_macro(pyqt_install) \
 rpm_macro(pyqt_install_examples) \
 rpm_macro(sip4_only) \
 rpm_macro(sip5_only)"
+
 RDEPENDS:${PN} += "fdupes \
 python-rpm-macros"
 

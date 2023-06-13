@@ -13,6 +13,7 @@ application(org.kde.kajongg.desktop) \
 kajongg \
 metainfo() \
 metainfo(org.kde.kajongg.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-Twisted \
 python3-qt5"

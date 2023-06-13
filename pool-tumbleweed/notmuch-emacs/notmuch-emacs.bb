@@ -9,6 +9,7 @@ RPM_HASH = "b5ee510ebf630311ec33aea793faf60aaf3cd58ca7fddf73c47d4582cc2152b2b199
 
 RPROVIDES:${PN} += "notmuch-emacs \
 notmuch-emacs(aarch-64)"
+
 RDEPENDS:${PN} += "emacs \
 emacs-el \
 notmuch"

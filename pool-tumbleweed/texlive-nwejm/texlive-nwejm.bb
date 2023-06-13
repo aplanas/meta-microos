@@ -25,6 +25,7 @@ tex(nwejm.cls) \
 tex(nwejm.lbx) \
 tex(nwejmart.cls) \
 texlive-nwejm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

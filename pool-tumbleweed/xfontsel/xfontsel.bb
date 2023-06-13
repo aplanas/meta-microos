@@ -11,6 +11,7 @@ RPM_HASH = "2f2c01db818c67df9706ec5aa754f7927ab0f71f84f60ccc26072e6ce3bdeb8b996b
 
 RPROVIDES:${PN} += "xfontsel \
 xfontsel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

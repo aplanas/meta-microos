@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(swrule.sty) \
 texlive-swrule"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

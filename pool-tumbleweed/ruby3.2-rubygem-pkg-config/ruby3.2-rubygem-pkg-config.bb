@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:pkg-config) \
 rubygem(ruby:3.2.0:pkg-config:1) \
 rubygem(ruby:3.2.0:pkg-config:1.5) \
 rubygem(ruby:3.2.0:pkg-config:1.5.1)"
+
 RDEPENDS:${PN} += "pkg-config \
 ruby(abi)"
 

@@ -10,6 +10,7 @@ RPM_HASH = "1a7f1e992b3cbf3bb0aa46db86cd61f513bb66dd9c215b358f05988daebdcce4e3d8
 RPROVIDES:${PN} += "ghc-devel(wai-app-static-3.1.7.4-9UpsDZD9lQf3J0Cj3szLw2) \
 ghc-wai-app-static-devel \
 ghc-wai-app-static-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

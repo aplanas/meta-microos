@@ -10,6 +10,7 @@ RPM_HASH = "0352cbc865d5be52f2ad9118db1beaed64f5565808eef4556209e258357d90c6bd09
 
 RPROVIDES:${PN} += "gcr-ssh-agent \
 gcr-ssh-agent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

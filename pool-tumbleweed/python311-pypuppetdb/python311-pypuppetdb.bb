@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pypuppetdb) \
 python311-pypuppetdb \
 python3dist(pypuppetdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

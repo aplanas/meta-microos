@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pydicom \
 python3.10dist(pydicom) \
 python310-pydicom \
 python3dist(pydicom)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

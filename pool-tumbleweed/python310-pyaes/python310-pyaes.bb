@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyaes \
 python3.10dist(pyaes) \
 python310-pyaes \
 python3dist(pyaes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pycryptodome"
 

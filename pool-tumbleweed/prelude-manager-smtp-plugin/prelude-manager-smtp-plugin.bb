@@ -9,6 +9,7 @@ RPM_HASH = "da4b8a387551266459a34d9d177f416db70967468e1b6c0fa40d0ea59342714de643
 
 RPROVIDES:${PN} += "prelude-manager-smtp-plugin \
 prelude-manager-smtp-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

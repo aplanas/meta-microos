@@ -11,6 +11,7 @@ RPM_HASH = "d4227ae1afe4890a974ecc0d1a76cd3bbb378bd4f564081d27cc29249ad421b0e54f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-icon-theme-faenza-dark"
+
 RDEPENDS:${PN} += "mate-icon-theme-faenza"
 
 inherit rpm

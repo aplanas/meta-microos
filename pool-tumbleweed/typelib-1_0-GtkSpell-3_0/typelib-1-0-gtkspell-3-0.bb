@@ -12,6 +12,7 @@ RPM_HASH = "e84024075f03b4c3a47879367f0ae4724c1b9da8b04c77e2e9bb4e6c3edea2f66afa
 RPROVIDES:${PN} += "typelib(GtkSpell) \
 typelib-1_0-GtkSpell-3_0 \
 typelib-1_0-GtkSpell-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgtkspell3-3.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

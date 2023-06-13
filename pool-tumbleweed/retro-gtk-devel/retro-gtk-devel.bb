@@ -12,6 +12,7 @@ RPM_HASH = "bda6a9bd89ea0b9d03d3f1690f289a5fb0edaf14f4ec59c835305d7f053e17f5bae7
 RPROVIDES:${PN} += "pkgconfig(retro-gtk-1) \
 retro-gtk-devel \
 retro-gtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

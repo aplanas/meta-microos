@@ -10,6 +10,7 @@ RPM_HASH = "94c885a94094e65e2be030eb1a05f1ed614986c5826b0602a95b3252332889da8379
 
 RPROVIDES:${PN} += "xplayer-plparser \
 xplayer-plparser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

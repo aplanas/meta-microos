@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(gnome-color-panel.desktop) \
 gnome-control-center-color"
+
 RDEPENDS:${PN} += "colord \
 gnome-color-manager \
 gnome-control-center"

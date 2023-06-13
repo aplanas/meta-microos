@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(poetrytex.sty) \
 texlive-poetrytex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

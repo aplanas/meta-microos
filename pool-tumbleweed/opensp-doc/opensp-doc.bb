@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "OpenSP \
 opensp-doc \
 sp \
 sp_libs"
+
 RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog"
 
 inherit rpm

@@ -19,6 +19,7 @@ perl(BibTeX::Parser::Entry) \
 perl(LaTeX::ToUnicode) \
 perl(LaTeX::ToUnicode::Tables) \
 texlive-bibtexperllibs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

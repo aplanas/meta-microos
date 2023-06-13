@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jackson-databind \
 mvn(com.fasterxml.jackson.core:jackson-databind) \
 mvn(com.fasterxml.jackson.core:jackson-databind:pom:) \
 osgi(com.fasterxml.jackson.core.jackson-databind)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

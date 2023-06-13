@@ -138,6 +138,7 @@ libvtkloguru.so.1()(64bit) \
 libvtkmetaio.so.1()(64bit) \
 libvtksys.so.1()(64bit) \
 vtk-openmpi4"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

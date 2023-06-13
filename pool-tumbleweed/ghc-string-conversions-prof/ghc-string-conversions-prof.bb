@@ -10,6 +10,7 @@ RPM_HASH = "20328434ff3ba4fcff9314f0cbc9667ae7553a4b504134aea472565e8d847f597f7c
 RPROVIDES:${PN} += "ghc-prof(string-conversions-0.4.0.1-B4OFWvpC4GeAVPq9bBfwkx) \
 ghc-string-conversions-prof \
 ghc-string-conversions-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-prof(text-2.0.2) \

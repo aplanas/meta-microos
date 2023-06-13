@@ -9,6 +9,7 @@ RPM_HASH = "b14d983abd754b208dc1128c1eb02b743d1c043c4aee931292ff050ee909591a99b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfsync-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

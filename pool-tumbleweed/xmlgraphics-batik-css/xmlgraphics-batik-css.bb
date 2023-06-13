@@ -13,6 +13,7 @@ mvn(org.apache.xmlgraphics:batik-css) \
 mvn(org.apache.xmlgraphics:batik-css:pom:) \
 osgi(org.apache.batik.css) \
 xmlgraphics-batik-css"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(xml-apis:xml-apis-ext) \

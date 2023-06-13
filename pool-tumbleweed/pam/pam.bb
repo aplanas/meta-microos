@@ -28,6 +28,7 @@ libpamc.so.0()(64bit) \
 libpamc.so.0(LIBPAMC_1.0)(64bit) \
 pam \
 pam(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 group(shadow) \

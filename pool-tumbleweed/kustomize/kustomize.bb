@@ -11,6 +11,7 @@ RPM_HASH = "439871d8ae8e6e847e8c27bd0df5beea6fc8ec299b182c89a7b620d929543d3a393e
 
 RPROVIDES:${PN} += "kustomize \
 kustomize(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

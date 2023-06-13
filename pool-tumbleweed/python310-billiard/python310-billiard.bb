@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-billiard \
 python3.10dist(billiard) \
 python310-billiard \
 python3dist(billiard)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gstreamer-plugins-bad-chromaprint \
 gstreamer-plugins-bad-chromaprint(aarch-64) \
 gstreamer1(element-chromaprint)()(64bit) \
 libgstchromaprint.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

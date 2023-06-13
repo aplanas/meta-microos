@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fix2col.sty) \
 texlive-fix2col"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

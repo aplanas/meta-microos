@@ -33,6 +33,7 @@ locale(kgeotag:sv) \
 locale(kgeotag:tr) \
 locale(kgeotag:uk) \
 locale(kgeotag:zh_CN)"
+
 RDEPENDS:${PN} += "kgeotag"
 
 inherit rpm

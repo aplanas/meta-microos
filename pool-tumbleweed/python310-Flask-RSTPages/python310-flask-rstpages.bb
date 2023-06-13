@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Flask-RSTPages \
 python3.10dist(flask-rstpages) \
 python310-Flask-RSTPages \
 python3dist(flask-rstpages)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-Pygments \

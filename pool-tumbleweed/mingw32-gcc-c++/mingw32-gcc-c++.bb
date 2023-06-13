@@ -12,6 +12,7 @@ mingw32(lib:stdc++fs) \
 mingw32(lib:supc++) \
 mingw32-gcc-c++ \
 mingw32-gcc-c++(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgmp-10.dll) \
 mingw32(libmpc-3.dll) \
 mingw32(libmpfr-4.dll) \

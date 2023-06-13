@@ -11,6 +11,7 @@ RPM_HASH = "39cd16bf560fd86c4ca9ab7660f4170fe5d53c2f01cb8a96627b125210c9de8b2f86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-marchen-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

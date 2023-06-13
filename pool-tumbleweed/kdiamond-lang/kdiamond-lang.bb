@@ -68,6 +68,7 @@ locale(kdiamond:ug) \
 locale(kdiamond:uk) \
 locale(kdiamond:zh_CN) \
 locale(kdiamond:zh_TW)"
+
 RDEPENDS:${PN} += "kdiamond"
 
 inherit rpm

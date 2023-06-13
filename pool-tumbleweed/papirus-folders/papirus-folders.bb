@@ -10,6 +10,7 @@ RPM_HASH = "e322c687f70fe46efa5a065465afb234eb4ae3cfe7e4f8ae249726ac28aa8cdeb41c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papirus-folders"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 coreutils \
 papirus-icon-theme"

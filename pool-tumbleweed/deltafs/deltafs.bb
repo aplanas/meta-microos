@@ -13,6 +13,7 @@ RPM_HASH = "f1f1571ca9f4ed1184f2ea757d5e7dd5879f09a48a69178f33c62a5f90eaceb64c0d
 
 RPROVIDES:${PN} += "deltafs \
 deltafs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

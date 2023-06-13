@@ -20,6 +20,7 @@ tex(beuronc.tfm) \
 tex(beuronx.tfm) \
 tex(t1beuron.fd) \
 texlive-beuron"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

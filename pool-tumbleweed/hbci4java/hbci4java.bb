@@ -13,6 +13,7 @@ hbci4java(aarch-64) \
 libhbci4java-card-linux.so()(64bit) \
 mvn(com.github.hbci4j:hbci4j-core) \
 mvn(com.github.hbci4j:hbci4j-core:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 libc.so.6(GLIBC_2.34)(64bit) \

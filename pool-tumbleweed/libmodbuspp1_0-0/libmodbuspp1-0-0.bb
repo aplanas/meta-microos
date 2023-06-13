@@ -12,6 +12,7 @@ RPM_HASH = "f255b7b9f80bb2bc0781b32015057c4dcfb8b0423df5a60f48e5ffb37fc196728108
 RPROVIDES:${PN} += "libmodbuspp.so.1.0-0()(64bit) \
 libmodbuspp1_0-0 \
 libmodbuspp1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

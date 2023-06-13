@@ -11,6 +11,7 @@ RPM_HASH = "a1e85d9c0ce747aef709f00c3551240459c3e73227bc5e3f27c1fbf160884fc4fc33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-jsvc"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-daemon-jsvc \
 tomcat"

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-diskcache \
 python3.10dist(diskcache) \
 python310-diskcache \
 python3dist(diskcache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

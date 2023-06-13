@@ -12,6 +12,7 @@ RPM_HASH = "1435bb3b6015fadd8dbfe00fd43a04b982f1d06ef6a49e1584fb3ed007c8d6bef2bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtserialbus-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtserialbus-devel"
 

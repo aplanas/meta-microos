@@ -12,6 +12,7 @@ kactivities5 \
 kactivitymanagerd \
 kactivitymanagerd(aarch-64) \
 libkactivitymanagerd_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

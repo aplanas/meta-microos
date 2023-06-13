@@ -15,6 +15,7 @@ RPM_HASH = "8d2a6f43edd788cfe70ef7d432e78fbf31abfcdf4b4f4c5235c1bcf12df57d09fdc8
 RPROVIDES:${PN} += "autotrace-devel \
 autotrace-devel(aarch-64) \
 pkgconfig(autotrace)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libautotrace3"

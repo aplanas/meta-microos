@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "ffmpeg-5-libpostproc-devel \
 ffmpeg-5-libpostproc-devel(aarch-64) \
 libpostproc-devel \
 pkgconfig(libpostproc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-5-libavutil-devel \
 libpostproc56 \

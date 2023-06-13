@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(se2colors.sty) \
 tex(se2fonts.sty) \
 tex(se2thesis.cls) \
 texlive-se2thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

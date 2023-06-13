@@ -12,6 +12,7 @@ RPM_HASH = "d0feb7648d7153c73b382f13f5d72ae4806caa7e227ce5113d8043cb206253e5dbe8
 
 RPROVIDES:${PN} += "elk \
 elk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblas.so.3()(64bit) \

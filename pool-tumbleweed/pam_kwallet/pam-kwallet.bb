@@ -10,6 +10,7 @@ RPM_HASH = "cd048cfc95993581db3bdb57f4877d418a05438220de20c695383de308ebb60eb8ff
 
 RPROVIDES:${PN} += "pam_kwallet \
 pam_kwallet(aarch-64)"
+
 RDEPENDS:${PN} += "(pam_kwallet-32bit if pam-32bit) \
 /bin/sh \
 coreutils \

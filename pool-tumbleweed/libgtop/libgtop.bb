@@ -14,6 +14,7 @@ RPM_HASH = "9da6bfd8f97810f163054cbb7ce197f3c93fe780b0439b324b458815456152795d73
 
 RPROVIDES:${PN} += "libgtop \
 libgtop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXau.so.6()(64bit) \

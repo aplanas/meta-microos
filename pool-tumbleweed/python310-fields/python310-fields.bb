@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-fields \
 python3.10dist(fields) \
 python310-fields \
 python3dist(fields)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "639f025c3f63d100a36643b6ddd77d643f4801b080a5d1b14d7054a3b5ed18ca2d8d
 
 RPROVIDES:${PN} += "tidy \
 tidy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

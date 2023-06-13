@@ -11,6 +11,7 @@ RPM_HASH = "d52e0b96484a8b52cd3565268945ce257d41a53d3b10aa1a89290ea3da75f0ece228
 
 RPROVIDES:${PN} += "rt-tests \
 rt-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 /usr/bin/python3 \

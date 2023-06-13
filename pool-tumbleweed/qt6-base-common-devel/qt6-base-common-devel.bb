@@ -15,6 +15,7 @@ pkgconfig(Qt6Platform) \
 qt6-base-common-devel \
 qt6-base-common-devel(aarch-64) \
 qt6-tools-qtpaths"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/pkg-config \

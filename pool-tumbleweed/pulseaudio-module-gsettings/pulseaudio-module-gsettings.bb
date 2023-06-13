@@ -13,6 +13,7 @@ RPM_HASH = "a094a81ffff17b87a82f7406b5720e8b214ee5f8c5c03e1a56185232827ecd955632
 
 RPROVIDES:${PN} += "pulseaudio-module-gsettings \
 pulseaudio-module-gsettings(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

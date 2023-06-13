@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SDL_image \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_image-1_2-0 \
 libSDL_image-1_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

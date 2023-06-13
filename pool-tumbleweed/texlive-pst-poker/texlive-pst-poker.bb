@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-poker.sty) \
 texlive-pst-poker"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

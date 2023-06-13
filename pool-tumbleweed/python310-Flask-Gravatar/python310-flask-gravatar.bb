@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-Gravatar \
 python3.10dist(flask-gravatar) \
 python310-Flask-Gravatar \
 python3dist(flask-gravatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

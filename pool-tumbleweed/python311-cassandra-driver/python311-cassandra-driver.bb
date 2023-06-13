@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(cassandra-driver) \
 python311-cassandra-driver \
 python311-cassandra-driver(aarch-64) \
 python3dist(cassandra-driver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Cython \
 python311-geomet \

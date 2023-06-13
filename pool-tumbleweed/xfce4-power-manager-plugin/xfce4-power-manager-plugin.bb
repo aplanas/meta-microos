@@ -14,6 +14,7 @@ xfce4-panel-plugin-power-manager \
 xfce4-panel-plugin-xfce4battery \
 xfce4-power-manager-plugin \
 xfce4-power-manager-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

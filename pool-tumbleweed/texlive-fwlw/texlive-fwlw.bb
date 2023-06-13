@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fwlw.sty) \
 texlive-fwlw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

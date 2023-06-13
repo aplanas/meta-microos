@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pyenchant) \
 python39-enchant \
 python39-pyenchant \
 python3dist(pyenchant)"
+
 RDEPENDS:${PN} += "enchant-2-backend-hunspell \
 python(abi)"
 

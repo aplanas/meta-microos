@@ -15,6 +15,7 @@ RPM_HASH = "818627a84848fb1bb577d68519f16bafc3630231842e7a586a700768fdfe08b5243b
 RPROVIDES:${PN} += "libzbar.so.0()(64bit) \
 libzbar0 \
 libzbar0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

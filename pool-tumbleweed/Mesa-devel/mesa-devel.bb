@@ -26,6 +26,7 @@ Mesa-libIndirectGL-devel \
 libtxc_dxtn-devel \
 s2tc-devel \
 xorg-x11-Mesa-devel"
+
 RDEPENDS:${PN} += "Mesa \
 Mesa-dri-devel \
 Mesa-libEGL-devel \

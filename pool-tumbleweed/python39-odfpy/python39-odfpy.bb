@@ -35,6 +35,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(odfpy) \
 python39-odfpy \
 python3dist(odfpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

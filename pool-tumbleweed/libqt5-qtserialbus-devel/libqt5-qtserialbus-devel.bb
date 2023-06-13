@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5SerialBus) \
 libqt5-qtserialbus-devel \
 libqt5-qtserialbus-devel(aarch-64) \
 pkgconfig(Qt5SerialBus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5SerialBus5 \
 pkgconfig(Qt5Core)"

@@ -22,6 +22,7 @@ pkgconfig(gdata-sharp-health) \
 pkgconfig(gdata-sharp-photos) \
 pkgconfig(gdata-sharp-spreadsheets) \
 pkgconfig(gdata-sharp-youtube)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gdata-sharp \
 pkgconfig(gdata-sharp-acl) \

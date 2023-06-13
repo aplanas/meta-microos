@@ -13,6 +13,7 @@ facetimehd-kmp-64kb(aarch-64) \
 facetimehd-kmp-64kb-k6.3.4_1 \
 kmod(facetimehd.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

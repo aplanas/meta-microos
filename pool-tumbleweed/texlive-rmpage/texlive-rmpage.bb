@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(rmpage.sty) \
 tex(rmpgen.cfg) \
 texlive-rmpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

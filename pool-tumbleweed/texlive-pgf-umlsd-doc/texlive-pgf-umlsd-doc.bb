@@ -9,6 +9,7 @@ RPM_HASH = "1b07bdf4a1d6762be6ed4f718c4cbe7a8b6ee096b89dabd94b0abefa43448b9662b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-umlsd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

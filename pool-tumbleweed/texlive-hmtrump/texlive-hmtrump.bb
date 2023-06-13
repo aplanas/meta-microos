@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hmtrump.sty) \
 texlive-hmtrump"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

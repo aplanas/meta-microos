@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-bokeh \
 python3.10dist(bokeh) \
 python310-bokeh \
 python3dist(bokeh)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

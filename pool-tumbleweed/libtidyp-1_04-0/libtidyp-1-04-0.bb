@@ -19,6 +19,7 @@ RPM_HASH = "cde6686fbedbef80cf0883e7a230f61815a4c9ae03403a26e668365237a95722f586
 RPROVIDES:${PN} += "libtidyp-1.04.so.0()(64bit) \
 libtidyp-1_04-0 \
 libtidyp-1_04-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

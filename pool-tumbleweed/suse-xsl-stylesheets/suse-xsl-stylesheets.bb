@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(suse-xsl-stylesheets) \
 suse-xsl-stylesheets"
+
 RDEPENDS:${PN} += "/bin/sh \
 arabic-amiri-fonts \
 dejavu-fonts \

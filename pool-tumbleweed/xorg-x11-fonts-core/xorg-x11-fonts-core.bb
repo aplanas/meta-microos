@@ -222,6 +222,7 @@ font(miscfixedwide) \
 font(sonyfixed) \
 xorg-x11-fonts-core \
 xorg-x11:/usr/X11R6/lib/X11/fonts/misc/cursor.pcf.gz"
+
 RDEPENDS:${PN} += "/bin/sh \
 fonts-config"
 

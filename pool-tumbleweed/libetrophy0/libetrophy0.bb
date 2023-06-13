@@ -10,6 +10,7 @@ RPM_HASH = "af9ef5a1263bee24c46f79a55c964df69d4d138e1098da6ef285cfe353c7bed0ccd8
 RPROVIDES:${PN} += "libetrophy.so.0()(64bit) \
 libetrophy0 \
 libetrophy0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

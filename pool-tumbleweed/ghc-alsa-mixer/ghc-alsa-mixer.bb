@@ -10,6 +10,7 @@ RPM_HASH = "376be0c4f5c64260c7319bda3cb053b8952f7b8b9ce6be62f3730a7b64bbfa0bd939
 RPROVIDES:${PN} += "ghc-alsa-mixer \
 ghc-alsa-mixer(aarch-64) \
 libHSalsa-mixer-0.3.0-Ff4FVP5Sg8l3sx20Z8BrVj-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSalsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

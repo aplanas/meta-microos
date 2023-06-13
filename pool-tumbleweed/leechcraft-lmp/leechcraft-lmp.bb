@@ -38,6 +38,7 @@ mimehandler(audio/x-musepack) \
 mimehandler(audio/x-scpls) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \

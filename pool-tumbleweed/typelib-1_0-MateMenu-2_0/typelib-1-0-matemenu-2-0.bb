@@ -11,6 +11,7 @@ RPM_HASH = "0784470ecb4c48db16273f1fd87e10cb7b84b1a83c6b6841d2f2b35e6d83715bc44d
 RPROVIDES:${PN} += "typelib(MateMenu) \
 typelib-1_0-MateMenu-2_0 \
 typelib-1_0-MateMenu-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmate-menu.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

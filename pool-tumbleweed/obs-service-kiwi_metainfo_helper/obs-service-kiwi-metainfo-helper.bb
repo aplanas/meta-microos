@@ -10,6 +10,7 @@ RPM_HASH = "b20c5e3ebcac15d7e3d40ac62a32ae380fc4fb3f51c0631bdfe6d007c3398db56c9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-kiwi_metainfo_helper"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/find \
 /usr/bin/grep \

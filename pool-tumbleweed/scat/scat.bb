@@ -9,6 +9,7 @@ RPM_HASH = "db5f25fd7f1e30772f809de9e8601ac4709198a858005775d185840f1ad40d2b8dbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scat"
+
 RDEPENDS:${PN} += "/bin/bash \
 python3-Pygments"
 

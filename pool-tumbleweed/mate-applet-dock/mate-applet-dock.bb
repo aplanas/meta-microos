@@ -25,6 +25,7 @@ RPM_HASH = "cd0379b6e2ce8fa665d66612fb238062fd1a3f6d6cca09d9956fb69324c0ce10d506
 
 RPROVIDES:${PN} += "mate-applet-dock \
 mate-applet-dock(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 bamf-daemon \
 python3-Pillow \

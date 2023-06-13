@@ -9,6 +9,7 @@ RPM_HASH = "680730923eb913c71fba6a0205c036b9739cc2e175695c69594ebf0f9ae63dd2ef4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-t-angles-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

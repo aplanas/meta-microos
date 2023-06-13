@@ -14,6 +14,7 @@ python311-ICU \
 python311-PyICU \
 python311-PyICU(aarch-64) \
 python3dist(pyicu)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

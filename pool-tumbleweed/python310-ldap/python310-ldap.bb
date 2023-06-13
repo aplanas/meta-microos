@@ -15,6 +15,7 @@ python3.10dist(python-ldap) \
 python310-ldap \
 python310-ldap(aarch-64) \
 python3dist(python-ldap)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

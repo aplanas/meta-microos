@@ -9,6 +9,7 @@ RPM_HASH = "36e4ebf71af7fc6a8886b08c64b933120e54f9204b0a958ace477baf9ba342dba14e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frimurer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

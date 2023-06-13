@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libopenraw-devel \
 libopenraw-devel(aarch-64) \
 pkgconfig(libopenraw-0.3) \
 pkgconfig(libopenraw-gnome-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gdk-pixbuf-devel \
 libopenraw9 \

@@ -9,6 +9,7 @@ RPM_HASH = "aa0eb6532c9dbf8c483cf80216aed6c381ff67f48cb5ec4274a7b42b0f1c4fdaad0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-macros2e-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(ftp) \
 system-user-ftp \
 user(ftp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

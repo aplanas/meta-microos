@@ -14,6 +14,7 @@ libKPim5AkonadiSearchCore.so.5()(64bit) \
 libKPim5AkonadiSearchDebug.so.5()(64bit) \
 libKPim5AkonadiSearchPIM.so.5()(64bit) \
 libKPim5AkonadiSearchXapian.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

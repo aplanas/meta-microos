@@ -11,6 +11,7 @@ RPM_HASH = "c1d155ae1168203be171b7836d57dba09e63e7cf1d9a33a49671f610efc7e7d7bbc3
 RPROVIDES:${PN} += "libavtp-devel \
 libavtp-devel(aarch-64) \
 pkgconfig(avtp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavtp0"
 

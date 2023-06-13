@@ -13,6 +13,7 @@ RPM_HASH = "3fc35e4580682c1a70290a05ba369c73c1ecfd5d8d4f2bec266c923e0acdf1851630
 RPROVIDES:${PN} += "libmatemixer-devel \
 libmatemixer-devel(aarch-64) \
 pkgconfig(libmatemixer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmatemixer0 \
 pkgconfig(glib-2.0) \

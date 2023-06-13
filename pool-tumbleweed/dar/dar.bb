@@ -14,6 +14,7 @@ RPM_HASH = "943e9bf0f5ed18b91e3c799a3c5a6b3b8140a2b487c0aa1582d1e237f0e4cd210c07
 
 RPROVIDES:${PN} += "dar \
 dar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

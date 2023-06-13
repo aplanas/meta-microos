@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-tagulous \
 python3.10dist(django-tagulous) \
 python310-django-tagulous \
 python3dist(django-tagulous)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

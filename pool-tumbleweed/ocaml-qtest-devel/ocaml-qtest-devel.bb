@@ -14,6 +14,7 @@ ocaml-qtest-devel(aarch-64) \
 ocamlfind(qtest) \
 ocamlfind(qtest.lib) \
 ocamlx(Qtestlib)"
+
 RDEPENDS:${PN} += "ocaml-qtest"
 
 inherit rpm

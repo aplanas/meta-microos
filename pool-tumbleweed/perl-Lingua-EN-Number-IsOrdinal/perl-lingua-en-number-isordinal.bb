@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Lingua::EN::Number::IsOrdinal) \
 perl-Lingua-EN-Number-IsOrdinal"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Lingua::EN::FindNumber)"
 

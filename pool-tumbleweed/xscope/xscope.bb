@@ -10,6 +10,7 @@ RPM_HASH = "38b7d17e24eb0747b71b145275d86a6a8436399b43be4e1517c54963dbacde19b307
 
 RPROVIDES:${PN} += "xscope \
 xscope(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

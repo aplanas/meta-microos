@@ -21,6 +21,7 @@ python310-sip(api) \
 python310-sip4 \
 python310-sip4(aarch-64) \
 python3dist(sip)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

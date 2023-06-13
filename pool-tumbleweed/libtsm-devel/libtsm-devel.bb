@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(libtsm) \
 libtsm-devel \
 libtsm-devel(aarch-64) \
 pkgconfig(libtsm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtsm4"
 

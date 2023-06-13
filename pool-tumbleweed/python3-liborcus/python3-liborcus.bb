@@ -10,6 +10,7 @@ RPM_HASH = "431ab00a30a3612599de93e2b2bf7fe1d07fc1d99f8cef865c5e7ad02de6b33719e5
 RPROVIDES:${PN} += "liborcus-python3 \
 python3-liborcus \
 python3-liborcus(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

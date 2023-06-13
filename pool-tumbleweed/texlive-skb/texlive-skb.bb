@@ -28,6 +28,7 @@ tex(skblncsbeamer.cls) \
 tex(skblncsppt.cls) \
 tex(skbmoderncv.cls) \
 texlive-skb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

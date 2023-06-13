@@ -110,6 +110,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(latinmodernmath) \
 texlive-lm-math-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

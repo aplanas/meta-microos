@@ -14,6 +14,7 @@ RPM_HASH = "2e0138fc21597ae2c1b3e5940491c23d5f71e1963435e94c26789171e324878b2f8b
 
 RPROVIDES:${PN} += "ocaml-ocamlbuild \
 ocaml-ocamlbuild(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ocamlrun \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

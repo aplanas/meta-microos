@@ -25,6 +25,7 @@ mvn(org.apache.maven.doxia:doxia-skin-model) \
 mvn(org.apache.maven.doxia:doxia-skin-model:pom:) \
 mvn(org.apache.maven.shared:maven-doxia-tools) \
 mvn(org.apache.maven.shared:maven-doxia-tools:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-collections:commons-collections) \

@@ -15,6 +15,7 @@ kweather(aarch-64) \
 metainfo() \
 metainfo(org.kde.kweather.appdata.xml) \
 metainfo(org.kde.plasma.kweather_1x4.appdata.xml)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

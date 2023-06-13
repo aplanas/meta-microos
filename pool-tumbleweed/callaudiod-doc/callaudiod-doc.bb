@@ -10,6 +10,7 @@ RPM_HASH = "dc57bcc283940becec6df6447d3820d0f5015158398ce81bb2d8d261e9455d8b0873
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "callaudiod-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

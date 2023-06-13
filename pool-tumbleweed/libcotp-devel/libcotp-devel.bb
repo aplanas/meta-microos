@@ -10,6 +10,7 @@ RPM_HASH = "eba9562c28cef2aa317f97f6b784a2e9bbc860fec04de2b825604690f922c93fe337
 RPROVIDES:${PN} += "libcotp-devel \
 libcotp-devel(aarch-64) \
 pkgconfig(cotp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcotp2"
 

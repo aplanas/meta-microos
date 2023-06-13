@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(parver) \
 python39-parver \
 python3dist(parver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Arpeggio \
 python39-attrs \

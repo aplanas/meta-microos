@@ -19,6 +19,7 @@ RPM_HASH = "40d660de771fbf53c798da539343002f743cc00529fa4c14f8bea8a8435490373ebb
 RPROVIDES:${PN} += "libonig.so.5()(64bit) \
 libonig5 \
 libonig5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

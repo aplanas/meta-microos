@@ -75,6 +75,7 @@ locale(gnome-weather:vi) \
 locale(gnome-weather:zh_CN) \
 locale(gnome-weather:zh_HK) \
 locale(gnome-weather:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-weather"
 
 inherit rpm

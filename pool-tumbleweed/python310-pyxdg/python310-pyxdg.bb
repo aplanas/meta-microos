@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyxdg \
 python3.10dist(pyxdg) \
 python310-pyxdg \
 python3dist(pyxdg)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 python(abi) \
 shared-mime-info"

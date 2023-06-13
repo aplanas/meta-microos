@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wsproto) \
 python39-wsproto \
 python3dist(wsproto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-h11"
 

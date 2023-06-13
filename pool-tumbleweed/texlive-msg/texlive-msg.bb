@@ -20,6 +20,7 @@ tex(msg-msg.tex) \
 tex(msg.sty) \
 tex(norsk_msg-msg.tex) \
 texlive-msg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

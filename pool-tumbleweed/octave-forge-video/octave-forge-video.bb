@@ -10,6 +10,7 @@ RPM_HASH = "7757dbdafd9693b72458beedbefe17c036f5b0da7a2079d92b4cf9b7e40d6de5622a
 
 RPROVIDES:${PN} += "octave-forge-video \
 octave-forge-video(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "12509913ba09605f984e1cc1ac461c457882dad154cb1297514229d1284761999dd2
 RPROVIDES:${PN} += "ghc-tagsoup \
 ghc-tagsoup(aarch-64) \
 libHStagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

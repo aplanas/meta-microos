@@ -9,6 +9,7 @@ RPM_HASH = "686248ba81224097a84bee99c43e5d7f077865308351fcc496e476726cb715ea2f70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-astro-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

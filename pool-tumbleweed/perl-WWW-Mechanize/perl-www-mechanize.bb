@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "perl(WWW::Mechanize) \
 perl(WWW::Mechanize::Image) \
 perl(WWW::Mechanize::Link) \
 perl-WWW-Mechanize"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Form) \

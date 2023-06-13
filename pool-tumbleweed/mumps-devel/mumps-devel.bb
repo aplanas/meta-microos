@@ -14,6 +14,7 @@ RPM_HASH = "da2781e64d589e3f3001df69733f9db32730bc2dcb5ef0b1b42e31087e225a2f1240
 
 RPROVIDES:${PN} += "mumps-devel \
 mumps-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel \
 lapack-devel \
 libmumps5_3_5"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-backports.entry_points_selectable \
 python3.10dist(backports.entry-points-selectable) \
 python310-backports.entry_points_selectable \
 python3dist(backports.entry-points-selectable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

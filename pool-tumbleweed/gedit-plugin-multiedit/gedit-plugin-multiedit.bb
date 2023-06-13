@@ -12,6 +12,7 @@ gedit-plugin-multiedit(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/multiedit.plugin \
 metainfo() \
 metainfo(gedit-multiedit.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GLib) \
 typelib(GObject) \

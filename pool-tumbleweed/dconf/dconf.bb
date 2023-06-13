@@ -11,6 +11,7 @@ RPM_HASH = "a17659174e81815f432846da0e66493db38c87f69b805b9c06c6831c726f48a7351b
 
 RPROVIDES:${PN} += "dconf \
 dconf(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

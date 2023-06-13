@@ -10,6 +10,7 @@ RPM_HASH = "32215bf513a5276c698c7f0f1c51f17425c7150d71d728679a3c25007feb12ab191c
 RPROVIDES:${PN} += "product_control \
 skelcd-control-openSUSE \
 skelcd-control-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
 release-notes \

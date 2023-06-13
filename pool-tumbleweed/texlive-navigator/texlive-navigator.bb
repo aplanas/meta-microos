@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(navigator.sty) \
 tex(navigator.tex) \
 tex(t-navigator.tex) \
 texlive-navigator"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

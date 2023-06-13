@@ -28,6 +28,7 @@ RPM_HASH = "16d49e1c54a7c3ff70a4012776fdcbaa65f7ad2c5d31998896927acf6f5fdc25fd6e
 RPROVIDES:${PN} += "dd_rescue-lzo \
 dd_rescue-lzo(aarch-64) \
 libddr_lzo.so()(64bit)"
+
 RDEPENDS:${PN} += "dd_rescue \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

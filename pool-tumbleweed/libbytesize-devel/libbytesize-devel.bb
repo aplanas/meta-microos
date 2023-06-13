@@ -11,6 +11,7 @@ RPM_HASH = "70307d514c29bdf19c95e564301e6932f4320cee2703431d0bc7a525280e6b95d288
 RPROVIDES:${PN} += "libbytesize-devel \
 libbytesize-devel(aarch-64) \
 pkgconfig(bytesize)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbytesize1"
 

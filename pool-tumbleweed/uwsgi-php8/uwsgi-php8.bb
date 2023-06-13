@@ -12,6 +12,7 @@ RPM_HASH = "63fd4f19792651c4157108192255ea7d3ec486e84f5cb4040fd7d54d86f1afa533d9
 
 RPROVIDES:${PN} += "uwsgi-php8 \
 uwsgi-php8(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

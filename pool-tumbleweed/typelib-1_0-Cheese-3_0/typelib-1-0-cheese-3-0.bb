@@ -14,6 +14,7 @@ RPM_HASH = "0ac2c0055d0e79833a61a3767fe403e5113e6a0aa909f5314f19b69729e2ac43c35a
 RPROVIDES:${PN} += "typelib(Cheese) \
 typelib-1_0-Cheese-3_0 \
 typelib-1_0-Cheese-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcheese.so.8()(64bit) \
 typelib(Atk) \
 typelib(Clutter) \

@@ -9,6 +9,7 @@ RPM_HASH = "6c99af11abf3201f37bdcf95d44472daf825d521355542de68f1c6b0d491d78c3d54
 
 RPROVIDES:${PN} += "docserv-sitemap \
 docserv-sitemap(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

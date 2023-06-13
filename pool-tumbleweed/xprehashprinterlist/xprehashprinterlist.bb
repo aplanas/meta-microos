@@ -12,6 +12,7 @@ RPM_HASH = "ea37b493a0df19aeffefc192e293e18c9f5523a60279688e996d5122f53799c2d44e
 
 RPROVIDES:${PN} += "xprehashprinterlist \
 xprehashprinterlist(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

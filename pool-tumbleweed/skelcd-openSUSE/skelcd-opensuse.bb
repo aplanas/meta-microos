@@ -9,6 +9,7 @@ RPM_HASH = "b3aeaa68d46e6325d2cb751076e6a6e53274f98ab842fef7960b39eae5b1489f8d23
 
 RPROVIDES:${PN} += "skelcd-openSUSE \
 skelcd-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

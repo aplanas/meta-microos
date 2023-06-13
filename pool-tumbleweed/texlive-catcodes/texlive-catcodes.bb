@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(actcodes.sty) \
 tex(catchdq.sty) \
 tex(stacklet.sty) \
 texlive-catcodes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

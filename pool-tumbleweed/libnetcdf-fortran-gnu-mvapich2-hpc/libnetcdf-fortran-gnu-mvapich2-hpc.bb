@@ -11,6 +11,7 @@ RPM_HASH = "1389722a6365a6dcb03a1089b66791c757a0750cb7a5d56817c38de548fd9306b83a
 
 RPROVIDES:${PN} += "libnetcdf-fortran-gnu-mvapich2-hpc \
 libnetcdf-fortran-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf-fortran_4_5_3-gnu-mvapich2-hpc"
 

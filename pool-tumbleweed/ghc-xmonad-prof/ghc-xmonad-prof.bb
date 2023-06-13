@@ -10,6 +10,7 @@ RPM_HASH = "66b9742dfc63e327b9f48e70d851a41fb00f4aca1a86ac55bacdde111929a31cac74
 RPROVIDES:${PN} += "ghc-prof(xmonad-0.17.2-J64iMqERQ1Q7QqR5Vl2D4I) \
 ghc-xmonad-prof \
 ghc-xmonad-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

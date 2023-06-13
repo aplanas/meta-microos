@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:pl_PL) \
 myspell-dictionary \
 myspell-pl_PL \
 myspell-polish"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

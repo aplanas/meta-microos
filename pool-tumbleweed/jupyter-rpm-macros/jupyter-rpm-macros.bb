@@ -10,6 +10,7 @@ RPM_HASH = "1aa76b9b187740bc85c54745df09aa3a6b28f1b045549289f705be0272afb8507bdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-rpm-macros"
+
 RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem \
 jupyter-jupyterlab-filesystem \
 jupyter-notebook-filesystem"

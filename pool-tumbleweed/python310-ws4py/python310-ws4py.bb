@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ws4py \
 python3.10dist(ws4py) \
 python310-ws4py \
 python3dist(ws4py)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

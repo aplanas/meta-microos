@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mesonpep517) \
 python311-mesonpep517 \
 python3dist(mesonpep517)"
+
 RDEPENDS:${PN} += "meson \
 python(abi) \
 python311-setuptools \

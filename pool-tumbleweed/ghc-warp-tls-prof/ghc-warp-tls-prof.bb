@@ -10,6 +10,7 @@ RPM_HASH = "2c5b743103d43ca0b46ca9c114374f50f40ea74654703bda3bb6289c7c0a964cbc56
 RPROVIDES:${PN} += "ghc-prof(warp-tls-3.3.6-FNoL4BYqjr55niULiQgEjP) \
 ghc-warp-tls-prof \
 ghc-warp-tls-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-prof(cryptonite-0.30-AbDFzA14dNKDfU9pLpBLye) \

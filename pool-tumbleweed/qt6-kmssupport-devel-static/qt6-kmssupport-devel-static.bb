@@ -10,6 +10,7 @@ RPM_HASH = "1b0c1ecbf23fe05ec6c89dd84453bc5826915ec1901fb92865199a6b29e9ede00688
 RPROVIDES:${PN} += "cmake(Qt6KmsSupportPrivate) \
 qt6-kmssupport-devel-static \
 qt6-kmssupport-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-core-private-devel \
 qt6-gui-private-devel"
 

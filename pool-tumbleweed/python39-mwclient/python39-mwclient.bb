@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mwclient) \
 python39-mwclient \
 python3dist(mwclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests-oauthlib \
 python39-six"

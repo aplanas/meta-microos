@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-automaton \
 python3.10dist(automaton) \
 python3dist(automaton)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PrettyTable \
 python3-pbr \

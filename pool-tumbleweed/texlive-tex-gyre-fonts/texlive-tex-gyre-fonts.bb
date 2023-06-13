@@ -130,6 +130,7 @@ font(texgyrepagella) \
 font(texgyreschola) \
 font(texgyretermes) \
 texlive-tex-gyre-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

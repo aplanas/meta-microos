@@ -11,6 +11,7 @@ RPM_HASH = "0b6489584f8f7ef829a90a91a4139ab775d06b9706ab218173f5dd568c733c9c1cc3
 RPROVIDES:${PN} += "libquvi-devel \
 libquvi-devel(aarch-64) \
 pkgconfig(libquvi-0.9)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libquvi-0_9-0_9_4"
 

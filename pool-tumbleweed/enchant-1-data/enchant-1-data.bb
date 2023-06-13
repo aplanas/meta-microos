@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "enchant-1-data \
 enchant-1-data(aarch-64) \
 enchant-data \
 libenchant1:/usr/share/enchant/enchant.ordering"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

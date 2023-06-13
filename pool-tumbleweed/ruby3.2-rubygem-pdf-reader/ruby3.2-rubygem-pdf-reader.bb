@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:pdf-reader) \
 rubygem(ruby:3.2.0:pdf-reader:2) \
 rubygem(ruby:3.2.0:pdf-reader:2.11) \
 rubygem(ruby:3.2.0:pdf-reader:2.11.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

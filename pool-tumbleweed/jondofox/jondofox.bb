@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(jondofox.desktop) \
 jondofox"
+
 RDEPENDS:${PN} += "/bin/bash \
 firefox"
 

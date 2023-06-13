@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-geolib \
 python3.10dist(geolib) \
 python310-geolib \
 python3dist(geolib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

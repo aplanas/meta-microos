@@ -13,6 +13,7 @@ RPM_HASH = "5a8f2836da21368e1e5585915fe45c5a12b8b9813533c26307ae15c53e9d20216774
 
 RPROVIDES:${PN} += "slop \
 slop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

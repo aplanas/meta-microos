@@ -18,6 +18,7 @@ RPM_HASH = "875a796fe5b1e7607113de9600cced3dc35dfaa9d1d38020a542af229a35a277a400
 
 RPROVIDES:${PN} += "smooth \
 smooth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

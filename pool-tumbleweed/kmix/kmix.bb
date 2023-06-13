@@ -16,6 +16,7 @@ kmix5 \
 libkmixcore.so.5()(64bit) \
 metainfo() \
 metainfo(org.kde.kmix.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

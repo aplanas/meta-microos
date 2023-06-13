@@ -31,6 +31,7 @@ libopencv_tracking.so.3.4()(64bit) \
 libopencv_video.so.3.4()(64bit) \
 libopencv_videoio.so.3.4()(64bit) \
 libopencv_videostab.so.3.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

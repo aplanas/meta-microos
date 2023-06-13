@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-gmsh \
 python3.10dist(gmsh) \
 python3dist(gmsh)"
+
 RDEPENDS:${PN} += "libgmsh4_11 \
 python(abi)"
 

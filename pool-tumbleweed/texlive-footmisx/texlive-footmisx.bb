@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footmisx.sty) \
 texlive-footmisx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -43,6 +43,7 @@ perl(Data::ObjectDriver::ResultSet) \
 perl(Data::ObjectDriver::SQL) \
 perl(Data::ObjectDriver::SQL::Oracle) \
 perl-Data-ObjectDriver"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Fast) \
 perl(Class::Data::Inheritable) \

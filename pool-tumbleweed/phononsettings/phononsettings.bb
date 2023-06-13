@@ -12,6 +12,7 @@ RPM_HASH = "5650b2c6b1c8ba3d62999777e95e67bc7c3d79103dc8ef4b8d766362590e782e8e09
 
 RPROVIDES:${PN} += "phononsettings \
 phononsettings(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "2e9453e92110b7aa175f9b500e2f168de4554c2d668d4a4ddc1bc4552ff93fea4ff8
 
 RPROVIDES:${PN} += "sd-mux-ctrl \
 sd-mux-ctrl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

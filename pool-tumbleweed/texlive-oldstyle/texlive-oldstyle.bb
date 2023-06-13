@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(Ucmm.fd) \
 tex(oldstyle.sty) \
 texlive-oldstyle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

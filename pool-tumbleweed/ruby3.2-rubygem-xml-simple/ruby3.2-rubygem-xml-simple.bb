@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:xml-simple:1) \
 rubygem(ruby:3.2.0:xml-simple:1.1) \
 rubygem(ruby:3.2.0:xml-simple:1.1.9) \
 rubygem(xml-simple)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rexml)"
 

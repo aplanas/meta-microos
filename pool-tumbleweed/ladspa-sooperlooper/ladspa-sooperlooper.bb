@@ -10,6 +10,7 @@ RPM_HASH = "a38fc1a7e76af01276cff20dc6895477aea4bbad7c57ee31a9fdfcface6b2856402c
 
 RPROVIDES:${PN} += "ladspa-sooperlooper \
 ladspa-sooperlooper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

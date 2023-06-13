@@ -27,6 +27,7 @@ locale(budgie-extras:ru) \
 locale(budgie-extras:sq) \
 locale(budgie-extras:tr) \
 locale(budgie-extras:zh_CN)"
+
 RDEPENDS:${PN} += "budgie-extras"
 
 inherit rpm

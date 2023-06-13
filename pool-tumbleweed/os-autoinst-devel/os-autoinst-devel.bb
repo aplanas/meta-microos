@@ -9,6 +9,7 @@ RPM_HASH = "a54484063f56cbe0fad173bf7cec19c66b3dec3178356ffc5196f8e1ceebbbb48a09
 
 RPROVIDES:${PN} += "os-autoinst-devel \
 os-autoinst-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ShellCheck \
 aspell-en \
 aspell-spell \

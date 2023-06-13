@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-transip \
 python3.10dist(transip) \
 python310-transip \
 python3dist(transip)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

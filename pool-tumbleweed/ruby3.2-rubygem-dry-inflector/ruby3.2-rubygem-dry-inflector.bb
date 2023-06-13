@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:dry-inflector) \
 rubygem(ruby:3.2.0:dry-inflector:1) \
 rubygem(ruby:3.2.0:dry-inflector:1.0) \
 rubygem(ruby:3.2.0:dry-inflector:1.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

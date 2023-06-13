@@ -13,6 +13,7 @@ application(metacity.desktop) \
 metacity \
 metacity(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \

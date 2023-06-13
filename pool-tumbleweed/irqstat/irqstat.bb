@@ -9,6 +9,7 @@ RPM_HASH = "8dddd894484f6dad0c632b80e7bb460f4e43ac48d84060048f132f3266b85c342e59
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "irqstat"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 numactl"
 

@@ -14,6 +14,7 @@ RPM_HASH = "9c9f174df7b39f9a76d8592ff7f39a9e3207e6cc30f981d5944df6534c266159050f
 
 RPROVIDES:${PN} += "kajaani-kombat-server \
 kajaani-kombat-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

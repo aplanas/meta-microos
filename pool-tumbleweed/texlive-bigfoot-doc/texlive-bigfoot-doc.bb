@@ -9,6 +9,7 @@ RPM_HASH = "0e3edc4f9401cb5a5567cace2d15a7aae47a8d3687fc786448d3285f770980719475
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bigfoot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

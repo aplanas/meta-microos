@@ -10,6 +10,7 @@ RPM_HASH = "9c476b0bf62e0fc6838685159c5ea552987ec7931dd03197473b3624f46bead13561
 RPROVIDES:${PN} += "dtb-qcom \
 dtb-qcom(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

@@ -10,6 +10,7 @@ RPM_HASH = "3561012fe185fdb54789f560392a1835d99c0372a53e809ef0ecaf96f3e427a332ac
 RPROVIDES:${PN} += "ghc-devel(fdo-notify-0.3.1-4juugYyFrKwHiJsjcNjTJW) \
 ghc-fdo-notify-devel \
 ghc-fdo-notify-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

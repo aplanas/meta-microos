@@ -9,6 +9,7 @@ RPM_HASH = "a411286d8fed7ef618fb37be6b21ab72aa4a9a58fbe326b6481abcb680cc396bcbab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biocon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

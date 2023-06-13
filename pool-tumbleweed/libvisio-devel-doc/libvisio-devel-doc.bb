@@ -9,6 +9,7 @@ RPM_HASH = "9d81cf48c67646256125eb527e74a44e09bb5ecb2e7d112f25933e756e69e8307af2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvisio-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

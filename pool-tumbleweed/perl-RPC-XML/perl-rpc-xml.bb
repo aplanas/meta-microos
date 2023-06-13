@@ -49,6 +49,7 @@ perl(RPC::XML::simple_type) \
 perl(RPC::XML::string) \
 perl(RPC::XML::struct) \
 perl-RPC-XML"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Daemon) \

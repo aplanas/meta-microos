@@ -20,6 +20,7 @@ RPM_HASH = "e43a5195dcd6865c81edce6cc32f432d4412ce36a735d65fb676bb0e66900be399bd
 RPROVIDES:${PN} += "cmake(glslang) \
 glslang-devel \
 glslang-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSPIRV.so.12()(64bit) \

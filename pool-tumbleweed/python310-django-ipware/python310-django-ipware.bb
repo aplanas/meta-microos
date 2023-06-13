@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-ipware \
 python3.10dist(django-ipware) \
 python310-django-ipware \
 python3dist(django-ipware)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

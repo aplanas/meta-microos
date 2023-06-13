@@ -23,6 +23,7 @@ pkgconfig(panel5) \
 pkgconfig(panelw5) \
 pkgconfig(tic5) \
 pkgconfig(tinfo5)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 /usr/bin/tack \

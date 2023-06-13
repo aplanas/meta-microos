@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6PdfWidgets) \
 pkgconfig(Qt6PdfWidgets) \
 qt6-pdfwidgets-devel \
 qt6-pdfwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Pdf) \

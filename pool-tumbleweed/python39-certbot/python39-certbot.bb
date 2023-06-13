@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "certbot \
 python3.9dist(certbot) \
 python39-certbot \
 python3dist(certbot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

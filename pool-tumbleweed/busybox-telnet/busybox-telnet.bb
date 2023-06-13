@@ -9,6 +9,7 @@ RPM_HASH = "1f7321d793974542c298fcf43b9a5883ef81db36de7bf42e988f80c76034ecb1e9c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-telnet"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

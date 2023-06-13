@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hypothesis-fspaths \
 python3.10dist(hypothesis-fspaths) \
 python310-hypothesis-fspaths \
 python3dist(hypothesis-fspaths)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-hypothesis"
 

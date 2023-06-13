@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-kpfonts-otf-doc:en;fr) \
 texlive-kpfonts-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

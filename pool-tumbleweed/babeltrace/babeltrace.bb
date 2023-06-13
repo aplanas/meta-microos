@@ -20,6 +20,7 @@ libbabeltrace-ctf.so.1()(64bit) \
 libbabeltrace-dummy.so.1()(64bit) \
 libbabeltrace-lttng-live.so.1()(64bit) \
 libbabeltrace.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

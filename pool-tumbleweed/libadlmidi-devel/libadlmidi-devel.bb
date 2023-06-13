@@ -10,6 +10,7 @@ RPM_HASH = "538755e1faa4dd82d7af655749818ada40e74ab27ef2e720c30da63dbf72e3b5b513
 RPROVIDES:${PN} += "libadlmidi-devel \
 libadlmidi-devel(aarch-64) \
 pkgconfig(libADLMIDI)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libADLMIDI1"
 

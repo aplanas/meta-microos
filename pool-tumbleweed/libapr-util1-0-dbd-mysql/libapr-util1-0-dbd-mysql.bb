@@ -9,6 +9,7 @@ RPM_HASH = "4e9846c22f3820089c0ca96ea54849374702fcb1248a8f685dacd81f3b0ee4d520af
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-mysql \
 libapr-util1-0-dbd-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-util1-0 \

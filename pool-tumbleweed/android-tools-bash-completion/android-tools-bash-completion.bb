@@ -9,6 +9,7 @@ RPM_HASH = "9eda34bc5b86a21732ce0f9d0aad5c7a40cb9d2eb38e16681ed60a4e88871f36e5bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "android-tools-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

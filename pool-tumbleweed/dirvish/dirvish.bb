@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dirvish) \
 dirvish"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl(Time::ParseDate) \

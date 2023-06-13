@@ -12,6 +12,7 @@ RPM_HASH = "011cf511d16499e99afe93583d62b7d53244666369195d597b0a52f0add5a303e5a0
 RPROVIDES:${PN} += "libkea-dhcp_ddns.so.29()(64bit) \
 libkea-dhcp_ddns29 \
 libkea-dhcp_ddns29(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

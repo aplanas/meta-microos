@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-WebTest \
 python3.10dist(webtest) \
 python310-WebTest \
 python3dist(webtest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebOb \
 python310-beautifulsoup4 \

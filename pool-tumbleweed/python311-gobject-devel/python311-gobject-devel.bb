@@ -10,6 +10,7 @@ RPM_HASH = "69c9bc997d299d3b931111710822cfeeefeaa3e762eae2186194e1d1fb5d32c62047
 
 RPROVIDES:${PN} += "python311-gobject-devel \
 python311-gobject-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-devel \
 python311-gobject \
 python311-gobject-Gdk \

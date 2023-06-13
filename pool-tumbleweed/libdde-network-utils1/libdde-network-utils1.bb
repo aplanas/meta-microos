@@ -10,6 +10,7 @@ RPM_HASH = "a4b0b20655115f4d48bd691fd84749bb0dd308ba21e2eb2bd4fb78881975f9584609
 RPROVIDES:${PN} += "libdde-network-utils.so.1()(64bit) \
 libdde-network-utils1 \
 libdde-network-utils1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

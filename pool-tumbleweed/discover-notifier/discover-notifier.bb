@@ -13,6 +13,7 @@ application(kcm_updates.desktop) \
 application(org.kde.discover.notifier.desktop) \
 discover-notifier \
 discover-notifier(aarch-64)"
+
 RDEPENDS:${PN} += "discover \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

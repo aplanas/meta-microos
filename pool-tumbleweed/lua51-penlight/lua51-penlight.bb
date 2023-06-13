@@ -12,6 +12,7 @@ RPM_HASH = "e08c50642948142b7db0bdfce21e81f6525b37d4759bdcd463dfdab694b3ede82dfa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-penlight"
+
 RDEPENDS:${PN} += "lua51 \
 lua51-luafilesystem"
 

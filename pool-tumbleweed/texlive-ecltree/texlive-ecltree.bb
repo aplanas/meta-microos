@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ecltree.sty) \
 texlive-ecltree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

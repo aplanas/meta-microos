@@ -10,6 +10,7 @@ RPM_HASH = "f3c108d6b213dd8a93d5e8fa0506ba58f23bd156df0106480625a5a72c685597ab76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcb-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

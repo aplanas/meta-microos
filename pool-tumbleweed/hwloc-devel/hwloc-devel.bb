@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "hwloc-devel \
 hwloc-devel(aarch-64) \
 libhwloc-devel \
 pkgconfig(hwloc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhwloc15 \
 pkgconfig(libxml-2.0) \

@@ -10,6 +10,7 @@ RPM_HASH = "9a7483c8d8c424354419403df97123c7ca50cf67e88c79d85b310aa9d27ff4d73356
 
 RPROVIDES:${PN} += "cuishark \
 cuishark(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

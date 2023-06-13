@@ -14,6 +14,7 @@ RPM_HASH = "b46e530817ad32fd2286553d539a5c76417ab95a247b1da9864385dac2a73cd9f730
 RPROVIDES:${PN} += "libpfs.so.2()(64bit) \
 libpfs2 \
 libpfs2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

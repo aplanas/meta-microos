@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(Matroska) \
 libmatroska-devel \
 libmatroska-devel(aarch-64) \
 pkgconfig(libmatroska)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmatroska7 \
 pkgconfig(libebml)"

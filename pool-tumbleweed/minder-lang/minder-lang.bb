@@ -20,6 +20,7 @@ locale(minder:pt_BR) \
 locale(minder:ru) \
 minder-lang \
 minder-lang-all"
+
 RDEPENDS:${PN} += "minder"
 
 inherit rpm

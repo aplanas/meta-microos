@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.11dist(python-yubico) \
 python311-python-yubico \
 python311-yubico \
 python3dist(python-yubico)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-usb"
 

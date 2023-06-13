@@ -10,6 +10,7 @@ RPM_HASH = "d9363b672b301e1535b0b221879bdb2f500c5034943112d76022d8841f02b7f624f2
 
 RPROVIDES:${PN} += "containerized-data-importer-manifests \
 containerized-data-importer-manifests(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

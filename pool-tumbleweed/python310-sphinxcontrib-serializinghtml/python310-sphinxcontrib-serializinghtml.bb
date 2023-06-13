@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-serializinghtml \
 python3.10dist(sphinxcontrib-serializinghtml) \
 python310-sphinxcontrib-serializinghtml \
 python3dist(sphinxcontrib-serializinghtml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

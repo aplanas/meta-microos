@@ -11,6 +11,7 @@ RPM_HASH = "b1d693d8dff54aa5edd4051afa4e1bccfe5de4e97a4a4473f9748df26e8d10df8e1b
 RPROVIDES:${PN} += "libdavix.so.0()(64bit) \
 libdavix0 \
 libdavix0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

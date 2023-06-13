@@ -10,6 +10,7 @@ RPM_HASH = "5c8e12235aec016cff9028f6f2201426cae816a543148528de4dc30928a055ee9954
 
 RPROVIDES:${PN} += "samba-gpupdate \
 samba-gpupdate(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cepces \
 certmonger \

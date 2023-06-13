@@ -13,6 +13,7 @@ mvn(org.codehaus.plexus:containers-component-api:pom:) \
 mvn(org.codehaus.plexus:plexus-container-default) \
 mvn(org.codehaus.plexus:plexus-container-default:pom:) \
 plexus-containers-container-default"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.guava:guava) \

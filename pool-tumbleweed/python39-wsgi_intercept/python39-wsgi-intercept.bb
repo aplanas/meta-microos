@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wsgi-intercept) \
 python39-wsgi_intercept \
 python3dist(wsgi-intercept)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

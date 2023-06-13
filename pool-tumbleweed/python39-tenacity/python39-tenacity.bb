@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tenacity) \
 python39-tenacity \
 python3dist(tenacity)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

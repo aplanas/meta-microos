@@ -21,6 +21,7 @@ tex(uygoth.fd) \
 tex(uyinit.fd) \
 tex(uyswab.fd) \
 texlive-mfnfss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

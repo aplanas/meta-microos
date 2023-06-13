@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simpleoptics.sty) \
 texlive-simpleoptics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

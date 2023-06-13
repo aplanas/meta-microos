@@ -64,6 +64,7 @@ locale(lxterminal:zh_CN) \
 locale(lxterminal:zh_TW) \
 lxterminal-lang \
 lxterminal-lang-all"
+
 RDEPENDS:${PN} += "lxterminal"
 
 inherit rpm

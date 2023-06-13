@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pytest-cookies \
 python3.10dist(pytest-cookies) \
 python3dist(pytest-cookies)"
+
 RDEPENDS:${PN} += "cookiecutter \
 python(abi) \
 python3-pytest"

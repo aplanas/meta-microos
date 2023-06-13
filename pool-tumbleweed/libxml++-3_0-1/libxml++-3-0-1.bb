@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libxml++-3.0.so.1()(64bit) \
 libxml++-3_0-1 \
 libxml++-3_0-1(aarch-64) \
 libxml++30"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

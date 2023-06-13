@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(susy.sty) \
 texlive-susy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

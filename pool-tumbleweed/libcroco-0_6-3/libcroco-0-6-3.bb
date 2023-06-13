@@ -11,6 +11,7 @@ RPM_HASH = "27f2920aa6c48f3dd2820792629d3808787997a3c97527899cec9320111dce7e9b65
 RPROVIDES:${PN} += "libcroco-0.6.so.3()(64bit) \
 libcroco-0_6-3 \
 libcroco-0_6-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "4394bdd1329b94672cf55de3201b790ed7829cd113b2c987a85ccfffc8b343020b50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poiretone-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

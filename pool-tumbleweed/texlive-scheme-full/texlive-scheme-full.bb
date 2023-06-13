@@ -10,6 +10,7 @@ RPM_HASH = "e456b3b8d189506680950616a6803b9cc1f6943f5b21d3f2569da7830a6e79dd394c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-full"
+
 RDEPENDS:${PN} += "texlive-collection-basic \
 texlive-collection-bibtexextra \
 texlive-collection-binextra \

@@ -19,6 +19,7 @@ RPM_HASH = "87102f9745196ec4d21367d2ac05d9601b0e9bec7d6229a59e28ba82ec5587014134
 
 RPROVIDES:${PN} += "lammps \
 lammps(aarch-64)"
+
 RDEPENDS:${PN} += "lammps-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

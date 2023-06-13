@@ -42,6 +42,7 @@ perl(Email::Sender::Transport::Test) \
 perl(Email::Sender::Transport::Wrapper) \
 perl(Email::Sender::Util) \
 perl-Email-Sender"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Abstract) \
 perl(Email::Address::XS) \

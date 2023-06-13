@@ -9,6 +9,7 @@ RPM_HASH = "86272ff1caa1093b6058836a38bb419bb97b2aab9814d15b737e252afc8ab6d205c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wheelchart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

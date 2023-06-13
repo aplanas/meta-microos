@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblatex-anonymous.sty) \
 texlive-biblatex-anonymous"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

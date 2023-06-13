@@ -9,6 +9,7 @@ RPM_HASH = "2571b843b9f5db93affdf1dffbeb08d736396beb452ae6e5086a2793213494381d84
 
 RPROVIDES:${PN} += "texlive-texlogfilter-bin \
 texlive-texlogfilter-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texlogfilter"
 
 inherit rpm

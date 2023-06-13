@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cmexb.map) \
 tex(cmexb10.tfm) \
 texlive-cmexb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

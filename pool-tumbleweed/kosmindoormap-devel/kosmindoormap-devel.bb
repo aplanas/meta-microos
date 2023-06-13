@@ -10,6 +10,7 @@ RPM_HASH = "277e481e14cd1df2e65489b4890df926657235063d85b66eef51351e817aaa61ce9e
 RPROVIDES:${PN} += "cmake(KOSMIndoorMap) \
 kosmindoormap-devel \
 kosmindoormap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKOSM1 \
 libKOSMIndoorMap1"
 

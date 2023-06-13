@@ -14,6 +14,7 @@ RPM_HASH = "a714a2cd976a9c760fde38bd9728685a1f737dc1e9a8fcffd4164144046a89861923
 
 RPROVIDES:${PN} += "rabbitmq-c-tools \
 rabbitmq-c-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

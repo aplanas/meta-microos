@@ -11,6 +11,7 @@ RPM_HASH = "3532b52849fd074bc0c3c3ee0ee68cd4b0eae6e17f197b41c5b504fc07e2b02b383a
 RPROVIDES:${PN} += "cmake(TelepathyLoggerQt) \
 telepathy-logger-qt5-devel \
 telepathy-logger-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtelepathy-logger-qt5 \
 telepathy-glib-devel \
 telepathy-logger-devel"

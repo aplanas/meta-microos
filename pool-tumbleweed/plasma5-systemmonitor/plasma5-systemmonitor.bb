@@ -18,6 +18,7 @@ plasma5-systemmonitor \
 plasma5-systemmonitor(aarch-64) \
 qt5qmlimport(org.kde.ksysguard.page.1) \
 qt5qmlimport(org.kde.ksysguard.table.1)"
+
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
 kitemmodels-imports \

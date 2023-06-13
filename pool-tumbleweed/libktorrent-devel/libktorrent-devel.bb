@@ -10,6 +10,7 @@ RPM_HASH = "f0edda0d8856e29dfb22636580dbd493e99ac9001a9747b753a770dd9de0a6f813dc
 RPROVIDES:${PN} += "cmake(KF5Torrent) \
 libktorrent-devel \
 libktorrent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 cmake(KF5Config) \
 cmake(KF5KIO) \

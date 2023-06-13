@@ -10,6 +10,7 @@ RPM_HASH = "cf0fd60b147de6f7381ecc4a68118b95bae724617a5c1d925f2ba95d08762316f519
 RPROVIDES:${PN} += "libecholib.so.1.3()(64bit) \
 libecholib1_3 \
 libecholib1_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

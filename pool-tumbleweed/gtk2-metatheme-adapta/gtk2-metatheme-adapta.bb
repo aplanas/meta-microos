@@ -12,6 +12,7 @@ RPM_HASH = "c7fedc3124434f1badde958f0bc11e93893217c5043d746d49ce66b5229215b278e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-adapta"
+
 RDEPENDS:${PN} += "gtk2 \
 gtk2-engine-murrine \
 metatheme-adapta-common"

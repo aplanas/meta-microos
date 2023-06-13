@@ -9,6 +9,7 @@ RPM_HASH = "5b4c86b540d6f8dc3a54bc7d4dea51091e6a33670a0fb3f5c77c1765ff725250608e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fgruler-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

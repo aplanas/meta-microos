@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-contentage \
 nagios-plugins-contentage"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(File::Basename) \
 perl(File::stat) \

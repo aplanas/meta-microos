@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rest-framework-braces \
 python3.10dist(django-rest-framework-braces) \
 python310-django-rest-framework-braces \
 python3dist(django-rest-framework-braces)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-dateutils \

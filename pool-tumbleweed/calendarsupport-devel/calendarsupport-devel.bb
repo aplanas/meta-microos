@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "calendarsupport-devel \
 calendarsupport-devel(aarch-64) \
 cmake(KF5CalendarSupport) \
 cmake(KPim5CalendarSupport)"
+
 RDEPENDS:${PN} += "cmake(KPim5AkonadiCalendar) \
 cmake(KPim5IdentityManagement) \
 cmake(KPim5Mime) \

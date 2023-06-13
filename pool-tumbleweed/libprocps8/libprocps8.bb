@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libprocps.so.8()(64bit) \
 libprocps.so.8(LIBPROCPS_0)(64bit) \
 libprocps8 \
 libprocps8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "93bbdde80c12ed343e5a193f2191065961b87d6b70a59bcae6b8811fa123f58dc073
 RPROVIDES:${PN} += "libmodplug-devel \
 libmodplug-devel(aarch-64) \
 pkgconfig(libmodplug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmodplug1"
 

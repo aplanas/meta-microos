@@ -10,6 +10,7 @@ RPM_HASH = "cb2de8836d0de04fcc8aa595b4f51e1f76bff8a7ea5539a39d16c871ad74c92d4014
 RPROVIDES:${PN} += "libkafs.so.0()(64bit) \
 libkafs0 \
 libkafs0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

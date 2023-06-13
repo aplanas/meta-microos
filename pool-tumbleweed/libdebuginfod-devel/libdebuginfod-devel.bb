@@ -11,6 +11,7 @@ RPM_HASH = "0353035ad51b4f9e7d71a7e22ab1702163b4539c20b5f660a0eeddc16b8c8ae4f7ee
 RPROVIDES:${PN} += "libdebuginfod-devel \
 libdebuginfod-devel(aarch-64) \
 pkgconfig(libdebuginfod)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdebuginfod1"
 

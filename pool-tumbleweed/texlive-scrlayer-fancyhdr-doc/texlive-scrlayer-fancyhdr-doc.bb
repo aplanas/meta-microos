@@ -9,6 +9,7 @@ RPM_HASH = "6ac6e3dcc932ade93ad49ea57c9746c756d7d730f8b8dcd1745e2e5139af7ab61fcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scrlayer-fancyhdr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

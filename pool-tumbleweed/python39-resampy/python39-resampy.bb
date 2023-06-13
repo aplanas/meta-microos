@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(resampy) \
 python39-resampy \
 python3dist(resampy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numba \
 python39-numpy"

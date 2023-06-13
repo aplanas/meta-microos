@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wadllib) \
 python39-wadllib \
 python3dist(wadllib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lazr.uri"
 

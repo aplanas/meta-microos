@@ -208,6 +208,7 @@ font(notoserifmedium) \
 font(notoserifsemibold) \
 font(notoserifthin) \
 texlive-noto-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

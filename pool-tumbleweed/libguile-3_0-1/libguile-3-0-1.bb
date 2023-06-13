@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libguile-3.0.so.1()(64bit) \
 libguile-3.0.so.1(GUILE_2.0)(64bit) \
 libguile-3_0-1 \
 libguile-3_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glibc-locale \
 guile-modules-3_0 \

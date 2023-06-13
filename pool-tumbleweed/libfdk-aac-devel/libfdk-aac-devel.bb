@@ -13,6 +13,7 @@ fdk-aac-free-devel(aarch-64) \
 libfdk-aac-devel \
 libfdk-aac-devel(aarch-64) \
 pkgconfig(fdk-aac)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfdk-aac2(aarch-64)"
 

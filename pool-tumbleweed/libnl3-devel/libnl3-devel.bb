@@ -18,6 +18,7 @@ pkgconfig(libnl-idiag-3.0) \
 pkgconfig(libnl-nf-3.0) \
 pkgconfig(libnl-route-3.0) \
 pkgconfig(libnl-xfrm-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnl3-200 \
 pkgconfig(libnl-3.0) \

@@ -11,6 +11,7 @@ RPM_HASH = "f58886e738e1fa0f03b3d640ba9b1f709ceb68617db394b812438207d38dffe33bca
 
 RPROVIDES:${PN} += "hfst \
 hfst(aarch-64)"
+
 RDEPENDS:${PN} += "grep \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

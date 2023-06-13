@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sievelib) \
 python311-sievelib \
 python3dist(sievelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

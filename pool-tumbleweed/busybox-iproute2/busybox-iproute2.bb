@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "/sbin/ifup \
 /sbin/ip \
 busybox-iproute2"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

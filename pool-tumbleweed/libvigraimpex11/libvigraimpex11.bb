@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libvigraimpex.so.11()(64bit) \
 libvigraimpex11 \
 libvigraimpex11(aarch-64) \
 vigra"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:webpacker:5) \
 rubygem(ruby:3.2.0:webpacker:5.4) \
 rubygem(ruby:3.2.0:webpacker:5.4.3) \
 rubygem(webpacker)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \

@@ -16,6 +16,7 @@ RPM_HASH = "2d6bc8011e62d36d312d2a1db4d99d85022fc9ca817a4e9f8ecbd11570bfab577356
 RPROVIDES:${PN} += "gnome-settings-daemon \
 gnome-settings-daemon(aarch-64) \
 libgsd.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 gsettings-desktop-schemas \

@@ -13,6 +13,7 @@ libAnalitza8(aarch-64) \
 libAnalitzaGui.so.8()(64bit) \
 libAnalitzaPlot.so.8()(64bit) \
 libAnalitzaWidgets.so.8()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 analitza \
 ld-linux-aarch64.so.1()(64bit) \

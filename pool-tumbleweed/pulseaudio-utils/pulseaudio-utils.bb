@@ -15,6 +15,7 @@ RPM_HASH = "faa88366de6e624c94a63dbacd42ffe555e7dea8fa20b318a49a2b1d54377c5e9d40
 RPROVIDES:${PN} += "libpulsedsp.so()(64bit) \
 pulseaudio-utils \
 pulseaudio-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

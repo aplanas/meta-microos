@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(psautohint) \
 python39-psautohint \
 python39-psautohint(aarch-64) \
 python3dist(psautohint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

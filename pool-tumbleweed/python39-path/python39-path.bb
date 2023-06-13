@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(path) \
 python39-path \
 python39-path.py \
 python3dist(path)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

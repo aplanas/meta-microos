@@ -11,6 +11,7 @@ RPM_HASH = "c13c7cd8b710cc0a669369ffba711360070ffe8dac91d3bb08de8c22518b1b43e1dd
 RPROVIDES:${PN} += "libnetlink \
 libnetlink-devel \
 libnetlink-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(keyrings.alt) \
 python39-keyrings.alt \
 python3dist(keyrings.alt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jaraco.classes \
 python39-pycryptodomex"

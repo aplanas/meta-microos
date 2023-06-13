@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5KontactInterface) \
 cmake(KPim5KontactInterface) \
 kontactinterface-devel \
 kontactinterface-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Parts) \
 libKPim5KontactInterface5"
 

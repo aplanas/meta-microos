@@ -11,6 +11,7 @@ RPM_HASH = "8540b7f89bb610b0ec8997edd1366f727b6f59c92c022bcce434fc388a6dd17d72e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-virtual-academy-pl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

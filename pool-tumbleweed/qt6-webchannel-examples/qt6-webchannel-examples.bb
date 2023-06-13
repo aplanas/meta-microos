@@ -9,6 +9,7 @@ RPM_HASH = "dada79755904f49d7ea67e2213adc459e6f7a19e7285f0209822b9fa6b97787b9234
 
 RPROVIDES:${PN} += "qt6-webchannel-examples \
 qt6-webchannel-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

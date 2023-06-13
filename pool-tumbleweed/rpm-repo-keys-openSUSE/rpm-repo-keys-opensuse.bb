@@ -10,6 +10,7 @@ RPM_HASH = "dc5f5a0252fb027cc6e4e242e29a077eaf11459adc1cd75221c990cffd268109bcf6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-repo-keys-openSUSE"
+
 RDEPENDS:${PN} += "openSUSE-build-key"
 
 inherit rpm

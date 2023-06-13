@@ -20,6 +20,7 @@ RPM_HASH = "390d34de10053d40121f88abc468c74568b0de0f7a30c0fa6d8c3d0849f6b94e102c
 
 RPROVIDES:${PN} += "xquarto \
 xquarto(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

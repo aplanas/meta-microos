@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "typelib(FcitxG) \
 typelib-1_0-Fcitx-1_0 \
 typelib-1_0-FcitxG-1_0 \
 typelib-1_0-FcitxG-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libFcitx5GClient.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

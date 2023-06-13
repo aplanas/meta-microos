@@ -11,6 +11,7 @@ RPM_HASH = "6bc778303e555bc3ae004d4f41f9c90f3e6324c6a0d8a08dbb3f4fd171e6d5549367
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-rocketchat"
+
 RDEPENDS:${PN} += "libpurple-plugin-rocketchat"
 
 inherit rpm

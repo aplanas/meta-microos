@@ -20,6 +20,7 @@ mimehandler(application/pgp-signature) \
 nemo-extension-seahorse \
 nemo-extension-seahorse(aarch-64) \
 nemo-seahorse"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

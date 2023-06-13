@@ -14,6 +14,7 @@ application(lxde-logout.desktop) \
 application(lxde-screenlock.desktop) \
 lxde-common \
 lxde-settings-daemon"
+
 RDEPENDS:${PN} += "/bin/sh \
 lxde-common-branding \
 update-alternatives"

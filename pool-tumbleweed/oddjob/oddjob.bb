@@ -11,6 +11,7 @@ RPM_HASH = "580eac1663d22b4572590fcb69684141eb6c8c691d9885bbe4b1cea5845d559fafdd
 RPROVIDES:${PN} += "config(oddjob) \
 oddjob \
 oddjob(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dbus-1 \

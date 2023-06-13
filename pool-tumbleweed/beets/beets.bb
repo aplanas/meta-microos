@@ -37,6 +37,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "beets \
 python3.10dist(beets) \
 python3dist(beets)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

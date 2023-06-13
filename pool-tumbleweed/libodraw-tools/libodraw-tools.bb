@@ -10,6 +10,7 @@ RPM_HASH = "ba980e96a123ff27c0e9021bc0ba2008bb0e2a61cf093c0e689addfa791dad44694e
 
 RPROVIDES:${PN} += "libodraw-tools \
 libodraw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libXp-devel \
 libXp-devel(aarch-64) \
 pkgconfig(xp) \
 xorg-x11-libXp-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXp6 \
 pkgconfig(printproto) \

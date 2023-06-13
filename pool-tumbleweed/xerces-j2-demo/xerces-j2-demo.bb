@@ -9,6 +9,7 @@ RPM_HASH = "cbae210a6234f9a306514356746182c6ca7e1b4aa0fcb0bf5bb8e754a6d9392a8348
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xerces-j2-demo"
+
 RDEPENDS:${PN} += "xerces-j2"
 
 inherit rpm

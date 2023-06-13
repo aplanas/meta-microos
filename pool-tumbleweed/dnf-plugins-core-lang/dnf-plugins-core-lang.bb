@@ -42,6 +42,7 @@ locale(dnf-plugins-core:tr) \
 locale(dnf-plugins-core:uk) \
 locale(dnf-plugins-core:zh_CN) \
 locale(dnf-plugins-core:zh_TW)"
+
 RDEPENDS:${PN} += "dnf-plugins-core"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "654bfa2f99dbf2402f658e03270e4e816745c74c1a84c3685fe91b99842be168c4ac
 RPROVIDES:${PN} += "libbrasero-burn3-1 \
 libbrasero-burn3-1(aarch-64) \
 libbrasero-burn3.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

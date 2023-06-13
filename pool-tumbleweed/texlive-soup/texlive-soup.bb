@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(soup.sty) \
 texlive-soup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

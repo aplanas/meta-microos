@@ -23,6 +23,7 @@ locale(quilter:pt_BR) \
 locale(quilter:ru) \
 quilter-lang \
 quilter-lang-all"
+
 RDEPENDS:${PN} += "quilter"
 
 inherit rpm

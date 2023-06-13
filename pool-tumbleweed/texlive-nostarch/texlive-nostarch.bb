@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(nostarch.cls) \
 tex(nshyper.sty) \
 texlive-nostarch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

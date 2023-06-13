@@ -17,6 +17,7 @@ RPM_HASH = "120aca5c0d718eea4980d73e98c12f4559f5217679c3fce642f8930e157e4c5ffa90
 RPROVIDES:${PN} += "adjtimex \
 adjtimex(aarch-64) \
 util-linux:/usr/sbin/adjtimex"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

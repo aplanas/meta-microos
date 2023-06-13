@@ -9,6 +9,7 @@ RPM_HASH = "4e9d9cc4e7bcb88a0d38d09eda7189188065bdf05921f936a21438047a8a5aa2e31c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-decorule-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

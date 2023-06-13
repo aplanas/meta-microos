@@ -18,6 +18,7 @@ RPM_HASH = "b31c9043118e944e7fda65cae0d6840727807515e66b55bc3c92a7e99e1b195719fa
 RPROVIDES:${PN} += "cmake(wt) \
 wt-devel \
 wt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "FastCGI-devel \
 Xerces-c-devel \
 boost-devel \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mentis.cls) \
 texlive-mentis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

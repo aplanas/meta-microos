@@ -9,6 +9,7 @@ RPM_HASH = "a80106cebcdbf6cac5af491070dbb80af5fa5470dca0b08a5f23e01a9ffafece6164
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blochsphere-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

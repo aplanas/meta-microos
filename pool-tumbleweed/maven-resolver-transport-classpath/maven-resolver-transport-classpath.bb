@@ -14,6 +14,7 @@ mvn(org.apache.maven.resolver:maven-resolver-transport-classpath:pom:) \
 mvn(org.eclipse.aether:aether-transport-classpath) \
 mvn(org.eclipse.aether:aether-transport-classpath:pom:) \
 osgi(org.apache.maven.resolver.transport.classpath)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.resolver:maven-resolver-api) \

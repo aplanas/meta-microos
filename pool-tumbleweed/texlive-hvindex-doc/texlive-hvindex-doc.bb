@@ -9,6 +9,7 @@ RPM_HASH = "e30d282855acd123ea343f1909ee8a0a189c1ee0c997076bd61ff0663899d84f044b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvindex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "b84cd8a1b55a484bed52e432be4f689bedf01d46f7e566961085640a4e44dcad601e
 RPROVIDES:${PN} += "libdmlc \
 libdmlc(aarch-64) \
 libdmlc.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

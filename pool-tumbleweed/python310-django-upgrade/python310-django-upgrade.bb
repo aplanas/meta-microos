@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-upgrade \
 python3.10dist(django-upgrade) \
 python310-django-upgrade \
 python3dist(django-upgrade)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

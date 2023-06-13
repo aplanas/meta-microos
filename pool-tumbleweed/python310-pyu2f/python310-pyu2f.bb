@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyu2f \
 python3.10dist(pyu2f) \
 python310-pyu2f \
 python3dist(pyu2f)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-coconut \
 python3.10dist(coconut) \
 python3dist(coconut)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Pygments \

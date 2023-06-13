@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(everysel-2011-10-28.sty) \
 tex(everysel.sty) \
 texlive-everysel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

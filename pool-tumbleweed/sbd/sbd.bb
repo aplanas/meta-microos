@@ -10,6 +10,7 @@ RPM_HASH = "ae07549489f759647e24afd9e731ba96750d10aadb879703cb2461f2d298eac50787
 RPROVIDES:${PN} += "pkgconfig(sbd) \
 sbd \
 sbd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

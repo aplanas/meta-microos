@@ -13,6 +13,7 @@ RPM_HASH = "7bcdcae820b23dd3a4151831e7c775f42542ba224978affcd214a890be26ac2e6147
 RPROVIDES:${PN} += "liblangtag-devel \
 liblangtag-devel(aarch-64) \
 pkgconfig(liblangtag)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblangtag1 \
 pkgconfig(glib-2.0) \

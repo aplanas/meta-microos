@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-memory \
 mvn(org.apache.lucene:lucene-memory) \
 mvn(org.apache.lucene:lucene-memory:pom:) \
 osgi(org.apache.lucene.memory)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

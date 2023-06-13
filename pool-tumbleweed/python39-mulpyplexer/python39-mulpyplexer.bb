@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mulpyplexer) \
 python39-mulpyplexer \
 python3dist(mulpyplexer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

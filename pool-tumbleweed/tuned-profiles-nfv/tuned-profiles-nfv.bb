@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tuned-profiles-nfv) \
 tuned-profiles-nfv"
+
 RDEPENDS:${PN} += "/bin/bash \
 tuned"
 

@@ -10,6 +10,7 @@ RPM_HASH = "828f4a163fc081fbc352e5cc49d82184f1d41de028e3bcb128db5d646a7bfcffe304
 RPROVIDES:${PN} += "ghc-base64-prof \
 ghc-base64-prof(aarch-64) \
 ghc-prof(base64-0.4.2.4-A6ZHULO0U6jEqaRLwqb1vV)"
+
 RDEPENDS:${PN} += "ghc-base64-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

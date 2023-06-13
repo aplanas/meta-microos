@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-core) \
 rubygem(ruby:3.2.0:rspec-core:3) \
 rubygem(ruby:3.2.0:rspec-core:3.12) \
 rubygem(ruby:3.2.0:rspec-core:3.12.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

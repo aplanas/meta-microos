@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(curves.sty) \
 tex(curvesls.sty) \
 texlive-curves"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

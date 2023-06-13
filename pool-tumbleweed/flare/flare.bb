@@ -21,6 +21,7 @@ application(flare.desktop) \
 flare \
 flare(aarch-64) \
 flare-engine"
+
 RDEPENDS:${PN} += "flare-game \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

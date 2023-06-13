@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jackson-module-jaxb-annotations \
 mvn(com.fasterxml.jackson.module:jackson-module-jaxb-annotations) \
 mvn(com.fasterxml.jackson.module:jackson-module-jaxb-annotations:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-jaxb-annotations)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

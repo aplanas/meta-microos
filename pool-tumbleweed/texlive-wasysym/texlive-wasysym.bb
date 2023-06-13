@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(uwasy.fd) \
 tex(uwasyvar.fd) \
 tex(wasysym.sty) \
 texlive-wasysym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

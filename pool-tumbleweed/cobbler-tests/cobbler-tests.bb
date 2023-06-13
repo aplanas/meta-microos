@@ -9,6 +9,7 @@ RPM_HASH = "f60b7fa45d8c6b95f0c3e8549eb326272f7ffa31332fd85fb76dc56eb677bab37b44
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cobbler-tests"
+
 RDEPENDS:${PN} += "cobbler"
 
 inherit rpm

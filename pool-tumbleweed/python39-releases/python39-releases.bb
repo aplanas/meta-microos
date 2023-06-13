@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(releases) \
 python39-releases \
 python3dist(releases)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-semantic_version"

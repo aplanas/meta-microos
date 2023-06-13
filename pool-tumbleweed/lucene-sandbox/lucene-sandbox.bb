@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-sandbox \
 mvn(org.apache.lucene:lucene-sandbox) \
 mvn(org.apache.lucene:lucene-sandbox:pom:) \
 osgi(org.apache.lucene.sandbox)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

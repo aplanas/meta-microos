@@ -20,6 +20,7 @@ libgmock.so.1.12.1()(64bit) \
 libgmock_main.so.1.12.1()(64bit) \
 pkgconfig(gmock) \
 pkgconfig(gmock_main)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

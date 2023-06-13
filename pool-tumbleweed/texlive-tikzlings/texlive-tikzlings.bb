@@ -42,6 +42,7 @@ tex(tikzlings-squirrels.sty) \
 tex(tikzlings-wolves.sty) \
 tex(tikzlings.sty) \
 texlive-tikzlings"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

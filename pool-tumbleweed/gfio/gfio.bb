@@ -10,6 +10,7 @@ RPM_HASH = "a7473fbd65211f6064f4c9f8e4440509848f2f93914e38c7f64173a0b2261811ed10
 
 RPROVIDES:${PN} += "gfio \
 gfio(aarch-64)"
+
 RDEPENDS:${PN} += "fio \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

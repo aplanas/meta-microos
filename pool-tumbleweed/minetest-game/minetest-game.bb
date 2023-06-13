@@ -9,6 +9,7 @@ RPM_HASH = "a12e0072c7d589fdf474038c5e732a14fee8b57b89ecfeacc00dae75e8320452667c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minetest-game"
+
 RDEPENDS:${PN} += "minetest-runtime"
 
 inherit rpm

@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "jing \
 mvn(com.thaiopensource:jing) \
 mvn(org.relaxng:jing) \
 mvn(org.relaxng:jing:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

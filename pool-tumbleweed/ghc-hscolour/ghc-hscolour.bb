@@ -10,6 +10,7 @@ RPM_HASH = "3f63b18eabd419e7cae7d9242674284f5151323470418c0ba1b989b379cd70559dac
 RPROVIDES:${PN} += "ghc-hscolour \
 ghc-hscolour(aarch-64) \
 libHShscolour-1.24.4-B0NmEhYuPI790UQrsiXLka-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

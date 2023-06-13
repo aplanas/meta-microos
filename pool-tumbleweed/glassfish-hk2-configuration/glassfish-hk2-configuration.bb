@@ -20,6 +20,7 @@ mvn(org.glassfish.hk2:hk2-property-file:pom:) \
 osgi(org.glassfish.hk2.configuration-hub) \
 osgi(org.glassfish.hk2.configuration-integration) \
 osgi(org.glassfish.hk2.property-file)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api) \

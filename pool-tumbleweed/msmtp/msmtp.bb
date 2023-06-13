@@ -11,6 +11,7 @@ RPM_HASH = "d183db8f5311efb766c33fd1456fd3b469e1a97d6f1c22c21cdc22eb1877d2464843
 
 RPROVIDES:${PN} += "msmtp \
 msmtp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

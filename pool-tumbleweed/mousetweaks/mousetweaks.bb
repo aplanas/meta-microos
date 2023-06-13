@@ -10,6 +10,7 @@ RPM_HASH = "a5c0c8ed930915ed780b68b779c2a2fb231240c65d514b8e27e0d0fc8ca371fb983c
 
 RPROVIDES:${PN} += "mousetweaks \
 mousetweaks(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

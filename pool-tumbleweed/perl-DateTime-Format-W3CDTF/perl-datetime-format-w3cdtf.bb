@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DateTime::Format::W3CDTF) \
 perl-DateTime-Format-W3CDTF"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime)"
 

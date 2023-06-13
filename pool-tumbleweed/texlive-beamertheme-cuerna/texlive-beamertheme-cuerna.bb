@@ -21,6 +21,7 @@ tex(beamerinnerthemeCuerna.sty) \
 tex(beamerouterthemeCuerna.sty) \
 tex(beamerthemeCuerna.sty) \
 texlive-beamertheme-cuerna"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

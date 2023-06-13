@@ -10,6 +10,7 @@ RPM_HASH = "10ba6c3208ed13e0b75d398dc33915f1565820467b0f91e38fdcf1b0f9e228873a7e
 RPROVIDES:${PN} += "libusb-1_0-devel \
 libusb-1_0-devel(aarch-64) \
 pkgconfig(libusb-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libusb-1_0-0"

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "akonadi-search-devel \
 akonadi-search-devel(aarch-64) \
 cmake(KF5AkonadiSearch) \
 cmake(KPim5AkonadiSearch)"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KF5Contacts) \
 cmake(KPim5Akonadi) \

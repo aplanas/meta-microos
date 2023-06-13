@@ -10,6 +10,7 @@ RPM_HASH = "38f2df296f578b3980381bd4e1bf77d331918cf1a8fe085f4f902fb634b583dd8559
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla"
+
 RDEPENDS:${PN} += "/bin/sh \
 ca-certificates"
 

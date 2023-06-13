@@ -11,6 +11,7 @@ RPM_HASH = "c0ee7906a1737d725022087d5acb6f8772d70470c87dd222f20653bd91e74d7be78c
 
 RPROVIDES:${PN} += "libesedb-tools \
 libesedb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

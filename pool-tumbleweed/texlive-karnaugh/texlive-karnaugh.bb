@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kvmacros.tex) \
 texlive-karnaugh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(xpp3:xpp3_min) \
 mvn(xpp3:xpp3_min:pom:) \
 xpp3-minimal"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

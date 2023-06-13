@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyipp \
 python3.10dist(pyipp) \
 python310-pyipp \
 python3dist(pyipp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-deepmerge \

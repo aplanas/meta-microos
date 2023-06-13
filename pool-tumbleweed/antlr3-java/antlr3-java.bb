@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "antlr3-java \
 mvn(org.antlr:antlr-runtime) \
 mvn(org.antlr:antlr-runtime:pom:) \
 osgi(org.antlr.runtime)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

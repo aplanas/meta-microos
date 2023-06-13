@@ -9,6 +9,7 @@ RPM_HASH = "59d1138600801ce645b752cf68b85e3d304c00185be32bc047eb987a1576a0ea5d2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jameica-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

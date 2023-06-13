@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(subscene-api) \
 python311-subscene-api \
 python3dist(subscene-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-beautifulsoup4"
 

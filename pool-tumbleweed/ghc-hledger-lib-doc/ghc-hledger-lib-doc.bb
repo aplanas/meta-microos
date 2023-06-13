@@ -9,6 +9,7 @@ RPM_HASH = "ac710e3f3c0ebb4f9cba653d63163c065f220946184bcef57c1d37dc62542ce8e86c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hledger-lib-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

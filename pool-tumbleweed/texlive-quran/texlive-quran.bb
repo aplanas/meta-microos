@@ -29,6 +29,7 @@ tex(qurantext-simple.def) \
 tex(qurantext-uthmani-min.def) \
 tex(qurantext-uthmani.def) \
 texlive-quran"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

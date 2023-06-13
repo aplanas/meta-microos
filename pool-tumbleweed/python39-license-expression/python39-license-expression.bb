@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(license-expression) \
 python39-license-expression \
 python3dist(license-expression)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-boolean.py"
 

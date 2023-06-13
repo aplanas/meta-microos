@@ -9,6 +9,7 @@ RPM_HASH = "f3aca469d16b9349d938ceb4853da3352aca2ef4bd248d366ba393b198efea0b3c2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyperfine-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

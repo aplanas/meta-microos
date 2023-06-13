@@ -10,6 +10,7 @@ RPM_HASH = "5c3abddf88298408bd1d727ade8e1b8809440414c620049d1233360c3e86d2dae1df
 RPROVIDES:${PN} += "libkdecorations2private.so.10()(64bit) \
 libkdecorations2private10 \
 libkdecorations2private10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

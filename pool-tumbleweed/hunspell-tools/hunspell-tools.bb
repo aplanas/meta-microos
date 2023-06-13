@@ -9,6 +9,7 @@ RPM_HASH = "1a6cabf4f08542769a8b4f2230584ee13a8e758cab2e02dc18ebc79d32d7ec4e7ea0
 
 RPROVIDES:${PN} += "hunspell-tools \
 hunspell-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 hunspell \

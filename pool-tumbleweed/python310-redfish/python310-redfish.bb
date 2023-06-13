@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-redfish \
 python3.10dist(redfish) \
 python310-redfish \
 python3dist(redfish)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonpatch \
 python310-jsonpath-rw \

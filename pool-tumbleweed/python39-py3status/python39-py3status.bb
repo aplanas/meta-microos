@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "py3status \
 python3.9dist(py3status) \
 python39-py3status \
 python3dist(py3status)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

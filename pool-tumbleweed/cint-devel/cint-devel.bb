@@ -10,6 +10,7 @@ RPM_HASH = "21e15dc11131f5bc19b6c8f677c6c64a3d59f6bbca0a902b4737d956214e921bffca
 
 RPROVIDES:${PN} += "cint-devel \
 cint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcint4"
 
 inherit rpm

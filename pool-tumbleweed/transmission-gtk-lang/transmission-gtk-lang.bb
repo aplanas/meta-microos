@@ -79,6 +79,7 @@ locale(transmission-gtk:zh_HK) \
 locale(transmission-gtk:zh_TW) \
 transmission-gtk-lang \
 transmission-gtk-lang-all"
+
 RDEPENDS:${PN} += "transmission-gtk"
 
 inherit rpm

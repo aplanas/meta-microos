@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Net::DNS::Resolver::Mock) \
 perl-Net-DNS-Resolver-Mock"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Net::DNS::Packet) \
 perl(Net::DNS::Question) \

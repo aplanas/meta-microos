@@ -10,6 +10,7 @@ RPM_HASH = "175a1199f37779f26d029e5512098828dc070908c36eec648bed40bb63a3474cfe23
 RPROVIDES:${PN} += "libopencsd_c_api.so.1()(64bit) \
 libopencsd_c_api1 \
 libopencsd_c_api1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

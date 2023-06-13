@@ -9,6 +9,7 @@ RPM_HASH = "61574d4cee35a8f0319ba5cb00812aae2ca3a8271ab2205e9ee4198b083f5e748ddb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iio-sensor-proxy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

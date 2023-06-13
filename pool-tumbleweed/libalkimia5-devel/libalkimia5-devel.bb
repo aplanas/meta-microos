@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(LibAlkimia5) \
 libalkimia5-devel \
 libalkimia5-devel(aarch-64) \
 pkgconfig(libalkimia5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libalkimia5-8"
 

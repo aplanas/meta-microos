@@ -13,6 +13,7 @@ AppStream(aarch-64) \
 config(AppStream) \
 metainfo() \
 metainfo(org.freedesktop.appstream.cli.metainfo.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappstream.so.4()(64bit) \

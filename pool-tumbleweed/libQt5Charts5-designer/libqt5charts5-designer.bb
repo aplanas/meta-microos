@@ -10,6 +10,7 @@ RPM_HASH = "f5a94e005092be0681baa6787ba198b9cc8f346b9e591578766d1a6657ae1fe8f3ea
 RPROVIDES:${PN} += "libQt5Charts5-designer \
 libQt5Charts5-designer(aarch-64) \
 libqtchartsdesigner.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Charts.so.5()(64bit) \

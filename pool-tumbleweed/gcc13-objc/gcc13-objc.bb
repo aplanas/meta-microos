@@ -11,6 +11,7 @@ RPM_HASH = "e26eca2f20840093bf4788acdbc298e59867c9a91342fe314d22fd47dd8942d74346
 
 RPROVIDES:${PN} += "gcc13-objc \
 gcc13-objc(aarch-64)"
+
 RDEPENDS:${PN} += "gcc13 \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgmp.so.10()(64bit) \

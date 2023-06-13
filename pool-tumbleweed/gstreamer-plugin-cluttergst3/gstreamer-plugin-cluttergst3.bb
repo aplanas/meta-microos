@@ -14,6 +14,7 @@ RPM_HASH = "fa176f299a0cfc8fe7a8a8c7d428d1c493385b6f89a8021ae5a63272ba26665926d0
 RPROVIDES:${PN} += "gstreamer-plugin-cluttergst3 \
 gstreamer-plugin-cluttergst3(aarch-64) \
 libcluttergst3.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

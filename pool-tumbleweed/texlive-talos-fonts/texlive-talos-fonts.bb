@@ -33,6 +33,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(talos) \
 texlive-talos-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

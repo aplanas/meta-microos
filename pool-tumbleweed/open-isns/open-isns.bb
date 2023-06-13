@@ -21,6 +21,7 @@ libisns.so.0(LIBISNS_0.96)(64bit) \
 libisns.so.0(LIBISNS_PRIVATE)(64bit) \
 open-isns \
 open-isns(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

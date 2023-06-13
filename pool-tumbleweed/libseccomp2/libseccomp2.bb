@@ -13,6 +13,7 @@ RPM_HASH = "d4b4678ba567e7ebd6f552715b75c4270e28bef9acb22e38b7ae691a20a93d72f6e5
 RPROVIDES:${PN} += "libseccomp.so.2()(64bit) \
 libseccomp2 \
 libseccomp2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

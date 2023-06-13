@@ -14,6 +14,7 @@ RPM_HASH = "bd8acffa01b99f435291c9832a480a7bcf498a4095ccb9f3327fb4d4b2bbe353de07
 RPROVIDES:${PN} += "libosmosim.so.2()(64bit) \
 libosmosim2 \
 libosmosim2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

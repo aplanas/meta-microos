@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(typing-inspect) \
 python311-typing-inspect \
 python3dist(typing-inspect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-mypy_extensions \
 python311-typing_extensions"

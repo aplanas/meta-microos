@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:haml) \
 rubygem(ruby:3.2.0:haml:6) \
 rubygem(ruby:3.2.0:haml:6.0) \
 rubygem(ruby:3.2.0:haml:6.0.12)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

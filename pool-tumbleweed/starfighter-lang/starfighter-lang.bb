@@ -13,6 +13,7 @@ locale(starfighter:ja) \
 locale(starfighter:nl) \
 starfighter-lang \
 starfighter-lang-all"
+
 RDEPENDS:${PN} += "starfighter"
 
 inherit rpm

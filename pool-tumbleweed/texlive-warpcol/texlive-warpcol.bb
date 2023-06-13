@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(warpcol.sty) \
 texlive-warpcol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

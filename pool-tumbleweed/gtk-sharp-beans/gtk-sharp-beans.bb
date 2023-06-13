@@ -12,6 +12,7 @@ RPM_HASH = "ab034ff29133f38d42162f506df1d3bb45b578f800b95da09f5990a20c8aae40a219
 RPROVIDES:${PN} += "gtk-sharp-beans \
 gtk-sharp-beans(aarch-64) \
 mono(gtk-sharp-beans)"
+
 RDEPENDS:${PN} += "gio-sharp \
 gtk-sharp2 \
 mono(gdk-sharp) \

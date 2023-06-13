@@ -9,6 +9,7 @@ RPM_HASH = "ce975ed380503e12f6dae4623e086e4e3559be1ea42833b2190598e796d67de279b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon-zsh-completion"
+
 RDEPENDS:${PN} += "profile-sync-daemon"
 
 inherit rpm

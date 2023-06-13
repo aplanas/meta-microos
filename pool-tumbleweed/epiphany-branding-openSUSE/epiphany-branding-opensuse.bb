@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epiphany-branding \
 epiphany-branding-openSUSE"
+
 RDEPENDS:${PN} += "epiphany"
 
 inherit rpm

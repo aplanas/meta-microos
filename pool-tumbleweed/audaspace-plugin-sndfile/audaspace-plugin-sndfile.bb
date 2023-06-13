@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-sndfile \
 audaspace-plugin-sndfile(aarch-64) \
 libaudlibsndfile.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudaspace.so.1.4()(64bit) \

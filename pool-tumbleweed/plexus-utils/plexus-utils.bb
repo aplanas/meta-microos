@@ -18,6 +18,7 @@ mvn(plexus:plexus-utils) \
 mvn(plexus:plexus-utils:pom:) \
 osgi(org.codehaus.plexus.utils) \
 plexus-utils"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

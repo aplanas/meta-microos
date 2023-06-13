@@ -13,6 +13,7 @@ RPM_HASH = "b6775b827b4ec2ad56a71112bd477b82c23a08b5e8bc0d16161308e50547c790b27b
 RPROVIDES:${PN} += "config(krb5-server) \
 krb5-server \
 krb5-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

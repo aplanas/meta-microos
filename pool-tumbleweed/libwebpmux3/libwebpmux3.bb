@@ -12,6 +12,7 @@ RPM_HASH = "4f59d68e4ec721ccc251c8347071decfa6c2007250337ea88d85daf3e70b679d229c
 RPROVIDES:${PN} += "libwebpmux.so.3()(64bit) \
 libwebpmux3 \
 libwebpmux3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

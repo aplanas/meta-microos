@@ -14,6 +14,7 @@ RPM_HASH = "2ec73fed4c58742c79ba2369d8df11a190c9fba582c422d7980c0ee16a7290c0d525
 RPROVIDES:${PN} += "libcares.so.2()(64bit) \
 libcares2 \
 libcares2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

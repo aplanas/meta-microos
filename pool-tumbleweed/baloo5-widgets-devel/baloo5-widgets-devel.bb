@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "baloo-widgets5-devel \
 baloo5-widgets-devel \
 baloo5-widgets-devel(aarch-64) \
 cmake(KF5BalooWidgets)"
+
 RDEPENDS:${PN} += "baloo5-widgets \
 cmake(KF5KIO) \
 cmake(Qt5Widgets)"

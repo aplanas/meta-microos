@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libwannier.so()(64bit) \
 pkgconfig(wannier) \
 wannier90-devel \
 wannier90-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libblas.so.3()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

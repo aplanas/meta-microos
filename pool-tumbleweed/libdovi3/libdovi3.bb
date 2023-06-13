@@ -10,6 +10,7 @@ RPM_HASH = "fd3ceb9c42e61d2bfafd138ea477d1b0fd3949d09c7d1f8965f15cc81071792d562b
 RPROVIDES:${PN} += "libdovi.so.3()(64bit) \
 libdovi3 \
 libdovi3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "21cb6235823a8ac7c80c77afc084faecba4e1a2e84a8ffc25fd1384cd767e99806d8
 
 RPROVIDES:${PN} += "cross-riscv64-newlib-devel \
 cross-riscv64-newlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

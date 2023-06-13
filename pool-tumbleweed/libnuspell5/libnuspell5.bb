@@ -22,6 +22,7 @@ RPM_HASH = "37eb9b5fbeb9e4e20b93310b5446bc8d66f244e5c8c98d066acacd0e94992d665053
 RPROVIDES:${PN} += "libnuspell.so.5()(64bit) \
 libnuspell5 \
 libnuspell5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

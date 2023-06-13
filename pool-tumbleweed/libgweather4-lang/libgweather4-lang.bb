@@ -112,6 +112,7 @@ locale(libgweather4:wa) \
 locale(libgweather4:zh_CN) \
 locale(libgweather4:zh_HK) \
 locale(libgweather4:zh_TW)"
+
 RDEPENDS:${PN} += "libgweather4"
 
 inherit rpm

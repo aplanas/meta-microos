@@ -13,6 +13,7 @@ RPM_HASH = "33d4ca1959816315bc1a67db42bad10fe0518212bf5c25c8b61f7f3eec9255de1038
 RPROVIDES:${PN} += "openvswitch-test \
 openvswitch-test(aarch-64) \
 python3-openvswitch-test"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

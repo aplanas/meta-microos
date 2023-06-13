@@ -10,6 +10,7 @@ RPM_HASH = "cdcdbc8033276a8d69389190220a50fbbc16e6b576e4b524adc4686cf8b9a949389f
 RPROVIDES:${PN} += "nodejs-electron-devel \
 nodejs-electron-devel(aarch-64) \
 rpm_macro(electron_req)"
+
 RDEPENDS:${PN} += "nodejs-electron(aarch-64) \
 pkgconfig(zlib)"
 

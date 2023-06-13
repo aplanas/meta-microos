@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dynaconf \
 python3.10dist(dynaconf) \
 python310-dynaconf \
 python3dist(dynaconf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

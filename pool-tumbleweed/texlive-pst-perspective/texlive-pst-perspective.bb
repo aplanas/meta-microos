@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-perspective.sty) \
 tex(pst-perspective.tex) \
 texlive-pst-perspective"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

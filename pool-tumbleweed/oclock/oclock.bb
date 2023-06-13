@@ -10,6 +10,7 @@ RPM_HASH = "bb44aa02cff71ff145cdf0332b6bfb225705058d37e796b1f60d30772b67572a2b80
 
 RPROVIDES:${PN} += "oclock \
 oclock(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

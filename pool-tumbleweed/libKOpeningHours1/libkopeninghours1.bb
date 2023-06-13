@@ -10,6 +10,7 @@ RPM_HASH = "ebd160dd54b77a6cee9846be340c86f11c2a1d8ad01bf0f732222cb91d2d96ed52c7
 RPROVIDES:${PN} += "libKOpeningHours.so.1()(64bit) \
 libKOpeningHours1 \
 libKOpeningHours1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

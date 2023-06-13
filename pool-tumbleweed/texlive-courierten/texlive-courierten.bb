@@ -80,6 +80,7 @@ tex(a_keoqme.enc) \
 tex(a_n2okah.enc) \
 tex(courierten.sty) \
 texlive-courierten"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

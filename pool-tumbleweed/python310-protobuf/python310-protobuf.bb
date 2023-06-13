@@ -12,6 +12,7 @@ python3.10dist(protobuf) \
 python310-protobuf \
 python310-protobuf(aarch-64) \
 python3dist(protobuf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

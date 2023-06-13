@@ -13,6 +13,7 @@ RPM_HASH = "8f6ac0417e7bce4aa0d48088becce283234aec13be5ad32577f50f8a13ede99a33a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mxml-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

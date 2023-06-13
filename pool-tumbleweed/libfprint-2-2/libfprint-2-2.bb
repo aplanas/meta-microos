@@ -14,6 +14,7 @@ libfprint-2-2 \
 libfprint-2-2(aarch-64) \
 libfprint-2.so.2()(64bit) \
 libfprint-2.so.2(LIBFPRINT_2.0.0)(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

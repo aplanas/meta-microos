@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-sugar) \
 python39-pytest-sugar \
 python3dist(pytest-sugar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytest \
 python39-termcolor"

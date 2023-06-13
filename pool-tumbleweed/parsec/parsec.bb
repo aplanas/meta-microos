@@ -138,6 +138,7 @@ group(tss) \
 parsec \
 parsec(aarch-64) \
 user(parsec)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

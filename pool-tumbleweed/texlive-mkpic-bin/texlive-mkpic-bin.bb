@@ -9,6 +9,7 @@ RPM_HASH = "e2b947ae9d0413f669fcea4cad8c363942447eb15b9c6ec47baba3928eb4a542c6fa
 
 RPROVIDES:${PN} += "texlive-mkpic-bin \
 texlive-mkpic-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mkpic"
 
 inherit rpm

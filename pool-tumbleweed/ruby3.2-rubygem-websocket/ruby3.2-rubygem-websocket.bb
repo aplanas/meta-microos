@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:websocket:1) \
 rubygem(ruby:3.2.0:websocket:1.2) \
 rubygem(ruby:3.2.0:websocket:1.2.9) \
 rubygem(websocket)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

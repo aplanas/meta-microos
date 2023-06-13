@@ -9,6 +9,7 @@ RPM_HASH = "41b4af5fb11aa55004999908777e0799a13b8f9a0eec9adb4ef5812c89c00818780a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yt-dlp-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hyperbar.sty) \
 texlive-hyperbar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

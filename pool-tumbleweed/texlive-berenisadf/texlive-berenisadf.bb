@@ -234,6 +234,7 @@ tex(ybdrj8y.tfm) \
 tex(ybdrjw8y.tfm) \
 tex(ybdrw8y.tfm) \
 texlive-berenisadf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

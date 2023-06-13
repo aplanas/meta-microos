@@ -10,6 +10,7 @@ RPM_HASH = "be4892b601ecf825e258d4bb94ec8c572b340da840de0476ff5a77b72ee4f196e79d
 RPROVIDES:${PN} += "libgmailnotify.so()(64bit) \
 vacuum-im-plugins-gmailnotify \
 vacuum-im-plugins-gmailnotify(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -18,6 +18,7 @@ RPM_HASH = "db74de2ae63f04ab871b5b9fc8e527bd367297a9934fa4d725b605eeb782302c436c
 
 RPROVIDES:${PN} += "toilet \
 toilet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

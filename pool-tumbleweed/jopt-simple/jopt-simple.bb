@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jopt-simple \
 mvn(net.sf.jopt-simple:jopt-simple) \
 mvn(net.sf.jopt-simple:jopt-simple:pom:) \
 osgi(net.sf.jopt-simple.jopt-simple)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

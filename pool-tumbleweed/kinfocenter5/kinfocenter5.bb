@@ -15,6 +15,7 @@ kinfocenter5(aarch-64) \
 libKInfoCenterInternal.so()(64bit) \
 metainfo() \
 metainfo(org.kde.kinfocenter.appdata.xml)"
+
 RDEPENDS:${PN} += "(/usr/bin/vulkaninfo if libvulkan1) \
 /usr/bin/glxinfo \
 /usr/bin/wayland-info \

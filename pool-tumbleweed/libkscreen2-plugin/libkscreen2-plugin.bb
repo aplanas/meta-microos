@@ -10,6 +10,7 @@ RPM_HASH = "d5afdffd8e31470de75e8aaeae35d92b5cee9df22dd04e2079c1a3f5e7d910de6a0e
 RPROVIDES:${PN} += "libkscreen2-plugin \
 libkscreen2-plugin(aarch-64) \
 libkscreen2-zsh-completion"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

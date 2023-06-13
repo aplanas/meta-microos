@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-sbt:template-resolver) \
 mvn(org.scala-sbt:template-resolver:pom:) \
 template-resolver"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

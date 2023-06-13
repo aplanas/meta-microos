@@ -32,6 +32,7 @@ nodejs(abi) \
 nodejs(engine) \
 nodejs20 \
 nodejs20(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives \
 ld-linux-aarch64.so.1()(64bit) \

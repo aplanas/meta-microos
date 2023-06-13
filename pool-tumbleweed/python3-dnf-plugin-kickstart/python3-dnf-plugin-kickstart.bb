@@ -14,6 +14,7 @@ dnf-plugin-kickstart \
 dnf-plugins-extras-kickstart \
 python3-dnf-plugin-kickstart \
 python3-dnf-plugins-extras-kickstart"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-extras-common \
 python3-pykickstart"

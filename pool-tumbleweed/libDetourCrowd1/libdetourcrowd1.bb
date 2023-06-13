@@ -10,6 +10,7 @@ RPM_HASH = "050031534e431817933d14732d86c43abfde9ec1e9e65d300ed7851b33e0713b029e
 RPROVIDES:${PN} += "libDetourCrowd.so.1()(64bit) \
 libDetourCrowd1 \
 libDetourCrowd1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

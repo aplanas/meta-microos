@@ -9,6 +9,7 @@ RPM_HASH = "5b94c77113c559277dbf4beeac3dc807ef8a00c906e50636001935389b565eac6210
 
 RPROVIDES:${PN} += "texlive-thumbpdf-bin \
 texlive-thumbpdf-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-thumbpdf"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "5defeacb59f9950f0a2a17229444e5e97f4cdfec57f05f32d827348968d1d5b74eed
 
 RPROVIDES:${PN} += "archivemount \
 archivemount(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarchive.so.13()(64bit) \

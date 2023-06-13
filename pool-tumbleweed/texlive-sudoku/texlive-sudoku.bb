@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sudoku.sty) \
 texlive-sudoku"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

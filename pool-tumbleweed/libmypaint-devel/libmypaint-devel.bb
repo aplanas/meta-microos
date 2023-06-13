@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libmypaint-devel \
 libmypaint-devel(aarch-64) \
 mypaint-devel \
 pkgconfig(libmypaint)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmypaint0 \
 pkgconfig(json-c)"

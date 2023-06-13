@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(python3-dnf-plugin-post-transaction-actions) \
 dnf-plugin-post-transaction-actions \
 python3-dnf-plugin-post-transaction-actions"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dnf-plugins-core"
 

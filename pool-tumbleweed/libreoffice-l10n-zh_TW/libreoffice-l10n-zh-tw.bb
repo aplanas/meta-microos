@@ -15,6 +15,7 @@ libreoffice-l10n-zh-Hant \
 libreoffice-l10n-zh-TW \
 libreoffice-l10n-zh_TW \
 locale(libreoffice:zh_TW)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker"

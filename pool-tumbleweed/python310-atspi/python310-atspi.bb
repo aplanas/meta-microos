@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "py3atspi \
 python3-atspi \
 python310-atspi"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dbus-python \
 python310-gobject \

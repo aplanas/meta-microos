@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pictures) \
 texlive-collection-pictures"
+
 RDEPENDS:${PN} += "texlive-adigraph \
 texlive-aobs-tikz \
 texlive-askmaps \

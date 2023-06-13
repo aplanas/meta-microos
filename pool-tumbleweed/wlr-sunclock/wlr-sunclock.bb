@@ -9,6 +9,7 @@ RPM_HASH = "6afb1c6e91b99fc049548097d57688899035987f2612d6bda06f31c0eb4f2fe15519
 
 RPROVIDES:${PN} += "wlr-sunclock \
 wlr-sunclock(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

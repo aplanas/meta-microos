@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-audiogrep \
 python3.10dist(audiogrep) \
 python310-audiogrep \
 python3dist(audiogrep)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ffmpeg \

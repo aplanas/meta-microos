@@ -12,6 +12,7 @@ RPM_HASH = "fa37c258d3875dae1782e2e72a3ddf220bb23ef00c1abcc8df297a938d46e0adf1c7
 RPROVIDES:${PN} += "config(minicondor) \
 minicondor \
 minicondor(aarch-64)"
+
 RDEPENDS:${PN} += "htcondor \
 htcondor-procd \
 python3-condor"

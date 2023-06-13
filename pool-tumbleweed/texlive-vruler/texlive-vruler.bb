@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vruler.sty) \
 texlive-vruler"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

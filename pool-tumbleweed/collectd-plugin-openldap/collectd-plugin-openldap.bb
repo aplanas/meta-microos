@@ -10,6 +10,7 @@ RPM_HASH = "6a021848236c32e76fa671eecaee708b9924662f47d8e80ab6197f55272170c4f1cd
 
 RPROVIDES:${PN} += "collectd-plugin-openldap \
 collectd-plugin-openldap(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

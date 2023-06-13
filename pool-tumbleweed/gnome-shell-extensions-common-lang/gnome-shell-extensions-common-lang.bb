@@ -78,6 +78,7 @@ locale(gnome-shell-extensions-common:vi) \
 locale(gnome-shell-extensions-common:zh_CN) \
 locale(gnome-shell-extensions-common:zh_HK) \
 locale(gnome-shell-extensions-common:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-shell-extensions-common"
 
 inherit rpm

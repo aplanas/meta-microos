@@ -9,6 +9,7 @@ RPM_HASH = "b84ce4d62a249b31e53a9ddaa612e3b130a6ceb4230383e143abca61d4dc84eccfb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-qtree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

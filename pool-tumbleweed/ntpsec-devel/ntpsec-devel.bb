@@ -10,6 +10,7 @@ RPM_HASH = "513c5cba5c0ba1fa413cab9799769bb782e097b2034d920153563a7e04e07a478366
 
 RPROVIDES:${PN} += "ntpsec-devel \
 ntpsec-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libntpc1"
 
 inherit rpm

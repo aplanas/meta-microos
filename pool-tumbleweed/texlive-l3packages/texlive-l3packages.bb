@@ -30,6 +30,7 @@ tex(xparse-generic.tex) \
 tex(xparse.sty) \
 tex(xtemplate.sty) \
 texlive-l3packages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

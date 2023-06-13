@@ -18,6 +18,7 @@ mimehandler(application/tryton) \
 python3.10dist(tryton) \
 python3dist(tryton) \
 tryton"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-GooCalendar \

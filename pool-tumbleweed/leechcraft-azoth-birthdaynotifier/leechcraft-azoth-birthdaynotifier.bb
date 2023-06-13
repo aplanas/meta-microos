@@ -12,6 +12,7 @@ RPM_HASH = "196a444eaf4a6d16be4ce55ae574db25811c9436340407cbc2f0f9f983b8314269e4
 RPROVIDES:${PN} += "leechcraft-azoth-birthdaynotifier \
 leechcraft-azoth-birthdaynotifier(aarch-64) \
 libleechcraft_azoth_birthdaynotifier.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

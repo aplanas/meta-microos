@@ -63,6 +63,7 @@ locale(libfm:uk) \
 locale(libfm:vi) \
 locale(libfm:zh_CN) \
 locale(libfm:zh_TW)"
+
 RDEPENDS:${PN} += "libfm"
 
 inherit rpm

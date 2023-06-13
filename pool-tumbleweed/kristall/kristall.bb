@@ -17,6 +17,7 @@ mimehandler(text/x-kristall-theme) \
 mimehandler(x-scheme-handler/finger) \
 mimehandler(x-scheme-handler/gemini) \
 mimehandler(x-scheme-handler/gopher)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \

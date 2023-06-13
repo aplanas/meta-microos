@@ -13,6 +13,7 @@ RPM_HASH = "6c23b29ec66239eaa7399699ad5ed5d5eb01887e03045bb417570ec3cacaf201a50b
 RPROVIDES:${PN} += "libkdstatemachineeditor_core.so.1()(64bit) \
 libkdstatemachineeditor_core1 \
 libkdstatemachineeditor_core1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

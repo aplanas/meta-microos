@@ -12,6 +12,7 @@ RPM_HASH = "8a3b125e5213bae61682d4ad7d88038d583ee08070ba49875a60bca0f2c4611b5c3c
 RPROVIDES:${PN} += "libnet6-1.3.so.0()(64bit) \
 net6 \
 net6(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

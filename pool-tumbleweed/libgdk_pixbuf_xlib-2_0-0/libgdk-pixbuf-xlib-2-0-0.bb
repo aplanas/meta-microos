@@ -15,6 +15,7 @@ RPM_HASH = "99aa95616034613f87fc6372c204a08c1a3472317bd01e3417a4abca983d68db0b49
 RPROVIDES:${PN} += "libgdk_pixbuf_xlib-2.0.so.0()(64bit) \
 libgdk_pixbuf_xlib-2_0-0 \
 libgdk_pixbuf_xlib-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

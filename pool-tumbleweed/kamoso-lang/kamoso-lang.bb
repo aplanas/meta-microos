@@ -59,6 +59,7 @@ locale(kamoso:ug) \
 locale(kamoso:uk) \
 locale(kamoso:zh_CN) \
 locale(kamoso:zh_TW)"
+
 RDEPENDS:${PN} += "kamoso"
 
 inherit rpm

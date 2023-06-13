@@ -15,6 +15,7 @@ RPM_HASH = "44db4cf4e66a4746b875f416926e7b6a822486c9ac029709cfc3c218f837f99d44a3
 RPROVIDES:${PN} += "dbus-1 \
 dbus-1(aarch-64) \
 dbus-launch"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 dbus-1-common \

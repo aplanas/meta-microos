@@ -19,6 +19,7 @@ firejail(aarch-64) \
 libpostexecseccomp.so()(64bit) \
 libtrace.so()(64bit) \
 libtracelog.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

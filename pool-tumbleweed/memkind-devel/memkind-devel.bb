@@ -10,6 +10,7 @@ RPM_HASH = "7df0d180d435b6e08a043e995e4f6722248421d1ad0b6cbd1994fb9a98984fd129d6
 RPROVIDES:${PN} += "memkind-devel \
 memkind-devel(aarch-64) \
 pkgconfig(memkind)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmemkind0"
 

@@ -27,6 +27,7 @@ osgi(org.apache.sshd.osgi) \
 osgi(org.apache.sshd.putty) \
 osgi(org.apache.sshd.scp) \
 osgi(org.apache.sshd.sftp)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:jcl-over-slf4j) \

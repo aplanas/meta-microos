@@ -11,6 +11,7 @@ RPM_HASH = "f100972cee586aafea5489d0f0771e2984f9154ec602feff7c5d60ac57e499d1d753
 RPROVIDES:${PN} += "typelib(AyatanaAppIndicator3) \
 typelib-1_0-AyatanaAppIndicator3-0_1 \
 typelib-1_0-AyatanaAppIndicator3-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libayatana-appindicator3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

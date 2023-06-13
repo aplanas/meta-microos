@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-polkit-agent-lang \
 deepin-polkit-agent-lang-all"
+
 RDEPENDS:${PN} += "deepin-polkit-agent"
 
 inherit rpm

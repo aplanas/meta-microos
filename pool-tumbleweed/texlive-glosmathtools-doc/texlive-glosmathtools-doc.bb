@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-glosmathtools-doc:fr) \
 texlive-glosmathtools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

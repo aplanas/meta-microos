@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "bash-completion-devel \
 bash-completion:/usr/share/pkgconfig/bash-completion.pc \
 pkgconfig(bash-completion)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

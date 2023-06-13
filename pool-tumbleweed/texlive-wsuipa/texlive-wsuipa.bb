@@ -32,6 +32,7 @@ tex(wsuipa17.tfm) \
 tex(wsuipa8.tfm) \
 tex(wsuipa9.tfm) \
 texlive-wsuipa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

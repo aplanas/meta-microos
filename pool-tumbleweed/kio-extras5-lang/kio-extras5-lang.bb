@@ -92,6 +92,7 @@ locale(kio-extras5:wa) \
 locale(kio-extras5:zh_CN) \
 locale(kio-extras5:zh_HK) \
 locale(kio-extras5:zh_TW)"
+
 RDEPENDS:${PN} += "kio-extras5"
 
 inherit rpm

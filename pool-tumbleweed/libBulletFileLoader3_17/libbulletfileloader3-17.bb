@@ -10,6 +10,7 @@ RPM_HASH = "1cf92c0bdc5618df2b5462107cdb5e7057f926963eca0b2ecb5e198aa102ce323149
 RPROVIDES:${PN} += "libBulletFileLoader.so.3.17()(64bit) \
 libBulletFileLoader3_17 \
 libBulletFileLoader3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ libdep.so()(64bit) \
 libgprofng.so.0()(64bit) \
 libopcodes-2.40.0.20230412-5.so()(64bit) \
 libsframe.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/env \

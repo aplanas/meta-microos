@@ -19,6 +19,7 @@ xml-commons-resolver10 \
 xml-commons-resolver11 \
 xml-commons-resolver12 \
 xml-resolver"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

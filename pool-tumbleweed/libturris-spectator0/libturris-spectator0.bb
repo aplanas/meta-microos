@@ -11,6 +11,7 @@ RPM_HASH = "57c432c2d7e65b19cff09b5ed1227fccc70fb771f5833fc33cc7a0d2b39d1d2a5814
 RPROVIDES:${PN} += "libturris-spectator.so.0()(64bit) \
 libturris-spectator0 \
 libturris-spectator0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -27,6 +27,7 @@ RPM_HASH = "cbf415edcd89371fac0060c5a301b2fe0736a4dd5d17254725a398b9106472ed6468
 RPROVIDES:${PN} += "mpi \
 openmpi2 \
 openmpi2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

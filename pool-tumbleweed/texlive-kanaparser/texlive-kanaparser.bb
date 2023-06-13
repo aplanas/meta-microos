@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kanaparser.tex) \
 texlive-kanaparser"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

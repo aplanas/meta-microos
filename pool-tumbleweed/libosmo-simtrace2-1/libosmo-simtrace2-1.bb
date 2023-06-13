@@ -13,6 +13,7 @@ RPM_HASH = "0fc861afe0ec9bdf61557ab73028a48b68e4053c4f74590441971a7ec7a5d23cc21f
 RPROVIDES:${PN} += "libosmo-simtrace2-1 \
 libosmo-simtrace2-1(aarch-64) \
 libosmo-simtrace2.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

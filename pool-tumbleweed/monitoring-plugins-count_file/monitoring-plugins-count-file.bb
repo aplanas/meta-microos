@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-count_file \
 nagios-plugins-count_file"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"
 

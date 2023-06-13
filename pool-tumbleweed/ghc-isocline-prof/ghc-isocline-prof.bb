@@ -10,6 +10,7 @@ RPM_HASH = "fc83381e5c3b5a7dabbdb6f98e8b0335b7faf3de88da9a1fd8019f6631aed1eff6d1
 RPROVIDES:${PN} += "ghc-isocline-prof \
 ghc-isocline-prof(aarch-64) \
 ghc-prof(isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG)"
+
 RDEPENDS:${PN} += "ghc-isocline-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

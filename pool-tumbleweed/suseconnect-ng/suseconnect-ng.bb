@@ -16,6 +16,7 @@ suseconnect-ng \
 suseconnect-ng(aarch-64) \
 zypper-migration-plugin \
 zypper-search-packages-plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 ca-certificates-mozilla \
 coreutils \

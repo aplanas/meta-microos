@@ -10,6 +10,7 @@ RPM_HASH = "48a0eed45f268f161d678e9fc2c21cf6d660b5aedf58c98299ed78c410c72b6d060f
 RPROVIDES:${PN} += "libOgreMain-codecs \
 libOgreMain13_5-codecs \
 libOgreMain13_5-codecs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOgreMain.so.13.5()(64bit) \

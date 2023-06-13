@@ -97,6 +97,7 @@ locale(cinnamon-screensaver:vi) \
 locale(cinnamon-screensaver:zh_CN) \
 locale(cinnamon-screensaver:zh_HK) \
 locale(cinnamon-screensaver:zh_TW)"
+
 RDEPENDS:${PN} += "cinnamon-screensaver"
 
 inherit rpm

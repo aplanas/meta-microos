@@ -13,6 +13,7 @@ RPM_HASH = "8fade6151c0d8863533e5629545476378cb21bf8cc8983668b9c104f48e801c164b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gitdiff"
+
 RDEPENDS:${PN} += "git-core"
 
 inherit rpm

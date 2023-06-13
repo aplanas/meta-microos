@@ -10,6 +10,7 @@ RPM_HASH = "2d19b201d867824691223d8e535d2a3a2eba2586a3932753084a73ca3e0b162bb8b3
 
 RPROVIDES:${PN} += "libreadline-java-javadoc \
 libreadline-java-javadoc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

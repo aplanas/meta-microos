@@ -12,6 +12,7 @@ RPM_HASH = "766d2de6a21fd3e2691da58731d16dc4770f5be968bf0a35cf27ae504fddac2c27a7
 
 RPROVIDES:${PN} += "python3-pyexmdb \
 python3-pyexmdb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

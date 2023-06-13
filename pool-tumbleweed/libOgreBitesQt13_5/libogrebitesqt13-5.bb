@@ -11,6 +11,7 @@ RPM_HASH = "7935d80b284bfe654a8a2b3bc2ab0f6b9be9db9808c565b96283e71418ebfedd8d58
 RPROVIDES:${PN} += "libOgreBitesQt.so.13.5()(64bit) \
 libOgreBitesQt13_5 \
 libOgreBitesQt13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

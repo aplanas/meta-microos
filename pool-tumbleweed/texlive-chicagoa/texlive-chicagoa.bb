@@ -10,6 +10,7 @@ RPM_HASH = "6d14644d5bfa8eba184c0e39d4c9022d48243bd230d7207c417f705a6caf09a6efab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chicagoa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

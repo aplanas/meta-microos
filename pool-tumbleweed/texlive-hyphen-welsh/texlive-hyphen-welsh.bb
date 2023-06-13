@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-cy.ec.tex) \
 tex(hyph-cy.tex) \
 tex(loadhyph-cy.tex) \
 texlive-hyphen-welsh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

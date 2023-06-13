@@ -27,6 +27,7 @@ mimehandler(text/x-tcl) \
 mimehandler(text/x-tex) \
 neovim-gtk \
 neovim-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \

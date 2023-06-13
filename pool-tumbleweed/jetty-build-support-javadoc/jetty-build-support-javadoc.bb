@@ -9,6 +9,7 @@ RPM_HASH = "650aa5f7f433e64d15d1f4d5be12f3f0ed3df7a666f897fbf073847191f69a0433eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-build-support-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-yapf \
 python3.10dist(yapf) \
 python310-yapf \
 python3dist(yapf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

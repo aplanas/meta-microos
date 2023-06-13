@@ -52,6 +52,7 @@ tex(quotmark-ukraineb.def) \
 tex(quotmark-welsh.def) \
 tex(quotmark.sty) \
 texlive-quotmark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

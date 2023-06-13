@@ -10,6 +10,7 @@ RPM_HASH = "cf3366b1163573f5f2e74c8c61555369fc441cdc77934346a816168960df85e31656
 RPROVIDES:${PN} += "ghc-devel(psqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O) \
 ghc-psqueues-devel \
 ghc-psqueues-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

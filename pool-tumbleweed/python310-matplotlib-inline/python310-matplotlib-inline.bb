@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-matplotlib-inline \
 python3.10dist(matplotlib-inline) \
 python310-matplotlib-inline \
 python3dist(matplotlib-inline)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-traitlets"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libfdatetime.so.1()(64bit) \
 libfdatetime.so.1(V_20220112)(64bit) \
 libfdatetime1 \
 libfdatetime1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

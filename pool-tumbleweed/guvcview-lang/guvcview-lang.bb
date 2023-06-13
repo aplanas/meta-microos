@@ -35,6 +35,7 @@ locale(guvcview:sr) \
 locale(guvcview:tr) \
 locale(guvcview:uk) \
 locale(guvcview:zh_TW)"
+
 RDEPENDS:${PN} += "guvcview"
 
 inherit rpm

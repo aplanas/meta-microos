@@ -18,6 +18,7 @@ RPM_HASH = "b1808bce09d5795009ca49f4adb3e1f9a587a214b06c7f0e3deddcbe3d261e3ebb20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-provision-aarch64-initramfs"
+
 RDEPENDS:${PN} += "warewulf-provision"
 
 inherit rpm

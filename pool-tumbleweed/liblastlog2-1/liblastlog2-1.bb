@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "liblastlog2-1 \
 liblastlog2-1(aarch-64) \
 liblastlog2.so.1()(64bit) \
 liblastlog2.so.1(LIBLASTLOG2_1.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

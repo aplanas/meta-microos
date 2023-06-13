@@ -18,6 +18,7 @@ mimehandler(application/x-pcb-footprint) \
 mimehandler(application/x-pcb-layout) \
 pcb \
 pcb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/tclsh \

@@ -13,6 +13,7 @@ RPM_HASH = "fc1c54abdaf1cb1257bdc13d4783dc204d9ca7a22ad3148300a2698703b6ba797c1c
 RPROVIDES:${PN} += "alternative(gzip) \
 gzip \
 gzip(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \

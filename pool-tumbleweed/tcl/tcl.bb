@@ -31,6 +31,7 @@ tcl \
 tcl(aarch-64) \
 tclsh \
 tclsh8.6"
+
 RDEPENDS:${PN} += "/bin/rm \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -389,6 +389,7 @@ tex(x2cmsrbts-base.tfm) \
 tex(x2cmsrbts.tfm) \
 tex(x2cmsrbts.vf) \
 texlive-cmsrb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

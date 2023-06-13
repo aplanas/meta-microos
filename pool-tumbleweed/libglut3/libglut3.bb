@@ -18,6 +18,7 @@ RPM_HASH = "067e2969df233ea0fdf048fe662563ad18e3635b1952ed9774958330fbb7cde4fc0a
 RPROVIDES:${PN} += "libglut.so.3()(64bit) \
 libglut3 \
 libglut3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

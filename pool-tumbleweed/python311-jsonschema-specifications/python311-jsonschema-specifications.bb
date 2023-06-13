@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jsonschema-specifications) \
 python311-jsonschema-specifications \
 python3dist(jsonschema-specifications)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-referencing"
 

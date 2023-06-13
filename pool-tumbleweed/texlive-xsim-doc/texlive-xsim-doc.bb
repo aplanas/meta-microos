@@ -9,6 +9,7 @@ RPM_HASH = "f48634c47de50514fe6d24acdc72a96275123be39381e6340314d7225c29fda4bc93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xsim-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -32,6 +32,7 @@ locale(manaplus:zh_CN) \
 locale(manaplus:zh_HK) \
 manaplus-lang \
 manaplus-lang-all"
+
 RDEPENDS:${PN} += "manaplus"
 
 inherit rpm

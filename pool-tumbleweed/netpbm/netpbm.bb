@@ -19,6 +19,7 @@ RPM_HASH = "86a349ada18e4c60d26f6136178aa801275044791a6f162426e1a5bf622dbf8b4f42
 RPROVIDES:${PN} += "netpbm \
 netpbm(aarch-64) \
 pbmplus"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

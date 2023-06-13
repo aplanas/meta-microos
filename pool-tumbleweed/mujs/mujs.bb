@@ -9,6 +9,7 @@ RPM_HASH = "45825842d9dae3992369284b986021be2314bb6c9e1fb90daea774840eacf7da5ab8
 
 RPROVIDES:${PN} += "mujs \
 mujs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

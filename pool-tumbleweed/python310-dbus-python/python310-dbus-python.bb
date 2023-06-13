@@ -12,6 +12,7 @@ dbus-1-python310 \
 python3-dbus-python \
 python310-dbus-python \
 python310-dbus-python(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

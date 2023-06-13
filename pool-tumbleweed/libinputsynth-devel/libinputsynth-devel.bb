@@ -10,6 +10,7 @@ RPM_HASH = "490c3404bb1a874a906eac7aca49d3319545a131cc25bf9879be87afa300d047fe38
 RPROVIDES:${PN} += "libinputsynth-devel \
 libinputsynth-devel(aarch-64) \
 pkgconfig(libinputsynth-0.15)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libinputsynth0_15-0 \
 pkgconfig(glib-2.0)"

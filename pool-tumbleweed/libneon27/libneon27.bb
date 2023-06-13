@@ -15,6 +15,7 @@ libneon.so.27(NEON_0_32)(64bit) \
 libneon27 \
 libneon27(aarch-64) \
 neon"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

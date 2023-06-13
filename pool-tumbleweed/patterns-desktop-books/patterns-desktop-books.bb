@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-desktop-books \
 patterns-desktop-books(aarch-64) \
 patterns-openSUSE-books"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

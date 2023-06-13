@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test2::Event::Warning) \
 perl(Test2::Plugin::NoWarnings) \
 perl-Test2-Plugin-NoWarnings"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test2) \
 perl(Test2::API) \

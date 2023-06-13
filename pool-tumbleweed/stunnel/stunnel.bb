@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(stunnel) \
 libstunnel.so()(64bit) \
 stunnel \
 stunnel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

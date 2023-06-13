@@ -15,6 +15,7 @@ mvn(org.apache.logging.log4j:log4j-to-slf4j) \
 mvn(org.apache.logging.log4j:log4j-to-slf4j:pom:) \
 osgi(org.apache.logging.log4j.slf4j-impl) \
 osgi(org.apache.logging.log4j.to-slf4j)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.logging.log4j:log4j-api) \

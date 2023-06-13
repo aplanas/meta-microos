@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(ExtUtils::MakeMaker::CPANfile) \
 perl-ExtUtils-MakeMaker-CPANfile"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::Converter) \
 perl(Module::CPANfile) \

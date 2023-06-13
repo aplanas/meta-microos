@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zope.configuration) \
 python39-zope.configuration \
 python3dist(zope.configuration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zope.i18nmessageid \
 python39-zope.interface \

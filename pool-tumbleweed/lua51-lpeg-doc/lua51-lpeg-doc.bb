@@ -10,6 +10,7 @@ RPM_HASH = "b492faaafef4afe18885e0998108f1ccf882a620aa5d62d36da0845e4f22f51b0ac4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-lpeg-doc"
+
 RDEPENDS:${PN} += "lua51-lpeg"
 
 inherit rpm

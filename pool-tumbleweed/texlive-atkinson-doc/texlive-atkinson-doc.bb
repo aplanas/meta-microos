@@ -9,6 +9,7 @@ RPM_HASH = "f3b4709c7e6a48aa7ba82bc4b442cc85aa956b3a94d83c145f35f2afbe57f483f74c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-atkinson-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

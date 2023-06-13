@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libflux \
 libflux.so.0.193.0()(64bit) \
 libflux0_193_0 \
 libflux0_193_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

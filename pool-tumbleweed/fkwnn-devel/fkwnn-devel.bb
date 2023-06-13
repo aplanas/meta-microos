@@ -11,6 +11,7 @@ RPM_HASH = "98d582f32e16279104fa50dd79ee590f6d02f772c1a9740a6aaf6d2d4396cde7a845
 RPROVIDES:${PN} += "fkwnn-devel \
 fkwnn-devel(aarch-64) \
 fwknndev"
+
 RDEPENDS:${PN} += "fcwnn-devel \
 fkwnn"
 

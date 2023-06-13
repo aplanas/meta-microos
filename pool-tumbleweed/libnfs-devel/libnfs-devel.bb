@@ -11,6 +11,7 @@ RPM_HASH = "8c3099a564f14577ec51719a3035a3e85891c475ea75813552bd6546eb8fb8276928
 RPROVIDES:${PN} += "libnfs-devel \
 libnfs-devel(aarch-64) \
 pkgconfig(libnfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfs14"
 

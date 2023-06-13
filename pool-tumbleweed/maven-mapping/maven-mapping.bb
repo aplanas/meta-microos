@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-mapping \
 mvn(org.apache.maven.shared:maven-mapping) \
 mvn(org.apache.maven.shared:maven-mapping:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-core) \

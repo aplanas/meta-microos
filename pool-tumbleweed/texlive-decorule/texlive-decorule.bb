@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(decorule.sty) \
 texlive-decorule"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

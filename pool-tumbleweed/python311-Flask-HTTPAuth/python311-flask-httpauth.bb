@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-httpauth) \
 python311-Flask-HTTPAuth \
 python3dist(flask-httpauth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask"
 

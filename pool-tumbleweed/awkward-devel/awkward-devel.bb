@@ -15,6 +15,7 @@ RPM_HASH = "d62a860dd7c85060fb2443b8e07bff756ce1839ab4696566fb8d131f39612731052b
 RPROVIDES:${PN} += "awkward-devel \
 awkward-devel(aarch-64) \
 cmake(awkward-headers)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

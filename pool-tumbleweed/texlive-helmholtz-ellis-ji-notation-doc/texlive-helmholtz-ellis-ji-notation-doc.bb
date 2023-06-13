@@ -9,6 +9,7 @@ RPM_HASH = "6e20a001c7b2141586a2b9ebf9b1bbfb68a2d65cb1b06bfae6736d4c8e66b222902b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-helmholtz-ellis-ji-notation-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dk-apali.sty) \
 tex(dk-bib.sty) \
 texlive-dk-bib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

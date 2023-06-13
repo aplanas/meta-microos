@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(openqa-client) \
 python39-openqa_client \
 python3dist(openqa-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-requests \

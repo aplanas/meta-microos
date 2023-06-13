@@ -16,6 +16,7 @@ pkgconfig(resource-agents) \
 resource-agents \
 resource-agents(aarch-64) \
 resource-agents-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/logger \

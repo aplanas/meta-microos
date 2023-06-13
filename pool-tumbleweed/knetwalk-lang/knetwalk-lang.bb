@@ -77,6 +77,7 @@ locale(knetwalk:ug) \
 locale(knetwalk:uk) \
 locale(knetwalk:zh_CN) \
 locale(knetwalk:zh_TW)"
+
 RDEPENDS:${PN} += "knetwalk"
 
 inherit rpm

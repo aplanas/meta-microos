@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(com.thoughtworks.xstream:xstream-benchmark) \
 mvn(com.thoughtworks.xstream:xstream-benchmark:pom:) \
 osgi(xstream-benchmark) \
 xstream-benchmark"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.xstream:xstream) \

@@ -22,6 +22,7 @@ RPM_HASH = "b1ed599ec1d6f02b61b90e374b8718b408c8383af44efc05317285420edae6686f6a
 RPROVIDES:${PN} += "perl(Devel::Leak) \
 perl-Devel-Leak \
 perl-Devel-Leak(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

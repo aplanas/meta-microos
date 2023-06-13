@@ -15,6 +15,7 @@ RPM_HASH = "bccdb346d2848b6e57c93915a589c7ffa64411c1e39463b7e476221993d633c4f0e7
 
 RPROVIDES:${PN} += "upb-devel \
 upb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libupb31"
 
 inherit rpm

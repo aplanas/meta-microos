@@ -11,6 +11,7 @@ RPM_HASH = "12383aceda7988bfe7d9a45691765156b2a770edd5aa03255ddc78e2be87a809fdd4
 RPROVIDES:${PN} += "ghc-mime-types \
 ghc-mime-types(aarch-64) \
 libHSmime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

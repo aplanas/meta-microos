@@ -9,6 +9,7 @@ RPM_HASH = "4047e9940f10972d92413cf85123bdda188c03cf3ed28e60664957ee0c908b7e1493
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tensind-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

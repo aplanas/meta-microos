@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-dicttoxml \
 python3.10dist(dicttoxml) \
 python310-dicttoxml \
 python3dist(dicttoxml)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

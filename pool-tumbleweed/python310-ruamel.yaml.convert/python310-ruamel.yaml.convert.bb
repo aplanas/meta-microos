@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ruamel.yaml.convert \
 python3.10dist(ruamel.yaml.convert) \
 python310-ruamel.yaml.convert \
 python3dist(ruamel.yaml.convert)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil \
 python310-ruamel.base \

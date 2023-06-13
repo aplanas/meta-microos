@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pybeam) \
 python311-pybeam \
 python3dist(pybeam)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-construct \
 python311-six"

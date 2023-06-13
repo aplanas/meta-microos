@@ -11,6 +11,7 @@ RPM_HASH = "79f7b3997058eadcb25db57364744e92ff450a1e009d0f65a01896dd7137894b99be
 RPROVIDES:${PN} += "/usr/lib64/python3.10/site-packages/lldb/ \
 python3-lldb16 \
 python3-lldb16(aarch-64)"
+
 RDEPENDS:${PN} += "liblldb16 \
 python(abi) \
 python3-base \

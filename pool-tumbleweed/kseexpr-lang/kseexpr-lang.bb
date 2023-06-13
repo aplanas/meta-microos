@@ -33,6 +33,7 @@ locale(kseexpr:sv) \
 locale(kseexpr:uk) \
 locale(kseexpr:zh_CN) \
 locale(kseexpr:zh_TW)"
+
 RDEPENDS:${PN} += "kseexpr"
 
 inherit rpm

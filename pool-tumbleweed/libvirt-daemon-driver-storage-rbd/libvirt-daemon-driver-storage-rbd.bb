@@ -11,6 +11,7 @@ RPM_HASH = "95ab2fac2e964e4a43cae0cb537c92386a31e4c42ab962a186f933ad4e1abffa83be
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-rbd \
 libvirt-daemon-driver-storage-rbd(aarch-64) \
 libvirt_storage_backend_rbd.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "dc3ac7b097baf8a2fed0e718e311ed462d878765d6a187b4c92777b0add5bbd08692
 RPROVIDES:${PN} += "libosmo-simtrace2-devel \
 libosmo-simtrace2-devel(aarch-64) \
 pkgconfig(libosmo-simtrace2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-simtrace2-1"
 

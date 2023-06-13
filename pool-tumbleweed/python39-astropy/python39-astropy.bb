@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(astropy) \
 python39-astropy \
 python39-astropy(aarch-64) \
 python3dist(astropy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

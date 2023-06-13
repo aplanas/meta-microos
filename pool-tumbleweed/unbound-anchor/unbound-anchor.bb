@@ -14,6 +14,7 @@ group(unbound) \
 unbound-anchor \
 unbound-anchor(aarch-64) \
 user(unbound)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

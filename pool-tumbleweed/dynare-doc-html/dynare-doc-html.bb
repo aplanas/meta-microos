@@ -9,6 +9,7 @@ RPM_HASH = "cc5b741a6eb574cb845e3f33b972f74c71008fb818a05bf118df8f7fec1abd6c6eb7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dynare-doc-html"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

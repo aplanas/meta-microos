@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:cfa_grub2) \
 rubygem(ruby:3.2.0:cfa_grub2:2) \
 rubygem(ruby:3.2.0:cfa_grub2:2.0) \
 rubygem(ruby:3.2.0:cfa_grub2:2.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:cfa:1)"
 

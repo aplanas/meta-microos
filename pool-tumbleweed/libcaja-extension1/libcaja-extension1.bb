@@ -13,6 +13,7 @@ RPM_HASH = "ac0e2c111de2420409de31dc4345a57ffd6847be359d5b231c30f7d62384f9b4be9b
 RPROVIDES:${PN} += "libcaja-extension.so.1()(64bit) \
 libcaja-extension1 \
 libcaja-extension1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 caja-gschemas \
 ld-linux-aarch64.so.1()(64bit) \

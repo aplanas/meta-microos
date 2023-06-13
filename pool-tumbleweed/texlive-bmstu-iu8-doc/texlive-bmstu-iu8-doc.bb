@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-bmstu-iu8-doc:ru) \
 texlive-bmstu-iu8-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

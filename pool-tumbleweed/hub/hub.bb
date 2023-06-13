@@ -11,6 +11,7 @@ RPM_HASH = "f79a2024d808a52a2c61e043338badebffd5fbefb6afe59a7acf1d38afb4e5098573
 RPROVIDES:${PN} += "hub \
 hub(aarch-64) \
 rubygem-hub"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

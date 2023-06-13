@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libiptcdata-lang \
 libiptcdata-lang-all \
 locale(libiptcdata:de) \
 locale(libiptcdata:it)"
+
 RDEPENDS:${PN} += "libiptcdata"
 
 inherit rpm

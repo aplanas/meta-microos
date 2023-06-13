@@ -15,6 +15,7 @@ RPM_HASH = "d2e944e3327664b460c632d8b639c9bdf038ccd7b93df86161a9eb5caa22e3d4d941
 RPROVIDES:${PN} += "libangelscript.so.2.35.1()(64bit) \
 libangelscript2_35_1 \
 libangelscript2_35_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

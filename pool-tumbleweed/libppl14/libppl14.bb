@@ -10,6 +10,7 @@ RPM_HASH = "f2cdcf6d7f7a55984eccfad33f73fdaf738e26e13ff9aedabd0f74aefd07effde9bd
 RPROVIDES:${PN} += "libppl.so.14()(64bit) \
 libppl14 \
 libppl14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

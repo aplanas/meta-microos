@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boomaga-lang \
 boomaga-lang-all"
+
 RDEPENDS:${PN} += "boomaga"
 
 inherit rpm

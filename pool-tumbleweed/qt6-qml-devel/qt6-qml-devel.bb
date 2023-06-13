@@ -16,6 +16,7 @@ pkgconfig(Qt6QmlIntegration) \
 qt6-qml-devel \
 qt6-qml-devel(aarch-64) \
 qt6-qmldevtools-devel-static"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6Qml6 \

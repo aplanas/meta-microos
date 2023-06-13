@@ -9,6 +9,7 @@ RPM_HASH = "936c22fda06102a94b32fb92e4367d5a214a8edffbfaf39269301d9cdf748b842788
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spandsp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

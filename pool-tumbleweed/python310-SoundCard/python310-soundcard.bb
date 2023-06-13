@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-SoundCard \
 python3.10dist(soundcard) \
 python310-SoundCard \
 python3dist(soundcard)"
+
 RDEPENDS:${PN} += "pulseaudio-daemon \
 python(abi) \
 python310-cffi \

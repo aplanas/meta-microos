@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(soulpos.sty) \
 texlive-soulpos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

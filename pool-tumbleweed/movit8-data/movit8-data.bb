@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "movit-data \
 movit8-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

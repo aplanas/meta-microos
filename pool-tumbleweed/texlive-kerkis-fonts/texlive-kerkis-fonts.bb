@@ -118,6 +118,7 @@ font(kerkis-semibold) \
 font(kerkissans) \
 font(ktsy) \
 texlive-kerkis-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "gegl-devel \
 gegl-devel(aarch-64) \
 pkgconfig(gegl-0.4) \
 pkgconfig(gegl-sc-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgegl-0_4-0 \
 pkgconfig(babl-0.1) \

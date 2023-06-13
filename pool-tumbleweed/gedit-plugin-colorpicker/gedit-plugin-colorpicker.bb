@@ -12,6 +12,7 @@ gedit-plugin-colorpicker(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/colorpicker.plugin \
 metainfo() \
 metainfo(gedit-colorpicker.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gdk) \

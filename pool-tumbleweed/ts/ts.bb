@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moreutils:/usr/bin/ts \
 ts"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Date::Parse) \
 perl(Getopt::Long) \

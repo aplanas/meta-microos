@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-inflection \
 python3.10dist(inflection) \
 python310-inflection \
 python3dist(inflection)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

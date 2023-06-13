@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:packaging_rake_tasks) \
 rubygem(ruby:3.2.0:packaging_rake_tasks:1) \
 rubygem(ruby:3.2.0:packaging_rake_tasks:1.5) \
 rubygem(ruby:3.2.0:packaging_rake_tasks:1.5.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rake)"
 

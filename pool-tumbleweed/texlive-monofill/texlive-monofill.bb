@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(monofill.sty) \
 texlive-monofill"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

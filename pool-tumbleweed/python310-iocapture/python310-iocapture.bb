@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-iocapture \
 python3.10dist(iocapture) \
 python310-iocapture \
 python3dist(iocapture)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jetty-version-maven-plugin \
 mvn(org.eclipse.jetty.toolchain:jetty-version-maven-plugin) \
 mvn(org.eclipse.jetty.toolchain:jetty-version-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.commons:commons-lang3) \

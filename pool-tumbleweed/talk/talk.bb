@@ -12,6 +12,7 @@ RPM_HASH = "6c60969f54c712b98f895bc4e433c5cb34f462807411c36af94a79f7664bc722852c
 RPROVIDES:${PN} += "nkitb:/usr/bin/talk \
 talk \
 talk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-haystack) \
 python39-django-haystack \
 python3dist(django-haystack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

@@ -10,6 +10,7 @@ RPM_HASH = "bdd0e9e2afc439a054b037f68c96cae2ae85a8304c2d05cd4af1970857e722e085ea
 RPROVIDES:${PN} += "cmake(KF5KDGantt2) \
 kdgantt2-devel \
 kdgantt2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5KDGantt2-5"
 
 inherit rpm

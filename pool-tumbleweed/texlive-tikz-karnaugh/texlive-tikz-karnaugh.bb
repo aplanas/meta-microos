@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibrarykarnaugh.code.tex) \
 texlive-tikz-karnaugh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

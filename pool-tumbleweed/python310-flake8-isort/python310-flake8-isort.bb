@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-isort \
 python3.10dist(flake8-isort) \
 python310-flake8-isort \
 python3dist(flake8-isort)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8 \
 python310-isort \

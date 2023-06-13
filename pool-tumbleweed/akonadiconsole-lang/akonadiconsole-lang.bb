@@ -33,6 +33,7 @@ locale(akonadiconsole:sl) \
 locale(akonadiconsole:tr) \
 locale(akonadiconsole:uk) \
 locale(akonadiconsole:zh_CN)"
+
 RDEPENDS:${PN} += "akonadiconsole"
 
 inherit rpm

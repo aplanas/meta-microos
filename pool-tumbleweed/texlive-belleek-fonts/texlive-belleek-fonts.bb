@@ -13,6 +13,7 @@ font(blex) \
 font(blsy) \
 font(rblmi) \
 texlive-belleek-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

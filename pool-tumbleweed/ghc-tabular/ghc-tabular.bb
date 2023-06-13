@@ -24,6 +24,7 @@ RPM_HASH = "850e4e866fde2a88a644c0093bb5d943f7de9c2d6e4017f93283b3481cc3be04555e
 RPROVIDES:${PN} += "ghc-tabular \
 ghc-tabular(aarch-64) \
 libHStabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -132,6 +132,7 @@ font(antpoltsemiexpd) \
 font(antykwapoltawskiego) \
 font(antykwapoltawskiegolight) \
 texlive-poltawski-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

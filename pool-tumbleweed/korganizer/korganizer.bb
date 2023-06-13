@@ -23,6 +23,7 @@ mimehandler(application/x-vnd.akonadi.calendar.event) \
 mimehandler(application/x-vnd.akonadi.calendar.journal) \
 mimehandler(application/x-vnd.akonadi.calendar.todo) \
 mimehandler(text/calendar)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 akonadi-calendar-tools \
 kalendarac \

@@ -10,6 +10,7 @@ RPM_HASH = "91414ed37c9cca35e5aa5cc7ece176f6e15476734aa5f196bed12e953a8797b84fe2
 RPROVIDES:${PN} += "ghc-integer-logarithms-prof \
 ghc-integer-logarithms-prof(aarch-64) \
 ghc-prof(integer-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu)"
+
 RDEPENDS:${PN} += "ghc-integer-logarithms-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

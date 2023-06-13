@@ -13,6 +13,7 @@ RPM_HASH = "2db34fe815d98e099d94dc122a525ac2a3b324bd566735c7b5370a3aed481e99d81f
 RPROVIDES:${PN} += "libt3widget.so.2()(64bit) \
 libt3widget2 \
 libt3widget2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-jeuxcartes-doc:fr) \
 texlive-jeuxcartes-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "d95d33eb7553f89f7f2b6239bfe40ba8a2cd757673c9369eafed8c13dc59cb0fa695
 
 RPROVIDES:${PN} += "obby \
 obby(aarch-64)"
+
 RDEPENDS:${PN} += "libobby-0_4-1 \
 obby-lang"
 

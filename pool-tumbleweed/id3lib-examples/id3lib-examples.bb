@@ -10,6 +10,7 @@ RPM_HASH = "207411100b44529b0b130d6dc3abb29de006b2971540f44ed865f9b2edc695d60b31
 
 RPROVIDES:${PN} += "id3lib-examples \
 id3lib-examples(aarch-64)"
+
 RDEPENDS:${PN} += "id3lib \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

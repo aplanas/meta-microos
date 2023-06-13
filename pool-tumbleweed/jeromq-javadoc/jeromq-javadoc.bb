@@ -9,6 +9,7 @@ RPM_HASH = "ac7e5f2d6c12ae7a94f587e17f899538984a372f5708fbb48190e01c8feceb9a2057
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeromq-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

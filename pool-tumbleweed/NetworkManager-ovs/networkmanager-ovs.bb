@@ -10,6 +10,7 @@ RPM_HASH = "e28363c43513e74b8631adf3cad0b4f51cfe3d0bcbb798da4a9053eb1726ebcc4a72
 RPROVIDES:${PN} += "NetworkManager-ovs \
 NetworkManager-ovs(aarch-64) \
 libnm-device-plugin-ovs.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

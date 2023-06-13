@@ -10,6 +10,7 @@ RPM_HASH = "de32141a606e553c92a941b8db6c1c36380e49f98e87136f1c46784d6c23fdee5247
 RPROVIDES:${PN} += "pkgconfig(tomsfastmath) \
 tomsfastmath-devel \
 tomsfastmath-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtfm1"
 

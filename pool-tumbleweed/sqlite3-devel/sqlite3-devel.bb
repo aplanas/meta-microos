@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "pkgconfig(sqlite3) \
 sqlite-devel \
 sqlite3-devel \
 sqlite3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsqlite3-0"

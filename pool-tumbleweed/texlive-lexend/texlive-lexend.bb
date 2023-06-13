@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lexend.sty) \
 texlive-lexend"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

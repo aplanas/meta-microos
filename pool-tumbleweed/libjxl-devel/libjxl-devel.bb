@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libjxl-devel \
 libjxl-devel(aarch-64) \
 pkgconfig(libjxl) \
 pkgconfig(libjxl_threads)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjxl0_8 \
 pkgconfig(lcms2) \

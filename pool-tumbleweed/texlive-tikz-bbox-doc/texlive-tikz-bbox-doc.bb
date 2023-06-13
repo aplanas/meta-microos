@@ -9,6 +9,7 @@ RPM_HASH = "80591c5de30c1d87ccc54e9acb5995b250d5d7cfb5214cdc076cbbc4dfa9f4727e17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-bbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

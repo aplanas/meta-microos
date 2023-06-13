@@ -24,6 +24,7 @@ RPM_HASH = "fa3eac103ce31ffa7907b8c04bb0e4d5febf8552709ff31c95f0fa0881e17de8160d
 RPROVIDES:${PN} += "config(su-wrapper) \
 su-wrapper \
 su-wrapper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

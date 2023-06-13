@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(hyph-ka.t8m.tex) \
 tex(hyph-ka.tex) \
 tex(loadhyph-ka.tex) \
 texlive-hyphen-georgian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

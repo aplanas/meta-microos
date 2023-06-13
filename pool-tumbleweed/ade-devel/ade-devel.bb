@@ -10,6 +10,7 @@ RPM_HASH = "f5d346cce7c46e84b4f0a263e04ecba56c824e9027e2ea0b3a448c930947012f5a89
 
 RPROVIDES:${PN} += "ade-devel \
 ade-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

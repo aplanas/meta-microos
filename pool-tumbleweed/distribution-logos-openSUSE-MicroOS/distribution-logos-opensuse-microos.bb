@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distribution-logos \
 distribution-logos-openSUSE-MicroOS"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

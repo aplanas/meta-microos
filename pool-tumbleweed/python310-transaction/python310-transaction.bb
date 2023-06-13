@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-transaction \
 python3.10dist(transaction) \
 python310-transaction \
 python3dist(transaction)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.interface"
 

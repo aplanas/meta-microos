@@ -11,6 +11,7 @@ RPM_HASH = "e90a88a9055c7860a8e7923e5321a6b54b97eee89bbf9e6138ff54abc814065d2333
 RPROVIDES:${PN} += "libatasmart.so.4()(64bit) \
 libatasmart4 \
 libatasmart4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "74cc37e2ee72ece6938f74c785d29bb7fb8c5229e32379f5df537be85b9e6d30be5a
 RPROVIDES:${PN} += "libOrthancWebViewer.so.2.8()(64bit) \
 orthanc-webviewer \
 orthanc-webviewer(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

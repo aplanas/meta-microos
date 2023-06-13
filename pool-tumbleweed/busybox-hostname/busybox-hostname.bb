@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/hostname \
 busybox-hostname"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

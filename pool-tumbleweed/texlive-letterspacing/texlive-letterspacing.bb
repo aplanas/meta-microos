@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(letterspacing.tex) \
 texlive-letterspacing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

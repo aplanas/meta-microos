@@ -9,6 +9,7 @@ RPM_HASH = "9219a524b52cd78a9711758cc081d6e203ede304dfa05f4fb0b81d4ec1a688959837
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zellij-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

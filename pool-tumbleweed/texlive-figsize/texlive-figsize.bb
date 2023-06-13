@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(figsize.sty) \
 texlive-figsize"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

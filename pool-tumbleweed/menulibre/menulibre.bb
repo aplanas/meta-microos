@@ -16,6 +16,7 @@ metainfo() \
 metainfo(menulibre.appdata.xml) \
 python3.10dist(menulibre) \
 python3dist(menulibre)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnome-menus \
 hicolor-icon-theme \

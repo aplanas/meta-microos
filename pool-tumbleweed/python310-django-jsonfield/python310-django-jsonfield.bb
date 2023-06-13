@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-jsonfield \
 python3.10dist(jsonfield) \
 python310-django-jsonfield \
 python3dist(jsonfield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

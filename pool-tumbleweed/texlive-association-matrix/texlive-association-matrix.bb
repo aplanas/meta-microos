@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(association-matrix.sty) \
 texlive-association-matrix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

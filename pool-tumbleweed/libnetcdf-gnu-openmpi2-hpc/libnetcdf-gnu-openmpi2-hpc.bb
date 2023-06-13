@@ -11,6 +11,7 @@ RPM_HASH = "4399fd13e5acabe34b8c3081aa4aceaa74bb531ad5b544a2f5946cb478fbb789ee9d
 
 RPROVIDES:${PN} += "libnetcdf-gnu-openmpi2-hpc \
 libnetcdf-gnu-openmpi2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf_4_9_2-gnu-openmpi2-hpc"
 

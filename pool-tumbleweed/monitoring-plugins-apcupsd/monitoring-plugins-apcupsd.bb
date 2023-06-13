@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-apcupsd \
 nagios-plugins-apcupsd"
+
 RDEPENDS:${PN} += "/bin/sh \
 apcupsd \
 bash \

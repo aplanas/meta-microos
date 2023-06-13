@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(thespian) \
 python39-thespian \
 python3dist(thespian)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setproctitle"
 

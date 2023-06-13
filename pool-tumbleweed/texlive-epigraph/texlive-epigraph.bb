@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(epigraph.sty) \
 texlive-epigraph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

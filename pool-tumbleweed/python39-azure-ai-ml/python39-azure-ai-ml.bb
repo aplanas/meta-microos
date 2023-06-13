@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-ai-ml) \
 python39-azure-ai-ml \
 python3dist(azure-ai-ml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-PyYAML \

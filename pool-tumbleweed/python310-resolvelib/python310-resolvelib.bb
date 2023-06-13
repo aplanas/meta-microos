@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-resolvelib \
 python3.10dist(resolvelib) \
 python310-resolvelib \
 python3dist(resolvelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

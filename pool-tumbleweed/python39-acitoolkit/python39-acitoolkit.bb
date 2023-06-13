@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(acitoolkit) \
 python39-acitoolkit \
 python3dist(acitoolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-graphviz \
 python39-jsonschema \

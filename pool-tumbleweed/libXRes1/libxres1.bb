@@ -13,6 +13,7 @@ RPM_HASH = "8ed516925ad5e8784cad7124ff0b680ffcb555e905b9a514f2ff742159ab88090afd
 RPROVIDES:${PN} += "libXRes.so.1()(64bit) \
 libXRes1 \
 libXRes1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

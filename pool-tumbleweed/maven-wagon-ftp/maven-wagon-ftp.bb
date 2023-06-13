@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-wagon-ftp \
 mvn(org.apache.maven.wagon:wagon-ftp) \
 mvn(org.apache.maven.wagon:wagon-ftp:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

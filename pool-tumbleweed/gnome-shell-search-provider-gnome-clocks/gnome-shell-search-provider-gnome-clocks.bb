@@ -10,6 +10,7 @@ RPM_HASH = "c8c47767d5a35daa39503b679228a8144bb63bfc9dbe75e3d7b734d5078a4fd362c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-clocks"
+
 RDEPENDS:${PN} += "gnome-clocks"
 
 inherit rpm

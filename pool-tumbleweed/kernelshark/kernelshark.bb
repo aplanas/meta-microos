@@ -16,6 +16,7 @@ kernelshark(aarch-64) \
 libkshark-gui.so.2.2.0()(64bit) \
 libkshark-plot.so.2.2.0()(64bit) \
 libkshark.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

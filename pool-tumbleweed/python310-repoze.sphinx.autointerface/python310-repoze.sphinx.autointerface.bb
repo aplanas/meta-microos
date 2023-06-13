@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-repoze.sphinx.autointerface \
 python3.10dist(repoze.sphinx.autointerface) \
 python310-repoze.sphinx.autointerface \
 python3dist(repoze.sphinx.autointerface)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-zope.interface"

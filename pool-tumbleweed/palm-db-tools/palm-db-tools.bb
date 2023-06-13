@@ -15,6 +15,7 @@ RPM_HASH = "715054b739b1ad54ed4df7771ea21364eb867eff028d677db0ce3c5cb4ec712c9fcc
 RPROVIDES:${PN} += "libpdbtools.so()(64bit) \
 palm-db-tools \
 palm-db-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

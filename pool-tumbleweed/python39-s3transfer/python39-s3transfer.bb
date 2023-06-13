@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(s3transfer) \
 python39-s3transfer \
 python3dist(s3transfer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-botocore \
 python39-requests"

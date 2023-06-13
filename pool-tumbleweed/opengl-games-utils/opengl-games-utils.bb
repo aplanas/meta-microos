@@ -12,6 +12,7 @@ RPM_HASH = "ce6985f225701421bc928e8632ba65dc617be781c9cff247c1ba9fab3ce1928eb301
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengl-games-utils"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/glxinfo \
 zenity"

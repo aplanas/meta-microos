@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:childprocess) \
 rubygem(ruby:3.2.0:childprocess:4) \
 rubygem(ruby:3.2.0:childprocess:4.1) \
 rubygem(ruby:3.2.0:childprocess:4.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

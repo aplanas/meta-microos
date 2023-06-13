@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "lib64/LLVMgold.so(LLVM_16)(64bit) \
 llvm-gold-provider \
 llvm16-gold \
 llvm16-gold(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -25,6 +25,7 @@ python3.10dist(nbval) \
 python310-jupyter_nbval \
 python310-nbval \
 python3dist(nbval)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coverage \
 python310-ipykernel \

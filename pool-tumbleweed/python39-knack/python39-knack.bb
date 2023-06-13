@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(knack) \
 python39-knack \
 python3dist(knack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-argcomplete \

@@ -12,6 +12,7 @@ RPM_HASH = "2345a2b9634776ed6a9b343015493150795d8ecb9d9308107d84ebc2172a4e92750b
 RPROVIDES:${PN} += "leechcraft-tabslist \
 leechcraft-tabslist(aarch-64) \
 libleechcraft_tabslist.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

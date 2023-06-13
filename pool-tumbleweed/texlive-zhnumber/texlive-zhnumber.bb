@@ -16,6 +16,7 @@ tex(zhnumber-gbk.cfg) \
 tex(zhnumber-utf8.cfg) \
 tex(zhnumber.sty) \
 texlive-zhnumber"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

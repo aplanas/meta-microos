@@ -10,6 +10,7 @@ RPM_HASH = "cc134ecefd821d22a9b770421a806d70322af2374de4dd260d495998ffc42a6f4fc6
 RPROVIDES:${PN} += "config(icecream) \
 icecream \
 icecream(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /bin/tar \

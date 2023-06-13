@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-magicalimport \
 python3.10dist(magicalimport) \
 python310-magicalimport \
 python3dist(magicalimport)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

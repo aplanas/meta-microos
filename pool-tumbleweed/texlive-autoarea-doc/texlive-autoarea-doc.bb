@@ -9,6 +9,7 @@ RPM_HASH = "d7689eba5130e128d7a4e148443e2fe02d3d2c67c7f86ac882d75e7694d6a80ab5eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autoarea-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(html-dtd) \
 html-dtd \
 html_dtd"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog"
 

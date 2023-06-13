@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(exesheet.cls) \
 tex(exesheet.sty) \
 texlive-exesheet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

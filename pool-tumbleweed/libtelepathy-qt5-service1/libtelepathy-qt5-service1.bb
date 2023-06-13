@@ -10,6 +10,7 @@ RPM_HASH = "12f04ab79228f6fab49235485e4b0a2d4b71b9ece614bf3881c139e11e42672bcce2
 RPROVIDES:${PN} += "libtelepathy-qt5-service.so.1()(64bit) \
 libtelepathy-qt5-service1 \
 libtelepathy-qt5-service1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "430661ba5bef205b0c235b7d684856e2c31c0ddf614534e1add8c8fca37e2c1c78f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-android-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

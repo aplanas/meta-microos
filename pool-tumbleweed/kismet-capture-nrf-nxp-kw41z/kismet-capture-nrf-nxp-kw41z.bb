@@ -13,6 +13,7 @@ RPM_HASH = "f92eae571bd15d5f007188ef792552d3a48da59271b467a92cd533db9dceb6895422
 
 RPROVIDES:${PN} += "kismet-capture-nrf-nxp-kw41z \
 kismet-capture-nrf-nxp-kw41z(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

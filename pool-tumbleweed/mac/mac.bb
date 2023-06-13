@@ -10,6 +10,7 @@ RPM_HASH = "bd2347c2f6adbbd7428847b3f92d3f38a68f8c3ebc5f56c3b5eb180f66a42ff75f73
 RPROVIDES:${PN} += "libMAC.so.8()(64bit) \
 mac \
 mac(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

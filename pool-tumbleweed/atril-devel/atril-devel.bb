@@ -13,6 +13,7 @@ atril-devel(aarch-64) \
 mate-document-viewer-devel \
 pkgconfig(atril-document-1.5.0) \
 pkgconfig(atril-view-1.5.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 atril-backends \
 pkgconfig(gio-2.0) \

@@ -83,6 +83,7 @@ locale(kio_audiocd:wa) \
 locale(kio_audiocd:zh_CN) \
 locale(kio_audiocd:zh_HK) \
 locale(kio_audiocd:zh_TW)"
+
 RDEPENDS:${PN} += "kio_audiocd"
 
 inherit rpm

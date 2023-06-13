@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libwnck-1-22 \
 libwnck-1-22(aarch-64) \
 libwnck-1.so.22()(64bit) \
 libwnck2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

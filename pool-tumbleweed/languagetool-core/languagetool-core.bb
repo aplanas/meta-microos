@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "languagetool-core \
 mvn(org.languagetool:languagetool-core) \
 mvn(org.languagetool:languagetool-core:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 libhunspell-1_7-0 \

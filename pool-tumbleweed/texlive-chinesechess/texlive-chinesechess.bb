@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chinesechess.sty) \
 texlive-chinesechess"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

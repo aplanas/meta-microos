@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bullcntr.sty) \
 tex(bullenum.sty) \
 texlive-bullcntr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -23,6 +23,7 @@ perl(KIWIMiniIsoPlugin) \
 perl(KIWIPackagesDVDPlugin) \
 product-builder-plugin \
 product-builder-plugin-Tumbleweed"
+
 RDEPENDS:${PN} += "build \
 createrepo_c \
 dnf \

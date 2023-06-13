@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(cnbwp-manual.sty) \
 tex(cnbwp.cls) \
 tex(cnbwpsizes.clo) \
 texlive-cnbwp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-vmwarecloudsimple) \
 python39-azure-mgmt-vmwarecloudsimple \
 python3dist(azure-mgmt-vmwarecloudsimple)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-nspkg \

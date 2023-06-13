@@ -9,6 +9,7 @@ RPM_HASH = "6139394bf9571d5cbec760e1f0ccf1e7429d2aba9a71d44c0705fa4563ab76d8502c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jourcl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

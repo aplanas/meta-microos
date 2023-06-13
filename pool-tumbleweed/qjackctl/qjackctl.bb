@@ -19,6 +19,7 @@ metainfo() \
 metainfo(org.rncbc.qjackctl.metainfo.xml) \
 qjackctl \
 qjackctl(aarch-64)"
+
 RDEPENDS:${PN} += "(jack or pipewire-libjack-0_3) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

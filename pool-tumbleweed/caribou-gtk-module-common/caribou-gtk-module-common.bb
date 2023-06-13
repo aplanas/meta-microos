@@ -15,6 +15,7 @@ RPM_HASH = "003ca80627e6f13ada09ba587adec8cab972d3186d06b6f970e69558ee58e35518bc
 
 RPROVIDES:${PN} += "caribou-gtk-module-common \
 caribou-gtk-module-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

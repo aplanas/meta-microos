@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bibleref-french.sty) \
 texlive-bibleref-french"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

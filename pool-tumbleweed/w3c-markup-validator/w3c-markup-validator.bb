@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(w3c-markup-validator) \
 w3c-markup-validator"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 apache2 \

@@ -11,6 +11,7 @@ RPM_HASH = "0bc6d17f3b2521ac9b90ca9b67b52904a40b427e6d08f749ee39c70420cb929c5c17
 
 RPROVIDES:${PN} += "libcsync-plugin-sftp \
 libcsync-plugin-sftp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libcsync.so.0()(64bit) \
 libcsync0 \

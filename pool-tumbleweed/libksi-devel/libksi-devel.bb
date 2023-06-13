@@ -12,6 +12,7 @@ RPM_HASH = "9b805588626690bdc41ec85bce1bea6e960cd6a725d373e689d53241504028f93e35
 RPROVIDES:${PN} += "libksi-devel \
 libksi-devel(aarch-64) \
 pkgconfig(libksi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libksi1"
 

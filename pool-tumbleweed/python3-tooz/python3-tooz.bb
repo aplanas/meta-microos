@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-tooz \
 python3.10dist(tooz) \
 python3dist(tooz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-fasteners \
 python3-futurist \

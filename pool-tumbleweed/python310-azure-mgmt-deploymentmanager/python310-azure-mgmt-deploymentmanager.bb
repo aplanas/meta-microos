@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-deploymentmanager \
 python3.10dist(azure-mgmt-deploymentmanager) \
 python310-azure-mgmt-deploymentmanager \
 python3dist(azure-mgmt-deploymentmanager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -15,6 +15,7 @@ ocaml-rope-devel(aarch-64) \
 ocamlfind(rope) \
 ocamlfind(rope.top) \
 ocamlx(Rope)"
+
 RDEPENDS:${PN} += "ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

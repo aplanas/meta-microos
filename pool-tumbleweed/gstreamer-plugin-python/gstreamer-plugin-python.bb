@@ -11,6 +11,7 @@ RPM_HASH = "40b259d5e7fe962cf42a6bd2465ada183c57d9ab8af8acdd856a05a9e15b8bcc19ca
 RPROVIDES:${PN} += "gstreamer-plugin-python \
 gstreamer-plugin-python(aarch-64) \
 libgstpython.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

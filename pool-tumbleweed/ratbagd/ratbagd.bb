@@ -15,6 +15,7 @@ RPM_HASH = "798a163536d5ce789fd173ec2446be436f2c9652578c02ee2807edf8a6d3d48cf296
 
 RPROVIDES:${PN} += "ratbagd \
 ratbagd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(games) \
 ld-linux-aarch64.so.1()(64bit) \

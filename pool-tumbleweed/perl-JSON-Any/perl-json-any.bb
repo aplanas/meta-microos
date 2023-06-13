@@ -88,6 +88,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(JSON::Any) \
 perl-JSON-Any"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "67e0c6551486c0c89b5e4847adad78e06d00a521c21454869ed2793d1929b54c0214
 RPROVIDES:${PN} += "libguile1-devel \
 libguile1-devel(aarch-64) \
 pkgconfig(guile-1.8)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gmp-devel \
 guile1 \

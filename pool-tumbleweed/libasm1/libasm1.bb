@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libasm.so.1()(64bit) \
 libasm.so.1(ELFUTILS_1.0)(64bit) \
 libasm1 \
 libasm1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -28,6 +28,7 @@ tex(univie-ling-wlg.cls) \
 tex(univie-ling.bbx) \
 tex(univie-ling.cbx) \
 texlive-univie-ling"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

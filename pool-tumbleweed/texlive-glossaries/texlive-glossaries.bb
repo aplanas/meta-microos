@@ -92,6 +92,7 @@ tex(glossary-tree-2020-03-19.sty) \
 tex(glossary-tree-2021-11-01.sty) \
 tex(glossary-tree.sty) \
 texlive-glossaries"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/texlua \

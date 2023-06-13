@@ -11,6 +11,7 @@ RPM_HASH = "bfeaa5fa3c93b36943d11eaa1a4f5b4fc7caa0f963c832d97e676b017a126b869a7f
 RPROVIDES:${PN} += "pkgconfig(libstartup-notification-1.0) \
 startup-notification-devel \
 startup-notification-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstartup-notification-1-0"
 

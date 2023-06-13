@@ -11,6 +11,7 @@ RPM_HASH = "2fe09fd8778c7de7155ddbf02919fdc55cabecf2c8264118fdf8766d2576dbb3459b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-fade-in"
+
 RDEPENDS:${PN} += "/bin/sh \
 plymouth-plugin-fade-throbber \
 plymouth-plugin-label \

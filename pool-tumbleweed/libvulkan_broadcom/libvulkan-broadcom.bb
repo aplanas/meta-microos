@@ -10,6 +10,7 @@ RPM_HASH = "1839aaf05d5346b55b5c35d27aa9c5373eff868e777d7cd58bf2a5264ac4265154a2
 RPROVIDES:${PN} += "libvulkan_broadcom \
 libvulkan_broadcom(aarch-64) \
 libvulkan_broadcom.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \

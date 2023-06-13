@@ -12,6 +12,7 @@ RPM_HASH = "602fbfd137b4c6478bdbe0c920c0adb6bb18a5c462f3064f8e86c88e119522adf96f
 RPROVIDES:${PN} += "cmake(KPipeWire) \
 kpipewire-devel \
 kpipewire-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kpipewire-imports \
 libKPipeWire5 \
 libKPipeWireDmaBuf5 \

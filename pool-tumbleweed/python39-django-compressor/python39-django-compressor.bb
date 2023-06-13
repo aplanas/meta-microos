@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(django-compressor) \
 python39-django-compressor \
 python39-django_compressor \
 python3dist(django-compressor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-Jinja2 \

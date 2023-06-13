@@ -10,6 +10,7 @@ RPM_HASH = "2c81dd5a20ed95cdf3d6ba599b0e77775f6d8ab11407c2871afe472a1466b9d4ff8c
 RPROVIDES:${PN} += "ghc-prof(typed-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO) \
 ghc-typed-process-prof \
 ghc-typed-process-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

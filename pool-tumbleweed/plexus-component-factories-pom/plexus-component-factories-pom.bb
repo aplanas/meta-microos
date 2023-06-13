@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-component-factories:pom:) \
 mvn(plexus:plexus-component-factories:pom:) \
 plexus-component-factories-pom"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-container-default) \

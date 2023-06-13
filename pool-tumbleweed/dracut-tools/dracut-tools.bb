@@ -10,6 +10,7 @@ RPM_HASH = "fb7ebcbb9a98b62b55eed2081b420ea6c79754b0a898ad0cfb05fe202e3c8dd9e559
 RPROVIDES:${PN} += "dracut-tools \
 dracut-tools(aarch-64) \
 dracut:/usr/bin/dracut-catimages"
+
 RDEPENDS:${PN} += "/bin/bash \
 dracut"
 

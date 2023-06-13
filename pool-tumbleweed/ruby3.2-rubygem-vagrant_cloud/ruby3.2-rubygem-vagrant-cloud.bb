@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:vagrant_cloud:3) \
 rubygem(ruby:3.2.0:vagrant_cloud:3.0) \
 rubygem(ruby:3.2.0:vagrant_cloud:3.0.5) \
 rubygem(vagrant_cloud)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:excon:0) \
 rubygem(ruby:3.2.0:log4r:1.1) \

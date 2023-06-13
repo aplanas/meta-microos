@@ -11,6 +11,7 @@ RPM_HASH = "ad5d0e738e0f24ee35f5d05c5e132d786a33b8ba9d2a96ee5e1a687222b67dedf8cd
 
 RPROVIDES:${PN} += "octave-openEMS \
 octave-openEMS(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 AppCSXCAD \
 ld-linux-aarch64.so.1()(64bit) \

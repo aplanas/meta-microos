@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hep-float.sty) \
 texlive-hep-float"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "config(nagios-www) \
 monitoring_webfrontend \
 nagios-www \
 nagios-www(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/logger \
 /bin/sh \
 /usr/bin/perl \

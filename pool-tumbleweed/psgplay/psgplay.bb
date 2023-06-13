@@ -13,6 +13,7 @@ RPM_HASH = "4381ef2a206288d68878f71fa13b178e6825359c3e40e9ee6aac7e11dafbf57d4198
 
 RPROVIDES:${PN} += "psgplay \
 psgplay(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

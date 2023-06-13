@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(html2ps) \
 html2ps"
+
 RDEPENDS:${PN} += "/usr/bin/wish \
 ImageMagick \
 ghostscript_any \

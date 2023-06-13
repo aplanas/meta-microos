@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(gitexinfo.sty) \
 tex(gitinfo2.sty) \
 texlive-gitinfo2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

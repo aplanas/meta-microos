@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libstartup-notification-1-0 \
 libstartup-notification-1-0(aarch-64) \
 libstartup-notification-1.so.0()(64bit) \
 startup-notification"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

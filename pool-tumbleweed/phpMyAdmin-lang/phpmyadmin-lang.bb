@@ -95,6 +95,7 @@ locale(phpMyAdmin:zh_CN) \
 locale(phpMyAdmin:zh_TW) \
 phpMyAdmin-lang \
 phpMyAdmin-lang-all"
+
 RDEPENDS:${PN} += "phpMyAdmin"
 
 inherit rpm

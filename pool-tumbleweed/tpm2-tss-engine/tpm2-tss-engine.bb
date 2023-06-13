@@ -14,6 +14,7 @@ RPM_HASH = "b590c334564c3ee59bb9eced5cc751e7b92c0c771b1f48ac80d722c264ef0dc8a4b5
 RPROVIDES:${PN} += "libtpm2tss.so()(64bit) \
 tpm2-tss-engine \
 tpm2-tss-engine(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

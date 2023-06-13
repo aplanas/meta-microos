@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "baloo5-devel \
 baloo5-devel(aarch-64) \
 cmake(KF5Baloo) \
 pkgconfig(Baloo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(KF5CoreAddons) \
 cmake(KF5FileMetaData) \

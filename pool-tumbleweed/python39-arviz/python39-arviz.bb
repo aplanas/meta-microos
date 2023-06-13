@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(arviz) \
 python39-arviz \
 python3dist(arviz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-h5netcdf \
 python39-matplotlib \

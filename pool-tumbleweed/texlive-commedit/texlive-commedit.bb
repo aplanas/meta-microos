@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(commedit.sty) \
 texlive-commedit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

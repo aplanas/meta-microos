@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(ru;bg) \
 terminus-bitmap-fonts \
 terminus-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

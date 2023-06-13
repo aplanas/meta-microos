@@ -11,6 +11,7 @@ RPM_HASH = "c423b1d612a1270f143c410a46f9db6a533c744baada48a19714dc30bf64b2cb3e25
 RPROVIDES:${PN} += "cmake(libaec) \
 libaec-devel \
 libaec-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libaec0"
 
 inherit rpm

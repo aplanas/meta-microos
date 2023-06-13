@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-kvsetkeys-doc:en) \
 texlive-kvsetkeys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

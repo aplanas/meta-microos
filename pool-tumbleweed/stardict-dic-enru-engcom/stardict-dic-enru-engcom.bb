@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(stardict:ru) \
 stardict-dic-enru-engcom"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

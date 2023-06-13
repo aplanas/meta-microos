@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-apiron \
 python3.10dist(apiron) \
 python310-apiron \
 python3dist(apiron)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

@@ -54,6 +54,7 @@ perl(IO::All::Socket) \
 perl(IO::All::String) \
 perl(IO::All::Temp) \
 perl-IO-All"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

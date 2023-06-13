@@ -13,6 +13,7 @@ gnome-logs \
 gnome-logs(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Logs.appdata.xml)"
+
 RDEPENDS:${PN} += "gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

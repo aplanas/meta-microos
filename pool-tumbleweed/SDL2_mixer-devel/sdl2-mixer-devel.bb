@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SDL2_mixer-devel \
 SDL2_mixer-devel(aarch-64) \
 libSDL2_mixer-devel \
 pkgconfig(SDL2_mixer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL2_mixer-2_0-0 \
 pkgconfig(fluidsynth) \

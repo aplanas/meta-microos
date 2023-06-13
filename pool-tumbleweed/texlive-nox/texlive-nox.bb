@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nox.sty) \
 texlive-nox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

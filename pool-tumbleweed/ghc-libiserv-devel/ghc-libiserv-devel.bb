@@ -12,6 +12,7 @@ ghc-libiserv-devel \
 ghc-libiserv-devel(aarch-64) \
 ghc-libiserv-static \
 ghc-libiserv-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(binary-0.8.9.1) \

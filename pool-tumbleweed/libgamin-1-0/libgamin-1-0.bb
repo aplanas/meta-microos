@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgamin \
 libgamin-1-0 \
 libgamin-1-0(aarch-64) \
 libgamin-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gamin-server \
 ld-linux-aarch64.so.1()(64bit) \

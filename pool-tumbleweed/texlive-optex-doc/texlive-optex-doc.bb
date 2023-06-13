@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(optex.1) \
 texlive-optex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

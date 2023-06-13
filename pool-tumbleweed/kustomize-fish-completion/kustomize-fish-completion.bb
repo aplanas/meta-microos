@@ -9,6 +9,7 @@ RPM_HASH = "424257bb99d7b3b711b3241296ff3f66b3133ffc1e8bd9acbc2a3bae9ad715a3e5e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-fish-completion"
+
 RDEPENDS:${PN} += "kustomize"
 
 inherit rpm

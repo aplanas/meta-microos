@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "OCE-devel \
 OpenCASCADE-devel \
 oce-devel \
 oce-devel(aarch-64)"
+
 RDEPENDS:${PN} += "oce"
 
 inherit rpm

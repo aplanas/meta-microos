@@ -19,6 +19,7 @@ RPM_HASH = "3f4697322709183b33fdd4136f34361e1df5344d1ddf6885250579975103d8c5d412
 RPROVIDES:${PN} += "typelib(JavaScriptCore) \
 typelib-1_0-JavaScriptCore-4_1 \
 typelib-1_0-JavaScriptCore-4_1(aarch-64)"
+
 RDEPENDS:${PN} += "libjavascriptcoregtk-4.1.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

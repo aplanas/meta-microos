@@ -9,6 +9,7 @@ RPM_HASH = "8887368a85b411077f42c7517f08e32afb1bdf11d98a5fc56927864a9d7dd609be3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moodle-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

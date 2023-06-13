@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libpng-devel \
 libpng16-compat-devel \
 libpng16-compat-devel(aarch-64) \
 pkgconfig(libpng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpng16-devel \
 pkgconfig(zlib)"

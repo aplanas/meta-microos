@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pympler) \
 python39-Pympler \
 python3dist(pympler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tk"
 

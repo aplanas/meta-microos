@@ -16,6 +16,7 @@ libgeis.so.1(GEIS_2.2)(64bit) \
 libgeis.so.1(GEIS_2.3)(64bit) \
 libgeis1 \
 libgeis1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

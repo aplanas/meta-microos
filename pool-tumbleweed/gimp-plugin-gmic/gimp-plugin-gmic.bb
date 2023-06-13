@@ -11,6 +11,7 @@ RPM_HASH = "446501cb3750f8c3017fc2185c19c04e3ede5f3efba54fd0f5277c47fab102a0bc99
 RPROVIDES:${PN} += "gimp-plugin-gmic \
 gimp-plugin-gmic(aarch-64) \
 gmic-gimp"
+
 RDEPENDS:${PN} += "gimp \
 gmic-data \
 ld-linux-aarch64.so.1()(64bit) \

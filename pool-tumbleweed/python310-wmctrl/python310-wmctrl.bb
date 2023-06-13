@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-wmctrl \
 python3.10dist(wmctrl) \
 python310-wmctrl \
 python3dist(wmctrl)"
+
 RDEPENDS:${PN} += "python(abi) \
 wmctrl \
 xorg-x11-server"

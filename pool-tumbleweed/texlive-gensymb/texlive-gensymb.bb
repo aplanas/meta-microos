@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gensymb.sty) \
 texlive-gensymb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

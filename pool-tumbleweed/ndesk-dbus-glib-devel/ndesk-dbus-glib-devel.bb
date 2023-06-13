@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ndesk-dbus-glib-devel \
 pkgconfig(ndesk-dbus-glib-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ndesk-dbus-glib \
 pkgconfig(ndesk-dbus-1.0)"

@@ -16,6 +16,7 @@ RPM_HASH = "e53b95bd9f67b1a9364f9a2e6bd8465f541e73a9a22561a097b23bbea6fb7cdef06e
 RPROVIDES:${PN} += "libjansson-devel \
 libjansson-devel(aarch-64) \
 pkgconfig(jansson)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjansson4"
 

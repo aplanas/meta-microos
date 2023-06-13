@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-freezegun) \
 python39-pytest-freezegun \
 python3dist(pytest-freezegun)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-freezegun \
 python39-pytest"

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6PrintSupport) \
 pkgconfig(Qt6PrintSupport) \
 qt6-printsupport-devel \
 qt6-printsupport-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Gui) \

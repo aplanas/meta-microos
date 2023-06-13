@@ -9,6 +9,7 @@ RPM_HASH = "9368c4181cc164189c71252e221eae3d6c594c9197a77020c8267bb826d7a307f7ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyphen-hungarian-doc"
+
 RDEPENDS:${PN} += "/usr/bin/ruby"
 
 inherit rpm

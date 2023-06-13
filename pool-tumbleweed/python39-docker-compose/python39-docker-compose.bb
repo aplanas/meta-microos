@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "docker-compose \
 python3.9dist(docker-compose) \
 python39-docker-compose \
 python3dist(docker-compose)"
+
 RDEPENDS:${PN} += "(docker or podman >= 3.0) \
 /bin/sh \
 /usr/bin/python3.9 \

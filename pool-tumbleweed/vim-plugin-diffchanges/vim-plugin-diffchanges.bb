@@ -12,6 +12,7 @@ RPM_HASH = "9c1b3ebff281930812e2b4d9a736fc783eee74c16ff3fe2f76c9c705b747fc4bce88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-diffchanges"
+
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
 vim"

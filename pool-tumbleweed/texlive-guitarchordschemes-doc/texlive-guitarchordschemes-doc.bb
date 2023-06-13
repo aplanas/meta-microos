@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-guitarchordschemes-doc:en) \
 texlive-guitarchordschemes-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

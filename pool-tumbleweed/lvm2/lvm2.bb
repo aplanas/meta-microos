@@ -24,6 +24,7 @@ libdevmapper-event-lvm2vdo.so.2.03(Base)(64bit) \
 lvm \
 lvm2 \
 lvm2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

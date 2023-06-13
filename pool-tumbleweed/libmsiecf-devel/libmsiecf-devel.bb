@@ -13,6 +13,7 @@ RPM_HASH = "293c0c59de4ef77c6d95cb6699b4c1ff71c2381e7351547396beec80907c882385cf
 RPROVIDES:${PN} += "libmsiecf-devel \
 libmsiecf-devel(aarch-64) \
 pkgconfig(libmsiecf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libmsiecf1"

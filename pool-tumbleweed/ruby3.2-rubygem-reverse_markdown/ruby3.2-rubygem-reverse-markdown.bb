@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:reverse_markdown) \
 rubygem(ruby:3.2.0:reverse_markdown:2) \
 rubygem(ruby:3.2.0:reverse_markdown:2.1) \
 rubygem(ruby:3.2.0:reverse_markdown:2.1.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

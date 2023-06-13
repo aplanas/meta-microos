@@ -11,6 +11,7 @@ RPM_HASH = "7d7811061273fa427ee1422c01213595c93f8a939914b683f821da664d9cda67a2a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-flake8-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

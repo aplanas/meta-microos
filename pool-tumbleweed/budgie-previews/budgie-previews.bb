@@ -13,6 +13,7 @@ budgie-previews \
 budgie-previews(aarch-64) \
 metainfo() \
 metainfo(org.ubuntubudgie.previewscontrols.metainfo.xml)"
+
 RDEPENDS:${PN} += "budgie-extras-daemon \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

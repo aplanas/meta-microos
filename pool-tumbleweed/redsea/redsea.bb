@@ -15,6 +15,7 @@ RPM_HASH = "a01937cced2952ffca73dc74051a381101235f60c05c8a33cd2dce6aae94ceb95b16
 
 RPROVIDES:${PN} += "redsea \
 redsea(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

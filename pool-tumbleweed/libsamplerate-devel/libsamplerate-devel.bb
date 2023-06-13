@@ -11,6 +11,7 @@ RPM_HASH = "839f24a358b9069729d8bcabedd058e7b891f0dc0f7a6d78466c384bff572f781fd9
 RPROVIDES:${PN} += "libsamplerate-devel \
 libsamplerate-devel(aarch-64) \
 pkgconfig(samplerate)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsamplerate0"

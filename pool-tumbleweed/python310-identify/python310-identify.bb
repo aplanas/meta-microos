@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-identify \
 python3.10dist(identify) \
 python310-identify \
 python3dist(identify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

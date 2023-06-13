@@ -9,6 +9,7 @@ RPM_HASH = "72c27a1d5dbe91d659db88ffa6b65ffd1f658cdcd581c5b6c673c1734b18a734a9f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxcalc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "fd86012dbec35579880f2797b6dd627e067767fd05a8048d3ae943a0acb5ad790728
 
 RPROVIDES:${PN} += "systemtap-sdt-devel \
 systemtap-sdt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "systemtap"
 
 inherit rpm

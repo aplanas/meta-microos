@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sniffio \
 python3.10dist(sniffio) \
 python310-sniffio \
 python3dist(sniffio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

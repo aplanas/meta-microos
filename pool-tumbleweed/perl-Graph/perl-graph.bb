@@ -26,6 +26,7 @@ perl(Graph::Traversal::DFS) \
 perl(Graph::Undirected) \
 perl(Graph::UnionFind) \
 perl-Graph"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Heap) \
 perl(List::Util) \

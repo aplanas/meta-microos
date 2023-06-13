@@ -11,6 +11,7 @@ RPM_HASH = "6f4f8b90e5288604591e868262824a35855fedda2e802ce0c4aee747eba79537dd6a
 RPROVIDES:${PN} += "libxmlsec1-nss.so.1()(64bit) \
 libxmlsec1-nss1 \
 libxmlsec1-nss1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libnspr4.so()(64bit) \

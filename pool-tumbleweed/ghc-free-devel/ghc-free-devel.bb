@@ -10,6 +10,7 @@ RPM_HASH = "3d36b77d945d3acbe8bf98bb0c2d9244e09c5c81cb54504bb950580616315c7ceaf7
 RPROVIDES:${PN} += "ghc-devel(free-5.1.10-7AdTZukDGhL7qWMpdopXbC) \
 ghc-free-devel \
 ghc-free-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

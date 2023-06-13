@@ -17,6 +17,7 @@ RPM_HASH = "691f5975b51b3e6c18350286d1d49c611daedc9a86d811b3e0fe44e3f89720fb553c
 RPROVIDES:${PN} += "ghc-lifted-base \
 ghc-lifted-base(aarch-64) \
 libHSlifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so()(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.serialization \
 python3.10dist(oslo.serialization) \
 python3dist(oslo.serialization)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-msgpack \
 python3-oslo.utils \

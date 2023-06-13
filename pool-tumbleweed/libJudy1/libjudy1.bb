@@ -19,6 +19,7 @@ RPM_HASH = "2ed97de08839f92a951e6b5dacb4299e3ddaf303d70f0368652e7a28c0530c8a7fee
 RPROVIDES:${PN} += "libJudy.so.1()(64bit) \
 libJudy1 \
 libJudy1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

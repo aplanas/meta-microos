@@ -9,6 +9,7 @@ RPM_HASH = "5c6e2fb199488867db08b29483da1202c35bd22870e5ecc4e16d8a09925550d6488f
 
 RPROVIDES:${PN} += "libvterm-tools \
 libvterm-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

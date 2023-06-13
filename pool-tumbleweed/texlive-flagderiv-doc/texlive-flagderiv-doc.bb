@@ -9,6 +9,7 @@ RPM_HASH = "085fd300f8dd4b06437a85c4113ae685d12af6518110709d8ec9cb8be9cc7f517b3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flagderiv-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -40,6 +40,7 @@ tex(interfaces-truncate.sty) \
 tex(interfaces-umrand.sty) \
 tex(interfaces.sty) \
 texlive-interfaces"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

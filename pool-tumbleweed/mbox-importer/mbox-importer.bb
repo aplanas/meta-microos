@@ -13,6 +13,7 @@ application(org.kde.mboximporter.desktop) \
 mbox-importer \
 mbox-importer(aarch-64) \
 mimehandler(application/mbox)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

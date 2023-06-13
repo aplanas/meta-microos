@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ps2eps \
 texlive-pstools:/usr/share/texmf/scripts/ps2eps/ps2eps.pl"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

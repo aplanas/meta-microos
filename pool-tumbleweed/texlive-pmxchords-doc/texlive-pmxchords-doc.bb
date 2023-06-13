@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(texlive-pmxchords-doc:en;cs) \
 man(pmxchords.1) \
 texlive-pmxchords-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

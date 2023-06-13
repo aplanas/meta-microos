@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-argcomplete \
 python3.10dist(argcomplete) \
 python310-argcomplete \
 python3dist(argcomplete)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

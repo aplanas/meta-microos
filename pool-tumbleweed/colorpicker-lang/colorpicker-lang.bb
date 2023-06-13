@@ -19,6 +19,7 @@ locale(colorpicker:nl) \
 locale(colorpicker:pl) \
 locale(colorpicker:pt_PT) \
 locale(colorpicker:tr)"
+
 RDEPENDS:${PN} += "colorpicker"
 
 inherit rpm

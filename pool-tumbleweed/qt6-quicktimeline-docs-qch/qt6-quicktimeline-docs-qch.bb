@@ -9,6 +9,7 @@ RPM_HASH = "4f225579d9fc2b1c74c345807e02a330389499ca25b56c2a9c250f36986e73bc2292
 
 RPROVIDES:${PN} += "qt6-quicktimeline-docs-qch \
 qt6-quicktimeline-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

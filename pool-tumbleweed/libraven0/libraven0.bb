@@ -10,6 +10,7 @@ RPM_HASH = "faf126ba21f4c5740aa4e39ce85e5d5ede6ba7490c183bd085a8471074e83109b898
 RPROVIDES:${PN} += "libraven.so.0()(64bit) \
 libraven0 \
 libraven0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

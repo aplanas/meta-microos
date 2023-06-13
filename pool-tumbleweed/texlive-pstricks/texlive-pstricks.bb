@@ -47,6 +47,7 @@ tex(textures.cfg) \
 tex(vtex.cfg) \
 tex(xdvipdfmx.cfg) \
 texlive-pstricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

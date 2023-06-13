@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pinlabel.sty) \
 texlive-pinlabel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "mvn(com.thoughtworks.xstream:xstream) \
 mvn(com.thoughtworks.xstream:xstream:pom:) \
 osgi(xstream) \
 xstream"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(xpp3:xpp3) \

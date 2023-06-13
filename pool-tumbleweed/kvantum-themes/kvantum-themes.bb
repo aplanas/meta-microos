@@ -10,6 +10,7 @@ RPM_HASH = "eb7379dbf7a1ccb57b13dfe63003275df74ffec895250f01bb74353f4c990fea2139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvantum-themes"
+
 RDEPENDS:${PN} += "(kvantum-qt5 = 1.0.10 or kvantum-qt6 = 1.0.10)"
 
 inherit rpm

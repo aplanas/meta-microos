@@ -9,6 +9,7 @@ RPM_HASH = "4964cedad7bab873f78f64f29a40ee36a809c8d21ce0b77884ba122ce6b3983bbfc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdbus-cpp-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

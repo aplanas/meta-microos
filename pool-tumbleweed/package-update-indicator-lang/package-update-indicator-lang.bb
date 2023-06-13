@@ -19,6 +19,7 @@ locale(package-update-indicator:pt_BR) \
 locale(package-update-indicator:ru) \
 package-update-indicator-lang \
 package-update-indicator-lang-all"
+
 RDEPENDS:${PN} += "package-update-indicator"
 
 inherit rpm

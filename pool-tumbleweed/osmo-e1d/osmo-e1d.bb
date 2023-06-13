@@ -16,6 +16,7 @@ RPM_HASH = "3d59f0a8977bd4cd1d57f8f339517c89c808f9d2be49ee98a77306714ddc8b9298a1
 
 RPROVIDES:${PN} += "osmo-e1d \
 osmo-e1d(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

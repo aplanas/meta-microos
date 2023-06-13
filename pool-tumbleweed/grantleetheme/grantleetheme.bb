@@ -9,6 +9,7 @@ RPM_HASH = "0dc9b834abfc2815f89c825a117a210617be33d5cc4cede641e85f40f7c18ca04880
 
 RPROVIDES:${PN} += "grantleetheme \
 grantleetheme(aarch-64)"
+
 RDEPENDS:${PN} += "grantlee5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

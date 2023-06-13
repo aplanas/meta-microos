@@ -1815,6 +1815,7 @@ tex(a_yoxmuz.enc) \
 tex(lato.map) \
 tex(lato.sty) \
 texlive-lato"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "485c51ea2e001c6ea8e628a901034783095edd0a3ac11476c547ed361e77618ff947
 RPROVIDES:${PN} += "libbaseencode.so.1()(64bit) \
 libbaseencode1 \
 libbaseencode1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

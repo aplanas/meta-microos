@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Devel::StackTrace::AsHTML) \
 perl-Devel-StackTrace-AsHTML"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::StackTrace)"
 

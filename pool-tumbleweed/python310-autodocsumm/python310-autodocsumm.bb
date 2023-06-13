@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-autodocsumm \
 python3.10dist(autodocsumm) \
 python310-autodocsumm \
 python3dist(autodocsumm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

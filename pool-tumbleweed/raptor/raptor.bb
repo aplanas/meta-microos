@@ -10,6 +10,7 @@ RPM_HASH = "b612a7cc54f3c74da75fe91ebbfdb5c7eb9e6251ff687e3c28c12f18de048628e9a0
 
 RPROVIDES:${PN} += "raptor \
 raptor(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -31,6 +31,7 @@ xorg-x11-driver-video \
 xorg-x11-server \
 xorg-x11-server(aarch-64) \
 xorg-x11-server-glx"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

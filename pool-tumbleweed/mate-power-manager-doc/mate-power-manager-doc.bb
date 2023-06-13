@@ -9,6 +9,7 @@ RPM_HASH = "444e01514548b12e6d5a97bbf2927e0c0d669d8e3d9e2e05d8029b209f1c9c370c16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-power-manager-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

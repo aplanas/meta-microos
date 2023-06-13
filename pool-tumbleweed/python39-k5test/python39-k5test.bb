@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(k5test) \
 python39-k5test \
 python3dist(k5test)"
+
 RDEPENDS:${PN} += "krb5-client \
 krb5-server \
 python(abi)"

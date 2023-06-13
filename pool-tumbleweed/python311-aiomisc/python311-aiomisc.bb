@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiomisc) \
 python311-aiomisc \
 python3dist(aiomisc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-colorlog \
 python311-logging-journald"

@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:little-plugger) \
 rubygem(ruby:3.2.0:little-plugger:1) \
 rubygem(ruby:3.2.0:little-plugger:1.1) \
 rubygem(ruby:3.2.0:little-plugger:1.1.4)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

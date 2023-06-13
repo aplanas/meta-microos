@@ -15,6 +15,7 @@ RPM_HASH = "219e2c675cea1f0cbbf3070070a48739890db32fa8b72cb137744b583dee13ca1192
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wsdl4j-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

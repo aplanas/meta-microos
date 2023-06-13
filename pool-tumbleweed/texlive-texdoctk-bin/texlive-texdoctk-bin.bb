@@ -9,6 +9,7 @@ RPM_HASH = "622872174b3582e799d9f922ed74249d181bf2d167415d52a5954af1a4a7701c2e36
 
 RPROVIDES:${PN} += "texlive-texdoctk-bin \
 texlive-texdoctk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texdoctk"
 
 inherit rpm

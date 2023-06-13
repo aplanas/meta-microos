@@ -12,6 +12,7 @@ RPM_HASH = "a09d8e88d4a809722c22058cc8403e3ec827fc4b6ac6660c06ca971d18d988069efe
 RPROVIDES:${PN} += "libmbedcrypto.so.7()(64bit) \
 libmbedcrypto7 \
 libmbedcrypto7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

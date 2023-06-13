@@ -9,6 +9,7 @@ RPM_HASH = "db23e9def902077b24acf28739948f43ac4c54883c17f1ea286295d452a91c78440c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontawesome-fonts-web"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

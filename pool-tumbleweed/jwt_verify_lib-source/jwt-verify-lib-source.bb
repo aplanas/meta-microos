@@ -12,6 +12,7 @@ RPM_HASH = "5ca76bd3934101103af3c14ff16b5e511bf71697b70d44e54a593a0da17969ea2769
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jwt_verify_lib-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -915,6 +915,7 @@ tex(a_yiealt.enc) \
 tex(cantarell.map) \
 tex(cantarell.sty) \
 texlive-cantarell"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

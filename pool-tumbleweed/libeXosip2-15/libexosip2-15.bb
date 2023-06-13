@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libeXosip2 \
 libeXosip2-15 \
 libeXosip2-15(aarch-64) \
 libeXosip2.so.15()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

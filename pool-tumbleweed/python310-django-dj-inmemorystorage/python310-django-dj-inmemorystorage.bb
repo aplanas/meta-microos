@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-dj-inmemorystorage \
 python3.10dist(dj-inmemorystorage) \
 python310-django-dj-inmemorystorage \
 python3dist(dj-inmemorystorage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-six"

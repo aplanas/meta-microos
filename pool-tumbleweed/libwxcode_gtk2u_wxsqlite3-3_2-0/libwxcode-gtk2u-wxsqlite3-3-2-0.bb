@@ -12,6 +12,7 @@ RPM_HASH = "1cb8c79b3ddb04a2a7c8c4b17279d7afec3ca36c7aaa40ee35796c0bce98a22162c3
 RPROVIDES:${PN} += "libwxcode_gtk2u_wxsqlite3-3.2.so.0()(64bit) \
 libwxcode_gtk2u_wxsqlite3-3_2-0 \
 libwxcode_gtk2u_wxsqlite3-3_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

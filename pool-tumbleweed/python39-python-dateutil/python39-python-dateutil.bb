@@ -38,6 +38,7 @@ RPROVIDES:${PN} += "python3.9dist(python-dateutil) \
 python39-dateutil \
 python39-python-dateutil \
 python3dist(python-dateutil)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

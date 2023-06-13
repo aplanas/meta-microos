@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sievelib \
 python3.10dist(sievelib) \
 python310-sievelib \
 python3dist(sievelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

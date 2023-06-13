@@ -16,6 +16,7 @@ RPM_HASH = "4b8ee289c245978f7ac9bee370575ab2e688c2e6d0339a4a5abc27b42f28e4757d50
 
 RPROVIDES:${PN} += "trivy \
 trivy(aarch-64)"
+
 RDEPENDS:${PN} += "ca-certificates \
 git-core \
 libc.so.6(GLIBC_2.34)(64bit) \

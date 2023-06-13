@@ -10,6 +10,7 @@ RPM_HASH = "07046cbcd8e3dd5f81c5d29b02699ffa4e26f535cc7f217ebcf52d7095f431f6c3c5
 
 RPROVIDES:${PN} += "transconnect \
 transconnect(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

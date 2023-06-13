@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(framed.sty) \
 texlive-framed"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

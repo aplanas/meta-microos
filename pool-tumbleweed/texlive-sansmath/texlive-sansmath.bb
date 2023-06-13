@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sansmath.sty) \
 texlive-sansmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

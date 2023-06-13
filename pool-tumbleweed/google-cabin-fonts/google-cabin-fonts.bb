@@ -20,6 +20,7 @@ RPM_HASH = "5581b194dcc9cf1d011b68865d9116bc3e5f0b4dce9d02420a65671773f3802b6a22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-cabin-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

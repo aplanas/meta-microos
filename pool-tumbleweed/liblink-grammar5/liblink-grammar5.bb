@@ -12,6 +12,7 @@ RPM_HASH = "0625ac89fabdcdddb384ab881f93b220f36e45dc5c99e0e2c97280a19761c0db1e54
 RPROVIDES:${PN} += "liblink-grammar.so.5()(64bit) \
 liblink-grammar5 \
 liblink-grammar5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

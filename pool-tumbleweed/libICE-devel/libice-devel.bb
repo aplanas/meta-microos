@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libICE-devel \
 libICE-devel(aarch-64) \
 pkgconfig(ice) \
 xorg-x11-libICE-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libICE6 \
 pkgconfig(xproto)"

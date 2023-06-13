@@ -16,6 +16,7 @@ libQt5Sensors-devel \
 libqt5-qtsensors-devel \
 libqt5-qtsensors-devel(aarch-64) \
 pkgconfig(Qt5Sensors)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Sensors5 \
 pkgconfig(Qt5Core)"

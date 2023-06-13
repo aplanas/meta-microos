@@ -9,6 +9,7 @@ RPM_HASH = "8c965b19b7f2e62c9a86923613882cc122cf44e56bd1185e649b6f4786f0ab03fc93
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oubraces-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "0af47191306b47fc8fb12d0232ebec4699d8a267226873d21638b1a1dc9c4ba52cb4
 RPROVIDES:${PN} += "ghc-language-javascript \
 ghc-language-javascript(aarch-64) \
 libHSlanguage-javascript-0.7.1.0-3FqnIQtG3956Mxug7EpqjM-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

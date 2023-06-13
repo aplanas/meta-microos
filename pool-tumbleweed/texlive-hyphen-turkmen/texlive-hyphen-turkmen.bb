@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-tk.ec.tex) \
 tex(hyph-tk.tex) \
 tex(loadhyph-tk.tex) \
 texlive-hyphen-turkmen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

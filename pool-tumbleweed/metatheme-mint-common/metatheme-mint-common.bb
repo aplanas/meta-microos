@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cinnamon-themes \
 metatheme-mint-common \
 mint-themes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

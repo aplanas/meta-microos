@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-issuetracker) \
 python39-sphinxcontrib-issuetracker \
 python3dist(sphinxcontrib-issuetracker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-requests"

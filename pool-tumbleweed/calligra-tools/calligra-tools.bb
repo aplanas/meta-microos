@@ -9,6 +9,7 @@ RPM_HASH = "c303266b07952465aeaa76c25abab8a72204273810ab7109deeacc27b91536709cb2
 
 RPROVIDES:${PN} += "calligra-tools \
 calligra-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

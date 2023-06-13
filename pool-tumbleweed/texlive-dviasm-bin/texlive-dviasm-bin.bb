@@ -9,6 +9,7 @@ RPM_HASH = "ed1905e6f43d44e7141cba0bfbb6bdd0f82d981b988c57449c8af5da7edc380240dd
 
 RPROVIDES:${PN} += "texlive-dviasm-bin \
 texlive-dviasm-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-dviasm"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "6f2fa3bf7ae83ae33037cdb8fc184fdbf7152a2c367c60be953d8b256b1e4054b63b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-muling-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

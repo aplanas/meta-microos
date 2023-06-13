@@ -11,6 +11,7 @@ RPM_HASH = "2650bfa340cb2cc88ba3f21ce358c2ce0eb09fab5379020a746f1420b1a462665423
 
 RPROVIDES:${PN} += "xdm-xsession \
 xdm-xsession(aarch-64)"
+
 RDEPENDS:${PN} += "xdm"
 
 inherit rpm

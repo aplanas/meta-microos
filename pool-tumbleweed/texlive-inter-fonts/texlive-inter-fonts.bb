@@ -189,6 +189,7 @@ font(intermedium) \
 font(intersemibold) \
 font(interthin) \
 texlive-inter-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

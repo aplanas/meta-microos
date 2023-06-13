@@ -53,6 +53,7 @@ locale(analitza:ug) \
 locale(analitza:uk) \
 locale(analitza:zh_CN) \
 locale(analitza:zh_TW)"
+
 RDEPENDS:${PN} += "analitza"
 
 inherit rpm

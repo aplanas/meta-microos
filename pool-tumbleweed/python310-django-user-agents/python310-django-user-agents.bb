@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-user-agents \
 python3.10dist(django-user-agents) \
 python310-django-user-agents \
 python3dist(django-user-agents)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-user-agents"

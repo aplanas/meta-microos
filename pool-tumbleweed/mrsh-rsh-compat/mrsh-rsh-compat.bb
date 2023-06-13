@@ -10,6 +10,7 @@ RPM_HASH = "20dcb4b746f21012369fc56627de5f6bc6097ea6fb3eb83915bd066bdd9b94f4a964
 RPROVIDES:${PN} += "mrsh-rsh-compat \
 mrsh-rsh-compat(aarch-64) \
 rsh"
+
 RDEPENDS:${PN} += "mrsh"
 
 inherit rpm

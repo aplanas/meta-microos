@@ -86,6 +86,7 @@ locale(orca:zh_HK) \
 locale(orca:zh_TW) \
 orca-lang \
 orca-lang-all"
+
 RDEPENDS:${PN} += "orca"
 
 inherit rpm

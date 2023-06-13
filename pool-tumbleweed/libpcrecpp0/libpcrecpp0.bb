@@ -14,6 +14,7 @@ RPM_HASH = "a8f51efaaf9e17cfe56c5568d20e5bc0a8c7658b9eb6dc840210e489ec352ae33b39
 RPROVIDES:${PN} += "libpcrecpp.so.0()(64bit) \
 libpcrecpp0 \
 libpcrecpp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

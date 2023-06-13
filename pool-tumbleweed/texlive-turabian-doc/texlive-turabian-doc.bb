@@ -9,6 +9,7 @@ RPM_HASH = "b768770bc0e89b3426872e9e3deaddad381a9944c6772df03137af35bcc7408436ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-turabian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

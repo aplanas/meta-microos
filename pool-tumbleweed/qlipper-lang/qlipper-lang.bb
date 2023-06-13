@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qlipper-lang \
 qlipper-lang-all"
+
 RDEPENDS:${PN} += "qlipper"
 
 inherit rpm

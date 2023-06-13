@@ -18,6 +18,7 @@ RPM_HASH = "7eafda34dda5cc5f0552936f0fd2faa619121fdcd2633ea68d121aa05a5434a5d578
 RPROVIDES:${PN} += "pkgconfig(librem) \
 rem-devel \
 rem-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librem4"
 

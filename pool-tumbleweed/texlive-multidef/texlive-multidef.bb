@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multidef.sty) \
 texlive-multidef"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

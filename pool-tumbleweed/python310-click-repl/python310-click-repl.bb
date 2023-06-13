@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-repl \
 python3.10dist(click-repl) \
 python310-click-repl \
 python3dist(click-repl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click \
 python310-prompt_toolkit \

@@ -18,6 +18,7 @@ application(xfce4-screensaver-preferences.desktop) \
 config(xfce4-screensaver) \
 xfce4-screensaver \
 xfce4-screensaver(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

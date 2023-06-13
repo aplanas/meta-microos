@@ -27,6 +27,7 @@ tex(exsheets_configurations.cfg) \
 tex(exsheets_headings.cfg) \
 tex(exsheets_headings.def) \
 texlive-exsheets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

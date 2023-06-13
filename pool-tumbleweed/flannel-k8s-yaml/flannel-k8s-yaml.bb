@@ -17,6 +17,7 @@ RPM_HASH = "202e3024c88269c8ab3227df7c2dc4ef65e0a53c5837a9777e22344272c29b6ca76c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flannel-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

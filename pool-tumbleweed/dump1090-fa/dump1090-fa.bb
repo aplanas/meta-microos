@@ -10,6 +10,7 @@ RPM_HASH = "769f48e4f2e4ef54879c86a2d73b1a08652240441cb2667ef1e48dc63d6f42652db9
 
 RPROVIDES:${PN} += "dump1090-fa \
 dump1090-fa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbladeRF.so.2()(64bit) \

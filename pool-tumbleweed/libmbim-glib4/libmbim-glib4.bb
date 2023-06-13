@@ -11,6 +11,7 @@ RPM_HASH = "f5803c9dc2e7b0d0ca4b61c1c4e8022ca338df2800a201323da7d105d45b18ddb7d5
 RPROVIDES:${PN} += "libmbim-glib.so.4()(64bit) \
 libmbim-glib4 \
 libmbim-glib4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

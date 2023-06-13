@@ -10,6 +10,7 @@ RPM_HASH = "5fa114d8cfd8f0ce0403d65d3471e18e124cf0a55937cb9307aef4a854e32cd5144d
 
 RPROVIDES:${PN} += "libcapi20 \
 libcapi20(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

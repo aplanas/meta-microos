@@ -54,6 +54,7 @@ libpcp_pmda.so.3(PCP_PMDA_3.6)(64bit) \
 libpcp_pmda.so.3(PCP_PMDA_3.7)(64bit) \
 libpcp_pmda.so.3(PCP_PMDA_3.8)(64bit) \
 libpcp_pmda.so.3(PCP_PMDA_3.9)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

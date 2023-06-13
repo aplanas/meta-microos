@@ -17,6 +17,7 @@ RPM_HASH = "b1040db0c21d5c5312c975953b13c618f983dd43eaa2488cb1f8d7adae6b6c5bb098
 RPROVIDES:${PN} += "libmraa.so.2()(64bit) \
 libmraa2 \
 libmraa2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

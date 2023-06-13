@@ -19,6 +19,7 @@ nvidia-open-driver-G06-signed-kmp \
 nvidia-open-driver-G06-signed-kmp-default \
 nvidia-open-driver-G06-signed-kmp-default(aarch-64) \
 nvidia-open-driver-G06-signed-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

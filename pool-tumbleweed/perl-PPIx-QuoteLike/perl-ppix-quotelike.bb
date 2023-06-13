@@ -29,6 +29,7 @@ perl(PPIx::QuoteLike::Token::Unknown) \
 perl(PPIx::QuoteLike::Token::Whitespace) \
 perl(PPIx::QuoteLike::Utils) \
 perl-PPIx-QuoteLike"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PPI::Document) \
 perl(PPI::Dumper) \

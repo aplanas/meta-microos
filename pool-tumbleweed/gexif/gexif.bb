@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(gexif.desktop) \
 gexif \
 gexif(aarch-64)"
+
 RDEPENDS:${PN} += "gexif-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

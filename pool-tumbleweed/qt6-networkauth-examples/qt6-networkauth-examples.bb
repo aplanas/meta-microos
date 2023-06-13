@@ -9,6 +9,7 @@ RPM_HASH = "7b0d52733aa68914651e072422e5e0b6dbe89919eed677a2978a3c4cba3d969f2f54
 
 RPROVIDES:${PN} += "qt6-networkauth-examples \
 qt6-networkauth-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "722da36d777dbbf0723b0979ab0245c8b70ca039178d8c086295c8c7fd223e2a97ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-navydocs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

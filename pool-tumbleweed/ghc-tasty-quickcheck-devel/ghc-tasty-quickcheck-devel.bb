@@ -11,6 +11,7 @@ RPM_HASH = "9e6dc33235e4b1fdcf146a9e77af660d55430f086099da80854ce2b3e88fb163fa41
 RPROVIDES:${PN} += "ghc-devel(tasty-quickcheck-0.10.2-35bOuuNPLunDPSjWY1CT1e) \
 ghc-tasty-quickcheck-devel \
 ghc-tasty-quickcheck-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6) \

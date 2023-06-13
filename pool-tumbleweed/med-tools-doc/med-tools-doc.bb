@@ -12,6 +12,7 @@ RPM_HASH = "0475ae3748e1a2c34f5d7f1e6e15d091c774f859e107f13063d457533c9348d4db0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "med-tools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

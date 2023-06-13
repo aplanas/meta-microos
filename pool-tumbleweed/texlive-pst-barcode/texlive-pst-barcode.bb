@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-barcode.sty) \
 tex(pst-barcode.tex) \
 texlive-pst-barcode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

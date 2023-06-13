@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DQuick) \
 pkgconfig(Qt63DQuick) \
 qt6-3dquick-devel \
 qt6-3dquick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt6Qml) \

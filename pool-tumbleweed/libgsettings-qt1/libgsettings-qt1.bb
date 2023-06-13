@@ -12,6 +12,7 @@ RPM_HASH = "0b2778f0ede06ccb856096089aab01bf818f0917398848a47682a1537dfba5102873
 RPROVIDES:${PN} += "libgsettings-qt.so.1()(64bit) \
 libgsettings-qt1 \
 libgsettings-qt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

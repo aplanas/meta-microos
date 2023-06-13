@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pymacaroons) \
 python311-pymacaroons \
 python3dist(pymacaroons)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyNaCl \
 python311-cffi \

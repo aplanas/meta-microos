@@ -9,6 +9,7 @@ RPM_HASH = "9893ea8ce6fa5123c38774540720579f1e80bd5bb1c467a6698736bc69a6ea6645bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-finstrut-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

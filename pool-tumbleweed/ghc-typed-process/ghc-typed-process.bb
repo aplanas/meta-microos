@@ -10,6 +10,7 @@ RPM_HASH = "5469ebc8a80023195ba1adf5e49f1fd0124ad561fcc5b2f7a82a4a19e2ca2d1285e5
 RPROVIDES:${PN} += "ghc-typed-process \
 ghc-typed-process(aarch-64) \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

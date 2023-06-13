@@ -9,6 +9,7 @@ RPM_HASH = "8e515329327e4f145725015ff5199d93d57cb78d6c97e04822ed5ba37b001409bb1e
 
 RPROVIDES:${PN} += "xf86-video-tdfx \
 xf86-video-tdfx(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lalburst-devel) \
 lalburst-devel \
 lalburst-devel(aarch-64) \
 pkgconfig(lalburst)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

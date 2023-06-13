@@ -9,6 +9,7 @@ RPM_HASH = "f641898bb62de5f353b131701449a37177056b6b11d770dca436e2375c1c0afa1456
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-threeparttable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

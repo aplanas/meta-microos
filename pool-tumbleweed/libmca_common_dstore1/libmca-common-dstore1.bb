@@ -10,6 +10,7 @@ RPM_HASH = "774c2e92d8d3c186cdfb3fccc2ea90638f7fd746c5056ba69e316f98054ed991d72b
 RPROVIDES:${PN} += "libmca_common_dstore.so.1()(64bit) \
 libmca_common_dstore1 \
 libmca_common_dstore1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ libgnome-desktop-4-2 \
 libgnome-desktop-4-2(aarch-64) \
 libgnome-desktop-4.so.2()(64bit) \
 libgnome-rr-4.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bubblewrap \
 gsettings-desktop-schemas \

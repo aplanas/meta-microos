@@ -11,6 +11,7 @@ RPM_HASH = "d10bd0f8222a36c75336612be6dbc41bdaf70a700c494ac03eeffdcc813a299af581
 RPROVIDES:${PN} += "libxlsreader.so.8()(64bit) \
 libxlsreader8 \
 libxlsreader8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

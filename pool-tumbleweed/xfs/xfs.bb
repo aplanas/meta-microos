@@ -10,6 +10,7 @@ RPM_HASH = "576477a4b18d7703b7f48572a0df4058116d3445e7c12c100b6cd5d372d67e596c48
 
 RPROVIDES:${PN} += "xfs \
 xfs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -69,6 +69,7 @@ locale(gnumeric:vi) \
 locale(gnumeric:zh_CN) \
 locale(gnumeric:zh_HK) \
 locale(gnumeric:zh_TW)"
+
 RDEPENDS:${PN} += "gnumeric"
 
 inherit rpm

@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-cfscrape \
 python3.10dist(cfscrape) \
 python310-cfscrape \
 python3dist(cfscrape)"
+
 RDEPENDS:${PN} += "nodejs \
 python(abi) \
 python310-requests"

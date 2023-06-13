@@ -13,6 +13,7 @@ RPM_HASH = "1c319c3e36d13ea3d9cff24a3c69b71ffa63a15e982c87334692468c2ec411654b60
 RPROVIDES:${PN} += "typelib(FolksEds) \
 typelib-1_0-FolksEds-0_7 \
 typelib-1_0-FolksEds-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(Camel) \
 typelib(EBookContacts) \
 typelib(EDataServer) \

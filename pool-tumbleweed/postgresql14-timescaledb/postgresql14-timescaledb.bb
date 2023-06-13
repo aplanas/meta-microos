@@ -18,6 +18,7 @@ RPM_HASH = "9aca00bef7e9acdb680186b534c96eabf8d5bd1699c926ea31598d60fcfb0e2b13b3
 RPROVIDES:${PN} += "postgresql14-timescaledb \
 postgresql14-timescaledb(aarch-64) \
 postgresql14-timescaledb-llvmjit"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

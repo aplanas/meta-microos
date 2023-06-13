@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-dimline.sty) \
 texlive-tikz-dimline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

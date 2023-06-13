@@ -9,6 +9,7 @@ RPM_HASH = "c041b98c2d3e80901321b22368d8ab0d0ce6cde3e976349c1732dffb057310f930f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grotesq-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

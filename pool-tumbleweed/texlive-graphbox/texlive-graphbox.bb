@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphbox.sty) \
 texlive-graphbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

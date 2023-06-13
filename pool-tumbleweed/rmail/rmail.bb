@@ -10,6 +10,7 @@ RPM_HASH = "efdb14ff8f4f5072790b3f83ce08a50e87c7b2386f258b83d94dd624f2e3d40e9a1f
 
 RPROVIDES:${PN} += "rmail \
 rmail(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

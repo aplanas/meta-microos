@@ -10,6 +10,7 @@ RPM_HASH = "517a31fb66233970578f3014ccdd144336d05189821472ccb9df55857c7c815ea86f
 
 RPROVIDES:${PN} += "kio-fuse \
 kio-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "fuse3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

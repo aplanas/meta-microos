@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(imreg) \
 python311-imreg \
 python3dist(imreg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-scipy"

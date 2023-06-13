@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(includeRnw.sty) \
 texlive-includernw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

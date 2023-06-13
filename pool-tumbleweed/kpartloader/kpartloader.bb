@@ -10,6 +10,7 @@ RPM_HASH = "c0791f3e7d94f329b8b619a07ef6e231b55d53d9faa1cd2c60b23ad5e099c59baec7
 
 RPROVIDES:${PN} += "kpartloader \
 kpartloader(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

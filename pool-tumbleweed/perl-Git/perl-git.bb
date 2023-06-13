@@ -33,6 +33,7 @@ perl(Git::SVN::Utils) \
 perl(Git::activestate_pipe) \
 perl-Git \
 perl-Git(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-Error"
 

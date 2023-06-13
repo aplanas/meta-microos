@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyface) \
 python39-pyface \
 python3dist(pyface)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-importlib-metadata \
 python39-importlib-resources \

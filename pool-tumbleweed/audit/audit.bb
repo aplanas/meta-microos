@@ -12,6 +12,7 @@ RPM_HASH = "62bdd5e597ee56dc6bf47cd5d0bce0c0543bc5b182a69b32ca80822addb4db3db874
 RPROVIDES:${PN} += "audit \
 audit(aarch-64) \
 config(audit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 audit-libs \
 coreutils \

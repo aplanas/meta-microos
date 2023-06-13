@@ -12,6 +12,7 @@ RPM_HASH = "480bc43557e43dc9f295781bc3934d9a644fba7c858d5cdc23708bca878690dc4319
 RPROVIDES:${PN} += "librspreload.so()(64bit) \
 rsocket \
 rsocket(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "ef40ce2d9b2847eacb73367edce47e8b05f373a3330961ba89fe756374c7e4b25f6c
 RPROVIDES:${PN} += "libbd_lvm-devel \
 libbd_lvm-devel(aarch-64) \
 libblockdev-lvm-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_lvm2 \
 libbd_utils-devel"

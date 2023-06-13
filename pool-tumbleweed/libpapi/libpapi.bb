@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libpapi \
 libpapi(aarch-64) \
 libpapi.so.7.0()(64bit) \
 libsde.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

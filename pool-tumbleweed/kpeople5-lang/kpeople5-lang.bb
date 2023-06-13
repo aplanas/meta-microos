@@ -58,6 +58,7 @@ locale(kpeople5:tr) \
 locale(kpeople5:uk) \
 locale(kpeople5:zh_CN) \
 locale(kpeople5:zh_TW)"
+
 RDEPENDS:${PN} += "kpeople5"
 
 inherit rpm

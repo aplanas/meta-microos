@@ -12,6 +12,7 @@ RPM_HASH = "5c5fc00a47e4540908ac92c02f8dc2ea4304842655df5c5730b218ca22cbab222bbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scheme-infraonly"
+
 RDEPENDS:${PN} += "texlive-hyphen-base \
 texlive-kpathsea \
 texlive-scripts \

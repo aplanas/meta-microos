@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libnfnetlink.so.0()(64bit) \
 libnfnetlink.so.0(NFNETLINK_1.0.1)(64bit) \
 libnfnetlink0 \
 libnfnetlink0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

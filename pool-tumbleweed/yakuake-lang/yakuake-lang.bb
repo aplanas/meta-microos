@@ -70,6 +70,7 @@ locale(yakuake:zh_CN) \
 locale(yakuake:zh_TW) \
 yakuake-lang \
 yakuake-lang-all"
+
 RDEPENDS:${PN} += "yakuake"
 
 inherit rpm

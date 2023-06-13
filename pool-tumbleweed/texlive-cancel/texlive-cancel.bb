@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cancel.sty) \
 texlive-cancel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ python311-CXX \
 python311-cxx \
 python311-pycxx \
 python3dist(cxx)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

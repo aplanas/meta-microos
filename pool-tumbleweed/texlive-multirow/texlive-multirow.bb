@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(bigdelim.sty) \
 tex(bigstrut.sty) \
 tex(multirow.sty) \
 texlive-multirow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

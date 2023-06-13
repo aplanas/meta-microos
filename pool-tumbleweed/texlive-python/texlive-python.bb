@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(python.sty) \
 texlive-python"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

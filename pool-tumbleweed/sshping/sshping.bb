@@ -13,6 +13,7 @@ RPM_HASH = "3c00ce7414741b2614c1e7c701b506ea7ab0e7ba296cc6e6697197bd0da53660045f
 
 RPROVIDES:${PN} += "sshping \
 sshping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

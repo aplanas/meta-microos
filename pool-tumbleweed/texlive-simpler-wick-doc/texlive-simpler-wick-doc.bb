@@ -9,6 +9,7 @@ RPM_HASH = "671e737f8147d34e36363feb93f14db40b5a79fcc849981ce79864c1503d738ea17a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simpler-wick-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

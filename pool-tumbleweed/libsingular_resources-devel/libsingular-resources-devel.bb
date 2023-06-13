@@ -10,6 +10,7 @@ RPM_HASH = "c7519571b600f0e765893519dd2e47fad9c9ce810f4dc7dbead3b112b4e946688cb2
 RPROVIDES:${PN} += "libsingular_resources-devel \
 libsingular_resources-devel(aarch-64) \
 pkgconfig(singular_resources)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsingular_resources-4_3_1"
 

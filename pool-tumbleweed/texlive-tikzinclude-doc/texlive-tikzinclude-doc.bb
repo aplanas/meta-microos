@@ -9,6 +9,7 @@ RPM_HASH = "10f85c71906a5e5ac7200783d9ec597712341b8f7d6dfa4f65e8fcd72115a8085b16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzinclude-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

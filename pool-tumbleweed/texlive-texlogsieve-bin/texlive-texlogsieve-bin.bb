@@ -9,6 +9,7 @@ RPM_HASH = "3b64d4a5eb5080cba782a38de77bda092f8e3163021c64e8fb067668542734f47cb0
 
 RPROVIDES:${PN} += "texlive-texlogsieve-bin \
 texlive-texlogsieve-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texlogsieve"
 
 inherit rpm

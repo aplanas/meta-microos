@@ -10,6 +10,7 @@ RPM_HASH = "08fd04159b6a0a2f0c1e4317ae8fea11f62cad4861133e135164dd51b69dbd4b1888
 RPROVIDES:${PN} += "libattentionplugin.so()(64bit) \
 psi+-plugins-attentionplugin \
 psi+-plugins-attentionplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

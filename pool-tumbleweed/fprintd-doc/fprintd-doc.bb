@@ -9,6 +9,7 @@ RPM_HASH = "d0223a4bcc1d3b89dcdfa86d245706dd889e34ee82023d36cd9ddf0b2cf7b0ff12e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-doc"
+
 RDEPENDS:${PN} += "fprintd"
 
 inherit rpm

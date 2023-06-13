@@ -9,6 +9,7 @@ RPM_HASH = "eaf115d185ace32470f40c04484aa9906e05d3dc984a151a8b700de3f3bef104a570
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adigraph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

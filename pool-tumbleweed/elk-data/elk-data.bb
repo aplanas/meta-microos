@@ -10,6 +10,7 @@ RPM_HASH = "84e57e5c919750cf577de251809afa2b644e5ed543cfc99bcecb656667f7747c5fd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elk-data"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

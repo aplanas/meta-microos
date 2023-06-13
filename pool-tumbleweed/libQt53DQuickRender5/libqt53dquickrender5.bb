@@ -31,6 +31,7 @@ libQt53DQuickRender.so.5(Qt_5.9)(64bit) \
 libQt53DQuickRender5 \
 libQt53DQuickRender5(aarch-64) \
 libQt53DQuickRenderer5"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

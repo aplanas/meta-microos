@@ -16,6 +16,7 @@ javamail_1_4_api \
 javamail_api \
 mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec) \
 mvn(org.apache.geronimo.specs:geronimo-javamail_1.4_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 jaf_1_1_api \
 java-headless \

@@ -9,6 +9,7 @@ RPM_HASH = "b403aae9f68096ced9dbb9c35d12fb035a676365792367f9540a3e9ed9d04f89fa95
 
 RPROVIDES:${PN} += "qt6-connectivity-examples \
 qt6-connectivity-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Bluetooth.so.6()(64bit) \

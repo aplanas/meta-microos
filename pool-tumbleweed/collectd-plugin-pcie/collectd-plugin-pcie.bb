@@ -9,6 +9,7 @@ RPM_HASH = "b6efcfa59a474bbd94458e5cace680b4338e79afb20ee56b53aa6dc17fb6853a024c
 
 RPROVIDES:${PN} += "collectd-plugin-pcie \
 collectd-plugin-pcie(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

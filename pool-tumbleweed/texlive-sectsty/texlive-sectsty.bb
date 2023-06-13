@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sectsty.sty) \
 texlive-sectsty"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

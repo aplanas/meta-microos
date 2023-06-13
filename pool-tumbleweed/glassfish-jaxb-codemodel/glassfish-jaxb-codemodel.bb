@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-jaxb-codemodel \
 mvn(org.glassfish.jaxb:codemodel) \
 mvn(org.glassfish.jaxb:codemodel:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

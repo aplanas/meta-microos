@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(quantikz.sty) \
 tex(tikzlibraryquantikz.code.tex) \
 texlive-quantikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

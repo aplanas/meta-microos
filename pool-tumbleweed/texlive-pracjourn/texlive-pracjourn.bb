@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pracjourn.cls) \
 texlive-pracjourn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ghc-rpm-macros-extra \
 rpm_macro(ghc_lib_subpackage) \
 rpm_macro(ghc_libs_build) \
 rpm_macro(ghc_libs_install)"
+
 RDEPENDS:${PN} += "ghc-rpm-macros"
 
 inherit rpm

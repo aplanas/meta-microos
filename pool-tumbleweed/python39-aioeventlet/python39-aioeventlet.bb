@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aioeventlet) \
 python39-aioeventlet \
 python3dist(aioeventlet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-eventlet"
 

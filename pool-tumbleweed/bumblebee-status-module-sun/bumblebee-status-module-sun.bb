@@ -9,6 +9,7 @@ RPM_HASH = "66b08da047e7895d5f9f9b0b2b23d448c93c6ab9cc5bca950b517aaed19428011b84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-sun"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-python-dateutil \
 python3-suntime"

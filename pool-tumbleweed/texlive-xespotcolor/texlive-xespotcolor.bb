@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xespotcolor.sty) \
 texlive-xespotcolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

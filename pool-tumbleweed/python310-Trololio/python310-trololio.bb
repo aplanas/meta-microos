@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-Trololio \
 python3.10dist(trololio) \
 python310-Trololio \
 python3dist(trololio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

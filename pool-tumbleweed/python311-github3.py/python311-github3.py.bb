@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(github3.py) \
 python311-github3.py \
 python3dist(github3.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-jwcrypto \

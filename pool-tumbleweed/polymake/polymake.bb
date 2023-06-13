@@ -308,6 +308,7 @@ perl(application) \
 perl(namespaces) \
 polymake \
 polymake(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

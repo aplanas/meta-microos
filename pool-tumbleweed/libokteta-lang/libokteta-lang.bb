@@ -65,6 +65,7 @@ locale(libokteta:ug) \
 locale(libokteta:uk) \
 locale(libokteta:zh_CN) \
 locale(libokteta:zh_TW)"
+
 RDEPENDS:${PN} += "libokteta"
 
 inherit rpm

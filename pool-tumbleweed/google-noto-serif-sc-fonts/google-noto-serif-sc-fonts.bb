@@ -15,6 +15,7 @@ locale(zh_CN;zh_SG) \
 noto-serif-sc-fonts \
 scalable-font-zh-CN \
 scalable-font-zh-SG"
+
 RDEPENDS:${PN} += "google-noto-serif-sc-bold-fonts \
 google-noto-serif-sc-regular-fonts"
 

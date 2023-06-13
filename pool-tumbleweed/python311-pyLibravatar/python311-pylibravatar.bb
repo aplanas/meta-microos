@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pylibravatar) \
 python311-pyLibravatar \
 python3dist(pylibravatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-py3dns"
 

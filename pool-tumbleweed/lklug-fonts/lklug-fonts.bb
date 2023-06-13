@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "lklug \
 lklug-fonts \
 locale(si) \
 scalable-font-si"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

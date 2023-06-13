@@ -64,6 +64,7 @@ locale(lxrandr:zh_CN) \
 locale(lxrandr:zh_TW) \
 lxrandr-lang \
 lxrandr-lang-all"
+
 RDEPENDS:${PN} += "lxrandr"
 
 inherit rpm

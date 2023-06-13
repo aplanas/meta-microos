@@ -9,6 +9,7 @@ RPM_HASH = "40d435261c3f56ba3cf136030affb9ee6369a6a41d9ee4435748d783f18fc5e87c50
 
 RPROVIDES:${PN} += "libqt5-qtquick3d-tools \
 libqt5-qtquick3d-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

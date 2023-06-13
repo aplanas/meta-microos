@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libtre-devel \
 pkgconfig(tre) \
 tre-devel \
 tre-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtre5"
 

@@ -14,6 +14,7 @@ RPM_HASH = "2f964ac36a6e17bec71c79515330ac5639e0b9fedd83112a6373ee6a05e6e25df74e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-memoirchapterstyles"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

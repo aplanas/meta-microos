@@ -13,6 +13,7 @@ RPM_HASH = "799aa226237c7942ec2381e8970a1041cb6ea6573964f0b03b6464f71a97f02cd6c3
 RPROVIDES:${PN} += "libcpuid-devel \
 libcpuid-devel(aarch-64) \
 pkgconfig(libcpuid)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcpuid16"
 

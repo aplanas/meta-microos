@@ -59,6 +59,7 @@ locale(dolphin-plugins:uk) \
 locale(dolphin-plugins:vi) \
 locale(dolphin-plugins:zh_CN) \
 locale(dolphin-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "dolphin-plugins"
 
 inherit rpm

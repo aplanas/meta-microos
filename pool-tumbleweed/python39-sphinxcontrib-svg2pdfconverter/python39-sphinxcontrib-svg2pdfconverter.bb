@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-svg2pdfconverter) \
 python39-sphinxcontrib-svg2pdfconverter \
 python3dist(sphinxcontrib-svg2pdfconverter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

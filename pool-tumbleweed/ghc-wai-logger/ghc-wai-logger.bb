@@ -10,6 +10,7 @@ RPM_HASH = "9d77b61472bcf586ef0b49add3c1b4f55fa8fc3fb32552ca6af3fdc7cfe2546fc4c0
 RPROVIDES:${PN} += "ghc-wai-logger \
 ghc-wai-logger(aarch-64) \
 libHSwai-logger-2.4.0-9XzUYLocOmA4DcbxilrxA0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

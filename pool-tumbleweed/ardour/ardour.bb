@@ -64,6 +64,7 @@ libwidgets.so.0()(64bit) \
 metainfo() \
 metainfo(ardour7.appdata.xml) \
 mimehandler(application/x-ardour)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 graphviz \

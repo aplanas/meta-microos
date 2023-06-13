@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(restic-zsh-completion) \
 restic-zsh-completion"
+
 RDEPENDS:${PN} += "restic"
 
 inherit rpm

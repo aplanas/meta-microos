@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nextcloud-desktop-lang \
 nextcloud-desktop-lang-all"
+
 RDEPENDS:${PN} += "nextcloud-desktop"
 
 inherit rpm

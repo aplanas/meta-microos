@@ -11,6 +11,7 @@ RPM_HASH = "03ebeb30952063018a2b8038b9f31e7964643d4a5c7de27d5e3a76cede9d0441bc2e
 
 RPROVIDES:${PN} += "vtable-dumper \
 vtable-dumper(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libelf.so.1()(64bit) \
 libelf.so.1(ELFUTILS_1.0)(64bit) \

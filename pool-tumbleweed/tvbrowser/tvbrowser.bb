@@ -14,6 +14,7 @@ application(tvbrowser.desktop) \
 metainfo() \
 metainfo(tvbrowser.appdata.xml) \
 tvbrowser"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 java"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-classification \
 mvn(org.apache.lucene:lucene-classification) \
 mvn(org.apache.lucene:lucene-classification:pom:) \
 osgi(org.apache.lucene.classification)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-analyzers-common) \

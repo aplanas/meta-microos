@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(figflow.tex) \
 texlive-figflow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

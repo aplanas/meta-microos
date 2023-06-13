@@ -53,6 +53,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooX::late) \
 perl(MooX::late::DefinitionContext) \
 perl-MooX-late"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moo) \
 perl(Sub::HandlesVia) \

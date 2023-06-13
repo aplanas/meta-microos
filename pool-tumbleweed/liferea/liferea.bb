@@ -25,6 +25,7 @@ mimehandler(application/rdf+xml) \
 mimehandler(application/rss+xml) \
 mimehandler(x-scheme-handler/feed) \
 typelib(Liferea)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \

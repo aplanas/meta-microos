@@ -9,6 +9,7 @@ RPM_HASH = "cd782e9d446b780ff48f17d6f57feb69c91ad609d5288cf2d898223039b9bfab5b4b
 
 RPROVIDES:${PN} += "R-survival \
 R-survival(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

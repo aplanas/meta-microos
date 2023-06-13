@@ -16,6 +16,7 @@ RPM_HASH = "883da28cfd6a80cb2f070fd519def4228f6f0cb72fcf2577d59782ea57aec3fdd802
 
 RPROVIDES:${PN} += "catatonit \
 catatonit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

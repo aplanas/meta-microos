@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-videoanalyzer \
 python3.10dist(azure-mgmt-videoanalyzer) \
 python310-azure-mgmt-videoanalyzer \
 python3dist(azure-mgmt-videoanalyzer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

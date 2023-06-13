@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::Modern) \
 perl-Test-Modern"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exporter::Tiny) \
 perl(Import::Into) \

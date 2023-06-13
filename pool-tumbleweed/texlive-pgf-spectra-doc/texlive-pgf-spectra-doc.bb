@@ -9,6 +9,7 @@ RPM_HASH = "d0840e1f53c7ea8c823dd6092fdffafaf3d850d06188ac6fdc48d32d5639600b2e09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-spectra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

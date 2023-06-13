@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(checkend.sty) \
 texlive-checkend"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

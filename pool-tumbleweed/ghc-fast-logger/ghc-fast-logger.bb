@@ -10,6 +10,7 @@ RPM_HASH = "dbfac03e6e273d258ceebab5e46d161c7d26fb9936537da15beb382570c6ce2b7e72
 RPROVIDES:${PN} += "ghc-fast-logger \
 ghc-fast-logger(aarch-64) \
 libHSfast-logger-3.1.2-BD2YlybMtRF1w9mLnP3rJ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

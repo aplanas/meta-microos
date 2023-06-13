@@ -10,6 +10,7 @@ RPM_HASH = "99f7f52dc14abcbdeecc70aa43f719546464a8cddbfbc521bf2b24a571dee16a96ce
 RPROVIDES:${PN} += "qt6-declarative-docs-html \
 qt6-declarative-docs-html(aarch-64) \
 qt6-quickcontrols2-docs-html"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

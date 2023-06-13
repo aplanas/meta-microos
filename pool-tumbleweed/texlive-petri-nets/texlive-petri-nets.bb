@@ -20,6 +20,7 @@ tex(pntext.sty) \
 tex(pntext.tex) \
 tex(pnversion.tex) \
 texlive-petri-nets"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

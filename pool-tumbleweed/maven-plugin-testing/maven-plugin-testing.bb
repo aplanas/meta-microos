@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-plugin-testing \
 mvn(org.apache.maven.plugin-testing:maven-plugin-testing:pom:) \
 mvn(org.apache.maven.shared:maven-plugin-testing:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-parent:pom:)"

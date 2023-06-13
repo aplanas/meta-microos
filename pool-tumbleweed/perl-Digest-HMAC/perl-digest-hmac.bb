@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "perl(Digest::HMAC) \
 perl(Digest::HMAC_MD5) \
 perl(Digest::HMAC_SHA1) \
 perl-Digest-HMAC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::SHA)"
 

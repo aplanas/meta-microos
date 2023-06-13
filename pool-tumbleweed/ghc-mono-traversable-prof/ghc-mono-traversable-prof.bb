@@ -10,6 +10,7 @@ RPM_HASH = "fd188e80b358393c8b06f7763cd775fbc6ea7c643714a4982e662a68a02cdfadcef1
 RPROVIDES:${PN} += "ghc-mono-traversable-prof \
 ghc-mono-traversable-prof(aarch-64) \
 ghc-prof(mono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S)"
+
 RDEPENDS:${PN} += "ghc-mono-traversable-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

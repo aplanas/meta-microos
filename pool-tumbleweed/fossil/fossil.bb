@@ -15,6 +15,7 @@ RPM_HASH = "882270fef68036255da4f01c87465a6668b30902b8212227d4104cc6f85a0db93b2e
 
 RPROVIDES:${PN} += "fossil \
 fossil(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

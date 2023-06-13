@@ -42,6 +42,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::Log::Log4perl) \
 perl(MooseX::Log::Log4perl::Easy) \
 perl-MooseX-Log-Log4perl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Log::Log4perl) \
 perl(Moo)"

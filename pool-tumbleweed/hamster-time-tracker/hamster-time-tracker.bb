@@ -16,6 +16,7 @@ hamster-applet \
 hamster-time-tracker \
 metainfo() \
 metainfo(org.gnome.Hamster.GUI.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 intltool \
 python(abi) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libcalc.so.2.14.1.6()(64bit) \
 libcalc2_14_1_6 \
 libcalc2_14_1_6(aarch-64) \
 libcustcalc.so.2.14.1.6()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

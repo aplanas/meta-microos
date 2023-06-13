@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(gtk2-branding-upstream) \
 gtk2-branding \
 gtk2-branding-upstream"
+
 RDEPENDS:${PN} += "libgtk-2_0-0"
 
 inherit rpm

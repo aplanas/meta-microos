@@ -10,6 +10,7 @@ RPM_HASH = "21597a333c8ecb6c48b9626ded2a7573709a3a13ec662a1cdf8314d4129db203cb14
 
 RPROVIDES:${PN} += "ksmbd-tools \
 ksmbd-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kmod(ksmbd.ko) \
 ld-linux-aarch64.so.1()(64bit) \

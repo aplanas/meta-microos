@@ -10,6 +10,7 @@ RPM_HASH = "2e625cf37249fbfa3a9cbeb912bade2752dfc0a6bd977d17454fafb604b13426d91f
 RPROVIDES:${PN} += "libchessplugin.so()(64bit) \
 psi+-plugins-chessplugin \
 psi+-plugins-chessplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

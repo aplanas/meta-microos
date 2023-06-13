@@ -15,6 +15,7 @@ mvn(org.tukaani:xz) \
 mvn(org.tukaani:xz:pom:) \
 osgi(org.tukaani.xz) \
 xz-java"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

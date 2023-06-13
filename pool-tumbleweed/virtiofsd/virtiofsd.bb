@@ -74,6 +74,7 @@ bundled(rust-crate:vm-memory) \
 bundled(rust-crate:vmm-sys-util) \
 virtiofsd \
 virtiofsd(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcap-ng.so.0()(64bit) \
 libgcc_s.so.1()(64bit) \

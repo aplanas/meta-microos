@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache2-icons-oxygen \
 config(apache2-icons-oxygen)"
+
 RDEPENDS:${PN} += "apache2"
 
 inherit rpm

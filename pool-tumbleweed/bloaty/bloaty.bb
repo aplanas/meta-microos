@@ -10,6 +10,7 @@ RPM_HASH = "a44752b5eeb0e126e8a92a22ad512c2871a26072e56e291f3258a1313f8dbaedcea2
 
 RPROVIDES:${PN} += "bloaty \
 bloaty(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcapstone.so.4()(64bit) \
 libgcc_s.so.1()(64bit) \

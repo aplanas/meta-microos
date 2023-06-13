@@ -73,6 +73,7 @@ locale(lokalize:zh_CN) \
 locale(lokalize:zh_TW) \
 lokalize-lang \
 lokalize-lang-all"
+
 RDEPENDS:${PN} += "lokalize"
 
 inherit rpm

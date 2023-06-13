@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-passlib \
 python3.10dist(passlib) \
 python310-passlib \
 python3dist(passlib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

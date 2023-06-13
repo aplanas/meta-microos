@@ -11,6 +11,7 @@ RPM_HASH = "0bfb953eb3a7d5e0a170f7bdf174c4648e8c055bbc58810b02a65c0c3d3bef41581f
 
 RPROVIDES:${PN} += "libbde-tools \
 libbde-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbde.so.1()(64bit) \

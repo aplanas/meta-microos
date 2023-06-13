@@ -61,6 +61,7 @@ locale(ibus:vi) \
 locale(ibus:zh_CN) \
 locale(ibus:zh_HK) \
 locale(ibus:zh_TW)"
+
 RDEPENDS:${PN} += "ibus"
 
 inherit rpm

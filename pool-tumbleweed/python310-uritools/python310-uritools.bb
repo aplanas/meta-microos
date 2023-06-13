@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-uritools \
 python3.10dist(uritools) \
 python310-uritools \
 python3dist(uritools)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

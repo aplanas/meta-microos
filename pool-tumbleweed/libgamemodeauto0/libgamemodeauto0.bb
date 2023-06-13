@@ -23,6 +23,7 @@ RPM_HASH = "a18bd73d30dcb5421fb02f67918222b810ad100fc0d11ea02d17764da8099cf458d7
 RPROVIDES:${PN} += "libgamemodeauto.so.0()(64bit) \
 libgamemodeauto0 \
 libgamemodeauto0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

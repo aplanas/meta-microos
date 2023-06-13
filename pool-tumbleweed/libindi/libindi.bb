@@ -14,6 +14,7 @@ RPM_HASH = "32bd7a60f9d6a898215002d7b8c3a18ff84b4e18608ea84e126edf0e3a9032087813
 
 RPROVIDES:${PN} += "libindi \
 libindi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

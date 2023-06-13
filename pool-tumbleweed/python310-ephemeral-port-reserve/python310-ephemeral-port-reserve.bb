@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ephemeral-port-reserve \
 python3.10dist(ephemeral-port-reserve) \
 python310-ephemeral-port-reserve \
 python3dist(ephemeral-port-reserve)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

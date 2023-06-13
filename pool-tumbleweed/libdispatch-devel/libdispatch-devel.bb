@@ -10,6 +10,7 @@ RPM_HASH = "bcee0487091d203640e0c22eca69713154f28398ed26bcee54ff92824e75dc9ea07d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdispatch-devel"
+
 RDEPENDS:${PN} += "libdispatch1_3"
 
 inherit rpm

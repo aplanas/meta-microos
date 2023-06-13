@@ -17,6 +17,7 @@ python3-imatlab \
 python3-jupyter_imatlab_kernel \
 python3.10dist(imatlab) \
 python3dist(imatlab)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python3-ipykernel \

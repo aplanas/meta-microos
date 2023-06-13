@@ -14,6 +14,7 @@ RPM_HASH = "68a8bb646b0092a514b7a9de74d646441ea3c9f0c6c0e0602a2b6ac7ac037b86e346
 RPROVIDES:${PN} += "xrootd-cl \
 xrootd-client \
 xrootd-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXrdAppUtils.so.2()(64bit) \

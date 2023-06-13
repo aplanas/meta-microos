@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-environ-config \
 python3.10dist(environ-config) \
 python310-environ-config \
 python3dist(environ-config)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

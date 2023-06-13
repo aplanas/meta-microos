@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldas-tools-cmake \
 pkgconfig(ldastoolscmake)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

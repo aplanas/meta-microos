@@ -13,6 +13,7 @@ RPM_HASH = "ba0f452ca794a01fea4bda025f57956ed0a8ece256ff1feb2c312a4b3b98d651e743
 
 RPROVIDES:${PN} += "lua-rrdtool \
 lua-rrdtool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -57,6 +57,7 @@ locale(xfce4-time-out-plugin:zh_TW) \
 xfce4-panel-plugin-timeout-lang \
 xfce4-time-out-plugin-lang \
 xfce4-time-out-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-time-out-plugin"
 
 inherit rpm

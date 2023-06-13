@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(locality.sty) \
 texlive-locality"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -75,6 +75,7 @@ locale(kgpg:ug) \
 locale(kgpg:uk) \
 locale(kgpg:zh_CN) \
 locale(kgpg:zh_TW)"
+
 RDEPENDS:${PN} += "kgpg"
 
 inherit rpm

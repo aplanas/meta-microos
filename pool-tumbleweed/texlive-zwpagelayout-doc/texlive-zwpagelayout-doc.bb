@@ -9,6 +9,7 @@ RPM_HASH = "fc7a5c1a8d1ea0a639dbe75f7831edd0ddd6c0854539278920a0cced12282d22a572
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zwpagelayout-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

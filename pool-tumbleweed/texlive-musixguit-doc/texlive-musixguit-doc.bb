@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-musixguit-doc:de) \
 texlive-musixguit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

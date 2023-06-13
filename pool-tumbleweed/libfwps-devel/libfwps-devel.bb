@@ -13,6 +13,7 @@ RPM_HASH = "f3b5bc3cdeed14ce2ab737fec0f3ce8919b70d1712f79fead2739c49300089b57b9b
 RPROVIDES:${PN} += "libfwps-devel \
 libfwps-devel(aarch-64) \
 pkgconfig(libfwps)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfwps1"
 

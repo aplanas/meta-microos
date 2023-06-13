@@ -13,6 +13,7 @@ libipa_hbac.so.0(IPA_HBAC_0.0.1)(64bit) \
 libipa_hbac.so.0(IPA_HBAC_0.1.0)(64bit) \
 libipa_hbac0 \
 libipa_hbac0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

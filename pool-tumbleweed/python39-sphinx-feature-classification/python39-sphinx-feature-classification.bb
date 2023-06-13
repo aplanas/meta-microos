@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinx-feature-classification) \
 python39-sphinx-feature-classification \
 python3dist(sphinx-feature-classification)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-docutils \
 python39-pbr"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(afm2tfm.1) \
 man(dvips.1) \
 texlive-dvips-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

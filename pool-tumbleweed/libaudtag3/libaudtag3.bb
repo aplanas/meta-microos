@@ -10,6 +10,7 @@ RPM_HASH = "5215286b1815145d2998b23752c2413507acb3aa37041a8b7f37a1a26d9d2042ba9e
 RPROVIDES:${PN} += "libaudtag.so.3()(64bit) \
 libaudtag3 \
 libaudtag3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "1f6fffd454e2dab0ac445313f3080f16484a765c60033e7b22c5a47480c806998d64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zig-libs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

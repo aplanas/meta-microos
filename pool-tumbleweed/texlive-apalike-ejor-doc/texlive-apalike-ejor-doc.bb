@@ -9,6 +9,7 @@ RPM_HASH = "12828d6847ef929747a155db2ac43eb5f4e0dae209840233c63d86f7ef5b191b16b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apalike-ejor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

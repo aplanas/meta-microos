@@ -10,6 +10,7 @@ RPM_HASH = "5aeb2eb562d96396c6f977c807044d08fa2218f912d81ba4589ee621389c1923ef46
 
 RPROVIDES:${PN} += "qt6-labsfolderlistmodel-private-devel \
 qt6-labsfolderlistmodel-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6LabsFolderListModel)"
 
 inherit rpm

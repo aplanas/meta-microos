@@ -12,6 +12,7 @@ libbasicobjects.so.0(BASICOBJECTS_0.1.0)(64bit) \
 libbasicobjects.so.0(BASICOBJECTS_0.1.1)(64bit) \
 libbasicobjects0 \
 libbasicobjects0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

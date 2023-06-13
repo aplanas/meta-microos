@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(console-setup) \
 console-setup"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-json-widget) \
 python311-django-json-widget \
 python3dist(django-json-widget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-future"

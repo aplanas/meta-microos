@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dimnum.sty) \
 texlive-dimnum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

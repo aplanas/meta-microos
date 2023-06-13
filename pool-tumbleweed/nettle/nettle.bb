@@ -14,6 +14,7 @@ RPM_HASH = "4c2d6d399e51719b6ad81363050a173706a6fee5d069a02b843d6011de4939daf385
 
 RPROVIDES:${PN} += "nettle \
 nettle(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

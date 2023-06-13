@@ -42,6 +42,7 @@ locale(kweather:tr) \
 locale(kweather:uk) \
 locale(kweather:zh_CN) \
 locale(kweather:zh_TW)"
+
 RDEPENDS:${PN} += "kweather"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "9f48f083fe18c09ded7503f80979073866f81cb09e6fe2760231f2a7eb00d446b2ee
 RPROVIDES:${PN} += "libnautilus-fileroller.so()(64bit) \
 nautilus-file-roller \
 nautilus-file-roller(aarch-64)"
+
 RDEPENDS:${PN} += "file-roller \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

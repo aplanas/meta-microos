@@ -14,6 +14,7 @@ RPM_HASH = "a41062639da4094dd1696de5d221fa4976a84fad727346143e15a657753a943d2efd
 RPROVIDES:${PN} += "libdrm_freedreno.so.1()(64bit) \
 libdrm_freedreno1 \
 libdrm_freedreno1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

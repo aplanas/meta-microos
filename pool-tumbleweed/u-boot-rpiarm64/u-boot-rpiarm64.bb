@@ -13,6 +13,7 @@ u-boot-rpi3 \
 u-boot-rpi4 \
 u-boot-rpiarm64 \
 u-boot-rpiarm64(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 util-linux"
 

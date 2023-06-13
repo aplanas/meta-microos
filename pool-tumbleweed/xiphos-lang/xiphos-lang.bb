@@ -41,6 +41,7 @@ locale(xiphos:zh_CN) \
 locale(xiphos:zh_TW) \
 xiphos-lang \
 xiphos-lang-all"
+
 RDEPENDS:${PN} += "xiphos"
 
 inherit rpm

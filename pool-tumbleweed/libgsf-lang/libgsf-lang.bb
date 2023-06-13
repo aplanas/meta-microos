@@ -56,6 +56,7 @@ locale(libgsf:uk) \
 locale(libgsf:zh_CN) \
 locale(libgsf:zh_HK) \
 locale(libgsf:zh_TW)"
+
 RDEPENDS:${PN} += "libgsf"
 
 inherit rpm

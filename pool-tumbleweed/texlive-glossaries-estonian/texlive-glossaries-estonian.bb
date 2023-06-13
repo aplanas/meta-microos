@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(glossaries-estonian-ascii.ldf) \
 tex(glossaries-estonian-utf8.ldf) \
 tex(glossaries-estonian.ldf) \
 texlive-glossaries-estonian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

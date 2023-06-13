@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ccaption.sty) \
 texlive-ccaption"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

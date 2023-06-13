@@ -9,6 +9,7 @@ RPM_HASH = "cf8a246587396178235c2341c4078f7040df72492c7b8858a186ae83b4ccf807248a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstricks-add-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -21,6 +21,7 @@ python3.10dist(altair-widgets) \
 python310-altair-widgets \
 python310-jupyter_altair-widgets \
 python3dist(altair-widgets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-altair \
 python310-ipython \

@@ -34,6 +34,7 @@ locale(subtitleeditor:zh_CN) \
 locale(subtitleeditor:zh_TW) \
 subtitleeditor-lang \
 subtitleeditor-lang-all"
+
 RDEPENDS:${PN} += "subtitleeditor"
 
 inherit rpm

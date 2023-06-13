@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-mpv) \
 python311-python-mpv \
 python3dist(python-mpv)"
+
 RDEPENDS:${PN} += "libmpv2 \
 python(abi)"
 

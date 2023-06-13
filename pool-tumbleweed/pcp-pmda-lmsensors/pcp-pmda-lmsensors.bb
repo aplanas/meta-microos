@@ -10,6 +10,7 @@ RPM_HASH = "655c4a135fd09933f3b0894f831ffa01078cf0b1fb51521b406805dd8ae8e310b60e
 
 RPROVIDES:${PN} += "pcp-pmda-lmsensors \
 pcp-pmda-lmsensors(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

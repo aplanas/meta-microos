@@ -10,6 +10,7 @@ RPM_HASH = "18ca8930676e4bcf96ff8f0f4211b814fda4e2aa36b8e5bcd731fcd651a26a11c371
 
 RPROVIDES:${PN} += "syslog-ng-python-modules \
 syslog-ng-python-modules(aarch-64)"
+
 RDEPENDS:${PN} += "python3-PyYAML \
 python3-cachetools \
 python3-certifi \

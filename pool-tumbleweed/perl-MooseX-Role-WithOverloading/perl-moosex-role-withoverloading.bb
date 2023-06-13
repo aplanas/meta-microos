@@ -28,6 +28,7 @@ perl(MooseX::Role::WithOverloading::Meta::Role::Application::ToRole) \
 perl(MooseX::Role::WithOverloading::Meta::Role::Composite) \
 perl-MooseX-Role-WithOverloading \
 perl-MooseX-Role-WithOverloading(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

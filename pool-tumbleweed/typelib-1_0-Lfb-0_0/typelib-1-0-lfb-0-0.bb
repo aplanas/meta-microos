@@ -14,6 +14,7 @@ RPM_HASH = "6d93ce9df0e56fd36405a183acb0b2bf58a741f0fc4e5564cc2a2a8302a4d2cf6c8a
 RPROVIDES:${PN} += "typelib(Lfb) \
 typelib-1_0-Lfb-0_0 \
 typelib-1_0-Lfb-0_0(aarch-64)"
+
 RDEPENDS:${PN} += "libfeedback-0.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

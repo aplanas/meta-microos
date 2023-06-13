@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pstricks-add.sty) \
 tex(pstricks-add.tex) \
 texlive-pstricks-add"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

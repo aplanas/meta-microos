@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cfgv \
 python3.10dist(cfgv) \
 python310-cfgv \
 python3dist(cfgv)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

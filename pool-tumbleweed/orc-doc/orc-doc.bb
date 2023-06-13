@@ -13,6 +13,7 @@ RPM_HASH = "82ffb25ca5284f685ba585f53c39be195a56aecc57edc6bcd59906ac296430ef2f3e
 
 RPROVIDES:${PN} += "orc-doc \
 orc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

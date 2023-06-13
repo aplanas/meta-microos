@@ -10,6 +10,7 @@ RPM_HASH = "a0724fba04e54a7092ba7b80905bf175e809e3885eb2886a2a726a4bbf840c638012
 
 RPROVIDES:${PN} += "qt6-svg-private-devel \
 qt6-svg-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Svg) \
 cmake(Qt6SvgWidgets) \
 qt6-core-private-devel \

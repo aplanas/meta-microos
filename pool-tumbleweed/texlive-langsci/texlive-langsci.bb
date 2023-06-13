@@ -26,6 +26,7 @@ tex(langsci-unified.bbx) \
 tex(langsci-unified.cbx) \
 tex(langscibook.cls) \
 texlive-langsci"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

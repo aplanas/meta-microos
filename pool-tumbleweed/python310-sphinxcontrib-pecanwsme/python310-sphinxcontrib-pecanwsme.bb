@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-pecanwsme \
 python3.10dist(sphinxcontrib-pecanwsme) \
 python310-sphinxcontrib-pecanwsme \
 python3dist(sphinxcontrib-pecanwsme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sphinxcontrib-httpdomain"
 

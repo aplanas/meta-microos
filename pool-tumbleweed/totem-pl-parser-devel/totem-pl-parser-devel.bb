@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(totem-plparser) \
 pkgconfig(totem-plparser-mini) \
 totem-pl-parser-devel \
 totem-pl-parser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtotem-plparser-mini18 \
 libtotem-plparser18 \

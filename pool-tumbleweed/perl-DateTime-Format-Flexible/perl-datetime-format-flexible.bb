@@ -19,6 +19,7 @@ perl(DateTime::Format::Flexible::lang::de) \
 perl(DateTime::Format::Flexible::lang::en) \
 perl(DateTime::Format::Flexible::lang::es) \
 perl-DateTime-Format-Flexible"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Format::Builder) \

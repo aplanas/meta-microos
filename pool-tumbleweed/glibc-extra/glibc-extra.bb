@@ -12,6 +12,7 @@ RPM_HASH = "c7ec678f1fd3eaf0bc34c2ad7e31fc054dfc8ed0f7631b7deddc16f20c561f1e9143
 
 RPROVIDES:${PN} += "glibc-extra \
 glibc-extra(aarch-64)"
+
 RDEPENDS:${PN} += "glibc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

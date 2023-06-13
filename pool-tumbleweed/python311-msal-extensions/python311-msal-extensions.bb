@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(msal-extensions) \
 python311-msal-extensions \
 python3dist(msal-extensions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msal \
 python311-portalocker"

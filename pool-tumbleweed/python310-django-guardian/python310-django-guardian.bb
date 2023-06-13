@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-guardian \
 python3.10dist(django-guardian) \
 python310-django-guardian \
 python3dist(django-guardian)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

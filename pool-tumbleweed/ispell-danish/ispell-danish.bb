@@ -15,6 +15,7 @@ ispell-danish \
 ispell-danish(aarch-64) \
 ispell_dictionary \
 locale(ispell:da)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

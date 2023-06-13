@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chemical-mime-data \
 pkgconfig(chemical-mime-data)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hicolor-icon-theme \
 pkgconfig(shared-mime-info) \

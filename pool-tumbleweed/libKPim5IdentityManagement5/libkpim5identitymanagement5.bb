@@ -11,6 +11,7 @@ RPM_HASH = "c31e84bc8e355d4a68be228cf40d39cb63e7eb2c743fd859efc6f3294309d6a6444c
 RPROVIDES:${PN} += "libKPim5IdentityManagement.so.5()(64bit) \
 libKPim5IdentityManagement5 \
 libKPim5IdentityManagement5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

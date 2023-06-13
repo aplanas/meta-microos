@@ -10,6 +10,7 @@ RPM_HASH = "cb1dd461134fde4031615021b3f57968a5457eb23ce03c21512969c2a1471a679272
 RPROVIDES:${PN} += "config(pcp-conf) \
 pcp-conf \
 pcp-conf(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

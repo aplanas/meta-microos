@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-microos-defaults \
 patterns-microos-defaults(aarch-64)"
+
 RDEPENDS:${PN} += "audit \
 pattern() \
 systemd-coredump"

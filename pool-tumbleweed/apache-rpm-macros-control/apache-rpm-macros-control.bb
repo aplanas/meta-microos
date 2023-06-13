@@ -12,6 +12,7 @@ apache-rpm-macros-control(aarch-64) \
 rpm_macro(apache_request_restart) \
 rpm_macro(apache_restart_flag) \
 rpm_macro(apache_restart_if_needed)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

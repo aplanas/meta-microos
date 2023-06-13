@@ -47,6 +47,7 @@ tex(tudscrreprt.cls) \
 tex(tudscrsupervisor.sty) \
 tex(twocolfix.sty) \
 texlive-tudscr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

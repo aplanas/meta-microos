@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jboss-logging \
 mvn(org.jboss.logging:jboss-logging) \
 mvn(org.jboss.logging:jboss-logging:pom:) \
 osgi(org.jboss.logging.jboss-logging)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

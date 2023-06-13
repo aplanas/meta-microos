@@ -9,6 +9,7 @@ RPM_HASH = "7a4bc9c09fa8eb042821023ce45e8019418c1a0580eede598a6ef5af04c6146ba2bb
 
 RPROVIDES:${PN} += "microos-devel-tools \
 microos-devel-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/sh \

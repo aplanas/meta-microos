@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(piton.sty) \
 texlive-piton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

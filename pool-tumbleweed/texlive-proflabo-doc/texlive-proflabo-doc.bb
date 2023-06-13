@@ -9,6 +9,7 @@ RPM_HASH = "e38ac20b116b1948d7ac03ddfe83a4fd315c2c913642f45e326a830b7f8cf6833b3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-proflabo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

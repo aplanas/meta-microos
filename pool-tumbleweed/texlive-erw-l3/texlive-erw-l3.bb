@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(erw-l3.sty) \
 texlive-erw-l3"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -38,6 +38,7 @@ perl(MooseX::Iterator::Hash) \
 perl(MooseX::Iterator::Meta::Iterable) \
 perl(MooseX::Iterator::Role) \
 perl-MooseX-Iterator"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

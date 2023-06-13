@@ -89,6 +89,7 @@ libkviuserlist.so()(64bit) \
 libkviwindow.so()(64bit) \
 mimehandler(application/x-kva) \
 mimehandler(application/x-kvt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

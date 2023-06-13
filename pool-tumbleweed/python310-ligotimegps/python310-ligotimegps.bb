@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-ligotimegps \
 python3.10dist(ligotimegps) \
 python310-ligotimegps \
 python3dist(ligotimegps)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(methodtools) \
 python311-methodtools \
 python3dist(methodtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-wirerope"
 

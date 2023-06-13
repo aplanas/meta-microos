@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-soroban.sty) \
 texlive-pst-soroban"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

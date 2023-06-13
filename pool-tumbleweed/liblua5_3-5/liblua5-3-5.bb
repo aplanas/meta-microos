@@ -22,6 +22,7 @@ liblua5_3 \
 liblua5_3-5 \
 liblua5_3-5(aarch-64) \
 lua53-libs"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

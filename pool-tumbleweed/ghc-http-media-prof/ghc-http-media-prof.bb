@@ -10,6 +10,7 @@ RPM_HASH = "b8dd63e08a2915a7ba30d468af34c354e2e8ec59766557741d6ca48905f500a1383c
 RPROVIDES:${PN} += "ghc-http-media-prof \
 ghc-http-media-prof(aarch-64) \
 ghc-prof(http-media-0.8.0.0-9GHxrTRagkN589CoQuo7sU)"
+
 RDEPENDS:${PN} += "ghc-http-media-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

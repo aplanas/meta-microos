@@ -10,6 +10,7 @@ RPM_HASH = "14b66a2c659540ec8b50048454b996447d14a4284973fee7704b493f1a4cb1f56d90
 RPROVIDES:${PN} += "ghc-contravariant \
 ghc-contravariant(aarch-64) \
 libHScontravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

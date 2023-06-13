@@ -10,6 +10,7 @@ RPM_HASH = "78df6b64e12234435996a33311d302bb64dad71d80585bb6b58d3d2128846eacd856
 RPROVIDES:${PN} += "ghc-dense-linear-algebra-prof \
 ghc-dense-linear-algebra-prof(aarch-64) \
 ghc-prof(dense-linear-algebra-0.1.0.0-2PBc2PrDutT32RQREBxCzn)"
+
 RDEPENDS:${PN} += "ghc-dense-linear-algebra-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \

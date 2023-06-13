@@ -19,6 +19,7 @@ metainfo(org.gnome.DiskUtility.appdata.xml) \
 mimehandler(application/x-cd-image) \
 mimehandler(application/x-raw-disk-image) \
 mimehandler(application/x-raw-disk-image-xz-compressed)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3696b1d292d0cf3c26c1f4ec895e5daa60bca5d1d4aac5238223da9f494ea040e841
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddccontrol-db"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

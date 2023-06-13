@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(idxlayout.sty) \
 texlive-idxlayout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

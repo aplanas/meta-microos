@@ -16,6 +16,7 @@ mvn(org.apache.xmlgraphics:batik-ttf2svg) \
 mvn(org.apache.xmlgraphics:batik-ttf2svg:pom:) \
 osgi(org.apache.batik.ttf2svg) \
 xmlgraphics-batik-ttf2svg"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

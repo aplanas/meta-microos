@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-yast-yast2_install_wf \
 patterns-yast-yast2_install_wf(aarch-64)"
+
 RDEPENDS:${PN} += "libyui-ncurses-pkg \
 yast2-bootloader \
 yast2-installation \

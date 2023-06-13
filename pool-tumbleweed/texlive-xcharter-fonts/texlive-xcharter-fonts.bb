@@ -143,6 +143,7 @@ font(:lang=zu) \
 font(xcharter) \
 font(xchartermath) \
 texlive-xcharter-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

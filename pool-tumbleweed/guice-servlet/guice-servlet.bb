@@ -15,6 +15,7 @@ mvn(com.google.inject.extensions:guice-servlet:pom:) \
 mvn(org.sonatype.sisu.inject:guice-servlet) \
 mvn(org.sonatype.sisu.inject:guice-servlet:pom:) \
 osgi(com.google.inject.servlet)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

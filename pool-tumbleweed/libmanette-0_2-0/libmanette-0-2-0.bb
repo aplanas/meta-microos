@@ -10,6 +10,7 @@ RPM_HASH = "4a8e79c23f513c16c31c41b487a1076c03dcbc2b92fe11a24bab6509434029223729
 RPROVIDES:${PN} += "libmanette-0.2.so.0()(64bit) \
 libmanette-0_2-0 \
 libmanette-0_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

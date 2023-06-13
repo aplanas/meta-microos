@@ -13,6 +13,7 @@ libopenssl-1_1-devel(aarch-64) \
 pkgconfig(libcrypto) \
 pkgconfig(libssl) \
 pkgconfig(openssl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenssl1_1 \
 pkgconfig(libcrypto) \

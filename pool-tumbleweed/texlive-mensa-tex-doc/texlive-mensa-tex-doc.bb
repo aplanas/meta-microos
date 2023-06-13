@@ -9,6 +9,7 @@ RPM_HASH = "e93b666f70b12a63722a78a7295edfaa55c97d9b5623e5ea1beaebd99a8f44c88409
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mensa-tex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

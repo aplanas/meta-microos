@@ -53,6 +53,7 @@ perl(Algorithm::CheckDigits::MXX_004) \
 perl(Algorithm::CheckDigits::MXX_005) \
 perl(Algorithm::CheckDigits::MXX_006) \
 perl-Algorithm-CheckDigits"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(version)"

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-dft \
 terminology-theme-upstream \
 terminology-theme-upstream(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

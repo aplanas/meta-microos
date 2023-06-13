@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(algobox.sty) \
 texlive-algobox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

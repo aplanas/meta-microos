@@ -14,6 +14,7 @@ RPM_HASH = "0bef13fced00663d851dbd7550bb1b3f7e8656e99ef7ed72cc89657dbbf9509eedec
 RPROVIDES:${PN} += "typelib(CjsPrivate) \
 typelib-1_0-CjsPrivate-1_0 \
 typelib-1_0-CjsPrivate-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcjs.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-mpv \
 python3.10dist(python-mpv) \
 python310-python-mpv \
 python3dist(python-mpv)"
+
 RDEPENDS:${PN} += "libmpv2 \
 python(abi)"
 

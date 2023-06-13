@@ -9,6 +9,7 @@ RPM_HASH = "8bfce8a66f529f62a5daa4d67d50a687e96db220d46ad9975b2642571702c01c9346
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coelacanth-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

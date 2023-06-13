@@ -11,6 +11,7 @@ RPM_HASH = "3e27e1d7c96229240c5301bc3a67c50870343c92bb3834562922784c152b6c6170c3
 RPROVIDES:${PN} += "libaccounts-glib-devel \
 libaccounts-glib-devel(aarch-64) \
 pkgconfig(libaccounts-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaccounts-glib0 \
 pkgconfig(gio-2.0) \

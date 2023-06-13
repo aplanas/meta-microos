@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-tracker \
 perl(In)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 abi-compliance-checker \
 abi-dumper \

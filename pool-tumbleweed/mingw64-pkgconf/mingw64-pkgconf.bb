@@ -15,6 +15,7 @@ mingw64(libpkgconf-3.dll) \
 mingw64(pkg:libpkgconf) \
 mingw64-pkg-config \
 mingw64-pkgconf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

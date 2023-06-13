@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hypothesis-fspaths) \
 python311-hypothesis-fspaths \
 python3dist(hypothesis-fspaths)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-hypothesis"
 

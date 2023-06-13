@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:winrm-fs:1) \
 rubygem(ruby:3.2.0:winrm-fs:1.3) \
 rubygem(ruby:3.2.0:winrm-fs:1.3.5) \
 rubygem(winrm-fs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

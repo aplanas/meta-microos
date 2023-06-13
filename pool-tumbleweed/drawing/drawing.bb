@@ -22,6 +22,7 @@ metainfo(com.github.maoschanz.drawing.appdata.xml) \
 mimehandler(image/bmp) \
 mimehandler(image/jpeg) \
 mimehandler(image/png)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 python3-gobject \

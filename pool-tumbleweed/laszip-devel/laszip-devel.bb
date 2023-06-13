@@ -11,6 +11,7 @@ RPM_HASH = "21a8b336b4d9238feef73952f06debb753284afac70375683ba15f5952b854c91ae1
 
 RPROVIDES:${PN} += "laszip-devel \
 laszip-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblaszip8 \
 liblaszip_api8"
 

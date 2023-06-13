@@ -15,6 +15,7 @@ tex(hcletter.cls) \
 tex(hcreport.cls) \
 tex(hcslides.cls) \
 texlive-hc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

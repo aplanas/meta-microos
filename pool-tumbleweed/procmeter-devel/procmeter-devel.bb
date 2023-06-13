@@ -12,6 +12,7 @@ RPM_HASH = "8cc15a830da3b462c34ae75d50cdb82711032b992bd9c4f2770b5d8a9e84fa6abf4e
 
 RPROVIDES:${PN} += "procmeter-devel \
 procmeter-devel(aarch-64)"
+
 RDEPENDS:${PN} += "procmeter"
 
 inherit rpm

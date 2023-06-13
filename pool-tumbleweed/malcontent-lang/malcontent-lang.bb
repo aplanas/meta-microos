@@ -60,6 +60,7 @@ locale(malcontent:vi) \
 locale(malcontent:zh_TW) \
 malcontent-lang \
 malcontent-lang-all"
+
 RDEPENDS:${PN} += "malcontent"
 
 inherit rpm

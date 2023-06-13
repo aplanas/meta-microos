@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ionumbers.sty) \
 texlive-ionumbers"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

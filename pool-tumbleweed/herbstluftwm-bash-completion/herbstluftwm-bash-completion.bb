@@ -9,6 +9,7 @@ RPM_HASH = "0dd1ed4595dbfa72ca610371c95cccabefef265019df8cef27c51d715d9808a84029
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "herbstluftwm-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 herbstluftwm"
 

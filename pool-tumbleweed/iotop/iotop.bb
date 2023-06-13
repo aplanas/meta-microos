@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "iotop \
 iotop(aarch-64) \
 python3.10dist(iotop) \
 python3dist(iotop)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-curses"

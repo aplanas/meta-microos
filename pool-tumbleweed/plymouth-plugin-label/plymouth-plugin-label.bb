@@ -11,6 +11,7 @@ RPM_HASH = "2f12698a076368b684c41a4448eb26d5bd573154322de272bfcfb57e5b4727695ba8
 
 RPROVIDES:${PN} += "plymouth-plugin-label \
 plymouth-plugin-label(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

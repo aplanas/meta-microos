@@ -10,6 +10,7 @@ RPM_HASH = "784645a7da13927011c92546ee46bcf71e4e38a899113ebf81220231ee794931fec8
 RPROVIDES:${PN} += "libprimesieve.so.11()(64bit) \
 libprimesieve11 \
 libprimesieve11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

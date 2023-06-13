@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libqscintillaplugin.so()(64bit) \
 qscintilla-qt6 \
 qscintilla-qt6(aarch-64) \
 qscintilla2_qt6"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -22,6 +22,7 @@ libgcab-1.0.so.0(LIBGCAB1_1.4)(64bit) \
 libgcab-1.0.so.0(LIBGCAB1_1.5)(64bit) \
 libgcab-1_0-0 \
 libgcab-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

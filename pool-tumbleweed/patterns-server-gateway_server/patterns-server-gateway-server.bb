@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-gateway_server \
 patterns-server-gateway_server \
 patterns-server-gateway_server(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

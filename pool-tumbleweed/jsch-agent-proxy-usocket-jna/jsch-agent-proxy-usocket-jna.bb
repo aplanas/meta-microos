@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jsch-agent-proxy-usocket-jna \
 mvn(com.jcraft:jsch.agentproxy.usocket-jna) \
 mvn(com.jcraft:jsch.agentproxy.usocket-jna:pom:) \
 osgi(com.jcraft.jsch.agentproxy.usocket-jna)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jsch.agentproxy.core) \

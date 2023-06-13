@@ -12,6 +12,7 @@ cmake(Fcitx5Qt5WidgetsAddons) \
 cmake(Fcitx5Qt6DBusAddons) \
 fcitx5-qt-devel \
 fcitx5-qt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx5-qt5 \
 fcitx5-qt6 \
 libFcitx5Qt5DBusAddons1 \

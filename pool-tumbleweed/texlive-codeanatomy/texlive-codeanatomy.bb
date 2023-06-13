@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codeanatomy.sty) \
 texlive-codeanatomy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

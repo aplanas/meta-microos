@@ -113,6 +113,7 @@ locale(libmatekbd:wa) \
 locale(libmatekbd:zh_CN) \
 locale(libmatekbd:zh_HK) \
 locale(libmatekbd:zh_TW)"
+
 RDEPENDS:${PN} += "libmatekbd"
 
 inherit rpm

@@ -33,6 +33,7 @@ tex(powerdot-tycja.sty) \
 tex(powerdot-upen.sty) \
 tex(powerdot.cls) \
 texlive-powerdot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

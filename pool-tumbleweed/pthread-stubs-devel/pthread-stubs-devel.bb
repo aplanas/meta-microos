@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(pthread-stubs) \
 pthread-stubs-devel \
 pthread-stubs-devel(aarch-64) \
 xorg-x11-proto-devel://usr/lib64/pkgconfig/pthread-stubs.pc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

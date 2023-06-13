@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(certifi) \
 python39-certifi \
 python3dist(certifi)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ca-certificates-mozilla \
 python(abi)"

@@ -88,6 +88,7 @@ perl(Spreadsheet::ParseODS::Workbook) \
 perl(Spreadsheet::ParseODS::Worksheet) \
 perl(Spreadsheet::ReadSXC) \
 perl-Spreadsheet-ReadSXC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(Moo) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(docbook-xml-website) \
 docbook-xml-website"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/edit-xml-catalog \

@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(secretstorage) \
 python39-SecretStorage \
 python3dist(secretstorage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-jeepney"

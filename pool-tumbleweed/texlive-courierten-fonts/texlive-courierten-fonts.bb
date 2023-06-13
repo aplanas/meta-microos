@@ -88,6 +88,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(courier10pitch) \
 texlive-courierten-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

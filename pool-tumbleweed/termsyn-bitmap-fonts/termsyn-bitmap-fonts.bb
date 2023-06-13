@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "termsyn-bitmap-fonts \
 termsyn-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

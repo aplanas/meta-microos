@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dateparser \
 python3.10dist(dateparser) \
 python310-dateparser \
 python3dist(dateparser)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

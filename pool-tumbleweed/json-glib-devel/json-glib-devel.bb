@@ -15,6 +15,7 @@ RPM_HASH = "5b95c68989b3bb4fbdc84307ab5b9df793f353a22ac784479eae952e87a471e16a23
 RPROVIDES:${PN} += "json-glib-devel \
 json-glib-devel(aarch-64) \
 pkgconfig(json-glib-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

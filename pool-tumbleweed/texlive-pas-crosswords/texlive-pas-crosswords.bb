@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pas-crosswords.sty) \
 texlive-pas-crosswords"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

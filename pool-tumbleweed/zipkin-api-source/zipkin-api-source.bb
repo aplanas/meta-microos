@@ -9,6 +9,7 @@ RPM_HASH = "97e57d4948e5bee26145e715f60fba4ab81cee4e26ca2d0735ebe98cfa8129fbd02e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zipkin-api-source"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh"
 

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-zope.cachedescriptors \
 python3.10dist(zope.cachedescriptors) \
 python310-zope.cachedescriptors \
 python3dist(zope.cachedescriptors)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -31,6 +31,7 @@ RPM_HASH = "445b7e292b76195125ba42014a72ce029f7b76a9cda46c52d81c34d08ec8ad28815c
 
 RPROVIDES:${PN} += "tcping \
 tcping(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

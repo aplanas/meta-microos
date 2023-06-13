@@ -16,6 +16,7 @@ RPM_HASH = "f1643f2520943836b8909dc46e1cde719aceb2b0ca2d7b260508552f8df0f5b6fd44
 
 RPROVIDES:${PN} += "cal3d \
 cal3d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ application(org.opensuse.yast.Cluster.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Cluster.metainfo.xml) \
 yast2-cluster"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 yast2 \

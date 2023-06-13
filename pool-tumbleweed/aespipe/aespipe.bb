@@ -12,6 +12,7 @@ RPM_HASH = "93dd9acaabc5fb26a79269dd1176da1be4bb73b986263f34bb5a51f732be37e6f3ae
 
 RPROVIDES:${PN} += "aespipe \
 aespipe(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

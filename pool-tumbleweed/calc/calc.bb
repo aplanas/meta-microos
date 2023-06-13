@@ -12,6 +12,7 @@ RPM_HASH = "313ee6503f98934277bd59f5773c1d5f12de578e11549d323aa9d7483f1b683c8941
 
 RPROVIDES:${PN} += "calc \
 calc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 less \

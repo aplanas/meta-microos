@@ -11,6 +11,7 @@ RPM_HASH = "23b7e8cefb3222724de9ab6d8a88e2f424f817fde1072323b0ef8c2656ca02c2f27f
 
 RPROVIDES:${PN} += "p11-kit \
 p11-kit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

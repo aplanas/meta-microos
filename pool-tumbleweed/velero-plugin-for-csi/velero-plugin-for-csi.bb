@@ -9,6 +9,7 @@ RPM_HASH = "3cc13c5740a634e3cbf8b1c338ff83ea71aaf2abc0f24709e2a560922712b844e4a9
 
 RPROVIDES:${PN} += "velero-plugin-for-csi \
 velero-plugin-for-csi(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

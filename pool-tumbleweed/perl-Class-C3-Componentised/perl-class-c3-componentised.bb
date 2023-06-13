@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Class::C3::Componentised) \
 perl(Class::C3::Componentised::ApplyHooks) \
 perl-Class-C3-Componentised"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::C3) \
 perl(Class::Inspector) \

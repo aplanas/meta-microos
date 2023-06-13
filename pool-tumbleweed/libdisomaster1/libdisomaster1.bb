@@ -13,6 +13,7 @@ RPM_HASH = "9c1a6e203046ef115f59ab14273b5cab0dc4c410ee578dd25c79b0e836fd2add6610
 RPROVIDES:${PN} += "libdisomaster.so.1()(64bit) \
 libdisomaster1 \
 libdisomaster1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "J7Z \
 application() \
 application(J7Z.desktop)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 java \

@@ -19,6 +19,7 @@ RPM_HASH = "8d51bb8b85a6dbda69a7ab6285f7c444d66abaf5b672397b016c1bdef12e205a3535
 RPROVIDES:${PN} += "libkolabxml.so.1()(64bit) \
 libkolabxml1 \
 libkolabxml1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-wcmatch \
 python3.10dist(wcmatch) \
 python310-wcmatch \
 python3dist(wcmatch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.10dist(bracex)"
 

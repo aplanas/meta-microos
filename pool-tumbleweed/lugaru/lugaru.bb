@@ -18,6 +18,7 @@ lugaru \
 lugaru(aarch-64) \
 metainfo() \
 metainfo(lugaru.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

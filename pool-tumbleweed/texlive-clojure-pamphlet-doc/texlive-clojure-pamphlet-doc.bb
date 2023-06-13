@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pamphletangler.1) \
 texlive-clojure-pamphlet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

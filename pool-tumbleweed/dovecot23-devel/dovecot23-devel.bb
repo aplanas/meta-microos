@@ -19,6 +19,7 @@ RPM_HASH = "767b1743e450f91dc7d5dc90d1df9294d26916a69224b514af2b9238f6140fc88016
 RPROVIDES:${PN} += "dovecot-devel \
 dovecot23-devel \
 dovecot23-devel(aarch-64)"
+
 RDEPENDS:${PN} += "dovecot23"
 
 inherit rpm

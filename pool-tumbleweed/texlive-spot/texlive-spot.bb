@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spot.sty) \
 texlive-spot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

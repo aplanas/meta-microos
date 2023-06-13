@@ -13,6 +13,7 @@ RPM_HASH = "6e4851d373807c6de9fc8508f619b2a35817d6fb3874c15275a6aac47dea79907efc
 RPROVIDES:${PN} += "typelib(GWeather) \
 typelib-1_0-GWeather-4_0 \
 typelib-1_0-GWeather-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgweather-4.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

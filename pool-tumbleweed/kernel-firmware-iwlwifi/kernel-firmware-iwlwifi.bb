@@ -133,6 +133,7 @@ iwl6000-ucode \
 iwl6000g2-ucode \
 iwl6050-ucode \
 kernel-firmware-iwlwifi"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

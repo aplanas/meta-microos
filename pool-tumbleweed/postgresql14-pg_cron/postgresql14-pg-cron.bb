@@ -13,6 +13,7 @@ RPM_HASH = "b98977cb2175fa31b3d2ee4cdb0e4432dc98a005044e4525ccef1e5f48e6aa4653d8
 RPROVIDES:${PN} += "postgresql14-pg_cron \
 postgresql14-pg_cron(aarch-64) \
 postgresql14-pg_cron-llvmjit"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

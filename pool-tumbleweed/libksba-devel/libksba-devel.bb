@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libksba-devel \
 libksba-devel(aarch-64) \
 libksba:/usr/include/ksba.h \
 pkgconfig(ksba)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libksba8 \

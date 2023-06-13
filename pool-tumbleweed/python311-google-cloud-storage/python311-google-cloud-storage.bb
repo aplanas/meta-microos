@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(google-cloud-storage) \
 python311-google-cloud-storage \
 python3dist(google-cloud-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-google-api-core \
 python311-google-auth \

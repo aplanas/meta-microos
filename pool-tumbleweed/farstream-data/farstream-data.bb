@@ -13,6 +13,7 @@ RPM_HASH = "5f91eb44af4417ff3a291d3bf9f77df6c022fc427d4152916ba4697db919c98437aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "farstream-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

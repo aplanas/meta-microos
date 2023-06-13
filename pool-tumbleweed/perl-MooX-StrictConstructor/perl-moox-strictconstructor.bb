@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Method::Generate::Constructor::Role::StrictConstructor) \
 perl(MooX::StrictConstructor) \
 perl-MooX-StrictConstructor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(Moo) \

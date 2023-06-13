@@ -22,6 +22,7 @@ python38-base(aarch-64) \
 python38-typing \
 python38-xml \
 rpm_macro(have_python38)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

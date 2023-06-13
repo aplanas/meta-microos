@@ -22,6 +22,7 @@ mimehandler(application/vnd.google-earth.kml+xml) \
 mimehandler(x-scheme-handler/geo) \
 mimehandler(x-scheme-handler/maps) \
 typelib(GnomeMaps)"
+
 RDEPENDS:${PN} += "/usr/bin/gjs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

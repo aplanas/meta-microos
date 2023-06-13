@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gotoh.sty) \
 texlive-gotoh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:mocha) \
 rubygem(ruby:3.2.0:mocha:2) \
 rubygem(ruby:3.2.0:mocha:2.0) \
 rubygem(ruby:3.2.0:mocha:2.0.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ruby2_keywords)"
 

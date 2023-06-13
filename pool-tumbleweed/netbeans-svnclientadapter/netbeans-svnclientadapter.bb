@@ -9,6 +9,7 @@ RPM_HASH = "75616ce70d4313b2c49eaabea3717d14924549712c820e3a8276fe43a794ff691e94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netbeans-svnclientadapter"
+
 RDEPENDS:${PN} += "java \
 javapackages-tools \
 subversion"

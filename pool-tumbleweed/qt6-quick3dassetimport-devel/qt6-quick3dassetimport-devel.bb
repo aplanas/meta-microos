@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DAssetImport) \
 pkgconfig(Qt6Quick3DAssetImport) \
 qt6-quick3dassetimport-devel \
 qt6-quick3dassetimport-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Quick3DUtils) \

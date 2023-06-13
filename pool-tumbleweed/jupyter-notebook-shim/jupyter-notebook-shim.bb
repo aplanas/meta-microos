@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-shim \
 juypter-notebook_shim"
+
 RDEPENDS:${PN} += "python3dist(notebook-shim)"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-paramiko \
 python3.10dist(paramiko) \
 python310-paramiko \
 python3dist(paramiko)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyNaCl \
 python310-bcrypt \

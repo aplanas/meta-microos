@@ -9,6 +9,7 @@ RPM_HASH = "5b439ddcfb9ecaff0eb3e55eefd87d41cb8ef45cc7b59be4f5ebd22939ce907adbb4
 
 RPROVIDES:${PN} += "xcalib-profiles \
 xcalib-profiles(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

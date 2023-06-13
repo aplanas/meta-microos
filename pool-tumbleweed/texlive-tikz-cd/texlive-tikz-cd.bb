@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tikz-cd.sty) \
 tex(tikzlibrarycd.code.tex) \
 texlive-tikz-cd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

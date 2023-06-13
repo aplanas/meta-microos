@@ -11,6 +11,7 @@ RPM_HASH = "3c59275738bd116448c5cb0573a676ef7581b5c2973f075a83482ed52abc578e26d1
 RPROVIDES:${PN} += "libgerbv.so.1()(64bit) \
 libgerbv1 \
 libgerbv1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

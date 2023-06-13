@@ -16,6 +16,7 @@ libtheoradec.so.1(libtheora.so.1.0)(64bit) \
 libtheoradec.so.1(libtheoradec_1.0)(64bit) \
 libtheoradec1 \
 libtheoradec1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

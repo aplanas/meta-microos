@@ -166,6 +166,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(coelacanth) \
 texlive-coelacanth-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

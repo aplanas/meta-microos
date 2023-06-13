@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(yamlvars.sty) \
 texlive-yamlvars"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

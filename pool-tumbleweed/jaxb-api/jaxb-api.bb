@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jaxb-api \
 mvn(jakarta.xml.bind:jakarta.xml.bind-api) \
 mvn(jakarta.xml.bind:jakarta.xml.bind-api:pom:) \
 osgi(jakarta.xml.bind-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jakarta.activation:jakarta.activation-api)"

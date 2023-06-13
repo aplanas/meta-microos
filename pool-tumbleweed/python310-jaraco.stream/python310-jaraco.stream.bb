@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jaraco.stream \
 python3.10dist(jaraco.stream) \
 python310-jaraco.stream \
 python3dist(jaraco.stream)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-more-itertools"
 

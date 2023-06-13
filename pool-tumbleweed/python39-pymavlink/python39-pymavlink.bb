@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(pymavlink) \
 python39-pymavlink \
 python39-pymavlink(aarch-64) \
 python3dist(pymavlink)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

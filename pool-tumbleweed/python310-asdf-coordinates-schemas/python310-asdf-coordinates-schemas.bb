@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-asdf-coordinates-schemas \
 python3.10dist(asdf-coordinates-schemas) \
 python310-asdf-coordinates-schemas \
 python3dist(asdf-coordinates-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asdf"
 

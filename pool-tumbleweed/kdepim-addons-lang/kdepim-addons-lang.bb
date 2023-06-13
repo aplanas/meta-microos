@@ -81,6 +81,7 @@ locale(kdepim-addons:vi) \
 locale(kdepim-addons:wa) \
 locale(kdepim-addons:zh_CN) \
 locale(kdepim-addons:zh_TW)"
+
 RDEPENDS:${PN} += "kdepim-addons"
 
 inherit rpm

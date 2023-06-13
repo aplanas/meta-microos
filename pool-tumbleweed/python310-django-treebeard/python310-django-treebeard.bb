@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-django-treebeard \
 python3.10dist(django-treebeard) \
 python310-django-treebeard \
 python3dist(django-treebeard)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

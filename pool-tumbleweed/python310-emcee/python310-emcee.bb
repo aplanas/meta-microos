@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-emcee \
 python3.10dist(emcee) \
 python310-emcee \
 python3dist(emcee)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5py \
 python310-numpy \

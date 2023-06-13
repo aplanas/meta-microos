@@ -12,6 +12,7 @@ RPM_HASH = "5def1c32b6def53c13b4fe27ec6ef74d04aa4a70862b367212f350c5995671009489
 
 RPROVIDES:${PN} += "mairix \
 mairix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

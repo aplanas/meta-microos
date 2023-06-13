@@ -16,6 +16,7 @@ RPM_HASH = "442288902795df1a47f1a5214bd41f2aaa2841e22b9b29887f8221a34562765b687d
 RPROVIDES:${PN} += "libxcb-xinerama.so.0()(64bit) \
 libxcb-xinerama0 \
 libxcb-xinerama0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

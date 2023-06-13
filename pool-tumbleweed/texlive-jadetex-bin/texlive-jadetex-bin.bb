@@ -9,6 +9,7 @@ RPM_HASH = "07c5a8bb5850dc9594b78846b470c2a5be14741bf32dd5479599ee6448e2e22efb37
 
 RPROVIDES:${PN} += "texlive-jadetex-bin \
 texlive-jadetex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-jadetex"
 
 inherit rpm

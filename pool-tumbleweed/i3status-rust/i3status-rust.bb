@@ -218,6 +218,7 @@ bundled(rust-crate:zvariant_derive) \
 bundled(rust-crate:zvariant_utils) \
 i3status-rust \
 i3status-rust(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

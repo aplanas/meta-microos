@@ -13,6 +13,7 @@ python310-qtcharts-qt5-doc \
 python310-qtcharts-qt5-examples \
 python311-qtcharts-qt5-examples \
 python39-qtcharts-qt5-examples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

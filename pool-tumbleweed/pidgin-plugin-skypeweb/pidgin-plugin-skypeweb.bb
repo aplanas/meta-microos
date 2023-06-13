@@ -10,6 +10,7 @@ RPM_HASH = "358df9682c693353dfb972db67fbe28601437d68b87232beb4920662a154c8dc14c8
 
 RPROVIDES:${PN} += "pidgin-plugin-skypeweb \
 pidgin-plugin-skypeweb(aarch-64)"
+
 RDEPENDS:${PN} += "libpurple-plugin-skypeweb \
 pidgin"
 

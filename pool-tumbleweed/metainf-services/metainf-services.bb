@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "metainf-services \
 mvn(org.kohsuke.metainf-services:metainf-services) \
 mvn(org.kohsuke.metainf-services:metainf-services:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

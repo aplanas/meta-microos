@@ -9,6 +9,7 @@ RPM_HASH = "282a7213ccd0bd51a59fc540a6dc4c6339f99173178c44d565da1596bb09baeea289
 
 RPROVIDES:${PN} += "ogre-python \
 ogre-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOgreBites.so.13.5()(64bit) \

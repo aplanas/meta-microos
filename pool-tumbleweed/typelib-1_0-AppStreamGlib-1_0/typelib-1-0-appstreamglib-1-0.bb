@@ -12,6 +12,7 @@ RPM_HASH = "d434135c5ef12e215a83a65fb902cceae6e523953ede030810a8a7d82d00bd03f6dd
 RPROVIDES:${PN} += "typelib(AppStreamGlib) \
 typelib-1_0-AppStreamGlib-1_0 \
 typelib-1_0-AppStreamGlib-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libappstream-glib.so.8()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

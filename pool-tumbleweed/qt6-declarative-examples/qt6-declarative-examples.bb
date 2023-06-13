@@ -36,6 +36,7 @@ libwindow_shared.so()(64bit) \
 qt6-declarative-examples \
 qt6-declarative-examples(aarch-64) \
 qt6-quickcontrols2-examples"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "7fbd56c12414fe8a2dc3dd267539c3040693d576b2daed020418611ffad6ae6c11d5
 RPROVIDES:${PN} += "typelib(ICalGLib) \
 typelib-1_0-ICalGLib-3_0 \
 typelib-1_0-ICalGLib-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libical-glib.so.3()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

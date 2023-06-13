@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(importlib-metadata) \
 python39-importlib-metadata \
 python39-importlib_metadata \
 python3dist(importlib-metadata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zipp"
 

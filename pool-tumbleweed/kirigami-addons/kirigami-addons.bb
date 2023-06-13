@@ -23,6 +23,7 @@ qt5qmlimport(org.kde.kirigamiaddons.labs.components.1) \
 qt5qmlimport(org.kde.kirigamiaddons.labs.mobileform.0) \
 qt5qmlimport(org.kde.kirigamiaddons.sounds.0) \
 qt5qmlimport(org.kde.kirigamiaddons.treeview.1)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

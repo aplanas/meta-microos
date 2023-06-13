@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(setuptools-declarative-requirements) \
 python311-setuptools-declarative-requirements \
 python3dist(setuptools-declarative-requirements)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools \
 python311-toml \

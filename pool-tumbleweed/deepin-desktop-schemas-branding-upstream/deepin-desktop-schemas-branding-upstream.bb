@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-desktop-schemas-branding \
 deepin-desktop-schemas-branding-upstream"
+
 RDEPENDS:${PN} += "deepin-desktop-schemas"
 
 inherit rpm

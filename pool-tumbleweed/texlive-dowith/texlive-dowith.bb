@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(domore.sty) \
 tex(dowith.sty) \
 texlive-dowith"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

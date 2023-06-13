@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "notify-sharp-devel \
 pkgconfig(notify-sharp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 notify-sharp \
 pkgconfig(gtk-sharp-2.0)"

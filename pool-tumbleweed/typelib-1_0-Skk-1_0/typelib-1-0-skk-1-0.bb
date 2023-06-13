@@ -13,6 +13,7 @@ RPM_HASH = "9c733dfab72991d6d0256f86971a500a98decc9b76d796ab948ae7c935a51b659c30
 RPROVIDES:${PN} += "typelib(Skk) \
 typelib-1_0-Skk-1_0 \
 typelib-1_0-Skk-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "girepository-1_0 \
 libskk.so.0()(64bit) \
 typelib(GLib) \

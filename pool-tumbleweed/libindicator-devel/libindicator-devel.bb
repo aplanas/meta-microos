@@ -11,6 +11,7 @@ RPM_HASH = "4190dbc99c25f29627359114f4daa3b3fe25b61bc79a5b8a0009e22c1f754cf995f0
 RPROVIDES:${PN} += "libindicator-devel \
 libindicator-devel(aarch-64) \
 pkgconfig(indicator-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libindicator7 \
 pkgconfig(gtk+-2.0)"

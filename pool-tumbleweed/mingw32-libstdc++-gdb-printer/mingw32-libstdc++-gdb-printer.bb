@@ -9,6 +9,7 @@ RPM_HASH = "dc099e4f2b2610b77482208ac92371b885cca015192e292e9d262f30f6ba6786df54
 
 RPROVIDES:${PN} += "mingw32-libstdc++-gdb-printer \
 mingw32-libstdc++-gdb-printer(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

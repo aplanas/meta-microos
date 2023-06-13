@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-fenet-awesome \
 leechcraft-fenet-wm"
+
 RDEPENDS:${PN} += "/bin/sh \
 awesome \
 leechcraft-fenet"

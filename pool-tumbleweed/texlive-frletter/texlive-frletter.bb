@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(frletter.cls) \
 texlive-frletter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

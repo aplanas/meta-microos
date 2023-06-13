@@ -11,6 +11,7 @@ RPM_HASH = "fa2e1229e06223092998211be10058565290fd4889cfaa9d4bebf97f46f37e7f5744
 RPROVIDES:${PN} += "liblilv-0-devel \
 liblilv-0-devel(aarch-64) \
 pkgconfig(lilv-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblilv-0-0 \
 pkgconfig(lv2) \

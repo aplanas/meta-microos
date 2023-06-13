@@ -15,6 +15,7 @@ RPM_HASH = "57cae95c890a27d507158b6ce427756aad3f04264aaacc179ba9c8347697aafccb29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax"
+
 RDEPENDS:${PN} += "mathjax-ams-fonts \
 mathjax-caligraphic-fonts \
 mathjax-fraktur-fonts \

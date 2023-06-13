@@ -9,6 +9,7 @@ RPM_HASH = "62d24c882fca0ccc376b57e1eb6e670cc904199c6f7eb5afac0d9e1e2ce0ac8ef72e
 
 RPROVIDES:${PN} += "lunar-calendar \
 lunar-calendar(aarch-64)"
+
 RDEPENDS:${PN} += "liblunar-calendar-3_0-1"
 
 inherit rpm

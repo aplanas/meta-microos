@@ -9,6 +9,7 @@ RPM_HASH = "2c9d5038eb76f150e3e1434b8250e2211245bacec18d13640240706f8b50082dd934
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-book-of-common-prayer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

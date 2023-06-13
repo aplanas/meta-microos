@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xpeek.sty) \
 texlive-xpeek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

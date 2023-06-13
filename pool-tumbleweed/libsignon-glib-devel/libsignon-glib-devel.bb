@@ -13,6 +13,7 @@ RPM_HASH = "469f17971dc764eb2312d39796267fda74e75dd4668c0c4b9c75267b1b3570094798
 RPROVIDES:${PN} += "libsignon-glib-devel \
 libsignon-glib-devel(aarch-64) \
 pkgconfig(libsignon-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsignon-glib2 \
 pkgconfig(gio-2.0) \

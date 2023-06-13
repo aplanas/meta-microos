@@ -11,6 +11,7 @@ RPM_HASH = "1447cd14a4d66e47e1000f88339ddfae179e448b47424912269546a1f2052b82392c
 RPROVIDES:${PN} += "cmake(KDevPlatform) \
 kdevplatform-devel \
 kdevplatform-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5TextEditor) \
 cmake(KF5ThreadWeaver) \
 libkdevplatform511"

@@ -14,6 +14,7 @@ RPM_HASH = "c73cf2e57a1b2a76018f459a5438a7243de52d954f4cb952e5dfd4e52a4752789eef
 RPROVIDES:${PN} += "typelib(UDisks) \
 typelib-1_0-UDisks-2_0 \
 typelib-1_0-UDisks-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libudisks2.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

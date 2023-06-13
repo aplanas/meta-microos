@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(lynx) \
 lynx \
 lynx(aarch-64) \
 web_browser"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

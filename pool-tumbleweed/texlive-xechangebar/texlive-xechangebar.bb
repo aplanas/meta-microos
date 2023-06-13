@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xechangebar.sty) \
 texlive-xechangebar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

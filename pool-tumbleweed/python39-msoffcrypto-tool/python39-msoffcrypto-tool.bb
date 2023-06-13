@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(msoffcrypto-tool) \
 python39-msoffcrypto-tool \
 python3dist(msoffcrypto-tool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

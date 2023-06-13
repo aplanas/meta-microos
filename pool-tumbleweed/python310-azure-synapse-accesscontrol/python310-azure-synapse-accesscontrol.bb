@@ -16,6 +16,7 @@ python3.10dist(azure-synapse-accesscontrol) \
 python310-azure-synapse \
 python310-azure-synapse-accesscontrol \
 python3dist(azure-synapse-accesscontrol)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

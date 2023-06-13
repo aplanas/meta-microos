@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-parsel \
 python3.10dist(parsel) \
 python310-parsel \
 python3dist(parsel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cssselect \
 python310-lxml \

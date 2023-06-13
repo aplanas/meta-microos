@@ -9,6 +9,7 @@ RPM_HASH = "f75f5136dcbdb9d201ab2d6a8ee7b9eecfc3bb6854c0d9a4addc08dc9e4e0008526d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-sensors"
+
 RDEPENDS:${PN} += "bumblebee-status \
 sensors"
 

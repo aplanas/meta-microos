@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(typeguard) \
 python39-typeguard \
 python3dist(typeguard)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-importlib-metadata \
 python39-typing-extensions"

@@ -19,6 +19,7 @@ jaf_1_1_api \
 jaf_api \
 mvn(org.apache.geronimo.specs:geronimo-activation_1.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-activation_1.1_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

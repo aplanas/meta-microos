@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bold-extra.sty) \
 texlive-bold-extra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

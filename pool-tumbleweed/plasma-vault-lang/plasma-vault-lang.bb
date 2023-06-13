@@ -54,6 +54,7 @@ locale(plasma-vault:zh_CN) \
 locale(plasma-vault:zh_TW) \
 plasma-vault-lang \
 plasma-vault-lang-all"
+
 RDEPENDS:${PN} += "plasma-vault"
 
 inherit rpm

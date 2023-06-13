@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(hobsub-generic.sty) \
 tex(hobsub-hyperref.sty) \
 tex(hobsub.sty) \
 texlive-hobsub"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

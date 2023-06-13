@@ -40,6 +40,7 @@ mimehandler(application/octet-stream) \
 mimehandler(x-scheme-handler/sms) \
 mimehandler(x-scheme-handler/tel) \
 qt5qmlimport(org.kde.kdeconnect.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

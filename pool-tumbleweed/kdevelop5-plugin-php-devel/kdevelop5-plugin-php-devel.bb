@@ -11,6 +11,7 @@ RPM_HASH = "6f53063c02c76941d7c455ac15fdd302ce34bedb7eca4b384566de82dd6be4c8d11d
 RPROVIDES:${PN} += "cmake(KDevPHP) \
 kdevelop5-plugin-php-devel \
 kdevelop5-plugin-php-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kdevelop5-plugin-php"
 
 inherit rpm

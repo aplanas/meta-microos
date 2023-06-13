@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(LWP::Protocol::https) \
 perl(LWP::Protocol::https::Socket) \
 perl-LWP-Protocol-https"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::SSL) \
 perl(LWP::Protocol::http) \

@@ -14,6 +14,7 @@ enchant-1-backend-voikko \
 enchant-1-backend-voikko(aarch-64) \
 libenchant_voikko.so()(64bit) \
 locale(enchant-1:fi)"
+
 RDEPENDS:${PN} += "enchant-1-backends \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

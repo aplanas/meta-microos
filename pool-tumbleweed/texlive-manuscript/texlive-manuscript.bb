@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(manuscript.sty) \
 texlive-manuscript"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

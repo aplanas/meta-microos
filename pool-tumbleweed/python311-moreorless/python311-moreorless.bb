@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(moreorless) \
 python311-moreorless \
 python3dist(moreorless)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-click \
 python311-volatile"

@@ -24,6 +24,7 @@ font(fourier-math-symbols) \
 font(fourier-orns) \
 font(fourierorns) \
 texlive-fourier-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

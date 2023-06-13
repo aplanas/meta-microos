@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyJWT \
 python3.10dist(pyjwt) \
 python310-PyJWT \
 python3dist(pyjwt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-typing-extensions \

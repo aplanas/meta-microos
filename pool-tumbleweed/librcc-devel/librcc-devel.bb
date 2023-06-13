@@ -11,6 +11,7 @@ RPM_HASH = "47e5d9eca77d1d30bcdd82768adda8aea720b7375d1cb1ed9c2ae8b5b4f56f18ad45
 RPROVIDES:${PN} += "librcc-devel \
 librcc-devel(aarch-64) \
 pkgconfig(librcc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librcc0 \
 pkgconfig(libxml-2.0)"

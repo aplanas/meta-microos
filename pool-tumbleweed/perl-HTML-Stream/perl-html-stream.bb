@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(HTML::Stream) \
 perl(HTML::Stream::FileHandle) \
 perl(HTML::Stream::Latin1) \
 perl-HTML-Stream"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

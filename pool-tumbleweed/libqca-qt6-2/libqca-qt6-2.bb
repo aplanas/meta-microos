@@ -10,6 +10,7 @@ RPM_HASH = "21c9fa7c1337cb2c55494bc8d0b78fb24521105b86d09ce648f5624c45a9ed1a5142
 RPROVIDES:${PN} += "libqca-qt6-2 \
 libqca-qt6-2(aarch-64) \
 libqca-qt6.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tikzlibrarymarmots.code.tex) \
 tex(tikzmarmots.sty) \
 texlive-tikzmarmots"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "ae0e56a69af36474b966ca060d6f638e35ce9d11bed2f91bbb6014a5780c4bfc3ff0
 
 RPROVIDES:${PN} += "src_vipa \
 src_vipa(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit)"
 

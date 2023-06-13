@@ -56,6 +56,7 @@ locale(xfce4-mailwatch-plugin:zh_TW) \
 xfce4-mailwatch-plugin-lang \
 xfce4-mailwatch-plugin-lang-all \
 xfce4-panel-plugin-mailwatch-lang"
+
 RDEPENDS:${PN} += "xfce4-mailwatch-plugin"
 
 inherit rpm

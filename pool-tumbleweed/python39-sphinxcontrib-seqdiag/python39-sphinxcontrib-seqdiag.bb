@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-seqdiag) \
 python39-sphinxcontrib-seqdiag \
 python3dist(sphinxcontrib-seqdiag)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-blockdiag \

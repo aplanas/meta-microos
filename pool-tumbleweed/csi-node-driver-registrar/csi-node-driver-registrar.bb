@@ -9,6 +9,7 @@ RPM_HASH = "bb205addba8876f514bfc26982e79c7bf75b8726801ecf493bbbefb2d559f04aee20
 
 RPROVIDES:${PN} += "csi-node-driver-registrar \
 csi-node-driver-registrar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

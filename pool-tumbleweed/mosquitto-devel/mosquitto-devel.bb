@@ -17,6 +17,7 @@ mosquitto-devel \
 mosquitto-devel(aarch-64) \
 pkgconfig(libmosquitto) \
 pkgconfig(libmosquittopp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmosquitto1 \
 libmosquittopp1"

@@ -14,6 +14,7 @@ libFOX-1.6.so.0()(64bit) \
 libFOX-1_6-0 \
 libFOX-1_6-0(aarch-64) \
 libfox1_6"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGL.so.1()(64bit) \
 libGLU.so.1()(64bit) \

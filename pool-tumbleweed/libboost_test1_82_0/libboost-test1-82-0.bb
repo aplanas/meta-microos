@@ -12,6 +12,7 @@ libboost_test1_82_0 \
 libboost_test1_82_0(aarch-64) \
 libboost_test_exec_monitor.so.1.82.0()(64bit) \
 libboost_unit_test_framework.so.1.82.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(typed-checklist.sty) \
 texlive-typed-checklist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

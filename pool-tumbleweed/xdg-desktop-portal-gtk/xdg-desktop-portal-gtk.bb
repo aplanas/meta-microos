@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(xdg-desktop-portal-gtk.desktop) \
 xdg-desktop-portal-gtk \
 xdg-desktop-portal-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \

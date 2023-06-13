@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cstypo-tex.tex) \
 tex(cstypo.sty) \
 texlive-cstypo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

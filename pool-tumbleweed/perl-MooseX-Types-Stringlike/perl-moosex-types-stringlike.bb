@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::Types::Stringlike) \
 perl-MooseX-Types-Stringlike"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MooseX::Types) \
 perl(MooseX::Types::Moose)"

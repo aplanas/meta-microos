@@ -11,6 +11,7 @@ RPM_HASH = "f2578977202b4d89de8597c942873965f79f8f1d32cc55d23da0b33557d335c52353
 RPROVIDES:${PN} += "ghc-devel(haddock-library-1.11.0-3IU1wl1Mct8946s210c9Hs) \
 ghc-haddock-library-devel \
 ghc-haddock-library-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

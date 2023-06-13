@@ -13,6 +13,7 @@ RPM_HASH = "757edd2b802e3fc2e30c1a2704f0e487d909a6fc3bb3e7d377282b850bd2e598f8e3
 
 RPROVIDES:${PN} += "rsyslog-module-ossl \
 rsyslog-module-ossl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

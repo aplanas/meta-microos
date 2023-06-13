@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-filelock \
 python3.10dist(filelock) \
 python310-filelock \
 python3dist(filelock)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

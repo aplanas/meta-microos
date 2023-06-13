@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(pgf-spectra.sty) \
 tex(spectra.data.LSE.tex) \
 tex(spectra.data.NIST.tex) \
 texlive-pgf-spectra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

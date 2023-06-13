@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libunbound-devel \
 pkgconfig(libunbound) \
 unbound-devel \
 unbound-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ldns-devel \
 libunbound8 \

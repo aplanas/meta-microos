@@ -21,6 +21,7 @@ RPM_HASH = "cbfa93094b3cfbbf0ca6beef89b0a86d0641d4e7d6ca39eedca09a75b6bf7f648d5f
 RPROVIDES:${PN} += "java-kolabformat \
 java-libkolabxml1 \
 java-libkolabxml1(aarch-64)"
+
 RDEPENDS:${PN} += "libkolabxml1"
 
 inherit rpm

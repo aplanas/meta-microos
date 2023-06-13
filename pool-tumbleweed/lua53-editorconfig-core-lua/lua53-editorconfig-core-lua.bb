@@ -16,6 +16,7 @@ RPM_HASH = "ef8c3bae714b54a08ff2eddf562e4ca5ec841caf2aed7d71d5746ad8d71640e71db1
 RPROVIDES:${PN} += "lua53-LPeg \
 lua53-editorconfig-core-lua \
 lua53-editorconfig-core-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "6925bf4e6e72cbdd6af38287dcb7958b73d32055a4fcf27cee7d853d9ee3ed4527f1
 RPROVIDES:${PN} += "libgstallocators-1.0.so.0()(64bit) \
 libgstallocators-1_0-0 \
 libgstallocators-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

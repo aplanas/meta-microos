@@ -15,6 +15,7 @@ RPM_HASH = "9d6e408e64898da6899888bdbd7cc5c4a587514cf8f326b350c833a803a4c29d0eb9
 RPROVIDES:${PN} += "openjpeg2-devel \
 openjpeg2-devel(aarch-64) \
 pkgconfig(libopenjp2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenjp2-7 \
 openjpeg2"

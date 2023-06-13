@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pyinotify \
 python3.10dist(pyinotify) \
 python310-pyinotify \
 python3dist(pyinotify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 update-alternatives"

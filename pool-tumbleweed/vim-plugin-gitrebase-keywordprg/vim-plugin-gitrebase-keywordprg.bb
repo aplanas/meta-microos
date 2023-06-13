@@ -11,6 +11,7 @@ RPM_HASH = "b684195a22f03bb5e68c6dc8a9211585156c9758d0aa8d35a0f7ff5fa3fa0da7e64d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gitrebase-keywordprg"
+
 RDEPENDS:${PN} += "git-core"
 
 inherit rpm

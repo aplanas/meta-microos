@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nfssext-cfr.sty) \
 texlive-nfssext-cfr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

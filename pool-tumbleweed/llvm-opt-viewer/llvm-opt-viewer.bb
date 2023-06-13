@@ -15,6 +15,7 @@ RPM_HASH = "3372556bee83e56a03aae8a5ab36575b9f4d9ce0ab7cc9c2033a11d91185ac377320
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm-opt-viewer"
+
 RDEPENDS:${PN} += "llvm16-opt-viewer"
 
 inherit rpm

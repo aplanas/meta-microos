@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(keylime) \
 keylime-tpm_cert_store \
 user(keylime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python3-keylime \
 sysuser-shadow"

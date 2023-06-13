@@ -14,6 +14,7 @@ RPM_HASH = "f789833322cab1db3789da6d4c3df7e59f4bffb0b5d3c5485ae21efb89479120e0c8
 RPROVIDES:${PN} += "libnvidia-egl-wayland.so.1()(64bit) \
 libnvidia-egl-wayland1 \
 libnvidia-egl-wayland1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -65,6 +65,7 @@ locale(kmailtransport:ug) \
 locale(kmailtransport:uk) \
 locale(kmailtransport:zh_CN) \
 locale(kmailtransport:zh_TW)"
+
 RDEPENDS:${PN} += "kmailtransport"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cifs-mount \
 cifs-utils \
 cifs-utils(aarch-64) \
 config(cifs-utils)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 keyutils \

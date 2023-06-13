@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-trio) \
 python39-pytest-trio \
 python3dist(pytest-trio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-contextvars \
 python39-outcome \

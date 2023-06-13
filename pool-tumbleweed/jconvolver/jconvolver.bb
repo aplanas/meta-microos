@@ -21,6 +21,7 @@ RPM_HASH = "c13145f009a0416f800f56ea716b41ea5dab55512af853e70090c52a1c87a3b6805f
 
 RPROVIDES:${PN} += "jconvolver \
 jconvolver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

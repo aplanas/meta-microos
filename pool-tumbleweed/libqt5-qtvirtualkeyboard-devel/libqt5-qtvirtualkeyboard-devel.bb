@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt5VirtualKeyboard) \
 libqt5-qtvirtualkeyboard-devel \
 libqt5-qtvirtualkeyboard-devel(aarch-64) \
 pkgconfig(Qt5VirtualKeyboard)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqt5-qtvirtualkeyboard \
 pkgconfig(Qt5Core) \

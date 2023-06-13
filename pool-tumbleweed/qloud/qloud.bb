@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(qloud.desktop) \
 qloud \
 qloud(aarch-64)"
+
 RDEPENDS:${PN} += "jack \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "ed86774a11f0ccada315713d8319c899054942ec2860b870cac9b2a2d7a279ceffa6
 
 RPROVIDES:${PN} += "tabix \
 tabix(aarch-64)"
+
 RDEPENDS:${PN} += "bgzip \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

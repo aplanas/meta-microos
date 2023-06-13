@@ -12,6 +12,7 @@ RPM_HASH = "b837083fd5c67d2f4364e00f010b6e17412e62faf8ed834fcfef6ff78fd6f22b4093
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "transmission-common"
+
 RDEPENDS:${PN} += "transmission-ui"
 
 inherit rpm

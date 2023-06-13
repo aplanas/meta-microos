@@ -9,6 +9,7 @@ RPM_HASH = "9d25b4bc5cd9c9d0d5d8e60c129d2f1b8773d8f58c841efcde74e3e8d058291298d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanoxml-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

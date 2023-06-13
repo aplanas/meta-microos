@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(askmaps.sty) \
 texlive-askmaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -24,6 +24,7 @@ RPM_HASH = "4dc87a94e88ce60bf3489177731ab190a78a84cd4b3c777bcd7a6070bf1c2d496793
 
 RPROVIDES:${PN} += "razor-agents \
 razor-agents(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl-razor-agents"

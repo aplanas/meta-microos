@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-anymarkup-core \
 python3.10dist(anymarkup-core) \
 python310-anymarkup-core \
 python3dist(anymarkup-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "886c47216604a64051e87098725fc54eaa97cf5aca7cdc964beb6614f7657d5b8f7e
 RPROVIDES:${PN} += "libmng.so.2()(64bit) \
 libmng2 \
 libmng2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

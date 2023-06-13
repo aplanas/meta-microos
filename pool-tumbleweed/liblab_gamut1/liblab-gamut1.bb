@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libgraphviz6:/usr/lib64/liblab_gamut.so.1 \
 liblab_gamut.so.1()(64bit) \
 liblab_gamut1 \
 liblab_gamut1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

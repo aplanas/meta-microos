@@ -28,6 +28,7 @@ RPM_HASH = "ef34edec74f66b47721b04fbeab25329120df049416760f5c180fcab791fa9370ba2
 RPROVIDES:${PN} += "perl(Sub::Identify) \
 perl-Sub-Identify \
 perl-Sub-Identify(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

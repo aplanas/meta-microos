@@ -19,6 +19,7 @@ application(kupfer-exec.desktop) \
 application(kupfer.desktop) \
 kupfer \
 mimehandler(text/x-kfcom)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 gvfs \

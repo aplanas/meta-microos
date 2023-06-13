@@ -9,6 +9,7 @@ RPM_HASH = "b9e5a3c18a22b471266509c54c038e632acb59c68ca4a03579636061d867da89ea41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libzmf-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

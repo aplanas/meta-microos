@@ -12,6 +12,7 @@ RPM_HASH = "18987d915bf08f9d3dd6810da3325c4569dfc7135bb2fcb5b62a703deed8a42ea9a0
 
 RPROVIDES:${PN} += "bs1770gain \
 bs1770gain(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \

@@ -18,6 +18,7 @@ python310-glue \
 python310-lscsoft-glue \
 python310-lscsoft-glue(aarch-64) \
 python3dist(lscsoft-glue)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "5570471dac6b3f9a7cb80a067d091995d137fa63df3fe28568690e44f47242f512e8
 RPROVIDES:${PN} += "openvswitch-devel:/usr/include/ovn \
 ovn-devel \
 ovn-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libovn-23_03-0"
 
 inherit rpm

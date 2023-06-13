@@ -10,6 +10,7 @@ RPM_HASH = "6a4bc06733dbf9a089f9cce62609a885ea110af9b2305a3e9b377bdfd6d06d339312
 RPROVIDES:${PN} += "typelib(Xfconf) \
 typelib-1_0-Xfconf-0 \
 typelib-1_0-Xfconf-0(aarch-64)"
+
 RDEPENDS:${PN} += "libxfconf-0.so.3()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

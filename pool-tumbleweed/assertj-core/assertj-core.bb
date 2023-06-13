@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "assertj-core \
 mvn(org.assertj:assertj-core) \
 mvn(org.assertj:assertj-core:pom:) \
 osgi(org.assertj.core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.mockito:mockito-core)"

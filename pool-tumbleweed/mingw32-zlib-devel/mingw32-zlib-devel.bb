@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "mingw32(lib:z) \
 mingw32(pkg:zlib) \
 mingw32(pkg:zlib-static) \
 mingw32-zlib-devel"
+
 RDEPENDS:${PN} += "mingw32-libz"
 
 inherit rpm

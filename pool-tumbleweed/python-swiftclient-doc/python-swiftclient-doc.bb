@@ -12,6 +12,7 @@ RPM_HASH = "553c489da51954497991ff3c8f1bb50ca015a531d6b3afd9950141635e3b69bfd96e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-swiftclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

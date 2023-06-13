@@ -14,6 +14,7 @@ RPM_HASH = "a732d297599e845527bdccf391b6c6c850c2f410f54500ec1d7723a6ef0d0b3c1c5d
 RPROVIDES:${PN} += "libgloox.so.18()(64bit) \
 libgloox18 \
 libgloox18(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

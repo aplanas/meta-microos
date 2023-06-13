@@ -15,6 +15,7 @@ RPM_HASH = "8af07daafed8799526fd07ac246ab86e628ec1aaed3d4baf913ec2560120be022b5c
 RPROVIDES:${PN} += "typelib(Jsonrpc) \
 typelib-1_0-Jsonrpc-1_0 \
 typelib-1_0-Jsonrpc-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libjsonrpc-glib-1.0.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

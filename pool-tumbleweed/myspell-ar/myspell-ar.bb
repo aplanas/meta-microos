@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:ar) \
 myspell-ar \
 myspell-arabic \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

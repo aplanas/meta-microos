@@ -10,6 +10,7 @@ RPM_HASH = "acd26d170115481904744aa269a1c8546d0f26ca685f70bf5e99ed0c7b7aa93616b5
 
 RPROVIDES:${PN} += "libeconf-utils \
 libeconf-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

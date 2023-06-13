@@ -15,6 +15,7 @@ RPM_HASH = "0045b4008ab0011bf8495860947a69f70df91763c2c93a4c2addac480a5d3e78ff16
 
 RPROVIDES:${PN} += "fbcat \
 fbcat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

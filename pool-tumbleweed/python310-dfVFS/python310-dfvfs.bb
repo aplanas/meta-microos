@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-dfVFS \
 python3.10dist(dfvfs) \
 python310-dfVFS \
 python3dist(dfvfs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-construct \

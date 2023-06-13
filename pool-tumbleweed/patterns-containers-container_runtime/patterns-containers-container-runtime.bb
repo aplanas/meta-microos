@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-caasp-container-runtime \
 patterns-containers-container_runtime \
 patterns-containers-container_runtime(aarch-64)"
+
 RDEPENDS:${PN} += "(distrobox if patterns-microos-desktop-common else toolbox) \
 containers-systemd \
 pattern() \

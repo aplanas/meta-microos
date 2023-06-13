@@ -15,6 +15,7 @@ RPM_HASH = "5d5451fef0e9e32e5afb849151a1bebb48761303f0f1c7f7a8edf9361eb75b385286
 
 RPROVIDES:${PN} += "bgzip \
 bgzip(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

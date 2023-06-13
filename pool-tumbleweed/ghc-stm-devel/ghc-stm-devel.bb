@@ -12,6 +12,7 @@ ghc-stm-devel \
 ghc-stm-devel(aarch-64) \
 ghc-stm-static \
 ghc-stm-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(array-0.5.4.0) \
 ghc-devel(base-4.17.1.0) \

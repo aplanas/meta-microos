@@ -58,6 +58,7 @@ locale(milou5:zh_CN) \
 locale(milou5:zh_TW) \
 milou5-lang \
 milou5-lang-all"
+
 RDEPENDS:${PN} += "milou5"
 
 inherit rpm

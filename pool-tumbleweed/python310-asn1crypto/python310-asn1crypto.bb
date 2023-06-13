@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-asn1crypto \
 python3.10dist(asn1crypto) \
 python310-asn1crypto \
 python3dist(asn1crypto)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

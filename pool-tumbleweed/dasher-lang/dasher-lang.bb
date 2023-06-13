@@ -88,6 +88,7 @@ locale(dasher:vi) \
 locale(dasher:zh_CN) \
 locale(dasher:zh_HK) \
 locale(dasher:zh_TW)"
+
 RDEPENDS:${PN} += "dasher"
 
 inherit rpm

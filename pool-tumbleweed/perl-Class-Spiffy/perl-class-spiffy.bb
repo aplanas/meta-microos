@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "perl(Class::Spiffy) \
 perl(Class::Spiffy::mixin) \
 perl(DB) \
 perl-Class-Spiffy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

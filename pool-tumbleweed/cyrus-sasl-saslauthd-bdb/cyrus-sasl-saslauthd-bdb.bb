@@ -10,6 +10,7 @@ RPM_HASH = "9cae7d9d0c4bd48751446e3f9908d66608a4faef7c8c2f585cdd16acae828d015136
 
 RPROVIDES:${PN} += "cyrus-sasl-saslauthd-bdb \
 cyrus-sasl-saslauthd-bdb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

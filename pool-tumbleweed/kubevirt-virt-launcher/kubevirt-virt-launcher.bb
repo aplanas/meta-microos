@@ -9,6 +9,7 @@ RPM_HASH = "4ba6c1e1707d6803d40b406a6445a81d20cea2300c11a3631ae31dc5276931b81d32
 
 RPROVIDES:${PN} += "kubevirt-virt-launcher \
 kubevirt-virt-launcher(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit) \
 libvirt-lxc.so.0()(64bit) \

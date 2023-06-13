@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(physconst.sty) \
 texlive-physconst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

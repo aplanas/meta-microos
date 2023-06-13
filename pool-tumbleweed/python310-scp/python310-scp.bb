@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-scp \
 python3.10dist(scp) \
 python310-scp \
 python3dist(scp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-paramiko"
 

@@ -15,6 +15,7 @@ RPM_HASH = "85e67611f1ddf784d17ec777028523b4d66ef46c3a415b4a53d4b997a29486b880d2
 RPROVIDES:${PN} += "typelib(GCab) \
 typelib-1_0-GCab-1_0 \
 typelib-1_0-GCab-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgcab-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

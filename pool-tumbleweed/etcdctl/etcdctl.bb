@@ -10,6 +10,7 @@ RPM_HASH = "a7c05641c61fc59b8fbaec6aa37f97bcfc79da87b460df1342ea1522e3d28e155637
 
 RPROVIDES:${PN} += "etcdctl \
 etcdctl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

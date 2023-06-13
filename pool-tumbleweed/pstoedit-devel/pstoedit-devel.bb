@@ -10,6 +10,7 @@ RPM_HASH = "57fc7d2a06ab57b122d275699a669fa7229ed37dc5f4eb3dc623adc0acafb0a4b6c3
 RPROVIDES:${PN} += "pkgconfig(pstoedit) \
 pstoedit-devel \
 pstoedit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ImageMagick-devel \
 libMagick++-devel \

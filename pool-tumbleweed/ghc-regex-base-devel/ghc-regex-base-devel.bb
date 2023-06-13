@@ -10,6 +10,7 @@ RPM_HASH = "bae8d2aaac525900626147b7412313f1810a5c90d3751262f795e287d80a40c700ef
 RPROVIDES:${PN} += "ghc-devel(regex-base-0.94.0.2-8EhYuxSr6UD5zE7cP6wrkq) \
 ghc-regex-base-devel \
 ghc-regex-base-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

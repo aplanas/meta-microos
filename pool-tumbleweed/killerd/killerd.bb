@@ -12,6 +12,7 @@ RPM_HASH = "8368013dbb5b8e13511fd1b104cd221c73e7ecccc5b4042d24ce5bd5fb7b2c01b7e5
 RPROVIDES:${PN} += "config(killerd) \
 killerd \
 killerd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

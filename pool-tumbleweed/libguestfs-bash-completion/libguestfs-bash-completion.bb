@@ -10,6 +10,7 @@ RPM_HASH = "88899e9df9f9e10c4c46b23adedc08a2546eab6c86f36591cc547df42fb264be7ce5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

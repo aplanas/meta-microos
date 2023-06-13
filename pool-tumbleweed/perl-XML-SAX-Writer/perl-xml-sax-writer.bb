@@ -19,6 +19,7 @@ perl(XML::SAX::Writer::NullConverter) \
 perl(XML::SAX::Writer::StringConsumer) \
 perl(XML::SAX::Writer::XML) \
 perl-XML-SAX-Writer"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::Filter::BufferText) \
 perl(XML::NamespaceSupport) \

@@ -15,6 +15,7 @@ RPM_HASH = "6b9bb33d435b4920c12e6cd15cf21887e103f1266af7e9aae964f2ff3402425ece1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-ale"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

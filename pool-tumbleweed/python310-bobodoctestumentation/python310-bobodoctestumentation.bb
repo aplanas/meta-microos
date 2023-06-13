@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-bobodoctestumentation \
 python3.10dist(bobodoctestumentation) \
 python310-bobodoctestumentation \
 python3dist(bobodoctestumentation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebTest \
 python310-manuel \

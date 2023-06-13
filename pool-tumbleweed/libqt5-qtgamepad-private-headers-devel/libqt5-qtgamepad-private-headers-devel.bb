@@ -12,6 +12,7 @@ RPM_HASH = "f219e831c63cf7afe53fcbf08f742562583fac6d2a14b9174f883ea82779c4be0de7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtgamepad-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtgamepad-devel"
 

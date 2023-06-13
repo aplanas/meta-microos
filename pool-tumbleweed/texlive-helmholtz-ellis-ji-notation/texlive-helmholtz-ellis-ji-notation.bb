@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(helmholtz-ellis-ji-notation.sty) \
 texlive-helmholtz-ellis-ji-notation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(calligra.map) \
 texlive-calligra-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -45,6 +45,7 @@ mono(Pinta.Gui.Widgets) \
 mono(Pinta.Resources) \
 mono(Pinta.Tools) \
 pinta"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(ICSharpCode.SharpZipLib) \
 mono(Mono.Addins) \

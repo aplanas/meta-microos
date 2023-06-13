@@ -14,6 +14,7 @@ python3.10dist(diff-match-patch) \
 python310-diff-match-patch \
 python310-diff_match_patch \
 python3dist(diff-match-patch)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(onnxconverter-common) \
 python39-onnxconverter-common \
 python3dist(onnxconverter-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-onnx \

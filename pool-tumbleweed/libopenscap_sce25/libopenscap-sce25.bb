@@ -10,6 +10,7 @@ RPM_HASH = "893c1e4b23f9c43f3de5329e2a82ad5ca6b731fdd42da5a3aaf7f7400b3f29ffc3fe
 RPROVIDES:${PN} += "libopenscap_sce.so.25()(64bit) \
 libopenscap_sce25 \
 libopenscap_sce25(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

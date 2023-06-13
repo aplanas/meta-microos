@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vulkan) \
 python311-vulkan \
 python3dist(vulkan)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cffi \
 vulkan"

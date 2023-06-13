@@ -10,6 +10,7 @@ RPM_HASH = "dd8214342829ca294b4c106c1677c58bc1340bb563c16aeb392bfac63060a572b9b9
 RPROVIDES:${PN} += "liboauth2plugin.so()(64bit) \
 signon-plugin-oauth2 \
 signon-plugin-oauth2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

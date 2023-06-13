@@ -9,6 +9,7 @@ RPM_HASH = "62776f6e6734e073e7b72c2c0c841475ef8ff7d2ad9320a5b231f52e18b51c38ddde
 
 RPROVIDES:${PN} += "texlive-amstex-bin \
 texlive-amstex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-amstex"
 
 inherit rpm

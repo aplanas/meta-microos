@@ -13,6 +13,7 @@ RPM_HASH = "e4cbf2a21c3303dbdac94eddc825453708ee17be396e8b3af99e0c5fa792b7b4e59f
 RPROVIDES:${PN} += "libsundials_kinsol.so.6()(64bit) \
 libsundials_kinsol6-mvapich2 \
 libsundials_kinsol6-mvapich2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

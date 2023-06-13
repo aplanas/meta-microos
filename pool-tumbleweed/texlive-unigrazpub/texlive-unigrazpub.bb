@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unigrazpub.cls) \
 texlive-unigrazpub"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

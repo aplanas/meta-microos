@@ -9,6 +9,7 @@ RPM_HASH = "1a0326611342a991f875679e19cc5e2a131dce690ba43501caeec7dc13590d32b0de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fundus-sueterlin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

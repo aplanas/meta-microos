@@ -9,6 +9,7 @@ RPM_HASH = "0a4346292536230ab25b71811f42b14c9f6c23797643994b84f6fb1a90c6d3717443
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xml-commons-apis-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

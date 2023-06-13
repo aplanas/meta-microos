@@ -10,6 +10,7 @@ RPM_HASH = "23da2aa977399c33ff4e2e88a43d510f2bb744294e50af616d5779114375c9f70ef7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guestfs-tools-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 guestfs-tools"
 

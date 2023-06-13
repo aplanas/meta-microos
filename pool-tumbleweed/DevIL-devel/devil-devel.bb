@@ -16,6 +16,7 @@ libdevil-devel \
 pkgconfig(IL) \
 pkgconfig(ILU) \
 pkgconfig(ILUT)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libIL1 \
 pkgconfig(IL)"

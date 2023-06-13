@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-jupyterlab-plotly \
 python3-plotly-jupyter \
 python310-jupyterlab-plotly \
 python310-plotly-jupyter"
+
 RDEPENDS:${PN} += "(python310-jupyterlab >= 3 or python310-notebook >= 5.3) \
 jupyter-plotly \
 python(abi) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-py2pack-doc \
 python310-py2pack-doc \
 python311-py2pack-doc \
 python39-py2pack-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

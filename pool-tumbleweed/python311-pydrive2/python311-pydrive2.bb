@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pydrive2) \
 python311-pydrive2 \
 python3dist(pydrive2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-filelock \

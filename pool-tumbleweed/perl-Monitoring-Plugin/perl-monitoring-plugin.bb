@@ -26,6 +26,7 @@ perl(Monitoring::Plugin::Performance) \
 perl(Monitoring::Plugin::Range) \
 perl(Monitoring::Plugin::Threshold) \
 perl-Monitoring-Plugin"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \
 perl(Config::Tiny) \

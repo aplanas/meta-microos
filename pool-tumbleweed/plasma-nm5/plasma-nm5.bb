@@ -22,6 +22,7 @@ plasma-nm5 \
 plasma-nm5(aarch-64) \
 plasma-nm5-wireguard \
 qt5qmlimport(org.kde.plasma.networkmanagement.0)"
+
 RDEPENDS:${PN} += "NetworkManager \
 kded \
 kirigami2 \

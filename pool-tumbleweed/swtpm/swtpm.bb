@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(swtpm) \
 libswtpm_libtpms.so.0()(64bit) \
 swtpm \
 swtpm(aarch-64)"
+
 RDEPENDS:${PN} += "(swtpm-selinux if selinux-policy-base) \
 /sbin/ldconfig \
 /usr/bin/bash \

@@ -13,6 +13,7 @@ RPM_HASH = "5ae1b23dd9ee0a66f96a69a6a1c1613b8108f2fc1dbd5f1c11fd3d5109b90a21cc50
 RPROVIDES:${PN} += "cmake(KF5IdleTime) \
 kidletime-devel \
 kidletime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5IdleTime5"

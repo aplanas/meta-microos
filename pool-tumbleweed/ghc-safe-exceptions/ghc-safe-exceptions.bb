@@ -10,6 +10,7 @@ RPM_HASH = "1e4048d69cb9effec149a047f20231a2671e5003a17e9318dd5c53730773f7c21cd6
 RPROVIDES:${PN} += "ghc-safe-exceptions \
 ghc-safe-exceptions(aarch-64) \
 libHSsafe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

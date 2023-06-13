@@ -18,6 +18,7 @@ tex(combine.cls) \
 tex(combinet.sty) \
 tex(combnat.sty) \
 texlive-combine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

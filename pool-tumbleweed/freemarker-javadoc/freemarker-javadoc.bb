@@ -9,6 +9,7 @@ RPM_HASH = "195d3c161eb4fed5f9f0213cedaf1d64432e25111c487150c0780dd161a88e717e49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freemarker-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

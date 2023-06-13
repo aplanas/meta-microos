@@ -10,6 +10,7 @@ RPM_HASH = "98f5c71729692c8d3a6474da0c7ac22e6c2fe9bfc6417da0ccd07e2cb16a43f05052
 RPROVIDES:${PN} += "libdbusextended-qt5-1 \
 libdbusextended-qt5-1(aarch-64) \
 libdbusextended-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

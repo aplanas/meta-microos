@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-RESTful \
 python3.10dist(flask-restful) \
 python310-Flask-RESTful \
 python3dist(flask-restful)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-aniso8601 \

@@ -19,6 +19,7 @@ perl(GD::Graph::pie3d) \
 perl-GD-Graph3d \
 perl-GD-Graph3d(aarch-64) \
 perl-GDGraph3d"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-GD \
 perl-GDGraph \

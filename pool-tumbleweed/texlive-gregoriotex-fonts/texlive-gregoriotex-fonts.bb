@@ -19,6 +19,7 @@ font(gregall) \
 font(grelaon) \
 font(gresgmodern) \
 texlive-gregoriotex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -12,6 +12,7 @@ RPM_HASH = "e0790d6941a5145becfbf02b46fb56f240ab93e5da6a9b3bdaa205a7da38a1c14d5d
 RPROVIDES:${PN} += "leechcraft-rosenthal \
 leechcraft-rosenthal(aarch-64) \
 libleechcraft_rosenthal.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

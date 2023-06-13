@@ -19,6 +19,7 @@ python3.10dist(configupdater) \
 python310-ConfigUpdater \
 python310-configupdater \
 python3dist(configupdater)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

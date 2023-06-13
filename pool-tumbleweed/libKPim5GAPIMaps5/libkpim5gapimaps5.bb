@@ -11,6 +11,7 @@ RPM_HASH = "f9fea4094838b2562052b541613d12aac3f3b939d1e3d5a5286fcdc50110bb983413
 RPROVIDES:${PN} += "libKPim5GAPIMaps.so.5()(64bit) \
 libKPim5GAPIMaps5 \
 libKPim5GAPIMaps5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -33,6 +33,7 @@ mimehandler(image/x-tga) \
 mimehandler(image/x-xpixmap) \
 sxiv \
 sxiv(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \

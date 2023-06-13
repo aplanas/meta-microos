@@ -16,6 +16,7 @@ tex(iast.map) \
 tex(velthuis-sanskrit.map) \
 tex(velthuis.map) \
 texlive-xetex-devanagari"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

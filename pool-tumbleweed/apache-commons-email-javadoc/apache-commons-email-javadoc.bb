@@ -9,6 +9,7 @@ RPM_HASH = "1536a12d09db5f711a28ab9935e21d429bac903408e7d1d75307fcc872537184c74f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-email-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

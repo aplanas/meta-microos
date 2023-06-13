@@ -10,6 +10,7 @@ RPM_HASH = "3f1e7b7d32374cf024f07275b18b9934e00c552f0dff2df00fcf115117ece2cacdde
 RPROVIDES:${PN} += "libfm-gtk-devel \
 libfm-gtk-devel(aarch-64) \
 pkgconfig(libfm-gtk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
 libfm \

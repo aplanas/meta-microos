@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-renderspec \
 python3.10dist(renderspec) \
 python3dist(renderspec)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Jinja2 \

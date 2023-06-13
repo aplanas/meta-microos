@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Email::Valid) \
 perl-Email-Valid"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::CaptureOutput) \
 perl(Mail::Address) \

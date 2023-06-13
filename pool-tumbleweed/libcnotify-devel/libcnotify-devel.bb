@@ -13,6 +13,7 @@ RPM_HASH = "4dd6620e075834737ee55b0abffc1ce948a5af1b6e1fae698ac9698e12727d794dfd
 RPROVIDES:${PN} += "libcnotify-devel \
 libcnotify-devel(aarch-64) \
 pkgconfig(libcnotify)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcnotify1"
 

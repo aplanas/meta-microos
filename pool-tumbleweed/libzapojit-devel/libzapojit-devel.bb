@@ -11,6 +11,7 @@ RPM_HASH = "a14bfdabcf4635ae05f58322278d4950155e8d3a3b30e25c18f2b16f2a2cb040f999
 RPROVIDES:${PN} += "libzapojit-devel \
 libzapojit-devel(aarch-64) \
 pkgconfig(zapojit-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzapojit-0_0-0 \
 pkgconfig(gio-2.0) \

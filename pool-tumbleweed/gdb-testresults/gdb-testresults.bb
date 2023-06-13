@@ -9,6 +9,7 @@ RPM_HASH = "45d6a21514ba8c9f94a3bdf7688d2e041aa1605d79619860c5e37c48a8896804e3fa
 
 RPROVIDES:${PN} += "gdb-testresults \
 gdb-testresults(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python3-base"
 

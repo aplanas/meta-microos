@@ -11,6 +11,7 @@ RPM_HASH = "9afbf7b2b03ec5d0a0b3b9069fe17df93b6f20e68d0189f5eb057cfa2c4777f6cbba
 RPROVIDES:${PN} += "cmake(Qt6WaylandEglClientHwIntegrationPrivate) \
 qt6-waylandeglclienthwintegration-private-devel \
 qt6-waylandeglclienthwintegration-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Gui) \
 libQt6WaylandEglClientHwIntegration6 \
 qt6-opengl-private-devel \

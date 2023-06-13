@@ -9,6 +9,7 @@ RPM_HASH = "67a72e0aa0e7febafff272ded752c27ff18557579843cdc1011db3da9d4dab65ee4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lollipop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

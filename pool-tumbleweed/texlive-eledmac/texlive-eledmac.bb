@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(eledmac.sty) \
 tex(eledpar.sty) \
 texlive-eledmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

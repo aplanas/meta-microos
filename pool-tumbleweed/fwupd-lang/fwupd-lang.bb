@@ -50,6 +50,7 @@ locale(fwupd:tr) \
 locale(fwupd:uk) \
 locale(fwupd:zh_CN) \
 locale(fwupd:zh_TW)"
+
 RDEPENDS:${PN} += "fwupd"
 
 inherit rpm

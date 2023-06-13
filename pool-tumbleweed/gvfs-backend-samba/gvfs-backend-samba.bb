@@ -9,6 +9,7 @@ RPM_HASH = "9f6ab3e9dfcea64692f142829f29ff97cd5e65f6902a3adcb40911136a54a2f5a44f
 
 RPROVIDES:${PN} += "gvfs-backend-samba \
 gvfs-backend-samba(aarch-64)"
+
 RDEPENDS:${PN} += "gvfs \
 gvfs-backends \
 ld-linux-aarch64.so.1()(64bit) \

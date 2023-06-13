@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_guava) \
 mvn(io.prometheus:simpleclient_guava:pom:) \
 osgi(io.prometheus.simpleclient_guava) \
 prometheus-simpleclient-java-guava"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.guava:guava) \

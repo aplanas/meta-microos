@@ -13,6 +13,7 @@ RPM_HASH = "e6a3f3a6296a6ad386a7862bff8515a60bf02c995e5a4cbd69aa056e0a4ec3209c3a
 
 RPROVIDES:${PN} += "llvm-gold \
 llvm-gold(aarch-64)"
+
 RDEPENDS:${PN} += "llvm16-gold"
 
 inherit rpm

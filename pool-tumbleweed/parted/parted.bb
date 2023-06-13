@@ -10,6 +10,7 @@ RPM_HASH = "432371c8a27ad8e796c8a6adbdd46356509a715cead221a443cad30583f8ecc38045
 
 RPROVIDES:${PN} += "parted \
 parted(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

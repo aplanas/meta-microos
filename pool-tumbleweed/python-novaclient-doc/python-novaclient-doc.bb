@@ -13,6 +13,7 @@ RPM_HASH = "89900955f4f8bcc43a4774da2a64b7927c36bda87d75d3fd768d1b9b92b77d972d5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-novaclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

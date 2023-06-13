@@ -12,6 +12,7 @@ RPM_HASH = "8eeab0f47b1b33c2698463b8a7c7ae9f793ad80ab4b73367ff2cc19bdd0a4c6ba259
 
 RPROVIDES:${PN} += "ocfs2-tools-o2cb \
 ocfs2-tools-o2cb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

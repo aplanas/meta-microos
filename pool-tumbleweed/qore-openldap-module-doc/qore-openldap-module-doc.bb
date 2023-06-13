@@ -10,6 +10,7 @@ RPM_HASH = "df5482054fec038525c99c68b1c8b9fb5bbb80fe7fcb0864974ead603ffbd66cd456
 
 RPROVIDES:${PN} += "qore-openldap-module-doc \
 qore-openldap-module-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

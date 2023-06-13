@@ -26,6 +26,7 @@ rpm_macro(_jupyter_distconfig) \
 rpm_macro(_jupyter_kernel_dir) \
 rpm_macro(_jupyter_prefix) \
 rpm_macro(jupyter_move_config)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

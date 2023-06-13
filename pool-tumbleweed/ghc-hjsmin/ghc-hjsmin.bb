@@ -11,6 +11,7 @@ RPM_HASH = "7ab5a71a1d096bfd43069acdf428203a855a287aed3fc1300c73349b58714f5958ab
 RPROVIDES:${PN} += "ghc-hjsmin \
 ghc-hjsmin(aarch-64) \
 libHShjsmin-0.2.1-G11T0ofJtyz5gQQf6GRgL1-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

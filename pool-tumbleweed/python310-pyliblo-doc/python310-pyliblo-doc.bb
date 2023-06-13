@@ -11,6 +11,7 @@ RPM_HASH = "c62d91323215c2bd0fad2b4e80b0e3a21e4510e6ba5f49c84a39aa459e9b6c5170db
 RPROVIDES:${PN} += "python3-pyliblo-doc \
 python310-pyliblo-doc \
 python310-pyliblo-doc(aarch-64)"
+
 RDEPENDS:${PN} += "python310-pyliblo"
 
 inherit rpm

@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-pytest-astropy \
 python3.10dist(pytest-astropy) \
 python310-pytest-astropy \
 python3dist(pytest-astropy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-hypothesis \

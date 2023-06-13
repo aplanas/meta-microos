@@ -9,6 +9,7 @@ RPM_HASH = "d89b376ce0f53aa0b65703a8a9648c8c5d2b0f29d250b0b498aba07a0f0d57f43b7a
 
 RPROVIDES:${PN} += "python311-persistent-devel \
 python311-persistent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-devel \
 python311-persistent"
 

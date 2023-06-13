@@ -20,6 +20,7 @@ perl(MooseX::Singleton::Role::Meta::Instance) \
 perl(MooseX::Singleton::Role::Meta::Method::Constructor) \
 perl(MooseX::Singleton::Role::Object) \
 perl-MooseX-Singleton"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

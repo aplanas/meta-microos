@@ -45,6 +45,7 @@ mimehandler(audio/x-smp) \
 mimehandler(audio/x-voc) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Positioning) \
 pkgconfig(Qt6Positioning) \
 qt6-positioning-devel \
 qt6-positioning-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Positioning6 \

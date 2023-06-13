@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.11dist(xrootd) \
 python311-xrootd \
 python311-xrootd(aarch-64) \
 python3dist(xrootd)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXrdCl.so.3()(64bit) \

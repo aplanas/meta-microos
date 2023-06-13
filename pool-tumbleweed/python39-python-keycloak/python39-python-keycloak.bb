@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-keycloak) \
 python39-python-keycloak \
 python3dist(python-keycloak)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-jose \
 python39-requests \

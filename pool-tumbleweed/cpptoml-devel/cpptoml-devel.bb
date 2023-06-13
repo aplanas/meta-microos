@@ -12,6 +12,7 @@ RPM_HASH = "1b9e26cf6452d0b6fec8b74b75d7762e57b6735bc614884f65568fc47cbda753de29
 RPROVIDES:${PN} += "cmake(cpptoml) \
 cpptoml-devel \
 cpptoml-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

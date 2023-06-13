@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xonsh \
 python3.10dist(xonsh) \
 python3dist(xonsh) \
 xonsh"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-base"

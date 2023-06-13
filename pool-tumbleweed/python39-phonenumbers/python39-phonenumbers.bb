@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(phonenumbers) \
 python39-phonenumbers \
 python39-phonenumberslite \
 python3dist(phonenumbers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "c8cb4cc7803ea361d8130f6b9d7a8d461b46eb5f48551f5c43453c62f46fb430226c
 RPROVIDES:${PN} += "libcircllhist.so.0.0.1()(64bit) \
 libcircllhist0_0_1 \
 libcircllhist0_0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

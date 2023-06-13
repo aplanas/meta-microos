@@ -13,6 +13,7 @@ bundled(rust-crate:pam_saslauthd) \
 bundled(rust-crate:pkg-config) \
 pam_saslauthd \
 pam_saslauthd(aarch-64)"
+
 RDEPENDS:${PN} += "cyrus-sasl-saslauthd \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

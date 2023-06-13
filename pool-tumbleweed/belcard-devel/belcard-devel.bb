@@ -13,6 +13,7 @@ RPM_HASH = "9ec2220aa868aa2e5002456e8c1c32e5f601c316515ea20b36e8a019e3164036c44c
 RPROVIDES:${PN} += "belcard-devel \
 belcard-devel(aarch-64) \
 pkgconfig(belcard)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

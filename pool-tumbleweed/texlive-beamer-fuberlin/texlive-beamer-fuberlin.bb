@@ -20,6 +20,7 @@ tex(beamerfontthemeBerlinFU.sty) \
 tex(beamerouterthemeBerlinFU.sty) \
 tex(beamerthemeBerlinFU.sty) \
 texlive-beamer-fuberlin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

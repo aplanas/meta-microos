@@ -10,6 +10,7 @@ RPM_HASH = "a464ffb1bd4fa8cee1f12eeb83415dd4c3b2a49d0963ca83009ec39482bdb17fedd1
 
 RPROVIDES:${PN} += "pps-tools \
 pps-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

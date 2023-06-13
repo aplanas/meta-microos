@@ -12,6 +12,7 @@ RPM_HASH = "d101c54ca1a087cbe58f4c884d9482b645c2f391c97ab4f147081642197b40585ca2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ijqc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

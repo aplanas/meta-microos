@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-os-client-config \
 python3.10dist(os-client-config) \
 python3dist(os-client-config)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML \
 python3-appdirs \

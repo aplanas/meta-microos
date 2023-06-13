@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hypothesis) \
 python311-hypothesis \
 python3dist(hypothesis)"
+
 RDEPENDS:${PN} += "(python311-exceptiongroup >= 1.0.0 if python311-base < 3.11) \
 (python311-sortedcontainers >= 2.1.0 with python311-sortedcontainers < 3.0) \
 /bin/sh \

@@ -11,6 +11,7 @@ RPM_HASH = "46139a63607abe0083035f686821067a25005f9b3ff154ef51658197c0639e2efa76
 RPROVIDES:${PN} += "libprotobuf-mutator-devel \
 libprotobuf-mutator-devel(aarch-64) \
 pkgconfig(libprotobuf-mutator)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

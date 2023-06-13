@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblinebreak-devel \
 libunibreak-devel \
 libunibreak-devel(aarch-64) \
 pkgconfig(libunibreak)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunibreak5 \
 pkgconfig"

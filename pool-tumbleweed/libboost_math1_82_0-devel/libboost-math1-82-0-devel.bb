@@ -10,6 +10,7 @@ RPM_HASH = "b0736e76b41d882ac5ed62348001842711597a2cb26085865c632c9fe2b9047a1981
 RPROVIDES:${PN} += "libboost_math-devel-impl \
 libboost_math1_82_0-devel \
 libboost_math1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_math1_82_0"
 

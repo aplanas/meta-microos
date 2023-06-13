@@ -14,6 +14,7 @@ RPM_HASH = "9c70b49d6f3fccb98dc7c112598fb205a089b4e5b101e3eba919c1ef464a34a69cbd
 RPROVIDES:${PN} += "libipmiconsole.so.2()(64bit) \
 libipmiconsole2 \
 libipmiconsole2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

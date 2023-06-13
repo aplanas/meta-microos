@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "apache-commons-vfs2 \
 mvn(org.apache.commons:commons-vfs2) \
 mvn(org.apache.commons:commons-vfs2:pom:) \
 osgi(org.apache.commons.commons-vfs2)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

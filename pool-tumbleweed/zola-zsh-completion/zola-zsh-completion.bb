@@ -9,6 +9,7 @@ RPM_HASH = "c3bf75a41c3bdadf49777b7c1ec5aa37bf50ce327de50f342a247d507cdae561139d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zola-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

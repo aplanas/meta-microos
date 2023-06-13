@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DBIx::Class::IntrospectableM2M) \
 perl-DBIx-Class-IntrospectableM2M"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBIx::Class)"
 

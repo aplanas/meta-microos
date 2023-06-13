@@ -69,6 +69,7 @@ locale(NetworkManager-fortisslvpn:vi) \
 locale(NetworkManager-fortisslvpn:zh_CN) \
 locale(NetworkManager-fortisslvpn:zh_HK) \
 locale(NetworkManager-fortisslvpn:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-fortisslvpn"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "bcbab9bb847e3a3c7151d384617b4e3ae8526ef74c05448f7e4833316e25b6c38cf2
 RPROVIDES:${PN} += "libindicator3-7 \
 libindicator3-7(aarch-64) \
 libindicator3.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

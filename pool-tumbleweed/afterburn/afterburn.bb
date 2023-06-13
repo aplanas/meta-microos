@@ -9,6 +9,7 @@ RPM_HASH = "38ede3cfab66dd7bb0cc0b430ce47ebe017b8eb958c6cf5d7f42225fea6515454e73
 
 RPROVIDES:${PN} += "afterburn \
 afterburn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "e0f7dc9a3d73387c3aa4ded2bf5a64e2d2d0c89c229d870948ebcb9fc26448f61d2e
 RPROVIDES:${PN} += "libpipeline.so.1()(64bit) \
 libpipeline1 \
 libpipeline1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

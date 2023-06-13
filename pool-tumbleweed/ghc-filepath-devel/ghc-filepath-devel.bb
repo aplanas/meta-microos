@@ -12,6 +12,7 @@ ghc-filepath-devel \
 ghc-filepath-devel(aarch-64) \
 ghc-filepath-static \
 ghc-filepath-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-filepath(aarch-64)"

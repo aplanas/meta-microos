@@ -36,6 +36,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Symbol::Util) \
 perl-Symbol-Util"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "a5662842ad15755d69370726afe9a8084b6dc58745a9b16c52860b535879ee8cfa1e
 
 RPROVIDES:${PN} += "mold \
 mold(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -21,6 +21,7 @@ RPM_HASH = "69d9f26eec3c7fd29094e0b61fbd035733b6a21a3e0d85421617cc8326976e72d2bd
 
 RPROVIDES:${PN} += "charliecloud \
 charliecloud(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

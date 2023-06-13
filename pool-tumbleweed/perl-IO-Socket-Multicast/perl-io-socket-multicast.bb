@@ -20,6 +20,7 @@ RPM_HASH = "2854edda8b49a303e7c8378ad47baee252bad17f57c5ab993730e1130f8d35db39d1
 RPROVIDES:${PN} += "perl(IO::Socket::Multicast) \
 perl-IO-Socket-Multicast \
 perl-IO-Socket-Multicast(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

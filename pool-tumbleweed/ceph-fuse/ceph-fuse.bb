@@ -9,6 +9,7 @@ RPM_HASH = "fd9a4f8db2f37fa6a9f761106f9c6a9ec1a2f964c52dea5da273a78f2a0fdd994a23
 
 RPROVIDES:${PN} += "ceph-fuse \
 ceph-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 fuse \
 ld-linux-aarch64.so.1()(64bit) \

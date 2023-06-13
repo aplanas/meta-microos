@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(fontpens) \
 python39-fontPens \
 python3dist(fontpens)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-FontTools"
 

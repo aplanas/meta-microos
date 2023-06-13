@@ -11,6 +11,7 @@ RPM_HASH = "c71608d728fbe03ec43b3f3b712a74534c329ab9dc175ed3ee03c81ab41b774b5a86
 
 RPROVIDES:${PN} += "liblouis-doc \
 liblouis-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

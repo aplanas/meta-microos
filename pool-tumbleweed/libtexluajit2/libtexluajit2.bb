@@ -10,6 +10,7 @@ RPM_HASH = "1cb87b1ee4a223fa87904b05a6ed7cbd73b9989191e0f98fdf9aca0e58cdaac7a7d7
 RPROVIDES:${PN} += "libtexluajit.so.2()(64bit) \
 libtexluajit2 \
 libtexluajit2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

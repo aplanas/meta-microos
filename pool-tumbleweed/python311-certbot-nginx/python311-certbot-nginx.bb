@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(certbot-nginx) \
 python311-certbot-nginx \
 python3dist(certbot-nginx)"
+
 RDEPENDS:${PN} += "nginx \
 python(abi) \
 python311-acme \

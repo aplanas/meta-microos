@@ -9,6 +9,7 @@ RPM_HASH = "20004786b0dd7b6d6f96056f13c42cb31c5da9f9677785ea7c5574427e91630f98ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-mailman-hyperkitty"
+
 RDEPENDS:${PN} += "python39-mailman \
 python39-requests \
 python39-setuptools \

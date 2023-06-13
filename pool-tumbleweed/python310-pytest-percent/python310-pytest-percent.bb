@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-percent \
 python3.10dist(pytest-percent) \
 python310-pytest-percent \
 python3dist(pytest-percent)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "perl(B::Hooks::OP::Check) \
 perl(B::Hooks::OP::Check::Install::Files) \
 perl-B-Hooks-OP-Check \
 perl-B-Hooks-OP-Check(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

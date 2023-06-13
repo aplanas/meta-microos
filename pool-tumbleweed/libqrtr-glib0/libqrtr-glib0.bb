@@ -11,6 +11,7 @@ RPM_HASH = "f42103b27abbf08ac8113facb28af7e897c805281f9bcc133aa6584aee0a06368b50
 RPROVIDES:${PN} += "libqrtr-glib.so.0()(64bit) \
 libqrtr-glib0 \
 libqrtr-glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

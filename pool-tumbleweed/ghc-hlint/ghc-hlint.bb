@@ -10,6 +10,7 @@ RPM_HASH = "a7e82a349a596580177d369f9344ceebe5df39b1bec8cb9b99736d84841eef32d2ae
 RPROVIDES:${PN} += "ghc-hlint \
 ghc-hlint(aarch-64) \
 libHShlint-3.5-HI4GNHTiFqP5IrITiJdtMQ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

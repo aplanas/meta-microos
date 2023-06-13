@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "SDL_Pango-devel \
 SDL_Pango-devel(aarch-64) \
 libSDL_Pango-devel \
 pkgconfig(SDL_Pango)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL_Pango1 \
 pkgconfig(pango) \

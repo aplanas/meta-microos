@@ -19,6 +19,7 @@ RPM_HASH = "eee228e2755377a5af9548d7004c017184bc817f7526ea5c0f998dfc5f82a98452b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-a2ping"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

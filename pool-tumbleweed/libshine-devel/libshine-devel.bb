@@ -11,6 +11,7 @@ RPM_HASH = "a26db7a8b03587e7540f2eaeaa1f2b9b158dcf2aee4df8f6e94bf1388cae90a5b6b0
 RPROVIDES:${PN} += "libshine-devel \
 libshine-devel(aarch-64) \
 pkgconfig(shine)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libshine3"
 

@@ -11,6 +11,7 @@ RPM_HASH = "fdddb2983d5e5564745f161bc77114a18c4653571fd67cec71cc59dd7c0d97fa4394
 RPROVIDES:${PN} += "ghc-jira-wiki-markup \
 ghc-jira-wiki-markup(aarch-64) \
 libHSjira-wiki-markup-1.5.1-7ePG3tP2CY82wODfjMZ5nH-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

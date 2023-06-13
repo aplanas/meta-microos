@@ -18,6 +18,7 @@ RPM_HASH = "73ec7ec73cd80ff8e70e18a6d3c68eb27809e5eabcdc13d00ec7f7950c51fd5bd0e4
 RPROVIDES:${PN} += "libkea-cfgclient.so.36()(64bit) \
 libkea-cfgclient36 \
 libkea-cfgclient36(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -49,6 +49,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(List::BinarySearch) \
 perl(List::BinarySearch::PP) \
 perl-List-BinarySearch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::BinarySearch::XS)"
 

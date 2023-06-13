@@ -10,6 +10,7 @@ RPM_HASH = "0056582bbd14d04a9eadbbea753c2427e9f3477d477529983d0d68f0f5bf08bff34a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-packagekit"
+
 RDEPENDS:${PN} += "PackageKit \
 cockpit-bridge \
 polkit"

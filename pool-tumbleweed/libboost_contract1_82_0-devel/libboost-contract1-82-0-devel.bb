@@ -11,6 +11,7 @@ RPM_HASH = "ae2ddce41b5b03e161a8ca0e97ae97651abc051b74b8837f3aff206421fdbec9fa4e
 RPROVIDES:${PN} += "libboost_contract-devel-impl \
 libboost_contract1_82_0-devel \
 libboost_contract1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_contract1_82_0 \
 libboost_headers1_82_0-devel \
 libboost_system1_82_0-devel \

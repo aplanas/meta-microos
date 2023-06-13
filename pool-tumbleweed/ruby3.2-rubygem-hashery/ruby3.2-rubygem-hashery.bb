@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:hashery) \
 rubygem(ruby:3.2.0:hashery:2) \
 rubygem(ruby:3.2.0:hashery:2.1) \
 rubygem(ruby:3.2.0:hashery:2.1.2)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "f45a405d0ec9061902b1f827664fc6a111152c7d11836264ed33f6612e5d2d144f29
 RPROVIDES:${PN} += "python3-scipy-gnu-hpc \
 python310-scipy-gnu-hpc \
 python310-scipy-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python310-scipy_1_10_1-gnu-hpc"
 

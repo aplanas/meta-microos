@@ -13,6 +13,7 @@ RPM_HASH = "8ba65703597817a654c5147b935fbd050cf578f6b912b81997f703c9f046297b119b
 RPROVIDES:${PN} += "db-devel \
 libdb-4_8-devel \
 libdb-4_8-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libdb-4_8"
 

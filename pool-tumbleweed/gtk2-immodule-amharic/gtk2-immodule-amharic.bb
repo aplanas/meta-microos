@@ -14,6 +14,7 @@ RPM_HASH = "c8942b938c875a8ff6099fd3f10d798d5579157802a9dc79898e0203c47a3f53b08c
 RPROVIDES:${PN} += "gtk2-immodule-amharic \
 gtk2-immodule-amharic(aarch-64) \
 locale(gtk2:am)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
 gtk2-tools \

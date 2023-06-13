@@ -9,6 +9,7 @@ RPM_HASH = "d222c9b8fb24083878429bb22cb4795f9dbf53462c90446031b5fe40769208faaa43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unisugar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

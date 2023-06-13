@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-devcenter \
 python3.10dist(azure-mgmt-devcenter) \
 python310-azure-mgmt-devcenter \
 python3dist(azure-mgmt-devcenter)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

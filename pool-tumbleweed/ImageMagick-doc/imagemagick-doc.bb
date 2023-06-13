@@ -9,6 +9,7 @@ RPM_HASH = "cd628770c61375dd5bb7f8eba0eee11abc90fef1d3307333394e1252277c1ef0871f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ImageMagick-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

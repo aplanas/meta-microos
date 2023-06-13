@@ -10,6 +10,7 @@ RPM_HASH = "2cabbbc41bb2f3c3fa39744592055c72c7c06e4cb312be9c1db2307e950f1f80f2ff
 
 RPROVIDES:${PN} += "cal3d-doc \
 cal3d-doc(aarch-64)"
+
 RDEPENDS:${PN} += "cal3d"
 
 inherit rpm

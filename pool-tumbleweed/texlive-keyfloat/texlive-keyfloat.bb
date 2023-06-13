@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(keyfloat.sty) \
 texlive-keyfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

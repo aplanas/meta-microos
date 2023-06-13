@@ -11,6 +11,7 @@ RPM_HASH = "49086cf2e52f92c5a5786e6c23f6f69c51f0228ca10b2352ccdacd4705b4fdcb00a7
 
 RPROVIDES:${PN} += "libnetcdf-fortran-gnu-mpich-hpc \
 libnetcdf-fortran-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf-fortran_4_5_3-gnu-mpich-hpc"
 

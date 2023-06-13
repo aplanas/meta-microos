@@ -11,6 +11,7 @@ RPM_HASH = "c1d99b8c08da24f7f9d79c93fc4b83d40df6fc9fa7d3a7d60344be23f684e817d025
 
 RPROVIDES:${PN} += "wireless-tools \
 wireless-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

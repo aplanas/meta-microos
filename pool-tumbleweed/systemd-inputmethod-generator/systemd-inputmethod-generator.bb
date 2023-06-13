@@ -12,6 +12,7 @@ RPM_HASH = "09d8fa53c6d7d4a4cba989769d63d76c57cad9d38b8160104ec52b0893977cef0578
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-inputmethod-generator"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

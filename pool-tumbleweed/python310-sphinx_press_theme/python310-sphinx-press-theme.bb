@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinx_press_theme \
 python3.10dist(sphinx-press-theme) \
 python310-sphinx_press_theme \
 python3dist(sphinx-press-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

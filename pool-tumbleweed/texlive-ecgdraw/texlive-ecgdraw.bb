@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ecgdraw.sty) \
 texlive-ecgdraw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

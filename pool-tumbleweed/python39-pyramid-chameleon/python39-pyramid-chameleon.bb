@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyramid-chameleon) \
 python39-pyramid-chameleon \
 python3dist(pyramid-chameleon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Chameleon \
 python39-pyramid"

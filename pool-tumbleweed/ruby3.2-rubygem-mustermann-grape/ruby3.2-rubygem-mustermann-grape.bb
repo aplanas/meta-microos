@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mustermann-grape) \
 rubygem(ruby:3.2.0:mustermann-grape:1) \
 rubygem(ruby:3.2.0:mustermann-grape:1.0) \
 rubygem(ruby:3.2.0:mustermann-grape:1.0.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:mustermann)"
 

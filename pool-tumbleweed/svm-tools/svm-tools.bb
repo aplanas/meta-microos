@@ -11,6 +11,7 @@ RPM_HASH = "290f57e2ec7fe4ba6dd6787f614cba87509a3d8877ec997a39a5f53ffab6944e0139
 
 RPROVIDES:${PN} += "svm-tools \
 svm-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

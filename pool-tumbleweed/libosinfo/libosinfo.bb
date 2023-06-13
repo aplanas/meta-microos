@@ -11,6 +11,7 @@ RPM_HASH = "b213a1c3baca2a9e974e515e5ef0cb242f3557548214206463d519c65e851bb4dc53
 
 RPROVIDES:${PN} += "libosinfo \
 libosinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

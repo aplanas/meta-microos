@@ -13,6 +13,7 @@ RPM_HASH = "472fb131ec6ac9eecb0539ab008fb990ab8aac602f5a0ac11e4b2544d104eb3fd73a
 
 RPROVIDES:${PN} += "photorec \
 photorec(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

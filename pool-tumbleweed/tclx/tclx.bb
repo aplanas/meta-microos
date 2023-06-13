@@ -16,6 +16,7 @@ RPM_HASH = "cab0ac1c6a6fccad65247b33b189be44c4dc559d7d091d3e71e362235440b0aecc8f
 RPROVIDES:${PN} += "libtclx8.6.so()(64bit) \
 tclx \
 tclx(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

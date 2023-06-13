@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(absl-py) \
 python39-abseil \
 python39-absl-py \
 python3dist(absl-py)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

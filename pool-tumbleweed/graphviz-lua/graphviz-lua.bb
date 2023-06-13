@@ -11,6 +11,7 @@ RPM_HASH = "4e1bfafd8c236ed840a6721d6c148f9c614438d02fdebfdfef0297bb520321eca955
 RPROVIDES:${PN} += "graphviz-lua \
 graphviz-lua(aarch-64) \
 libgv_lua.so()(64bit)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

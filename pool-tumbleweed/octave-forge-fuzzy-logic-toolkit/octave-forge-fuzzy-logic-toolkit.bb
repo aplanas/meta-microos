@@ -10,6 +10,7 @@ RPM_HASH = "e4a84a3c9c4288f6827b4841471cdda22bc642135d0140fce882175f478b548ebbca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-fuzzy-logic-toolkit"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

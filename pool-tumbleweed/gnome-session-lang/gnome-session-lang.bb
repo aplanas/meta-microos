@@ -96,6 +96,7 @@ locale(gnome-session:wa) \
 locale(gnome-session:zh_CN) \
 locale(gnome-session:zh_HK) \
 locale(gnome-session:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-session"
 
 inherit rpm

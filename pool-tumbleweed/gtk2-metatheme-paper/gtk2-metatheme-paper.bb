@@ -10,6 +10,7 @@ RPM_HASH = "8ff9b21029de4f8bebe8b4c5e8402990015c0040f0b8bf9ef1856553e54262be8824
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-paper"
+
 RDEPENDS:${PN} += "metatheme-paper-common"
 
 inherit rpm

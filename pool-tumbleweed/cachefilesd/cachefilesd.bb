@@ -11,6 +11,7 @@ RPM_HASH = "e23c029472d0bc244f42aa6a67e8f0140f1b192c4e36420079cbf9d11ac94005c69d
 RPROVIDES:${PN} += "cachefilesd \
 cachefilesd(aarch-64) \
 config(cachefilesd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

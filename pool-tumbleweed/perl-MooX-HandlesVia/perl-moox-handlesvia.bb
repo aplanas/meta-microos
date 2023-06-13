@@ -19,6 +19,7 @@ perl(Data::Perl::Number::MooseLike) \
 perl(Data::Perl::String::MooseLike) \
 perl(MooX::HandlesVia) \
 perl-MooX-HandlesVia"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(Data::Perl) \

@@ -14,6 +14,7 @@ gammastep-indicator \
 gammastep-indicator(aarch-64) \
 metainfo() \
 metainfo(gammastep-indicator.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

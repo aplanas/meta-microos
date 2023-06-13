@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(uiucthesis.cls) \
 tex(uiucthesis.sty) \
 texlive-uiucthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

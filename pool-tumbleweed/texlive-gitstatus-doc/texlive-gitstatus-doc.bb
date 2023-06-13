@@ -9,6 +9,7 @@ RPM_HASH = "bbbff098d61f64e2d3b5088dd4e6f172ba972e50f4b2fe1bfdbfaf884ac8b894dfcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitstatus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

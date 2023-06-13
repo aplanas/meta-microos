@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-rerunfailures \
 python3.10dist(pytest-rerunfailures) \
 python310-pytest-rerunfailures \
 python3dist(pytest-rerunfailures)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-setuptools"

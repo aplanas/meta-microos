@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(libgreek-legacy.sty) \
 tex(libgreek.sty) \
 texlive-libgreek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

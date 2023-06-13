@@ -9,6 +9,7 @@ RPM_HASH = "3993e80041f86df0b9f66992c7602f5918783c1ba6e67999432c611960f4b1fb055a
 
 RPROVIDES:${PN} += "qt6-coap-docs-qch \
 qt6-coap-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

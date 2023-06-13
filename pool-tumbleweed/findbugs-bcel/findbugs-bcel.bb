@@ -18,6 +18,7 @@ mvn(com.google.code.findbugs:bcel) \
 mvn(com.google.code.findbugs:bcel-findbugs) \
 mvn(com.google.code.findbugs:bcel-findbugs:pom:) \
 mvn(com.google.code.findbugs:bcel:pom:)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

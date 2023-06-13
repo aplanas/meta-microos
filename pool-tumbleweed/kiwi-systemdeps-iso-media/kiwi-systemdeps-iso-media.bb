@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kiwi-image-iso-requires \
 kiwi-image:iso \
 kiwi-systemdeps-iso-media \
 kiwi-systemdeps-iso-media(aarch-64)"
+
 RDEPENDS:${PN} += "checkmedia \
 kiwi-systemdeps-bootloaders \
 kiwi-systemdeps-core \

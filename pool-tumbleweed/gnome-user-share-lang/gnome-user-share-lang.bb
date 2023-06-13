@@ -90,6 +90,7 @@ locale(gnome-user-share:vi) \
 locale(gnome-user-share:zh_CN) \
 locale(gnome-user-share:zh_HK) \
 locale(gnome-user-share:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-user-share"
 
 inherit rpm

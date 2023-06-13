@@ -13,6 +13,7 @@ RPM_HASH = "7cc24a74fd4ccefc43ede29e87c116a95e5cbabe2e9065b020f1ee4aa91e46512aed
 RPROVIDES:${PN} += "monitoring-plugins-http \
 monitoring-plugins-http(aarch-64) \
 nagios-plugins-http"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

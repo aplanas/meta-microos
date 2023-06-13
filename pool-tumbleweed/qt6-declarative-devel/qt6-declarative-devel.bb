@@ -9,6 +9,7 @@ RPM_HASH = "f7350d3637550917e04a9fa7f693b1c7993340193dacb2a3e281d5d6600272fa1cfe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-devel"
+
 RDEPENDS:${PN} += "cmake(Qt6Qml) \
 cmake(Qt6QmlCore) \
 cmake(Qt6QmlLocalStorage) \

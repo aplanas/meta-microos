@@ -19,6 +19,7 @@ tex(idcc.cls) \
 tex(ijdc-v14.cls) \
 tex(ijdc-v9.cls) \
 texlive-dccpaper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

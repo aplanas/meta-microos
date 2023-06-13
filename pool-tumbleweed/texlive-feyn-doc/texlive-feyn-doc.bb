@@ -9,6 +9,7 @@ RPM_HASH = "60c076728198cceacc47d0468e9f0021d77c873e1769529fdac89bf8de1823aaed0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-feyn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

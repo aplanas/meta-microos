@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3.9dist(python-debian) \
 python39-debian \
 python39-python-debian \
 python3dist(python-debian)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-chardet \
 python39-six \

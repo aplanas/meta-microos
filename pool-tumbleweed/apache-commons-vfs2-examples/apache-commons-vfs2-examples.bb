@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "apache-commons-vfs2-examples \
 mvn(org.apache.commons:commons-vfs2-examples) \
 mvn(org.apache.commons:commons-vfs2-examples:pom:) \
 osgi(org.apache.commons.commons-vfs2-examples)"
+
 RDEPENDS:${PN} += "apache-commons-vfs2 \
 java-headless \
 javapackages-filesystem \

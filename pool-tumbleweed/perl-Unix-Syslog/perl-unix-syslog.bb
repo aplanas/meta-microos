@@ -17,6 +17,7 @@ RPM_HASH = "f41b6f4351ab978e7b33fc1f1a7cf10b361d7b62bb2ee43639b01ca4e98f68d6b752
 RPROVIDES:${PN} += "perl(Unix::Syslog) \
 perl-Unix-Syslog \
 perl-Unix-Syslog(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(guzzle-sphinx-theme) \
 python39-guzzle_sphinx_theme \
 python3dist(guzzle-sphinx-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

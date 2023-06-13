@@ -11,6 +11,7 @@ RPM_HASH = "465e7ebd31ce8800e2fe40e380b6335ff10b7a161a54f0f32aa7ffe8df71d2f704fd
 RPROVIDES:${PN} += "libbd_dm-devel \
 libbd_dm-devel(aarch-64) \
 libblockdev-dm-devel"
+
 RDEPENDS:${PN} += "device-mapper-devel \
 dmraid-devel \
 glib2-devel \

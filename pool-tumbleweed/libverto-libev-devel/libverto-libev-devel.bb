@@ -11,6 +11,7 @@ RPM_HASH = "8bf011b62ad3571b40c06d08cb1827f7eba338848a9e6e1c941acdf89434a9e91055
 RPROVIDES:${PN} += "libverto-libev-devel \
 libverto-libev-devel(aarch-64) \
 pkgconfig(libverto-libev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libverto-devel(aarch-64) \
 libverto-libev1(aarch-64) \

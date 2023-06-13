@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-documentedlist \
 python3.10dist(sphinxcontrib-documentedlist) \
 python310-sphinxcontrib-documentedlist \
 python3dist(sphinxcontrib-documentedlist)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-six"

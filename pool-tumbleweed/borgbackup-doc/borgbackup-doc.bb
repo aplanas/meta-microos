@@ -15,6 +15,7 @@ RPM_HASH = "2121b041485d6f9c02309108918eaaae485cc35d96f90f4237148794e3f4db53b7c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

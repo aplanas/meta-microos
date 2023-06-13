@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libctemplate-devel \
 libctemplate-devel(aarch-64) \
 pkgconfig(libctemplate) \
 pkgconfig(libctemplate_nothreads)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-control-center-branding-upstream) \
 mate-control-center-branding \
 mate-control-center-branding-upstream"
+
 RDEPENDS:${PN} += "mate-control-center"
 
 inherit rpm

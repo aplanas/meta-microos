@@ -9,6 +9,7 @@ RPM_HASH = "db7be9c454cdd60821d9b843e1b1e21cdf7bec1c7c9cb65ed1dbf8642318f99fc094
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yadm-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

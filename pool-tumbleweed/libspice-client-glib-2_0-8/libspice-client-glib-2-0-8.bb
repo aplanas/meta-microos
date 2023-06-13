@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libspice-client-glib-2.0.so.8()(64bit) \
 libspice-client-glib-2.0.so.8(SPICEGTK_1)(64bit) \
 libspice-client-glib-2_0-8 \
 libspice-client-glib-2_0-8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

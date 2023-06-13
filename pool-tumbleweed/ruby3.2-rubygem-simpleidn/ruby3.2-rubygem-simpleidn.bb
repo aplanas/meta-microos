@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:simpleidn:0) \
 rubygem(ruby:3.2.0:simpleidn:0.2) \
 rubygem(ruby:3.2.0:simpleidn:0.2.1) \
 rubygem(simpleidn)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:unf:0.1)"
 

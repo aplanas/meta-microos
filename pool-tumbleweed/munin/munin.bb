@@ -36,6 +36,7 @@ perl(Munin::Master::UpdateWorker) \
 perl(Munin::Master::Utils) \
 perl(Munin::Master::Worker) \
 perl(URI::munin)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

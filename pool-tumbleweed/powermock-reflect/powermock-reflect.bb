@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "mvn(org.powermock:powermock-reflect) \
 mvn(org.powermock:powermock-reflect:pom:) \
 osgi(org.powermock.powermock-reflect) \
 powermock-reflect"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.objenesis:objenesis) \

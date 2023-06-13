@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(soul-ori.sty) \
 tex(soul.sty) \
 tex(soulutf8.sty) \
 texlive-soul"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

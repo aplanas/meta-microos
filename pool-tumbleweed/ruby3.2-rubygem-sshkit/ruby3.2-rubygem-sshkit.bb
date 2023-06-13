@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:sshkit:1) \
 rubygem(ruby:3.2.0:sshkit:1.21) \
 rubygem(ruby:3.2.0:sshkit:1.21.3) \
 rubygem(sshkit)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:net-scp) \
 rubygem(ruby:3.2.0:net-ssh)"

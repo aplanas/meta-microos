@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(gswrap) \
 gswrap"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/gs.bin \

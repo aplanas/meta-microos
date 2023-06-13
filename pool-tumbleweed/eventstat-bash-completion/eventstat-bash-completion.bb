@@ -9,6 +9,7 @@ RPM_HASH = "d077a4611619bc1d13b26b719091e71ef1401a311e9a69aedd83595461b2e85acc99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eventstat-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 eventstat"
 

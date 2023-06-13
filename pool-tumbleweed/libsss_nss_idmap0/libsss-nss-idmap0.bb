@@ -18,6 +18,7 @@ libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.6.0)(64bit) \
 libsss_nss_idmap.so.0(SSS_NSS_IDMAP_0.7.0)(64bit) \
 libsss_nss_idmap0 \
 libsss_nss_idmap0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

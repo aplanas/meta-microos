@@ -11,6 +11,7 @@ RPM_HASH = "bba0e4a7b795d4049187f5e6968d768d219efeeb8af12f3ff6d58dd32d33627ea2eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junitperf-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

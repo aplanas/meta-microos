@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3-APScheduler \
 python3.10dist(apscheduler) \
 python310-APScheduler \
 python3dist(apscheduler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz \
 python310-six \

@@ -13,6 +13,7 @@ RPM_HASH = "f8ef24e58e67802f8dc9a35e331d2be4a94330b3daf75747af98a6da5909436db70a
 RPROVIDES:${PN} += "libdeal_II.so.9.4.2()(64bit) \
 libdeal_II9_4_2-openmpi2 \
 libdeal_II9_4_2-openmpi2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "1a7195cf9792bd32e2da726c5f374c8aa637ad7168d2b89dc1e0e27fd5b389a50ffe
 
 RPROVIDES:${PN} += "syslog-ng-snmp \
 syslog-ng-snmp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

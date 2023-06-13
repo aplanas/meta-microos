@@ -11,6 +11,7 @@ RPM_HASH = "5cb1989b68bce824f1ad1a49263eb34c080dd8d4597e2c2907f0b87f819b0a2272aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsigrok-data"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 shared-mime-info"
 

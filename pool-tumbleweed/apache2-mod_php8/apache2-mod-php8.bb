@@ -19,6 +19,7 @@ apache2-mod_php8(aarch-64) \
 config(apache2-mod_php8) \
 mod_php_any \
 php-sapi"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/a2enmod \
 apache2-prefork \

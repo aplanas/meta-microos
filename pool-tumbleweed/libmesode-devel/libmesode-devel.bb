@@ -12,6 +12,7 @@ RPM_HASH = "5b7cefd283b9c28cbb450f48fb03add2db0b3bc4794af171ce438df976c2473826a1
 RPROVIDES:${PN} += "libmesode-devel \
 libmesode-devel(aarch-64) \
 pkgconfig(libmesode)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmesode0 \
 pkgconfig(expat) \

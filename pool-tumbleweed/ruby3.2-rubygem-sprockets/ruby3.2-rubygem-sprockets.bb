@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:sprockets:4) \
 rubygem(ruby:3.2.0:sprockets:4.1) \
 rubygem(ruby:3.2.0:sprockets:4.1.1) \
 rubygem(sprockets)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

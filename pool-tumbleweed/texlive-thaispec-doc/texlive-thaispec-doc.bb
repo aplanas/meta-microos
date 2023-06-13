@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-thaispec-doc:th) \
 texlive-thaispec-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

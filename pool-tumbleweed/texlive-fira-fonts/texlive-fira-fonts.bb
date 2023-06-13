@@ -217,6 +217,7 @@ font(firasanssemibold) \
 font(firasansthin) \
 font(firasansultralight) \
 texlive-fira-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

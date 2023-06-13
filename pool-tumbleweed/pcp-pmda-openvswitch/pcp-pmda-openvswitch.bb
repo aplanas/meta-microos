@@ -10,6 +10,7 @@ RPM_HASH = "246cc790e541b239bb3718bbcb549130dadccc02f0c3ee87893462cc6083b3af92b3
 
 RPROVIDES:${PN} += "pcp-pmda-openvswitch \
 pcp-pmda-openvswitch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

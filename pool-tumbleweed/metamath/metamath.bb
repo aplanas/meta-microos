@@ -12,6 +12,7 @@ RPM_HASH = "475285e20d17181ab70d67cf1cba6c01504c9632d384bca9037ee33e34f582bf3699
 
 RPROVIDES:${PN} += "metamath \
 metamath(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

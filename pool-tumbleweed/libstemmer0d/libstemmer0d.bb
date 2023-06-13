@@ -24,6 +24,7 @@ RPM_HASH = "1c92478f031c10c91b41eb771e31e4ea4427311fd597c594ccf62260f993f476b984
 RPROVIDES:${PN} += "libstemmer.so.0d()(64bit) \
 libstemmer0d \
 libstemmer0d(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "bb6cff21aca4837a1cd8833c6430f15c34f893ef19f74a43464be1a9cc95626696fe
 
 RPROVIDES:${PN} += "mousepad-devel \
 mousepad-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmousepad0"
 
 inherit rpm

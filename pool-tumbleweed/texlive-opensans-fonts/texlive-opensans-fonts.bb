@@ -160,6 +160,7 @@ font(opensansextrabold) \
 font(opensanslight) \
 font(opensanssemibold) \
 texlive-opensans-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

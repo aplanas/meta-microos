@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(tomoe-gtk:ja) \
 tomoe-gtk-lang \
 tomoe-gtk-lang-all"
+
 RDEPENDS:${PN} += "tomoe-gtk"
 
 inherit rpm

@@ -24,6 +24,7 @@ RPM_HASH = "6254ab9a5e4171b196682f86972f1b6965e5296de0007b368327b87a8b01106a2ed6
 
 RPROVIDES:${PN} += "dwz \
 dwz(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

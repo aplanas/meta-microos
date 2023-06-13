@@ -16,6 +16,7 @@ el_api \
 geronimo-el-1_0-api \
 mvn(org.apache.geronimo.specs:geronimo-el_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-el_1.0_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

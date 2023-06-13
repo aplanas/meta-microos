@@ -55,6 +55,7 @@ locale(libKPim5SMTP5:ug) \
 locale(libKPim5SMTP5:uk) \
 locale(libKPim5SMTP5:zh_CN) \
 locale(libKPim5SMTP5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5SMTP5"
 
 inherit rpm

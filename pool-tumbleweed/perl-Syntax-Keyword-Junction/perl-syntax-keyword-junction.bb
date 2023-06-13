@@ -28,6 +28,7 @@ perl(Syntax::Keyword::Junction::Base) \
 perl(Syntax::Keyword::Junction::None) \
 perl(Syntax::Keyword::Junction::One) \
 perl-Syntax-Keyword-Junction"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Sub::Exporter::Progressive) \
 perl(parent) \

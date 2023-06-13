@@ -15,6 +15,7 @@ pattern-icon() \
 pattern-order() \
 pattern-visible() \
 patterns-devel-C-C++-devel_C_C++"
+
 RDEPENDS:${PN} += "gcc-c++ \
 libstdc++-devel \
 pattern()"

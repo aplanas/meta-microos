@@ -10,6 +10,7 @@ RPM_HASH = "3156f8d654dcbf050b8e2780f06a2d3fecf37b62c3f16e07351877d5ebac609ba6d3
 RPROVIDES:${PN} += "libgcalc-2-1_0_1 \
 libgcalc-2-1_0_1(aarch-64) \
 libgcalc-2.so.1.0.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

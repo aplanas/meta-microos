@@ -11,6 +11,7 @@ RPM_HASH = "b3d2cebe0f8cd1736d653c7b809718895b32b6b8c91b8ddd4ef1ee1b72e827358807
 
 RPROVIDES:${PN} += "libsepol-devel-static \
 libsepol-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libsepol-devel"
 
 inherit rpm

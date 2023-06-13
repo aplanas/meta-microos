@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-requests-toolbelt \
 python3.10dist(requests-toolbelt) \
 python310-requests-toolbelt \
 python3dist(requests-toolbelt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

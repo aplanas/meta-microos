@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(testresources) \
 python39-testresources \
 python3dist(testresources)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pbr"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "httpcomponents-asyncclient-cache \
 mvn(org.apache.httpcomponents:httpasyncclient-cache) \
 mvn(org.apache.httpcomponents:httpasyncclient-cache:pom:) \
 osgi(org.apache.httpcomponents.httpasyncclient-cache)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.httpcomponents:httpasyncclient) \

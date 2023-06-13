@@ -25,6 +25,7 @@ locale(gpredict:lt) \
 locale(gpredict:ru) \
 locale(gpredict:th) \
 locale(gpredict:uk)"
+
 RDEPENDS:${PN} += "gpredict"
 
 inherit rpm

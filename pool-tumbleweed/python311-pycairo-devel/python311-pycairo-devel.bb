@@ -13,6 +13,7 @@ RPM_HASH = "1562b53c3ad339b6f8b247869fe5e848d5399582975a832ccf15de28eed296fb8c31
 RPROVIDES:${PN} += "python311-cairo-devel \
 python311-pycairo-devel \
 python311-pycairo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-devel \
 python311-pycairo \
 python311-pycairo-common-devel"

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(opt-einsum) \
 python311-opt-einsum \
 python3dist(opt-einsum)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy"
 

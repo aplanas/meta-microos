@@ -28,6 +28,7 @@ RPM_HASH = "28962ffff3878ece99dbcd88a769daefdd200afb94210810b62fec25b80c997969a5
 RPROVIDES:${PN} += "config(pgbackrest) \
 pgbackrest \
 pgbackrest(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

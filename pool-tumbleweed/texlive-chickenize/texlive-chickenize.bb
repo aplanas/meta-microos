@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(chickenize.sty) \
 tex(chickenize.tex) \
 texlive-chickenize"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

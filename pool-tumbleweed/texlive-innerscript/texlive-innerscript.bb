@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(innerscript.sty) \
 texlive-innerscript"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

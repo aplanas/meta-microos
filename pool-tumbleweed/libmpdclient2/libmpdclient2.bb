@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libmpdclient.so.2()(64bit) \
 libmpdclient.so.2(libmpdclient2)(64bit) \
 libmpdclient2 \
 libmpdclient2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

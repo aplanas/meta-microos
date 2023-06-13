@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(haas-proxy) \
 haas-proxy \
 python3.10dist(haas-proxy) \
 python3dist(haas-proxy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python3-Twisted \

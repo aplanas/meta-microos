@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(diff-match-patch) \
 python39-diff-match-patch \
 python39-diff_match_patch \
 python3dist(diff-match-patch)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

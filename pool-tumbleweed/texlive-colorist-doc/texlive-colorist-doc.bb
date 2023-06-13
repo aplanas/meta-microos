@@ -9,6 +9,7 @@ RPM_HASH = "d40231f3e998ade87db3a3756dda205ed80e3477cd26daeee105ce250707a9aae490
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colorist-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "input-pad \
 input-pad(aarch-64) \
 libinput-pad-1.0.so.1()(64bit) \
 typelib(InputPad)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

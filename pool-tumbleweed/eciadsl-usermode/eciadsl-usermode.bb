@@ -13,6 +13,7 @@ RPM_HASH = "5cd5e330c8ed1a9199d5e6a00bfdd401b614dbfb2a17ccc3a41c9e3a276c2b9b6844
 RPROVIDES:${PN} += "config(eciadsl-usermode) \
 eciadsl-usermode \
 eciadsl-usermode(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/wish \

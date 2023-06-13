@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-jwt-extended) \
 python39-flask-jwt-extended \
 python3dist(flask-jwt-extended)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-PyJWT \

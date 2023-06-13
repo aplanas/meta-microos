@@ -10,6 +10,7 @@ RPM_HASH = "622fa4329386c8b55a466d291209b846d095f3646f751700caa0427a9c6fa3e8729b
 
 RPROVIDES:${PN} += "u-boot-xilinxzynqmpzcu102rev10-doc \
 u-boot-xilinxzynqmpzcu102rev10-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

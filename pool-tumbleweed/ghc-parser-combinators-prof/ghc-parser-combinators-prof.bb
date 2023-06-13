@@ -10,6 +10,7 @@ RPM_HASH = "3f91046c29aed7710a900f7b1acc65cb0d08a5349816db8779b9af79ddf5237ccded
 RPROVIDES:${PN} += "ghc-parser-combinators-prof \
 ghc-parser-combinators-prof(aarch-64) \
 ghc-prof(parser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt)"
+
 RDEPENDS:${PN} += "ghc-parser-combinators-devel \
 ghc-prof(base-4.17.1.0)"
 

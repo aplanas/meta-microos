@@ -10,6 +10,7 @@ RPM_HASH = "029339e1e6c3fe40d3a8ed112a32dd7d3982ba2d55cb7066284e420e4e0c30caae33
 RPROVIDES:${PN} += "enlightenment-branding \
 enlightenment-branding-upstream \
 enlightenment-branding-upstream(aarch-64)"
+
 RDEPENDS:${PN} += "enlightenment-theme-upstream"
 
 inherit rpm

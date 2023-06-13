@@ -16,6 +16,7 @@ RPM_HASH = "2fb43f5e60ed6d37b21ffc9053a24dbc0ec9e217e9c32b1dd10a387f97a0eebb35f1
 
 RPROVIDES:${PN} += "nvptx-tools \
 nvptx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

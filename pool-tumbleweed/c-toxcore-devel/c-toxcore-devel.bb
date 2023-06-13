@@ -10,6 +10,7 @@ RPM_HASH = "e6da2b375bed03c9f194e6b98d98cc10a6d1670a43557906c6b494cab0b8f4da3d04
 RPROVIDES:${PN} += "c-toxcore-devel \
 c-toxcore-devel(aarch-64) \
 pkgconfig(toxcore)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 c-toxcore \
 libtoxcore2 \

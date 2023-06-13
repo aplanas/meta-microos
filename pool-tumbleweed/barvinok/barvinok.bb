@@ -11,6 +11,7 @@ RPM_HASH = "5cffc31e58c7b300e7a72ac1408f786dbd01c3cd35baa8fed0b5021ac4f0dc165686
 RPROVIDES:${PN} += "barvinok \
 barvinok(aarch-64) \
 bundled(4ti2)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbarvinok.so.23()(64bit) \

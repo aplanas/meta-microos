@@ -25,6 +25,7 @@ mvn(org.beanshell:bsh) \
 mvn(org.beanshell:bsh2) \
 mvn(org.beanshell:bsh2:pom:) \
 mvn(org.beanshell:bsh:pom:)"
+
 RDEPENDS:${PN} += "bsf \
 java-headless \
 javapackages-filesystem \

@@ -14,6 +14,7 @@ RPM_HASH = "e3abb82215b0d5745e6f4fb2f20ec9104200e4e39a5eec8da004ef828e94e3278dc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punknova"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "a11c41d427f6531e115c345782037bbeea0e6414c2b6d7ffed592a87eba1af5663c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-fzf"
+
 RDEPENDS:${PN} += "(vim or neovim)"
 
 inherit rpm

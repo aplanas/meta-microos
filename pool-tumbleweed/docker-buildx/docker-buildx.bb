@@ -18,6 +18,7 @@ RPM_HASH = "bdfda7da634f27b7cfc29585a55e1d8c193d45efabedf11d1586919c53f5af8c155a
 
 RPROVIDES:${PN} += "docker-buildx \
 docker-buildx(aarch-64)"
+
 RDEPENDS:${PN} += "docker \
 libc.so.6(GLIBC_2.34)(64bit)"
 

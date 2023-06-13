@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-dependency-plugin \
 mvn(org.apache.maven.plugins:maven-dependency-plugin) \
 mvn(org.apache.maven.plugins:maven-dependency-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(classworlds:classworlds) \

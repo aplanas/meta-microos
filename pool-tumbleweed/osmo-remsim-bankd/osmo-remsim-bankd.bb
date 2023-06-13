@@ -11,6 +11,7 @@ RPM_HASH = "a1c09c70252eeb459a6d834fdb39742f36a01c3c33a2b1d1d805ede32e579b1bf0cc
 
 RPROVIDES:${PN} += "osmo-remsim-bankd \
 osmo-remsim-bankd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

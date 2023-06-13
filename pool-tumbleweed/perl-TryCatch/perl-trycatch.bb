@@ -14,6 +14,7 @@ RPM_HASH = "493ac92a8157710dc5ec214a61a18488293e60b8c0e129474df239b6ce627309f0ec
 RPROVIDES:${PN} += "perl(TryCatch) \
 perl-TryCatch \
 perl-TryCatch(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::EndOfScope) \

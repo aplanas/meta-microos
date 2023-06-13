@@ -12,6 +12,7 @@ RPM_HASH = "6822ecbf8ecb3f87ba823848907a1c020e733be2d592e1070735603044aca314b70e
 
 RPROVIDES:${PN} += "perf-rebuild \
 perf-rebuild(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-source"
 
 inherit rpm

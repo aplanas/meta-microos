@@ -10,6 +10,7 @@ RPM_HASH = "b7ff3fd4ddafda0f6f74a2664e26fafcfb9042f2aac0925f5de5a4760cf78c851810
 
 RPROVIDES:${PN} += "ftbench \
 ftbench(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

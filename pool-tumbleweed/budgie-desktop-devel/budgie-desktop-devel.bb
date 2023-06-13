@@ -14,6 +14,7 @@ budgie-desktop-devel(aarch-64) \
 pkgconfig(budgie-1.0) \
 pkgconfig(budgie-raven-plugin-1.0) \
 pkgconfig(budgie-theme-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbudgie-appindexer0 \
 libbudgie-plugin0 \

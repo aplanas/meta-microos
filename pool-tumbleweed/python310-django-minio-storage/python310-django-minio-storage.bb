@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-minio-storage \
 python3.10dist(django-minio-storage) \
 python310-django-minio-storage \
 python3dist(django-minio-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-minio"

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(eso-pic.sty) \
 tex(showframe.sty) \
 texlive-eso-pic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

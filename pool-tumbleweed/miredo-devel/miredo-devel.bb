@@ -11,6 +11,7 @@ RPM_HASH = "2ffa2d72993ea5fe8a1e30076ca21e0292f5deb190a2f09fba3c79a6b3f7499f09ac
 
 RPROVIDES:${PN} += "miredo-devel \
 miredo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "miredo-common"
 
 inherit rpm

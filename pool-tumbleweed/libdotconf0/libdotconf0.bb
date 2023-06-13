@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libdotconf-1_0-0 \
 libdotconf.so.0()(64bit) \
 libdotconf0 \
 libdotconf0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

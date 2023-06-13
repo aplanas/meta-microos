@@ -19,6 +19,7 @@ RPM_HASH = "26a7138c2ad51fd50c04b676aefc13667373e651c9bc9455956718d0300cf470e02f
 RPROVIDES:${PN} += "pkgconfig(polylibgmp) \
 polylib-devel \
 polylib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpolylibgmp8"
 

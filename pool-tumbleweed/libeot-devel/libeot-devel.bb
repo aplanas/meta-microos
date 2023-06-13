@@ -11,6 +11,7 @@ RPM_HASH = "d1137716b9f5926d40ee7c7768b87a741ac8a250bbb05e3b80e6af45cbc3fbcb92d5
 RPROVIDES:${PN} += "libeot-devel \
 libeot-devel(aarch-64) \
 pkgconfig(libeot)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libeot0"
 

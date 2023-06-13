@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-humanreadable \
 python3.10dist(humanreadable) \
 python310-humanreadable \
 python3dist(humanreadable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools \
 python310-typepy"

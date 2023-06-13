@@ -11,6 +11,7 @@ RPM_HASH = "6589381f07a11d7d626a6de38856659cb0a8c399fe04c0c02d49318584a78e10a911
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnma-glib-schema"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

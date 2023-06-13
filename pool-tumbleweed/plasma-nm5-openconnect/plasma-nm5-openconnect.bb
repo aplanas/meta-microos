@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-openconnect-frontend \
 plasma-nm-openconnect \
 plasma-nm5-openconnect \
 plasma-nm5-openconnect(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-openconnect \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

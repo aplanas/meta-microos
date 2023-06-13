@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-autobuild \
 python3.10dist(sphinx-autobuild) \
 python310-sphinx-autobuild \
 python3dist(sphinx-autobuild)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

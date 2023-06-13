@@ -15,6 +15,7 @@ mvn(org.osgi:osgi.annotation) \
 mvn(org.osgi:osgi.annotation:pom:) \
 osgi(osgi.annotation) \
 osgi-annotation"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

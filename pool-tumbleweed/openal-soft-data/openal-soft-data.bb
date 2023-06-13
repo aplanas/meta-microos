@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(openal-soft-data) \
 openal-soft \
 openal-soft-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -52,6 +52,7 @@ locale(purpose:zh_CN) \
 locale(purpose:zh_TW) \
 purpose-lang \
 purpose-lang-all"
+
 RDEPENDS:${PN} += "purpose"
 
 inherit rpm

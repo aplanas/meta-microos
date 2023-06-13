@@ -10,6 +10,7 @@ RPM_HASH = "0dfe7f5c43774def0feed47f010e562bfc5056626f1ed28594ddfc157c6364641bff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-context"
+
 RDEPENDS:${PN} += "texlive-collection-basic \
 texlive-context \
 texlive-context-account \

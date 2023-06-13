@@ -14,6 +14,7 @@ RPM_HASH = "b08b9432fe760dce1ca04be6266719bfe1d4f4fcb230409ab948c65385078ed51aba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luarepl"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.3 \
 bash-sh \

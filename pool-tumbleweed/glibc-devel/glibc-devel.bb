@@ -11,6 +11,7 @@ RPM_HASH = "6230f5c7f12a4ad77505edf556b0bfd43dada09d47ad27d256d239642efc49dcfd8b
 RPROVIDES:${PN} += "epoll \
 glibc-devel \
 glibc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mustermann) \
 rubygem(ruby:3.2.0:mustermann:3) \
 rubygem(ruby:3.2.0:mustermann:3.0) \
 rubygem(ruby:3.2.0:mustermann:3.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ruby2_keywords:0.0)"
 

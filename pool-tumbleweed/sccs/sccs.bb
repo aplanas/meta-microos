@@ -13,6 +13,7 @@ RPM_HASH = "e41be32ebe8709b253816bd7de4ba15b6c01371f04e97f9f2c5b0daae41be43fd44f
 
 RPROVIDES:${PN} += "sccs \
 sccs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

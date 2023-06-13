@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:openid_connect) \
 rubygem(ruby:3.2.0:openid_connect:2) \
 rubygem(ruby:3.2.0:openid_connect:2.2) \
 rubygem(ruby:3.2.0:openid_connect:2.2.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activemodel) \
 rubygem(ruby:3.2.0:attr_required) \

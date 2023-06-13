@@ -11,6 +11,7 @@ RPM_HASH = "953bfd6181246c06a886a78901abe48ef5dcf47308687da9768e160615b148927b62
 
 RPROVIDES:${PN} += "meep \
 meep(aarch-64)"
+
 RDEPENDS:${PN} += "guile \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

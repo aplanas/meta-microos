@@ -10,6 +10,7 @@ RPM_HASH = "c91df2a3cd6a6763633885d27970f521855aab76a9e8e6c2043ccfe822b04e78f53c
 RPROVIDES:${PN} += "config(fuzzel) \
 fuzzel \
 fuzzel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

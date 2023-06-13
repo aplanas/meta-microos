@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pythreejs) \
 python311-pythreejs \
 python3dist(pythreejs)"
+
 RDEPENDS:${PN} += "jupyter-threejs \
 python(abi) \
 python311-ipydatawidgets \

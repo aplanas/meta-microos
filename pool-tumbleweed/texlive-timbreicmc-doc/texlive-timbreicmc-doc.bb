@@ -9,6 +9,7 @@ RPM_HASH = "4a9f53851489479280e48bb0a7ca8a0b4c594f6af833103aa5c4183c9bf784cdecb1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-timbreicmc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

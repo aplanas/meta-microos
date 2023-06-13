@@ -16,6 +16,7 @@ RPM_HASH = "2b641336babdbd645963a83945fb48244ce4752733bd93cf5786c51b77851ffe831c
 
 RPROVIDES:${PN} += "git-crypt \
 git-crypt(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

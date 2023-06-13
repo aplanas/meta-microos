@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(samin.ldf) \
 texlive-babel-samin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

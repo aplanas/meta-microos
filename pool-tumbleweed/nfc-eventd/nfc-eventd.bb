@@ -12,6 +12,7 @@ RPM_HASH = "64af516b2f8c97f374ff1b5810dd20a7dc2454ca42b0e94bbd60ea2064dbee753a07
 RPROVIDES:${PN} += "config(nfc-eventd) \
 nfc-eventd \
 nfc-eventd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -18,6 +18,7 @@ tex(cite.sty) \
 tex(drftcite.sty) \
 tex(overcite.sty) \
 texlive-cite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

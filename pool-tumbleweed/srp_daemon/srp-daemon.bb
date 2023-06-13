@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(srp_daemon) \
 srp_daemon \
 srp_daemon(aarch-64) \
 srptools"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

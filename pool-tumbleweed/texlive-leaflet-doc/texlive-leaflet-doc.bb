@@ -9,6 +9,7 @@ RPM_HASH = "dc77aa79ec0898f56b5e4310860b151444e9032abb947a5efa95b81694bebcae74ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-leaflet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

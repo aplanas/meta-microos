@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-dotenv \
 python3.10dist(python-dotenv) \
 python310-python-dotenv \
 python3dist(python-dotenv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

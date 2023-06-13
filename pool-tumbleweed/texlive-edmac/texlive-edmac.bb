@@ -14,6 +14,7 @@ tex(edmacfss.sty) \
 tex(edstanza.tex) \
 tex(tabmac.tex) \
 texlive-edmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

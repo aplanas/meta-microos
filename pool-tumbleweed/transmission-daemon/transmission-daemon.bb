@@ -12,6 +12,7 @@ RPM_HASH = "91fb0585e4166cbea8b59f3fd53e0af329b6edd85bebb632651837df4e02f226d377
 
 RPROVIDES:${PN} += "transmission-daemon \
 transmission-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

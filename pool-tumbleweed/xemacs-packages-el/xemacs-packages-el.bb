@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xemacs-el:/usr/share/xemacs/xemacs-packages/etc/auctex/style/amsart.el \
 xemacs-packages-el"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

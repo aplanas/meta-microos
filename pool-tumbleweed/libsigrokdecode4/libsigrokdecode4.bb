@@ -16,6 +16,7 @@ RPM_HASH = "5536f774bfd3e3f02d950c39a9818b5f94c3bfd0d2b70443f19b32b6e34525a6aaf6
 RPROVIDES:${PN} += "libsigrokdecode.so.4()(64bit) \
 libsigrokdecode4 \
 libsigrokdecode4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

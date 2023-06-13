@@ -19,6 +19,7 @@ libsctp.so.1(VERS_3)(64bit) \
 libwithsctp.so.1()(64bit) \
 lksctp-tools \
 lksctp-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

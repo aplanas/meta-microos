@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libfcrypto.so.1()(64bit) \
 libfcrypto.so.1(V_20221229)(64bit) \
 libfcrypto1 \
 libfcrypto1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

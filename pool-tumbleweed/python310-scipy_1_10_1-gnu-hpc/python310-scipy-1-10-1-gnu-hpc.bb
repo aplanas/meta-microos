@@ -16,6 +16,7 @@ python3.10dist(scipy) \
 python310-scipy_1_10_1-gnu-hpc \
 python310-scipy_1_10_1-gnu-hpc(aarch-64) \
 python3dist(scipy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

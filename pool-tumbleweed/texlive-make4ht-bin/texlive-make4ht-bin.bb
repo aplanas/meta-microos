@@ -9,6 +9,7 @@ RPM_HASH = "ebb819545c3edaefea829c4a0b0a1e758b2914b5a9f5a4c98929492b5d9d85781c7c
 
 RPROVIDES:${PN} += "texlive-make4ht-bin \
 texlive-make4ht-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-make4ht"
 
 inherit rpm

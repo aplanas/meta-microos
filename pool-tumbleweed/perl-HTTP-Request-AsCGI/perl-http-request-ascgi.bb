@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(HTTP::Request::AsCGI) \
 perl-HTTP-Request-AsCGI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(Class::Accessor) \

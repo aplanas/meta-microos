@@ -26,6 +26,7 @@ RPM_HASH = "612396603255d43708b9b8124f5c691a1677ed72ddbf8c6095961d98e8e09a947349
 
 RPROVIDES:${PN} += "baresip-video \
 baresip-video(aarch-64)"
+
 RDEPENDS:${PN} += "baresip \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

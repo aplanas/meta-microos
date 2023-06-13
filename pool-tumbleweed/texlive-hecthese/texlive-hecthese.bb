@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hecthese.cls) \
 texlive-hecthese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

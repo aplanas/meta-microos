@@ -30,6 +30,7 @@ locale(phononsettings:uk) \
 locale(phononsettings:zh_CN) \
 phononsettings-lang \
 phononsettings-lang-all"
+
 RDEPENDS:${PN} += "phononsettings"
 
 inherit rpm

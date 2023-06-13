@@ -9,6 +9,7 @@ RPM_HASH = "2954ab16a688d1790af592580c955b8e7343bb028829e93e40aadfe8f69e510ec72e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-roundbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

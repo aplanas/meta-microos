@@ -9,6 +9,7 @@ RPM_HASH = "2bffccd5f344036eb30bb46d5b0baf449db9ac0c75077fa29a7a3e13dc8a9ca7f6fa
 
 RPROVIDES:${PN} += "collectd-plugin-buddyinfo \
 collectd-plugin-buddyinfo(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

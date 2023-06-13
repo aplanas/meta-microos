@@ -11,6 +11,7 @@ RPM_HASH = "0180a8bab6c73ed62cce527f9a51e4595055585c6d0ddb0a8545e905de4d68538a21
 
 RPROVIDES:${PN} += "pcsc-tools \
 pcsc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

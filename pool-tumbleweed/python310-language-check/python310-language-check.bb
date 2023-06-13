@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-language-check \
 python3.10dist(language-check) \
 python310-language-check \
 python3dist(language-check)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-txZMQ \
 python3.10dist(txzmq) \
 python310-txZMQ \
 python3dist(txzmq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted \
 python310-pyzmq"

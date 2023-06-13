@@ -14,6 +14,7 @@ RPM_HASH = "c0b0d810ec1cbaf075f3ee9917c174ceec1a445181fdc9a65de1b25332de08593734
 RPROVIDES:${PN} += "monitoring-plugins-dns \
 monitoring-plugins-dns(aarch-64) \
 nagios-plugins-dns"
+
 RDEPENDS:${PN} += "/usr/bin/nslookup \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

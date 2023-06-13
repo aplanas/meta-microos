@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-fonts-fonts_opt \
 patterns-fonts-fonts_opt(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

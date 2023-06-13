@@ -9,6 +9,7 @@ RPM_HASH = "aea91850a753c7570e282e543dc413357784f079494614a24fc927d648284cf16788
 
 RPROVIDES:${PN} += "libvc-devel \
 libvc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvc0"
 
 inherit rpm

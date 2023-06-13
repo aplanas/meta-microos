@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aiaa-tc.cls) \
 texlive-aiaa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

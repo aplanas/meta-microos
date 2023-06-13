@@ -16,6 +16,7 @@ RPM_HASH = "e78562f1c51c389e06d75624127b12e4eb5d808673a2caeab7f03fc118a2e92d852c
 
 RPROVIDES:${PN} += "xsm \
 xsm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \

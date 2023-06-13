@@ -10,6 +10,7 @@ RPM_HASH = "51893decdbfdfced363ce5e35fa60601e0c19a74a5463f607d0e3f6bc7d23599fa79
 
 RPROVIDES:${PN} += "gtp-echo-responder \
 gtp-echo-responder(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

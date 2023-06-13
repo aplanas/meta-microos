@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(catalan.ldf) \
 texlive-babel-catalan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -81,6 +81,7 @@ libkst2core.so.2()(64bit) \
 libkst2math.so.2()(64bit) \
 libkst2widgets.so.2()(64bit) \
 mimehandler(application/x-kst)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "7eb1d5fa8e46c87756821ea629c3f3b5f11bdab4a13ff49983f3ef78151465534719
 RPROVIDES:${PN} += "/bin/logger \
 util-linux-systemd \
 util-linux-systemd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

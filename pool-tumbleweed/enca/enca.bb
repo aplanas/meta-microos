@@ -22,6 +22,7 @@ RPM_HASH = "f0ca1ab455cc499661c0c4385c6dc5c5be99fba3818e05b4d4f95baeeab7ef1fb40a
 
 RPROVIDES:${PN} += "enca \
 enca(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

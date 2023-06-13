@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libostree-devel \
 libostree-devel(aarch-64) \
 ostree-devel \
 pkgconfig(ostree-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libostree-1-1 \
 pkgconfig(gio-unix-2.0) \

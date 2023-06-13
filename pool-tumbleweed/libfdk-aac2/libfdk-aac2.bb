@@ -12,6 +12,7 @@ RPM_HASH = "bb6eadfe046fd29829ad43bb231267ebaf40cb575fd9691479266818720927912a92
 RPROVIDES:${PN} += "libfdk-aac.so.2()(64bit) \
 libfdk-aac2 \
 libfdk-aac2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

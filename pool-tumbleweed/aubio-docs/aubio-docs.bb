@@ -9,6 +9,7 @@ RPM_HASH = "9215a29893710d1de3b547aaeecfecad32231f557e706e2b0a7ecfce152f60d02404
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aubio-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-et.ec.tex) \
 tex(hyph-et.tex) \
 tex(loadhyph-et.tex) \
 texlive-hyphen-estonian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

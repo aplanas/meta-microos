@@ -18,6 +18,7 @@ perl(Mojo::DOM58::_CSS) \
 perl(Mojo::DOM58::_Collection) \
 perl(Mojo::DOM58::_HTML) \
 perl-Mojo-DOM58"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

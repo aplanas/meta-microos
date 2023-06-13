@@ -9,6 +9,7 @@ RPM_HASH = "4eff5a87b9442907182722ba03a2a4cd5f7ee695841cec894c27112dcd06ac70f641
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tengwarscript-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

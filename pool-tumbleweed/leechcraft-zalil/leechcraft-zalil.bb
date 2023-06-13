@@ -11,6 +11,7 @@ RPM_HASH = "8769aa6399f31961250bc074c4aaa03e07248cd59db4da68ce906cfd8bdaf876ae8d
 RPROVIDES:${PN} += "leechcraft-zalil \
 leechcraft-zalil(aarch-64) \
 libleechcraft_zalil.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

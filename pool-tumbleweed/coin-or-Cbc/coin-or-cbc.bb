@@ -12,6 +12,7 @@ RPM_HASH = "fcefcefbee416d60891ed35bb8e6612265caf76c8965eff7df3be048fb3f76e3e7e6
 
 RPROVIDES:${PN} += "coin-or-Cbc \
 coin-or-Cbc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libCbc.so.3()(64bit) \

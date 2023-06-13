@@ -33,6 +33,7 @@ mvn(org.swinglabs.swingx:swingx-plaf) \
 mvn(org.swinglabs.swingx:swingx-plaf:pom:) \
 mvn(org.swinglabs.swingx:swingx-project:pom:) \
 swingx"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

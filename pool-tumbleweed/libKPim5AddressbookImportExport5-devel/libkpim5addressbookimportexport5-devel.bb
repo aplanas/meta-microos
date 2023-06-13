@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KPim5AddressbookImportExport) \
 cmake(KPimAddressbookImportExport) \
 libKPim5AddressbookImportExport5-devel \
 libKPim5AddressbookImportExport5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKPim5AddressbookImportExport5"
 
 inherit rpm

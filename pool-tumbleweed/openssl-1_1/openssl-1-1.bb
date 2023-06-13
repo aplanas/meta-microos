@@ -13,6 +13,7 @@ RPM_HASH = "eae2b6db50c364286a93958e862dfd3000dc396e672dd9b97671b8e0064b124d80fc
 RPROVIDES:${PN} += "config(openssl-1_1) \
 openssl-1_1 \
 openssl-1_1(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \

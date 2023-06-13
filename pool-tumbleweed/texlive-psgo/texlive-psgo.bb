@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(psgo.sty) \
 texlive-psgo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

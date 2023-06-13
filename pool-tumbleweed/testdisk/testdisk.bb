@@ -10,6 +10,7 @@ RPM_HASH = "bd957bf52e51d02877babea245e3d43234a008b145cfcf1c5110ff9008bbd6f4445d
 
 RPROVIDES:${PN} += "testdisk \
 testdisk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libltdl-devel \
 libtool \
 libtool(aarch-64) \
 libtool-ltdl-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/env \

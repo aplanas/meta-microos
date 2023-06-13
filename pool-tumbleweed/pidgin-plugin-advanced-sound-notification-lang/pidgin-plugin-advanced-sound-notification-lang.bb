@@ -16,6 +16,7 @@ locale(pidgin-plugin-advanced-sound-notification:tr) \
 locale(pidgin-plugin-advanced-sound-notification:zh_CN) \
 pidgin-plugin-advanced-sound-notification-lang \
 pidgin-plugin-advanced-sound-notification-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-advanced-sound-notification"
 
 inherit rpm

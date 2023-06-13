@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamerappendixnote.sty) \
 texlive-beamerappendixnote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

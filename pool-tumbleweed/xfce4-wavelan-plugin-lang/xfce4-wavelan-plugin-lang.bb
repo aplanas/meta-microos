@@ -58,6 +58,7 @@ locale(xfce4-wavelan-plugin:zh_TW) \
 xfce4-panel-plugin-wavelan-lang \
 xfce4-wavelan-plugin-lang \
 xfce4-wavelan-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-wavelan-plugin"
 
 inherit rpm

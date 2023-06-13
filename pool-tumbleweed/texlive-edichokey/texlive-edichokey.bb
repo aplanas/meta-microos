@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(edichokey.sty) \
 texlive-edichokey"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

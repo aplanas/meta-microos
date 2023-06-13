@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(forloop.sty) \
 texlive-forloop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

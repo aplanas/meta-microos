@@ -16,6 +16,7 @@ metainfo() \
 metainfo(plank.appdata.xml) \
 plank \
 plank(aarch-64)"
+
 RDEPENDS:${PN} += "bamf-daemon \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgio-2.0.so.0()(64bit) \

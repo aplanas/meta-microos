@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tomcat-webapps) \
 tomcat-webapps"
+
 RDEPENDS:${PN} += "/bin/sh \
 jakarta-taglibs-standard \
 tomcat"

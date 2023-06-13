@@ -13,6 +13,7 @@ RPM_HASH = "e62276a546d926423961b6ed9acb149bfbe8bce7299b580ef27186f8559c63af9d56
 
 RPROVIDES:${PN} += "upx \
 upx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

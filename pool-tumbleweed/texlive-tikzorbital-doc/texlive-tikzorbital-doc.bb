@@ -9,6 +9,7 @@ RPM_HASH = "f6617542eb9260bbb0f81f6f0b9ff15bbebcd88d0c0f2d9d65c2b1458593de857d90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzorbital-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

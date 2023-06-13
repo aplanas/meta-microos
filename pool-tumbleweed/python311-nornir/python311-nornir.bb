@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(nornir) \
 python311-nornir \
 python3dist(nornir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-mypy_extensions \
 python311-ruamel.yaml \

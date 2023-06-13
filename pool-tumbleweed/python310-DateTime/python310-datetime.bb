@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-DateTime \
 python3.10dist(datetime) \
 python310-DateTime \
 python3dist(datetime)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz \
 python310-zope.interface"

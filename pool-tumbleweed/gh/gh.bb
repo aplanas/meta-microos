@@ -9,6 +9,7 @@ RPM_HASH = "b57acf41633add1ff53d12c010b9fcdd934b140bfc6969ccbfc4df109906212595d3
 
 RPROVIDES:${PN} += "gh \
 gh(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 libc.so.6(GLIBC_2.34)(64bit)"
 

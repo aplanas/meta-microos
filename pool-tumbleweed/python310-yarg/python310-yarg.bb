@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-yarg \
 python3.10dist(yarg) \
 python310-yarg \
 python3dist(yarg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

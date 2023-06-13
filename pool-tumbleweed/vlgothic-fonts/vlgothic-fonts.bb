@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "locale(ja) \
 scalable-font-ja \
 vlgothic \
 vlgothic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-media-videoanalyzer-edge) \
 python39-azure-media-videoanalyzer-edge \
 python3dist(azure-media-videoanalyzer-edge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-azure-media-nspkg \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-uncertainties \
 python3.10dist(uncertainties) \
 python310-uncertainties \
 python3dist(uncertainties)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

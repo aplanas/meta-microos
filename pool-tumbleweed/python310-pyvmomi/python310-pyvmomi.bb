@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyvmomi \
 python3.10dist(pyvmomi) \
 python310-pyvmomi \
 python3dist(pyvmomi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-six"

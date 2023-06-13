@@ -9,6 +9,7 @@ RPM_HASH = "70dd8f3905c0500b6f02be6310d55ef177e8577dc08be16fc1f2edee3156073eb30a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coordsys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

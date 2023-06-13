@@ -64,6 +64,7 @@ perl(Mail::DKIM::SignerPolicy) \
 perl(Mail::DKIM::TextWrap) \
 perl(Mail::DKIM::Verifier) \
 perl-Mail-DKIM"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::OpenSSL::RSA) \
 perl(Digest::SHA) \

@@ -11,6 +11,7 @@ RPM_HASH = "ed65106a8708441d332c72b8934dd517d387f484d73f417cda5c5cb050d6e7b7b3b4
 RPROVIDES:${PN} += "ghc-commonmark-extensions-devel \
 ghc-commonmark-extensions-devel(aarch-64) \
 ghc-devel(commonmark-extensions-0.2.3.4-fvyaRimQueHtxCz9MhD8e)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-commonmark-extensions \
 ghc-compiler \

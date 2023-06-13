@@ -15,6 +15,7 @@ RPM_HASH = "037f7402ed8f607cb8fd5bf1f48818ecf799e630a970fe6c536c3cce78bf83261dc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-transaction"
+
 RDEPENDS:${PN} += "geronimo-jta-1_1-api \
 jakarta-commons-codec \
 reload4j \

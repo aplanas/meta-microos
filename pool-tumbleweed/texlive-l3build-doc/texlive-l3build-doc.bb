@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(l3build.1) \
 texlive-l3build-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

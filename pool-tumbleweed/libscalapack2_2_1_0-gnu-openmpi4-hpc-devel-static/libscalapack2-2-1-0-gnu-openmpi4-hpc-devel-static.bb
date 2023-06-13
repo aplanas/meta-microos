@@ -10,6 +10,7 @@ RPM_HASH = "330acadba6a89e9a0aa1f7beaee2962ffb213811fb3ae9fe2e1f9460a7d27fd925a0
 RPROVIDES:${PN} += "libscalapack2_2_1_0-gnu-openmpi4-hpc-devel-static \
 libscalapack2_2_1_0-gnu-openmpi4-hpc-devel-static(aarch-64) \
 scalapack_2_1_0-gnu-openmpi4-hpc-devel-static"
+
 RDEPENDS:${PN} += "libscalapack2_2_1_0-gnu-openmpi4-hpc-devel"
 
 inherit rpm

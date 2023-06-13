@@ -10,6 +10,7 @@ RPM_HASH = "a2448dcc899dfea2e35f89a4b1012791464d8a00f809471893ec732f581fcf02bf29
 RPROVIDES:${PN} += "cglm-devel \
 cglm-devel(aarch-64) \
 pkgconfig(cglm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcglm0"
 

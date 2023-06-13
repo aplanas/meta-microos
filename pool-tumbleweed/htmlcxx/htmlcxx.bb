@@ -19,6 +19,7 @@ htmlcxx(aarch-64) \
 libcss_parser.so.0()(64bit) \
 libcss_parser_pp.so.0()(64bit) \
 libhtmlcxx.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

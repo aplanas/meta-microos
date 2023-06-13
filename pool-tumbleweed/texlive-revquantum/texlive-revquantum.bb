@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(revquantum.sty) \
 texlive-revquantum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

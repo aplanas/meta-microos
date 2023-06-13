@@ -13,6 +13,7 @@ RPM_HASH = "330c7b80e436a5b2aa75e4607a165d3c735e5079ef3c875aab4f2ba10030bdf4ba0b
 
 RPROVIDES:${PN} += "wavpack-doc \
 wavpack-doc(aarch-64)"
+
 RDEPENDS:${PN} += "wavpack"
 
 inherit rpm

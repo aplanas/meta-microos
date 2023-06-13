@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ogham.tfm) \
 texlive-ogham"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

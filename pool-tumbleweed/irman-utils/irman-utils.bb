@@ -10,6 +10,7 @@ RPM_HASH = "0d9b57f788d48031ceae48146d14cfe82083699ec146004d3818bd1d7bd547d69b26
 RPROVIDES:${PN} += "irman-utils \
 irman-utils(aarch-64) \
 libirman-utils"
+
 RDEPENDS:${PN} += "irman-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

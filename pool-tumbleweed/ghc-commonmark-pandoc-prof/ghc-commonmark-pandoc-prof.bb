@@ -10,6 +10,7 @@ RPM_HASH = "ef7e23388be3da88c543bf2221376c7e8d58a51c9fb93d296e1d27ba29c0a4116688
 RPROVIDES:${PN} += "ghc-commonmark-pandoc-prof \
 ghc-commonmark-pandoc-prof(aarch-64) \
 ghc-prof(commonmark-pandoc-0.2.1.3-FiR1R9G72Pe54eJfxxlumA)"
+
 RDEPENDS:${PN} += "ghc-commonmark-pandoc-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(commonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz) \

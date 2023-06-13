@@ -14,6 +14,7 @@ RPM_HASH = "dc82da835d186ba3e0802e762a0f4f5d092f2aeeca5eaf475d63797d048c14a605ce
 
 RPROVIDES:${PN} += "python311-bsddb3-devel \
 python311-bsddb3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-bsddb3"
 
 inherit rpm

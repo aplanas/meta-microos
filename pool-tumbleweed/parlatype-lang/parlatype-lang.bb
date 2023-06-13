@@ -36,6 +36,7 @@ locale(parlatype:sr) \
 locale(parlatype:sv) \
 parlatype-lang \
 parlatype-lang-all"
+
 RDEPENDS:${PN} += "parlatype"
 
 inherit rpm

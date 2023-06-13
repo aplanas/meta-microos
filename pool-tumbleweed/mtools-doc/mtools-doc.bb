@@ -10,6 +10,7 @@ RPM_HASH = "72141c24641a7012c3e7c35cb54f00d421ef5e3b0ba6b0a8a739a71f2b2acb4b49f7
 
 RPROVIDES:${PN} += "mtools-doc \
 mtools-doc(aarch-64)"
+
 RDEPENDS:${PN} += "mtools"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1abd764a63888a75e8095297e51c6f8b19825fb699ae74a8f6bc7d636d18144c969a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jknapltx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

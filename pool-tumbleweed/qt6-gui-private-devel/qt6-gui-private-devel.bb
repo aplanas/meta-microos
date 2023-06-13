@@ -14,6 +14,7 @@ cmake(Qt6EglFsKmsSupportPrivate) \
 cmake(Qt6XcbQpaPrivate) \
 qt6-gui-private-devel \
 qt6-gui-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6DeviceDiscoverySupportPrivate) \
 cmake(Qt6FbSupportPrivate) \
 cmake(Qt6InputSupportPrivate) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-qumulo \
 python3.10dist(azure-mgmt-qumulo) \
 python310-azure-mgmt-qumulo \
 python3dist(azure-mgmt-qumulo)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

@@ -16,6 +16,7 @@ RPM_HASH = "8ca08e5d822b880c3149417ebae9dc84d3b28cb42e49a3b514ab5613cf39cfb92c4d
 RPROVIDES:${PN} += "libode.so.8()(64bit) \
 libode8 \
 libode8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

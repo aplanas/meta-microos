@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:listen) \
 rubygem(ruby:3.2.0:listen:3) \
 rubygem(ruby:3.2.0:listen:3.7) \
 rubygem(ruby:3.2.0:listen:3.7.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

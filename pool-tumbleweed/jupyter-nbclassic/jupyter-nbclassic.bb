@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "application() \
 application(jupyter-nbclassic.desktop) \
 jupyter-nbclassic \
 mimehandler(application/x-ipynb+json)"
+
 RDEPENDS:${PN} += "python3-nbclassic"
 
 inherit rpm

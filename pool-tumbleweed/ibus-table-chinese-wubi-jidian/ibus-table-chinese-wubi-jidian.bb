@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ibus-table-chinese-wubi-jidian \
 ibus-table-wubi \
 locale(ibus:zh_CN)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ibus-table"
 

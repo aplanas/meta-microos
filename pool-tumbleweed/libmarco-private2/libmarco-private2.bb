@@ -11,6 +11,7 @@ RPM_HASH = "8f8b15d40a9c0d3c4f81a3a9cca4b1128435fd26d28ab38c7e44fabb5202062d3864
 RPROVIDES:${PN} += "libmarco-private.so.2()(64bit) \
 libmarco-private2 \
 libmarco-private2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

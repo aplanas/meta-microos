@@ -9,6 +9,7 @@ RPM_HASH = "762dcbdb78313c4b039f08aa199c0eed3040586244a74fe83d6fc69118133de63a63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancytabs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

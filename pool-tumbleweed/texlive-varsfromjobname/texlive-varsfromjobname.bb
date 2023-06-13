@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(varsfromjobname.sty) \
 texlive-varsfromjobname"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

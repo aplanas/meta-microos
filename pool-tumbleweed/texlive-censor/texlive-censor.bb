@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(censor.sty) \
 texlive-censor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

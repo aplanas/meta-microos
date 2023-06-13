@@ -10,6 +10,7 @@ RPM_HASH = "6b044415112476887f4f795bf26cbfbd78bf98056b0c91fdb510bbf7fbc147aaeee6
 RPROVIDES:${PN} += "ghc-deepseq \
 ghc-deepseq(aarch-64) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \

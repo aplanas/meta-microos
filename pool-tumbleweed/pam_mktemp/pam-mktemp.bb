@@ -16,6 +16,7 @@ RPM_HASH = "1727ad845d721ef2e6e64e7b10f9bfa3ef0ed6362bf5296e7ae45761419960eee209
 RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_mktemp.so \
 pam_mktemp \
 pam_mktemp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

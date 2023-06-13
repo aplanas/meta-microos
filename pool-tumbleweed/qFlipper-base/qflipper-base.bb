@@ -9,6 +9,7 @@ RPM_HASH = "296a68af426f9dd1af010954d1e9deb79eec0d2f194c3ec62dc9a948538a272b93c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qFlipper-base"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

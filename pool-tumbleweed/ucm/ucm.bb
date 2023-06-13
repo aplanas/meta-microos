@@ -12,6 +12,7 @@ RPM_HASH = "b58d8a86816557786d00dc986ca5ec095fcb0e55b1957f959852d2bdb0f21789e5d9
 
 RPROVIDES:${PN} += "ucm \
 ucm(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-unifont \
 libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \

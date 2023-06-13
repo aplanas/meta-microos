@@ -10,6 +10,7 @@ RPM_HASH = "7b73c4913e4ab1e4d2d37eade8aac14f81b844173ff2e7b5351e0a59a3e6c49b8dcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-castellan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

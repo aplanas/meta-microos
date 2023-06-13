@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "mvn(org.uncommons.maths:uncommons-maths) \
 mvn(org.uncommons.maths:uncommons-maths:pom:) \
 osgi(org.uncommons.maths) \
 uncommons-maths"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jfree:jcommon) \

@@ -108,6 +108,7 @@ font(almendrasc) \
 font(almndr) \
 font(almndrsc) \
 texlive-almendra-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

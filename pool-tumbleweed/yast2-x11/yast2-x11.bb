@@ -9,6 +9,7 @@ RPM_HASH = "72114f08abc34f9db32b0551a5323d3f906ea526464d5db9a2eb01bf676f9e94bd77
 
 RPROVIDES:${PN} += "yast2-x11 \
 yast2-x11(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

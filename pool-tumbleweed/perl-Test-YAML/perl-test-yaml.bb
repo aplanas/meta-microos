@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::YAML) \
 perl(Test::YAML::Filter) \
 perl-Test-YAML"
+
 RDEPENDS:${PN} += "/bin/bash \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Base)"

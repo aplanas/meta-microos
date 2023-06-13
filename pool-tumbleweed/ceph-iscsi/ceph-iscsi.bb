@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "ceph-iscsi \
 ceph-iscsi(aarch-64) \
 python3.10dist(ceph-iscsi) \
 python3dist(ceph-iscsi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ceph-common \

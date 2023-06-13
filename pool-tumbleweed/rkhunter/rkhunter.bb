@@ -29,6 +29,7 @@ RPM_HASH = "3fd1f794e28be6843140ac1aa587bfeecc72e870dfa92b791d3d3f908b44fd296398
 RPROVIDES:${PN} += "config(rkhunter) \
 rkhunter \
 rkhunter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

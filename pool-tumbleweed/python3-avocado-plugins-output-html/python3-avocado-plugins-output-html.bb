@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-avocado-plugins-output-html \
 python3.10dist(avocado-framework-plugin-result-html) \
 python3dist(avocado-framework-plugin-result-html)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-avocado \
 python3-pystache"

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-mixedreality-nspkg \
 python3.10dist(azure-mixedreality-nspkg) \
 python310-azure-mixedreality-nspkg \
 python3dist(azure-mixedreality-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

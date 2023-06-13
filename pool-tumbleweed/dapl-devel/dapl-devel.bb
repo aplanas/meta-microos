@@ -9,6 +9,7 @@ RPM_HASH = "b57ca029a0f945955344517670d0d5659c8b263d78ba8a053863c1e6bf653c377b28
 
 RPROVIDES:${PN} += "dapl-devel \
 dapl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "dapl \
 glibc-devel"
 

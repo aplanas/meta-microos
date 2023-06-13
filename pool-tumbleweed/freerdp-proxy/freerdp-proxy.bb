@@ -11,6 +11,7 @@ RPM_HASH = "333a0bcf985b29f770246befa4261e3f10e42c8b52d05a714c259f6e594f44030013
 
 RPROVIDES:${PN} += "freerdp-proxy \
 freerdp-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

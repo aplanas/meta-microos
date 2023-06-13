@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ptpython-ptipython \
 python310-ptpython-ptipython"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python310-ipython \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-movie-lang \
 deepin-movie-lang-all"
+
 RDEPENDS:${PN} += "deepin-movie"
 
 inherit rpm

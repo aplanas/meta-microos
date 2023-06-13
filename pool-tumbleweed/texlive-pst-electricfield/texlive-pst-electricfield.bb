@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-electricfield.sty) \
 tex(pst-electricfield.tex) \
 texlive-pst-electricfield"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

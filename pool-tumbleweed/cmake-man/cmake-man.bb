@@ -9,6 +9,7 @@ RPM_HASH = "65f43546be40f362bfce33f8b5c068ab0901956e22feb7cea22e29bc47a150b3cef3
 
 RPROVIDES:${PN} += "cmake-man \
 cmake-man(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

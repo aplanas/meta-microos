@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lttng-ust-doc \
 lttng-ust-docs"
+
 RDEPENDS:${PN} += "liblttng-ust-ctl5 \
 liblttng-ust-python-agent1 \
 liblttng-ust1"

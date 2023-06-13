@@ -11,6 +11,7 @@ RPM_HASH = "0a2c90232d5838771978bacf0ffbd78e6cfc936907429ed4d5ea09d5e8d935a01adf
 RPROVIDES:${PN} += "dumb-devel \
 dumb-devel(aarch-64) \
 pkgconfig(dumb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdumb2"
 

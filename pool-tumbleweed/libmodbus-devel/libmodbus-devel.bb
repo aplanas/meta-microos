@@ -15,6 +15,7 @@ RPM_HASH = "caf3c53d7d47dfa927dc53e6709a8a71140686bf0089a238ac61ad506c5ff95797e6
 RPROVIDES:${PN} += "libmodbus-devel \
 libmodbus-devel(aarch-64) \
 pkgconfig(libmodbus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libmodbus5"

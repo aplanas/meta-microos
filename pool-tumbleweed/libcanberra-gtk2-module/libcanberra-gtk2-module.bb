@@ -16,6 +16,7 @@ RPM_HASH = "9242cd42f2708fc78f1165b3986bcddc86214ba5a4cda45902eb6b1b4b1e5c60cad8
 RPROVIDES:${PN} += "libcanberra-gtk-module.so()(64bit) \
 libcanberra-gtk2-module \
 libcanberra-gtk2-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "d62013a377d2eefeb32f7472688fe7fa67ff170b7b03a76a24ca93efb4c259482f91
 RPROVIDES:${PN} += "libdwarf-devel-static \
 libdwarf-devel-static(aarch-64) \
 libdwarf-devel:/usr/lib64/libdwarf.a"
+
 RDEPENDS:${PN} += "libdwarf-devel"
 
 inherit rpm

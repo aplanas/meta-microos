@@ -10,6 +10,7 @@ RPM_HASH = "73be861e0ceb6227615aab0b8c9c25320c3ef482b742b130eea07f948de18260eb3f
 RPROVIDES:${PN} += "liballeggl.so.4.4()(64bit) \
 liballeggl4_4 \
 liballeggl4_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

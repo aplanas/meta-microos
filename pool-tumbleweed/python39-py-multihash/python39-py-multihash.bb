@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(py-multihash) \
 python39-py-multihash \
 python3dist(py-multihash)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

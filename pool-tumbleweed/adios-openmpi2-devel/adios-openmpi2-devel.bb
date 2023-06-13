@@ -14,6 +14,7 @@ RPM_HASH = "39c5080f8c44465f3d7f7e8ab5f72a3f13401bba9af23dbad5489be993fc44f4e50f
 
 RPROVIDES:${PN} += "adios-openmpi2-devel \
 adios-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "adios-openmpi2 \
 adios-openmpi2-devel-static \
 hdf5-openmpi2-devel \

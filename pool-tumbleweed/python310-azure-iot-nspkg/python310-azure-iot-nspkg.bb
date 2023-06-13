@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-iot-nspkg \
 python3.10dist(azure-iot-nspkg) \
 python310-azure-iot-nspkg \
 python3dist(azure-iot-nspkg)"
+
 RDEPENDS:${PN} += "python310-azure-nspkg"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "1b21dd68258b8af01084b86c963d8450c90a5312ac4a9c8cbaec77d3baf606ee760d
 RPROVIDES:${PN} += "caribou-gtk2-module \
 caribou-gtk2-module(aarch-64) \
 libcaribou-gtk-module.so()(64bit)"
+
 RDEPENDS:${PN} += "caribou \
 caribou-gtk-module-common \
 ld-linux-aarch64.so.1()(64bit) \

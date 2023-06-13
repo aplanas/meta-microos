@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono(notify-sharp) \
 notify-sharp3"
+
 RDEPENDS:${PN} += "mono(dbus-sharp) \
 mono(dbus-sharp-glib) \
 mono(gdk-sharp) \

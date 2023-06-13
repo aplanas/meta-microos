@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Mixin::Linewise) \
 perl(Mixin::Linewise::Readers) \
 perl(Mixin::Linewise::Writers) \
 perl-Mixin-Linewise"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PerlIO::utf8_strict) \
 perl(Sub::Exporter)"

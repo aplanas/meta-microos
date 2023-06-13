@@ -9,6 +9,7 @@ RPM_HASH = "bf1ad02124762ac43903ab9fd0369404bb54613a6bb83d10c4de3047593c7c522994
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-froufrou-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

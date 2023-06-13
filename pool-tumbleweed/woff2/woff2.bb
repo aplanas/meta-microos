@@ -13,6 +13,7 @@ RPM_HASH = "612af3aadc6403b096f36ac7f17b5812f050e301de30b04cd3f4ea20f004bef15d65
 
 RPROVIDES:${PN} += "woff2 \
 woff2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

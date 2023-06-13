@@ -11,6 +11,7 @@ RPM_HASH = "5ad91e0296d6bef80c681760fa5e3165b9821df4c082c3f7c47b57dffe1819b94d06
 RPROVIDES:${PN} += "libqpdfview_ps.so()(64bit) \
 qpdfview-plugin-ps \
 qpdfview-plugin-ps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

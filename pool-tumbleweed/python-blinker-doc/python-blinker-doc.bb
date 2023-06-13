@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python-blinker-doc \
 python310-blinker-doc \
 python311-blinker-doc \
 python39-blinker-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -53,6 +53,7 @@ tex(arm_c3z4r2.enc) \
 tex(arm_f4duzd.enc) \
 tex(arm_l3opzb.enc) \
 texlive-arimo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

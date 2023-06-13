@@ -9,6 +9,7 @@ RPM_HASH = "13c671468fd6fec7a0216d22e9598cd521923e3e590770738bcca74454ff75299b0a
 
 RPROVIDES:${PN} += "firejail-zsh-completion \
 firejail-zsh-completion(aarch-64)"
+
 RDEPENDS:${PN} += "firejail \
 zsh"
 

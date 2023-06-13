@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solarus-quest-editor-lang \
 solarus-quest-editor-lang-all"
+
 RDEPENDS:${PN} += "solarus-quest-editor"
 
 inherit rpm

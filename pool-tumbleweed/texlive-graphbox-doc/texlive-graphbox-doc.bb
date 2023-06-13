@@ -9,6 +9,7 @@ RPM_HASH = "3901d50103299dcb403a0ad5e6292bf45ab5475684257bb5f18fbdb03879fafbae17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "208a232f01d29773001a3d9f5cfa629c9949027368ab6bab8687d802ed14967ceaa1
 RPROVIDES:${PN} += "cmake(SUNDIALS) \
 sundials-devel \
 sundials-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsundials_arkode5 \
 libsundials_cvode6 \
 libsundials_cvodes6 \

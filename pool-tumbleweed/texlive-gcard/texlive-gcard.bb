@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gcard.sty) \
 texlive-gcard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

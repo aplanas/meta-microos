@@ -13,6 +13,7 @@ ocaml-ptmap-devel \
 ocaml-ptmap-devel(aarch-64) \
 ocamlfind(ptmap) \
 ocamlx(Ptmap)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Either) \

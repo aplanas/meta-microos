@@ -14,6 +14,7 @@ RPM_HASH = "8a1fa8f0a7421853837838d6f82eb51b1b7ebe10444d4510f6add9251702dcaf9ec2
 RPROVIDES:${PN} += "typelib(Goa) \
 typelib-1_0-Goa-1_0 \
 typelib-1_0-Goa-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgoa-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

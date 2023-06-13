@@ -11,6 +11,7 @@ RPM_HASH = "cb93045ffae071bd69fd402066d7f3c311cc36f4bcf5739f83d91c9c4c3b62fc4b32
 
 RPROVIDES:${PN} += "samba-ceph \
 samba-ceph(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

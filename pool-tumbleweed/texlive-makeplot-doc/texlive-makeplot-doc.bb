@@ -9,6 +9,7 @@ RPM_HASH = "117af9cb937a0c136b761548ce351c36e45be9b4b405172f4ec600a915e5ebe77bb2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makeplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

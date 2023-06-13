@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(weblate-language-data) \
 python39-weblate-language-data \
 python3dist(weblate-language-data)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

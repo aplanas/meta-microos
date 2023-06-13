@@ -11,6 +11,7 @@ RPM_HASH = "34a57e16ba2301391c2cac102d8cb4fcf171244c53e9d87597b4cbb6109e42e0c286
 RPROVIDES:${PN} += "cmake(KOpeningHours) \
 kopeninghours-devel \
 kopeninghours-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKOpeningHours1"
 
 inherit rpm

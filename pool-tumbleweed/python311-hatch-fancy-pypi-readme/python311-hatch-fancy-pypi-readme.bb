@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.11dist(hatch-fancy-pypi-readme) \
 python311-hatch-fancy-pypi-readme \
 python311-hatch_fancy_pypi_readme \
 python3dist(hatch-fancy-pypi-readme)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

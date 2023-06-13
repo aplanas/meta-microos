@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-plugin-bundle \
 mvn(org.apache.felix:maven-bundle-plugin) \
 mvn(org.apache.felix:maven-bundle-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(biz.aQute.bnd:biz.aQute.bndlib) \

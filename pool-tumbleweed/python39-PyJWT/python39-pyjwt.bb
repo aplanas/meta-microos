@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyjwt) \
 python39-PyJWT \
 python3dist(pyjwt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-typing-extensions \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(gevent-websocket) \
 python39-gevent-websocket \
 python3dist(gevent-websocket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-gevent"
 

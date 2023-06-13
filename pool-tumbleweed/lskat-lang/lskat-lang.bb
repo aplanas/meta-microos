@@ -78,6 +78,7 @@ locale(lskat:zh_CN) \
 locale(lskat:zh_TW) \
 lskat-lang \
 lskat-lang-all"
+
 RDEPENDS:${PN} += "lskat"
 
 inherit rpm

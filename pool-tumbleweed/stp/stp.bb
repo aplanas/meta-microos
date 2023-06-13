@@ -16,6 +16,7 @@ RPM_HASH = "6a11dee66a1b2f4ccab8f0ac265264460ac2dec2d873430b868abff377bb07d8417b
 
 RPROVIDES:${PN} += "stp \
 stp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_program_options.so.1.82.0()(64bit) \

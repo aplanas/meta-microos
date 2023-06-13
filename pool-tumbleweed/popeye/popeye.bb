@@ -11,6 +11,7 @@ RPM_HASH = "e24658d9bd3d760c199982aa7c3e27e783ecfaed42466da69cea7671e7cba51a8fd6
 
 RPROVIDES:${PN} += "popeye \
 popeye(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

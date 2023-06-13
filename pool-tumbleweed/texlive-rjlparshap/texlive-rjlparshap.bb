@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rjlpshap.sty) \
 texlive-rjlparshap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

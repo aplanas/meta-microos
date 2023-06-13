@@ -103,6 +103,7 @@ postscriptdriver(kyocera_mita;kyocera_mita_fs-c8008n;) \
 postscriptdriver(kyocera_mita;kyocera_mita_km-1815;) \
 postscriptdriver(oki_data_corp;microline905psiii+f;) \
 postscriptdriver(oki_data_corp;ml703n3;)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

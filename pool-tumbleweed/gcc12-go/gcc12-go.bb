@@ -10,6 +10,7 @@ RPM_HASH = "43fc2fe71940454b50c66683d91e51cbc2705ed5390530273049910bb8fde53439c3
 
 RPROVIDES:${PN} += "gcc12-go \
 gcc12-go(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12 \
 libc.so.6(GLIBC_2.36)(64bit) \
 libgmp.so.10()(64bit) \

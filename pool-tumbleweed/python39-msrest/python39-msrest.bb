@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(msrest) \
 python39-msrest \
 python3dist(msrest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core \
 python39-certifi \

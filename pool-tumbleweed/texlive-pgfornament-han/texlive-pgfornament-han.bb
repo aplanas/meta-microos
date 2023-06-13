@@ -24,6 +24,7 @@ tex(cncolours.sty) \
 tex(pgflibraryhan.code.tex) \
 tex(pgfornament-han.sty) \
 texlive-pgfornament-han"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

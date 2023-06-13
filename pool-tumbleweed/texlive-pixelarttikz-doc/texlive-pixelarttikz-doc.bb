@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pixelarttikz-doc:fr) \
 texlive-pixelarttikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

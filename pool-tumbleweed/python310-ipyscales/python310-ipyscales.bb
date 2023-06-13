@@ -16,6 +16,7 @@ python3.10dist(ipyscales) \
 python310-ipyscales \
 python310-jupyter_ipyscales \
 python3dist(ipyscales)"
+
 RDEPENDS:${PN} += "jupyter-ipyscales \
 python(abi) \
 python310-ipywidgets \

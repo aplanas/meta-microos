@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nucleardata.sty) \
 texlive-nucleardata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

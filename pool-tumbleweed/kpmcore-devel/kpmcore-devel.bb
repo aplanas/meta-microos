@@ -13,6 +13,7 @@ RPM_HASH = "891e958b2f09991c854b96bc0a821262639271f7cd2a2410a67b7f14ff5bf96aae31
 RPROVIDES:${PN} += "cmake(KPMcore) \
 kpmcore-devel \
 kpmcore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkpmcore12"
 
 inherit rpm

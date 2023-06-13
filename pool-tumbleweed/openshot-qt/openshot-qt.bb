@@ -18,6 +18,7 @@ openshot \
 openshot-qt \
 python3.10dist(openshot-qt) \
 python3dist(openshot-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-openshot \

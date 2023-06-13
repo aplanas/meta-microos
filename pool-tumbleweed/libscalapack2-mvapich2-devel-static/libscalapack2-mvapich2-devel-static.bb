@@ -10,6 +10,7 @@ RPM_HASH = "816f9b5616e7a902f6b8e5626dc5d3b35f38fcb32bf9a2c508152aa4b68bed445585
 RPROVIDES:${PN} += "libscalapack2-mvapich2-devel-static \
 libscalapack2-mvapich2-devel-static(aarch-64) \
 scalapack-mvapich2-devel-static"
+
 RDEPENDS:${PN} += "libscalapack2-mvapich2-devel"
 
 inherit rpm

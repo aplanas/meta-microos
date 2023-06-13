@@ -9,6 +9,7 @@ RPM_HASH = "2b895f8cd2b3fff29012788bde917eaf76d86d2cd5a3fde82487c71838be0a9d9edc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-imagelabels-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

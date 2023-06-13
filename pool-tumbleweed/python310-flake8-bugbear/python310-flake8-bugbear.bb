@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-flake8-bugbear \
 python3.10dist(flake8-bugbear) \
 python310-flake8-bugbear \
 python3dist(flake8-bugbear)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-flake8"

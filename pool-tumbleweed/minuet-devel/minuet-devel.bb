@@ -9,6 +9,7 @@ RPM_HASH = "abbb14647557cf1c408e637e5e5f068e374edc34c74f7c4401fd69d45d5eee5729ce
 
 RPROVIDES:${PN} += "minuet-devel \
 minuet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "minuet"
 
 inherit rpm

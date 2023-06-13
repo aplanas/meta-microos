@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(modular.sty) \
 texlive-modular"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

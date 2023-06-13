@@ -17,6 +17,7 @@ RPM_HASH = "1f43cf477964b27542aa3116004e813ed7a567965ff300710e84ad87cd4fe65b89f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-fish-completion"
+
 RDEPENDS:${PN} += "fish \
 fzf"
 

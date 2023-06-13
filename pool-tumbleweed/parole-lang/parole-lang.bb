@@ -59,6 +59,7 @@ locale(parole:zh_CN) \
 locale(parole:zh_TW) \
 parole-lang \
 parole-lang-all"
+
 RDEPENDS:${PN} += "parole"
 
 inherit rpm

@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-budgie-budgie_applets \
 patterns-budgie-budgie_applets(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

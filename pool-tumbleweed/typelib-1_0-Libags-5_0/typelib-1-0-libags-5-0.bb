@@ -13,6 +13,7 @@ typelib(AgsAudio) \
 typelib(AgsGui) \
 typelib-1_0-Libags-5_0 \
 typelib-1_0-Libags-5_0(aarch-64)"
+
 RDEPENDS:${PN} += "libags.so.5()(64bit) \
 libags_audio.so.5()(64bit) \
 libags_gui.so.5()(64bit) \

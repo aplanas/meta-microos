@@ -13,6 +13,7 @@ cmake(KPimGAPI) \
 libkgapi-devel \
 libkgapi-devel(aarch-64) \
 libkgapi5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KF5Contacts) \
 libKPim5GAPIBlogger5 \

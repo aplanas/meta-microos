@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-cooldict \
 python3.10dist(cooldict) \
 python310-cooldict \
 python3dist(cooldict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ana"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jeromq \
 mvn(org.zeromq:jeromq) \
 mvn(org.zeromq:jeromq:pom:) \
 osgi(org.zeromq.jeromq)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(eu.neilalexander:jnacl)"

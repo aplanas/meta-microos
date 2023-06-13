@@ -68,6 +68,7 @@ locale(gnome-tweaks:vi) \
 locale(gnome-tweaks:zh_CN) \
 locale(gnome-tweaks:zh_HK) \
 locale(gnome-tweaks:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-tweaks"
 
 inherit rpm

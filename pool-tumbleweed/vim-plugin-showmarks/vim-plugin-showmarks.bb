@@ -14,6 +14,7 @@ RPM_HASH = "3aedd8c28f266d5d065a4f28df4c4e6da594ab337fd14f61bae3943855a5ab93f74f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-showmarks"
+
 RDEPENDS:${PN} += "vim"
 
 inherit rpm

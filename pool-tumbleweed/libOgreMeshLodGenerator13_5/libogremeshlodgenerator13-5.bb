@@ -11,6 +11,7 @@ RPM_HASH = "a966a5324f7b39b9da97043878af2100b55e38804d4b5e56b4e50f893b46c3ce1e19
 RPROVIDES:${PN} += "libOgreMeshLodGenerator.so.13.5()(64bit) \
 libOgreMeshLodGenerator13_5 \
 libOgreMeshLodGenerator13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

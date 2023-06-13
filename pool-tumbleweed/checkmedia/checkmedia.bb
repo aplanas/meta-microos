@@ -9,6 +9,7 @@ RPM_HASH = "6e1401225d4260b2e76accee94243dbf02a03d0a17b13411744625d5ca63f0c0b19c
 
 RPROVIDES:${PN} += "checkmedia \
 checkmedia(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit) \
 libmediacheck.so.6()(64bit)"

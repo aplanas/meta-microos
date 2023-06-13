@@ -11,6 +11,7 @@ RPM_HASH = "2c980aa98ad53128d639dc4b1dcef35f0c9b43f7a3d876a1b75a71ce53e5122b3f8b
 RPROVIDES:${PN} += "libvideostatusplugin.so()(64bit) \
 psi+-plugins-videostatusplugin \
 psi+-plugins-videostatusplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -22,6 +22,7 @@ mvn(org.powermock:powermock-module-testng:pom:) \
 osgi(org.powermock.powermock-module-testng) \
 osgi(org.powermock.powermock-module-testng-common) \
 powermock-testng"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.powermock:powermock-core) \

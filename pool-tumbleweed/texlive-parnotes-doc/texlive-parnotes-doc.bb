@@ -9,6 +9,7 @@ RPM_HASH = "633e3783e1d80c00c015a281a58bc17185e193b7eff6b74f8c9046c8f465a268784d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-parnotes-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

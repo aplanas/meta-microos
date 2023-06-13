@@ -11,6 +11,7 @@ RPM_HASH = "2d01da6b8a37f281a15359c435fd4fecbbba5b150b0e6f51af45fdf46dd6b2bfd7ca
 RPROVIDES:${PN} += "librbd-devel \
 librbd-devel(aarch-64) \
 librbd1-devel"
+
 RDEPENDS:${PN} += "librados-devel \
 libradospp-devel \
 librbd1"

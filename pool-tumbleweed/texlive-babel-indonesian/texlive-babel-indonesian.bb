@@ -13,6 +13,7 @@ tex(bahasai.ldf) \
 tex(indon.ldf) \
 tex(indonesian.ldf) \
 texlive-babel-indonesian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

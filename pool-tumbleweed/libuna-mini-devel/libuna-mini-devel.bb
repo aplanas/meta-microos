@@ -14,6 +14,7 @@ RPM_HASH = "23248227386d77be4df8d4d25c9137a32d4ab235fcc6c6ef2f76902e0cc926e274f5
 RPROVIDES:${PN} += "libuna-mini-devel \
 libuna-mini-devel(aarch-64) \
 pkgconfig(libuna)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuna1-mini"
 

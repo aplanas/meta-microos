@@ -11,6 +11,7 @@ RPM_HASH = "7d398878da63ae76903c4cd538b4273d62167a4314305db9b60065a5f8d4ef741815
 
 RPROVIDES:${PN} += "rpcsvc-proto-devel \
 rpcsvc-proto-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

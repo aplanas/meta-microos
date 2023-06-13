@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ipytablewidgets) \
 python311-ipytablewidgets \
 python3dist(ipytablewidgets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipywidgets \
 python311-lz4 \

@@ -14,6 +14,7 @@ coq-ide(aarch-64) \
 metainfo() \
 metainfo(fr.inria.coq.coqide.metainfo.xml) \
 mimehandler(text/x-coqsrc)"
+
 RDEPENDS:${PN} += "/usr/bin/ocamlrun \
 coq \
 libc.so.6(GLIBC_2.34)(64bit) \

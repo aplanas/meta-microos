@@ -9,6 +9,7 @@ RPM_HASH = "724e03c16eacefb9ffa8a66d3267327e76a7d0b5a3028072118f691061f4f5e2475c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tugboat-plain-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

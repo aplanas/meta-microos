@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latexcolors.sty) \
 texlive-latexcolors"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

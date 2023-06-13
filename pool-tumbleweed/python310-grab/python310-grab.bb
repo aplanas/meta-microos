@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-grab \
 python3.10dist(grab) \
 python310-grab \
 python3dist(grab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-defusedxml \
 python310-lxml \

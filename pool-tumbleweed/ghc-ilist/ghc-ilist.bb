@@ -13,6 +13,7 @@ RPM_HASH = "cd415ac8fb9a364da7c00b95e9b755b97a6302e38974257f29819c408f83bf24bb48
 RPROVIDES:${PN} += "ghc-ilist \
 ghc-ilist(aarch-64) \
 libHSilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "b7f97f35d36e504a627bc31a14c850c2f311853ec445efba707164301c2d10d05b4b
 
 RPROVIDES:${PN} += "cross-epiphany-newlib-devel \
 cross-epiphany-newlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

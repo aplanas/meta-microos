@@ -9,6 +9,7 @@ RPM_HASH = "5dd1216d0f005d5621025987552c8c2a781e9f778c902f7fa2df341bdb00ef6915b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sluice-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 sluice"
 

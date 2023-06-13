@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.glassfish.build:spec-version-maven-plugin) \
 mvn(org.glassfish.build:spec-version-maven-plugin:pom:) \
 spec-version-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.plugin-tools:maven-plugin-annotations)"

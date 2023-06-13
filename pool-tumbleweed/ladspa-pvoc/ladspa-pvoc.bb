@@ -10,6 +10,7 @@ RPM_HASH = "c5359c267b2266db1831ca2120c100467c3b2dad8ddd90161b82cabc5b870cb236b0
 
 RPROVIDES:${PN} += "ladspa-pvoc \
 ladspa-pvoc(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libfftw3f.so.3()(64bit) \
 libgcc_s.so.1()(64bit) \

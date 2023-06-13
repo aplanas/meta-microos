@@ -14,6 +14,7 @@ RPM_HASH = "a964083b6f524ac4fa61170d8b02e492a72b227efc80e790c304cae2909806f577b6
 
 RPROVIDES:${PN} += "multipath-tools \
 multipath-tools(aarch-64)"
+
 RDEPENDS:${PN} += "(kmod(dm_multipath.ko) if kernel) \
 (kmod(scsi_dh_alua.ko) if kernel) \
 (kmod(scsi_dh_emc.ko) if kernel) \

@@ -28,6 +28,7 @@ pkgconfig(xsp-2) \
 pkgconfig(xsp-4) \
 xsp \
 xsp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/pkg-config \

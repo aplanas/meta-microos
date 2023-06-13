@@ -17,6 +17,7 @@ pkgconfig(rygel-ruih-2.8) \
 pkgconfig(rygel-server-2.8) \
 rygel-devel \
 rygel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librygel-core-2_8-0 \
 librygel-db-2_8-0 \

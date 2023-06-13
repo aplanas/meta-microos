@@ -17,6 +17,7 @@ RPM_HASH = "c105af719809a7d0864cd1dc3a0389b849aa377befc25875ef4c0ad5254e18863cd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-firstboot"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

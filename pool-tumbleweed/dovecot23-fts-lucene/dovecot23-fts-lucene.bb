@@ -21,6 +21,7 @@ dovecot23-fts-lucene(aarch-64) \
 dovecot_fts_backend \
 lib20_doveadm_fts_lucene_plugin.so()(64bit) \
 lib21_fts_lucene_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "dovecot23 \
 dovecot23-fts \
 ld-linux-aarch64.so.1()(64bit) \

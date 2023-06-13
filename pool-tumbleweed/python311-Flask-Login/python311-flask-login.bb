@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-login) \
 python311-Flask-Login \
 python3dist(flask-login)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask"
 

@@ -9,6 +9,7 @@ RPM_HASH = "b211cb434bbe6a27f7b87626dcc078520a2c8ca67e037cfabf429682996a4443c5ed
 
 RPROVIDES:${PN} += "ocaml-lablgtk3 \
 ocaml-lablgtk3(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \

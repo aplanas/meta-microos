@@ -58,6 +58,7 @@ locale(bluedevil5:tr) \
 locale(bluedevil5:uk) \
 locale(bluedevil5:zh_CN) \
 locale(bluedevil5:zh_TW)"
+
 RDEPENDS:${PN} += "bluedevil5"
 
 inherit rpm

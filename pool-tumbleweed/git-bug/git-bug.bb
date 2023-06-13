@@ -27,6 +27,7 @@ RPM_HASH = "3b4f3125e00e7f7450afcc676ae8d9abcfdbab69ea1f6b81519bbac4d75e7a75fc4b
 
 RPROVIDES:${PN} += "git-bug \
 git-bug(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

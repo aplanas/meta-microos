@@ -9,6 +9,7 @@ RPM_HASH = "816033d286c3b47bc9c5351083a894fe4b6929f617bbb16a7b113ae0888a751fd6f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax-main-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

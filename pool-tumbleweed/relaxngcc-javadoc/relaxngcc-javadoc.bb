@@ -9,6 +9,7 @@ RPM_HASH = "4924ccb4d7551c957dabd18a08e07508b195efb70183475000269e8c72f09ed1aa6e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "relaxngcc-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

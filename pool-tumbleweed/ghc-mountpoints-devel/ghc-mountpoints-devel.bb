@@ -10,6 +10,7 @@ RPM_HASH = "7b91a26c7194f73816517c99ff7dc2cb8e864f7acbfaa1b7d3a077c54b1b238a9274
 RPROVIDES:${PN} += "ghc-devel(mountpoints-1.0.2-1s316lA2PKMJiFY8pZCQYD) \
 ghc-mountpoints-devel \
 ghc-mountpoints-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

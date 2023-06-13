@@ -9,6 +9,7 @@ RPM_HASH = "2232a7aee61fad3d6842fc0d3bddca10496e175b066bc5dbe58ce21213a12ea21b5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metslib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

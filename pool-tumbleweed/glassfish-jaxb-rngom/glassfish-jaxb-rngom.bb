@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-jaxb-rngom \
 mvn(com.sun.xml.bind.external:rngom) \
 mvn(com.sun.xml.bind.external:rngom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.xml.bind.external:relaxng-datatype)"

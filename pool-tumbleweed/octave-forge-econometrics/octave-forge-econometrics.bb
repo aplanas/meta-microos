@@ -10,6 +10,7 @@ RPM_HASH = "5dfcf61dda53e8490e79167f6dba62e83ffb1793be5df6f66e16139d858485a54961
 
 RPROVIDES:${PN} += "octave-forge-econometrics \
 octave-forge-econometrics(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

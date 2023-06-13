@@ -18,6 +18,7 @@ RPM_HASH = "e5ded7953f1e36cb7bae0cdb3a3683465087d6987fda7eb6ba9ad92d199984f90da4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-sip-devel"
+
 RDEPENDS:${PN} += "python39-sip6-devel"
 
 inherit rpm

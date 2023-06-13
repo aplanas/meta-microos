@@ -11,6 +11,7 @@ RPM_HASH = "780c4ec6d0278c9b00d9dc8840f2f801b7fd9c5eb987f0303c8d70d21e6eae87f972
 
 RPROVIDES:${PN} += "unshield \
 unshield(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

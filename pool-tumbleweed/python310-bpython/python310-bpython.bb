@@ -21,6 +21,7 @@ python3-bpython \
 python3.10dist(bpython) \
 python310-bpython \
 python3dist(bpython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

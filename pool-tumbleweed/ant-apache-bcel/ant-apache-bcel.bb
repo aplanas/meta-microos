@@ -15,6 +15,7 @@ ant-jakarta-bcel \
 config(ant-apache-bcel) \
 mvn(org.apache.ant:ant-apache-bcel) \
 mvn(org.apache.ant:ant-apache-bcel:pom:)"
+
 RDEPENDS:${PN} += "ant \
 bcel \
 java-headless \

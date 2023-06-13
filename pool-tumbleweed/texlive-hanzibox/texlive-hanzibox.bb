@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hanzibox.sty) \
 texlive-hanzibox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

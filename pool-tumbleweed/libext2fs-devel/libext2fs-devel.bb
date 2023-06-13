@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libext2fs-devel \
 libext2fs-devel(aarch-64) \
 pkgconfig(e2p) \
 pkgconfig(ext2fs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcom_err-devel \
 libext2fs2 \

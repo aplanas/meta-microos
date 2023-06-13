@@ -9,6 +9,7 @@ RPM_HASH = "f25aa65b4eb7dc02e69be61f40be4b74eaa1ac4fa06a4fbff8225cc3d9303e07018f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aircrack-ng-devel"
+
 RDEPENDS:${PN} += "aircrack-ng"
 
 inherit rpm

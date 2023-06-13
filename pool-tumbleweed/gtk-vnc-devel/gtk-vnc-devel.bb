@@ -14,6 +14,7 @@ gtk-vnc-devel(aarch-64) \
 pkgconfig(gtk-vnc-2.0) \
 pkgconfig(gvnc-1.0) \
 pkgconfig(gvncpulse-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtk-vnc-2_0-0 \
 libgvnc-1_0-0 \

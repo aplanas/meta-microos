@@ -27,6 +27,7 @@ tex(uantwerpenletter.cls) \
 tex(uantwerpenphdthesis.cls) \
 tex(uantwerpenreport.cls) \
 texlive-uantwerpendocs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

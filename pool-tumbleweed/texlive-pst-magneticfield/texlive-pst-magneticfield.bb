@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-magneticfield.sty) \
 tex(pst-magneticfield.tex) \
 texlive-pst-magneticfield"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

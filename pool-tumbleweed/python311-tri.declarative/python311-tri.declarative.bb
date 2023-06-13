@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tri.declarative) \
 python311-tri.declarative \
 python3dist(tri.declarative)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tri.struct"
 

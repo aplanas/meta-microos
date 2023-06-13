@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-translation-finder \
 python3.10dist(translation-finder) \
 python310-translation-finder \
 python3dist(translation-finder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

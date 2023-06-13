@@ -9,6 +9,7 @@ RPM_HASH = "5a283a1769adb8b81b2f735c4abb506ebd0c0000598ea7e217a18bc814bb5d56de42
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-syntrace-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

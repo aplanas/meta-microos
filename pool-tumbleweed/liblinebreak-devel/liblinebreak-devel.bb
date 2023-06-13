@@ -10,6 +10,7 @@ RPM_HASH = "797bde48453d3c4ff6073f2b3c6ebfbd0d4a2c7197b535f732c10e9155688066baab
 
 RPROVIDES:${PN} += "liblinebreak-devel \
 liblinebreak-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblinebreak"
 
 inherit rpm

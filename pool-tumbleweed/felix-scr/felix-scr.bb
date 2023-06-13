@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "felix-scr \
 mvn(org.apache.felix:org.apache.felix.scr) \
 mvn(org.apache.felix:org.apache.felix.scr:pom:) \
 osgi(org.apache.felix.scr)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

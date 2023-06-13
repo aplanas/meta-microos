@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "appdata-tools \
 appstream-glib-devel \
 appstream-glib-devel(aarch-64) \
 pkgconfig(appstream-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 appstream-glib \
 libappstream-glib8 \

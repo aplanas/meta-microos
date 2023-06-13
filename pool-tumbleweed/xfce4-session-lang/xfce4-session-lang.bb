@@ -69,6 +69,7 @@ locale(xfce4-session:zh_HK) \
 locale(xfce4-session:zh_TW) \
 xfce4-session-lang \
 xfce4-session-lang-all"
+
 RDEPENDS:${PN} += "xfce4-session"
 
 inherit rpm

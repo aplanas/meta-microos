@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-tools.sbinary:sbinary_2.10) \
 mvn(org.scala-tools.sbinary:sbinary_2.10:pom:) \
 sbinary"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 javapackages-tools \

@@ -77,6 +77,7 @@ locale(realmd:zh_HK) \
 locale(realmd:zh_TW) \
 realmd-lang \
 realmd-lang-all"
+
 RDEPENDS:${PN} += "realmd"
 
 inherit rpm

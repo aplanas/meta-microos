@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mhequ.sty) \
 texlive-mhequ"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

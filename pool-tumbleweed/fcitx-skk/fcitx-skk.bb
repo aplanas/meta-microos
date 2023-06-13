@@ -10,6 +10,7 @@ RPM_HASH = "42610942db09085038b0d654b36cb81ee9572d33dd97358c080887e305fc90e0eb91
 RPROVIDES:${PN} += "fcitx-skk \
 fcitx-skk(aarch-64) \
 libfcitx-skk-config.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libFcitxQt5WidgetsAddons.so.1()(64bit) \

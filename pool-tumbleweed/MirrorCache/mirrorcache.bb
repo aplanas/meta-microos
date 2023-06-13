@@ -106,6 +106,7 @@ perl(MirrorCache::WebAPI::Plugin::Subsidiary) \
 perl(Net::Nslookup6) \
 perl(Net::URIProtocols) \
 user(mirrorcache)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl(CSS::Minifier::XS) \

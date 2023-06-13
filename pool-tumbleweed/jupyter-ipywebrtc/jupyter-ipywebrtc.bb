@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(jupyter-ipywebrtc) \
 jupyter-ipywebrtc"
+
 RDEPENDS:${PN} += "jupyter-ipywidgets \
 jupyter-jupyterlab \
 jupyter-notebook \

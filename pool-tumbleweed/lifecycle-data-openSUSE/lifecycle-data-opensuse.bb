@@ -9,6 +9,7 @@ RPM_HASH = "e60afe4a3d2d63af57ef1dc0ce7dd9e0a49e04e669f70a56da158e719df94dca4720
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lifecycle-data-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

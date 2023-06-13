@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-javamail \
 config(ant-javamail) \
 mvn(org.apache.ant:ant-javamail) \
 mvn(org.apache.ant:ant-javamail:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javamail \

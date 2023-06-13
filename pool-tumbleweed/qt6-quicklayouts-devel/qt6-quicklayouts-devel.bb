@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickLayouts) \
 pkgconfig(Qt6QuickLayouts) \
 qt6-quicklayouts-devel \
 qt6-quicklayouts-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6QuickLayouts6 \

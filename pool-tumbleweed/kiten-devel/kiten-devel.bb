@@ -11,6 +11,7 @@ RPM_HASH = "b0161cff1b0300e724a250277fe02cdd733af4f530ea24cb4fb5493075aacf5f0e07
 
 RPROVIDES:${PN} += "kiten-devel \
 kiten-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kiten"
 
 inherit rpm

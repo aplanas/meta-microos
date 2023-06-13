@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-cepces \
 python3.10dist(cepces) \
 python3dist(cepces)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-cryptography \
 python3-requests \

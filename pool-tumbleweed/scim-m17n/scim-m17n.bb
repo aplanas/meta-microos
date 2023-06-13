@@ -22,6 +22,7 @@ RPM_HASH = "ef75542a48980247611dc74f0105a9ad23371df0187292ddcdc101fc96e1f89c6959
 
 RPROVIDES:${PN} += "scim-m17n \
 scim-m17n(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

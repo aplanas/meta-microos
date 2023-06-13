@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clrstrip.sty) \
 texlive-clrstrip"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

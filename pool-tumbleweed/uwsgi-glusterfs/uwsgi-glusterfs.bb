@@ -12,6 +12,7 @@ RPM_HASH = "9c8624c11b6caafc2a609c90cd8c6f645c3424dd02ee63b69def856d6261ba599ba6
 
 RPROVIDES:${PN} += "uwsgi-glusterfs \
 uwsgi-glusterfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

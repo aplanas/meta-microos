@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chronic \
 moreutils:/usr/bin/chronic"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Getopt::Std) \
 perl(IPC::Run) \

@@ -16,6 +16,7 @@ RPM_HASH = "7e3063b0cc0a7c24e47ca62208186f426cddd312dac28ab3ce0d717598eb3e7feba9
 RPROVIDES:${PN} += "chealpix-devel \
 chealpix-devel(aarch-64) \
 pkgconfig(chealpix)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libchealpix0 \
 pkgconfig(cfitsio) \

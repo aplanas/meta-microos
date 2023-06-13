@@ -9,6 +9,7 @@ RPM_HASH = "272803fe9e0482d303e17b38588625497b069fddf5f45ddd30cc311f8e91a03c681e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-neuralnetwork-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

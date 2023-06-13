@@ -14,6 +14,7 @@ kf5-kcm-fcitx \
 kf5-kcm-fcitx-icons \
 metainfo() \
 metainfo(org.fcitx.fcitx5.kcm.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "e6fbd885583add4d25b6b23662e152938516cf7ddad580cc73d5e0a41a762a92f899
 RPROVIDES:${PN} += "hivex-devel \
 hivex-devel(aarch-64) \
 pkgconfig(hivex)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhivex0"
 

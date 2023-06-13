@@ -13,6 +13,7 @@ RPM_HASH = "b51fc859097f5dc2fd21fe445be9fc9631fe2866b334eb845836a13f1761ff84a3b5
 RPROVIDES:${PN} += "libnitrokey-devel \
 libnitrokey-devel(aarch-64) \
 pkgconfig(libnitrokey-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnitrokey3 \
 pkgconfig(hidapi-libusb)"

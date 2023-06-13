@@ -14,6 +14,7 @@ RPM_HASH = "b3f7f8c0c30f18c7a91d0fb5716c030153d7e13e664fb9ac67e9a3ce42d57ca1fcf9
 RPROVIDES:${PN} += "lhasa-devel \
 lhasa-devel(aarch-64) \
 pkgconfig(liblhasa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblhasa0"
 

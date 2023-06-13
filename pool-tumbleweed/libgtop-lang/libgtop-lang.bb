@@ -86,6 +86,7 @@ locale(libgtop:vi) \
 locale(libgtop:zh_CN) \
 locale(libgtop:zh_HK) \
 locale(libgtop:zh_TW)"
+
 RDEPENDS:${PN} += "libgtop"
 
 inherit rpm

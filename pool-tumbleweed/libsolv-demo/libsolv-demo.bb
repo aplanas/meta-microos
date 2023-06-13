@@ -9,6 +9,7 @@ RPM_HASH = "b157e693fa2be1df874431c654e8ecdb2e177b3af43b917b52eefa1216515c41c9a0
 
 RPROVIDES:${PN} += "libsolv-demo \
 libsolv-demo(aarch-64)"
+
 RDEPENDS:${PN} += "curl \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

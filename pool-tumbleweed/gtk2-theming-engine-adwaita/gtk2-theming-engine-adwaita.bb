@@ -10,6 +10,7 @@ RPM_HASH = "f27b725bd5b289f7ec02c9833973af7a2fa41e074455ce2f2b202f9295ce61a5d23a
 RPROVIDES:${PN} += "gtk2-theming-engine-adwaita \
 gtk2-theming-engine-adwaita(aarch-64) \
 libadwaita.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "addde22fa0af7cf60e69ce7e664b51bf8be4a520e4221b71b2fe82b6b2f3f2e889ba
 RPROVIDES:${PN} += "ghc-prof(tls-session-manager-0.0.4-1K8vLYLuq115RYgesNa5lw) \
 ghc-tls-session-manager-prof \
 ghc-tls-session-manager-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S) \

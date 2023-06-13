@@ -10,6 +10,7 @@ RPM_HASH = "024ea2433b3739ad20fcb1267a2cb005fb22effc1182b3644d9bc1164f6c03d6611c
 
 RPROVIDES:${PN} += "hypre-openmpi3-devel \
 hypre-openmpi3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lapack-devel \
 libHYPRE2_20_0-openmpi3 \
 superlu-devel"

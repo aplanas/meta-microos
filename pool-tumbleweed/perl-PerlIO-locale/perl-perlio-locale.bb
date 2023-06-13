@@ -16,6 +16,7 @@ RPM_HASH = "56f56d2d63dc447b4f76623fb24f4afa5920d70f1144a66b40e71f155ed7021e80bd
 RPROVIDES:${PN} += "perl(PerlIO::locale) \
 perl-PerlIO-locale \
 perl-PerlIO-locale(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

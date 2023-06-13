@@ -183,6 +183,7 @@ tex(a_upn2ip.enc) \
 tex(a_wfs66e.enc) \
 tex(comicneue.sty) \
 texlive-comicneue"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

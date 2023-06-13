@@ -12,6 +12,7 @@ RPM_HASH = "a0d1143e8face78dbf588a8a1569ccc91aafc5e574f35dd976511e067f24fd926238
 RPROVIDES:${PN} += "libmgl-qt5-8 \
 libmgl-qt5-8(aarch-64) \
 libmgl-qt5.so.8()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

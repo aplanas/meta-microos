@@ -17,6 +17,7 @@ RPM_HASH = "951ae96d5c770367fc577d3f74eac1959b9ac324e1e79df9c4c39163ee6fc9f13a87
 
 RPROVIDES:${PN} += "flashrom \
 flashrom(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libpoppler-devel \
 libpoppler-devel(aarch-64) \
 pkgconfig(poppler) \
 pkgconfig(poppler-cpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost_headers-devel \
 libpoppler-cpp0 \

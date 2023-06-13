@@ -10,6 +10,7 @@ RPM_HASH = "2ff1665b08dbce441c1af00fa6617b2054ada45a84df7d1989ec0bf4f7ca9aa6b0cf
 RPROVIDES:${PN} += "libopenEMS.so.0()(64bit) \
 libopenEMS0 \
 libopenEMS0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

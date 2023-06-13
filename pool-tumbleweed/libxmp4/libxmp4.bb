@@ -17,6 +17,7 @@ libxmp.so.4(XMP_4.4)(64bit) \
 libxmp.so.4(XMP_4.5)(64bit) \
 libxmp4 \
 libxmp4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

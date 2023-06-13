@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengfx \
 openttd-opengfx"
+
 RDEPENDS:${PN} += "openttd-data"
 
 inherit rpm

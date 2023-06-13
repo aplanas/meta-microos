@@ -14,6 +14,7 @@ RPM_HASH = "d165ebfb2ab3a163e6cdec52197b0a1b8f757a69b91a24b73978439accb0fe33f1f9
 
 RPROVIDES:${PN} += "mkelfImage \
 mkelfImage(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-iot-nspkg) \
 python311-azure-iot-nspkg \
 python3dist(azure-iot-nspkg)"
+
 RDEPENDS:${PN} += "python311-azure-nspkg"
 
 inherit rpm

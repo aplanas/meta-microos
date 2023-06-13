@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(geographiclib) \
 python39-geographiclib \
 python3dist(geographiclib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

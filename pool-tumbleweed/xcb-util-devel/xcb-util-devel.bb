@@ -21,6 +21,7 @@ pkgconfig(xcb-event) \
 pkgconfig(xcb-util) \
 xcb-util-devel \
 xcb-util-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-util1 \
 pkgconfig(xcb)"

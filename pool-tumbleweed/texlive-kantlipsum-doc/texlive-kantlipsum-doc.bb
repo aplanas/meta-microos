@@ -9,6 +9,7 @@ RPM_HASH = "da1af957fba1fafde36de13a026164bfbeb50e8bb3b378298517e332a43bbe7df209
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kantlipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

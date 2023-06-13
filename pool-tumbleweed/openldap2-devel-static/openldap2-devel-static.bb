@@ -10,6 +10,7 @@ RPM_HASH = "eff8e46e2d2f509ef994b11811252d4ec53c4ede4cbb5a2d25652e9c0be2eb9e24da
 
 RPROVIDES:${PN} += "openldap2-devel-static \
 openldap2-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "cyrus-sasl-devel \
 libopenssl-devel \
 openldap2-devel"

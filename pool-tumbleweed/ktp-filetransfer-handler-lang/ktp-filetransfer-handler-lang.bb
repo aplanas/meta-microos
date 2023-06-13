@@ -55,6 +55,7 @@ locale(ktp-filetransfer-handler:ug) \
 locale(ktp-filetransfer-handler:uk) \
 locale(ktp-filetransfer-handler:zh_CN) \
 locale(ktp-filetransfer-handler:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-filetransfer-handler"
 
 inherit rpm

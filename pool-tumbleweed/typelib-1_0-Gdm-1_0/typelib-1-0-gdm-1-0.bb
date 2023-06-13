@@ -14,6 +14,7 @@ RPM_HASH = "3f43b35ba32c5c1ac31b78a04e43482d2a90b97aa5435b514fc9f61037b77f425879
 RPROVIDES:${PN} += "typelib(Gdm) \
 typelib-1_0-Gdm-1_0 \
 typelib-1_0-Gdm-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgdm.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

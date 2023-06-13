@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(supervisor) \
 python3.10dist(supervisor) \
 python3dist(supervisor) \
 supervisor"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

@@ -28,6 +28,7 @@ tex(gmtypos.sty) \
 tex(gmurl.sty) \
 tex(gmutils.sty) \
 texlive-gmutils"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

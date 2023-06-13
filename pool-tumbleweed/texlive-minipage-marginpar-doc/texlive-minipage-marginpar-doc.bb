@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-minipage-marginpar-doc:de) \
 texlive-minipage-marginpar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

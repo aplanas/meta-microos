@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coreutils-doc \
 coreutils:/usr/share/info/coreutils.info.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

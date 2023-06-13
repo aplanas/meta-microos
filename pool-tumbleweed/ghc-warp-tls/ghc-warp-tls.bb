@@ -12,6 +12,7 @@ RPM_HASH = "5f7926a06ddeec280f46cd3676b78cf9cf7083f9e0ff278a1b0d79f2d80ee189fe7f
 RPROVIDES:${PN} += "ghc-warp-tls \
 ghc-warp-tls(aarch-64) \
 libHSwarp-tls-3.3.6-FNoL4BYqjr55niULiQgEjP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk-ghc9.4.5.so()(64bit) \

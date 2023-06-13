@@ -9,6 +9,7 @@ RPM_HASH = "d1835984130a7fbfaf1ea98fc63fcf3213472d8d73edb1dc57aa32e5c20d7a010f21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aligned-overset-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

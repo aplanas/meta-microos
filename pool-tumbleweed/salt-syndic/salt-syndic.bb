@@ -11,6 +11,7 @@ RPM_HASH = "1896a8b3c1f132501ebb1991cf338ef94d07ad564c017fe27248c85960d4cf416c34
 
 RPROVIDES:${PN} += "salt-syndic \
 salt-syndic(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/python3 \

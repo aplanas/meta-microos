@@ -15,6 +15,7 @@ python311-PyQRCode \
 python311-PyQRCodeNG \
 python311-pyqrcodeng \
 python3dist(pyqrcodeng)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

@@ -13,6 +13,7 @@ RPM_HASH = "8c11f93c3bb394cac5424a2480bb86c49243d77e953ea9629bc0ce22c63f20fc62e6
 
 RPROVIDES:${PN} += "kdgantt2 \
 kdgantt2(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

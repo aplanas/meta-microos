@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vcver) \
 python311-vcver \
 python3dist(vcver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-packaging"
 

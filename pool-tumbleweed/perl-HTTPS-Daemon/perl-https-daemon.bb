@@ -15,6 +15,7 @@ perl(HTTP::Daemon::SSL) \
 perl(HTTP::Daemon::SSL::DummyDaemon) \
 perl-HTTPS-Daemon \
 perl-HTTPS-Daemon(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-IO-Socket-SSL \
 perl-libwww-perl"

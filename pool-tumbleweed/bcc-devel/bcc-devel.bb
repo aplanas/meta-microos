@@ -10,6 +10,7 @@ RPM_HASH = "1f42962ede1f325e5cbe185f1cbfb714dbd251b9c503ed9860f88902a660094f2545
 RPROVIDES:${PN} += "bcc-devel \
 bcc-devel(aarch-64) \
 pkgconfig(libbcc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbcc0"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(luajithbtex.1) \
 man(luajittex.1) \
 texlive-luajittex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

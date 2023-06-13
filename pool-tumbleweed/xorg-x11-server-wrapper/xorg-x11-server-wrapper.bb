@@ -9,6 +9,7 @@ RPM_HASH = "ac48251cde323d729fad2de3fbf51191eae3ee19348355624880f5d4c4ab26b6067a
 
 RPROVIDES:${PN} += "xorg-x11-server-wrapper \
 xorg-x11-server-wrapper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

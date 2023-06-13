@@ -9,6 +9,7 @@ RPM_HASH = "3ab68af812deb00b954df92c790af3ee0177c47ae4bfce450850452ff191925f8162
 
 RPROVIDES:${PN} += "inchi-devel \
 inchi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libinchi1"
 
 inherit rpm

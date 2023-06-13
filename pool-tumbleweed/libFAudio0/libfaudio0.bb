@@ -10,6 +10,7 @@ RPM_HASH = "32efda9e1e29c735b3d79379f8e927181d310d0f33b8ef9d58eab4bf516e2f50c57f
 RPROVIDES:${PN} += "libFAudio.so.0()(64bit) \
 libFAudio0 \
 libFAudio0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

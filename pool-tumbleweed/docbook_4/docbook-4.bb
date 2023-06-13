@@ -17,6 +17,7 @@ docbook \
 docbook-dtd \
 docbook-dtds \
 docbook_4"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xmlcatalog \
 awk \

@@ -9,6 +9,7 @@ RPM_HASH = "0139ea2b467acc0b0131c26d74cf0145f5bf7f889f0240afbc867a5d8878a1598351
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rulercompass-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

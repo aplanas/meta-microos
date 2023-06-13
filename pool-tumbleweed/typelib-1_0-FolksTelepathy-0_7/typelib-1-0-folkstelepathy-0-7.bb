@@ -13,6 +13,7 @@ RPM_HASH = "5178fd074369e3bff442ea2ddbcc824e533e3360452a7d963d11ee018f9666848d4e
 RPROVIDES:${PN} += "typelib(FolksTelepathy) \
 typelib-1_0-FolksTelepathy-0_7 \
 typelib-1_0-FolksTelepathy-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(Folks) \
 typelib(GLib) \
 typelib(GObject) \

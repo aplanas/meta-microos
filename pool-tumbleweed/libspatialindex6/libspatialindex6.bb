@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libspatialindex.so.6()(64bit) \
 libspatialindex6 \
 libspatialindex6(aarch-64) \
 libspatialindex_c.so.6()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(shortmathj.sty) \
 texlive-shortmathj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

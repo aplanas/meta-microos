@@ -10,6 +10,7 @@ RPM_HASH = "fa18c8a28ee87eec33f4a84748eecbde27d6e543bcc71bdaa8176f0e03d8fe17be65
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-galdata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

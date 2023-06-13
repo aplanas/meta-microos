@@ -13,6 +13,7 @@ RPM_HASH = "7ad96190b7976f7c4f3b478963c8681c7dbcd0d5d9f9db3eaab1dc979b4ab4f4cd62
 RPROVIDES:${PN} += "gtkmm4-devel \
 gtkmm4-devel(aarch-64) \
 pkgconfig(gtkmm-4.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkmm-4_0-0 \
 pkgconfig(cairomm-1.16) \

@@ -10,6 +10,7 @@ RPM_HASH = "75d9d942215ca8fcb5d3427fa596b0df2d5a45286eca85b252fc06e97420e16a8256
 RPROVIDES:${PN} += "libmaia.so.1()(64bit) \
 libmaia1 \
 libmaia1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

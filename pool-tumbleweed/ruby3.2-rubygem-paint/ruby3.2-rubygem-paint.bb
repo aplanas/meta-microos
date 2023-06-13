@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:paint) \
 rubygem(ruby:3.2.0:paint:2) \
 rubygem(ruby:3.2.0:paint:2.3) \
 rubygem(ruby:3.2.0:paint:2.3.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

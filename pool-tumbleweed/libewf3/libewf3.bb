@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libewf.so.3()(64bit) \
 libewf.so.3(V_20230212)(64bit) \
 libewf3 \
 libewf3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

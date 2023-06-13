@@ -9,6 +9,7 @@ RPM_HASH = "c9dcce023fb956ccac8fe0b05afa9e6023a6c46eec904cc28bb60b19ed67e4b37855
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kfupm-math-exam-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

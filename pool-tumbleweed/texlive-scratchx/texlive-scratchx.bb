@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ScratchX.sty) \
 texlive-scratchx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

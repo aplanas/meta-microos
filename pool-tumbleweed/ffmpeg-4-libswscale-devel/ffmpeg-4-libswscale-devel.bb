@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ffmpeg-4-libswscale-devel \
 ffmpeg-4-libswscale-devel(aarch-64) \
 libswscale-devel \
 pkgconfig(libswscale)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-4-libavutil-devel \
 libswscale5_9 \

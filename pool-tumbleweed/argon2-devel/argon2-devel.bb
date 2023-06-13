@@ -12,6 +12,7 @@ RPM_HASH = "7e5de3b6f5841a975899dcdb3acdf68cf5334d43c8699ab2ad7f6964ba7dba99e3bc
 RPROVIDES:${PN} += "argon2-devel \
 argon2-devel(aarch-64) \
 pkgconfig(libargon2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libargon2-1"
 

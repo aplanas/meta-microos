@@ -16,6 +16,7 @@ RPM_HASH = "6d4391152b3543c1f259b321ec8cf858ac416734e14968191cb699745fbf9ab20e36
 
 RPROVIDES:${PN} += "ogre-demos-devel \
 ogre-demos-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libOgreRTShaderSystem-devel \
 libOgreTerrain-devel"
 

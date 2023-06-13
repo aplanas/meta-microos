@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(titling.sty) \
 texlive-titling"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

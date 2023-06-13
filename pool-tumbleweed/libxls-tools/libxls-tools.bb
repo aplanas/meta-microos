@@ -10,6 +10,7 @@ RPM_HASH = "fc5d14c28f5fc8c66192be95a7ce1140fa15982d0346f501d9e6d5898fa60060ee19
 
 RPROVIDES:${PN} += "libxls-tools \
 libxls-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

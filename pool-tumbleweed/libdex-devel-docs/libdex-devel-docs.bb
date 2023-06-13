@@ -10,6 +10,7 @@ RPM_HASH = "cb60015a64a1a5e0c27eae67c1255916c15c7dacc5bacfca270bc359912410bd2f39
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdex-devel-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

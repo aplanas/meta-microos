@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rerunfilecheck.sty) \
 texlive-rerunfilecheck"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

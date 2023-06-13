@@ -10,6 +10,7 @@ RPM_HASH = "9c6aeef15951cd40cb1e05509a35aa7ebf37372496030d3cf7f04cb07cbd9da4cb91
 RPROVIDES:${PN} += "libgooglepinyin-devel \
 libgooglepinyin-devel(aarch-64) \
 pkgconfig(googlepinyin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgooglepinyin0 \
 python-base"

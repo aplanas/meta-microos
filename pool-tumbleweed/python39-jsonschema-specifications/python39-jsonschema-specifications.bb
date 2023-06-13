@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jsonschema-specifications) \
 python39-jsonschema-specifications \
 python3dist(jsonschema-specifications)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-referencing"
 

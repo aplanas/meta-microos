@@ -9,6 +9,7 @@ RPM_HASH = "5bbbcf8987afbabb821ab03bb209e8a4a1dd06c0b2f473d0d67404daaf953cdb5e85
 
 RPROVIDES:${PN} += "pipewire-doc \
 pipewire-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

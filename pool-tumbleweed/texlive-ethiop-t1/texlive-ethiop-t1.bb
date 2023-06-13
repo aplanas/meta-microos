@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ethiop.map) \
 texlive-ethiop-t1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "99d03cd710be28bb473e932c582087871ca410358a5be4602267346651c79615ebbd
 RPROVIDES:${PN} += "libwcs.so.7()(64bit) \
 libwcs7 \
 libwcs7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

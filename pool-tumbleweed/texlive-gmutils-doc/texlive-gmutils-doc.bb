@@ -9,6 +9,7 @@ RPM_HASH = "41f3fd3e927a8b0e1d44d96fadcdf7b78f57309ce7614100e20e5221a2d977382550
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmutils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

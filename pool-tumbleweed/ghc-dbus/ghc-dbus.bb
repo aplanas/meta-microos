@@ -39,6 +39,7 @@ RPM_HASH = "3c7e10d85525655fd1e68ed77bf9b76facadc00aa569ddcac8de644e712648e9855f
 RPROVIDES:${PN} += "ghc-dbus \
 ghc-dbus(aarch-64) \
 libHSdbus-1.2.28-27GbkRPSCRwKgi0yxoNYFh-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so()(64bit) \

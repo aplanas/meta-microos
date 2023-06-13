@@ -10,6 +10,7 @@ RPM_HASH = "a8c8c756a710eeaf6d22553bb13f8d23a6470c89de827da1de88cbfa51993123738c
 RPROVIDES:${PN} += "libgstclapperglbaseimporter.so.0()(64bit) \
 libgstclapperglbaseimporter0 \
 libgstclapperglbaseimporter0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

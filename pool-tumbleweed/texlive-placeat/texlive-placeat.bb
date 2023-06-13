@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(placeat.sty) \
 texlive-placeat"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

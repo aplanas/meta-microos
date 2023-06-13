@@ -14,6 +14,7 @@ RPM_HASH = "da41cca39aeffb59ba4f0015c1baae5d480e1a3fcbad0b82db637ca0e987db5b487f
 RPROVIDES:${PN} += "config(llmnrd) \
 llmnrd \
 llmnrd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

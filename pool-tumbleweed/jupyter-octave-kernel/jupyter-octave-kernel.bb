@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-octave-kernel \
 jupyter-octave_kernel"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3-octave-kernel"
 

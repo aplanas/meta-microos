@@ -15,6 +15,7 @@ RPM_HASH = "8acbfa3fbf71e7a449f8dc763ac563325af2c591d35cdf8f80f2ea6ce63649a53fba
 RPROVIDES:${PN} += "pkgconfig(xcb-errors) \
 xcb-util-errors-devel \
 xcb-util-errors-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-errors0 \
 pkgconfig(xcb)"

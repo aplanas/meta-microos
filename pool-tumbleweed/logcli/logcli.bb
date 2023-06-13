@@ -11,6 +11,7 @@ RPM_HASH = "13160dd89589e5e82a2b9b97e9d0fa63d8596b3e865d5c43a8edabb1dfb39783482f
 
 RPROVIDES:${PN} += "logcli \
 logcli(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

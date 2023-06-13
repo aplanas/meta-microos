@@ -11,6 +11,7 @@ RPM_HASH = "90ffcd1892bd6924b6d568a736c3afde120a6f021cdb63fe0d196488cfe67747e61e
 RPROVIDES:${PN} += "typelib(Xdp) \
 typelib-1_0-Xdp-1_0 \
 typelib-1_0-Xdp-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libportal.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

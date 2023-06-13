@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(inflect) \
 python311-inflect \
 python3dist(inflect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pydantic \
 python311-toml"

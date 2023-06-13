@@ -10,6 +10,7 @@ RPM_HASH = "aca444e262efa037fbb409413d784bbb1197ece174deee20f9971695f7342a416ca6
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances-prof \
 ghc-indexed-traversable-instances-prof(aarch-64) \
 ghc-prof(indexed-traversable-instances-0.1.1.2-9bsLKqKio7c19LOJlUsRRO)"
+
 RDEPENDS:${PN} += "ghc-indexed-traversable-instances-devel \
 ghc-prof(OneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd) \
 ghc-prof(base-4.17.1.0) \

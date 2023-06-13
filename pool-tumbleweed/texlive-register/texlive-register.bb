@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(register.sty) \
 texlive-register"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

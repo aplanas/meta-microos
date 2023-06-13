@@ -14,6 +14,7 @@ RPM_HASH = "9289f1e400e3c893f4403b368abbd6f76970846a21c42f020f90a8c217adff45267c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

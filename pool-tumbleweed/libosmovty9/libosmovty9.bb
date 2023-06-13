@@ -14,6 +14,7 @@ RPM_HASH = "efd570a435f16ae451a5c3edddbf894ddff20344fbc70bb696c54015511e51cdcb5d
 RPROVIDES:${PN} += "libosmovty.so.9()(64bit) \
 libosmovty9 \
 libosmovty9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

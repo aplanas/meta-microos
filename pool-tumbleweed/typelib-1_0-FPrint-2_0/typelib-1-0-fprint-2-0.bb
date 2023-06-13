@@ -10,6 +10,7 @@ RPM_HASH = "143d80f088cb1e024d01963eca4547eb260cb91bcbabaec7739cb7445fe9afb1bad9
 RPROVIDES:${PN} += "typelib(FPrint) \
 typelib-1_0-FPrint-2_0 \
 typelib-1_0-FPrint-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libfprint-2.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

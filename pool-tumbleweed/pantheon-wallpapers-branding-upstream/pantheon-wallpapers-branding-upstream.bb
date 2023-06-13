@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pantheon-wallpapers-branding \
 pantheon-wallpapers-branding-upstream"
+
 RDEPENDS:${PN} += "elementary-wallpapers"
 
 inherit rpm

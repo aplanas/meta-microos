@@ -13,6 +13,7 @@ mvn(org.eclipse.sisu:org.eclipse.sisu.plexus:pom:) \
 mvn(org.sonatype.sisu:sisu-inject-plexus) \
 mvn(org.sonatype.sisu:sisu-inject-plexus:pom:) \
 sisu-plexus"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-classworlds) \

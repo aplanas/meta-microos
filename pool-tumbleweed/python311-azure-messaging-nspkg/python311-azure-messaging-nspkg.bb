@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-messaging-nspkg) \
 python311-azure-messaging-nspkg \
 python3dist(azure-messaging-nspkg)"
+
 RDEPENDS:${PN} += "python311-azure-nspkg"
 
 inherit rpm

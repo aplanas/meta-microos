@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libnice-devel \
 libnice-devel(aarch-64) \
 libnice-doc \
 pkgconfig(nice)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnice10 \
 pkgconfig(gio-2.0) \

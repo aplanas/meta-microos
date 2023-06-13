@@ -10,6 +10,7 @@ RPM_HASH = "bd97dda04941f86394deaec858477bf9b94a74e542700d9b866405f98705f6bec464
 RPROVIDES:${PN} += "libsass-3.6.5.so.1()(64bit) \
 libsass-3_6_5-1 \
 libsass-3_6_5-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

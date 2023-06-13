@@ -15,6 +15,7 @@ RPM_HASH = "7a44da9360084e2076fffb437ece1d4c6bf2f9ea057df4f6ca8df8fe327f64f62c6b
 RPROVIDES:${PN} += "libfvde-devel \
 libfvde-devel(aarch-64) \
 pkgconfig(libfvde)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfvde1"

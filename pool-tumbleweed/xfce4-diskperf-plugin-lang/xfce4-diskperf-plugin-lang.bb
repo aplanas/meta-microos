@@ -56,6 +56,7 @@ locale(xfce4-diskperf-plugin:zh_TW) \
 xfce4-diskperf-plugin-lang \
 xfce4-diskperf-plugin-lang-all \
 xfce4-panel-plugin-diskperf-lang"
+
 RDEPENDS:${PN} += "xfce4-diskperf-plugin"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "f006c67f8bcee1b850fcfed491b0012ae1bacc79c9c82e7daff6d42209a07f44db87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-margbib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

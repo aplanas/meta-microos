@@ -48,6 +48,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::ShareDir) \
 perl-File-ShareDir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Inspector)"
 

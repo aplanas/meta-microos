@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(deap) \
 python39-deap \
 python39-deap(aarch-64) \
 python3dist(deap)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-resumable-media \
 python3.10dist(google-resumable-media) \
 python310-google-resumable-media \
 python3dist(google-resumable-media)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-crc32c"
 

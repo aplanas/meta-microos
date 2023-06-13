@@ -56,6 +56,7 @@ locale(lxappearance-obconf:zh_CN) \
 locale(lxappearance-obconf:zh_TW) \
 lxappearance-obconf-lang \
 lxappearance-obconf-lang-all"
+
 RDEPENDS:${PN} += "lxappearance-obconf"
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(manyind.sty) \
 texlive-manyind"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

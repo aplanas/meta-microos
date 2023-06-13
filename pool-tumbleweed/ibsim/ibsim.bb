@@ -11,6 +11,7 @@ RPM_HASH = "084953c23757b95a7a06d434d1c96606c68e09e40733868bf4e8775f842f82003d04
 RPROVIDES:${PN} += "ibsim \
 ibsim(aarch-64) \
 libumad2sim.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -42,6 +42,7 @@ locale(appstream-glib:tr) \
 locale(appstream-glib:uk) \
 locale(appstream-glib:zh_CN) \
 locale(appstream-glib:zh_TW)"
+
 RDEPENDS:${PN} += "appstream-glib"
 
 inherit rpm

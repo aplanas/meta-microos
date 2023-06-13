@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "novprog-lang \
 novprog-lang-all"
+
 RDEPENDS:${PN} += "novprog"
 
 inherit rpm

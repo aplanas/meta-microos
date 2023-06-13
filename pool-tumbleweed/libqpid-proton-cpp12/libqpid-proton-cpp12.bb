@@ -12,6 +12,7 @@ RPM_HASH = "21dc281e045e146724e9388f7d56e99ade148b7b1969d20ebb666ece1ca782691b0a
 RPROVIDES:${PN} += "libqpid-proton-cpp.so.12()(64bit) \
 libqpid-proton-cpp12 \
 libqpid-proton-cpp12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-jmx \
 mvn(org.glassfish.hk2:hk2-jmx) \
 mvn(org.glassfish.hk2:hk2-jmx:pom:) \
 osgi(org.glassfish.hk2.jmx)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.inject:javax.inject) \

@@ -15,6 +15,7 @@ RPM_HASH = "0d99b7f0c19b752eb89da0c16cce81bd8477e57b998b7c7b4b4ac9d6ee93e0ec1784
 
 RPROVIDES:${PN} += "crash-eppic \
 crash-eppic(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

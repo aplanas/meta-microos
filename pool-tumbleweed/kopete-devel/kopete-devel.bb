@@ -9,6 +9,7 @@ RPM_HASH = "7456e217db62f48adc6e3c9b89b97d0f0816e382e62f0ac3b228bffd22dd7a8511e9
 
 RPROVIDES:${PN} += "kopete-devel \
 kopete-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kopete"
 
 inherit rpm

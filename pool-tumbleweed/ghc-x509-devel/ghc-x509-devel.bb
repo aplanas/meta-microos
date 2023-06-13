@@ -10,6 +10,7 @@ RPM_HASH = "58bf54891f5e32d317033011b1ebda08aa8338ca352d9d9d18cfc1b847c29eb2ff8b
 RPROVIDES:${PN} += "ghc-devel(x509-1.7.7-6vFRDfbnKcXIbE0ZlEHitw) \
 ghc-x509-devel \
 ghc-x509-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk) \

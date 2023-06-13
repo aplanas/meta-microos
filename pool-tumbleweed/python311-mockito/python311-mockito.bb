@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mockito) \
 python311-mockito \
 python3dist(mockito)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

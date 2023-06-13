@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(japanese.ldf) \
 texlive-babel-japanese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

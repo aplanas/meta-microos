@@ -13,6 +13,7 @@ RPM_HASH = "8974f8d8e758bf19d65c7539156c2681eeeb26b84821dfa5811c2e735ba979950e62
 
 RPROVIDES:${PN} += "schroedinger-doc \
 schroedinger-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libschroedinger-1_0-0"
 
 inherit rpm

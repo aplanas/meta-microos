@@ -15,6 +15,7 @@ libxfce4sensors.so.5()(64bit) \
 xfce4-panel-plugin-sensors \
 xfce4-sensors-plugin \
 xfce4-sensors-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

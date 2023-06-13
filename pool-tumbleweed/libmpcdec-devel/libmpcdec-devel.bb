@@ -21,6 +21,7 @@ RPM_HASH = "f4d8a4eda9d753ed24818da0b545a018e48315281ef161200ae63b6cf2242d67a249
 
 RPROVIDES:${PN} += "libmpcdec-devel \
 libmpcdec-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libmpcdec5"
 

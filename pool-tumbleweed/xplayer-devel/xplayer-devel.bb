@@ -14,6 +14,7 @@ RPM_HASH = "4e706dc9990106570ec1a4b522a4af8cf1a39a6a37f0b3ceef088196455a549d54db
 RPROVIDES:${PN} += "pkgconfig(xplayer) \
 xplayer-devel \
 xplayer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gtk+-3.0) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-passivetotal \
 python3.10dist(passivetotal) \
 python310-passivetotal \
 python3dist(passivetotal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

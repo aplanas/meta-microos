@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:prawn-svg) \
 rubygem(ruby:3.2.0:prawn-svg:0) \
 rubygem(ruby:3.2.0:prawn-svg:0.32) \
 rubygem(ruby:3.2.0:prawn-svg:0.32.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:css_parser:1) \
 rubygem(ruby:3.2.0:prawn) \

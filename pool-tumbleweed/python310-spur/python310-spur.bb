@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-spur \
 python3.10dist(spur) \
 python310-spur \
 python3dist(spur)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-paramiko"
 

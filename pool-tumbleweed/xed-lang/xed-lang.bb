@@ -95,6 +95,7 @@ locale(xed:zh_HK) \
 locale(xed:zh_TW) \
 xed-lang \
 xed-lang-all"
+
 RDEPENDS:${PN} += "xed"
 
 inherit rpm

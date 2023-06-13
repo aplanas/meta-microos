@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:virtus:2) \
 rubygem(ruby:3.2.0:virtus:2.0) \
 rubygem(ruby:3.2.0:virtus:2.0.0) \
 rubygem(virtus)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:axiom-types:0) \
 rubygem(ruby:3.2.0:coercible:1) \

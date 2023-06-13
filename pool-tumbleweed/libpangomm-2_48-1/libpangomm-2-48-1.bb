@@ -10,6 +10,7 @@ RPM_HASH = "bcf410cc2ea348d54bb9fa1e9b1b2220cf361d25c211781845e066d14bcd4a40f378
 RPROVIDES:${PN} += "libpangomm-2.48.so.1()(64bit) \
 libpangomm-2_48-1 \
 libpangomm-2_48-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

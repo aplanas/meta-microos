@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-rope \
 python3.10dist(rope) \
 python310-rope \
 python3dist(rope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-pytoolconfig-global"

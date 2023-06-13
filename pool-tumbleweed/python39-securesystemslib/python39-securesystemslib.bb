@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(securesystemslib) \
 python39-securesystemslib \
 python3dist(securesystemslib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyNaCl \
 python39-asn1crypto \

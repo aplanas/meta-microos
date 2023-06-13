@@ -9,6 +9,7 @@ RPM_HASH = "a006b018b6ba76d593de7e12d0f7c21aeebdbbedff224671da2d9d61d763d41b8867
 
 RPROVIDES:${PN} += "cross-avr-gcc12 \
 cross-avr-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-avr-binutils \
 libstdc++6-devel-gcc12 \

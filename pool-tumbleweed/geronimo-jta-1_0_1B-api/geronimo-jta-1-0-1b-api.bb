@@ -15,6 +15,7 @@ jta_1_0_1B_api \
 jta_api \
 mvn(org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

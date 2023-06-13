@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-argparse \
 python3.10dist(sphinx-argparse) \
 python310-sphinx-argparse \
 python3dist(sphinx-argparse)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

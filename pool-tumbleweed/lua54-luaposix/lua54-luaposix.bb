@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgen.so()(64bit) \
 lua-luaposix \
 lua54-luaposix \
 lua54-luaposix(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 libcrypt.so.1()(64bit) \
 libcrypt.so.1(XCRYPT_2.0)(64bit) \

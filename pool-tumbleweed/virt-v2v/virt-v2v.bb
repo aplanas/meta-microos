@@ -14,6 +14,7 @@ RPM_HASH = "07fc1e7c5c4ba7f94c3e000aace0de519b6c02ad948003469a1cdce1aeff88f8f81e
 
 RPROVIDES:${PN} += "virt-v2v \
 virt-v2v(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/gawk \
 /usr/bin/gzip \
 /usr/bin/qemu-nbd \

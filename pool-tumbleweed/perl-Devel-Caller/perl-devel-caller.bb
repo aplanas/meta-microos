@@ -32,6 +32,7 @@ RPROVIDES:${PN} += "perl(DB) \
 perl(Devel::Caller) \
 perl-Devel-Caller \
 perl-Devel-Caller(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PadWalker)"
 

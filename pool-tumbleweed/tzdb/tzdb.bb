@@ -10,6 +10,7 @@ RPM_HASH = "8716c08f12cc6987c26f03c4f215de68313f5864a2419da41bc18052886a1970269e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tzdb"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

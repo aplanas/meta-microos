@@ -10,6 +10,7 @@ RPM_HASH = "f6a1205b30357a4e16cd1ce47b5fa4598fbd8c19792513e1ed949f65ae3bcb3290b3
 RPROVIDES:${PN} += "liblo10k1-0 \
 liblo10k1-0(aarch-64) \
 liblo10k1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

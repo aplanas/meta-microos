@@ -9,6 +9,7 @@ RPM_HASH = "c96d008f155f66a3d9bdb9221fe5c1905ba4b8f7d5f227ff2bab53b491334ed032e7
 
 RPROVIDES:${PN} += "gedit-plugins-data \
 gedit-plugins-data(aarch-64)"
+
 RDEPENDS:${PN} += "gedit"
 
 inherit rpm

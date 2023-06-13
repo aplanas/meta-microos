@@ -16,6 +16,7 @@ python310-Django \
 python310-South \
 python310-django \
 python3dist(django)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

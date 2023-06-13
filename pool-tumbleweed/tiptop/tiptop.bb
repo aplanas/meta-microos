@@ -12,6 +12,7 @@ RPM_HASH = "2e65b706a0243e506581ad1882e8468b6f3a52126c3c86c4ee14f2346eb86a253094
 
 RPROVIDES:${PN} += "tiptop \
 tiptop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "9b2fe77eda12a0be10a266cca75726ead1045df94872ba4829a4261013de04b4db4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orthos2-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

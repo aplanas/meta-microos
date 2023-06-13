@@ -66,6 +66,7 @@ locale(balsa:wa) \
 locale(balsa:zh_CN) \
 locale(balsa:zh_HK) \
 locale(balsa:zh_TW)"
+
 RDEPENDS:${PN} += "balsa"
 
 inherit rpm

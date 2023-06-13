@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxjaholiday.sty) \
 texlive-bxjaholiday"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

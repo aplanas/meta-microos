@@ -14,6 +14,7 @@ RPM_HASH = "993ec50316ec736f0ad5d552a01f98db50ba844954ac1fd52365353e3479e476736a
 RPROVIDES:${PN} += "typelib(Pluma) \
 typelib-1_0-Pluma-1_0 \
 typelib-1_0-Pluma-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "pluma \
 typelib(Atk) \
 typelib(GLib) \

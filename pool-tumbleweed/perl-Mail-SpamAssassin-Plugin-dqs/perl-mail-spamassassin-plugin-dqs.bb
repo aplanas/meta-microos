@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "config(perl-Mail-SpamAssassin-Plugin-dqs) \
 perl(Mail::SpamAssassin::Plugin::SH) \
 perl-Mail-SpamAssassin-Plugin-dqs \
 perl-Mail-SpamAssassin-Plugin-dqs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 perl(:MODULE_COMPAT_5.36.0) \
 spamassassin"

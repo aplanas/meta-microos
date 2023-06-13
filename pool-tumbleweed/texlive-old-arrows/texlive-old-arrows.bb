@@ -29,6 +29,7 @@ tex(oasy8.tfm) \
 tex(oasy9.tfm) \
 tex(old-arrows.sty) \
 texlive-old-arrows"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

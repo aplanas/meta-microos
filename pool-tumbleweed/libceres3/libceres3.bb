@@ -15,6 +15,7 @@ RPM_HASH = "1653c068816e88152a331165d3320f10031429a48bd106ca3431efaa2e0ebf5a8d0e
 RPROVIDES:${PN} += "libceres.so.3()(64bit) \
 libceres3 \
 libceres3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

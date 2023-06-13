@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(langtable) \
 python311-langtable \
 python3dist(langtable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python-langtable-data"
 

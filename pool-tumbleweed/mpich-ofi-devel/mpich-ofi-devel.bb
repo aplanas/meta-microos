@@ -14,6 +14,7 @@ RPM_HASH = "e77740b093e39ca1825c531fb6f4e1dc6939bd5adcba268f35ed0d248156dfa9a8f2
 
 RPROVIDES:${PN} += "mpich-ofi-devel \
 mpich-ofi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstdc++-devel \
 mpich-ofi"
 

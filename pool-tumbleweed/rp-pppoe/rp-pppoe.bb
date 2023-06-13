@@ -12,6 +12,7 @@ RPM_HASH = "cdd50728208f08c201e9c1a982a638bd9d3a6dec16c44537ff66a9600feeb40aa8d8
 RPROVIDES:${PN} += "config(rp-pppoe) \
 rp-pppoe \
 rp-pppoe(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 group(dialout) \

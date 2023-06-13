@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(plantuml.sty) \
 texlive-plantuml"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

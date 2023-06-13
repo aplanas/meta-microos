@@ -11,6 +11,7 @@ RPM_HASH = "3ff33794ac69d02d86e79e24fbde2b2e165d5f4e553becb03a08d09008cdc5fafb6b
 RPROVIDES:${PN} += "ghc-devel(vector-th-unbox-0.2.2-8WH0ofCzoXcG1eDIxYKY6t) \
 ghc-vector-th-unbox-devel \
 ghc-vector-th-unbox-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

@@ -13,6 +13,7 @@ RPM_HASH = "808155bb3926bdc72c35d8db528cea95392b2e052add322ca450905a714c815c13f9
 
 RPROVIDES:${PN} += "glew \
 glew(aarch-64)"
+
 RDEPENDS:${PN} += "libGL.so.1()(64bit) \
 libGLEW.so.2.2()(64bit) \
 libX11.so.6()(64bit) \

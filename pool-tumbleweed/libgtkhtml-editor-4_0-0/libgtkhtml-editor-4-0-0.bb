@@ -12,6 +12,7 @@ RPM_HASH = "3020c02df872010f1d3063b380b9c2a155e11f55c27086111b9c2e8f8ac6919594d3
 RPROVIDES:${PN} += "libgtkhtml-editor-4.0.so.0()(64bit) \
 libgtkhtml-editor-4_0-0 \
 libgtkhtml-editor-4_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

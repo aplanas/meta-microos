@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(show2e.sty) \
 texlive-show2e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

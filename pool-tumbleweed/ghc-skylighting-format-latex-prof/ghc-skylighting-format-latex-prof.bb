@@ -10,6 +10,7 @@ RPM_HASH = "0ba9d5f590df46a83bb5f8d26f4137529f1ac8f979b694b9e9f0dc575e44706b46dd
 RPROVIDES:${PN} += "ghc-prof(skylighting-format-latex-0.1-BfMH5Wq0cc5AFSMLgsgxu) \
 ghc-skylighting-format-latex-prof \
 ghc-skylighting-format-latex-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(skylighting-core-0.13.2.1-6o4V0mA5OWyEHmMDE2dJ63) \

@@ -9,6 +9,7 @@ RPM_HASH = "c4ab48a3a56d7908eeedb8a50273fa6754e9a97de13224c563fb127550191bbe7244
 
 RPROVIDES:${PN} += "dvb-utils \
 dvb-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

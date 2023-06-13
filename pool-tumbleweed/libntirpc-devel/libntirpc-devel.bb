@@ -11,6 +11,7 @@ RPM_HASH = "664234ac451ef6c5a60aadc730079ec85908324c01d40e0d7d0bc8fd76a38d47e6a9
 RPROVIDES:${PN} += "libntirpc-devel \
 libntirpc-devel(aarch-64) \
 pkgconfig(libntirpc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libntirpc3_3"
 

@@ -26,6 +26,7 @@ perl(Util) \
 perl(WrapParser) \
 pkgconfig(giomm-2.68) \
 pkgconfig(glibmm-2.68)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgiomm-2_68-1 \
 libglibmm-2_68-1 \

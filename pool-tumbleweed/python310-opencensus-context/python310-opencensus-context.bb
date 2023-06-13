@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-opencensus-context \
 python3.10dist(opencensus-context) \
 python310-opencensus-context \
 python3dist(opencensus-context)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

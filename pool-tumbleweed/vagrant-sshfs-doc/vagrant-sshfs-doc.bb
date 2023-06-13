@@ -9,6 +9,7 @@ RPM_HASH = "5d5668adf9db7056d329602688dbd422b66bd04e5a532c2dd7e825860797bc761194
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-sshfs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(historian.bbx) \
 tex(historian.cbx) \
 tex(historian.lbx) \
 texlive-biblatex-historian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

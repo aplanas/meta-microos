@@ -20,6 +20,7 @@ RPM_HASH = "e865c28b29bb9af74e2500314b011759bf92523439e953508c9e1e14d64ed948b1d5
 RPROVIDES:${PN} += "ghc-servant-server \
 ghc-servant-server(aarch-64) \
 libHSservant-server-0.19.2-JqERhBhwGZn1ju7NrrjU2W-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so()(64bit) \

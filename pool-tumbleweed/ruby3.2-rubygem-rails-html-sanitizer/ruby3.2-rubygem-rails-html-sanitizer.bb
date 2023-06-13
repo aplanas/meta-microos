@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rails-html-sanitizer) \
 rubygem(ruby:3.2.0:rails-html-sanitizer:1) \
 rubygem(ruby:3.2.0:rails-html-sanitizer:1.5) \
 rubygem(ruby:3.2.0:rails-html-sanitizer:1.5.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:loofah) \
 rubygem(ruby:3.2.0:loofah:2)"

@@ -11,6 +11,7 @@ RPM_HASH = "ca2177f477a41a7b1cb11532e4abbc7b39a9c005f402bae523347f885d44718c5c57
 RPROVIDES:${PN} += "libjuickplugin.so()(64bit) \
 psi+-plugins-juickplugin \
 psi+-plugins-juickplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

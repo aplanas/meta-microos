@@ -9,6 +9,7 @@ RPM_HASH = "dcd3bbba9e8f3f768af010b2f997fc372e43da682acbbdd0619fbd4304686b20094a
 
 RPROVIDES:${PN} += "texlive-mkjobtexmf-bin \
 texlive-mkjobtexmf-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mkjobtexmf"
 
 inherit rpm

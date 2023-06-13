@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(obs-service-download_files) \
 obs-service-download_files"
+
 RDEPENDS:${PN} += "/bin/bash \
 build \
 curl \

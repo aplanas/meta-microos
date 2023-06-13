@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-aiodataloader \
 python3.10dist(aiodataloader) \
 python310-aiodataloader \
 python3dist(aiodataloader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

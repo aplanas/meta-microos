@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.packaging) \
 python311-jaraco.packaging \
 python3dist(jaraco.packaging)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-build \
 python311-jaraco.context \

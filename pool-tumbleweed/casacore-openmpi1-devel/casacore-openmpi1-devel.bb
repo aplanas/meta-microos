@@ -11,6 +11,7 @@ RPM_HASH = "fc62ab7f82448ba80373dec70fa467a8d11261cb89ecfe7ef33f6192b002e69437a4
 
 RPROVIDES:${PN} += "casacore-openmpi1-devel \
 casacore-openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gsl-devel \
 hdf5-devel \
 lapack-devel \

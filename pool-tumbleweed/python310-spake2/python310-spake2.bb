@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-spake2 \
 python3.10dist(spake2) \
 python310-spake2 \
 python3dist(spake2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

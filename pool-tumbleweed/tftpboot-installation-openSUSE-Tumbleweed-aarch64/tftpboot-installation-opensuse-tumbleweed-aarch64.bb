@@ -10,6 +10,7 @@ RPM_HASH = "cb103d0945804daa4006ae7e8e98de0a6cb59525adab18f31e53018f003c69a6f53a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-Tumbleweed-aarch64"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

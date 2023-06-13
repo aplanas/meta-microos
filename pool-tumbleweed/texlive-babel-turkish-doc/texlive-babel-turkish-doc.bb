@@ -9,6 +9,7 @@ RPM_HASH = "f8dd791b38769a36bcddf7b54594447f92a85fd2e578eae8bcb70a3a6777bfd0d9f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-turkish-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

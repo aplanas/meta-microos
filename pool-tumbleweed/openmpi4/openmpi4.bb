@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "mpi \
 openmpi \
 openmpi4 \
 openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

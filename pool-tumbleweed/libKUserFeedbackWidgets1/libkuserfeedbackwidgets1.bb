@@ -12,6 +12,7 @@ RPM_HASH = "ea20b828ef65af362fc87989d75e71426905790e0d63fe5cda7e9efff0fff0dff17e
 RPROVIDES:${PN} += "libKUserFeedbackWidgets.so.1()(64bit) \
 libKUserFeedbackWidgets1 \
 libKUserFeedbackWidgets1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

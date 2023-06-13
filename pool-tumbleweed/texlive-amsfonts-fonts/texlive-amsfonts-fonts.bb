@@ -89,6 +89,7 @@ font(computermodern) \
 font(euler) \
 font(latex) \
 texlive-amsfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

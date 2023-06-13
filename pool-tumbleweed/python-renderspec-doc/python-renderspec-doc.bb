@@ -10,6 +10,7 @@ RPM_HASH = "e41410d8f0af735d27ac519eedc87d0882f2358ca0486512768528c008b038617e4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-renderspec-doc"
+
 RDEPENDS:${PN} += "python3-renderspec"
 
 inherit rpm

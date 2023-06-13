@@ -9,6 +9,7 @@ RPM_HASH = "813c0ed3418445e4785f743ac5a5ac919450d1ef9c3822d58ec5780891d17ab3e900
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvantum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

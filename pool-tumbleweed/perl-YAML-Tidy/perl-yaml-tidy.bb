@@ -17,6 +17,7 @@ perl(YAML::Tidy::Node) \
 perl(YAML::Tidy::Node::Collection) \
 perl(YAML::Tidy::Node::Scalar) \
 perl-YAML-Tidy"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long::Descriptive) \

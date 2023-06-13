@@ -24,6 +24,7 @@ RPM_HASH = "5071d8a86cfc2b600aff8d91ffe37d13f800ad75f1da2be6feb9ec5e60285ff5c86c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla-prebuilt"
+
 RDEPENDS:${PN} += "/bin/cp \
 /bin/sh"
 

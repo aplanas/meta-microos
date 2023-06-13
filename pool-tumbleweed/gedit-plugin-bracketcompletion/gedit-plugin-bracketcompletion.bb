@@ -12,6 +12,7 @@ gedit-plugin-bracketcompletion(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/bracketcompletion.plugin \
 metainfo() \
 metainfo(gedit-bracketcompletion.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gdk) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(visvis) \
 python39-visvis \
 python3dist(visvis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-opengl \

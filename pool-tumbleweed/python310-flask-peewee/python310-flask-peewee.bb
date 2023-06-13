@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flask-peewee \
 python3.10dist(flask-peewee) \
 python310-flask-peewee \
 python3dist(flask-peewee)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-Jinja2 \

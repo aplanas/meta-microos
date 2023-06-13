@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jkmath.sty) \
 texlive-jkmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

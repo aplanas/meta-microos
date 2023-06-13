@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(ipadic) \
 ipadic"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

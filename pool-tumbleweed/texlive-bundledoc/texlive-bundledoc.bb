@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(miktex.cfg) \
 tex(texlive-unix-arlatex.cfg) \
 tex(texlive-unix.cfg) \
 texlive-bundledoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

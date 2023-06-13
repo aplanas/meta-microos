@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-communication-identity) \
 python311-azure-communication-identity \
 python3dist(azure-communication-identity)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-communication-nspkg \
 python311-azure-core \

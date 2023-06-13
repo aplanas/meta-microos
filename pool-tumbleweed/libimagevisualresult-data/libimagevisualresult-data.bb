@@ -9,6 +9,7 @@ RPM_HASH = "4938991b25bbf4919ad2afccbfa4ee70bb00d78a56180b36b900436503cd5ebca1f2
 
 RPROVIDES:${PN} += "libimagevisualresult-data \
 libimagevisualresult-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

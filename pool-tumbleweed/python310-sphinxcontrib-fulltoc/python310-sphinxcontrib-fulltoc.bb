@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-fulltoc \
 python3.10dist(sphinxcontrib-fulltoc) \
 python310-sphinxcontrib-fulltoc \
 python3dist(sphinxcontrib-fulltoc)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

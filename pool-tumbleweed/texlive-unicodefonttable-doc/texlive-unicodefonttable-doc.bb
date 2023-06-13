@@ -9,6 +9,7 @@ RPM_HASH = "127bd69721c09c23df1cb78428a87efd4656fc19dd8d7877bd9e355e06f497f7de90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unicodefonttable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

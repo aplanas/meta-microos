@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-compliance-checker \
 perl(In)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 abi-dumper \
 binutils \

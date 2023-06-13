@@ -9,6 +9,7 @@ RPM_HASH = "6af450d607141180492c966e618cf224da8870d3cc2b3f2c5fd990efb2fc8b067ff9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Scrapy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

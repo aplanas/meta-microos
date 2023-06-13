@@ -13,6 +13,7 @@ RPM_HASH = "2e598c671c39e1ab3c47105a9c0d5fe73d4371885df3dec9bca0a7ae72729459d019
 RPROVIDES:${PN} += "liblittleb.so.0()(64bit) \
 liblittleb0 \
 liblittleb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

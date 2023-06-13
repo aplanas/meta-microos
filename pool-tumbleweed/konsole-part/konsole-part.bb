@@ -11,6 +11,7 @@ RPM_HASH = "15451a2b44d109e266c7520fe741e7b25deac66e2ae2f26fa7a69487a428ce3ce827
 RPROVIDES:${PN} += "konsole-part \
 konsole-part(aarch-64) \
 libkonsoleprivate.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

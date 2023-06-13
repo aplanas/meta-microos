@@ -13,6 +13,7 @@ RPM_HASH = "dcc66cb6c9e5afbe43bfdbd32f4b64f117f624d3238d0139fe1ab49565bafbf922c9
 RPROVIDES:${PN} += "libexempi.so.8()(64bit) \
 libexempi8 \
 libexempi8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

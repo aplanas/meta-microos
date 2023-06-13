@@ -13,6 +13,7 @@ RPM_HASH = "b412d227a05f03d5ee52124307c9f77aab23385f81b3b39a8d4b9c6807c12083049e
 
 RPROVIDES:${PN} += "keybase-client \
 keybase-client(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

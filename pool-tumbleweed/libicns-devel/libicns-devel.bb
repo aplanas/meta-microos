@@ -10,6 +10,7 @@ RPM_HASH = "9e7890aeabc02399a232809b294761f0f96009b5cf3ab2340f5eaa646739215b3fbb
 RPROVIDES:${PN} += "libicns-devel \
 libicns-devel(aarch-64) \
 pkgconfig(libicns)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libicns1"

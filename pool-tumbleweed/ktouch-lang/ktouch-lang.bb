@@ -78,6 +78,7 @@ locale(ktouch:ug) \
 locale(ktouch:uk) \
 locale(ktouch:zh_CN) \
 locale(ktouch:zh_TW)"
+
 RDEPENDS:${PN} += "ktouch"
 
 inherit rpm

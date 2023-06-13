@@ -34,6 +34,7 @@ RPM_HASH = "19b7c264ecdd4febf2ea0fa12a9724e19eb44b7bc05945e0c13c15081d14356728ca
 RPROVIDES:${PN} += "libTMCG.so.18()(64bit) \
 libTMCG18 \
 libTMCG18(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

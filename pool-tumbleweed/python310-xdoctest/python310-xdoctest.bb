@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xdoctest \
 python3.10dist(xdoctest) \
 python310-xdoctest \
 python3dist(xdoctest)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

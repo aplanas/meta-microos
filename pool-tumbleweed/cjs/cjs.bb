@@ -10,6 +10,7 @@ RPM_HASH = "6b10f01bf9199767e5ca3c092828fc71e7ec27be22b6cfecda75c2ce969f2f218b8d
 
 RPROVIDES:${PN} += "cjs \
 cjs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

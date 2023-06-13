@@ -9,6 +9,7 @@ RPM_HASH = "e44a239255b567a17d3fff9c5dc8664f01b0e81404df916165f675153cc557bcf943
 
 RPROVIDES:${PN} += "texlive-pkfix-bin \
 texlive-pkfix-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pkfix"
 
 inherit rpm

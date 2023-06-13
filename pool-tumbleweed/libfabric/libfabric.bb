@@ -10,6 +10,7 @@ RPM_HASH = "fc01b0361d6d3283ded4934f27d40ba60e66855d2fd91ecdec4778e1e6a819b9909a
 
 RPROVIDES:${PN} += "libfabric \
 libfabric(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

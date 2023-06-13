@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-yg.lockfile \
 python3.10dist(yg.lockfile) \
 python310-yg.lockfile \
 python3dist(yg.lockfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.functools \
 python310-tempora \

@@ -9,6 +9,7 @@ RPM_HASH = "0b69671ab019d75ffccc3b717a89cf27d000dbcfe70f42d5c742537ccdd32db944a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wallcalendar-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

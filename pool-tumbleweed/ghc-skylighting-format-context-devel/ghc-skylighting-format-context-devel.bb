@@ -11,6 +11,7 @@ RPM_HASH = "be9be02abfa9d8710b85e8668683a83808135b381ff100dc77838d38368a887ee0aa
 RPROVIDES:${PN} += "ghc-devel(skylighting-format-context-0.1.0.2-KUO5o5IaP468SqsY1Sf1SB) \
 ghc-skylighting-format-context-devel \
 ghc-skylighting-format-context-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

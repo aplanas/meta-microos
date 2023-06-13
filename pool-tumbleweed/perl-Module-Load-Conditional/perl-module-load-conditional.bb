@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Module::Load::Conditional) \
 perl-Module-Load-Conditional"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Locale::Maketext::Simple) \
 perl(Module::CoreList) \

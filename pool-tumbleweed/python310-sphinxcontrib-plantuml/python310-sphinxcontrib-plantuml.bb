@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-plantuml \
 python3.10dist(sphinxcontrib-plantuml) \
 python310-sphinxcontrib-plantuml \
 python3dist(sphinxcontrib-plantuml)"
+
 RDEPENDS:${PN} += "plantuml \
 python(abi) \
 python310-Sphinx"

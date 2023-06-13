@@ -9,6 +9,7 @@ RPM_HASH = "ed19cb1810f1e181c256b0236b4c93e4b23bf674fe2c45541a36709a94ba4a00d14a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-theme-breeze"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

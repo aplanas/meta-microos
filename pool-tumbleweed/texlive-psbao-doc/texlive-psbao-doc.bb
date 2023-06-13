@@ -9,6 +9,7 @@ RPM_HASH = "6831200bddc028b1e6f0d4dcbb8a13e899f37c23f6085211e558a3013a57ca2aa47b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psbao-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

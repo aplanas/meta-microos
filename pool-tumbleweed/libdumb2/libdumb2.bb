@@ -14,6 +14,7 @@ RPM_HASH = "da910582e180499f7d4ac89ed1a86632943a43944604ea2aa8c5745f962ddc442eda
 RPROVIDES:${PN} += "libdumb.so.2()(64bit) \
 libdumb2 \
 libdumb2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

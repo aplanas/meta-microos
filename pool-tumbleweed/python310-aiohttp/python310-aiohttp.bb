@@ -16,6 +16,7 @@ python3.10dist(aiohttp) \
 python310-aiohttp \
 python310-aiohttp(aarch-64) \
 python3dist(aiohttp)"
+
 RDEPENDS:${PN} += "(python310-async_timeout >= 4.0 with python310-async_timeout < 5) \
 (python310-asynctest = 0.13.0 if python310-base < 3.8) \
 (python310-charset-normalizer >= 2.0 with python310-charset-normalizer < 4) \

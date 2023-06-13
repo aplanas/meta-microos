@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(treq) \
 python311-treq \
 python3dist(treq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Twisted-tls \
 python311-attrs \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-yacron \
 python3.10dist(yacron) \
 python310-yacron \
 python3dist(yacron)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

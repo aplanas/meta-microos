@@ -11,6 +11,7 @@ RPM_HASH = "9a9df215bfc557b487d3b9f63f99bc137bbfa1ea88a2e181f5ea77b129878d59b2be
 RPROVIDES:${PN} += "libyajl.so.2()(64bit) \
 libyajl2 \
 libyajl2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

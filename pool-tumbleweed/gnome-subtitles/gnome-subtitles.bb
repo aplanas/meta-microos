@@ -23,6 +23,7 @@ mimehandler(text/x-mpsub) \
 mimehandler(text/x-ssa) \
 mimehandler(text/x-subviewer) \
 mono(gnome-subtitles)"
+
 RDEPENDS:${PN} += "/bin/bash \
 gstreamer-plugins-base \
 hicolor-icon-theme \

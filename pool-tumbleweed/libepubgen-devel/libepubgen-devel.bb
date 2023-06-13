@@ -13,6 +13,7 @@ RPM_HASH = "4ec645827370eb679ae4b5a5dea60d9d4d3959675c5641559db028ce02a3a3d4345d
 RPROVIDES:${PN} += "libepubgen-devel \
 libepubgen-devel(aarch-64) \
 pkgconfig(libepubgen-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libepubgen-0_1-1 \
 pkgconfig(librevenge-0.0)"

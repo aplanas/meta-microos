@@ -13,6 +13,7 @@ RPM_HASH = "c68d050f04ad7a07583e34dcb55d30aa4158de4020c891a925feeb48cc463a4129ae
 
 RPROVIDES:${PN} += "apfel-devel \
 apfel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 LHAPDF-devel \
 libAPFEL.so.0()(64bit) \

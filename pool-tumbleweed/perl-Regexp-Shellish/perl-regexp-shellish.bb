@@ -18,6 +18,7 @@ RPM_HASH = "df9a08fee4d98ea7ef056515765ca97616476220575748d570cd5987360ef07088e9
 RPROVIDES:${PN} += "perl(Regexp::Shellish) \
 perl-Regexp-Shellish \
 perl-Regexp-Shellish(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

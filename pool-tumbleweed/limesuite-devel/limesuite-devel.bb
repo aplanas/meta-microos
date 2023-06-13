@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(LimeSuite) \
 limesuite-devel \
 limesuite-devel(aarch-64) \
 pkgconfig(LimeSuite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libLimeSuite22_09-1"
 

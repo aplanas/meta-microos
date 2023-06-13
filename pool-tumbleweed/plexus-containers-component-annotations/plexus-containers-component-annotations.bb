@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-component-annotations) \
 mvn(org.codehaus.plexus:plexus-component-annotations:pom:) \
 osgi(org.codehaus.plexus.component-annotations) \
 plexus-containers-component-annotations"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

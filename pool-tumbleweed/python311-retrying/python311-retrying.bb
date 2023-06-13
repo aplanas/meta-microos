@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(retrying) \
 python311-retrying \
 python3dist(retrying)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

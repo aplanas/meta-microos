@@ -16,6 +16,7 @@ RPM_HASH = "d9ff03ec76dba183651f5c01e47fb23355ec47ceaca9c7acad1867c5dc4ca68e9c75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neofetch"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

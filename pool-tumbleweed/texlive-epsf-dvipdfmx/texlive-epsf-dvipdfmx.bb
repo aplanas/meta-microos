@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(epsf-dvipdfmx.tex) \
 texlive-epsf-dvipdfmx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

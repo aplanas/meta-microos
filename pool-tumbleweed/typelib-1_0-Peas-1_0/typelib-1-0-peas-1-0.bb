@@ -14,6 +14,7 @@ RPM_HASH = "9179f09af90f8450002575f130261d89f9f478d22a6ddd5c9e7287a65ec59adbf263
 RPROVIDES:${PN} += "typelib(Peas) \
 typelib-1_0-Peas-1_0 \
 typelib-1_0-Peas-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libpeas-1.0.so.0()(64bit) \
 typelib(GIRepository) \
 typelib(GLib) \

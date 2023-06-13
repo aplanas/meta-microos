@@ -11,6 +11,7 @@ RPM_HASH = "11795f03f53e6e8bed48c89186a070583f982e6f905772c32eb19f62e8da9caa79d1
 RPROVIDES:${PN} += "gts-devel \
 gts-devel(aarch-64) \
 pkgconfig(gts)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gcc \
 gcc-c++ \

@@ -9,6 +9,7 @@ RPM_HASH = "f8b3935c8841beb804cbef6fbbcaec0572f7484ea8e7f4a18f2151c0a425e15361d9
 
 RPROVIDES:${PN} += "perf-devel \
 perf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "perf"
 
 inherit rpm

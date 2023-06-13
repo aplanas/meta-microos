@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pysmi \
 python3.10dist(pysmi) \
 python310-pysmi \
 python3dist(pysmi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tetragonos-database.def) \
 tex(tetragonos.sty) \
 texlive-tetragonos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

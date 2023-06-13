@@ -16,6 +16,7 @@ pkgconfig(xcm) \
 pkgconfig(xcm-ddc) \
 pkgconfig(xcm-edid) \
 pkgconfig(xcm-x11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXcm0 \
 libXcmDDC0 \

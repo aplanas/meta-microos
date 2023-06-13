@@ -16,6 +16,7 @@ RPM_HASH = "40782c04cc5d6a636d7a20299d8b9cb6c0ca8dc0f43ca9cc7da9d35a40ab7d19c147
 
 RPROVIDES:${PN} += "trilinos_14_0_0-gnu-openmpi2-hpc-devel \
 trilinos_14_0_0-gnu-openmpi2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python \

@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "perl(Meta::Builder) \
 perl(Meta::Builder::Base) \
 perl(Meta::Builder::Util) \
 perl-Meta-Builder"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

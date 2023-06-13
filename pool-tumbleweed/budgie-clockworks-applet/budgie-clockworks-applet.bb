@@ -11,6 +11,7 @@ RPM_HASH = "6c0d39368a9f7bc60d7d81f551dcff2b3f057a9eac904337c706cb3c3a6a2c8cceb7
 
 RPROVIDES:${PN} += "budgie-clockworks-applet \
 budgie-clockworks-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-CairoSVG \
 python3-Pillow \

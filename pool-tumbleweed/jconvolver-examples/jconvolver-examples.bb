@@ -10,6 +10,7 @@ RPM_HASH = "5a9aab47df6cf62799556b11844fe6c2ff1a7846d62eadc981dd6632392af4b3bb22
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jconvolver-examples"
+
 RDEPENDS:${PN} += "jconvolver"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "88ce23004c9341cbbd916c194a28934e3753ca9b086653268e5a9fbc8323ff5d97a4
 RPROVIDES:${PN} += "ghc-devel(entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP) \
 ghc-entropy-devel \
 ghc-entropy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

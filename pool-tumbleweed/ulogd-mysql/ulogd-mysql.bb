@@ -9,6 +9,7 @@ RPM_HASH = "3bdee71ffdc8536aa32686c7325e1fc6751df09d1db80d86a20aff588e59b8169858
 
 RPROVIDES:${PN} += "ulogd-mysql \
 ulogd-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

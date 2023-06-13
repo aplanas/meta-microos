@@ -10,6 +10,7 @@ RPM_HASH = "1026bd4a66d2237662670d1e9bea6faf250e8ae11e0e868995b6e94ef8404ca2cfcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "changelog-generator-data"
+
 RDEPENDS:${PN} += "rubygem(changelog_generator)"
 
 inherit rpm

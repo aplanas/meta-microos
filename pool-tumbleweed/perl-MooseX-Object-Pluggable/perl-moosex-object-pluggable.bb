@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::Object::Pluggable) \
 perl-MooseX-Object-Pluggable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Pluggable::Object) \
 perl(Module::Runtime) \

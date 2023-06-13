@@ -9,6 +9,7 @@ RPM_HASH = "bbfb38b4c62316a5ed1d0a8010540fe9e2ab37b525e6919db7ac3374e270de91c395
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-orkhun-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

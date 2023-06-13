@@ -29,6 +29,7 @@ locale(clapper:ru) \
 locale(clapper:sv) \
 locale(clapper:tr) \
 locale(clapper:zh_CN)"
+
 RDEPENDS:${PN} += "clapper"
 
 inherit rpm

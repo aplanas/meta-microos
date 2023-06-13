@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-meson-python \
 python3.10dist(meson-python) \
 python310-meson-python \
 python3dist(meson-python)"
+
 RDEPENDS:${PN} += "meson \
 python(abi) \
 python310-pyproject-metadata \

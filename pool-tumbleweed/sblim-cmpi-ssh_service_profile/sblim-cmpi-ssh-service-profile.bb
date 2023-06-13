@@ -19,6 +19,7 @@ RPM_HASH = "c599a7d103729030fd3a6dfad06d174d9d10d866b0adfb440bf55c38352db803b2a6
 RPROVIDES:${PN} += "liblinux_sshserviceprovider.so.1()(64bit) \
 sblim-cmpi-ssh_service_profile \
 sblim-cmpi-ssh_service_profile(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 cim-schema \

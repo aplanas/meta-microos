@@ -15,6 +15,7 @@ RPM_HASH = "4337f90c37fa98947b50154f325344423e1c735489b3a17d227fff99c452625970c0
 RPROVIDES:${PN} += "config(monerod) \
 monerod \
 monerod(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

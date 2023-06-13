@@ -19,6 +19,7 @@ RPM_HASH = "7ef516403e40ff55e413c3d133e89a8f576d065677341230984be9494789deead641
 
 RPROVIDES:${PN} += "wavpack \
 wavpack(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

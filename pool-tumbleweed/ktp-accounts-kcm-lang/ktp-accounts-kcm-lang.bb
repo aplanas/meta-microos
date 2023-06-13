@@ -62,6 +62,7 @@ locale(ktp-accounts-kcm:vi) \
 locale(ktp-accounts-kcm:wa) \
 locale(ktp-accounts-kcm:zh_CN) \
 locale(ktp-accounts-kcm:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-accounts-kcm"
 
 inherit rpm

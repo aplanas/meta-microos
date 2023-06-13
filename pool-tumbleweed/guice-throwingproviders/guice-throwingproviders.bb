@@ -15,6 +15,7 @@ mvn(com.google.inject.extensions:guice-throwingproviders:pom:) \
 mvn(org.sonatype.sisu.inject:guice-throwingproviders) \
 mvn(org.sonatype.sisu.inject:guice-throwingproviders:pom:) \
 osgi(com.google.inject.throwingproviders)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

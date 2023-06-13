@@ -14,6 +14,7 @@ RPM_HASH = "933c4d1e5ec1798c352780131b59ac4a99cc1db1af93457497a8b968bcd7841f218c
 
 RPROVIDES:${PN} += "adios_1_13_1-gnu-openmpi2-hpc-devel \
 adios_1_13_1-gnu-openmpi2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "adios_1_13_1-gnu-openmpi2-hpc \
 adios_1_13_1-gnu-openmpi2-hpc-devel-static \
 gnu-compilers-hpc-devel \

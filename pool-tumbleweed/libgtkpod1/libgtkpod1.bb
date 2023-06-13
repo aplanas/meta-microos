@@ -16,6 +16,7 @@ RPM_HASH = "274d4c429eb5dab2674fc86b6d790b5c6bddce80e89ae2b3cf4d0b87b86d060a1df8
 RPROVIDES:${PN} += "libgtkpod.so.1()(64bit) \
 libgtkpod1 \
 libgtkpod1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

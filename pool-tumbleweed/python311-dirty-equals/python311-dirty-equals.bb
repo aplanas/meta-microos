@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dirty-equals) \
 python311-dirty-equals \
 python3dist(dirty-equals)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz"
 

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-pltcl \
 postgresql-pltcl-noarch"
+
 RDEPENDS:${PN} += "postgresql-pltcl-implementation"
 
 inherit rpm

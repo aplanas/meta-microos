@@ -13,6 +13,7 @@ fluidsynth-devel \
 fluidsynth-devel(aarch-64) \
 libfluidsynth-devel \
 pkgconfig(fluidsynth)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libfluidsynth3 \

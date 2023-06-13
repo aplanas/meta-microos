@@ -13,6 +13,7 @@ RPM_HASH = "8dc123d260c17b5a679a93b3a59f0cc2cd971ad0af4d4fffcb3807db8760e6c08fd6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cstex"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

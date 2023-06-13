@@ -35,6 +35,7 @@ tex(cmu-uxsc.enc) \
 tex(cmu-vn.enc) \
 tex(cmu.map) \
 texlive-cm-unicode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

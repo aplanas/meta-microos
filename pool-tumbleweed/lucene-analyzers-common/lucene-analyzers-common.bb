@@ -14,6 +14,7 @@ lucene-analyzers-common \
 mvn(org.apache.lucene:lucene-analyzers-common) \
 mvn(org.apache.lucene:lucene-analyzers-common:pom:) \
 osgi(org.apache.lucene.analyzers-common)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core) \

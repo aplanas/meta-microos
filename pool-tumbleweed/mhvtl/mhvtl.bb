@@ -14,6 +14,7 @@ libvtlcart.so()(64bit) \
 libvtlscsi.so()(64bit) \
 mhvtl \
 mhvtl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

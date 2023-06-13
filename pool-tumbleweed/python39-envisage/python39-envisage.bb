@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(envisage) \
 python39-envisage \
 python3dist(envisage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-traits"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-environ) \
 python311-django-environ \
 python3dist(django-environ)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

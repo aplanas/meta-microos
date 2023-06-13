@@ -9,6 +9,7 @@ RPM_HASH = "09af61cd1929deb3e5af6e727b087871f1e6dba0dfd9b25f05f4d0b724daf877d7e7
 
 RPROVIDES:${PN} += "fastlzlib \
 fastlzlib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

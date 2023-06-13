@@ -15,6 +15,7 @@ RPM_HASH = "433015f08ac03b632c524239455569888167a9219bc190c72ca3fd8e4b6da33760b6
 RPROVIDES:${PN} += "enca-devel \
 enca-devel(aarch-64) \
 pkgconfig(enca)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libenca0"

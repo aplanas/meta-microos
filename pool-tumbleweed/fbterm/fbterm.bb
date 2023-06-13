@@ -25,6 +25,7 @@ RPM_HASH = "7a85de22840e2e6c9157b86a40181c8c4ffa87cfd8b1684e4b313eb974566e79c9db
 
 RPROVIDES:${PN} += "fbterm \
 fbterm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

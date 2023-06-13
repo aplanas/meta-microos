@@ -10,6 +10,7 @@ RPM_HASH = "45cbb04530732fbb88c331f236e898e8c98033685421713da00fdbd56372cfa0ef85
 
 RPROVIDES:${PN} += "kmailtransport \
 kmailtransport(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

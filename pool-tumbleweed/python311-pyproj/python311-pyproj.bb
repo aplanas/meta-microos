@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3.11dist(pyproj) \
 python311-pyproj \
 python311-pyproj(aarch-64) \
 python3dist(pyproj)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

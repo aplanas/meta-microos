@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "lua-MessagePack \
 lua-messagepack \
 lua54-messagepack"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

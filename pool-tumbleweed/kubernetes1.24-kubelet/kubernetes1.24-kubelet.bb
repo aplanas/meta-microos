@@ -11,6 +11,7 @@ RPM_HASH = "79eeb5fd4e55f92a6910467cac135acc07eb3b772123bbdd459870f8930c8cbd1247
 RPROVIDES:${PN} += "kubernetes-kubelet1.24 \
 kubernetes1.24-kubelet \
 kubernetes1.24-kubelet(aarch-64)"
+
 RDEPENDS:${PN} += "cri-runtime \
 kubernetes-kubelet-common \
 libc.so.6(GLIBC_2.34)(64bit) \

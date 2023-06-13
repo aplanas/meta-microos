@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Mbox) \
 cmake(KPim5Mbox) \
 kmbox-devel \
 kmbox-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KPim5Mime) \
 libKPim5Mbox5"
 

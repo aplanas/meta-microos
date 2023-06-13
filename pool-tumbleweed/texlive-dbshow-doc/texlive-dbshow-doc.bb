@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "en) \
 locale(texlive-dbshow-doc:zh \
 texlive-dbshow-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

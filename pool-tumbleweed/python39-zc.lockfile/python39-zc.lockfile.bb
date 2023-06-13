@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(zc.lockfile) \
 python39-zc-lockfile \
 python39-zc.lockfile \
 python3dist(zc.lockfile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

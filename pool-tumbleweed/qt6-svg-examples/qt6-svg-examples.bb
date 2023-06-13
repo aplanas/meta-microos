@@ -9,6 +9,7 @@ RPM_HASH = "d11ff9b5373cafb4adb14bee4d372630e94c06b5e2aa7eae2552624b10307d85bc1b
 
 RPROVIDES:${PN} += "qt6-svg-examples \
 qt6-svg-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

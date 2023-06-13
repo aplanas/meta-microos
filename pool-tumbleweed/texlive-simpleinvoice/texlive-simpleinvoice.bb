@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simpleinvoice.sty) \
 texlive-simpleinvoice"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

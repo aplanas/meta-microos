@@ -9,6 +9,7 @@ RPM_HASH = "6537bf49aca9c45842ff3d04bea7cf97ad61f1e84316dcfaff1fe8cd2fd63f7cd688
 
 RPROVIDES:${PN} += "cmake-doc-qhelp \
 cmake-doc-qhelp(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

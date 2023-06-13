@@ -9,6 +9,7 @@ RPM_HASH = "73d42b716c6f724be8a6ccf65099e2e7f698a17c0884de5fd5984dbccfb9a83c094a
 
 RPROVIDES:${PN} += "texlive-fig4latex-bin \
 texlive-fig4latex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-fig4latex"
 
 inherit rpm

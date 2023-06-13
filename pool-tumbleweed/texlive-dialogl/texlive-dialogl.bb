@@ -14,6 +14,7 @@ tex(grabhedr.sty) \
 tex(listout.tex) \
 tex(menus.sty) \
 texlive-dialogl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

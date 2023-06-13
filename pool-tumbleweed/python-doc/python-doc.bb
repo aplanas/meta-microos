@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pyth_doc \
 pyth_ps \
 python-doc \
 python2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

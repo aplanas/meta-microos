@@ -50,6 +50,7 @@ tex(tocenter.sty) \
 tex(topsection.sty) \
 tex(watermark.sty) \
 texlive-ncctools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

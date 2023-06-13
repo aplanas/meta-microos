@@ -13,6 +13,7 @@ RPM_HASH = "49f075e618f25f6dc4c13612e58fef207afb343f953c655f2bd219c778cf3d1b92bd
 
 RPROVIDES:${PN} += "libraw-tools \
 libraw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

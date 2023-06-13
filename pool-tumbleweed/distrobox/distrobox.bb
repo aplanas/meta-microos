@@ -13,6 +13,7 @@ RPM_HASH = "50ad9b0e1d026015c0f81e192571bb558f53f9d7c49e8ff44358904a0a9584645f2d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox"
+
 RDEPENDS:${PN} += "(/usr/bin/podman or /usr/bin/docker) \
 (distrobox-bash-completion if bash-completion) \
 /bin/sh \

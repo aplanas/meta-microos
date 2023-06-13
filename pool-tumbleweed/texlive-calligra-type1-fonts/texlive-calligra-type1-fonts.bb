@@ -78,6 +78,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(callig15) \
 texlive-calligra-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

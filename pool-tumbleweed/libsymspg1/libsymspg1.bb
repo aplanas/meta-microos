@@ -10,6 +10,7 @@ RPM_HASH = "45496e97aa9dca3666053d2820f3a0b1b78fe5b5cf2c7603af032917d4893f81fcda
 RPROVIDES:${PN} += "libsymspg.so.1()(64bit) \
 libsymspg1 \
 libsymspg1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

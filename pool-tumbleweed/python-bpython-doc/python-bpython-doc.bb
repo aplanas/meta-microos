@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-bpython-doc \
 python310-bpython-doc \
 python311-bpython-doc \
 python39-bpython-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

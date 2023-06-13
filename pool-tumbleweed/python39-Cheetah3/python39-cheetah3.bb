@@ -20,6 +20,7 @@ python39-Cheetah3 \
 python39-Cheetah3(aarch-64) \
 python39-cheetah \
 python3dist(cheetah3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

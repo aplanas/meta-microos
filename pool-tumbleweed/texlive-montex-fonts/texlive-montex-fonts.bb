@@ -130,6 +130,7 @@ font(tex\040kmbx10) \
 font(tex\040kmr10) \
 font(tex\040kmss10) \
 texlive-montex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

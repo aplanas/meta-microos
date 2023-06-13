@@ -13,6 +13,7 @@ RPM_HASH = "976f94ef9c51ea0ea6b05f1d1acd387910fca0665aeeb64d63fc493e4a96639333bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-bluebird"
+
 RDEPENDS:${PN} += "metatheme-bluebird-common"
 
 inherit rpm

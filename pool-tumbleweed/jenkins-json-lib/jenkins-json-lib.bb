@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jenkins-json-lib \
 mvn(org.kohsuke.stapler:json-lib) \
 mvn(org.kohsuke.stapler:json-lib:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-beanutils:commons-beanutils) \

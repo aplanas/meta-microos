@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-machinelearningservices) \
 python39-azure-mgmt-machinelearningservices \
 python3dist(azure-mgmt-machinelearningservices)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

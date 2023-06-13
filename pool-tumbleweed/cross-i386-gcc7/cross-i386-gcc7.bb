@@ -13,6 +13,7 @@ RPM_HASH = "a1b25942ac8435f44eac8ffbc360c733138487216e9665eade0dd9cfcc69dfad1aa7
 RPROVIDES:${PN} += "cross-i386-gcc7 \
 cross-i386-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-i386-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

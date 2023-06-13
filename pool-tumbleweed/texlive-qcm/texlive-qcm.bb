@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(qcm.cls) \
 tex(qcm.sty) \
 texlive-qcm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

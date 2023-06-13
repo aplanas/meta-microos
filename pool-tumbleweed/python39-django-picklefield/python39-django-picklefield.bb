@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-picklefield) \
 python39-django-picklefield \
 python3dist(django-picklefield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

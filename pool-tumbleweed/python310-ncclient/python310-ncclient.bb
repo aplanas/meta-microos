@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ncclient \
 python3.10dist(ncclient) \
 python310-ncclient \
 python3dist(ncclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-paramiko \

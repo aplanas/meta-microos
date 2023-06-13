@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-argparse_addons \
 python3.10dist(argparse-addons) \
 python310-argparse_addons \
 python3dist(argparse-addons)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

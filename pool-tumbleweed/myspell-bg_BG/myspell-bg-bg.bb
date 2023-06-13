@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:bg_BG) \
 myspell-bg_BG \
 myspell-bulgarian \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

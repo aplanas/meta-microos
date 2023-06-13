@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5IdentityManagement) \
 cmake(KPim5IdentityManagement) \
 kidentitymanagement-devel \
 kidentitymanagement-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cmake(KF5TextEditTextToSpeech) \
 cmake(KPim5TextEdit) \

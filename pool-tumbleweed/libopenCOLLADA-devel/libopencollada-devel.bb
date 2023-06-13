@@ -11,6 +11,7 @@ RPM_HASH = "00e52ca754c98e69a84a1f34849a4f5f4767102df08379dffc7d1a8d375a1ccbcdda
 RPROVIDES:${PN} += "libopenCOLLADA-devel \
 libopenCOLLADA-devel(aarch-64) \
 openCOLLADA-devel"
+
 RDEPENDS:${PN} += "libGeneratedSaxParser0_3 \
 libMathMLSolver0_3 \
 libOpenCOLLADABaseUtils0_3 \

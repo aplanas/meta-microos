@@ -13,6 +13,7 @@ librevenge-devel(aarch-64) \
 pkgconfig(librevenge-0.0) \
 pkgconfig(librevenge-generators-0.0) \
 pkgconfig(librevenge-stream-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librevenge-0_0-0 \
 librevenge-generators-0_0-0 \

@@ -9,6 +9,7 @@ RPM_HASH = "26ca018a4a04415a21403deb683c2ec6181ef52845d33f7a4eedcf2b86762df2a9bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-vatnumber"
+
 RDEPENDS:${PN} += "python311-python-stdnum \
 python311-six"
 

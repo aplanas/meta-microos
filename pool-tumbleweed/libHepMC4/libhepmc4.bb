@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "libHepMC.so.4()(64bit) \
 libHepMC4 \
 libHepMC4(aarch-64) \
 libHepMCfio.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

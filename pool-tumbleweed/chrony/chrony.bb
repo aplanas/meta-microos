@@ -32,6 +32,7 @@ config(chrony) \
 group(chrony) \
 ntp-daemon \
 user(chrony)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

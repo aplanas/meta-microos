@@ -12,6 +12,7 @@ RPM_HASH = "cd1100d68b317568675fbf733a2e5945b7bd872919195b9abb56d234800f15ee462d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "garlic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

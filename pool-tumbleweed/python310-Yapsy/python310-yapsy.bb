@@ -19,6 +19,7 @@ python3.10dist(yapsy) \
 python310-Yapsy \
 python310-yapsy \
 python3dist(yapsy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

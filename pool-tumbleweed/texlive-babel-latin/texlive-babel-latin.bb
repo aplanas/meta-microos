@@ -16,6 +16,7 @@ tex(ecclesiasticlatin.ldf) \
 tex(latin.ldf) \
 tex(medievallatin.ldf) \
 texlive-babel-latin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

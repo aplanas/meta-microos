@@ -19,6 +19,7 @@ RPM_HASH = "e195a42c11953a66470e0d93ad64cc1169a928c6d596a0a494361117ffc057494758
 RPROVIDES:${PN} += "config(wcd) \
 wcd \
 wcd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

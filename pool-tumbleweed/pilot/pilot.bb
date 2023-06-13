@@ -11,6 +11,7 @@ RPM_HASH = "47a43f43767105784d69b014db6b3c342f0dfd648ba39b9e04d54ad1b1b3af7bae5e
 
 RPROVIDES:${PN} += "pilot \
 pilot(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

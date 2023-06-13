@@ -10,6 +10,7 @@ RPM_HASH = "7e8ec7f94dd410af3f47f44c1f470ba20a51e0ef9eeb095e8d3c291d2a733909f82d
 RPROVIDES:${PN} += "libboost_random-devel-impl \
 libboost_random1_82_0-devel \
 libboost_random1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_random1_82_0 \
 libboost_system1_82_0-devel"

@@ -11,6 +11,7 @@ RPM_HASH = "74dced43e29c2e619b57d0bbb11c333f1d8e17fbbe71037906f83931bd1c21c8c0bb
 
 RPROVIDES:${PN} += "python3-arpack-ng \
 python3-arpack-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_numpy-py3.so.1.82.0()(64bit) \

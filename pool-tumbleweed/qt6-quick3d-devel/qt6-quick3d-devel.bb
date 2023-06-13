@@ -12,6 +12,7 @@ cmake(Qt6Quick3DTools) \
 pkgconfig(Qt6Quick3D) \
 qt6-quick3d-devel \
 qt6-quick3d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Quick3DRuntimeRender) \

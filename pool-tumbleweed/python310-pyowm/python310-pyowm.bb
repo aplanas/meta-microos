@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyowm \
 python3.10dist(pyowm) \
 python310-pyowm \
 python3dist(pyowm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-geojson \
 python310-requests"

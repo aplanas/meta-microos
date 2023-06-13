@@ -11,6 +11,7 @@ RPM_HASH = "8b961b0b35bf49aee72ec16345a74294ffde546c3d0da035ae03f36e99d22051e923
 RPROVIDES:${PN} += "libsemanage-devel \
 libsemanage-devel(aarch-64) \
 pkgconfig(libsemanage)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsemanage2 \
 pkgconfig(libselinux) \

@@ -13,6 +13,7 @@ RPM_HASH = "806034537084408bd8c9ac620fe322657eb60e2ce88a0d08861efdfc8c3189264e8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unzip-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

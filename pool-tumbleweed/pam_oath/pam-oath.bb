@@ -12,6 +12,7 @@ RPM_HASH = "dfd6bc43c547523436c188b686363474474ad6a3471bd30cbdd0a5a26aaec78c2e3b
 
 RPROVIDES:${PN} += "pam_oath \
 pam_oath(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

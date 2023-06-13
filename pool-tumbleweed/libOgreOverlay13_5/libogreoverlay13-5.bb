@@ -16,6 +16,7 @@ RPM_HASH = "5df9f8dc94eb3d92006ed340de98893cd9d8c8023ed6935a7493f84bbd18a65984fc
 RPROVIDES:${PN} += "libOgreOverlay.so.13.5()(64bit) \
 libOgreOverlay13_5 \
 libOgreOverlay13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

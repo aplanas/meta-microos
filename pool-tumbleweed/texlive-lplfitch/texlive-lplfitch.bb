@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lplfitch.sty) \
 texlive-lplfitch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

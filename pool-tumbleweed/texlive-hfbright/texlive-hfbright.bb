@@ -16,6 +16,7 @@ tex(hfmsb.enc) \
 tex(hfmsym.enc) \
 tex(hfot1.enc) \
 texlive-hfbright"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

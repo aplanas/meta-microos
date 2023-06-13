@@ -31,6 +31,7 @@ locale(wxWidgets:zh_CN) \
 locale(wxWidgets:zh_TW) \
 wxWidgets-lang \
 wxWidgets-lang-all"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

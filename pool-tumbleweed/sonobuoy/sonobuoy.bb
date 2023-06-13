@@ -11,6 +11,7 @@ RPM_HASH = "39743b4c3abb66c8933f0e6ebe735dfe9584223a34a2371ab4a735967375129ef061
 
 RPROVIDES:${PN} += "sonobuoy \
 sonobuoy(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

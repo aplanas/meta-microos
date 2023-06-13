@@ -10,6 +10,7 @@ RPM_HASH = "ebd51d6c25b8569d358cb84eb1e2c7d2151c5cbd1d2cc20830cd7db61743533805fe
 RPROVIDES:${PN} += "ghc-prof(word8-0.1.3-9uGjviso2af8K0EP8UmxRD) \
 ghc-word8-prof \
 ghc-word8-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-word8-devel"
 

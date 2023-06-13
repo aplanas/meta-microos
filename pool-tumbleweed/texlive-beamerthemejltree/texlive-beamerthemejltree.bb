@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamerthemeJLTree.sty) \
 texlive-beamerthemejltree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

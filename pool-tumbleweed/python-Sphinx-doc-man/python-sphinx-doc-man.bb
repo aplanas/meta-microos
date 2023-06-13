@@ -13,6 +13,7 @@ RPM_HASH = "923dcd9ccef2938c653036885e99c9831dec12fad6866d791dc0ec0dd7495c0d1420
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Sphinx-doc-man"
+
 RDEPENDS:${PN} += "python3-Sphinx \
 update-alternatives"
 

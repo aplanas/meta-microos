@@ -14,6 +14,7 @@ application(org.opensuse.yast.MetapackageHandler.desktop) \
 mimehandler(text/x-suse-ymp) \
 mimehandler(text/x-suse-ymu) \
 yast2-metapackage-handler"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xdg-su \
 yast2 \

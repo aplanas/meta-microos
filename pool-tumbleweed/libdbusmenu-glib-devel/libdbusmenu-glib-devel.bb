@@ -10,6 +10,7 @@ RPM_HASH = "f89970edf4cbeb889f7cef729ce5a8c97002c822d19c4e3c352e11c27add840367f7
 RPROVIDES:${PN} += "libdbusmenu-glib-devel \
 libdbusmenu-glib-devel(aarch-64) \
 pkgconfig(dbusmenu-glib-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbusmenu-glib4 \
 pkgconfig(dbus-glib-1) \

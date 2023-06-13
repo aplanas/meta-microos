@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(T1-WGL4.enc) \
 tex(ttf2pk.cfg) \
 texlive-ttfutils"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "70c4b565929ba8d44f3beb2657472fe37596069b78ea2db1f193d2dade1dc4699f89
 RPROVIDES:${PN} += "libdspy-1-1 \
 libdspy-1-1(aarch-64) \
 libdspy-1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

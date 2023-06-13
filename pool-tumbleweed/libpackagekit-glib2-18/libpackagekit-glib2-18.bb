@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libpackagekit-glib12 \
 libpackagekit-glib2-18 \
 libpackagekit-glib2-18(aarch-64) \
 libpackagekit-glib2.so.18()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

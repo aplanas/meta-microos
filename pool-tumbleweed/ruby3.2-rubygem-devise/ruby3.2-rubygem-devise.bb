@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:devise) \
 rubygem(ruby:3.2.0:devise:4) \
 rubygem(ruby:3.2.0:devise:4.8) \
 rubygem(ruby:3.2.0:devise:4.8.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:bcrypt:3) \
 rubygem(ruby:3.2.0:orm_adapter:0) \

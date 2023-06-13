@@ -10,6 +10,7 @@ RPM_HASH = "c8913baec4ab84faa8648bcd04a59025c1e2aa0a2d92c84a3024c7b9aaf35d59de39
 RPROVIDES:${PN} += "libvmaf.so.1()(64bit) \
 libvmaf1 \
 libvmaf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

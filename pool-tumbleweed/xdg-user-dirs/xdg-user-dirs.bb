@@ -12,6 +12,7 @@ RPM_HASH = "9b5098eb21565f47d0c0945ad05903f713a0ed6ff943bfff61f44bc73cea5b071b03
 RPROVIDES:${PN} += "config(xdg-user-dirs) \
 xdg-user-dirs \
 xdg-user-dirs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

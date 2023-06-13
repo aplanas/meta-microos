@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-docs \
 kernel-docs-srchash-2c66b1f470678d30f7dc560d1f3770e6e13b5e65"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

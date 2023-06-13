@@ -16,6 +16,7 @@ RPM_HASH = "2eff37715089ce1aa075cb5d8e2ba3f639dabe2ad8ac99e63057c8a3cae901e7b804
 
 RPROVIDES:${PN} += "ocaml-fileutils \
 ocaml-fileutils(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(srvGeoClue) \
 system-user-srvGeoClue \
 user(srvGeoClue)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

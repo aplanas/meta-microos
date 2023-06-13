@@ -10,6 +10,7 @@ RPM_HASH = "ef6648c77d588682b2818441ec7a64e2520c4ea472e6c36b84d419a54f4ee634ac56
 
 RPROVIDES:${PN} += "baloo5-kioslaves \
 baloo5-kioslaves(aarch-64)"
+
 RDEPENDS:${PN} += "kded \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

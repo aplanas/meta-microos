@@ -13,6 +13,7 @@ RPM_HASH = "da78eec71aba64bee05ff7ba5c5e06c2a02b651861c047cfa87df2c6db3796aebd43
 RPROVIDES:${PN} += "libtasn1-devel \
 libtasn1-devel(aarch-64) \
 pkgconfig(libtasn1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtasn1-6"
 

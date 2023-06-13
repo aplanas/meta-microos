@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-timezone-field) \
 python39-django-timezone-field \
 python3dist(django-timezone-field)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-pytz"

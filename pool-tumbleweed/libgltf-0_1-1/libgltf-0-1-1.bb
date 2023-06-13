@@ -10,6 +10,7 @@ RPM_HASH = "bcbe81dee683d9b7884022da966e11c0f6c5ee6588a0c77a84d5d9df882a1284ed55
 RPROVIDES:${PN} += "libgltf-0.1.so.1()(64bit) \
 libgltf-0_1-1 \
 libgltf-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

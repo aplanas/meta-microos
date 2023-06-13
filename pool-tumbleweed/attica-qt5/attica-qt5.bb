@@ -9,6 +9,7 @@ RPM_HASH = "c948cf66064b154478db5c0859e0ca52819aba616f118d9c8d800c8fd3f118d4b644
 
 RPROVIDES:${PN} += "attica-qt5 \
 attica-qt5(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

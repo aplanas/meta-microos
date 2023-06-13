@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-desktop-imaging \
 patterns-desktop-imaging(aarch-64) \
 patterns-openSUSE-imaging"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

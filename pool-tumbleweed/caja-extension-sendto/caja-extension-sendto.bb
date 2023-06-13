@@ -17,6 +17,7 @@ libnstburn.so()(64bit) \
 libnstemailclient.so()(64bit) \
 libnstremovable_devices.so()(64bit) \
 mate-file-manager-sendto"
+
 RDEPENDS:${PN} += "caja \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

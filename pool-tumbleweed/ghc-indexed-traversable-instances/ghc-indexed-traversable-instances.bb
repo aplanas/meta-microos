@@ -17,6 +17,7 @@ RPM_HASH = "4e9da1b75277a6e73f0a900f07e9f33ec8c02542eccb827e937f37843519183211f0
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances \
 ghc-indexed-traversable-instances(aarch-64) \
 libHSindexed-traversable-instances-0.1.1.2-9bsLKqKio7c19LOJlUsRRO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

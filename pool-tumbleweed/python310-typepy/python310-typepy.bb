@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-typepy \
 python3.10dist(typepy) \
 python310-typepy \
 python3dist(typepy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mbstrdecoder"
 

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-selinux \
 python3-selinux(aarch-64) \
 python3.10dist(selinux) \
 python3dist(selinux)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.26)(64bit) \

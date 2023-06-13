@@ -1299,6 +1299,7 @@ tex(merriwthr_xfdjpz.enc) \
 tex(merriwthr_xys2i2.enc) \
 tex(merriwthr_ynquvw.enc) \
 texlive-merriweather"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

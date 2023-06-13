@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-help-fr \
 locale(gimp-help:fr)"
+
 RDEPENDS:${PN} += "gimp-help"
 
 inherit rpm

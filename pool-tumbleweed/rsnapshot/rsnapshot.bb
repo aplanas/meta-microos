@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(rsnapshot) \
 rsnapshot"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 logrotate \
 openssh \

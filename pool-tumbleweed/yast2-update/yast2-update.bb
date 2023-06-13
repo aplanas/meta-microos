@@ -10,6 +10,7 @@ RPM_HASH = "f1c67d0871a14fe6a8699b8590e57ed340f8753e6bac219986e630b5e3afca97f6c4
 RPROVIDES:${PN} += "yast2-installation:/usr/share/YaST2/clients/vendor.ycp \
 yast2-update \
 yast2-update(aarch-64)"
+
 RDEPENDS:${PN} += "pigz \
 rubygem(ruby:3.2.0:nokogiri) \
 yast2 \

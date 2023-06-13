@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mkdocs-bootstrap) \
 python311-mkdocs-bootstrap \
 python3dist(mkdocs-bootstrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-mkdocs"
 

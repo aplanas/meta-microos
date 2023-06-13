@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tasklib) \
 python311-tasklib \
 python3dist(tasklib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz \
 python311-tzlocal \

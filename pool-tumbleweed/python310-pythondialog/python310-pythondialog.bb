@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pythondialog \
 python3.10dist(pythondialog) \
 python310-pythondialog \
 python3dist(pythondialog)"
+
 RDEPENDS:${PN} += "dialog \
 python(abi)"
 

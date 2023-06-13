@@ -24,6 +24,7 @@ conman \
 conman(aarch-64) \
 group(conman) \
 user(conman)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/expect \
 /usr/bin/mkdir \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pluggy \
 python3.10dist(pluggy) \
 python310-pluggy \
 python3dist(pluggy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

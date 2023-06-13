@@ -18,6 +18,7 @@ tex(beamerouterthemehohenheimposter.sty) \
 tex(beamerthemehohenheim.sty) \
 tex(hobete.sty) \
 texlive-hobete"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

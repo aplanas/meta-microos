@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(rpmlint-strict) \
 rpmlint-strict"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

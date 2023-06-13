@@ -17,6 +17,7 @@ libglbarcode-3.0.so.0()(64bit) \
 metainfo() \
 metainfo(glabels-3.appdata.xml) \
 mimehandler(application/x-glabels)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

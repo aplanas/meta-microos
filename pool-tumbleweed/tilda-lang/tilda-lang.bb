@@ -32,6 +32,7 @@ locale(tilda:zh_CN) \
 locale(tilda:zh_TW) \
 tilda-lang \
 tilda-lang-all"
+
 RDEPENDS:${PN} += "tilda"
 
 inherit rpm

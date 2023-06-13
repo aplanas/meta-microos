@@ -10,6 +10,7 @@ RPM_HASH = "5c3b3cea37208fccf12f30410e16b34afc3baf0aec85396df7ba0847575d0539d315
 
 RPROVIDES:${PN} += "collectd-plugin-python3 \
 collectd-plugin-python3(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

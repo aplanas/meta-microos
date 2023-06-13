@@ -21,6 +21,7 @@ tex(feyml10.tfm) \
 tex(feymo10.tfm) \
 tex(feymr10.tfm) \
 texlive-eurosym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

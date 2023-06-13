@@ -95,6 +95,7 @@ rpm_macro(hpc_write_modules_version_file) \
 rpm_macro(hpc_write_pkgconfig) \
 suse-hpc \
 suse-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit)"
 

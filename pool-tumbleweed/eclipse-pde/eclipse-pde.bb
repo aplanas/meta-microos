@@ -604,6 +604,7 @@ osgi(org.eclipse.ui.workbench.source) \
 osgi(org.eclipse.ui.workbench.texteditor.source) \
 osgi(org.eclipse.update.configurator.source) \
 osgi(org.eclipse.urischeme.source)"
+
 RDEPENDS:${PN} += "eclipse-jdt \
 eclipse-platform \
 java-headless \

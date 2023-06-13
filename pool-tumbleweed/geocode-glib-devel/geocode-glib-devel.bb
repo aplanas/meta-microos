@@ -18,6 +18,7 @@ RPM_HASH = "4f151d5799aa6ab282d2b9c007fa5d6dfb73f5cf69abfa07bbb992ac2125468324bb
 RPROVIDES:${PN} += "geocode-glib-devel \
 geocode-glib-devel(aarch-64) \
 pkgconfig(geocode-glib-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgeocode-glib-2-0 \
 pkgconfig(gio-2.0) \

@@ -20,6 +20,7 @@ RPM_HASH = "d4a1e63e192c1bd2a1c7fcc539396775ac9eaeb2c584c7e46cc393e1b8be0e5f9487
 RPROVIDES:${PN} += "config(smartmontools) \
 smartmontools \
 smartmontools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

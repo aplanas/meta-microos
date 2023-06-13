@@ -42,6 +42,7 @@ osgi(org.eclipse.ecf.provider.filetransfer.httpclient4.ssl) \
 osgi(org.eclipse.ecf.provider.filetransfer.httpclient45) \
 osgi(org.eclipse.ecf.provider.filetransfer.ssl) \
 osgi(org.eclipse.ecf.ssl)"
+
 RDEPENDS:${PN} += "httpcomponents-client \
 httpcomponents-core \
 java-headless \

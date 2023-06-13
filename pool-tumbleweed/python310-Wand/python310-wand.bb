@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Wand \
 python3.10dist(wand) \
 python310-Wand \
 python3dist(wand)"
+
 RDEPENDS:${PN} += "ImageMagick \
 python(abi)"
 

@@ -9,6 +9,7 @@ RPM_HASH = "84456a7e751aafe62cd03a483dc8bf79962d27596c2517e47a72afa4010e5e0342b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langgreek"
+
 RDEPENDS:${PN} += "texlive-babel-greek \
 texlive-begingreek \
 texlive-betababel \

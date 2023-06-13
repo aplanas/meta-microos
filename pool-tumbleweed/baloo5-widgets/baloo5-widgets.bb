@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "baloo5-widgets \
 baloo5-widgets(aarch-64) \
 libKF5BalooNaturalQueryParser1 \
 libKF5BalooWidgets.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

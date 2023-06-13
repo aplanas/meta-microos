@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-esptool \
 python3.10dist(esptool) \
 python310-esptool \
 python3dist(esptool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

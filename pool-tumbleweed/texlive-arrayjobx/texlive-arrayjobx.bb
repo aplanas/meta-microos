@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(arrayjob.sty) \
 tex(arrayjobx.sty) \
 texlive-arrayjobx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "9a39ee5e0651a00d0f825bab81a4eb6849ae240ddbe64e67a52f5819d360358afc49
 RPROVIDES:${PN} += "ghc-prettyprinter-ansi-terminal-prof \
 ghc-prettyprinter-ansi-terminal-prof(aarch-64) \
 ghc-prof(prettyprinter-ansi-terminal-1.1.3-QQli2Jew8AdEXEsQuhGa)"
+
 RDEPENDS:${PN} += "ghc-prettyprinter-ansi-terminal-devel \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0) \

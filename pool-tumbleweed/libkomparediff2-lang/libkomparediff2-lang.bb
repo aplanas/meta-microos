@@ -75,6 +75,7 @@ locale(libkomparediff2:ug) \
 locale(libkomparediff2:uk) \
 locale(libkomparediff2:zh_CN) \
 locale(libkomparediff2:zh_TW)"
+
 RDEPENDS:${PN} += "libkomparediff2"
 
 inherit rpm

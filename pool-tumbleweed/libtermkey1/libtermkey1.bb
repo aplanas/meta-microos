@@ -12,6 +12,7 @@ RPM_HASH = "ba20590d9e9ab94a94be739a77faf5515699af6082c88863ec1c84882a1717c115fd
 RPROVIDES:${PN} += "libtermkey.so.1()(64bit) \
 libtermkey1 \
 libtermkey1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

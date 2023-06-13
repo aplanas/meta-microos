@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mercurial-extension-hg-evolve \
 python3.10dist(hg-evolve) \
 python3dist(hg-evolve)"
+
 RDEPENDS:${PN} += "mercurial \
 python(abi)"
 

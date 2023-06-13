@@ -103,6 +103,7 @@ tex(crm_wef5am.enc) \
 tex(crm_wsbs26.enc) \
 tex(crm_wttfgh.enc) \
 texlive-crimson"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

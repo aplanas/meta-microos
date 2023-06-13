@@ -9,6 +9,7 @@ RPM_HASH = "f61defaad380e642f19f9cecc4a7f7d5e77bc15d11abbd19488ae85c89cb5d829c16
 
 RPROVIDES:${PN} += "kubernetes-proxy-minus1 \
 kubernetes-proxy-minus1(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes1.26-proxy"
 
 inherit rpm

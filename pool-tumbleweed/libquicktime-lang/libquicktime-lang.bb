@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libquicktime-lang \
 libquicktime-lang-all \
 locale(libquicktime:de)"
+
 RDEPENDS:${PN} += "libquicktime"
 
 inherit rpm

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(font-change-xetex.tex) \
 texlive-font-change-xetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

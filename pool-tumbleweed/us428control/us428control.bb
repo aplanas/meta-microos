@@ -10,6 +10,7 @@ RPM_HASH = "753c34a843f91873a4bebf79e456ec9da7b75219659c4b8c79fa457f085169de20d3
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/us428control \
 us428control \
 us428control(aarch-64)"
+
 RDEPENDS:${PN} += "alsa-firmware \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

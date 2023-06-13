@@ -70,6 +70,7 @@ locale(clutter:uk) \
 locale(clutter:zh_CN) \
 locale(clutter:zh_HK) \
 locale(clutter:zh_TW)"
+
 RDEPENDS:${PN} += "clutter"
 
 inherit rpm

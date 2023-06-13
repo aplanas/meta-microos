@@ -13,6 +13,7 @@ RPM_HASH = "1839778cb816895a9c6ca12fba6023b6b5448dc8f3cd54c56b0b7894fe814fd7aae9
 
 RPROVIDES:${PN} += "autogen \
 autogen(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

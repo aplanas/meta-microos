@@ -9,6 +9,7 @@ RPM_HASH = "101b9b235ed91c983b35a6c0e8460b1a328d5669918f1772724ee29b037b9c507415
 
 RPROVIDES:${PN} += "libqt5-qtwebchannel-examples \
 libqt5-qtwebchannel-examples(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

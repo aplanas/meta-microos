@@ -11,6 +11,7 @@ RPM_HASH = "6d41771975f2ddfb66c9467724c0826695382d149deb310dbc02ab7261a323d751ef
 RPROVIDES:${PN} += "pcsc-lite-devel \
 pcsc-lite-devel(aarch-64) \
 pkgconfig(libpcsclite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 glibc-devel \

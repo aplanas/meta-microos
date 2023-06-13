@@ -14,6 +14,7 @@ RPM_HASH = "60d60cb6d4000488f18700cb1dd343b8a62920780fa5853701dbad88421fbbaf2dd7
 RPROVIDES:${PN} += "libt3highlight-devel \
 libt3highlight-devel(aarch-64) \
 pkgconfig(libt3highlight)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libt3highlight2 \
 pkgconfig(libpcre2-8) \

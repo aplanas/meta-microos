@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(12many.sty) \
 texlive-12many"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

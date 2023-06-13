@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-for-android \
 python3.10dist(python-for-android) \
 python310-python-for-android \
 python3dist(python-for-android)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3.10 \

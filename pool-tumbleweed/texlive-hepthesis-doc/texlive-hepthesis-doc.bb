@@ -9,6 +9,7 @@ RPM_HASH = "c289bb4b5c44b763051000f48bd3670a64e9f5979d9b59132e6c46554b2baa0cb64d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepthesis-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

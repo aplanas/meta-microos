@@ -9,6 +9,7 @@ RPM_HASH = "8d971a97f152d92463f145b0e83e347b2250c49d21e0c8d519c015ca495d8205e8e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-featpost-doc"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh"
 

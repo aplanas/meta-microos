@@ -12,6 +12,7 @@ RPM_HASH = "6691f7163cb762cf8c0dcd2da3ab453c341cd313f105de1fc7c31a7164370fa211c5
 RPROVIDES:${PN} += "libunibreak.so.5()(64bit) \
 libunibreak5 \
 libunibreak5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

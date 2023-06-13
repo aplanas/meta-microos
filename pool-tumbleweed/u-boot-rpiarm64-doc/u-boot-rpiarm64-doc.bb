@@ -10,6 +10,7 @@ RPM_HASH = "2a73f35248648bf1ae94168ebe7ad00ea06f1d96fe8dab82095ff6bc862c47c67c42
 
 RPROVIDES:${PN} += "u-boot-rpiarm64-doc \
 u-boot-rpiarm64-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "2a7685fff84036cbfe307a915f09f1ecf06d798e100c7b939b0821808fb1bc27ae9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-langtable-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

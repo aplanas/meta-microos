@@ -95,6 +95,7 @@ locale(libcinnamon-desktop:wa) \
 locale(libcinnamon-desktop:zh_CN) \
 locale(libcinnamon-desktop:zh_HK) \
 locale(libcinnamon-desktop:zh_TW)"
+
 RDEPENDS:${PN} += "libcinnamon-desktop"
 
 inherit rpm

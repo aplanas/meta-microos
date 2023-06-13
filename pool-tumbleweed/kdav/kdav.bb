@@ -10,6 +10,7 @@ RPM_HASH = "cb8809407e00610431e961f15994daa615a8cf25b8e1ac178103295c4995e7802080
 
 RPROVIDES:${PN} += "kdav \
 kdav(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

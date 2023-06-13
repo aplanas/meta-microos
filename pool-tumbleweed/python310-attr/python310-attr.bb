@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-attr \
 python3.10dist(attr) \
 python310-attr \
 python3dist(attr)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

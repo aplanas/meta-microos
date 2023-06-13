@@ -9,6 +9,7 @@ RPM_HASH = "966dbbaaa732dfd9492cf11ddc356d07bfbbc0ef04b914f0f999d72900bbbadbed7a
 
 RPROVIDES:${PN} += "criu-plugin-amdgpu \
 criu-plugin-amdgpu(aarch-64)"
+
 RDEPENDS:${PN} += "criu \
 libc.so.6(GLIBC_2.34)(64bit) \
 libdrm_amdgpu.so.1()(64bit)"

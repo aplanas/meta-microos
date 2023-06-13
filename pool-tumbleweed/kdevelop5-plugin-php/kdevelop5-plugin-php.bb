@@ -27,6 +27,7 @@ libkdevphpduchain.so()(64bit) \
 libkdevphpparser.so()(64bit) \
 metainfo() \
 metainfo(org.kde.kdev-php.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevelop5 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "perl(Net::Whois::Raw) \
 perl(Net::Whois::Raw::Common) \
 perl(Net::Whois::Raw::Data) \
 perl-Net-Whois-Raw"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Headers) \

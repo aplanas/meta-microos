@@ -10,6 +10,7 @@ RPM_HASH = "6aa69a82a30b484a840a2811758058b170e381a890b6bf40c0d7c5b3f5f4ec766a96
 
 RPROVIDES:${PN} += "unzix \
 unzix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "90470ebe5421a2de5069685c70141db6f7c48d9418d86cfd40356982141008d1903b
 RPROVIDES:${PN} += "config(ncat) \
 ncat \
 ncat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

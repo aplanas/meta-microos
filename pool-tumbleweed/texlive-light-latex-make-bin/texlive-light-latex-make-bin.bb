@@ -9,6 +9,7 @@ RPM_HASH = "604c65ddd72d28b1106060f0a9f7a6f773d23694d375438628acc57ff3d333203e34
 
 RPROVIDES:${PN} += "texlive-light-latex-make-bin \
 texlive-light-latex-make-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-light-latex-make"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "a6692720d650b63130207be5f1c0aad075cbef2c2e6b43008237c4596eb52eb2a2be
 
 RPROVIDES:${PN} += "kwayland-integration \
 kwayland-integration(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WaylandClient.so.5()(64bit) \

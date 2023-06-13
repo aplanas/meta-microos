@@ -35,6 +35,7 @@ perl(X11::Protocol::Ext::SHAPE) \
 perl(X11::Protocol::Ext::XC_MISC) \
 perl(X11::Protocol::Ext::XFree86_Misc) \
 perl-X11-Protocol"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1bc4d0126a074f58876d26ad389ecc5a48c3a6b3faa85b98e931c0ba23e6e0e47a37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sciposter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

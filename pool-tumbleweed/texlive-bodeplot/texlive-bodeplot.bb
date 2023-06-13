@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bodeplot.sty) \
 texlive-bodeplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

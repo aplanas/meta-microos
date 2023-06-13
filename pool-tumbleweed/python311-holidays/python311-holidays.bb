@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(holidays) \
 python311-holidays \
 python3dist(holidays)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-convertdate \
 python311-hijri-converter \

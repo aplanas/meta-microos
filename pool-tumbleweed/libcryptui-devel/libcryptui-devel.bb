@@ -10,6 +10,7 @@ RPM_HASH = "2450b6acbaf27d848a4f25b3bdd1464417e75e15d1a3d8514b007a854f4f68b14134
 RPROVIDES:${PN} += "libcryptui-devel \
 libcryptui-devel(aarch-64) \
 pkgconfig(cryptui-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcryptui0 \
 pkgconfig(dbus-glib-1) \

@@ -18,6 +18,7 @@ libmlt-devel \
 libmlt-devel(aarch-64) \
 pkgconfig(mlt++-7) \
 pkgconfig(mlt-framework-7)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmlt++-7-7 \
 libmlt-7-7 \

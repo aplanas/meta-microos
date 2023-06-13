@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-slimit \
 python3.10dist(slimit) \
 python310-slimit \
 python3dist(slimit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

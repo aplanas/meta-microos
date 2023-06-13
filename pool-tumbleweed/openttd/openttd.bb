@@ -16,6 +16,7 @@ metainfo(openttd.appdata.xml) \
 openttd \
 openttd(aarch-64) \
 openttd-gui"
+
 RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfluidsynth.so.3()(64bit) \

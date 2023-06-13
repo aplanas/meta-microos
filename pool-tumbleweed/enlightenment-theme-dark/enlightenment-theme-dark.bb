@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-dark"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

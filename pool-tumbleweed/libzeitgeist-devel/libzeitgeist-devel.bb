@@ -11,6 +11,7 @@ RPM_HASH = "272824472a1186103a8b98e288fbe8501bc4c800703f5aad1efe62471e58a249bdd5
 RPROVIDES:${PN} += "libzeitgeist-devel \
 libzeitgeist-devel(aarch-64) \
 pkgconfig(zeitgeist-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzeitgeist-1_0-1 \
 pkgconfig(glib-2.0) \

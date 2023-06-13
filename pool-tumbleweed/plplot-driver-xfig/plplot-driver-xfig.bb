@@ -12,6 +12,7 @@ RPM_HASH = "fa5047710fbf9605663395274ff1e3d5e4033095d5857544a598dcedb533b3802bae
 
 RPROVIDES:${PN} += "plplot-driver-xfig \
 plplot-driver-xfig(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

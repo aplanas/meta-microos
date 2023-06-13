@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-requestsexceptions \
 python3.10dist(requestsexceptions) \
 python310-requestsexceptions \
 python3dist(requestsexceptions)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

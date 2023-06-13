@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxdpx-beamer.sty) \
 texlive-bxdpx-beamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

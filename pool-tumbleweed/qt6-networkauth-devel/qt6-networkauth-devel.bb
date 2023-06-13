@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6NetworkAuth) \
 pkgconfig(Qt6NetworkAuth) \
 qt6-networkauth-devel \
 qt6-networkauth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6NetworkAuth6 \

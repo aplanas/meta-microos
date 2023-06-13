@@ -13,6 +13,7 @@ RPM_HASH = "50dd4e8a0b9a209722426d0f882c93601da406a88ed84fc2234a26c827f3a353636c
 RPROVIDES:${PN} += "config(gnustep-base) \
 gnustep-base \
 gnustep-base(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnustep-make \
 ld-linux-aarch64.so.1()(64bit) \

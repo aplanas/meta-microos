@@ -15,6 +15,7 @@ RPM_HASH = "40940bda8f344fe3eb13e6533fbd7e6fd0ecfe9a24e5b06ab456ac8578d32398e8fb
 
 RPROVIDES:${PN} += "libmumps-ptscotch5_3_5-openmpi3-compat \
 libmumps-ptscotch5_3_5-openmpi3-compat(aarch-64)"
+
 RDEPENDS:${PN} += "libmumps-scotch5_3_5"
 
 inherit rpm

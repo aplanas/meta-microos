@@ -13,6 +13,7 @@ RPM_HASH = "f8d0669f0c546d26e8eb602d553b5003ab1efb7c73080b8cf82e8ba43de41d9e8d87
 
 RPROVIDES:${PN} += "hdf5 \
 hdf5(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

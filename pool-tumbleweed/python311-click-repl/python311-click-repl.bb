@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(click-repl) \
 python311-click-repl \
 python3dist(click-repl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-click \
 python311-prompt_toolkit \

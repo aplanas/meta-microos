@@ -105,6 +105,7 @@ tex(r-cfjas-x-t1.tfm) \
 tex(r-cfjas-x-ts1.tfm) \
 tex(r-cfjas-xz-l0j.tfm) \
 texlive-pxchfon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

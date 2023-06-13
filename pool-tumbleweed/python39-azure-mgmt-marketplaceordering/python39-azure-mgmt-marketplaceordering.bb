@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-marketplaceordering) \
 python39-azure-mgmt-marketplaceordering \
 python3dist(azure-mgmt-marketplaceordering)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

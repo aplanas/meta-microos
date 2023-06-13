@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-siosocks \
 python3.10dist(siosocks) \
 python310-siosocks \
 python3dist(siosocks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-trio"
 

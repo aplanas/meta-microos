@@ -12,6 +12,7 @@ RPM_HASH = "f5bf42f98a89915ad34e04347cc5df6dc821371108182b3451788778b7beb1cfe357
 
 RPROVIDES:${PN} += "libinput-udev \
 libinput-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

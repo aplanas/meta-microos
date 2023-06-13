@@ -9,6 +9,7 @@ RPM_HASH = "ddc0845423a6f46b2cd7a423d8e186f8d887d49fad425c83178a31ea391f5d08253c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-rss"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-feedparser"
 

@@ -10,6 +10,7 @@ RPM_HASH = "728015429949cd0223546fd4cf690b9caaec8d8daed0c009f5e45241dbcb5e300658
 
 RPROVIDES:${PN} += "e3 \
 e3(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

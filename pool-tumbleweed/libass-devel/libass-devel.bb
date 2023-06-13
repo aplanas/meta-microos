@@ -10,6 +10,7 @@ RPM_HASH = "48eb78454dcbe27531b23299c7253623c2e1aee095fa1dfc51acf1e4c9b2413ae002
 RPROVIDES:${PN} += "libass-devel \
 libass-devel(aarch-64) \
 pkgconfig(libass)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libass9 \

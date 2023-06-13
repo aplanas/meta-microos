@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pykeepass) \
 python39-pykeepass \
 python3dist(pykeepass)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-argon2-cffi \
 python39-construct \

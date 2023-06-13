@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(axessibility.sty) \
 texlive-axessibility"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

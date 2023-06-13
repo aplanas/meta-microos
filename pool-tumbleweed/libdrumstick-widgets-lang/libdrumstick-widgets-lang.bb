@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdrumstick-widgets-lang \
 libdrumstick-widgets-lang-all"
+
 RDEPENDS:${PN} += "libdrumstick-widgets"
 
 inherit rpm

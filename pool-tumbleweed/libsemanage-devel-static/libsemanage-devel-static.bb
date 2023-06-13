@@ -10,6 +10,7 @@ RPM_HASH = "2714b532c3d27fd450078584d686b59379c529f4efc01a555cdbb5f9ce33f0843f99
 
 RPROVIDES:${PN} += "libsemanage-devel-static \
 libsemanage-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libsemanage-devel"
 
 inherit rpm

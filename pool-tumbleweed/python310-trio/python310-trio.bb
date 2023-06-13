@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-trio \
 python3.10dist(trio) \
 python310-trio \
 python3dist(trio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-async_generator \
 python310-attrs \

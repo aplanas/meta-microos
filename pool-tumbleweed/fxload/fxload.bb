@@ -17,6 +17,7 @@ RPM_HASH = "55365d46f634819e001a0693bd3f020ac8ed1f76b2cb82ef15e352313b347c6bafa1
 
 RPROVIDES:${PN} += "fxload \
 fxload(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

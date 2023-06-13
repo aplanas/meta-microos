@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DIblBaker) \
 pkgconfig(Qt6Quick3DIblBaker) \
 qt6-quick3diblbaker-devel \
 qt6-quick3diblbaker-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Quick3DRuntimeRender) \
 libQt6Quick3DIblBaker6 \

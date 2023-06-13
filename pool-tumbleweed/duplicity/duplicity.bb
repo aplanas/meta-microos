@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "duplicity \
 duplicity(aarch-64) \
 python3.10dist(duplicity) \
 python3dist(duplicity)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gpg \
 ld-linux-aarch64.so.1()(64bit) \

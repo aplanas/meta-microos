@@ -68,6 +68,7 @@ tex(sltables.sty) \
 tex(starfn.sty) \
 tex(textfrac-shipunov.sty) \
 texlive-shipunov"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -27,6 +27,7 @@ perl(Games::FrozenBubble::Net) \
 perl(Games::FrozenBubble::NetDiscover) \
 perl(Games::FrozenBubble::Stuff) \
 perl(Games::FrozenBubble::Symbols)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
 /usr/bin/touch \

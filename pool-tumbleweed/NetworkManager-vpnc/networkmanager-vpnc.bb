@@ -10,6 +10,7 @@ RPM_HASH = "92d8f92815580d7c45f44095b77b456049d9aa6323182202612ee5ecaa9b4661003f
 RPROVIDES:${PN} += "NetworkManager-vpnc \
 NetworkManager-vpnc(aarch-64) \
 libnm-vpn-plugin-vpnc.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 NetworkManager-vpnc-frontend \
 ld-linux-aarch64.so.1()(64bit) \

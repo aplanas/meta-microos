@@ -9,6 +9,7 @@ RPM_HASH = "8caeb962c43c7506116e7193f13a91b7c99941d014282910a5f7bb7813c6698bf9a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sblim-cim-client2-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

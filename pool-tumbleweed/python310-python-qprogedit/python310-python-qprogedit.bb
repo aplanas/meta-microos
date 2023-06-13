@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-qprogedit \
 python3.10dist(python-qprogedit) \
 python310-python-qprogedit \
 python3dist(python-qprogedit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-QtPy \
 python310-qscintilla-qt5"

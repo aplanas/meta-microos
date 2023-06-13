@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-enlightenment-enlightenment \
 patterns-enlightenment-enlightenment(aarch-64)"
+
 RDEPENDS:${PN} += "enlightenment \
 lightdm \
 pattern()"

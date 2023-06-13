@@ -9,6 +9,7 @@ RPM_HASH = "20440c9b1394448ebfd24ac740d79c9298c7e176ddce100ff0ffc4e421248bc11607
 
 RPROVIDES:${PN} += "texlive-texliveonfly-bin \
 texlive-texliveonfly-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texliveonfly"
 
 inherit rpm

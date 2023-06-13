@@ -9,6 +9,7 @@ RPM_HASH = "8301da5cb07f95253bf1b1b525070ecb15542de22b0dd95abfc2c1d830768dc71fe5
 
 RPROVIDES:${PN} += "libqt5-qtvirtualkeyboard-examples \
 libqt5-qtvirtualkeyboard-examples(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

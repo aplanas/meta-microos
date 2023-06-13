@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(gdm-branding-openSUSE) \
 gdm-branding \
 gdm-branding-openSUSE"
+
 RDEPENDS:${PN} += "distribution-logos \
 gdm"
 

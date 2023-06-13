@@ -95,6 +95,7 @@ locale(mate-backgrounds:zh_HK) \
 locale(mate-backgrounds:zh_TW) \
 mate-backgrounds-lang \
 mate-backgrounds-lang-all"
+
 RDEPENDS:${PN} += "mate-backgrounds"
 
 inherit rpm

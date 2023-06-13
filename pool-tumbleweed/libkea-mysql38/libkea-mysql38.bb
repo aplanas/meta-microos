@@ -10,6 +10,7 @@ RPM_HASH = "602e8758ea1c5787669ead599331fc63388947d7f42bf08e6a3eb916b013d483bdda
 RPROVIDES:${PN} += "libkea-mysql.so.38()(64bit) \
 libkea-mysql38 \
 libkea-mysql38(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

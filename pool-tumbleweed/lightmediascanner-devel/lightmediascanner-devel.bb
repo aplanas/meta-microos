@@ -13,6 +13,7 @@ RPM_HASH = "de05ad28395284e2394cbe10660fef8a325bc96476b66363dfe6b6ac1ca8d5e5c22b
 RPROVIDES:${PN} += "lightmediascanner-devel \
 lightmediascanner-devel(aarch-64) \
 pkgconfig(lightmediascanner)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblightmediascanner0 \
 pkgconfig(sqlite3)"

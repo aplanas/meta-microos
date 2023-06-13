@@ -17,6 +17,7 @@ RPM_HASH = "4438114dd1c15c6596b5da3105714b89aefeb2deed7a5237ac94dcc6a3fa9d89c977
 RPROVIDES:${PN} += "libxcb-xv.so.0()(64bit) \
 libxcb-xv0 \
 libxcb-xv0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

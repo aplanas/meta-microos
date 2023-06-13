@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ligotimegps) \
 python39-ligotimegps \
 python3dist(ligotimegps)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "8de9d34cd877a492896231b076a2d10640d9ee24d7c5f08b71e6513c16b78ce62dda
 RPROVIDES:${PN} += "libgl2ps.so.1()(64bit) \
 libgl2ps1 \
 libgl2ps1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

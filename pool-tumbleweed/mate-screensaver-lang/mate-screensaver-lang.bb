@@ -99,6 +99,7 @@ locale(mate-screensaver:zh_HK) \
 locale(mate-screensaver:zh_TW) \
 mate-screensaver-lang \
 mate-screensaver-lang-all"
+
 RDEPENDS:${PN} += "mate-screensaver"
 
 inherit rpm

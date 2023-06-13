@@ -17,6 +17,7 @@ RPM_HASH = "ab7848d20ae17ef634ed742a05af7cc0693c60f28971116d0c582ee131c8943525aa
 RPROVIDES:${PN} += "libmikmod-devel \
 libmikmod-devel(aarch-64) \
 pkgconfig(libmikmod)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

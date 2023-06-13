@@ -9,6 +9,7 @@ RPM_HASH = "3696ff2bf090ebce1b367a586019b14cde6fb3bec1e410017180bc7aafc0feaf6f18
 
 RPROVIDES:${PN} += "qgis-devel \
 qgis-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python3-qt5-devel \
 qgis"
 

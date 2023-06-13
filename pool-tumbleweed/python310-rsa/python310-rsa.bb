@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-rsa \
 python3.10dist(rsa) \
 python310-rsa \
 python3dist(rsa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

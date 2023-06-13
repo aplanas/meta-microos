@@ -20,6 +20,7 @@ python3.10dist(jupyter-contrib-core) \
 python310-jupyter-contrib-core \
 python310-jupyter_contrib_core \
 python3dist(jupyter-contrib-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

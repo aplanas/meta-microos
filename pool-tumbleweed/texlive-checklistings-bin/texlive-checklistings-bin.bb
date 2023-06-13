@@ -9,6 +9,7 @@ RPM_HASH = "93cb076062d4a5558d514be801ec948edc755cd25127acd2e54078e2f829636d15c1
 
 RPROVIDES:${PN} += "texlive-checklistings-bin \
 texlive-checklistings-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-checklistings"
 
 inherit rpm

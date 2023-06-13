@@ -20,6 +20,7 @@ mvn(org.slf4j:slf4j-nop::sources:) \
 mvn(org.slf4j:slf4j-reload4j::sources:) \
 mvn(org.slf4j:slf4j-simple::sources:) \
 slf4j-sources"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-support) \
 rubygem(ruby:3.2.0:rspec-support:3) \
 rubygem(ruby:3.2.0:rspec-support:3.5) \
 rubygem(ruby:3.2.0:rspec-support:3.5.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "2848f1c1e291d28c11917e969a2b6918d437202c331a0aea6b044e6b9700feecc3aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs20-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

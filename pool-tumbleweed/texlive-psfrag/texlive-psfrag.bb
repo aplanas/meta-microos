@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(psfrag.sty) \
 texlive-psfrag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

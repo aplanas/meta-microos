@@ -9,6 +9,7 @@ RPM_HASH = "8f8ed12ca6f50706032eb2ebdd34148d6cbfc725fae295693eab865634ec67a3ac14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "parboiled-scala-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

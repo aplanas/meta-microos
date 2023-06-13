@@ -22,6 +22,7 @@ python3.10dist(importlib-resources) \
 python310-importlib-resources \
 python310-importlib_resources \
 python3dist(importlib-resources)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

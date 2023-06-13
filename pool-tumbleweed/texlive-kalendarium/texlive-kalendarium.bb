@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kalendarium.sty) \
 texlive-kalendarium"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

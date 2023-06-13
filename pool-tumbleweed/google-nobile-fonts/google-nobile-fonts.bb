@@ -18,6 +18,7 @@ RPM_HASH = "642c9d296771f0cda4efef4fc94e15b1218bc0a760c2121fd83df77a13f6c1fc684c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-nobile-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

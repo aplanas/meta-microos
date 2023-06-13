@@ -13,6 +13,7 @@ RPM_HASH = "1703106b82357480156ab19df60d3520853a5679a800a73ec9e12fd256712fcafbb4
 RPROVIDES:${PN} += "libxtrxll-devel \
 libxtrxll-devel(aarch-64) \
 pkgconfig(libxtrxll)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxtrxll0"
 

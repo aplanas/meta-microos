@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-palettable \
 python3.10dist(palettable) \
 python310-palettable \
 python3dist(palettable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

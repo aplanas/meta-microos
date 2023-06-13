@@ -10,6 +10,7 @@ RPM_HASH = "d13381dbe2a49dd63d033b3ca51d337804eb31ea67d978a98eacd649fb8bac30c65f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-tsa"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli \
 octave-forge-nan"

@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_imaging \
 patterns-gnome-gnome_imaging(aarch-64) \
 patterns-openSUSE-gnome_imaging"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ffi-compiler) \
 rubygem(ruby:3.2.0:ffi-compiler:1) \
 rubygem(ruby:3.2.0:ffi-compiler:1.0) \
 rubygem(ruby:3.2.0:ffi-compiler:1.0.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ffi) \
 rubygem(ruby:3.2.0:rake)"

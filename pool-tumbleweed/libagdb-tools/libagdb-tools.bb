@@ -10,6 +10,7 @@ RPM_HASH = "fc08393abb222bd715cd56e897a7dfc36e8fc49823eb21b4f67907dcacce9706c1c0
 
 RPROVIDES:${PN} += "libagdb-tools \
 libagdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libagdb.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "5c5c7c1944bd804d900405bb22d69f56af8e320269dfc5e68924856d3b7843b48d8d
 RPROVIDES:${PN} += "liblinbox.so.0()(64bit) \
 liblinbox0 \
 liblinbox0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

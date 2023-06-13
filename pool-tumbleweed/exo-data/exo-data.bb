@@ -9,6 +9,7 @@ RPM_HASH = "95952fa7af9d9f628141f165abf93d608a2d42727e14ed9c06ccac853539b096747c
 
 RPROVIDES:${PN} += "exo-data \
 exo-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

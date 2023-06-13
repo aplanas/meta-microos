@@ -10,6 +10,7 @@ RPM_HASH = "e0b47425c8a0b2d4df9f14362b517ddcce6dd6b363ae9c6d12962d4d96c4fc74de42
 RPROVIDES:${PN} += "remmina-plugin-secret \
 remmina-plugin-secret(aarch-64) \
 remmina-plugins-gnome"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

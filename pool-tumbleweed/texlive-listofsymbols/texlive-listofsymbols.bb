@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(listofsymbols.sty) \
 texlive-listofsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

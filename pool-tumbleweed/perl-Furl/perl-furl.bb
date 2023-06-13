@@ -18,6 +18,7 @@ perl(Furl::Request) \
 perl(Furl::Response) \
 perl(Furl::ZlibStream) \
 perl-Furl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Lite) \
 perl(HTTP::Parser::XS)"

@@ -11,6 +11,7 @@ RPM_HASH = "96e6ef9221ccef3d9916045f2675c4348a6fb841eeb8ebfb75b230d8f01e2c8591c3
 RPROVIDES:${PN} += "pam_krb \
 pam_krb5 \
 pam_krb5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

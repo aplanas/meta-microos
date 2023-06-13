@@ -75,6 +75,7 @@ locale(kcolorchooser:vi) \
 locale(kcolorchooser:wa) \
 locale(kcolorchooser:zh_CN) \
 locale(kcolorchooser:zh_TW)"
+
 RDEPENDS:${PN} += "kcolorchooser"
 
 inherit rpm

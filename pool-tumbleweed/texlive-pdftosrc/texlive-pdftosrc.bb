@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(pdftosrc.1) \
 texlive-pdftools-doc:/usr/share/man/man1/pdftosrc.1.gz \
 texlive-pdftosrc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

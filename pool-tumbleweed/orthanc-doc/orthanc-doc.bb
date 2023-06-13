@@ -12,6 +12,7 @@ RPM_HASH = "01c1ec7d1207692e1502aa98e22dd2a0017988fda69ddf1ed33ad42fb8bb5055389e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orthanc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

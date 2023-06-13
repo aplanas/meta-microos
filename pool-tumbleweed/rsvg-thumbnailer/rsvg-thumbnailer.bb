@@ -10,6 +10,7 @@ RPM_HASH = "9df6e7b62d0fa9fec033b5cdb36394c39b19f66e6abdd915267e218d5c55933d9dad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rsvg-thumbnailer"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

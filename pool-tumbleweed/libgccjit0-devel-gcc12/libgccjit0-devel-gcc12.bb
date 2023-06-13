@@ -10,6 +10,7 @@ RPM_HASH = "b7b7f43076beb3c6e7ff584d6e9f7731db5952747949c1147e0ad67d7d486275541f
 RPROVIDES:${PN} += "libgccjit0-devel \
 libgccjit0-devel-gcc12 \
 libgccjit0-devel-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "libgccjit0-gcc12"
 
 inherit rpm

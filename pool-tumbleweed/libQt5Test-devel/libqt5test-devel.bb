@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Test) \
 libQt5Test-devel \
 libQt5Test-devel(aarch-64) \
 pkgconfig(Qt5Test)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Test5 \

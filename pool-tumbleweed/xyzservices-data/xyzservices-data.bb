@@ -20,6 +20,7 @@ RPM_HASH = "1d31b84682a72ff288adec8031ffdba2a7b65d5f9f7bdd7c074eff74ab42017e1d89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xyzservices-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

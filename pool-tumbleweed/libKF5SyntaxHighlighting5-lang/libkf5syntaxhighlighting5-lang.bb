@@ -86,6 +86,7 @@ locale(libKF5SyntaxHighlighting5:vi) \
 locale(libKF5SyntaxHighlighting5:wa) \
 locale(libKF5SyntaxHighlighting5:zh_CN) \
 locale(libKF5SyntaxHighlighting5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5SyntaxHighlighting5"
 
 inherit rpm

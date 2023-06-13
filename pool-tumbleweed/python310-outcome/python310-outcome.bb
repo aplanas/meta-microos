@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-outcome \
 python3.10dist(outcome) \
 python310-outcome \
 python3dist(outcome)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

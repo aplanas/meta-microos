@@ -12,6 +12,7 @@ RPM_HASH = "3f54c9b6cdf0851c03a20e91438019d662e6504e310c36be650b51313ea632d465ed
 RPROVIDES:${PN} += "libgtkhex-4-1 \
 libgtkhex-4-1(aarch-64) \
 libgtkhex-4.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

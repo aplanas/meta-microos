@@ -9,6 +9,7 @@ RPM_HASH = "f66bf8a7f76283a80258e597dd510311283f1b8d5aa58ce38ba10b1660326d529a27
 
 RPROVIDES:${PN} += "mingw64-cpp \
 mingw64-cpp(aarch-64)"
+
 RDEPENDS:${PN} += "mingw64(libgmp-10.dll) \
 mingw64(libmpc-3.dll) \
 mingw64(libmpfr-4.dll) \

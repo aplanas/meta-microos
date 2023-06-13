@@ -43,6 +43,7 @@ locale(neomutt:zh_CN) \
 locale(neomutt:zh_TW) \
 neomutt-lang \
 neomutt-lang-all"
+
 RDEPENDS:${PN} += "neomutt"
 
 inherit rpm

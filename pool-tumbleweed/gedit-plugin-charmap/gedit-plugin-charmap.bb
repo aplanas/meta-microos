@@ -12,6 +12,7 @@ gedit-plugin-charmap(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/charmap.plugin \
 metainfo() \
 metainfo(gedit-charmap.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gedit) \

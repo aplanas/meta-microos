@@ -1582,6 +1582,7 @@ tex(chi_sol2hx.enc) \
 tex(chi_wxmaut.enc) \
 tex(chi_zvnssh.enc) \
 texlive-chivo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

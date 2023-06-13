@@ -17,6 +17,7 @@ perl(Path::Router::Shell) \
 perl(Path::Router::Types) \
 perl(Test::Path::Router) \
 perl-Path-Router"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(Clone::PP) \

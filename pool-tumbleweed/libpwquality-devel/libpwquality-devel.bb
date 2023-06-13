@@ -14,6 +14,7 @@ RPM_HASH = "9801b50bac627798d7f87077618efa9f6d6e04285db54037dffd521caadd71cfc160
 RPROVIDES:${PN} += "libpwquality-devel \
 libpwquality-devel(aarch-64) \
 pkgconfig(pwquality)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpwquality1 \
 pkgconfig"

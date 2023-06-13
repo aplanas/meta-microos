@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gfsneohellenicot.sty) \
 texlive-gfsneohellenicmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "d1faf0db6bda90164bc7d4fef580b96093d8d749694b1e46d9c7c4edd5e662fd2a35
 
 RPROVIDES:${PN} += "xcompmgr \
 xcompmgr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -48,6 +48,7 @@ locale(liferea:uk) \
 locale(liferea:vi) \
 locale(liferea:zh_CN) \
 locale(liferea:zh_TW)"
+
 RDEPENDS:${PN} += "liferea"
 
 inherit rpm

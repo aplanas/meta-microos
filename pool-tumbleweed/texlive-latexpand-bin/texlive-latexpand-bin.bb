@@ -9,6 +9,7 @@ RPM_HASH = "3c46c70bc5ac137cd730932f49c2495041d0900332b1049b7a0f700863cc5b8f8a5d
 
 RPROVIDES:${PN} += "texlive-latexpand-bin \
 texlive-latexpand-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-latexpand"
 
 inherit rpm

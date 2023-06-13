@@ -24,6 +24,7 @@ mvn(org.eclipse:java10api) \
 mvn(org.eclipse:java15api) \
 mvn(org.eclipse:java9api) \
 osgi(org.eclipse.jdt.core.compiler.batch)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem"

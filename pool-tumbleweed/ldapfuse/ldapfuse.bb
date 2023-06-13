@@ -13,6 +13,7 @@ RPM_HASH = "429d64956aaaf44ceb62da956ee9f584214e4196c1e0fa533afeb03def20cc05f91c
 
 RPROVIDES:${PN} += "ldapfuse \
 ldapfuse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHX.so.32()(64bit) \

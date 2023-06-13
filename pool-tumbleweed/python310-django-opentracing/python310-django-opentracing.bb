@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-opentracing \
 python3.10dist(django-opentracing) \
 python310-django-opentracing \
 python3dist(django-opentracing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-opentracing \

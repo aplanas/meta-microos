@@ -9,6 +9,7 @@ RPM_HASH = "5b551db59cf2016f3f3a470b3de1ea2536028d435b53639a9a787afd75946fa81ac3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-visualcounter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

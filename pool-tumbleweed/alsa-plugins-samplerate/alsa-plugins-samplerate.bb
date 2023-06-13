@@ -11,6 +11,7 @@ RPM_HASH = "4a0b1e50ceed365a3cf23182adbbf3cabc031d4b9c1088e9518cac11fa1666402dc4
 RPROVIDES:${PN} += "alsa-plugins-samplerate \
 alsa-plugins-samplerate(aarch-64) \
 libasound_module_rate_samplerate.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

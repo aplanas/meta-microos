@@ -10,6 +10,7 @@ RPM_HASH = "73d2db3338b8bcad2f9a17322e1d0f7ff747d7a3bfc9e6d7384829b6f1668a3e653a
 RPROVIDES:${PN} += "libKPim5MailTransport.so.5()(64bit) \
 libKPim5MailTransport5 \
 libKPim5MailTransport5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kmailtransport \
 ld-linux-aarch64.so.1()(64bit) \

@@ -22,6 +22,7 @@ mvn(org.jboss.marshalling:jboss-marshalling-river:pom:) \
 mvn(org.jboss.marshalling:jboss-marshalling-serial) \
 mvn(org.jboss.marshalling:jboss-marshalling-serial:pom:) \
 mvn(org.jboss.marshalling:jboss-marshalling:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

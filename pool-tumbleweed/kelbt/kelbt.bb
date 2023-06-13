@@ -13,6 +13,7 @@ RPM_HASH = "df75b7bb07729a2e0db5459309af521fbd9fccc883621924d6c0a9bc5e7e9c8a2cec
 
 RPROVIDES:${PN} += "kelbt \
 kelbt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

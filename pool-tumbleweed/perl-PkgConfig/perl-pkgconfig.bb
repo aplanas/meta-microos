@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "perl(PkgConfig) \
 perl(PkgConfig::Script) \
 perl-PkgConfig \
 perl-PkgConfig(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"

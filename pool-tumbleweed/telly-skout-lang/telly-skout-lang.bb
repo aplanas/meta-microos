@@ -34,6 +34,7 @@ locale(telly-skout:zh_CN) \
 locale(telly-skout:zh_TW) \
 telly-skout-lang \
 telly-skout-lang-all"
+
 RDEPENDS:${PN} += "telly-skout"
 
 inherit rpm

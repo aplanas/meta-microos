@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-ping) \
 monitoring-plugins-ping \
 monitoring-plugins-ping(aarch-64) \
 nagios-plugins-ping"
+
 RDEPENDS:${PN} += "iputils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

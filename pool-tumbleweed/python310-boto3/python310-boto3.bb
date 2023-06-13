@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-boto3 \
 python3.10dist(boto3) \
 python310-boto3 \
 python3dist(boto3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-botocore \
 python310-jmespath \

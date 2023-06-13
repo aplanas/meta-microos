@@ -11,6 +11,7 @@ RPM_HASH = "8b061601d969942f4f39b91d4cc40bd22257f958c5f8683a91a81dedc31ec9f40971
 RPROVIDES:${PN} += "font-manager-common \
 font-manager-common(aarch-64) \
 libfontmanager.so.0()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

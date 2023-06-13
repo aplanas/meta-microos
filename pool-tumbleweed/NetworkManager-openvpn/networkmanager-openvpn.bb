@@ -13,6 +13,7 @@ NetworkManager-openvpn(aarch-64) \
 group(nm-openvpn) \
 libnm-vpn-plugin-openvpn.so()(64bit) \
 user(nm-openvpn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \

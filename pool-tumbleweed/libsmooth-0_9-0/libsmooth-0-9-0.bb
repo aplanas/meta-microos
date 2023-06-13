@@ -19,6 +19,7 @@ RPM_HASH = "3b2ec37f527ea628126b83726e68db33929e696f8e2978a13daf3fa44d187d401284
 RPROVIDES:${PN} += "libsmooth-0.9.so.0()(64bit) \
 libsmooth-0_9-0 \
 libsmooth-0_9-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

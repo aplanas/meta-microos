@@ -13,6 +13,7 @@ RPM_HASH = "c74c4401f53074e00d441d4ed9fea6daa8ef4e1ecb66432a8bd138f2b672def4ec0f
 RPROVIDES:${PN} += "libdframeworkdbus.so.2()(64bit) \
 libdframeworkdbus2 \
 libdframeworkdbus2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

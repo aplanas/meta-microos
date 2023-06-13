@@ -20,6 +20,7 @@ tex(itrans-sdvn.map) \
 tex(itrans-tamil.map) \
 tex(itrans-tel.map) \
 texlive-xetex-itrans"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

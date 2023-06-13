@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(callig15.tfm) \
 texlive-calligra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

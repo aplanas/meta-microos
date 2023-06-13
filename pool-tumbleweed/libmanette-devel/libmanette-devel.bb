@@ -10,6 +10,7 @@ RPM_HASH = "6e6b9617fa034c0805dcc3ece93b23c41953ddcae8e7b90da20393de17df6dfde577
 RPROVIDES:${PN} += "libmanette-devel \
 libmanette-devel(aarch-64) \
 pkgconfig(manette-0.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

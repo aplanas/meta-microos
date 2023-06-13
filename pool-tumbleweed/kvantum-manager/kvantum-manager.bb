@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(kvantummanager.desktop) \
 kvantum-manager \
 kvantum-manager(aarch-64)"
+
 RDEPENDS:${PN} += "kvantum-qt5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

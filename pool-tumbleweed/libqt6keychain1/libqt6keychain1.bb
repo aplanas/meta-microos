@@ -10,6 +10,7 @@ RPM_HASH = "dbd4a73107fa916811e6ac8577845e8ffda887ed5ca7893e6897413f52fa7847c23c
 RPROVIDES:${PN} += "libqt6keychain.so.1()(64bit) \
 libqt6keychain1 \
 libqt6keychain1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

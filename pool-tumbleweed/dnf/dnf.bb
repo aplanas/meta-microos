@@ -32,6 +32,7 @@ dnf-command(search) \
 dnf-command(updateinfo) \
 dnf-command(upgrade) \
 dnf-command(upgrade-to)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python3-dnf"
 

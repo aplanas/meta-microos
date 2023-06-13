@@ -10,6 +10,7 @@ RPM_HASH = "5fff8305af3efa3061322e4ac3afa9e1f86da17ece23e978341a5238e9db22966dcd
 RPROVIDES:${PN} += "libnumbertext-1.0.so.0()(64bit) \
 libnumbertext-1_0-0 \
 libnumbertext-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

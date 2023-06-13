@@ -63,6 +63,7 @@ locale(xfce4-taskmanager:zh_HK) \
 locale(xfce4-taskmanager:zh_TW) \
 xfce4-taskmanager-lang \
 xfce4-taskmanager-lang-all"
+
 RDEPENDS:${PN} += "xfce4-taskmanager"
 
 inherit rpm

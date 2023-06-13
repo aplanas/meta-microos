@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ecobiblatex.bbx) \
 tex(ecobiblatex.cbx) \
 texlive-ecobiblatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

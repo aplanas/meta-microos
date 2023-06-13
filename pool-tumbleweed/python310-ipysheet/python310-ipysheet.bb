@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-ipysheet \
 python3.10dist(ipysheet) \
 python310-ipysheet \
 python3dist(ipysheet)"
+
 RDEPENDS:${PN} += "(python310-ipywidgets >= 7.5.0 with python310-ipywidgets < 9) \
 jupyter-ipysheet \
 python(abi)"

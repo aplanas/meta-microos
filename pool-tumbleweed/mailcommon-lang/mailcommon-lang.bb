@@ -59,6 +59,7 @@ locale(mailcommon:zh_CN) \
 locale(mailcommon:zh_TW) \
 mailcommon-lang \
 mailcommon-lang-all"
+
 RDEPENDS:${PN} += "mailcommon"
 
 inherit rpm

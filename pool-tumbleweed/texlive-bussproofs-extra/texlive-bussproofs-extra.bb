@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bussproofs-extra.sty) \
 texlive-bussproofs-extra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -51,6 +51,7 @@ RPM_HASH = "d03d31b4ef98c3f69b5e27ff74fc215a8a7b5107f6152b9ac8c63fbd0e2bdb8318e1
 RPROVIDES:${PN} += "perl(Digest::SHA3) \
 perl-Digest-SHA3 \
 perl-Digest-SHA3(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

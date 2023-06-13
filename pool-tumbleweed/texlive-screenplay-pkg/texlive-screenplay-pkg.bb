@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(screenplay-pkg.sty) \
 texlive-screenplay-pkg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

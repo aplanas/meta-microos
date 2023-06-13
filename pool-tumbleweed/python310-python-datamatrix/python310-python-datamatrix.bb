@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-datamatrix \
 python3.10dist(datamatrix) \
 python310-python-datamatrix \
 python3dist(datamatrix)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ perl(MooseX::Has::Options::Handler::Accessors) \
 perl(MooseX::Has::Options::Handler::NativeTypes) \
 perl(MooseX::Has::Options::Handler::NoInit) \
 perl-MooseX-Has-Options"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(List::MoreUtils) \

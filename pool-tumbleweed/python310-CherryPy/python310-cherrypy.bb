@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-CherryPy \
 python3.10dist(cherrypy) \
 python310-CherryPy \
 python3dist(cherrypy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

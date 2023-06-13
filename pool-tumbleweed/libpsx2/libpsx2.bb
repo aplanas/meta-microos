@@ -15,6 +15,7 @@ RPM_HASH = "563dde1014bd7251ecab4dfa70e342cf50ba216bb506d99bda2688b4528afe8587cc
 RPROVIDES:${PN} += "libpsx.so.2()(64bit) \
 libpsx2 \
 libpsx2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

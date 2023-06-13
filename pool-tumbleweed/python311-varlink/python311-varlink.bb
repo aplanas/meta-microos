@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(varlink) \
 python311-varlink \
 python3dist(varlink)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python311-future"

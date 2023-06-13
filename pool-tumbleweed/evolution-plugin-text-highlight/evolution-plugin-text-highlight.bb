@@ -9,6 +9,7 @@ RPM_HASH = "ed5dace4d9c5c66570b4159a7b2df3cd4c2e525f3a7b498805ab27ac644c02bf1754
 
 RPROVIDES:${PN} += "evolution-plugin-text-highlight \
 evolution-plugin-text-highlight(aarch-64)"
+
 RDEPENDS:${PN} += "evolution \
 highlight \
 ld-linux-aarch64.so.1()(64bit) \

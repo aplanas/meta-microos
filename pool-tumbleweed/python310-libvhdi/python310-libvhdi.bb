@@ -21,6 +21,7 @@ RPM_HASH = "0433c5146b241c82688c47a7ff74bed8e5663b3e06f1c729e32bc0d3bb325bbd7a8b
 RPROVIDES:${PN} += "python3-libvhdi \
 python310-libvhdi \
 python310-libvhdi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(srcredact.1) \
 texlive-srcredact-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

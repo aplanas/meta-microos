@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "apr-devel \
 apr-devel(aarch-64) \
 libapr1-devel \
 pkgconfig(apr-1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/pkg-config \

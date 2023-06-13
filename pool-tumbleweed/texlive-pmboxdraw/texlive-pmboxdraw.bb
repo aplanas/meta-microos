@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pmboxdraw.sty) \
 texlive-pmboxdraw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

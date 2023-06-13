@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-azure-appconfiguration \
 python3.10dist(azure-appconfiguration) \
 python310-azure-appconfiguration \
 python3dist(azure-appconfiguration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

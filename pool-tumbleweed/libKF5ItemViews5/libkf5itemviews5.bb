@@ -12,6 +12,7 @@ RPM_HASH = "00cf1f2451e641da8b79ba20c487afe70689ace8533bf139aac00a9f3b40f2423d8b
 RPROVIDES:${PN} += "libKF5ItemViews.so.5()(64bit) \
 libKF5ItemViews5 \
 libKF5ItemViews5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

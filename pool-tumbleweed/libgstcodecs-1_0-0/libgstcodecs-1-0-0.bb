@@ -14,6 +14,7 @@ RPM_HASH = "131533d59dc05cc45ed79f145150c7028e7c4adf67fa5898e1677d63fd09ad6783ff
 RPROVIDES:${PN} += "libgstcodecs-1.0.so.0()(64bit) \
 libgstcodecs-1_0-0 \
 libgstcodecs-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -31,6 +31,7 @@ mvn(org.objenesis:objenesis-tck:pom:) \
 mvn(org.objenesis:objenesis:pom:) \
 objenesis \
 osgi(org.objenesis)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

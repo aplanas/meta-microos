@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(raylib) \
 pkgconfig(raylib) \
 raylib-devel \
 raylib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libraylib420 \
 openal-soft-devel"

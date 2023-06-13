@@ -11,6 +11,7 @@ RPM_HASH = "4d89c31e368daf4527faf87fc1ce8dee7dd06c5c2e2d95d176c0b22d7ce79752e0a2
 
 RPROVIDES:${PN} += "drbd \
 drbd(aarch-64)"
+
 RDEPENDS:${PN} += "drbd-utils"
 
 inherit rpm

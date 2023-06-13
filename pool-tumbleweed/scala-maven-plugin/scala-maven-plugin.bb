@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(net.alchim31.maven:scala-maven-plugin) \
 mvn(net.alchim31.maven:scala-maven-plugin:pom:) \
 scala-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.typesafe.zinc:zinc) \

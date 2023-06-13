@@ -15,6 +15,7 @@ RPM_HASH = "4fa2fd71e5fe8603bb47ccc5a142731c822fa9811c443aaa926c81dfce5fb8c37dfd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shorewall-init"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

@@ -9,6 +9,7 @@ RPM_HASH = "8342b0a8f594353bba781e21ee6a216715649ba9a80eeccc1438da2c33384c01b05c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-historian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

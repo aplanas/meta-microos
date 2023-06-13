@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libmana.so.1()(64bit) \
 libmana.so.1(MANA_1.0)(64bit) \
 libmana1 \
 libmana1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ libyui.so.16()(64bit) \
 libyui16 \
 libyui16(aarch-64) \
 yast2-libyui"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

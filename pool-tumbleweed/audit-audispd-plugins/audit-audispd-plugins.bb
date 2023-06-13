@@ -11,6 +11,7 @@ RPM_HASH = "6776d165f1a0e04d052c3c1a3a919970b3859e4c92606d58cf23a5d723c32ae78791
 RPROVIDES:${PN} += "audit-audispd-plugins \
 audit-audispd-plugins(aarch-64) \
 config(audit-audispd-plugins)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libauparse.so.0()(64bit) \

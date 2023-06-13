@@ -21,6 +21,7 @@ osgi(org.eclipse.gef.tests) \
 osgi(org.eclipse.gef.tests.source) \
 osgi(org.eclipse.zest.tests) \
 osgi(org.eclipse.zest.tests.source)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.draw2d) \

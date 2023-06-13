@@ -10,6 +10,7 @@ RPM_HASH = "86c08a18c4b3b58ea08e2b4bb688302a20042f868bafb5b3eaa9ab0de461ffac9c25
 
 RPROVIDES:${PN} += "sidplayfp \
 sidplayfp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

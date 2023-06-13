@@ -58,6 +58,7 @@ texdev(x.tex) \
 texdev(xr.sty) \
 texdev(xspace.sty) \
 texlive-latex-tools-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

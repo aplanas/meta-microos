@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pdfjam.1) \
 texlive-pdfjam-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

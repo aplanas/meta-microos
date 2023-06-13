@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyicumessageformat) \
 python311-pyicumessageformat \
 python3dist(pyicumessageformat)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

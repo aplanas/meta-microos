@@ -10,6 +10,7 @@ RPM_HASH = "a003ebe380f45eb475d0070a63710fffb8aa54831977aeca603ea9d215d186a9f419
 RPROVIDES:${PN} += "qt6-location-docs-html \
 qt6-positioning-docs-html \
 qt6-positioning-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

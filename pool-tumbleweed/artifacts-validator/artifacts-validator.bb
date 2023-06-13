@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "artifacts-validator \
 python3.10dist(artifacts) \
 python3dist(artifacts)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 artifacts \
 python(abi)"

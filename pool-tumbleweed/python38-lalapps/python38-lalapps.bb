@@ -13,6 +13,7 @@ RPM_HASH = "7498c457592bbc84fb52c0d1b01b1e7c82dc2beebe6fa1b6d2aacc7d40e0479aa6ca
 
 RPROVIDES:${PN} += "python38-lalapps \
 python38-lalapps(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python38-h5py \
 python38-lal \

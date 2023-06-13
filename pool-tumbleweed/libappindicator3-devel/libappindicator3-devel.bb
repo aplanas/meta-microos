@@ -10,6 +10,7 @@ RPM_HASH = "0cfda799312137338a47aefe9c24e5c7025c102354af5875b40df7879fe1c65eee7f
 RPROVIDES:${PN} += "libappindicator3-devel \
 libappindicator3-devel(aarch-64) \
 pkgconfig(appindicator3-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libappindicator3-1 \
 pkgconfig(dbusmenu-glib-0.4) \

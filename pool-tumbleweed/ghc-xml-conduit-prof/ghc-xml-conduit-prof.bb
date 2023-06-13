@@ -10,6 +10,7 @@ RPM_HASH = "593ad0656992849854310615c276534e72843e1ea24f9d6965f0d7bacf992923c330
 RPROVIDES:${PN} += "ghc-prof(xml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4) \
 ghc-xml-conduit-prof \
 ghc-xml-conduit-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR) \

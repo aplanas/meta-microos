@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hetznercloud) \
 python311-hetznercloud \
 python3dist(hetznercloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(muling.cls) \
 texlive-muling"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

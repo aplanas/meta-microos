@@ -14,6 +14,7 @@ tex(pkuthss-utf8.def) \
 tex(pkuthss.cls) \
 tex(pkuthss.def) \
 texlive-pkuthss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

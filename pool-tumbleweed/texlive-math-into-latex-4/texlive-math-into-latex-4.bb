@@ -13,6 +13,7 @@ RPM_HASH = "acda2c395a3b703a6ea4e4322fc8839642c89141311e298891a7182cc2d9145fce6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-math-into-latex-4"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

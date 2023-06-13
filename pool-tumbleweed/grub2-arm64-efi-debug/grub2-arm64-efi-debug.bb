@@ -12,6 +12,7 @@ RPM_HASH = "6283b033143d614db76eb21e5550f41194ed75ce424f3a238214892d3e5cf9c926fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-arm64-efi-debug"
+
 RDEPENDS:${PN} += "grub2-arm64-efi"
 
 inherit rpm

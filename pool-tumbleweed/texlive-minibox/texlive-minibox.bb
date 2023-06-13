@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minibox.sty) \
 texlive-minibox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

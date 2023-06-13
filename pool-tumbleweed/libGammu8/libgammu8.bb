@@ -25,6 +25,7 @@ RPM_HASH = "50b25b223895c8db4c7157823b9afe86a5c31834b20484222d7d814aceaff162e480
 RPROVIDES:${PN} += "libGammu.so.8()(64bit) \
 libGammu8 \
 libGammu8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

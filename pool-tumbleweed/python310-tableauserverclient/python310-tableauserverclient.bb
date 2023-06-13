@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tableauserverclient \
 python3.10dist(tableauserverclient) \
 python310-tableauserverclient \
 python3dist(tableauserverclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

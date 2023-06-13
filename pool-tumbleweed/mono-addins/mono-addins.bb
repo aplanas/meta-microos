@@ -36,6 +36,7 @@ mono(policy.0.6.Mono.Addins.CecilReflector) \
 mono(policy.0.6.Mono.Addins.Gui) \
 mono(policy.0.6.Mono.Addins.Setup) \
 mono-addins"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(ICSharpCode.SharpZipLib) \
 mono(Mono.Cairo) \

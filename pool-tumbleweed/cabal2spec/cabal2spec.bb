@@ -15,6 +15,7 @@ RPM_HASH = "e955d5b5d079eec8f10bedfb0f19bae8317c5120b8ee7d79c316373813fbb84c3056
 
 RPROVIDES:${PN} += "cabal2spec \
 cabal2spec(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

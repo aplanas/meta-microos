@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sf298.sty) \
 texlive-sf298"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

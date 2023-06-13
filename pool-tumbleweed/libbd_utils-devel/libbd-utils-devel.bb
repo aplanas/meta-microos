@@ -11,6 +11,7 @@ RPM_HASH = "05fb4f74f288e368f8e70815de279004eae0453cfffd53ae667cecd6e468a242664f
 RPROVIDES:${PN} += "libbd_utils-devel \
 libbd_utils-devel(aarch-64) \
 pkgconfig(blockdev-utils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libbd_utils2 \

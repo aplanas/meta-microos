@@ -13,6 +13,7 @@ python311-Django \
 python311-South \
 python311-django \
 python3dist(django)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

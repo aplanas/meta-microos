@@ -17,6 +17,7 @@ RPM_HASH = "576bf8292ab90cc5b88d0923bc2cc451b46330fe906d3d45d8047c6ae454542b8c85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-abydos-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

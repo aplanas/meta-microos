@@ -14,6 +14,7 @@ RPM_HASH = "d5f356645029dabad6aded7ba376c3aa9d2bdec468d798cbb9db2549c355121ea19d
 RPROVIDES:${PN} += "libpkcs11-helper.so.1()(64bit) \
 libpkcs11-helper1 \
 libpkcs11-helper1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

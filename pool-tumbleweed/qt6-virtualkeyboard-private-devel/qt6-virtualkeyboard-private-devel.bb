@@ -10,6 +10,7 @@ RPM_HASH = "7103e78742fb54c415f5f030c7b222de6e4e3000e08a9444010713803cf67dfd797a
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-private-devel \
 qt6-virtualkeyboard-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6VirtualKeyboard) \
 qt6-core-private-devel \
 qt6-gui-private-devel"

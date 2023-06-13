@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-queries \
 mvn(org.apache.lucene:lucene-queries) \
 mvn(org.apache.lucene:lucene-queries:pom:) \
 osgi(org.apache.lucene.queries)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

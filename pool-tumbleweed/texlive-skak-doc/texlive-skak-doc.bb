@@ -9,6 +9,7 @@ RPM_HASH = "9812f173b117929c8609f602ed128202736f0f3486adb97b02ae3bc2c11632bfa077
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skak-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

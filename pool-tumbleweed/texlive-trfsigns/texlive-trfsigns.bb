@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(trfsigns.sty) \
 texlive-trfsigns"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

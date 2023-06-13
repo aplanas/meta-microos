@@ -9,6 +9,7 @@ RPM_HASH = "ae68199a19e1099c735c255f3db94a7a172dcd72fbd2d25cdbd08523780b45cdd0bb
 
 RPROVIDES:${PN} += "erlang-getopt \
 erlang-getopt(aarch-64)"
+
 RDEPENDS:${PN} += "erlang"
 
 inherit rpm

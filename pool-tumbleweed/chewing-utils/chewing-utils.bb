@@ -13,6 +13,7 @@ RPM_HASH = "d4bb041ad9f805bbcb8cbbad8613b714b63e280bb35fcdf22503c43e841bdda8cdad
 
 RPROVIDES:${PN} += "chewing-utils \
 chewing-utils(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libchewing.so.3()(64bit) \
 libglib-2.0.so.0()(64bit) \

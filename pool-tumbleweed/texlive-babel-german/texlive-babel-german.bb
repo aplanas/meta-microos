@@ -22,6 +22,7 @@ tex(ngermanb.ldf) \
 tex(nswissgerman.ldf) \
 tex(swissgerman.ldf) \
 texlive-babel-german"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ perl(MooseX::Meta::Method::Authorized::Application::ToInstance) \
 perl(MooseX::Meta::Method::Authorized::CheckRoles) \
 perl(MooseX::Meta::Method::Authorized::Meta::Role) \
 perl-MooseX-AuthorizedMethods"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(aliased)"

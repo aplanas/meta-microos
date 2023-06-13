@@ -10,6 +10,7 @@ RPM_HASH = "7702671f6f7ab8873cbb18ff8027bd8db12044866ffbedf9399c8c659cf5fe164202
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libappmenu-gtk-parser-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

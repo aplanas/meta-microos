@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-toolchain \
 mvn(org.apache.maven:maven-toolchain) \
 mvn(org.apache.maven:maven-toolchain:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-artifact) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.rootwrap \
 python3.10dist(oslo.rootwrap) \
 python3dist(oslo.rootwrap)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

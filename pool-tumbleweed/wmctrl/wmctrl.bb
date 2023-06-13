@@ -27,6 +27,7 @@ RPM_HASH = "876191522fbbc5dc40ab4cf5676fa37b8375395fb1cb12021425eeb0cb348f05150b
 
 RPROVIDES:${PN} += "wmctrl \
 wmctrl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-entrypoints \
 python3.10dist(entrypoints) \
 python310-entrypoints \
 python3dist(entrypoints)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

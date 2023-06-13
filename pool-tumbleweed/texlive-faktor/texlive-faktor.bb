@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(faktor.sty) \
 texlive-faktor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -47,6 +47,7 @@ locale(gajim:tr) \
 locale(gajim:uk) \
 locale(gajim:zh_CN) \
 locale(gajim:zh_TW)"
+
 RDEPENDS:${PN} += "gajim"
 
 inherit rpm

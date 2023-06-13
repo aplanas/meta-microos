@@ -9,6 +9,7 @@ RPM_HASH = "6503a299b35febd900add960be9c0935d36fc19687cc84e7148ddff3b64b15e4ee7b
 
 RPROVIDES:${PN} += "efitools \
 efitools(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit)"

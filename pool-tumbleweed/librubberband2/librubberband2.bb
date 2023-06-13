@@ -11,6 +11,7 @@ RPM_HASH = "7b02d5550734f234bf847a979037016d5eb65bc6ae9df611832861caa7c6b9403f19
 RPROVIDES:${PN} += "librubberband.so.2()(64bit) \
 librubberband2 \
 librubberband2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

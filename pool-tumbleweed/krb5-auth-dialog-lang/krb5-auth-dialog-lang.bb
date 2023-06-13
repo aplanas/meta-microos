@@ -37,6 +37,7 @@ locale(krb5-auth-dialog:uk) \
 locale(krb5-auth-dialog:zh_CN) \
 locale(krb5-auth-dialog:zh_HK) \
 locale(krb5-auth-dialog:zh_TW)"
+
 RDEPENDS:${PN} += "krb5-auth-dialog"
 
 inherit rpm

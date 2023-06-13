@@ -11,6 +11,7 @@ RPM_HASH = "d7e84ff47ef2020319f83d5d19cdd96d3591a00ac0be8f392b89d307cbddc5433c59
 RPROVIDES:${PN} += "cmake(KF5ItemModels) \
 kitemmodels-devel \
 kitemmodels-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5ItemModels5"

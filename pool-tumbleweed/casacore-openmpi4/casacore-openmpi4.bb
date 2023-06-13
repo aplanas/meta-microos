@@ -9,6 +9,7 @@ RPM_HASH = "6b49104ea92216245fd6be00d2cc6aac883c802ac537fbd3c95a1ed8237df8b2c2e1
 
 RPROVIDES:${PN} += "casacore-openmpi4 \
 casacore-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

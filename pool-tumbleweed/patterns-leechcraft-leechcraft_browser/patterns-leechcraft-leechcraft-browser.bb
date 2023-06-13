@@ -12,6 +12,7 @@ pattern-icon() \
 pattern-order() \
 patterns-leechcraft-leechcraft_browser \
 patterns-leechcraft-leechcraft_browser(aarch-64)"
+
 RDEPENDS:${PN} += "leechcraft-cstp \
 leechcraft-poshuku \
 pattern()"

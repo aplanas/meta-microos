@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sounddevice) \
 python39-sounddevice \
 python3dist(sounddevice)"
+
 RDEPENDS:${PN} += "portaudio \
 python(abi) \
 python39-cffi"

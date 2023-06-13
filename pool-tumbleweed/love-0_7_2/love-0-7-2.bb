@@ -9,6 +9,7 @@ RPM_HASH = "9c77592d62a1778210856b631a7daff78d341251c1bbbb4619c21f77d6151a161d3a
 
 RPROVIDES:${PN} += "love-0_7_2 \
 love-0_7_2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

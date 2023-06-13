@@ -37,6 +37,7 @@ tex(tikzlibraryext.scalepicture.code.tex) \
 tex(tikzlibraryext.topaths.arcthrough.code.tex) \
 tex(tikzlibraryext.transformations.mirror.code.tex) \
 texlive-tikz-ext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

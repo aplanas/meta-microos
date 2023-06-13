@@ -9,6 +9,7 @@ RPM_HASH = "bac08db1bd10de0cc4ae5bb56e116ecda0088caefb2a8ef8faa49976d12fe816bb60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librefranklin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

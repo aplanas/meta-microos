@@ -9,6 +9,7 @@ RPM_HASH = "d62439862d7bf7607bf37c36aae8163feffc6e94a727ca48741d5a5b0691eab528b2
 
 RPROVIDES:${PN} += "libff-devel \
 libff-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libff-1_0_0"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(diskcache) \
 python39-diskcache \
 python3dist(diskcache)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39"
 

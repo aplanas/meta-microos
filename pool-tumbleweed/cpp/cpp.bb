@@ -9,6 +9,7 @@ RPM_HASH = "be9739daed5da5ee535f26321e209eaabc2c257a717ca0d8e4db1ce4fc7410bf36fc
 
 RPROVIDES:${PN} += "cpp \
 cpp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cpp13"
 

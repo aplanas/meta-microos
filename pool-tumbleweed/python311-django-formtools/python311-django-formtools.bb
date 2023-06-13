@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-formtools) \
 python311-django-formtools \
 python3dist(django-formtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

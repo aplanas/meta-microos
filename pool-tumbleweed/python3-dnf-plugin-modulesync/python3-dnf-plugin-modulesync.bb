@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dnf-command(modulesync) \
 dnf-plugin-modulesync \
 python3-dnf-plugin-modulesync"
+
 RDEPENDS:${PN} += "createrepo_c \
 python(abi) \
 python3-dnf-plugins-core"

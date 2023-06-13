@@ -10,6 +10,7 @@ RPM_HASH = "c1675fe096b8057ab44d11be098df5f8285664a3e318fd69c71d4965a1ff6d5b35eb
 RPROVIDES:${PN} += "gtk2-engine-crux \
 gtk2-engine-crux(aarch-64) \
 libcrux-engine.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

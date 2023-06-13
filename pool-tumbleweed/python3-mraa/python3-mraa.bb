@@ -16,6 +16,7 @@ RPM_HASH = "83f7acdc34120fbd2369999c40e9bc57a7859ed578b88757690d1f5372f7616b3ae9
 
 RPROVIDES:${PN} += "python3-mraa \
 python3-mraa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

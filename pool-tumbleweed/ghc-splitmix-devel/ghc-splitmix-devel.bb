@@ -10,6 +10,7 @@ RPM_HASH = "e5fb3a9ccd84e82040094a69505f11074b03ceaf331de437038a8382e927ce4948f4
 RPROVIDES:${PN} += "ghc-devel(splitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe) \
 ghc-splitmix-devel \
 ghc-splitmix-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

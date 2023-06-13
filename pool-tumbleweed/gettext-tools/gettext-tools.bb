@@ -17,6 +17,7 @@ gettext-tools \
 gettext-tools(aarch-64) \
 libgettextpo.so.0()(64bit) \
 libgnuintl.so.8()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gettext-runtime \
 info \

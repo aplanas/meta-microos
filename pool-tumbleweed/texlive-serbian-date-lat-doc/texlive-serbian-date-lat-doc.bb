@@ -9,6 +9,7 @@ RPM_HASH = "c8a2b1bdc4066a22f2752db9429fffc7ebee50d083f42ee001ef89ac4f75f6022507
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-serbian-date-lat-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

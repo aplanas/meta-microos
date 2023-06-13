@@ -10,6 +10,7 @@ RPM_HASH = "b95cb3f5dbea29b65a9242e94b2b46830e506fe3a03c921efcf5c321008d93c8fa78
 RPROVIDES:${PN} += "config(freeradius-server-ldap) \
 freeradius-server-ldap \
 freeradius-server-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-server \
 libc.so.6(GLIBC_2.17)(64bit) \
 libldap.so.2()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "4d5a0ffea658d92f4f807bcdeb1f8c75de421bfece44cbd8bac32ad4a50d1ef00ca9
 
 RPROVIDES:${PN} += "hdf5_1_12_2-gnu-openmpi2-hpc-devel \
 hdf5_1_12_2-gnu-openmpi2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc-devel \
 hdf5_1_12_2-gnu-openmpi2-hpc \

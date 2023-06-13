@@ -12,6 +12,7 @@ RPM_HASH = "491eb1b925724d265e0adb12033d3517298b1320679503af995881053de0ef6ced6e
 
 RPROVIDES:${PN} += "octave-forge-geometry \
 octave-forge-geometry(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

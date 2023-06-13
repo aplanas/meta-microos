@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(asdf-transform-schemas) \
 python311-asdf-transform-schemas \
 python311-asdf_transform_schemas \
 python3dist(asdf-transform-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-asdf-standard"
 

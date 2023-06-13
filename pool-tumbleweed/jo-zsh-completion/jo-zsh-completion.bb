@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(jo-zsh-completion) \
 jo-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

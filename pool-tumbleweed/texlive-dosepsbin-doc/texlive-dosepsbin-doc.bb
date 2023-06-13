@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dosepsbin.1) \
 texlive-dosepsbin-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

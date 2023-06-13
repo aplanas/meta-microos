@@ -19,6 +19,7 @@ tex(apsrmp4-1.rtx) \
 tex(revsymb4-1.sty) \
 tex(revtex4-1.cls) \
 texlive-revtex4-1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

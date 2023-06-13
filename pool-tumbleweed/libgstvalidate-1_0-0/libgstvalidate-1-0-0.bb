@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgstvalidate-1.0.so.0()(64bit) \
 libgstvalidate-1_0-0 \
 libgstvalidate-1_0-0(aarch-64) \
 libgstvalidate-default-overrides-1.0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "a68878efae5e92a09dc7a5a03325360020a6873054ec33cdefc97be55644ceb7ea99
 RPROVIDES:${PN} += "libzmf-devel \
 libzmf-devel(aarch-64) \
 pkgconfig(libzmf-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzmf-0_0-0 \
 pkgconfig(librevenge-0.0)"

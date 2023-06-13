@@ -32,6 +32,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(computermodernbright) \
 texlive-hfbright-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

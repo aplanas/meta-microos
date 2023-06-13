@@ -9,6 +9,7 @@ RPM_HASH = "9b292efdc0bccd179922d265be28839e0147fbdd1c28b793191b8d46b15f5e9e25e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blockdraw_mp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

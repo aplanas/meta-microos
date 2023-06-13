@@ -12,6 +12,7 @@ RPM_HASH = "26d0e4e37b2a23ac4a80d42b37400fe215616438b7397b59e8039abd83323a3c7d4e
 RPROVIDES:${PN} += "libfityk.so.4()(64bit) \
 libfityk4 \
 libfityk4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

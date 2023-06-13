@@ -19,6 +19,7 @@ tex(tracklang-scripts.tex) \
 tex(tracklang.sty) \
 tex(tracklang.tex) \
 texlive-tracklang"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

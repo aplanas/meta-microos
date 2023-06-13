@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(textualicomma.sty) \
 texlive-textualicomma"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

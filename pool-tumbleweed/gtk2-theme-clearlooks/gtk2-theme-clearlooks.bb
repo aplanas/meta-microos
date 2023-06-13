@@ -9,6 +9,7 @@ RPM_HASH = "26a9b31d56cb3675fa46dd78ffd28d79e41841ea58768cba2f6714cbbe682d1da0d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-clearlooks"
+
 RDEPENDS:${PN} += "gtk2-engine-clearlooks"
 
 inherit rpm

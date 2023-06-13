@@ -10,6 +10,7 @@ RPM_HASH = "bae29aaaac0a044f37a5ab72323e09d0520adbedd175808233eb2d2d9a2d2a9c5891
 RPROVIDES:${PN} += "calamares-webview \
 calamares-webview(aarch-64) \
 libcalamares_viewmodule_webview.so()(64bit)"
+
 RDEPENDS:${PN} += "calamares(aarch-64) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

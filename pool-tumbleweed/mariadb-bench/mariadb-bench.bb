@@ -13,6 +13,7 @@ RPM_HASH = "c6fa35406b06d974e1e9914789040eb968a7c517b7ebe9fae3a88a850768e68863bc
 RPROVIDES:${PN} += "mariadb-bench \
 mariadb-bench(aarch-64) \
 mysql-bench"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

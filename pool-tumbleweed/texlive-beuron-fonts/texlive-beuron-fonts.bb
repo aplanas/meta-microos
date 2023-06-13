@@ -35,6 +35,7 @@ font(beuron) \
 font(beuroncondensed) \
 font(beuronextended) \
 texlive-beuron-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

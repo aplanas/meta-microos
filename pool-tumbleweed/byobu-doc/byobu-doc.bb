@@ -9,6 +9,7 @@ RPM_HASH = "2b7d74d1331f401833f3f27e72729d13a40d95a482786caffb65fbe33d65eb8d1cf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "byobu-doc"
+
 RDEPENDS:${PN} += "byobu"
 
 inherit rpm

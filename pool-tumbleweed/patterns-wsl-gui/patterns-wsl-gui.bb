@@ -13,6 +13,7 @@ pattern-category() \
 pattern-icon() \
 pattern-visible() \
 patterns-wsl-gui"
+
 RDEPENDS:${PN} += "/bin/sh \
 lato-fonts"
 

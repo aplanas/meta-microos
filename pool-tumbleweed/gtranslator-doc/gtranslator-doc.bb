@@ -9,6 +9,7 @@ RPM_HASH = "7d4b4a78d02534a837932914d627334d58e229ec590e3fad46b7251e89d883ad1c82
 
 RPROVIDES:${PN} += "gtranslator-doc \
 gtranslator-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

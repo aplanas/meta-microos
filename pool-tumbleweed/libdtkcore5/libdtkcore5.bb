@@ -11,6 +11,7 @@ RPM_HASH = "d051596d43f081b5d66e77cec9d6990509cc1986707901aaa237124cac23d32deec7
 RPROVIDES:${PN} += "libdtkcore.so.5()(64bit) \
 libdtkcore5 \
 libdtkcore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 deepin-desktop-base \
 ld-linux-aarch64.so.1()(64bit) \

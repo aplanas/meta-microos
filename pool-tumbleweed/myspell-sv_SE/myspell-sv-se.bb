@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:sv_SE) \
 myspell-dictionary \
 myspell-sv_SE \
 myspell-swedish"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

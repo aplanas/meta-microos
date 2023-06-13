@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.11dist(python3-application) \
 python311-application \
 python311-application(aarch-64) \
 python3dist(python3-application)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

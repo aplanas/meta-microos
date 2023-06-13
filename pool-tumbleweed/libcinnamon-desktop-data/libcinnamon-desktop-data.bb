@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-desktop-lang \
 libcinnamon-desktop-data"
+
 RDEPENDS:${PN} += "libcinnamon-desktop-data-branding \
 pam \
 python3-gobject"

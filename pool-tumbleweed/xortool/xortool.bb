@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(xortool) \
 python3dist(xortool) \
 xortool"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3.10 \
 python(abi) \

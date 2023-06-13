@@ -14,6 +14,7 @@ postgresql15-address_standardizer \
 postgresql15-postgis \
 postgresql15-postgis(aarch-64) \
 postgresql15-postgis-llvmjit"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

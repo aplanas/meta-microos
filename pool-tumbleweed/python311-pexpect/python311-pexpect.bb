@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pexpect) \
 python311-pexpect \
 python3dist(pexpect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ptyprocess"
 

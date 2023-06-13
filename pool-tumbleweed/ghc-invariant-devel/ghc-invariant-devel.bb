@@ -10,6 +10,7 @@ RPM_HASH = "a16c56955f087877d9ce65bc52b7b0b55a226ff60cb47c5bfd4c293353f786d319f4
 RPROVIDES:${PN} += "ghc-devel(invariant-0.6.1-B19sct74tP6Cqvpbmm6WZv) \
 ghc-invariant-devel \
 ghc-invariant-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN) \

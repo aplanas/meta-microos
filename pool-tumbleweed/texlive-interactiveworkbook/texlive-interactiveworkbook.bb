@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(interactiveworkbook-web.sty) \
 tex(interactiveworkbook.sty) \
 texlive-interactiveworkbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

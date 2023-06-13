@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-circuitbreaker \
 python3.10dist(circuitbreaker) \
 python310-circuitbreaker \
 python3dist(circuitbreaker)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

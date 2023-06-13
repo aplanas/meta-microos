@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-wakeonlan \
 python3.10dist(wakeonlan) \
 python310-wakeonlan \
 python3dist(wakeonlan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

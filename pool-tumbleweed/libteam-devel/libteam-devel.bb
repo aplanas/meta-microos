@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libteam-devel \
 libteam-devel(aarch-64) \
 pkgconfig(libteam) \
 pkgconfig(libteamdctl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libteam5 \
 libteamdctl0 \

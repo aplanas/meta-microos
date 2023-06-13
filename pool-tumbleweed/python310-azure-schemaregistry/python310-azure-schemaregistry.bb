@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-schemaregistry \
 python3.10dist(azure-schemaregistry) \
 python310-azure-schemaregistry \
 python3dist(azure-schemaregistry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

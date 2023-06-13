@@ -17,6 +17,7 @@ service(network) \
 sysvinit(network) \
 wicked-service \
 wicked-service(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 sysconfig \

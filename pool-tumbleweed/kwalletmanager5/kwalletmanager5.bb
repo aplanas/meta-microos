@@ -16,6 +16,7 @@ kwalletmanager5(aarch-64) \
 metainfo() \
 metainfo(org.kde.kwalletmanager5.appdata.xml) \
 mimehandler(application/x-kwallet)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

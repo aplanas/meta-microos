@@ -11,6 +11,7 @@ RPM_HASH = "fc6786619908b658c785fc06217235184a84c370d07992644b6871f340bf37af67cc
 RPROVIDES:${PN} += "thunar-plugin-vcs \
 thunar-plugin-vcs(aarch-64) \
 thunar-vcs-plugin"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapr-1.so.0()(64bit) \

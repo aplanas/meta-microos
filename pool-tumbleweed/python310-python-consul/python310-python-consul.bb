@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-consul \
 python3.10dist(python-consul) \
 python310-python-consul \
 python3dist(python-consul)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-six"

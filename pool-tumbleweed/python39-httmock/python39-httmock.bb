@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(httmock) \
 python39-httmock \
 python3dist(httmock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

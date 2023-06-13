@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectl \
 config(collectl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 systemd"

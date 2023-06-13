@@ -47,6 +47,7 @@ tex(upzhserifit-h.vf) \
 tex(upzhserifit-v.tfm) \
 tex(upzhserifit-v.vf) \
 texlive-zhmetrics-uptex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

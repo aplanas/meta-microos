@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3-lensfun \
 python3-lensfun(aarch-64) \
 python3.10dist(lensfun) \
 python3dist(lensfun)"
+
 RDEPENDS:${PN} += "liblensfun1 \
 python(abi)"
 

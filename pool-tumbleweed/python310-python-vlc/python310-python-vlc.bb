@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-python-vlc \
 python3.10dist(python-vlc) \
 python310-python-vlc \
 python3dist(python-vlc)"
+
 RDEPENDS:${PN} += "libvlc5 \
 python(abi)"
 

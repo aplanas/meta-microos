@@ -11,6 +11,7 @@ RPM_HASH = "e96ca4f06469518c43ae4753a8d109a97d214d7968ef95f83a2eb3fb85528382a36d
 RPROVIDES:${PN} += "python3-libsmraw \
 python310-libsmraw \
 python310-libsmraw(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

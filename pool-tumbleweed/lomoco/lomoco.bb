@@ -18,6 +18,7 @@ RPM_HASH = "656725ad899451f309aaa1a9222a0e42f775d341fbc73a691f611d1c07fb840c9cfb
 RPROVIDES:${PN} += "lmctl:/usr/bin/lmctl \
 lomoco \
 lomoco(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

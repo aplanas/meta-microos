@@ -14,6 +14,7 @@ RPM_HASH = "56abcbebecc8a61eda70588e9390cf9dc94da1b9907feaa8947e3a80cce16166f2c2
 RPROVIDES:${PN} += "gtksourceview5-devel \
 gtksourceview5-devel(aarch-64) \
 pkgconfig(gtksourceview-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtksourceview-5-0 \
 pkgconfig(fontconfig) \

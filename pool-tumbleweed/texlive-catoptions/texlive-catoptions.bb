@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(catoptions-guide.cfg) \
 tex(catoptions.sty) \
 texlive-catoptions"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

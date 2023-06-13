@@ -79,6 +79,7 @@ perl(Test::Deep::SuperHashElements) \
 perl(Test::Deep::SuperHashKeys) \
 perl(Test::Deep::SuperHashKeysOnly) \
 perl-Test-Deep"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More) \
 perl-Test-Simple"

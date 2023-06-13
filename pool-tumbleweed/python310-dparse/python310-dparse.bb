@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dparse \
 python3.10dist(dparse) \
 python310-dparse \
 python3dist(dparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-packaging"

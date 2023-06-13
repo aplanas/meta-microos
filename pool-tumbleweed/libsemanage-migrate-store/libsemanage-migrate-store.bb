@@ -13,6 +13,7 @@ RPM_HASH = "9397964d9976cc53931160b220c66f70213a3f483f4fbb9245b8ff89ca4ab64d1ee6
 
 RPROVIDES:${PN} += "libsemanage-migrate-store \
 libsemanage-migrate-store(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

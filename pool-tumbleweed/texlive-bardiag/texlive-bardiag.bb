@@ -15,6 +15,7 @@ tex(bardiag.cfg) \
 tex(bardiag.sty) \
 tex(pstfp.sty) \
 texlive-bardiag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dnf-automatic) \
 dnf-automatic"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 dnf \

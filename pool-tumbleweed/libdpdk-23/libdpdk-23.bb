@@ -420,6 +420,7 @@ librte_vhost.so.23()(64bit) \
 librte_vhost.so.23(DPDK_23)(64bit) \
 librte_vhost.so.23(EXPERIMENTAL)(64bit) \
 librte_vhost.so.23(INTERNAL)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

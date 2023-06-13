@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xduthesis.cfg) \
 tex(xduthesis.cls) \
 texlive-xduthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

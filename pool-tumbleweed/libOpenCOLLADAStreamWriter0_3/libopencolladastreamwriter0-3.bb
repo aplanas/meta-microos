@@ -14,6 +14,7 @@ RPM_HASH = "0620203c2569eea5e392c7b476e2229e9b15d6546fbb472e66073ca0a1df4c5397ff
 RPROVIDES:${PN} += "libOpenCOLLADAStreamWriter.so.0.3()(64bit) \
 libOpenCOLLADAStreamWriter0_3 \
 libOpenCOLLADAStreamWriter0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

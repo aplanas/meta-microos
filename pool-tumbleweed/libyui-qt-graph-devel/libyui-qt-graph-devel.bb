@@ -10,6 +10,7 @@ RPM_HASH = "2509fcd69a4e6f99edc6e65f7f9718fc9a1665628557f82b16e5234380ec460afc3b
 
 RPROVIDES:${PN} += "libyui-qt-graph-devel \
 libyui-qt-graph-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libyui-qt-devel \
 libyui-qt-graph16"
 

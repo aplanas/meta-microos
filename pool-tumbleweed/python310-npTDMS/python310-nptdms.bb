@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-npTDMS \
 python3.10dist(nptdms) \
 python310-npTDMS \
 python3dist(nptdms)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

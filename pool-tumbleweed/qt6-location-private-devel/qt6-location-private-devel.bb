@@ -10,6 +10,7 @@ RPM_HASH = "124e6575744f5d0137289475b80331ea0ee454e0480d5b5717f60792623dffc0ab7f
 
 RPROVIDES:${PN} += "qt6-location-private-devel \
 qt6-location-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Location)"
 
 inherit rpm

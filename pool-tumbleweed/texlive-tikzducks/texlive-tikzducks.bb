@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(tikzducks-generic.tex) \
 tex(tikzducks.sty) \
 tex(tikzlibraryducks.code.tex) \
 texlive-tikzducks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

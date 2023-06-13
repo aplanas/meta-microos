@@ -10,6 +10,7 @@ RPM_HASH = "3b36e551c71b0baf23e2be1b6639fd26e7a042d18288aea7e99916c64fed95973644
 
 RPROVIDES:${PN} += "libdeflate-tools \
 libdeflate-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

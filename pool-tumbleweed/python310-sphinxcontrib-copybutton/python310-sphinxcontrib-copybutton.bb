@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-copybutton \
 python3.10dist(sphinx-copybutton) \
 python310-sphinxcontrib-copybutton \
 python3dist(sphinx-copybutton)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

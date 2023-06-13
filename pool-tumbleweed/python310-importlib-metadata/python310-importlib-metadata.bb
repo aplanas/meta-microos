@@ -15,6 +15,7 @@ python3.10dist(importlib-metadata) \
 python310-importlib-metadata \
 python310-importlib_metadata \
 python3dist(importlib-metadata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zipp"
 

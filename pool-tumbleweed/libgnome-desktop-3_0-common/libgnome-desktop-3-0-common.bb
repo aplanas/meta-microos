@@ -13,6 +13,7 @@ RPM_HASH = "ea506a8ea5cd4f4e7fc1f634a382d2a9039cd3c0b29299eaa8b4dff579fb6b2a7b98
 
 RPROVIDES:${PN} += "libgnome-desktop-3_0-common \
 libgnome-desktop-3_0-common(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

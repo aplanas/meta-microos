@@ -10,6 +10,7 @@ RPM_HASH = "ae51c06e31e4784965685b613b258c12b1d067efcd40fd1cff4d415c9f63546c54a8
 
 RPROVIDES:${PN} += "qt6-charts-private-devel \
 qt6-charts-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Charts)"
 
 inherit rpm

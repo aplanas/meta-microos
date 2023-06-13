@@ -13,6 +13,7 @@ RPM_HASH = "75050703e7bcba7a4421db38f03a45ae3cf766dd9d8293ca7fe0f11e85b5ec7c42ed
 
 RPROVIDES:${PN} += "opencsg-devel \
 opencsg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "freeglut-devel \
 glew-devel \
 libopencsg1"

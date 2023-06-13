@@ -19,6 +19,7 @@ libxc12 \
 libxc12(aarch-64) \
 libxcf03.so.12()(64bit) \
 libxcf90.so.12()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

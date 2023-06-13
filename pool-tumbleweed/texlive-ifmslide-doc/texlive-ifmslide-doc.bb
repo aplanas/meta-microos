@@ -9,6 +9,7 @@ RPM_HASH = "5f042b2bbbb6f8688dc55fcf544bcd18fa2b9646fa9feaf14140e553cc54c54a2a0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ifmslide-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

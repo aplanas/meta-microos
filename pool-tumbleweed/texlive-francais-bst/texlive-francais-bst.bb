@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(francaisbst.tex) \
 texlive-francais-bst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

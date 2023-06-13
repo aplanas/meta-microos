@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(serbian-lig.sty) \
 texlive-serbian-lig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:sprockets-helpers:1) \
 rubygem(ruby:3.2.0:sprockets-helpers:1.4) \
 rubygem(ruby:3.2.0:sprockets-helpers:1.4.0) \
 rubygem(sprockets-helpers)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:sprockets)"
 

@@ -19,6 +19,7 @@ RPM_HASH = "ae1e8c538491912aeeabab9344b3f59f98ad949078deedd7fdfd3bfeebf325b8c4f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-anonymouspro-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

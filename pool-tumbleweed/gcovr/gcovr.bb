@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gcovr \
 python3.10dist(gcovr) \
 python3dist(gcovr)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gcc \
 python(abi) \

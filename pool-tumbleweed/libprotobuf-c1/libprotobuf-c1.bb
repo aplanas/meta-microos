@@ -13,6 +13,7 @@ libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit) \
 libprotobuf-c.so.1(LIBPROTOBUF_C_1.3.0)(64bit) \
 libprotobuf-c1 \
 libprotobuf-c1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

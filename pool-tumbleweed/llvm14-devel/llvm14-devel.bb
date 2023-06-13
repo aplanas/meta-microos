@@ -26,6 +26,7 @@ rpm_macro(_llvm_with_lldb) \
 rpm_macro(_llvm_with_openmp) \
 rpm_macro(_llvm_with_oprofile) \
 rpm_macro(_llvm_with_valgrind)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

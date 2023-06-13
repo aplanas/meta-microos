@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "icinga2-bin \
 icinga2-bin(aarch-64) \
 icinga2-libs \
 monitoring_daemon"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_context.so.1.82.0()(64bit) \

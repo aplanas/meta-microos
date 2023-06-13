@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-execnet \
 python3.10dist(execnet) \
 python310-execnet \
 python3dist(execnet)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-base-x11_raspberrypi \
 patterns-base-x11_raspberrypi(aarch-64)"
+
 RDEPENDS:${PN} += "gconf2 \
 gtk2-metatheme-adwaita \
 gtk3-metatheme-adwaita \

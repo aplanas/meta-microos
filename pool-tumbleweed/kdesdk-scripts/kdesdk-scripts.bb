@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "kde-dev-scripts \
 kdesdk-scripts \
 kdesdk-scripts(aarch-64) \
 kdesdk4-scripts"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

@@ -108,6 +108,7 @@ font(venturissansadfno2) \
 font(venturissansadfno2cd) \
 font(venturissansadfno2ex) \
 texlive-venturisadf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

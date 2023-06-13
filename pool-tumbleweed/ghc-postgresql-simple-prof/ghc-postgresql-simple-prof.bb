@@ -10,6 +10,7 @@ RPM_HASH = "c15444b01da2db1984b94bfd77f245f5e96763588303effba0cbb7e5b1851c8c219d
 RPROVIDES:${PN} += "ghc-postgresql-simple-prof \
 ghc-postgresql-simple-prof(aarch-64) \
 ghc-prof(postgresql-simple-0.6.5-4SdcA6z79O7Dp0GdOYFMox)"
+
 RDEPENDS:${PN} += "ghc-postgresql-simple-devel \
 ghc-prof(Only-0.1-ETd5YCT0TwGLbN8rgpgTS8) \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

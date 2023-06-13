@@ -36,6 +36,7 @@ libtexttospeechqmlplugin.so(Qt_6.5)(64bit) \
 libtexttospeechqmlplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-texttospeech \
 qt6-texttospeech(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

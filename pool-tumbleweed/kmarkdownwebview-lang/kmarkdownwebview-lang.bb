@@ -61,6 +61,7 @@ locale(kmarkdownwebview:ug) \
 locale(kmarkdownwebview:uk) \
 locale(kmarkdownwebview:zh_CN) \
 locale(kmarkdownwebview:zh_TW)"
+
 RDEPENDS:${PN} += "kmarkdownwebview"
 
 inherit rpm

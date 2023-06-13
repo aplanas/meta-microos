@@ -12,6 +12,7 @@ RPM_HASH = "68f30de76cace2358e03d544a0e6ba1e8ec5eb2d532ab4ae74f3d6a0412e4af7d0b7
 RPROVIDES:${PN} += "libmarkdown.so.3()(64bit) \
 libmarkdown3 \
 libmarkdown3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

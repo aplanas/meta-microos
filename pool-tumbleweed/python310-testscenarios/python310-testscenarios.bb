@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-testscenarios \
 python3.10dist(testscenarios) \
 python310-testscenarios \
 python3dist(testscenarios)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pbr \
 python310-testtools"

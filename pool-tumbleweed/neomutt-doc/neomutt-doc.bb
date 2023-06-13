@@ -10,6 +10,7 @@ RPM_HASH = "5cec1d9b48b4610e90859e8f7ae2d2121f6b4e4a115805b37590540e33c4328c9399
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neomutt-doc"
+
 RDEPENDS:${PN} += "neomutt"
 
 inherit rpm

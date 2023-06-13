@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "SDL_net \
 libSDL_net-1.2.so.0()(64bit) \
 libSDL_net-1_2-0 \
 libSDL_net-1_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

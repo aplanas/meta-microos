@@ -14,6 +14,7 @@ RPM_HASH = "b4b35ebba54154ca883408138010f32276c3c1d41b7d960c12df939de52e885d7800
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blitz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

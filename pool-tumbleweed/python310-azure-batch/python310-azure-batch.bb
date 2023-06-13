@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-batch \
 python3.10dist(azure-batch) \
 python310-azure-batch \
 python3dist(azure-batch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

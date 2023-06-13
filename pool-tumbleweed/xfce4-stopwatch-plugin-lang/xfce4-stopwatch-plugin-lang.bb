@@ -57,6 +57,7 @@ locale(xfce4-stopwatch-plugin:zh_TW) \
 xfce4-panel-plugin-stopwatch-lang \
 xfce4-stopwatch-plugin-lang \
 xfce4-stopwatch-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-stopwatch-plugin"
 
 inherit rpm

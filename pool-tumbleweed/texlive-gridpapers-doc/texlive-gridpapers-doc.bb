@@ -9,6 +9,7 @@ RPM_HASH = "4ded3ca9cb9fd79fa30aecae8ec6be053fa470f0e996124aa85417519927ee14d4fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gridpapers-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

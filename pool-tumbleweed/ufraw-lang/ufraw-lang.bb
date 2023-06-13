@@ -29,6 +29,7 @@ locale(ufraw:zh_CN) \
 locale(ufraw:zh_TW) \
 ufraw-lang \
 ufraw-lang-all"
+
 RDEPENDS:${PN} += "ufraw"
 
 inherit rpm

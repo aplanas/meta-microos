@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-smbprotocol \
 python3.10dist(smbprotocol) \
 python310-smbprotocol \
 python3dist(smbprotocol)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-pyspnego"

@@ -11,6 +11,7 @@ RPM_HASH = "b2bf4f011a811308adfae2fe4665c0096c7c64e161ee329fc41011dd61daca74fe9b
 
 RPROVIDES:${PN} += "erlang-diameter \
 erlang-diameter(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 erlang"
 

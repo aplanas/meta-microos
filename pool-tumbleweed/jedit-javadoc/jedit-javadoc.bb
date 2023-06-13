@@ -9,6 +9,7 @@ RPM_HASH = "7450eff717f94dfc967d59212d4cc847f091fabead27709bbab8da6040430913d45e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jedit-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

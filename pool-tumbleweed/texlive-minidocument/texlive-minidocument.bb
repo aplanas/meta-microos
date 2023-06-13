@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minidocument.sty) \
 texlive-minidocument"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

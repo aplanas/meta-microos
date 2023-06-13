@@ -10,6 +10,7 @@ RPM_HASH = "92f578e74196f9d2ff0c03c78dd3272bf689c5680eb0e6da2efcad1ddfc1064b04fe
 RPROVIDES:${PN} += "libuev-devel \
 libuev-devel(aarch-64) \
 pkgconfig(libuev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuev3"
 

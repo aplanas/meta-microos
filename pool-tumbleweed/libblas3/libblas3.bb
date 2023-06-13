@@ -12,6 +12,7 @@ RPM_HASH = "11d10673f6ed16bd8b915fffc7a0dcc9a5a1d60271ddbb9020215e3e2cbbbb526392
 RPROVIDES:${PN} += "libblas.so.3()(64bit) \
 libblas3 \
 libblas3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "f83f1dd27525a336d8eda07f6bde38e913721d07ceb70749b7098d6bbab7a0c44745
 RPROVIDES:${PN} += "cmake(Qt6QuickEffectsPrivate) \
 qt6-quickeffects-private-devel \
 qt6-quickeffects-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6QuickEffects6 \
 qt6-gui-private-devel \
 qt6-qml-private-devel \

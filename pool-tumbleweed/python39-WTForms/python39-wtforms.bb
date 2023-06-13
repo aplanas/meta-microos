@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wtforms) \
 python39-WTForms \
 python3dist(wtforms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-MarkupSafe \
 python39-email-validator"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "elementary-wallpapers \
 metainfo() \
 metainfo(io.elementary.wallpapers.appdata.xml) \
 pantheon-wallpapers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

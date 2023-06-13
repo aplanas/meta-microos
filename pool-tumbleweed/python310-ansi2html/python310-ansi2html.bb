@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ansi2html \
 python3.10dist(ansi2html) \
 python310-ansi2html \
 python3dist(ansi2html)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

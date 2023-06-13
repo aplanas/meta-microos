@@ -101,6 +101,7 @@ locale(mate-user-guide:zh_HK) \
 locale(mate-user-guide:zh_TW) \
 mate-user-guide-lang \
 mate-user-guide-lang-all"
+
 RDEPENDS:${PN} += "mate-user-guide"
 
 inherit rpm

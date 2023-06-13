@@ -10,6 +10,7 @@ RPM_HASH = "7fee67d0d44070ca8b9db7b8aef2d4695167bc3d4f7578dba5a888d0fac972caf6b0
 RPROVIDES:${PN} += "leechcraft-hotstreams \
 leechcraft-hotstreams(aarch-64) \
 libleechcraft_hotstreams.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

@@ -12,6 +12,7 @@ libei-devel(aarch-64) \
 pkgconfig(libei-1.0) \
 pkgconfig(libeis-1.0) \
 pkgconfig(liboeffis-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-github3.py \
 python3.10dist(github3.py) \
 python310-github3.py \
 python3dist(github3.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-jwcrypto \

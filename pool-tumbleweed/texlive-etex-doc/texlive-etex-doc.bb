@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(etex.1) \
 texlive-etex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

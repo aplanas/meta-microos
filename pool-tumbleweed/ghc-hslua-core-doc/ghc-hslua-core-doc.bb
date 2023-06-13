@@ -9,6 +9,7 @@ RPM_HASH = "c76560f26279c5eca345256b7a70324c556832b438810247fdcaa3514a4ca68aa945
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-core-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

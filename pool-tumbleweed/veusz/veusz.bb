@@ -20,6 +20,7 @@ metainfo(veusz.appdata.xml) \
 mimehandler(application/x-veusz) \
 veusz \
 veusz3"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 desktop-file-utils \
 python3-veusz \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ruamel.base \
 python3.10dist(ruamel.base) \
 python310-ruamel.base \
 python3dist(ruamel.base)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

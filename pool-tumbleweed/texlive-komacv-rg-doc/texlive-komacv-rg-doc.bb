@@ -9,6 +9,7 @@ RPM_HASH = "aec5e650a4e38fc703bacf2c2618b1dd053876c97d7436bb88bac58cd2bd7df6f85a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-komacv-rg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

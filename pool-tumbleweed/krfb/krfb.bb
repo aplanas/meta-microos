@@ -15,6 +15,7 @@ krfb(aarch-64) \
 libkrfbprivate.so.5.0()(64bit) \
 metainfo() \
 metainfo(org.kde.krfb.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

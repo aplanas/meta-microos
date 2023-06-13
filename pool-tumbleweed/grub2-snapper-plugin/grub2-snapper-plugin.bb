@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grub2-snapper-plugin) \
 grub2-snapper-plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 grub2 \
 libxml2-tools"

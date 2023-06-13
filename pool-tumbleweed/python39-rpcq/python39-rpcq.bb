@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rpcq) \
 python39-rpcq \
 python3dist(rpcq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-msgpack \
 python39-python-rapidjson \

@@ -13,6 +13,7 @@ RPM_HASH = "da1a7389976739e19b23a76f1c1db2765fa2a0b78036dabbcc54007a654b4d3bc513
 RPROVIDES:${PN} += "config(distcc) \
 distcc \
 distcc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

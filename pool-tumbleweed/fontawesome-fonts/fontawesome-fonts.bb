@@ -13,6 +13,7 @@ RPM_HASH = "77a2e88018196e3468235319babdea0709919991e60f9b1b4042c141874fa517841b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontawesome-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

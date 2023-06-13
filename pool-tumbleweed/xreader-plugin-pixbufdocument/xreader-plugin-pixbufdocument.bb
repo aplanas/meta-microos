@@ -10,6 +10,7 @@ RPM_HASH = "89aa72d0aa474fcd4b2b24a9ee1e8d28ba1d39d36c145f06e888eab54c6233ea321c
 RPROVIDES:${PN} += "libpixbufdocument.so()(64bit) \
 xreader-plugin-pixbufdocument \
 xreader-plugin-pixbufdocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "ade37f1d697c9a8cc0ded9d8a9724243a885d552ebb8b6d79e3dde53574b499d421c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "assertj-core-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

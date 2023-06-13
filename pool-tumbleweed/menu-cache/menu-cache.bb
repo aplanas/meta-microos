@@ -11,6 +11,7 @@ RPM_HASH = "ee676a619fe339a27819e9ce7001e07f3f9a8822e3ee3daca928221a7e51171bd119
 
 RPROVIDES:${PN} += "menu-cache \
 menu-cache(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

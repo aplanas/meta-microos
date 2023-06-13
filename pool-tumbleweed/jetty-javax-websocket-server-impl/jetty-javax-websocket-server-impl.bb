@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jetty-javax-websocket-server-impl \
 mvn(org.eclipse.jetty.websocket:javax-websocket-server-impl) \
 mvn(org.eclipse.jetty.websocket:javax-websocket-server-impl:pom:) \
 osgi(org.eclipse.jetty.websocket.javax.websocket.server)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.websocket:javax.websocket-api) \

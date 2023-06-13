@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::Find::Rule::Perl) \
 perl-File-Find-Rule-Perl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Find::Rule) \
 perl(Params::Util) \

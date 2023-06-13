@@ -10,6 +10,7 @@ RPM_HASH = "dcc1d74708be2072126efbadf9c12caf093ba8ebe1e41e0f435b92da0d70768d6cc8
 
 RPROVIDES:${PN} += "ftmulti \
 ftmulti(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

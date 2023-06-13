@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-enforcer-rules \
 mvn(org.apache.maven.enforcer:enforcer-rules) \
 mvn(org.apache.maven.enforcer:enforcer-rules:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-lang:commons-lang) \

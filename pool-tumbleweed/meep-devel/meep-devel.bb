@@ -15,6 +15,7 @@ RPM_HASH = "b9b1fde1a46fc8b7eb664b3fb4efdd087b8edc21869eb10ee3815befa55970e76f92
 RPROVIDES:${PN} += "meep-devel \
 meep-devel(aarch-64) \
 pkgconfig(meep)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmeep31"
 

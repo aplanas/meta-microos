@@ -10,6 +10,7 @@ RPM_HASH = "baad8fb2a9cb35b00d9c0324425beb21eb5839385549c9cf60c89b8ccee3625c08d8
 RPROVIDES:${PN} += "ghc-pandoc-prof \
 ghc-pandoc-prof(aarch-64) \
 ghc-prof(pandoc-3.1.2-4COa82weJXB97OkqjDlb3I)"
+
 RDEPENDS:${PN} += "ghc-pandoc-devel \
 ghc-prof(Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R) \
 ghc-prof(JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS) \

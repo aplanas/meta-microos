@@ -15,6 +15,7 @@ locale(v4l-utils:pt_BR) \
 locale(v4l-utils:uk) \
 v4l-utils-lang \
 v4l-utils-lang-all"
+
 RDEPENDS:${PN} += "v4l-utils"
 
 inherit rpm

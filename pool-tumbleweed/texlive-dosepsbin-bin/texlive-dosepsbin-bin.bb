@@ -9,6 +9,7 @@ RPM_HASH = "1a23b2045317a3907a21a380d010300df3fd464e94f337c658dc3bc3fd5ea1205ad1
 
 RPROVIDES:${PN} += "texlive-dosepsbin-bin \
 texlive-dosepsbin-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-dosepsbin"
 
 inherit rpm

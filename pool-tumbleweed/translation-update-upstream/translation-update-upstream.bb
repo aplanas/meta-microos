@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translation-update-tool \
 translation-update-upstream"
+
 RDEPENDS:${PN} += "/bin/bash \
 coreutils \
 gettext-tools \

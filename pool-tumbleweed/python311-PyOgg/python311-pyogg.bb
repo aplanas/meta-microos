@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyogg) \
 python311-PyOgg \
 python3dist(pyogg)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -63,6 +63,7 @@ locale(libsecret:vi) \
 locale(libsecret:zh_CN) \
 locale(libsecret:zh_HK) \
 locale(libsecret:zh_TW)"
+
 RDEPENDS:${PN} += "libsecret"
 
 inherit rpm

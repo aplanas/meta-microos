@@ -14,6 +14,7 @@ RPM_HASH = "f3558bbb36c947a953947d91f472be815aefb2d78c221f6ec3519d34f1f9f4c2b854
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcangjie-data"
+
 RDEPENDS:${PN} += "libcangjie2"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(mate-applet-dock:es) \
 locale(mate-applet-dock:fr) \
 mate-applet-dock-lang \
 mate-applet-dock-lang-all"
+
 RDEPENDS:${PN} += "mate-applet-dock"
 
 inherit rpm

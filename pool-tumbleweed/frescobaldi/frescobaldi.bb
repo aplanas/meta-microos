@@ -24,6 +24,7 @@ python3.10dist(frescobaldi) \
 python3.10dist(python-ly) \
 python3dist(frescobaldi) \
 python3dist(python-ly)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 lilypond \
 python(abi) \

@@ -12,6 +12,7 @@ RPM_HASH = "bf3c301b72fa16df712cbcb8f4b114f4a7a53472c22721a1c41265c39560e38574aa
 
 RPROVIDES:${PN} += "runawk \
 runawk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

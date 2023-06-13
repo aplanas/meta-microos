@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-sqlvirtualmachine \
 python3.10dist(azure-mgmt-sqlvirtualmachine) \
 python310-azure-mgmt-sqlvirtualmachine \
 python3dist(azure-mgmt-sqlvirtualmachine)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

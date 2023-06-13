@@ -14,6 +14,7 @@ RPM_HASH = "29f2c383408a4b3272b041c6ff1c8424f6b17db32aa798b802b23b86f3682f0c8ab4
 RPROVIDES:${PN} += "libyara.so.10()(64bit) \
 libyara10 \
 libyara10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

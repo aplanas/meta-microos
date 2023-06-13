@@ -17,6 +17,7 @@ tex(txUprCal-Regular.tfm) \
 tex(txuprcal.sty) \
 tex(utxuprcal.fd) \
 texlive-txuprcal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

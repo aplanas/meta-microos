@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-javadoc-plugin \
 mvn(org.apache.maven.plugins:maven-javadoc-plugin) \
 mvn(org.apache.maven.plugins:maven-javadoc-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.qdox:qdox) \

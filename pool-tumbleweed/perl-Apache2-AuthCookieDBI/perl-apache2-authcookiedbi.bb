@@ -54,6 +54,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Apache2::AuthCookieDBI) \
 perl(Apache2_4::AuthCookieDBI) \
 perl-Apache2-AuthCookieDBI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Apache2::AuthCookie) \
 perl(Apache2::Const) \

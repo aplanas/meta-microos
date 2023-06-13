@@ -11,6 +11,7 @@ RPM_HASH = "7f763dfd54a5f6865b480aa92254007445d361e2301f12efde5b180b8c2432b55b90
 RPROVIDES:${PN} += "libndp-devel \
 libndp-devel(aarch-64) \
 pkgconfig(libndp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libndp0"
 

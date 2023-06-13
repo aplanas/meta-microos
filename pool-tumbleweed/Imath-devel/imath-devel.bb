@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "Imath-devel \
 Imath-devel(aarch-64) \
 cmake(Imath) \
 pkgconfig(Imath)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libImath-3_1-29 \
 libstdc++-devel"

@@ -11,6 +11,7 @@ RPM_HASH = "0f0d214622f2f698b76343f51b1ac5bcd43892a3aaf75ec1bf3f711a2d6b8d1c279d
 RPROVIDES:${PN} += "libonnx_proto \
 libonnx_proto(aarch-64) \
 libonnx_proto.so()(64bit)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

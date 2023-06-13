@@ -51,6 +51,7 @@ perl(Locale::Po4a::Xhtml) \
 perl(Locale::Po4a::Xml) \
 perl(Locale::Po4a::Yaml) \
 po4a"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 gettext-tools \

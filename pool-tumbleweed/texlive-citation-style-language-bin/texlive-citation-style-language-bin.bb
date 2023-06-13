@@ -9,6 +9,7 @@ RPM_HASH = "83737b66af583f88550db02b903d836a7bc245d5285fd4f5c88d6a733cdd9c310567
 
 RPROVIDES:${PN} += "texlive-citation-style-language-bin \
 texlive-citation-style-language-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-citation-style-language"
 
 inherit rpm

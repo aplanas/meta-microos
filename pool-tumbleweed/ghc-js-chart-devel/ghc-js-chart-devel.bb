@@ -10,6 +10,7 @@ RPM_HASH = "d41a16af1b4f2bd9aa5dbd278a3cd1a91bc09b3d495904517b1c309864bf0be95998
 RPROVIDES:${PN} += "ghc-devel(js-chart-2.9.4.1-3Q5pmv83RztDkZZL9zv96d) \
 ghc-js-chart-devel \
 ghc-js-chart-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

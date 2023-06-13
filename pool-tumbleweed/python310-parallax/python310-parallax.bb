@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-parallax \
 python3.10dist(parallax) \
 python310-parallax \
 python3dist(parallax)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 openssh \

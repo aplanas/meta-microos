@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DQuickScene2D) \
 pkgconfig(Qt63DQuickScene2D) \
 qt6-3dquickscene2d-devel \
 qt6-3dquickscene2d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt63DQuick) \

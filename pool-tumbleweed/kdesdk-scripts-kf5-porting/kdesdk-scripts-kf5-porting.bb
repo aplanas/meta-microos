@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kdesdk-scripts-kf5-porting \
 kdesdk-scripts-kf5-porting(aarch-64) \
 kdesdk4-scripts-kf5-porting \
 perl(functionUtilkde)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-calmjs \
 python3.10dist(calmjs) \
 python310-calmjs \
 python3dist(calmjs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

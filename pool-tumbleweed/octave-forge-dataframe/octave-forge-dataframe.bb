@@ -10,6 +10,7 @@ RPM_HASH = "bdf09f7dc6fbafb1df94731c8dc84762a6ee8119113d0a2bc38aeb93c615e5906a9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-dataframe"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

@@ -11,6 +11,7 @@ RPM_HASH = "ceb2503ae14e5cd23467aae90c75bf1870bed6e1fb0da57a47e8100fd3d58f8831cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "olm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

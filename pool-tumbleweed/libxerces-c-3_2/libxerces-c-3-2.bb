@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "Xerces-c \
 libxerces-c-3.2.so()(64bit) \
 libxerces-c-3_2 \
 libxerces-c-3_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

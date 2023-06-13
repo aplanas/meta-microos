@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:moneta) \
 rubygem(ruby:3.2.0:moneta:1) \
 rubygem(ruby:3.2.0:moneta:1.5) \
 rubygem(ruby:3.2.0:moneta:1.5.2)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

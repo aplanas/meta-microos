@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "mvn(org.fedoraproject.xmvn:xmvn-connector) \
 mvn(org.fedoraproject.xmvn:xmvn-connector:pom:) \
 xmvn-connector \
 xmvn-connector-aether"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.fedoraproject.xmvn:xmvn-api) \

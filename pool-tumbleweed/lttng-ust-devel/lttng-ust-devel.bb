@@ -13,6 +13,7 @@ lttng-ust-devel \
 lttng-ust-devel(aarch-64) \
 pkgconfig(lttng-ust) \
 pkgconfig(lttng-ust-ctl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 liblttng-ust-ctl5 \

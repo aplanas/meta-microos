@@ -19,6 +19,7 @@ notcurses-devel \
 notcurses-devel(aarch-64) \
 pkgconfig(notcurses) \
 pkgconfig(notcurses-ffi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnotcurses3 \
 pkgconfig(notcurses-core) \

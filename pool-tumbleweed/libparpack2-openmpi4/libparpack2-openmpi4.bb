@@ -12,6 +12,7 @@ RPM_HASH = "afbb9a58b743e300499c95142c7ca280cf29d6a7168df9d30149f126a750db26d9b7
 RPROVIDES:${PN} += "libparpack.so.2()(64bit) \
 libparpack2-openmpi4 \
 libparpack2-openmpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

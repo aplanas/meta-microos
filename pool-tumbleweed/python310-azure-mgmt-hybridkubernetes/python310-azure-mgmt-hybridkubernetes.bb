@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-hybridkubernetes \
 python3.10dist(azure-mgmt-hybridkubernetes) \
 python310-azure-mgmt-hybridkubernetes \
 python3dist(azure-mgmt-hybridkubernetes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Test) \
 pkgconfig(Qt6Test) \
 qt6-test-devel \
 qt6-test-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Test6 \

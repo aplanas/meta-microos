@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(environmental-override) \
 python311-environmental-override \
 python3dist(environmental-override)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

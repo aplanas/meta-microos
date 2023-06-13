@@ -13,6 +13,7 @@ RPM_HASH = "e5708896b85b9bef65567ba37ebb28e757bfee8ff1eabfda67b354a31d69f26783b0
 
 RPROVIDES:${PN} += "opensaml-bin \
 opensaml-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

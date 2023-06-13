@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(pynvim) \
 python311-neovim \
 python311-nvim \
 python3dist(pynvim)"
+
 RDEPENDS:${PN} += "neovim \
 python(abi) \
 python311-greenlet \

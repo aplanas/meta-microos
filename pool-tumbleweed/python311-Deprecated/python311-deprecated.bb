@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(deprecated) \
 python311-Deprecated \
 python311-deprecated \
 python3dist(deprecated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-wrapt"
 

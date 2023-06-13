@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(rainbow-zsh-completion) \
 rainbow-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

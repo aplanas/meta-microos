@@ -44,6 +44,7 @@ locale(kalendar:tr) \
 locale(kalendar:uk) \
 locale(kalendar:zh_CN) \
 locale(kalendar:zh_TW)"
+
 RDEPENDS:${PN} += "kalendar"
 
 inherit rpm

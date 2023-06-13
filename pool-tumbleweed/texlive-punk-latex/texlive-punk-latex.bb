@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ot1pnk.fd) \
 tex(punk.sty) \
 texlive-punk-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

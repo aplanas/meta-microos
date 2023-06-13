@@ -44,6 +44,7 @@ locale(kalk:tr) \
 locale(kalk:uk) \
 locale(kalk:zh_CN) \
 locale(kalk:zh_TW)"
+
 RDEPENDS:${PN} += "kalk"
 
 inherit rpm

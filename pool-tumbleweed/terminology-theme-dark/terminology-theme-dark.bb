@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-dark"
+
 RDEPENDS:${PN} += "terminology"
 
 inherit rpm

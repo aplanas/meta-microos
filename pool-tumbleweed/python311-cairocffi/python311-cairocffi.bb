@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cairocffi) \
 python311-cairocffi \
 python3dist(cairocffi)"
+
 RDEPENDS:${PN} += "cairo \
 python(abi) \
 python311-cffi \

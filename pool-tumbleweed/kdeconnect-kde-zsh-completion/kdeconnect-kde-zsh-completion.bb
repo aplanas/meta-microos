@@ -9,6 +9,7 @@ RPM_HASH = "d6ecc0dea0c8324911eacd584d1c5b11f96b409e1484b297d10fbafda116b20bb5d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeconnect-kde-zsh-completion"
+
 RDEPENDS:${PN} += "kdeconnect-kde"
 
 inherit rpm

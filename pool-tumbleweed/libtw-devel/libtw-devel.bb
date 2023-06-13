@@ -10,6 +10,7 @@ RPM_HASH = "7f23edc908d01c4a5843f7cf5147e3085d7b0568ceb1f5b7927e70dc0e497ef855d1
 RPROVIDES:${PN} += "libTw-devel \
 libtw-devel \
 libtw-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtstl1 \
 libtw1"
 

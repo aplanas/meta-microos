@@ -11,6 +11,7 @@ RPM_HASH = "bd141aa7af0e33081c409fca221c930af89ec2d3090e7bc30916863dc64a8c9550b4
 RPROVIDES:${PN} += "audit-libs-python3 \
 python3-audit \
 python3-audit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaudit.so.1()(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "b8a725cadfcec1c62da0e6df733ac6d9df6f7c9b0bf4495f3f54fc6cdbe011372dad
 
 RPROVIDES:${PN} += "libdnet-devel \
 libdnet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 libdnet1"

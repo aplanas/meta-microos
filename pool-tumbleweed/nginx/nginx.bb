@@ -16,6 +16,7 @@ nginx \
 nginx(aarch-64) \
 perl(nginx) \
 user(nginx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

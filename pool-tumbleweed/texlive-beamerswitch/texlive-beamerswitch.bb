@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamerswitch.cls) \
 texlive-beamerswitch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

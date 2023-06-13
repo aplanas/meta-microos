@@ -11,6 +11,7 @@ RPM_HASH = "001c9c0f639f1d6574d3d9b0699b4dfc993a599d0238192838e179e927ab86112e99
 
 RPROVIDES:${PN} += "uwsgi-xslt \
 uwsgi-xslt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

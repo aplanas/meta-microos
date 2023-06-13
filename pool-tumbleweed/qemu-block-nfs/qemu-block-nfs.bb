@@ -10,6 +10,7 @@ RPM_HASH = "15ef2c1ca5935dea878f66989c60685709b7330ed9a5ac503e5745f56edf727d1ed0
 
 RPROVIDES:${PN} += "qemu-block-nfs \
 qemu-block-nfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

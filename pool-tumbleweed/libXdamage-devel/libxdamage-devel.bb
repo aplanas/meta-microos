@@ -14,6 +14,7 @@ RPM_HASH = "3cf994c1169d1953ef7bbbddbfe8c9dcb686e3001fc1934977e9aaeaba041326a1e8
 RPROVIDES:${PN} += "libXdamage-devel \
 libXdamage-devel(aarch-64) \
 pkgconfig(xdamage)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXdamage1 \
 pkgconfig(damageproto) \

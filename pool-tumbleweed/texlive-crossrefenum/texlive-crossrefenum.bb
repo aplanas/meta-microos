@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "tex(crossrefenum.sty) \
 tex(crossrefenum.tex) \
 tex(t-crossrefenum.tex) \
 texlive-crossrefenum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

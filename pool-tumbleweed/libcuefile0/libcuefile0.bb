@@ -11,6 +11,7 @@ RPM_HASH = "e0710649bbf94f0aa59247166c66fb58d72108f3d191b9b750048f550e68c10627df
 RPROVIDES:${PN} += "libcuefile.so.0()(64bit) \
 libcuefile0 \
 libcuefile0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

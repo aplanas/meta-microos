@@ -11,6 +11,7 @@ RPM_HASH = "22c1297773a051b309e204d6b3db21c09f997e46518120c7fca15eced1dd54fbda19
 
 RPROVIDES:${PN} += "libsigsegv-devel \
 libsigsegv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsigsegv2"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "10f938651c09c48867237fb26c2be022d1612738928d6344b2fcfddc20baf24197f3
 RPROVIDES:${PN} += "ghc-digest-prof \
 ghc-digest-prof(aarch-64) \
 ghc-prof(digest-0.0.1.7-CCCN8814sFy3HuiyT8t94G)"
+
 RDEPENDS:${PN} += "ghc-digest-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0)"

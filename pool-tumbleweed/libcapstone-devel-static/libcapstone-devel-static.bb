@@ -9,6 +9,7 @@ RPM_HASH = "abe5cca61643af1d7c15eacbff0b72454b46ca9fd83d3a61c933494737d52cbc0e09
 
 RPROVIDES:${PN} += "libcapstone-devel-static \
 libcapstone-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libcapstone-devel"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sentry-sdk) \
 python39-sentry-sdk \
 python3dist(sentry-sdk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-Flask \

@@ -10,6 +10,7 @@ RPM_HASH = "553f6b302693e76e1dbb97fdea8423cbe079483ec22c62f7d946d81220ab22dc7a3d
 RPROVIDES:${PN} += "ghc-cpphs-prof \
 ghc-cpphs-prof(aarch-64) \
 ghc-prof(cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj)"
+
 RDEPENDS:${PN} += "ghc-cpphs-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(directory-1.3.7.1) \

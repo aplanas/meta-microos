@@ -15,6 +15,7 @@ RPM_HASH = "22178cbb8236075254cbda23885d7eabec9dacf8a638961880619124dcbf3f15e932
 RPROVIDES:${PN} += "libjsonrpc-glib-1.0.so.1()(64bit) \
 libjsonrpc-glib-1_0-1 \
 libjsonrpc-glib-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

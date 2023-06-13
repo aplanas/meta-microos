@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-onnxconverter-common \
 python3.10dist(onnxconverter-common) \
 python310-onnxconverter-common \
 python3dist(onnxconverter-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-onnx \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jsonlines) \
 python311-jsonlines \
 python3dist(jsonlines)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

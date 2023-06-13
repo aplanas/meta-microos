@@ -9,6 +9,7 @@ RPM_HASH = "23bf4b18bbd044d8856f257748e389995574cb125da624fe761330c8d2e8da503314
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yadm-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

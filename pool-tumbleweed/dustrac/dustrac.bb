@@ -16,6 +16,7 @@ dustrac \
 dustrac(aarch-64) \
 metainfo() \
 metainfo(dustrac.appdata.xml)"
+
 RDEPENDS:${PN} += "dejavu-fonts \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

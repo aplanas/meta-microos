@@ -10,6 +10,7 @@ RPM_HASH = "dceb006bb83871fd8217cca675587845cc22f262352834766c3dc9d378b623b29516
 
 RPROVIDES:${PN} += "tetrinet-server \
 tetrinet-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadns.so.1()(64bit) \

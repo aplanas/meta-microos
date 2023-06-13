@@ -16,6 +16,7 @@ RPM_HASH = "19e6aa4d91a977aa77c5fb5fad6d48cc0cdafd8fa89561ea6fff4c1a128667b1dc78
 
 RPROVIDES:${PN} += "pari-devel \
 pari-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpari-gmp-tls8"
 
 inherit rpm

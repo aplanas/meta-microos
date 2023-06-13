@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-panel-branding-openSUSE) \
 xfce4-panel-branding \
 xfce4-panel-branding-openSUSE"
+
 RDEPENDS:${PN} += "xfce4-panel-plugin-whiskermenu"
 
 inherit rpm

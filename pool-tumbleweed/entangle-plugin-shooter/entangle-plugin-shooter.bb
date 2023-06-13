@@ -13,6 +13,7 @@ RPM_HASH = "69b2407156fc0c6bb1b237c78902fc1db15fb7ca6950f5a778f274f4f42b886df33d
 
 RPROVIDES:${PN} += "entangle-plugin-shooter \
 entangle-plugin-shooter(aarch-64)"
+
 RDEPENDS:${PN} += "entangle \
 python3 \
 python3-gobject \

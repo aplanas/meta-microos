@@ -18,6 +18,7 @@ perl(SGMLS_Entity) \
 perl(SGMLS_Event) \
 perl(SGMLS_Notation) \
 texlive-latex-web-companion"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

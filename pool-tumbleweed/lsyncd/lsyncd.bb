@@ -10,6 +10,7 @@ RPM_HASH = "927ea2259de9ce7a990175b2157d1baabb49875c98f2e8c83a4b06b42020750bc707
 RPROVIDES:${PN} += "config(lsyncd) \
 lsyncd \
 lsyncd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

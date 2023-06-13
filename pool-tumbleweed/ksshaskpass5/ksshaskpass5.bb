@@ -10,6 +10,7 @@ RPM_HASH = "63a8f05755c6e1c61d70db790d0ef588ae4d910cd092d4432b3cfdfd9ef25e0e3332
 RPROVIDES:${PN} += "ksshaskpass \
 ksshaskpass5 \
 ksshaskpass5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

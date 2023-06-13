@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(scikit-sound) \
 python311-scikit-sound \
 python3dist(scikit-sound)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-appdirs \

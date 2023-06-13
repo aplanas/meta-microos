@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arabi-add.sty) \
 texlive-arabi-add"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

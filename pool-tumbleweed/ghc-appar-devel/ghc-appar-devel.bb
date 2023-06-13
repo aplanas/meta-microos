@@ -10,6 +10,7 @@ RPM_HASH = "952020a64a08a3126d01d6fc9e357939bb4eb34395f5b492358c2fc0217ab7d4cb70
 RPROVIDES:${PN} += "ghc-appar-devel \
 ghc-appar-devel(aarch-64) \
 ghc-devel(appar-0.1.8-JYpyJYPkUOgKorqU8WSWRv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-appar \
 ghc-compiler \

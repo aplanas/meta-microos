@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-ovl.sty) \
 tex(pst-ovl.tex) \
 texlive-pst-ovl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

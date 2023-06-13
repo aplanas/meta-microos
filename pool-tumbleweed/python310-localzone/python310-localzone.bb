@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-localzone \
 python3.10dist(localzone) \
 python310-localzone \
 python3dist(localzone)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dnspython"
 

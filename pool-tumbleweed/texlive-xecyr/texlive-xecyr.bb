@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xecyr.sty) \
 texlive-xecyr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

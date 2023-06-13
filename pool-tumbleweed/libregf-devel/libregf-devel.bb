@@ -14,6 +14,7 @@ RPM_HASH = "e598d258f2755571aaa891282962afc59e35d57fd422fe1a1b637eadb045f1194a6f
 RPROVIDES:${PN} += "libregf-devel \
 libregf-devel(aarch-64) \
 pkgconfig(libregf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libregf1"

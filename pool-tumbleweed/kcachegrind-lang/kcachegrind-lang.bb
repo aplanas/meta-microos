@@ -68,6 +68,7 @@ locale(kcachegrind:ug) \
 locale(kcachegrind:uk) \
 locale(kcachegrind:zh_CN) \
 locale(kcachegrind:zh_TW)"
+
 RDEPENDS:${PN} += "kcachegrind"
 
 inherit rpm

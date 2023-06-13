@@ -11,6 +11,7 @@ RPM_HASH = "aa951acc7d5a0494415f8d2ba85bdc034bc4930dbf8f71ebf7bcd572ac8c6872f7a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nuoveXT2-icon-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

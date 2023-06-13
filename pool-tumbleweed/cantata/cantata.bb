@@ -37,6 +37,7 @@ RPROVIDES:${PN} += "application() \
 application(cantata.desktop) \
 cantata \
 cantata(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 hicolor-icon-theme \

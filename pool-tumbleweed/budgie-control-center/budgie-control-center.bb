@@ -44,6 +44,7 @@ budgie-control-center \
 budgie-control-center(aarch-64) \
 metainfo() \
 metainfo(budgie-control-center.appdata.xml)"
+
 RDEPENDS:${PN} += "colord \
 gnome-color-manager \
 gnome-online-accounts \

@@ -9,6 +9,7 @@ RPM_HASH = "be38bea11b3476d14d4a22728d8ff951897ad491f2280ed2df9ae56dcf380888bc47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-carolmin-ps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

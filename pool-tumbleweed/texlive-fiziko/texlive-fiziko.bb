@@ -15,6 +15,7 @@ RPM_HASH = "22ad4f5a55bc9a51d78425620e0639461a308d5c364818e54ccee60090bfae75a007
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fiziko"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -20,6 +20,7 @@ RPM_HASH = "de6be022a030e8e65323a77ae95d7cee0a565452c6d4c245aa40883b0c860907e16b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ws-jaxme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

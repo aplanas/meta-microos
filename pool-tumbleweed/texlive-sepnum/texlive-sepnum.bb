@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sepnum.sty) \
 texlive-sepnum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

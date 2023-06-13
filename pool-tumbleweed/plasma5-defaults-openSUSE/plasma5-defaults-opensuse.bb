@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(plasma5-defaults-openSUSE) \
 plasma5-defaults-openSUSE"
+
 RDEPENDS:${PN} += "distribution-logos-openSUSE-icons \
 plasma5-theme-openSUSE"
 

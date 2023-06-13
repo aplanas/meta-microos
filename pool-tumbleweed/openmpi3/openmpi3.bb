@@ -27,6 +27,7 @@ RPM_HASH = "75a1f90fbe56a70572ab2ade0c0604a0466f808371df9470272a02916525472747e2
 RPROVIDES:${PN} += "mpi \
 openmpi3 \
 openmpi3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

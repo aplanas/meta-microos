@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libloadpng-devel \
 libloadpng44-devel \
 libloadpng44-devel(aarch-64) \
 pkgconfig(loadpng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libloadpng4_4 \
 pkgconfig(allegro)"

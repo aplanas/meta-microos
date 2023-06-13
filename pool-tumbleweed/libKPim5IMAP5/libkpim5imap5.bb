@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kimap \
 libKPim5IMAP.so.5()(64bit) \
 libKPim5IMAP5 \
 libKPim5IMAP5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cyrus-sasl-crammd5 \
 cyrus-sasl-digestmd5 \

@@ -10,6 +10,7 @@ RPM_HASH = "7dd159e4a2c2c1a5fbfcc76a15ecbbf8c40464bbdbb44c57c82b911b22f027f78fb8
 
 RPROVIDES:${PN} += "bind-modules-ldap \
 bind-modules-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

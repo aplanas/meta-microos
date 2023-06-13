@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(TangramTikz.sty) \
 texlive-tangramtikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

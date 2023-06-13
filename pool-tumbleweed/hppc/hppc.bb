@@ -15,6 +15,7 @@ mvn(com.carrotsearch:hppc) \
 mvn(com.carrotsearch:hppc-parent:pom:) \
 mvn(com.carrotsearch:hppc::esoteric:) \
 mvn(com.carrotsearch:hppc:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api)"

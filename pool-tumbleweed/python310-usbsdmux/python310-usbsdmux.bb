@@ -14,6 +14,7 @@ python3.10dist(usbsdmux) \
 python310-usbsdmux \
 python310-usbsdmux(aarch-64) \
 python3dist(usbsdmux)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.10 \

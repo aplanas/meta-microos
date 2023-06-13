@@ -9,6 +9,7 @@ RPM_HASH = "90300a42a249fc4346395a3f30a4f85f69ed973f928b71209339773b6e1897fc7f84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beton-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfescape.sty) \
 texlive-pdfescape"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

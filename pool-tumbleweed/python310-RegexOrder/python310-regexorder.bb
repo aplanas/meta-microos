@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-RegexOrder \
 python3.10dist(regexorder) \
 python310-RegexOrder \
 python3dist(regexorder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-regex"
 

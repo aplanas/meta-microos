@@ -11,6 +11,7 @@ RPM_HASH = "0db0423843fc2fcf63ad2bb3e13103377cb91d564ec28f77d8c322bcf952c9d77915
 RPROVIDES:${PN} += "libreoffice-voikko \
 libreoffice-voikko(aarch-64) \
 locale(libreoffice:fi)"
+
 RDEPENDS:${PN} += "python3-libvoikko"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "7c50335fafa5085b7ec748d56856631944e9287db30abd9d599cdb2c51222f4f5a18
 RPROVIDES:${PN} += "ghc-X11-xft-devel \
 ghc-X11-xft-devel(aarch-64) \
 ghc-devel(X11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-X11-xft \
 ghc-compiler \

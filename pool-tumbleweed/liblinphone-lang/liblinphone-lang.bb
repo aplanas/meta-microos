@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblinphone-lang \
 liblinphone-lang-all"
+
 RDEPENDS:${PN} += "liblinphone"
 
 inherit rpm

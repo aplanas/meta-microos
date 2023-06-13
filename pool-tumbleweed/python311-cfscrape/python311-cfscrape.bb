@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cfscrape) \
 python311-cfscrape \
 python3dist(cfscrape)"
+
 RDEPENDS:${PN} += "nodejs \
 python(abi) \
 python311-requests"

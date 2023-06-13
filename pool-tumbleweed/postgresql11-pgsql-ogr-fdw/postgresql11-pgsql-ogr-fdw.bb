@@ -11,6 +11,7 @@ RPM_HASH = "273b1ebdcc458cbf35c5f70cd6a469c49f2168c4a21f925e0ef30c931aa46676949b
 
 RPROVIDES:${PN} += "postgresql11-pgsql-ogr-fdw \
 postgresql11-pgsql-ogr-fdw(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

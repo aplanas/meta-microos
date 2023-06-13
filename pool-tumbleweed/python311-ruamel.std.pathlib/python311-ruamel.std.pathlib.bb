@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ruamel.std.pathlib) \
 python311-ruamel.std.pathlib \
 python3dist(ruamel.std.pathlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ruamel.base"
 

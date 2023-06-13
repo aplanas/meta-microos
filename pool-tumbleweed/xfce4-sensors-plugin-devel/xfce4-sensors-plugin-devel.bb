@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(libxfce4sensors-1.0) \
 xfce4-panel-plugin-sensors-devel \
 xfce4-sensors-plugin-devel \
 xfce4-sensors-plugin-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(libxfce4ui-2) \
 pkgconfig(libxfce4util-1.0) \

@@ -12,6 +12,7 @@ RPM_HASH = "0528767063604a09094f2b085e2182feea7ba7fe9c71f9e5102340d849dc9d086fa1
 RPROVIDES:${PN} += "fam-server \
 gamin-server \
 gamin-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "110b7e4acfcd5c48dcb3134cbc10a84745b0e573dc15e5adc8188bbf896f38fd2f37
 RPROVIDES:${PN} += "libpoppler-qt6-devel \
 libpoppler-qt6-devel(aarch-64) \
 pkgconfig(poppler-qt6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Gui) \

@@ -32,6 +32,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(cmathbb) \
 texlive-cmathbb-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

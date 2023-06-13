@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-marketplacecommerceanalytics \
 mvn(com.amazonaws:aws-java-sdk-marketplacecommerceanalytics) \
 mvn(com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.amazonaws:aws-java-sdk-core)"

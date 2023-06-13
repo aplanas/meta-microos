@@ -49,6 +49,7 @@ locale(zanshin:zh_CN) \
 locale(zanshin:zh_TW) \
 zanshin-lang \
 zanshin-lang-all"
+
 RDEPENDS:${PN} += "zanshin"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "0447901f86bde39d1ec0d66c64696dbdb3f601982416a4e1752468415fadf3cb0f92
 RPROVIDES:${PN} += "fcitx5-pinyindictmanager \
 fcitx5-pinyindictmanager(aarch-64) \
 libpinyindictmanager.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5Qt5WidgetsAddons.so.2()(64bit) \

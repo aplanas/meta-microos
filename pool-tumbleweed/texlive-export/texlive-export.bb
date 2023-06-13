@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dvipaste.sty) \
 tex(export.sty) \
 texlive-export"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

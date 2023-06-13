@@ -11,6 +11,7 @@ RPM_HASH = "ae37e01255ba6fcc03993fa86557fc6fd8a6e4df124619d5a88888ee1f12433b13da
 RPROVIDES:${PN} += "libkea-cryptolink.so.28()(64bit) \
 libkea-cryptolink28 \
 libkea-cryptolink28(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

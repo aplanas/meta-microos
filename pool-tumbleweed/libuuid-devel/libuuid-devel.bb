@@ -11,6 +11,7 @@ RPM_HASH = "a0bc09d136fef4ff5b0deed1f12d9bbc764b5153240a42a957af54aab30274d2398b
 RPROVIDES:${PN} += "libuuid-devel \
 libuuid-devel(aarch-64) \
 pkgconfig(uuid)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuuid1"
 

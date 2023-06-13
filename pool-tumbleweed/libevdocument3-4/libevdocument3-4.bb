@@ -11,6 +11,7 @@ RPM_HASH = "dd2e6040a4c83b25ad7b88e629c2ccd1808735d0a536130c23aa1b47049d72b46f05
 RPROVIDES:${PN} += "libevdocument3-4 \
 libevdocument3-4(aarch-64) \
 libevdocument3.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

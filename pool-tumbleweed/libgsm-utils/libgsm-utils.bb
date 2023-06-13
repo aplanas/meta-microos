@@ -18,6 +18,7 @@ RPM_HASH = "a1b3407cf6cabd256dc9acb6db584b041c66bd226aa965daa402eb9fb32fe9e48517
 
 RPROVIDES:${PN} += "libgsm-utils \
 libgsm-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

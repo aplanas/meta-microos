@@ -11,6 +11,7 @@ RPM_HASH = "88a66daa1f45a18dc77ae9a872b08df35756e10fd5b5166d096f40024712670a27d1
 
 RPROVIDES:${PN} += "samtools \
 samtools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 bgzip \
 ld-linux-aarch64.so.1()(64bit) \

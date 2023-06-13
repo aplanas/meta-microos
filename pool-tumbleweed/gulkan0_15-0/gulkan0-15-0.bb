@@ -10,6 +10,7 @@ RPM_HASH = "03b5589e5d5e8908e1da414887df41b45dd062d371bd910c3b9c2c50bbe400fafca2
 RPROVIDES:${PN} += "gulkan0_15-0 \
 gulkan0_15-0(aarch-64) \
 libgulkan-0.15.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcairo.so.2()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "disruptor \
 mvn(com.lmax:disruptor) \
 mvn(com.lmax:disruptor:pom:) \
 osgi(com.lmax.disruptor)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

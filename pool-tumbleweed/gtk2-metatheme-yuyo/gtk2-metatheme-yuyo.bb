@@ -10,6 +10,7 @@ RPM_HASH = "744a334352f6f63710d4df980ada0183c02dbf2eca6eb2ea0a7441b58dea57ef64b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-yuyo"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-yuyo-common"
 

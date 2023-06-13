@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipyvue) \
 python39-ipyvue \
 python3dist(ipyvue)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ipywidgets"
 

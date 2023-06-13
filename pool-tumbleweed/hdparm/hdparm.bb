@@ -11,6 +11,7 @@ RPM_HASH = "5aa78ee862442e2be8a5869d528376760af49152d73b3ba7a541b2d3666b02548360
 RPROVIDES:${PN} += "base:/sbin/hdparm \
 hdparm \
 hdparm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

@@ -137,6 +137,7 @@ font(chivomedium) \
 font(chivosemibold) \
 font(chivothin) \
 texlive-chivo-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

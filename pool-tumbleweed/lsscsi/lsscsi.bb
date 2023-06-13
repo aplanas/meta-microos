@@ -10,6 +10,7 @@ RPM_HASH = "27a95e497e4605f4638dccbe99df7019feb68443456fa37d089004f6b25de01d062c
 RPROVIDES:${PN} += "lsscsi \
 lsscsi(aarch-64) \
 scsi:/usr/bin/lsscsi"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

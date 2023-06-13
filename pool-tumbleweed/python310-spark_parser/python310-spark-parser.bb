@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-spark_parser \
 python3.10dist(spark-parser) \
 python310-spark_parser \
 python3dist(spark-parser)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

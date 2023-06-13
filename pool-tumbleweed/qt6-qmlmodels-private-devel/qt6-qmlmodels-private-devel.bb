@@ -10,6 +10,7 @@ RPM_HASH = "4071d8b702ffa9b5bf455b20e778d799226ac26f870cb75c4ebaba5a6afe54a83c1d
 
 RPROVIDES:${PN} += "qt6-qmlmodels-private-devel \
 qt6-qmlmodels-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QmlModels) \
 qt6-core-private-devel \
 qt6-qml-private-devel"

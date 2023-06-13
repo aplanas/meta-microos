@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(whatthepatch) \
 python39-whatthepatch \
 python3dist(whatthepatch)"
+
 RDEPENDS:${PN} += "ed \
 patch \
 python(abi)"

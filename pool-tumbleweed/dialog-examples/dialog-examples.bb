@@ -9,6 +9,7 @@ RPM_HASH = "8a04da1cc2845198a94d906b53dda9f08fcd8e7fb4d3709a134a97973a4e426e0567
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dialog-examples"
+
 RDEPENDS:${PN} += "dialog"
 
 inherit rpm

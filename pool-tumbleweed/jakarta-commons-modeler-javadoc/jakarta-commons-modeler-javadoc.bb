@@ -15,6 +15,7 @@ RPM_HASH = "a83ee8d038883c31ff6194fae70fe676c2f852cc2eccce563c826902248f7c923d89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-modeler-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

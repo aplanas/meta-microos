@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newsletr.tex) \
 texlive-newsletr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

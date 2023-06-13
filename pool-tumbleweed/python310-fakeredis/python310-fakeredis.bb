@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fakeredis \
 python3.10dist(fakeredis) \
 python310-fakeredis \
 python3dist(fakeredis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-redis \
 python310-sortedcontainers"

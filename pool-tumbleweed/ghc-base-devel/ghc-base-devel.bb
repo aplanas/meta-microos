@@ -17,6 +17,7 @@ ghc-devel(ghc-prim-0.9.0) \
 ghc-devel(integer-gmp-1.1) \
 ghc-devel(rts-1.0.2) \
 ghc-devel(system-cxx-std-lib-1.0)"
+
 RDEPENDS:${PN} += "ghc-base(aarch-64) \
 ghc-compiler \
 gmp-devel \

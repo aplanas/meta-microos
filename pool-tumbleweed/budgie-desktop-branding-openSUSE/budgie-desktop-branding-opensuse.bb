@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-desktop-branding \
 budgie-desktop-branding-openSUSE"
+
 RDEPENDS:${PN} += "adwaita-icon-theme \
 branding-openSUSE \
 budgie-desktop \

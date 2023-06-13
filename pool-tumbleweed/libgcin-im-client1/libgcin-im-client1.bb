@@ -10,6 +10,7 @@ RPM_HASH = "c45af1de201444d78dd8f0b6f90ad90119df8d0f6b49ebc3084f7749669047e0f7d1
 RPROVIDES:${PN} += "libgcin-im-client.so.1()(64bit) \
 libgcin-im-client1 \
 libgcin-im-client1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

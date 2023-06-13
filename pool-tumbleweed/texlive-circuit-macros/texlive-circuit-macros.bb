@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(boxdims.sty) \
 texlive-circuit-macros"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-japanese-otf-doc:en;ja) \
 texlive-japanese-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

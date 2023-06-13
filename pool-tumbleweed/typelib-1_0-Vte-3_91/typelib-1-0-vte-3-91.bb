@@ -14,6 +14,7 @@ RPM_HASH = "3ed910229b03703c2365a40e7a7e611b6043e254d9ab1cedf36182b6e8b0a848cdf7
 RPROVIDES:${PN} += "typelib(Vte) \
 typelib-1_0-Vte-3_91 \
 typelib-1_0-Vte-3_91(aarch-64)"
+
 RDEPENDS:${PN} += "libvte-2.91-gtk4.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "file-devel \
 file-devel(aarch-64) \
 file:/usr/include/magic.h \
 pkgconfig(libmagic)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libmagic1"

@@ -27,6 +27,7 @@ tex(scanbase.tex) \
 tex(scancsv.tex) \
 tex(xmlparser.tex) \
 texlive-olsak-misc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

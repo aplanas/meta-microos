@@ -10,6 +10,7 @@ RPM_HASH = "c3eb7242bb062c16b638ce75d20f8f6367ac81ca6044223c71f8438c55c403ddd062
 
 RPROVIDES:${PN} += "parpack-openmpi2-devel \
 parpack-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel \
 gcc-fortran \
 lapack-devel \

@@ -10,6 +10,7 @@ RPM_HASH = "5a27deaa7c622ee44c3492c576e9ea650ffa029875d0cc9b3fbba855ef0498cd8a75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gluster"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ pkgconfig(WINGs) \
 pkgconfig(WUtil) \
 pkgconfig(wmlib) \
 pkgconfig(wrlib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 WindowMaker \
 pkgconfig(WUtil) \

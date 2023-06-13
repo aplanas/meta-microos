@@ -12,6 +12,7 @@ RPM_HASH = "fb96fc13fbc161e03590e0e0ca3c593a303f428868e67598a9515ce41d1e03875c46
 RPROVIDES:${PN} += "cmake(KF5NewStuffCore) \
 knewstuff-core-devel \
 knewstuff-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Attica) \
 extra-cmake-modules \
 libKF5NewStuffCore5"

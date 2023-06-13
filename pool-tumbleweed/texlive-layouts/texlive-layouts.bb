@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(layouts.sty) \
 texlive-layouts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

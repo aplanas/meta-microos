@@ -10,6 +10,7 @@ RPM_HASH = "15679c1dd5a18d2b6220b7c9347a7ea1c2caecd27431cd1ce10735e73588633ada90
 
 RPROVIDES:${PN} += "mailutils-imap4d \
 mailutils-imap4d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

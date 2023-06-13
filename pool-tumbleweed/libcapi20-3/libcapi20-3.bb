@@ -15,6 +15,7 @@ lib_capi_mod_std.so.2()(64bit) \
 libcapi20-3 \
 libcapi20-3(aarch-64) \
 libcapi20.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

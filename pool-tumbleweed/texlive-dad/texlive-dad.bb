@@ -20,6 +20,7 @@ tex(dadreal.tfm) \
 tex(dadrealbold.tfm) \
 tex(dadrealmono.tfm) \
 texlive-dad"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

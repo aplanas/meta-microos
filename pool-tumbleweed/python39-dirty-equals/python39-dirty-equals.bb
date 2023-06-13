@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dirty-equals) \
 python39-dirty-equals \
 python3dist(dirty-equals)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytz"
 

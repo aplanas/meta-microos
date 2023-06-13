@@ -12,6 +12,7 @@ RPM_HASH = "50449443054440e072759d4479ef1189e51e53d6a76851a3e0cebead5f18d95f516f
 
 RPROVIDES:${PN} += "mcpp-devel \
 mcpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmcpp0 \
 mcpp"
 

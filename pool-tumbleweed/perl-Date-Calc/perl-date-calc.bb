@@ -19,6 +19,7 @@ perl(Date::Calendar) \
 perl(Date::Calendar::Profiles) \
 perl(Date::Calendar::Year) \
 perl-Date-Calc"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Bit::Vector) \
 perl(Carp::Clan)"

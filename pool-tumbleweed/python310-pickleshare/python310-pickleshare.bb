@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pickleshare \
 python3.10dist(pickleshare) \
 python310-pickleshare \
 python3dist(pickleshare)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -46,6 +46,7 @@ locale(glabels:tr) \
 locale(glabels:zh_CN) \
 locale(glabels:zh_HK) \
 locale(glabels:zh_TW)"
+
 RDEPENDS:${PN} += "glabels"
 
 inherit rpm

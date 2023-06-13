@@ -14,6 +14,7 @@ RPM_HASH = "4a8fc156552c6fe502a084114f0281b6e8427fe3aebd686e00dc78431bfdb52a4452
 RPROVIDES:${PN} += "typelib(GstWebRTC) \
 typelib-1_0-GstWebRTC-1_0 \
 typelib-1_0-GstWebRTC-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstwebrtc-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

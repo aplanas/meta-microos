@@ -34,6 +34,7 @@ RPROVIDES:${PN} += "jaxp_transform_impl \
 mvn(saxon:saxon) \
 saxon \
 saxon6"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/update-alternatives \
 java-headless \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyyaml-env-tag) \
 python311-pyyaml_env_tag \
 python3dist(pyyaml-env-tag)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML"
 

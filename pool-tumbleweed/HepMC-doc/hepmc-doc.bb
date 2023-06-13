@@ -13,6 +13,7 @@ RPM_HASH = "e5b52d6dc5a0aa3c98535f2daaff040db81cd11a7ee63f08ae5b5979a3f890892fe2
 
 RPROVIDES:${PN} += "HepMC-doc \
 HepMC-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

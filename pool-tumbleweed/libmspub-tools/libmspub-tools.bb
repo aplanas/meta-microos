@@ -9,6 +9,7 @@ RPM_HASH = "0522a7ae4a5ee478e55d4f8883577a830483214a02a4fdcd5f3bcf12a96a8af00c78
 
 RPROVIDES:${PN} += "libmspub-tools \
 libmspub-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

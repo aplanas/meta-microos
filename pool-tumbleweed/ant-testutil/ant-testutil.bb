@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ant-testutil \
 config(ant-testutil) \
 mvn(org.apache.ant:ant-testutil) \
 mvn(org.apache.ant:ant-testutil:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

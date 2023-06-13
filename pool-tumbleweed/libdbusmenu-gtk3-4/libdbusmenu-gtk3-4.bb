@@ -10,6 +10,7 @@ RPM_HASH = "9d5d21edd6ba8e660462c822f3f9c95fcb1409af09f76207362d812d4f7c314fe11b
 RPROVIDES:${PN} += "libdbusmenu-gtk3-4 \
 libdbusmenu-gtk3-4(aarch-64) \
 libdbusmenu-gtk3.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

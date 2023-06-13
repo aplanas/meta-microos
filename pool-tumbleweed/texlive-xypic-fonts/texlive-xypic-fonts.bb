@@ -20,6 +20,7 @@ font(xyeubt) \
 font(xyluat) \
 font(xylubt) \
 texlive-xypic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

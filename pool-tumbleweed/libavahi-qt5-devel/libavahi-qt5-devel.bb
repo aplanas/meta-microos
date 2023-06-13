@@ -13,6 +13,7 @@ RPM_HASH = "d21bfdcd52164e204f292bf6d5761c5842d212d2d9914bc53381f22fc7ec031edc3a
 RPROVIDES:${PN} += "libavahi-qt5-devel \
 libavahi-qt5-devel(aarch-64) \
 pkgconfig(avahi-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavahi-devel \
 libavahi-qt5-1 \

@@ -22,6 +22,7 @@ RPM_HASH = "8d99580b3ce9f58829f621ed76e3bd3caa9304c1aba04c3a739e3bc567162bdd439a
 RPROVIDES:${PN} += "config(open-iscsi) \
 open-iscsi \
 open-iscsi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

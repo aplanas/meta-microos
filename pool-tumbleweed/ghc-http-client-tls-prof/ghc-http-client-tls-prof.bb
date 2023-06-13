@@ -10,6 +10,7 @@ RPM_HASH = "742c51c6901bab0fd46b2aa21ff69c645c721ec818266d2da5ac3a70df294714b763
 RPROVIDES:${PN} += "ghc-http-client-tls-prof \
 ghc-http-client-tls-prof(aarch-64) \
 ghc-prof(http-client-tls-0.3.6.1-1pQpHwWyWRWKJTeRlrZZA0)"
+
 RDEPENDS:${PN} += "ghc-http-client-tls-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

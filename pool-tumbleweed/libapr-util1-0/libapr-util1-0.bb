@@ -10,6 +10,7 @@ RPM_HASH = "04b2712d254224fc05f80f331615269e73968f4fd72523baad2f6d53ad3af1864514
 RPROVIDES:${PN} += "libapr-util1-0 \
 libapr-util1-0(aarch-64) \
 libaprutil-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ftnxtra.sty) \
 texlive-ftnxtra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

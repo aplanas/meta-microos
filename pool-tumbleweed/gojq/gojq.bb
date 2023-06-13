@@ -9,6 +9,7 @@ RPM_HASH = "6ebcff1002a4b53e905716d1dedff3bf9603d9a5c8aad3940507f65c3cee86dbe6af
 
 RPROVIDES:${PN} += "gojq \
 gojq(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

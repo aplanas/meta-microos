@@ -9,6 +9,7 @@ RPM_HASH = "a019851971f25126da7999afeabe0b02b4dd0aac53b8a0a34b3f406c65d9b9c804fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-idxcmds-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

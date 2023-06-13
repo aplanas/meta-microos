@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "borgmatic \
 config(borgmatic) \
 python3.10dist(borgmatic) \
 python3dist(borgmatic)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 borgbackup \

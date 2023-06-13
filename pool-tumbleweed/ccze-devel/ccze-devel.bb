@@ -10,6 +10,7 @@ RPM_HASH = "79acf368beb8236570076a1ff66e20056f48862220fb2d1fd41c5483f93f38ba3561
 
 RPROVIDES:${PN} += "ccze-devel \
 ccze-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ccze"
 
 inherit rpm

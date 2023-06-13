@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ragged2e.sty) \
 texlive-ragged2e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

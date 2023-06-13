@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-jupyter_nbextensions_configurator \
 python3.10dist(jupyter-nbextensions-configurator) \
 python310-jupyter_nbextensions_configurator \
 python3dist(jupyter-nbextensions-configurator)"
+
 RDEPENDS:${PN} += "jupyter-jupyter_nbextensions_configurator \
 python(abi) \
 python310-PyYAML \

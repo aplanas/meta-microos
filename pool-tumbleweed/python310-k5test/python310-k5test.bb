@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-k5test \
 python3.10dist(k5test) \
 python310-k5test \
 python3dist(k5test)"
+
 RDEPENDS:${PN} += "krb5-client \
 krb5-server \
 python(abi)"

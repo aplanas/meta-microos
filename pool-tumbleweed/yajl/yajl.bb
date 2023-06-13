@@ -12,6 +12,7 @@ RPM_HASH = "83b687b232f7472bb1f040028c9a910ba82def021527abe674bfeb81a4a7cb14c8f2
 
 RPROVIDES:${PN} += "yajl \
 yajl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -70,6 +70,7 @@ locale(ksudoku:ug) \
 locale(ksudoku:uk) \
 locale(ksudoku:zh_CN) \
 locale(ksudoku:zh_TW)"
+
 RDEPENDS:${PN} += "ksudoku"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "7babf859486d4b0589e6746919c65ad79134252a6550d10bf8ec769da15d492c808f
 RPROVIDES:${PN} += "libdnf.so.2()(64bit) \
 libdnf2 \
 libdnf2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-multipledispatch \
 python3.10dist(multipledispatch) \
 python310-multipledispatch \
 python3dist(multipledispatch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

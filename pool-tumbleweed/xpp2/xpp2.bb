@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(pull-parser:pull-parser) \
 mvn(pull-parser:pull-parser:pom:) \
 xpp2"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 xml-commons-apis"

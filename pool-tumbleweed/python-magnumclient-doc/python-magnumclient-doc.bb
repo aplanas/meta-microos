@@ -11,6 +11,7 @@ RPM_HASH = "d1e0f453082ffee54c86e7b41011c6fb6785edcb62218a79cb23d1a9cb55aec0ac30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-magnumclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

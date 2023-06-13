@@ -14,6 +14,7 @@ RPM_HASH = "5f89a5ea6b85dda729f38122d6a449d52b38d5ca645a42ad19e28ddc89bc2fadb39c
 
 RPROVIDES:${PN} += "appimaged \
 appimaged(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libarchive.so.13()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -68,6 +68,7 @@ locale(ghex:vi) \
 locale(ghex:wa) \
 locale(ghex:zh_CN) \
 locale(ghex:zh_TW)"
+
 RDEPENDS:${PN} += "ghex"
 
 inherit rpm

@@ -62,6 +62,7 @@ mimehandler(audio/x-vorbis) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav) \
 mimehandler(x-content/audio-player)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1-python3 \
 gstreamer-plugins-base \

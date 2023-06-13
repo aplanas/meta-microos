@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(gantt-s-mp.tex) \
 tex(gantt-s-tikz.tex) \
 tex(t-gantt.tex) \
 texlive-context-gantt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

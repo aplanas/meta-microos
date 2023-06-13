@@ -11,6 +11,7 @@ RPM_HASH = "5f5566abfeabc6181de85cf53d1e26e5795a65e222cecc49d7c5b35250894bc5e418
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-mpich-hpc-devel-static \
 mpiP_3_5-gnu-mpich-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 mpich-gnu-hpc-devel"
 

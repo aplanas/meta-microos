@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pydot \
 python3.10dist(pydot) \
 python310-pydot \
 python3dist(pydot)"
+
 RDEPENDS:${PN} += "dejavu-fonts \
 graphviz \
 graphviz-gd \

@@ -16,6 +16,7 @@ tex(ecvEnglish.ldf) \
 tex(ecvGerman.ldf) \
 tex(ecvNLS.sty) \
 texlive-ecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "1ddfd4ddc5827d7996577a5a59dca3b9c5e67ff1a52bf90c09d540100ffc5ef92b78
 
 RPROVIDES:${PN} += "hplip-devel \
 hplip-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cups-devel \
 dbus-1-devel \
 hplip-hpijs \

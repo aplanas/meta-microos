@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-wolframalpha \
 python3.10dist(wolframalpha) \
 python310-wolframalpha \
 python3dist(wolframalpha)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.context \
 python310-more-itertools \

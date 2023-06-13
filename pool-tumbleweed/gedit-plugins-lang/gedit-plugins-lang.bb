@@ -93,6 +93,7 @@ locale(gedit-plugins:wa) \
 locale(gedit-plugins:zh_CN) \
 locale(gedit-plugins:zh_HK) \
 locale(gedit-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "gedit-plugins"
 
 inherit rpm

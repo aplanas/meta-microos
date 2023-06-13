@@ -12,6 +12,7 @@ RPM_HASH = "693861f0ecc11e848c0488b8688d0281d6c918494fe2e7000a01339bd1fb1dfbee50
 
 RPROVIDES:${PN} += "qemu-linux-user \
 qemu-linux-user(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

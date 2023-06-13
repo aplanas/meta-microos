@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MouseX::ConfigFromFile) \
 perl-MouseX-ConfigFromFile"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mouse) \
 perl(MouseX::Types::Path::Class)"

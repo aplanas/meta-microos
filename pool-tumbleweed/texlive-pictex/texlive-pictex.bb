@@ -25,6 +25,7 @@ tex(prepictex.tex) \
 tex(texpictex.tex) \
 tex(tree.sty) \
 texlive-pictex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "f6cd64ca1a186f48109a638e3a12c013941f41822802406f142a7c7549ca3365ca6a
 RPROVIDES:${PN} += "xbase-doc \
 xbase-doc(aarch-64) \
 xbase:/usr/share/doc/packages/xbase-doc/html/classes.html"
+
 RDEPENDS:${PN} += "xbase"
 
 inherit rpm

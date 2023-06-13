@@ -22,6 +22,7 @@ crash-kmp-64kb(aarch-64) \
 crash-kmp-64kb-k6.3.4_1 \
 kmod(crash.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

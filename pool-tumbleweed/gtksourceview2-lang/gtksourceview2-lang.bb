@@ -83,6 +83,7 @@ locale(gtksourceview2:vi) \
 locale(gtksourceview2:zh_CN) \
 locale(gtksourceview2:zh_HK) \
 locale(gtksourceview2:zh_TW)"
+
 RDEPENDS:${PN} += "gtksourceview2"
 
 inherit rpm

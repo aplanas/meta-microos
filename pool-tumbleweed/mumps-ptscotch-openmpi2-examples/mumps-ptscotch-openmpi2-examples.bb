@@ -16,6 +16,7 @@ RPM_HASH = "3a9108ba8ceafc5771dde9e65218dfd256be2ff5419587131d4eb95de075d6c48f93
 RPROVIDES:${PN} += "mumps(examples)(openmpi) \
 mumps-ptscotch-openmpi2-examples \
 mumps-ptscotch-openmpi2-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblacs.so.2.1.0()(64bit) \

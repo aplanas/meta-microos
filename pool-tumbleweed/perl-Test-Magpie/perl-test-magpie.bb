@@ -57,6 +57,7 @@ perl(Test::Magpie::Util) \
 perl(Test::Magpie::Verify) \
 perl(Test::Magpie::When) \
 perl-Test-Magpie"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::PartialDump) \
 perl(Moose) \

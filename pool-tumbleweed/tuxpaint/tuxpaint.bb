@@ -19,6 +19,7 @@ application(tuxpaint.desktop) \
 config(tuxpaint) \
 tuxpaint \
 tuxpaint(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 freefont \
 ld-linux-aarch64.so.1()(64bit) \

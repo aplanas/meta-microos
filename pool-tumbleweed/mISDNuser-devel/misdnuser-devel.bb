@@ -10,6 +10,7 @@ RPM_HASH = "bbd52ac2f2e94c42c7e658d9251c8b9bd8a14ad3ef358b2868d71095acde3d37c5e0
 
 RPROVIDES:${PN} += "mISDNuser-devel \
 mISDNuser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmisdn1"
 
 inherit rpm

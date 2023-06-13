@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libopenblas_openmp-devel \
 libopenblas_openmp-devel(aarch-64) \
 openblas-devel \
 openblas-devel(default)"
+
 RDEPENDS:${PN} += "libopenblas_openmp0 \
 openblas-common-devel"
 

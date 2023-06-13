@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-glanceclient \
 python3.10dist(python-glanceclient) \
 python3dist(python-glanceclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PrettyTable \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(kubernetes) \
 python39-kubernetes \
 python3dist(kubernetes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-certifi \

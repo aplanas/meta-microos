@@ -25,6 +25,7 @@ RPM_HASH = "dd89d2c48bb65514563f40abb09a4847283ea3e136d94195f81fe545ad87b87b473d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-light-latex-make"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

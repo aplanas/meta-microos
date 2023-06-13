@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-diffraction-doc:de;en;fr) \
 texlive-pst-diffraction-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

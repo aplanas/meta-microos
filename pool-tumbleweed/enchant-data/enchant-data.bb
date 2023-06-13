@@ -12,6 +12,7 @@ RPM_HASH = "89884c53dc1233de9e1d8f609566d40170cea3553dcc0d66f6a9a379e8f16cd48af1
 
 RPROVIDES:${PN} += "enchant-data \
 enchant-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "0beb40663ad22150720b3b1dd885e57c4de4d26a9f5a09493ebf5b10719ebbe2d2c9
 RPROVIDES:${PN} += "alsa-plugins-jack \
 alsa-plugins-jack(aarch-64) \
 libasound_module_pcm_jack.so()(64bit)"
+
 RDEPENDS:${PN} += "jack \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

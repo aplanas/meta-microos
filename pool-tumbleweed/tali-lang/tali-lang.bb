@@ -93,6 +93,7 @@ locale(tali:zh_HK) \
 locale(tali:zh_TW) \
 tali-lang \
 tali-lang-all"
+
 RDEPENDS:${PN} += "tali"
 
 inherit rpm

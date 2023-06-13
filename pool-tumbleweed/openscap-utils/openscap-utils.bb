@@ -9,6 +9,7 @@ RPM_HASH = "a37b71e43e3afa9e016a0b03dc10f5c99a121d0ec429d13f854232b0128c8dfb093f
 
 RPROVIDES:${PN} += "openscap-utils \
 openscap-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

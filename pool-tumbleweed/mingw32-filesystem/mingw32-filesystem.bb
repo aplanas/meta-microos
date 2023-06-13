@@ -91,6 +91,7 @@ rpm_macro(_mingw32_target) \
 rpm_macro(_mingw32_vendor) \
 rpm_macro(_mingw32_windmc) \
 rpm_macro(_mingw32_windres)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

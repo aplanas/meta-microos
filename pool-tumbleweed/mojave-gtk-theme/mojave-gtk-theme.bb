@@ -10,6 +10,7 @@ RPM_HASH = "4b80ced3e47cdb9e97409fb164cd96ab540342cf295cb382e5c2f4a34f9ebab655d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mojave-gtk-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

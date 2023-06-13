@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-metadata-generator \
 mvn(org.glassfish.hk2:hk2-metadata-generator) \
 mvn(org.glassfish.hk2:hk2-metadata-generator-parent:pom:) \
 mvn(org.glassfish.hk2:hk2-metadata-generator:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:javax.annotation-api) \

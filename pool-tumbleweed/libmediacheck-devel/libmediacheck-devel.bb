@@ -9,6 +9,7 @@ RPM_HASH = "0a4a830d2e9470753d2cfafc204fdca788cae084caead070c93cd3eef3e4c3a0ad18
 
 RPROVIDES:${PN} += "libmediacheck-devel \
 libmediacheck-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmediacheck6"
 
 inherit rpm

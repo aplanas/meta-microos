@@ -13,6 +13,7 @@ RPM_HASH = "d300964b7319db3a387039ec33e86db7210c6cac603db0e0bd3a0b97a7275a5d2892
 RPROVIDES:${PN} += "libIlmThread-3_1-30 \
 libIlmThread-3_1-30(aarch-64) \
 libIlmThread-3_1.so.30()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

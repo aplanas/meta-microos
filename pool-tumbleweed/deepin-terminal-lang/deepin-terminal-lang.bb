@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-terminal-lang \
 deepin-terminal-lang-all"
+
 RDEPENDS:${PN} += "deepin-terminal"
 
 inherit rpm

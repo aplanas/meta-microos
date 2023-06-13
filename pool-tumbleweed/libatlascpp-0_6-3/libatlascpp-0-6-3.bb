@@ -19,6 +19,7 @@ libAtlasNet-0.6.so.3()(64bit) \
 libAtlasObjects-0.6.so.3()(64bit) \
 libatlascpp-0_6-3 \
 libatlascpp-0_6-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

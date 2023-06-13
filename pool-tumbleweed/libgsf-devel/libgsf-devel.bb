@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgsf-devel \
 libgsf-devel(aarch-64) \
 libgsf-doc \
 pkgconfig(libgsf-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgsf-1-114 \
 pkgconfig(glib-2.0) \

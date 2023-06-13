@@ -12,6 +12,7 @@ RPM_HASH = "76f46ff4e8726a1b19a54d3aa894a9586df9566e04f09a8a12a30ce84970872d6abf
 
 RPROVIDES:${PN} += "libgda-report \
 libgda-report(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libgda-report-6_0-6_0_0"
 

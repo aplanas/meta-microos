@@ -17,6 +17,7 @@ perl(Class::Date::Invalid) \
 perl(Class::Date::Rel) \
 perl-Class-Date \
 perl-Class-Date(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

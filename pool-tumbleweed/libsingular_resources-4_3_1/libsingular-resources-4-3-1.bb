@@ -10,6 +10,7 @@ RPM_HASH = "984abd5fe1ced905af2e28ae582b26ae7e52999cd40a7910c39adf735aa820a1066f
 RPROVIDES:${PN} += "libsingular_resources-4.3.1.p3.so()(64bit) \
 libsingular_resources-4_3_1 \
 libsingular_resources-4_3_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

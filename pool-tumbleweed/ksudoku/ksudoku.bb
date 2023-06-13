@@ -19,6 +19,7 @@ ksudoku(aarch-64) \
 ksudoku5 \
 metainfo() \
 metainfo(org.kde.ksudoku.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

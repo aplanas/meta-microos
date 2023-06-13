@@ -11,6 +11,7 @@ RPM_HASH = "16fdc2d0dfbca34c30ee184b9ebae4c571426f6dac22f98f5473bdf4f35785c16df8
 
 RPROVIDES:${PN} += "openttd-dedicated \
 openttd-dedicated(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

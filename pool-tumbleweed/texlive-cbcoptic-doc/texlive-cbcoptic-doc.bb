@@ -9,6 +9,7 @@ RPM_HASH = "3c3df60be6b9c0c753d918d03fba00ecc8aba6f85582a5ac094d6c1e40f790eda5db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cbcoptic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

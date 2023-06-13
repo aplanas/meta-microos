@@ -9,6 +9,7 @@ RPM_HASH = "9f3f395b2f8052c8880228c2853e3ff48ec75f8da69ef161061860b314901209b5b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lambda-lists-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

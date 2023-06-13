@@ -10,6 +10,7 @@ RPM_HASH = "6bed501a88c8dcfec1277f87579b148735f31eb4292d3a497b102f8d212041817740
 
 RPROVIDES:${PN} += "littlewizard-devel \
 littlewizard-devel(aarch-64)"
+
 RDEPENDS:${PN} += "littlewizard"
 
 inherit rpm

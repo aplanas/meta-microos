@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(service-identity) \
 python311-service_identity \
 python3dist(service-identity)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs \
 python311-cryptography \

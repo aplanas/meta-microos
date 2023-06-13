@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:crack) \
 rubygem(ruby:3.2.0:crack:0) \
 rubygem(ruby:3.2.0:crack:0.4) \
 rubygem(ruby:3.2.0:crack:0.4.5)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rexml)"
 

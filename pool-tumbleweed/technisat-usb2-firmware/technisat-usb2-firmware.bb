@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware(dvb-usb-SkyStar_USB_HD_FW_v17_63.HEX.fw) \
 technisat-usb2-firmware"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

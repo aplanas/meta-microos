@@ -9,6 +9,7 @@ RPM_HASH = "a46cac300fd814a6c215545181f342fad7875e1ee3a24cd077b0da28d01e7e58a842
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xfakebold-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

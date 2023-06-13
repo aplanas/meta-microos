@@ -9,6 +9,7 @@ RPM_HASH = "99039410464751f844ff6a090f584db25a667b935667bca24fbe4811c931278eb7d5
 
 RPROVIDES:${PN} += "ZArchive \
 ZArchive(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

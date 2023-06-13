@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(qstylizer) \
 python311-qstylizer \
 python3dist(qstylizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-inflection \
 python311-tinycss2"

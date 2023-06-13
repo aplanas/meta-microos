@@ -11,6 +11,7 @@ RPM_HASH = "f5a723db589ca0ee32a8d7c09868bbeab19533722458e14c231f802817adb018d49e
 
 RPROVIDES:${PN} += "git-merge-changelog \
 git-merge-changelog(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

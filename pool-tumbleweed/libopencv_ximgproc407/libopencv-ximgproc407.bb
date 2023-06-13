@@ -10,6 +10,7 @@ RPM_HASH = "16071d83c00be6f60774d193373cd83aa3dd006c9e9bd01ac56addc8e1dc7ede9c20
 RPROVIDES:${PN} += "libopencv_ximgproc.so.407()(64bit) \
 libopencv_ximgproc407 \
 libopencv_ximgproc407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

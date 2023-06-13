@@ -18,6 +18,7 @@ mvn(org.jboss.resteasy:resteasy-jaxrs) \
 mvn(org.jboss.resteasy:resteasy-jaxrs-all:pom:) \
 mvn(org.jboss.resteasy:resteasy-jaxrs:pom:) \
 resteasy-core"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

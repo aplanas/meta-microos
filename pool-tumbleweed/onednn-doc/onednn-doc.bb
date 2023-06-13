@@ -10,6 +10,7 @@ RPM_HASH = "122b0b458a2360f7c32edd5680eece4f81b3513d9ea023ddef49f35dff7e2bd8c6d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "onednn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

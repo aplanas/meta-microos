@@ -10,6 +10,7 @@ RPM_HASH = "1d8c5d5c354fce43b09bcb4a2f10fce1ecbbfc1c70af6f04a7af2737bae196e7e219
 
 RPROVIDES:${PN} += "ladspa-preamp \
 ladspa-preamp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

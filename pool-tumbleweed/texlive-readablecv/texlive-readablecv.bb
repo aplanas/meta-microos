@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ReadableCV.cls) \
 texlive-readablecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

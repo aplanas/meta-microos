@@ -29,6 +29,7 @@ perl(CGI::Session::Test::SimpleObjectClass) \
 perl(CGI::Session::Tutorial) \
 perl(OverloadedClass) \
 perl-CGI-Session"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI)"
 

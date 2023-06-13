@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-argparse) \
 python311-sphinx-argparse \
 python3dist(sphinx-argparse)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "b7fd3c4773e8542d9953c2019b11105f9336f27f9824691bc186155041bc7bef1608
 RPROVIDES:${PN} += "dos2unix \
 dos2unix(aarch-64) \
 unix2dos"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

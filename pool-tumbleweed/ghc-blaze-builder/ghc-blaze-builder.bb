@@ -20,6 +20,7 @@ RPM_HASH = "f4f2e08e5c6d79a3c86933c0953c49f316a803e129bd3417170c62348e3f33e7d664
 RPROVIDES:${PN} += "ghc-blaze-builder \
 ghc-blaze-builder(aarch-64) \
 libHSblaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

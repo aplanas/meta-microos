@@ -11,6 +11,7 @@ RPM_HASH = "b76f4f85f069bf3320d4b68bbdb27f8ce6abb4afa57c1e696b691e3bd852109b85f2
 RPROVIDES:${PN} += "leechcraft-lmp-graffiti \
 leechcraft-lmp-graffiti(aarch-64) \
 libleechcraft_lmp_graffiti.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

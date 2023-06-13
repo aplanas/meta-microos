@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(feedparser) \
 python311-feedparser \
 python3dist(feedparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-sgmllib3k \
 python311-xml"

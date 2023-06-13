@@ -13,6 +13,7 @@ RPM_HASH = "334c81f1a7d350ac4d16dd78a7f2d76c82b31375dba529191c6b61b8510d77f0549c
 RPROVIDES:${PN} += "typelib(Tepl) \
 typelib-1_0-Tepl-6 \
 typelib-1_0-Tepl-6(aarch-64)"
+
 RDEPENDS:${PN} += "libtepl-6.so.2()(64bit) \
 typelib(Amtk) \
 typelib(Atk) \

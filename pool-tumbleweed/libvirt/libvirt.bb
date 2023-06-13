@@ -14,6 +14,7 @@ RPM_HASH = "9373571e0cb7259b6a3ced92915f3ebe56b3baa545dc4432115293cbf6649b880352
 
 RPROVIDES:${PN} += "libvirt \
 libvirt(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-client \
 libvirt-daemon \
 libvirt-daemon-config-network \

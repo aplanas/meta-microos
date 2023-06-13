@@ -9,6 +9,7 @@ RPM_HASH = "7d7857f12922c4373d74d85f949384dc993b92f31c32bd9c5dd71c79ede05e8805d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-commutative-diagrams-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

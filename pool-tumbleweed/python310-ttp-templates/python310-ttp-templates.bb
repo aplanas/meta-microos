@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ttp-templates \
 python3.10dist(ttp-templates) \
 python310-ttp-templates \
 python3dist(ttp-templates)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

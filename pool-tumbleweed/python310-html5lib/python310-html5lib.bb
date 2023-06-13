@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-html5lib \
 python3.10dist(html5lib) \
 python310-html5lib \
 python3dist(html5lib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six \
 python310-webencodings"

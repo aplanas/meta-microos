@@ -9,6 +9,7 @@ RPM_HASH = "b68c80b18c40a039b2fb8a1a5d35f7ed7151bfd0cc93a01957ade2e0a997c4d9dcc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accounts-qml-module-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

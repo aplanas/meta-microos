@@ -94,6 +94,7 @@ locale(gnome-nettool:wa) \
 locale(gnome-nettool:zh_CN) \
 locale(gnome-nettool:zh_HK) \
 locale(gnome-nettool:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-nettool"
 
 inherit rpm

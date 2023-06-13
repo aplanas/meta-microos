@@ -13,6 +13,7 @@ RPM_HASH = "9ea1797fb98d77e98ab2322e3941d0231ba8700457b54737a4810fb375b77014b4ba
 RPROVIDES:${PN} += "fiwalk \
 sleuthkit \
 sleuthkit(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 file \
 ld-linux-aarch64.so.1()(64bit) \

@@ -34,6 +34,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "HTML-SimpleParse \
 perl(HTML::SimpleParse) \
 perl-HTML-SimpleParse"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(prooftrees.sty) \
 texlive-prooftrees"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

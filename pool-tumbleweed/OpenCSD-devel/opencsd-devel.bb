@@ -9,6 +9,7 @@ RPM_HASH = "cb0804f6840326e6dc24d16e5a1fa479e9938e3f971314ac1d6b07adfdef18d0ab77
 
 RPROVIDES:${PN} += "OpenCSD-devel \
 OpenCSD-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopencsd1 \
 libopencsd_c_api1"
 

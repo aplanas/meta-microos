@@ -60,6 +60,7 @@ RPROVIDES:${PN} += "perl(Class::Accessor) \
 perl(Class::Accessor::Fast) \
 perl(Class::Accessor::Faster) \
 perl-Class-Accessor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

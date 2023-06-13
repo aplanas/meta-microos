@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libext2fs-devel-static \
 libext2fs-devel-static(aarch-64) \
 libext2fs-devel:/usr/lib64/libe2p.a \
 libext2fs-devel:/usr/lib64/libext2fs.a"
+
 RDEPENDS:${PN} += "libext2fs-devel"
 
 inherit rpm

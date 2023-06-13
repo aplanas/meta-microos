@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(datetime2-greek-ascii.ldf) \
 tex(datetime2-greek-utf8.ldf) \
 tex(datetime2-greek.ldf) \
 texlive-datetime2-greek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

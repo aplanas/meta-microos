@@ -12,6 +12,7 @@ pkgconfig(Qt6HunspellInputMethod) \
 pkgconfig(Qt6VirtualKeyboard) \
 qt6-virtualkeyboard-devel \
 qt6-virtualkeyboard-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Qml) \

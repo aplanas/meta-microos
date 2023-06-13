@@ -11,6 +11,7 @@ RPM_HASH = "a26d40bc7ca30da408308a645899c1ca560655cdd43e3afbb4a999a9e78da3eac89a
 RPROVIDES:${PN} += "Mesa-dri-devel \
 Mesa-dri-devel(aarch-64) \
 pkgconfig(dri)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa \
 pkgconfig(libdrm)"

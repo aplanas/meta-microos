@@ -46,6 +46,7 @@ locale(frogr:te) \
 locale(frogr:tr) \
 locale(frogr:uk) \
 locale(frogr:zh_CN)"
+
 RDEPENDS:${PN} += "frogr"
 
 inherit rpm

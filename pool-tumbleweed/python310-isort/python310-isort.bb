@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-isort \
 python3.10dist(isort) \
 python310-isort \
 python3dist(isort)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

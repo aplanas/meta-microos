@@ -11,6 +11,7 @@ RPM_HASH = "a5ce36f7f4b282acb2b3847f2283db2d92239e419f9c4592b162b8c72a04e577ad09
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-local"
+
 RDEPENDS:${PN} += "javapackages-local \
 javapackages-tools \
 mvn(junit:junit) \

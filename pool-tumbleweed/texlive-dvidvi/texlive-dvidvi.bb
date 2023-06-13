@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dvidvi.1) \
 texlive-dvidvi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

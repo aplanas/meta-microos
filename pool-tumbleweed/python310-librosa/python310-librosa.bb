@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-librosa \
 python3.10dist(librosa) \
 python310-librosa \
 python3dist(librosa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-SoundFile \
 python310-audioread \

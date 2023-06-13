@@ -9,6 +9,7 @@ RPM_HASH = "016215d0c8848b1c7e354261f1540892cf37f662e4228047470ba51031feca6e7d3b
 
 RPROVIDES:${PN} += "libsubid-devel \
 libsubid-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsubid4"
 
 inherit rpm

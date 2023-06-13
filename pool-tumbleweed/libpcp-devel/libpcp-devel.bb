@@ -13,6 +13,7 @@ pcp-devel \
 pkgconfig(libpcp) \
 pkgconfig(libpcp_import) \
 pkgconfig(libpcp_pmda)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpcp3 \
 libpcp_gui2"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "discover-backend-packagekit \
 discover-backend-packagekit(aarch-64) \
 metainfo() \
 metainfo(org.kde.discover.packagekit.appdata.xml)"
+
 RDEPENDS:${PN} += "AppStream \
 PackageKit \
 appstream-provider \

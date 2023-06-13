@@ -14,6 +14,7 @@ RPM_HASH = "0c616b5c7972680c170ef0d4e703b8bec7c3618c653b819b7bc6f2c2f855258cbd65
 
 RPROVIDES:${PN} += "highlight \
 highlight(aarch-64)"
+
 RDEPENDS:${PN} += "highlight-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

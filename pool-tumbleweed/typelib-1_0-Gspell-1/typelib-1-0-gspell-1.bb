@@ -13,6 +13,7 @@ RPM_HASH = "9e77f96e2294723589ad3a52db0109cabc7b11bc8f4430e048b7b7013ad50e937939
 RPROVIDES:${PN} += "typelib(Gspell) \
 typelib-1_0-Gspell-1 \
 typelib-1_0-Gspell-1(aarch-64)"
+
 RDEPENDS:${PN} += "libgspell-1.so.2()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

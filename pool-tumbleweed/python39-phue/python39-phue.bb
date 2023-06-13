@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(phue) \
 python39-phue \
 python3dist(phue)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python(abi)"
 

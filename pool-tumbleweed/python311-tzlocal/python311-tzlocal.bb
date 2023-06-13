@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tzlocal) \
 python311-tzlocal \
 python3dist(tzlocal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytz \
 python311-pytz-deprecation-shim"

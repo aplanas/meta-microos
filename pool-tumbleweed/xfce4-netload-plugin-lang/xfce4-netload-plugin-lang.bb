@@ -63,6 +63,7 @@ locale(xfce4-netload-plugin:zh_TW) \
 xfce4-netload-plugin-lang \
 xfce4-netload-plugin-lang-all \
 xfce4-panel-plugin-netload-lang"
+
 RDEPENDS:${PN} += "xfce4-netload-plugin"
 
 inherit rpm

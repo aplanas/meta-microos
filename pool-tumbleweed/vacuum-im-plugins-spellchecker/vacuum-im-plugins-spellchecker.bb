@@ -10,6 +10,7 @@ RPM_HASH = "dbd288518619b4171b363209d49b2fa98475ba96d81df21bc26e2fead8aa16c45165
 RPROVIDES:${PN} += "libspellchecker.so()(64bit) \
 vacuum-im-plugins-spellchecker \
 vacuum-im-plugins-spellchecker(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

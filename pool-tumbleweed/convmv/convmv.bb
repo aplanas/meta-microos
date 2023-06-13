@@ -20,6 +20,7 @@ RPM_HASH = "ca622981a191f6b49cb3dac98433ec59d4a3affe964c76772d62d7c190905f5ec2af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "convmv"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

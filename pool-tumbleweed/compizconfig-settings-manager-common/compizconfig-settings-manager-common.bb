@@ -9,6 +9,7 @@ RPM_HASH = "2bd8b099abf71ec50efcd0b90efc041e627610294c89bfba5b841e61503f8b5eab7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compizconfig-settings-manager-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -27,6 +27,7 @@ tex(mdwtab.sty) \
 tex(sverb.sty) \
 tex(syntax.sty) \
 texlive-mdwtools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

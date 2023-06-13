@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jackson-dataformat-properties \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-properties) \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-properties:pom:) \
 osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-properties)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

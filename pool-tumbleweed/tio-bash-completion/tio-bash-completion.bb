@@ -9,6 +9,7 @@ RPM_HASH = "e059ca45a39ae15905d7985fd0b8b3bd0e3c8da22c09e47ff9d7f72ecd8b89e7826d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tio-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 tio"
 

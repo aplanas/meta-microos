@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(et-xmlfile) \
 python39-et_xmlfile \
 python3dist(et-xmlfile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jdcal \
 python39-lxml"

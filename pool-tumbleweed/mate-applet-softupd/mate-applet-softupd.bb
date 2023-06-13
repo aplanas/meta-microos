@@ -16,6 +16,7 @@ RPM_HASH = "94e02c320bf95f62bfa7149ed2c87b114c79c09b8a8217780e90e76afef64dd5b44d
 
 RPROVIDES:${PN} += "mate-applet-softupd \
 mate-applet-softupd(aarch-64)"
+
 RDEPENDS:${PN} += "PackageKit \
 gnome-packagekit \
 ld-linux-aarch64.so.1()(64bit) \

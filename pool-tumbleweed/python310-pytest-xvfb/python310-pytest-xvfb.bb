@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-pytest-xvfb \
 python3.10dist(pytest-xvfb) \
 python310-pytest-xvfb \
 python3dist(pytest-xvfb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyVirtualDisplay \
 python310-pytest \

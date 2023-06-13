@@ -9,6 +9,7 @@ RPM_HASH = "5ca200466fbb2c577fe1f5d63b96a9141cb0d9a9c86b96020132fc77ee27e1f68573
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerappendixnote-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "eb34e8d5984cc51943c6010059384254a7caac50734aa4ac2c70794f61a85b4119fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyperbar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

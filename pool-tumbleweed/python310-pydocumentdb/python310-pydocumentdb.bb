@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pydocumentdb \
 python3.10dist(pydocumentdb) \
 python310-pydocumentdb \
 python3dist(pydocumentdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-six"

@@ -14,6 +14,7 @@ python3.10dist(pyserial) \
 python310-pyserial \
 python310-serial \
 python3dist(pyserial)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

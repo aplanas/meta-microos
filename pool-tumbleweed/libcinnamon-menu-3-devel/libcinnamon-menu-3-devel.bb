@@ -11,6 +11,7 @@ RPM_HASH = "86d063b4a296a7075d657012b61cfe7e6d395fa3314479bc01987fb1aa87a9ccfebd
 RPROVIDES:${PN} += "libcinnamon-menu-3-devel \
 libcinnamon-menu-3-devel(aarch-64) \
 pkgconfig(libcinnamon-menu-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcinnamon-menu-3-0 \
 pkgconfig(gio-unix-2.0) \

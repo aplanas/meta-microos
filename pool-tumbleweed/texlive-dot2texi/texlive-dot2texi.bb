@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dot2texi.sty) \
 texlive-dot2texi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

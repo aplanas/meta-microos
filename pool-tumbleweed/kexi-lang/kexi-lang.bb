@@ -69,6 +69,7 @@ locale(kexi:uk) \
 locale(kexi:wa) \
 locale(kexi:zh_CN) \
 locale(kexi:zh_TW)"
+
 RDEPENDS:${PN} += "kexi"
 
 inherit rpm

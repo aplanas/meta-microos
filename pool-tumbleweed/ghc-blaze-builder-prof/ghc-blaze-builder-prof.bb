@@ -10,6 +10,7 @@ RPM_HASH = "7d202673c5f286b6c9849a9073f170b1f433367c6975d1b5f920bab95e3686ab1b9a
 RPROVIDES:${PN} += "ghc-blaze-builder-prof \
 ghc-blaze-builder-prof(aarch-64) \
 ghc-prof(blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW)"
+
 RDEPENDS:${PN} += "ghc-blaze-builder-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

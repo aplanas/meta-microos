@@ -9,6 +9,7 @@ RPM_HASH = "b17b9b9df30a94e9b02d044b3159e235d261ccf7846b4e44523bed40e75f1c07f8cd
 
 RPROVIDES:${PN} += "python39-nautilus-devel \
 python39-nautilus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-devel \
 python39-nautilus \
 python39-nautilus-common-devel"

@@ -14,6 +14,7 @@ metainfo(org.kde.milou.appdata.xml) \
 milou5 \
 milou5(aarch-64) \
 qt5qmlimport(org.kde.milou.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

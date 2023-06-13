@@ -10,6 +10,7 @@ RPM_HASH = "ae34166a53fe3438ea0942d4d6585694d6a44d39eaefda4c33111a9d22e9b7520523
 RPROVIDES:${PN} += "libprimecount.so.7()(64bit) \
 libprimecount7 \
 libprimecount7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

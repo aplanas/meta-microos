@@ -15,6 +15,7 @@ RPM_HASH = "282b65b175f6986ff2e2dcd1201b8762829ec9160c7994af1e4662290bcaa5ab8071
 RPROVIDES:${PN} += "pkgconfig(pocketsphinx) \
 pocketsphinx5-devel \
 pocketsphinx5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(sphinxbase) \
 pocketsphinx5"

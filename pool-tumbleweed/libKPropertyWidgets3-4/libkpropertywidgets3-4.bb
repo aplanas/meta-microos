@@ -10,6 +10,7 @@ RPM_HASH = "7304c9c65b9bb898eef66cc2a04509414e61cd11c8f09b0a65ee32ff04916efeb7d9
 RPROVIDES:${PN} += "libKPropertyWidgets3-4 \
 libKPropertyWidgets3-4(aarch-64) \
 libKPropertyWidgets3.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kproperty \
 ld-linux-aarch64.so.1()(64bit) \

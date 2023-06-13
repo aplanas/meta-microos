@@ -12,6 +12,7 @@ RPM_HASH = "f56ead5a10cb7139811192ca9d33611fcd73d3ac0c123cea9de276d2096bc15ea021
 RPROVIDES:${PN} += "cmake(KF5NewStuffQuick) \
 knewstuff-quick-devel \
 knewstuff-quick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules \
 knewstuff-core-devel \
 knewstuff-imports"

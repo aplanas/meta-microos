@@ -10,6 +10,7 @@ RPM_HASH = "120223259f70d4cc67a780cf8a671afa73941f036c5e44dea4974aa8edcba5108970
 RPROVIDES:${PN} += "typelib(AppStream) \
 typelib-1_0-AppStream-1.0 \
 typelib-1_0-AppStream-1.0(aarch-64)"
+
 RDEPENDS:${PN} += "libappstream.so.4()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

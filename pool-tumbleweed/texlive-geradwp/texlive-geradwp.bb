@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(geradwp.cls) \
 texlive-geradwp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

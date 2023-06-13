@@ -9,6 +9,7 @@ RPM_HASH = "cbfabf53f151ca89f44327b4be530384cc67ce9e5c66411327269a5f9106668f6ad8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-deps-html"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-masakariclient \
 python3.10dist(python-masakariclient) \
 python3dist(python-masakariclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-openstacksdk \
 python3-oslo.i18n \

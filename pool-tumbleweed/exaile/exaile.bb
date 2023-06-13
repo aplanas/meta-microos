@@ -55,6 +55,7 @@ mimehandler(audio/x-mpeg-3) \
 mimehandler(audio/x-musepack) \
 mimehandler(audio/x-ogg) \
 mimehandler(audio/x-vorbis)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gdk-pixbuf-loader-rsvg \
 gstreamer \

@@ -14,6 +14,7 @@ RPM_HASH = "2055a31812ffe79cf53de4e93dd717769df59623f092c9931505291648f4f3979c61
 RPROVIDES:${PN} += "libosmousb.so.0()(64bit) \
 libosmousb0 \
 libosmousb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

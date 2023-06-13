@@ -14,6 +14,7 @@ RPM_HASH = "d603a67c2a29f43525dd804f7631e8c3e126d9d85edf9b795d0ef5a3ed1a7da5d72a
 RPROVIDES:${PN} += "pkgconfig(varnishapi) \
 varnish-devel \
 varnish-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 varnish"
 

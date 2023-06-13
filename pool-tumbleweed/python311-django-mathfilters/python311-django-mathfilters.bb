@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-mathfilters) \
 python311-django-mathfilters \
 python3dist(django-mathfilters)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

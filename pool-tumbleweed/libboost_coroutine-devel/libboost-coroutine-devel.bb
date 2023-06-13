@@ -13,6 +13,7 @@ RPM_HASH = "d473bcac333b884c06e2d0b0c871071a6fe9bae0984013fb95e2cd6e659beba741f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_coroutine-devel"
+
 RDEPENDS:${PN} += "libboost_coroutine1_82_0-devel"
 
 inherit rpm

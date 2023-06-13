@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-hvplot \
 python3.10dist(hvplot) \
 python310-hvplot \
 python3dist(hvplot)"
+
 RDEPENDS:${PN} += "(python310-bokeh >= 1.0.0 with python310-bokeh < 2.5) \
 python(abi) \
 python310-colorcet \

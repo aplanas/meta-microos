@@ -9,6 +9,7 @@ RPM_HASH = "b711f81d639b33f4914b67d4581517e4c3a867975885d6321f14b4c7055a64b4b48d
 
 RPROVIDES:${PN} += "iverilog-devel \
 iverilog-devel(aarch-64)"
+
 RDEPENDS:${PN} += "iverilog"
 
 inherit rpm

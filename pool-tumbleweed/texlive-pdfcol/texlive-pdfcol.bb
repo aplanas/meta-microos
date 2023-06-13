@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfcol.sty) \
 texlive-pdfcol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

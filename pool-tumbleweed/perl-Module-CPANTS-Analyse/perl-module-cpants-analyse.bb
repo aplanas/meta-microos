@@ -27,6 +27,7 @@ perl(Module::CPANTS::Kwalitee::Signature) \
 perl(Module::CPANTS::Kwalitee::Uses) \
 perl(Module::CPANTS::Kwalitee::Version) \
 perl-Module-CPANTS-Analyse"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Any::Lite) \
 perl(Archive::Tar) \

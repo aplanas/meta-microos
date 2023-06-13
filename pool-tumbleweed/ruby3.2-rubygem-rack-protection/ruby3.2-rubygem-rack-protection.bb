@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:rack-protection) \
 rubygem(ruby:3.2.0:rack-protection:3) \
 rubygem(ruby:3.2.0:rack-protection:3.0) \
 rubygem(ruby:3.2.0:rack-protection:3.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rack)"
 

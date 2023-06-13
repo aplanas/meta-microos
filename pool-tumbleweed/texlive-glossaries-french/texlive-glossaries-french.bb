@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(glossaries-french.ldf) \
 texlive-glossaries-french"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

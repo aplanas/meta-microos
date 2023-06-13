@@ -14,6 +14,7 @@ RPM_HASH = "ad1be1cf4ca261149382546c97a976f0d9fdaf11bf0136514b7262653eadd14e398b
 
 RPROVIDES:${PN} += "dateutils \
 dateutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

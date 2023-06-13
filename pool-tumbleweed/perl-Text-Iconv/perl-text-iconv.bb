@@ -19,6 +19,7 @@ RPM_HASH = "f77b70807d160ec2e972a5e9f8ee7f30e7d270f574673d15d6cd05a1fec20b9ee5f7
 RPROVIDES:${PN} += "perl(Text::Iconv) \
 perl-Text-Iconv \
 perl-Text-Iconv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

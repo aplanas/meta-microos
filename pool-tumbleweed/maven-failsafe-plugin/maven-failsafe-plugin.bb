@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-failsafe-plugin \
 mvn(org.apache.maven.plugins:maven-failsafe-plugin) \
 mvn(org.apache.maven.plugins:maven-failsafe-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

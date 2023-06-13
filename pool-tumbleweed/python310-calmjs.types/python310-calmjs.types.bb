@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-calmjs.types \
 python3.10dist(calmjs.types) \
 python310-calmjs.types \
 python3dist(calmjs.types)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

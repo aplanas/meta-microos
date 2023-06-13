@@ -15,6 +15,7 @@ metainfo(org.kde.plasma.mycroft.bigscreen.metainfo.xml) \
 plasma5-bigscreen \
 plasma5-bigscreen(aarch-64) \
 qt5qmlimport(org.kde.mycroft.bigscreen.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

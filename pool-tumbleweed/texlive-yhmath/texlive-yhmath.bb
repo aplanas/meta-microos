@@ -16,6 +16,7 @@ tex(yhmath.map) \
 tex(yhmath.sty) \
 tex(yrcmex10.tfm) \
 texlive-yhmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

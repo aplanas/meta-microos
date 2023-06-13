@@ -10,6 +10,7 @@ RPM_HASH = "33ce13c97aa282e5ddb6eaa4d0ee73bf24fe2196f27f39d24034c8dc4e305eedc54f
 RPROVIDES:${PN} += "libneko.so.2()(64bit) \
 libneko2 \
 libneko2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "6ad368e342b337f77393ed10d9c3cc88ac4d024417e1d10103495dd6d0175e019444
 RPROVIDES:${PN} += "pkgconfig(srecord) \
 srecord-devel \
 srecord-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsrecord0"
 

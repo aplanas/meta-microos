@@ -23,6 +23,7 @@ RPM_HASH = "a3e98f1e25300238cc3b205d6862b93207f5809e6af0c64874b4caf543ea6aefc512
 RPROVIDES:${PN} += "ghc-cprng-aes \
 ghc-cprng-aes(aarch-64) \
 libHScprng-aes-0.6.1-169qys47NiB5UR1VcEjGCA-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

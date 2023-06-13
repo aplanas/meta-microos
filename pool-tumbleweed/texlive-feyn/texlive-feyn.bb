@@ -30,6 +30,7 @@ tex(feynx12.tfm) \
 tex(feynx18.tfm) \
 tex(feynx24.tfm) \
 texlive-feyn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

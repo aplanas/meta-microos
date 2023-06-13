@@ -10,6 +10,7 @@ RPM_HASH = "a8dc677edf70f3ad68040262f612cad414a8a1423fa7ec1a4a715cf00ec59b44ff7d
 RPROVIDES:${PN} += "libredland-devel \
 libredland-devel(aarch-64) \
 pkgconfig(redland)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 librdf0 \

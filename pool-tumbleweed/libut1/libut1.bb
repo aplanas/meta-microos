@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(libut1) \
 libut.so.1()(64bit) \
 libut1 \
 libut1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "664cbfed4f1ab640a2875663b56804399fd22e3f12c60bf59e61aba6c14162457930
 
 RPROVIDES:${PN} += "doxygen \
 doxygen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

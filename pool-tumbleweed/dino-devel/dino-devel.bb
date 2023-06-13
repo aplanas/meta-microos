@@ -9,6 +9,7 @@ RPM_HASH = "bdf3661013345543b5c8b2ae5dcccbb0225c89a8299b5c68e4bf4faf1f04223ddba3
 
 RPROVIDES:${PN} += "dino-devel \
 dino-devel(aarch-64)"
+
 RDEPENDS:${PN} += "dino"
 
 inherit rpm

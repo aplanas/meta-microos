@@ -11,6 +11,7 @@ RPM_HASH = "f19a8269e06378095ccd01f825c389cbe0b3f37e083bf3f9467c662d493450a2af17
 RPROVIDES:${PN} += "cmake(KF5QuickCharts) \
 kquickcharts-devel \
 kquickcharts-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kquickcharts"
 
 inherit rpm

@@ -15,6 +15,7 @@ ant-jakarta-log4j \
 config(ant-apache-log4j) \
 mvn(org.apache.ant:ant-apache-log4j) \
 mvn(org.apache.ant:ant-apache-log4j:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

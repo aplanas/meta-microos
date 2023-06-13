@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5keychain1-lang \
 libqt5keychain1-lang-all"
+
 RDEPENDS:${PN} += "libqt5keychain1"
 
 inherit rpm

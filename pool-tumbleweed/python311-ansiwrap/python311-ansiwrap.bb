@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ansiwrap) \
 python311-ansiwrap \
 python3dist(ansiwrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-textwrap3"
 

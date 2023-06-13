@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-strongswan-frontend \
 plasma-nm-strongswan \
 plasma-nm5-strongswan \
 plasma-nm5-strongswan(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-strongswan \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

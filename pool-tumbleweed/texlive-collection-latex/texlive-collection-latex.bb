@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latex) \
 texlive-collection-latex"
+
 RDEPENDS:${PN} += "texlive-ae \
 texlive-amscls \
 texlive-amsmath \

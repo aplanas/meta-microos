@@ -9,6 +9,7 @@ RPM_HASH = "b2b9449d51dbccefd20319d0e54cf4b33fe446609e46cf3016aa0e54547f42dbf385
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "muparserx-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

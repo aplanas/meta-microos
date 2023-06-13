@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:turbolinks:5) \
 rubygem(ruby:3.2.0:turbolinks:5.2) \
 rubygem(ruby:3.2.0:turbolinks:5.2.1) \
 rubygem(turbolinks)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:turbolinks-source:5)"
 

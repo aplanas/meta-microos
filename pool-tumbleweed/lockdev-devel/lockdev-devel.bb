@@ -12,6 +12,7 @@ RPM_HASH = "e81e59cf5a518d17868841485a1b390ab71e16803ac844e5afc77a1fc8b7a64e06e0
 RPROVIDES:${PN} += "lockdev-devel \
 lockdev-devel(aarch-64) \
 pkgconfig(lockdev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lockdev"
 

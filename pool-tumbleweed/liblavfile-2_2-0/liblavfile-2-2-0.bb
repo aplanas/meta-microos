@@ -14,6 +14,7 @@ RPM_HASH = "2a9149e2eca258c2edce68677455ce6dccf3fe4f035e84e9c6662460a69d783457d9
 RPROVIDES:${PN} += "liblavfile-2.2.so.0()(64bit) \
 liblavfile-2_2-0 \
 liblavfile-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

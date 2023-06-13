@@ -23,6 +23,7 @@ cmake(Qt5VulkanSupport) \
 cmake(Qt5XkbCommonSupport) \
 libQt5PlatformSupport-devel-static \
 libQt5PlatformSupport-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core-devel \
 libQt5Gui-devel \
 libQt5PlatformHeaders-devel \

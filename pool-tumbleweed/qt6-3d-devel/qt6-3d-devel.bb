@@ -9,6 +9,7 @@ RPM_HASH = "f797c1edae6ced964d5f8b57ad8e2bc3b0efe464daab1d55ae8d14e2cef024602118
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-3d-devel"
+
 RDEPENDS:${PN} += "cmake(Qt63DAnimation) \
 cmake(Qt63DCore) \
 cmake(Qt63DExtras) \

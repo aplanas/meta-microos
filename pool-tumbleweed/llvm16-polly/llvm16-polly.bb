@@ -15,6 +15,7 @@ RPM_HASH = "7edd63472363ebd6f7b1efe8cf72fb06e1c1740d1882ec15231d73ceed37f8d86951
 RPROVIDES:${PN} += "llvm-polly-provider \
 llvm16-polly \
 llvm16-polly(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

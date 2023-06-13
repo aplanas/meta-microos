@@ -13,6 +13,7 @@ RPM_HASH = "9604e8373dfed1351e6c06d5c12c01ed50ff8187ca91fe546e8b72111be85c2a40c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garrigues"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

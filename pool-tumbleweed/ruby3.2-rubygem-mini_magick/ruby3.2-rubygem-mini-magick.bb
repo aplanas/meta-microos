@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mini_magick) \
 rubygem(ruby:3.2.0:mini_magick:4) \
 rubygem(ruby:3.2.0:mini_magick:4.12) \
 rubygem(ruby:3.2.0:mini_magick:4.12.0)"
+
 RDEPENDS:${PN} += "ImageMagick \
 ruby(abi)"
 

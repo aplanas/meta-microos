@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:cfa) \
 rubygem(ruby:3.2.0:cfa:1) \
 rubygem(ruby:3.2.0:cfa:1.0) \
 rubygem(ruby:3.2.0:cfa:1.0.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ruby-augeas)"
 

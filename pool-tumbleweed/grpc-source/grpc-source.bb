@@ -9,6 +9,7 @@ RPM_HASH = "ce7bcb7f04897e37e36d66db07d5e670cac707d0459ec5523d8d9a29d0d43bb09a7e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-source"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

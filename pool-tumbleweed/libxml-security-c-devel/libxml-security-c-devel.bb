@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libxml-security-c-devel \
 libxml-security-c-devel(aarch-64) \
 pkgconfig(xml-security-c) \
 xml-security-c-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxalan-c-devel \
 libxerces-c-devel \

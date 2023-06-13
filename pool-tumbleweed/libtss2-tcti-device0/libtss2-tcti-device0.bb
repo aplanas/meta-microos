@@ -12,6 +12,7 @@ RPM_HASH = "72a4a0b0112c1bc6aaa201ec3a4f9adbf88c8bc0e61a5b73883d00e14f234dcb8e78
 RPROVIDES:${PN} += "libtss2-tcti-device.so.0()(64bit) \
 libtss2-tcti-device0 \
 libtss2-tcti-device0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

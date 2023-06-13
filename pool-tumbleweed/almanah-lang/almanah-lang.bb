@@ -45,6 +45,7 @@ locale(almanah:th) \
 locale(almanah:tr) \
 locale(almanah:uk) \
 locale(almanah:zh_CN)"
+
 RDEPENDS:${PN} += "almanah"
 
 inherit rpm

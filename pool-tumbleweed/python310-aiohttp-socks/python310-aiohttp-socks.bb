@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiohttp-socks \
 python3.10dist(aiohttp-socks) \
 python310-aiohttp-socks \
 python3dist(aiohttp-socks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-attrs \

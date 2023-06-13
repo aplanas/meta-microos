@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(shijian) \
 python311-shijian \
 python3dist(shijian)"
+
 RDEPENDS:${PN} += "python311-matplotlib \
 python311-numpy \
 python311-pandas \

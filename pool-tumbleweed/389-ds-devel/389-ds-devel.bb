@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "389-ds-devel \
 pkgconfig(dirsrv) \
 pkgconfig(svrcore) \
 svrcore-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 389-ds \
 libevent-devel \

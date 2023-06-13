@@ -11,6 +11,7 @@ RPM_HASH = "b00b1550f998e08d0ea4f4695e6ee2e2db0b04b327ec176027cf8f794210105e3893
 RPROVIDES:${PN} += "typelib(EBackend) \
 typelib-1_0-EBackend-1_2 \
 typelib-1_0-EBackend-1_2(aarch-64)"
+
 RDEPENDS:${PN} += "libcamel-1.2.so.64()(64bit) \
 libebackend-1.2.so.11()(64bit) \
 libedataserver-1.2.so.27()(64bit) \

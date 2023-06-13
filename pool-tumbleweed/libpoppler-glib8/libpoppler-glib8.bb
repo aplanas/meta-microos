@@ -11,6 +11,7 @@ RPM_HASH = "33d39ec1fcc53c3d57bf9d723560a08ca9824305f98b4cc4fcde2270dc3f49766170
 RPROVIDES:${PN} += "libpoppler-glib.so.8()(64bit) \
 libpoppler-glib8 \
 libpoppler-glib8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

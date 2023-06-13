@@ -13,6 +13,7 @@ RPM_HASH = "95f168569c774e1469ec7a712252e065043f4d46b00ccc01fd995c869a0d7d83543a
 RPROVIDES:${PN} += "libuhd.so.4.4.0()(64bit) \
 libuhd4_4_0 \
 libuhd4_4_0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

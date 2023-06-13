@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-contexter \
 python3.10dist(contexter) \
 python310-contexter \
 python3dist(contexter)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

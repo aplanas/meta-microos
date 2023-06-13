@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wolframalpha) \
 python311-wolframalpha \
 python3dist(wolframalpha)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jaraco.context \
 python311-more-itertools \

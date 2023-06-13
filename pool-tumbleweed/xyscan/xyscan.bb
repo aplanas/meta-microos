@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(xyscan.desktop) \
 xyscan \
 xyscan(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

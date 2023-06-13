@@ -50,6 +50,7 @@ perl(XML::LibXML::_SAXParser) \
 perl-XML-LibXML \
 perl-XML-LibXML(aarch-64) \
 perl-XML-LibXML-Common"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

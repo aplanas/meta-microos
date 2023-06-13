@@ -12,6 +12,7 @@ RPM_HASH = "3958177e6ba00cb26b35fe0bfd809b244205e48a9f1d0e7dcfc4a935a10f3493fe00
 RPROVIDES:${PN} += "libccrtp.so.3()(64bit) \
 libccrtp3 \
 libccrtp3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

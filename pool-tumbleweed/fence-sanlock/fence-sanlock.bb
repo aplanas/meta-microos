@@ -9,6 +9,7 @@ RPM_HASH = "dc66eb24cfe4b4ac08490a220f44ed58c1cb05e94edff74b650b143ab3bdc82343b6
 
 RPROVIDES:${PN} += "fence-sanlock \
 fence-sanlock(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "749a8a6296544a2d9f6e2080216c36e60ae74a19f23f510ffeae2b906467519fc3ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doulossil"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

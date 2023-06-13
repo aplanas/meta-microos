@@ -32,6 +32,7 @@ mimehandler(application/x-spkac) \
 mimehandler(application/x-spkac+base64) \
 mimehandler(application/x-x509-ca-cert) \
 mimehandler(application/x-x509-user-cert)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

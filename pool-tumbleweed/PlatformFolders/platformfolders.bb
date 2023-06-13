@@ -12,6 +12,7 @@ RPM_HASH = "22d1ae00e4b96a4bd82d6b7c8d425f38a575d49be51f130baf03c93a1dc29e7958be
 RPROVIDES:${PN} += "PlatformFolders \
 PlatformFolders(aarch-64) \
 libplatform_folders.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

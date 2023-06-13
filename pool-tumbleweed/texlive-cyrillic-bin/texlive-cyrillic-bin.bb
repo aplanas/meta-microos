@@ -9,6 +9,7 @@ RPM_HASH = "0b62ee65a66369cfbc4378359d7a63c8dd63b783169479f7f13ec16f515a7bd32f92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cyrillic-bin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

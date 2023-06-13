@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-scikit-build-core-pyproject \
 python39-scikit_build_core-pyproject"
+
 RDEPENDS:${PN} += "python39-distlib \
 python39-pathspec \
 python39-pyproject-metadata \

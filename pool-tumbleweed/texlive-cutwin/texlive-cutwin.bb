@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cutwin.sty) \
 texlive-cutwin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

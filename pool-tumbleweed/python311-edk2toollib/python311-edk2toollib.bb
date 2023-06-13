@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(edk2-pytool-library) \
 python311-edk2toollib \
 python3dist(edk2-pytool-library)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi)"
 

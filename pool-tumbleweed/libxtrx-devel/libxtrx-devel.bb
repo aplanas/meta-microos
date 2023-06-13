@@ -13,6 +13,7 @@ RPM_HASH = "f64b6fc9da3c21f78c0e10951545bc8f858d1492bba5e17754d985f4ec29f3c9d657
 RPROVIDES:${PN} += "libxtrx-devel \
 libxtrx-devel(aarch-64) \
 pkgconfig(libxtrx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxtrx0"
 

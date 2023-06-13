@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fullminipage.sty) \
 texlive-fullminipage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

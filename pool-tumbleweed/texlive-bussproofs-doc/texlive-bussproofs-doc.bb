@@ -9,6 +9,7 @@ RPM_HASH = "0b269af446f42f091b2e17eb5927a6198b44d08fec3c32605f308b51e1ac07b73dec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bussproofs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

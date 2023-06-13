@@ -25,6 +25,7 @@ libasb_plugin_gettext.so()(64bit) \
 libasb_plugin_hardcoded.so()(64bit) \
 libasb_plugin_icon.so()(64bit) \
 libasb_plugin_shell_extension.so()(64bit)"
+
 RDEPENDS:${PN} += "gcab \
 gdk-pixbuf-loader-rsvg \
 ld-linux-aarch64.so.1()(64bit) \

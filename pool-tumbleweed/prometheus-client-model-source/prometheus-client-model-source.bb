@@ -12,6 +12,7 @@ RPM_HASH = "2fb93e1e0b669132ad63bb9d6fef38939eb252fa19cb28c0dc82f4b51f7a8f7c7f31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "prometheus-client-model-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

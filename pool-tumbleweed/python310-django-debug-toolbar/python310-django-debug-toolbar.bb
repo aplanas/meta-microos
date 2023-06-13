@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-django-debug-toolbar \
 python3.10dist(django-debug-toolbar) \
 python310-django-debug-toolbar \
 python3dist(django-debug-toolbar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-jinja \

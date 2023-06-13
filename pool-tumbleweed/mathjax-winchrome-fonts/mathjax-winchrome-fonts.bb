@@ -9,6 +9,7 @@ RPM_HASH = "5b47a859d3a089edb4765425694688cd817073121131378e3acf08f8935a1d7d2135
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax-winchrome-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

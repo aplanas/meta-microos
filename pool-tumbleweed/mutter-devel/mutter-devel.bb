@@ -14,6 +14,7 @@ pkgconfig(libmutter-12) \
 pkgconfig(mutter-clutter-12) \
 pkgconfig(mutter-cogl-12) \
 pkgconfig(mutter-cogl-pango-12)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mutter \
 pkgconfig(atk) \

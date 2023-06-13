@@ -17,6 +17,7 @@ libnative-platform.so()(64bit) \
 mvn(net.rubygrapefruit:native-platform) \
 native-platform \
 native-platform(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 ld-linux-aarch64.so.1()(64bit) \

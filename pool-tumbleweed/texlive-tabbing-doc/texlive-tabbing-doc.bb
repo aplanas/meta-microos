@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tabbing-doc:en) \
 texlive-tabbing-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

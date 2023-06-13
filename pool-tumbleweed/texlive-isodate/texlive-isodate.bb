@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(isodate.sty) \
 tex(isodateo.sty) \
 texlive-isodate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

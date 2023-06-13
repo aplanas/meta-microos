@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(GStreamer1) \
 perl(GStreamer1::Caps::Simple) \
 perl-GStreamer1 \
 perl-GStreamer1(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Glib::Object::Introspection) \
 typelib-1_0-Gst-1_0 \

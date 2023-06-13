@@ -17,6 +17,7 @@ RPM_HASH = "02a1025024ab39db72f120ff1e12fbe4e942f1e57a528095f6a93ce00a4f52e0ea9d
 
 RPROVIDES:${PN} += "http-parser-devel \
 http-parser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhttp_parser2_9"
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sleuth) \
 sleuth"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Net-DNS"
 

@@ -12,6 +12,7 @@ RPM_HASH = "4a46de40b8512db2d3ed159246e6d833ac645a653843450cc40f3f7b4a67667ee176
 
 RPROVIDES:${PN} += "plplot-driver-ps \
 plplot-driver-ps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

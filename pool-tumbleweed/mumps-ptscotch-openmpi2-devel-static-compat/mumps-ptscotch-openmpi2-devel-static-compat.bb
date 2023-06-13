@@ -15,6 +15,7 @@ RPM_HASH = "8de6fba231303a17feb23fbe2e315e2e3665039d638626f9ffe1516ddb71f1d3ee2b
 
 RPROVIDES:${PN} += "mumps-ptscotch-openmpi2-devel-static-compat \
 mumps-ptscotch-openmpi2-devel-static-compat(aarch-64)"
+
 RDEPENDS:${PN} += "mumps-scotch-devel-static"
 
 inherit rpm

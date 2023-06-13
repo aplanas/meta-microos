@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-randomly) \
 python311-pytest-randomly \
 python3dist(pytest-randomly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-importlib-metadata \
 python311-pytest"

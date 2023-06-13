@@ -12,6 +12,7 @@ RPM_HASH = "4342ac3ff35c98723197eaa84cc273700d04d033f8311d8ac0970e6284e15a3f2c9a
 RPROVIDES:${PN} += "phodav-devel \
 phodav-devel(aarch-64) \
 pkgconfig(libphodav-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libphodav-3_0-0 \
 pkgconfig(gio-unix-2.0) \

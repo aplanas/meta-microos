@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "kopeninghours \
 kopeninghours(aarch-64) \
 libkopeninghoursqmlplugin.so()(64bit) \
 qt5qmlimport(org.kde.kopeninghours.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKOpeningHours.so.1()(64bit) \

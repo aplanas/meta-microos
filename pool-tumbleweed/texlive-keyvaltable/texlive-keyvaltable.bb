@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(keyvaltable.sty) \
 texlive-keyvaltable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

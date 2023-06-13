@@ -12,6 +12,7 @@ RPM_HASH = "0a7adfb13902c3c9d8e9fd2bfdaac3dce751098d6de2bb1f87893190e84cbbf58fea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmsh-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

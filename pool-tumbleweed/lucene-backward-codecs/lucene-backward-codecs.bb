@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-backward-codecs \
 mvn(org.apache.lucene:lucene-backward-codecs) \
 mvn(org.apache.lucene:lucene-backward-codecs:pom:) \
 osgi(org.apache.lucene.backward-codecs)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core)"

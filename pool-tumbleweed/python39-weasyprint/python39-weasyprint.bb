@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(weasyprint) \
 python39-WeasyPrint \
 python39-weasyprint \
 python3dist(weasyprint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 libgobject-2_0-0 \

@@ -10,6 +10,7 @@ RPM_HASH = "df1f38934ca1ca629c105e7c43804ca891e04cf958d6f5a4c4d3efe80069c0363dd1
 RPROVIDES:${PN} += "libQt6Quick3DParticleEffects.so.6()(64bit) \
 libQt6Quick3DParticleEffects6 \
 libQt6Quick3DParticleEffects6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \

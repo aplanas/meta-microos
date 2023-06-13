@@ -11,6 +11,7 @@ RPM_HASH = "f8dab345af13b97a741a8706df42be0bd94be75ceb27e2f9ca5598486a0a24622469
 RPROVIDES:${PN} += "cunit-devel \
 cunit-devel(aarch-64) \
 pkgconfig(cunit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

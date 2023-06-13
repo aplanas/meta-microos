@@ -17,6 +17,7 @@ RPM_HASH = "2879247b232e8973d36a9b77f7402012c531ffcba261031645ec4789d90169268d9a
 RPROVIDES:${PN} += "typelib(GstVideo) \
 typelib-1_0-GstVideo-1_0 \
 typelib-1_0-GstVideo-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstvideo-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

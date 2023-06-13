@@ -11,6 +11,7 @@ RPM_HASH = "fe8698ebd47885c472b79efe092b29550db31f4fbeb5410befb33e9a80d414eccbee
 RPROVIDES:${PN} += "libgirepository-1.0.so.1()(64bit) \
 libgirepository-1_0-1 \
 libgirepository-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 girepository-1_0 \
 ld-linux-aarch64.so.1()(64bit) \

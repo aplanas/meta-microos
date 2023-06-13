@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-lttngust \
 python3-lttngust(aarch-64) \
 python3.10dist(lttngust) \
 python3dist(lttngust)"
+
 RDEPENDS:${PN} += "liblttng-ust-python-agent1 \
 python(abi)"
 

@@ -52,6 +52,7 @@ rpm_macro(kf5_makeinstall) \
 rpm_macro(kf5_post_install) \
 rpm_macro(kf5_python_bindings_package) \
 rpm_macro(make_jobs)"
+
 RDEPENDS:${PN} += "/bin/bash \
 hicolor-icon-theme"
 

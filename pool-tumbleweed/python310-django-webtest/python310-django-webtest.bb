@@ -12,6 +12,7 @@ python3.10dist(django-webtest) \
 python310-django-webtest \
 python310-django-webtest(aarch-64) \
 python3dist(django-webtest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-WebTest"

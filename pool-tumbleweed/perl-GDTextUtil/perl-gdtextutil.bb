@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(GD::Text) \
 perl(GD::Text::Align) \
 perl(GD::Text::Wrap) \
 perl-GDTextUtil"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(GD)"
 

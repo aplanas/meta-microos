@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spyder-hdf5 \
 spyder3-hdf5"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-h5py \
 spyder"

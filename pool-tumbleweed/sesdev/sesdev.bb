@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(sesdev) \
 python3dist(sesdev) \
 sesdev"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Jinja2 \

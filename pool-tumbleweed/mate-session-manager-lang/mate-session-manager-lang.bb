@@ -112,6 +112,7 @@ locale(mate-session-manager:zh_HK) \
 locale(mate-session-manager:zh_TW) \
 mate-session-manager-lang \
 mate-session-manager-lang-all"
+
 RDEPENDS:${PN} += "mate-session-manager"
 
 inherit rpm

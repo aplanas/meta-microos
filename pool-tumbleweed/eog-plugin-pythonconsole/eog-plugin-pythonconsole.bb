@@ -12,6 +12,7 @@ eog-plugin-pythonconsole(aarch-64) \
 eog-plugins:/usr/lib64/eog/plugins/pythonconsole.plugin \
 metainfo() \
 metainfo(eog-pythonconsole.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 typelib(Eog) \
 typelib(GLib) \

@@ -39,6 +39,7 @@ tex(s-simpleslides-Swoosh.tex) \
 tex(s-simpleslides-ThickStripes.tex) \
 tex(s-simpleslides-default.tex) \
 texlive-context-simpleslides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

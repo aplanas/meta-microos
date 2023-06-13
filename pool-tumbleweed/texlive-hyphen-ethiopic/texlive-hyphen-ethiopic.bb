@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hyph-mul-ethi.tex) \
 tex(loadhyph-mul-ethi.tex) \
 texlive-hyphen-ethiopic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

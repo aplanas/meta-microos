@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-taskw \
 python3.10dist(taskw) \
 python310-taskw \
 python3dist(taskw)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-kitchen \
 python310-python-dateutil \

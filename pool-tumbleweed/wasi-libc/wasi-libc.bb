@@ -9,6 +9,7 @@ RPM_HASH = "60fa7e2864bc14f7dcb648f04a54c81f1bc75f548bae9e25561b0646e2d3acbb6bdc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wasi-libc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

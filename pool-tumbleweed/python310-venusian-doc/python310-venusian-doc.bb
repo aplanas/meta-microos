@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-venusian-doc \
 python310-venusian-doc"
+
 RDEPENDS:${PN} += "python310-venusian"
 
 inherit rpm

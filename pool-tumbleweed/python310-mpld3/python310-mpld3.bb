@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-mpld3 \
 python3.10dist(mpld3) \
 python310-mpld3 \
 python3dist(mpld3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-matplotlib"

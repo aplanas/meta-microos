@@ -11,6 +11,7 @@ RPM_HASH = "b238dabea5a55fb1fb46085fce19dc38f7321225a28f3e3be14132420321c384357a
 RPROVIDES:${PN} += "libportal-gtk3-devel \
 libportal-gtk3-devel(aarch-64) \
 pkgconfig(libportal-gtk3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libportal-gtk3-1 \
 pkgconfig(gio-2.0) \

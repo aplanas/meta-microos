@@ -9,6 +9,7 @@ RPM_HASH = "82937b14132b206a83184bdde45ff68f5d6101e60fa7ccc94fe559191c7c40dbcf69
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moderntimeline-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

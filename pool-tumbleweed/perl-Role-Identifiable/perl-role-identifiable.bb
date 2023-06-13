@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(Role::Identifiable) \
 perl(Role::Identifiable::HasIdent) \
 perl(Role::Identifiable::HasTags) \
 perl-Role-Identifiable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose::Role) \
 perl(Moose::Util::TypeConstraints)"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opensfx \
 openttd-opensfx"
+
 RDEPENDS:${PN} += "openttd-data"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jcommon \
 mvn(org.jfree:jcommon) \
 mvn(org.jfree:jcommon:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

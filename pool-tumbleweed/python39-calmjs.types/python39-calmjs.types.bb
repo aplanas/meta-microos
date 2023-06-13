@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(calmjs.types) \
 python39-calmjs.types \
 python3dist(calmjs.types)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(soton-beamer.sty) \
 tex(soton-palette.sty) \
 texlive-soton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

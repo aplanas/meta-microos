@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intlfonts-bdf \
 intlfonts-bdf-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

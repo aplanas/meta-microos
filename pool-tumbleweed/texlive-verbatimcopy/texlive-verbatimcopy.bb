@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(verbatimcopy.sty) \
 texlive-verbatimcopy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

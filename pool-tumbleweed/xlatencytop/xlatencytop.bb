@@ -13,6 +13,7 @@ RPM_HASH = "e24eabf9c5c95496c999608d765a4d3b1771edae79c4fdd7930ab41e70465e4fb52e
 
 RPROVIDES:${PN} += "xlatencytop \
 xlatencytop(aarch-64)"
+
 RDEPENDS:${PN} += "latencytop \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

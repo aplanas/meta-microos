@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(oiffile) \
 python311-oiffile \
 python3dist(oiffile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-tifffile"

@@ -16,6 +16,7 @@ python3.10dist(superpaper) \
 python38-superpaper \
 python3dist(superpaper) \
 superpaper"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Pillow \

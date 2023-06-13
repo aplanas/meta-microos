@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ordinalpt.sty) \
 texlive-ordinalpt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

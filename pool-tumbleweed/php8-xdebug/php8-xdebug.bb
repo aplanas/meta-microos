@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "config(php8-xdebug) \
 php-xdebug \
 php8-xdebug \
 php8-xdebug(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

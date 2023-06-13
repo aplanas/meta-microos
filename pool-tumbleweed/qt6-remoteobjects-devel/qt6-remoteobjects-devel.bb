@@ -12,6 +12,7 @@ cmake(Qt6RemoteObjectsTools) \
 pkgconfig(Qt6RemoteObjects) \
 qt6-remoteobjects-devel \
 qt6-remoteobjects-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6RemoteObjects6 \

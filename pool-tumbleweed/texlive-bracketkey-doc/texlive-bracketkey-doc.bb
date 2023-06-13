@@ -9,6 +9,7 @@ RPM_HASH = "f9570a6c6eb9091b7b37d16df9f2a10184eaf463e96774561ade9de2b444e0bbaec6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bracketkey-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

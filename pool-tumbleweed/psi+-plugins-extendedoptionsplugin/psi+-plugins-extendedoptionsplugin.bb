@@ -11,6 +11,7 @@ RPM_HASH = "021227e870dc1b35fa02612f0cd1f99e08289feb3af4042e0248a949375be4d12ac6
 RPROVIDES:${PN} += "libextendedoptionsplugin.so()(64bit) \
 psi+-plugins-extendedoptionsplugin \
 psi+-plugins-extendedoptionsplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

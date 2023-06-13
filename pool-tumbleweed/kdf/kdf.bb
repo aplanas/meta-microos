@@ -15,6 +15,7 @@ libkcm_kdf.so()(64bit) \
 libkdfprivate.so.23()(64bit) \
 metainfo() \
 metainfo(org.kde.kdf.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

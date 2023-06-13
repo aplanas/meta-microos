@@ -13,6 +13,7 @@ RPM_HASH = "be45631876eddf276e1ac42d48bb83366eaf4387c6d9a2084306419de5ccbe751e2e
 
 RPROVIDES:${PN} += "6tunnel \
 6tunnel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

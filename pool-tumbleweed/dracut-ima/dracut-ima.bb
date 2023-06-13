@@ -11,6 +11,7 @@ RPM_HASH = "3b0c7c0021d4a2d12f3e69b1cb3bb0138d86b0e9429666ecfbaa55775bf514766041
 RPROVIDES:${PN} += "config(dracut-ima) \
 dracut-ima \
 dracut-ima(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dracut \

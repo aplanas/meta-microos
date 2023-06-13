@@ -42,6 +42,7 @@ locale(msitools:uk) \
 locale(msitools:zh_CN) \
 msitools-lang \
 msitools-lang-all"
+
 RDEPENDS:${PN} += "msitools"
 
 inherit rpm

@@ -24,6 +24,7 @@ tex(namuna-letter.tex) \
 tex(namuna-para.tex) \
 tex(namuna-report.tex) \
 texlive-marathi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

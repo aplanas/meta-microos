@@ -14,6 +14,7 @@ RPM_HASH = "fc8e6c2419d19b6299cad5728ecb6cfd7411e718d582916c044948a1e05f106286d3
 RPROVIDES:${PN} += "libwebp-tools \
 libwebp-tools(aarch-64) \
 webp-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

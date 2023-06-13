@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tasks.cfg) \
 tex(tasks.sty) \
 texlive-tasks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

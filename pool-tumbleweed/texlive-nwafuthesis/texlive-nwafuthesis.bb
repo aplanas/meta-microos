@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nwafuthesis.cls) \
 texlive-nwafuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

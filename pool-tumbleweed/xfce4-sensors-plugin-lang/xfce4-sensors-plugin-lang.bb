@@ -56,6 +56,7 @@ locale(xfce4-sensors-plugin:zh_TW) \
 xfce4-panel-plugin-sensors-lang \
 xfce4-sensors-plugin-lang \
 xfce4-sensors-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-sensors-plugin"
 
 inherit rpm

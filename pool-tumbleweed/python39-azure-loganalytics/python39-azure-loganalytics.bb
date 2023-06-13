@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-loganalytics) \
 python39-azure-loganalytics \
 python3dist(azure-loganalytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-nspkg \

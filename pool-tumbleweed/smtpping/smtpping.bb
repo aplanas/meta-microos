@@ -9,6 +9,7 @@ RPM_HASH = "098662291925298275d1cc33fa71d8a9165e84d6a592610b10bb09a5853c24c9d49a
 
 RPROVIDES:${PN} += "smtpping \
 smtpping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "24ecfce6e2d5334eb88a20b613d153a0b1fe027153577c001c2c2bb8b9f25dc66b3a
 RPROVIDES:${PN} += "config(debuginfod-profile) \
 debuginfod-profile \
 debuginfod-profile(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

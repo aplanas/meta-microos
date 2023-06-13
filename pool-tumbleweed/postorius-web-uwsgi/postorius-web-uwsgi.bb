@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(postorius-web-uwsgi) \
 postorius-web-uwsgi"
+
 RDEPENDS:${PN} += "postorius-web \
 python39-uwsgi-python3"
 

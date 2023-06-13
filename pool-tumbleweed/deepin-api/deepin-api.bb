@@ -10,6 +10,7 @@ RPM_HASH = "28d9efe578fce5eff49f2cfc5671094f8bd917c4ed75d14acad662cfa09852e3147a
 
 RPROVIDES:${PN} += "deepin-api \
 deepin-api(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 deepin-desktop-base \
 rfkill"

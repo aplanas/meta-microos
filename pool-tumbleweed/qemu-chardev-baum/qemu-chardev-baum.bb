@@ -9,6 +9,7 @@ RPM_HASH = "8ebf712cff1f5c93cd84a44859fdd5d6281cabbd97f11c749e2329ee17791f842944
 
 RPROVIDES:${PN} += "qemu-chardev-baum \
 qemu-chardev-baum(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrlapi.so.0.8()(64bit) \

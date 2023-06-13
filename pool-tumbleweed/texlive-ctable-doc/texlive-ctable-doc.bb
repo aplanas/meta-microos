@@ -9,6 +9,7 @@ RPM_HASH = "19a9e319440dd663341170ef04f5ce154f5d0dbb2e2e728586af071344fb4c1480f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctable-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

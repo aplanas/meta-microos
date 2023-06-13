@@ -12,6 +12,7 @@ RPM_HASH = "89b9b25537b8c88ca22a5e06528a04733af5b6484d5fcf64ed0691de00cb62dffa2c
 RPROVIDES:${PN} += "ghc-refact \
 ghc-refact(aarch-64) \
 libHSrefact-0.3.0.2-4ZnrxSKFCNFLIgjtpZGW26-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "64062752c4bb796fc6ff3955235ebfe2e4f1ccbf030de2af246fabe13b20307f2ff0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter_nbextensions_configurator"
+
 RDEPENDS:${PN} += "(python39-jupyter_nbextensions_configurator = 0.6.3 or python311-jupyter_nbextensions_configurator = 0.6.3 or python310-jupyter_nbextensions_configurator = 0.6.3) \
 /usr/bin/python3.10 \
 jupyter-jupyter_contrib_core \

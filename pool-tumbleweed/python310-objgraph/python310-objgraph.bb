@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-objgraph \
 python3.10dist(objgraph) \
 python310-objgraph \
 python3dist(objgraph)"
+
 RDEPENDS:${PN} += "graphviz-gd \
 graphviz-gnome \
 python(abi) \

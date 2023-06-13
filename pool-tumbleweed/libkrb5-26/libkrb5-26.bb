@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libkrb5-26 \
 libkrb5-26(aarch-64) \
 libkrb5.so.26()(64bit) \
 libkrb5.so.26(HEIMDAL_KRB5_2.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

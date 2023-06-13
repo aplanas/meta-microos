@@ -59,6 +59,7 @@ locale(ktp-contact-list:uk) \
 locale(ktp-contact-list:vi) \
 locale(ktp-contact-list:zh_CN) \
 locale(ktp-contact-list:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-contact-list"
 
 inherit rpm

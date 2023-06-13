@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dblfloatfix.sty) \
 texlive-dblfloatfix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "f8371959dda212b9fe02512b452f6de40ee76d015286c9fc7b3a638437ef0f818617
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mapi-header-php"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

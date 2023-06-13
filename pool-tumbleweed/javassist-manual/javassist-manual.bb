@@ -11,6 +11,7 @@ RPM_HASH = "c65361649d2e661bb50f39ba18d5539a794e41416059d2453b499264341d8fbaf700
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javassist-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

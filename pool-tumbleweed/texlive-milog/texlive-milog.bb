@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(milog.cls) \
 texlive-milog"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

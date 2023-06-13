@@ -11,6 +11,7 @@ RPM_HASH = "7a1434a4880235fc681d5a8a834c66cd7d41493eab311a4898968a0a7f73d244cec3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openbox-theme-matcha"
+
 RDEPENDS:${PN} += "metatheme-matcha-common \
 openbox"
 

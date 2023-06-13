@@ -79,6 +79,7 @@ locale(kjumpingcube:uk) \
 locale(kjumpingcube:vi) \
 locale(kjumpingcube:zh_CN) \
 locale(kjumpingcube:zh_TW)"
+
 RDEPENDS:${PN} += "kjumpingcube"
 
 inherit rpm

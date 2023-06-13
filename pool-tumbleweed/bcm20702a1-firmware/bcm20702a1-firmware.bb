@@ -10,6 +10,7 @@ RPM_HASH = "d52c666941363c8b9ecf45423d43c7bf79fff54e332c8f923c78d6c72cec4317ec13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcm20702a1-firmware"
+
 RDEPENDS:${PN} += "/bin/sh \
 bluez \
 coreutils \

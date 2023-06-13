@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamercolorthemeowl.sty) \
 texlive-beamercolorthemeowl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "169805991ac1b84f6d1fab0ed7c7680ef42ad6b5eb55717605c54e09fd6253c3de87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shared-color-targets"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

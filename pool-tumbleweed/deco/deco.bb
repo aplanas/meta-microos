@@ -17,6 +17,7 @@ RPM_HASH = "b927c3ca59e61e369952179a8f2c7656ed72ee8d002e4b270cecac2e37f1dfc184ee
 
 RPROVIDES:${PN} += "deco \
 deco(aarch-64)"
+
 RDEPENDS:${PN} += "bzip2 \
 gzip \
 ld-linux-aarch64.so.1()(64bit) \

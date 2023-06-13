@@ -13,6 +13,7 @@ libdlm-devel(aarch-64) \
 pkgconfig(libdlm) \
 pkgconfig(libdlm_lt) \
 pkgconfig(libdlmcontrol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdlm3"
 

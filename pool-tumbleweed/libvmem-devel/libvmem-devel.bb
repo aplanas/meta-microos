@@ -17,6 +17,7 @@ libvmem-devel(aarch-64) \
 libvmem.so.1()(64bit) \
 libvmem.so.1(LIBVMEM_1.0)(64bit) \
 pkgconfig(libvmem)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

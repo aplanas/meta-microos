@@ -10,6 +10,7 @@ RPM_HASH = "8124f3d8f12a8cd65a353c3d7c7796e7aef70efc173a72d13b3efeb957e501f89b43
 
 RPROVIDES:${PN} += "abook \
 abook(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

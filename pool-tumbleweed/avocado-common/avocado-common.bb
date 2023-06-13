@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-common \
 config(avocado-common)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

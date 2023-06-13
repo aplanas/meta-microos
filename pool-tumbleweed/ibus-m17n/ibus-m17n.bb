@@ -15,6 +15,7 @@ ibus-m17n(aarch-64) \
 locale(ibus:am;ar;as;bn;fa;gu;he;hi;ja;ka;kk;kn;ko;lo;ml;my;ur;ru;vi;zh) \
 metainfo() \
 metainfo(m17n.appdata.xml)"
+
 RDEPENDS:${PN} += "ibus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

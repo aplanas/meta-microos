@@ -13,6 +13,7 @@ RPM_HASH = "59368c912450c2eb11ae9cd2766fe9b14dd15d81919626cb029a65add1f8b55d0202
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-python-jose-cryptography"
+
 RDEPENDS:${PN} += "python39-cryptography \
 python39-python-jose"
 

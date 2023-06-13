@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-zope.testbrowser \
 python3.10dist(zope.testbrowser) \
 python310-zope.testbrowser \
 python3dist(zope.testbrowser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WSGIProxy2 \
 python310-WebTest \

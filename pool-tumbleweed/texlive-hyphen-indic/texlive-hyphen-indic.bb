@@ -35,6 +35,7 @@ tex(loadhyph-pi.tex) \
 tex(loadhyph-ta.tex) \
 tex(loadhyph-te.tex) \
 texlive-hyphen-indic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

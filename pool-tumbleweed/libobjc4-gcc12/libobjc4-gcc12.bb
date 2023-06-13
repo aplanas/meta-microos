@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libobjc.so.4()(64bit) \
 libobjc4 \
 libobjc4-gcc12 \
 libobjc4-gcc12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

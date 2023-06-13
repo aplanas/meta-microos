@@ -10,6 +10,7 @@ RPM_HASH = "b497f62b22048a89a0a13b86ece1fb6ca2f8c330a73b8bb0d709c2343643a7d0a3c5
 
 RPROVIDES:${PN} += "libproxy1-networkmanager \
 libproxy1-networkmanager(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

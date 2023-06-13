@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(nextcloud-apache) \
 nextcloud-apache"
+
 RDEPENDS:${PN} += "apache2 \
 mod_php_any \
 nextcloud"

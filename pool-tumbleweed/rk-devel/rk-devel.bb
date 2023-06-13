@@ -18,6 +18,7 @@ RPM_HASH = "e14c09a77f9d6560f62f3334531cc744fadf10b08cdb58b01c9e450e64980dd7d25c
 RPROVIDES:${PN} += "pkgconfig(rk) \
 rk-devel \
 rk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librk0"
 

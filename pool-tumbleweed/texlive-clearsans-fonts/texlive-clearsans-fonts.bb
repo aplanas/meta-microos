@@ -141,6 +141,7 @@ font(clearsanslight) \
 font(clearsansmedium) \
 font(clearsansthin) \
 texlive-clearsans-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

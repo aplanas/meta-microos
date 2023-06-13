@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6SpatialAudio) \
 pkgconfig(Qt6SpatialAudio) \
 qt6-spatialaudio-devel \
 qt6-spatialaudio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

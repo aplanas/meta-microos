@@ -10,6 +10,7 @@ RPM_HASH = "246753e42dba96c88565400db0eaa241a3078285e2a05c30f05d24eb23b06a08928e
 RPROVIDES:${PN} += "etrophy-devel \
 etrophy-devel(aarch-64) \
 pkgconfig(etrophy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 efl-devel \
 elementary-devel \

@@ -21,6 +21,7 @@ RPM_HASH = "6694ca467cb053426330f8182c499820c7b861807ef139cd82eb1d1171649c7b7574
 
 RPROVIDES:${PN} += "ocaml-camlp-streams \
 ocaml-camlp-streams(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "acac8ae58cf14c43036b517537780572879af9835e0fbf93df6eb429effdd9e0e41a
 RPROVIDES:${PN} += "config(corosync) \
 corosync \
 corosync(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

@@ -9,6 +9,7 @@ RPM_HASH = "df85e1e0c337bd59e4c2e988ea1b2686e16497c387910853794d26885f1bbe26c810
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vagrant-vim"
+
 RDEPENDS:${PN} += "vagrant \
 vim"
 

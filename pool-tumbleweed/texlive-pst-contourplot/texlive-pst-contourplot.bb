@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-contourplot.sty) \
 tex(pst-contourplot.tex) \
 texlive-pst-contourplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

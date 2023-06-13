@@ -9,6 +9,7 @@ RPM_HASH = "925431bce7fd64893664b4a3159b7b11dc1935e88bb32b06c43d8f6b4adb7e2ac30b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecobiblatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

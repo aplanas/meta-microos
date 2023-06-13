@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-zxjafont-doc:ja;en) \
 texlive-zxjafont-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

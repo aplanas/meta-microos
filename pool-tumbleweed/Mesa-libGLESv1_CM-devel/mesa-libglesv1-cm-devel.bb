@@ -18,6 +18,7 @@ RPM_HASH = "f7c705fb227db0399dae9f39c88168b0fc8f55e0fc17d80bdbd4ac7952742b5e29fa
 RPROVIDES:${PN} += "Mesa-libGLESv1_CM-devel \
 Mesa-libGLESv1_CM-devel(aarch-64) \
 pkgconfig(glesv1_cm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-KHR-devel \
 libglvnd-devel \

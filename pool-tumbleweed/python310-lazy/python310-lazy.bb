@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-lazy \
 python3.10dist(lazy) \
 python310-lazy \
 python3dist(lazy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

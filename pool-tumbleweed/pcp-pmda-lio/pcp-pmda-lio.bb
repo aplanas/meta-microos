@@ -13,6 +13,7 @@ RPM_HASH = "5722e6656ce55ec05d79a9a653a8e724e36e18f9f4f061c33dc602e4323d658f73a6
 
 RPROVIDES:${PN} += "pcp-pmda-lio \
 pcp-pmda-lio(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp \

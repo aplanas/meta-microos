@@ -10,6 +10,7 @@ RPM_HASH = "06245c5ee4615be62cabe9323f4666d107221c1418789d3dfa244bb163fa8acaf014
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gentle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

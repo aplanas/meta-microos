@@ -11,6 +11,7 @@ RPM_HASH = "5e8a83c6ad1fd9b73a085a931002cb77e0aa1ec5afa642fcca64247133c6490da378
 
 RPROVIDES:${PN} += "libguestfs-rescue \
 libguestfs-rescue(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

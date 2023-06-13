@@ -31,6 +31,7 @@ libgomp.so.1(OMP_4.5)(64bit) \
 libgomp1 \
 libgomp1-gcc7 \
 libgomp1-gcc7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

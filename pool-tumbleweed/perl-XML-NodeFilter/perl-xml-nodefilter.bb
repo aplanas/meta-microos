@@ -13,6 +13,7 @@ RPM_HASH = "6f1ca1a5efca282e190424cb68a96e703ef194099e08d4939f56cf7040e4ad5f5e2a
 RPROVIDES:${PN} += "perl(XML::NodeFilter) \
 perl-XML-NodeFilter \
 perl-XML-NodeFilter(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

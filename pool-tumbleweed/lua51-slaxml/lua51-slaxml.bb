@@ -17,6 +17,7 @@ RPM_HASH = "a75ddc7f5db23b058ee6e1f1b591d197aa351021cfcb0473a2af34aa95810beed88e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-slaxml"
+
 RDEPENDS:${PN} += "lua51"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "71bc760cb119397ad9a9f970b450fe9ffba2ae1b434188580bccf25b453e68031a74
 RPROVIDES:${PN} += "config(pam_csync) \
 pam_csync \
 pam_csync(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 libcsync.so.0()(64bit) \
 libiniparser.so.1()(64bit) \

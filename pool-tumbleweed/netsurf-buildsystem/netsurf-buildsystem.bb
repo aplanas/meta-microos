@@ -9,6 +9,7 @@ RPM_HASH = "f8cb58a0187de14bc349d4a43f2a89b5dbfdfaa86d94829b2b55d82bcc9cf8f3aa8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netsurf-buildsystem"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

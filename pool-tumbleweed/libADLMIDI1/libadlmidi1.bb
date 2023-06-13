@@ -12,6 +12,7 @@ RPM_HASH = "5a2e8ac135fd6a42abb3db383dfc6f88b1b38f6fbfe523cf2949565fbeb220d21596
 RPROVIDES:${PN} += "libADLMIDI.so.1()(64bit) \
 libADLMIDI1 \
 libADLMIDI1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

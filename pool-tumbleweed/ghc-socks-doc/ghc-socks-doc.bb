@@ -9,6 +9,7 @@ RPM_HASH = "67155e100dcf989716a18b44246fe62ce5e6092be8ee8d5d031aaff7de2acb446249
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-socks-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

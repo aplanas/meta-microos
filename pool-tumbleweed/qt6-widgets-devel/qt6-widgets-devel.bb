@@ -12,6 +12,7 @@ cmake(Qt6WidgetsTools) \
 pkgconfig(Qt6Widgets) \
 qt6-widgets-devel \
 qt6-widgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Gui) \

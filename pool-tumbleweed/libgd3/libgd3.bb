@@ -13,6 +13,7 @@ RPM_HASH = "9364e92a5dd59a5181952fe9426b92cd333f65c7ccb8adb69122e094d4829c7ea18b
 RPROVIDES:${PN} += "libgd.so.3()(64bit) \
 libgd3 \
 libgd3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

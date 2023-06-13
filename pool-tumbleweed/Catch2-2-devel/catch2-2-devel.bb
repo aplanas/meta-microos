@@ -17,6 +17,7 @@ Catch2-2-devel(aarch-64) \
 Catch2-devel \
 cmake(Catch2) \
 pkgconfig(catch2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

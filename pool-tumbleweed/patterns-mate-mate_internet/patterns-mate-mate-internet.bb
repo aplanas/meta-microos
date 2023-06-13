@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-mate-mate_internet \
 patterns-mate-mate_internet(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

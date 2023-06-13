@@ -9,6 +9,7 @@ RPM_HASH = "cf6869b852d25872b6b7b8fcb9f9a2f8895d53acb8fbce55dd8cd9ee3b13f5a38a23
 
 RPROVIDES:${PN} += "libmwaw-tools \
 libmwaw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "f62ef8f44b16a756fd7017478ef0d48d893d6b7b9a2e312927e2e78557173533be6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qt3d-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libQt5Gui-private-headers-devel \
 libQt5OpenGLExtensions-devel-static \

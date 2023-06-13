@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ifmslide.cfg) \
 tex(ifmslide.sty) \
 texlive-ifmslide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

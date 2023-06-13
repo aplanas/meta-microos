@@ -16,6 +16,7 @@ RPM_HASH = "bcf5bbc538482d0b65443f0225611717f6e11a8c107ee26beebb784383ee960eddb9
 
 RPROVIDES:${PN} += "blog-plymouth \
 blog-plymouth(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 blog \

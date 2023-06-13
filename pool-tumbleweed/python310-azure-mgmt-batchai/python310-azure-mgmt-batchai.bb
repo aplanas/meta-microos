@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-batchai \
 python3.10dist(azure-mgmt-batchai) \
 python310-azure-mgmt-batchai \
 python3dist(azure-mgmt-batchai)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

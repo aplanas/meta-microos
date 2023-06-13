@@ -33,6 +33,7 @@ mvn(org.codehaus.woodstox:wstx-lgpl) \
 mvn(org.codehaus.woodstox:wstx-lgpl:pom:) \
 osgi(com.fasterxml.woodstox.woodstox-core) \
 woodstox-core"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.woodstox:stax2-api)"

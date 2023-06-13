@@ -10,6 +10,7 @@ RPM_HASH = "33f688a32a64c16969aa6a2c2b61b6b1d7c21f7547cb8eddcba34c3a166dfe6056f0
 RPROVIDES:${PN} += "gtk2-engine-cleanice \
 gtk2-engine-cleanice(aarch-64) \
 libcleanice.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

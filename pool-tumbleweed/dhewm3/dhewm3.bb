@@ -15,6 +15,7 @@ RPM_HASH = "ed4014d393a0a68c86606aaee662faadbe87032214b469a4f15c0e6cdee334e9419f
 
 RPROVIDES:${PN} += "dhewm3 \
 dhewm3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

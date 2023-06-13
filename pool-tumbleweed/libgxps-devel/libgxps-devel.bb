@@ -11,6 +11,7 @@ RPM_HASH = "9bb9bfe73ae59b8b972e6666b51ad94475fb04c43a811de099fbedfd6e59b0ad5ccc
 RPROVIDES:${PN} += "libgxps-devel \
 libgxps-devel(aarch-64) \
 pkgconfig(libgxps)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgxps2 \
 pkgconfig(cairo) \

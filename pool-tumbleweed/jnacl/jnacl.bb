@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jnacl \
 mvn(eu.neilalexander:jnacl) \
 mvn(eu.neilalexander:jnacl:pom:) \
 osgi(eu.neilalexander.jnacl)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

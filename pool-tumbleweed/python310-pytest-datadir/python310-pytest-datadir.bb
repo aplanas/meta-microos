@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-datadir \
 python3.10dist(pytest-datadir) \
 python310-pytest-datadir \
 python3dist(pytest-datadir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

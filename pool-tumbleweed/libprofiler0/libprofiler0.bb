@@ -10,6 +10,7 @@ RPM_HASH = "6e1526ace7aabbef1c9b45047c3fb8f37da92e2e77fe6f8606beb2f5f5e0ac96c10b
 RPROVIDES:${PN} += "libprofiler.so.0()(64bit) \
 libprofiler0 \
 libprofiler0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

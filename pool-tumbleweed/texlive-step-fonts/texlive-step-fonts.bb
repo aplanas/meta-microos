@@ -152,6 +152,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(step) \
 texlive-step-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

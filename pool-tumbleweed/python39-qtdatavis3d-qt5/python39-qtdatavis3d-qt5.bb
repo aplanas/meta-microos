@@ -13,6 +13,7 @@ python39-PyQtDataVisualization \
 python39-qtdatavis3d-qt5 \
 python39-qtdatavis3d-qt5(aarch-64) \
 python3dist(pyqtdatavisualization)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

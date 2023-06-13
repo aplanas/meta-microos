@@ -13,6 +13,7 @@ RPM_HASH = "fea6f9cc73662d732b4f04e27ceb9f623459de94d1024001bc3470644a12f45c11ec
 RPROVIDES:${PN} += "orafce \
 postgresql15-orafce \
 postgresql15-orafce(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

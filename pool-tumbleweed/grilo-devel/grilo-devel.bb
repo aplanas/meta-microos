@@ -13,6 +13,7 @@ grilo-devel(aarch-64) \
 pkgconfig(grilo-0.3) \
 pkgconfig(grilo-net-0.3) \
 pkgconfig(grilo-pls-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgrilo-0_3-0 \
 libgrlnet-0_3-0 \

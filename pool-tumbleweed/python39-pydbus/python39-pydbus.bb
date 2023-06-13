@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydbus) \
 python39-pydbus \
 python3dist(pydbus)"
+
 RDEPENDS:${PN} += "girepository-1_0 \
 python(abi) \
 python39-gobject"

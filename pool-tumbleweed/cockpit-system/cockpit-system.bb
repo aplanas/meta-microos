@@ -13,6 +13,7 @@ cockpit-system \
 cockpit-systemd \
 cockpit-tuned \
 cockpit-users"
+
 RDEPENDS:${PN} += "/usr/bin/date \
 /usr/bin/pwscore \
 cockpit-bridge \

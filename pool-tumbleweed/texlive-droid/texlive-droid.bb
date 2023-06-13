@@ -390,6 +390,7 @@ tex(droidsansmono.sty) \
 tex(droidserif.map) \
 tex(droidserif.sty) \
 texlive-droid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

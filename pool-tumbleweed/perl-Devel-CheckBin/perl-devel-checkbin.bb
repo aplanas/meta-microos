@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Devel::CheckBin) \
 perl-Devel-CheckBin"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(ExtUtils::MakeMaker) \
 perl(parent)"

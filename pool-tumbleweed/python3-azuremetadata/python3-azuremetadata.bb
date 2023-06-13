@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "azuremetadata \
 python3-azuremetadata \
 python3.10dist(azuremetadata) \
 python3dist(azuremetadata)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3"

@@ -12,6 +12,7 @@ RPM_HASH = "df5549dac66a59eeea35ab0f642ba96cb75e4a054563e18fa39a58af5f45cd0b190e
 RPROVIDES:${PN} += "dconf-devel \
 dconf-devel(aarch-64) \
 pkgconfig(dconf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdconf1 \
 pkgconfig(gio-2.0)"

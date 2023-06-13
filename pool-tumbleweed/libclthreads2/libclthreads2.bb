@@ -10,6 +10,7 @@ RPM_HASH = "718040a574fe93b1fba9ae21b186b396993be125bae97e464e304624a1f61d33a421
 RPROVIDES:${PN} += "libclthreads.so.2()(64bit) \
 libclthreads2 \
 libclthreads2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

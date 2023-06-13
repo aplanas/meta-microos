@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(needspace.sty) \
 texlive-needspace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

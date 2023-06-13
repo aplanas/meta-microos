@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(thumbpdf.1) \
 texlive-thumbpdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

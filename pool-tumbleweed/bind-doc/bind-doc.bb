@@ -11,6 +11,7 @@ RPM_HASH = "05dba5e72a933a4dbf1be60b39581960b01b3d8add10afc65461d42658723e2a6bb1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bind-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

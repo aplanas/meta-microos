@@ -14,6 +14,7 @@ RPM_HASH = "a5139b31a452a3d06c8690939c5a541c50afe8e09854c70694b9f06ad7b51c4abd01
 RPROVIDES:${PN} += "config(icmake) \
 icmake \
 icmake(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

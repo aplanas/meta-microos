@@ -23,6 +23,7 @@ ncurses5-devel:/usr/lib64/ncurses5/libpanelw.a \
 ncurses5-devel:/usr/lib64/ncurses5/libtic.a \
 ncurses5-devel:/usr/lib64/ncurses5/libticw.a \
 ncurses5-devel:/usr/lib64/ncurses5/libtinfo.a"
+
 RDEPENDS:${PN} += "ncurses5-devel"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "a060cee4f58f441170b839dd1a1565e7167fc53b5a66220373f2df83cb2edd3989c7
 
 RPROVIDES:${PN} += "alure \
 alure(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libalure.so.1()(64bit) \

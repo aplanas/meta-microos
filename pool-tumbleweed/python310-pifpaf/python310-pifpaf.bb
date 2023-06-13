@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pifpaf \
 python3.10dist(pifpaf) \
 python310-pifpaf \
 python3dist(pifpaf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

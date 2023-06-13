@@ -11,6 +11,7 @@ RPM_HASH = "a1a6cab59d6c6c87143e449a9330de6dd586d6127415ba9f4dff26f57b006b29fd68
 RPROVIDES:${PN} += "python39-matplotlib-qt-shared \
 python39-matplotlib-qt5 \
 python39-matplotlib-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-qt5"

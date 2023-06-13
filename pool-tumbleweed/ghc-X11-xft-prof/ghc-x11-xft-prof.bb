@@ -10,6 +10,7 @@ RPM_HASH = "06a33145042ea9ff3ae0137acbccd6baaa65b004e4c88384de3b84a9daa396581395
 RPROVIDES:${PN} += "ghc-X11-xft-prof \
 ghc-X11-xft-prof(aarch-64) \
 ghc-prof(X11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq)"
+
 RDEPENDS:${PN} += "ghc-X11-xft-devel \
 ghc-prof(X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX) \
 ghc-prof(base-4.17.1.0) \

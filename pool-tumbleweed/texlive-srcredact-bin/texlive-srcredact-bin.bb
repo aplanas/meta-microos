@@ -9,6 +9,7 @@ RPM_HASH = "369f6e5dfbef47a25e8ccd9a4ef5656566f2d12a3bd5da2ee12a48e5b1be750d8d08
 
 RPROVIDES:${PN} += "texlive-srcredact-bin \
 texlive-srcredact-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-srcredact"
 
 inherit rpm

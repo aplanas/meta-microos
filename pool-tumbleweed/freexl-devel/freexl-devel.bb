@@ -11,6 +11,7 @@ RPM_HASH = "0365ee29c1172448f5d0e3becd1ad73c16bfc33ae27c8b03f4f15ef689c86afc2eb3
 RPROVIDES:${PN} += "freexl-devel \
 freexl-devel(aarch-64) \
 pkgconfig(freexl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libfreexl1 \

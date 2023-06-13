@@ -10,6 +10,7 @@ RPM_HASH = "39b54b9d6086c6c25496b0404ad28c2af5831a1f4d9bab7792a10f2b63ca8617d403
 RPROVIDES:${PN} += "ghc-devel(stm-chans-3.0.0.9-KwAuYyoo9r3GoiDPqmpN5R) \
 ghc-stm-chans-devel \
 ghc-stm-chans-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

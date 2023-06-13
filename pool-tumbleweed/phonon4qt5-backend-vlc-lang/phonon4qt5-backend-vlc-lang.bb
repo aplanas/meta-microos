@@ -39,6 +39,7 @@ locale(phonon4qt5-backend-vlc:zh_CN) \
 locale(phonon4qt5-backend-vlc:zh_TW) \
 phonon4qt5-backend-vlc-lang \
 phonon4qt5-backend-vlc-lang-all"
+
 RDEPENDS:${PN} += "phonon4qt5-backend-vlc"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "bee15b111e3de32e1e218dfd51141aeb5fbfc06090caed381a3476980e075369770b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langeuropean"
+
 RDEPENDS:${PN} += "texlive-armtex \
 texlive-babel-albanian \
 texlive-babel-bosnian \

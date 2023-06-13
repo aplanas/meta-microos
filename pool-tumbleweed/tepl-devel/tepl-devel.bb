@@ -14,6 +14,7 @@ RPM_HASH = "eb37424bb4e142f5bb0624619f1dc2180d28b61cf660269b3b63dbe2cb43c5f3a40b
 RPROVIDES:${PN} += "pkgconfig(tepl-6) \
 tepl-devel \
 tepl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtepl-6-2 \
 pkgconfig(amtk-5) \

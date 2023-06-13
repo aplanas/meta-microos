@@ -10,6 +10,7 @@ RPM_HASH = "5b879f4c83323830d8bbec87330665c78dd7ef4bd6de88806e4fcdb210e7cfb495a0
 
 RPROVIDES:${PN} += "indicator-common \
 indicator-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

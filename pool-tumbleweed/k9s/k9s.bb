@@ -13,6 +13,7 @@ RPM_HASH = "529dbc19fdb132a9b0ca1cd8893f818f53881c281656a9c205b0868494829578b18f
 
 RPROVIDES:${PN} += "k9s \
 k9s(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

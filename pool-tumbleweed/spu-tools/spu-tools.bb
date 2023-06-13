@@ -15,6 +15,7 @@ RPM_HASH = "1eb5a2d37e28541429a8e848eb4ba1163f5b6a3d349ffb26496f25da46bd63e411b6
 
 RPROVIDES:${PN} += "spu-tools \
 spu-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

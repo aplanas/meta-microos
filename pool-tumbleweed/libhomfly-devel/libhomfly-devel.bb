@@ -11,6 +11,7 @@ RPM_HASH = "ef55365a388443ab142f9e5a9e3108e13c578bafb889eefa7c4950abea62832e87d8
 
 RPROVIDES:${PN} += "libhomfly-devel \
 libhomfly-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhomfly0"
 
 inherit rpm

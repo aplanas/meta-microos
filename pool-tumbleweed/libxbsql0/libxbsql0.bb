@@ -14,6 +14,7 @@ RPM_HASH = "1b4292e242e07fd4b88fb887c60e5191f69e8ae8c7cfd2eba290b7e58afc473237d0
 RPROVIDES:${PN} += "libxbsql.so.0()(64bit) \
 libxbsql0 \
 libxbsql0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

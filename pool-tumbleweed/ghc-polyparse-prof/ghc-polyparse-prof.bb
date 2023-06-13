@@ -10,6 +10,7 @@ RPM_HASH = "db31eec5728e81813d313bcff2ccf4584d0c6cadd7c4375310d95b92eab053007e3e
 RPROVIDES:${PN} += "ghc-polyparse-prof \
 ghc-polyparse-prof(aarch-64) \
 ghc-prof(polyparse-1.13-E8FdqtcSqxM3P2njDFrYm8)"
+
 RDEPENDS:${PN} += "ghc-polyparse-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

@@ -27,6 +27,7 @@ mvn(org.eclipse.jetty:jetty-jsp) \
 mvn(org.eclipse.jetty:jetty-jsp::nolog:) \
 mvn(org.eclipse.jetty:jetty-jsp:pom:) \
 osgi(org.eclipse.jetty.apache-jsp)"
+
 RDEPENDS:${PN} += "glassfish-el \
 java-headless \
 javapackages-filesystem \

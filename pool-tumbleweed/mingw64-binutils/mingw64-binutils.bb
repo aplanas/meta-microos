@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64(libdep.dll) \
 mingw64-binutils"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

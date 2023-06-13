@@ -12,6 +12,7 @@ RPM_HASH = "9f87bb96347ab87c8d608f722fe9494f438e256cc9e54b9f8be2627f7e2511a511ca
 
 RPROVIDES:${PN} += "spindle-devel \
 spindle-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

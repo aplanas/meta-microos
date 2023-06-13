@@ -11,6 +11,7 @@ RPM_HASH = "9e93a4d4db3cd99cb72d5fa4ece1965a4e0a6e287357d62d0c3a747bfd87e553c0b6
 
 RPROVIDES:${PN} += "sunwait \
 sunwait(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

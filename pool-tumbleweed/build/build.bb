@@ -74,6 +74,7 @@ perl(PBuild::Structured) \
 perl(PBuild::Util) \
 perl(PBuild::Verify) \
 perl(PBuild::Zip)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

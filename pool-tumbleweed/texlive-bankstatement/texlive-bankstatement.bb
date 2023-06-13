@@ -26,6 +26,7 @@ tex(stmenglish.def) \
 tex(stmgerman.def) \
 tex(stmnamibian.def) \
 texlive-bankstatement"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

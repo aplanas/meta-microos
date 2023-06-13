@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(hunter) \
 python311-hunter \
 python311-hunter(aarch-64) \
 python3dist(hunter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

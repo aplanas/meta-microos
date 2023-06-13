@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-rpy2 \
 python3.10dist(rpy2) \
 python310-rpy2 \
 python3dist(rpy2)"
+
 RDEPENDS:${PN} += "R-base \
 python(abi) \
 python310-cffi \

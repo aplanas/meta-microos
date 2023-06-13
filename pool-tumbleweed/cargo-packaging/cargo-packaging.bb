@@ -15,6 +15,7 @@ rpm_macro(cargo_install) \
 rpm_macro(cargo_test) \
 rpm_macro(rust_arches) \
 rpm_macro(rust_tier1_arches)"
+
 RDEPENDS:${PN} += "cargo \
 cargo-auditable \
 libc.so.6(GLIBC_2.34)(64bit) \

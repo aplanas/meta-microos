@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dasbus \
 python3.10dist(dasbus) \
 python310-dasbus \
 python3dist(dasbus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gobject \
 typelib(GLib) \

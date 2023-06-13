@@ -10,6 +10,7 @@ RPM_HASH = "8dabf6ba7cfce72857dde5073ae0c41a2af8a343c212a7efacebaf4d012a8d7236ca
 RPROVIDES:${PN} += "ghc-prettyprinter-ansi-terminal \
 ghc-prettyprinter-ansi-terminal(aarch-64) \
 libHSprettyprinter-ansi-terminal-1.1.3-QQli2Jew8AdEXEsQuhGa-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

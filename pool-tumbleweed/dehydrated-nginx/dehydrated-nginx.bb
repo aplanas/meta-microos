@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(dehydrated-nginx) \
 dehydrated-nginx \
 letsencrypt.sh-nginx"
+
 RDEPENDS:${PN} += "/bin/sh \
 dehydrated \
 nginx"

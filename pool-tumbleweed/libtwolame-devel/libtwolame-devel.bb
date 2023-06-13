@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libtwolame-devel \
 libtwolame-devel(aarch-64) \
 pkgconfig(twolame) \
 twolame-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtwolame0"
 

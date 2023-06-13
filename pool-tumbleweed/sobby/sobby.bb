@@ -10,6 +10,7 @@ RPM_HASH = "d687ad0f5de9db6bdcc28ba8a56a8d845d1c282cc177f8f91fc9b9247c9808109f4b
 
 RPROVIDES:${PN} += "sobby \
 sobby(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-glib.so.1()(64bit) \

@@ -26,6 +26,7 @@ tex(beamerfontthemeUR.sty) \
 tex(beamerouterthemeUR.sty) \
 tex(beamerthemeUR.sty) \
 texlive-urcls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

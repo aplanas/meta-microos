@@ -16,6 +16,7 @@ rpm_macro(pkidir_cfg) \
 rpm_macro(pkidir_static) \
 rpm_macro(trustdir_cfg) \
 rpm_macro(trustdir_static)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libp11-kit0"
 

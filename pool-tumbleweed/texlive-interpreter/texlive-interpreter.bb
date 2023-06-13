@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(interpreter.sty) \
 tex(interpreter.tex) \
 texlive-interpreter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(geschichtsfrkl.bbx) \
 tex(geschichtsfrkl.cbx) \
 tex(geschichtsfrkldoc.sty) \
 texlive-geschichtsfrkl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ RPM_HASH = "f9a79a860c44f0a08270f2337f297bee45325ede4cc3b791f2d9f48ff660ae359914
 RPROVIDES:${PN} += "libgnustep-base.so.1.29()(64bit) \
 libgnustep-base1_29 \
 libgnustep-base1_29(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

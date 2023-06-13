@@ -14,6 +14,7 @@ RPM_HASH = "dcc0f90e7a79c7ce4f832d54493b4b7d7a3f81961e8fd66c1fb642e472e1e7c57adc
 RPROVIDES:${PN} += "typelib(GstBadAudio) \
 typelib-1_0-GstBadAudio-1_0 \
 typelib-1_0-GstBadAudio-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstbadaudio-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

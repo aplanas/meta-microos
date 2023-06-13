@@ -15,6 +15,7 @@ python3-pycairo-devel \
 python310-cairo-devel \
 python310-pycairo-devel \
 python310-pycairo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-devel \
 python310-pycairo \
 python310-pycairo-common-devel"

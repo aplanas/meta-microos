@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:unicode-display_width:1) \
 rubygem(ruby:3.2.0:unicode-display_width:1.8) \
 rubygem(ruby:3.2.0:unicode-display_width:1.8.0) \
 rubygem(unicode-display_width)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

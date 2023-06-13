@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(annotate-equations.sty) \
 texlive-annotate-equations"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

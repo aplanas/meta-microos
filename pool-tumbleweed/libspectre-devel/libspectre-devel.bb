@@ -12,6 +12,7 @@ RPM_HASH = "3969064633a3fb7dcab449d8c7a752428474cd8b065c2c63bfa1ad467ad8f7f5c0d0
 RPROVIDES:${PN} += "libspectre-devel \
 libspectre-devel(aarch-64) \
 pkgconfig(libspectre)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ghostscript-devel \
 libspectre1"

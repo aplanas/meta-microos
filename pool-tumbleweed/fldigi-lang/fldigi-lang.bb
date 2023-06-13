@@ -18,6 +18,7 @@ locale(fldigi:it) \
 locale(fldigi:nl) \
 locale(fldigi:pl) \
 locale(fldigi:ru)"
+
 RDEPENDS:${PN} += "fldigi"
 
 inherit rpm

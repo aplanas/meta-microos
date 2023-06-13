@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(read-only-root-fs) \
 read-only-root-fs"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/cat \
 /usr/bin/mkdir \

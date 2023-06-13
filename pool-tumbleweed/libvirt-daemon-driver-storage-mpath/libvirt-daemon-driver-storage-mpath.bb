@@ -11,6 +11,7 @@ RPM_HASH = "8580c7627182a88bbe488988cd3bed4e6b2142271bad60cefda54cc537865c24a211
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-mpath \
 libvirt-daemon-driver-storage-mpath(aarch-64) \
 libvirt_storage_backend_mpath.so()(64bit)"
+
 RDEPENDS:${PN} += "device-mapper \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

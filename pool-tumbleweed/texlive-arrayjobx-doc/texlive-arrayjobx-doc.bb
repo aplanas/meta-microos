@@ -9,6 +9,7 @@ RPM_HASH = "2980534038a0948bd9f709dc09bea96660611283629c479d9df3afef1456d269ebc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arrayjobx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

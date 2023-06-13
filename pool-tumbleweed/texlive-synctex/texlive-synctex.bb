@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(synctex.1) \
 man(synctex.5) \
 texlive-synctex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

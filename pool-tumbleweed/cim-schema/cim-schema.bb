@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cim-schema \
 cim-schema-experimental"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -30,6 +30,7 @@ mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.templ
 mimehandler(application/vnd.wordperfect) \
 mimehandler(application/x-mswrite) \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

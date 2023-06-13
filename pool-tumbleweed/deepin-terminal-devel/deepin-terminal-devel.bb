@@ -11,6 +11,7 @@ RPM_HASH = "bc0b316d2a89de0a7c3fab58e4da1d0cd5a4f6ad4c06def3c197a7b55403287fd242
 RPROVIDES:${PN} += "deepin-terminal-devel \
 deepin-terminal-devel(aarch-64) \
 pkgconfig(terminalwidget5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libterminalwidget5-0 \
 pkgconfig(Qt5Widgets)"

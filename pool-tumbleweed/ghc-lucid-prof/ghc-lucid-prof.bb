@@ -10,6 +10,7 @@ RPM_HASH = "f3ac0ff9ed75af560eb9c04a3135401b2574ec78b2a61602f7e266a597b3880b699d
 RPROVIDES:${PN} += "ghc-lucid-prof \
 ghc-lucid-prof(aarch-64) \
 ghc-prof(lucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w)"
+
 RDEPENDS:${PN} += "ghc-lucid-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW) \

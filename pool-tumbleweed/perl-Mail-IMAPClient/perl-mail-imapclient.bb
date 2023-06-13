@@ -34,6 +34,7 @@ perl(Mail::IMAPClient::Thread) \
 perl(Parse::RecDescent::Mail::IMAPClient::BodyStructure::Parse) \
 perl(Parse::RecDescent::Mail::IMAPClient::Thread) \
 perl-Mail-IMAPClient"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Parse::RecDescent)"
 

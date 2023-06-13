@@ -10,6 +10,7 @@ RPM_HASH = "f730e1b2aebc488cd271dc7e3ad2ef7b98757d69aa161e10fe6fff6b49e9cbc876e8
 RPROVIDES:${PN} += "locale(th) \
 wordcut \
 wordcut(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

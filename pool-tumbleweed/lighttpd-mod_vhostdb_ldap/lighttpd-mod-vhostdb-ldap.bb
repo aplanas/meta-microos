@@ -10,6 +10,7 @@ RPM_HASH = "0c899ffa9a4c914beee35aa333755a55fcc03576f387e817cabe8d0b33adf04d90ff
 
 RPROVIDES:${PN} += "lighttpd-mod_vhostdb_ldap \
 lighttpd-mod_vhostdb_ldap(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 liblber.so.2()(64bit) \
 liblber.so.2(OPENLDAP_2.200)(64bit) \

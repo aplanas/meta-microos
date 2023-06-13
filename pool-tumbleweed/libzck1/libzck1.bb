@@ -16,6 +16,7 @@ RPM_HASH = "4b0b068a3eef7d0a884e6fc8f8cae8aa0297816c1b04d707df2386c99674a4d9abfa
 RPROVIDES:${PN} += "libzck.so.1()(64bit) \
 libzck1 \
 libzck1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

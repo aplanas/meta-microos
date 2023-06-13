@@ -11,6 +11,7 @@ RPM_HASH = "7fb190426b81c6feb469265c87a719bddef4da8b56439713489ce8992aa5c6599719
 
 RPROVIDES:${PN} += "seamonkey-dom-inspector \
 seamonkey-dom-inspector(aarch-64)"
+
 RDEPENDS:${PN} += "seamonkey"
 
 inherit rpm

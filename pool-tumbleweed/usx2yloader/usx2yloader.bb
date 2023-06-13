@@ -11,6 +11,7 @@ RPM_HASH = "9b21b3bc564c4ebbaf2b9a7aabb4270f96a7a76b7a94f9a7ef69b17031c299e6fa87
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/usx2yloader \
 usx2yloader \
 usx2yloader(aarch-64)"
+
 RDEPENDS:${PN} += "alsa-firmware \
 fxload \
 ld-linux-aarch64.so.1()(64bit) \

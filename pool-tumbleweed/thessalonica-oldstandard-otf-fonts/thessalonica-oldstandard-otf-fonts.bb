@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(el;ru) \
 oldstandard-fonts-otf \
 thessalonica-oldstandard-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

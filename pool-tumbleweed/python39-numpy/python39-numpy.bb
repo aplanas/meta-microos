@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(numpy) \
 python39-numpy \
 python39-numpy(aarch-64) \
 python3dist(numpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

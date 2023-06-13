@@ -9,6 +9,7 @@ RPM_HASH = "619335de2555aeb41c7ff7e35f6823a99e5e939316417263668bfe813852f245e591
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-sigsys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

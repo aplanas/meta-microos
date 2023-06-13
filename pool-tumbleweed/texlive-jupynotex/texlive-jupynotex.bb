@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jupynotex.sty) \
 texlive-jupynotex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

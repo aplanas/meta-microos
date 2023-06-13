@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libcdio-paranoia-devel \
 libcdio-paranoia-devel(aarch-64) \
 pkgconfig(libcdio_cdda) \
 pkgconfig(libcdio_paranoia)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdio_cdda2 \
 libcdio_paranoia2 \

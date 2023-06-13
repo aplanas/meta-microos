@@ -14,6 +14,7 @@ RPM_HASH = "9c5117a563491ecfacc08eb37ffbd9149a62f07387adb164d401cf452a5fc36f9cf1
 RPROVIDES:${PN} += "libHepMC3search.so.4()(64bit) \
 libHepMC3search4 \
 libHepMC3search4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

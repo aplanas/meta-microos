@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pymediainfo \
 python3.10dist(pymediainfo) \
 python310-pymediainfo \
 python3dist(pymediainfo)"
+
 RDEPENDS:${PN} += "libmediainfo0 \
 python(abi)"
 

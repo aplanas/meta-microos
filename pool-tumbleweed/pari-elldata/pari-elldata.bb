@@ -10,6 +10,7 @@ RPM_HASH = "1b1ee10f21ec2dd038bfad7f27653b76e246fc4a0638b4c8619448087ec77bab36dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-elldata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

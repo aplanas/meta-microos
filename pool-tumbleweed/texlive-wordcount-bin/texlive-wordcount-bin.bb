@@ -9,6 +9,7 @@ RPM_HASH = "12482e7ab3f19d475cc72be4787933d9b4700d414a91252a9c01a1159bfd33afbb73
 
 RPROVIDES:${PN} += "texlive-wordcount-bin \
 texlive-wordcount-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-wordcount"
 
 inherit rpm

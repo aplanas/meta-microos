@@ -15,6 +15,7 @@ python3.10dist(pybluez) \
 python310-pybluez \
 python310-pybluez(aarch-64) \
 python3dist(pybluez)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbluetooth.so.3()(64bit) \

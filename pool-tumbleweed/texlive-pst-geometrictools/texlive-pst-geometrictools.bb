@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-geometrictools.sty) \
 tex(pst-geometrictools.tex) \
 texlive-pst-geometrictools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -31,6 +31,7 @@ spyder3 \
 spyder3-breakpoints \
 spyder3-profiler \
 spyder3-pylint"
+
 RDEPENDS:${PN} += "(python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0) \
 (python3-ipython >= 7.31.1 with python3-ipython < 9) \
 (python3-pylint >= 2.5.0 with python3-pylint < 3) \

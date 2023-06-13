@@ -12,6 +12,7 @@ RPM_HASH = "2bb318aff6159cbc38b75d95ab0b7f118bb6004e4d0da82f5e6b246d08191f800358
 
 RPROVIDES:${PN} += "u3-tool \
 u3-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

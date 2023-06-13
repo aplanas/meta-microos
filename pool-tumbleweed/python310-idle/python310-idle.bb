@@ -19,6 +19,7 @@ mimehandler(text/x-python) \
 python3-idle \
 python310-idle \
 python310-idle(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
 python(abi) \

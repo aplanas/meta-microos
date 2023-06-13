@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lexikon.sty) \
 texlive-lexikon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jschema-to-python) \
 python311-jschema-to-python \
 python3dist(jschema-to-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs \
 python311-jsonpickle \

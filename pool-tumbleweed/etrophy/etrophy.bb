@@ -11,6 +11,7 @@ RPM_HASH = "3b5298f11bd43f125747163576caccfc3e4c451cec0d9a35b4fb8757afbb59fe299f
 
 RPROVIDES:${PN} += "etrophy \
 etrophy(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

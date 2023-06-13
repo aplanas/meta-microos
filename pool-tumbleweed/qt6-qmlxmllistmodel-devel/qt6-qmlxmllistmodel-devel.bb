@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlXmlListModel) \
 pkgconfig(Qt6QmlXmlListModel) \
 qt6-qmlxmllistmodel-devel \
 qt6-qmlxmllistmodel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6QmlXmlListModel6 \

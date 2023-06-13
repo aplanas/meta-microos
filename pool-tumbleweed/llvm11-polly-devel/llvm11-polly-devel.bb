@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Polly) \
 llvm-polly-devel-provider \
 llvm11-polly-devel \
 llvm11-polly-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 llvm11-polly"
 

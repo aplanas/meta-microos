@@ -13,6 +13,7 @@ RPM_HASH = "e1ec1d1a7ab8a5c0250e4dd039bdd622578c0eb8925074d653b2778cd8bb37a2c2c6
 RPROVIDES:${PN} += "libusb3380-devel \
 libusb3380-devel(aarch-64) \
 pkgconfig(libusb3380)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusb3380-0 \
 pkgconfig(libusb) \

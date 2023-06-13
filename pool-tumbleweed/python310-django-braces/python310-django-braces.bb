@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-braces \
 python3.10dist(django-braces) \
 python310-django-braces \
 python3dist(django-braces)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

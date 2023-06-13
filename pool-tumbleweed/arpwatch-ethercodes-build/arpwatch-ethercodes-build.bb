@@ -11,6 +11,7 @@ RPM_HASH = "64a6449ec31b7487594ec112e88ee044a4c0bdaefb94acaf732746a3ef64392e69af
 
 RPROVIDES:${PN} += "arpwatch-ethercodes-build \
 arpwatch-ethercodes-build(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

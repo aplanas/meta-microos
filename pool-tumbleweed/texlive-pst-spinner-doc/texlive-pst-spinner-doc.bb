@@ -9,6 +9,7 @@ RPM_HASH = "386877a8f7a26d8f65db9831254c000bf24450c7e302b542ba8ef379ec162fcacb79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-spinner-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

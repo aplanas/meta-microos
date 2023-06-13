@@ -10,6 +10,7 @@ RPM_HASH = "7a5bc4efe541dc8fe9d65f20b5f436e3684698eb19472544d036d5053da9d52d84c2
 RPROVIDES:${PN} += "babl-devel \
 babl-devel(aarch-64) \
 pkgconfig(babl-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \

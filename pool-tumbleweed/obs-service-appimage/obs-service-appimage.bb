@@ -10,6 +10,7 @@ RPM_HASH = "bd9a9b638d36d106cd0be0bdf6271302413a1793ea196f3a81b9f199e33e918dd770
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-appimage"
+
 RDEPENDS:${PN} += "git-core \
 obs-service-obs_scm-common"
 

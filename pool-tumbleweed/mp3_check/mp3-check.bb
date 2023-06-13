@@ -13,6 +13,7 @@ RPM_HASH = "1de83347b95da1a3db43ed2fd0c3d0c3a7c7a67cf2c3197469cfefe361604735731c
 
 RPROVIDES:${PN} += "mp3_check \
 mp3_check(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -14,6 +14,7 @@ RPM_HASH = "e1c7cbb0f6ec176268e2e19c878c3ddb5ce3f0d0d7b86caaeb2102d3ee5d596cb2c0
 
 RPROVIDES:${PN} += "oqs-provider \
 oqs-provider(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

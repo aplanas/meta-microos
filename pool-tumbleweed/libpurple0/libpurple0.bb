@@ -13,6 +13,7 @@ RPM_HASH = "799018b7ba0b1d26b8aba2ed580cb04bdd4b42eec850db3b405f0ca47610a52702bf
 RPROVIDES:${PN} += "libpurple.so.0()(64bit) \
 libpurple0 \
 libpurple0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

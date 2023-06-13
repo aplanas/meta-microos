@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.11dist(setuptools-git-versioning) \
 python311-setuptools-git-versioning \
 python311-setuptools_git_versioning \
 python3dist(setuptools-git-versioning)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 git-core \

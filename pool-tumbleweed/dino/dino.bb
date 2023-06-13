@@ -31,6 +31,7 @@ libxmpp-vala0 \
 metainfo() \
 metainfo(im.dino.Dino.appdata.xml) \
 mimehandler(x-scheme-handler/xmpp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gstreamer1(element-gtksink)()(64bit) \
 hicolor-icon-theme \

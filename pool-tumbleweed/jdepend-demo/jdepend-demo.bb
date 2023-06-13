@@ -15,6 +15,7 @@ RPM_HASH = "bdc555af587ae24f5056830c36f56e890b2b8d77b005e7581df73965a0db1b0b9998
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdepend-demo"
+
 RDEPENDS:${PN} += "jdepend"
 
 inherit rpm

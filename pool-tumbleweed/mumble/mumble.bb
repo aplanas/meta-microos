@@ -62,6 +62,7 @@ libwow_x64.so()(64bit) \
 mimehandler(x-scheme-handler/mumble) \
 mumble \
 mumble(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

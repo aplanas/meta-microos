@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(acme) \
 python39-acme \
 python3dist(acme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-josepy \

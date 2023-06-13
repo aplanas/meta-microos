@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "tex(breqn.sty) \
 tex(flexisym.sty) \
 tex(mathstyle.sty) \
 texlive-breqn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

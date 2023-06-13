@@ -65,6 +65,7 @@ locale(goffice:vi) \
 locale(goffice:zh_CN) \
 locale(goffice:zh_HK) \
 locale(goffice:zh_TW)"
+
 RDEPENDS:${PN} += "goffice"
 
 inherit rpm

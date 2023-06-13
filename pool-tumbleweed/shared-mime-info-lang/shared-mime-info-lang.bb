@@ -82,6 +82,7 @@ locale(shared-mime-info:zh_HK) \
 locale(shared-mime-info:zh_TW) \
 shared-mime-info-lang \
 shared-mime-info-lang-all"
+
 RDEPENDS:${PN} += "shared-mime-info"
 
 inherit rpm

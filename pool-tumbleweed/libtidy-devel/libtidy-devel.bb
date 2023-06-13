@@ -11,6 +11,7 @@ RPM_HASH = "3b5f95095a1bb87dbb2e9a74b209902d8b9bdd88ab0924c95c8126a94f2211229f34
 RPROVIDES:${PN} += "libtidy-devel \
 libtidy-devel(aarch-64) \
 pkgconfig(tidy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libtidy58"

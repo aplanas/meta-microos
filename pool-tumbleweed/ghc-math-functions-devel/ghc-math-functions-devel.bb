@@ -10,6 +10,7 @@ RPM_HASH = "619df3bf9500ff51a7ebb231e1ee976c1e553e26a203c89538ea81797e77f17e9833
 RPROVIDES:${PN} += "ghc-devel(math-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk) \
 ghc-math-functions-devel \
 ghc-math-functions-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

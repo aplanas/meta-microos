@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thmbox.sty) \
 texlive-thmbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

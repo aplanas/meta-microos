@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DAnimation) \
 pkgconfig(Qt63DAnimation) \
 qt6-3danimation-devel \
 qt6-3danimation-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt63DRender) \

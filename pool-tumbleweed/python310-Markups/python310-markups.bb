@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Markups \
 python3.10dist(markups) \
 python310-Markups \
 python3dist(markups)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-markdown-math"
 

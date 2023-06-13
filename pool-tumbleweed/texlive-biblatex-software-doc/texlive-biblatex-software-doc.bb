@@ -9,6 +9,7 @@ RPM_HASH = "2fea868a868390831c2c312d0c874c2e6fd67c8ab3f1b2a1372c1bcb1d429b71ecd5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-software-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

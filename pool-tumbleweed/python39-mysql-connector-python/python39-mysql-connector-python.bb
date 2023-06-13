@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mysql-connector-python) \
 python39-mysql-connector-python \
 python3dist(mysql-connector-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dnspython \
 python39-protobuf"

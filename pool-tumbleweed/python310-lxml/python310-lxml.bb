@@ -15,6 +15,7 @@ python3.10dist(lxml) \
 python310-lxml \
 python310-lxml(aarch-64) \
 python3dist(lxml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-wtf-peewee \
 python3.10dist(wtf-peewee) \
 python310-wtf-peewee \
 python3dist(wtf-peewee)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WTForms \
 python310-peewee"

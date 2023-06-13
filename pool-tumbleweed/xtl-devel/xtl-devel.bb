@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake(xtl) \
 pkgconfig(xtl) \
 xtl-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(nlohmann_json)"
 

@@ -10,6 +10,7 @@ RPM_HASH = "768f5120803ca4909993a02710fb3049d2b5348c54e3e8f8631edfc82f8cd6a067b1
 RPROVIDES:${PN} += "ghc-fsnotify-prof \
 ghc-fsnotify-prof(aarch-64) \
 ghc-prof(fsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK)"
+
 RDEPENDS:${PN} += "ghc-fsnotify-devel \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \
 ghc-prof(base-4.17.1.0) \

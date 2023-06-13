@@ -11,6 +11,7 @@ RPM_HASH = "1dfbc65bccae3a32fef7bc9dff161f23909903ddcee2dca99bc2de2577836b3642f0
 
 RPROVIDES:${PN} += "libicu-doc \
 libicu-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

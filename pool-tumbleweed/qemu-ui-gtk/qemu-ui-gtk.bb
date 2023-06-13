@@ -9,6 +9,7 @@ RPM_HASH = "12c9fa3013fd482944e255b8ee24b95c3167db77961a2e62b3278f53e03ae6e038d7
 
 RPROVIDES:${PN} += "qemu-ui-gtk \
 qemu-ui-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

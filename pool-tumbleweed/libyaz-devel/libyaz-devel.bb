@@ -13,6 +13,7 @@ libyaz-devel(aarch-64) \
 pkgconfig(yaz) \
 pkgconfig(yaz-icu) \
 pkgconfig(yaz-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/tclsh \

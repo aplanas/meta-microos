@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(i3ipc) \
 python311-i3ipc \
 python3dist(i3ipc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-xlib"
 

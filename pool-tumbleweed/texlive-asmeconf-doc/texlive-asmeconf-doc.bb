@@ -9,6 +9,7 @@ RPM_HASH = "87d9d03d67361b5132e4d1e2dc134793ddb17a355d7f640b754db75908d6335d9900
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asmeconf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

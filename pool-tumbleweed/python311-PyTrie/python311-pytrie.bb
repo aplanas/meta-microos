@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(pytrie) \
 python311-PyTrie \
 python311-pytrie \
 python3dist(pytrie)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-sortedcontainers"
 

@@ -9,6 +9,7 @@ RPM_HASH = "f5af77c9da40e5751ad97ceef33360e53aace64ecb29cbc797854776f05825e381f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanoxml-manual-lite"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

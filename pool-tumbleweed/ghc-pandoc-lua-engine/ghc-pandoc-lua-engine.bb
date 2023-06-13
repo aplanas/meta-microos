@@ -10,6 +10,7 @@ RPM_HASH = "cc7e1b388b37d98606b0d74cdd46218e326a612a5eeef8d9407b42bce2a5aba8957b
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine \
 ghc-pandoc-lua-engine(aarch-64) \
 libHSpandoc-lua-engine-0.2-gHKByFrhtS8PSSuk3TZxt-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so()(64bit) \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so()(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

@@ -14,6 +14,7 @@ ghc-prof(ghc-bignum-1.3) \
 ghc-prof(ghc-prim-0.9.0) \
 ghc-prof(integer-gmp-1.1) \
 ghc-prof(rts-1.0.2)"
+
 RDEPENDS:${PN} += "ghc-base-devel(aarch-64) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

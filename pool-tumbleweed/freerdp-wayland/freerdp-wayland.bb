@@ -11,6 +11,7 @@ RPM_HASH = "dcc8cc2180605194070acd5d7fe422e347afbd46a3ed78aef974f3937e5dee091f65
 
 RPROVIDES:${PN} += "freerdp-wayland \
 freerdp-wayland(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

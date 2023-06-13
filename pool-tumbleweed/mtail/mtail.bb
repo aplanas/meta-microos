@@ -12,6 +12,7 @@ RPM_HASH = "808eb41debdd508083fc6816f62ee3385ba2577b945b65f833b8b7711cdedb04363f
 RPROVIDES:${PN} += "config(mtail) \
 mtail \
 mtail(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-napalm-asa \
 python3.10dist(napalm-asa) \
 python310-napalm-asa \
 python3dist(napalm-asa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-napalm"
 

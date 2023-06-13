@@ -34,6 +34,7 @@ libtitleinfo.so()(64bit) \
 libvpswitch.so()(64bit) \
 libwinrules.so()(64bit) \
 libworkarounds.so()(64bit)"
+
 RDEPENDS:${PN} += "compiz-plugins \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

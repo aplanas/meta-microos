@@ -10,6 +10,7 @@ RPM_HASH = "ae44b1d152b05f6bfe3ec9dfd247bd63d7945c625f6b8e6304b8c6a50317a833230f
 
 RPROVIDES:${PN} += "libfdisk-devel-static \
 libfdisk-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libfdisk-devel"
 
 inherit rpm

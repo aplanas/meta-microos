@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mono(Mono.Zeroconf.Providers.AvahiDBus) \
 mono-zeroconf-provider \
 mono-zeroconf-provider-avahi"
+
 RDEPENDS:${PN} += "avahi \
 mono(Mono.Posix) \
 mono(Mono.Zeroconf) \

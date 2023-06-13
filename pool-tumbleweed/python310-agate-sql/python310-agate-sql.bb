@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-agate-sql \
 python3.10dist(agate-sql) \
 python310-agate-sql \
 python3dist(agate-sql)"
+
 RDEPENDS:${PN} += "(python310-sqlalchemy >= 1.0.8 with python310-sqlalchemy < 2) \
 python(abi) \
 python310-agate"

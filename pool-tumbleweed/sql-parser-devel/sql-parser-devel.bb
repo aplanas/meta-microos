@@ -13,6 +13,7 @@ RPM_HASH = "7703d3dd1ca69f4d5102ededa163758119401be7911aaf54c80f16bb80d62f65519d
 
 RPROVIDES:${PN} += "sql-parser-devel \
 sql-parser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsqlparser1"
 
 inherit rpm

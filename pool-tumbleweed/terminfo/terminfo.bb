@@ -15,6 +15,7 @@ RPM_HASH = "880c624c87d9f9ba67f62cbf919cf60327b8e0d93c4cfa886bfe10cf1e4b11ce71c4
 
 RPROVIDES:${PN} += "terminfo \
 terminfo(aarch-64)"
+
 RDEPENDS:${PN} += "terminfo-base"
 
 inherit rpm

@@ -14,6 +14,7 @@ python3-pylibiio \
 python3-pylibiio(aarch-64) \
 python3.10dist(pylibiio) \
 python3dist(pylibiio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

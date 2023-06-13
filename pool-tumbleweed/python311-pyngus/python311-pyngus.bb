@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyngus) \
 python311-pyngus \
 python3dist(pyngus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-qpid-proton"
 

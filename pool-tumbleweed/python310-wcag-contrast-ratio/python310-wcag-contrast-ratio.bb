@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-wcag-contrast-ratio \
 python3.10dist(wcag-contrast-ratio) \
 python310-wcag-contrast-ratio \
 python3dist(wcag-contrast-ratio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(rmt-server-config) \
 rmt-server-config \
 rmt-server-config(aarch-64) \
 rmt-server-configuration"
+
 RDEPENDS:${PN} += "/bin/sh \
 rmt-server"
 

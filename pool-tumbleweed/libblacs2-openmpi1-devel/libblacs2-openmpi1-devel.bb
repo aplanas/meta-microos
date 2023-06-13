@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "blacs-openmpi1-devel \
 libblacs.so.2.1.0()(64bit) \
 libblacs2-openmpi1-devel \
 libblacs2-openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blacs-devel-headers \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

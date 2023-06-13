@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "caja-extension-sendto-gajim \
 caja-extension-sendto-gajim(aarch-64) \
 caja-sendto-gajim \
 libnstgajim.so()(64bit)"
+
 RDEPENDS:${PN} += "caja-extension-sendto \
 gajim \
 ld-linux-aarch64.so.1()(64bit) \

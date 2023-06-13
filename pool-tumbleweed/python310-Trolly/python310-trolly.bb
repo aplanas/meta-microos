@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-Trolly \
 python3.10dist(trolly) \
 python310-Trolly \
 python3dist(trolly)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

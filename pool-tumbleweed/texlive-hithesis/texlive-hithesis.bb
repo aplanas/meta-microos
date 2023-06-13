@@ -15,6 +15,7 @@ tex(hithesis.cfg) \
 tex(hithesis.cls) \
 tex(hithesis.sty) \
 texlive-hithesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ mvn(mariadb:mariadb-connector-java:pom:) \
 mvn(org.mariadb.jdbc:mariadb-java-client) \
 mvn(org.mariadb.jdbc:mariadb-java-client:pom:) \
 osgi(org.mariadb.jdbc)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mariadb"

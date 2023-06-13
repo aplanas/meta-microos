@@ -11,6 +11,7 @@ RPM_HASH = "3b69d106804a332e31a6cefe6a56c7d238b97d3a23b95a7bb37ead648ef390352e63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

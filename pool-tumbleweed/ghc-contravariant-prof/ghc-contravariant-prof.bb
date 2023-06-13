@@ -10,6 +10,7 @@ RPM_HASH = "7879a9252692b70154590a1c07789c7efd6ea70426672bcb5ce39c72f66305da5a4a
 RPROVIDES:${PN} += "ghc-contravariant-prof \
 ghc-contravariant-prof(aarch-64) \
 ghc-prof(contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao)"
+
 RDEPENDS:${PN} += "ghc-contravariant-devel \
 ghc-prof(StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN) \
 ghc-prof(base-4.17.1.0) \

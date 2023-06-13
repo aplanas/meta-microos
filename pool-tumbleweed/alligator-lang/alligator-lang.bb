@@ -41,6 +41,7 @@ locale(alligator:tr) \
 locale(alligator:uk) \
 locale(alligator:zh_CN) \
 locale(alligator:zh_TW)"
+
 RDEPENDS:${PN} += "alligator"
 
 inherit rpm

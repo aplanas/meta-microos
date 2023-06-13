@@ -11,6 +11,7 @@ RPM_HASH = "98071eb22073e58bf7ed2dcc40d15e207dcd3a625c2d986c5b13ed1eb4d05e80ae3a
 RPROVIDES:${PN} += "libmsi.so.0()(64bit) \
 libmsi0 \
 libmsi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

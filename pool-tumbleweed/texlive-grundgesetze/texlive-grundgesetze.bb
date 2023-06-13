@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(grundgesetze.sty) \
 texlive-grundgesetze"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

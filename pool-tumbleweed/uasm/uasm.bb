@@ -9,6 +9,7 @@ RPM_HASH = "e394da3cb2536c96a000dc18143f95cd83f528cdaa63a7fe535b939e824343abbdcc
 
 RPROVIDES:${PN} += "uasm \
 uasm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

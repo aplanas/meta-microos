@@ -16,6 +16,7 @@ libfltk1_3(aarch-64) \
 libfltk_forms.so.1.3()(64bit) \
 libfltk_gl.so.1.3()(64bit) \
 libfltk_images.so.1.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

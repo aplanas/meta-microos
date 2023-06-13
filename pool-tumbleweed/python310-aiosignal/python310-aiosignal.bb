@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-aiosignal \
 python3.10dist(aiosignal) \
 python310-aiosignal \
 python3dist(aiosignal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-frozenlist"
 

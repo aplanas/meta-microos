@@ -9,6 +9,7 @@ RPM_HASH = "a42ec3c58270d2bc591dac54a14589357b67a068e6a4b0118d9f35bf8c420ff2107f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-calendar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

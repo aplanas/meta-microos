@@ -11,6 +11,7 @@ RPM_HASH = "8c066549594040d45692e948b633b7aec51a9a8b44c61a634dc018a7980915e05efd
 RPROVIDES:${PN} += "libverto-glib-devel \
 libverto-glib-devel(aarch-64) \
 pkgconfig(libverto-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libverto-devel(aarch-64) \
 libverto-glib1(aarch-64) \

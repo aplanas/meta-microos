@@ -14,6 +14,7 @@ RPM_HASH = "72bfd90d1b10969392a757611ef70a067105aefac7a3710f011fe6e7e51709512e36
 RPROVIDES:${PN} += "typelib(NM) \
 typelib-1_0-NM-1_0 \
 typelib-1_0-NM-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libnm.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

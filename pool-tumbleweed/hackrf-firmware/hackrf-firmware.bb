@@ -9,6 +9,7 @@ RPM_HASH = "35d6ad9b1e2c8a0478f636dc26441aa90d2839ad260c06d399d2e344408c92c26fce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hackrf-firmware"
+
 RDEPENDS:${PN} += "hackrf"
 
 inherit rpm

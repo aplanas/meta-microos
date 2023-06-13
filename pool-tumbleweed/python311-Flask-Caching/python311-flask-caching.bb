@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-caching) \
 python311-Flask-Caching \
 python3dist(flask-caching)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask"
 

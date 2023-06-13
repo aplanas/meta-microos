@@ -9,6 +9,7 @@ RPM_HASH = "ac3349277d413f3358f6682c96f4581b479046ce915210b0780a0a300bc3bcf04fec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zola-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

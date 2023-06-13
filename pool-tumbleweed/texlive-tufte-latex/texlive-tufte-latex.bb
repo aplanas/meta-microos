@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(tufte-book.cls) \
 tex(tufte-common.def) \
 tex(tufte-handout.cls) \
 texlive-tufte-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

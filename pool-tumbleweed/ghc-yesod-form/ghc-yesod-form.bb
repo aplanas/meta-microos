@@ -14,6 +14,7 @@ RPM_HASH = "43d8d7dd7a22f8382df50424f50e7be8dd8a78fc3c3d19ee896de78cf5f8efd96d96
 RPROVIDES:${PN} += "ghc-yesod-form \
 ghc-yesod-form(aarch-64) \
 libHSyesod-form-1.7.4-4xvxNC76eVrIZVDOGDISYi-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so()(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \

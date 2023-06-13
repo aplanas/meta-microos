@@ -14,6 +14,7 @@ RPM_HASH = "0e5da552282d1564cccc9d19f997d989edebf3ebb80054ca0892e3f92f878b14a5b7
 
 RPROVIDES:${PN} += "uchardet \
 uchardet(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libuchardet.so.0()(64bit)"
 

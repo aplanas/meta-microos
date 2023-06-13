@@ -10,6 +10,7 @@ RPM_HASH = "e08784d8e56120e6eefab67a9523cafe5d64b1e205fda994ec973e91c6c03f923574
 RPROVIDES:${PN} += "ghc-hlint-prof \
 ghc-hlint-prof(aarch-64) \
 ghc-prof(hlint-3.5-HI4GNHTiFqP5IrITiJdtMQ)"
+
 RDEPENDS:${PN} += "ghc-hlint-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \

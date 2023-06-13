@@ -10,6 +10,7 @@ RPM_HASH = "65c1acd2156aab8ce866f8ec590fbed5ec5827794627b7f1cd7ef7d819ae2a8cced1
 
 RPROVIDES:${PN} += "qt6-widgets-private-devel \
 qt6-widgets-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Widgets) \
 qt6-core-private-devel \
 qt6-gui-private-devel"

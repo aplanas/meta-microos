@@ -11,6 +11,7 @@ RPM_HASH = "6a202952ec118a47b6abdf457be515f52bad42cc323d73e3c00f1ad49a8b24571231
 RPROVIDES:${PN} += "libmediaart-2.0.so.0()(64bit) \
 libmediaart-2_0-0 \
 libmediaart-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

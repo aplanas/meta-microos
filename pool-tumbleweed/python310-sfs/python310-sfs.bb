@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-sfs \
 python3.10dist(sfs) \
 python310-sfs \
 python3dist(sfs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy"

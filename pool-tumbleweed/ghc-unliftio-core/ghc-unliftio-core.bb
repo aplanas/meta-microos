@@ -11,6 +11,7 @@ RPM_HASH = "41b0c10f8d457e2d4615c27c63501dda919b19fe1f3e6c78bb0d71a1a87628638687
 RPROVIDES:${PN} += "ghc-unliftio-core \
 ghc-unliftio-core(aarch-64) \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_jetty_jdk8) \
 mvn(io.prometheus:simpleclient_jetty_jdk8:pom:) \
 osgi(io.prometheus.simpleclient_jetty_jdk8) \
 prometheus-simpleclient-java-jetty_jdk8"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(io.prometheus:simpleclient) \

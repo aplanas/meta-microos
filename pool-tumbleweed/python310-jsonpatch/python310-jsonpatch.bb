@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsonpatch \
 python3.10dist(jsonpatch) \
 python310-jsonpatch \
 python3dist(jsonpatch)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

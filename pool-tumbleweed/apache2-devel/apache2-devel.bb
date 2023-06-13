@@ -14,6 +14,7 @@ RPM_HASH = "c84a2e39a9c1e39a047f35e65be2cb59b6450777a8119509a168ea62701a5fd45b39
 RPROVIDES:${PN} += "apache2-devel \
 apache2-devel(aarch-64) \
 httpd-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 apache2 \

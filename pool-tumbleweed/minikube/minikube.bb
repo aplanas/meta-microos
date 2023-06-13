@@ -11,6 +11,7 @@ RPM_HASH = "c2f8345e1807b1314defd193140a32d972bb87b6baff3f7732245527218c21e0e186
 
 RPROVIDES:${PN} += "minikube \
 minikube(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

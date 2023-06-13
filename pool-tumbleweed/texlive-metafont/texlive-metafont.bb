@@ -21,6 +21,7 @@ RPM_HASH = "0a6aada97fd19c0a44ed06d20c4c1cff2c2d29443c9fc787b1b26ecf65a245d581da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metafont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

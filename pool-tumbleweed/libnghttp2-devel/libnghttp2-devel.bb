@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libnghttp2-devel \
 libnghttp2-devel(aarch-64) \
 nghttp2-devel \
 pkgconfig(libnghttp2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnghttp2-14"
 

@@ -16,6 +16,7 @@ libqtpeakcanbus.so()(64bit) \
 libqtsocketcanbus.so()(64bit) \
 libqttinycanbus.so()(64bit) \
 libqtvirtualcanbus.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

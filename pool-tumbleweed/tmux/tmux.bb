@@ -18,6 +18,7 @@ RPM_HASH = "b8bd74e1ec11cf3480aaa9a58fbd65e84a8e34eedec93a6328cd9764ab8e1d5b75aa
 
 RPROVIDES:${PN} += "tmux \
 tmux(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

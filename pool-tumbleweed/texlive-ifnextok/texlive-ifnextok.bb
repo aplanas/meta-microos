@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifnextok.sty) \
 texlive-ifnextok"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

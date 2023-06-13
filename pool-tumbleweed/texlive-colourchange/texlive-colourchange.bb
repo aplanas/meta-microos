@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colourchange.sty) \
 texlive-colourchange"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

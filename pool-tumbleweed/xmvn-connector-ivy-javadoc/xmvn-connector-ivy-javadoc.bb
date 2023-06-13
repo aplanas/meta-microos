@@ -9,6 +9,7 @@ RPM_HASH = "4c16c3e22f76b4ce82c8754914fd8edf40835fbd23310b12c7b7fca1637a7075c183
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmvn-connector-ivy-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

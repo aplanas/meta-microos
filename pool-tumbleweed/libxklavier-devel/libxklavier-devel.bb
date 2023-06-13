@@ -11,6 +11,7 @@ RPM_HASH = "7421af4d23f65c0cc0ca7f71e4cb2f688004824481415982c44ae54695358b21358c
 RPROVIDES:${PN} += "libxklavier-devel \
 libxklavier-devel(aarch-64) \
 pkgconfig(libxklavier)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libxklavier \

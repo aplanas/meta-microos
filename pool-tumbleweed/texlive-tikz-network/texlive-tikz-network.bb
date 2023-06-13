@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-network.sty) \
 texlive-tikz-network"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

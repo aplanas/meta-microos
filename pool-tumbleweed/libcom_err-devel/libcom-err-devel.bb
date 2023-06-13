@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcom_err-devel \
 libcom_err-devel(aarch-64) \
 pkgconfig(com_err) \
 pkgconfig(ss)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

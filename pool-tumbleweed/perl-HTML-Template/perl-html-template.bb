@@ -31,6 +31,7 @@ perl(HTML::Template::PRINTSCALAR) \
 perl(HTML::Template::URLESCAPE) \
 perl(HTML::Template::VAR) \
 perl-HTML-Template"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI)"
 

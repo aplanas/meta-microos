@@ -43,6 +43,7 @@ metainfo() \
 metainfo(simplescreenrecorder.metainfo.xml) \
 simplescreenrecorder \
 simplescreenrecorder(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

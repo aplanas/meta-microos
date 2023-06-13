@@ -11,6 +11,7 @@ RPM_HASH = "233b932bbf32c523d3f5114d12286c39633821b0e8d0396072c63568a5a309e04074
 RPROVIDES:${PN} += "libbd_loop-devel \
 libbd_loop-devel(aarch-64) \
 libblockdev-loop-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_loop2 \
 libbd_utils-devel"

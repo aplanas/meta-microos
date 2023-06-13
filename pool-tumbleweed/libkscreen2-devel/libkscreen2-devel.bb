@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Screen) \
 libkscreen2-devel \
 libkscreen2-devel(aarch-64) \
 pkgconfig(kscreen2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 libKF5Screen8 \

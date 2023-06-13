@@ -11,6 +11,7 @@ RPM_HASH = "c5d2c32eeabe5d25c4922eb6ed8639ec132cbffc8ed52956bc989b52dee770de056f
 RPROVIDES:${PN} += "cmake(DWayland) \
 dwayland-devel \
 dwayland-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libDWaylandClient5 \
 libDWaylandServer5"
 

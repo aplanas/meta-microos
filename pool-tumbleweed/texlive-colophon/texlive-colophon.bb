@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colophon.sty) \
 texlive-colophon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ python3.10dist(markupsafe) \
 python310-MarkupSafe \
 python310-MarkupSafe(aarch-64) \
 python3dist(markupsafe)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 python(abi) \
 python310-base"

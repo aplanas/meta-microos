@@ -19,6 +19,7 @@ RPM_HASH = "d05dca5854acf4246fd5f7daf12bfbb1afae9e2ada785de9607aec022b9c6246bb96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

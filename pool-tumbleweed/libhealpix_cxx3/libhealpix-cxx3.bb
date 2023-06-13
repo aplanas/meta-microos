@@ -15,6 +15,7 @@ RPM_HASH = "c2801d72adc0c40728eabedae289131df8750e6396dcbd2648b013254fa26a93e592
 RPROVIDES:${PN} += "libhealpix_cxx.so.3()(64bit) \
 libhealpix_cxx3 \
 libhealpix_cxx3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

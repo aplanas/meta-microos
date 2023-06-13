@@ -12,6 +12,7 @@ fcitx5-anthy \
 fcitx5-anthy(aarch-64) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.Anthy.metainfo.xml)"
+
 RDEPENDS:${PN} += "anthy \
 fcitx5 \
 ld-linux-aarch64.so.1()(64bit) \

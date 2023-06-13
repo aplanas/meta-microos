@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-envisage \
 python3.10dist(envisage) \
 python310-envisage \
 python3dist(envisage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-traits"
 

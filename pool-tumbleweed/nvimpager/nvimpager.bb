@@ -9,6 +9,7 @@ RPM_HASH = "a9a772fe62f3d587463955cb0e3eac391c270e75bfbcaf7cfa5e3293f0295d131a75
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvimpager"
+
 RDEPENDS:${PN} += "/bin/bash \
 lua54 \
 neovim"

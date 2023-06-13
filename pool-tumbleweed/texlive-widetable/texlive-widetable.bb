@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(widetable.sty) \
 texlive-widetable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

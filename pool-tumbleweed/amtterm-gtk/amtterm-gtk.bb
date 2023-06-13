@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "amtterm-gtk \
 amtterm-gtk(aarch-64) \
 application() \
 application(gamt.desktop)"
+
 RDEPENDS:${PN} += "amtterm \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

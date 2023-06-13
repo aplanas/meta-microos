@@ -11,6 +11,7 @@ RPM_HASH = "46073fdfb9cf3eb81dd88d05692ddca8e9e865935394c71151105af4d1b4d911f4fb
 RPROVIDES:${PN} += "libfreecell-solver.so.0()(64bit) \
 libfreecell-solver0 \
 libfreecell-solver0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 freecell-solver-presets \
 ld-linux-aarch64.so.1()(64bit) \

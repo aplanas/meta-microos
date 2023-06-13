@@ -10,6 +10,7 @@ RPM_HASH = "fa7a46b01e375b39adb48f189f94831ac02019d3d35cca9d958539dca8e2543ada6c
 RPROVIDES:${PN} += "leechcraft-secman-simplestorage \
 leechcraft-secman-simplestorage(aarch-64) \
 libleechcraft_secman_simplestorage.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-secman \

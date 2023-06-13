@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "auto-value-annotations \
 mvn(com.google.auto.value:auto-value-annotations) \
 mvn(com.google.auto.value:auto-value-annotations:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

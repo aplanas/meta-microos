@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "avahi-glib \
 libavahi-glib.so.1()(64bit) \
 libavahi-glib1 \
 libavahi-glib1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-common.so.3()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

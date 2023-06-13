@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(mate-panel.desktop) \
 mate-panel \
 mate-panel(aarch-64)"
+
 RDEPENDS:${PN} += "gsettings-backend-dconf \
 gvfs-backends \
 ld-linux-aarch64.so.1()(64bit) \

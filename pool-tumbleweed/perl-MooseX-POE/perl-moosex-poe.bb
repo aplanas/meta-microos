@@ -21,6 +21,7 @@ perl(MooseX::POE::Meta::Trait::SweetArgs) \
 perl(MooseX::POE::Role) \
 perl(MooseX::POE::SweetArgs) \
 perl-MooseX-POE"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(POE)"

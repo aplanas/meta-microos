@@ -12,6 +12,7 @@ RPM_HASH = "b307b78e3c76dd6c4bbb124537f533493de93643ad98d8595b42317d986f44fbe11e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdmflexiserver"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

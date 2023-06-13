@@ -10,6 +10,7 @@ RPM_HASH = "510346832149063776db5a5b5d1eadbc70c61dc46fd977bddcd03e54fd7fb92d2a09
 RPROVIDES:${PN} += "ghc-prof(wai-logger-2.4.0-9XzUYLocOmA4DcbxilrxA0) \
 ghc-wai-logger-prof \
 ghc-wai-logger-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(byteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl) \
 ghc-prof(bytestring-0.11.4.0) \

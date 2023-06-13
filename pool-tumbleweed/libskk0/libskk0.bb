@@ -14,6 +14,7 @@ RPM_HASH = "be4cae1af9435efed94e2942c9ddd665a9444ceb9ff23658077cf464284446a4028d
 RPROVIDES:${PN} += "libskk.so.0()(64bit) \
 libskk0 \
 libskk0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chs-physics-report.sty) \
 texlive-chs-physics-report"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(kazoo) \
 python311-kazoo \
 python3dist(kazoo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

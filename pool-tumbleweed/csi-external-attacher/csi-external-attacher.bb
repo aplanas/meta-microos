@@ -9,6 +9,7 @@ RPM_HASH = "e00c3e8ae01556038af195e71536559ba02ad70e3c2a92bdb34b933ae95033a74f1f
 
 RPROVIDES:${PN} += "csi-external-attacher \
 csi-external-attacher(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

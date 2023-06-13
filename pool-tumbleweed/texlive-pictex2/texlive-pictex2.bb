@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pictex2.sty) \
 texlive-pictex2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

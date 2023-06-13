@@ -11,6 +11,7 @@ RPM_HASH = "10493310061b097e31a02c33e10a472452fe9f1ce1efcd2c4f81582430661e4a62be
 
 RPROVIDES:${PN} += "cd-discid \
 cd-discid(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

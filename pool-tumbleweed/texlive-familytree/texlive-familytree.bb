@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(familytree.sty) \
 texlive-familytree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

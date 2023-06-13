@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(slurm-config) \
 group(slurm) \
 slurm-config \
 user(slurm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 logrotate \
 shadow"

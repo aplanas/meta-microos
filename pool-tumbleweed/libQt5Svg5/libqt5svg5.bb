@@ -31,6 +31,7 @@ libQt5Svg5 \
 libQt5Svg5(aarch-64) \
 libqsvg.so()(64bit) \
 libqsvgicon.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ python3.10dist(ipympl) \
 python310-ipympl \
 python310-jupyter_ipympl \
 python3dist(ipympl)"
+
 RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
 (python310-matplotlib >= 3.4.0 with python310-matplotlib < 4) \
 jupyter-matplotlib \

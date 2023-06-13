@@ -13,6 +13,7 @@ RPM_HASH = "7ab7cc513bf626f97886d4cb0604c14cf1c49e8d6778dd7329c0ec916d3ceef79756
 
 RPROVIDES:${PN} += "mkisofs \
 mkisofs(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

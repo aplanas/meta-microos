@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "coin-or-Clp-devel \
 coin-or-Clp-devel(aarch-64) \
 pkgconfig(clp) \
 pkgconfig(osi-clp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libClp1 \
 libOsiClp1 \

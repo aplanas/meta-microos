@@ -10,6 +10,7 @@ RPM_HASH = "e50b9a90049f9ad988264b0a5bc52bee5c0df0f99eaf2cff0d8fdc2b91453325ad59
 
 RPROVIDES:${PN} += "dmenu \
 dmenu(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "e2e0fe1ebf6261b09178cbf0906c621c1397740a530773a8ad462dc83c79186aec5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Twisted-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

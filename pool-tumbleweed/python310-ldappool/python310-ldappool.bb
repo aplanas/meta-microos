@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-ldappool \
 python3.10dist(ldappool) \
 python310-ldappool \
 python3dist(ldappool)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ldap \
 python310-prettytable"

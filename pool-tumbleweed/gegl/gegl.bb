@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "gegl \
 gegl(aarch-64) \
 gegl-0_3-orig-addon \
 gegl-unstable"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbabl-0.1.so.0()(64bit) \

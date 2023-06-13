@@ -10,6 +10,7 @@ RPM_HASH = "3b103134cd2dac4e24ca0d049f7445835d4cc8fd5dbd523e414fc7bb3c80c149338b
 
 RPROVIDES:${PN} += "bolt-tools \
 bolt-tools(aarch-64)"
+
 RDEPENDS:${PN} += "bolt \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

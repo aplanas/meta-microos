@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-Paste \
 python3.10dist(paste) \
 python310-Paste \
 python3dist(paste)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

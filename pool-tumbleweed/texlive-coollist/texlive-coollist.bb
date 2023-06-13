@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(coollist.sty) \
 texlive-coollist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

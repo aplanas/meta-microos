@@ -9,6 +9,7 @@ RPM_HASH = "706b0fa9a4a51665d689a4b9ef48a64a39e778abd06bac7c3434a3ad493c9acae291
 
 RPROVIDES:${PN} += "river \
 river(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

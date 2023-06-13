@@ -14,6 +14,7 @@ python3.10dist(dukpy) \
 python310-dukpy-kovidgoyal \
 python310-dukpy-kovidgoyal(aarch-64) \
 python3dist(dukpy)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

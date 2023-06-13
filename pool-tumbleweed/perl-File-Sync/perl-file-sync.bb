@@ -20,6 +20,7 @@ RPM_HASH = "4ea8ff188e5d143d71cfed44c75e6d8baf80a3745fa23551da443f9bf4306f1220f5
 RPROVIDES:${PN} += "perl(File::Sync) \
 perl-File-Sync \
 perl-File-Sync(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

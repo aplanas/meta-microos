@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-rsync \
 nagios-plugins-rsync"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Getopt::Long) \
 rsync"

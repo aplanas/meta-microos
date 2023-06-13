@@ -11,6 +11,7 @@ RPM_HASH = "caece3a059a0494060cb2b2698f3610510366fbce00e5f309551acda3774a71ccb75
 
 RPROVIDES:${PN} += "sdcv \
 sdcv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

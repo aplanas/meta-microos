@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker-plugins \
 health-checker-plugins-MicroOS"
+
 RDEPENDS:${PN} += "/bin/bash \
 health-checker"
 

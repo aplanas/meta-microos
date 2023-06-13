@@ -14,6 +14,7 @@ tex(tabvar.map) \
 tex(tabvar.sty) \
 tex(tabvar.tfm) \
 texlive-tabvar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

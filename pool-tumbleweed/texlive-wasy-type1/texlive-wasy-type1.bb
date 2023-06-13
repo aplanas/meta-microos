@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wasy.map) \
 texlive-wasy-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

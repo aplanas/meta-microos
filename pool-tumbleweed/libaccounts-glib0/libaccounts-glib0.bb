@@ -10,6 +10,7 @@ RPM_HASH = "caa4424ddab519854055a39000ba0f2b02b7427244d4b2407f1495d04838830dc1d5
 RPROVIDES:${PN} += "libaccounts-glib.so.0()(64bit) \
 libaccounts-glib0 \
 libaccounts-glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

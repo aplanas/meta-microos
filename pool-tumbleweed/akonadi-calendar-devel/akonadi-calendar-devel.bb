@@ -12,6 +12,7 @@ akonadi-calendar-devel(aarch-64) \
 akonadi5-calendar-devel \
 cmake(KF5AkonadiCalendar) \
 cmake(KPim5AkonadiCalendar)"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KF5I18n) \
 cmake(KF5WidgetsAddons) \

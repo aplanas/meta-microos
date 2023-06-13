@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pystache \
 python3.10dist(pystache) \
 python310-pystache \
 python3dist(pystache)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

@@ -10,6 +10,7 @@ RPM_HASH = "dc00fcc0d11f24742c3a0a0c8c9666f35d4a7b7e2075ee42b5699598c92a8417317b
 RPROVIDES:${PN} += "audacious-devel \
 audacious-devel(aarch-64) \
 pkgconfig(audacious)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaudcore5 \
 libaudgui5 \

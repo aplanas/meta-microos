@@ -9,6 +9,7 @@ RPM_HASH = "7b8cdc38393ffed00b5991296e1d6237b62de5de5e4a86690bc0b7a29d542fbc53b4
 
 RPROVIDES:${PN} += "ocaml-zarith \
 ocaml-zarith(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgmp.so.10()(64bit)"
 

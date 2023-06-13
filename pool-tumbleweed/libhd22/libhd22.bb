@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libhd \
 libhd.so.22()(64bit) \
 libhd22 \
 libhd22(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

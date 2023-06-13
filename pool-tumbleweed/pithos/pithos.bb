@@ -15,6 +15,7 @@ application(io.github.Pithos.desktop) \
 metainfo() \
 metainfo(io.github.Pithos.appdata.xml) \
 pithos"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 gstreamer-plugins-bad \
 gstreamer-plugins-good \

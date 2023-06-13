@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "leechcraft-poshuku-backend \
 leechcraft-poshuku-webengineview \
 leechcraft-poshuku-webengineview(aarch-64) \
 libleechcraft_poshuku_webengineview.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

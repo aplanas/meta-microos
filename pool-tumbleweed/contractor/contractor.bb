@@ -13,6 +13,7 @@ RPM_HASH = "66dbadc7881cb1a7e2d6f1833dbd67c4f060fed4491b0e83756638928c4b34cc544c
 
 RPROVIDES:${PN} += "contractor \
 contractor(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

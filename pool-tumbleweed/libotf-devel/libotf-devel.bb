@@ -11,6 +11,7 @@ RPM_HASH = "00835a387fc7beb926502d9c9e5cbefbd7f4e055eb6d846492526681e453d1dd093e
 RPROVIDES:${PN} += "libotf-devel \
 libotf-devel(aarch-64) \
 pkgconfig(libotf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libotf \
 pkgconfig(freetype2)"

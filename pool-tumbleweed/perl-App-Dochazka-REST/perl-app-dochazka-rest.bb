@@ -42,6 +42,7 @@ perl(App::Dochazka::REST::Shared) \
 perl(App::Dochazka::REST::Test) \
 perl(App::Dochazka::REST::Util) \
 perl-App-Dochazka-REST"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

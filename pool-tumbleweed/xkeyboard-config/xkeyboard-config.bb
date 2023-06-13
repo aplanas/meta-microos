@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(xkeyboard-config) \
 xkeyboard-config"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 coreutils"

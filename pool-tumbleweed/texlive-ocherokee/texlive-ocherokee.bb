@@ -18,6 +18,7 @@ tex(lchcmr.fd) \
 tex(lchenc.def) \
 tex(ocherokee.sty) \
 texlive-ocherokee"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "417b2cd3f43574f6a26089ac3d2e64216c9e0aba5b0bec35b3d6d0fc90d7bb9c923d
 RPROVIDES:${PN} += "libAppStreamQt.so.2()(64bit) \
 libAppStreamQt2 \
 libAppStreamQt2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

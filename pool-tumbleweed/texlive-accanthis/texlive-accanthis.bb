@@ -82,6 +82,7 @@ tex(acnt_qu6a6x.enc) \
 tex(acnt_sjpjw4.enc) \
 tex(acnt_z4e4wk.enc) \
 texlive-accanthis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

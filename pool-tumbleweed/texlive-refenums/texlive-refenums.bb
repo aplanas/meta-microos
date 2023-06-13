@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(refenums.sty) \
 texlive-refenums"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

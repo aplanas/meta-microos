@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "votca-bash \
 votca-csg-bash"
+
 RDEPENDS:${PN} += "bash-completion \
 votca"
 

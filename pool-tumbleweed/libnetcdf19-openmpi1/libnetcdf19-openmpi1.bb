@@ -38,6 +38,7 @@ RPM_HASH = "0a156753dfb2cb5de68483384332a3753c85e0b0c8a097eee8348830eb6e640f1691
 RPROVIDES:${PN} += "libnetcdf.so.19()(64bit) \
 libnetcdf19-openmpi1 \
 libnetcdf19-openmpi1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -73,6 +73,7 @@ perl(mtr_report) \
 perl(mtr_results) \
 perl(mtr_unique) \
 perl(wsrep::common)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

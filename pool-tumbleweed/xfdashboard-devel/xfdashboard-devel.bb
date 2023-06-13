@@ -10,6 +10,7 @@ RPM_HASH = "4b700adf6ed5fa12f9307a9abc0e955eb2816e5e4fd05b8444b643a515f011c51987
 RPROVIDES:${PN} += "pkgconfig(libxfdashboard) \
 xfdashboard-devel \
 xfdashboard-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxfdashboard0 \
 pkgconfig(clutter-1.0) \

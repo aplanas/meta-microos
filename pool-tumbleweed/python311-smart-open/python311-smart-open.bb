@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(smart-open) \
 python311-smart-open \
 python3dist(smart-open)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-core \

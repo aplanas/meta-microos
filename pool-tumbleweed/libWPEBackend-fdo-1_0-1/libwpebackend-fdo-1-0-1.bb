@@ -12,6 +12,7 @@ RPM_HASH = "a53005aae947ee3cb8d4618bfae5392bca3d7dcc3ecac1c6d62e5d59d7dc9a6a6484
 RPROVIDES:${PN} += "libWPEBackend-fdo-1.0.so.1()(64bit) \
 libWPEBackend-fdo-1_0-1 \
 libWPEBackend-fdo-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

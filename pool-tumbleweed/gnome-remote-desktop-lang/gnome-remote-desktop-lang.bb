@@ -55,6 +55,7 @@ locale(gnome-remote-desktop:uk) \
 locale(gnome-remote-desktop:vi) \
 locale(gnome-remote-desktop:zh_CN) \
 locale(gnome-remote-desktop:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-remote-desktop"
 
 inherit rpm

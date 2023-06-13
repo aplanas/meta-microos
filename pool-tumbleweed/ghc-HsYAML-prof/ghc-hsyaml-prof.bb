@@ -10,6 +10,7 @@ RPM_HASH = "30cd72e8d185c2092506700e8951a43177bfe92d42a0659a0d619aa06e09b904a637
 RPROVIDES:${PN} += "ghc-HsYAML-prof \
 ghc-HsYAML-prof(aarch-64) \
 ghc-prof(HsYAML-0.2.1.1-KzoQvRN4UKW2jR1yND83sf)"
+
 RDEPENDS:${PN} += "ghc-HsYAML-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

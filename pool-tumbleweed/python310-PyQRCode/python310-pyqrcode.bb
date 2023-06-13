@@ -18,6 +18,7 @@ python310-PyQRCode \
 python310-PyQRCodeNG \
 python310-pyqrcodeng \
 python3dist(pyqrcodeng)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

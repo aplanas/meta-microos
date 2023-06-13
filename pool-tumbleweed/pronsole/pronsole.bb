@@ -15,6 +15,7 @@ application(pronsole.desktop) \
 metainfo() \
 metainfo(pronsole.appdata.xml) \
 pronsole"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 Printrun-common"
 

@@ -11,6 +11,7 @@ RPM_HASH = "906dfc0eeb3bdc1b2b992578e29d8b60278c2f2c97fdd5e3b9f66efbe0ebfcdad6cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu-gnu-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 superlu_6_0_0-gnu-hpc-devel"
 

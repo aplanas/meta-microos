@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chkfloat.sty) \
 texlive-chkfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

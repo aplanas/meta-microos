@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(reflectgraphics.sty) \
 texlive-reflectgraphics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "758016551be0e24520216d564e379fd7892a48748348ccc70060e065210ddd5d5d98
 RPROVIDES:${PN} += "libzen.so.0()(64bit) \
 libzen0 \
 libzen0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

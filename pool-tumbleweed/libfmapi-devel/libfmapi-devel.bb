@@ -13,6 +13,7 @@ RPM_HASH = "df6a63d62a051ed5b471ca4c86cc664647b500401767ea2b6b23f5ac0d9cfeddc654
 RPROVIDES:${PN} += "libfmapi-devel \
 libfmapi-devel(aarch-64) \
 pkgconfig(libfmapi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfmapi1"
 

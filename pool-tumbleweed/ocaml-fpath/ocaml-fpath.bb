@@ -9,6 +9,7 @@ RPM_HASH = "191cfc762ca5f35b1182fa1d1a7c515483a774b4be0970770975b60b1333f2676f3d
 
 RPROVIDES:${PN} += "ocaml-fpath \
 ocaml-fpath(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

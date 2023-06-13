@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "ffmpeg-4-libavresample-devel \
 ffmpeg-4-libavresample-devel(aarch-64) \
 libavresample-devel \
 pkgconfig(libavresample)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-4-libavutil-devel \
 libavresample4_0 \

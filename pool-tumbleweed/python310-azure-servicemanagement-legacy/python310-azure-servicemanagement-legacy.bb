@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-servicemanagement-legacy \
 python3.10dist(azure-servicemanagement-legacy) \
 python310-azure-servicemanagement-legacy \
 python3dist(azure-servicemanagement-legacy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

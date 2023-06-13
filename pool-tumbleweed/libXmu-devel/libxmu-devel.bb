@@ -17,6 +17,7 @@ libXmu-devel(aarch-64) \
 pkgconfig(xmu) \
 pkgconfig(xmuu) \
 xorg-x11-libXmu-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXmu6 \
 libXmuu1 \

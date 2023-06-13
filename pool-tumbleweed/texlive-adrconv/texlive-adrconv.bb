@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(adrdir.cfg) \
 tex(adrplaner.cfg) \
 tex(adrsmall.cfg) \
 texlive-adrconv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

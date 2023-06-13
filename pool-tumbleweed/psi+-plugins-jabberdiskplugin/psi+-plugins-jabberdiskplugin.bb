@@ -10,6 +10,7 @@ RPM_HASH = "d5d27981a606f33eba331cb7874214c8e3dbb58b60b77ae8c7a3607b61a501ae2169
 RPROVIDES:${PN} += "libjabberdiskplugin.so()(64bit) \
 psi+-plugins-jabberdiskplugin \
 psi+-plugins-jabberdiskplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -13,6 +13,7 @@ ocaml-bigarray-compat-devel \
 ocaml-bigarray-compat-devel(aarch-64) \
 ocamlfind(bigarray-compat) \
 ocamlx(Bigarray_compat)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Bigarray) \

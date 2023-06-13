@@ -13,6 +13,7 @@ RPM_HASH = "98580cdcdfc0db043a0b2b3ca6d8ed88c934912be422bfa6f6b4559e9548d5da74f5
 RPROVIDES:${PN} += "pkgconfig(sphinxbase) \
 sphinxbase5-devel \
 sphinxbase5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 alsa-devel \
 lapack-devel \

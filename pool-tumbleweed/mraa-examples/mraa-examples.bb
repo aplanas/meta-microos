@@ -16,6 +16,7 @@ RPM_HASH = "2a929bd92a36db0d6bb01d7d07df44a9611f21bb13a4f4cdd0329fcafe5f3342c4fe
 
 RPROVIDES:${PN} += "mraa-examples \
 mraa-examples(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

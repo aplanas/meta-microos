@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(duotenzor.sty) \
 texlive-duotenzor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "8d9aa01fb9544eb109af4c33250c18edc4474e470035bd4bf8c6ac122c1f816e8708
 
 RPROVIDES:${PN} += "vmtouch \
 vmtouch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

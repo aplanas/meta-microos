@@ -9,6 +9,7 @@ RPM_HASH = "088bddadb8ec2561a9b219be5865d9ffdd701b687ed88260a2802c4383d091de5f5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mailmerge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

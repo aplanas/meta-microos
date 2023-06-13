@@ -9,6 +9,7 @@ RPM_HASH = "013dfbed916c28e128d790f82acabadfb162c185b00c6d0bdf4942fbd434c23788c8
 
 RPROVIDES:${PN} += "xinput \
 xinput(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

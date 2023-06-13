@@ -13,6 +13,7 @@ RPM_HASH = "f4c03aabc42f427e80183fbb8b9f2d2f0e9d4a099e1eed18b38c87bd218f89b024cb
 
 RPROVIDES:${PN} += "ftgl-demo \
 ftgl-demo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

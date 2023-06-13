@@ -11,6 +11,7 @@ RPM_HASH = "f72833fd409fa996bdf592497ef23d1c73254cf8daa65e434d36586d5257537278ae
 RPROVIDES:${PN} += "libginac.so.11()(64bit) \
 libginac11 \
 libginac11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(nptyping) \
 python311-nptyping \
 python3dist(nptyping)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy"
 

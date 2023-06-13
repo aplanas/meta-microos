@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sadisplay \
 python3.10dist(sadisplay) \
 python310-sadisplay \
 python3dist(sadisplay)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

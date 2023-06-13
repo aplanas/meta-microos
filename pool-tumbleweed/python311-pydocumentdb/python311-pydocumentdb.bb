@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pydocumentdb) \
 python311-pydocumentdb \
 python3dist(pydocumentdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-six"

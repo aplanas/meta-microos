@@ -11,6 +11,7 @@ RPM_HASH = "4c96ae2d9b4f95d09135534d09148e8b5ff780b43ce0f56fba366995f561c00d27da
 RPROVIDES:${PN} += "libyaml-devel \
 libyaml-devel(aarch-64) \
 pkgconfig(yaml-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyaml-0-2"
 

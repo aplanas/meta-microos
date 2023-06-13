@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(extension-helpers) \
 python311-extension-helpers \
 python3dist(extension-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools"
 

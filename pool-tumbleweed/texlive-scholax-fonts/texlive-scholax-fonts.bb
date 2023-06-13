@@ -123,6 +123,7 @@ font(ncxfouriermath) \
 font(ncxmath) \
 font(texgyrescholax) \
 texlive-scholax-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

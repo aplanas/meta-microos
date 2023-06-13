@@ -10,6 +10,7 @@ RPM_HASH = "9fd7054ea81605dbde5a173d4b1bd4589fb337bf85f0b02dbb318c7eb7f05d094f2d
 RPROVIDES:${PN} += "libprotobuf_sensors.so()(64bit) \
 qt6-grpc-examples \
 qt6-grpc-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

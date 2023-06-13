@@ -17,6 +17,7 @@ RPM_HASH = "5617adfe852e75aa7b8dd38d2134d266ef4bc8e66da033f167b99e688250c6e7b557
 RPROVIDES:${PN} += "typelib(GUPnP) \
 typelib-1_0-GUPnP-1_0 \
 typelib-1_0-GUPnP-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgupnp-1.6.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

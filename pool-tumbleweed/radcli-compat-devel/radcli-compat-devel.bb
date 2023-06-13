@@ -10,6 +10,7 @@ RPM_HASH = "836e41d8c5035484fdd1e31aee20f699670be47ebfcad1f9c9551330956d95c2d844
 RPROVIDES:${PN} += "freeradius-client-devel \
 radcli-compat-devel \
 radcli-compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libradcli5 \
 radcli-devel"
 

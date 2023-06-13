@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(cmocka) \
 libcmocka-devel \
 libcmocka-devel(aarch-64) \
 pkgconfig(cmocka)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libcmocka0 \

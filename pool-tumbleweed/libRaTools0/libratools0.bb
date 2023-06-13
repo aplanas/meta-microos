@@ -12,6 +12,7 @@ RPM_HASH = "cdd7df9060e75ea31b1486645951e2b6621a84d8f621cab4d894a5150dc2d0e15d9e
 RPROVIDES:${PN} += "libRaTools.so.0()(64bit) \
 libRaTools0 \
 libRaTools0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

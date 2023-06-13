@@ -13,6 +13,7 @@ python3-babel \
 python3.10dist(babel) \
 python310-Babel \
 python3dist(babel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

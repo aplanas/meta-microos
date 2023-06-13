@@ -9,6 +9,7 @@ RPM_HASH = "fb0a53eea718d200bc2637c7d9207f0e346e5d2d69b032dd5c275ba9dcd02e3650ba
 
 RPROVIDES:${PN} += "genders-devel \
 genders-devel(aarch-64)"
+
 RDEPENDS:${PN} += "genders"
 
 inherit rpm

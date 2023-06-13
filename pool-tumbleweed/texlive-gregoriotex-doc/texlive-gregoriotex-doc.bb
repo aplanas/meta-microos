@@ -9,6 +9,7 @@ RPM_HASH = "e169dacdb46d38aa1964a594fe693f4617fa5116138c479e7fea5f6a2e7fdd2ee56b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gregoriotex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

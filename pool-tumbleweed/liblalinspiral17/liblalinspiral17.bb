@@ -11,6 +11,7 @@ RPM_HASH = "ab93c0f3b055073eac43644f508f0cc8119e8f9e1e8b6b904d7f228fc95371762478
 RPROVIDES:${PN} += "liblalinspiral.so.17()(64bit) \
 liblalinspiral17 \
 liblalinspiral17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

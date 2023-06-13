@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(latex2nemeth.jar) \
 texlive-latex2nemeth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "00b6772786f0e6d83a5071505d67a5705ff1a2e1f89f6d9653785c7a873dd6601169
 
 RPROVIDES:${PN} += "texlive-csplain-bin \
 texlive-csplain-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-csplain"
 
 inherit rpm

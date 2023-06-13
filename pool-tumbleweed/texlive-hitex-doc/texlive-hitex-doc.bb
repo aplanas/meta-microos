@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "man(hishrink.1) \
 man(histretch.1) \
 man(hitex.1) \
 texlive-hitex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

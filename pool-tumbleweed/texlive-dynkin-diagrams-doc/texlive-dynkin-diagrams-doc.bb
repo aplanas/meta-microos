@@ -9,6 +9,7 @@ RPM_HASH = "f933fe68cd7f1cd31dae7f161c37a05caf0bd7263eec9f107b0890f909c022512844
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dynkin-diagrams-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "6cbba963c559e4c103e782e94133f50f7ed479f1d2501e4d3482c452443470ad6777
 RPROVIDES:${PN} += "libgstisoff-1.0.so.0()(64bit) \
 libgstisoff-1_0-0 \
 libgstisoff-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

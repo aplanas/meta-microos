@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(glad2) \
 python311-glad2 \
 python3dist(glad2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 /usr/sbin/update-alternatives \

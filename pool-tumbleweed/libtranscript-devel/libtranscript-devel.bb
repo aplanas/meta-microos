@@ -14,6 +14,7 @@ RPM_HASH = "c624db39a873a594974eddd186a858175745fba1f5bf5d37146e8e8ee2d6c99bcb84
 RPROVIDES:${PN} += "libtranscript-devel \
 libtranscript-devel(aarch-64) \
 pkgconfig(libtranscript)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtranscript1"
 

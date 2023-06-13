@@ -10,6 +10,7 @@ RPM_HASH = "158fa190c4dfe51db048ca2a6ff57dc1e8a494066f5f3ac6905384e0af01968c0d55
 
 RPROVIDES:${PN} += "u-boot-mvebudbarmada8k-doc \
 u-boot-mvebudbarmada8k-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

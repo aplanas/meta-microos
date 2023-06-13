@@ -15,6 +15,7 @@ RPM_HASH = "e633d7edc0c5a57024d1b9986f2d38546737964b7bce69ac54c4423e0929dfff0178
 RPROVIDES:${PN} += "libXinerama-devel \
 libXinerama-devel(aarch-64) \
 pkgconfig(xinerama)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXinerama1 \
 pkgconfig(x11) \

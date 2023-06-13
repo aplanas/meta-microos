@@ -11,6 +11,7 @@ RPM_HASH = "52971745c5cb5515a8994b872def3b8158e6c0e41e49ee486a41a0710068d49a8f7c
 RPROVIDES:${PN} += "libsuil_gtk2_in_qt5.so()(64bit) \
 suil-plugin-gtk2-in-qt5 \
 suil-plugin-gtk2-in-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "gtk2-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

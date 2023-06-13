@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-redbaron \
 python3.10dist(redbaron) \
 python310-redbaron \
 python3dist(redbaron)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-baron"
 

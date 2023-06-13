@@ -10,6 +10,7 @@ RPM_HASH = "c9a800e965c58f7d23ed9716eda016ac4951525343b6cfe07f76158334a895907220
 RPROVIDES:${PN} += "ghc-prof(wai-extra-3.1.13.0-B4Szpcpv4Gy5mM28jLfYmX) \
 ghc-wai-extra-prof \
 ghc-wai-extra-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(HUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb) \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \

@@ -17,6 +17,7 @@ mvn(org.apache:apache-jar-resource-bundle:pom:) \
 mvn(org.apache:apache-license-header-resource-bundle) \
 mvn(org.apache:apache-license-header-resource-bundle:pom:) \
 mvn(org.apache:apache-resource-bundles:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

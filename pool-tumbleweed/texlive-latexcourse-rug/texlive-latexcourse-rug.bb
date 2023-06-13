@@ -11,6 +11,7 @@ RPM_HASH = "26834c71c31fac739a06488586c85589efdcae1afefea72753ba84de36e5318dadc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcourse-rug"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

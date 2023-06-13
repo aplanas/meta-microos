@@ -15,6 +15,7 @@ RPM_HASH = "62cdd195f80eb23e1bae47c2d88c7d91d6fd4b425b7ea3c6fb7903e3694819c308f4
 
 RPROVIDES:${PN} += "flint-devel \
 flint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gmp-devel \
 libflint17 \
 mpfr-devel \

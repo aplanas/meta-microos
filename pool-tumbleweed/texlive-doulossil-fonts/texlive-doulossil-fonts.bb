@@ -181,6 +181,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(doulossil) \
 texlive-doulossil-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

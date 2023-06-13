@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(ltximg.1) \
 texlive-ltximg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libclocale.so.1()(64bit) \
 libclocale.so.1(V_20221218)(64bit) \
 libclocale1 \
 libclocale1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

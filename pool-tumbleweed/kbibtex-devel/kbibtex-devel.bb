@@ -9,6 +9,7 @@ RPM_HASH = "35194b38904108484bd092789be3d4e409b52dd3fbe3a6b6cc973c5ac97159a90335
 
 RPROVIDES:${PN} += "kbibtex-devel \
 kbibtex-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kbibtex"
 
 inherit rpm

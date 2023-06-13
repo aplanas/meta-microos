@@ -9,6 +9,7 @@ RPM_HASH = "26940916280642a62ff42c6db23809f374cab5773afa48f2dfcd700ff61339b8bc2f
 
 RPROVIDES:${PN} += "icinga2-doc \
 icinga2-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "0eab403343d7ff6d6315a21dda158ee27589ca46f37a95e4a91250b9d88d805d598d
 RPROVIDES:${PN} += "libFLAC++.so.10()(64bit) \
 libFLAC++10 \
 libFLAC++10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "fb29e111147d67443f0dfda7ae03a4bf6361d68ead2342c1e2c98b6fc87965250c98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ini4j-javadoc"
+
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \
 javapackages-filesystem"

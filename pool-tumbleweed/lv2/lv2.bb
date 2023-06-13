@@ -54,6 +54,7 @@ RPM_HASH = "52f30c0f6ab3f240958f478e2083297155ef91467f5ed45f22ee698fb48fa173f42a
 
 RPROVIDES:${PN} += "lv2 \
 lv2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

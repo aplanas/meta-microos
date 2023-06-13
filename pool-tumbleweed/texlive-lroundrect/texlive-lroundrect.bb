@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lroundrect.sty) \
 texlive-lroundrect"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

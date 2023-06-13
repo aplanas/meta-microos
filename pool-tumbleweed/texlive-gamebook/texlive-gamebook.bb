@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gamebook.sty) \
 texlive-gamebook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

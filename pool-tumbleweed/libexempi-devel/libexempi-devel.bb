@@ -13,6 +13,7 @@ RPM_HASH = "5e79f866afe9182ff6ed319713a75ad8e5694587d989689a95c76081761834512c56
 RPROVIDES:${PN} += "libexempi-devel \
 libexempi-devel(aarch-64) \
 pkgconfig(exempi-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libexempi8"

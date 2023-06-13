@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(classicthesis-arsclassica.sty) \
 tex(classicthesis.sty) \
 texlive-classicthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

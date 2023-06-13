@@ -17,6 +17,7 @@ jsp_2_1_api \
 jsp_api \
 mvn(org.apache.geronimo.specs:geronimo-jsp_2.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jsp_2.1_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 el_1_0_api \
 java-headless \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-autopep8 \
 python3.10dist(autopep8) \
 python310-autopep8 \
 python3dist(autopep8)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

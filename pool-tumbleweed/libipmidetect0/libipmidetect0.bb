@@ -14,6 +14,7 @@ RPM_HASH = "619895a88bcbc430a5249ae887114f2247f0c608d914d5c99c8c885bcb0860916c61
 RPROVIDES:${PN} += "libipmidetect.so.0()(64bit) \
 libipmidetect0 \
 libipmidetect0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "11cd363368e7eb451509eb373887358305ab59ecdbc2ac68129cf55dd47159c9632b
 RPROVIDES:${PN} += "config(screen) \
 screen \
 screen(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

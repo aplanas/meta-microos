@@ -13,6 +13,7 @@ RPM_HASH = "6236dff43053e8a2d462f774995f9397d1df5cdb3f0e3e39511e5648364e7da353bb
 RPROVIDES:${PN} += "cmpi-devel \
 sblim-cmpi-devel \
 sblim-cmpi-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

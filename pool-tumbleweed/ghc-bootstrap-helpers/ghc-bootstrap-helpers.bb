@@ -10,6 +10,7 @@ RPM_HASH = "ddb18531835cbe829403e7a1c93cd8b6ce37c44df8af2d61548d374fda9441490ad5
 
 RPROVIDES:${PN} += "ghc-bootstrap-helpers \
 ghc-bootstrap-helpers(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

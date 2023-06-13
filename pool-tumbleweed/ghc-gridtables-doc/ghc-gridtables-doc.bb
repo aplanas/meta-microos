@@ -9,6 +9,7 @@ RPM_HASH = "d276fce9965462d265f205c5b0284ce547cd6c3197bc9ab8e0ae5ccbcea69164b05f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gridtables-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

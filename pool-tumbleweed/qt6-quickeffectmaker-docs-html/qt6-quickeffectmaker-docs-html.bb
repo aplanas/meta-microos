@@ -9,6 +9,7 @@ RPM_HASH = "3a08efcece01f6b2a3dde17bb05c5b256b01fce57f26709d803f295e697e2434ffcf
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker-docs-html \
 qt6-quickeffectmaker-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

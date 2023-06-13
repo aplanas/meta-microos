@@ -18,6 +18,7 @@ python3.10dist(python-jenkins) \
 python310-jenkins \
 python310-python-jenkins \
 python3dist(python-jenkins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-multi_key_dict \
 python310-pbr \

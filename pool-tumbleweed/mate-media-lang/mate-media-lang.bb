@@ -112,6 +112,7 @@ locale(mate-media:zh_HK) \
 locale(mate-media:zh_TW) \
 mate-media-lang \
 mate-media-lang-all"
+
 RDEPENDS:${PN} += "mate-media"
 
 inherit rpm

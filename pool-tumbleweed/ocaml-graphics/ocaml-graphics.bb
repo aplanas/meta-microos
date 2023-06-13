@@ -13,6 +13,7 @@ RPM_HASH = "176c26c26a093bd828e2d01a2ffba551e2f7012e16e3b5966f354f66f787f43c359d
 
 RPROVIDES:${PN} += "ocaml-graphics \
 ocaml-graphics(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"
 

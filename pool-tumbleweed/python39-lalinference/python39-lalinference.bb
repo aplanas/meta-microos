@@ -9,6 +9,7 @@ RPM_HASH = "ed568c859c2d95ea0b7316bffabb1986a992567d0931f7ed5a0e6220ed68955107b4
 
 RPROVIDES:${PN} += "python39-lalinference \
 python39-lalinference(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

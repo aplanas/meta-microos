@@ -16,6 +16,7 @@ RPM_HASH = "6073d3cf398b5d2c0b0f4fbd2f354dc7b3f25f65d4dafede4925965985d0f93fa446
 RPROVIDES:${PN} += "config(ptpd) \
 ptpd \
 ptpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

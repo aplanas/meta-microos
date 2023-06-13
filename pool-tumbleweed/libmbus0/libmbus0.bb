@@ -12,6 +12,7 @@ RPM_HASH = "b0301374b3bfc45a4324649af7dfec87e954f4ea77b5d3d1626ccc27ca90d3f8c3a1
 RPROVIDES:${PN} += "libmbus.so.0()(64bit) \
 libmbus0 \
 libmbus0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

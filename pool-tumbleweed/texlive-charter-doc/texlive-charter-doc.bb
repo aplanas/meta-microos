@@ -9,6 +9,7 @@ RPM_HASH = "de000ced71c1f426bb657898dbbf56b15d4317d138732381797d7e30e7752834e7d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-charter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

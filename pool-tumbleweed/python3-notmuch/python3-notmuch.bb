@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3-notmuch \
 python3-notmuch(aarch-64) \
 python3.10dist(notmuch) \
 python3dist(notmuch)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

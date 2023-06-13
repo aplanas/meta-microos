@@ -13,6 +13,7 @@ RPM_HASH = "9de45dbe6bad64b509f8fcb6114fbce4b406a48e434152f91875d1f752069e9aec56
 RPROVIDES:${PN} += "libantlr4-runtime.so.4.9.3()(64bit) \
 libantlr4-runtime4_9_3 \
 libantlr4-runtime4_9_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

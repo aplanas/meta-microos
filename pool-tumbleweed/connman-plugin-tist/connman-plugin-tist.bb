@@ -9,6 +9,7 @@ RPM_HASH = "51a78749cfd7a46dae99f1686316e2462be7d38e163da4039513080693ccabc465c7
 
 RPROVIDES:${PN} += "connman-plugin-tist \
 connman-plugin-tist(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

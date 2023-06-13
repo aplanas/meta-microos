@@ -11,6 +11,7 @@ RPM_HASH = "d9928d59f273bdc80a9e8fe07243455adfc8bb89106fe85b73ee99584544ef16b357
 RPROVIDES:${PN} += "farstream-devel \
 farstream-devel(aarch-64) \
 pkgconfig(farstream-0.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfarstream-0_2-5 \
 pkgconfig(gstreamer-1.0) \

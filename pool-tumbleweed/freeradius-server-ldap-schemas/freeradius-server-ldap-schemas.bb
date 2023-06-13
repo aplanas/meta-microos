@@ -10,6 +10,7 @@ RPM_HASH = "18470299b4d9038317c425949ca22e03bb3ac0bf3b76884b3501f82bb1369217a3f4
 RPROVIDES:${PN} += "config(freeradius-server-ldap-schemas) \
 freeradius-server-ldap-schemas \
 freeradius-server-ldap-schemas(aarch-64)"
+
 RDEPENDS:${PN} += "openldap2"
 
 inherit rpm

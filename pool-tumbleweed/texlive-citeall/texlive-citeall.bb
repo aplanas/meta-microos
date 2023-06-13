@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(citeall.sty) \
 texlive-citeall"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

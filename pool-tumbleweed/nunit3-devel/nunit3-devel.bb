@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nunit3-devel \
 pkgconfig(nunit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 nunit3"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(feedgen) \
 python311-feedgen \
 python3dist(feedgen)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lxml \
 python311-python-dateutil"

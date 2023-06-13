@@ -17,6 +17,7 @@ icebreaker \
 icebreaker(aarch-64) \
 metainfo() \
 metainfo(org.mattdm.icebreaker.metainfo.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

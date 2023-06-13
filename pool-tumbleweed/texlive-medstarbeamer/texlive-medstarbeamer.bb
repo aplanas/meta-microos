@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(beamercolorthemeMedStarColors.sty) \
 tex(medstarbeamer.cls) \
 texlive-medstarbeamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

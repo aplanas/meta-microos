@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(amstex.1) \
 texlive-amstex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

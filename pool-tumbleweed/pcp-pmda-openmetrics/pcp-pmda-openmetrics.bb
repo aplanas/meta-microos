@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(pcp-pmda-openmetrics) \
 pcp-pmda-openmetrics \
 pcp-pmda-openmetrics(aarch-64) \
 pcp-pmda-prometheus"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp \

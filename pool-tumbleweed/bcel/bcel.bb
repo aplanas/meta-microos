@@ -32,6 +32,7 @@ mvn(bcel:bcel) \
 mvn(bcel:bcel:pom:) \
 mvn(org.apache.bcel:bcel) \
 mvn(org.apache.bcel:bcel:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jakarta-regexp:jakarta-regexp) \

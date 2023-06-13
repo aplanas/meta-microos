@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gchords.sty) \
 texlive-gchords"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

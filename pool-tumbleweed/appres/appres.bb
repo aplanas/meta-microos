@@ -12,6 +12,7 @@ RPM_HASH = "e910dcd454b1152973bcbaffa76747445346a5747edfce9d8105045d74bb74c6afc1
 
 RPROVIDES:${PN} += "appres \
 appres(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

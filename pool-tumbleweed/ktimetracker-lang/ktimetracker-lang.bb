@@ -70,6 +70,7 @@ locale(ktimetracker:ug) \
 locale(ktimetracker:uk) \
 locale(ktimetracker:zh_CN) \
 locale(ktimetracker:zh_TW)"
+
 RDEPENDS:${PN} += "ktimetracker"
 
 inherit rpm

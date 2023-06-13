@@ -12,6 +12,7 @@ RPM_HASH = "a525099c897b383d842d2e0ffc4a211689743d0c21010df71d201a4e0a24ade15810
 RPROVIDES:${PN} += "liboslexec.so.1.12()(64bit) \
 liboslexec1_12 \
 liboslexec1_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

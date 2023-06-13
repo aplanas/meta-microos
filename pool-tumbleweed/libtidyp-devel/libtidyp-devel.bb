@@ -10,6 +10,7 @@ RPM_HASH = "e0308b9401d104318653ff60f9963aa49c4ffa6a179ae157664e63b3ddcab4bee311
 
 RPROVIDES:${PN} += "libtidyp-devel \
 libtidyp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libtidyp-1_04-0"
 

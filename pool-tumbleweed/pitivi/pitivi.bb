@@ -20,6 +20,7 @@ mimehandler(text/x-xges) \
 mimehandler(text/x-xptv) \
 pitivi \
 pitivi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 gstreamer-transcoder \

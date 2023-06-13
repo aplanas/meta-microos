@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "mvn(org.parboiled:parboiled-scala_2.10) \
 mvn(org.parboiled:parboiled-scala_2.10:pom:) \
 osgi(org.parboiled.scala) \
 parboiled-scala"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.parboiled:parboiled-core) \

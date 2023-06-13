@@ -26,6 +26,7 @@ metainfo() \
 metainfo(lyx.appdata.xml) \
 mimehandler(application/x-lyx) \
 mimehandler(text/x-lyx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \

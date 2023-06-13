@@ -12,6 +12,7 @@ RPM_HASH = "f11898af27ef12cf3e17707fa866dd20a99970ee322cbcd8b3a920eacfb4bb53f56f
 RPROVIDES:${PN} += "libmspub-devel \
 libmspub-devel(aarch-64) \
 pkgconfig(libmspub-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmspub-0_1-1 \
 pkgconfig(icu-i18n) \

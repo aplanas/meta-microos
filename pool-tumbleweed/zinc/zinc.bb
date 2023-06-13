@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.typesafe.zinc:zinc) \
 mvn(com.typesafe.zinc:zinc:pom:) \
 zinc"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library) \

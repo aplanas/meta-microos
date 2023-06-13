@@ -15,6 +15,7 @@ RPM_HASH = "f71dbbd31b2c990d50a61ac28f078694ecf0de1f86d23119866b9e79d9636f9c4715
 RPROVIDES:${PN} += "libenca.so.0()(64bit) \
 libenca0 \
 libenca0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

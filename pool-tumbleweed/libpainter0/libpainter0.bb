@@ -10,6 +10,7 @@ RPM_HASH = "bee48bd772885ec5675b36f0f2c9532fe091e16a72e79b1f81d323f3e4468e9a4738
 RPROVIDES:${PN} += "libpainter.so.0()(64bit) \
 libpainter0 \
 libpainter0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

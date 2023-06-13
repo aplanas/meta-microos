@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-libevdev \
 python3.10dist(libevdev) \
 python310-libevdev \
 python3dist(libevdev)"
+
 RDEPENDS:${PN} += "libevdev2 \
 python(abi)"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ean13isbn.sty) \
 texlive-ean13isbn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

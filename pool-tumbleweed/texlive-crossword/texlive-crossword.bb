@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cwpuzzle.sty) \
 texlive-crossword"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

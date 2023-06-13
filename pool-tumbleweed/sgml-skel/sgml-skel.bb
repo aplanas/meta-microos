@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sgml-skel) \
 sgml-skel"
+
 RDEPENDS:${PN} += "/bin/awk \
 /bin/bash \
 /bin/sh \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(numberedblock.sty) \
 texlive-numberedblock"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

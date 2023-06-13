@@ -9,6 +9,7 @@ RPM_HASH = "4fe3c1840e374316a53e8b80a8a38fdbaf768b3b400d015d6db39021b6c81dbda051
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-brushscr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "ac386d7d6c9f277ac0bc090092c390e8f45ed574398e1f156bb7c1d5b78ae4b1a4a6
 RPROVIDES:${PN} += "config(libvirt-daemon-config-nwfilter) \
 libvirt-daemon-config-nwfilter \
 libvirt-daemon-config-nwfilter(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-daemon-driver-nwfilter"
 
 inherit rpm

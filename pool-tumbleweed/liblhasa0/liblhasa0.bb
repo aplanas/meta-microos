@@ -11,6 +11,7 @@ RPM_HASH = "0ed42b319c4076957fb155aa0a94101fc578814e843681294ad63096a72e311d3d5a
 RPROVIDES:${PN} += "liblhasa.so.0()(64bit) \
 liblhasa0 \
 liblhasa0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

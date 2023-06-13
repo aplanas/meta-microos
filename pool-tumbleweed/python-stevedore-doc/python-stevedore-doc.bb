@@ -19,6 +19,7 @@ RPM_HASH = "4942120a83964ddf32ea8070200f47a1fe54381cce5236c1a9d2e3eba0f9f0efbb6f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-stevedore-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

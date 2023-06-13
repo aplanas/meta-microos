@@ -12,6 +12,7 @@ RPM_HASH = "3bb89f13af28b9218b36610a4d5811b232b64b5dc3bbb1b6c434250b12e149dd6fe0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

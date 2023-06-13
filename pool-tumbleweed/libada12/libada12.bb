@@ -18,6 +18,7 @@ libgnarl-12 \
 libgnarl-12.so()(64bit) \
 libgnat-12 \
 libgnat-12.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

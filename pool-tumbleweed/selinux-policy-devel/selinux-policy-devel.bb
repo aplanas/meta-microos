@@ -9,6 +9,7 @@ RPM_HASH = "04df6df64fcad6b24c13e48081c6deecd95b6f63ffe0bde5e634b888c6963f9c27ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-policy-devel"
+
 RDEPENDS:${PN} += "/usr/bin/make \
 checkpolicy \
 m4 \

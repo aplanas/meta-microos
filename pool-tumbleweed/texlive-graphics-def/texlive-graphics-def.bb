@@ -20,6 +20,7 @@ tex(luatex.def) \
 tex(pdftex.def) \
 tex(xetex.def) \
 texlive-graphics-def"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

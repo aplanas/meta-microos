@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mergedeep \
 python3.10dist(mergedeep) \
 python310-mergedeep \
 python3dist(mergedeep)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

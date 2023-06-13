@@ -19,6 +19,7 @@ RPM_HASH = "2cff8c7df7a410c554764802d1ab63b8ba274a2016ebf6890c58227d8d5eccf05190
 RPROVIDES:${PN} += "libRivet-3.1.7.so()(64bit) \
 libRivet-3_1_7 \
 libRivet-3_1_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

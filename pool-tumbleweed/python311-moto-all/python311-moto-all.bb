@@ -10,6 +10,7 @@ RPM_HASH = "531aa696497cf6f397ae7f0f3694d7d829fbb90d7b774b93799aa1379ff738020b66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-moto-all"
+
 RDEPENDS:${PN} += "python311-PyYAML \
 python311-aws-xray-sdk \
 python311-cfn-lint \

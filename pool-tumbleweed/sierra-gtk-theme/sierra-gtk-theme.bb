@@ -9,6 +9,7 @@ RPM_HASH = "110351eee7e461ce3da201d534853cb7d52203cd0d1b2f32c26b82353acd9a6c47db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sierra-gtk-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

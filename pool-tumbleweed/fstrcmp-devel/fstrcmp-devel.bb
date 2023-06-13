@@ -11,6 +11,7 @@ RPM_HASH = "ff75e4777ed91b0d48060a9a2709ddd4869b2326f28c26e317505191405b83fac344
 RPROVIDES:${PN} += "fstrcmp-devel \
 fstrcmp-devel(aarch-64) \
 pkgconfig(fstrcmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfstrcmp0"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-JsonWeb \
 python3.10dist(jsonweb) \
 python310-JsonWeb \
 python3dist(jsonweb)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

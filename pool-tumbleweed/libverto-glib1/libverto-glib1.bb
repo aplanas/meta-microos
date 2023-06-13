@@ -12,6 +12,7 @@ RPM_HASH = "c1fec4f8289148b24ac9b2af202d6afacb2786baa43a9df71a4bdcf4f327886c4bb2
 RPROVIDES:${PN} += "libverto-glib.so.1()(64bit) \
 libverto-glib1 \
 libverto-glib1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \

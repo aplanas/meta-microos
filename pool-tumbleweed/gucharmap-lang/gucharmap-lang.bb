@@ -92,6 +92,7 @@ locale(gucharmap:wa) \
 locale(gucharmap:zh_CN) \
 locale(gucharmap:zh_HK) \
 locale(gucharmap:zh_TW)"
+
 RDEPENDS:${PN} += "gucharmap"
 
 inherit rpm

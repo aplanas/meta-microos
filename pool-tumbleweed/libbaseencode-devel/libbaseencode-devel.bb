@@ -10,6 +10,7 @@ RPM_HASH = "8736b200b031616651c940a708fe1c9a3e6e397a84ded29a9dea2899b44cba4b8a9b
 RPROVIDES:${PN} += "libbaseencode-devel \
 libbaseencode-devel(aarch-64) \
 pkgconfig(baseencode)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbaseencode1"
 

@@ -25,6 +25,7 @@ locale(gtkpod:ru) \
 locale(gtkpod:sv) \
 locale(gtkpod:zh_CN) \
 locale(gtkpod:zh_TW)"
+
 RDEPENDS:${PN} += "gtkpod"
 
 inherit rpm

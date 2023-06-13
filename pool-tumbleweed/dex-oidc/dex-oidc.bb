@@ -15,6 +15,7 @@ RPM_HASH = "4f15fe2311976d66a602824c30659b2706dcf8f3eb798e334cfec2ae347f9a4fefff
 RPROVIDES:${PN} += "caasp-dex \
 dex-oidc \
 dex-oidc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup"

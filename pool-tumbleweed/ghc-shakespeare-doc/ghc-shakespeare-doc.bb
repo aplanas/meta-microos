@@ -9,6 +9,7 @@ RPM_HASH = "ea7834318011c86d3c59b07a5efbca4b63fd4e2477c7a30e3348d69cc112f6cf1aa9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-shakespeare-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

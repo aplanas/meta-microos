@@ -279,6 +279,7 @@ libqxcb.so(Qt_6.3)(64bit) \
 libqxcb.so(Qt_6.4)(64bit) \
 libqxcb.so(Qt_6.5)(64bit) \
 libqxcb.so(Qt_6.5.1_PRIVATE_API)(64bit)"
+
 RDEPENDS:${PN} += "(qt6-wayland if xwayland) \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

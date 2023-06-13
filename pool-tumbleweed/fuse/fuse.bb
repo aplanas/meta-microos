@@ -16,6 +16,7 @@ RPM_HASH = "4a9a35e3505019ed89bf00c7fa3f4b9fe82aa56c725266772380a21a21ac38cfa3c3
 RPROVIDES:${PN} += "config(fuse) \
 fuse \
 fuse(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(trusted) \
 ld-linux-aarch64.so.1()(64bit) \

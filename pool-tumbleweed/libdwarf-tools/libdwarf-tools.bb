@@ -10,6 +10,7 @@ RPM_HASH = "57ba54e527b3ff47363ccd077d4c65b1a89a521806040fa951847a1d691ba5e07652
 RPROVIDES:${PN} += "dwarfutils \
 libdwarf-tools \
 libdwarf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

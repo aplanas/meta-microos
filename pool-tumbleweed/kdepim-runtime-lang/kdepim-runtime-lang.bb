@@ -67,6 +67,7 @@ locale(kdepim-runtime:ug) \
 locale(kdepim-runtime:uk) \
 locale(kdepim-runtime:zh_CN) \
 locale(kdepim-runtime:zh_TW)"
+
 RDEPENDS:${PN} += "kdepim-runtime"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(pyzo.desktop) \
 mimehandler(text/x-python) \
 pyzo"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-pyzo"
 

@@ -9,6 +9,7 @@ RPM_HASH = "21e4087f7e5c73f07f3ab7e8ce5e135757e1f9d3692d47a0f617c0eafc9c3dae4804
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "prometheus-simpleclient-java-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

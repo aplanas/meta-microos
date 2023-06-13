@@ -11,6 +11,7 @@ RPM_HASH = "f39d276e0607bb35b796e45998b5e15938fafadcf709ab0c7b0cfa1b26b17841c8c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maths-symbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

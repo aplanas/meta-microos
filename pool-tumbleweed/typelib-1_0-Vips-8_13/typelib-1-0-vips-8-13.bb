@@ -13,6 +13,7 @@ RPM_HASH = "33aca524f5f1ef73d17934920486fb71237fe5cd59b519497fcfd4afec2540b3c4ac
 RPROVIDES:${PN} += "typelib(Vips) \
 typelib-1_0-Vips-8_13 \
 typelib-1_0-Vips-8_13(aarch-64)"
+
 RDEPENDS:${PN} += "libvips.so.42()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

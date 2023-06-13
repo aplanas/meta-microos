@@ -21,6 +21,7 @@ RPM_HASH = "e0bfee1ae78f03546fd91f112d3ab4dbb60cc40ac14001fc1db49109d06577c3a150
 
 RPROVIDES:${PN} += "fastjet-plugin-siscone-devel \
 fastjet-plugin-siscone-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fastjet-devel \
 fastjet-plugin-siscone"
 

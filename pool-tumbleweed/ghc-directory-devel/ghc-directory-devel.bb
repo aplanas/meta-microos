@@ -12,6 +12,7 @@ ghc-directory-devel \
 ghc-directory-devel(aarch-64) \
 ghc-directory-static \
 ghc-directory-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(filepath-1.4.2.2) \

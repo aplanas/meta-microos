@@ -53,6 +53,7 @@ RPM_HASH = "f4f5db98627e2829c9717da8cc6af2df4cf961a91983d31664618030adec3b211830
 RPROVIDES:${PN} += "perl(Text::Soundex) \
 perl-Text-Soundex \
 perl-Text-Soundex(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

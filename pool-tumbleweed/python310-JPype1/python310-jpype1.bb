@@ -12,6 +12,7 @@ python3.10dist(jpype1) \
 python310-JPype1 \
 python310-JPype1(aarch-64) \
 python3dist(jpype1)"
+
 RDEPENDS:${PN} += "java-15-openjdk-headless \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -25,6 +25,7 @@ perl(Locale::Maketext::Gettext::Functions) \
 perl(Locale::Maketext::Gettext::Functions::_EMPTY) \
 perl(Locale::Maketext::Gettext::Functions::_EMPTY::i_default) \
 perl-Locale-Maketext-Gettext"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

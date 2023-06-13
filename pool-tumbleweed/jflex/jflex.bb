@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jflex \
 mvn(de.jflex:jflex) \
 mvn(de.jflex:jflex:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 java_cup \

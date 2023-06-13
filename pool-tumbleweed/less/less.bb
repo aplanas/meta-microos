@@ -12,6 +12,7 @@ RPM_HASH = "b92417b164794113efa12ed7b49a3c817e9b83b87880a8b3614a00e4a75a8ffec2a1
 
 RPROVIDES:${PN} += "less \
 less(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/which \

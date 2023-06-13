@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-sway-sway \
 patterns-sway-sway(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa \
 alacritty \
 fontawesome-fonts \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(embrac.sty) \
 texlive-embrac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

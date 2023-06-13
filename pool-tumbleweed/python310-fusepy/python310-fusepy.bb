@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-fusepy \
 python3.10dist(fusepy) \
 python310-fusepy \
 python3dist(fusepy)"
+
 RDEPENDS:${PN} += "libfuse2 \
 python(abi)"
 

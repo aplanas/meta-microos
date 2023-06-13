@@ -9,6 +9,7 @@ RPM_HASH = "309eea190cc05d7c72c073cd655ce9cedace33860edd2e184fd16e33745cf9a9dec8
 
 RPROVIDES:${PN} += "texlive-yplan-bin \
 texlive-yplan-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-yplan"
 
 inherit rpm

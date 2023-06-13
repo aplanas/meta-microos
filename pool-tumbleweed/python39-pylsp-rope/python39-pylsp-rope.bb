@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pylsp-rope) \
 python39-pylsp-rope \
 python3dist(pylsp-rope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-lsp-server \
 python39-rope"

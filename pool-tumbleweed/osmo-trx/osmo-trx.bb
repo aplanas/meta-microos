@@ -22,6 +22,7 @@ RPM_HASH = "a982b1bb3a833516296c28c69951eee6ce829201a21988767e83c8b201e287f4cfd1
 
 RPROVIDES:${PN} += "osmo-trx \
 osmo-trx(aarch-64)"
+
 RDEPENDS:${PN} += "systemd"
 
 inherit rpm

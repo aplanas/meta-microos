@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gyp \
 python3.11dist(gyp) \
 python311-gyp \
 python3dist(gyp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ninja \

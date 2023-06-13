@@ -12,6 +12,7 @@ RPM_HASH = "162c8f805c7a803b4250a580de1f2b777f39bdaa1bb2a97f171a0ddf66acd7fb4fe3
 RPROVIDES:${PN} += "libVkLayer_khronos_validation.so()(64bit) \
 vulkan-validationlayers \
 vulkan-validationlayers(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSPIRV-Tools-2023.3~rc1.so()(64bit) \

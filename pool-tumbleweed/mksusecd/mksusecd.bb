@@ -9,6 +9,7 @@ RPM_HASH = "a5fa65b628cf17e65b32c8303227dd5b8dff3188128c09a6f03a24ce461cc9856000
 
 RPROVIDES:${PN} += "mksusecd \
 mksusecd(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 checkmedia \
 createrepo-implementation \

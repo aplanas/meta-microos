@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "php-pear(Auth_SASL) \
 php-pear-Auth_SASL \
 php5-pear-Auth_SASL \
 php7-pear-Auth_SASL"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

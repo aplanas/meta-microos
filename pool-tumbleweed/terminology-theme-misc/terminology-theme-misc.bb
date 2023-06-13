@@ -11,6 +11,7 @@ RPM_HASH = "84f28a6b90a3e8e829f8c145ab96e16cd3cfbd4eac1014895a51c0bac7dc76eaa5b0
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-misc \
 terminology-theme-misc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

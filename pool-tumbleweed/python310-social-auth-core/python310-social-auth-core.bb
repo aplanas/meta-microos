@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-social-auth-core \
 python3.10dist(social-auth-core) \
 python310-social-auth-core \
 python3dist(social-auth-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-cryptography \

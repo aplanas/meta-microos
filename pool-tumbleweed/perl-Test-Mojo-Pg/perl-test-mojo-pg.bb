@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::Mojo::Pg) \
 perl-Test-Mojo-Pg"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mojo::Base) \
 perl(Mojo::Pg)"

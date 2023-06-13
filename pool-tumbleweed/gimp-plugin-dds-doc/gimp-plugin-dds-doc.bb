@@ -17,6 +17,7 @@ RPM_HASH = "25f6adef701bed4b9d14e6a9c5da2193fa39dff811fe9352d993ecea5ed151aa48e7
 
 RPROVIDES:${PN} += "gimp-plugin-dds-doc \
 gimp-plugin-dds-doc(aarch-64)"
+
 RDEPENDS:${PN} += "gimp-plugin-dds"
 
 inherit rpm

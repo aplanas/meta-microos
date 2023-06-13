@@ -59,6 +59,7 @@ locale(kfilemetadata5:tr) \
 locale(kfilemetadata5:uk) \
 locale(kfilemetadata5:zh_CN) \
 locale(kfilemetadata5:zh_TW)"
+
 RDEPENDS:${PN} += "kfilemetadata5"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "ab08deffb080029a3b370cf9b3b451c9d3ebbb55490752f30c7d91e808c77b64aba6
 RPROVIDES:${PN} += "libp8-platform.so.2()(64bit) \
 libp8-platform2 \
 libp8-platform2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

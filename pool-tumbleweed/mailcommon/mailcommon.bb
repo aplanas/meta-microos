@@ -10,6 +10,7 @@ RPM_HASH = "69592b6d5498bacfccdaee8c243e0d4f19bd227d8b05f63c5f6aed38f249ccd014e1
 
 RPROVIDES:${PN} += "mailcommon \
 mailcommon(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

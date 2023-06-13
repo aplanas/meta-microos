@@ -13,6 +13,7 @@ RPM_HASH = "a0d2ee20652a1c9c1dd4a21fa5ab45524b9dbdfa5f3c3aaef3ddeae0833353636db3
 RPROVIDES:${PN} += "nemo-extension-image-converter \
 nemo-extension-image-converter(aarch-64) \
 nemo-image-converter"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ImageMagick \
 nemo"

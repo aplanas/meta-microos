@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-bloscpack \
 python3.10dist(bloscpack) \
 python310-bloscpack \
 python3dist(bloscpack)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

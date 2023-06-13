@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cdflib \
 python3.10dist(cdflib) \
 python310-cdflib \
 python3dist(cdflib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-numpy"

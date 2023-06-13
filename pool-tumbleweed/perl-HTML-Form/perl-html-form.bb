@@ -22,6 +22,7 @@ perl(HTML::Form::ListInput) \
 perl(HTML::Form::SubmitInput) \
 perl(HTML::Form::TextInput) \
 perl-HTML-Form"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::TokeParser) \
 perl(HTTP::Request) \

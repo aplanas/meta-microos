@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "perl(MooseX::Workers) \
 perl(MooseX::Workers::Engine) \
 perl(MooseX::Workers::Job) \
 perl-MooseX-Workers"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Role) \

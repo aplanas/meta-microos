@@ -9,6 +9,7 @@ RPM_HASH = "daf228c7588b2c5639503466707f9861570357acf4d4c0eb9957dcf5813742f6388b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-periodictable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

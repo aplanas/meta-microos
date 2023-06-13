@@ -65,6 +65,7 @@ osgi(org.apache.tomcat-websocket-api) \
 osgi(org.apache.tomcat.jdbc) \
 osgi(org.eclipse.jdt.core.compiler.batch) \
 tomcat-lib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ecj \

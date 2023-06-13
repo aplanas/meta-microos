@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mautrix) \
 python39-mautrix \
 python3dist(mautrix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-attrs \

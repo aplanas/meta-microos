@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dogslow \
 python3.10dist(dogslow) \
 python310-dogslow \
 python3dist(dogslow)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

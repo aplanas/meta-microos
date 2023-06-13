@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-django-cacheops \
 python3.10dist(django-cacheops) \
 python310-django-cacheops \
 python3dist(django-cacheops)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-django \
 python310-funcy \

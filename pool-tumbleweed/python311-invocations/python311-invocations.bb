@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(invocations) \
 python311-invocations \
 python3dist(invocations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-blessings \
 python311-invoke \

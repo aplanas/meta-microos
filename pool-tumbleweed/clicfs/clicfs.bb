@@ -12,6 +12,7 @@ RPM_HASH = "fc3975063c67aab62b6a064b1fbcdc2b6ec6fc3f5dfcd833b2616bfbc23c60b21bfd
 
 RPROVIDES:${PN} += "clicfs \
 clicfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

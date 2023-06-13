@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KPropertyCore) \
 cmake(KPropertyWidgets) \
 kproperty-devel \
 kproperty-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKPropertyCore3-4 \
 libKPropertyWidgets3-4"
 

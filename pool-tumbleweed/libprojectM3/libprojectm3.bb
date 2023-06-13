@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libprojectM-qt5-3 \
 libprojectM.so.3()(64bit) \
 libprojectM3 \
 libprojectM3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

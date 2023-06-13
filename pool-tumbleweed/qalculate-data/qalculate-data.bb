@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qalculate-data \
 qalculate:/usr/share/qalculate/units.xml"
+
 RDEPENDS:${PN} += "libqalculate"
 
 inherit rpm

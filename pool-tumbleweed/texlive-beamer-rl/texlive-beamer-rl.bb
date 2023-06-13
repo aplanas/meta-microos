@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(beamer-rl.cls) \
 tex(pgfpages-rl.sty) \
 texlive-beamer-rl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

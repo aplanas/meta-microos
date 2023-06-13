@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ulem.sty) \
 texlive-ulem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

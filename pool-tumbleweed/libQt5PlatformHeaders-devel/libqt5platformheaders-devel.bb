@@ -9,6 +9,7 @@ RPM_HASH = "045937914da39a636f5f6754133e6289e901a612dd4fe665912273c658177836d6ae
 
 RPROVIDES:${PN} += "libQt5PlatformHeaders-devel \
 libQt5PlatformHeaders-devel(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa-libGLESv3-devel \
 libQt5Core-devel \
 libQt5Gui-devel \

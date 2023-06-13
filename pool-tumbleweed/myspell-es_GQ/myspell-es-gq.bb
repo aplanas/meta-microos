@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(libreoffice:es_GQ) \
 locale(seamonkey-spellchecker:es_GQ) \
 myspell-dictionary \
 myspell-es_GQ"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

@@ -25,6 +25,7 @@ locale(meteo:sr) \
 locale(meteo:uk) \
 meteo-lang \
 meteo-lang-all"
+
 RDEPENDS:${PN} += "meteo"
 
 inherit rpm

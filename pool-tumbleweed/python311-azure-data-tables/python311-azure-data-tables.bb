@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-data-tables) \
 python311-azure-data-tables \
 python3dist(azure-data-tables)"
+
 RDEPENDS:${PN} += "(python311-typing_extensions >= 4.3.0 if python311-base < 3.8) \
 python(abi) \
 python311-azure-core \

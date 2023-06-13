@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libvips-cpp.so.42()(64bit) \
 libvips.so.42()(64bit) \
 libvips42 \
 libvips42(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

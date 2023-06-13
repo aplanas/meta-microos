@@ -9,6 +9,7 @@ RPM_HASH = "60fbd50efcb2fd962c5f11e241f6bb0fc84221751ae53419949972a5f6236b5ae78f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-mint"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-mint-common"
 

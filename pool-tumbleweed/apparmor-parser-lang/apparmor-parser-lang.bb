@@ -69,6 +69,7 @@ locale(apparmor-parser:vi) \
 locale(apparmor-parser:wa) \
 locale(apparmor-parser:zh_CN) \
 locale(apparmor-parser:zh_TW)"
+
 RDEPENDS:${PN} += "apparmor-parser"
 
 inherit rpm

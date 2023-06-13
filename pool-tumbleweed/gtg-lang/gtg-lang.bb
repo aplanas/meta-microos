@@ -64,6 +64,7 @@ locale(gtg:tr) \
 locale(gtg:uk) \
 locale(gtg:zh_CN) \
 locale(gtg:zh_TW)"
+
 RDEPENDS:${PN} += "gtg"
 
 inherit rpm

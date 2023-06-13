@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:webrick:1) \
 rubygem(ruby:3.2.0:webrick:1.7) \
 rubygem(ruby:3.2.0:webrick:1.7.0) \
 rubygem(webrick)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi)"

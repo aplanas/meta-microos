@@ -9,6 +9,7 @@ RPM_HASH = "c31e2b4ef23cbbecf3745e0b0ca09a01cadaf4b8d9d84faf32dc8964f39be3c8effc
 
 RPROVIDES:${PN} += "lsdvd \
 lsdvd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

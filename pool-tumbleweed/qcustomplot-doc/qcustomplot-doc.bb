@@ -9,6 +9,7 @@ RPM_HASH = "210999d90d40252f8b932bd076436c9f6a27df4c48bd5f4b2d53a5f1a11886a8be4f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qcustomplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

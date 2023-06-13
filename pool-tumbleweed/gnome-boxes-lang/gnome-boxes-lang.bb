@@ -78,6 +78,7 @@ locale(gnome-boxes:vi) \
 locale(gnome-boxes:zh_CN) \
 locale(gnome-boxes:zh_HK) \
 locale(gnome-boxes:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-boxes"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "8161179feedd39d6220046d4ceefa12d35a6a102cdd15a7490a1ca3d7614ec89ef74
 RPROVIDES:${PN} += "blas \
 blas-devel \
 blas-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblas3"
 
 inherit rpm

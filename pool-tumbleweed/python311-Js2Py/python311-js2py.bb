@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(js2py) \
 python311-Js2Py \
 python3dist(js2py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyjsparser \
 python311-six \

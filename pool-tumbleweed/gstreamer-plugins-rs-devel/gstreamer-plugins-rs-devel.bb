@@ -56,6 +56,7 @@ pkgconfig(gstthreadshare) \
 pkgconfig(gsttogglerecord) \
 pkgconfig(gsturiplaylistbin) \
 pkgconfig(gstwebrtchttp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-plugins-rs \
 pkgconfig(cairo-gobject) \

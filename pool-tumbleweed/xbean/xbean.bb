@@ -23,6 +23,7 @@ osgi(org.apache.xbean.asm-util) \
 osgi(org.apache.xbean.finder) \
 osgi(org.apache.xbean.reflect) \
 xbean"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api) \

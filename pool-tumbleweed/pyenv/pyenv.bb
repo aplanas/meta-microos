@@ -12,6 +12,7 @@ RPM_HASH = "fbe85cfa7a21493f128e68403543760af086319c6cf4877e43959d13a981a12a0023
 RPROVIDES:${PN} += "config(pyenv) \
 pyenv \
 pyenv(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.17)(64bit)"
 

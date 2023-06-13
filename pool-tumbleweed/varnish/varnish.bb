@@ -26,6 +26,7 @@ libvmod_unix.so()(64bit) \
 libvmod_vtc.so()(64bit) \
 varnish \
 varnish(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

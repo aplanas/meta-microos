@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(askinclude.sty) \
 texlive-askinclude"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

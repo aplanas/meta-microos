@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libnpth.so.0()(64bit) \
 libnpth.so.0(NPTH_1.0)(64bit) \
 libnpth0 \
 libnpth0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jsr-305 \
 mvn(com.google.code.findbugs:jsr305) \
 mvn(com.google.code.findbugs:jsr305:pom:) \
 osgi(org.jsr-305)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

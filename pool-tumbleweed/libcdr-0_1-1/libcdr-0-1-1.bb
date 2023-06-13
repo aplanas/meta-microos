@@ -10,6 +10,7 @@ RPM_HASH = "091d3586e2bb594acaf824170f8efa88b479cf4e6c693fc40e00b66b66997db40abc
 RPROVIDES:${PN} += "libcdr-0.1.so.1()(64bit) \
 libcdr-0_1-1 \
 libcdr-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

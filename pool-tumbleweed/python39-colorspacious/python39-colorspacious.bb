@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(colorspacious) \
 python39-colorspacious \
 python3dist(colorspacious)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy"
 

@@ -12,6 +12,7 @@ RPM_HASH = "bc3cef6c4030324894a8be07fafc98c667b9dc1f579da2e5db59fa122f1d79d12bee
 
 RPROVIDES:${PN} += "inkscape-extensions-fig \
 inkscape-extensions-fig(aarch-64)"
+
 RDEPENDS:${PN} += "inkscape \
 inkscape-extensions-extra \
 transfig"

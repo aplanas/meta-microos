@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(adigraph.sty) \
 texlive-adigraph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(selinput.sty) \
 texlive-selinput"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

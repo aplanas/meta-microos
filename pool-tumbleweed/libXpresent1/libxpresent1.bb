@@ -16,6 +16,7 @@ RPM_HASH = "4a7af9fb77f6bd72d1fadf113ead9113be577e6b918a25f0a5df822ee8a87b21778f
 RPROVIDES:${PN} += "libXpresent.so.1()(64bit) \
 libXpresent1 \
 libXpresent1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

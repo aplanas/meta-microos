@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mixedreality-nspkg) \
 python311-azure-mixedreality-nspkg \
 python3dist(azure-mixedreality-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-nspkg"
 

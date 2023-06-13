@@ -26,6 +26,7 @@ python3.10dist(werkzeug) \
 python310-Werkzeug \
 python310-Werkzeug-doc \
 python3dist(werkzeug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-MarkupSafe"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(jura2.bbx) \
 tex(jura2.cbx) \
 texlive-biblatex-jura2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

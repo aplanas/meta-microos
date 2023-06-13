@@ -9,6 +9,7 @@ RPM_HASH = "89bd4b2f43953803133f648663791e0d4b55526daab54dc185bc3ce3f1925a37297d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stickstoo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

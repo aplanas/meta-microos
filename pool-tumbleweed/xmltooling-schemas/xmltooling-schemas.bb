@@ -15,6 +15,7 @@ RPM_HASH = "25a916dcb069dfec40dd5a72274a45fe41155f5df2f2ae2b6495b3553300b8b881b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmltooling-schemas"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

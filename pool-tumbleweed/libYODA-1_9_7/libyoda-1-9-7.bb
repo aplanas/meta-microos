@@ -14,6 +14,7 @@ RPM_HASH = "61a2ef5c99800000c6ade69371c62f0cf0c9156c6c043deb71011c527903afd4b5ae
 RPROVIDES:${PN} += "libYODA-1.9.7.so()(64bit) \
 libYODA-1_9_7 \
 libYODA-1_9_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

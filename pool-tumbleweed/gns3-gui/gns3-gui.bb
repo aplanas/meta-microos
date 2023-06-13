@@ -27,6 +27,7 @@ mimehandler(application/x-gns3appliance) \
 mimehandler(application/x-gns3project) \
 python3.10dist(gns3-gui) \
 python3dist(gns3-gui)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

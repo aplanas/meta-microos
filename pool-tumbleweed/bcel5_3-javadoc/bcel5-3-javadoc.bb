@@ -22,6 +22,7 @@ RPM_HASH = "3f91113b8b80677826b768d2be9068241bab30bb8ed2fa4db677f69dfd05941194ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel5_3-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

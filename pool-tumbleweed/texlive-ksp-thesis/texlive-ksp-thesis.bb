@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ksp-thesis.cls) \
 texlive-ksp-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

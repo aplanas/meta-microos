@@ -9,6 +9,7 @@ RPM_HASH = "80250b3c919ed3a98d72563cc7920c59e29094d368df93e9341473dff52c10dc264e
 
 RPROVIDES:${PN} += "stlink-devel \
 stlink-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstlink1"
 
 inherit rpm

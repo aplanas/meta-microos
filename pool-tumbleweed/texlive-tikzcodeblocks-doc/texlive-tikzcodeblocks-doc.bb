@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tikzcodeblocks-doc:de) \
 texlive-tikzcodeblocks-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

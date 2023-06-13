@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-flask) \
 python311-pytest-flask \
 python3dist(pytest-flask)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-Werkzeug \

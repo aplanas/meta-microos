@@ -16,6 +16,7 @@ RPM_HASH = "6532debc39b889ebe45ccad4b56a06f9368c5b6bf2151d7847927924cc121f25f165
 RPROVIDES:${PN} += "librsb.so.0()(64bit) \
 librsb0 \
 librsb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

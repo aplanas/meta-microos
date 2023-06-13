@@ -12,6 +12,7 @@ RPM_HASH = "c9e76d29d01ee1d138b1130658cdd66ce200a4709e3f01150697a4813999d89f0838
 RPROVIDES:${PN} += "libQtAVWidgets.so.1()(64bit) \
 libQtAVWidgets1 \
 libQtAVWidgets1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

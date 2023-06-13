@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scientific-thesis-cover.sty) \
 texlive-scientific-thesis-cover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pydot) \
 python311-pydot \
 python3dist(pydot)"
+
 RDEPENDS:${PN} += "dejavu-fonts \
 graphviz \
 graphviz-gd \

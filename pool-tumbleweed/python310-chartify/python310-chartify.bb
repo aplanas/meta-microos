@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-chartify \
 python3.10dist(chartify) \
 python310-chartify \
 python3dist(chartify)"
+
 RDEPENDS:${PN} += "(python3.10dist(bokeh) < 2.5 with python3.10dist(bokeh) >= 2) \
 (python3.10dist(pandas) < 2 with python3.10dist(pandas) >= 1) \
 (python3.10dist(scipy) < 2 with python3.10dist(scipy) >= 1) \

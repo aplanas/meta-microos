@@ -102,6 +102,7 @@ tex(libertinegc.sty) \
 tex(libosf-lgr.enc) \
 tex(libtlf-lgr.enc) \
 texlive-libertinegc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

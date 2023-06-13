@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(JRTPLIB) \
 jrtplib-devel \
 jrtplib-devel(aarch-64) \
 pkgconfig(jrtplib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjrtp3_11_1"
 

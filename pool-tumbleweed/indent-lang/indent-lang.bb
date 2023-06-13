@@ -43,6 +43,7 @@ locale(indent:uk) \
 locale(indent:vi) \
 locale(indent:zh_CN) \
 locale(indent:zh_TW)"
+
 RDEPENDS:${PN} += "indent"
 
 inherit rpm

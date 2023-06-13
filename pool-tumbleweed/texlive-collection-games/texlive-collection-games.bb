@@ -9,6 +9,7 @@ RPM_HASH = "b397cca8f34df7c3109f3c5c5a3caac36d55cb57065a3c6150050ccfbe6fa357945f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-games"
+
 RDEPENDS:${PN} += "texlive-bartel-chess-fonts \
 texlive-chess \
 texlive-chess-problem-diagrams \

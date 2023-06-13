@@ -9,6 +9,7 @@ RPM_HASH = "610e7524185804472665e110420868daaa9aceae146844f79f2acc4b3d46b41c32cd
 
 RPROVIDES:${PN} += "vkmark \
 vkmark(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassimp.so.5()(64bit) \

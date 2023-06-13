@@ -12,6 +12,7 @@ RPM_HASH = "310e1160b577cf1791ba05d730470728507835a8ef99d7b56b03fff03921c26b3c92
 
 RPROVIDES:${PN} += "QtAV-devel \
 QtAV-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5OpenGL-devel \
 libQtAVWidgets1"
 

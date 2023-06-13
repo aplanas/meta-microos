@@ -19,6 +19,7 @@ RPM_HASH = "dd43348159458f57bf7cf49285e9f5f5235f6c8ef968c8ffae047d6d38e7f511a962
 
 RPROVIDES:${PN} += "gphoto \
 gphoto(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -32,6 +32,7 @@ texdev(tcidvi.def) \
 texdev(trig.sty) \
 texdev(truetex.def) \
 texlive-latex-graphics-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

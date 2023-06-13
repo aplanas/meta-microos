@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(paramiko) \
 python311-paramiko \
 python3dist(paramiko)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyNaCl \
 python311-bcrypt \

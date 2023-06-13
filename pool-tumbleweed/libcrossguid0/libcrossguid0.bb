@@ -10,6 +10,7 @@ RPM_HASH = "13020a0f5ea19ce4146b1d1535832fb6771bc006975f76c9dcb3d2f3bcc53af9b166
 RPROVIDES:${PN} += "libcrossguid.so.0()(64bit) \
 libcrossguid0 \
 libcrossguid0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "97f307e933e2289f05bf36e7b14388430a3c9d357eb1b0581ff2cf3dd03b252ad155
 
 RPROVIDES:${PN} += "trilinos-openmpi2-devel \
 trilinos-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

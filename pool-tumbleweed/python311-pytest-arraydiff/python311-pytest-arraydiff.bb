@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-arraydiff) \
 python311-pytest-arraydiff \
 python3dist(pytest-arraydiff)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-pytest"

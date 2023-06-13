@@ -9,6 +9,7 @@ RPM_HASH = "6941217fb9bc85acd5f3d359931d07348c5c06310dbd4698f26e260750c2b53096d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aspectratio-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

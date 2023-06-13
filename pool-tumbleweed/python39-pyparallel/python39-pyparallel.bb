@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyparallel) \
 python39-pyparallel \
 python3dist(pyparallel)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

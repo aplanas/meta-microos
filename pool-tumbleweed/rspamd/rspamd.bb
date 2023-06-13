@@ -23,6 +23,7 @@ librspamd-replxx.so()(64bit) \
 librspamd-server.so()(64bit) \
 rspamd \
 rspamd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 apparmor-abstractions \

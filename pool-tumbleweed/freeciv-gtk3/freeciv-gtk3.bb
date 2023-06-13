@@ -16,6 +16,7 @@ freeciv_client-3.0.7 \
 metainfo() \
 metainfo(org.freeciv.gtk3.appdata.xml) \
 metainfo(org.freeciv.mp.gtk3.appdata.xml)"
+
 RDEPENDS:${PN} += "freeciv \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

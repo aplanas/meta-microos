@@ -11,6 +11,7 @@ RPM_HASH = "804efbff6465a286981655720d52aac607d677312de126fb637fee1c6eef7e0d3f55
 RPROVIDES:${PN} += "libchewing.so.3()(64bit) \
 libchewing3 \
 libchewing3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 chewing-data \

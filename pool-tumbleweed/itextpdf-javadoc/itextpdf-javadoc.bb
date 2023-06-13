@@ -9,6 +9,7 @@ RPM_HASH = "6b246a526dc9a5e40746b761018c5c0cd6305a911462741029e0e29bf749e44b65b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itextpdf-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

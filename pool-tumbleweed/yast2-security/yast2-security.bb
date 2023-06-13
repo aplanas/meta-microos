@@ -17,6 +17,7 @@ y2t_sec \
 yast2-config-security \
 yast2-security \
 yast2-trans-security"
+
 RDEPENDS:${PN} += "/bin/sh \
 augeas-lenses \
 yast2 \

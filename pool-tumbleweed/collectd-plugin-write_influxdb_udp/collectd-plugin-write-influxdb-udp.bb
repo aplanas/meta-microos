@@ -9,6 +9,7 @@ RPM_HASH = "0764013b2d6c32a856d77963a57ed7bc2ded82618d50998c03baf83e0ae5e1d09202
 
 RPROVIDES:${PN} += "collectd-plugin-write_influxdb_udp \
 collectd-plugin-write_influxdb_udp(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

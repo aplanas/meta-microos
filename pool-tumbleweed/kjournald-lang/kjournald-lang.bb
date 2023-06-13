@@ -35,6 +35,7 @@ locale(kjournald:tr) \
 locale(kjournald:uk) \
 locale(kjournald:zh_CN) \
 locale(kjournald:zh_TW)"
+
 RDEPENDS:${PN} += "kjournald"
 
 inherit rpm

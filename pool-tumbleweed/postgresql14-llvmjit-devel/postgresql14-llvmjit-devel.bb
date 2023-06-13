@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-implementation \
 postgresql14-llvmjit-devel \
 postgresql14-llvmjit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "clang15 \
 llvm15 \
 postgresql-llvmjit-devel-noarch \

@@ -13,6 +13,7 @@ RPM_HASH = "622365af17d394cbab16d8f67eae56f88a95f75b7efed80b9a3ac970e21730c670c3
 RPROVIDES:${PN} += "libv3270-5_4 \
 libv3270-5_4(aarch-64) \
 libv3270.so.5.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

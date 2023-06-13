@@ -34,6 +34,7 @@ libgnutls.so.30(GNUTLS_PRIVATE_3_4)(64bit) \
 libgnutls30 \
 libgnutls30(aarch-64) \
 libgnutls30-hmac"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \

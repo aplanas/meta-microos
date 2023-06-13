@@ -10,6 +10,7 @@ RPM_HASH = "7c126c1684271fc062cc276bf5e95ed51f9b4d86d7ef221f39a8b4eb993edd892013
 
 RPROVIDES:${PN} += "tinyfecvpn \
 tinyfecvpn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

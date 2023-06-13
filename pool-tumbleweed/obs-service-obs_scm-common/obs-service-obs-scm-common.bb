@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(obs-service-obs_scm-common) \
 obs-service-obs_scm-common"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glibc-locale-base \
 python3-PyYAML \

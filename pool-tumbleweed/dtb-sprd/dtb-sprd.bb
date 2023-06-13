@@ -10,6 +10,7 @@ RPM_HASH = "69a67d40b053158567474aa32925a3a415486f7f08bde78d64a747318f1d3ef1f536
 RPROVIDES:${PN} += "dtb-sprd \
 dtb-sprd(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

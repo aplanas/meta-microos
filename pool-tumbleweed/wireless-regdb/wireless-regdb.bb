@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "firmware(regulatory.db) \
 firmware(regulatory.db.p7s) \
 wireless-regdb"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

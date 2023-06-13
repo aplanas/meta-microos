@@ -14,6 +14,7 @@ python3.10dist(routes) \
 python310-Routes \
 python310-routes \
 python3dist(routes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-repoze.lru \
 python310-six"

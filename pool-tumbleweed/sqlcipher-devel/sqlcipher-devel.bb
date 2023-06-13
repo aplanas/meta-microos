@@ -16,6 +16,7 @@ RPM_HASH = "ebbf5e6e6345df5584239e1cb30d451876275f6406cd4e71e64610bd570566650a95
 RPROVIDES:${PN} += "pkgconfig(sqlcipher) \
 sqlcipher-devel \
 sqlcipher-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsqlcipher-3_41_2-0 \
 sqlcipher \

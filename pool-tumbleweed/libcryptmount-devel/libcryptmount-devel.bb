@@ -14,6 +14,7 @@ RPM_HASH = "33881dd7eec703549f7dd1682cc7586043944da56e427ba2827c3e57e841f0c7eda4
 RPROVIDES:${PN} += "libcryptmount-devel \
 libcryptmount-devel(aarch-64) \
 pkgconfig(libcryptmount)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcryptmount0"
 

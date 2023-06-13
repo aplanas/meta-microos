@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "colord-gtk-lang \
 colord-gtk-lang-all \
 locale(colord-gtk:en_GB)"
+
 RDEPENDS:${PN} += "colord-gtk"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-wagon-ssh \
 mvn(org.apache.maven.wagon:wagon-ssh) \
 mvn(org.apache.maven.wagon:wagon-ssh:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jsch) \

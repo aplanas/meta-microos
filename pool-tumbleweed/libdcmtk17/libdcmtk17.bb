@@ -38,6 +38,7 @@ libijg16.so.17()(64bit) \
 libijg8.so.17()(64bit) \
 liboflog.so.17()(64bit) \
 libofstd.so.17()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

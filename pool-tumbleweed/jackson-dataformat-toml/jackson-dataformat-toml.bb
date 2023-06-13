@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jackson-dataformat-toml \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-toml) \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-toml:pom:) \
 osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-toml)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

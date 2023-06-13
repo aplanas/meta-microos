@@ -10,6 +10,7 @@ RPM_HASH = "184b56fb09f09679993bb67231996262b62598183375531892a82368a0ded4c56113
 RPROVIDES:${PN} += "budgie-brightness-controller-applet \
 budgie-brightness-controller-applet(aarch-64) \
 libbrightnesscontroller.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

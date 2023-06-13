@@ -80,6 +80,7 @@ locale(krdc:vi) \
 locale(krdc:zh_CN) \
 locale(krdc:zh_HK) \
 locale(krdc:zh_TW)"
+
 RDEPENDS:${PN} += "krdc"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "4edde256057c879fc4a6d3c9972984a4e0713cea4126b669550f1c43cf5db56a3fcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trilead-ssh2-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "ccbd23760633665316af4cb7c7f432a177994618a2035641158bfdbca658ca21edd0
 
 RPROVIDES:${PN} += "gnutls \
 gnutls(aarch-64)"
+
 RDEPENDS:${PN} += "crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

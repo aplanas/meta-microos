@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyterlab-templates) \
 python311-jupyter_jupyterlab_templates \
 python311-jupyterlab-templates \
 python3dist(jupyterlab-templates)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-templates \
 python(abi) \
 python311-jupyterlab"

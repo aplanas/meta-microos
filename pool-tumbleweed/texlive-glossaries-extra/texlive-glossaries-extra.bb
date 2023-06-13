@@ -29,6 +29,7 @@ tex(glossary-table.sty) \
 tex(glossary-topic-2021-11-22.sty) \
 tex(glossary-topic.sty) \
 texlive-glossaries-extra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "7a8bf81da21668590452b64a896b45a6ce24ff850d448a7fa28c6ecedd88ce086e5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langarabic"
+
 RDEPENDS:${PN} += "texlive-alkalami \
 texlive-alpha-persian \
 texlive-amiri \

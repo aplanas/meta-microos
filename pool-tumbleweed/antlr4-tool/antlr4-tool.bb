@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "antlr4 \
 antlr4-tool \
 mvn(org.antlr:antlr4) \
 mvn(org.antlr:antlr4:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

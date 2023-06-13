@@ -10,6 +10,7 @@ RPM_HASH = "242881db8415ee1fa158db25bb84290e72bbbfdeda7eba7aa1e933e65f9dda8e660a
 RPROVIDES:${PN} += "cmake(gnuradio-iqbalance) \
 libgnuradio-iqbalance-devel \
 libgnuradio-iqbalance-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgnuradio-iqbalance3_9_0"
 
 inherit rpm

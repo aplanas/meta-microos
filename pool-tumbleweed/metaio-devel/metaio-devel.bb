@@ -10,6 +10,7 @@ RPM_HASH = "bf2256fc297679359c6a4fd9dec256b61d5ff62bddc37c758449a9d186727edbfa7a
 RPROVIDES:${PN} += "metaio-devel \
 metaio-devel(aarch-64) \
 pkgconfig(libmetaio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmetaio1 \
 pkgconfig(zlib)"

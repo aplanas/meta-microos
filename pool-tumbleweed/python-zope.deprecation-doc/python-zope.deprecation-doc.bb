@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-zope.deprecation-doc \
 python310-zope.deprecation-doc \
 python311-zope.deprecation-doc \
 python39-zope.deprecation-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

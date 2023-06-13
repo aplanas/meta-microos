@@ -33,6 +33,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(epi-olmce) \
 texlive-epiolmec-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

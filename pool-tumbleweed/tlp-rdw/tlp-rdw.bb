@@ -13,6 +13,7 @@ RPM_HASH = "d58ec0dcb3bef322acfae4b58bc0e526079afc9bdbf0f2601d11a1d1289cda1e8d9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tlp-rdw"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 systemd \

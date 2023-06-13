@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(traitsui) \
 python311-traitsui \
 python3dist(traitsui)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyface \
 python311-traits"

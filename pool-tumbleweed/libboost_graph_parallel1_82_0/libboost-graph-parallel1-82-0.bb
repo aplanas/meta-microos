@@ -10,6 +10,7 @@ RPM_HASH = "4acad77ea6c372e96d39ea1d97a403bdc26d82d4da39b94062910dd77aa4961bdc59
 RPROVIDES:${PN} += "libboost_graph_parallel.so.1.82.0()(64bit) \
 libboost_graph_parallel1_82_0 \
 libboost_graph_parallel1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 libboost_mpi.so.1.82.0()(64bit) \

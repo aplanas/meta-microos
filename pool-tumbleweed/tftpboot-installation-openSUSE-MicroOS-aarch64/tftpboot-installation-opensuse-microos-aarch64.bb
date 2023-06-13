@@ -10,6 +10,7 @@ RPM_HASH = "5b2c5d597fc0b5209b954d3a20082e9a4f68176b0e7e92b4d5c6b918f64c23040dd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-MicroOS-aarch64"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

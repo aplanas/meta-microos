@@ -9,6 +9,7 @@ RPM_HASH = "fd4647ed3c79990ed0c0ae61ca4310194ee6d05e8c785ee777d0ad49afa8a8b1c450
 
 RPROVIDES:${PN} += "rist-tools \
 rist-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

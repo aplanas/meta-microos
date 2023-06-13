@@ -9,6 +9,7 @@ RPM_HASH = "f41185995e82f1e69d870786b6f60be3dc8d8b3d49ba2b4f83c35c86256cf9d78d5b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pmboxdraw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

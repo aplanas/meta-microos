@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(mathgl-doc:ru) \
 mathgl-doc-ru"
+
 RDEPENDS:${PN} += "mathgl-doc"
 
 inherit rpm

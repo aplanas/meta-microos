@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "OpenColorIO-devel \
 OpenColorIO-devel(aarch-64) \
 cmake(OpenColorIO) \
 pkgconfig(OpenColorIO)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOpenColorIO2_1"
 

@@ -12,6 +12,7 @@ RPM_HASH = "93aff421dca8e2fc7a4ad78d374e760b5340ea701fcdbba39d66a6278d7dda93ba2a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-psycopg2"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aws-xray-sdk \
 python39-psycopg2"

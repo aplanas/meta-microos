@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(django-coverage-plugin) \
 python311-django-coverage-plugin \
 python311-django_coverage_plugin \
 python3dist(django-coverage-plugin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-coverage"

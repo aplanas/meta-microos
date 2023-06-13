@@ -9,6 +9,7 @@ RPM_HASH = "f4a4bc4b5b89d0f396f341bd5d63066387e40674b3ef5d504025a82f171a1f27dfbd
 
 RPROVIDES:${PN} += "pmidi \
 pmidi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

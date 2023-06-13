@@ -9,6 +9,7 @@ RPM_HASH = "6fac10427bb57687c96e3379fc78206f57fa3cb93142ed94fac3d3058603bce4b62b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-atomic"
+
 RDEPENDS:${PN} += "tuned"
 
 inherit rpm

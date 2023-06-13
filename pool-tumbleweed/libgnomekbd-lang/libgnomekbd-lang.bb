@@ -86,6 +86,7 @@ locale(libgnomekbd:vi) \
 locale(libgnomekbd:zh_CN) \
 locale(libgnomekbd:zh_HK) \
 locale(libgnomekbd:zh_TW)"
+
 RDEPENDS:${PN} += "libgnomekbd"
 
 inherit rpm

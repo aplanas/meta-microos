@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiomisc-pytest) \
 python39-aiomisc-pytest \
 python3dist(aiomisc-pytest)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

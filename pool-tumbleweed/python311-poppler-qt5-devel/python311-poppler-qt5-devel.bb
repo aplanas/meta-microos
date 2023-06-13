@@ -13,6 +13,7 @@ RPM_HASH = "e6c9a74a4c26a557b3316f33157dfda45ac13d279605782030c2d117a248ef786501
 
 RPROVIDES:${PN} += "python311-poppler-qt5-devel \
 python311-poppler-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpoppler-qt5-devel \
 python311-qt5-devel \
 python311-sip-devel"

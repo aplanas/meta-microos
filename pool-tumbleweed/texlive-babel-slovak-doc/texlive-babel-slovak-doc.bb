@@ -9,6 +9,7 @@ RPM_HASH = "330c7e1b872e33bf49827f4b7bd9fd0b1165bdc35f7ccbaf9c292d17e861d66cead1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-slovak-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

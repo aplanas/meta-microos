@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-issuetracker \
 python3.10dist(sphinxcontrib-issuetracker) \
 python310-sphinxcontrib-issuetracker \
 python3dist(sphinxcontrib-issuetracker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-requests"

@@ -14,6 +14,7 @@ RPM_HASH = "5d1b05cd147ff4f1baf6c06b2e91b55aac0045b0fa0020aff69bff3c89bcfc60c1f5
 RPROVIDES:${PN} += "libfwnt-devel \
 libfwnt-devel(aarch-64) \
 pkgconfig(libfwnt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfwnt1"
 

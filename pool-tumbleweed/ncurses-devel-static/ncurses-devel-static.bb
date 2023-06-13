@@ -23,6 +23,7 @@ ncurses-devel:/usr/lib64/libpanelw.a \
 ncurses-devel:/usr/lib64/libtic.a \
 ncurses-devel:/usr/lib64/libticw.a \
 ncurses-devel:/usr/lib64/libtinfo.a"
+
 RDEPENDS:${PN} += "ncurses-devel"
 
 inherit rpm

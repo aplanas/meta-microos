@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-coloredlogs \
 python3.10dist(coloredlogs) \
 python310-coloredlogs \
 python3dist(coloredlogs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

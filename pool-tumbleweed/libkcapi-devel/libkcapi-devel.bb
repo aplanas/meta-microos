@@ -23,6 +23,7 @@ RPM_HASH = "ebc97ae76a706f9ae3490d99e1a11202d908a8eae1434ee43fa91b6b5d0ee357a75d
 RPROVIDES:${PN} += "libkcapi-devel \
 libkcapi-devel(aarch-64) \
 pkgconfig(libkcapi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkcapi1"
 

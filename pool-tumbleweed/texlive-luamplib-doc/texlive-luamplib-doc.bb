@@ -9,6 +9,7 @@ RPM_HASH = "5750c974d4d0f757eed23112fd3c0f4f44e94da10e17368063776cc5855d5ba8ba03
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamplib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

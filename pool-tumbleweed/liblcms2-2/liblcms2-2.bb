@@ -10,6 +10,7 @@ RPM_HASH = "b6c4c614813c8a2afef4f4970ab00813a36ab9303f88c55c2c84390902739744465b
 RPROVIDES:${PN} += "liblcms2-2 \
 liblcms2-2(aarch-64) \
 liblcms2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

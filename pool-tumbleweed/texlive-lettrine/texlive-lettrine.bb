@@ -18,6 +18,7 @@ tex(lettrine-2018-08-18.sty) \
 tex(lettrine.cfg) \
 tex(lettrine.sty) \
 texlive-lettrine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

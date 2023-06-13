@@ -9,6 +9,7 @@ RPM_HASH = "d1f97cddb21a16d58f3c459e13d9ba5338c6110301228c25d711260f2378ece30d6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atril-doc"
+
 RDEPENDS:${PN} += "atril"
 
 inherit rpm

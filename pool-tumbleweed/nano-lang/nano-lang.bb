@@ -48,6 +48,7 @@ locale(nano:zh_CN) \
 locale(nano:zh_TW) \
 nano-lang \
 nano-lang-all"
+
 RDEPENDS:${PN} += "nano"
 
 inherit rpm

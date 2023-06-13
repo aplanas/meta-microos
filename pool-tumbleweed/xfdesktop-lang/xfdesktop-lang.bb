@@ -68,6 +68,7 @@ locale(xfdesktop:zh_HK) \
 locale(xfdesktop:zh_TW) \
 xfdesktop-lang \
 xfdesktop-lang-all"
+
 RDEPENDS:${PN} += "xfdesktop"
 
 inherit rpm

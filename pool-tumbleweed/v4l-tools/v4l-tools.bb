@@ -14,6 +14,7 @@ RPM_HASH = "146129247e76f38f27e1fd7e735eeb913a477c63e4616fbb4ca361d187c5df3a5412
 RPROVIDES:${PN} += "v4l-tools \
 v4l-tools(aarch-64) \
 xawtv:/usr/bin/v4lctl"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

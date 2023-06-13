@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-subprocess-tee \
 python3.10dist(subprocess-tee) \
 python310-subprocess-tee \
 python3dist(subprocess-tee)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

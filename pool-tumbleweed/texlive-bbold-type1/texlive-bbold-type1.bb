@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bbold.map) \
 texlive-bbold-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

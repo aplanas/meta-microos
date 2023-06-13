@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(agate-lookup) \
 python311-agate-lookup \
 python3dist(agate-lookup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-agate \

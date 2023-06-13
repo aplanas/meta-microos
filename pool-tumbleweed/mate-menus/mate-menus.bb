@@ -15,6 +15,7 @@ RPM_HASH = "646fd985e7ef6a1cd665abad2481238c2b65d115cafd84d36e85a909b0bcb7f04613
 RPROVIDES:${PN} += "config(mate-menus) \
 mate-menus \
 mate-menus(aarch-64)"
+
 RDEPENDS:${PN} += "mate-menus-branding"
 
 inherit rpm

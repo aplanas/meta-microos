@@ -12,6 +12,7 @@ RPM_HASH = "b279940adaf625368aa7e0470f2b4c646080549614816ae29d95ec7ebc9d3974b478
 
 RPROVIDES:${PN} += "procmon \
 procmon(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

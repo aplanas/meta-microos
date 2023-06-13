@@ -24,6 +24,7 @@ google-roboto-fonts:/usr/share/fonts/truetype/RobotoSlab-Thin.ttf \
 google-roboto-slab-fonts \
 metainfo() \
 metainfo(google-roboto-slab.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

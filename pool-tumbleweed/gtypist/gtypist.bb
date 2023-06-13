@@ -23,6 +23,7 @@ RPM_HASH = "8b2d88a6a3b0351edc594af79220321df5f5dee1a96d3f5474d4c3274ba03cfc2116
 
 RPROVIDES:${PN} += "gtypist \
 gtypist(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

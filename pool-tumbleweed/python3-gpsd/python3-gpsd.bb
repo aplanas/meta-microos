@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-gpsd \
 python3-gpsd(aarch-64) \
 python3.10dist(gps) \
 python3dist(gps)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gpsd \
 python(abi)"

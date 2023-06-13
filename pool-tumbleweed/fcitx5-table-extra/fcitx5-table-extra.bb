@@ -32,6 +32,7 @@ fcitx-table-tw-smart-cangjie6 \
 fcitx5-table-extra \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml)"
+
 RDEPENDS:${PN} += "fcitx5"
 
 inherit rpm

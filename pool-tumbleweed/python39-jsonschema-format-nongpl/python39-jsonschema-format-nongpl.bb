@@ -11,6 +11,7 @@ RPM_HASH = "43d89e063515f49ef146a7d20f3115d8f4e762e79173addb88d4adc25c5624e4343e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jsonschema-format-nongpl"
+
 RDEPENDS:${PN} += "python39-fqdn \
 python39-idna \
 python39-isoduration \

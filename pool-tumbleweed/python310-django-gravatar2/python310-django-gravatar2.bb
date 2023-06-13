@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-gravatar2 \
 python3.10dist(django-gravatar2) \
 python310-django-gravatar2 \
 python3dist(django-gravatar2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

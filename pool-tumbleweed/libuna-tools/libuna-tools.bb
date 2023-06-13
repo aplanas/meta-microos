@@ -9,6 +9,7 @@ RPM_HASH = "9c2e574b9650a5955d90279e1a3b5b50a0b3c76a4a83de58190fde48661aef889b9a
 
 RPROVIDES:${PN} += "libuna-tools \
 libuna-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

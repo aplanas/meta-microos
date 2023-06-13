@@ -9,6 +9,7 @@ RPM_HASH = "e8f95e81a8a572cbd8a38a3f29753d0e92d3684657030a0623879ec4b0fcb80e1186
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-crux"
+
 RDEPENDS:${PN} += "gtk2-engine-crux"
 
 inherit rpm

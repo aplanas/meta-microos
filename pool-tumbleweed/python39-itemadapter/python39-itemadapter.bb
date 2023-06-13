@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(itemadapter) \
 python39-itemadapter \
 python39-itemadapter(aarch-64) \
 python3dist(itemadapter)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

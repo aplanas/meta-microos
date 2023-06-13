@@ -10,6 +10,7 @@ RPM_HASH = "19f645c648b21175b8bff8e1995c5fb969f50545786f6442a3aea71ba7be27c73c74
 
 RPROVIDES:${PN} += "jxrlib-devel \
 jxrlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libjpegxr0 \
 libjxrglue0"
 

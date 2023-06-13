@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(alphalph.sty) \
 texlive-alphalph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

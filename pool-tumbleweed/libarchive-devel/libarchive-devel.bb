@@ -18,6 +18,7 @@ RPM_HASH = "12dcdf345df24d54c895569382ed9732815cdc9c3fa85e6e24e303aad42806a7bdc1
 RPROVIDES:${PN} += "libarchive-devel \
 libarchive-devel(aarch-64) \
 pkgconfig(libarchive)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libarchive13"

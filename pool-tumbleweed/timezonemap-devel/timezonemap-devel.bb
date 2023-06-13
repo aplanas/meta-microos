@@ -10,6 +10,7 @@ RPM_HASH = "0ede5bae547c36a1401f29d010c66ae96c4eef4ed4bac57abc974577f3389ad81270
 RPROVIDES:${PN} += "pkgconfig(timezonemap) \
 timezonemap-devel \
 timezonemap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtimezonemap1 \
 pkgconfig(gio-2.0) \

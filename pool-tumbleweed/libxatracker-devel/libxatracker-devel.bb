@@ -16,6 +16,7 @@ RPM_HASH = "39d9ed28474c7a93f9281e5c6b10258574566b527ada4345d8cd9a3c45cce2826856
 RPROVIDES:${PN} += "libxatracker-devel \
 libxatracker-devel(aarch-64) \
 pkgconfig(xatracker)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxatracker2"
 

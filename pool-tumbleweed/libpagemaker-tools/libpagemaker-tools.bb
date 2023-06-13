@@ -10,6 +10,7 @@ RPM_HASH = "d650af919fdecae9ad4ac37012d78431a5b3e6c52b77359d981fa5a658f51e446de9
 
 RPROVIDES:${PN} += "libpagemaker-tools \
 libpagemaker-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

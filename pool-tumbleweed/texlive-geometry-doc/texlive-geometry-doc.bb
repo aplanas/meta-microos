@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-geometry-doc:de;en) \
 texlive-geometry-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

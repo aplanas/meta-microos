@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-filetype \
 python3.10dist(filetype) \
 python310-filetype \
 python3dist(filetype)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

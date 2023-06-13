@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-verbose-parametrize) \
 python39-pytest-verbose-parametrize \
 python3dist(pytest-verbose-parametrize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytest"
 

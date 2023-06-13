@@ -11,6 +11,7 @@ RPM_HASH = "c49d994496ef79fc859e30b9305b1198c093520ead07afb66f6dfe4559d08ba92fa9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-control-center-data"
+
 RDEPENDS:${PN} += "deepin-control-center"
 
 inherit rpm

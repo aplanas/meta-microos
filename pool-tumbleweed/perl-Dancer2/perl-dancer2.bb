@@ -80,6 +80,7 @@ perl(Dancer2::Template::TemplateToolkit) \
 perl(Dancer2::Template::Tiny) \
 perl(Dancer2::Test) \
 perl-Dancer2"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CLI::Osprey) \

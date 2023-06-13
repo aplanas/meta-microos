@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libflashrom.so.1()(64bit) \
 libflashrom.so.1(LIBFLASHROM_1.0)(64bit) \
 libflashrom1 \
 libflashrom1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

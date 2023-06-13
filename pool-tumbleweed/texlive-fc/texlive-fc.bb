@@ -224,6 +224,7 @@ tex(t4enc.def) \
 tex(t4fcr.fd) \
 tex(t4phonet.sty) \
 texlive-fc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

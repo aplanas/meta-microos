@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-webpack-loader \
 python3.10dist(django-webpack-loader) \
 python310-django-webpack-loader \
 python3dist(django-webpack-loader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

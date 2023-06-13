@@ -10,6 +10,7 @@ RPM_HASH = "408b2efb1eb2d28abb34dd315c3740f78ee3b0ae290b7c403683bdd1925eb4b0d87c
 RPROVIDES:${PN} += "libmultiload-ng.so()(64bit) \
 multiload-ng-xfce4 \
 multiload-ng-xfce4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

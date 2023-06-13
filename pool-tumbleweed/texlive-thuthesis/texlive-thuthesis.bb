@@ -20,6 +20,7 @@ tex(thuthesis-numeric.bbx) \
 tex(thuthesis-numeric.cbx) \
 tex(thuthesis.cls) \
 texlive-thuthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

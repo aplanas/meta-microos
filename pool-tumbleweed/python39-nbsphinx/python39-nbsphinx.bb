@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(nbsphinx) \
 python39-jupyter_nbsphinx \
 python39-nbsphinx \
 python3dist(nbsphinx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-Sphinx \

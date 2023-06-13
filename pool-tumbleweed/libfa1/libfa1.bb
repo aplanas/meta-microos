@@ -14,6 +14,7 @@ libfa.so.1(FA_1.4.0)(64bit) \
 libfa.so.1(FA_1.5.0)(64bit) \
 libfa1 \
 libfa1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

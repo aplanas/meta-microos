@@ -10,6 +10,7 @@ RPM_HASH = "6861660214c178a4e3aa4d404a4399e52cc2687ad4e94a00153c19aa034f6f45f768
 RPROVIDES:${PN} += "trace-cmd-python \
 trace-cmd-python3 \
 trace-cmd-python3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "e11ff7fb5ac5259617e2d461de257275db0ebe1e7ce8d398642543b7c94a70d36eba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-slantsc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

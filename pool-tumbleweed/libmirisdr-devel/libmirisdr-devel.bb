@@ -10,6 +10,7 @@ RPM_HASH = "26444a73485233c34a120f8dfcc07373d8e372c3f55ec5a9db3a1e26f27e2d66e94f
 RPROVIDES:${PN} += "libmirisdr-devel \
 libmirisdr-devel(aarch-64) \
 pkgconfig(libmirisdr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmirisdr"
 

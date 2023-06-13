@@ -57,6 +57,7 @@ locale(ktp-common-internals:ug) \
 locale(ktp-common-internals:uk) \
 locale(ktp-common-internals:zh_CN) \
 locale(ktp-common-internals:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-common-internals"
 
 inherit rpm

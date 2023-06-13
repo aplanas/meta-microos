@@ -10,6 +10,7 @@ RPM_HASH = "baede9bba2b8d25033cc968105ecfc87b26bba7d6a3156e5e009d8fd6299a6d83bbd
 RPROVIDES:${PN} += "ghc-prof(unicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP) \
 ghc-unicode-collation-prof \
 ghc-unicode-collation-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \
 ghc-prof(bytestring-0.11.4.0) \

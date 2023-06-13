@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-scikit-build-core-pyproject \
 python3-scikit_build_core-pyproject \
 python310-scikit-build-core-pyproject \
 python310-scikit_build_core-pyproject"
+
 RDEPENDS:${PN} += "python310-distlib \
 python310-pathspec \
 python310-pyproject-metadata \

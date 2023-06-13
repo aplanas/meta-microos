@@ -13,6 +13,7 @@ RPM_HASH = "87a85ef559cd6ddd5cec68886d4de08696990c4a5d1a81bf1320a1227b81567b130f
 RPROVIDES:${PN} += "config(tayga) \
 tayga \
 tayga(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

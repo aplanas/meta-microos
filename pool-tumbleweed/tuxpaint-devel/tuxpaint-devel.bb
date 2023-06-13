@@ -9,6 +9,7 @@ RPM_HASH = "eae1577a7ebb1ec432506195168282b13674e09a93ff768ad762b581b06e21fc650d
 
 RPROVIDES:${PN} += "tuxpaint-devel \
 tuxpaint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcc-c++ \
 gettext-devel \

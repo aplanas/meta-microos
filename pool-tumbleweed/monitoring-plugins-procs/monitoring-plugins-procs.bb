@@ -17,6 +17,7 @@ monitoring-plugins-procs \
 monitoring-plugins-procs(aarch-64) \
 monitoring-plugins-procs_perf \
 nagios-plugins-procs"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

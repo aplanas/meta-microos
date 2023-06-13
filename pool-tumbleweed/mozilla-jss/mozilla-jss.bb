@@ -36,6 +36,7 @@ libjss.so(JSS_4.7.3)(64bit) \
 libjss.so(JSS_4.8.1)(64bit) \
 mozilla-jss \
 mozilla-jss(aarch-64)"
+
 RDEPENDS:${PN} += "apache-commons-lang \
 java-headless \
 jpackage-utils \

@@ -17,6 +17,7 @@ libturbojpeg.so.0(TURBOJPEG_1.4)(64bit) \
 libturbojpeg.so.0(TURBOJPEG_2.0)(64bit) \
 libturbojpeg0 \
 libturbojpeg0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

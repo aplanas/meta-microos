@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-dft \
 enlightenment-theme-openSUSE"
+
 RDEPENDS:${PN} += "elementary"
 
 inherit rpm

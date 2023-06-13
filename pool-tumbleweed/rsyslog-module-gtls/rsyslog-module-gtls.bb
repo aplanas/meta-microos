@@ -13,6 +13,7 @@ RPM_HASH = "54d6cb910bb52f75ed8e8b78793fb4e456386b7e6f1380c4fc7ec36314147ecc4ae4
 
 RPROVIDES:${PN} += "rsyslog-module-gtls \
 rsyslog-module-gtls(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

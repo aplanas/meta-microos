@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libtommath-devel \
 libtommath-devel(aarch-64) \
 libtommath0-devel \
 pkgconfig(libtommath)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtommath1"
 

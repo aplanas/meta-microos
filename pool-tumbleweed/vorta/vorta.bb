@@ -17,6 +17,7 @@ metainfo(com.borgbase.Vorta.appdata.xml) \
 python3.10dist(vorta) \
 python3dist(vorta) \
 vorta"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 borgbackup \
 python(abi) \

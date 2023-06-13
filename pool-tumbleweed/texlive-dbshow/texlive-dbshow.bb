@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dbshow.sty) \
 texlive-dbshow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

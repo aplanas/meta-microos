@@ -9,6 +9,7 @@ RPM_HASH = "ec72d48f80af1aaa47dc08d024f5a0b452f0b4d765eab3bf48d0d8deeab0ca2c584a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flashmovie-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "b5679f80a3c1eb1211320d5559948e42312a2c3b45a90a4aee06a4f45a1a1238a674
 RPROVIDES:${PN} += "texlive-pdftools-bin:/usr/bin/pdftosrc \
 texlive-pdftosrc-bin \
 texlive-pdftosrc-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

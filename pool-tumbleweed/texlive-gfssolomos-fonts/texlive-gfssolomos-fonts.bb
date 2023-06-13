@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(texlive-gfssolomos-fonts) \
 font(:lang=el) \
 font(gfssolomos) \
 texlive-gfssolomos-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

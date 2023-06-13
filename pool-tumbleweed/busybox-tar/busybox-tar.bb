@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/tar \
 busybox-tar"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

@@ -78,6 +78,7 @@ locale(krita:vi) \
 locale(krita:wa) \
 locale(krita:zh_CN) \
 locale(krita:zh_TW)"
+
 RDEPENDS:${PN} += "krita"
 
 inherit rpm

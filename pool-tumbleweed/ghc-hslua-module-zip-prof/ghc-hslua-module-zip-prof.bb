@@ -10,6 +10,7 @@ RPM_HASH = "96afa754f796f56237536672433dca7cd312e4c997ff38900fb6ee20ff03da45d685
 RPROVIDES:${PN} += "ghc-hslua-module-zip-prof \
 ghc-hslua-module-zip-prof(aarch-64) \
 ghc-prof(hslua-module-zip-1.1.0-HbdBiDu9SYHDsbypcn78hx)"
+
 RDEPENDS:${PN} += "ghc-hslua-module-zip-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

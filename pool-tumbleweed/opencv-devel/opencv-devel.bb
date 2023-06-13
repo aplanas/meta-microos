@@ -14,6 +14,7 @@ opencv-devel \
 opencv-devel(aarch-64) \
 opencv-qt5-devel \
 pkgconfig(opencv4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopencv407 \
 libopencv_aruco407 \

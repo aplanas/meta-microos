@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pykickstart \
 python3.10dist(pykickstart) \
 python310-pykickstart \
 python3dist(pykickstart)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

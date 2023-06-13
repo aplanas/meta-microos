@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(pygame) \
 python311-pygame \
 python311-pygame(aarch-64) \
 python3dist(pygame)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.11 \
 fontconfig \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "psi+-data \
 psi+-icons \
 psi+-sounds \
 psi+-themes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

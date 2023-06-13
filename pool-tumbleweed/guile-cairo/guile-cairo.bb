@@ -9,6 +9,7 @@ RPM_HASH = "210175b98d1f1d83c864effd2918e3a844d1de9254ca934093996f2fc27cf7fa843d
 
 RPROVIDES:${PN} += "guile-cairo \
 guile-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libguile-cairo0"
 

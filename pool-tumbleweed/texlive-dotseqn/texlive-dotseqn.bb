@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dotseqn.sty) \
 texlive-dotseqn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

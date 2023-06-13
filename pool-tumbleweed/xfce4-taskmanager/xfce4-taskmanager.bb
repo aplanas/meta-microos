@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(xfce4-taskmanager.desktop) \
 xfce4-taskmanager \
 xfce4-taskmanager(aarch-64)"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

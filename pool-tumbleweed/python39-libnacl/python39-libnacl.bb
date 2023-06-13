@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(libnacl) \
 python39-libnacl \
 python39-libnacl(aarch-64) \
 python3dist(libnacl)"
+
 RDEPENDS:${PN} += "libsodium23 \
 python(abi)"
 

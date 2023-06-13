@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-oscrypto \
 python3.10dist(oscrypto) \
 python310-oscrypto \
 python3dist(oscrypto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asn1crypto"
 

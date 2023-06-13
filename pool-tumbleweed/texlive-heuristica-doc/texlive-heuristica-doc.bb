@@ -9,6 +9,7 @@ RPM_HASH = "90818f01b9cc54a0e5bfc0a782878836eec1878fbaedd49174f31ef4c10bc59ec982
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-heuristica-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

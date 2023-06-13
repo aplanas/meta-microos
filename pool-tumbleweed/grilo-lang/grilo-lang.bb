@@ -61,6 +61,7 @@ locale(grilo:uk) \
 locale(grilo:zh_CN) \
 locale(grilo:zh_HK) \
 locale(grilo:zh_TW)"
+
 RDEPENDS:${PN} += "grilo"
 
 inherit rpm

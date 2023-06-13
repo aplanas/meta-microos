@@ -10,6 +10,7 @@ RPM_HASH = "f539688557976af5c840b1b2efa3301dcd07a317eabdf5513a6e02d878f96c0626a4
 RPROVIDES:${PN} += "libsvn_swig_py-1.so.0()(64bit) \
 subversion-python \
 subversion-python(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

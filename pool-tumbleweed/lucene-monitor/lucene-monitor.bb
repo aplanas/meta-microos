@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-monitor \
 mvn(org.apache.lucene:lucene-monitor) \
 mvn(org.apache.lucene:lucene-monitor:pom:) \
 osgi(org.apache.lucene.monitor)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-analyzers-common) \

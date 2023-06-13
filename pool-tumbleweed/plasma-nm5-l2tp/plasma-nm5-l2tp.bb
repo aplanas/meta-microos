@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-l2tp-frontend \
 plasma-nm-l2tp \
 plasma-nm5-l2tp \
 plasma-nm5-l2tp(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-l2tp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

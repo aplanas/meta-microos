@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(txt2tags) \
 python39-txt2tags \
 python3dist(txt2tags) \
 txt2tags"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

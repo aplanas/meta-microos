@@ -53,6 +53,7 @@ locale(libadwaita:uk) \
 locale(libadwaita:vi) \
 locale(libadwaita:zh_CN) \
 locale(libadwaita:zh_TW)"
+
 RDEPENDS:${PN} += "libadwaita"
 
 inherit rpm

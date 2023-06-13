@@ -13,6 +13,7 @@ RPM_HASH = "1d025481d6ed6d706aa96d42ff9bd7f1d7b57efc1ce2aadf253dc801067f60dbe3f1
 RPROVIDES:${PN} += "libcdirectory-devel \
 libcdirectory-devel(aarch-64) \
 pkgconfig(libcdirectory)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdirectory1"
 

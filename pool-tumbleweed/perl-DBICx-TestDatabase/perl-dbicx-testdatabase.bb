@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DBICx::TestDatabase) \
 perl(DBICx::TestDatabase::Subclass) \
 perl-DBICx-TestDatabase"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBD::SQLite) \
 perl(SQL::Translator)"

@@ -9,6 +9,7 @@ RPM_HASH = "55115d847782b18acfb6d0d4aa6f57e12a9ffe8497a4518fcf780881a029fb12ea43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxwareki-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

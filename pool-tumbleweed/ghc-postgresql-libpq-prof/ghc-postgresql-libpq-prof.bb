@@ -10,6 +10,7 @@ RPM_HASH = "3ada23f814279b76edb8be87a346bdd66cacebb51469bf7892cf63faa9825f4775f2
 RPROVIDES:${PN} += "ghc-postgresql-libpq-prof \
 ghc-postgresql-libpq-prof(aarch-64) \
 ghc-prof(postgresql-libpq-0.9.5.0-EniLDQI99PgI2VDyTYHGox)"
+
 RDEPENDS:${PN} += "ghc-postgresql-libpq-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

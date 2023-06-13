@@ -65,6 +65,7 @@ locale(discover:uk) \
 locale(discover:vi) \
 locale(discover:zh_CN) \
 locale(discover:zh_TW)"
+
 RDEPENDS:${PN} += "discover"
 
 inherit rpm

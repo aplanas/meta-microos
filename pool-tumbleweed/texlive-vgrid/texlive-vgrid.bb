@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vgrid.sty) \
 texlive-vgrid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

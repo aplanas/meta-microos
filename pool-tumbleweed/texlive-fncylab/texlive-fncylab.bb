@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fncylab.sty) \
 texlive-fncylab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

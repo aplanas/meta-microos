@@ -12,6 +12,7 @@ RPM_HASH = "df62cae8132e4a7d53277caa865e8fa64aab0571d538317e656ab9e337a05d4a9a64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libloader"
+
 RDEPENDS:${PN} += "java \
 jpackage-utils \
 libbase"

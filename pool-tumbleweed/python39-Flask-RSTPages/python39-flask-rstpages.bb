@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-rstpages) \
 python39-Flask-RSTPages \
 python3dist(flask-rstpages)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-Pygments \

@@ -13,6 +13,7 @@ RPM_HASH = "0110ad9d166b9f0a779fcfca2c6595193daf7bc23293801d740e4055276ccbe275aa
 RPROVIDES:${PN} += "conky-nano \
 nano-plugin-conky \
 nano-plugin-conky(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

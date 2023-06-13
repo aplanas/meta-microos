@@ -19,6 +19,7 @@ RPM_HASH = "cfd75cb1b20218876b8b6d6e9f6b6739b15729ae5a5dff9cda14e4bbb4aaf7519236
 RPROVIDES:${PN} += "libbrlapi_tcl.so.0.8()(64bit) \
 tcl-brlapi \
 tcl-brlapi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrlapi.so.0.8()(64bit) \

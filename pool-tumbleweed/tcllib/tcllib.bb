@@ -11,6 +11,7 @@ RPM_HASH = "fb793743fec3fbf1b00d5ab9a60e108a3d8ce3d1b2ec7bb310b95f8580c7c5df46a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tcllib"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/tclsh"
 

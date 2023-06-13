@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-inline-tabs \
 python3.10dist(sphinx-inline-tabs) \
 python310-sphinx-inline-tabs \
 python3dist(sphinx-inline-tabs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

@@ -9,6 +9,7 @@ RPM_HASH = "a86bcf27fc40e5a862b60c6bda1140f815d4ad4b4db74731ea77ac52ca5b2e829354
 
 RPROVIDES:${PN} += "libvisio-tools \
 libvisio-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "4fdae2f6fe287d89271b0fdb4c9324fb501d567e797d5b6ffac51e99d09f23dd1b0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-rpi4"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

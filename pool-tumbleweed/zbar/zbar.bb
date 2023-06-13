@@ -15,6 +15,7 @@ RPM_HASH = "e309b8d9c858fe69c09a6b91295057b4844aa3e28809f7e035d068b4da316afd680a
 
 RPROVIDES:${PN} += "zbar \
 zbar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickWand-7.Q16HDRI.so.10()(64bit) \

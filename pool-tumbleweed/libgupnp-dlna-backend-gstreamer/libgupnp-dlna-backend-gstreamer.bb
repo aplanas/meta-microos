@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgstreamer.so()(64bit) \
 libgupnp-dlna-backend \
 libgupnp-dlna-backend-gstreamer \
 libgupnp-dlna-backend-gstreamer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

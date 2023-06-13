@@ -10,6 +10,7 @@ RPM_HASH = "c2a3aad3e1c7ecf9456c83bbdf4e172af7f803ba21ebc892b2cf7c48bfc07ad6bce1
 RPROVIDES:${PN} += "libhts-devel \
 libhts-devel(aarch-64) \
 pkgconfig(htslib)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 libhts3 \

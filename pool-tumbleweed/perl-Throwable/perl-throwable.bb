@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(StackTrace::Auto) \
 perl(Throwable) \
 perl(Throwable::Error) \
 perl-Throwable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::StackTrace) \
 perl(Module::Runtime) \

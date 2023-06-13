@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "application() \
 application(mathomatic.desktop) \
 mathomatic \
 mathomatic(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python \
 ld-linux-aarch64.so.1()(64bit) \

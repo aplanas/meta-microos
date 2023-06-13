@@ -15,6 +15,7 @@ RPM_HASH = "960325b98a403dddc4f8947348e0c23bc8477968970be4e00158f1494ea8690548b0
 RPROVIDES:${PN} += "pkgconfig(kpathsea) \
 texlive-kpathsea-devel \
 texlive-kpathsea-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkpathsea6"
 

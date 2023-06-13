@@ -10,6 +10,7 @@ RPM_HASH = "bfabf4f2b31ba9eb0ae38c7a4d11ac2be24ad7a10075663155a09e1555b72e90aa34
 RPROVIDES:${PN} += "calligra-kexi-postgresql-driver \
 kdb-postgresql-driver \
 kdb-postgresql-driver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKDb3.so.4()(64bit) \

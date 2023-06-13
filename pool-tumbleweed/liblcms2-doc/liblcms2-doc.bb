@@ -9,6 +9,7 @@ RPM_HASH = "946fb94cd269bb649ebe1d726f9d48797ed552162110ca7608e5a8a1e37cb893e50b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblcms2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

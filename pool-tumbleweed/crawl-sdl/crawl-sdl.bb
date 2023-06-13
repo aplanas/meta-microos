@@ -19,6 +19,7 @@ crawl-sdl \
 crawl-sdl(aarch-64) \
 metainfo() \
 metainfo(crawl.appdata.xml)"
+
 RDEPENDS:${PN} += "crawl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

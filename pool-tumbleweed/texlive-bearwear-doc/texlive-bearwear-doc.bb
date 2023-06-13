@@ -9,6 +9,7 @@ RPM_HASH = "c1abc775f81d0d91944737246954cffa5b90efafdeeaa8b3ef83e4639eb9afe9347b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bearwear-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

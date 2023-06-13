@@ -10,6 +10,7 @@ RPM_HASH = "4eb23a5f6cee087ebbf6cabf4045bf6bee879584125f9088179cf98b152ef1f23cca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-cross-ctest"
+
 RDEPENDS:${PN} += "mingw64-cross-cmake \
 mingw64-cross-wine"
 

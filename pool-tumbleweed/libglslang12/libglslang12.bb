@@ -16,6 +16,7 @@ libglslang-default-resource-limits.so.12()(64bit) \
 libglslang.so.12()(64bit) \
 libglslang12 \
 libglslang12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

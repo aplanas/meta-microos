@@ -10,6 +10,7 @@ RPM_HASH = "d97fb13305ac53d5cf36903b4b6e789029b5d7121e6b6e17360fa459d833260c7839
 RPROVIDES:${PN} += "libfsapfs-devel \
 libfsapfs-devel(aarch-64) \
 pkgconfig(libfsapfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsapfs1"

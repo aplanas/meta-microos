@@ -16,6 +16,7 @@ perl(Module::Info::Safe) \
 perl(Module::Info::Unsafe) \
 perl(Module::Info::_version) \
 perl-Module-Info"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Utils)"

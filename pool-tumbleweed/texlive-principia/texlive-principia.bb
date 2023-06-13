@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(principia.sty) \
 texlive-principia"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

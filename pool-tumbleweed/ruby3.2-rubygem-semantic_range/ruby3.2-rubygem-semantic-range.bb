@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:semantic_range:3) \
 rubygem(ruby:3.2.0:semantic_range:3.0) \
 rubygem(ruby:3.2.0:semantic_range:3.0.0) \
 rubygem(semantic_range)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

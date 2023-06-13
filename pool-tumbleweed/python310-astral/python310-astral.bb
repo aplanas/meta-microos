@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-astral \
 python3.10dist(astral) \
 python310-astral \
 python3dist(astral)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz \
 python310-requests"

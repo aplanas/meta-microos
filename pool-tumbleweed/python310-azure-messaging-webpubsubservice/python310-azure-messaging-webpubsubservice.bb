@@ -46,6 +46,7 @@ RPROVIDES:${PN} += "python3-azure-messaging-webpubsubservice \
 python3.10dist(azure-messaging-webpubsubservice) \
 python310-azure-messaging-webpubsubservice \
 python3dist(azure-messaging-webpubsubservice)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-azure-core \

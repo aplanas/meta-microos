@@ -9,6 +9,7 @@ RPM_HASH = "f579469b4f6ad852353a0c2b5b207ce366b0d76ae95008f5f3e23d954574a6a5247b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sgame-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

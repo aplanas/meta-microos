@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mysql-connector-python \
 python3.10dist(mysql-connector-python) \
 python310-mysql-connector-python \
 python3dist(mysql-connector-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dnspython \
 python310-protobuf"

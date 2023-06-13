@@ -11,6 +11,7 @@ RPM_HASH = "6f585fd5a08cb038610c761063ed09d63e99419032d33d8c075dd24cc1cf7d6908a3
 RPROVIDES:${PN} += "libvncclient.so.1()(64bit) \
 libvncclient1 \
 libvncclient1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

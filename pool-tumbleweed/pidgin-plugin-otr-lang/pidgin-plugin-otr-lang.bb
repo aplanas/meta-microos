@@ -31,6 +31,7 @@ locale(pidgin-plugin-otr:vi) \
 locale(pidgin-plugin-otr:zh_CN) \
 pidgin-plugin-otr-lang \
 pidgin-plugin-otr-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-otr"
 
 inherit rpm

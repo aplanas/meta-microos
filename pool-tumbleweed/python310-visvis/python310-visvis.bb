@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-visvis \
 python3.10dist(visvis) \
 python310-visvis \
 python3dist(visvis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-opengl \

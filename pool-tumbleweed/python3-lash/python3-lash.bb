@@ -9,6 +9,7 @@ RPM_HASH = "d884f7908125d0f0609773ef063a3533bb45e9b846ca562c1d9efa6eb197032cdc26
 
 RPROVIDES:${PN} += "python3-lash \
 python3-lash(aarch-64)"
+
 RDEPENDS:${PN} += "lash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

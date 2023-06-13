@@ -919,6 +919,7 @@ tex(crp_xsutkk.enc) \
 tex(crp_ylc3fo.enc) \
 tex(crp_yyrdtm.enc) \
 texlive-crimsonpro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

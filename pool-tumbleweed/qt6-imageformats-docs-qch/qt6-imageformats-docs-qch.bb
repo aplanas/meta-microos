@@ -9,6 +9,7 @@ RPM_HASH = "b8bd366d8f1fc733f25f617709525e3a8c73ce8ae846377019d07b0bea1f144ffc2b
 
 RPROVIDES:${PN} += "qt6-imageformats-docs-qch \
 qt6-imageformats-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

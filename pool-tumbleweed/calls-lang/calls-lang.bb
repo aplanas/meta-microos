@@ -52,6 +52,7 @@ locale(calls:uk) \
 locale(calls:vi) \
 locale(calls:zh_CN) \
 locale(calls:zh_TW)"
+
 RDEPENDS:${PN} += "calls"
 
 inherit rpm

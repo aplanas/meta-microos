@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(figbib.sty) \
 texlive-figbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

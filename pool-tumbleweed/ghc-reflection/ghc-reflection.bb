@@ -29,6 +29,7 @@ RPM_HASH = "177d0cec44dae5fe6f45250d831163e79fb551ddbc502d63aac92afaeb6cc69e45b0
 RPROVIDES:${PN} += "ghc-reflection \
 ghc-reflection(aarch-64) \
 libHSreflection-2.1.7-KcOWE7PS1mHy6gA2edHvV-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

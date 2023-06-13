@@ -27,6 +27,7 @@ tex(beamerthemeI6pd2.sty) \
 tex(beamerthemeI6td.sty) \
 tex(beamerthemeZH.sty) \
 texlive-beamerposter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

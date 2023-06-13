@@ -10,6 +10,7 @@ RPM_HASH = "f85712321576b2e9ef8324e78cd8088ef6db3189540cbb6542fc821537bfc1ec4b1e
 RPROVIDES:${PN} += "liblalsimulation.so.31()(64bit) \
 liblalsimulation31 \
 liblalsimulation31(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

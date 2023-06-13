@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "FreeFileSync \
 FreeFileSync(aarch-64) \
 application() \
 application(FreeFileSync.desktop)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

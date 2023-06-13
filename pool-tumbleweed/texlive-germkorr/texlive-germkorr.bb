@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(germkorr.sty) \
 texlive-germkorr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

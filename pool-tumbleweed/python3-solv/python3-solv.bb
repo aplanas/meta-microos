@@ -9,6 +9,7 @@ RPM_HASH = "d62295cefedbe7c1ce12e7c33930215da2b8f0455949856cc7b10f62d0454e50184b
 
 RPROVIDES:${PN} += "python3-solv \
 python3-solv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

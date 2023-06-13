@@ -9,6 +9,7 @@ RPM_HASH = "32705db81d60cd85136f32f46a964d9f16d318c206f2a24a626243d7e21f3f8703de
 
 RPROVIDES:${PN} += "libiterm-devel \
 libiterm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libiterm1"
 
 inherit rpm

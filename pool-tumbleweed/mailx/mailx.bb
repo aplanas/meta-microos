@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(mailx) \
 mail \
 mailx \
 mailx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ld-linux-aarch64.so.1()(64bit) \

@@ -24,6 +24,7 @@ mimehandler(text/uri-list) \
 python3.10dist(variety) \
 python3dist(variety) \
 variety"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ImageMagick \

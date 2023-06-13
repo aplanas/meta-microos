@@ -10,6 +10,7 @@ RPM_HASH = "c61a00bae43e5a438f9b01ee24dd827706e2ddaa44e89e50624b5a7af1e654be0ec6
 RPROVIDES:${PN} += "ghc-http-api-data-prof \
 ghc-http-api-data-prof(aarch-64) \
 ghc-prof(http-api-data-0.5-Ipkpz3wcjEIJthDto7snfd)"
+
 RDEPENDS:${PN} += "ghc-http-api-data-devel \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(attoparsec-iso8601-1.1.0.0-2S5wwgpuLNfEy2BIFZOtUU) \

@@ -10,6 +10,7 @@ RPM_HASH = "7a3e0f58bfa591438f39468610cf68973c17010ccec94829f78032ba446181881c5b
 RPROVIDES:${PN} += "base:/usr/bin/m4 \
 m4 \
 m4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

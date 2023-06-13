@@ -30,6 +30,7 @@ rpm_macro(ngx_tmp_proxy) \
 rpm_macro(ngx_tmp_scgi) \
 rpm_macro(ngx_tmp_uwsgi) \
 rpm_macro(ngx_user_group)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ tex(pcatcode.sty) \
 tex(rkeyval.sty) \
 tex(textcmds.sty) \
 texlive-amsrefs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

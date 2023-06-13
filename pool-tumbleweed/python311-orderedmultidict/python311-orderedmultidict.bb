@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(orderedmultidict) \
 python311-orderedmultidict \
 python3dist(orderedmultidict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

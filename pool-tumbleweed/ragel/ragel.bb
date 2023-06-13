@@ -15,6 +15,7 @@ RPM_HASH = "4ec8e0e0ff2a6573055e6ef5ec66653111642f2ebdca37abe26e1e589791c27ece0c
 RPROVIDES:${PN} += "libragel.so.0()(64bit) \
 ragel \
 ragel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

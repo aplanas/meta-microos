@@ -9,6 +9,7 @@ RPM_HASH = "d963fef5b6b63fc6c2e3bb99442fa6aedbce1e2d5cb6354740263caeb9c4d1f1b1ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mugsthesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

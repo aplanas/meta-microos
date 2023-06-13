@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hycolor.sty) \
 tex(xcolor-patch.sty) \
 texlive-hycolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

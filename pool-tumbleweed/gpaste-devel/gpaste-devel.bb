@@ -15,6 +15,7 @@ gpaste-devel(aarch-64) \
 pkgconfig(gpaste-2) \
 pkgconfig(gpaste-gtk-3) \
 pkgconfig(gpaste-gtk-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgpaste-gtk-3-0 \
 libgpaste-gtk4-0 \

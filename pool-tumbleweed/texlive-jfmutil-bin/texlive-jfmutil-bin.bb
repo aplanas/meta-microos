@@ -9,6 +9,7 @@ RPM_HASH = "6a1865c431374238ef229e96436034943511d42ba6bd47b42b3e0f5077761ab67964
 
 RPROVIDES:${PN} += "texlive-jfmutil-bin \
 texlive-jfmutil-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-jfmutil"
 
 inherit rpm

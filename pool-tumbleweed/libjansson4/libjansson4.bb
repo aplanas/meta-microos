@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libjansson.so.4()(64bit) \
 libjansson.so.4(libjansson.so.4)(64bit) \
 libjansson4 \
 libjansson4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

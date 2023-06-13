@@ -12,6 +12,7 @@ RPM_HASH = "da6912bc30c29e4392d1a561494696a9ba43a974133b770ac8f93818e79aa7958544
 
 RPROVIDES:${PN} += "ices \
 ices(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

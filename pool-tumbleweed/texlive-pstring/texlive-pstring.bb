@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pstring.sty) \
 texlive-pstring"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

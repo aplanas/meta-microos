@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DRuntimeRender) \
 pkgconfig(Qt6Quick3DRuntimeRender) \
 qt6-quick3druntimerender-devel \
 qt6-quick3druntimerender-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Quick3DUtils) \
 cmake(Qt6ShaderTools) \

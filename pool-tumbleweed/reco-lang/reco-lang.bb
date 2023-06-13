@@ -22,6 +22,7 @@ locale(reco:ru) \
 locale(reco:tr) \
 reco-lang \
 reco-lang-all"
+
 RDEPENDS:${PN} += "reco"
 
 inherit rpm

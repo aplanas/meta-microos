@@ -13,6 +13,7 @@ RPM_HASH = "963ed0fd64befd142da86aae95cded7c6978fe300ea09aef1973976c322d43ce912e
 RPROVIDES:${PN} += "liblmdbbackend.so()(64bit) \
 pdns-backend-lmdb \
 pdns-backend-lmdb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_serialization.so.1.82.0()(64bit) \

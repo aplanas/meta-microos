@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pitex.tex) \
 texlive-pitex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(hxtools-profile) \
 hxtools-profile"
+
 RDEPENDS:${PN} += "hxtools \
 hxtools-data \
 hxtools-scripts"

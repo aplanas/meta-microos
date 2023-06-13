@@ -10,6 +10,7 @@ RPM_HASH = "e7ca7e6db279d5f3684a8f5f588b767d771ca29e3c2dbcc1dd796e53c0792ee1934e
 RPROVIDES:${PN} += "config(os-autoinst-openvswitch) \
 os-autoinst-openvswitch \
 os-autoinst-openvswitch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 openvswitch \

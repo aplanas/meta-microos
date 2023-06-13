@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libscalapack.so.2.1.0()(64bit) \
 libscalapack2-openmpi2-devel \
 libscalapack2-openmpi2-devel(aarch-64) \
 scalapack-openmpi2-devel"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

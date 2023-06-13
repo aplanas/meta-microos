@@ -9,6 +9,7 @@ RPM_HASH = "a87722a29806f322aa55593d6900bf3f4833e9164af3bb4a0ff75c03910c715a2693
 
 RPROVIDES:${PN} += "ulogd-pcap \
 ulogd-pcap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

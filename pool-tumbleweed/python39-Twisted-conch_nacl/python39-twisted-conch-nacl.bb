@@ -12,6 +12,7 @@ RPM_HASH = "0c5a42fac339eb07790192207a43aaa3914da9499c4afce987ece3e3d6458ceab672
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-conch_nacl"
+
 RDEPENDS:${PN} += "python39-PyNaCl \
 python39-Twisted-conch"
 

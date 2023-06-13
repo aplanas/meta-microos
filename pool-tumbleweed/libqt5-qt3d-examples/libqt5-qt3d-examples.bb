@@ -9,6 +9,7 @@ RPM_HASH = "147b6f9f5a5bfc2a4ac8a4b5eb49fc1f9d4440d325d8100acb2618df2fb1b8e951cb
 
 RPROVIDES:${PN} += "libqt5-qt3d-examples \
 libqt5-qt3d-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt53DCore.so.5()(64bit) \

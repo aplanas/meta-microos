@@ -11,6 +11,7 @@ RPM_HASH = "043aec3017d786a4b2313313784652ccd39ead391bca25e560e2ace60927a19032a7
 
 RPROVIDES:${PN} += "libwacom-data \
 libwacom-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

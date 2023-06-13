@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Growl::GNTP) \
 perl-Growl-GNTP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::CBC) \
 perl(Data::UUID) \

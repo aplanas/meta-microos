@@ -9,6 +9,7 @@ RPM_HASH = "35dd2501752b4e210b64fde1b5d36b4fe6187d519640b5394405060910031a323043
 
 RPROVIDES:${PN} += "scim-chewing \
 scim-chewing(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

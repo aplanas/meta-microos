@@ -13,6 +13,7 @@ libadwaita-qt5-devel \
 libadwaita-qt5-devel(aarch-64) \
 libadwaitaqt-devel \
 pkgconfig(adwaita-qt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libadwaitaqt5-1 \
 pkgconfig(Qt5Core) \

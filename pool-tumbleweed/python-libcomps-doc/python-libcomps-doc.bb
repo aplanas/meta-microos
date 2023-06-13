@@ -9,6 +9,7 @@ RPM_HASH = "322e64718e51836f5a3f616deb1c3541f6a61674127834025d21050b5d05b678506e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-libcomps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

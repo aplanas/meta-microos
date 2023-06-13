@@ -15,6 +15,7 @@ man(biburl2doi.1) \
 man(bibzbladd.1) \
 man(ltx2crossrefxml.1) \
 texlive-crossrefware-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "3c53b30b6dd331d4ddac9ffbcbd86fcff7c481d7cc930fd4b8f54e7960396b0fb477
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-shell-games"
+
 RDEPENDS:${PN} += "lua51"
 
 inherit rpm

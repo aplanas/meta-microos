@@ -10,6 +10,7 @@ RPM_HASH = "7859a7ca7bc99ffd4f43b745d31c925080dc54b93372ed6c061166675f00451707ec
 RPROVIDES:${PN} += "ghc-prof(tasty-1.4.3-FhQLnMluiBU5Fwwb1Rsznz) \
 ghc-tasty-prof \
 ghc-tasty-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

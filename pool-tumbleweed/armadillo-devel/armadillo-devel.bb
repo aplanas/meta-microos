@@ -16,6 +16,7 @@ RPM_HASH = "b24ff9d78b40063846173f4c8b424df72e64e8a6192e0911e96b7abbca1a8c7eed93
 RPROVIDES:${PN} += "armadillo-devel \
 armadillo-devel(aarch-64) \
 pkgconfig(armadillo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 arpack-ng-devel \
 blas-devel \

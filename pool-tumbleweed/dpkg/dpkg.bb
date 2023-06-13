@@ -95,6 +95,7 @@ perl(Dpkg::Vendor::Default) \
 perl(Dpkg::Vendor::Ubuntu) \
 perl(Dpkg::Version) \
 perl(Dselect::Ftp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

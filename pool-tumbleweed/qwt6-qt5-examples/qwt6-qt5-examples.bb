@@ -9,6 +9,7 @@ RPM_HASH = "1c3346aeefa9fd4f4f74176dc5e9a7015b9e2a24d2a404092c35cb5b1272d2888890
 
 RPROVIDES:${PN} += "qwt6-qt5-examples \
 qwt6-qt5-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

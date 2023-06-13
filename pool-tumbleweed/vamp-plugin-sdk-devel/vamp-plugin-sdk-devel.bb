@@ -13,6 +13,7 @@ pkgconfig(vamp-hostsdk) \
 pkgconfig(vamp-sdk) \
 vamp-plugin-sdk-devel \
 vamp-plugin-sdk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvamp-hostsdk3 \
 libvamp-sdk2 \

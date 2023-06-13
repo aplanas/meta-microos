@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wcmatch) \
 python311-wcmatch \
 python3dist(wcmatch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.11dist(bracex)"
 

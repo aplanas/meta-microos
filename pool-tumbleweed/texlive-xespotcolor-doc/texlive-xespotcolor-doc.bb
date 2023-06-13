@@ -9,6 +9,7 @@ RPM_HASH = "36715fa0e4f8d207fc0ea8b0c842fa9b478809f861b008b1aeaa09d071c6910714ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xespotcolor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

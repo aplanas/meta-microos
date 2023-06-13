@@ -59,6 +59,7 @@ locale(plasma5-integration-plugin:zh_CN) \
 locale(plasma5-integration-plugin:zh_TW) \
 plasma5-integration-plugin-lang \
 plasma5-integration-plugin-lang-all"
+
 RDEPENDS:${PN} += "plasma5-integration-plugin"
 
 inherit rpm

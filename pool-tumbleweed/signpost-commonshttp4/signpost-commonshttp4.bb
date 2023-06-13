@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(oauth.signpost:signpost-commonshttp4) \
 mvn(oauth.signpost:signpost-commonshttp4:pom:) \
 signpost-commonshttp4"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(oauth.signpost:signpost-core) \

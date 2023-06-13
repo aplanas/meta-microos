@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:winrm:2) \
 rubygem(ruby:3.2.0:winrm:2.3) \
 rubygem(ruby:3.2.0:winrm:2.3.6) \
 rubygem(winrm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

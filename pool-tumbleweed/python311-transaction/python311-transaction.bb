@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(transaction) \
 python311-transaction \
 python3dist(transaction)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.interface"
 

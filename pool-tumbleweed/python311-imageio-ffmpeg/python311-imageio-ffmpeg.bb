@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(imageio-ffmpeg) \
 python311-imageio-ffmpeg \
 python3dist(imageio-ffmpeg)"
+
 RDEPENDS:${PN} += "ffmpeg-4 \
 python(abi)"
 

@@ -11,6 +11,7 @@ RPM_HASH = "14f748d03e5ce19454fee7f45c6affbb0a60b1723fb74129957164aa97735f28ea6b
 RPROVIDES:${PN} += "libucs-devel \
 libucs-devel(aarch-64) \
 pkgconfig(ucx-ucs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libucs0"
 

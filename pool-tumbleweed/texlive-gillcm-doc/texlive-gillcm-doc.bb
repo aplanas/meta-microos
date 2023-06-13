@@ -9,6 +9,7 @@ RPM_HASH = "cabb6b459194cbd1033771d8e0ee9bd2132e0a303e9138409baa474f9aa0c9ef0c3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gillcm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

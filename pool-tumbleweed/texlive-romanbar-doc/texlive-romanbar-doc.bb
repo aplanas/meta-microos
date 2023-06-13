@@ -9,6 +9,7 @@ RPM_HASH = "c761c48a8274050f04cdcdd30e7451062fdfcc8632dc664971ffb47b8d3492988fe1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-romanbar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

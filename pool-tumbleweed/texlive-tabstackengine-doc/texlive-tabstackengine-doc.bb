@@ -9,6 +9,7 @@ RPM_HASH = "6d026d4d898bcc29ca14da4add81db259fc4816cb8d6d0c1d9c7c17d81e973c85cba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabstackengine-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

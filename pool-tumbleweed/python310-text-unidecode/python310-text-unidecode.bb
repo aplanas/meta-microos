@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-text-unidecode \
 python3.10dist(text-unidecode) \
 python310-text-unidecode \
 python3dist(text-unidecode)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

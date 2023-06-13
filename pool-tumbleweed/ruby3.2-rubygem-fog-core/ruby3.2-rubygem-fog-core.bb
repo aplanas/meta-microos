@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:fog-core) \
 rubygem(ruby:3.2.0:fog-core:2) \
 rubygem(ruby:3.2.0:fog-core:2.3) \
 rubygem(ruby:3.2.0:fog-core:2.3.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:builder) \
 rubygem(ruby:3.2.0:excon:0) \

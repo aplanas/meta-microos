@@ -12,6 +12,7 @@ RPM_HASH = "f8434a74f882a434b673f0c7c122725a35f1bcb4835b8878b79546f530b59abd49e5
 
 RPROVIDES:${PN} += "lua51-luasql \
 lua51-luasql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

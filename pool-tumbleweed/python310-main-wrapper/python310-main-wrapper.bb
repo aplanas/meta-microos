@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-main-wrapper \
 python3.10dist(main-wrapper) \
 python310-main-wrapper \
 python3dist(main-wrapper)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

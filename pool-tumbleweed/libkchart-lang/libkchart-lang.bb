@@ -40,6 +40,7 @@ locale(libkchart:tr) \
 locale(libkchart:uk) \
 locale(libkchart:zh_CN) \
 locale(libkchart:zh_TW)"
+
 RDEPENDS:${PN} += "libkchart"
 
 inherit rpm

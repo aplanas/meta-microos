@@ -11,6 +11,7 @@ RPM_HASH = "5fd8535f901ce4da85ba7198f73018b523769a1878da4ff0a657088a91ba0d2fc477
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tegra210"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

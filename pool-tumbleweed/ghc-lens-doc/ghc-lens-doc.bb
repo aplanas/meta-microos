@@ -9,6 +9,7 @@ RPM_HASH = "a0f8f8dccc1544355b6cae7f4699448229f1e3c5ba0eef44e757e717803c96e151e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lens-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

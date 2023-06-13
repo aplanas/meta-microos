@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pkgconfig(xtrans) \
 xorg-x11-xtrans-devel \
 xtrans"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config"
 

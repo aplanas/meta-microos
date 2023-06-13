@@ -17,6 +17,7 @@ RPM_HASH = "1baafe82886de696a631fc3a2996aa679ec388f4b3e6d3e38af7151d7d47b2a8f16a
 RPROVIDES:${PN} += "libtpl-extensions.so.3()(64bit) \
 libtpl-extensions3 \
 libtpl-extensions3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

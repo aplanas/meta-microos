@@ -9,6 +9,7 @@ RPM_HASH = "ce69992cc6454dea44e21727f9e46fd8a6a8645bb2766956c4a49f96962ab9a6b8aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lebhart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

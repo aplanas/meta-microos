@@ -9,6 +9,7 @@ RPM_HASH = "c6a8e9f29644e0f084fe09051e98cd0b393b6531d9845872ed4bb186581977a8aea4
 
 RPROVIDES:${PN} += "git-annex-bash-completion \
 git-annex-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 git-annex"
 

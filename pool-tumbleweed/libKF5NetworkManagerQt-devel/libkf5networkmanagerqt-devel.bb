@@ -13,6 +13,7 @@ RPM_HASH = "141e343173a2e3311e6db849555c1098642868ea84529ab5d51ef4d827b370f499ce
 RPROVIDES:${PN} += "cmake(KF5NetworkManagerQt) \
 libKF5NetworkManagerQt-devel \
 libKF5NetworkManagerQt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5DBus) \
 cmake(Qt5Network) \

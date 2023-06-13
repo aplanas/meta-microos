@@ -20,6 +20,7 @@ gtg \
 metainfo() \
 metainfo(org.gnome.GTG.appdata.xml) \
 mimehandler(x-scheme-handler/gtg)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject-Gdk \

@@ -11,6 +11,7 @@ RPM_HASH = "5349a995703601ca110a320597c13c2594bb1e38eddfcfc226a67be3a5ba67aa2808
 RPROVIDES:${PN} += "cyrus-sasl-ldap-auxprop-bdb \
 cyrus-sasl-ldap-auxprop-bdb(aarch-64) \
 libldapdb.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl-bdb \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

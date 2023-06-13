@@ -112,6 +112,7 @@ locale(mate-netbook:zh_HK) \
 locale(mate-netbook:zh_TW) \
 mate-netbook-lang \
 mate-netbook-lang-all"
+
 RDEPENDS:${PN} += "mate-netbook"
 
 inherit rpm

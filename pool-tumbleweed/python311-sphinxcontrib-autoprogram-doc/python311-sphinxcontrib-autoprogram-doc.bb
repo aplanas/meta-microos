@@ -10,6 +10,7 @@ RPM_HASH = "aebcb57b8c6452bec2add1e1fe067b70d693f60311a4bd37e619af0158ed491ba52b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-sphinxcontrib-autoprogram-doc"
+
 RDEPENDS:${PN} += "python311-Sphinx"
 
 inherit rpm

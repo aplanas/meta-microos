@@ -11,6 +11,7 @@ RPM_HASH = "17cc8456ae2ccde53424f78dd5fa54f0f96dc51ee17bd86c2446f0f6f5ab2ab17313
 
 RPROVIDES:${PN} += "OpenSubdiv-devel \
 OpenSubdiv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libosdCPU3_4_4"
 
 inherit rpm

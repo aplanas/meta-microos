@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aho-corasick-double-array-trie \
 mvn(com.hankcs:aho-corasick-double-array-trie) \
 mvn(com.hankcs:aho-corasick-double-array-trie:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

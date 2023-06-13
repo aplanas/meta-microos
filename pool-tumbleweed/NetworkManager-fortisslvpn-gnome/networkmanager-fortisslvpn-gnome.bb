@@ -15,6 +15,7 @@ libnm-gtk4-vpn-plugin-fortisslvpn-editor.so()(64bit) \
 libnm-vpn-plugin-fortisslvpn-editor.so()(64bit) \
 metainfo() \
 metainfo(network-manager-fortisslvpn.metainfo.xml)"
+
 RDEPENDS:${PN} += "NetworkManager-fortisslvpn \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

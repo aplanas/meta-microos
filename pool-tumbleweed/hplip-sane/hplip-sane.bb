@@ -11,6 +11,7 @@ RPM_HASH = "4c3c504aa8728f28b20d5651197d0a74bae0b2b6e545091a56821f98214378cb4090
 RPROVIDES:${PN} += "hplip-sane \
 hplip-sane(aarch-64) \
 libsane-hpaio.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hplip-hpijs \
 hplip-udev-rules \

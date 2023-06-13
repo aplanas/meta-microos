@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(selection) \
 python39-selection \
 python3dist(selection)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-six \

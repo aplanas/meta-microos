@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:kramdown-parser-gfm) \
 rubygem(ruby:3.2.0:kramdown-parser-gfm:1) \
 rubygem(ruby:3.2.0:kramdown-parser-gfm:1.1) \
 rubygem(ruby:3.2.0:kramdown-parser-gfm:1.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:kramdown:2)"
 

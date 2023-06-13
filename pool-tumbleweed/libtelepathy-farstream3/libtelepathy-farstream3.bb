@@ -11,6 +11,7 @@ RPM_HASH = "9322f4870756b03b4d5c060d9f38c0a42faa70b00436ad670f73957e4f71c4882969
 RPROVIDES:${PN} += "libtelepathy-farstream.so.3()(64bit) \
 libtelepathy-farstream3 \
 libtelepathy-farstream3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ python3.10dist(kiss-headers) \
 python310-kiss-headers \
 python310-kiss-headers(aarch-64) \
 python3dist(kiss-headers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

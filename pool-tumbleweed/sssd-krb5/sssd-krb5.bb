@@ -11,6 +11,7 @@ RPM_HASH = "d825bc1cae527833dd7f650d9921adecc9e98d4ba2039cec308820cd81aa59ed2cd0
 RPROVIDES:${PN} += "libsss_krb5.so()(64bit) \
 sssd-krb5 \
 sssd-krb5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "javacc \
 javacc-bootstrap \
 mvn(net.java.dev.javacc:javacc) \
 mvn(net.java.dev.javacc:javacc:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

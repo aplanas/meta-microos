@@ -10,6 +10,7 @@ RPM_HASH = "c7b0f5b5ccd0d5469c8a8676a450fb4745a3b00f80cf9f4abb2c375daf2f6bd60f8f
 RPROVIDES:${PN} += "leechcraft-imgaste \
 leechcraft-imgaste(aarch-64) \
 libleechcraft_imgaste.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

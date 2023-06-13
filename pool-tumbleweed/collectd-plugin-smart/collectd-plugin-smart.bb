@@ -10,6 +10,7 @@ RPM_HASH = "8a336fcb5e416ba8cdf1b35f058a6e0d2498c953ca3f5538ba93fff1d5499aa774eb
 
 RPROVIDES:${PN} += "collectd-plugin-smart \
 collectd-plugin-smart(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "b4db682891ccc9fa02632aec86ffbe60aa754cdbc610f71d25f9095bcab973b07703
 
 RPROVIDES:${PN} += "mdbtools \
 mdbtools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aeidon \
 python310-aeidon"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(Gspell)"
 

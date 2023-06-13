@@ -9,6 +9,7 @@ RPM_HASH = "13bd5bf1933101edeb526ebccfb8018f96733d16432396c98145dcf95f592fdfc19f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-md2workflow-plugins-redmine"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-md2workflow \
 python39-python-redmine"

@@ -10,6 +10,7 @@ RPM_HASH = "d1c95fbcb0f83fd579f864e098df16a982f4e13d202e1d404eb6c09231db8dd69ad7
 
 RPROVIDES:${PN} += "qt6-quick3druntimerender-private-devel \
 qt6-quick3druntimerender-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Quick3DRuntimeRender) \
 qt6-quick-private-devel \
 qt6-quick3dassetimport-private-devel \

@@ -11,6 +11,7 @@ RPM_HASH = "3128dab83aa991c63960986af752b43ed98e58a562866e1453aeee49c5586314bc17
 RPROVIDES:${PN} += "bluez-devel \
 bluez-devel(aarch-64) \
 pkgconfig(bluez)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbluetooth3"
 

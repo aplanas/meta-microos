@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.envs) \
 python311-jaraco.envs \
 python3dist(jaraco.envs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-path \
 python311-virtualenv"

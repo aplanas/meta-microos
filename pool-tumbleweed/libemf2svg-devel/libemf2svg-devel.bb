@@ -11,6 +11,7 @@ RPM_HASH = "60b8d6e7d963e4ba630d487963850e3013dd7e73bec7e28b6169484e8544603b5126
 
 RPROVIDES:${PN} += "libemf2svg-devel \
 libemf2svg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libemf2svg1"
 
 inherit rpm

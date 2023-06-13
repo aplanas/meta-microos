@@ -14,6 +14,7 @@ RPM_HASH = "b7063a6b83ad1190f22b43ad74fe53df25bb1c72b2c467147f3ec57827cabf98c2e5
 
 RPROVIDES:${PN} += "sndio \
 sndio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \

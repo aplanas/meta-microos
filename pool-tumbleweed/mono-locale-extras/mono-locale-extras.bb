@@ -19,6 +19,7 @@ mono(I18N.Other) \
 mono(I18N.Rare) \
 mono-locale-extras \
 mono-locale-extras(aarch-64)"
+
 RDEPENDS:${PN} += "mono(I18N) \
 mono(mscorlib) \
 mono-core"

@@ -9,6 +9,7 @@ RPM_HASH = "6fc263363965959565b0a173c54f2dfc7096f1f75fda723a8b5c6416ff09f5af4614
 
 RPROVIDES:${PN} += "thunar-font-manager \
 thunar-font-manager(aarch-64)"
+
 RDEPENDS:${PN} += "font-manager-common \
 font-viewer \
 libc.so.6(GLIBC_2.17)(64bit) \

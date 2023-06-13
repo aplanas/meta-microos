@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(errata.sty) \
 texlive-errata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

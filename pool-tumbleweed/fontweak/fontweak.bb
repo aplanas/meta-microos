@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(fontweak.desktop) \
 fontweak"
+
 RDEPENDS:${PN} += "/bin/sh \
 java"
 

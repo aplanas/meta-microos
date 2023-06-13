@@ -10,6 +10,7 @@ RPM_HASH = "8b1afd4fc5f09b169b28c053db138569a98e2c628429ec51d11fa35a79f3db66cd0f
 RPROVIDES:${PN} += "espeak-ng-devel \
 espeak-ng-devel(aarch-64) \
 pkgconfig(espeak-ng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libespeak-ng1"
 

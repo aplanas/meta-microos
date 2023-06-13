@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "clazy \
 clazy(aarch-64) \
 metainfo() \
 metainfo(org.kde.clazy.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 clang16 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "39354cbb6f23ba8345319adb82d74124e422ed5631d8ae2f00adf29ec9d307daba89
 
 RPROVIDES:${PN} += "libgpgmepp-devel \
 libgpgmepp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libassuan-devel \
 libgpg-error-devel \

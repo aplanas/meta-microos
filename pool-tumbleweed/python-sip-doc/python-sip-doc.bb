@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python-sip-doc \
 python310-sip-doc \
 python311-sip-doc \
 python39-sip-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

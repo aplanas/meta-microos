@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DInput) \
 libQt53DInput-devel \
 libQt53DInput-devel(aarch-64) \
 pkgconfig(Qt53DInput)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DInput5 \
 pkgconfig(Qt53DCore) \

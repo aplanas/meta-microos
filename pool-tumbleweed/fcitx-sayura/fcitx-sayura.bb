@@ -11,6 +11,7 @@ RPM_HASH = "98d49f28b1300fd93858180e5bfc546e56662d8583c51808a6482ff424d108c1021c
 
 RPROVIDES:${PN} += "fcitx-sayura \
 fcitx-sayura(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libc.so.6(GLIBC_2.17)(64bit)"

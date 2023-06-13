@@ -11,6 +11,7 @@ RPM_HASH = "57eedb093603c99b13b4cf65d2dff8ac850ce2c0e77028cad5a0b539749aef2bbc7b
 RPROVIDES:${PN} += "libfreehand-0.1.so.1()(64bit) \
 libfreehand-0_1-1 \
 libfreehand-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

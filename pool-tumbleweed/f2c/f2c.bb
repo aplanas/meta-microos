@@ -9,6 +9,7 @@ RPM_HASH = "3b47901123b3f69493c268d943a9102ee92adceec5f880010f3830f78e73583b7e34
 
 RPROVIDES:${PN} += "f2c \
 f2c(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

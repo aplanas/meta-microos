@@ -9,6 +9,7 @@ RPM_HASH = "e3f8e111744aace50a7f1e2e3799da9ca43bbdb52b012ec3366d717552f9bc939df1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-brandeis-problemset-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

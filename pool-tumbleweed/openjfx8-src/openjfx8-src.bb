@@ -10,6 +10,7 @@ RPM_HASH = "4171a8c0016a714df89d62414e2ade77b7422f5bf22e368aa25f4d503698ad6fde99
 RPROVIDES:${PN} += "java-1_8_0-openjfx-src \
 openjfx8-src \
 openjfx8-src(aarch-64)"
+
 RDEPENDS:${PN} += "openjfx8"
 
 inherit rpm

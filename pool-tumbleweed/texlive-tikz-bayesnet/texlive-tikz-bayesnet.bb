@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibrarybayesnet.code.tex) \
 texlive-tikz-bayesnet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

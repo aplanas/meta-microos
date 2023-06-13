@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kurmanji.ldf) \
 texlive-babel-kurmanji"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

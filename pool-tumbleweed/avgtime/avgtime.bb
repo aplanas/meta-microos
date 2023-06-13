@@ -13,6 +13,7 @@ RPM_HASH = "ee59153c193a0395b4cc008c7c97bd27d94c16f71538e518267c8c948f1f88654940
 
 RPROVIDES:${PN} += "avgtime \
 avgtime(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -23,6 +23,7 @@ mvn(ch.qos.cal10n:cal10n-api) \
 mvn(ch.qos.cal10n:cal10n-api:pom:) \
 mvn(ch.qos.cal10n:cal10n-parent:pom:) \
 osgi(cal10n.api)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

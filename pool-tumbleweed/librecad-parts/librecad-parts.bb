@@ -10,6 +10,7 @@ RPM_HASH = "eae3a4f7d8e9b6333f2ad2e20c97a0da896ecc9657d4b17e7a776df639451aea9a8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librecad-parts"
+
 RDEPENDS:${PN} += "librecad"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(openapi-spec-validator) \
 python311-openapi-spec-validator \
 python311-openapi_spec_validator \
 python3dist(openapi-spec-validator)"
+
 RDEPENDS:${PN} += "(python311-jsonschema >= 4.0.0 with python311-jsonschema < 4.18) \
 /bin/sh \
 /usr/bin/python3.11 \

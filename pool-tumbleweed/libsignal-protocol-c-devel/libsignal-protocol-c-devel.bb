@@ -10,6 +10,7 @@ RPM_HASH = "4b9072740589b04da47d9b0a7b6115e8f036c04c13cc4c3e54c4ecbddb89aa63b1a5
 RPROVIDES:${PN} += "libsignal-protocol-c-devel \
 libsignal-protocol-c-devel(aarch-64) \
 pkgconfig(libsignal-protocol-c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsignal-protocol-c2"
 

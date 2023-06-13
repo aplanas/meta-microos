@@ -17,6 +17,7 @@ commons-pool \
 jakarta-commons-pool \
 mvn(commons-pool:commons-pool) \
 mvn(commons-pool:commons-pool:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

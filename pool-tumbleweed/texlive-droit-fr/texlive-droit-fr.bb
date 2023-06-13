@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(droit-fr.bbx) \
 tex(droit-fr.cbx) \
 tex(droit-fr.cls) \
 texlive-droit-fr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

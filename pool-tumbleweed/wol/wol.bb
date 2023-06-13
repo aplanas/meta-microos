@@ -12,6 +12,7 @@ RPM_HASH = "e02187f01edd3cee5442f9ffe9f5b44704a28402f3ec7f43e41c933a7d8774dd0a16
 
 RPROVIDES:${PN} += "wol \
 wol(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

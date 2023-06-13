@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gamin-devel \
 gamin-devel(aarch-64) \
 gamin-devel-static \
 pkgconfig(gamin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfam0-gamin \
 libgamin-1-0"

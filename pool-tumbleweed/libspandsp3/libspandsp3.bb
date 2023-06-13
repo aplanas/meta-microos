@@ -14,6 +14,7 @@ RPM_HASH = "491169199c8c0336077226ca21833c795cbd4e1d455ced38faf9b29719af6e62c1bd
 RPROVIDES:${PN} += "libspandsp.so.3()(64bit) \
 libspandsp3 \
 libspandsp3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

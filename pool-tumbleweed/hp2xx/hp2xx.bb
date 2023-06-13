@@ -11,6 +11,7 @@ RPM_HASH = "d15eac24c70c81e217f3cd315a9b94a15d5a3a429fc2660d56c3f19f0014b3adce5a
 
 RPROVIDES:${PN} += "hp2xx \
 hp2xx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

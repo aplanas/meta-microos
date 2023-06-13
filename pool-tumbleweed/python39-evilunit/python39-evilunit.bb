@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(evilunit) \
 python39-evilunit \
 python3dist(evilunit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

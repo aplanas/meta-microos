@@ -17,6 +17,7 @@ RPM_HASH = "845bcd18ddab8847e419e5cb4a3de23afde71b9571be35a86f5c85aa1ff58ec15614
 RPROVIDES:${PN} += "libsofia-sip-ua.so.0()(64bit) \
 libsofia-sip-ua0 \
 libsofia-sip-ua0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

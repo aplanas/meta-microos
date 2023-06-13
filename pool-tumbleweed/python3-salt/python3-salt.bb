@@ -12,6 +12,7 @@ python3-salt \
 python3-salt(aarch-64) \
 python3.10dist(salt) \
 python3dist(salt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 libzypp(plugin:system) \

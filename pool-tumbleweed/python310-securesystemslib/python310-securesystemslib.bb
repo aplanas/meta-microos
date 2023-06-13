@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-securesystemslib \
 python3.10dist(securesystemslib) \
 python310-securesystemslib \
 python3dist(securesystemslib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyNaCl \
 python310-asn1crypto \

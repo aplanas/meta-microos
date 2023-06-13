@@ -18,6 +18,7 @@ pkgconfig(knotd) \
 pkgconfig(libdnssec) \
 pkgconfig(libknot) \
 pkgconfig(libzscanner)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 knot \
 libdnssec9 \

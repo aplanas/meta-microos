@@ -97,6 +97,7 @@ locale(gdk-pixbuf:wa) \
 locale(gdk-pixbuf:zh_CN) \
 locale(gdk-pixbuf:zh_HK) \
 locale(gdk-pixbuf:zh_TW)"
+
 RDEPENDS:${PN} += "gdk-pixbuf"
 
 inherit rpm

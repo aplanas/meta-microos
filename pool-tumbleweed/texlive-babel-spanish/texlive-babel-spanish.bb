@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(romanidx.sty) \
 tex(spanish.ldf) \
 texlive-babel-spanish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

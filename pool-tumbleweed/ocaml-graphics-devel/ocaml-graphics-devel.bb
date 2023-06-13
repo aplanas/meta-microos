@@ -16,6 +16,7 @@ ocaml-x11 \
 ocamlfind(graphics) \
 ocamlx(Graphics) \
 ocamlx(GraphicsX11)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 ocaml(CamlinternalFormatBasics) \

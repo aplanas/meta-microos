@@ -9,6 +9,7 @@ RPM_HASH = "62015dbfc8d70899c18db66bea441be616e65593ffdda7555663f6306a72c0abb78d
 
 RPROVIDES:${PN} += "avrdude-devel \
 avrdude-devel(aarch-64)"
+
 RDEPENDS:${PN} += "avrdude"
 
 inherit rpm

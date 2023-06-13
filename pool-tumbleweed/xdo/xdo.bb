@@ -10,6 +10,7 @@ RPM_HASH = "92e4b159779737947369d467a8ba252846ccbe26a980abc926823678a58fdae21b27
 
 RPROVIDES:${PN} += "xdo \
 xdo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "403a50bba3239ac435be06ff9639d6366506ab48f06c6080fa3daed865fea2e1821e
 RPROVIDES:${PN} += "ghc-pango \
 ghc-pango(aarch-64) \
 libHSpango-0.13.8.2-AyE0ruIpbddIIASgXg66h2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

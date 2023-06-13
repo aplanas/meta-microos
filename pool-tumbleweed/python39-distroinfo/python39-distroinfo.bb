@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(distroinfo) \
 python39-distroinfo \
 python3dist(distroinfo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-pbr \

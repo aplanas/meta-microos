@@ -15,6 +15,7 @@ highway-devel(aarch-64) \
 pkgconfig(libhwy) \
 pkgconfig(libhwy-contrib) \
 pkgconfig(libhwy-test)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhwy1 \
 pkgconfig(gtest)"

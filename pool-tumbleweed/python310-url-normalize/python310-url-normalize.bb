@@ -14,6 +14,7 @@ python3.10dist(url-normalize) \
 python310-url-normalize \
 python310-url_normalize \
 python3dist(url-normalize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

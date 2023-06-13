@@ -14,6 +14,7 @@ RPM_HASH = "1a410de29d985fa5aa4fd6843f384664556e5bd5084aa59192e77a347cd2ea848abd
 RPROVIDES:${PN} += "libdbus-c++-devel \
 libdbus-c++-devel(aarch-64) \
 pkgconfig(dbus-c++-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

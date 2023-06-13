@@ -15,6 +15,7 @@ cinnamon-screensaver \
 cinnamon-screensaver(aarch-64) \
 libcscreensaver.so.0()(64bit) \
 typelib(CScreensaver)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 iso-country-flags-png \

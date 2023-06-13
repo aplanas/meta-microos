@@ -10,6 +10,7 @@ RPM_HASH = "85be425699681d02270f1e72684b2c57100dbecef940fca4f507a4b1735a49c550c8
 RPROVIDES:${PN} += "d-spy-devel \
 d-spy-devel(aarch-64) \
 pkgconfig(dspy-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 d-spy \
 libdspy-1-1 \

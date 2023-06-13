@@ -82,6 +82,7 @@ locale(kbounce:uk) \
 locale(kbounce:vi) \
 locale(kbounce:zh_CN) \
 locale(kbounce:zh_TW)"
+
 RDEPENDS:${PN} += "kbounce"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "efaa439ba8a2b8d5c58adf3767ca6410f847a798be50dede1073eb50ed6fa48b4d29
 RPROVIDES:${PN} += "libframel.so.8()(64bit) \
 libframel8 \
 libframel8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(org.freedesktop.impl.portal.desktop.kde.desktop) \
 xdg-desktop-portal-kde \
 xdg-desktop-portal-kde(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

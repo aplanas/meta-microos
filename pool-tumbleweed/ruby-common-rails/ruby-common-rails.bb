@@ -18,6 +18,7 @@ rpm_macro(rails_save_gemfile) \
 rpm_macro(rails_write_appinfo) \
 rpm_macro(ruby_fix_shebang) \
 ruby-common-rails"
+
 RDEPENDS:${PN} += "/bin/sh \
 ruby-common \
 rubygem(bundler)"

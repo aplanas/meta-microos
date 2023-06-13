@@ -11,6 +11,7 @@ RPM_HASH = "946eef00fe0d2c3240aa87db48d474af00201eb7e6d30c48664f904dcc541bd4911d
 RPROVIDES:${PN} += "libglade2-devel \
 libglade2-devel(aarch-64) \
 pkgconfig(libglade-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 libglade-2_0-0 \

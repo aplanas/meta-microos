@@ -15,6 +15,7 @@ python3.9dist(qtconsole) \
 python39-jupyter_qtconsole \
 python39-qtconsole \
 python3dist(qtconsole)"
+
 RDEPENDS:${PN} += "(python39-qt5 or python39-pyside2 or python39-PyQt6 or python39-pyside6) \
 /bin/sh \
 /usr/bin/python3.9 \

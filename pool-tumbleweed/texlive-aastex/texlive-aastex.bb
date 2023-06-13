@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aastex631.cls) \
 texlive-aastex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

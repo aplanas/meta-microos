@@ -70,6 +70,7 @@ locale(marble:zh_CN) \
 locale(marble:zh_TW) \
 marble-lang \
 marble-lang-all"
+
 RDEPENDS:${PN} += "marble"
 
 inherit rpm

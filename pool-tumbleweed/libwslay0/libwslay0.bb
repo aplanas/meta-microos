@@ -18,6 +18,7 @@ RPM_HASH = "72504b6dee3f8692867027adb01ee85b14acc737f5ed7cb8427cb92f2b63dc47c9ec
 RPROVIDES:${PN} += "libwslay.so.0()(64bit) \
 libwslay0 \
 libwslay0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

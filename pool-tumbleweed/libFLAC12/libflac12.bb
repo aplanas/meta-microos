@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libFLAC.so.12()(64bit) \
 libFLAC12 \
 libFLAC12(aarch-64) \
 libflac"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

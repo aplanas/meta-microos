@@ -14,6 +14,7 @@ RPM_HASH = "639e10433bf391c7eebd8a5c43688655f28f051d3dac95994654cce1bb9f6770c6ca
 RPROVIDES:${PN} += "libwapcaplet.so.0()(64bit) \
 libwapcaplet0 \
 libwapcaplet0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

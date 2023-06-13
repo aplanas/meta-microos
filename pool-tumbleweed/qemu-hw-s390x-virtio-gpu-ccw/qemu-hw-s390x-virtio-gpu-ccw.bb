@@ -10,6 +10,7 @@ RPM_HASH = "4f16ec7ee929a4d09ae888bb4e868826f09b2f0b3b572ce06331083155dbb1e33a5e
 
 RPROVIDES:${PN} += "qemu-hw-s390x-virtio-gpu-ccw \
 qemu-hw-s390x-virtio-gpu-ccw(aarch-64)"
+
 RDEPENDS:${PN} += "qemu-hw-display-virtio-gpu"
 
 inherit rpm

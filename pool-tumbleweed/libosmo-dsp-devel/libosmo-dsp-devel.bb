@@ -10,6 +10,7 @@ RPM_HASH = "414f670f6715a3a81c35271c1358a05793d4503745d57d2637138d22102a3aeca6a7
 RPROVIDES:${PN} += "libosmo-dsp-devel \
 libosmo-dsp-devel(aarch-64) \
 pkgconfig(libosmodsp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmodsp0"
 

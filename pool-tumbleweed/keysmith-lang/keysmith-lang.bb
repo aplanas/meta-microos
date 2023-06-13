@@ -42,6 +42,7 @@ locale(keysmith:tr) \
 locale(keysmith:uk) \
 locale(keysmith:zh_CN) \
 locale(keysmith:zh_TW)"
+
 RDEPENDS:${PN} += "keysmith"
 
 inherit rpm

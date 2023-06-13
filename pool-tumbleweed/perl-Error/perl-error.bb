@@ -19,6 +19,7 @@ perl(Error::Simple) \
 perl(Error::WarnDie) \
 perl(Error::subs) \
 perl-Error"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

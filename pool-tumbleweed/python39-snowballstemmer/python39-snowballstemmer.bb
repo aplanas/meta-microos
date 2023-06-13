@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(snowballstemmer) \
 python39-snowballstemmer \
 python3dist(snowballstemmer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

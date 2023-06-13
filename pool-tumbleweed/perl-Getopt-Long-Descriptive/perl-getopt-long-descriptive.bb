@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(Getopt::Long::Descriptive) \
 perl(Getopt::Long::Descriptive::Opts) \
 perl(Getopt::Long::Descriptive::Usage) \
 perl-Getopt-Long-Descriptive"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Params::Validate) \
 perl(Sub::Exporter) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-hamster \
 gnome-shell-extension-hamster-time-tracker"
+
 RDEPENDS:${PN} += "gnome-shell \
 hamster-time-tracker \
 typelib(Clutter) \

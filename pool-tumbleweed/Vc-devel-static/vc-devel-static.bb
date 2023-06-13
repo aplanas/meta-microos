@@ -14,6 +14,7 @@ RPM_HASH = "7a205a661fe892702bec2403b41828bdf669fc1177868dbacc9722ce35ecc7b76748
 
 RPROVIDES:${PN} += "Vc-devel-static \
 Vc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "Vc-devel"
 
 inherit rpm

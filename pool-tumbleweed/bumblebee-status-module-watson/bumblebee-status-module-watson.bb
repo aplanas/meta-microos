@@ -9,6 +9,7 @@ RPM_HASH = "d311244b7c8f3457a62b41b77437e448069f1bc4cd4f646515241f2f6246f82099fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-watson"
+
 RDEPENDS:${PN} += "bumblebee-status \
 watson"
 

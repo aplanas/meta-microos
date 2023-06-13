@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libpnetcdf-mpich \
 libpnetcdf.so.4()(64bit) \
 libpnetcdf4-mpich \
 libpnetcdf4-mpich(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

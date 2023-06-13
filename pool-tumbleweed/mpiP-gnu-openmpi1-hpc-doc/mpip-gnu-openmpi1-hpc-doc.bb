@@ -11,6 +11,7 @@ RPM_HASH = "1cc3f37f267ca98602c6327e49f63a1bf6e8a08857b305995a5bbac59a7ac97d69f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpiP-gnu-openmpi1-hpc-doc"
+
 RDEPENDS:${PN} += "mpiP_3_5-gnu-openmpi1-hpc-doc"
 
 inherit rpm

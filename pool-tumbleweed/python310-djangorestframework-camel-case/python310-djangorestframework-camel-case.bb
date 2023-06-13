@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-djangorestframework-camel-case \
 python3.10dist(djangorestframework-camel-case) \
 python310-djangorestframework-camel-case \
 python3dist(djangorestframework-camel-case)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-djangorestframework"
 

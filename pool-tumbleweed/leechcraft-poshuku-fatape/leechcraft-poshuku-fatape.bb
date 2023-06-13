@@ -19,6 +19,7 @@ RPM_HASH = "55a8e3f0535929109a2499e5e30566c410342154b36ce8845d35f3f8d5ff0a4c273a
 RPROVIDES:${PN} += "leechcraft-poshuku-fatape \
 leechcraft-poshuku-fatape(aarch-64) \
 libleechcraft_poshuku_fatape.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

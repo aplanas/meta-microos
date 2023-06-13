@@ -12,6 +12,7 @@ RPM_HASH = "69edcac4e3a6aded127cdc753c8c7b836f70fbb6665c2426ae6131b85132636ed5ab
 RPROVIDES:${PN} += "librav1e.so.0()(64bit) \
 librav1e0 \
 librav1e0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

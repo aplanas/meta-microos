@@ -9,6 +9,7 @@ RPM_HASH = "9d1b2b34f43bbc6abb761f043e60dfc35a214a0a2a1f623e1082cf29ac2900eeee05
 
 RPROVIDES:${PN} += "texlive-glossaries-bin \
 texlive-glossaries-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-glossaries"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1726a471b2caa28fc315c675c9198f063bf0bb814a1c56e9ff8c2ba29ead1b4e6a5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinust1math-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

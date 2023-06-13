@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-poetry-core \
 python3.10dist(poetry-core) \
 python310-poetry-core \
 python3dist(poetry-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

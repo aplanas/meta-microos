@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:raindrops) \
 rubygem(ruby:3.2.0:raindrops:0) \
 rubygem(ruby:3.2.0:raindrops:0.20) \
 rubygem(ruby:3.2.0:raindrops:0.20.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \

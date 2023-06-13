@@ -9,6 +9,7 @@ RPM_HASH = "9eeba9f072b21d7881892f92f31ee8acc633218612ea73b50e1b99b3579710320d46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plimsoll-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -87,6 +87,7 @@ locale(kio:vi) \
 locale(kio:wa) \
 locale(kio:zh_CN) \
 locale(kio:zh_TW)"
+
 RDEPENDS:${PN} += "kio"
 
 inherit rpm

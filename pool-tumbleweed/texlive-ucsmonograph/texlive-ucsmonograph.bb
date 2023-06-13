@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ucsmonograph.cls) \
 texlive-ucsmonograph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

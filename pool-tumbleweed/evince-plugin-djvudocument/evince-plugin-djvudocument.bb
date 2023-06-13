@@ -12,6 +12,7 @@ evince-plugin-djvudocument(aarch-64) \
 libdjvudocument.so()(64bit) \
 metainfo() \
 metainfo(evince-djvudocument.metainfo.xml)"
+
 RDEPENDS:${PN} += "evince \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

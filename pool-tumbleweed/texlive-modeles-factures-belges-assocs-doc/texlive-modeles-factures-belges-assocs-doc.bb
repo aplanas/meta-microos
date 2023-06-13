@@ -9,6 +9,7 @@ RPM_HASH = "d84120275ac2d7bc9f49ad9f3d4258c397c2daa80365920f8625a18fd431ebf4faba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-modeles-factures-belges-assocs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

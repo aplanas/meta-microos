@@ -14,6 +14,7 @@ RPM_HASH = "937d1bab0dcbd83d7ec127d30fd8768e1b33b38719e6bdcdf89dc25b057d386d40c7
 
 RPROVIDES:${PN} += "xdpyinfo \
 xdpyinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \

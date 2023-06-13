@@ -11,6 +11,7 @@ RPM_HASH = "b2f1b5ca672f005af704c655250832ad5bce3a180f29f2bd2d05d271eace51429e0d
 RPROVIDES:${PN} += "libgupnp-igd-devel \
 libgupnp-igd-devel(aarch-64) \
 pkgconfig(gupnp-igd-1.6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgupnp-igd-1_6-0 \
 pkgconfig(glib-2.0) \

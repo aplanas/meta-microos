@@ -11,6 +11,7 @@ RPM_HASH = "3a8a752f494dee8473b239f856deb6dd90d1afa9aadce39f78449601f5fa53ad1da0
 RPROVIDES:${PN} += "meanwhile-devel \
 meanwhile-devel(aarch-64) \
 pkgconfig(meanwhile)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmeanwhile1 \
 pkgconfig(glib-2.0)"

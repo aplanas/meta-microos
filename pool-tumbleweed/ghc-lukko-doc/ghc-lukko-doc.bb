@@ -9,6 +9,7 @@ RPM_HASH = "1d0e910d762ca138547f63b9ef2a58d67113bde37eefc5fd12480a6b7e7cde352bdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lukko-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-extra-views \
 python3.10dist(django-extra-views) \
 python310-django-extra-views \
 python3dist(django-extra-views)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(protobuf) \
 python311-protobuf \
 python311-protobuf(aarch-64) \
 python3dist(protobuf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chscite.sty) \
 texlive-chscite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

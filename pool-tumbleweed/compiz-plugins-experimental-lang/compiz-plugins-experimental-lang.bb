@@ -38,6 +38,7 @@ locale(compiz-plugins-experimental:ru) \
 locale(compiz-plugins-experimental:sv) \
 locale(compiz-plugins-experimental:tr) \
 locale(compiz-plugins-experimental:zh_CN)"
+
 RDEPENDS:${PN} += "compiz-plugins-experimental"
 
 inherit rpm

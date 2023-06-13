@@ -11,6 +11,7 @@ RPM_HASH = "ed166c8a11b80d9e6f92d082d38455e782807f120c56140b086c65a27fbaa48ecfdc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxgen"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

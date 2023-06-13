@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:parser) \
 rubygem(ruby:3.2.0:parser:3) \
 rubygem(ruby:3.2.0:parser:3.1) \
 rubygem(ruby:3.2.0:parser:3.1.3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

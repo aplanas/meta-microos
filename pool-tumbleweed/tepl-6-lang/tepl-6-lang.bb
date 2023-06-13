@@ -35,6 +35,7 @@ locale(tepl-6:uk) \
 locale(tepl-6:zh_CN) \
 tepl-6-lang \
 tepl-6-lang-all"
+
 RDEPENDS:${PN} += "tepl-6"
 
 inherit rpm

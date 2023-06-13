@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-click) \
 python311-sphinx-click \
 python3dist(sphinx-click)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.11dist(click) \
 python3.11dist(docutils) \

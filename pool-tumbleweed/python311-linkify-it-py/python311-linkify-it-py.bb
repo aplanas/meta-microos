@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(linkify-it-py) \
 python311-linkify-it-py \
 python3dist(linkify-it-py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-uc-micro-py"
 

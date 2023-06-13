@@ -10,6 +10,7 @@ RPM_HASH = "2ff1d18b5a4fc7bbc1a80c47a0fc29e7d34516707bc71b0acd930854656f3d8d40e6
 
 RPROVIDES:${PN} += "policycoreutils-newrole \
 policycoreutils-newrole(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

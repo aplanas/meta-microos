@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.context \
 python3.10dist(oslo.context) \
 python3dist(oslo.context)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-debtcollector"
 

@@ -10,6 +10,7 @@ RPM_HASH = "9b806deab3b6f4e9807814002b1aa670a054d5b520da912da6eea97045c6b02ccc01
 RPROVIDES:${PN} += "monitoring-plugins-uptime \
 monitoring-plugins-uptime(aarch-64) \
 nagios-plugins-ups"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

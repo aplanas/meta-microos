@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.ccil.cowan.tagsoup:tagsoup) \
 mvn(org.ccil.cowan.tagsoup:tagsoup:pom:) \
 tagsoup"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 javapackages-tools"

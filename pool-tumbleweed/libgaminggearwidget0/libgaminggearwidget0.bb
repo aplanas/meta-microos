@@ -12,6 +12,7 @@ RPM_HASH = "498a2827ddf34193e7cc4983b0a7fdf6d7d93edebfe94908d8208810a79ea4f0a60c
 RPROVIDES:${PN} += "libgaminggearwidget.so.0()(64bit) \
 libgaminggearwidget0 \
 libgaminggearwidget0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

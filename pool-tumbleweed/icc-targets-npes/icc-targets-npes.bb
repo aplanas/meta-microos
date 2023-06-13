@@ -10,6 +10,7 @@ RPM_HASH = "8173e373987ac1937edb0eb829371ae2b1e9abf545c3974d4ce95d553a754a58eca8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-targets-npes"
+
 RDEPENDS:${PN} += "color-filesystem"
 
 inherit rpm

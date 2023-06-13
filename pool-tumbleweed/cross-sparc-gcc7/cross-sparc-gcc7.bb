@@ -13,6 +13,7 @@ RPM_HASH = "2a8e4fae27653421732ccbc30f94a12f90761d52e3b765208b20f4cd2f10853dfbc5
 RPROVIDES:${PN} += "cross-sparc-gcc7 \
 cross-sparc-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-sparc-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

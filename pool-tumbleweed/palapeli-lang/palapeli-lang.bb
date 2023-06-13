@@ -63,6 +63,7 @@ locale(palapeli:zh_CN) \
 locale(palapeli:zh_TW) \
 palapeli-lang \
 palapeli-lang-all"
+
 RDEPENDS:${PN} += "palapeli"
 
 inherit rpm

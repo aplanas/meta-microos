@@ -10,6 +10,7 @@ RPM_HASH = "5167dc27e25d43f2af8892a06f8ddd73f0d4e8a645d533f6317a2a207729ac7ec2b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xml2po"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:sdoc:2) \
 rubygem(ruby:3.2.0:sdoc:2.4) \
 rubygem(ruby:3.2.0:sdoc:2.4.0) \
 rubygem(sdoc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

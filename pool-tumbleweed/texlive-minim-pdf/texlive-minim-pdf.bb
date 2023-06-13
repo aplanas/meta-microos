@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minim-pdf.tex) \
 texlive-minim-pdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

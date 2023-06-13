@@ -10,6 +10,7 @@ RPM_HASH = "edaa1c642649bfb38b1ea420bfcacf34cafa3d7cad6603d35b307e76f45c1463b3be
 
 RPROVIDES:${PN} += "libspice-client-glib-helper \
 libspice-client-glib-helper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(kvm) \
 ld-linux-aarch64.so.1()(64bit) \

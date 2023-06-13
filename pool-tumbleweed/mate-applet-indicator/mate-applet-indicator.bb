@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "ayatana-indicator-renderer \
 mate-applet-indicator \
 mate-applet-indicator(aarch-64) \
 mate-indicator-applet"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

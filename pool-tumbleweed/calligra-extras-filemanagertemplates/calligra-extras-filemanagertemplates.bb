@@ -11,6 +11,7 @@ RPM_HASH = "6b9bd3652ab192710106bcafbff13a98907e5e8077bb9dc2a1d0c105428b12be9e5f
 
 RPROVIDES:${PN} += "calligra-extras-filemanagertemplates \
 calligra-extras-filemanagertemplates(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

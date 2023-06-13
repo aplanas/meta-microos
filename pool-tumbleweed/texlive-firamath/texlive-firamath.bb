@@ -13,6 +13,7 @@ RPM_HASH = "77437fd23fad16f2a9e27715c56172f4707dabfe64545dff84bd09d4dce2085cd817
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-firamath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

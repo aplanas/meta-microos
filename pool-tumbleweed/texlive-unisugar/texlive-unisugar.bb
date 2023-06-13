@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unisugar.sty) \
 texlive-unisugar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

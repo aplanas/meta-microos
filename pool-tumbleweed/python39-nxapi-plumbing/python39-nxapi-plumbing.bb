@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nxapi-plumbing) \
 python39-nxapi-plumbing \
 python3dist(nxapi-plumbing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-future \
 python39-lxml \

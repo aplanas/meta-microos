@@ -15,6 +15,7 @@ RPM_HASH = "8cda1d8f7b01c65fa24f113b5c5442e4652275055813e30d7a7e4c4437e6073ec048
 RPROVIDES:${PN} += "libosmo-gsup-client-devel \
 libosmo-gsup-client-devel(aarch-64) \
 pkgconfig(libosmo-gsup-client)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

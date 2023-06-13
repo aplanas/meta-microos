@@ -10,6 +10,7 @@ RPM_HASH = "cd9f0245862d53b8f006fa0ccbd5c1a3fe6307447f882250a0ccf3220ba740e3b19c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 guile1"

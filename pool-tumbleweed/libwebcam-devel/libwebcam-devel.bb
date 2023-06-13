@@ -14,6 +14,7 @@ RPM_HASH = "999460074242c27b82f10b8f1ba4d7a797d0463f3a8c7a9f37b715f39527e420c296
 RPROVIDES:${PN} += "libwebcam-devel \
 libwebcam-devel(aarch-64) \
 pkgconfig(libwebcam)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwebcam0"
 

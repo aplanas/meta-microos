@@ -10,6 +10,7 @@ RPM_HASH = "c4fc420135f86ab8d38e24ab550c8baf3427dc6c0e85150a97ccc060cbdcae279a7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-plugins-all"
+
 RDEPENDS:${PN} += "collectd \
 collectd-plugin-amqp \
 collectd-plugin-buddyinfo \

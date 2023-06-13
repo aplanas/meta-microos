@@ -11,6 +11,7 @@ RPM_HASH = "34e1e0c526383a085b1d748bb7aa761dd5c92e3a2a092f6a1d37fe49e0aad531b448
 RPROVIDES:${PN} += "ghc-devel(unicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP) \
 ghc-unicode-collation-devel \
 ghc-unicode-collation-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

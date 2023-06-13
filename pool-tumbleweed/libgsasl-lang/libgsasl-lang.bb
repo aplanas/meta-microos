@@ -32,6 +32,7 @@ locale(libgsasl:sv) \
 locale(libgsasl:uk) \
 locale(libgsasl:vi) \
 locale(libgsasl:zh_CN)"
+
 RDEPENDS:${PN} += "libgsasl"
 
 inherit rpm

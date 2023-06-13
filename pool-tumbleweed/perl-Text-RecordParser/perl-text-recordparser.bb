@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "perl(Text::RecordParser) \
 perl(Text::RecordParser::Object) \
 perl(Text::RecordParser::Tab) \
 perl-Text-RecordParser"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \

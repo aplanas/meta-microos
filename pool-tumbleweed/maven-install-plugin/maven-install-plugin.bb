@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-install-plugin \
 mvn(org.apache.maven.plugins:maven-install-plugin) \
 mvn(org.apache.maven.plugins:maven-install-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-utils) \

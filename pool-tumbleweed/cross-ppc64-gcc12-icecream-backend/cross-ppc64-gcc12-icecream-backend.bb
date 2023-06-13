@@ -9,6 +9,7 @@ RPM_HASH = "59ff61fe0f86471845b885a3d2d652eabd902c7b7b0e4e5b1246a6aedf09a8187c7c
 
 RPROVIDES:${PN} += "cross-ppc64-gcc12-icecream-backend \
 cross-ppc64-gcc12-icecream-backend(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

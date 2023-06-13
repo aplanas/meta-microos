@@ -10,6 +10,7 @@ RPM_HASH = "f772e9dfde5e351697f045d455feb3f462355a75436a5d507a80dee34caa8bc7a436
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gettext-runtime-tools-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

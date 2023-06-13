@@ -9,6 +9,7 @@ RPM_HASH = "7b40e0727765d382688fbf5d6216f647a579d978be6a97bcec7ad1273ba2e9930ddc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libaccounts-qt5-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "8bf9192286cce134e38ee6105bd0a52ad9aa7bc05a306fe610f75e6ad6da108b3b04
 
 RPROVIDES:${PN} += "clevis-dracut \
 clevis-dracut(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 clevis-systemd \

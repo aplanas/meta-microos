@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libldap-data) \
 libldap-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(hatch-vcs) \
 python39-hatch-vcs \
 python39-hatch_vcs \
 python3dist(hatch-vcs)"
+
 RDEPENDS:${PN} += "(python39-setuptools_scm >= 6.4.0) \
 python(abi) \
 python39-hatchling"

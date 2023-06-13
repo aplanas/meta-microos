@@ -14,6 +14,7 @@ RPM_HASH = "ee6fbe17570cb787b11cc519c6129f0bb9def2c655be07aade8b18c67016db596abd
 RPROVIDES:${PN} += "dbus(org.freedesktop.Notifications) \
 notify-osd \
 notify-osd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

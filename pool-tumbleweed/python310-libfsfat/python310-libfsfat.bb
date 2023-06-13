@@ -13,6 +13,7 @@ RPM_HASH = "0b6738b95dd3f0455b8011e3e8b9cb3123ab9ae452901b483c25e93a780f715e812e
 RPROVIDES:${PN} += "python3-libfsfat \
 python310-libfsfat \
 python310-libfsfat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "abdbe5f46b3552d813d602c19a4b5c04dc1a8f811322b6c160dbf547d7b1219aed2f
 
 RPROVIDES:${PN} += "imgui-devel \
 imgui-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

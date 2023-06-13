@@ -10,6 +10,7 @@ RPM_HASH = "bb0a35aec0df97ca4bacfc1a003aac4c2b054a05e29496a0241c1b42417a270fd066
 RPROVIDES:${PN} += "libKPim5Ldap.so.5()(64bit) \
 libKPim5Ldap5 \
 libKPim5Ldap5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kldap \
 ld-linux-aarch64.so.1()(64bit) \

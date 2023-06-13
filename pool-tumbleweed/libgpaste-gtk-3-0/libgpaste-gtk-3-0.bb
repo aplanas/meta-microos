@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgpaste-gtk-3-0 \
 libgpaste-gtk-3-0(aarch-64) \
 libgpaste-gtk-3.so.0()(64bit) \
 libgpaste-gtk-3.so.0(LIBGPASTE_GTK3_42)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libgdk_pixbuf-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "21009fdefd520bcbc39fca67b799697690268db3b123dfb939a5fec38e20c23c9df3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bpolynomial"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

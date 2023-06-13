@@ -16,6 +16,7 @@ RPM_HASH = "3839ecdf93a9c157a2c432394d376f410c971f029522dfb3e2829c240beb9b2b550f
 RPROVIDES:${PN} += "flashrom-devel \
 flashrom-devel(aarch-64) \
 pkgconfig(flashrom)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libflashrom1"
 

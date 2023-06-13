@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-natsort \
 python3.10dist(natsort) \
 python310-natsort \
 python3dist(natsort)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

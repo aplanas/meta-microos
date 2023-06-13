@@ -9,6 +9,7 @@ RPM_HASH = "e5a9f35ada56afc0577e8c29f0200dbf90c753cf0d9bdef8d8ffc7239c6cfb38995a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ragged2e-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

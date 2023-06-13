@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(lsorbian.ldf) \
 tex(usorbian.ldf) \
 texlive-babel-sorbian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

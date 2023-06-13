@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(fenixpar.sty) \
 tex(fenixtok.sty) \
 texlive-fenixpar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

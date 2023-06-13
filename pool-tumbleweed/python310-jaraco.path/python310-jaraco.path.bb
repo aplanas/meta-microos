@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jaraco.path \
 python3.10dist(jaraco.path) \
 python310-jaraco.path \
 python3dist(jaraco.path)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

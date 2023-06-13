@@ -14,6 +14,7 @@ RPM_HASH = "f22700236e77be3283bd0f51659ca901b4618c8cef1edd67cd7d61e0cbb1e7801cf3
 RPROVIDES:${PN} += "libdico.so.2()(64bit) \
 libdico2 \
 libdico2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

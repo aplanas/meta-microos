@@ -13,6 +13,7 @@ mutt_ics \
 python3.9dist(mutt-ics) \
 python39-mutt-ics \
 python3dist(mutt-ics)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

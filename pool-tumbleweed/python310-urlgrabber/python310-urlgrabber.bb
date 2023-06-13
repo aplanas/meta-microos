@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-urlgrabber \
 python3.10dist(urlgrabber) \
 python310-urlgrabber \
 python3dist(urlgrabber)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

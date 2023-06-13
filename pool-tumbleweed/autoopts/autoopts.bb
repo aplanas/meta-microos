@@ -19,6 +19,7 @@ autoopts(aarch-64) \
 libopts-devel \
 perl(Mdoc) \
 pkgconfig(autoopts)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/pkg-config \

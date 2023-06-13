@@ -10,6 +10,7 @@ RPM_HASH = "410370ebc38f963435f1ef5ef7b5d213b98408deda948f7a414f64312b4620540169
 RPROVIDES:${PN} += "ghc-prof(skylighting-format-ansi-0.1-37mK2ZS7ued5gd5quPggBj) \
 ghc-skylighting-format-ansi-prof \
 ghc-skylighting-format-ansi-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

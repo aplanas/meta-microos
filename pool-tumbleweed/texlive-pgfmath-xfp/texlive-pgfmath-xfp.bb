@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgfmath-xfp.sty) \
 texlive-pgfmath-xfp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

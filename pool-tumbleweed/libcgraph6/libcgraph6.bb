@@ -13,6 +13,7 @@ RPM_HASH = "ae70791cdfdb19886dced3ad94d6e514b28b41f1b2e5880c7bb50e150693fda37336
 RPROVIDES:${PN} += "libcgraph.so.6()(64bit) \
 libcgraph6 \
 libcgraph6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

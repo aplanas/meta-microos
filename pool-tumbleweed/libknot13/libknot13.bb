@@ -15,6 +15,7 @@ RPM_HASH = "c1d25fbae75da7078406456a4c2110e1df4e09e4bc6692cbe4280774c2410c0906e3
 RPROVIDES:${PN} += "libknot.so.13()(64bit) \
 libknot13 \
 libknot13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

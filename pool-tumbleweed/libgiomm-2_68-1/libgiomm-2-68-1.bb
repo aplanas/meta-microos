@@ -12,6 +12,7 @@ RPM_HASH = "5e6633ae30c6806d1e4767a5116cbb3915e1efd67e4fcbdeb87003d528e381301aeb
 RPROVIDES:${PN} += "libgiomm-2.68.so.1()(64bit) \
 libgiomm-2_68-1 \
 libgiomm-2_68-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-PyRIC \
 python3.10dist(pyric) \
 python310-PyRIC \
 python3dist(pyric)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

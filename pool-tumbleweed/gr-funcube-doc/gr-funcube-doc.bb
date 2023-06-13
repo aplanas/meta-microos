@@ -9,6 +9,7 @@ RPM_HASH = "b67b651e576fe6c9968f32de041e5d1bb028a562a4a3c9d2578a5f174e0c8d19673a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-funcube-doc"
+
 RDEPENDS:${PN} += "libgnuradio-funcube3_10_0"
 
 inherit rpm

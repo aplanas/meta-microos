@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DateTime::Format::Strptime) \
 perl(DateTime::Format::Strptime::Types) \
 perl-DateTime-Format-Strptime"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Locale) \

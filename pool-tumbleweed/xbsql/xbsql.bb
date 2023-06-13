@@ -11,6 +11,7 @@ RPM_HASH = "1569ca7d6de7242e5d154d91c758340acedc53de20737743e1caeda97d5a9e0c7425
 
 RPROVIDES:${PN} += "xbsql \
 xbsql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

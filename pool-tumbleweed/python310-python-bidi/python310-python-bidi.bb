@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-bidi \
 python3.10dist(python-bidi) \
 python310-python-bidi \
 python3dist(python-bidi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

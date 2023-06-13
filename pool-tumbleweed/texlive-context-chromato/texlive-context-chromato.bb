@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-chromato.tex) \
 texlive-context-chromato"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

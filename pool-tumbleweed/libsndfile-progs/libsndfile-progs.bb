@@ -9,6 +9,7 @@ RPM_HASH = "9a4070b93d977e590d4aeaa0142c563fe9d3a7690b2012e203c50ec958e1ac9d643a
 
 RPROVIDES:${PN} += "libsndfile-progs \
 libsndfile-progs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "b1e0b442f7e135b1f186dcbd97fb44ba7b406fd88d8c6e26edcd8698ae2978c2c193
 RPROVIDES:${PN} += "libcallback.so.1()(64bit) \
 libcallback1 \
 libcallback1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

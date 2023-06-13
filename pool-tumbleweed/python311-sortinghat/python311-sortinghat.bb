@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sortinghat) \
 python311-sortinghat \
 python3dist(sortinghat)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

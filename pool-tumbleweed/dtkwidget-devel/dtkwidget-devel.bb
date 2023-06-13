@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(DtkWidget) \
 dtkwidget-devel \
 dtkwidget-devel(aarch-64) \
 pkgconfig(dtkwidget)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdtkwidget5 \
 pkgconfig(dtkcore) \

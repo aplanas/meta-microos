@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-shutil \
 python3.10dist(pytest-shutil) \
 python310-pytest-shutil \
 python3dist(pytest-shutil)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-execnet \
 python310-path \

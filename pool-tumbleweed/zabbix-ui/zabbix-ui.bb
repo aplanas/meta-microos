@@ -12,6 +12,7 @@ RPM_HASH = "efb742d8c558d5a841b858a25ed83b9850d81d2cc3cf5150e393c8c8264ff9f74a18
 RPROVIDES:${PN} += "config(zabbix-ui) \
 zabbix-ui \
 zabbix-ui(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 apache2 \
 php8 \

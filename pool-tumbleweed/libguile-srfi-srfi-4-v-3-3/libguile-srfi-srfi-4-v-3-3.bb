@@ -13,6 +13,7 @@ RPM_HASH = "7af32f42abf6e07a4d4b7a68e2b8de921166ed79d8bb22c5eaafd032ed3271dd6692
 RPROVIDES:${PN} += "libguile-srfi-srfi-4-v-3-3 \
 libguile-srfi-srfi-4-v-3-3(aarch-64) \
 libguile-srfi-srfi-4-v-3.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

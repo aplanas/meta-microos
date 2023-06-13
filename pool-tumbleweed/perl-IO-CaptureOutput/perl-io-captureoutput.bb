@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(IO::CaptureOutput) \
 perl(IO::CaptureOutput::_proxy) \
 perl-IO-CaptureOutput"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

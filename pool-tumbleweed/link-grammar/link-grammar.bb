@@ -16,6 +16,7 @@ RPM_HASH = "0f3da16e8e3e389f0b64284e5957f19ad89c23dbb5731a9ff113814610270ac6ce55
 
 RPROVIDES:${PN} += "link-grammar \
 link-grammar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

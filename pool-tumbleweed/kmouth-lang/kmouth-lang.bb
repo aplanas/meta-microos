@@ -79,6 +79,7 @@ locale(kmouth:uk) \
 locale(kmouth:vi) \
 locale(kmouth:zh_CN) \
 locale(kmouth:zh_TW)"
+
 RDEPENDS:${PN} += "kmouth"
 
 inherit rpm

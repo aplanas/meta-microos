@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-sox \
 python3.10dist(sox) \
 python310-sox \
 python3dist(sox)"
+
 RDEPENDS:${PN} += "python(abi) \
 sox"
 

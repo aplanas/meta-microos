@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-j2gen \
 python3.10dist(j2gen) \
 python310-j2gen \
 python3dist(j2gen)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

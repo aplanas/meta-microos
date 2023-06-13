@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ldacBT-devel \
 ldacBT-devel(aarch-64) \
 pkgconfig(ldacBT-abr) \
 pkgconfig(ldacBT-enc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldac2"
 

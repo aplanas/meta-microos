@@ -40,6 +40,7 @@ tex(a_jqnft2.enc) \
 tex(a_radyzq.enc) \
 tex(a_va7yvq.enc) \
 texlive-magra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

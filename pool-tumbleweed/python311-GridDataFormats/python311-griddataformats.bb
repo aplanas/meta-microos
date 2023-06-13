@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(griddataformats) \
 python311-GridDataFormats \
 python3dist(griddataformats)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-mrcfile \
 python311-numpy \

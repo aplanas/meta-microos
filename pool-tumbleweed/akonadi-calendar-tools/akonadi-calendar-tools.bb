@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "akonadi-calendar-tools \
 akonadi-calendar-tools(aarch-64) \
 application() \
 application(konsolekalendar.desktop)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CalendarCore.so.5()(64bit) \

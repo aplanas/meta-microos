@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(boinc.desktop) \
 boinc-manager \
 boinc-manager(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(rtslib-fb) \
 python311-rtslib \
 python311-rtslib-fb \
 python3dist(rtslib-fb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

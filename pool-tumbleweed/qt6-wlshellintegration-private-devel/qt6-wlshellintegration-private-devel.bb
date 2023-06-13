@@ -11,6 +11,7 @@ RPM_HASH = "7ca3968fddac44ffda54afd68979b022f316ca8e81c0fbcf6adc58fca9c64c4be28c
 RPROVIDES:${PN} += "cmake(Qt6WlShellIntegrationPrivate) \
 qt6-wlshellintegration-private-devel \
 qt6-wlshellintegration-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6WlShellIntegration6 \
 qt6-gui-private-devel \
 qt6-waylandclient-private-devel"

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-django-reversion \
 python3.10dist(django-reversion) \
 python310-django-reversion \
 python3dist(django-reversion)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

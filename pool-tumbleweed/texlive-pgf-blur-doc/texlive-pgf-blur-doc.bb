@@ -9,6 +9,7 @@ RPM_HASH = "4e925758e573b319e368fa5858d062cc516a85fa0abf2490e5f5a311bf3b7587c139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-blur-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "8a640eb4780f6df5349875c97c6efbbeb1ab9fecca095ef7441f057885aa046f1f1c
 RPROVIDES:${PN} += "libwbxml2-1 \
 libwbxml2-1(aarch-64) \
 libwbxml2.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

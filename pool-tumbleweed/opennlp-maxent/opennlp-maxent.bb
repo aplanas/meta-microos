@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.apache.opennlp:opennlp-maxent) \
 mvn(org.apache.opennlp:opennlp-maxent:pom:) \
 opennlp-maxent \
 osgi(org.apache.opennlp.maxent)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -12,6 +12,7 @@ RPM_HASH = "d47d10cb3316d851a05c982aa834ee5fd31c72be4418ec738a5b435c00690ee566ec
 RPROVIDES:${PN} += "bibtool \
 bibtool(aarch-64) \
 bibtool-doc"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

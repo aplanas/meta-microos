@@ -10,6 +10,7 @@ RPM_HASH = "26f9f53edf6c4493090178d16c51a8d7eccfe74bef5a6fab64b3407758b4a06ee424
 RPROVIDES:${PN} += "ghc-dlist \
 ghc-dlist(aarch-64) \
 libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

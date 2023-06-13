@@ -11,6 +11,7 @@ RPM_HASH = "0b94551d68ac246901a2b24108919daf0ecfeae79beeee52a7eb3de705bd1c6422b5
 RPROVIDES:${PN} += "typelib(LightDM) \
 typelib-1_0-LightDM-1 \
 typelib-1_0-LightDM-1(aarch-64)"
+
 RDEPENDS:${PN} += "liblightdm-gobject-1.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -22,6 +22,7 @@ libfuse3.so.3(FUSE_3.2)(64bit) \
 libfuse3.so.3(FUSE_3.3)(64bit) \
 libfuse3.so.3(FUSE_3.4)(64bit) \
 libfuse3.so.3(FUSE_3.7)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

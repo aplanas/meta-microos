@@ -23,6 +23,7 @@ tex(usy.map) \
 tex(usyr.tfm) \
 tex(uusy.fd) \
 texlive-symbol"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

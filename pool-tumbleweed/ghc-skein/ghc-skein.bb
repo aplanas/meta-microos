@@ -24,6 +24,7 @@ RPM_HASH = "3d89b79fbdb5dbc58d9b9b31599012ad1442f1b12ade2187ef6838d2e97e66e0d848
 RPROVIDES:${PN} += "ghc-skein \
 ghc-skein(aarch-64) \
 libHSskein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

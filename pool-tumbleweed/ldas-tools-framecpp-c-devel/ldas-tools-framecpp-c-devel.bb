@@ -11,6 +11,7 @@ RPM_HASH = "42c36ca3fe2899c80d90759aefa7fc860f5a351b9c1ccdf09c70478a682464b1130a
 RPROVIDES:${PN} += "ldas-tools-framecpp-c-devel \
 ldas-tools-framecpp-c-devel(aarch-64) \
 pkgconfig(framecppc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libframecppc3"
 

@@ -10,6 +10,7 @@ RPM_HASH = "f95d3bc3334d4c176c0f4612537ddba97cbe127a5c07145b0f0eb1ffbdf8eb0fe007
 RPROVIDES:${PN} += "pdfjam \
 texlive-pdfjam-bin \
 texlive-pdfjam-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pdfjam"
 
 inherit rpm

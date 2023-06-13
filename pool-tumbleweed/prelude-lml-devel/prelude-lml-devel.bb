@@ -10,6 +10,7 @@ RPM_HASH = "90f38404e26936f49d31cfb82e4ef689d9b8b9533f0f99f751474b1a71850233707e
 
 RPROVIDES:${PN} += "prelude-lml-devel \
 prelude-lml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libprelude-devel \
 prelude-lml"
 

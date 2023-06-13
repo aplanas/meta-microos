@@ -12,6 +12,7 @@ RPM_HASH = "8a2fd938e43b3688c3dccdc6da256e342d6690e1b560e504c2342a801c5d14ea0536
 RPROVIDES:${PN} += "libXpm-tools \
 libXpm-tools(aarch-64) \
 xorg-x11-libXpm"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

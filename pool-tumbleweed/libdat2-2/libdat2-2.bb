@@ -16,6 +16,7 @@ libdat2-2 \
 libdat2-2(aarch-64) \
 libdat2.so.2()(64bit) \
 libdat2.so.2(DAT_2.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dapl \
 ld-linux-aarch64.so.1()(64bit) \

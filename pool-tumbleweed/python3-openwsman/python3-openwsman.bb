@@ -11,6 +11,7 @@ RPM_HASH = "fbd84d699e5a16bbcac165619ba5eed3f257bb0f84587f1dcc67fa73017d2e9d9343
 RPROVIDES:${PN} += "openwsman-python \
 python3-openwsman \
 python3-openwsman(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

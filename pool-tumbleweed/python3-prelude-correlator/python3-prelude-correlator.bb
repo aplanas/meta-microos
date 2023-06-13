@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-prelude-correlator \
 python3.10dist(prelude-correlator) \
 python3dist(prelude-correlator)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 prelude-correlator \
 python(abi) \

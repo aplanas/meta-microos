@@ -10,6 +10,7 @@ RPM_HASH = "6d158835b2980a125828164f76c616b8dfdaecd8207730ba8fad0406db9328a59a86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Flask-doc"
+
 RDEPENDS:${PN} += "python39-Flask"
 
 inherit rpm

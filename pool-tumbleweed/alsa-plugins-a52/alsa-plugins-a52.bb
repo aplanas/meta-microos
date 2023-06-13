@@ -10,6 +10,7 @@ RPM_HASH = "7a1847178a81e62c991f3925f1d6b2d0b78779845e57580901d870e754531fe0fc68
 RPROVIDES:${PN} += "alsa-plugins-a52 \
 alsa-plugins-a52(aarch-64) \
 libasound_module_pcm_a52.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "c5cf3bc7653263c9ee06d793c39cd05c8c155e17ab5422cf85103187aee03b8bca20
 RPROVIDES:${PN} += "bash:/usr/lib64/libreadline.a \
 readline5-devel \
 readline5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libreadline5 \
 ncurses-devel"
 

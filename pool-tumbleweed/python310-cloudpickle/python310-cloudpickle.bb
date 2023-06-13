@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-cloudpickle \
 python3.10dist(cloudpickle) \
 python310-cloudpickle \
 python3dist(cloudpickle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

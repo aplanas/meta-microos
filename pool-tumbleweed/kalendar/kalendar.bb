@@ -24,6 +24,7 @@ qt5qmlimport(org.kde.kalendar.calendar.1) \
 qt5qmlimport(org.kde.kalendar.components.1) \
 qt5qmlimport(org.kde.kalendar.contact.1) \
 qt5qmlimport(org.kde.kalendar.mail.1)"
+
 RDEPENDS:${PN} += "kalendarac \
 kdepim-addons \
 kdepim-runtime \

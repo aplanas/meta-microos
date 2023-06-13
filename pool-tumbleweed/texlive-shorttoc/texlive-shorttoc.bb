@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(shorttoc.sty) \
 texlive-shorttoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

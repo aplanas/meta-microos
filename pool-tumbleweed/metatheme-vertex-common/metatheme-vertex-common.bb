@@ -14,6 +14,7 @@ RPM_HASH = "e0a268627e9c6aaaac633a828b3db7a8e18a222b473f658d8a7f6a0ec1775554c4d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-vertex-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

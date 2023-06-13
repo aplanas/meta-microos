@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_logback) \
 mvn(io.prometheus:simpleclient_logback:pom:) \
 osgi(io.prometheus.simpleclient_logback) \
 prometheus-simpleclient-java-logback"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(ch.qos.logback:logback-classic) \

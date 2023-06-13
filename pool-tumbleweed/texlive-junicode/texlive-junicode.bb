@@ -498,6 +498,7 @@ tex(a_zyf2d6.enc) \
 tex(junicode.sty) \
 tex(mt-Junicode.cfg) \
 texlive-junicode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

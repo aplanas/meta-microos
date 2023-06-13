@@ -9,6 +9,7 @@ RPM_HASH = "fc3fb022e10da57e791059a70b5ec07b49a24f25c5c702e4b53f19fab518edabb70a
 
 RPROVIDES:${PN} += "kdoctools \
 kdoctools(aarch-64)"
+
 RDEPENDS:${PN} += "docbook-xsl-stylesheets \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

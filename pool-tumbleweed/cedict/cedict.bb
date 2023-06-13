@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cedict \
 locale(gjiten:zh)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

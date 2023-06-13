@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(iniconfig) \
 python39-iniconfig \
 python3dist(iniconfig)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -24,6 +24,7 @@ tex(bbold7.tfm) \
 tex(bbold8.tfm) \
 tex(bbold9.tfm) \
 texlive-bbold"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

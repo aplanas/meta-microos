@@ -20,6 +20,7 @@ leechcraft-azoth-acetamide(aarch-64) \
 leechcraft-azoth-protocolplugin \
 libleechcraft_azoth_acetamide.so()(64bit) \
 mimehandler(x-scheme-handler/irc)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

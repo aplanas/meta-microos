@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(confusable-homoglyphs) \
 python39-confusable-homoglyphs \
 python3dist(confusable-homoglyphs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

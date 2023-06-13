@@ -32,6 +32,7 @@ python39-pyroute2.ndb \
 python39-pyroute2.nftables \
 python39-pyroute2.nslink \
 python3dist(pyroute2)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python(abi) \
 update-alternatives"

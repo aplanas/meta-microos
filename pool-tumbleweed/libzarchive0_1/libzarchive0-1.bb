@@ -10,6 +10,7 @@ RPM_HASH = "b301d127189bb89854d1598492787cad3ebe71749d32717403802b4f6876ec528834
 RPROVIDES:${PN} += "libzarchive.so.0.1()(64bit) \
 libzarchive0_1 \
 libzarchive0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

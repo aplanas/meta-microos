@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-schemaregistry-avroencoder) \
 python311-azure-schemaregistry-avroencoder \
 python3dist(azure-schemaregistry-avroencoder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-avro \
 python311-azure-nspkg \

@@ -11,6 +11,7 @@ RPM_HASH = "8b0d8fa8a01fd0d902e958dda7881e2fc2919ff765231855bdf4d4f6be98ec629f55
 RPROVIDES:${PN} += "udunits-compat-devel \
 udunits-compat-devel(aarch-64) \
 udunits-devel"
+
 RDEPENDS:${PN} += "udunits-compat \
 udunits2-devel"
 

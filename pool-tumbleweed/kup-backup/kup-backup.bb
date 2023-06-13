@@ -21,6 +21,7 @@ libkdeinit5_kup-daemon.so()(64bit) \
 metainfo() \
 metainfo(org.kde.kup.appdata.xml) \
 metainfo(org.kde.kupapplet.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \

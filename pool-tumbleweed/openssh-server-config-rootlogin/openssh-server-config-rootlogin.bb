@@ -12,6 +12,7 @@ RPM_HASH = "5e785f926c105144112c41075d68be1647e79296c6267fd95193457831e673993744
 
 RPROVIDES:${PN} += "openssh-server-config-rootlogin \
 openssh-server-config-rootlogin(aarch-64)"
+
 RDEPENDS:${PN} += "openssh-server"
 
 inherit rpm

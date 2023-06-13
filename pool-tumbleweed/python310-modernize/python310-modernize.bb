@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-modernize \
 python3.10dist(modernize) \
 python310-modernize \
 python3dist(modernize)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifmtarg.sty) \
 texlive-ifmtarg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

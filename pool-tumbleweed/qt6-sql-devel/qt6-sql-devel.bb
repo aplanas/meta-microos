@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Sql) \
 pkgconfig(Qt6Sql) \
 qt6-sql-devel \
 qt6-sql-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Sql6 \

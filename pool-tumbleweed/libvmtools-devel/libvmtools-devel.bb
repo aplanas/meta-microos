@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libvmtools-devel \
 libvmtools-devel(aarch-64) \
 pkgconfig(libDeployPkg) \
 pkgconfig(vmguestlib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvmtools0"
 

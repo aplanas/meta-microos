@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(toolbox) \
 toolbox"
+
 RDEPENDS:${PN} += "(podman or docker) \
 /bin/bash"
 

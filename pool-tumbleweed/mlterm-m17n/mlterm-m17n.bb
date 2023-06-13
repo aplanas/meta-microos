@@ -13,6 +13,7 @@ libim-m17nlib.so()(64bit) \
 locale(m17n:ja;ko;zh;ar;he) \
 mlterm-m17n \
 mlterm-m17n(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

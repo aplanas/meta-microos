@@ -10,6 +10,7 @@ RPM_HASH = "8ef5b26febe5d11e3a4c3d5d0f9c9f945b162b2b86c05b8b82df0171dbbad225a7e2
 
 RPROVIDES:${PN} += "libvsmbr-tools \
 libvsmbr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

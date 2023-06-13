@@ -12,6 +12,7 @@ RPM_HASH = "f9d7da034a7dbd20b8ce282d5230eeae9aba5baafc360645911913bcb1087570d86a
 RPROVIDES:${PN} += "libcxxtools-http.so.10()(64bit) \
 libcxxtools-http10 \
 libcxxtools-http10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

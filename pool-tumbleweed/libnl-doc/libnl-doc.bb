@@ -10,6 +10,7 @@ RPM_HASH = "dc9c81e48e3069a1031c52c059e757d3615b8576f816df65167b1a3717fbf802689c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

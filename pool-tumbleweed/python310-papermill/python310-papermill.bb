@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-papermill \
 python3.10dist(papermill) \
 python310-papermill \
 python3dist(papermill)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions if python310-azure-storage-blob) \
 /bin/sh \
 /usr/bin/python3.10 \

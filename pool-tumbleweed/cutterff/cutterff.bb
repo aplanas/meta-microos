@@ -26,6 +26,7 @@ mimehandler(video/quicktime) \
 mimehandler(video/x-flv) \
 mimehandler(video/x-ms-wmv) \
 mimehandler(video/x-msvideo)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \

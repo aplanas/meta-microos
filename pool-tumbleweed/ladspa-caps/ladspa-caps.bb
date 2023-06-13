@@ -12,6 +12,7 @@ RPM_HASH = "b2ba488fd2b748b5cf6c72b7c47e31a11eb7a09396dcc387b11ce4849fcf33ba0916
 
 RPROVIDES:${PN} += "ladspa-caps \
 ladspa-caps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

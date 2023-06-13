@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(paresse-old.sty) \
 tex(paresse-utf8.sty) \
 tex(paresse.sty) \
 texlive-paresse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

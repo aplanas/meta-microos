@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libraptor-devel \
 libraptor-devel(aarch-64) \
 pkgconfig(raptor2) \
 raptor-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libraptor2-0 \

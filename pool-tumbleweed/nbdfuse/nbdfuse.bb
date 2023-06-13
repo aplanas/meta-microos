@@ -9,6 +9,7 @@ RPM_HASH = "0e798ac94f05d25cb5bcace3a6d37559a47dea620234eb76194688076ad8b3c1ecdc
 
 RPROVIDES:${PN} += "nbdfuse \
 nbdfuse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

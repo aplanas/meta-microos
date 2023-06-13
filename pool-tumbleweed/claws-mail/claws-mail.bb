@@ -23,6 +23,7 @@ config(claws-mail) \
 libravatar.so()(64bit) \
 mimehandler(x-scheme-handler/mailto) \
 sylpheed-claws"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

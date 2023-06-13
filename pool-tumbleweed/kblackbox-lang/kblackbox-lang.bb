@@ -82,6 +82,7 @@ locale(kblackbox:uk) \
 locale(kblackbox:vi) \
 locale(kblackbox:zh_CN) \
 locale(kblackbox:zh_TW)"
+
 RDEPENDS:${PN} += "kblackbox"
 
 inherit rpm

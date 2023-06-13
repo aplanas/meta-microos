@@ -12,6 +12,7 @@ RPM_HASH = "ff0be968fd324e380baec2707957141c551b49d5db9245b77c57d029d497277c72b4
 
 RPROVIDES:${PN} += "sundials-openmpi3-devel \
 sundials-openmpi3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsundials_arkode5-openmpi3 \
 libsundials_cvode6-openmpi3 \
 libsundials_cvodes6-openmpi3 \

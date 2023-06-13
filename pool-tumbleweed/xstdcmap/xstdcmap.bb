@@ -12,6 +12,7 @@ RPM_HASH = "15893358fd9b5f438478f6a2da605069cb82609d4e85cbe0e5e1475abca7b5fa2327
 
 RPROVIDES:${PN} += "xstdcmap \
 xstdcmap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

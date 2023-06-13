@@ -10,6 +10,7 @@ RPM_HASH = "538a13f00c14272c7015f6b4936cfe0f06f397fc79c67639321b906c94bb885ae239
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "signon-plugins-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

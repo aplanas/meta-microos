@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fifinddo-info-doc:de;en) \
 texlive-fifinddo-info-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ metainfo(org.thregr.screenkey.metainfo.xml) \
 python3.10dist(screenkey) \
 python3dist(screenkey) \
 screenkey"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3 \

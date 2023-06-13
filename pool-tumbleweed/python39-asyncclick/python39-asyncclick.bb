@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(asyncclick) \
 python39-asyncclick \
 python3dist(asyncclick)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

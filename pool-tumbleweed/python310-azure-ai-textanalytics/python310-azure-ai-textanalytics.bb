@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-azure-ai-textanalytics \
 python3.10dist(azure-ai-textanalytics) \
 python310-azure-ai-textanalytics \
 python3dist(azure-ai-textanalytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-nspkg \
 python310-azure-common \

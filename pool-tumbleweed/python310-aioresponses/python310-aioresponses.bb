@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-aioresponses \
 python3.10dist(aioresponses) \
 python310-aioresponses \
 python3dist(aioresponses)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp"
 

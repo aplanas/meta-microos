@@ -13,6 +13,7 @@ application(myquerytutor.desktop) \
 myquerytutor \
 python3.10dist(myquerytutor) \
 python3dist(myquerytutor)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyQt5 \

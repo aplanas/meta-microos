@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "import-properties-plugin \
 mvn(com.sun.istack:import-properties-plugin) \
 mvn(com.sun.istack:import-properties-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.resolver:maven-resolver-api) \

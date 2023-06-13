@@ -12,6 +12,7 @@ RPM_HASH = "df7d7b253022e2dedc207ccffae1be471dd4a2eca05982de80548d8930ebb8150b98
 RPROVIDES:${PN} += "pkgconfig(yast2-ycp-ui-bindings) \
 yast2-ycp-ui-bindings-devel \
 yast2-ycp-ui-bindings-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boost-devel \
 glibc-devel \

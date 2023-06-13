@@ -9,6 +9,7 @@ RPM_HASH = "821c979f0734511085af4ae6497098f005b496fde287f1555e4e88bbe5398214f4db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-musixtex-fonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

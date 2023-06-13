@@ -10,6 +10,7 @@ RPM_HASH = "61c4970ef9f2411fe17cdaaf1902d8007e77d0176f4384322d860f099119001d478a
 
 RPROVIDES:${PN} += "vala-cmake-modules \
 vala-cmake-modules(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

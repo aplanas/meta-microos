@@ -13,6 +13,7 @@ RPM_HASH = "8350089e49d43d3206f2b96daeeb141e714de2908201d7794a3c55ff068b2791b4ae
 RPROVIDES:${PN} += "libpurple-devel \
 libpurple-devel(aarch-64) \
 pkgconfig(purple)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpurple \
 pkgconfig(glib-2.0) \

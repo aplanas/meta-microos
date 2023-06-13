@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "apache-commons-pool2 \
 commons-pool2 \
 mvn(org.apache.commons:commons-pool2) \
 mvn(org.apache.commons:commons-pool2:pom:)"
+
 RDEPENDS:${PN} += "cglib \
 java-headless \
 javapackages-filesystem"

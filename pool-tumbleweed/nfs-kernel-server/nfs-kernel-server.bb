@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(nfs-kernel-server) \
 nfs-kernel-server \
 nfs-kernel-server(aarch-64) \
 nfs-utils"
+
 RDEPENDS:${PN} += "(kmod(nfsd.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

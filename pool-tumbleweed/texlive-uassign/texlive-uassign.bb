@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uassign.sty) \
 texlive-uassign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

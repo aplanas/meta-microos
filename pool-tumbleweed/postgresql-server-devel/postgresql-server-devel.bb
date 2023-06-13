@@ -45,6 +45,7 @@ rpm_macro(pg_obsolete_llvm_subpackage) \
 rpm_macro(pg_server_requires) \
 rpm_macro(pg_version_from_name) \
 rpm_macro(postgresql_has_llvm)"
+
 RDEPENDS:${PN} += "postgresql-server-devel-implementation"
 
 inherit rpm

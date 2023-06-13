@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unswcover.sty) \
 texlive-unswcover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

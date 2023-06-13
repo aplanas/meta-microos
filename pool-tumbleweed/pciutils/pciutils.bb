@@ -17,6 +17,7 @@ RPM_HASH = "2cb3b128bb3c40a4b97368811c8a85d4dba4beec8738e5fdf9de631e45c080e2d85c
 
 RPROVIDES:${PN} += "pciutils \
 pciutils(aarch-64)"
+
 RDEPENDS:${PN} += "hwdata \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

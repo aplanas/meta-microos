@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_mdraid.so.2()(64bit) \
 libbd_mdraid2 \
 libbd_mdraid2(aarch-64) \
 libblockdev-mdraid"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

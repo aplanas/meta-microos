@@ -13,6 +13,7 @@ RPM_HASH = "f461cc5d927d9fd884573c0af0e3c84a9735aa95cec11d8161db64bed53015863cf5
 RPROVIDES:${PN} += "libwayland-cursor.so.0()(64bit) \
 libwayland-cursor0 \
 libwayland-cursor0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

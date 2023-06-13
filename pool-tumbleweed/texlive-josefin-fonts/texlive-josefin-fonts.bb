@@ -133,6 +133,7 @@ font(josefinsansmedium) \
 font(josefinsanssemibold) \
 font(josefinsansthin) \
 texlive-josefin-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

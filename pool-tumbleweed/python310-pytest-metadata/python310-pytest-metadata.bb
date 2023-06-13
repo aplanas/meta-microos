@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-metadata \
 python3.10dist(pytest-metadata) \
 python310-pytest-metadata \
 python3dist(pytest-metadata)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

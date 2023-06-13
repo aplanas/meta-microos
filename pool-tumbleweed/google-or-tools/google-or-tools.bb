@@ -11,6 +11,7 @@ RPM_HASH = "b164e25a65c4150798dc120a10b6624030252946cb372642b66f45386c7571eaa9bd
 
 RPROVIDES:${PN} += "google-or-tools \
 google-or-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_flags_internal.so.2301.0.0()(64bit) \

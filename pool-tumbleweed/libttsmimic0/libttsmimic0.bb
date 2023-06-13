@@ -28,6 +28,7 @@ libttsmimic_lang_cmu_us_slt_hts.so.0()(64bit) \
 libttsmimic_lang_cmulex.so.0()(64bit) \
 libttsmimic_lang_usenglish.so.0()(64bit) \
 libttsmimic_lang_vid_gb_ap.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

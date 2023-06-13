@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "multiverse \
 mvn(org.multiverse:multiverse-core) \
 mvn(org.multiverse:multiverse-core:pom:) \
 mvn(org.multiverse:multiverse:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -19,6 +19,7 @@ RPM_HASH = "316af65e5238b83f647dafcf2aa32e894594f83b5af53734bb265ad1a71a533f50b6
 RPROVIDES:${PN} += "libwrapper.so()(64bit) \
 tanukiwrapper \
 tanukiwrapper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

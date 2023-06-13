@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-surefire-report-plugin \
 mvn(org.apache.maven.plugins:maven-surefire-report-plugin) \
 mvn(org.apache.maven.plugins:maven-surefire-report-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.doxia:doxia-site-renderer) \

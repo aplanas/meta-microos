@@ -67,6 +67,7 @@ azure-cli-storage \
 azure-cli-vm \
 python3.10dist(azure-cli) \
 python3dist(azure-cli)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 azure-cli-command-modules-nspkg \
 azure-cli-core \

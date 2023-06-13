@@ -11,6 +11,7 @@ RPM_HASH = "afcaf446aa0ff0cb7dc28a3813fd89b46f170a72e1c1e2733aaec6b32be046453a8f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpiP-gnu-openmpi2-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 mpiP_3_5-gnu-openmpi2-hpc"
 

@@ -134,6 +134,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(alphaslabone) \
 texlive-alfaslabone-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

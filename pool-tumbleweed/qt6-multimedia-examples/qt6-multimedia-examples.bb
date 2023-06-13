@@ -9,6 +9,7 @@ RPM_HASH = "1ebef9ae1b845a0982759253bfc0dbb116dc95b8e1566e553228778d5c3a502fe6d9
 
 RPROVIDES:${PN} += "qt6-multimedia-examples \
 qt6-multimedia-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

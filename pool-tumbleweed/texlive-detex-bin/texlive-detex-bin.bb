@@ -9,6 +9,7 @@ RPM_HASH = "6d38401b892639d5aba5f780357e319ba34d7b096efe594906bd771a379353b28eab
 
 RPROVIDES:${PN} += "texlive-detex-bin \
 texlive-detex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

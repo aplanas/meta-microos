@@ -20,6 +20,7 @@ metainfo() \
 metainfo(org.kde.skanpage.appdata.xml) \
 skanpage \
 skanpage(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami2 \
 libKF5ConfigCore.so.5()(64bit) \
 libKF5ConfigGui.so.5()(64bit) \

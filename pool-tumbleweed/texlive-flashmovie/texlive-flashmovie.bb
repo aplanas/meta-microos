@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flashmovie.sty) \
 texlive-flashmovie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ gnome-desktop-doc \
 libgnome-desktop-3-devel \
 libgnome-desktop-3-devel(aarch-64) \
 pkgconfig(gnome-desktop-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnome-desktop-3-20 \
 libxkbfile-devel \

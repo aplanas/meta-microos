@@ -9,6 +9,7 @@ RPM_HASH = "4ffac0ab913fc030d87fb919067139177fb426910d6e4344cfa30b49516e2533a67b
 
 RPROVIDES:${PN} += "perf-bash-completion \
 perf-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 perf"
 

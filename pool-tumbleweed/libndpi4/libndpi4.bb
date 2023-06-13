@@ -15,6 +15,7 @@ RPM_HASH = "087aabd9fc0a8fea8f3dfda1c7398dec6fbd10a0e5eeaf58d756b517a4efaf50b115
 RPROVIDES:${PN} += "libndpi.so.4()(64bit) \
 libndpi4 \
 libndpi4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

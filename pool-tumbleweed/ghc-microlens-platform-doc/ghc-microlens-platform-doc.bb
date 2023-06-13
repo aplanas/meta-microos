@@ -9,6 +9,7 @@ RPM_HASH = "c86cae20809ddc2cf7faeebab34c7e0cc536b23bf16ceb79c4fe4528d957df3f33bf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-microlens-platform-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

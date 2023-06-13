@@ -10,6 +10,7 @@ RPM_HASH = "f4067ba0e246a438da43d8818b8ba78948dc8324f5cc08e73afb85134db2978145d8
 RPROVIDES:${PN} += "ghc-cabal-plan-devel \
 ghc-cabal-plan-devel(aarch-64) \
 ghc-devel(cabal-plan-0.7.2.3-5ryJl4z9bHqN70ORM7EbT)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-cabal-plan \
 ghc-compiler \

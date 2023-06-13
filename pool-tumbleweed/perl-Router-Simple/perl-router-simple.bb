@@ -18,6 +18,7 @@ perl(Router::Simple::Declare) \
 perl(Router::Simple::Route) \
 perl(Router::Simple::SubMapper) \
 perl-Router-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Lite) \
 perl(parent)"

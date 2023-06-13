@@ -10,6 +10,7 @@ RPM_HASH = "313196968e275866b644bb1d9a0fbbc6c7143e7370b4d1588f34cd4fd79657c500cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsdidotclassic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

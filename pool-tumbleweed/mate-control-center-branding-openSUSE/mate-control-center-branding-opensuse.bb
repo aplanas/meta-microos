@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-control-center-branding-openSUSE) \
 mate-control-center-branding \
 mate-control-center-branding-openSUSE"
+
 RDEPENDS:${PN} += "mate-control-center"
 
 inherit rpm

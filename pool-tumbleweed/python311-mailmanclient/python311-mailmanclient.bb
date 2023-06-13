@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mailmanclient) \
 python311-mailmanclient \
 python3dist(mailmanclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

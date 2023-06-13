@@ -12,6 +12,7 @@ RPM_HASH = "e08ccf320ab2bd5dbb7da7432354fa374cdea70103a10704c6cc89b3264e19b5f245
 
 RPROVIDES:${PN} += "cg3 \
 cg3(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

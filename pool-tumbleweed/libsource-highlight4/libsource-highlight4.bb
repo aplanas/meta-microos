@@ -18,6 +18,7 @@ RPM_HASH = "1bb2a6467333c8b91e2eefa7f10274f938aa52cb858c613e08b4cace800ad47bb858
 RPROVIDES:${PN} += "libsource-highlight.so.4()(64bit) \
 libsource-highlight4 \
 libsource-highlight4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

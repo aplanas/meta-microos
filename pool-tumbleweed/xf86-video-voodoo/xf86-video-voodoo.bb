@@ -40,6 +40,7 @@ RPM_HASH = "a4180f7b72dd0914c5fa54f9abb8c4c33bc098c57e3770be7faed9849dfc6a3e6069
 
 RPROVIDES:${PN} += "xf86-video-voodoo \
 xf86-video-voodoo(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

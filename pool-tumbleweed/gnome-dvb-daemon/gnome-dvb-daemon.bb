@@ -11,6 +11,7 @@ RPM_HASH = "92d6d0fa25a637f0262a2054e86949fabcb25ea7ccf3f139706837f06c60f0944770
 
 RPROVIDES:${PN} += "gnome-dvb-daemon \
 gnome-dvb-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

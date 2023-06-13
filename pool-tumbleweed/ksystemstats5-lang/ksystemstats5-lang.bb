@@ -46,6 +46,7 @@ locale(ksystemstats5:uk) \
 locale(ksystemstats5:vi) \
 locale(ksystemstats5:zh_CN) \
 locale(ksystemstats5:zh_TW)"
+
 RDEPENDS:${PN} += "ksystemstats5"
 
 inherit rpm

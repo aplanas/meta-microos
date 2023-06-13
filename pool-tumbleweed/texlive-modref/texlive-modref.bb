@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(modref.sty) \
 texlive-modref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

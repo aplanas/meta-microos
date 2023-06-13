@@ -11,6 +11,7 @@ RPM_HASH = "1719827cd93646c327989b0db6cdd1ba44b0e8247f090a72ae9c22fa920c81551aa8
 RPROVIDES:${PN} += "ghc-edit-distance \
 ghc-edit-distance(aarch-64) \
 libHSedit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

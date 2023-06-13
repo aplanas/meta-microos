@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(frozendict) \
 python311-frozendict \
 python311-frozendict(aarch-64) \
 python3dist(frozendict)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

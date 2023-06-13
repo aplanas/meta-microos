@@ -10,6 +10,7 @@ RPM_HASH = "1cbf0498a0cc0063aaf2fce5574390319b523525f9291f2f3d8dadb51f8bd4bf7d07
 RPROVIDES:${PN} += "giflib-progs \
 giflib-progs(aarch-64) \
 ungif"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

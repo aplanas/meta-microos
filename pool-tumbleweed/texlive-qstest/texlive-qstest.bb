@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(makematch.sty) \
 tex(qstest.sty) \
 texlive-qstest"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

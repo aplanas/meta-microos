@@ -9,6 +9,7 @@ RPM_HASH = "521a9c3532296db2f906415174c0f34d23bc0a470ebe387498169a4a9dd4589eff1f
 
 RPROVIDES:${PN} += "texlive-synctex-bin \
 texlive-synctex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

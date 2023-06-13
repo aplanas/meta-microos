@@ -13,6 +13,7 @@ pinentry-gnome3 \
 pinentry-gnome3(aarch-64) \
 pinentry-gui \
 pinentry:/usr/bin/pinentry-gnome3"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \

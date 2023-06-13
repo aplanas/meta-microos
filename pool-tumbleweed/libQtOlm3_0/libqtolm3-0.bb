@@ -10,6 +10,7 @@ RPM_HASH = "0a32d85451c3a5adcdfdf582589c7b3138bb4cd42aceb9daf538714f7d5549a4eb3c
 RPROVIDES:${PN} += "libQtOlm.so.3.0()(64bit) \
 libQtOlm3_0 \
 libQtOlm3_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

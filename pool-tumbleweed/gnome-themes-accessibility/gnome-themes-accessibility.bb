@@ -9,6 +9,7 @@ RPM_HASH = "f9b1d17333e8bdacbcf137b6b067e31771a9cc48ce6a1b25ff34665d18c5833df710
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-accessibility"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

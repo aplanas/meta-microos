@@ -9,6 +9,7 @@ RPM_HASH = "1be074f25cb2e21d57e508148c8eb9c046f121deb6d71962c52ad503053d9cbbc48e
 
 RPROVIDES:${PN} += "libQt5Bootstrap-devel-static \
 libQt5Bootstrap-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-qtbase-common-devel"
 
 inherit rpm

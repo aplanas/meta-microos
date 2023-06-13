@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(netcfg) \
 netcfg"
+
 RDEPENDS:${PN} += "libnss_usrfiles2"
 
 inherit rpm

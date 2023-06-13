@@ -10,6 +10,7 @@ RPM_HASH = "ca2a9c7c0b03012de71c7d9249b7a56f4e34289920ebe2dc3bf737e8bf6608cf5c85
 RPROVIDES:${PN} += "openSUSE-repos \
 openSUSE-repos-MicroOS \
 openSUSE-repos-MicroOS(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 zypper"
 

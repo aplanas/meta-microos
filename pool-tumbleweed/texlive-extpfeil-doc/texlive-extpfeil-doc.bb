@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-extpfeil-doc:de) \
 texlive-extpfeil-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

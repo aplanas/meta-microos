@@ -19,6 +19,7 @@ RPM_HASH = "40a1316951ae4eb30543f293ecfe9ed6778a5cf2ce43d98f1757ee58b3e51cdf31cd
 RPROVIDES:${PN} += "root-tail \
 root-tail(aarch-64) \
 roottail"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -17,6 +17,7 @@ python3.10dist(pyx) \
 python310-PyX \
 python310-pyx \
 python3dist(pyx)"
+
 RDEPENDS:${PN} += "python(abi) \
 texlive-latex-bin-bin \
 texlive-tex-bin \

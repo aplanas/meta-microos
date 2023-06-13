@@ -9,6 +9,7 @@ RPM_HASH = "3a76c55f51a7fff6580aa82061b0115c00d2976450a89f28478476106f53c2ff9eab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-visual-debug-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

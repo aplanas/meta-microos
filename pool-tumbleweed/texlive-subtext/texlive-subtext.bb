@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(subtext.sty) \
 texlive-subtext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

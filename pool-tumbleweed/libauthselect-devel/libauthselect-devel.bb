@@ -13,6 +13,7 @@ authselect-devel(aarch-64) \
 libauthselect-devel \
 libauthselect-devel(aarch-64) \
 pkgconfig(authselect)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libauthselect3(aarch-64)"
 

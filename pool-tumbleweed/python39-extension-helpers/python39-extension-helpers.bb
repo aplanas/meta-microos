@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(extension-helpers) \
 python39-extension-helpers \
 python3dist(extension-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-setuptools"
 

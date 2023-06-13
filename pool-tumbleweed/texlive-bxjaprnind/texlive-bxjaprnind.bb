@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxjaprnind.sty) \
 texlive-bxjaprnind"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

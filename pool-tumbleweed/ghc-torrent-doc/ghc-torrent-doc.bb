@@ -9,6 +9,7 @@ RPM_HASH = "78c1b1cdbbc354d702274199aae4e90610a5a9ebfe791c38d57ce29b00667ac682b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-torrent-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

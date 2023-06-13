@@ -11,6 +11,7 @@ RPM_HASH = "0c5961d4bcbe6d631642074c91da785a185f74f475a82409303a0c761da10da9bd52
 RPROVIDES:${PN} += "ghc-skylighting-format-ansi \
 ghc-skylighting-format-ansi(aarch-64) \
 libHSskylighting-format-ansi-0.1-37mK2ZS7ued5gd5quPggBj-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

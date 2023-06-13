@@ -11,6 +11,7 @@ RPM_HASH = "bee873fd827f08ba97ddd64b099d7b2ea3aa522a9203dbb1ac41d4cd24038b2150e3
 RPROVIDES:${PN} += "monitoring-plugins-ifstatus \
 monitoring-plugins-ifstatus(aarch-64) \
 nagios-plugins-ifstatus"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl-Net-SNMP"

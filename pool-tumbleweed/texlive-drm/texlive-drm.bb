@@ -357,6 +357,7 @@ tex(drmuibx7.tfm) \
 tex(drmuibx8.tfm) \
 tex(drmuibx9.tfm) \
 texlive-drm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

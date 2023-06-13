@@ -11,6 +11,7 @@ RPM_HASH = "a8b32d97d19bb4816f5d166ecd55c30c2e0982467c846b148e9db4e0bd3d0f867f5a
 RPROVIDES:${PN} += "clang15-devel \
 clang15-devel(aarch-64) \
 cmake(Clang)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 clang-tools \
 clang15 \

@@ -11,6 +11,7 @@ RPM_HASH = "8e2dfcc0295a3d76a8ad0879ed1e6f41ec8b5f05df820d407a1430ef0b0f3d7c5035
 RPROVIDES:${PN} += "libcogl-gles2-20 \
 libcogl-gles2-20(aarch-64) \
 libcogl-gles2.so.20()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libcogl.so.20()(64bit)"
 

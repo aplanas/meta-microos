@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-mail_server \
 patterns-server-mail_server \
 patterns-server-mail_server(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 vacation"
 

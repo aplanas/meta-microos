@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(FUpowerdot.cls) \
 tex(powerdot-BerlinFU.sty) \
 texlive-powerdot-fuberlin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

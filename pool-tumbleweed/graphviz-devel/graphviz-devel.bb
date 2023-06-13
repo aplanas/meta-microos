@@ -17,6 +17,7 @@ pkgconfig(libgvpr) \
 pkgconfig(liblab_gamut) \
 pkgconfig(libpathplan) \
 pkgconfig(libxdot)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 graphviz \
 libcdt5 \

@@ -10,6 +10,7 @@ RPM_HASH = "a07afa8b0407e46e878e4313d77c06a6dc9a8d1731a33e5515d9ae05c165f42751d6
 RPROVIDES:${PN} += "ghc-StateVar-prof \
 ghc-StateVar-prof(aarch-64) \
 ghc-prof(StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN)"
+
 RDEPENDS:${PN} += "ghc-StateVar-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(stm-2.5.1.0) \

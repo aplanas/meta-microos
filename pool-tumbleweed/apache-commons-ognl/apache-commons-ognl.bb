@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "apache-commons-ognl \
 mvn(org.apache.commons:commons-ognl) \
 mvn(org.apache.commons:commons-ognl:pom:) \
 osgi(org.apache.commons.commons-ognl)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.javassist:javassist)"

@@ -12,6 +12,7 @@ ghc-time-devel \
 ghc-time-devel(aarch-64) \
 ghc-time-static \
 ghc-time-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(deepseq-1.4.8.0) \

@@ -14,6 +14,7 @@ lekha(aarch-64) \
 mimehandler(application/pdf) \
 python3.10dist(lekha) \
 python3dist(lekha)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyPDF2 \

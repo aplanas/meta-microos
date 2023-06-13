@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzscale.sty) \
 texlive-tikzscale"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

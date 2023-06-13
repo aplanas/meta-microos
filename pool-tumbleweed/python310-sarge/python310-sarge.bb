@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sarge \
 python3.10dist(sarge) \
 python310-sarge \
 python3dist(sarge)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

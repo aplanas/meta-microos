@@ -17,6 +17,7 @@ python311-PyQt6-QScintilla \
 python311-PyQt6-QScintilla(aarch-64) \
 python311-qscintilla-qt6 \
 python3dist(pyqt6-qscintilla)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

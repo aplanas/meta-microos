@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:coffee-script) \
 rubygem(ruby:3.2.0:coffee-script:2) \
 rubygem(ruby:3.2.0:coffee-script:2.4) \
 rubygem(ruby:3.2.0:coffee-script:2.4.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:coffee-script-source) \
 rubygem(ruby:3.2.0:execjs)"

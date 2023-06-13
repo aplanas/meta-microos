@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footnotebackref.sty) \
 texlive-footnotebackref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

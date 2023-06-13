@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-wsgi-adapter) \
 python39-requests-wsgi-adapter \
 python3dist(requests-wsgi-adapter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

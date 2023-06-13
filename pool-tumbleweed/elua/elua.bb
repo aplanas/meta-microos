@@ -9,6 +9,7 @@ RPM_HASH = "c7f0373b8f14237076971140e34816a77bce42c48a671204cfe542cc8386d46aa4a8
 
 RPROVIDES:${PN} += "elua \
 elua(aarch-64)"
+
 RDEPENDS:${PN} += "efl"
 
 inherit rpm

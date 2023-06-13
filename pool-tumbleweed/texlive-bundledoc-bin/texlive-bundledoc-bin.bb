@@ -9,6 +9,7 @@ RPM_HASH = "2188d3e6bf58972dbe68caa8db563dfc2ac93c8fac35685825af0dbda1d68c8fa64f
 
 RPROVIDES:${PN} += "texlive-bundledoc-bin \
 texlive-bundledoc-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-bundledoc"
 
 inherit rpm

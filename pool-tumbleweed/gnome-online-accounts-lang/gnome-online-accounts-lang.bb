@@ -82,6 +82,7 @@ locale(gnome-online-accounts:vi) \
 locale(gnome-online-accounts:zh_CN) \
 locale(gnome-online-accounts:zh_HK) \
 locale(gnome-online-accounts:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-online-accounts"
 
 inherit rpm

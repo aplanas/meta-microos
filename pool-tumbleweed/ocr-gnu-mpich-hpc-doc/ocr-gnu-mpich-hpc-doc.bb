@@ -11,6 +11,7 @@ RPM_HASH = "53fff88f6bf52fbeacca01c55c1cb2a7510e431292a9e44ed10b984a07ae343f1cef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-mpich-hpc-doc"
+
 RDEPENDS:${PN} += "ocr_1_0_1-gnu-mpich-hpc-doc"
 
 inherit rpm

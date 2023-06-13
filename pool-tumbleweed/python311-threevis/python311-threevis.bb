@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(threevis) \
 python311-threevis \
 python3dist(threevis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-openmesh \

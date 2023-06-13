@@ -16,6 +16,7 @@ RPM_HASH = "8ab18ca071589bb34d47c97f500f3a7c0c074f743e8df2dbc46c773d60956e31cb6d
 
 RPROVIDES:${PN} += "mono-complete \
 mono-complete(aarch-64)"
+
 RDEPENDS:${PN} += "ibm-data-db2 \
 libmono-2_0-1 \
 libmono-2_0-devel \

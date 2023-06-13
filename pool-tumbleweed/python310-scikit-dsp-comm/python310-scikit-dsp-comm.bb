@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-scikit-dsp-comm \
 python3.10dist(scikit-dsp-comm) \
 python310-scikit-dsp-comm \
 python3dist(scikit-dsp-comm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

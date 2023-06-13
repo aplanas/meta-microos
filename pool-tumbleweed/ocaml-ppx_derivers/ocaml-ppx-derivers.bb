@@ -11,6 +11,7 @@ RPM_HASH = "af12a2ae36a30843d906379cdc095b1997356776b9bad045f2cd0b6aae807de1378c
 
 RPROVIDES:${PN} += "ocaml-ppx_derivers \
 ocaml-ppx_derivers(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(udiskie) \
 python3dist(udiskie) \
 udiskie"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gdk-pixbuf-loader-rsvg \
 python(abi) \

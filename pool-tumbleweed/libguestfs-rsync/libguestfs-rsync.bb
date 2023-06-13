@@ -10,6 +10,7 @@ RPM_HASH = "0e169911320051cbdc05dacbbd3d52cfed5997301d4ae139e80f4c76b1cb4dd2fd91
 
 RPROVIDES:${PN} += "libguestfs-rsync \
 libguestfs-rsync(aarch-64)"
+
 RDEPENDS:${PN} += "libguestfs"
 
 inherit rpm

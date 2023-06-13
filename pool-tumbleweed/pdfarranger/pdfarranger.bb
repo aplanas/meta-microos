@@ -38,6 +38,7 @@ mimehandler(image/x-portable-pixmap) \
 pdfarranger \
 python3.10dist(pdfarranger) \
 python3dist(pdfarranger)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gtk3 \
 python(abi) \

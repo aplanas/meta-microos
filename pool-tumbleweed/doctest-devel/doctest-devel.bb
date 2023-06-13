@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(doctest) \
 doctest-devel \
 doctest-devel(aarch-64) \
 pkgconfig(doctest)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "fd6215aab9a7354ac1d4267da818d9b08f6cc9251e67d2246ccd8f960e87673b3ff0
 
 RPROVIDES:${PN} += "edk2-Armada80x0McBin \
 edk2-Armada80x0McBin(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

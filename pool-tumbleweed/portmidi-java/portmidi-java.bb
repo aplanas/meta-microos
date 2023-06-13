@@ -11,6 +11,7 @@ RPM_HASH = "f044338e967853f4f3bebba13bda91f12916420d2e286ececb07b9536f154e4e7f37
 RPROVIDES:${PN} += "libpmjni.so.2()(64bit) \
 portmidi-java \
 portmidi-java(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 java \

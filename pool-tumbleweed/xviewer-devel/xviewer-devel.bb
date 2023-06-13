@@ -13,6 +13,7 @@ RPM_HASH = "fe0e0cdfd84f00b26fcb002853cd510dd97e11db0a13a48f8fe822c55d9915719d95
 RPROVIDES:${PN} += "pkgconfig(xviewer) \
 xviewer-devel \
 xviewer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gtk+-3.0) \
 xviewer"

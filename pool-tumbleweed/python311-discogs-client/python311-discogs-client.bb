@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(discogs-client) \
 python311-discogs-client \
 python3dist(discogs-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-oauthlib \
 python311-requests \

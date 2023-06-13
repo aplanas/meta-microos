@@ -10,6 +10,7 @@ RPM_HASH = "b2c61561dbe9b7ffdc2379687ed1ee52c5c6810c10086f9b6ef2b85a43c236ab020a
 RPROVIDES:${PN} += "libd0_rijndael.so.0()(64bit) \
 libd0_rijndael0 \
 libd0_rijndael0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

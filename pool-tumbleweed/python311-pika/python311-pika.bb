@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pika) \
 python311-pika \
 python3dist(pika)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

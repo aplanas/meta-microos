@@ -11,6 +11,7 @@ RPM_HASH = "1ca455f0fd2deb3deaeedb6e12db8ea5b54a97274b76bbadc03bed372e48428f49a7
 RPROVIDES:${PN} += "/usr/include/i2c/smbus.h \
 libi2c0-devel \
 libi2c0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libi2c0"
 

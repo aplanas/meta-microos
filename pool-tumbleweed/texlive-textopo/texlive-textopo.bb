@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(biotex.sty) \
 tex(textopo.def) \
 tex(textopo.sty) \
 texlive-textopo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

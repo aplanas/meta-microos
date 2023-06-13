@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(grml-zsh-config) \
 grml-zsh-config"
+
 RDEPENDS:${PN} += "grep \
 procps \
 sed \

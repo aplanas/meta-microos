@@ -26,6 +26,7 @@ RPM_HASH = "e197fc8ce5707119a0ec55aa06b8e9bc1a57c05b0edbc18ea22190d2e04cdd78d68f
 RPROVIDES:${PN} += "xteddy \
 xteddy(aarch-64) \
 xteddy10"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 imlib2-loaders \

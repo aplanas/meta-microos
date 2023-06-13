@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(listliketab.sty) \
 texlive-listliketab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

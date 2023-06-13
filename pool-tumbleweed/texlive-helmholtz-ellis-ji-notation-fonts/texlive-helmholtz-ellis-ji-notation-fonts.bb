@@ -9,6 +9,7 @@ RPM_HASH = "cedd7a8f93d9381bf2232293436c135051d6a94dcc394e7c60ac9cf035c95cddf07d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-helmholtz-ellis-ji-notation-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

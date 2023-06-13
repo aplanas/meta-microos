@@ -16,6 +16,7 @@ RPM_HASH = "7a9db26795fb54b6308e5bbaf928621640a417f28d173e05248451f92ae68d6fd61a
 RPROVIDES:${PN} += "libtimidity-devel \
 libtimidity-devel(aarch-64) \
 pkgconfig(libtimidity)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtimidity2"
 

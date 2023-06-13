@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "kapidox \
 python3.10dist(kapidox) \
 python3dist(kapidox)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 doxygen \

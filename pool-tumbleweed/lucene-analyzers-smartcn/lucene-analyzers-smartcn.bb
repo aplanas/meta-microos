@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-analyzers-smartcn \
 mvn(org.apache.lucene:lucene-analyzers-smartcn) \
 mvn(org.apache.lucene:lucene-analyzers-smartcn:pom:) \
 osgi(org.apache.lucene.analyzers-smartcn)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-analyzers-common) \

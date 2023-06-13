@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(musicbrainzngs) \
 python39-musicbrainzngs \
 python3dist(musicbrainzngs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

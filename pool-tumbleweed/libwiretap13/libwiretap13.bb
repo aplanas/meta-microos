@@ -11,6 +11,7 @@ RPM_HASH = "4d879bf5a13372195caf174451c4c73e87bbedae1eb286b2d1a5b41444c1021943c6
 RPROVIDES:${PN} += "libwiretap.so.13()(64bit) \
 libwiretap13 \
 libwiretap13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

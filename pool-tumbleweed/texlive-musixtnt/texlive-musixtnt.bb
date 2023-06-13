@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(musixtnt.tex) \
 texlive-musixtnt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

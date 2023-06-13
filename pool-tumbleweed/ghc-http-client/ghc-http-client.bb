@@ -11,6 +11,7 @@ RPM_HASH = "707e7303358daf01122950821e7e5abd0eb28ce28b272383417b6ff13c1ed42e7d76
 RPROVIDES:${PN} += "ghc-http-client \
 ghc-http-client(aarch-64) \
 libHShttp-client-0.7.13.1-zzcC5JvmJYD0Lc0D9h215-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \

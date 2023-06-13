@@ -11,6 +11,7 @@ RPM_HASH = "f413b81ed0928171451495596bac79f16ee24eb0ccbe7ef1c420f6c3211bd6d8dc3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joycond-autoload"
+
 RDEPENDS:${PN} += "(kmod(ledtrig_timer.ko) if kernel) \
 joycond"
 

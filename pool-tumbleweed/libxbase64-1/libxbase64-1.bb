@@ -11,6 +11,7 @@ RPM_HASH = "adaca8d4d7fe2a338eef17d2a415bb2e31de975a2e10b221d1fcebbeb0619b3c12f8
 RPROVIDES:${PN} += "libxbase64-1 \
 libxbase64-1(aarch-64) \
 libxbase64.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

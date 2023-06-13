@@ -41,6 +41,7 @@ locale(byzanz:tr) \
 locale(byzanz:uk) \
 locale(byzanz:vi) \
 locale(byzanz:zh_CN)"
+
 RDEPENDS:${PN} += "byzanz"
 
 inherit rpm

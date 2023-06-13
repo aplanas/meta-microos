@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(dns24-update) \
 dns24-update"
+
 RDEPENDS:${PN} += "/bin/sh \
 curl"
 

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(pykka) \
 python311-Pykka \
 python311-pykka \
 python3dist(pykka)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

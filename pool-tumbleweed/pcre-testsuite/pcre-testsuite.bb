@@ -9,6 +9,7 @@ RPM_HASH = "1176033d439da3e549d2feea91bf70444e3eaaf12ad807296fd82e3390e4ce04a575
 
 RPROVIDES:${PN} += "pcre-testsuite \
 pcre-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

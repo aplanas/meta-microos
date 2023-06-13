@@ -15,6 +15,7 @@ libortp-devel \
 ortp-devel \
 ortp-devel(aarch-64) \
 pkgconfig(ortp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libortp15 \

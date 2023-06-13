@@ -12,6 +12,7 @@ RPM_HASH = "988db07ec0515acf1cd84899f4aa0f341ee52885718f35628d86d32f00c98ea2c565
 
 RPROVIDES:${PN} += "kimageformats \
 kimageformats(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \

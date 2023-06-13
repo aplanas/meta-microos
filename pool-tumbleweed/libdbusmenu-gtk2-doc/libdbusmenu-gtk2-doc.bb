@@ -10,6 +10,7 @@ RPM_HASH = "2791c9487d25148cff3d51824102f93c41aa86c69fa020a39e144d1cea210512d1e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbusmenu-gtk2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

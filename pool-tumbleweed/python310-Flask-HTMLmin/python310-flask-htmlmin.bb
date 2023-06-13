@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-HTMLmin \
 python3.10dist(flask-htmlmin) \
 python310-Flask-HTMLmin \
 python3dist(flask-htmlmin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-cssmin \

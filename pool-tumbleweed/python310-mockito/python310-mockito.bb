@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mockito \
 python3.10dist(mockito) \
 python310-mockito \
 python3dist(mockito)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

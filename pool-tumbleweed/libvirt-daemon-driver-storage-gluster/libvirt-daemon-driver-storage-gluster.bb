@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libvirt-daemon-driver-storage-gluster \
 libvirt-daemon-driver-storage-gluster(aarch-64) \
 libvirt_storage_backend_gluster.so()(64bit) \
 libvirt_storage_file_gluster.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

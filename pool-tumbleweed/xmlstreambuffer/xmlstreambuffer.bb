@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "mvn(com.sun.xml.stream.buffer:streambuffer) \
 mvn(com.sun.xml.stream.buffer:streambuffer:pom:) \
 osgi(com.sun.xml.stream.buffer.streambuffer) \
 xmlstreambuffer"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jvnet.staxex:stax-ex)"

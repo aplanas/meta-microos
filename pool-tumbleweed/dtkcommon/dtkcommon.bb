@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Dtk) \
 cmake(DtkInstallDConfig) \
 dtkcommon \
 dtkcommon(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

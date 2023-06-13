@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(net.sourceforge.nekohtml:nekohtml-samples) \
 nekohtml-demo"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 nekohtml"

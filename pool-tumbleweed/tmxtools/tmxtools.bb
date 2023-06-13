@@ -10,6 +10,7 @@ RPM_HASH = "3743042eac0d16bed3ec1a7b8c117ec0c7e3dba563040fd2c64a9b913d982be69c3a
 
 RPROVIDES:${PN} += "tmxtools \
 tmxtools(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
 libQt6Core.so.6(Qt_6.4)(64bit) \

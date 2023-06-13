@@ -11,6 +11,7 @@ RPM_HASH = "11c5819083528087b56e55d742438d668d80248e09b9d4b2b027e4cd09add4d2e99b
 RPROVIDES:${PN} += "ghc-devel(unicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO) \
 ghc-unicode-transforms-devel \
 ghc-unicode-transforms-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

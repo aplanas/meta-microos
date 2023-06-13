@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rdiscount) \
 rubygem(ruby:3.2.0:rdiscount:2) \
 rubygem(ruby:3.2.0:rdiscount:2.2) \
 rubygem(ruby:3.2.0:rdiscount:2.2.7)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \

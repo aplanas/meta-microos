@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-cirq-web \
 python3.10dist(cirq-web) \
 python310-cirq-web \
 python3dist(cirq-web)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

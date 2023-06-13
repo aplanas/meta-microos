@@ -26,6 +26,7 @@ locale(gkrellm:ru) \
 locale(gkrellm:sl) \
 locale(gkrellm:sv) \
 locale(gkrellm:uk)"
+
 RDEPENDS:${PN} += "gkrellm"
 
 inherit rpm

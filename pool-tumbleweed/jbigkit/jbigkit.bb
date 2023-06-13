@@ -10,6 +10,7 @@ RPM_HASH = "3bdb682abb781dc9c0acaa4f093d0b96e217c639035c5615807274831b93626db90c
 
 RPROVIDES:${PN} += "jbigkit \
 jbigkit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

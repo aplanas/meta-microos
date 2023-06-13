@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zarr) \
 python39-zarr \
 python3dist(zarr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39 \
 python39-asciitree \

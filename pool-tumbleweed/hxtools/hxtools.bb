@@ -14,6 +14,7 @@ RPM_HASH = "b688c90cd8618a41a683a6c31a298f3c9c7b80754e97cd4bc374adfbcaabf3940aee
 
 RPROVIDES:${PN} += "hxtools \
 hxtools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fd0ssh \
 hxtools-scripts \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5GrantleeTheme) \
 cmake(KPim5GrantleeTheme) \
 grantleetheme-devel \
 grantleetheme-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKPim5GrantleeTheme5"
 
 inherit rpm

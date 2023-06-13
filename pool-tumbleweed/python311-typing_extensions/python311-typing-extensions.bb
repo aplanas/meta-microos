@@ -35,6 +35,7 @@ RPROVIDES:${PN} += "python3.11dist(typing-extensions) \
 python311-typing-extensions \
 python311-typing_extensions \
 python3dist(typing-extensions)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

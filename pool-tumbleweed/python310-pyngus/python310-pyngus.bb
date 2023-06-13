@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyngus \
 python3.10dist(pyngus) \
 python310-pyngus \
 python3dist(pyngus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-qpid-proton"
 

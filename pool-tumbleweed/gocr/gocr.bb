@@ -11,6 +11,7 @@ RPM_HASH = "ccebbe07af946a083e3583368a7b88309e76d3144b4c6defcc377863067b607245e5
 
 RPROVIDES:${PN} += "gocr \
 gocr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-health-check) \
 python311-django-health-check \
 python3dist(django-health-check)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

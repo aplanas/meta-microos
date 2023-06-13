@@ -11,6 +11,7 @@ RPM_HASH = "37c1db485fe019cea800fdafc9fee3386fa9c5aa17259b4949e508fec84f90b55a81
 RPROVIDES:${PN} += "pkgconfig(zimg) \
 zimg-devel \
 zimg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzimg2"
 

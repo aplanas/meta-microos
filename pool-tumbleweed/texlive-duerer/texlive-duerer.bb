@@ -19,6 +19,7 @@ tex(cdsl10.tfm) \
 tex(cdss10.tfm) \
 tex(cdtt10.tfm) \
 texlive-duerer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

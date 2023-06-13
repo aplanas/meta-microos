@@ -12,6 +12,7 @@ RPM_HASH = "e5edab45aa085da9db1ce06d5d65c275beebbd928baa903a07eb25331c48bebe348f
 RPROVIDES:${PN} += "libffms2-5 \
 libffms2-5(aarch-64) \
 libffms2.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f8018eea403acb8882323ef0b2d14a0d105c607f1299e6363789a77ef8441ed0f85e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

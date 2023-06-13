@@ -14,6 +14,7 @@ mvn(org.apache.maven.resolver:maven-resolver-connector-basic:pom:) \
 mvn(org.eclipse.aether:aether-connector-basic) \
 mvn(org.eclipse.aether:aether-connector-basic:pom:) \
 osgi(org.apache.maven.resolver.connector.basic)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.resolver:maven-resolver-api) \

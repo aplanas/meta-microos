@@ -15,6 +15,7 @@ RPM_HASH = "af85e63a268f1895379621af37d1e09faef852241da54e9da6c155c3a4638cf01df3
 RPROVIDES:${PN} += "llvm-LTO-devel \
 llvm-devel \
 llvm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "llvm-gold \
 llvm16-devel"
 

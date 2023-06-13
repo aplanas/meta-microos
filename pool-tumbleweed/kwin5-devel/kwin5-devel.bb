@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KWinDBusInterface) \
 cmake(KWinEffects) \
 kwin5-devel \
 kwin5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kwin5 \
 libepoxy-devel \
 libkdecoration2-devel"

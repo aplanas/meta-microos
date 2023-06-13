@@ -9,6 +9,7 @@ RPM_HASH = "0771b61347f92729582e7f9ae6c3c0e0e3b7e00eb043da828b0611cadb8c85d63913
 
 RPROVIDES:${PN} += "python3-vapoursynth \
 python3-vapoursynth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

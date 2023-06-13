@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-abstractions \
 config(apparmor-abstractions)"
+
 RDEPENDS:${PN} += "/bin/sh \
 apparmor-parser(CAP_SYSLOG)"
 

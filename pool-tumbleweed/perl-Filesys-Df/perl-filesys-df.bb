@@ -17,6 +17,7 @@ RPM_HASH = "ecea14d7bdcc89af34319ab2d12f95845b3a67294f8d8733d1dc4998d5df8f904b5e
 RPROVIDES:${PN} += "perl(Filesys::Df) \
 perl-Filesys-Df \
 perl-Filesys-Df(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

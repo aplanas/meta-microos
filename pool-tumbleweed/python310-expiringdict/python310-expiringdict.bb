@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-expiringdict \
 python3.10dist(expiringdict) \
 python310-expiringdict \
 python3dist(expiringdict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dill \
 python310-typing"

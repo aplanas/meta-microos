@@ -11,6 +11,7 @@ RPM_HASH = "77ff4cf1f5e72d0c9942a75ac0cf41ac9924d6e1719ad914552f552610cc4844e290
 RPROVIDES:${PN} += "cyrus-sasl-bdb-devel \
 cyrus-sasl-bdb-devel(aarch-64) \
 pkgconfig(libsasl2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsasl2-3"

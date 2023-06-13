@@ -33,6 +33,7 @@ tex(siunitx-v2.sty) \
 tex(siunitx-version-1.cfg) \
 tex(siunitx.sty) \
 texlive-siunitx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

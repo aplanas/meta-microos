@@ -25,6 +25,7 @@ locale(libpurple-plugin-telegram:pt_BR) \
 locale(libpurple-plugin-telegram:ru) \
 locale(libpurple-plugin-telegram:sq) \
 locale(libpurple-plugin-telegram:uk)"
+
 RDEPENDS:${PN} += "libpurple-plugin-telegram"
 
 inherit rpm

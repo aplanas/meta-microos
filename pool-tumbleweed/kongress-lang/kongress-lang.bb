@@ -43,6 +43,7 @@ locale(kongress:tr) \
 locale(kongress:uk) \
 locale(kongress:zh_CN) \
 locale(kongress:zh_TW)"
+
 RDEPENDS:${PN} += "kongress"
 
 inherit rpm

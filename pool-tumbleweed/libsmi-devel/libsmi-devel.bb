@@ -11,6 +11,7 @@ RPM_HASH = "b3bacfbe91d13a47b1f0ce23255da4d4ccdf0f04c6d5abf5a097cedb09746df3d4c9
 RPROVIDES:${PN} += "libsmi-devel \
 libsmi-devel(aarch-64) \
 pkgconfig(libsmi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsmi"

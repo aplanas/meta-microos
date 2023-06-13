@@ -13,6 +13,7 @@ RPM_HASH = "5f07fd34891d615e3d8a05c8c850a1d89bc905de574fed0a10275ee3e7a0a7a2d43a
 
 RPROVIDES:${PN} += "vtk-m-openmpi3-devel \
 vtk-m-openmpi3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 libvtk-m-openmpi3-2_0 \
 openmpi3-devel"

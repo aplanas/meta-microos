@@ -20,6 +20,7 @@ libnma.so.0(libnma_1_8_36)(64bit) \
 libnma0 \
 libnma0(aarch-64) \
 nma-data"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "systemd-sysvcompat \
 systemd-sysvcompat(aarch-64) \
 systemd-sysvinit:/usr/sbin/runlevel \
 systemd-sysvinit:/usr/sbin/telinit"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

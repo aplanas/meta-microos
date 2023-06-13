@@ -11,6 +11,7 @@ RPM_HASH = "372a13f188bc445443b7b1126a0f9daf4fb15ebdff166f3d9024c4e77458a0079304
 
 RPROVIDES:${PN} += "wpan-tools \
 wpan-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

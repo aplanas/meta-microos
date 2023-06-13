@@ -10,6 +10,7 @@ RPM_HASH = "1e1544ca8738e4f4a7e079322cff4a7a37d1c888d20ca06f281e5c23dd7cc6bcf695
 RPROVIDES:${PN} += "dtb-altera \
 dtb-altera(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

@@ -11,6 +11,7 @@ RPM_HASH = "2b4cedfd86c8f37c1c218cc91f7e55ea0a18636a0d60826ab1c300ef9c8150fdd1eb
 
 RPROVIDES:${PN} += "ffmsindex \
 ffmsindex(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

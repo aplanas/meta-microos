@@ -16,6 +16,7 @@ RPM_HASH = "e90010946b129210da59ac2465ab5038f55f6a340d85c73275619db147f8d8d82e3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powermock-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

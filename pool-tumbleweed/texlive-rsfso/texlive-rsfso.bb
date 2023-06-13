@@ -25,6 +25,7 @@ tex(rsfso7.tfm) \
 tex(rsfso7.vf) \
 tex(ursfso.fd) \
 texlive-rsfso"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

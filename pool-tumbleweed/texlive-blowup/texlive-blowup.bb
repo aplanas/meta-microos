@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(blowup.sty) \
 texlive-blowup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

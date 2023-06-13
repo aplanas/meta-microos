@@ -26,6 +26,7 @@ python3.10dist(email-validator) \
 python310-email-validator \
 python310-email_validator \
 python3dist(email-validator)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

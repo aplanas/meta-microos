@@ -11,6 +11,7 @@ RPM_HASH = "ae1fe596de3c6219efb4df8a5c6e28380526db9ab43e205bb954438c207c9e87d638
 
 RPROVIDES:${PN} += "sluice \
 sluice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

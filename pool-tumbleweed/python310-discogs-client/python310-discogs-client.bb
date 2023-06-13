@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-discogs-client \
 python3.10dist(discogs-client) \
 python310-discogs-client \
 python3dist(discogs-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-oauthlib \
 python310-requests \

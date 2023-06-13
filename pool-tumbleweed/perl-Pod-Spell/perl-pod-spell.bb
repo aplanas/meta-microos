@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Pod::Spell) \
 perl(Pod::Wordlist) \
 perl-Pod-Spell"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Tiny) \

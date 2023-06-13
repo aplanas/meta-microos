@@ -10,6 +10,7 @@ RPM_HASH = "e30363cf0daac5331b4d8d1492b6aa10a37f2194df5771ba4ecaf83cecdfd41f9136
 RPROVIDES:${PN} += "dtb-marvell \
 dtb-marvell(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

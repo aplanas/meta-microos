@@ -9,6 +9,7 @@ RPM_HASH = "efcf4ca733e2150482625a42d80843db6a5c2807944cd0446b4aa01589c03eb237aa
 
 RPROVIDES:${PN} += "swtpm-devel \
 swtpm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glib2-devel \
 libopenssl-devel \
 libseccomp-devel \

@@ -17,6 +17,7 @@ mvn(xpp3:xpp3_xpath) \
 mvn(xpp3:xpp3_xpath:pom:) \
 osgi(org.xmlpull) \
 xpp3"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

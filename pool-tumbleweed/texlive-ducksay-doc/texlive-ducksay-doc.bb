@@ -9,6 +9,7 @@ RPM_HASH = "61aa136bb47e8c2744af991eb5888bde66134903dfa95b2bd7b790ff4346831adc27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ducksay-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

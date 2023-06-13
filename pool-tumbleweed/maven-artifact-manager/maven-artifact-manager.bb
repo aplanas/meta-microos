@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-artifact-manager \
 mvn(org.apache.maven:maven-artifact-manager) \
 mvn(org.apache.maven:maven-artifact-manager:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.wagon:wagon-provider-api) \

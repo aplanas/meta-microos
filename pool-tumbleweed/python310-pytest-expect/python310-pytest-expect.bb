@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pytest-expect \
 python3.10dist(pytest-expect) \
 python310-pytest-expect \
 python3dist(pytest-expect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-six \

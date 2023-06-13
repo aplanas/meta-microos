@@ -11,6 +11,7 @@ RPM_HASH = "a29d3faaa7328e8a7fcfc62627292fd5d22e7cc9f68e8f7466e35fbab9733a5b44c7
 RPROVIDES:${PN} += "libloadpng.so.4.4()(64bit) \
 libloadpng4_4 \
 libloadpng4_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

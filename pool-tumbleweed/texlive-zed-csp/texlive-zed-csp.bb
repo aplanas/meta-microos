@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zed-csp.sty) \
 texlive-zed-csp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

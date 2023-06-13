@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-jupyter-telemetry \
 python3.10dist(jupyter-telemetry) \
 python310-jupyter-telemetry \
 python3dist(jupyter-telemetry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonschema \
 python310-python-json-logger \

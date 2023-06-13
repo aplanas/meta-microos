@@ -22,6 +22,7 @@ mimehandler(application/x-jar) \
 mimehandler(application/x-java) \
 mimehandler(application/x-java-archive) \
 mimehandler(application/x-java-jnlp-file)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 desktop-file-utils \

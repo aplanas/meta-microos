@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-azure-digitaltwins-core \
 python3.10dist(azure-digitaltwins-core) \
 python310-azure-digitaltwins-core \
 python3dist(azure-digitaltwins-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-digitaltwins-nspkg \

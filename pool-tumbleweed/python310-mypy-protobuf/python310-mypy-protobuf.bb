@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mypy-protobuf \
 python3.10dist(mypy-protobuf) \
 python310-mypy-protobuf \
 python3dist(mypy-protobuf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

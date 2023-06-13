@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::Metrics::Any) \
 perl(Test::Metrics::Any::_predicate) \
 perl-Test-Metrics-Any"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Metrics::Any::Adapter) \
 perl(Metrics::Any::Adapter::Test)"

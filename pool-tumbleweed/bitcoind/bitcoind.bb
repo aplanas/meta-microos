@@ -19,6 +19,7 @@ RPM_HASH = "d55c8adcb14efa0870d61f477cb79404683e2c144d729bf1d5ba651fa089fb4e0077
 RPROVIDES:${PN} += "bitcoind \
 bitcoind(aarch-64) \
 config(bitcoind)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

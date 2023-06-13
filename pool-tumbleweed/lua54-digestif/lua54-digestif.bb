@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-digestif \
 lua54-digestif"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.4 \
 lua54 \

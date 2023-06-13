@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "config(xen-tools) \
 xen-tools \
 xen-tools(aarch-64) \
 xen-tools-ioemu"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

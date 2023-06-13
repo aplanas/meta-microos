@@ -11,6 +11,7 @@ RPM_HASH = "1536e6b7feaf2351036c174edeabf1381daa7911b70d2d2a73282e17d5ac03af3c97
 RPROVIDES:${PN} += "libfolks-eds.so.26()(64bit) \
 libfolks-eds26 \
 libfolks-eds26(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "edd4ea7174fa7f30cbfa63e63953921df08900166fdc47182626467d65475d42cb82
 RPROVIDES:${PN} += "lzham_codec-devel \
 lzham_codec-devel(aarch-64) \
 pkgconfig(lzham_codec)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lzham_codec-libs"
 

@@ -10,6 +10,7 @@ RPM_HASH = "23255f9158c7536177ab965c521b1d27bb46eb458a1b3016de1514a51a1a7fc96d3e
 RPROVIDES:${PN} += "ghc-attoparsec-iso8601 \
 ghc-attoparsec-iso8601(aarch-64) \
 libHSattoparsec-iso8601-1.1.0.0-2S5wwgpuLNfEy2BIFZOtUU-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "flac2all \
 python3.10dist(flac2all) \
 python3dist(flac2all)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-curses"

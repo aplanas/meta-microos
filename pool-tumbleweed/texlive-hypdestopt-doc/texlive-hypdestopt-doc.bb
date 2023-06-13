@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-hypdestopt-doc:en) \
 texlive-hypdestopt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

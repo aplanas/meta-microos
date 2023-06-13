@@ -79,6 +79,7 @@ locale(sushi:zh_HK) \
 locale(sushi:zh_TW) \
 sushi-lang \
 sushi-lang-all"
+
 RDEPENDS:${PN} += "sushi"
 
 inherit rpm

@@ -21,6 +21,7 @@ libtecla_r.so.1(tecla_1.6)(64bit) \
 libtecla_r.so.1(tecla_l.5)(64bit) \
 libtecla_r1 \
 libtecla_r1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

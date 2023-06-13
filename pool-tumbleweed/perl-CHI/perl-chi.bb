@@ -80,6 +80,7 @@ perl(My::CHI) \
 perl(My::CHI::Memo) \
 perl(My::CHI::Subclass) \
 perl-CHI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Assert) \
 perl(Class::Load) \

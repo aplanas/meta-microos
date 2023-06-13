@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-nibabel \
 python3.10dist(nibabel) \
 python310-nibabel \
 python3dist(nibabel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

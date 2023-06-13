@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(libcst) \
 python311-libcst \
 python311-libcst(aarch-64) \
 python3dist(libcst)"
+
 RDEPENDS:${PN} += "(python311-dataclasses if python311-base < 3.7) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

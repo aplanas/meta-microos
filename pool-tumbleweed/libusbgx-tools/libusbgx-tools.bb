@@ -13,6 +13,7 @@ RPM_HASH = "ff2c188565c11363f8a6e3119c26ae0b12087e35827ab7e864ecfa135d8ee5847eda
 
 RPROVIDES:${PN} += "libusbgx-tools \
 libusbgx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

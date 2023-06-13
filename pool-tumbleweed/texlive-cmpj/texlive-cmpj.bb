@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(cmpj.sty) \
 tex(cmpj2.sty) \
 tex(cmpj3.sty) \
 texlive-cmpj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

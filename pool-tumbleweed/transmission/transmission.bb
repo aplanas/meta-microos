@@ -13,6 +13,7 @@ RPM_HASH = "b0e6a139db7ee23e7491c01b4dfa46ae2fa3f290b4c998708d0351e1434e9b7bb41c
 RPROVIDES:${PN} += "transmission \
 transmission(aarch-64) \
 transmission-ui"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

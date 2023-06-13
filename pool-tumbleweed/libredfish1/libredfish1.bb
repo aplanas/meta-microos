@@ -10,6 +10,7 @@ RPM_HASH = "5367948eff03ba7072363208fe9ea2b757abc33d4dceffceba5e2ece30e17acf6d67
 RPROVIDES:${PN} += "libredfish.so.1()(64bit) \
 libredfish1 \
 libredfish1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

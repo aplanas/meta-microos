@@ -45,6 +45,7 @@ locale(plasmatube:zh_CN) \
 locale(plasmatube:zh_TW) \
 plasmatube-lang \
 plasmatube-lang-all"
+
 RDEPENDS:${PN} += "plasmatube"
 
 inherit rpm

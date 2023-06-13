@@ -10,6 +10,7 @@ RPM_HASH = "e34fd6110248efe6a46d927f073451a0f25dcf3fb6aeabf41f50c99c3e7bd2f28b5a
 
 RPROVIDES:${PN} += "libhibr-tools \
 libhibr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

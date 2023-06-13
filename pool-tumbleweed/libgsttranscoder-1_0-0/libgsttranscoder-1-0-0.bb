@@ -10,6 +10,7 @@ RPM_HASH = "8a8d53be1d8e04adb4f030545aa626d487b1c204375b207bef1e13926ff05b5e426a
 RPROVIDES:${PN} += "libgsttranscoder-1.0.so.0()(64bit) \
 libgsttranscoder-1_0-0 \
 libgsttranscoder-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

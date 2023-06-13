@@ -13,6 +13,7 @@ metainfo() \
 metainfo(com.gitee.gmg137.NeteaseCloudMusicGtk4.appdata.xml) \
 netease-cloud-music-gtk \
 netease-cloud-music-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer \
 gstreamer-plugins-bad \
 gstreamer-plugins-base \

@@ -13,6 +13,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-python-devel_python3 \
 patterns-devel-python-devel_python3(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

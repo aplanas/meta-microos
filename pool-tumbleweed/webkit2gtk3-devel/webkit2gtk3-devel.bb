@@ -18,6 +18,7 @@ pkgconfig(webkit2gtk-4.1) \
 pkgconfig(webkit2gtk-web-extension-4.1) \
 webkit2gtk3-devel \
 webkit2gtk3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjavascriptcoregtk-4_1-0 \
 libwebkit2gtk-4_1-0 \

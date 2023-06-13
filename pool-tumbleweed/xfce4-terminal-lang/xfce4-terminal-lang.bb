@@ -63,6 +63,7 @@ locale(xfce4-terminal:zh_CN) \
 locale(xfce4-terminal:zh_TW) \
 xfce4-terminal-lang \
 xfce4-terminal-lang-all"
+
 RDEPENDS:${PN} += "xfce4-terminal"
 
 inherit rpm

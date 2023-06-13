@@ -14,6 +14,7 @@ RPM_HASH = "71d07ff2208e4cf47fe6103d2ec4823f43e54df913c087e7e0a4e8f72956f2aa20e2
 RPROVIDES:${PN} += "ghc-language-docker \
 ghc-language-docker(aarch-64) \
 libHSlanguage-docker-11.0.0-LOoHldD1EPH8sK8xHuKTA9-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ libopentracing-cpp1 \
 libopentracing-cpp1(aarch-64) \
 libopentracing.so.1()(64bit) \
 libopentracing_mocktracer.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(joblib) \
 python311-joblib \
 python3dist(joblib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

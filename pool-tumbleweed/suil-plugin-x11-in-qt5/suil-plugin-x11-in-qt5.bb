@@ -11,6 +11,7 @@ RPM_HASH = "51efef98855a91400707efdd363bd3ed54f070130b82493bdba2134b2c6f875f1759
 RPROVIDES:${PN} += "libsuil_x11_in_qt5.so()(64bit) \
 suil-plugin-x11-in-qt5 \
 suil-plugin-x11-in-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

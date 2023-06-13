@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(matomo) \
 matomo"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/php \
 /usr/bin/python3 \

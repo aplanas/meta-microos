@@ -26,6 +26,7 @@ perl(Module::Build::ModuleInfo) \
 perl(Module::Build::Version) \
 perl(Module::Build::YAML) \
 perl-Module-Build-Deprecated"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::YAML) \
 perl(Module::Metadata) \

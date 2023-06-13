@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(graphviz-php) \
 graphviz-php \
 graphviz-php(aarch-64) \
 libgv_php.so()(64bit)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(arara.1) \
 texlive-arara-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

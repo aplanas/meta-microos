@@ -22,6 +22,7 @@ tex(bkm-vtex-2019-12-03.def) \
 tex(bkm-vtex.def) \
 tex(bookmark.sty) \
 texlive-bookmark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

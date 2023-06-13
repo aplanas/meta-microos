@@ -13,6 +13,7 @@ RPM_HASH = "2afbaeaefbb5d06e177248b64eece800e3556b068bb95b1da4c86ee118c02b16f0dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-ruby"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "811e16387cdfcfb581e0c5ca35a5f3c0c17bca5e48235d23309afe859598ea925582
 
 RPROVIDES:${PN} += "fonttosfnt \
 fonttosfnt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

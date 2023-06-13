@@ -10,6 +10,7 @@ RPM_HASH = "b4166cad53761054239fefe376561c7da6b2880c610d90c6dd842b6b34e78637f433
 
 RPROVIDES:${PN} += "poppler-tools \
 poppler-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

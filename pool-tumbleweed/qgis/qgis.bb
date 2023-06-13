@@ -76,6 +76,7 @@ mimehandler(image/jpeg) \
 mimehandler(image/tiff) \
 qgis \
 qgis(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

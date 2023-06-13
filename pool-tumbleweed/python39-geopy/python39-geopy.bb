@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(geopy) \
 python39-geopy \
 python3dist(geopy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-geographiclib"
 

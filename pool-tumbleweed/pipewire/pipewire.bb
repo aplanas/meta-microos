@@ -17,6 +17,7 @@ RPM_HASH = "f9c29248179804190859f5a0b8f8c36c917814104a09e27d54f91329e3ece94850bc
 
 RPROVIDES:${PN} += "pipewire \
 pipewire(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Flask-Migrate \
 python3.10dist(flask-migrate) \
 python310-Flask-Migrate \
 python3dist(flask-migrate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-Flask-SQLAlchemy \

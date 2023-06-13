@@ -17,6 +17,7 @@ RPM_HASH = "96bf949fcd88468f7a61142058e553053b756f8cb85e81c25a9c9b62c43a06148ee7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pydle"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.9 \

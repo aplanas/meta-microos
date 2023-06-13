@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "java-cup \
 java_cup \
 mvn(com.github.vbmacher:java-cup) \
 mvn(com.github.vbmacher:java-cup-runtime)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem"

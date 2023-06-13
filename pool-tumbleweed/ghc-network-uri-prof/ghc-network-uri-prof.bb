@@ -10,6 +10,7 @@ RPM_HASH = "1ca6b097e1b8e439cd64b78d67b81b5ad70848f7dc27a3d72be7ecc92918e8c61730
 RPROVIDES:${PN} += "ghc-network-uri-prof \
 ghc-network-uri-prof(aarch-64) \
 ghc-prof(network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH)"
+
 RDEPENDS:${PN} += "ghc-network-uri-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \

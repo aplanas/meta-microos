@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(bigfoot.sty) \
 tex(perpage.sty) \
 tex(suffix.sty) \
 texlive-bigfoot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

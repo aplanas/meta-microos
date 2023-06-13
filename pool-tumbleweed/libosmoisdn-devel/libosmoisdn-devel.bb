@@ -13,6 +13,7 @@ RPM_HASH = "9747363db92efc7f8090b15db47817098a7a00a9713354ebd347fb99369164a8b0ea
 RPROVIDES:${PN} += "libosmoisdn-devel \
 libosmoisdn-devel(aarch-64) \
 pkgconfig(libosmoisdn)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(libosmocore) \
 pkgconfig(talloc)"

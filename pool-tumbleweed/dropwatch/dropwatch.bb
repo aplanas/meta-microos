@@ -10,6 +10,7 @@ RPM_HASH = "31bd6da377891a504a0cd2cb1f761f06b255851dfe1376726019e84d11ee850e7010
 
 RPROVIDES:${PN} += "dropwatch \
 dropwatch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

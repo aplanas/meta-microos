@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(gpm) \
 gpm \
 gpm(aarch-64) \
 select"
+
 RDEPENDS:${PN} += "/bin/sed \
 /bin/sh \
 /usr/bin/mkdir \

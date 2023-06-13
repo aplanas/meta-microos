@@ -10,6 +10,7 @@ RPM_HASH = "220e08d18f08b4b29c4516c2879132003ea2b864fd0d0d4e202b02b5e20ba3c90f76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcompris-qt-activities"
+
 RDEPENDS:${PN} += "gcompris-qt"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "63ea9beb0362d4ba6149ac6e78861e1d6b995905daeae0009d8f312483874ba8c665
 RPROVIDES:${PN} += "libc++abi.so.1()(64bit) \
 libc++abi1 \
 libc++abi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

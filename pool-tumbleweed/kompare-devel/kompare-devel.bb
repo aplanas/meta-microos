@@ -9,6 +9,7 @@ RPM_HASH = "a531c66dbf64335bd10df3706a3c083079aed240c44aa05b1647010fd9cbcb9d1e33
 
 RPROVIDES:${PN} += "kompare-devel \
 kompare-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kompare"
 
 inherit rpm

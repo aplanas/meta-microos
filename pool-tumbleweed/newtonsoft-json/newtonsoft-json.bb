@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono(Newtonsoft.Json) \
 newtonsoft-json"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Core) \
 mono(System.Data) \

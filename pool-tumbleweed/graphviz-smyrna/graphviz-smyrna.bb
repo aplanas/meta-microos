@@ -9,6 +9,7 @@ RPM_HASH = "9afd813367add5c484b69a96b8f24ea49ee467a1dfc165da466ccead86e7c7434844
 
 RPROVIDES:${PN} += "graphviz-smyrna \
 graphviz-smyrna(aarch-64)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

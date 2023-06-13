@@ -19,6 +19,7 @@ libaudiocd_encoder_wav.so()(64bit) \
 libaudiocdplugins.so.5()(64bit) \
 metainfo() \
 metainfo(org.kde.kio_audiocd.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "95809c78258c3ff91ac3a2657f82f2513c8ddee7ac39bcfe4f0d826f25e5ff39e288
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sar2-data"
+
 RDEPENDS:${PN} += "sar2"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(asciilist.sty) \
 texlive-asciilist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

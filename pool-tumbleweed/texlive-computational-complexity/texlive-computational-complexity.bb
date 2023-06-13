@@ -36,6 +36,7 @@ tex(ccthm.sty) \
 tex(relabel.sty) \
 tex(thcc.sty) \
 texlive-computational-complexity"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

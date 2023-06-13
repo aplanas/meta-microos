@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pyusb) \
 python39-pyusb \
 python39-usb \
 python3dist(pyusb)"
+
 RDEPENDS:${PN} += "libusb-1_0-0 \
 python(abi)"
 

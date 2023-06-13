@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(uget-gtk.desktop) \
 uget \
 uget(aarch-64)"
+
 RDEPENDS:${PN} += "aria2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

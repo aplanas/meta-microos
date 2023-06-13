@@ -13,6 +13,7 @@ RPM_HASH = "4405ce1392bd9450e646b8233b38af4610b90b7df1d9b8e97cb2724feef6f951f759
 RPROVIDES:${PN} += "typelib(CloudProviders) \
 typelib-1_0-CloudProviders-0_3_0 \
 typelib-1_0-CloudProviders-0_3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcloudproviders.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SDL_mixer-devel \
 libSDL_mixer-devel \
 libSDL_mixer-devel(aarch-64) \
 pkgconfig(SDL_mixer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

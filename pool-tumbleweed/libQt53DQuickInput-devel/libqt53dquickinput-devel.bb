@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DQuickInput) \
 libQt53DQuickInput-devel \
 libQt53DQuickInput-devel(aarch-64) \
 pkgconfig(Qt53DQuickInput)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickInput5 \
 pkgconfig(Qt53DCore) \

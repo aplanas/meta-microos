@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KPim5PkPass) \
 cmake(KPimPkPass) \
 kpkpass-devel \
 kpkpass-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 libKPim5PkPass5"
 

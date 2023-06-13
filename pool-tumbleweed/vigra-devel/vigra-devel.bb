@@ -14,6 +14,7 @@ RPM_HASH = "bf5c62e37f4b2ff09d8c6f73c00b793eba96b6244b093c998bf171cc3fc1e38cfd01
 
 RPROVIDES:${PN} += "vigra-devel \
 vigra-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 fftw3-devel \
 hdf5-devel \

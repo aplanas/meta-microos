@@ -17,6 +17,7 @@ RPM_HASH = "2c425d65b09a2965c10559785b59020d802cc6737e604b71918718b4ad9915ae6dc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pybugz-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

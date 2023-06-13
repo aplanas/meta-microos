@@ -15,6 +15,7 @@ application(ibus-setup-mozc-us.desktop) \
 ibus-mozc \
 ibus-mozc(aarch-64) \
 locale(ibus:ja)"
+
 RDEPENDS:${PN} += "ibus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

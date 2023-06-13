@@ -20,6 +20,7 @@ libvtkPythonInterpreter.so.1()(64bit) \
 libvtkWrappingPythonCore3.10.so.1()(64bit) \
 python3-vtk-openmpi2 \
 python3-vtk-openmpi2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

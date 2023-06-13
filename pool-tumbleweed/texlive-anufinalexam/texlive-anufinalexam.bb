@@ -11,6 +11,7 @@ RPM_HASH = "4a1f412ecd8af882093dc447c36f5438ec70f43ce6afe9011fc29cfa21589ab27a16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-anufinalexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

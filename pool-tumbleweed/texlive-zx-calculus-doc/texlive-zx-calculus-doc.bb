@@ -9,6 +9,7 @@ RPM_HASH = "a57515940479a78e21de8e8726427935ae0783f5a41fec6c82d66f3ef4006f551b68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zx-calculus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

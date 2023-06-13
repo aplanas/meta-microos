@@ -17,6 +17,7 @@ libgioremote-volume-monitor.so()(64bit) \
 libgvfscommon.so()(64bit) \
 libgvfsdaemon.so()(64bit) \
 libgvfsdbus.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glib2-tools \
 ld-linux-aarch64.so.1()(64bit) \

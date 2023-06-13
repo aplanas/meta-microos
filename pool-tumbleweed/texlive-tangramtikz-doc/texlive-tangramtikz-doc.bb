@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tangramtikz-doc:fr) \
 texlive-tangramtikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

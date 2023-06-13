@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-moto-server \
 python310-moto-server"
+
 RDEPENDS:${PN} += "python310-Flask \
 python310-Flask-Cors \
 python310-moto-all"

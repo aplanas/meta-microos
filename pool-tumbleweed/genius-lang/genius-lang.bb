@@ -55,6 +55,7 @@ locale(genius:sv) \
 locale(genius:uk) \
 locale(genius:zh_CN) \
 locale(genius:zh_TW)"
+
 RDEPENDS:${PN} += "genius"
 
 inherit rpm

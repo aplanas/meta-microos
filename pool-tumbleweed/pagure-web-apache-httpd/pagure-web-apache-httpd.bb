@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pagure-web-apache-httpd) \
 pagure-web-apache-httpd"
+
 RDEPENDS:${PN} += "apache2-mod_wsgi-python3 \
 pagure"
 

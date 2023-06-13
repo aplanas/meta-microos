@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(caesar_book.cls) \
 tex(sidenotes.sty) \
 texlive-sidenotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(currency.sty) \
 texlive-currency"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

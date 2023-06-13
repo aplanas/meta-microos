@@ -15,6 +15,7 @@ leechcraft-monocle-postrus(aarch-64) \
 leechcraft-monocle-subplugin \
 libleechcraft_monocle_postrus.so()(64bit) \
 mimehandler(application/postscript)"
+
 RDEPENDS:${PN} += "ghostscript \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

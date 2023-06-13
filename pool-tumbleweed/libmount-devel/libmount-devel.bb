@@ -10,6 +10,7 @@ RPM_HASH = "8bcd3480b5b76c02fe6efabe15c86c4fe2dba4f48265ea4e685505c362110b96bb7f
 RPROVIDES:${PN} += "libmount-devel \
 libmount-devel(aarch-64) \
 pkgconfig(mount)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmount1 \
 pkgconfig(blkid) \

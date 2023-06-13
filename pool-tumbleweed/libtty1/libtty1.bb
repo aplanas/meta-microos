@@ -10,6 +10,7 @@ RPM_HASH = "0526bd26d9f7f60ef6e5af9f45a071dc781fee73613bbe598021a8ab3cd007a2ba35
 RPROVIDES:${PN} += "libtty.so.1()(64bit) \
 libtty1 \
 libtty1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

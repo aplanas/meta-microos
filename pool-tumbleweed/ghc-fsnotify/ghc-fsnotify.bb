@@ -12,6 +12,7 @@ RPM_HASH = "c880439615dd13cfd2b5b313a1f5ab08be18bbffceeb75adee120ca0a61664b030b3
 RPROVIDES:${PN} += "ghc-fsnotify \
 ghc-fsnotify(aarch-64) \
 libHSfsnotify-0.4.1.0-2wEvt7wcuNwGNHTpTKKSuK-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

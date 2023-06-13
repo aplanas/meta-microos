@@ -15,6 +15,7 @@ RPM_HASH = "c9a1ff8bd7937403649f44a30ee96d0757decbfed77fb1c9af4a2cce399af382ef0b
 RPROVIDES:${PN} += "cpp-httplib-devel \
 cpp-httplib-devel(aarch-64) \
 pkgconfig(cpp-httplib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcpp-httplib0_12 \
 pkgconfig(libbrotlicommon) \

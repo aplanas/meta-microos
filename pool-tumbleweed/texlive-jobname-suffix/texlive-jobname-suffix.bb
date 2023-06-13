@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jobname-suffix.sty) \
 texlive-jobname-suffix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

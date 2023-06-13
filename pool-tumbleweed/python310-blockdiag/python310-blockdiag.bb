@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-blockdiag \
 python3.10dist(blockdiag) \
 python310-blockdiag \
 python3dist(blockdiag)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

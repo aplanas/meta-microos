@@ -11,6 +11,7 @@ RPM_HASH = "9d04c3dbf1763d193cb35bf435cba87ea57d83effeeb1356ce6aacaae9791b022de6
 RPROVIDES:${PN} += "ghc-hinotify \
 ghc-hinotify(aarch-64) \
 libHShinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

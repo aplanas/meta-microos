@@ -9,6 +9,7 @@ RPM_HASH = "ba22188a8c2e5bfb7fdd49d04706acfb36c25453d5fc62a5b81186988822ba066aaf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvarabic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

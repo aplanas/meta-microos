@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(adfathesis.cls) \
 texlive-adfathesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

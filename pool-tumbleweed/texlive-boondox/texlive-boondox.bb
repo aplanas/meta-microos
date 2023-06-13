@@ -56,6 +56,7 @@ tex(zxxrow7z.tfm) \
 tex(zxxrw7z.tfm) \
 tex(zxxrw8a.tfm) \
 texlive-boondox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

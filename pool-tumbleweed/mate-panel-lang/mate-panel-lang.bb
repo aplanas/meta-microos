@@ -112,6 +112,7 @@ locale(mate-panel:zh_HK) \
 locale(mate-panel:zh_TW) \
 mate-panel-lang \
 mate-panel-lang-all"
+
 RDEPENDS:${PN} += "mate-panel"
 
 inherit rpm

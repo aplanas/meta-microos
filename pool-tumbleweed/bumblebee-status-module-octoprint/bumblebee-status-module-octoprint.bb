@@ -9,6 +9,7 @@ RPM_HASH = "6515f6ce23d022dbecc4073e5868a8648108f27ae3d1c85622ff4754b003ae5b1bb3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-octoprint"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-Pillow-tk \
 python3-simplejson"

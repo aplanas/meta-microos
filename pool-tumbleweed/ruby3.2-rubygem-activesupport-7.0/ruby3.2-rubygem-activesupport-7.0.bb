@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:activesupport:7) \
 rubygem(ruby:3.2.0:activesupport:7.0) \
 rubygem(ruby:3.2.0:activesupport:7.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby) \
 rubygem(ruby:3.2.0:concurrent-ruby:1) \

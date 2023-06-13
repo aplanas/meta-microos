@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-flake8-polyfill \
 python3.10dist(flake8-polyfill) \
 python310-flake8-polyfill \
 python3dist(flake8-polyfill)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ku-template.sty) \
 texlive-ku-template"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

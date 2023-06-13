@@ -10,6 +10,7 @@ RPM_HASH = "6d94bf92ef9bbf1792297c94618d888f35dce3e46641e360c1d09bd5a6680fc4ddc0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-airline"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

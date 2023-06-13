@@ -11,6 +11,7 @@ RPM_HASH = "0126c467a64e897951d6ea1c0d231c9eca400ad3941d6d619fe2d989a7b442df0d08
 RPROVIDES:${PN} += "python3-libfwsi \
 python310-libfwsi \
 python310-libfwsi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

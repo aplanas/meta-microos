@@ -15,6 +15,7 @@ RPM_HASH = "0b9f702d8140f69a079e212338bd12c3adf56ab2d5cc683fc575095a74cac2f47dc4
 RPROVIDES:${PN} += "libdvbpsi.so.7()(64bit) \
 libdvbpsi7 \
 libdvbpsi7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

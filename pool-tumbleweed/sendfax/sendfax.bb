@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(sendfax) \
 fax_daemon \
 sendfax \
 sendfax(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 g3utils \

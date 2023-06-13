@@ -10,6 +10,7 @@ RPM_HASH = "0f1f33cea78de63767a77b5a2a76fd53b0aede6e8b4081f84ed15e613720aa3ac8f3
 RPROVIDES:${PN} += "ghc-cabal2spec \
 ghc-cabal2spec(aarch-64) \
 libHScabal2spec-2.7.0-9ijIHSPt0QmI4YnWoXNap7-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

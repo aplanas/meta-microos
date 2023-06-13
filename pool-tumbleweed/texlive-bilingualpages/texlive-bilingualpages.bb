@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bilingualpages.sty) \
 texlive-bilingualpages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

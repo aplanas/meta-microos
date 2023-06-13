@@ -12,6 +12,7 @@ metainfo(xviewer-slideshowshuffle.metainfo.xml) \
 xviewer-plugin-slideshowshuffle \
 xviewer-plugin-slideshowshuffle(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/slideshowshuffle.plugin"
+
 RDEPENDS:${PN} += "typelib(GObject) \
 typelib(Gtk) \
 typelib(Xviewer) \

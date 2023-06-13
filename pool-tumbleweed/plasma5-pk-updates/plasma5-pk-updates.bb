@@ -14,6 +14,7 @@ metainfo(org.kde.plasma.pkupdates.appdata.xml) \
 plasma5-pk-updates \
 plasma5-pk-updates(aarch-64) \
 qt5qmlimport(org.kde.plasma.PackageKit.1)"
+
 RDEPENDS:${PN} += "PackageKit \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

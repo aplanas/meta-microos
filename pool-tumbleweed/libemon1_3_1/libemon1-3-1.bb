@@ -16,6 +16,7 @@ RPM_HASH = "85289abbdecf65676573041c81fa3e797364bcbc840865ba122537bd2b3ad76a37c5
 RPROVIDES:${PN} += "libemon.so.1.3.1()(64bit) \
 libemon1_3_1 \
 libemon1_3_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

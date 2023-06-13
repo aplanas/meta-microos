@@ -14,6 +14,7 @@ rpm_macro(_mingw64_cmake) \
 rpm_macro(_mingw64_cmake_build) \
 rpm_macro(_mingw64_cmake_install) \
 rpm_macro(_mingw64_ctest)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cmake \
 mingw64-filesystem"

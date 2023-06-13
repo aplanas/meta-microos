@@ -11,6 +11,7 @@ RPM_HASH = "254cd6703046ae04003ac56243f630cf59ca56fde8fdfbf09a5a9c0027297842d3f5
 RPROVIDES:${PN} += "AppStream-compose-devel \
 AppStream-compose-devel(aarch-64) \
 pkgconfig(appstream-compose)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 AppStream \
 AppStream-compose \

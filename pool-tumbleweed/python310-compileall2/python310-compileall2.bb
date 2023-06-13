@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-compileall2 \
 python3.10dist(compileall2) \
 python310-compileall2 \
 python3dist(compileall2)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

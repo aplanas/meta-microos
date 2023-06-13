@@ -17,6 +17,7 @@ RPM_HASH = "8fb4a2057e9b3c3c75d25cd4e2aa41f0c9a77ad03b2aea6c671502a54a44a2e89320
 
 RPROVIDES:${PN} += "kismet-logtools \
 kismet-logtools(aarch-64)"
+
 RDEPENDS:${PN} += "kismet \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "e387695b35c80a9ad4daf61c1d738a97defa76fca9d917b492ac56cb3601b319f45c
 RPROVIDES:${PN} += "libavahi-ui-gtk3-0 \
 libavahi-ui-gtk3-0(aarch-64) \
 libavahi-ui-gtk3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \

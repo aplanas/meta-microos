@@ -9,6 +9,7 @@ RPM_HASH = "2030f285314414777550a97bdfea4870b96156904476a145655d3dea0fb51c3513c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shorewall-core"
+
 RDEPENDS:${PN} += "/bin/sh \
 iptables \
 perl-base"

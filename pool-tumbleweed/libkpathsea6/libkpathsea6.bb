@@ -15,6 +15,7 @@ RPM_HASH = "85c358d078ad027582e063ebba15126528edf650af8c04a981655e632b937874a0b6
 RPROVIDES:${PN} += "libkpathsea.so.6()(64bit) \
 libkpathsea6 \
 libkpathsea6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

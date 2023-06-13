@@ -10,6 +10,7 @@ RPM_HASH = "ecb7bf9e7d66d3021f7eb872886cbb9505a768550986ccc6dc980b6739b091fdb59d
 RPROVIDES:${PN} += "libxtrxll.so.0()(64bit) \
 libxtrxll0 \
 libxtrxll0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

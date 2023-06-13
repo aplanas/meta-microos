@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ycbook.cls) \
 texlive-ycbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

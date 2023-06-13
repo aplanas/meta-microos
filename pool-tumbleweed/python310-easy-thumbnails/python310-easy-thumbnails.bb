@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-easy-thumbnails \
 python3.10dist(easy-thumbnails) \
 python310-easy-thumbnails \
 python3dist(easy-thumbnails)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Pillow \

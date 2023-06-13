@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-jenkinsapi \
 python3.10dist(jenkinsapi) \
 python310-jenkinsapi \
 python3dist(jenkinsapi)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

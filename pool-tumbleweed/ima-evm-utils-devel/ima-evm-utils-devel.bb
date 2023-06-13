@@ -9,6 +9,7 @@ RPM_HASH = "e6d1375f4114bff026c31d04815a81d9cae3a3af2154fdfa5a2eca71f6a39d3d0f9f
 
 RPROVIDES:${PN} += "ima-evm-utils-devel \
 ima-evm-utils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libimaevm4 \
 openssl-devel"
 

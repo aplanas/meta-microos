@@ -28,6 +28,7 @@ perl(Crypt::CBC::PBKDF::opensslv2) \
 perl(Crypt::CBC::PBKDF::pbkdf2) \
 perl(Crypt::CBC::PBKDF::randomiv) \
 perl-Crypt-CBC"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::Cipher::AES) \
 perl(Crypt::PBKDF2) \

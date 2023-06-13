@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-jsonschema) \
 python311-sphinx-jsonschema \
 python3dist(sphinx-jsonschema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-docutils \

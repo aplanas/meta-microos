@@ -12,6 +12,7 @@ RPM_HASH = "6e372e4dd40e06419528ef38cf9f1a96bfd83f62d4e15ffeb7557db66e0bfd3be1ff
 
 RPROVIDES:${PN} += "scsh \
 scsh(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 scheme48-vm \
 scsh-base"

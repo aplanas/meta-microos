@@ -18,6 +18,7 @@ RPM_HASH = "44cca27cd6aaa2a9d90deff14b2986312bd5b2d8bbca0c2e67c045ae73ea55f2ab38
 
 RPROVIDES:${PN} += "flickcurl-doc \
 flickcurl-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libflickcurl0"
 
 inherit rpm

@@ -24,6 +24,7 @@ RPM_HASH = "71295e7afa1c005f796e0a24226e0b823cb17623f9dbd7670a7765d449b45b280e7d
 RPROVIDES:${PN} += "ghc-vty \
 ghc-vty(aarch-64) \
 libHSvty-5.38-E9MiSc6Hkm5LKREDrOQCil-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \

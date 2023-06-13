@@ -11,6 +11,7 @@ RPM_HASH = "4e3f2b0dce67e4f0572abaf6eb20cea613658bcb97b9bbb36a5423870e918cccaf47
 RPROVIDES:${PN} += "ghc-Decimal \
 ghc-Decimal(aarch-64) \
 libHSDecimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

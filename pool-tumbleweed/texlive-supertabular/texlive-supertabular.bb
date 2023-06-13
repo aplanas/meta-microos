@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(supertabular.sty) \
 texlive-supertabular"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

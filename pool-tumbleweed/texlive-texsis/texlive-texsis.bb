@@ -45,6 +45,7 @@ tex(TXStags.tex) \
 tex(TXStitle.tex) \
 tex(texsis.tex) \
 texlive-texsis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(beaker) \
 python311-Beaker \
 python3dist(beaker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dbm \
 python311-pylibmc \

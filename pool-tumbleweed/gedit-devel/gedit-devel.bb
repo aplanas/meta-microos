@@ -15,6 +15,7 @@ gedit-devel(aarch-64) \
 gedit-doc \
 gedit2-devel \
 pkgconfig(gedit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gedit \
 gtksourceview-devel \

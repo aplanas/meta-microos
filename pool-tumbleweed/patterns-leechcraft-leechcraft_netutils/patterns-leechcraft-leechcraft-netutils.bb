@@ -12,6 +12,7 @@ pattern-icon() \
 pattern-order() \
 patterns-leechcraft-leechcraft_netutils \
 patterns-leechcraft-leechcraft_netutils(aarch-64)"
+
 RDEPENDS:${PN} += "leechcraft-cstp \
 pattern()"
 

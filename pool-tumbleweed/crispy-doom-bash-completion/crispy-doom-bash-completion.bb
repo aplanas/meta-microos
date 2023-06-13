@@ -9,6 +9,7 @@ RPM_HASH = "7514edaaf8a668fe545f3e914fb99c58a85895f80f7ad92fc5692c8595565a743f16
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crispy-doom-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

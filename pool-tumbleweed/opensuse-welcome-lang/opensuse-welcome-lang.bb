@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opensuse-welcome-lang \
 opensuse-welcome-lang-all"
+
 RDEPENDS:${PN} += "opensuse-welcome"
 
 inherit rpm

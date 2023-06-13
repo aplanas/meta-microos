@@ -9,6 +9,7 @@ RPM_HASH = "ed1f9b1e28d7440ec8c8a9794c469c335503e1aa871704d9926a1ecee687ae5c7675
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "instsource-susedata"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 inst-source-utils \
 package-EULAs \

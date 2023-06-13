@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-flit-core \
 python3.10dist(flit-core) \
 python310-flit-core \
 python3dist(flit-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -21,6 +21,7 @@ libfreebl3.so(NSSprivate_3.11)(64bit) \
 libfreeblpriv3.so()(64bit) \
 libfreeblpriv3.so(NSSprivate_3.11)(64bit) \
 libfreeblpriv3.so(NSSprivate_3.16)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

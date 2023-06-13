@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(logpap.sty) \
 texlive-logpap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

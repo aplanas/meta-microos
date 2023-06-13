@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-distributed \
 python3.10dist(distributed) \
 python310-distributed \
 python3dist(distributed)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

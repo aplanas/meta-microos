@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(modernposter.cls) \
 texlive-modernposter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

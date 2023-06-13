@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-dialite \
 python3.10dist(dialite) \
 python310-dialite \
 python3dist(dialite)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

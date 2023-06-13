@@ -40,6 +40,7 @@ rpm_macro(pom_xpath_inject) \
 rpm_macro(pom_xpath_remove) \
 rpm_macro(pom_xpath_replace) \
 rpm_macro(pom_xpath_set)"
+
 RDEPENDS:${PN} += "java-devel \
 javapackages-tools \
 python3-javapackages"

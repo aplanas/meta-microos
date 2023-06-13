@@ -12,6 +12,7 @@ plasma-nm-openswan \
 plasma-nm5-libreswan \
 plasma-nm5-libreswan(aarch-64) \
 plasma-nm5-openswan"
+
 RDEPENDS:${PN} += "NetworkManager-libreswan \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

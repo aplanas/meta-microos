@@ -41,6 +41,7 @@ mimehandler(video/x-ogm) \
 mimehandler(video/x-theora) \
 syncplay-client \
 syncplay-client(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-Twisted \
 syncplay-common"

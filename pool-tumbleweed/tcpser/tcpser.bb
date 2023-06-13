@@ -21,6 +21,7 @@ RPM_HASH = "1ab8468f9212afd6278ebc9a48398a0b13cd70bc1f70a2e17a7ccaaa3258d52e9cda
 
 RPROVIDES:${PN} += "tcpser \
 tcpser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

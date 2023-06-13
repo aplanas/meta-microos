@@ -10,6 +10,7 @@ RPM_HASH = "28014285c68e34641a9534c1365a8af01152210ee3da3a58631a4aaf47552b7c6312
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcc7-info"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

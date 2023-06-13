@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tiscreen.sty) \
 texlive-tiscreen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

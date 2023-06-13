@@ -11,6 +11,7 @@ RPM_HASH = "742a544949962e08bf1b7643209632e4d454dad1e95e3fa958c21d47b38b4617daed
 RPROVIDES:${PN} += "alsa-tools-devel \
 ld10k1-devel \
 ld10k1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblo10k1-0"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "1ce5cbbca50540fc0dcd0939439a399387384533411cbf92d2c7bbe5aa4d8b1e6cbf
 
 RPROVIDES:${PN} += "libpnetcdf-gnu-openmpi3-hpc \
 libpnetcdf-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpnetcdf_1_12_3-gnu-openmpi3-hpc"
 

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-ai-metricsadvisor) \
 python311-azure-ai-metricsadvisor \
 python3dist(azure-ai-metricsadvisor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-ai-nspkg \
 python311-azure-core \

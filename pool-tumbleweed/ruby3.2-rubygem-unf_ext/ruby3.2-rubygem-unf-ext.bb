@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:unf_ext:0) \
 rubygem(ruby:3.2.0:unf_ext:0.0) \
 rubygem(ruby:3.2.0:unf_ext:0.0.8) \
 rubygem(unf_ext)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

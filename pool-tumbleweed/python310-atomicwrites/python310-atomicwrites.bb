@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-atomicwrites \
 python3.10dist(atomicwrites) \
 python310-atomicwrites \
 python3dist(atomicwrites)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -31,6 +31,7 @@ perl(Chart::Property::DataType::Font) \
 perl(Chart::Split) \
 perl(Chart::StackedBars) \
 perl-Chart"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(GD) \

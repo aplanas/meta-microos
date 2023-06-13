@@ -18,6 +18,7 @@ RPM_HASH = "e2d81e68c53862be212f1cbb6b46f7c230e22647cf3f65b3f8837c8eeee863567d0b
 RPROVIDES:${PN} += "ghc-text-short \
 ghc-text-short(aarch-64) \
 libHStext-short-0.1.5-82jy4M6AvoMDwlCMY2Ykx2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

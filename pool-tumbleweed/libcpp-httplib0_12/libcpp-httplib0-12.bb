@@ -11,6 +11,7 @@ RPM_HASH = "4441463cc9b3253af93960213fa92774c6439220efcd9c9a2180398552927536e104
 RPROVIDES:${PN} += "libcpp-httplib.so.0.12()(64bit) \
 libcpp-httplib0_12 \
 libcpp-httplib0_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

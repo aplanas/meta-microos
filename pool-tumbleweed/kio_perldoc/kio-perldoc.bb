@@ -10,6 +10,7 @@ RPM_HASH = "44c744fe0fa7e9967e22f4a5a0788beb196bcada33934761ca9051618cca256b53ab
 RPROVIDES:${PN} += "kdesdk-kioslaves \
 kio_perldoc \
 kio_perldoc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

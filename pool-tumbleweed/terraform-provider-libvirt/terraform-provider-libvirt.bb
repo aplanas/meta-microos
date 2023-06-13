@@ -10,6 +10,7 @@ RPM_HASH = "1cfb810c25f83df6ac07e656ccb1fb332598ce896ac6db3959362e3a456425a4cbdc
 
 RPROVIDES:${PN} += "terraform-provider-libvirt \
 terraform-provider-libvirt(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-client \
 mkisofs \
 terraform"

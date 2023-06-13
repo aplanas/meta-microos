@@ -20,6 +20,7 @@ tex(uxuc.fd) \
 tex(xuc10.tfm) \
 tex(xucuri.sty) \
 texlive-mxedruli"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

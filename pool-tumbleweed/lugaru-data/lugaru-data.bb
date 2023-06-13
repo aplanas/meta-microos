@@ -9,6 +9,7 @@ RPM_HASH = "51e1013135747d6373347eaa39eecda7b690208885cd8650994821cb970b2902fd8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lugaru-data"
+
 RDEPENDS:${PN} += "lugaru"
 
 inherit rpm

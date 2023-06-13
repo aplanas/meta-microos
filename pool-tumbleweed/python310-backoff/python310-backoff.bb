@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-backoff \
 python3.10dist(backoff) \
 python310-backoff \
 python3dist(backoff)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

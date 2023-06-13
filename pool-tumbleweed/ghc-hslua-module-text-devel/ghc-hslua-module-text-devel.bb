@@ -11,6 +11,7 @@ RPM_HASH = "b9e01e441d21dd08389ddbee92b9c15e9389246c620c7042d9077dd436de5f9cd495
 RPROVIDES:${PN} += "ghc-devel(hslua-module-text-1.1.0.1-EvPw7u7E7fn9ZAp58nb6qh) \
 ghc-hslua-module-text-devel \
 ghc-hslua-module-text-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

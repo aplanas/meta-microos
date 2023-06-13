@@ -14,6 +14,7 @@ RPM_HASH = "b6adac80c83f6b76de63609e8e9de389ffec0224c5dfe23a3a52c07ec45d6fc79580
 RPROVIDES:${PN} += "libosmocoding-devel \
 libosmocoding-devel(aarch-64) \
 pkgconfig(libosmocoding)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocoding0 \
 libosmocore-devel \

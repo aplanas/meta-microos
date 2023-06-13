@@ -14,6 +14,7 @@ RPM_HASH = "a2986d65f97fd53589c189319eb751b620fd02e3f2e36696dfe431d0fb9417400e53
 
 RPROVIDES:${PN} += "libbraille-fake0-14 \
 libbraille-fake0-14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libbraille \
 libbraille-0.so.14()(64bit) \

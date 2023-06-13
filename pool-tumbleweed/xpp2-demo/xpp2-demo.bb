@@ -11,6 +11,7 @@ RPM_HASH = "b654c56f93a4d6a7148ba52f1d137d472c885834704e1b0cea4e6422cc195264a106
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xpp2-demo"
+
 RDEPENDS:${PN} += "xpp2"
 
 inherit rpm

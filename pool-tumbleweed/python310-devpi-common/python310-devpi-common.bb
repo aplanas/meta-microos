@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-devpi-common \
 python3.10dist(devpi-common) \
 python310-devpi-common \
 python3dist(devpi-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-packaging \
 python310-py \

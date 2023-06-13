@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(facture-belge-simple-sans-tva.sty) \
 texlive-facture-belge-simple-sans-tva"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "db7115ca09154629de999386015dabbd82274dbdd996c96f2fed11499993305adcf9
 
 RPROVIDES:${PN} += "u-boot-p2771-0000-500-doc \
 u-boot-p2771-0000-500-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

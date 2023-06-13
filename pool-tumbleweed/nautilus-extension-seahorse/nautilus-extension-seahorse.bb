@@ -19,6 +19,7 @@ mimehandler(application/pgp-signature) \
 nautilus-extension-seahorse \
 nautilus-extension-seahorse(aarch-64) \
 seahorse-nautilus"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

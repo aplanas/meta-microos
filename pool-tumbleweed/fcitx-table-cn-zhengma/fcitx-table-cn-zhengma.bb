@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-zhengma \
 fcitx-table-extra"
+
 RDEPENDS:${PN} += "fcitx-table"
 
 inherit rpm

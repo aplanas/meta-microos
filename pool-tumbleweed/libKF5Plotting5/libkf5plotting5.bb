@@ -14,6 +14,7 @@ RPM_HASH = "594e37054f12b1bc1a4ecd5da2d02ed3c4b355de0694d4b5b8480992e5723f1a1d8d
 RPROVIDES:${PN} += "libKF5Plotting.so.5()(64bit) \
 libKF5Plotting5 \
 libKF5Plotting5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

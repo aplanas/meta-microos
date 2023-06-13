@@ -10,6 +10,7 @@ RPM_HASH = "afaa81719ca1bfd43283041149e4fc431ac6fc04b9b9d8cc03799500216c3aa071c4
 
 RPROVIDES:${PN} += "h5utils \
 h5utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

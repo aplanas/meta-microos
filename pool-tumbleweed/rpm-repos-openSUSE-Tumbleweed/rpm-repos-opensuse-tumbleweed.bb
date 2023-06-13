@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(rpm-repos-openSUSE-Tumbleweed) \
 rpm-repos-openSUSE \
 rpm-repos-openSUSE-Tumbleweed \
 rpm-repos-openSUSE-Tumbleweed(aarch-64)"
+
 RDEPENDS:${PN} += "rpm-repo-keys-openSUSE \
 suse-release"
 

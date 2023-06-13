@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bez123.sty) \
 tex(multiply.sty) \
 texlive-bez123"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "c1a7e5a5e20d66492bbaa939ec5bb1b8d82174b9e14d4b67503e4b435939e1be9af7
 
 RPROVIDES:${PN} += "deepin-network-utils \
 deepin-network-utils(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "ded14d4967d96d69172392d8cea59fb7ca5776f8133914a6b39955f4eee862cefd1a
 RPROVIDES:${PN} += "python3-libvsapm \
 python310-libvsapm \
 python310-libvsapm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

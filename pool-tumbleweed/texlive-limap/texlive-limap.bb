@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(limap.cls) \
 tex(limap.sty) \
 texlive-limap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "f68389dd810dfe8b0fc8c0a7395ad7a629563fde4b95cb7a441cd26a921aff33d248
 RPROVIDES:${PN} += "perl(Crypt::Blowfish) \
 perl-Crypt-Blowfish \
 perl-Crypt-Blowfish(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

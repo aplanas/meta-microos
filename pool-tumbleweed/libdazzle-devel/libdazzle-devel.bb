@@ -16,6 +16,7 @@ RPM_HASH = "3bb69644134f85f37447862597c78dcb14456d46b9cc7ba9c031925804908db6cdef
 RPROVIDES:${PN} += "libdazzle-devel \
 libdazzle-devel(aarch-64) \
 pkgconfig(libdazzle-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dazzle-list-counters \
 libdazzle-1_0-0 \

@@ -21,6 +21,7 @@ python310-y-py \
 python310-y-py(aarch-64) \
 python310-y_py \
 python3dist(y-py)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

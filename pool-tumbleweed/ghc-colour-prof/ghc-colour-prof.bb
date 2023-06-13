@@ -10,6 +10,7 @@ RPM_HASH = "6af7ede9909d19956d929d8c95861824484c0fa8510a918c8ddd91e65c57e9dbd36f
 RPROVIDES:${PN} += "ghc-colour-prof \
 ghc-colour-prof(aarch-64) \
 ghc-prof(colour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln)"
+
 RDEPENDS:${PN} += "ghc-colour-devel \
 ghc-prof(base-4.17.1.0)"
 

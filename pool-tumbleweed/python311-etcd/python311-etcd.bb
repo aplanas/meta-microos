@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-etcd) \
 python311-etcd \
 python3dist(python-etcd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dnspython \
 python311-urllib3"

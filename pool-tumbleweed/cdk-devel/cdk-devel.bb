@@ -10,6 +10,7 @@ RPM_HASH = "0690a8c442dfb0fc331717f304ba801172ae129ac6c2e8901916708bcd3d11c048b5
 
 RPROVIDES:${PN} += "cdk-devel \
 cdk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 libcdk6_2_4 \
 ncurses-devel"

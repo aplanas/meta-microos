@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-comm \
 python3.10dist(comm) \
 python310-comm \
 python3dist(comm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-traitlets"
 

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "snd_sf2 \
 soundfont"
+
 RDEPENDS:${PN} += "awesfx"
 
 inherit rpm

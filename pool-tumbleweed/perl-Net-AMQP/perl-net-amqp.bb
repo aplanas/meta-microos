@@ -31,6 +31,7 @@ perl(Net::AMQP::Value::Integer) \
 perl(Net::AMQP::Value::String) \
 perl(Net::AMQP::Value::Timestamp) \
 perl-Net-AMQP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \
 perl(Class::Data::Inheritable) \

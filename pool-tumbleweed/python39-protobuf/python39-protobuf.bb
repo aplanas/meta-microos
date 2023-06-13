@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(protobuf) \
 python39-protobuf \
 python39-protobuf(aarch-64) \
 python3dist(protobuf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

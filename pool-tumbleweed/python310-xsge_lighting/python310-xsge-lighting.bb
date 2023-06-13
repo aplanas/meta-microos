@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-xsge_lighting \
 python3.10dist(xsge-lighting) \
 python310-xsge_lighting \
 python3dist(xsge-lighting)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sge-pygame \
 python310-six"

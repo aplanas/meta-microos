@@ -60,6 +60,7 @@ locale(knights:ug) \
 locale(knights:uk) \
 locale(knights:zh_CN) \
 locale(knights:zh_TW)"
+
 RDEPENDS:${PN} += "knights"
 
 inherit rpm

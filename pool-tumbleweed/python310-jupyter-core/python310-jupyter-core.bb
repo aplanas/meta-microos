@@ -22,6 +22,7 @@ python3.10dist(jupyter-core) \
 python310-jupyter-core \
 python310-jupyter_core \
 python3dist(jupyter-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

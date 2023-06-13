@@ -11,6 +11,7 @@ RPM_HASH = "8fe9be858103ed4387ae981b89ad4880d87d6515f3545d7e912da8ba0bd8a084bf32
 RPROVIDES:${PN} += "cmake(KF5IconThemes) \
 kiconthemes-devel \
 kiconthemes-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "cf7a7d604fa83b79502881fc8029fd21fd5bc088263bf7976afdabce1fe8c1a42442
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-soton-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

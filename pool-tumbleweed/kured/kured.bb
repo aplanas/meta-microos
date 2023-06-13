@@ -19,6 +19,7 @@ RPM_HASH = "f61e9ae06133e5d0fb5984a3b1865eb8b7b2c6b57881f0bba65e6e2b7cb5b9bdc725
 
 RPROVIDES:${PN} += "kured \
 kured(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "6a90f1c0b4909a69cc0ca23892976124473467cc4573283f158d414ce87a9c74a86f
 RPROVIDES:${PN} += "libwx.so()(64bit) \
 libwxlua \
 libwxlua(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

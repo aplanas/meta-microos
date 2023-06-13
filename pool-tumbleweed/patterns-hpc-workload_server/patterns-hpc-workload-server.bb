@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-visible() \
 patterns-hpc-workload_server \
 patterns-hpc-workload_server(aarch-64)"
+
 RDEPENDS:${PN} += "iputils \
 slurm \
 slurm-slurmdbd"

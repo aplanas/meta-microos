@@ -17,6 +17,7 @@ mimehandler(audio/mod) \
 mimehandler(audio/s3m) \
 mimehandler(audio/stm) \
 mimehandler(audio/xm)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

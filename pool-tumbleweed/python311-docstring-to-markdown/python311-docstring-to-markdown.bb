@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(docstring-to-markdown) \
 python311-docstring-to-markdown \
 python311-docstring_to_markdown \
 python3dist(docstring-to-markdown)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

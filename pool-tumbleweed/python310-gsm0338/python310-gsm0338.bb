@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-gsm0338 \
 python3.10dist(gsm0338) \
 python310-gsm0338 \
 python3dist(gsm0338)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

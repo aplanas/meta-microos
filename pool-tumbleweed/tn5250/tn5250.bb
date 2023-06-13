@@ -13,6 +13,7 @@ RPM_HASH = "f3dfb5956a89cd3355e86769c585e28066de70e53c9e0bc759384f2cbb5c59d28732
 
 RPROVIDES:${PN} += "tn5250 \
 tn5250(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

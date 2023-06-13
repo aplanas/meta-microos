@@ -14,6 +14,7 @@ RPM_HASH = "5fb2ec21a7731939be4cc94ee631d1580db12db90cfa1a93aaaa6b6e09a90f6c65ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luapstricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

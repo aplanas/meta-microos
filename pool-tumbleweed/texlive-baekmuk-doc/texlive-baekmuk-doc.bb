@@ -9,6 +9,7 @@ RPM_HASH = "4ed290fb81752df5ab7e04c4ffb2cfb54e033a6215da3b85cf79a8d012d55484bf23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-baekmuk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

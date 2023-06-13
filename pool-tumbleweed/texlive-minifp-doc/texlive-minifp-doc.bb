@@ -9,6 +9,7 @@ RPM_HASH = "c4ce3fbfe58d71a09a100ecb8b424efb4d8c4711077ce6fa2c71336670cb55d61f7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-minifp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

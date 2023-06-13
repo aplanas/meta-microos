@@ -12,6 +12,7 @@ RPM_HASH = "7ae0530d0b3b3617c534e7bc7fb816c0a82f5dd017853dbb86c80f653057c0b21b3a
 RPROVIDES:${PN} += "libhavege.so.2()(64bit) \
 libhavege2 \
 libhavege2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

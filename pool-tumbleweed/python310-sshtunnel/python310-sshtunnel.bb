@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-sshtunnel \
 python3.10dist(sshtunnel) \
 python310-sshtunnel \
 python3dist(sshtunnel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 openssh \

@@ -18,6 +18,7 @@ tex(fmtutil.cnf) \
 tex(mktex.cnf) \
 tex(texmf.cnf) \
 texlive-kpathsea"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 diffutils \

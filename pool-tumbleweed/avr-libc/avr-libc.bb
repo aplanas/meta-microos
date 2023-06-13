@@ -10,6 +10,7 @@ RPM_HASH = "a0242d4615c804be144065779899f3e94547b4b62a7502de41ff68bc3a78d77ca015
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avr-libc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

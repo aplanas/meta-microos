@@ -9,6 +9,7 @@ RPM_HASH = "3344e75050bb3a5c8c56bcf2808b707307c8a9fa6355f37eba4211c0cf1078687826
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sidenotesplus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

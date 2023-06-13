@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-colour \
 python3.10dist(colour) \
 python310-colour \
 python3dist(colour)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

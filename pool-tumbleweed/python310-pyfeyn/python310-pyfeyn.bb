@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pyfeyn \
 python3.10dist(pyfeyn) \
 python310-pyfeyn \
 python3dist(pyfeyn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

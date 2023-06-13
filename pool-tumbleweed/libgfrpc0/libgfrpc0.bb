@@ -11,6 +11,7 @@ RPM_HASH = "27e12ec9311c5f8a276edd7005d53c38230fc300985b8259d9c523a414fd6c179d25
 RPROVIDES:${PN} += "libgfrpc.so.0()(64bit) \
 libgfrpc0 \
 libgfrpc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

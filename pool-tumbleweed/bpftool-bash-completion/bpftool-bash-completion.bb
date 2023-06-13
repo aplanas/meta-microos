@@ -9,6 +9,7 @@ RPM_HASH = "2a6d239904fc7393e35281220d5ff2309f03fcbb00c059ddc0418a15ff8b94098c7c
 
 RPROVIDES:${PN} += "bpftool-bash-completion \
 bpftool-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 bpftool"
 

@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "amsynth-plugin-dssi \
 amsynth-plugin-dssi(aarch-64) \
 metainfo() \
 metainfo(dssi-amsynth-plugin.metainfo.xml)"
+
 RDEPENDS:${PN} += "amsynth \
 dssi \
 ld-linux-aarch64.so.1()(64bit) \

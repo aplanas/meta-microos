@@ -9,6 +9,7 @@ RPM_HASH = "12f575870c1725fdff8ebc0705bb4afc5622156fe0e190e5bbc5fa217eb2ec9b3206
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-karnaugh-map-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

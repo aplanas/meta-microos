@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libqt5-qtbase-platformtheme-flatpak \
 libqt5-qtbase-platformtheme-xdgdesktopportal \
 libqt5-qtbase-platformtheme-xdgdesktopportal(aarch-64) \
 libqxdgdesktopportal.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

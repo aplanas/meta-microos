@@ -14,6 +14,7 @@ RPM_HASH = "d47678759f5159f9ada10c1adca0d06baa8e3fa8f81bcac415c80f06b6f48435b189
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tar-doc"
+
 RDEPENDS:${PN} += "tar"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooX::Traits) \
 perl(MooX::Traits::Util) \
 perl-MooX-Traits"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exporter::Shiny) \
 perl(Module::Runtime) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-openapi-codec \
 python3.10dist(openapi-codec) \
 python310-openapi-codec \
 python3dist(openapi-codec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coreapi"
 

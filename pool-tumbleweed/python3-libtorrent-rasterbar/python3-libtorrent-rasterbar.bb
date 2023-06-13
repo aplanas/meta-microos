@@ -12,6 +12,7 @@ python3-libtorrent-rasterbar \
 python3-libtorrent-rasterbar(aarch-64) \
 python3.10dist(libtorrent) \
 python3dist(libtorrent)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_python-py3.so.1.82.0()(64bit) \

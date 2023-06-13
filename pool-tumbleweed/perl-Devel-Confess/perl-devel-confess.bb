@@ -43,6 +43,7 @@ perl(Devel::Confess::Builtin) \
 perl(Devel::Confess::Source) \
 perl(Devel::Confess::_Util) \
 perl-Devel-Confess"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

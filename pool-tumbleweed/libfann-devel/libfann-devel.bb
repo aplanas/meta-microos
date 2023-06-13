@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "fann-devel \
 libfann-devel \
 libfann-devel(aarch-64) \
 pkgconfig(fann)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libfann2 \

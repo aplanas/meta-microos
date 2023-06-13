@@ -34,6 +34,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Exception::Class) \
 perl(Exception::Class::Base) \
 perl-Exception-Class"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Data::Inheritable) \
 perl(Devel::StackTrace)"

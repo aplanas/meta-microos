@@ -9,6 +9,7 @@ RPM_HASH = "257a1b9a969949bc4bea5c879993314e15cc454d7bbd82adb6f7d35e1fe433923045
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bsb-http-chunked-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

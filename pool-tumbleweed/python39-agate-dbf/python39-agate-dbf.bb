@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(agate-dbf) \
 python39-agate-dbf \
 python3dist(agate-dbf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-agate \
 python39-dbfread"

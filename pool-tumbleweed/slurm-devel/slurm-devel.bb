@@ -10,6 +10,7 @@ RPM_HASH = "057476f09a8f46711c2a906b711d80bd7c8a6784e690a37dccfe34cca4485d400202
 RPROVIDES:${PN} += "pkgconfig(slurm) \
 slurm-devel \
 slurm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpmi0 \
 libslurm39 \

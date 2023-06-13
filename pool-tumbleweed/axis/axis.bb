@@ -27,6 +27,7 @@ mvn(org.apache.axis:axis-saaj:pom:) \
 osgi(javax.xml.rpc) \
 osgi(javax.xml.soap) \
 osgi(org.apache.axis)"
+
 RDEPENDS:${PN} += "apache-commons-httpclient \
 apache-commons-logging \
 glassfish-activation-api \

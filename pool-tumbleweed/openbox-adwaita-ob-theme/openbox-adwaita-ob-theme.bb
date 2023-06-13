@@ -9,6 +9,7 @@ RPM_HASH = "f503d0dc4f756dfcfd06bcf064b1d791a1edf231a5a6e473cfe28e7923a670a4b55a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openbox-adwaita-ob-theme"
+
 RDEPENDS:${PN} += "openbox"
 
 inherit rpm

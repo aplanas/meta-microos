@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(CPAN::Meta::Check) \
 perl-CPAN-Meta-Check"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta::Prereqs) \
 perl(CPAN::Meta::Requirements) \

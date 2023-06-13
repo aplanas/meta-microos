@@ -28,6 +28,7 @@ libMultitenantDicom.so.1.12.0()(64bit) \
 libServeFolders.so.1.12.0()(64bit) \
 orthanc \
 orthanc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \

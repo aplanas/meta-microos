@@ -19,6 +19,7 @@ RPM_HASH = "242327d85155c9593d31b8cbda239bfabe6b98b40d763b3afab461c9c2677070c5b7
 RPROVIDES:${PN} += "unclutt \
 unclutter \
 unclutter(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"
 

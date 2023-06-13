@@ -29,6 +29,7 @@ mvn(com.typesafe.akka:akka-slf4j_2.10) \
 mvn(com.typesafe.akka:akka-slf4j_2.10:pom:) \
 mvn(com.typesafe.akka:akka-transactor_2.10) \
 mvn(com.typesafe.akka:akka-transactor_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.protobuf:protobuf-java) \

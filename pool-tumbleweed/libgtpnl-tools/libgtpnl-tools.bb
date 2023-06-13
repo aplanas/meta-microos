@@ -9,6 +9,7 @@ RPM_HASH = "a04ea42a076a11e2cc58a4034c9e327f7fa956980a66b3b2559bd17cf69d9c5053c8
 
 RPROVIDES:${PN} += "libgtpnl-tools \
 libgtpnl-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

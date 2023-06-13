@@ -27,6 +27,7 @@ rust-std \
 rust-std-static \
 rust1.69 \
 rust1.69(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gcc13 \

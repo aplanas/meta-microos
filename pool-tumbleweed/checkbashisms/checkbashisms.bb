@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "checkbashisms \
 deb:/usr/bin/checkbashisms \
 devscripts:/usr/bin/checkbashisms"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

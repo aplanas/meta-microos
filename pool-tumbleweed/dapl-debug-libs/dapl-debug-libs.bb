@@ -18,6 +18,7 @@ dapl-debug-libs(aarch-64) \
 dapl2 \
 libdat2.so.2()(64bit) \
 libdat2.so.2(DAT_2.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dapl-debug \
 ld-linux-aarch64.so.1()(64bit) \

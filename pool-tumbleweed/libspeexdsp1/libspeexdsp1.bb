@@ -13,6 +13,7 @@ RPM_HASH = "4b401bc721eddd24b7f1a1f10ad9313bd78e7c855f8877645e640d74995eb254be5e
 RPROVIDES:${PN} += "libspeexdsp.so.1()(64bit) \
 libspeexdsp1 \
 libspeexdsp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -46,6 +46,7 @@ locale(systemd:zh_CN) \
 locale(systemd:zh_TW) \
 systemd-lang \
 systemd-lang-all"
+
 RDEPENDS:${PN} += "systemd"
 
 inherit rpm

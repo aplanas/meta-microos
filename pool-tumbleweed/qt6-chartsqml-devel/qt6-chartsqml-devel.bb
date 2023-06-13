@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6ChartsQml) \
 pkgconfig(Qt6ChartsQml) \
 qt6-chartsqml-devel \
 qt6-chartsqml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Charts) \
 cmake(Qt6OpenGL) \

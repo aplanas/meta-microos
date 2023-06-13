@@ -121,6 +121,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(firamath) \
 texlive-firamath-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

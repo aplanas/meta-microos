@@ -16,6 +16,7 @@ RPM_HASH = "6da13bf8ae06db0e821a089f819bf4588a1636d9fa576e9e109d1b99fabb86a20f01
 
 RPROVIDES:${PN} += "antlr3c-devel \
 antlr3c-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libantlr3c3"
 
 inherit rpm

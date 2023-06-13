@@ -14,6 +14,7 @@ RPM_HASH = "2a4f39e3f2aed542e6ec5dfde96f7807265ce606c6c24c61d50a0a862597923ecdb4
 
 RPROVIDES:${PN} += "mumps-openmpi2-devel \
 mumps-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmumps5_3_5-openmpi2 \
 mumps-devel \
 openmpi2-devel \

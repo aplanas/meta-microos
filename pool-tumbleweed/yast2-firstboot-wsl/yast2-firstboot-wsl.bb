@@ -9,6 +9,7 @@ RPM_HASH = "092fbbe9e6e902a083e7382d86435f8ff096b924eb9cd02efb6faf591be3af89e774
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-firstboot-wsl"
+
 RDEPENDS:${PN} += "/bin/sh \
 yast2-firstboot"
 

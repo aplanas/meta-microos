@@ -13,6 +13,7 @@ python3.11dist(ospd-openvas) \
 python311-ospd \
 python311-ospd-openvas \
 python3dist(ospd-openvas)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

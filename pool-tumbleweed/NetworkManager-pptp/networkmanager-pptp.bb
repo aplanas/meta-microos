@@ -10,6 +10,7 @@ RPM_HASH = "b9b33595478779120647e034e7cddede7a5a36b88290b785456560767cf27937b3a7
 RPROVIDES:${PN} += "NetworkManager-pptp \
 NetworkManager-pptp(aarch-64) \
 libnm-vpn-plugin-pptp.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

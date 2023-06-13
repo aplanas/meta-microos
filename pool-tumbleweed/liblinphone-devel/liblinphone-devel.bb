@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "liblinphone-devel \
 liblinphone-devel(aarch-64) \
 linphone-devel \
 pkgconfig(linphone)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \

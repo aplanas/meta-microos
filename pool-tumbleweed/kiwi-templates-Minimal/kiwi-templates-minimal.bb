@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiwi-templates-JeOS \
 kiwi-templates-Minimal"
+
 RDEPENDS:${PN} += "python3-kiwi"
 
 inherit rpm

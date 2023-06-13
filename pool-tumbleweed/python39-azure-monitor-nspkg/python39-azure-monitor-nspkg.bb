@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-monitor-nspkg) \
 python39-azure-monitor-nspkg \
 python3dist(azure-monitor-nspkg)"
+
 RDEPENDS:${PN} += "python39-azure-nspkg"
 
 inherit rpm

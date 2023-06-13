@@ -13,6 +13,7 @@ RPM_HASH = "a766e51a60f54625c1d588c46eaf1873d612715d16d31bce56e39a19392a76da02ec
 RPROVIDES:${PN} += "libosmo-rua-devel \
 libosmo-rua-devel(aarch-64) \
 pkgconfig(libosmo-rua)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-rua0"
 

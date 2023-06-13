@@ -12,6 +12,7 @@ RPM_HASH = "29adf398526810d86c55110c944de8975567342cbb80fe6a86953e0cf7feeaed737f
 RPROVIDES:${PN} += "tftp(server) \
 uftpd \
 uftpd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(basictracer) \
 python311-basictracer \
 python3dist(basictracer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-opentracing \
 python311-protobuf \

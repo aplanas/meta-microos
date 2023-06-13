@@ -11,6 +11,7 @@ RPM_HASH = "302f4e713cd55b78376c669074c20007c8477c109d9e45f50609bbcff68df2b7b0db
 RPROVIDES:${PN} += "config(infiniband-diags) \
 infiniband-diags \
 infiniband-diags(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

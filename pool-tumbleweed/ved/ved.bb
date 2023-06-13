@@ -12,6 +12,7 @@ RPM_HASH = "d31f8abc9149e5922919c2b5d09de12a817d4b5fb2a151ef9c84dc3601f8d80b610f
 
 RPROVIDES:${PN} += "ved \
 ved(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

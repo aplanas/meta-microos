@@ -9,6 +9,7 @@ RPM_HASH = "4905b79d566c718db52adb26da2b41f3740595820740dad3eabe9863b66a644b35c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-bash-completion"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash-completion \
 nvme-cli"

@@ -16,6 +16,7 @@ RPM_HASH = "cddcfd60bfbe82ce733403d1d1f40265579d944c10a66fb50db87a737dd6d9c01df4
 
 RPROVIDES:${PN} += "bwbar \
 bwbar(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

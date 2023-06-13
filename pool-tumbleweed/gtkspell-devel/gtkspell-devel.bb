@@ -10,6 +10,7 @@ RPM_HASH = "fe404fcb864f044508b221a2d00997e92153950476c2552b994116d82001aa39eaf8
 RPROVIDES:${PN} += "gtkspell-devel \
 gtkspell-devel(aarch-64) \
 pkgconfig(gtkspell-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkspell0 \
 pkgconfig(gtk+-2.0)"

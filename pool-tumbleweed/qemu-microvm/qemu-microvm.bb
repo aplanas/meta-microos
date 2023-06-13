@@ -12,6 +12,7 @@ RPM_HASH = "4a12d6e7cf845e07d78ae21d1e5f61bb380db2787f316aa3d7302b23f7ce19673789
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-microvm"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

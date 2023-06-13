@@ -15,6 +15,7 @@ RPM_HASH = "c5db350d579870f73bbfa8e2c87c29eda2a122aa5a8b3a6ca20f69105bf7118fbc86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom2-core-tests"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

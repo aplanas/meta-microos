@@ -11,6 +11,7 @@ RPM_HASH = "342d0682ab615ed9f9ecf96ba639615b9265999b41bdcc7f660bd164027b33883fe9
 RPROVIDES:${PN} += "libchipcard.so.6()(64bit) \
 libchipcard6 \
 libchipcard6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

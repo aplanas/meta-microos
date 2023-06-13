@@ -13,6 +13,7 @@ RPM_HASH = "f3a34574c9da5863c51e9fb79e60a05505b81d105c7a8279f5ac2bb57e3cdc4f0eb6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sil-mondulkiri-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

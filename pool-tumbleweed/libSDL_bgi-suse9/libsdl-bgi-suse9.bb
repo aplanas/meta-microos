@@ -11,6 +11,7 @@ RPM_HASH = "846cb90a2168f71b20a888b88f5718cba7b77098f5eafad4712af06cfb8bc44cbd09
 RPROVIDES:${PN} += "libSDL_bgi-suse9 \
 libSDL_bgi-suse9(aarch-64) \
 libSDL_bgi.so.suse9()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

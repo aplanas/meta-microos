@@ -10,6 +10,7 @@ RPM_HASH = "0a317e0dec3838f4b265d71b9c2322817fa42ea45e6f3ab18d6e79a70a3bb4449e82
 RPROVIDES:${PN} += "libvolk.so.3.0()(64bit) \
 libvolk3_0 \
 libvolk3_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

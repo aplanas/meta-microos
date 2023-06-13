@@ -13,6 +13,7 @@ group(icingacmd) \
 icinga2-common \
 icinga2-common(aarch-64) \
 user(icinga)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 monitoring-plugins-common \

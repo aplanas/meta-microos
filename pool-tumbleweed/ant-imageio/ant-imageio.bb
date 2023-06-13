@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-imageio \
 config(ant-imageio) \
 mvn(org.apache.ant:ant-imageio) \
 mvn(org.apache.ant:ant-imageio:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

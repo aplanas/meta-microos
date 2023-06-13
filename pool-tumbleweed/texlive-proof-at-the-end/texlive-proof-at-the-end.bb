@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(proof-at-the-end.sty) \
 texlive-proof-at-the-end"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

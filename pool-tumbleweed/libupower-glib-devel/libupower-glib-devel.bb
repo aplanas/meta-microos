@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libupower-glib-devel \
 libupower-glib-devel(aarch-64) \
 pkgconfig(upower-glib) \
 upower-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libupower-glib3 \
 pkgconfig(glib-2.0) \

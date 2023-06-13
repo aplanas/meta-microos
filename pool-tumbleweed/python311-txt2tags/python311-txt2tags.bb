@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(txt2tags) \
 python311-txt2tags \
 python3dist(txt2tags) \
 txt2tags"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

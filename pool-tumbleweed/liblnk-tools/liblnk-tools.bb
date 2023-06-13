@@ -9,6 +9,7 @@ RPM_HASH = "c4414b9fedaf5ca33793b7c9b31d947c1746161dac4bbcf0877b11f944009584c6b6
 
 RPROVIDES:${PN} += "liblnk-tools \
 liblnk-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

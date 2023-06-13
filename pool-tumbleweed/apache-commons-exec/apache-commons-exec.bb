@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "apache-commons-exec \
 mvn(org.apache.commons:commons-exec) \
 mvn(org.apache.commons:commons-exec:pom:) \
 osgi(org.apache.commons.commons-exec)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

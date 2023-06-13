@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:omniauth-oauth2) \
 rubygem(ruby:3.2.0:omniauth-oauth2:1) \
 rubygem(ruby:3.2.0:omniauth-oauth2:1.8) \
 rubygem(ruby:3.2.0:omniauth-oauth2:1.8.0)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ruby(abi) \
 rubygem(ruby:3.2.0:oauth2) \

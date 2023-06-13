@@ -13,6 +13,7 @@ RPM_HASH = "0f842876220af2b1c03256fe4f41932dd7a07eae088d336e393f48a703257402428a
 RPROVIDES:${PN} += "libcangjie-devel \
 libcangjie-devel(aarch-64) \
 pkgconfig(cangjie)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcangjie-tools \
 libcangjie2 \

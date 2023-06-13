@@ -12,6 +12,7 @@ RPM_HASH = "79de7eae91d4c8c05a47d68e65a1e3d642ad0e7b96b62d4a307628bb8901637fca97
 
 RPROVIDES:${PN} += "iwd \
 iwd(aarch-64)"
+
 RDEPENDS:${PN} += "(kmod(pkcs8_key_parser.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

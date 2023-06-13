@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nkdfu) \
 python39-nkdfu \
 python3dist(nkdfu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 intelhex \

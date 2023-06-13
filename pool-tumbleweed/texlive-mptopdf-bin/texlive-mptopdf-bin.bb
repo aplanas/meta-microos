@@ -9,6 +9,7 @@ RPM_HASH = "a2f4fffe2c7b82cdd73908b69c93cfd5297a7df3b49e247475521abe1fff77f66781
 
 RPROVIDES:${PN} += "texlive-mptopdf-bin \
 texlive-mptopdf-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-mptopdf"
 
 inherit rpm

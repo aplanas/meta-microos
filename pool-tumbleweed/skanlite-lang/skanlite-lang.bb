@@ -65,6 +65,7 @@ locale(skanlite:zh_CN) \
 locale(skanlite:zh_TW) \
 skanlite-lang \
 skanlite-lang-all"
+
 RDEPENDS:${PN} += "skanlite"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-podman \
 metainfo() \
 metainfo(org.cockpit-project.podman.metainfo.xml)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 cockpit-shell \
 podman"

@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-sw_management_gnome \
 patterns-gnome-sw_management_gnome(aarch-64) \
 patterns-openSUSE-sw_management_gnome"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

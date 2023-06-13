@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(git-latexdiff.1) \
 texlive-git-latexdiff-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

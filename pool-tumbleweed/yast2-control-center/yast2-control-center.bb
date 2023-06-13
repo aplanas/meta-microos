@@ -14,6 +14,7 @@ metainfo(org.opensuse.YaST.appdata.xml) \
 yast2-control-center \
 yast2-control-center(aarch-64) \
 yast2-control-center-gnome"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-control-center-binary"
 

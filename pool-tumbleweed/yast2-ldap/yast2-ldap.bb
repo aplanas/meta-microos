@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libpy2ag_ldap.so.2()(64bit) \
 perl(LdapServerAccess) \
 yast2-ldap \
 yast2-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 ldapcpplib \

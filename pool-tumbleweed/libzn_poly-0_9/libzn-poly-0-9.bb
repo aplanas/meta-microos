@@ -11,6 +11,7 @@ RPM_HASH = "f0fc1d628d0786ccdab9c0a2814454d4376894706206033b59994a6ff77791f98e08
 RPROVIDES:${PN} += "libzn_poly-0.9.so()(64bit) \
 libzn_poly-0_9 \
 libzn_poly-0_9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

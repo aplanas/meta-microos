@@ -9,6 +9,7 @@ RPM_HASH = "4132609ba39a6dac9a5e35fa49b60f89fb57c25aa43e7c45bf11ccc22c9e14412ce5
 
 RPROVIDES:${PN} += "kubernetes-apiserver-minus1 \
 kubernetes-apiserver-minus1(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes1.26-apiserver"
 
 inherit rpm

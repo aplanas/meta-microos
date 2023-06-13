@@ -14,6 +14,7 @@ RPM_HASH = "d1836abe18a7ed3e528e7de7be8d5cc2c60b4c999b14eefc3f5b81ec600685ed18de
 RPROVIDES:${PN} += "libfastjson-devel \
 libfastjson-devel(aarch-64) \
 pkgconfig(libfastjson)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfastjson4"
 

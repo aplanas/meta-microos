@@ -9,6 +9,7 @@ RPM_HASH = "2108f0c2cd1578107423080adc920ac449d5354c957cf4ce898cfaa161b3e9a33835
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-circuitikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

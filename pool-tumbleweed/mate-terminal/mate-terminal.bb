@@ -17,6 +17,7 @@ mate-terminal \
 mate-terminal(aarch-64) \
 metainfo() \
 metainfo(mate-terminal.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 gsettings-backend-dconf \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(texlive-platex-doc:ja) \
 man(platex.1) \
 texlive-platex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

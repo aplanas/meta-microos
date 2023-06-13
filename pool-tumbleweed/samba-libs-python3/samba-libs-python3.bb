@@ -13,6 +13,7 @@ libsamba-python.cpython-310-aarch64-linux-gnu-samba4.so()(64bit) \
 libsamba-python.cpython-310-aarch64-linux-gnu-samba4.so(SAMBA_4.18.1_GIT.298.4CCF830B2A41.1_SUSE_OS15.9_AARCH64_SAMBA4)(64bit) \
 samba-libs-python3 \
 samba-libs-python3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMESSAGING-samba4.so()(64bit) \

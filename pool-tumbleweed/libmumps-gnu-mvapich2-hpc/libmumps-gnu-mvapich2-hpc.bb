@@ -11,6 +11,7 @@ RPM_HASH = "115bbd90a207d07c749255e8788ab61dfd9840f0f53d6f6e5a3c61844680ba972deb
 
 RPROVIDES:${PN} += "libmumps-gnu-mvapich2-hpc \
 libmumps-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libmumps_5_3_5-gnu-mvapich2-hpc"
 

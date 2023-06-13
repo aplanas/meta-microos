@@ -108,6 +108,7 @@ tex(xnsh14bf.tfm) \
 tex(yarborn.tfm) \
 tex(yiddish.sty) \
 texlive-arabtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

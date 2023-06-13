@@ -12,6 +12,7 @@ RPM_HASH = "453fbdd6d5ecef12969bbb98f697f4aa0ebde6ae801eab7798af1ec597d9ee61919b
 
 RPROVIDES:${PN} += "rcs \
 rcs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
 ld-linux-aarch64.so.1()(64bit) \

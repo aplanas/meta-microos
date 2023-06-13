@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(python-dmidecode) \
 python311-dmidecode \
 python311-dmidecode(aarch-64) \
 python3dist(python-dmidecode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

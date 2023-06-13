@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-maps \
 python3.10dist(azure-mgmt-maps) \
 python310-azure-mgmt-maps \
 python3dist(azure-mgmt-maps)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -13,6 +13,7 @@ RPM_HASH = "3310bc1bf29b58e09ad3b3856db97a12eb67eb417691b00c76a83f39787f19e4d1cd
 
 RPROVIDES:${PN} += "memcached-devel \
 memcached-devel(aarch-64)"
+
 RDEPENDS:${PN} += "memcached"
 
 inherit rpm

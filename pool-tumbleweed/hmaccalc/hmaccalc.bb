@@ -11,6 +11,7 @@ RPM_HASH = "739c0c29a014c12d5bb604c3c13a94c66e87fcb91f35acc8bbcd8d2cedbb4124d4e3
 
 RPROVIDES:${PN} += "hmaccalc \
 hmaccalc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

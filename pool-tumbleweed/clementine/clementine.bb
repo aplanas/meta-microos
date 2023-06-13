@@ -61,6 +61,7 @@ mimehandler(x-scheme-handler/feed) \
 mimehandler(x-scheme-handler/itms) \
 mimehandler(x-scheme-handler/itpc) \
 mimehandler(x-scheme-handler/zune)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Concurrent.so.5()(64bit) \

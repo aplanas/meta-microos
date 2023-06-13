@@ -82,6 +82,7 @@ tex(thdid_whuz6y.enc) \
 tex(thdid_xgfkyc.enc) \
 tex(thdid_zj2gif.enc) \
 texlive-theanodidot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

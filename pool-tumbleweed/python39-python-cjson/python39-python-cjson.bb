@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(python-cjson) \
 python39-python-cjson \
 python39-python-cjson(aarch-64) \
 python3dist(python-cjson)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

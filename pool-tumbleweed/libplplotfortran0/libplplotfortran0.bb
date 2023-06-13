@@ -14,6 +14,7 @@ RPM_HASH = "46c6604cc590351639f821e4672a6fd41773e6324a60a36ad5482f501bb71a0a49a9
 RPROVIDES:${PN} += "libplplotfortran.so.0()(64bit) \
 libplplotfortran0 \
 libplplotfortran0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

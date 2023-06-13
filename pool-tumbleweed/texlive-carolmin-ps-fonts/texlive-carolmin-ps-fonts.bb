@@ -32,6 +32,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(carolinganminuscules) \
 texlive-carolmin-ps-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goldendict-ng-lang \
 goldendict-ng-lang-all"
+
 RDEPENDS:${PN} += "goldendict-ng"
 
 inherit rpm

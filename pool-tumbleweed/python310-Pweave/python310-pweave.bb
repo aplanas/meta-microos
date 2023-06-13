@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-Pweave \
 python3.10dist(pweave) \
 python310-Pweave \
 python3dist(pweave)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

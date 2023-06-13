@@ -9,6 +9,7 @@ RPM_HASH = "2b4fbb46dfb3168da52c0d8924585f83d1e6258d718d789bf49f435a98bfe879390b
 
 RPROVIDES:${PN} += "v4l-utils-devel-tools \
 v4l-utils-devel-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

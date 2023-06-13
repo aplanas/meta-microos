@@ -15,6 +15,7 @@ RPM_HASH = "6a899c60501257406ba295d36982f5ee0f7f461f99dc8c6955c1ace4f9db64d161dc
 RPROVIDES:${PN} += "libautotrace.so.3()(64bit) \
 libautotrace3 \
 libautotrace3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

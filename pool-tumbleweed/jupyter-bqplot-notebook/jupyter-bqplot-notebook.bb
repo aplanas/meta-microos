@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-bqplot \
 jupyter-bqplot-notebook"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3-bqplot"
 

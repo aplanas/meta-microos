@@ -10,6 +10,7 @@ RPM_HASH = "f5dac92c91e571de3edf1e6802e6ff00ed9a974a6df548dfb1cdc021ec62f54772d3
 
 RPROVIDES:${PN} += "compleat \
 compleat(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

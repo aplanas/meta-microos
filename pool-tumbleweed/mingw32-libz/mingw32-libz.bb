@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw32(libz.dll) \
 mingw32-libz \
 mingw32-zlib"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(signedjson) \
 python39-signedjson \
 python3dist(signedjson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyNaCl \
 python39-canonicaljson \

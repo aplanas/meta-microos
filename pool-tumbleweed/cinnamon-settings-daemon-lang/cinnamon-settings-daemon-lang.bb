@@ -96,6 +96,7 @@ locale(cinnamon-settings-daemon:wa) \
 locale(cinnamon-settings-daemon:zh_CN) \
 locale(cinnamon-settings-daemon:zh_HK) \
 locale(cinnamon-settings-daemon:zh_TW)"
+
 RDEPENDS:${PN} += "cinnamon-settings-daemon"
 
 inherit rpm

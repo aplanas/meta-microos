@@ -10,6 +10,7 @@ RPM_HASH = "11c329df6560ddf43c36caab4a3505471774f6f4333473750d469a6f5937ceb9b379
 RPROVIDES:${PN} += "python3-opencv-qt5 \
 python3-opencv3 \
 python3-opencv3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

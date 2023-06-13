@@ -12,6 +12,7 @@ RPM_HASH = "340249a470d6b916bfb038c541882ce0b9e81893685f1561a60106da3649c1399faf
 RPROVIDES:${PN} += "libinput_drv.so()(64bit) \
 xf86-input-libinput \
 xf86-input-libinput(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

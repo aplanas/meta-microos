@@ -9,6 +9,7 @@ RPM_HASH = "57aeb5ec541ad3773e13c20616127641950a35e39c23658f2988b0ab7106f3a35909
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fifth-leg-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

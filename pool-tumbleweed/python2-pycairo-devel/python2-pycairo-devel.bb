@@ -15,6 +15,7 @@ python-cairo-devel \
 python2-cairo-devel \
 python2-pycairo-devel \
 python2-pycairo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(cairo) \
 python-devel \

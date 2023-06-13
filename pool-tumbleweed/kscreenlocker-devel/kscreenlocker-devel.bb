@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KScreenLocker) \
 cmake(ScreenSaverDBusInterface) \
 kscreenlocker-devel \
 kscreenlocker-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5X11Extras) \
 libKScreenLocker5"

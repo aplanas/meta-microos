@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-cors-headers) \
 python39-django-cors-headers \
 python3dist(django-cors-headers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

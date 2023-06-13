@@ -55,6 +55,7 @@ locale(meld:zh_CN) \
 locale(meld:zh_TW) \
 meld-lang \
 meld-lang-all"
+
 RDEPENDS:${PN} += "meld"
 
 inherit rpm

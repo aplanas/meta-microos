@@ -9,6 +9,7 @@ RPM_HASH = "56b9fa0f2ce2f6b54c4655f11f8de88a7aac3baf1bcd7c2d69bcfb6b460570da3dd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cadsondemak-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -88,6 +88,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(accanthisadfstdno3) \
 texlive-accanthis-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

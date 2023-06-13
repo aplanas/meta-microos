@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-plette \
 python3.10dist(plette) \
 python310-plette \
 python3dist(plette)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tomlkit"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(slantsc.sty) \
 texlive-slantsc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

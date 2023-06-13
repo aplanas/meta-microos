@@ -23,6 +23,7 @@ tex(bsize10.clo) \
 tex(bsize11.clo) \
 tex(bsize12.clo) \
 texlive-bangtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

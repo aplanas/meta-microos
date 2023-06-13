@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sssd-config \
 python3-sssd-config(aarch-64) \
 python3.10dist(sssdconfig) \
 python3dist(sssdconfig)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

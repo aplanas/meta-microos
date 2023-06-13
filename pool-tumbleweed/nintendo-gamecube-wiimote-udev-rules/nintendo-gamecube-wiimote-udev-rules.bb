@@ -9,6 +9,7 @@ RPM_HASH = "542b4aca395409bca57bf4392fa1233e5fa6e89d36b4d599b7549d667dfc0406b526
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nintendo-gamecube-wiimote-udev-rules"
+
 RDEPENDS:${PN} += "udev"
 
 inherit rpm

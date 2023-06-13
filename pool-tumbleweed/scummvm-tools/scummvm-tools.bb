@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "application() \
 application(scummvm-tools.desktop) \
 scummvm-tools \
 scummvm-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libFLAC.so.12()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfreetype.so.6()(64bit) \

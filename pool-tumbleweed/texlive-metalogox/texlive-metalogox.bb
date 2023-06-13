@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metalogox.sty) \
 texlive-metalogox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

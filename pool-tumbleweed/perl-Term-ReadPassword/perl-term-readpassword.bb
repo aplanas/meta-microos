@@ -21,6 +21,7 @@ RPM_HASH = "7575dffb4056e3d2bb3cfa8e31cb7e0bf64f7ac1b2e40628126e08a2edbc2162ebb5
 RPROVIDES:${PN} += "perl(Term::ReadPassword) \
 perl-Term-ReadPassword \
 perl-Term-ReadPassword(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

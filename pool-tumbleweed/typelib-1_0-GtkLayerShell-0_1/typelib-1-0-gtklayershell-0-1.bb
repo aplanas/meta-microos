@@ -16,6 +16,7 @@ RPM_HASH = "90e074003b8d6585c4a86aabadecf2e5541329118c67a129bb274970cae5aafa35d4
 RPROVIDES:${PN} += "typelib(GtkLayerShell) \
 typelib-1_0-GtkLayerShell-0_1 \
 typelib-1_0-GtkLayerShell-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libgtk-layer-shell.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

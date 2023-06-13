@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Tesseract) \
 pkgconfig(tesseract) \
 tesseract-ocr-devel \
 tesseract-ocr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtesseract-5_3_0 \
 pkgconfig(lept) \

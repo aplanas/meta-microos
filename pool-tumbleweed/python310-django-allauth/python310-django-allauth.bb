@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-allauth \
 python3.10dist(django-allauth) \
 python310-django-allauth \
 python3dist(django-allauth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-python3-openid \

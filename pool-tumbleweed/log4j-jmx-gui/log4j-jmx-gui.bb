@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "log4j-jmx-gui \
 mvn(org.apache.logging.log4j:log4j-jmx-gui) \
 mvn(org.apache.logging.log4j:log4j-jmx-gui:pom:) \
 osgi(org.apache.logging.log4j.jmx-gui)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-devel \
 java-headless \

@@ -27,6 +27,7 @@ perl(Mo::option) \
 perl(Mo::required) \
 perl(Mo::xs) \
 perl-Mo"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

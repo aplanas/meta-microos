@@ -9,6 +9,7 @@ RPM_HASH = "7e9c0acdd08c9915d098deef5ffdf9d94900efb26afc6ac965388146dab9a588297b
 
 RPROVIDES:${PN} += "systemd-mini-doc \
 systemd-mini-doc(aarch-64)"
+
 RDEPENDS:${PN} += "this-is-only-for-build-envs"
 
 inherit rpm

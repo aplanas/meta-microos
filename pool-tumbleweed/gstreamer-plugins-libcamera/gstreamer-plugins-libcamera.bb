@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gstreamer-plugins-libcamera \
 gstreamer-plugins-libcamera(aarch-64) \
 gstreamer1(element-libcamerasrc)()(64bit) \
 libgstlibcamera.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

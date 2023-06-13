@@ -14,6 +14,7 @@ RPM_HASH = "e92ea9394053f5861977f443a04d3040340c9724c79e1fb7ddedc76ab358d2abfb0a
 RPROVIDES:${PN} += "endeavour-devel \
 endeavour-devel(aarch-64) \
 pkgconfig(endeavour)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "5bcf41b5a2ec9325103471a51a6f3089913593271f90c20d36f4916930aada4e1d29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-widetable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

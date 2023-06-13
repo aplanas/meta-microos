@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lie-hasse.sty) \
 texlive-lie-hasse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

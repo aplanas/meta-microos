@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-ipyevents \
 python3.10dist(ipyevents) \
 python310-ipyevents \
 python3dist(ipyevents)"
+
 RDEPENDS:${PN} += "jupyter-ipyevents \
 python(abi) \
 python310-ipywidgets"

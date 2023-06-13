@@ -9,6 +9,7 @@ RPM_HASH = "d179dd57c6cbc228a2af3e0f05a9727868f24355e0be375af17c7e79b323d6eb94ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppunit-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

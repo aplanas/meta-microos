@@ -12,6 +12,7 @@ RPM_HASH = "d4d1acccca551ca8e7ab08602c629ce42d5aef0c67eaeacba1fce8c95d46ba97bc79
 
 RPROVIDES:${PN} += "droidcam-cli \
 droidcam-cli(aarch-64)"
+
 RDEPENDS:${PN} += "kmod(v4l2loopback.ko) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

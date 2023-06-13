@@ -9,6 +9,7 @@ RPM_HASH = "3fbc2ac1ab4b8bda58ada4623b1e55602023630edefb988969576e11ac7d41425ed4
 
 RPROVIDES:${PN} += "qemu-hw-usb-redirect \
 qemu-hw-usb-redirect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

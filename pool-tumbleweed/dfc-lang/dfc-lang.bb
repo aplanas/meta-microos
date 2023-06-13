@@ -13,6 +13,7 @@ dfc-lang \
 dfc-lang-all \
 locale(dfc:fr) \
 locale(dfc:nl)"
+
 RDEPENDS:${PN} += "dfc"
 
 inherit rpm

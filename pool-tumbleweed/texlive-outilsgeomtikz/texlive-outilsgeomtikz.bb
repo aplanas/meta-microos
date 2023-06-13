@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(OutilsGeomTikz.sty) \
 texlive-outilsgeomtikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

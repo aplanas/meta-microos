@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gcompris-qt-voices \
 gcompris-voices \
 locale(gcompris:en)"
+
 RDEPENDS:${PN} += "gcompris-qt"
 
 inherit rpm

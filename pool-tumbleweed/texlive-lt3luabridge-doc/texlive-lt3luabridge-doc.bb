@@ -9,6 +9,7 @@ RPM_HASH = "452c4b6ff5f5469074a6e8d16abfa79c8abfe62f595a37fbbfd9a235328540485829
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lt3luabridge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "af92fd9d626a4a30619d36755c5acec7041c170ccc19c97a6eed2a5ff8236336cc1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openrct2-titlesequences"
+
 RDEPENDS:${PN} += "openrct2"
 
 inherit rpm

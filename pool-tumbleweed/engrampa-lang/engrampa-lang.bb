@@ -112,6 +112,7 @@ locale(engrampa:wa) \
 locale(engrampa:zh_CN) \
 locale(engrampa:zh_HK) \
 locale(engrampa:zh_TW)"
+
 RDEPENDS:${PN} += "engrampa"
 
 inherit rpm

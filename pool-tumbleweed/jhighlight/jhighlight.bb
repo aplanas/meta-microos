@@ -17,6 +17,7 @@ mvn(com.uwyn:jhighlight) \
 mvn(com.uwyn:jhighlight:pom:) \
 mvn(org.codelibs:jhighlight) \
 mvn(org.codelibs:jhighlight:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

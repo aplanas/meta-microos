@@ -14,6 +14,7 @@ tex(beamerinnerthemethubeamer.sty) \
 tex(beamerouterthemethubeamer.sty) \
 tex(beamerthemethubeamer.sty) \
 texlive-thubeamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -21,6 +21,7 @@ RPM_HASH = "0a69f1844ff3a5d917d8bbed06c34d23e537ab484853be1fc35264c3d3d8cd8fabcb
 RPROVIDES:${PN} += "config(openconnect) \
 openconnect \
 openconnect(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

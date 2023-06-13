@@ -40,6 +40,7 @@ locale(kaidan:sl) \
 locale(kaidan:sv) \
 locale(kaidan:tr) \
 locale(kaidan:uk)"
+
 RDEPENDS:${PN} += "kaidan"
 
 inherit rpm

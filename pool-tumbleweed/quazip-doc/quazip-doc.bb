@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libquazip-qt5-doc \
 quazip-doc \
 quazip-qt5-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

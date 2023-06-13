@@ -13,6 +13,7 @@ RPM_HASH = "facaf8fe1d4fab6d7aa3004302bbf5840a5e11ed6e93e2af568f705b473ebb723e32
 
 RPROVIDES:${PN} += "update-test-relogin-suggested \
 update-test-relogin-suggested(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

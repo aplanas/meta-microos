@@ -10,6 +10,7 @@ RPM_HASH = "11353e4ea1483fe50c15fa0f71ed6e9ab3695431a1983d24675364d6d207b0c5a186
 RPROVIDES:${PN} += "dbus-1-python39 \
 python39-dbus-python \
 python39-dbus-python(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

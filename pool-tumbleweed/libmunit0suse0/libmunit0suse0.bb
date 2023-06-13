@@ -15,6 +15,7 @@ RPM_HASH = "38794f7fd82f71a1bc03147e7c7af1c9dac055e90816610623b64556d1e1ccce8006
 RPROVIDES:${PN} += "libmunit.so.0suse0()(64bit) \
 libmunit0suse0 \
 libmunit0suse0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "9faae424c7a77365a6c10a7a951d4a59745d89e350e2d4162beb86c4404388b7516b
 RPROVIDES:${PN} += "libQt53dCollision-devel \
 libqt5-qt3d-devel \
 libqt5-qt3d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt53DAnimation-devel \
 libQt53DCore-devel \
 libQt53DExtras-devel \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-twisted \
 python3.10dist(pytest-twisted) \
 python310-pytest-twisted \
 python3dist(pytest-twisted)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted \
 python310-decorator \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.thoughtworks.paranamer:paranamer-ant) \
 mvn(com.thoughtworks.paranamer:paranamer-ant:pom:) \
 paranamer-ant"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.paranamer:paranamer-generator) \

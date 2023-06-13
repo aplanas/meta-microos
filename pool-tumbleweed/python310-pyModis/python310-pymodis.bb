@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pyModis \
 python3.10dist(pymodis) \
 python310-pyModis \
 python3dist(pymodis)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

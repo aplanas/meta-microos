@@ -9,6 +9,7 @@ RPM_HASH = "064b849add576aea318c30bf0131677d452d5d7dfbb2f6b229fe299290918b1b0a81
 
 RPROVIDES:${PN} += "kscreen5-plasmoid \
 kscreen5-plasmoid(aarch-64)"
+
 RDEPENDS:${PN} += "kscreen5 \
 qt5qmlimport(QtQuick.2) \
 qt5qmlimport(QtQuick.Layouts.1) \

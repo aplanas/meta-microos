@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cleo \
 python3.10dist(cleo) \
 python310-cleo \
 python3dist(cleo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-crashtest \
 python310-pylev \

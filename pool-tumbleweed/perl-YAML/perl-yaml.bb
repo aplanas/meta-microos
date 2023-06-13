@@ -38,6 +38,7 @@ perl(yaml_mapping) \
 perl(yaml_scalar) \
 perl(yaml_sequence) \
 perl-YAML"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

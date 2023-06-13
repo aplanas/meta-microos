@@ -13,6 +13,7 @@ RPM_HASH = "5853bd5ff311f003a2b88fe7cceb30e5275b721bd73348a75637febf57b76de76125
 RPROVIDES:${PN} += "libdisplay-info.so.1()(64bit) \
 libdisplay-info1 \
 libdisplay-info1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

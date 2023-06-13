@@ -15,6 +15,7 @@ RPM_HASH = "12732b62541cad2819f97814bdd5d0c6ec852de8e23007f238c917a5b1bd9bb6f9b2
 
 RPROVIDES:${PN} += "calc-devel \
 calc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcalc2_14_1_6"
 
 inherit rpm

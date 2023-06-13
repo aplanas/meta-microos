@@ -9,6 +9,7 @@ RPM_HASH = "b1f7ec005a0bdfc24e2755f05ed9e8ab62035f78e127fdcf441ad729b114a7e0ccbc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flowchart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

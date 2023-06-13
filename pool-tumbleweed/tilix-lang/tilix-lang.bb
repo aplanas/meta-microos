@@ -47,6 +47,7 @@ locale(tilix:zh_CN) \
 locale(tilix:zh_TW) \
 tilix-lang \
 tilix-lang-all"
+
 RDEPENDS:${PN} += "tilix"
 
 inherit rpm

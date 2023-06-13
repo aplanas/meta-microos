@@ -35,6 +35,7 @@ tex(arssi10.tfm) \
 tex(artti10.tfm) \
 tex(aspectratio.map) \
 texlive-aspectratio"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

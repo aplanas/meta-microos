@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(google-cloud-core) \
 python39-google-cloud-core \
 python3dist(google-cloud-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-api-core \
 python39-google-auth \

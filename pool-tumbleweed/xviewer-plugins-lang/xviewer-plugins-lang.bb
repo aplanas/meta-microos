@@ -62,6 +62,7 @@ locale(xviewer-plugins:zh_HK) \
 locale(xviewer-plugins:zh_TW) \
 xviewer-plugins-lang \
 xviewer-plugins-lang-all"
+
 RDEPENDS:${PN} += "xviewer-plugins"
 
 inherit rpm

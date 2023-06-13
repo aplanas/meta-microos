@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(autodocsumm) \
 python39-autodocsumm \
 python3dist(autodocsumm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

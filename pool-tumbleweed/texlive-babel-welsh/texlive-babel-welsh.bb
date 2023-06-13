@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(welsh.ldf) \
 texlive-babel-welsh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

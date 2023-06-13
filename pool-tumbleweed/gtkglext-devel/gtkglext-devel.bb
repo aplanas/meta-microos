@@ -15,6 +15,7 @@ pkgconfig(gdkglext-1.0) \
 pkgconfig(gdkglext-x11-1.0) \
 pkgconfig(gtkglext-1.0) \
 pkgconfig(gtkglext-x11-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-devel \
 libgtkglext-x11-1_0-0 \

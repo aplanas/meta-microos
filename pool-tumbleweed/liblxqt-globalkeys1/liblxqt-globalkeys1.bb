@@ -10,6 +10,7 @@ RPM_HASH = "df7f3196c17e330653cd497666935669184d70f6ce4386b794b8293a4e3bfe42d5f3
 RPROVIDES:${PN} += "liblxqt-globalkeys.so.1()(64bit) \
 liblxqt-globalkeys1 \
 liblxqt-globalkeys1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

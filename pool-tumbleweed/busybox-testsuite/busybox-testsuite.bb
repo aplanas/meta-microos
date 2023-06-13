@@ -14,6 +14,7 @@ RPM_HASH = "7fc186aa93b96cf99750a15db59fc29eb06bc23a2b1ecace00fa17d9c95b50904007
 
 RPROVIDES:${PN} += "busybox-testsuite \
 busybox-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 busybox \
 zip"

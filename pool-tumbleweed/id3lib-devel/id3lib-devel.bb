@@ -11,6 +11,7 @@ RPM_HASH = "efa0a558ae113bb1255a1fb381f10b38d484c386689413a25d8d73d92222f625227f
 
 RPROVIDES:${PN} += "id3lib-devel \
 id3lib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libid3-3_8-3 \
 libstdc++-devel"
 

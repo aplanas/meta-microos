@@ -10,6 +10,7 @@ RPM_HASH = "b7203d1f1d4386b2e462e8f8f41d0a737527418174eb264ac5c7e36cc76fa0f0b993
 
 RPROVIDES:${PN} += "scalapack_2_1_0-gnu-openmpi1-hpc-test \
 scalapack_2_1_0-gnu-openmpi1-hpc-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

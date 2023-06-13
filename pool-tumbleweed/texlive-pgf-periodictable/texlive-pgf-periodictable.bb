@@ -26,6 +26,7 @@ tex(pgfPT.labels.tex) \
 tex(pgfPT.names.tex) \
 tex(pgfPT.process.language.tex) \
 texlive-pgf-periodictable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

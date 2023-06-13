@@ -42,6 +42,7 @@ RPROVIDES:${PN} += "python3-port-for \
 python3.10dist(port-for) \
 python310-port-for \
 python3dist(port-for)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

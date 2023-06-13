@@ -9,6 +9,7 @@ RPM_HASH = "cba945b6c6c4d66ec3960b970da534b2316556a0ea627e07e21cd33f38ab7eb893ec
 
 RPROVIDES:${PN} += "nemo-font-manager \
 nemo-font-manager(aarch-64)"
+
 RDEPENDS:${PN} += "font-manager-common \
 font-viewer \
 ld-linux-aarch64.so.1()(64bit) \

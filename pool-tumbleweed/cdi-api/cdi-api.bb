@@ -14,6 +14,7 @@ mvn(jakarta.enterprise:jakarta.enterprise.cdi-api:pom:) \
 mvn(javax.enterprise:cdi-api) \
 mvn(javax.enterprise:cdi-api:pom:) \
 osgi(jakarta.enterprise.cdi-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jakarta.inject:jakarta.inject-api) \

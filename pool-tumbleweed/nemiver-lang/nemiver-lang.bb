@@ -55,6 +55,7 @@ locale(nemiver:zh_HK) \
 locale(nemiver:zh_TW) \
 nemiver-lang \
 nemiver-lang-all"
+
 RDEPENDS:${PN} += "nemiver"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(salt-bash-completion) \
 salt-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 salt"
 

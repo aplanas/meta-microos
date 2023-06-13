@@ -11,6 +11,7 @@ RPM_HASH = "929eec25a47d5541547e71aa94d47a601c5af73bcb8f0debdaa3145745b1714e834b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-mvapich2-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 adios_1_13_1-gnu-mvapich2-hpc-devel"
 

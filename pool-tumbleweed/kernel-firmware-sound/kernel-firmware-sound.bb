@@ -342,6 +342,7 @@ firmware(yamaha/ds1_dsp.fw) \
 firmware(yamaha/ds1e_ctrl.fw) \
 firmware(yamaha/yss225_registers.bin) \
 kernel-firmware-sound"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

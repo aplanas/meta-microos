@@ -11,6 +11,7 @@ RPM_HASH = "f4b7a06e1173385c205c8296d3a9f49f92af3f2a047f91a9bdc6fe80911572737b5a
 RPROVIDES:${PN} += "cmake(XCFun) \
 xcfun-devel \
 xcfun-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxcfun2"
 
 inherit rpm

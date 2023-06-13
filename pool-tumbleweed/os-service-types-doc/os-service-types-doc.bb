@@ -15,6 +15,7 @@ RPM_HASH = "9388ce577e94115d54ecf45db78d9c38dce4002e5fc4e1c3fc520397700d5a7cf852
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "os-service-types-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

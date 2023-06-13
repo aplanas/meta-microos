@@ -16,6 +16,7 @@ RPM_HASH = "553bb0b92fcdda76f8000e6dd94ca3a3036f98350146cc3e97351ce1dcb290c6f06c
 
 RPROVIDES:${PN} += "libspf2-devel \
 libspf2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libspf2-2"
 
 inherit rpm

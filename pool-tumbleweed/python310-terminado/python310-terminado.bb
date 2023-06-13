@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-terminado \
 python3.10dist(terminado) \
 python310-terminado \
 python3dist(terminado)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ptyprocess \
 python310-tornado"

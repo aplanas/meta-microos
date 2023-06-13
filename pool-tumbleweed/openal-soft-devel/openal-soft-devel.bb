@@ -14,6 +14,7 @@ openal-devel \
 openal-soft-devel \
 openal-soft-devel(aarch-64) \
 pkgconfig(openal)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libopenal1"

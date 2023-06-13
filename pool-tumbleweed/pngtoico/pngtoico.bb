@@ -10,6 +10,7 @@ RPM_HASH = "a7103050bdb88dcee9efc7243bd045dcc546be1e727476909b1b103bff3a55cbe224
 
 RPROVIDES:${PN} += "pngtoico \
 pngtoico(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

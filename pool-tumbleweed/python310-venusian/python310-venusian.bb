@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-venusian \
 python3.10dist(venusian) \
 python310-venusian \
 python3dist(venusian)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

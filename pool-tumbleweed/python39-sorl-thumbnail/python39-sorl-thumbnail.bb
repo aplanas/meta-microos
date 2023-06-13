@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sorl-thumbnail) \
 python39-sorl-thumbnail \
 python3dist(sorl-thumbnail)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyxdg) \
 python39-pyxdg \
 python3dist(pyxdg)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 python(abi) \
 shared-mime-info"

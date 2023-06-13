@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(svg-extract.sty) \
 tex(svg.sty) \
 texlive-svg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

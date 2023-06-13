@@ -9,6 +9,7 @@ RPM_HASH = "962420c803a77c6db9943b47f9d4c01722290b92296e1b713d09ff972417034a54be
 
 RPROVIDES:${PN} += "proftpd-sqlite \
 proftpd-sqlite(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

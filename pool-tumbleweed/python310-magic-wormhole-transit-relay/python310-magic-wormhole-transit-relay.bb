@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-magic-wormhole-transit-relay \
 python3.10dist(magic-wormhole-transit-relay) \
 python310-magic-wormhole-transit-relay \
 python3dist(magic-wormhole-transit-relay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted"
 

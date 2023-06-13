@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requests-download \
 python3.10dist(requests-download) \
 python310-requests-download \
 python3dist(requests-download)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-progressbar \
 python310-requests"

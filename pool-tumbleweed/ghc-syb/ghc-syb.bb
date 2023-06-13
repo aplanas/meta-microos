@@ -14,6 +14,7 @@ RPM_HASH = "a634a765696fbd04e795a05af6c39d8e6ce705bdd494f0fb23fe6e9e9a5c531d48af
 RPROVIDES:${PN} += "ghc-syb \
 ghc-syb(aarch-64) \
 libHSsyb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

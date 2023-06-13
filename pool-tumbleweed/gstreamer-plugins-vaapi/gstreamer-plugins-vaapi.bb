@@ -12,6 +12,7 @@ RPM_HASH = "7bdb70f8a2ee34c428017dcec812f792d7401257e58eb3dcf508b5a40dd6120b1cc8
 RPROVIDES:${PN} += "gstreamer-plugins-vaapi \
 gstreamer-plugins-vaapi(aarch-64) \
 libgstvaapi.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

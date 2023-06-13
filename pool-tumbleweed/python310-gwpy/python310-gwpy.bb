@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-gwpy \
 python3.10dist(gwpy) \
 python310-gwpy \
 python3dist(gwpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

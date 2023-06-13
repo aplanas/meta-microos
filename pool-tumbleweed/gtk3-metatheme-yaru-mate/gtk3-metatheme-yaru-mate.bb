@@ -11,6 +11,7 @@ RPM_HASH = "3cebbe070de92f3b4e499479ab0f69efd8c322bc114db6d1cc2ce1dc0c076b62d9d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-yaru-mate"
+
 RDEPENDS:${PN} += "metatheme-yaru-mate-common"
 
 inherit rpm

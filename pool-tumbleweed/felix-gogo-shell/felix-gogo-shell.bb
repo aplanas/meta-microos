@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "felix-gogo-shell \
 mvn(org.apache.felix:org.apache.felix.gogo.shell) \
 mvn(org.apache.felix:org.apache.felix.gogo.shell:pom:) \
 osgi(org.apache.felix.gogo.shell)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.felix:org.apache.felix.gogo.runtime) \

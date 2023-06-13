@@ -11,6 +11,7 @@ RPM_HASH = "66098ea7c7479858de395947afa80996df646619b8f800678efa1fd0f42ac7086078
 RPROVIDES:${PN} += "cmake(KF5Init) \
 kinit-devel \
 kinit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules"
 
 inherit rpm

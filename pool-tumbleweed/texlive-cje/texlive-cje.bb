@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(cje.cls) \
 tex(cjenatbib.sty) \
 tex(cjeupmath.sty) \
 texlive-cje"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

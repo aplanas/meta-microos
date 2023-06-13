@@ -9,6 +9,7 @@ RPM_HASH = "68df0b248505cd1cb46c64aef73b246ef810dfb491d88ae526315e478ac79dde32d4
 
 RPROVIDES:${PN} += "erlang-erlware_commons \
 erlang-erlware_commons(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-cf"
 

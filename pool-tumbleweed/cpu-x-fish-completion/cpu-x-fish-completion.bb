@@ -9,6 +9,7 @@ RPM_HASH = "21b5d3e001d08718844e7f763c5758f9adddb0cfe0f0bc046fd70d91f16ec06d2084
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpu-x-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

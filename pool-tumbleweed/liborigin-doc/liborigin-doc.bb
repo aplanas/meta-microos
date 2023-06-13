@@ -9,6 +9,7 @@ RPM_HASH = "47d8834eff1deb5cb6cfe0acc1afa96e5771ae5fac1d4b939f71893c0d976c56fd06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liborigin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

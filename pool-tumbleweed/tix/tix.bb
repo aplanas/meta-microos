@@ -16,6 +16,7 @@ RPM_HASH = "4b5b7b75f899fb9bb0c2b087a435b3267097116a30244eac80d322e0801ee3ba1454
 RPROVIDES:${PN} += "libTix8.4.3.so()(64bit) \
 tix \
 tix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "5efdc96496675faea144ae73e39a21bbbd31cf70f0766ac12c64c1187e5f53661499
 RPROVIDES:${PN} += "libgudev-1_0-devel \
 libgudev-1_0-devel(aarch-64) \
 pkgconfig(gudev-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgudev-1_0-0 \
 pkgconfig(glib-2.0) \

@@ -16,6 +16,7 @@ RPM_HASH = "0ac77c3279800718dce34030b739599bd58fbcf522a63da8decf6f3b455cc0357025
 RPROVIDES:${PN} += "libvmime-suse.so.5()(64bit) \
 libvmime-suse5 \
 libvmime-suse5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

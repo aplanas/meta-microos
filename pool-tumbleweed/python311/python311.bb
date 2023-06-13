@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python311 \
 python311(aarch-64) \
 python311-readline \
 python311-sqlite3"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

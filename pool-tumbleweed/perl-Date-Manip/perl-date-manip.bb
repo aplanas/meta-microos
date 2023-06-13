@@ -117,6 +117,7 @@ perl(Date::Manip::TZ_Base) \
 perl(Date::Manip::TZdata) \
 perl(Date::Manip::Zones) \
 perl-Date-Manip"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

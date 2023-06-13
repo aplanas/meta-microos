@@ -9,6 +9,7 @@ RPM_HASH = "a8311dbb8fabf067af478e89395f31589b94c0d39ccbffb939ab2d150fa017248000
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cartonaugh-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

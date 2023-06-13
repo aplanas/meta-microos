@@ -14,6 +14,7 @@ fftw3-devel(aarch-64) \
 pkgconfig(fftw3) \
 pkgconfig(fftw3f) \
 pkgconfig(fftw3l)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

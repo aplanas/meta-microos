@@ -15,6 +15,7 @@ RPM_HASH = "e77ddd41985603b4c03abc2d7aab9e31fce8f994b946d506b407596a2672565fb495
 
 RPROVIDES:${PN} += "scim-uim \
 scim-uim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

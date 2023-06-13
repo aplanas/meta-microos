@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-kde-devel_qt6 \
 patterns-openSUSE-devel_qt6"
+
 RDEPENDS:${PN} += "pattern() \
 qt6-base-common-devel"
 

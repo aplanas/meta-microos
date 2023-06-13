@@ -11,6 +11,7 @@ RPM_HASH = "c32429f1022a0e0144ace6de981262d18163464c912488d837aeebaba7b3452eed18
 
 RPROVIDES:${PN} += "arm-trusted-firmware \
 arm-trusted-firmware(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

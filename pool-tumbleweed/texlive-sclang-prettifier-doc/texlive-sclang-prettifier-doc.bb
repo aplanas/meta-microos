@@ -9,6 +9,7 @@ RPM_HASH = "739df3c76c4d834121f9cdb669dca0fbe93e6c1f5f586369e79761b8aa11f5115202
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sclang-prettifier-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

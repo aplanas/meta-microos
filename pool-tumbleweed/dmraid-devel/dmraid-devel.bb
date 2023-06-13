@@ -14,6 +14,7 @@ RPM_HASH = "1644c20fc248923d912eb137fb4514999659d859b5d9b35ae3faa161330a977d27b4
 
 RPROVIDES:${PN} += "dmraid-devel \
 dmraid-devel(aarch-64)"
+
 RDEPENDS:${PN} += "dmraid"
 
 inherit rpm

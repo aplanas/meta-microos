@@ -9,6 +9,7 @@ RPM_HASH = "7875baa03a67ecbbbc9f58c8e1adca2a0dba8ff71b89acbfe5c7a0cd1ba24de38b4c
 
 RPROVIDES:${PN} += "edk2-hikey \
 edk2-hikey(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

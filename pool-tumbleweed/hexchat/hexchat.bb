@@ -19,6 +19,7 @@ metainfo(io.github.Hexchat.appdata.xml) \
 mimehandler(x-scheme-handler/irc) \
 mimehandler(x-scheme-handler/ircs) \
 xchat"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

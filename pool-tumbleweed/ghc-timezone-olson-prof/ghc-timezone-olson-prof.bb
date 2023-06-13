@@ -10,6 +10,7 @@ RPM_HASH = "2c39d2c7d1a95adbf3c2c92b146792f220c037154f633e056c3924d0569942c6f7aa
 RPROVIDES:${PN} += "ghc-prof(timezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME) \
 ghc-timezone-olson-prof \
 ghc-timezone-olson-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \
 ghc-prof(bytestring-0.11.4.0) \

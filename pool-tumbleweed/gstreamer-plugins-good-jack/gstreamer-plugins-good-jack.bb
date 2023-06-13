@@ -12,6 +12,7 @@ gstreamer-plugins-good-jack(aarch-64) \
 gstreamer1(element-jackaudiosink)()(64bit) \
 gstreamer1(element-jackaudiosrc)()(64bit) \
 libgstjack.so()(64bit)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

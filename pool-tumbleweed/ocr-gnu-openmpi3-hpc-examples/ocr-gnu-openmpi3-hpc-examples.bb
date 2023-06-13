@@ -11,6 +11,7 @@ RPM_HASH = "0435a3d25e5aeb80d6df0870bdbe2f47dd2cda52d3a3df684d038007e2c0ea512082
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-openmpi3-hpc-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 ocr_1_0_1-gnu-openmpi3-hpc-examples"
 

@@ -18,6 +18,7 @@ python311-jupyter_nbconvert-latex \
 python311-nbconvert-latex \
 python39-jupyter_nbconvert-latex \
 python39-nbconvert-latex"
+
 RDEPENDS:${PN} += "jupyter-nbconvert \
 tex(adjustbox.sty) \
 tex(eurosym.sty) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kvsetkeys.sty) \
 texlive-kvsetkeys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

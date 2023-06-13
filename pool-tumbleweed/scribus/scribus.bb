@@ -87,6 +87,7 @@ mimehandler(application/vnd.scribus) \
 scribus \
 scribus(aarch-64) \
 scribus-devel"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 libGraphicsMagick-Q16.so.3()(64bit) \
 libQt5Core.so.5()(64bit) \

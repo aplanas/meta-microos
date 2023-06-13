@@ -10,6 +10,7 @@ RPM_HASH = "d3219b14e5d09a3d1ec72117ab962a10c8fe0ef2d280f3d5f5d014d04fb262c2cf72
 RPROVIDES:${PN} += "firefox-esr-branding \
 firefox-esr-branding-openSUSE \
 firefox-esr-branding-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

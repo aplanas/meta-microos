@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requests-gssapi \
 python3.10dist(requests-gssapi) \
 python310-requests-gssapi \
 python3dist(requests-gssapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gssapi \
 python310-requests"

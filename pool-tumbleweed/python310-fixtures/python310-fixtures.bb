@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-fixtures \
 python3.10dist(fixtures) \
 python310-fixtures \
 python3dist(fixtures)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-extras \
 python310-pbr \

@@ -11,6 +11,7 @@ RPM_HASH = "763d550ab7ccca2c46f898801e48a802d242610b8f8980572a004cadc92a5f449eab
 RPROVIDES:${PN} += "config(pcp-pmda-nginx) \
 pcp-pmda-nginx \
 pcp-pmda-nginx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl(LWP::UserAgent) \
 perl-PCP-PMDA"

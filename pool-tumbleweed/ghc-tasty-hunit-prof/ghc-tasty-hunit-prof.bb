@@ -10,6 +10,7 @@ RPM_HASH = "1f0a2153d5975b779c864b5e59f7ea2779b71537aaac096fc92a5cc15196736f90f3
 RPROVIDES:${PN} += "ghc-prof(tasty-hunit-0.10.0.3-CV9N1Lkn3CAEveU82YsKyL) \
 ghc-tasty-hunit-prof \
 ghc-tasty-hunit-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk) \
 ghc-prof(tasty-1.4.3-FhQLnMluiBU5Fwwb1Rsznz) \

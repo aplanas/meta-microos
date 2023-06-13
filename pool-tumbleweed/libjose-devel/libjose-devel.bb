@@ -11,6 +11,7 @@ RPM_HASH = "ca620b06a12bbf1caf22d3c0f549aecae5cc84d05149a46c41fece36043650e951a1
 RPROVIDES:${PN} += "libjose-devel \
 libjose-devel(aarch-64) \
 pkgconfig(jose)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjose0 \
 pkgconfig(jansson) \

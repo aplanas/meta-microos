@@ -18,6 +18,7 @@ RPM_HASH = "000aeaf24d6248b45ddf0254c55d7986720ce0f5ce6746c2a0cfe850bb056a35955a
 RPROVIDES:${PN} += "typelib(GeocodeGlib) \
 typelib-1_0-GeocodeGlib-2_0 \
 typelib-1_0-GeocodeGlib-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgeocode-glib-2.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

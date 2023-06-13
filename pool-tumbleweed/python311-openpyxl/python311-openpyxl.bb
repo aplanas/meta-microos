@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(openpyxl) \
 python311-openpyxl \
 python3dist(openpyxl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-et_xmlfile"
 

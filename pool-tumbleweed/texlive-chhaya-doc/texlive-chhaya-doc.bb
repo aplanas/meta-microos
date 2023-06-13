@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-chhaya-doc:mr) \
 texlive-chhaya-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ metainfo(org.bpython-interpreter.bpython-3.9.metainfo.xml) \
 python3.9dist(bpython) \
 python39-bpython \
 python3dist(bpython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

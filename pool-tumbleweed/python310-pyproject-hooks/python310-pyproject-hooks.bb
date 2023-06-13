@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyproject-hooks \
 python3.10dist(pyproject-hooks) \
 python310-pyproject-hooks \
 python3dist(pyproject-hooks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tomli"
 

@@ -10,6 +10,7 @@ RPM_HASH = "1161fae516bc160d96bd5d5d4e8651776d4a97fa4a9ec0a8dbc38fd1c7ecbc048848
 
 RPROVIDES:${PN} += "metamail \
 metamail(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "3988a88752b3085ba9b1b258256859690f99c8955f476660e48cce2f53f8245c1dbc
 
 RPROVIDES:${PN} += "libfvde-tools \
 libfvde-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

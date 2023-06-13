@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydicom-data) \
 python39-pydicom-data \
 python3dist(pydicom-data)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

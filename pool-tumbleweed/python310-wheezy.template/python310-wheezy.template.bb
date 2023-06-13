@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-wheezy.template \
 python3.10dist(wheezy.template) \
 python310-wheezy.template \
 python3dist(wheezy.template)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

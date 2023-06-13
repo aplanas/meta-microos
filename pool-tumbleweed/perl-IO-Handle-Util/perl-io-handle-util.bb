@@ -17,6 +17,7 @@ perl(IO::Handle::Util) \
 perl(IO::Handle::Util::Overloading) \
 perl(IO::Handle::Util::Tie) \
 perl-IO-Handle-Util"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::String) \
 perl(Sub::Exporter) \

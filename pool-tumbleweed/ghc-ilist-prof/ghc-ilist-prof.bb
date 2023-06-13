@@ -10,6 +10,7 @@ RPM_HASH = "01bc989c5d5f917706afe3cb02defb32acf670feaff77c320f9ace83fa43dc8e3720
 RPROVIDES:${PN} += "ghc-ilist-prof \
 ghc-ilist-prof(aarch-64) \
 ghc-prof(ilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM)"
+
 RDEPENDS:${PN} += "ghc-ilist-devel \
 ghc-prof(base-4.17.1.0)"
 

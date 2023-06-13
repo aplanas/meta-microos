@@ -23,6 +23,7 @@ libisc-9.18.15.so()(64bit) \
 libisccc-9.18.15.so()(64bit) \
 libisccfg-9.18.15.so()(64bit) \
 libns-9.18.15.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

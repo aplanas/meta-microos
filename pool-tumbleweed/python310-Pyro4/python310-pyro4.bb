@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-Pyro4 \
 python3.10dist(pyro4) \
 python310-Pyro4 \
 python3dist(pyro4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

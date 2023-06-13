@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(qrcodegen) \
 python39-QR-Code-generator \
 python39-QR-Code-generator(aarch-64) \
 python3dist(qrcodegen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

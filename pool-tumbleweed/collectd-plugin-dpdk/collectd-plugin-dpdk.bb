@@ -12,6 +12,7 @@ RPM_HASH = "36d65f4f475f3feb77294458b70c1f5df5657a6e224409e89992a0207c053d45bbd6
 
 RPROVIDES:${PN} += "collectd-plugin-dpdk \
 collectd-plugin-dpdk(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

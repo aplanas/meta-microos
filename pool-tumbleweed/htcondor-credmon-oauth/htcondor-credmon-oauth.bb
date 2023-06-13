@@ -11,6 +11,7 @@ RPM_HASH = "f3ce6eb9425e43963a456110ebbc128ae86d2f9ba55210c718053d23c8831ff9946e
 RPROVIDES:${PN} += "config(htcondor-credmon-oauth) \
 htcondor-credmon-oauth \
 htcondor-credmon-oauth(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 htcondor \

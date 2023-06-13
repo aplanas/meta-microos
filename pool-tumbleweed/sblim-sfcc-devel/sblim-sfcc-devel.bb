@@ -10,6 +10,7 @@ RPM_HASH = "1ee2eef0fc20d368cdfeb1bb68b548b055653db561cad282dc3c16859b30c13da694
 
 RPROVIDES:${PN} += "sblim-sfcc-devel \
 sblim-sfcc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libcimcClientXML0 \
 libcimcclient0 \

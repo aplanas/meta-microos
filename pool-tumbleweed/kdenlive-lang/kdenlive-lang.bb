@@ -53,6 +53,7 @@ locale(kdenlive:ug) \
 locale(kdenlive:uk) \
 locale(kdenlive:zh_CN) \
 locale(kdenlive:zh_TW)"
+
 RDEPENDS:${PN} += "kdenlive"
 
 inherit rpm

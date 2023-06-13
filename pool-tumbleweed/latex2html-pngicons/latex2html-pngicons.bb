@@ -9,6 +9,7 @@ RPM_HASH = "4a873e854c1dd46d8356769647c91aa6543f9b5745cbb143a96d17f846f9f7036176
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latex2html-pngicons"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

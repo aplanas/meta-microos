@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-platformio \
 python3.10dist(platformio) \
 python310-platformio \
 python3dist(platformio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

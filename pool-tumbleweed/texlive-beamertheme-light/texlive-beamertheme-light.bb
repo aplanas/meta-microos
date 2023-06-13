@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beamertheme-light.sty) \
 texlive-beamertheme-light"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

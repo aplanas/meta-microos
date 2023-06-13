@@ -14,6 +14,7 @@ RPM_HASH = "0789f6ae80cd6247dadcae142d9e20c7f05b44c0649e1224b0af404fab375130a5af
 RPROVIDES:${PN} += "fence-agents-devel \
 fence-agents-devel(aarch-64) \
 pkgconfig(fence-agents)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 fence-agents"

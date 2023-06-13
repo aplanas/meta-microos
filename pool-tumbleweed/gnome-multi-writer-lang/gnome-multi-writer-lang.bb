@@ -46,6 +46,7 @@ locale(gnome-multi-writer:tr) \
 locale(gnome-multi-writer:uk) \
 locale(gnome-multi-writer:zh_CN) \
 locale(gnome-multi-writer:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-multi-writer"
 
 inherit rpm

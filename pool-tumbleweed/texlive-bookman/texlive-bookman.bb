@@ -191,6 +191,7 @@ tex(ubkro8r.tfm) \
 tex(ubkro8t.tfm) \
 tex(ubkro8t.vf) \
 texlive-bookman"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

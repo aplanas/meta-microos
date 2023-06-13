@@ -10,6 +10,7 @@ RPM_HASH = "75dc6e0cdc216d9c30116fff1e6e3fa60ff6f9b23eec8d7c8dab96b4d232455eb299
 RPROVIDES:${PN} += "/sbin/shutdown \
 shepherd-bins \
 shepherd-bins(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/guile"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyUSID \
 python3.10dist(pyusid) \
 python310-pyUSID \
 python3dist(pyusid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-cytoolz \

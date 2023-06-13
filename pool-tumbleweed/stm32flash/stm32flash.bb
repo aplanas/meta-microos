@@ -25,6 +25,7 @@ RPM_HASH = "fcf85c99426f8d0b59bd0606c4de5ce98ed614e1c1ce998ca5e812ce4269768184b3
 
 RPROVIDES:${PN} += "stm32flash \
 stm32flash(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

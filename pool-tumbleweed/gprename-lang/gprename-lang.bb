@@ -24,6 +24,7 @@ locale(gprename:ro) \
 locale(gprename:ru) \
 locale(gprename:sv) \
 locale(gprename:zh_CN)"
+
 RDEPENDS:${PN} += "gprename"
 
 inherit rpm

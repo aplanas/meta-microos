@@ -9,6 +9,7 @@ RPM_HASH = "616cf75f3a5c77e7de972757a6d2cffad17152fb4aae7f9bb38adf781db8756ea54a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubeaudit-fish-completion"
+
 RDEPENDS:${PN} += "kubeaudit"
 
 inherit rpm

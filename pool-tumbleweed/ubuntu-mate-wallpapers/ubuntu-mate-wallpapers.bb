@@ -9,6 +9,7 @@ RPM_HASH = "3492137685b3c9eb40ef7e4d92649b64c7bd492a2b735dc767c522b021ef20169213
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-mate-wallpapers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

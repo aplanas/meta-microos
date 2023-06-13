@@ -18,6 +18,7 @@ metainfo(idle3.8.appdata.xml) \
 mimehandler(text/x-python) \
 python38-idle \
 python38-idle(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.8 \
 python(abi) \
 python38 \

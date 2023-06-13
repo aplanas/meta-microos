@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-pyquil \
 python3.10dist(pyquil) \
 python310-pyquil \
 python3dist(pyquil)"
+
 RDEPENDS:${PN} += "(python310-importlib-metadata >= 3.7.3 if python310-base < 3.8) \
 (python310-qcs-api-client >= 0.21 with python310-qcs-api-client < 0.22.0) \
 python(abi) \

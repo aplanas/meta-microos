@@ -382,6 +382,7 @@ tex(cbn_vqpkf5.enc) \
 tex(cbn_yhiurv.enc) \
 tex(cbn_yhzmyq.enc) \
 texlive-cabin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

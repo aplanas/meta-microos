@@ -50,6 +50,7 @@ tex(eiadtcsc10.tfm) \
 tex(eiadtt10.tfm) \
 tex(eiadvtt10.tfm) \
 texlive-eiad"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

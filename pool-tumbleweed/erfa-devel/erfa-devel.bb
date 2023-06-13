@@ -11,6 +11,7 @@ RPM_HASH = "71f474ebe3233a9c4b086edb44073bc18b93b81cd148e1de4e97d8f74383237b165a
 RPROVIDES:${PN} += "erfa-devel \
 erfa-devel(aarch-64) \
 pkgconfig(erfa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liberfa1"
 

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-wiring \
 python3.10dist(wiring) \
 python310-wiring \
 python3dist(wiring)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

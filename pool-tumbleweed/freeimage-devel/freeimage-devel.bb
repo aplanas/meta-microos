@@ -11,6 +11,7 @@ RPM_HASH = "ebb649716ce9b32c7c3da447d5fe95dd113fc1691c7c72ee14e27bb1d2262dbc3429
 RPROVIDES:${PN} += "freeimage-devel \
 freeimage-devel(aarch-64) \
 libfreeimage-devel"
+
 RDEPENDS:${PN} += "libfreeimage3 \
 libfreeimageplus3"
 

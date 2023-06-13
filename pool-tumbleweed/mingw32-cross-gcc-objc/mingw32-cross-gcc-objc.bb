@@ -9,6 +9,7 @@ RPM_HASH = "955cbd285ac4dbf81d7f9f983dcb3c8a8d6f97e55883adc69bf97b4b30f893bf72e3
 
 RPROVIDES:${PN} += "mingw32-cross-gcc-objc \
 mingw32-cross-gcc-objc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

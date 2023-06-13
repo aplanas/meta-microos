@@ -22,6 +22,7 @@ perl(File::Find::Object::PathComp) \
 perl(File::Find::Object::Result) \
 perl(File::Find::Object::TopPath) \
 perl-File-Find-Object"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::XSAccessor) \
 perl(parent)"

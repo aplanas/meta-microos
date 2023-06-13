@@ -68,6 +68,7 @@ tex(t1anonymouspro.fd) \
 tex(ts1anonymouspro.fd) \
 tex(uanonymouspro.fd) \
 texlive-anonymouspro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

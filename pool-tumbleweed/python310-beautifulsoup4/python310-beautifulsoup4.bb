@@ -36,6 +36,7 @@ RPROVIDES:${PN} += "python3-beautifulsoup4 \
 python3.10dist(beautifulsoup4) \
 python310-beautifulsoup4 \
 python3dist(beautifulsoup4)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-soupsieve"
 

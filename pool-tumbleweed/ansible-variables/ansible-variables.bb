@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-variables \
 python3.10dist(ansible-variables) \
 python3dist(ansible-variables)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ansible-core \

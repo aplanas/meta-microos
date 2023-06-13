@@ -14,6 +14,7 @@ RPM_HASH = "a163740722aa383ee0069e31cc36f8a6d340be936181c74377590e709101b8c57042
 
 RPROVIDES:${PN} += "augeas \
 augeas(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaugeas.so.0()(64bit) \

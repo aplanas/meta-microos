@@ -15,6 +15,7 @@ openssl(cli) \
 openssl-3 \
 openssl-3(aarch-64) \
 ssl"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 crypto-policies \

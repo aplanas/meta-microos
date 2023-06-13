@@ -10,6 +10,7 @@ RPM_HASH = "d5cd4aa236edbc5263360fc6f5931199e5c597131e28d5de04946affb3dd84dcf6ae
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libavif \
 gdk-pixbuf-loader-libavif(aarch-64) \
 libpixbufloader-avif.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavif.so.15()(64bit) \

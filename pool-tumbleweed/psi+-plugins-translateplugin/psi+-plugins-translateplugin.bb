@@ -10,6 +10,7 @@ RPM_HASH = "a5497269bc03ed4eda39da038476e04a17c9b7d373a120084eae763a77e48a7b9508
 RPROVIDES:${PN} += "libtranslateplugin.so()(64bit) \
 psi+-plugins-translateplugin \
 psi+-plugins-translateplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

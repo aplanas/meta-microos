@@ -14,6 +14,7 @@ RPM_HASH = "cc940093714e2b388b1aeb9d5513a7936b097c237c5051cb5530b8101c92b8cd0d06
 
 RPROVIDES:${PN} += "openbabel-gui \
 openbabel-gui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

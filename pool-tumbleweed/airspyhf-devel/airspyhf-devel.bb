@@ -10,6 +10,7 @@ RPM_HASH = "08d5293bb55a5a77cd908b9dcfbaff247d7fd9600c137f389b90e1099be1b20bf393
 RPROVIDES:${PN} += "airspyhf-devel \
 airspyhf-devel(aarch-64) \
 pkgconfig(libairspyhf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libairspyhf0"
 

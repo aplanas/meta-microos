@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-keystonemiddleware \
 python3.10dist(keystonemiddleware) \
 python3dist(keystonemiddleware)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-WebOb \
 python3-keystoneauth1 \

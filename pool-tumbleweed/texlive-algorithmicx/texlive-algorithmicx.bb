@@ -20,6 +20,7 @@ tex(algorithmicx.sty) \
 tex(algpascal.sty) \
 tex(algpseudocode.sty) \
 texlive-algorithmicx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

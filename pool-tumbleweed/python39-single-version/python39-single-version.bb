@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(single-version) \
 python39-single-version \
 python3dist(single-version)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-first \
 python39-importlib-metadata"

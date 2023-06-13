@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-tweepy \
 python3.10dist(tweepy) \
 python310-tweepy \
 python3dist(tweepy)"
+
 RDEPENDS:${PN} += "(python3.10dist(oauthlib) < 4 with python3.10dist(oauthlib) >= 3.2) \
 (python3.10dist(requests) < 3 with python3.10dist(requests) >= 2.27) \
 (python3.10dist(requests-oauthlib) < 2 with python3.10dist(requests-oauthlib) >= 1.2) \

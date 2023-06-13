@@ -9,6 +9,7 @@ RPM_HASH = "1b13ca63f0263a606ca4247100ae32f1451819191494abc2222a94a1c116d74b2b26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradientframe-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPM_HASH = "f41c603b3775f34d29688a5d342cfca2500ab414fd533a7c17b78fe040ac9c71b970
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyevents"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3dist(ipyevents)"
 

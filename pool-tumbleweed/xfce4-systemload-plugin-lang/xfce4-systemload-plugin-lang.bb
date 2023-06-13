@@ -58,6 +58,7 @@ locale(xfce4-systemload-plugin:zh_TW) \
 xfce4-panel-plugin-systemload-lang \
 xfce4-systemload-plugin-lang \
 xfce4-systemload-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-systemload-plugin"
 
 inherit rpm

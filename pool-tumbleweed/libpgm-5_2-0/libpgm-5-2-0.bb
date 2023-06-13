@@ -13,6 +13,7 @@ RPM_HASH = "8a77bc8a97a85bfec548636439d175e12cb302925e510d34bd97f8b598292140bbf9
 RPROVIDES:${PN} += "libpgm-5.2.so.0()(64bit) \
 libpgm-5_2-0 \
 libpgm-5_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

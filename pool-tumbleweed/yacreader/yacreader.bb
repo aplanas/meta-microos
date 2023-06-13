@@ -23,6 +23,7 @@ mimehandler(application/x-zip) \
 mimehandler(inode/directory) \
 yacreader \
 yacreader(aarch-64)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

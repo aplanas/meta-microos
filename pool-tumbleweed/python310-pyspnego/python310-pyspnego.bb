@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyspnego \
 python3.10dist(pyspnego) \
 python310-pyspnego \
 python3dist(pyspnego)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

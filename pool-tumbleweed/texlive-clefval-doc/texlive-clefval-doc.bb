@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-clefval-doc:fr) \
 texlive-clefval-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arabicfront.sty) \
 texlive-arabicfront"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

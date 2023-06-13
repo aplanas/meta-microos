@@ -11,6 +11,7 @@ RPM_HASH = "f392656a92ce40cbda049f2f064e7d4f03cafed9965f45cfc44ebdc6ee271b9b876b
 
 RPROVIDES:${PN} += "passwdqc-devel \
 passwdqc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpasswdqc0"
 
 inherit rpm

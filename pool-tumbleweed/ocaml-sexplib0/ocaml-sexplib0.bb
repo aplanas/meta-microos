@@ -9,6 +9,7 @@ RPM_HASH = "09ae5d4d58c890744fe48797e302193cc4c71f2111191c7ce30261ec163a15353498
 
 RPROVIDES:${PN} += "ocaml-sexplib0 \
 ocaml-sexplib0(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

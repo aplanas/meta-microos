@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Task::Kensho::Async) \
 perl-Task-Kensho-Async"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Future) \
 perl(IO::Async) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-help-colors \
 python3.10dist(click-help-colors) \
 python310-click-help-colors \
 python3dist(click-help-colors)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

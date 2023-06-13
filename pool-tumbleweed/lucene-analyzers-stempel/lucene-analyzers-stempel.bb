@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-analyzers-stempel \
 mvn(org.apache.lucene:lucene-analyzers-stempel) \
 mvn(org.apache.lucene:lucene-analyzers-stempel:pom:) \
 osgi(org.apache.lucene.analyzers-stempel)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-analyzers-common) \

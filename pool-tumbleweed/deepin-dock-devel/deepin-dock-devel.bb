@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(DdeDock) \
 deepin-dock-devel \
 deepin-dock-devel(aarch-64) \
 pkgconfig(dde-dock)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

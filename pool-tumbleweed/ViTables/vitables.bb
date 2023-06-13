@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "ViTables \
 ViTables2 \
 python3.10dist(vitables) \
 python3dist(vitables)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 hdf5 \
 hicolor-icon-theme \

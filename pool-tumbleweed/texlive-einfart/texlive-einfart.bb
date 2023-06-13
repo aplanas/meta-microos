@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(einfart.cls) \
 texlive-einfart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

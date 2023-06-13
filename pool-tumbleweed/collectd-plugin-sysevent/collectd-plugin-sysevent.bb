@@ -10,6 +10,7 @@ RPM_HASH = "3e7f5cfe78cc4b6678a1436eed9c92ab88630d51f85732b851ba7f96d051af027591
 
 RPROVIDES:${PN} += "collectd-plugin-sysevent \
 collectd-plugin-sysevent(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

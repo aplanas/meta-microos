@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-shell-games \
 lua54-shell-games"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

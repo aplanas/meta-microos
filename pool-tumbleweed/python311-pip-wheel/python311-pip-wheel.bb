@@ -11,6 +11,7 @@ RPM_HASH = "fa93d65d8962b449d76e029a71bd028a537eaeda80032fe677a8d404d2236675a955
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-pip-wheel"
+
 RDEPENDS:${PN} += "/bin/sh \
 alts \
 ca-certificates \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(ldirectord) \
 heartbeat-ldirectord \
 ldirectord \
 ldirectord(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ipvsadm \

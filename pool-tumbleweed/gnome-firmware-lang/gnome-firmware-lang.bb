@@ -35,6 +35,7 @@ locale(gnome-firmware:sv) \
 locale(gnome-firmware:tr) \
 locale(gnome-firmware:uk) \
 locale(gnome-firmware:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-firmware"
 
 inherit rpm

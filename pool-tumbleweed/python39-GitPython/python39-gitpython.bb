@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(gitpython) \
 python39-GitPython \
 python3dist(gitpython)"
+
 RDEPENDS:${PN} += "git-core \
 python(abi) \
 python39-gitdb"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(sopwith.desktop) \
 sopwith \
 sopwith(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

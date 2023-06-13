@@ -10,6 +10,7 @@ RPM_HASH = "94c75c04077272aa943b500b01aeb01119e633f862162263c61d16ef84e6c08b10b1
 RPROVIDES:${PN} += "config(dialog) \
 dialog \
 dialog(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

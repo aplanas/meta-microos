@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccx-doc:/usr/share/ccx-examples-2.12/achtel2.inp \
 ccx-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

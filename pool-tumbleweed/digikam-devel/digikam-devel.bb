@@ -13,6 +13,7 @@ cmake(DigikamGui) \
 cmake(DigikamPlugin) \
 digikam-devel \
 digikam-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdigikamcore8_0_0"
 
 inherit rpm

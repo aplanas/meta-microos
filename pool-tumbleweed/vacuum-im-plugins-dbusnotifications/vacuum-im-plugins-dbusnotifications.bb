@@ -10,6 +10,7 @@ RPM_HASH = "d9b6da810535157dbf76ea47d987ea3a45e0054d355d392b3ada3f91711561b61ae3
 RPROVIDES:${PN} += "libdbusnotifications.so()(64bit) \
 vacuum-im-plugins-dbusnotifications \
 vacuum-im-plugins-dbusnotifications(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

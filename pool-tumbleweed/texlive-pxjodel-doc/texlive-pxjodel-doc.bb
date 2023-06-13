@@ -9,6 +9,7 @@ RPM_HASH = "5a0e2a7494a3f1825cd5a2586eec49e9e60972b07e41bb029998757f1a44d5a8610f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxjodel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

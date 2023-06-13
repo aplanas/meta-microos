@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hankel) \
 python39-hankel \
 python3dist(hankel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-mpmath \
 python39-numpy \

@@ -10,6 +10,7 @@ RPM_HASH = "31d7b1ff285e1365cd378713b0567913569342e253f7a5fe0ab06f52d192fc14da66
 
 RPROVIDES:${PN} += "libeot-tools \
 libeot-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

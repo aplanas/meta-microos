@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-mptt) \
 python39-django-mptt \
 python3dist(django-mptt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-django-js-asset"

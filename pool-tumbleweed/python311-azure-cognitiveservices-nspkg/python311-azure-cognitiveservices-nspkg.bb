@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-nspkg) \
 python311-azure-cognitiveservices-nspkg \
 python3dist(azure-cognitiveservices-nspkg)"
+
 RDEPENDS:${PN} += "python311-azure-nspkg"
 
 inherit rpm

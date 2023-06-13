@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "liblpsolve55 \
 liblpsolve55-0 \
 liblpsolve55-0(aarch-64) \
 liblpsolve55.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

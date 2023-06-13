@@ -10,6 +10,7 @@ RPM_HASH = "bd95d6bc1c654d62b4005c1338e4ad7756b61cc315434ea378878a0b65a8f37d70d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemtap-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

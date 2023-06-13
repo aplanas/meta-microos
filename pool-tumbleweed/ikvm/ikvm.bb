@@ -46,6 +46,7 @@ mono(ikvm) \
 mono(ikvmc) \
 mono(ikvmstub) \
 pkgconfig(ikvm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 mono(System) \

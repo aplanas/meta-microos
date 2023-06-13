@@ -15,6 +15,7 @@ tex(ot1cdr.fd) \
 tex(ot1cdss.fd) \
 tex(ot1cdtt.fd) \
 texlive-duerer-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

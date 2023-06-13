@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(startex.tex) \
 texlive-startex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

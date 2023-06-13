@@ -14,6 +14,7 @@ RPM_HASH = "608e1b2d8ce89ec5cb316e497e3e2f3586755dd197df6d913d7f4587ee5f197c2473
 
 RPROVIDES:${PN} += "gimp-plugin-resynthesizer \
 gimp-plugin-resynthesizer(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 gimp-plugins-python \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 metacity-theme-dracula"
+
 RDEPENDS:${PN} += "metacity \
 metatheme-dracula-common"
 

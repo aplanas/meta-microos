@@ -23,6 +23,7 @@ RPM_HASH = "ef2e44def56de1f38a211636e0c89a6676f75e43263da176af56c34c95bccfe03c53
 RPROVIDES:${PN} += "perl(indirect) \
 perl-indirect \
 perl-indirect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

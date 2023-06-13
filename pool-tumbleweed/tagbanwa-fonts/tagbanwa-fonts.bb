@@ -9,6 +9,7 @@ RPM_HASH = "bbe3650a8e357a04faff23637127d4ac6d44a537882d7d32343eee5376e710c798e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tagbanwa-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

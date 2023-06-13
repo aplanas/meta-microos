@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mynsfc.cls) \
 texlive-mynsfc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

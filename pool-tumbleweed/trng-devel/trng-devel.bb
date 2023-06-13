@@ -12,6 +12,7 @@ RPM_HASH = "9fb6c944d8b58fb927233d0b344a37b89d2059244a5e3677009f2b1a9461841b8317
 
 RPROVIDES:${PN} += "trng-devel \
 trng-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtrng4-24"
 
 inherit rpm

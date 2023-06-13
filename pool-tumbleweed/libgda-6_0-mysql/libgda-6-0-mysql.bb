@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgda-6_0-mysql \
 libgda-6_0-mysql(aarch-64) \
 libgda-mysql \
 libgda-mysql-6.0.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

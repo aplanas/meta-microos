@@ -32,6 +32,7 @@ RPROVIDES:${PN} += "python3-seaborn \
 python3.10dist(seaborn) \
 python310-seaborn \
 python3dist(seaborn)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

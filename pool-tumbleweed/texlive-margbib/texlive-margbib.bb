@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(margbib.sty) \
 texlive-margbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "6f5084fb3cc520003205b1404b84f137b680abe672ba46c774a51d64aa43ac6c0377
 
 RPROVIDES:${PN} += "python311-libvslvm \
 python311-libvslvm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

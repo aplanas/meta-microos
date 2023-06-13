@@ -14,6 +14,7 @@ RPM_HASH = "ba7c49052ce4e14622a7605f66db15dc3079d9f5b74d7caa71f25ade36c44772109c
 
 RPROVIDES:${PN} += "mpibash \
 mpibash(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

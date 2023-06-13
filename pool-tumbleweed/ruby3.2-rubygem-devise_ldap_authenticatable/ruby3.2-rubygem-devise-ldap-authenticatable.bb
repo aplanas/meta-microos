@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:devise_ldap_authenticatable) \
 rubygem(ruby:3.2.0:devise_ldap_authenticatable:0) \
 rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8) \
 rubygem(ruby:3.2.0:devise_ldap_authenticatable:0.8.7)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:devise) \
 rubygem(ruby:3.2.0:net-ldap)"

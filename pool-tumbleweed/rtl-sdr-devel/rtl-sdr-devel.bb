@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(rtlsdr) \
 pkgconfig(librtlsdr) \
 rtl-sdr-devel \
 rtl-sdr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 rtl-sdr"
 

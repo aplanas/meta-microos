@@ -10,6 +10,7 @@ RPM_HASH = "338c989298c9022ac1a8c27e89e7d4b38845cd6ec744a8881c9d7321d6e2b08c7fab
 RPROVIDES:${PN} += "libgnomesu-devel \
 libgnomesu-devel(aarch-64) \
 pkgconfig(libgnomesu-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnomesu \
 libgnomesu0 \

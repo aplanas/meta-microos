@@ -47,6 +47,7 @@ locale(angelfish:tr) \
 locale(angelfish:uk) \
 locale(angelfish:zh_CN) \
 locale(angelfish:zh_TW)"
+
 RDEPENDS:${PN} += "angelfish"
 
 inherit rpm

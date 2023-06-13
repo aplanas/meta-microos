@@ -10,6 +10,7 @@ RPM_HASH = "4ea96f1577c3ce98a04fd87cb9f65946de48cbf69fed1d814769d294f0a0d0d4bd03
 RPROVIDES:${PN} += "libudisks2-0_lvm2 \
 libudisks2-0_lvm2(aarch-64) \
 libudisks2_lvm2.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblockdev-lvm \

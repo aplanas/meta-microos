@@ -9,6 +9,7 @@ RPM_HASH = "54ea4e1859deab5dc696bb96fd1bd703bd024a3f600e565fde391e32722897f8276d
 
 RPROVIDES:${PN} += "lttng-modules \
 lttng-modules(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

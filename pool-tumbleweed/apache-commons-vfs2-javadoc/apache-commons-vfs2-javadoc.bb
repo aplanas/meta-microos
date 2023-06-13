@@ -9,6 +9,7 @@ RPM_HASH = "a2d2933b08df1c7edf5b945d32531b1ab9795aa7765712af984679fe851bbe1b5187
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

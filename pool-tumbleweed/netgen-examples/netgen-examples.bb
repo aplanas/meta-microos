@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netgen-examples \
 netgen:/usr/share/netgen/cube.geo"
+
 RDEPENDS:${PN} += "netgen"
 
 inherit rpm

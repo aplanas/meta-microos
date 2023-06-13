@@ -12,6 +12,7 @@ RPM_HASH = "4abc58599195b22832b73970b73d36efbedcb6ea65cb730c1c6563ddb22d89c17081
 
 RPROVIDES:${PN} += "libantlr4-runtime-devel \
 libantlr4-runtime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libantlr4-runtime4_9_3 \
 utfcpp-devel"
 

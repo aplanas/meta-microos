@@ -9,6 +9,7 @@ RPM_HASH = "dcf194e1b8b26212944b64952e4b120efe972a46f62a1f5bf6049cefd78f8f9d3700
 
 RPROVIDES:${PN} += "gojsontoyaml \
 gojsontoyaml(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

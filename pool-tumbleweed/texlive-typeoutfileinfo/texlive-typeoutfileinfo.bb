@@ -13,6 +13,7 @@ RPM_HASH = "4b4c766d8063d317ee20a660ce4e135660e2019ce541c87e774e7d936ab26b730296
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typeoutfileinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

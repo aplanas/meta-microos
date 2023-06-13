@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-mate-mate_admin \
 patterns-mate-mate_admin(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

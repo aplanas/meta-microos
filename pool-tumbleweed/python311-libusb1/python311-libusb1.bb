@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(libusb1) \
 python311-libusb1 \
 python3dist(libusb1)"
+
 RDEPENDS:${PN} += "libusb-1_0-0 \
 python(abi)"
 

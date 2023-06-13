@@ -9,6 +9,7 @@ RPM_HASH = "cd2ce133d568860b8a1b8b540f6ca20e95231587e0f0168e24268aa1efb6d5234f46
 
 RPROVIDES:${PN} += "erlang-dialyzer \
 erlang-dialyzer(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-wx \
 graphviz \

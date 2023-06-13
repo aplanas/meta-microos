@@ -9,6 +9,7 @@ RPM_HASH = "f9a46ecf7d379ffda9c15eecf692d1354454b739566ecfcd742bea7dbbec0c10ac40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "03235c75bfc88e7ba871a6cf5ac85f3329283430bb9e9b64beec9bb170c7c0012dd6
 RPROVIDES:${PN} += "libgfxdr.so.0()(64bit) \
 libgfxdr0 \
 libgfxdr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

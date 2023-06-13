@@ -11,6 +11,7 @@ RPM_HASH = "2b0d2964ae0efd8680c413f9dc55167c081af329783c769009524b23987daeae7544
 RPROVIDES:${PN} += "typelib(EvinceDocument) \
 typelib-1_0-EvinceDocument-3_0 \
 typelib-1_0-EvinceDocument-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libevdocument3.so.4()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

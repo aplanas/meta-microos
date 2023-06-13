@@ -102,6 +102,7 @@ font(yfrak) \
 font(ygoth) \
 font(yswab) \
 texlive-yfonts-t1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

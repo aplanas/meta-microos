@@ -10,6 +10,7 @@ RPM_HASH = "27658e6c53ffbc9291b5bff1d8072ff8f71e6189e3894057b915b915b48969fa3f16
 RPROVIDES:${PN} += "ghc-profunctors \
 ghc-profunctors(aarch-64) \
 libHSprofunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

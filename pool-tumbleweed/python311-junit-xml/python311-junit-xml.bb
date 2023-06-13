@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(junit-xml) \
 python311-junit-xml \
 python3dist(junit-xml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

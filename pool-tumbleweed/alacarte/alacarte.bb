@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "alacarte \
 application() \
 application(alacarte.desktop)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject-Gdk \

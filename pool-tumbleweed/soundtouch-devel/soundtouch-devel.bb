@@ -15,6 +15,7 @@ RPM_HASH = "801cf2e99cd2e4e710a0d0ef2edba0f6134efc299d188008a183558e35a13fa33568
 RPROVIDES:${PN} += "pkgconfig(soundtouch) \
 soundtouch-devel \
 soundtouch-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libSoundTouch1"

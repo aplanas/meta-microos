@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-artifact-transfer \
 mvn(org.apache.maven.shared:maven-artifact-transfer) \
 mvn(org.apache.maven.shared:maven-artifact-transfer:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-common-artifact-filters) \

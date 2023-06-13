@@ -12,6 +12,7 @@ RPM_HASH = "78441b9cbdd3869afe2bae1b7ece2cafdf3c83141d6612de4ce63e619cefac9d8b00
 RPROVIDES:${PN} += "config(php8-ice) \
 php8-ice \
 php8-ice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

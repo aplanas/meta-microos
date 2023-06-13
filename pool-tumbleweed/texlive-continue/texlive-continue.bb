@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(continue.sty) \
 texlive-continue"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

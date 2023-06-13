@@ -12,6 +12,7 @@ RPM_HASH = "13dd38c6c11664f0ee33730ba18c550c2b6ea7491274da1d168f785c9a9995d6e669
 
 RPROVIDES:${PN} += "hdf5_1_12_2-gnu-openmpi3-hpc-devel-static \
 hdf5_1_12_2-gnu-openmpi3-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "hdf5_1_12_2-gnu-openmpi3-hpc-devel"
 
 inherit rpm

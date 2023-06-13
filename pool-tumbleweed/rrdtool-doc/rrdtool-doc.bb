@@ -11,6 +11,7 @@ RPM_HASH = "db8ce1d37d5a73d0cc254d3eb921011e71458a6f2dc8fb7ce78216b948ba68d3bb3f
 
 RPROVIDES:${PN} += "rrdtool-doc \
 rrdtool-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

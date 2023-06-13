@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ushort.sty) \
 texlive-ushort"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

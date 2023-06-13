@@ -11,6 +11,7 @@ RPM_HASH = "37f548bfe8aec122073524c41e43e98f04c61ac53535ebc2adce68727030dacb5227
 
 RPROVIDES:${PN} += "nco \
 nco(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/env \

@@ -69,6 +69,7 @@ firmware(mt7662.bin) \
 firmware(mt7662_rom_patch.bin) \
 kernel-firmware-mediatek \
 ralink-firmware"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

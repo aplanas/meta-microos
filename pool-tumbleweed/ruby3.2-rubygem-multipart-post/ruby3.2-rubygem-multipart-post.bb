@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:multipart-post) \
 rubygem(ruby:3.2.0:multipart-post:2) \
 rubygem(ruby:3.2.0:multipart-post:2.2) \
 rubygem(ruby:3.2.0:multipart-post:2.2.3)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

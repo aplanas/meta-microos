@@ -11,6 +11,7 @@ RPM_HASH = "f43a1b49b549dae15d45f807cae304f5ac4fa1d53c6da6f75d737cf75e8277c403a7
 RPROVIDES:${PN} += "librrd.so.8()(64bit) \
 librrd8 \
 librrd8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

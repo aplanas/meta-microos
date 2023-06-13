@@ -13,6 +13,7 @@ RPM_HASH = "765e53a52ebf9f3a3652497235031cae2f1b664f83b4cbcae45ff3686400e5ad3e1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "siga"
+
 RDEPENDS:${PN} += "/bin/sh \
 w3m"
 

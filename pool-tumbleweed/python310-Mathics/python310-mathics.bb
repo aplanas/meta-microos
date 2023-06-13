@@ -14,6 +14,7 @@ python310-Mathics \
 python310-Mathics(aarch-64) \
 python310-Mathics3 \
 python3dist(mathics3)"
+
 RDEPENDS:${PN} += "(python310-Pillow >= 9.2 if python310-base >= 3.7) \
 /bin/sh \
 /usr/bin/python3.10 \

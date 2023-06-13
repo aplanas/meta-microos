@@ -16,6 +16,7 @@ RPM_HASH = "60ee64912c2f93890371f2d40b05befb5154e8d09533606c091ddaff4f0fb6430cd6
 
 RPROVIDES:${PN} += "flickcurl \
 flickcurl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

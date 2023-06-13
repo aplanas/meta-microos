@@ -13,6 +13,7 @@ metainfo(xviewer-send-by-mail.metainfo.xml) \
 xviewer-plugin-send-by-mail \
 xviewer-plugin-send-by-mail(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/send-by-mail.plugin"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

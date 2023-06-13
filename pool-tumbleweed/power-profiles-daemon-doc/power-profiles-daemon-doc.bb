@@ -9,6 +9,7 @@ RPM_HASH = "758ed3f96f981f17a50384a32a7418e80e926d0fdec8754f6a822ac23700aee7e092
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "power-profiles-daemon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

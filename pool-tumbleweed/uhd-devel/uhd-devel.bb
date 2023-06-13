@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "cmake(UHD) \
 pkgconfig(uhd) \
 uhd-devel \
 uhd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost_filesystem-devel \
 libboost_program_options-devel \

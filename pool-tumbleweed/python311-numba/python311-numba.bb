@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3.11dist(numba) \
 python311-numba \
 python311-numba(aarch-64) \
 python3dist(numba)"
+
 RDEPENDS:${PN} += "(python311-llvmlite >= 0.40 with python311-llvmlite < 0.41) \
 (python311-numpy >= 1.21 with python311-numpy < 1.25) \
 /bin/sh \

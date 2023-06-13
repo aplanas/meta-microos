@@ -15,6 +15,7 @@ RPM_HASH = "008efad05a5bf6e15906c6c147a401f7c8f76c78a7b66f21957e5b57454df43ed9f7
 RPROVIDES:${PN} += "libprelude-devel \
 libprelude-devel(aarch-64) \
 pkgconfig(libprelude)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libgcrypt-devel \

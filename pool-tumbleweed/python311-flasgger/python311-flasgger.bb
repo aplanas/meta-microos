@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flasgger) \
 python311-flasgger \
 python3dist(flasgger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-PyYAML \

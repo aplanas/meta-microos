@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(refstyle.cfg) \
 tex(refstyle.sty) \
 texlive-refstyle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

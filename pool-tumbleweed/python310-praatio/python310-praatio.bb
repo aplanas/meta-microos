@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-praatio \
 python3.10dist(praatio) \
 python310-praatio \
 python3dist(praatio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

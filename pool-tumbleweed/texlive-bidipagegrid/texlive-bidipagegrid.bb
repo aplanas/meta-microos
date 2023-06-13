@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bidipagegrid.sty) \
 texlive-bidipagegrid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

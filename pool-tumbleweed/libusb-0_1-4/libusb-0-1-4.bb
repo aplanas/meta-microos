@@ -14,6 +14,7 @@ libusb-0.1.so.4()(64bit) \
 libusb-0_1-4 \
 libusb-0_1-4(aarch-64) \
 libusb-1_0-features-in-0_1-api"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

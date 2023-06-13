@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-humanize \
 python3.10dist(humanize) \
 python310-humanize \
 python3dist(humanize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

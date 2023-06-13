@@ -13,6 +13,7 @@ budgie-haste-applet(aarch-64) \
 libhasteapplet.so()(64bit) \
 metainfo() \
 metainfo(com.github.cybre.budgie-haste-applet.appdata.xml)"
+
 RDEPENDS:${PN} += "libbudgie-plugin.so.0()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgdk-3.so.0()(64bit) \

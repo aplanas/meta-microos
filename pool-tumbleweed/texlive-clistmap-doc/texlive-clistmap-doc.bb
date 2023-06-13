@@ -9,6 +9,7 @@ RPM_HASH = "9d90bd4b46fddb740e3404c0d9e5d7beb9d184cc29c59261486b745557583d59f706
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clistmap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

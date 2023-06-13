@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-tornasync \
 python3.10dist(pytest-tornasync) \
 python310-pytest-tornasync \
 python3dist(pytest-tornasync)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base \
 python310-pytest \

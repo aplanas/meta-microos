@@ -12,6 +12,7 @@ RPM_HASH = "428a8491cf557c90c388f0a8d1c3715b3c7b5b2ea0d9166398a2ac64278c64c77ecc
 RPROVIDES:${PN} += "libarm_compute_core.so.30()(64bit) \
 libarm_compute_core30 \
 libarm_compute_core30(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

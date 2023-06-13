@@ -37,6 +37,7 @@ tex(fcnumparser.sty) \
 tex(fcprefix.sty) \
 tex(fmtcount.sty) \
 texlive-fmtcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

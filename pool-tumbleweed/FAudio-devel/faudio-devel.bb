@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "FAudio-devel \
 FAudio-devel(aarch-64) \
 cmake(FAudio) \
 pkgconfig(FAudio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libFAudio0"
 

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(trivfloat.sty) \
 texlive-trivfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

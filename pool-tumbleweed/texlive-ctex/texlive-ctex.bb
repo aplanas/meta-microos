@@ -77,6 +77,7 @@ tex(jy2zhrm.fd) \
 tex(jy2zhsf.fd) \
 tex(jy2zhtt.fd) \
 texlive-ctex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

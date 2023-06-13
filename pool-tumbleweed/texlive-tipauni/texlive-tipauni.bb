@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tipauni.sty) \
 texlive-tipauni"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "050552add74ef4f2b0a9b45f07660dc0795d01070413a30540d446de5b94707cf566
 RPROVIDES:${PN} += "config(lxqt-policykit) \
 lxqt-policykit \
 lxqt-policykit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

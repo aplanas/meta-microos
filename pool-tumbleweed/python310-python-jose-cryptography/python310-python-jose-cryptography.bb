@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-jose-cryptography \
 python310-python-jose-cryptography"
+
 RDEPENDS:${PN} += "python310-cryptography \
 python310-python-jose"
 

@@ -86,6 +86,7 @@ locale(keditbookmarks:vi) \
 locale(keditbookmarks:wa) \
 locale(keditbookmarks:zh_CN) \
 locale(keditbookmarks:zh_TW)"
+
 RDEPENDS:${PN} += "keditbookmarks"
 
 inherit rpm

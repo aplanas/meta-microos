@@ -12,6 +12,7 @@ RPM_HASH = "5834ecd70961105e0cbc74ab7946ac53659a02a9350e5163d642c387a16499a14e3e
 RPROVIDES:${PN} += "evemu \
 evemu(aarch-64) \
 evemu-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "ecfcb9fc60379e0dc465b477ca1ca1757942e76fc9bccc7f6ae82a64908abaef2a08
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aramaic-serto-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

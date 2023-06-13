@@ -13,6 +13,7 @@ RPM_HASH = "f5d091b4e42b5fb5d6cdc3f5b5552a90ee042793a485f008ba689c5053061d84a7b1
 RPROVIDES:${PN} += "libredwg-devel \
 libredwg-devel(aarch-64) \
 pkgconfig(libredwg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libredwg0"
 

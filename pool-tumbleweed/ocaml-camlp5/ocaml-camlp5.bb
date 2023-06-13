@@ -9,6 +9,7 @@ RPM_HASH = "86fef334c8eb655efa8aea16ef8c2307effb8edee7fb14bdacac1bbefa5999599a2c
 
 RPROVIDES:${PN} += "ocaml-camlp5 \
 ocaml-camlp5(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/ocamlrun \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

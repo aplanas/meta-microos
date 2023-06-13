@@ -33,6 +33,7 @@ perl(Net::OAuth::V1_0A::UserAuthResponse) \
 perl(Net::OAuth::XauthAccessTokenRequest) \
 perl(Net::OAuth::YahooAccessTokenRefreshRequest) \
 perl-Net-OAuth"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor) \
 perl(Class::Data::Inheritable) \

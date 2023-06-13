@@ -10,6 +10,7 @@ RPM_HASH = "0b90dab1e0b5fc29b7aede78a20adf421140b7b7e91d7ac799ea4d01a3bd64bba5a6
 RPROVIDES:${PN} += "libsispmctl.so.0()(64bit) \
 libsispmctl0 \
 libsispmctl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

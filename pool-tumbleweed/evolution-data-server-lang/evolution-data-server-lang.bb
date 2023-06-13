@@ -92,6 +92,7 @@ locale(evolution-data-server:wa) \
 locale(evolution-data-server:zh_CN) \
 locale(evolution-data-server:zh_HK) \
 locale(evolution-data-server:zh_TW)"
+
 RDEPENDS:${PN} += "evolution-data-server"
 
 inherit rpm

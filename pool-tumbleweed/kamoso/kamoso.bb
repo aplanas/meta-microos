@@ -15,6 +15,7 @@ kamoso \
 kamoso(aarch-64) \
 metainfo() \
 metainfo(org.kde.kamoso.appdata.xml)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

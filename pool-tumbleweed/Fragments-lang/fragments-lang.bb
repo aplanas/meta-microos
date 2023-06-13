@@ -47,6 +47,7 @@ locale(Fragments:tr) \
 locale(Fragments:uk) \
 locale(Fragments:vi) \
 locale(Fragments:zh_CN)"
+
 RDEPENDS:${PN} += "Fragments"
 
 inherit rpm

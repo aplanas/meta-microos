@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "pkgconfig(python-3.8) \
 pkgconfig(python-3.8-embed) \
 python38-devel \
 python38-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3.8 \

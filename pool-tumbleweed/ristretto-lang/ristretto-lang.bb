@@ -60,6 +60,7 @@ locale(ristretto:zh_CN) \
 locale(ristretto:zh_TW) \
 ristretto-lang \
 ristretto-lang-all"
+
 RDEPENDS:${PN} += "ristretto"
 
 inherit rpm

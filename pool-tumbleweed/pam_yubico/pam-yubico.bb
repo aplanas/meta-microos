@@ -13,6 +13,7 @@ RPM_HASH = "297180544a618b6bc507a41347bc507769d4d86011dae135a23d003c031c994e710d
 
 RPROVIDES:${PN} += "pam_yubico \
 pam_yubico(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

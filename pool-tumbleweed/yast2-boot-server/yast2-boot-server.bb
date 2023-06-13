@@ -13,6 +13,7 @@ application(org.opensuse.yast.WoL.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.WoL.metainfo.xml) \
 yast2-boot-server"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(python3-cupshelpers) \
 python3-cupshelpers \
 python3.10dist(cupshelpers) \
 python3dist(cupshelpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-cups \
 python3-pycurl \

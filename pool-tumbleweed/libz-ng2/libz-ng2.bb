@@ -13,6 +13,7 @@ libz-ng.so.2(ZLIB_NG_2.0.0)(64bit) \
 libz-ng.so.2(ZLIB_NG_GZ_2.0.0)(64bit) \
 libz-ng2 \
 libz-ng2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

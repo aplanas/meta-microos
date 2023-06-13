@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beameraudience.sty) \
 texlive-beameraudience"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "468fa60ce195b4cb94dfebbee2c6627e966ca268052e607b4220ac77fe8d0736fa11
 RPROVIDES:${PN} += "ghc-doclayout-prof \
 ghc-doclayout-prof(aarch-64) \
 ghc-prof(doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0)"
+
 RDEPENDS:${PN} += "ghc-doclayout-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

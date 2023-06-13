@@ -11,6 +11,7 @@ RPM_HASH = "d91e871eb2cb4fe5bd48c29a82fdff4ad9f8f6fd2e4ff6c3133eb6cacdae45aca5a0
 RPROVIDES:${PN} += "libcmis-c-devel \
 libcmis-c-devel(aarch-64) \
 pkgconfig(libcmis-c-0.5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcmis-c-0_5-5 \
 pkgconfig(libcmis-0.5) \

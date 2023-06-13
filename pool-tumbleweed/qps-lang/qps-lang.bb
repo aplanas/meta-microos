@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qps-lang \
 qps-lang-all"
+
 RDEPENDS:${PN} += "qps"
 
 inherit rpm

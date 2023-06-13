@@ -12,6 +12,7 @@ RPM_HASH = "2854428cb74305293545a10fe71beeb910f92eca713aedf740e5d22042b80d11a282
 
 RPROVIDES:${PN} += "mpfi-devel \
 mpfi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libmpfi0"
 

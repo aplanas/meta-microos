@@ -12,6 +12,7 @@ kcron(aarch-64) \
 kcron5 \
 metainfo() \
 metainfo(org.kde.kcron.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

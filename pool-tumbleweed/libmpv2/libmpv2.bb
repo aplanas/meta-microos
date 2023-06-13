@@ -14,6 +14,7 @@ RPM_HASH = "e069c38b8700490c338a9b0fc2fd6cb7730f0161e2288b53763f973d38c35a5acf75
 RPROVIDES:${PN} += "libmpv.so.2()(64bit) \
 libmpv2 \
 libmpv2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

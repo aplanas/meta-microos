@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "logback-access \
 mvn(ch.qos.logback:logback-access) \
 mvn(ch.qos.logback:logback-access:pom:) \
 osgi(ch.qos.logback.access)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(ch.qos.logback:logback-core)"

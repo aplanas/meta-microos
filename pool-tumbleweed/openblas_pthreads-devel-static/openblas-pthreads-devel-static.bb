@@ -11,6 +11,7 @@ RPM_HASH = "9837c4fa9e498d430ea5f99577b9d4c6f8ac19f2348257dd6dece750ea3a89f49eb7
 
 RPROVIDES:${PN} += "openblas_pthreads-devel-static \
 openblas_pthreads-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libopenblas_pthreads-devel"
 
 inherit rpm

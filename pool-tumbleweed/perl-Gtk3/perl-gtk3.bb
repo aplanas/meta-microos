@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Gtk3) \
 perl(Gtk3::Gdk::EventMask) \
 perl-Gtk3"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cairo::GObject) \
 perl(Glib::Object::Introspection) \

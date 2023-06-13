@@ -20,6 +20,7 @@ perl(YaPI::LANGUAGE) \
 perl(YaPI::TIME) \
 yast2-country \
 yast2-country(aarch-64)"
+
 RDEPENDS:${PN} += "rubygem(ruby:3.2.0:ruby-dbus) \
 timezone \
 yast2 \

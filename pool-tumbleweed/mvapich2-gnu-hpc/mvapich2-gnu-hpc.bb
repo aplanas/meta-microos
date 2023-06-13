@@ -11,6 +11,7 @@ RPM_HASH = "f0235dfadfcc9a43441e6c64f130233c1879c2264ef9e5b983cabf9cfd27feef6d50
 
 RPROVIDES:${PN} += "mvapich2-gnu-hpc \
 mvapich2-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mvapich2_2_3_7-gnu-hpc"
 

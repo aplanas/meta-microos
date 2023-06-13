@@ -15,6 +15,7 @@ RPM_HASH = "856c2c3013e0d69dc45b3b2e801d903ab135893bd0c85d8ba2ebd50c936654a8dba8
 RPROVIDES:${PN} += "config(kbdsniffd) \
 kbdsniffd \
 kbdsniffd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

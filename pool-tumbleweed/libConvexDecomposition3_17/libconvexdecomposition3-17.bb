@@ -10,6 +10,7 @@ RPM_HASH = "269ae4cf05209f3140e1d7d85a7a645042c20c779043a2c7b0f3e49035afbe744d50
 RPROVIDES:${PN} += "libConvexDecomposition.so.3.17()(64bit) \
 libConvexDecomposition3_17 \
 libConvexDecomposition3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-dart.sty) \
 tex(pst-dart.tex) \
 texlive-pst-dart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

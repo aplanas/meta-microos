@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_GT) \
 myspell-dictionary \
 myspell-es_GT \
 myspell-spanish-guatemalan"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

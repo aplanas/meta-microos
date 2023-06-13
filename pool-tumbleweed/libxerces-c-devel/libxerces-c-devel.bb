@@ -17,6 +17,7 @@ libXerces-c-devel \
 libxerces-c-devel \
 libxerces-c-devel(aarch-64) \
 pkgconfig(xerces-c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxerces-c-3_2"
 

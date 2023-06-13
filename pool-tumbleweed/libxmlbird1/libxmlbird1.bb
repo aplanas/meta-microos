@@ -10,6 +10,7 @@ RPM_HASH = "297641a9f3ccce6b99c298cbff40a642339c287cf9c9d0ec9077db91eeade07779d4
 RPROVIDES:${PN} += "libxmlbird.so.1()(64bit) \
 libxmlbird1 \
 libxmlbird1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

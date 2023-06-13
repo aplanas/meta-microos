@@ -10,6 +10,7 @@ RPM_HASH = "834be4e0976258c2c6b10f97ae413f9ed00b075cdee6c3f56b2c1f54b5df2a3825f2
 RPROVIDES:${PN} += "ghc-http-types-prof \
 ghc-http-types-prof(aarch-64) \
 ghc-prof(http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6)"
+
 RDEPENDS:${PN} += "ghc-http-types-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

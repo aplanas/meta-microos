@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-py7zr \
 python3.10dist(py7zr) \
 python310-py7zr \
 python3dist(py7zr)"
+
 RDEPENDS:${PN} += "(python310-pyppmd >= 0.18.1 with python310-pyppmd < 1.1.0) \
 /bin/sh \
 /usr/bin/python3.10 \

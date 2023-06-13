@@ -13,6 +13,7 @@ RPM_HASH = "70c8185ac1c336d5dbc25cc3d066b22a508aece265ba5d03daffc557bb3cdbbc0b43
 
 RPROVIDES:${PN} += "klogd \
 klogd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

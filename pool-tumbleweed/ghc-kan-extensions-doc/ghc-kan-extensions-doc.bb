@@ -9,6 +9,7 @@ RPM_HASH = "d9ea41c2f8587f7d932215cee3936949e75abc71118dee6bb79e1605ec4edf0487ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-kan-extensions-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

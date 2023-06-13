@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Cerberus \
 python3.10dist(cerberus) \
 python310-Cerberus \
 python3dist(cerberus)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-grafana-dashboards \
 config(ceph-grafana-dashboards)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

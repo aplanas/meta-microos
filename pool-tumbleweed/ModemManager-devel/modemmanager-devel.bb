@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ModemManager-devel \
 ModemManager-devel(aarch-64) \
 pkgconfig(ModemManager) \
 pkgconfig(mm-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ModemManager \
 libmm-glib0 \

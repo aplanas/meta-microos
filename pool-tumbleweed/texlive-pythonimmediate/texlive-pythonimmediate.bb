@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pythonimmediate.sty) \
 texlive-pythonimmediate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

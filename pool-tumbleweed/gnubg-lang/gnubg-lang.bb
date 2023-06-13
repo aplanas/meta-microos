@@ -23,6 +23,7 @@ locale(gnubg:ja) \
 locale(gnubg:ro) \
 locale(gnubg:ru) \
 locale(gnubg:tr)"
+
 RDEPENDS:${PN} += "gnubg"
 
 inherit rpm

@@ -17,6 +17,7 @@ vhba-kmp \
 vhba-kmp-default \
 vhba-kmp-default(aarch-64) \
 vhba-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

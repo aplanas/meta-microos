@@ -21,6 +21,7 @@ tex(loop.tex) \
 tex(quire.tex) \
 tex(styledef.tex) \
 texlive-midnight"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

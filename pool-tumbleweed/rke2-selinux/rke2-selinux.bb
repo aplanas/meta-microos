@@ -9,6 +9,7 @@ RPM_HASH = "7368dab4081d9634f9b73621bab5b18c59082c2ed4b4e576b814401ccf960d431e29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rke2-selinux"
+
 RDEPENDS:${PN} += "/bin/sh \
 container-selinux \
 policycoreutils \

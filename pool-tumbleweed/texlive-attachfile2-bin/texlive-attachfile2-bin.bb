@@ -10,6 +10,7 @@ RPM_HASH = "65a712ccd0806191a1da0f02d105ef23fba5e8c7e3ea53878ebc010716a794666d41
 RPROVIDES:${PN} += "texlive-attachfile2-bin \
 texlive-attachfile2-bin(aarch-64) \
 texlive-pdftools-bin:/usr/bin/pdfatfi"
+
 RDEPENDS:${PN} += "texlive-attachfile2"
 
 inherit rpm

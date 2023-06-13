@@ -11,6 +11,7 @@ RPM_HASH = "9f8fbd419552f5917e3d386f4ae0058862b44505c09b411ebfd4c7ad1318b8b6500c
 RPROVIDES:${PN} += "certmonger \
 certmonger(aarch-64) \
 config(certmonger)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \

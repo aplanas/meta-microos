@@ -9,6 +9,7 @@ RPM_HASH = "5b7d2e0a401328dc190d9a268bb96441a403dd1adafce0497decab3a33a1cdec809b
 
 RPROVIDES:${PN} += "texlive-git-latexdiff-bin \
 texlive-git-latexdiff-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-git-latexdiff"
 
 inherit rpm

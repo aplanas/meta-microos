@@ -16,6 +16,7 @@ RPM_HASH = "b66a459bcb5f18a0fa255fb6098c8d509ddbb7394e86390e13cf95bbfde1747fb38d
 RPROVIDES:${PN} += "libmysqlcppconn8-2 \
 libmysqlcppconn8-2(aarch-64) \
 libmysqlcppconn8.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

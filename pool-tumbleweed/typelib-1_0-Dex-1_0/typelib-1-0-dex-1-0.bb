@@ -10,6 +10,7 @@ RPM_HASH = "27be8aa2d678028560f0e3272f65ce6725a435b41b983aaf955a028bd5d7af7ed95a
 RPROVIDES:${PN} += "typelib(Dex) \
 typelib-1_0-Dex-1_0 \
 typelib-1_0-Dex-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(GLib) \
 typelib(GObject) \
 typelib(Gio)"

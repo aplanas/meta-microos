@@ -11,6 +11,7 @@ RPM_HASH = "49a8636d90f24892e3ec87bce178541b7dd79322e458c81ad286753a1334c0b44b87
 RPROVIDES:${PN} += "openscap-devel \
 openscap-devel(aarch-64) \
 pkgconfig(libopenscap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenscap25 \
 openscap"

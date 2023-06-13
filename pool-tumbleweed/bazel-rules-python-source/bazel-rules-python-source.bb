@@ -11,6 +11,7 @@ RPM_HASH = "ab5bd23f4964f283d1e805650a3f22375d3c0d6f46a8d6c354ccaba75dc5986bcb36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-python-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

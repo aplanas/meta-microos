@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Log::Dispatch::Config) \
 perl(Log::Dispatch::Configurator) \
 perl(Log::Dispatch::Configurator::AppConfig) \
 perl-Log-Dispatch-Config"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AppConfig) \
 perl(File::Temp) \

@@ -9,6 +9,7 @@ RPM_HASH = "02c256c53e74361ba8a89a198a381f68168f4d743c3a4499765af3c6ac50ca03c13a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-seminar-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

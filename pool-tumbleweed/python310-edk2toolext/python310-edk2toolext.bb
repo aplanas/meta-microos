@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-edk2toolext \
 python3.10dist(edk2-pytool-extensions) \
 python310-edk2toolext \
 python3dist(edk2-pytool-extensions)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

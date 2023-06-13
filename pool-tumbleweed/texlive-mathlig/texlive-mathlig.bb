@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathlig.tex) \
 texlive-mathlig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

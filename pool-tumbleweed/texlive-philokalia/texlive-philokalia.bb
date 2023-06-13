@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(philokalia.sty) \
 tex(tuplk.fd) \
 texlive-philokalia"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

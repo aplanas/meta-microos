@@ -9,6 +9,7 @@ RPM_HASH = "8f97d3faccc33f30807d0196225e5635b632ad9e2129f6bdc5f871eacc01b9efc23c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-turkmen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "519cbb150710a026e3c623e2bb594c77679d6a08d1f96d5e4894f3ee93c0b6e9c128
 RPROVIDES:${PN} += "libldastoolsal.so.7()(64bit) \
 libldastoolsal7 \
 libldastoolsal7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "b36e956b6364000bd77590e9e2372eebbd49c3e0b81fb14be7eae48f3436c8362765
 RPROVIDES:${PN} += "libnsync_cpp.so.1()(64bit) \
 libnsync_cpp1 \
 libnsync_cpp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libstdc++.so.6()(64bit) \

@@ -80,6 +80,7 @@ locale(sweeper:zh_CN) \
 locale(sweeper:zh_TW) \
 sweeper-lang \
 sweeper-lang-all"
+
 RDEPENDS:${PN} += "sweeper"
 
 inherit rpm

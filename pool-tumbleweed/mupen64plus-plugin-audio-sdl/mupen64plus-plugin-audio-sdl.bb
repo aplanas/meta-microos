@@ -11,6 +11,7 @@ RPM_HASH = "1955b684b29edc3ac9939dc05c8fa469e44fd450e453facd4cb1e86bc04b23f6c072
 RPROVIDES:${PN} += "mupen64plus-plugin-audio \
 mupen64plus-plugin-audio-sdl \
 mupen64plus-plugin-audio-sdl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

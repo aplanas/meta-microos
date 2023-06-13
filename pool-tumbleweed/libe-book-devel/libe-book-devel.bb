@@ -12,6 +12,7 @@ RPM_HASH = "a493405c097b4e75a03c3beea2adc90a74905587383ac7007f29ffe81c09a7b4aba0
 RPROVIDES:${PN} += "libe-book-devel \
 libe-book-devel(aarch-64) \
 pkgconfig(libe-book-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libe-book-0_1-1 \
 libstdc++-devel \

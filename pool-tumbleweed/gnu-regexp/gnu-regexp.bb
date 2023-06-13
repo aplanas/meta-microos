@@ -13,6 +13,7 @@ RPM_HASH = "69c26231eda7f5717d894dfeee0fcc7d0aede26454076bd392a3c9070a9b1d3a6e33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-regexp"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

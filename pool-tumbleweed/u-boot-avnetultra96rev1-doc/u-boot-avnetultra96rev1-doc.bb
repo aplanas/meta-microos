@@ -10,6 +10,7 @@ RPM_HASH = "487ab5998c1572234dcf503e2af7b39f992e30185c3682c1f7af4f4993d81e98a87f
 
 RPROVIDES:${PN} += "u-boot-avnetultra96rev1-doc \
 u-boot-avnetultra96rev1-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

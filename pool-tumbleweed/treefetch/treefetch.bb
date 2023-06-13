@@ -14,6 +14,7 @@ bundled(rust-crate:regex-syntax) \
 bundled(rust-crate:treefetch) \
 treefetch \
 treefetch(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

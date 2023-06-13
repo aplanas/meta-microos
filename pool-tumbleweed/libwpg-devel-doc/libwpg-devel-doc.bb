@@ -9,6 +9,7 @@ RPM_HASH = "0ac4cbfdcae0d0642c3143b993acaa20d9d98b8b87b7581b9f15de2f0ed66aa15720
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwpg-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

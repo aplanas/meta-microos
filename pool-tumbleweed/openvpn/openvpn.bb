@@ -22,6 +22,7 @@ RPM_HASH = "688f96a3ca4ab284154231bdbe89a13bb0176c797bfe6302ec14fa608140094926e0
 
 RPROVIDES:${PN} += "openvpn \
 openvpn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \

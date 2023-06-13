@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(cheroot) \
 python311-Cheroot \
 python311-cheroot \
 python3dist(cheroot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

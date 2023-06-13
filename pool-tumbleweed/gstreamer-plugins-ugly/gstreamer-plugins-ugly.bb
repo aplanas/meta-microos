@@ -64,6 +64,7 @@ libgstdvdsub.so()(64bit) \
 libgstmpeg2dec.so()(64bit) \
 libgstrealmedia.so()(64bit) \
 patched_subset"
+
 RDEPENDS:${PN} += "gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

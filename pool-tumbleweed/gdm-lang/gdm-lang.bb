@@ -96,6 +96,7 @@ locale(gdm:wa) \
 locale(gdm:zh_CN) \
 locale(gdm:zh_HK) \
 locale(gdm:zh_TW)"
+
 RDEPENDS:${PN} += "gdm"
 
 inherit rpm

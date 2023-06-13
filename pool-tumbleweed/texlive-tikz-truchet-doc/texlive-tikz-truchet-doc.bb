@@ -9,6 +9,7 @@ RPM_HASH = "1a17c1ad6da9cc9e5837937d93f8fcb74619cfb0340c12d60287a8b67e490f764752
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-truchet-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

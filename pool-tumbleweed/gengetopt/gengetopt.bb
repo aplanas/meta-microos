@@ -13,6 +13,7 @@ RPM_HASH = "8efbcc671b378b39444592a6beb6ff9367977befa2a09461f1e8c781de7590339b9b
 
 RPROVIDES:${PN} += "gengetopt \
 gengetopt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

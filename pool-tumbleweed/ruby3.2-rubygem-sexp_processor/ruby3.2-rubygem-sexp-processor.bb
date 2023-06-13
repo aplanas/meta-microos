@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:sexp_processor:4) \
 rubygem(ruby:3.2.0:sexp_processor:4.16) \
 rubygem(ruby:3.2.0:sexp_processor:4.16.1) \
 rubygem(sexp_processor)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

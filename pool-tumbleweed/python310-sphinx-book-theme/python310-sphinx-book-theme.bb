@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-book-theme \
 python3.10dist(sphinx-book-theme) \
 python310-sphinx-book-theme \
 python3dist(sphinx-book-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-Sphinx \

@@ -11,6 +11,7 @@ RPM_HASH = "d72b26d33a9b8ec5f55dcd30535201882e7754817c29d0f3a20caa13ed938e6e8b67
 
 RPROVIDES:${PN} += "u-boot-tools \
 u-boot-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

@@ -18,6 +18,7 @@ RPM_HASH = "106fa5d5d84de9b4ac2b9798c5edb1e803ca1164b7906b54d283d871c4a76929d705
 
 RPROVIDES:${PN} += "ancient \
 ancient(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libancient.so.2()(64bit) \

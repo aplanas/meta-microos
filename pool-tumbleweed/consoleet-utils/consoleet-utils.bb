@@ -17,6 +17,7 @@ RPM_HASH = "050093abb48919faf53ca18210debb6a22fa8f2cc98a6ec859be55f3750c9d4bd669
 RPROVIDES:${PN} += "consoleet-utils \
 consoleet-utils(aarch-64) \
 vfontas"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHX.so.32()(64bit) \

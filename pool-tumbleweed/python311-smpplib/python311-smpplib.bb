@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(smpplib) \
 python311-smpplib \
 python3dist(smpplib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

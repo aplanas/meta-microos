@@ -18,6 +18,7 @@ RPM_HASH = "3e2073f844d4f80782b542bd718bee374d423d658539e7a4e07ad698188c19558415
 RPROVIDES:${PN} += "config(source-highlight-cgi) \
 source-highlight-cgi \
 source-highlight-cgi(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

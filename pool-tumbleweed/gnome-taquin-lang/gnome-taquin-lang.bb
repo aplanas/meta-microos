@@ -59,6 +59,7 @@ locale(gnome-taquin:vi) \
 locale(gnome-taquin:zh_CN) \
 locale(gnome-taquin:zh_HK) \
 locale(gnome-taquin:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-taquin"
 
 inherit rpm

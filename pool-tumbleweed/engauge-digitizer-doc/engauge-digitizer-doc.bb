@@ -9,6 +9,7 @@ RPM_HASH = "58c34fc41e7e06b2bb9f17d648554d65356ac231c3b2d4f7f177c05f76557b3547d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "engauge-digitizer-doc"
+
 RDEPENDS:${PN} += "engauge-digitizer"
 
 inherit rpm

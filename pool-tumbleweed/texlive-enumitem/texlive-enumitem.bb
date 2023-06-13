@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(enumitem.sty) \
 texlive-enumitem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

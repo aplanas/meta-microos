@@ -24,6 +24,7 @@ jetty-ant \
 mvn(org.eclipse.jetty:jetty-ant) \
 mvn(org.eclipse.jetty:jetty-ant:pom:) \
 osgi(org.eclipse.jetty.ant)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.ant:ant) \

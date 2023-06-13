@@ -12,6 +12,7 @@ openSUSE-release-ftp \
 openSUSE-release-ftp(aarch-64) \
 product_flavor() \
 product_flavor(openSUSE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

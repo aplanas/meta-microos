@@ -15,6 +15,7 @@ RPM_HASH = "f690a40c5baf562bc99c20e01a967e6a03f839c21821a8356f2a00da85e63b00e404
 RPROVIDES:${PN} += "check-devel \
 check-devel(aarch-64) \
 pkgconfig(check)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gawk \
 /usr/bin/pkg-config \

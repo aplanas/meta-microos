@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcmpisfcc.so.1()(64bit) \
 libcmpisfcc.so.1(CMPISFCC_2.0)(64bit) \
 libcmpisfcc1 \
 libcmpisfcc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

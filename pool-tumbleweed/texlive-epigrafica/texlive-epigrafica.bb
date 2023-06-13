@@ -60,6 +60,7 @@ tex(gepigraficahn7a.tfm) \
 tex(lgrepigrafica.fd) \
 tex(ot1epigrafica.fd) \
 texlive-epigrafica"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

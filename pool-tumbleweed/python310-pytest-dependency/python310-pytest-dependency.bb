@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pytest-dependency \
 python3.10dist(pytest-dependency) \
 python310-pytest-dependency \
 python3dist(pytest-dependency)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

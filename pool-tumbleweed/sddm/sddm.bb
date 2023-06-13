@@ -16,6 +16,7 @@ sddm \
 sddm(aarch-64) \
 sddm-lang \
 user(sddm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
 ld-linux-aarch64.so.1()(64bit) \

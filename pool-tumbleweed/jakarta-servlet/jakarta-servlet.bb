@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jakarta-servlet \
 mvn(jakarta.servlet:jakarta.servlet-api) \
 mvn(jakarta.servlet:jakarta.servlet-api:pom:) \
 osgi(jakarta.servlet-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

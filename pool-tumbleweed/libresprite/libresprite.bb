@@ -24,6 +24,7 @@ mimehandler(image/x-aseprite) \
 mimehandler(image/x-pcx) \
 mimehandler(image/x-tga) \
 mimehandler(video/x-flic)"
+
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

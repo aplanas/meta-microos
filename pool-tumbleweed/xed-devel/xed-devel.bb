@@ -18,6 +18,7 @@ RPM_HASH = "a133a5db8d72b43f584f683bf5683004cb332a8a707af233c086c9ba7953d825f840
 RPROVIDES:${PN} += "pkgconfig(xed) \
 xed-devel \
 xed-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig \
 pkgconfig(gio-2.0) \

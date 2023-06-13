@@ -11,6 +11,7 @@ RPM_HASH = "19d3678f651de12e059291e4216aa320756444e627a8f53b9f02749816903f6103b6
 RPROVIDES:${PN} += "libmbim-devel \
 libmbim-devel(aarch-64) \
 pkgconfig(mbim-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmbim-glib4 \
 pkgconfig(gio-2.0) \

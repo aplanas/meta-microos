@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-compress) \
 python39-Flask-Compress \
 python3dist(flask-compress)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Brotli \
 python39-Flask"

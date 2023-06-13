@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(faust-cchardet) \
 python39-cchardet \
 python39-cchardet(aarch-64) \
 python3dist(faust-cchardet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

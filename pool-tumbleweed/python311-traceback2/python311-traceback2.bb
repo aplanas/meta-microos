@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(traceback2) \
 python311-traceback2 \
 python3dist(traceback2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-linecache2 \
 python311-pbr"

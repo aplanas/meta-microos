@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(sidebars.sty) \
 tex(talk.cls) \
 texlive-talk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

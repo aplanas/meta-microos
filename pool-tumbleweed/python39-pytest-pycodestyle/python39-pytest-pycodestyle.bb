@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pytest-pycodestyle) \
 python39-pytest-codestyle \
 python39-pytest-pycodestyle \
 python3dist(pytest-pycodestyle)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-py \
 python39-pycodestyle \

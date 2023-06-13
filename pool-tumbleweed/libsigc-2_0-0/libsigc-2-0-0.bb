@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libsigc++2 \
 libsigc-2.0.so.0()(64bit) \
 libsigc-2_0-0 \
 libsigc-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(beniget) \
 python39-beniget \
 python3dist(beniget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-gast"
 

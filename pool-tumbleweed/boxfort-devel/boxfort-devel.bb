@@ -10,6 +10,7 @@ RPM_HASH = "9c928b3db83c0ee300003411701c3d74f520778d8ec0d3fd8f6a2f86fef4f3b1b75f
 RPROVIDES:${PN} += "boxfort-devel \
 boxfort-devel(aarch-64) \
 pkgconfig(boxfort)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boxfort"
 

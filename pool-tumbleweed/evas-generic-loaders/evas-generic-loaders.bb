@@ -14,6 +14,7 @@ RPM_HASH = "dd04671da25e8c19494665c115e4c3354ba3c53fdb954f7448711593dec7657ba43f
 
 RPROVIDES:${PN} += "evas-generic-loaders \
 evas-generic-loaders(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -36,6 +36,7 @@ RPROVIDES:${PN} += "libscalapack.so.2.1.0()(64bit) \
 libscalapack2-mvapich2 \
 libscalapack2-mvapich2(aarch-64) \
 scalapack-mvapich2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

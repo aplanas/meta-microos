@@ -15,6 +15,7 @@ RPM_HASH = "0590ae857f135876c51fafe80508eaae2863e63383c0f296a36f2b622f830549b8df
 RPROVIDES:${PN} += "ghc-DAV \
 ghc-DAV(aarch-64) \
 libHSDAV-1.3.4-BEfrmFzzS9e2tvTvjzH1rH-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

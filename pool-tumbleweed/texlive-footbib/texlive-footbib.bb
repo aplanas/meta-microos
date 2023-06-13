@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footbib.sty) \
 texlive-footbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

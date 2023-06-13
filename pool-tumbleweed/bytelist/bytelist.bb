@@ -9,6 +9,7 @@ RPM_HASH = "f0f48159eb21058ed112f970248cac6a5259696a20aadf6215b49132445380a9d10f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bytelist"
+
 RDEPENDS:${PN} += "java \
 javapackages-tools \
 jcodings"

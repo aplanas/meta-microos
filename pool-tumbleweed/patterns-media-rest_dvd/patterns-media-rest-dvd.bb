@@ -14,6 +14,7 @@ pattern-order() \
 patterns-media-rest_dvd \
 patterns-media-rest_dvd(aarch-64) \
 patterns-openSUSE-rest_dvd"
+
 RDEPENDS:${PN} += "arabic-fonts \
 arphic-uming-fonts \
 breeze5-wallpapers \

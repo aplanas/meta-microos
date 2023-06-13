@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-geoip2 \
 python3.10dist(geoip2) \
 python310-geoip2 \
 python3dist(geoip2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-maxminddb \
 python310-requests"

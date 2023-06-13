@@ -9,6 +9,7 @@ RPM_HASH = "21dbefff2f3b4d85749ad9903fd539de93011570e985e958ccdea036248dffb2a261
 
 RPROVIDES:${PN} += "kmbox \
 kmbox(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

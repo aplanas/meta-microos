@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "anjuta-devel \
 anjuta-devel(aarch-64) \
 anjuta-doc \
 pkgconfig(libanjuta-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libanjuta-3-0 \
 pkgconfig(gdl-3.0) \

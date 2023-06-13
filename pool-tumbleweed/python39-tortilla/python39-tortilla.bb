@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tortilla) \
 python39-tortilla \
 python3dist(tortilla)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-colorama \
 python39-formats \

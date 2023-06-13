@@ -253,6 +253,7 @@ font(utopia) \
 xorg-x11-fonts-100dpi \
 xorg-x11-fonts-75dpi \
 xorg-x11-fonts-legacy"
+
 RDEPENDS:${PN} += "/bin/sh \
 fonts-config \
 xorg-x11-fonts"

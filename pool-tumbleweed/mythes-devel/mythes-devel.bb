@@ -14,6 +14,7 @@ RPM_HASH = "0a95324a7138f36f8295220a90decc437289f54e10c57f33d657562298a37547fd4a
 RPROVIDES:${PN} += "mythes-devel \
 mythes-devel(aarch-64) \
 pkgconfig(mythes)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/pkg-config \
 libmythes-1_2-0"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.apache.uima:PearPackagingMavenPlugin) \
 mvn(org.apache.uima:PearPackagingMavenPlugin:pom:) \
 uima-pear-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

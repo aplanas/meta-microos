@@ -17,6 +17,7 @@ locale(gtk2:ja) \
 locale(gtk2:ko) \
 locale(gtk2:th) \
 locale(gtk2:zh)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
 gtk2-tools \

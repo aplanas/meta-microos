@@ -20,6 +20,7 @@ qt6-pdf-imports \
 qt6-pdf-imports(aarch-64) \
 qt6qmlimport(QtQuick.Pdf.5) \
 qt6qmlimport(QtQuick.Pdf.6)"
+
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
 libQt6Core.so.6(Qt_6.5)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "26a23375ed312958b92211a5962532cceb3b455bcfe5dd4cd757c21bf5b580e9a958
 
 RPROVIDES:${PN} += "gcr-viewer \
 gcr-viewer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -15,6 +15,7 @@ locale(libpurple-plugin-pack:en_AU) \
 locale(libpurple-plugin-pack:es_ES) \
 locale(libpurple-plugin-pack:fr) \
 locale(libpurple-plugin-pack:vi)"
+
 RDEPENDS:${PN} += "libpurple-plugin-pack"
 
 inherit rpm

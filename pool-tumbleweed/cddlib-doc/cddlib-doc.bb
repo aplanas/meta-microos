@@ -12,6 +12,7 @@ RPM_HASH = "41b2f896131143dad9421b66dbf23954ea844d2527b022e242de8f408daa6cdf1a23
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cddlib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

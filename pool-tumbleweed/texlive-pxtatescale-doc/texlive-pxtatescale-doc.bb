@@ -9,6 +9,7 @@ RPM_HASH = "8dc698d7df8a0c25738945d6b73e88dc24cd87a30c20b1a8911cb556676855f20e6b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxtatescale-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

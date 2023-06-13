@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pyacoustid \
 python3.10dist(pyacoustid) \
 python310-pyacoustid \
 python3dist(pyacoustid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-audioread \
 python310-requests"

@@ -14,6 +14,7 @@ libgfortran.so.4(GFORTRAN_C99_7)(64bit) \
 libgfortran.so.4(GFORTRAN_F2C_7)(64bit) \
 libgfortran4 \
 libgfortran4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

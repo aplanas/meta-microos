@@ -9,6 +9,7 @@ RPM_HASH = "b14325d5492caa37b5e7c0d5c69812da96056ccba1229f7490b026f98209c7b03e69
 
 RPROVIDES:${PN} += "emacs-scheme48 \
 emacs-scheme48(aarch-64)"
+
 RDEPENDS:${PN} += "scheme48"
 
 inherit rpm

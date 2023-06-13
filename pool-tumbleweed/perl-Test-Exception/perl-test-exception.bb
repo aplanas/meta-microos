@@ -171,6 +171,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DB) \
 perl(Test::Exception) \
 perl-Test-Exception"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Sub::Uplevel) \
 perl(Test::Builder) \

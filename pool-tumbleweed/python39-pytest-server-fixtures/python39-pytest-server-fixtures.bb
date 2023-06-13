@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-server-fixtures) \
 python39-pytest-server-fixtures \
 python3dist(pytest-server-fixtures)"
+
 RDEPENDS:${PN} += "lsof \
 net-tools-deprecated \
 python(abi) \

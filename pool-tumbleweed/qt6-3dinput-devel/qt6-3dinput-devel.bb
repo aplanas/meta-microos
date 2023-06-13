@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DInput) \
 pkgconfig(Qt63DInput) \
 qt6-3dinput-devel \
 qt6-3dinput-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 libQt63DInput6 \

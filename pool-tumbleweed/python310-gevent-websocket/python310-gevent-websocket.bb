@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-gevent-websocket \
 python3.10dist(gevent-websocket) \
 python310-gevent-websocket \
 python3dist(gevent-websocket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gevent"
 

@@ -13,6 +13,7 @@ RPM_HASH = "510d261e4c9137ed5967d01c3aab68f1255f469b65dca92086047744de6a44107b5d
 RPROVIDES:${PN} += "libsigscan-devel \
 libsigscan-devel(aarch-64) \
 pkgconfig(libsigscan)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libsigscan1"

@@ -12,6 +12,7 @@ RPM_HASH = "c225279b2bd98157caa59a22d0d2995236c1cc80eb8048ccbdd697b0731a854dcf3b
 RPROVIDES:${PN} += "perl(bareword::filehandles) \
 perl-bareword-filehandles \
 perl-bareword-filehandles(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::OP::Check)"
 

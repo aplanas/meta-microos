@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(romansh.ldf) \
 texlive-babel-romansh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

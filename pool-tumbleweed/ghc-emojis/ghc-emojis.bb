@@ -18,6 +18,7 @@ RPM_HASH = "977a9abb699fcd1b6b5435007d16f518daae4a05662b15b0703b7f394b08cb29340f
 RPROVIDES:${PN} += "ghc-emojis \
 ghc-emojis(aarch-64) \
 libHSemojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

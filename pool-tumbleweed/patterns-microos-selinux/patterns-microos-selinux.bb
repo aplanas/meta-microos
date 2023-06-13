@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-selinux \
 patterns-microos-selinux(aarch-64)"
+
 RDEPENDS:${PN} += "container-selinux \
 policycoreutils \
 selinux-policy-targeted \

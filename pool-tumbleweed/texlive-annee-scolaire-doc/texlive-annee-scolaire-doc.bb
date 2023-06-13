@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-annee-scolaire-doc:fr) \
 texlive-annee-scolaire-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

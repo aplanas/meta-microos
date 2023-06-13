@@ -11,6 +11,7 @@ RPM_HASH = "b026e1d28c458727e979f1c424943c26aa3262bc01bc07eeca46a3886f0481c80ee8
 RPROVIDES:${PN} += "leechcraft-anhero \
 leechcraft-anhero(aarch-64) \
 libleechcraft_anhero.so()(64bit)"
+
 RDEPENDS:${PN} += "gdb \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

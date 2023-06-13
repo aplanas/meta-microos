@@ -10,6 +10,7 @@ RPM_HASH = "c3a2a89d66591c72e88bbe1bffaa2b2c6af3680e6b58e3909efe8e000fadb683cf1d
 
 RPROVIDES:${PN} += "libmono-profiler-gui-thread-check0-devel \
 libmono-profiler-gui-thread-check0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmono-profiler-gui-thread-check0"
 
 inherit rpm

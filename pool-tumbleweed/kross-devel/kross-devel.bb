@@ -12,6 +12,7 @@ RPM_HASH = "50029272c27e32c9b467807243e63aa041188ae5ef6c0c7ac8240f5f4d92a77f625e
 RPROVIDES:${PN} += "cmake(KF5Kross) \
 kross-devel \
 kross-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5I18n) \
 cmake(KF5IconThemes) \
 cmake(KF5KIO) \

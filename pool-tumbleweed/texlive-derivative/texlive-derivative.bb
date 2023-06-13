@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(derivative.sty) \
 texlive-derivative"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

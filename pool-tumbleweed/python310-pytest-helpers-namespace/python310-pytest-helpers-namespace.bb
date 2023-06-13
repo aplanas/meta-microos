@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-helpers-namespace \
 python3.10dist(pytest-helpers-namespace) \
 python310-pytest-helpers-namespace \
 python3dist(pytest-helpers-namespace)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

@@ -10,6 +10,7 @@ RPM_HASH = "60bea561f26b5c881aeca159d2bf68784c26ee384a2449a73248f63010012b8d85e1
 
 RPROVIDES:${PN} += "qwtplot3d-devel \
 qwtplot3d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqwtplot3d-qt5-0"
 
 inherit rpm

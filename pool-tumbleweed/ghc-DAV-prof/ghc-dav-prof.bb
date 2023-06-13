@@ -10,6 +10,7 @@ RPM_HASH = "840bca385d75ad61d100d1b685d61a1d24e03887e90809cad9cbee2e0f5a31136b80
 RPROVIDES:${PN} += "ghc-DAV-prof \
 ghc-DAV-prof(aarch-64) \
 ghc-prof(DAV-1.3.4-BEfrmFzzS9e2tvTvjzH1rH)"
+
 RDEPENDS:${PN} += "ghc-DAV-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

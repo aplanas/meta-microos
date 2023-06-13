@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(latex2man.1) \
 texlive-latex2man-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

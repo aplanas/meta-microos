@@ -36,6 +36,7 @@ locale(ruqola:zh_CN) \
 locale(ruqola:zh_TW) \
 ruqola-lang \
 ruqola-lang-all"
+
 RDEPENDS:${PN} += "ruqola"
 
 inherit rpm

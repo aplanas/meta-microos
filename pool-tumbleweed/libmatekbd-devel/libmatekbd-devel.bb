@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libmatekbd-devel \
 libmatekbd-devel(aarch-64) \
 pkgconfig(libmatekbd) \
 pkgconfig(libmatekbdui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmatekbd4 \
 matekbd-common \

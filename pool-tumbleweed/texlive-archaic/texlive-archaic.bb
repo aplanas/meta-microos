@@ -96,6 +96,7 @@ tex(ugarite.sty) \
 tex(vik10.tfm) \
 tex(viking.sty) \
 texlive-archaic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

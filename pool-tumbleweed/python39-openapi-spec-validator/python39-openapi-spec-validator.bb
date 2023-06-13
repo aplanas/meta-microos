@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(openapi-spec-validator) \
 python39-openapi-spec-validator \
 python39-openapi_spec_validator \
 python3dist(openapi-spec-validator)"
+
 RDEPENDS:${PN} += "(python39-jsonschema >= 4.0.0 with python39-jsonschema < 4.18) \
 /bin/sh \
 /usr/bin/python3.9 \

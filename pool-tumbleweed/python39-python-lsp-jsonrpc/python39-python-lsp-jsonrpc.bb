@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-lsp-jsonrpc) \
 python39-python-lsp-jsonrpc \
 python3dist(python-lsp-jsonrpc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ujson"
 

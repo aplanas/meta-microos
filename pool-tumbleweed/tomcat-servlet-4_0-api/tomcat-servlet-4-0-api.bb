@@ -18,6 +18,7 @@ servlet31 \
 servlet7 \
 tomcat-servlet-4.0-api \
 tomcat-servlet-4_0-api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

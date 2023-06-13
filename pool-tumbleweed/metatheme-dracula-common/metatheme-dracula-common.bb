@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \
 metatheme-dracula-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -44,6 +44,7 @@ locale(plasma-pass:uk) \
 locale(plasma-pass:zh_TW) \
 plasma-pass-lang \
 plasma-pass-lang-all"
+
 RDEPENDS:${PN} += "plasma-pass"
 
 inherit rpm

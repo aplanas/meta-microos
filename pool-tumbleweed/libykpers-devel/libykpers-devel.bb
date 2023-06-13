@@ -10,6 +10,7 @@ RPM_HASH = "a4c3c61110ce79e4a5b1bb6a00c4aa64609e6b3942c64c086fd6aa1870db6171ca0f
 RPROVIDES:${PN} += "libykpers-devel \
 libykpers-devel(aarch-64) \
 pkgconfig(ykpers-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libykpers-1-1"

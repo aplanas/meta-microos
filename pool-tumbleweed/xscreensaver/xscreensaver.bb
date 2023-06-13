@@ -165,6 +165,7 @@ xscreensaver \
 xscreensaver(aarch-64) \
 xscreensaver-gnome \
 xscrns"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/unix2_chkpwd \
 desktop-data \

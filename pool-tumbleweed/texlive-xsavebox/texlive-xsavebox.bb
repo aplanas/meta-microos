@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xsavebox.sty) \
 texlive-xsavebox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

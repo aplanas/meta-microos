@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(breathe) \
 python311-breathe \
 python311-sphinxcontrib-breathe \
 python3dist(breathe)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

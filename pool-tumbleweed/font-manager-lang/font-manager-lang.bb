@@ -35,6 +35,7 @@ locale(font-manager:uk) \
 locale(font-manager:zh_CN) \
 locale(font-manager:zh_HK) \
 locale(font-manager:zh_TW)"
+
 RDEPENDS:${PN} += "font-manager"
 
 inherit rpm

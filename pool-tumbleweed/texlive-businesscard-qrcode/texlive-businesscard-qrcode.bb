@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(businesscard-qrcode.cls) \
 texlive-businesscard-qrcode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "fa8819ddacbf05a9097e7c9e1aafbbfa21bcf9715a981c06cacbc5698043386c5c3b
 
 RPROVIDES:${PN} += "python3-libsoc \
 python3-libsoc(aarch-64)"
+
 RDEPENDS:${PN} += "libsoc2 \
 python(abi)"
 

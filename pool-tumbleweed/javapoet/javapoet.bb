@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "javapoet \
 mvn(com.squareup:javapoet) \
 mvn(com.squareup:javapoet:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

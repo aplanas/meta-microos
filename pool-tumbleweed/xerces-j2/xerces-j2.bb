@@ -30,6 +30,7 @@ mvn(xerces:xmlParserAPIs:pom:) \
 osgi(org.apache.xerces) \
 xerces-j2 \
 xerces-j2-scripts"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

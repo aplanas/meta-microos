@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(rsvndump:de) \
 rsvndump-lang \
 rsvndump-lang-all"
+
 RDEPENDS:${PN} += "rsvndump"
 
 inherit rpm

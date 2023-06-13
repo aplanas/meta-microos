@@ -24,6 +24,7 @@ rpm_macro(vendored_licenses_packager_files_with_higher_dirs) \
 rpm_macro(vendored_licenses_packager_install) \
 rpm_macro(vendored_licenses_packager_prep) \
 vendored_licenses_packager"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 coreutils \

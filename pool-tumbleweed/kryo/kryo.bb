@@ -20,6 +20,7 @@ mvn(com.esotericsoftware.kryo:kryo:pom:) \
 mvn(com.esotericsoftware:kryo) \
 mvn(com.esotericsoftware:kryo:pom:) \
 osgi(com.esotericsoftware.kryo)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.esotericsoftware:minlog) \

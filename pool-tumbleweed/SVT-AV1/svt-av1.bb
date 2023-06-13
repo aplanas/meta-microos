@@ -13,6 +13,7 @@ RPM_HASH = "e8984cd140a31949c76a4de7d2f9f9a7c05fa17b3ab3bec9421bb83f3213df54fd5d
 
 RPROVIDES:${PN} += "SVT-AV1 \
 SVT-AV1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSvtAv1Dec.so.0()(64bit) \

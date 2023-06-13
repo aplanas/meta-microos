@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "NetworkManager-vpnc-frontend \
 plasma-nm-vpnc \
 plasma-nm5-vpnc \
 plasma-nm5-vpnc(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager-vpnc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

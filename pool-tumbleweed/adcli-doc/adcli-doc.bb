@@ -12,6 +12,7 @@ RPM_HASH = "82b05ffcc3b929a8361f264975dbca25b0e4067d627ea5fde540a3d37b8fcaee4e6d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adcli-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

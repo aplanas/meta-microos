@@ -14,6 +14,7 @@ RPM_HASH = "58f9361f31933ed17625244d21ba6fae2302abcb9ee85b7e93dab46fd5876ec38eb9
 
 RPROVIDES:${PN} += "tachyon \
 tachyon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

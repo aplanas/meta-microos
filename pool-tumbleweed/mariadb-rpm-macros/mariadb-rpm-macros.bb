@@ -12,6 +12,7 @@ mariadb-rpm-macros(aarch-64) \
 rpm_macro(mysql_testserver_cconf) \
 rpm_macro(mysql_testserver_start) \
 rpm_macro(mysql_testserver_stop)"
+
 RDEPENDS:${PN} += "mariadb"
 
 inherit rpm

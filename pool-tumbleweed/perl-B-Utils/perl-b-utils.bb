@@ -12,6 +12,7 @@ perl(B::Utils::Install::Files) \
 perl(B::Utils::OP) \
 perl-B-Utils \
 perl-B-Utils(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Task::Weaken)"

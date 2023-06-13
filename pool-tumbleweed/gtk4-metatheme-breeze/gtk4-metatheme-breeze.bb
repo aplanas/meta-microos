@@ -9,6 +9,7 @@ RPM_HASH = "ca38d8f73a2ae4d2cb2b27bd34ff03fd2b4e831c70feae83bbb38cefb4e41d742327
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-metatheme-breeze"
+
 RDEPENDS:${PN} += "metatheme-breeze-common"
 
 inherit rpm

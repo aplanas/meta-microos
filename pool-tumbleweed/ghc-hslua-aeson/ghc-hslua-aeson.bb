@@ -11,6 +11,7 @@ RPM_HASH = "d4510bbc21baae582741bd114b50126c5323a8965e3bb78d39f3dc0419efe18ffc8b
 RPROVIDES:${PN} += "ghc-hslua-aeson \
 ghc-hslua-aeson(aarch-64) \
 libHShslua-aeson-2.3.0.1-E4tasg1dFJ86CDrMHWRi4i-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

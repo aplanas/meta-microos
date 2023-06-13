@@ -16,6 +16,7 @@ RPM_HASH = "1787537c48605e92242fe6a3c22d6f8a09730207bcb28b4181481fbe3cae1e837cfa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unfonts-core"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

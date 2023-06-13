@@ -41,6 +41,7 @@ locale(kuserfeedback:tr) \
 locale(kuserfeedback:uk) \
 locale(kuserfeedback:zh_CN) \
 locale(kuserfeedback:zh_TW)"
+
 RDEPENDS:${PN} += "kuserfeedback"
 
 inherit rpm

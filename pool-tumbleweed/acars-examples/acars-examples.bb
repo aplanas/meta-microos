@@ -18,6 +18,7 @@ RPM_HASH = "fc84815dad8a1753bba5245f0cf12daffa6bef3e24ac2c68b612fd046aacaecf1a2c
 
 RPROVIDES:${PN} += "acars-examples \
 acars-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacars.so.1()(64bit) \

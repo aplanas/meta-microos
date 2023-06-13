@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-wikipedia \
 python3.10dist(wikipedia) \
 python310-wikipedia \
 python3dist(wikipedia)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-beautifulsoup4 \
 python310-requests"

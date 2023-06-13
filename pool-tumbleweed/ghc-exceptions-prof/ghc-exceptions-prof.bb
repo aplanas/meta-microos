@@ -10,6 +10,7 @@ RPM_HASH = "c4d69399bb9ffe3add41e3cd9a7dd6e8f110647655e1ce4fb5945fdded6c32d82463
 RPROVIDES:${PN} += "ghc-exceptions-prof \
 ghc-exceptions-prof(aarch-64) \
 ghc-prof(exceptions-0.10.5)"
+
 RDEPENDS:${PN} += "ghc-exceptions-devel(aarch-64) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(mtl-2.2.2) \

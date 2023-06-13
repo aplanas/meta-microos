@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(trytond) \
 python3.10dist(trytond) \
 python3dist(trytond) \
 trytond"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

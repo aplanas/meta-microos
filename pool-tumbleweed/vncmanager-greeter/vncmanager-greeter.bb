@@ -9,6 +9,7 @@ RPM_HASH = "35add32d02c0fc70e428ed3679e06ee8b9899b0f2094bde4efeb4bdf3246e7b5d22f
 
 RPROVIDES:${PN} += "vncmanager-greeter \
 vncmanager-greeter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

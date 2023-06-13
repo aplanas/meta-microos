@@ -10,6 +10,7 @@ RPM_HASH = "e87db684e811d2dc62b3c4b6db30783ad06e445d3324f2dcb4085cf4deb591e1968b
 RPROVIDES:${PN} += "pkgconfig(scdoc) \
 scdoc \
 scdoc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libc.so.6(GLIBC_2.34)(64bit)"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(easy-thumbnails) \
 python39-easy-thumbnails \
 python3dist(easy-thumbnails)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-Pillow \

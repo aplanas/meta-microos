@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pynamodb) \
 python39-pynamodb \
 python3dist(pynamodb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-botocore \
 python39-python-dateutil"

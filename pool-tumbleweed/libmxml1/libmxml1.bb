@@ -14,6 +14,7 @@ RPM_HASH = "5eefbc396481e5588224db753676c0af44fdd53f3fab183c03c1502de087640b06dc
 RPROVIDES:${PN} += "libmxml.so.1()(64bit) \
 libmxml1 \
 libmxml1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

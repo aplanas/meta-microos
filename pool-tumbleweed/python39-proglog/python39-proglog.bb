@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(proglog) \
 python39-proglog \
 python3dist(proglog)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tqdm"
 

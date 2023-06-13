@@ -11,6 +11,7 @@ RPM_HASH = "4101236ff66505be1538aa04dc44c3f0329f64b31bc03a8c5c3e54afb9898f7b9918
 RPROVIDES:${PN} += "libgslcblas.so.0()(64bit) \
 libgslcblas0 \
 libgslcblas0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

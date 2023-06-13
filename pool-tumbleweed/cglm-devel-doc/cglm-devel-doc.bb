@@ -9,6 +9,7 @@ RPM_HASH = "855b274ab93da5f080f9aa7f23cbbbb965fbdf55e70df9a0450ac0e1c25537a43b92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cglm-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

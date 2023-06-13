@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3-libpreludedb \
 python3-libpreludedb(aarch-64) \
 python3.10dist(preludedb) \
 python3dist(preludedb)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

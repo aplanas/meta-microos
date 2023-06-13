@@ -10,6 +10,7 @@ RPM_HASH = "c9a1404dfb85ec51cc0488144b28a2aaa1634769c4cc29fe12aa8eca0aa0cfedde6f
 
 RPROVIDES:${PN} += "qt6-datavisualization-private-devel \
 qt6-datavisualization-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6DataVisualization)"
 
 inherit rpm

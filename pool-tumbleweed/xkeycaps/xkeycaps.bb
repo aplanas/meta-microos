@@ -21,6 +21,7 @@ RPM_HASH = "7ab59eda58461a304c1bc4f605c01024c7288b06b380ab36019f8fbb8bf09d9069a2
 
 RPROVIDES:${PN} += "xkeycaps \
 xkeycaps(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXaw.so.7()(64bit) \
 libXmu.so.6()(64bit) \

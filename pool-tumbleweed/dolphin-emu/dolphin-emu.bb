@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(dolphin-emu.desktop) \
 dolphin-emu \
 dolphin-emu(aarch-64)"
+
 RDEPENDS:${PN} += "libEGL.so.1()(64bit) \
 libGLX.so.0()(64bit) \
 libOpenGL.so.0()(64bit) \

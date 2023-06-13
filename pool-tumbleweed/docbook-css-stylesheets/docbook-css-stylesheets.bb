@@ -12,6 +12,7 @@ RPM_HASH = "6dd39c49cab4495dfc0c3b19e4601a22408755f234515756ad70aee8d428dd0108b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-css-stylesheets"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

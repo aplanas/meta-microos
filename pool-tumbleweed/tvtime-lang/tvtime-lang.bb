@@ -28,6 +28,7 @@ locale(tvtime:sv) \
 locale(tvtime:uk) \
 tvtime-lang \
 tvtime-lang-all"
+
 RDEPENDS:${PN} += "tvtime"
 
 inherit rpm

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(stdeb) \
 python39-stdeb \
 python3dist(stdeb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 debhelper \

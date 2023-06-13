@@ -13,6 +13,7 @@ RPM_HASH = "a480fb5a6430831528561fd58dd81ff32b8560efabb78812e9489f9c0c3189939357
 RPROVIDES:${PN} += "libdocklike.so()(64bit) \
 xfce4-docklike-plugin \
 xfce4-docklike-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -24,6 +24,7 @@ tex(colorbook.cls) \
 tex(colorist-fancy.sty) \
 tex(colorist.sty) \
 texlive-colorist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

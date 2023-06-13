@@ -99,6 +99,7 @@ locale(mate-desktop:zh_HK) \
 locale(mate-desktop:zh_TW) \
 mate-desktop-lang \
 mate-desktop-lang-all"
+
 RDEPENDS:${PN} += "mate-desktop"
 
 inherit rpm

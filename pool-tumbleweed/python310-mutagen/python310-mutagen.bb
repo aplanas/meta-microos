@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-mutagen \
 python3.10dist(mutagen) \
 python310-mutagen \
 python3dist(mutagen)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

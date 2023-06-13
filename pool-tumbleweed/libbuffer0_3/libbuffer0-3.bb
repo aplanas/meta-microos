@@ -12,6 +12,7 @@ RPM_HASH = "ec0591b034fc78e4581f9ff89171e0a5df770487e91fe5fb3d276c34d11387d7f260
 RPROVIDES:${PN} += "libbuffer.so.0.3()(64bit) \
 libbuffer0_3 \
 libbuffer0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

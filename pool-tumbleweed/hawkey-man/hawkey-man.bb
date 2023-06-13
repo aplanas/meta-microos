@@ -9,6 +9,7 @@ RPM_HASH = "d3178b3d1ce413a2337275da6b0b9255352d354434cfd946b5c16c7c8cd32552db8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hawkey-man"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

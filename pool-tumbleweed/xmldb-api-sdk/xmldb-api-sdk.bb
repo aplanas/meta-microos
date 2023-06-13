@@ -24,6 +24,7 @@ RPM_HASH = "512b45b017b5bc6af066ee6ea8bdb8de15210d707f5895727a50da411cb661d528b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmldb-api-sdk"
+
 RDEPENDS:${PN} += "xmldb-api"
 
 inherit rpm

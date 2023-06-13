@@ -177,6 +177,7 @@ mimehandler(video/x-theora+ogg) \
 mimehandler(video/x-totem-stream) \
 pqiv \
 pqiv(aarch-64)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcairo.so.2()(64bit) \

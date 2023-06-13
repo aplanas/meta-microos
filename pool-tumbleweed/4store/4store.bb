@@ -12,6 +12,7 @@ RPM_HASH = "b635d7ffa51162af6101b5fc696eac0a6b256b9fc038436e5c30ac72cb9f05336f01
 
 RPROVIDES:${PN} += "4store \
 4store(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

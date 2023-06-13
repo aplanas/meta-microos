@@ -15,6 +15,7 @@ RPM_HASH = "d6a2c403bb8d47e002159aab0b0aeda20235d5fddd3c0e0a06791d18d1781bc68212
 
 RPROVIDES:${PN} += "gvfs-devel \
 gvfs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gvfs"
 
 inherit rpm

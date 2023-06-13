@@ -18,6 +18,7 @@ config(apache2) \
 http_daemon \
 httpd \
 suse_maintenance_mmn_0"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /etc/mime.types \

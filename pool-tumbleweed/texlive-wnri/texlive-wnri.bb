@@ -23,6 +23,7 @@ tex(wnris8.tfm) \
 tex(wnrit10.tfm) \
 tex(wnrit8.tfm) \
 texlive-wnri"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

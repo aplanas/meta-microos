@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-remoto \
 python3.10dist(remoto) \
 python310-remoto \
 python3dist(remoto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-execnet"
 

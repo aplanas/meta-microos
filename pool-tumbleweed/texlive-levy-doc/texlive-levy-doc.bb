@@ -9,6 +9,7 @@ RPM_HASH = "86635685644c78b68984cfc1cd0a9050977a5619808c0d61d78b6a1ca529092fd0fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-levy-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "90e7988cb7bbb537b494c103b7779804d1ea51f18d3cb5e0a321a2cad50358f6e67e
 
 RPROVIDES:${PN} += "jpcre2-devel \
 jpcre2-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

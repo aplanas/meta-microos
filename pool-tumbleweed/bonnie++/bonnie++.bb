@@ -10,6 +10,7 @@ RPM_HASH = "bc53f13ce9f4ea9cc650ce041c778d2d247c9d033678f89eea3b2de4e60380ca5478
 
 RPROVIDES:${PN} += "bonnie++ \
 bonnie++(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

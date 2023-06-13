@@ -15,6 +15,7 @@ eric5-api \
 eric6-api \
 python-eric5-api \
 python-eric6-api"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

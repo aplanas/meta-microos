@@ -20,6 +20,7 @@ mvn(org.jenkins-ci:trilead-ssh2:pom:) \
 mvn(org.tmatesoft.svnkit:trilead-ssh2) \
 mvn(org.tmatesoft.svnkit:trilead-ssh2:pom:) \
 trilead-ssh2"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

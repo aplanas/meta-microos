@@ -38,6 +38,7 @@ mimehandler(text/x-php) \
 mimehandler(text/x-python) \
 mimehandler(text/x-sql) \
 mimehandler(text/xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-hyperlink \
 python3.10dist(hyperlink) \
 python310-hyperlink \
 python3dist(hyperlink)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-idna"
 

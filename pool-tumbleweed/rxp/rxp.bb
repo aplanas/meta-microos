@@ -26,6 +26,7 @@ RPM_HASH = "3a47103407c9017fde414ae220dd4b5ce2bb99d5c6d9864996873f27457f8956a71b
 
 RPROVIDES:${PN} += "rxp \
 rxp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

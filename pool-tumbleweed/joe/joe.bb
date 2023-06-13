@@ -11,6 +11,7 @@ RPM_HASH = "666fe0c904d1aebabe2bf99bf05ccf720f33fc761e04620ef399940c6d0c63c4cd9f
 RPROVIDES:${PN} += "config(joe) \
 joe \
 joe(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "16cab82872a7f984ee0cc97ba856ccaf978ec8a6f8268fdf42a4b99e389a1e359398
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-games-scripts"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

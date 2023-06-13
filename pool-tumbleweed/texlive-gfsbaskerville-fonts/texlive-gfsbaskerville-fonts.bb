@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(texlive-gfsbaskerville-fonts) \
 font(:lang=el) \
 font(gfsbaskerville) \
 texlive-gfsbaskerville-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

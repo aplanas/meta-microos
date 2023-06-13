@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scale.sty) \
 texlive-scale"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

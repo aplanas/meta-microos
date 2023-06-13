@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-clamav \
 nagios-plugins-clamav"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 clamav \
 monitoring-plugins-common \

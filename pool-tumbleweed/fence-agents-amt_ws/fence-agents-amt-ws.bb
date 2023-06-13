@@ -12,6 +12,7 @@ RPM_HASH = "1a659a5a5e2a38b58f5ee789f1a0fd1132c230c60ed1c2718a9879d3f6269583744a
 
 RPROVIDES:${PN} += "fence-agents-amt_ws \
 fence-agents-amt_ws(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 fence-agents"
 

@@ -11,6 +11,7 @@ RPM_HASH = "2efe95b30c5fa9d52bc57d61815e1ce8f7a6741c3b30ef6e612f5fa36c59eb119431
 
 RPROVIDES:${PN} += "octave-forge-nurbs \
 octave-forge-nurbs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "22b99db86b8b0dbae2a6562bc5299360ca9f625717ccf35f30ae84d2b78c29b57b09
 
 RPROVIDES:${PN} += "R-nlme \
 R-nlme(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

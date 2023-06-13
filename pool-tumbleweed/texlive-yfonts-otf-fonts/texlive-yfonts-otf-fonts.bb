@@ -50,6 +50,7 @@ font(yfrak) \
 font(ygoth) \
 font(yswab) \
 texlive-yfonts-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

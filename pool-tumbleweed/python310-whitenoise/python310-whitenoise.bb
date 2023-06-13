@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-whitenoise \
 python3.10dist(whitenoise) \
 python310-whitenoise \
 python3dist(whitenoise)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

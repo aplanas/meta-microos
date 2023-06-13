@@ -15,6 +15,7 @@ python3.10dist(jupyter-sphinx) \
 python310-jupyter-sphinx \
 python310-jupyter_sphinx \
 python3dist(jupyter-sphinx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-IPython \
 python310-Sphinx \

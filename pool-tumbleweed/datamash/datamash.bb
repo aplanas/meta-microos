@@ -10,6 +10,7 @@ RPM_HASH = "c3960b2c7429cb34215fe10968381bc00fcd775c99ffaeca0e74804c4f5753d41c94
 
 RPROVIDES:${PN} += "datamash \
 datamash(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

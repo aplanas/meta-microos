@@ -13,6 +13,7 @@ RPM_HASH = "a0e283eaa58d522cbdf814837ba5b783e78aa556148cd015e637a56a8e550ea1b8ea
 
 RPROVIDES:${PN} += "c-ares-utils \
 c-ares-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

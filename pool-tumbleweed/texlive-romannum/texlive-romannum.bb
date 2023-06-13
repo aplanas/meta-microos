@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(romannum.sty) \
 texlive-romannum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

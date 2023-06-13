@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libserd-0-devel \
 pkgconfig(serd-0) \
 serd-devel \
 serd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libserd-0-0"
 

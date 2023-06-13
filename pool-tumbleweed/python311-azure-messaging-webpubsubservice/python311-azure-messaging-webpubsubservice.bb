@@ -45,6 +45,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-messaging-webpubsubservice) \
 python311-azure-messaging-webpubsubservice \
 python3dist(azure-messaging-webpubsubservice)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-azure-core \

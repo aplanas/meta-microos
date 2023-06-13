@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(devpi-process) \
 python311-devpi-process \
 python3dist(devpi-process)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-devpi-client \
 python311-devpi-server"

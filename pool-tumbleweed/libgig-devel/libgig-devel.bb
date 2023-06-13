@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libgig-devel \
 libgig-devel(aarch-64) \
 pkgconfig(akai) \
 pkgconfig(gig)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgig10"
 

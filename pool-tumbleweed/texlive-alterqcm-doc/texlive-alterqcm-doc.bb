@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-alterqcm-doc:en) \
 texlive-alterqcm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "d91b90d8358d07df79ee5ee344de56d8c5575691f5e2d2f68a01bcdbad206e5435ba
 RPROVIDES:${PN} += "libmicrodns.so.1()(64bit) \
 libmicrodns1 \
 libmicrodns1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

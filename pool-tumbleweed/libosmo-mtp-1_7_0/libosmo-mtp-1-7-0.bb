@@ -13,6 +13,7 @@ RPM_HASH = "af004efe8a3f04542ba024e8d388c195ea8f275b0d75e2f624c2f07b67bf14d405fa
 RPROVIDES:${PN} += "libosmo-mtp-1.7.0.so()(64bit) \
 libosmo-mtp-1_7_0 \
 libosmo-mtp-1_7_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

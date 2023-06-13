@@ -20,6 +20,7 @@ libgnome.so()(64bit) \
 libsounds.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.Pomodoro.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gnome-shell \

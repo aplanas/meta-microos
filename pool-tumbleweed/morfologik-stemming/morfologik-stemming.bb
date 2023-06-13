@@ -28,6 +28,7 @@ osgi(org.carrot2.morfologik-fsa-builders) \
 osgi(org.carrot2.morfologik-polish) \
 osgi(org.carrot2.morfologik-speller) \
 osgi(org.carrot2.morfologik-stemming)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.beust:jcommander) \

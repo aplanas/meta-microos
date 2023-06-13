@@ -21,6 +21,7 @@ RPM_HASH = "cfc47a1e3422f0f39856d0d93832237cf439fe5192604547592113bc221ac99ec04f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "awesome-shifty"
+
 RDEPENDS:${PN} += "awesome"
 
 inherit rpm

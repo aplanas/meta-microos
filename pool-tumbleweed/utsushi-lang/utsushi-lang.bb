@@ -25,6 +25,7 @@ locale(utsushi:zh_CN) \
 locale(utsushi:zh_TW) \
 utsushi-lang \
 utsushi-lang-all"
+
 RDEPENDS:${PN} += "utsushi"
 
 inherit rpm

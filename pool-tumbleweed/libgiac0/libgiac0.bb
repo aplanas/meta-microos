@@ -12,6 +12,7 @@ RPM_HASH = "5064bcbe8114cf79953888aa495055685262b6033667933ee2228135ed5423bb8a86
 RPROVIDES:${PN} += "libgiac.so.0()(64bit) \
 libgiac0 \
 libgiac0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

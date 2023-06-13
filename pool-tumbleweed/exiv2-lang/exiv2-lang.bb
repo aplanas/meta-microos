@@ -27,6 +27,7 @@ locale(exiv2:sv) \
 locale(exiv2:ug) \
 locale(exiv2:uk) \
 locale(exiv2:vi)"
+
 RDEPENDS:${PN} += "exiv2"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cryptsetup-devel \
 libcryptsetup-devel \
 libcryptsetup-devel(aarch-64) \
 pkgconfig(libcryptsetup)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcryptsetup12 \

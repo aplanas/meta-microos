@@ -27,6 +27,7 @@ perl(UsersPluginSamba) \
 perl(UsersPluginSambaGroups) \
 perl(YaPI::Samba) \
 yast2-samba-server"
+
 RDEPENDS:${PN} += "perl-Crypt-SmbHash \
 yast2 \
 yast2-ldap \

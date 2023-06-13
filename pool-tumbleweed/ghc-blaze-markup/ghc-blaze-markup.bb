@@ -12,6 +12,7 @@ RPM_HASH = "7b53dd4e12395a3db6dbd40059e15a66a34f4dbc1ef010ab283ea462481a213af06d
 RPROVIDES:${PN} += "ghc-blaze-markup \
 ghc-blaze-markup(aarch-64) \
 libHSblaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

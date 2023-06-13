@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libosmoisdn.so.0()(64bit) \
 libosmoisdn.so.0(LIBOSMOISDN_1.0)(64bit) \
 libosmoisdn0 \
 libosmoisdn0(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

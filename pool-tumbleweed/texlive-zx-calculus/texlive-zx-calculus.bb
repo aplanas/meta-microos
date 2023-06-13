@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tikzlibraryzx-calculus.code.tex) \
 tex(zx-calculus.sty) \
 texlive-zx-calculus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

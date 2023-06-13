@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aopalliance \
 mvn(aopalliance:aopalliance) \
 osgi(aopalliance)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -13,6 +13,7 @@ libqt5-creator-plugin-devel \
 qt5-creator-plugin-devel \
 qt6-creator-plugin-devel \
 qt6-creator-plugin-devel(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-base-devel \
 qt6-creator"
 

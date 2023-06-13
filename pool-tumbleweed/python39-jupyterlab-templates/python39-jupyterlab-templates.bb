@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyterlab-templates) \
 python39-jupyter_jupyterlab_templates \
 python39-jupyterlab-templates \
 python3dist(jupyterlab-templates)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-templates \
 python(abi) \
 python39-jupyterlab"

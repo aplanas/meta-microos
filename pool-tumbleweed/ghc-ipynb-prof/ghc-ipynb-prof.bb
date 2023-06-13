@@ -10,6 +10,7 @@ RPM_HASH = "1206bb8ac69d58cd9fc6cf88a6f9963a304c24c490293d306b69e6ae6c33c32a462c
 RPROVIDES:${PN} += "ghc-ipynb-prof \
 ghc-ipynb-prof(aarch-64) \
 ghc-prof(ipynb-0.2-5jt56R8prxRLKDISePbcpi)"
+
 RDEPENDS:${PN} += "ghc-ipynb-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

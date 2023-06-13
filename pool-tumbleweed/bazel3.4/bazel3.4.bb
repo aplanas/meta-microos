@@ -12,6 +12,7 @@ RPM_HASH = "89ba722dbc9b254e66be6d2ccf126eb7784ae6168c2c1e7a7227bcae4669a47eacec
 RPROVIDES:${PN} += "bazel \
 bazel3.4 \
 bazel3.4(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-1_8_0-openjdk-devel \
 ld-linux-aarch64.so.1()(64bit) \

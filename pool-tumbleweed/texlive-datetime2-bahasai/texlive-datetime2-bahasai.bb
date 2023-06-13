@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(datetime2-bahasai.ldf) \
 texlive-datetime2-bahasai"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

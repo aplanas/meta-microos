@@ -13,6 +13,7 @@ ibus-table \
 ibus-table(aarch-64) \
 metainfo() \
 metainfo(ibus-table.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ibus \
 python3 \

@@ -10,6 +10,7 @@ RPM_HASH = "1a0351c60e9ac43005ce152768429ca39dc04f5f5e8d26a300bff9d401a2388aae4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-galpol"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "4cb203a48fd5b3f272f0cc2f6db622a48de60d0978e92cc0f47e85ab2c29a1738b99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleylm-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

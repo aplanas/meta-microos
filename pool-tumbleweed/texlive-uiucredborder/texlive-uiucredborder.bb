@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uiucredborder.cls) \
 texlive-uiucredborder"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

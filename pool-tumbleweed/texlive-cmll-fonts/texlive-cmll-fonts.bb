@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "font(cmll) \
 font(cmllsans) \
 font(eull) \
 texlive-cmll-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

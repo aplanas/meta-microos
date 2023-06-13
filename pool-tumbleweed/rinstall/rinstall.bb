@@ -79,6 +79,7 @@ bundled(rust-crate:yaml-rust) \
 rinstall \
 rinstall(aarch-64) \
 rpm_macro(rinstall)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

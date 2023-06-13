@@ -13,6 +13,7 @@ RPM_HASH = "360854b3f048cca8bb5c01378a654f9cc7ed4c25d7f01227b48344ca1bd48fe0c487
 RPROVIDES:${PN} += "ghc-semver \
 ghc-semver(aarch-64) \
 libHSsemver-0.4.0.1-ExZNCX3NISc5JbXfrvXt6N-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

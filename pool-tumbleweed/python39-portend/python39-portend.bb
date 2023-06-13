@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(portend) \
 python39-portend \
 python3dist(portend)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tempora"
 

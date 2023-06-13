@@ -22,6 +22,7 @@ python310-PySoundFile \
 python310-SoundFile \
 python310-soundfile \
 python3dist(soundfile)"
+
 RDEPENDS:${PN} += "libsndfile1 \
 python(abi) \
 python310-cffi"

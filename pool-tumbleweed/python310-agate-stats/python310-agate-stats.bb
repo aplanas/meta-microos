@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-agate-stats \
 python3.10dist(agate-stats) \
 python310-agate-stats \
 python3dist(agate-stats)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-agate \
 python310-six"

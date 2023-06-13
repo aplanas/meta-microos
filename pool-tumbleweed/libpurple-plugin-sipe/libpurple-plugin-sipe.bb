@@ -19,6 +19,7 @@ RPM_HASH = "f3b583c9401fd4dd412ceef8900d9421f0d3dffa378cf91ee5d66b97c541550b6677
 RPROVIDES:${PN} += "libpurple-plugin-sipe \
 libpurple-plugin-sipe(aarch-64) \
 libsipe.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

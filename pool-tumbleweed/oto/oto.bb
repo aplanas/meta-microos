@@ -27,6 +27,7 @@ RPM_HASH = "1d6202f5850cf58e0860cc01a76f4c201954bc1140bf2f60d2b945ce421189574f32
 
 RPROVIDES:${PN} += "oto \
 oto(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

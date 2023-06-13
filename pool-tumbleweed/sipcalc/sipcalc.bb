@@ -9,6 +9,7 @@ RPM_HASH = "a2b2b7e480a88ebba56d1e1c4a787a51c0babea37efbc7696d8cf147636d00b33562
 
 RPROVIDES:${PN} += "sipcalc \
 sipcalc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

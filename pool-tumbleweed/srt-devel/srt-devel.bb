@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "pkgconfig(haisrt) \
 pkgconfig(srt) \
 srt-devel \
 srt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsrt1_5 \
 pkgconfig(libcrypto) \

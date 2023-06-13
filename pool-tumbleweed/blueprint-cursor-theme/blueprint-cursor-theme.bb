@@ -9,6 +9,7 @@ RPM_HASH = "a31263dd8e999ad886544a4f903a37587be3d3fb241ee899ff9ca62d88341b3216b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-cursor-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

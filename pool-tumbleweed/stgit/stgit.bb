@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(stgit) \
 python3dist(stgit) \
 stgit"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core \
 python(abi)"

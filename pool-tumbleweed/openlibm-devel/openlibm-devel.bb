@@ -15,6 +15,7 @@ RPM_HASH = "30d58b103dbe0b32843b18214c60d5a900affe7e1f96c6d470da30447274e9ba7c99
 RPROVIDES:${PN} += "openlibm-devel \
 openlibm-devel(aarch-64) \
 pkgconfig(openlibm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenlibm4"
 

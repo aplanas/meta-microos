@@ -13,6 +13,7 @@ RPM_HASH = "82ceafa0fef55b4573e0ebf350b8b9aa4bccd60a641b39d2d09e4e3d928319a6ed77
 
 RPROVIDES:${PN} += "salt-proxy \
 salt-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/python3 \

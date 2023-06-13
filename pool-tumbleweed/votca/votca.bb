@@ -17,6 +17,7 @@ votca-csg \
 votca-csg-apps \
 votca-tools \
 votca-xtp"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

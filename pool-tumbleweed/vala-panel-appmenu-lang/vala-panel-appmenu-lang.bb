@@ -99,6 +99,7 @@ vala-panel-plugin-appmenu-lang \
 vala-panel-plugin-appmenu-lang-all \
 xfce4-panel-plugin-appmenu-lang \
 xfce4-panel-plugin-appmenu-lang-all"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-google-cloud-translate \
 python3.10dist(google-cloud-translate) \
 python310-google-cloud-translate \
 python3dist(google-cloud-translate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-google-cloud-core \

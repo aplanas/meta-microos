@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(xorg-x11:ja) \
 xmanja"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

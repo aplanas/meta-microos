@@ -11,6 +11,7 @@ RPM_HASH = "d3fb180e325653682e8ad6a4f52c456bedf879fbd62cb3b10dd5ef1dba70ee3ad5cc
 
 RPROVIDES:${PN} += "kkc-data \
 kkc-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

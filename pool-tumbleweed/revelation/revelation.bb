@@ -15,6 +15,7 @@ metainfo() \
 metainfo(info.olasagasti.revelation.appdata.xml) \
 mimehandler(application/x-revelation) \
 revelation"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject \

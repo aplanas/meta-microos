@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(id3tag) \
 libid3tag-devel \
 libid3tag-devel(aarch-64) \
 pkgconfig(id3tag)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libid3tag0_16_2"
 

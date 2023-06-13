@@ -9,6 +9,7 @@ RPM_HASH = "f407e45a1242d115a85269bbb2a8db4f7e61ce3cc9a497ad258f990f49ed630a91dd
 
 RPROVIDES:${PN} += "texlive-pfarrei-bin \
 texlive-pfarrei-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pfarrei"
 
 inherit rpm

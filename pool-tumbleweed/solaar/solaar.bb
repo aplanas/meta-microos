@@ -21,6 +21,7 @@ python3.10dist(solaar) \
 python3dist(solaar) \
 solaar \
 solaar-cli"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyYAML \

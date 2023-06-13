@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(refcount.sty) \
 texlive-refcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -24,6 +24,7 @@ RPM_HASH = "8f481b58cd01ec7e5ff2afe27edd839cd7e18823dbbed3237bcd83927612d976d719
 
 RPROVIDES:${PN} += "fping \
 fping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "b389d8710e65eda4e153d0c83728ade4ea361c604bbfe866e3b439d5493136e186f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vocaltract-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

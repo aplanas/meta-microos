@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-openqa_client \
 python3.10dist(openqa-client) \
 python310-openqa_client \
 python3dist(openqa-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-requests \

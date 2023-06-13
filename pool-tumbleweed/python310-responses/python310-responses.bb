@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-responses \
 python3.10dist(responses) \
 python310-responses \
 python3dist(responses)"
+
 RDEPENDS:${PN} += "(python310-requests >= 2.22.0 with python310-requests < 3) \
 python(abi) \
 python310-PyYAML \

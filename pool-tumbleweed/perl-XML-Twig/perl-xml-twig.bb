@@ -32,6 +32,7 @@ perl(XML::Twig::XPath::Attribute) \
 perl(XML::Twig::XPath::Elt) \
 perl(XML::Twig::XPath::Namespace) \
 perl-XML-Twig"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 expat \
 perl(:MODULE_COMPAT_5.36.0) \

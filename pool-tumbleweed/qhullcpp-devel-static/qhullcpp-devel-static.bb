@@ -14,6 +14,7 @@ RPM_HASH = "1c80a8d8ef7f4ae60d86943029acd603772611e447d1868fa6af953bdb80520937cc
 RPROVIDES:${PN} += "pkgconfig(qhullcpp) \
 qhullcpp-devel-static \
 qhullcpp-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqhull_r8_0"
 

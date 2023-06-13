@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(three-merge) \
 python39-three-merge \
 python3dist(three-merge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-diff-match-patch"
 

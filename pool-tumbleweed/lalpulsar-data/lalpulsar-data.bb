@@ -9,6 +9,7 @@ RPM_HASH = "1b8add645065a4d4a4bb621af18569d974ded77a81d36586b88528340f27a34276c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lalpulsar-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

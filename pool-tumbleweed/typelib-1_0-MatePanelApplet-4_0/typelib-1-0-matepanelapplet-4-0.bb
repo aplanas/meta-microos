@@ -12,6 +12,7 @@ RPM_HASH = "d8a25af509b35be52907512a9582031bd6e0a0698f1d1216077d9129ca94ea99ddc8
 RPROVIDES:${PN} += "typelib(MatePanelApplet) \
 typelib-1_0-MatePanelApplet-4_0 \
 typelib-1_0-MatePanelApplet-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmate-panel-applet-4.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

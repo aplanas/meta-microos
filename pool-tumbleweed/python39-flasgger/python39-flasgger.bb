@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flasgger) \
 python39-flasgger \
 python3dist(flasgger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask \
 python39-PyYAML \

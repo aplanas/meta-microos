@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(wayland-protocols) \
 wayland-protocols-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

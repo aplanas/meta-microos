@@ -10,6 +10,7 @@ RPM_HASH = "5dd88c65a70c1606ef27f1077673cf090d3bb7060d9208369d937ed6dbf13e641515
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-theme-srcfpo"
+
 RDEPENDS:${PN} += "pagure"
 
 inherit rpm

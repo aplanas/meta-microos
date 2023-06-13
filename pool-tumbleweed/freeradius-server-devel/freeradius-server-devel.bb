@@ -9,6 +9,7 @@ RPM_HASH = "fe26f59e02f974abc4f9bad547d51a28a10c6b730d507ff9832164424b88af28ab6e
 
 RPROVIDES:${PN} += "freeradius-server-devel \
 freeradius-server-devel(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-server-libs"
 
 inherit rpm

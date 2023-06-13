@@ -14,6 +14,7 @@ RPM_HASH = "d823a676a10ccd563ab1e753e6dbfcd3e1fe6c7fe3fb6f4e64a30266098b6c22212c
 RPROVIDES:${PN} += "libaubio.so.5()(64bit) \
 libaubio5 \
 libaubio5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavcodec.so.58.134()(64bit) \
 libavcodec.so.58.134(LIBAVCODEC_58)(64bit) \

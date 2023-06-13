@@ -14,6 +14,7 @@ RPM_HASH = "ddd61cf4e51df0e221ac9c902d21c9c05b3b477dad350870c46cc6e62de55497edf0
 RPROVIDES:${PN} += "libOpenCOLLADAFramework.so.0.3()(64bit) \
 libOpenCOLLADAFramework0_3 \
 libOpenCOLLADAFramework0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

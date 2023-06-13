@@ -152,6 +152,7 @@ font(stickstoomath) \
 font(stickstootext) \
 font(stxickstoomath) \
 texlive-stickstoo-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -9,6 +9,7 @@ RPM_HASH = "9bf4b78dfaee98a0320cd87e2d396be8b09ed1d7a5a54320b597bd1d0695bc40047a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "LaTeXML"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \

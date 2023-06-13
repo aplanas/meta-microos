@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-josepy \
 python3.10dist(josepy) \
 python310-josepy \
 python3dist(josepy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-pyOpenSSL"

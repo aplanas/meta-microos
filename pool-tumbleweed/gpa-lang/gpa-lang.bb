@@ -24,6 +24,7 @@ locale(gpa:sv) \
 locale(gpa:tr) \
 locale(gpa:zh_CN) \
 locale(gpa:zh_TW)"
+
 RDEPENDS:${PN} += "gpa"
 
 inherit rpm

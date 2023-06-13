@@ -9,6 +9,7 @@ RPM_HASH = "747b97d7d35e67991a8d59faa788ffc9b924de7e50336950e91cc28668df5a8f570e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsb-release"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

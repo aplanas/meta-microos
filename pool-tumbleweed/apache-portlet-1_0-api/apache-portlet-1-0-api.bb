@@ -13,6 +13,7 @@ mvn(javax.portlet:portlet-api) \
 mvn(javax.portlet:portlet-api:pom:) \
 portlet \
 portlet-1.0-api"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

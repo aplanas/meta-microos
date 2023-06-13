@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake(VulkanHeaders) \
 vulkan-headers"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 pkgconfig(wayland-client) \
 pkgconfig(x11) \

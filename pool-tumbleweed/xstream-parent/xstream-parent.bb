@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(com.thoughtworks.xstream:xstream-parent:pom:) \
 xstream-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.mojo:build-helper-maven-plugin) \

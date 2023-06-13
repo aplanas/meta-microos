@@ -13,6 +13,7 @@ RPM_HASH = "4e156880f54236d2cab8d090f7c95adca3be996b37f3016602fd60f5ac283d242481
 RPROVIDES:${PN} += "libcharls.so.2()(64bit) \
 libcharls2 \
 libcharls2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

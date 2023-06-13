@@ -16,6 +16,7 @@ RPM_HASH = "c377221e6f1e11a92870a6ae37376e7d811a9dd50b54010820107986b1bf16d975e2
 RPROVIDES:${PN} += "libt3window-devel \
 libt3window-devel(aarch-64) \
 pkgconfig(libt3window)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libt3window0 \
 pkgconfig(libtranscript) \

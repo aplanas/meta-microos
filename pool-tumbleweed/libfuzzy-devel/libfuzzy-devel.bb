@@ -9,6 +9,7 @@ RPM_HASH = "8cbd9de58e790dd166845fdb67b5d7cb264cc41dcb165525e9a80b3cb3fe70394996
 
 RPROVIDES:${PN} += "libfuzzy-devel \
 libfuzzy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfuzzy2"
 
 inherit rpm

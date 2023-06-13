@@ -13,6 +13,7 @@ RPM_HASH = "691c38f308bced32e36d8bf0fb53127e4d1a266123709fc05377e3ba9a5c64877477
 
 RPROVIDES:${PN} += "mpg123-jack \
 mpg123-jack(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

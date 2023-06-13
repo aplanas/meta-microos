@@ -12,6 +12,7 @@ RPM_HASH = "9940e6ee93ead6a722cb6445aaa2888dea3e68633665b3bf9f03444da36a980d687f
 RPROVIDES:${PN} += "ghc-magic \
 ghc-magic(aarch-64) \
 libHSmagic-1.1-FZjtT3pxmlr6oRrs4QNuLe-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

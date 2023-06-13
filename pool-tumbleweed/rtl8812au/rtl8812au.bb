@@ -15,6 +15,7 @@ RPM_HASH = "09aad264e22a9b52d48f62daab7a93ccfbb8f46c93506e8553953f9688d06b411cf3
 
 RPROVIDES:${PN} += "rtl8812au \
 rtl8812au(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

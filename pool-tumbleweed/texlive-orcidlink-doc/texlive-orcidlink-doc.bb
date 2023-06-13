@@ -9,6 +9,7 @@ RPM_HASH = "c1eb766c8217dd5b7943cecd457c8e10e18215bec76cb9f23420b351ad2836ddf207
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-orcidlink-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

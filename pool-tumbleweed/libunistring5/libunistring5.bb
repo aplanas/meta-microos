@@ -14,6 +14,7 @@ RPM_HASH = "d5df4dde1cb97c71761c961fb53353e2ab8045719b573b90f589f9fd7c9e2d48beef
 RPROVIDES:${PN} += "libunistring.so.5()(64bit) \
 libunistring5 \
 libunistring5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

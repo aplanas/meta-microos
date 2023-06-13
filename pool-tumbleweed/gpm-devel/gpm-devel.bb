@@ -9,6 +9,7 @@ RPM_HASH = "531556c1bf37159dcad5ed38d8fa8e574c9398785ecf83b37620843b97044972379d
 
 RPROVIDES:${PN} += "gpm-devel \
 gpm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgpm2"
 
 inherit rpm

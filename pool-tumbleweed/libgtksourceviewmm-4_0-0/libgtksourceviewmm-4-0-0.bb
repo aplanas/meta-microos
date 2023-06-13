@@ -10,6 +10,7 @@ RPM_HASH = "bf101c2a6341ac7942ec0ffb1ea7736509ed92ed53a41dacd9ee98e0df4ab6e712ae
 RPROVIDES:${PN} += "libgtksourceviewmm-4.0.so.0()(64bit) \
 libgtksourceviewmm-4_0-0 \
 libgtksourceviewmm-4_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

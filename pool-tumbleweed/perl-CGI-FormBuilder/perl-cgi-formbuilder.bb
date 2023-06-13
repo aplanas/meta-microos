@@ -70,6 +70,7 @@ perl(CGI::FormBuilder::Template::Text) \
 perl(CGI::FormBuilder::Test) \
 perl(CGI::FormBuilder::Util) \
 perl-CGI-FormBuilder"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI)"
 

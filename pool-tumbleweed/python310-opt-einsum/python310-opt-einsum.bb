@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-opt-einsum \
 python3.10dist(opt-einsum) \
 python310-opt-einsum \
 python3dist(opt-einsum)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

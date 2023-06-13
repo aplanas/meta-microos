@@ -10,6 +10,7 @@ RPM_HASH = "bd3301c4f21c7910e711bd13a946f5496ce793187e148808fb1309948fde57ee0d59
 RPROVIDES:${PN} += "libstaroffice-0.0.so.0()(64bit) \
 libstaroffice-0_0-0 \
 libstaroffice-0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

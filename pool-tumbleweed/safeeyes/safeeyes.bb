@@ -14,6 +14,7 @@ application(safeeyes.desktop) \
 python3.10dist(safeeyes) \
 python3dist(safeeyes) \
 safeeyes"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Babel \

@@ -15,6 +15,7 @@ RPM_HASH = "c0d2bea17e9ce7fd1d8a5160cdab271f0a9ea1bea50a75d1d9263096fa3e029eb032
 RPROVIDES:${PN} += "libmemcachedprotocol.so.0()(64bit) \
 libmemcachedprotocol0 \
 libmemcachedprotocol0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

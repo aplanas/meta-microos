@@ -11,6 +11,7 @@ RPM_HASH = "6eec9d7fe29cf1ba0f47de34db40875655b460dff25fd322a71cf9baa8b660912687
 RPROVIDES:${PN} += "libqtcurve-utils.so.2()(64bit) \
 libqtcurve-utils2 \
 libqtcurve-utils2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

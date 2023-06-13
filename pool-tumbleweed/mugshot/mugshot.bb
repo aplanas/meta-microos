@@ -16,6 +16,7 @@ metainfo(mugshot.appdata.xml) \
 mugshot \
 python3.10dist(mugshot) \
 python3dist(mugshot)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3 \

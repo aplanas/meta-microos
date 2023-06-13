@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-ggplot \
 python3.10dist(ggplot) \
 python310-ggplot \
 python3dist(ggplot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Cycler \
 python310-brewer2mpl \

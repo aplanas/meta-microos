@@ -9,6 +9,7 @@ RPM_HASH = "b0f864364ce003fab8c25a9a33d237770164f3a39d16928055e432b8af5ee2bdafe6
 
 RPROVIDES:${PN} += "whois-bash-completion \
 whois-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 whois"
 

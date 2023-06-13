@@ -10,6 +10,7 @@ RPM_HASH = "09d6a440aed2767519f100cb78bb0d26c4f8354cd661eca3ecad3ff7178c29e7ff50
 RPROVIDES:${PN} += "libref_array-devel \
 libref_array-devel(aarch-64) \
 pkgconfig(ref_array)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libref_array1"
 

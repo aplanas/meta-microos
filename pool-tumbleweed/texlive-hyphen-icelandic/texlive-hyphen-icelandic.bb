@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(hyph-is.ec.tex) \
 tex(hyph-is.tex) \
 tex(loadhyph-is.tex) \
 texlive-hyphen-icelandic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(seu-ml-assign.cls) \
 texlive-seu-ml-assign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

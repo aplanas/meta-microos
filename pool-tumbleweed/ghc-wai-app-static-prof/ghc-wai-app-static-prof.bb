@@ -10,6 +10,7 @@ RPM_HASH = "8cf82a270b083265d65efe017943e5ff9de788d1d20ba53a2777481efc929cc2f3f4
 RPROVIDES:${PN} += "ghc-prof(wai-app-static-3.1.7.4-9UpsDZD9lQf3J0Cj3szLw2) \
 ghc-wai-app-static-prof \
 ghc-wai-app-static-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR) \
 ghc-prof(blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc) \

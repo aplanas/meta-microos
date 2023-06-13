@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(portend) \
 python311-portend \
 python3dist(portend)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tempora"
 

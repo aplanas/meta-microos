@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(fail2ban) \
 fail2ban \
 python3.10dist(fail2ban) \
 python3dist(fail2ban)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 cron \

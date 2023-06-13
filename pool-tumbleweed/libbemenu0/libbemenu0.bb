@@ -10,6 +10,7 @@ RPM_HASH = "6a5c815dc7dde724555dcca73af20c7646861e02efd0a693f2cb334dc233a4cbed0d
 RPROVIDES:${PN} += "libbemenu.so.0()(64bit) \
 libbemenu0 \
 libbemenu0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bemenu \
 libc.so.6(GLIBC_2.34)(64bit)"

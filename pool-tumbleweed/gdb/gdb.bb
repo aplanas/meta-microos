@@ -12,6 +12,7 @@ RPM_HASH = "74fd1b874d96a1522a0be437cfe9f4700432943e8b90fd08e63671225432e61c301a
 RPROVIDES:${PN} += "config(gdb) \
 gdb \
 gdb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

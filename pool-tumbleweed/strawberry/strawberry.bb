@@ -62,6 +62,7 @@ mimehandler(x-content/audio-player) \
 mimehandler(x-scheme-handler/tidal) \
 strawberry \
 strawberry(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Concurrent.so.6()(64bit) \

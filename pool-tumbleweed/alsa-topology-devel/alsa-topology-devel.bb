@@ -11,6 +11,7 @@ RPM_HASH = "7e0f26ddb3d2222d5bf051893e0530c850501dba0be15bdc9288305432f35ab147c4
 RPROVIDES:${PN} += "alsa-topology-devel \
 alsa-topology-devel(aarch-64) \
 pkgconfig(alsa-topology)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 alsa-devel \
 libatopology2 \

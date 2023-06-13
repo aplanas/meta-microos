@@ -10,6 +10,7 @@ RPM_HASH = "5223b2d75b36d17173b5e4e2031fac57a2e539dbd1d5664695785446a3c6136d3906
 RPROVIDES:${PN} += "libdareader.so.1()(64bit) \
 libdareader1 \
 libdareader1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

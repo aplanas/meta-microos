@@ -15,6 +15,7 @@ RPM_HASH = "81350c9a915f71b187f92a6d255b7af12ce5697cabb253cb076b78a86d3161f02e39
 
 RPROVIDES:${PN} += "arprec-devel \
 arprec-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libarprec0"
 

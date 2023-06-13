@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6UiTools) \
 pkgconfig(Qt6UiTools) \
 qt6-uitools-devel \
 qt6-uitools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6OpenGL) \

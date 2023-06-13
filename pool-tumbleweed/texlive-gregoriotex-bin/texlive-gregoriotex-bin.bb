@@ -9,6 +9,7 @@ RPM_HASH = "2b8dbd90311d6e3fa80686e3a7a14bddeea9e89ff3a7a32907fc6e62be3acfe027ab
 
 RPROVIDES:${PN} += "texlive-gregoriotex-bin \
 texlive-gregoriotex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

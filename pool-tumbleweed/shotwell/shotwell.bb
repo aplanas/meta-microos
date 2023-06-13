@@ -85,6 +85,7 @@ mimehandler(image/x-x3f) \
 mimehandler(x-content/image-dcf) \
 shotwell \
 shotwell(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

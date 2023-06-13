@@ -9,6 +9,7 @@ RPM_HASH = "f5abace69209d745802d682256b3be4ff8ade345d8980d87575696ebfef12cb22ccb
 
 RPROVIDES:${PN} += "python311-libvmdk \
 python311-libvmdk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

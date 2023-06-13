@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pallets-sphinx-themes) \
 python311-Pallets-Sphinx-Themes \
 python3dist(pallets-sphinx-themes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx \
 python311-packaging"

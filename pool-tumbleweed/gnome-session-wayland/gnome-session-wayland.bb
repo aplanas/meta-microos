@@ -9,6 +9,7 @@ RPM_HASH = "5139efc6b727bdf01c34973ede0272dc4e21d5a173e3fa4fcdd2c96dd3cb230c60dd
 
 RPROVIDES:${PN} += "gnome-session-wayland \
 gnome-session-wayland(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-session \
 gnome-settings-daemon \

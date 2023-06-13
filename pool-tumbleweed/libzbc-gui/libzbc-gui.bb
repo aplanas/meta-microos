@@ -12,6 +12,7 @@ RPM_HASH = "c3eda37049de2cbe2e455be2a3e44466575271b719a5095dd46ded4fc06e063dc37e
 
 RPROVIDES:${PN} += "libzbc-gui \
 libzbc-gui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

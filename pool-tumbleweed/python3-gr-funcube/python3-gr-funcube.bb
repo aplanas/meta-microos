@@ -12,6 +12,7 @@ RPM_HASH = "891f97d96d46273d475f86e384f04953bbc4c959f47a0ec9f742c7a1123ff3371a78
 
 RPROVIDES:${PN} += "python3-gr-funcube \
 python3-gr-funcube(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

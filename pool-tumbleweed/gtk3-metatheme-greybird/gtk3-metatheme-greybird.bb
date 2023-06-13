@@ -9,6 +9,7 @@ RPM_HASH = "b296b7a5252311d5605fa5a6eb5c7e368357da8784fa6aaad75bff47a0c9180cfe3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-greybird"
+
 RDEPENDS:${PN} += "metatheme-greybird-common"
 
 inherit rpm

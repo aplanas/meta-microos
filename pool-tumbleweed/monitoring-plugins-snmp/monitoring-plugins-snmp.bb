@@ -13,6 +13,7 @@ RPM_HASH = "9fa0480011c728a63b9d730e57257fa4c51e74a8875d094affd05365c6b552c409b0
 RPROVIDES:${PN} += "monitoring-plugins-snmp \
 monitoring-plugins-snmp(aarch-64) \
 nagios-plugins-snmp"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

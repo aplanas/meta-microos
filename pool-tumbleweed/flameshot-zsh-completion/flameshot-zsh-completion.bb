@@ -9,6 +9,7 @@ RPM_HASH = "ac41b5b652cde7fcdbb11f3e451d46dfff792633f4b76210dbbe121a2e56eaeff970
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flameshot-zsh-completion"
+
 RDEPENDS:${PN} += "flameshot"
 
 inherit rpm

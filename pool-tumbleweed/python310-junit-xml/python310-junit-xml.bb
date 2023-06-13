@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-junit-xml \
 python3.10dist(junit-xml) \
 python310-junit-xml \
 python3dist(junit-xml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

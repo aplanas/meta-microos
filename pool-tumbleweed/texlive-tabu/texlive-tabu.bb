@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabu.sty) \
 texlive-tabu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

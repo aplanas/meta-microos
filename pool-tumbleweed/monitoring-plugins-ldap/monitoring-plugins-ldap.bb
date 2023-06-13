@@ -12,6 +12,7 @@ RPM_HASH = "276c98fcd0b8182bc81b3ebdd1339ec611071b38079d4a62aae7e0dee8569f5ef3c0
 RPROVIDES:${PN} += "monitoring-plugins-ldap \
 monitoring-plugins-ldap(aarch-64) \
 nagios-plugins-ldap"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "coolkey \
 coolkey(aarch-64) \
 libckyapplet.so.1()(64bit) \
 libcoolkeypk11.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

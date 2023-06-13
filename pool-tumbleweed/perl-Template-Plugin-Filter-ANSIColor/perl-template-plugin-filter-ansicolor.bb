@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Template::Plugin::Filter::ANSIColor) \
 perl-Template-Plugin-Filter-ANSIColor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Template) \
 perl(Term::ANSIColor) \

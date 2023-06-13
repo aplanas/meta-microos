@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requests-wsgi-adapter \
 python3.10dist(requests-wsgi-adapter) \
 python310-requests-wsgi-adapter \
 python3dist(requests-wsgi-adapter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

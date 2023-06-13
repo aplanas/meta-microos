@@ -15,6 +15,7 @@ tex(french-software.lbx) \
 tex(software-biblatex.sty) \
 tex(software.bbx) \
 texlive-biblatex-software"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

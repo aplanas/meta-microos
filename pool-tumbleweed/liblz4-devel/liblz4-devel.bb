@@ -15,6 +15,7 @@ RPM_HASH = "d04c5ebe86ab16673c2c5107fb9b89f1e3843ef471c363424be81c9a225c72c1065a
 RPROVIDES:${PN} += "liblz4-devel \
 liblz4-devel(aarch-64) \
 pkgconfig(liblz4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblz4-1"
 

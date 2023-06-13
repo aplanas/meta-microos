@@ -12,6 +12,7 @@ evince-plugin-psdocument(aarch-64) \
 libpsdocument.so()(64bit) \
 metainfo() \
 metainfo(evince-psdocument.metainfo.xml)"
+
 RDEPENDS:${PN} += "evince \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

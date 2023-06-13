@@ -11,6 +11,7 @@ RPM_HASH = "0deb81afb648bc09af9f3303ce985091fd4ff00ee4040ca12dae01f9160836b9fcf6
 RPROVIDES:${PN} += "libgeos_c.so.1()(64bit) \
 libgeos_c1 \
 libgeos_c1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

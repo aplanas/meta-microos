@@ -3430,6 +3430,7 @@ tex(utftmrz-h.vf) \
 tex(utftmrz-v.tfm) \
 tex(utftmrz-v.vf) \
 texlive-japanese-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

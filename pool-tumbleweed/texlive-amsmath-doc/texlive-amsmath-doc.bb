@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-amsmath-doc:en) \
 texlive-amsmath-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

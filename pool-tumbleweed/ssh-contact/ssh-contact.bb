@@ -12,6 +12,7 @@ RPM_HASH = "19ac18abbcc12f942aab3fcc6c5b3b840d30a8f1c42a55b16bea1f7ccabe6ae77e6f
 
 RPROVIDES:${PN} += "ssh-contact \
 ssh-contact(aarch-64)"
+
 RDEPENDS:${PN} += "ssh-contact-client \
 ssh-contact-service"
 

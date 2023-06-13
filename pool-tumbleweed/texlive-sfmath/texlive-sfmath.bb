@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sfmath.sty) \
 texlive-sfmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clicks.sty) \
 texlive-clicks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

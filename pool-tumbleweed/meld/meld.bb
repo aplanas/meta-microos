@@ -18,6 +18,7 @@ meld \
 metainfo() \
 metainfo(org.gnome.Meld.appdata.xml) \
 mimehandler(application/x-meld-comparison)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 patch \
 python(abi) \

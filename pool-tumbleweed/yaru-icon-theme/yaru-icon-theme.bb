@@ -11,6 +11,7 @@ RPM_HASH = "c1eb3c00cc4a44b4509e88f0925251eb646ef05701547708db4dbd1c1fb2ae8fa5b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yaru-icon-theme"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 humanity-icon-theme"
 

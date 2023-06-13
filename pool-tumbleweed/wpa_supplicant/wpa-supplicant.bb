@@ -13,6 +13,7 @@ RPM_HASH = "7dd59f05905163f6f877f2bc582d0a3a0c45606fa32d9249cf77dcd07a8fda2b24be
 RPROVIDES:${PN} += "config(wpa_supplicant) \
 wpa_supplicant \
 wpa_supplicant(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

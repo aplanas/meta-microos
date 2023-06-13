@@ -18,6 +18,7 @@ RPM_HASH = "eb46ddb42a2a74787d20693477352f5c87dd0a52243af7f63a52b25d01b95667ba87
 RPROVIDES:${PN} += "leechcraft-poshuku-fua \
 leechcraft-poshuku-fua(aarch-64) \
 libleechcraft_poshuku_fua.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

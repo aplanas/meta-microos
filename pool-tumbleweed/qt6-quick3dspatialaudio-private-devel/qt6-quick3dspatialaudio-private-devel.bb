@@ -11,6 +11,7 @@ RPM_HASH = "4e7c9e29df39d4000e684d52ce490ef9aa5af8f1784c90ae12daa977a73797033dc5
 RPROVIDES:${PN} += "cmake(Qt6Quick3DSpatialAudioPrivate) \
 qt6-quick3dspatialaudio-private-devel \
 qt6-quick3dspatialaudio-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Quick) \
 libQt6Quick3DSpatialAudio6 \
 qt6-multimedia-private-devel"

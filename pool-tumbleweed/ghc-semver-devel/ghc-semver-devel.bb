@@ -10,6 +10,7 @@ RPM_HASH = "7d7f26136dd316739151eea1fddff470d43df28e1d6d6bae1c6d712eebc53aacd2ac
 RPROVIDES:${PN} += "ghc-devel(semver-0.4.0.1-ExZNCX3NISc5JbXfrvXt6N) \
 ghc-semver-devel \
 ghc-semver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

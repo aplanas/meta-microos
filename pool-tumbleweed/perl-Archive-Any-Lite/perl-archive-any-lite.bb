@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "perl(Archive::Any::Lite) \
 perl(Archive::Any::Lite::Tar) \
 perl(Archive::Any::Lite::Zip) \
 perl-Archive-Any-Lite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Tar) \
 perl(Archive::Zip) \

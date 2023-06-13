@@ -14,6 +14,7 @@ RPM_HASH = "f4d38f7ce29a3024cf75727f8ae9e91f213e3a8bae1f4a206921f302bca742e0d36f
 RPROVIDES:${PN} += "ell-devel \
 ell-devel(aarch-64) \
 pkgconfig(ell)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libell0"
 

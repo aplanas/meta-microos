@@ -10,6 +10,7 @@ RPM_HASH = "d90531b93a2c1d10f185ac704591f302f5cf0d631d1c4d64dd25b31eeec945d11532
 
 RPROVIDES:${PN} += "libvsgpt-tools \
 libvsgpt-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

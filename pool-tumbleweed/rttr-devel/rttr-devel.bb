@@ -12,6 +12,7 @@ RPM_HASH = "ce4a0a5802946055df50112f4d420fc4b89525100e0587fcc93c7920c77a2140a9d8
 RPROVIDES:${PN} += "cmake(rttr) \
 rttr-devel \
 rttr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librttr_core0_9_6"
 
 inherit rpm

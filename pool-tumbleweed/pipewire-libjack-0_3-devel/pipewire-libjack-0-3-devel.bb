@@ -21,6 +21,7 @@ RPM_HASH = "02ae5c1bcf001cd70ed7fe0d9255a3c7c257eb1587a575ae6618594b68371a2e9057
 RPROVIDES:${PN} += "pipewire-libjack-0_3-devel \
 pipewire-libjack-0_3-devel(aarch-64) \
 pkgconfig(jack)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pipewire-libjack-0_3"
 

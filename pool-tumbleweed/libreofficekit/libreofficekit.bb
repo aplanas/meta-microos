@@ -11,6 +11,7 @@ RPM_HASH = "8b06fe3bd4c6db761241c106823befca1e8f6505ceda8158c312148664755eb07dc2
 RPROVIDES:${PN} += "libreofficekit \
 libreofficekit(aarch-64) \
 typelib(LOKDocView)"
+
 RDEPENDS:${PN} += "liblibreofficekitgtk.so()(64bit) \
 libreoffice \
 typelib(Atk) \

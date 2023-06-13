@@ -10,6 +10,7 @@ RPM_HASH = "b778fc2b630dc98e4f754c7d278f5f6078ad0d94fa8a472be29c521094855f18aec4
 
 RPROVIDES:${PN} += "vboot \
 vboot(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

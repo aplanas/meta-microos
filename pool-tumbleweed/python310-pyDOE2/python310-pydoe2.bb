@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pyDOE2 \
 python3.10dist(pydoe2) \
 python310-pyDOE2 \
 python3dist(pydoe2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy"

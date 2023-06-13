@@ -45,6 +45,7 @@ locale(gnome-2048:sv) \
 locale(gnome-2048:tr) \
 locale(gnome-2048:uk) \
 locale(gnome-2048:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-2048"
 
 inherit rpm

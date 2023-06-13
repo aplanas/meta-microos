@@ -20,6 +20,7 @@ RPM_HASH = "e77a133a127dcba65a940dff7bf4f7a15da9d063e3215c34182eb99442bd0a92f854
 RPROVIDES:${PN} += "config(vpnc) \
 vpnc \
 vpnc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ip \
 /usr/bin/perl \

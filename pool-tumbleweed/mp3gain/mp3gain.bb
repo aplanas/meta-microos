@@ -14,6 +14,7 @@ RPM_HASH = "2e5945c30bdd456dca27b1228a316f6ec205ecf8823bf23982397cd027c974eb1577
 
 RPROVIDES:${PN} += "mp3gain \
 mp3gain(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

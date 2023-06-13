@@ -22,6 +22,7 @@ perl(Net::HTTP::Methods) \
 perl(Net::HTTP::NB) \
 perl(Net::HTTPS) \
 perl-Net-HTTP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Raw::Zlib) \
 perl(IO::Uncompress::Gunzip) \

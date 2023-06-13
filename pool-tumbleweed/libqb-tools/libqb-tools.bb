@@ -11,6 +11,7 @@ RPM_HASH = "0ffddae41db6999addaeb39f21ed689aadaaef80b111b1cc7ce4cf30ff112664750b
 RPROVIDES:${PN} += "libqb-tools \
 libqb-tools(aarch-64) \
 libqb0:/usr/sbin/qb-blackbox"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libqb.so.100()(64bit)"
 

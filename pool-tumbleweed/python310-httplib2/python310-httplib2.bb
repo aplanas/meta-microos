@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-httplib2 \
 python3.10dist(httplib2) \
 python310-httplib2 \
 python3dist(httplib2)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python310-certifi \

@@ -11,6 +11,7 @@ RPM_HASH = "7fefb96028e54efb3aae4200cb89fd1f1c1bf763b22c92d5fc92a96f74260e9a0b29
 RPROVIDES:${PN} += "libcodec2-1_1 \
 libcodec2-1_1(aarch-64) \
 libcodec2.so.1.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

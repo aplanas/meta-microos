@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(compton-conf.desktop) \
 compton-conf \
 compton-conf(aarch-64)"
+
 RDEPENDS:${PN} += "compton \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

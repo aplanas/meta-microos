@@ -19,6 +19,7 @@ RPM_HASH = "67b28f58f1ecdc01b91f1a71ac8a6351031629e99cfe44acb8d66a4beb0eee02664a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pages-posix"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

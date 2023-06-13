@@ -12,6 +12,7 @@ RPM_HASH = "94ecfe11f30e42c5084581b1ded9dc48ef80d619268fbd43630cd522819b70abacb3
 
 RPROVIDES:${PN} += "ladspa-cmt \
 ladspa-cmt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

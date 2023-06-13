@@ -63,6 +63,7 @@ perl(Mail::Message::TransferEnc::QuotedPrint) \
 perl(Mail::Message::TransferEnc::SevenBit) \
 perl(Mail::Reporter) \
 perl-Mail-Message"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Date::Format) \
 perl(Date::Parse) \

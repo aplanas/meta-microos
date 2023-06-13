@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(laptop-mode-tools.desktop) \
 laptop-mode-tools-gui"
+
 RDEPENDS:${PN} += "/bin/sh \
 laptop-mode-tools \
 python3-qt5"

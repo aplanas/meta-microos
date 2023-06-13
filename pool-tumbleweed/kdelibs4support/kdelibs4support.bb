@@ -23,6 +23,7 @@ RPM_HASH = "ff56295d6a3c1ffa5938c1737edbb548340ff8ca770ace3627131785194fa1e5696c
 RPROVIDES:${PN} += "kde4support \
 kdelibs4support \
 kdelibs4support(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

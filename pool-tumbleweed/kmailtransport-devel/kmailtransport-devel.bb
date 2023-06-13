@@ -14,6 +14,7 @@ cmake(KPim5MailTransport) \
 cmake(KPim5MailTransportAkonadi) \
 kmailtransport-devel \
 kmailtransport-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Wallet) \
 cmake(KPim5AkonadiMime) \
 cmake(KPim5Mime) \

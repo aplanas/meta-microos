@@ -10,6 +10,7 @@ RPM_HASH = "1cff05c8b0b53295cd9d44037ded1c82bb539799f2db2e58145d0cafbaf673187269
 RPROVIDES:${PN} += "MozillaFirefox-branding \
 MozillaFirefox-branding-openSUSE \
 MozillaFirefox-branding-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

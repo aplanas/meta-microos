@@ -12,6 +12,7 @@ RPM_HASH = "71812de5b2940d204241150c087c45dcb4cc30d88a4a0a7a2d79957576168b55ded5
 
 RPROVIDES:${PN} += "ccx \
 ccx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libarpack.so.2()(64bit) \

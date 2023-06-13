@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(conteq.sty) \
 texlive-conteq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

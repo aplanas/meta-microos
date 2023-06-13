@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_part.so.2()(64bit) \
 libbd_part2 \
 libbd_part2(aarch-64) \
 libblockdev-part"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gptfdisk \
 ld-linux-aarch64.so.1()(64bit) \

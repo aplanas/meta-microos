@@ -9,6 +9,7 @@ RPM_HASH = "7526c3cec15dfb174276f25f8932595d2c743055fc88eb26522c2153dcf5e35eb183
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-tregisters"
+
 RDEPENDS:${PN} += "vim \
 vim-plugin-tlib"
 

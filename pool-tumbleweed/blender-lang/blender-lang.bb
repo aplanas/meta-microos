@@ -48,6 +48,7 @@ locale(blender:uk) \
 locale(blender:vi) \
 locale(blender:zh_CN) \
 locale(blender:zh_TW)"
+
 RDEPENDS:${PN} += "blender"
 
 inherit rpm

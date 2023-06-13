@@ -15,6 +15,7 @@ libfftw3-3(aarch-64) \
 libfftw3.so.3()(64bit) \
 libfftw3f.so.3()(64bit) \
 libfftw3l.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

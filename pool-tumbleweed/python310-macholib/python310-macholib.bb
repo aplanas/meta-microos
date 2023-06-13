@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-macholib \
 python3.10dist(macholib) \
 python310-macholib \
 python3dist(macholib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

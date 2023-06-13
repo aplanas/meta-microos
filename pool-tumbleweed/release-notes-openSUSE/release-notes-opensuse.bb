@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "release-notes \
 release-notes-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

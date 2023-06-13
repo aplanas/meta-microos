@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(webencodings) \
 python311-webencodings \
 python3dist(webencodings)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -43,6 +43,7 @@ tex(bfhpub.cls) \
 tex(bfhsciposter.cls) \
 tex(bfhthesis.cls) \
 texlive-bfh-ci"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

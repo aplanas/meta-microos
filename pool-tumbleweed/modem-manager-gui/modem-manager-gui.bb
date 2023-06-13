@@ -28,6 +28,7 @@ metainfo() \
 metainfo(modem-manager-gui.appdata.xml) \
 modem-manager-gui \
 modem-manager-gui(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ModemManager \
 ld-linux-aarch64.so.1()(64bit) \

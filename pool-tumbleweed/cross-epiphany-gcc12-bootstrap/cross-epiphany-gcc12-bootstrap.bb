@@ -17,6 +17,7 @@ RPM_HASH = "c5f33eb689f2574bf71314729ef8dae47a0791982fda6ca66f1db2eb899e6b6baa31
 RPROVIDES:${PN} += "cross-epiphany-gcc12-bootstrap \
 cross-epiphany-gcc12-bootstrap(aarch-64) \
 epiphany-elf-gcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-epiphany-binutils \
 update-alternatives"

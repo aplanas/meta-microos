@@ -20,6 +20,7 @@ RPM_HASH = "f30db8953976b9ce5e832252c2d61007727b234ae51e05796edf025ee02d6c715f4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-dot"
+
 RDEPENDS:${PN} += "graphviz \
 graphviz-gd \
 graphviz-gnome \

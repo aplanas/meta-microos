@@ -10,6 +10,7 @@ RPM_HASH = "892db19f812290d10ced49e5825be00d850f7feea7e6e3322b85f554ceeb9440fc5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "materia-gtk-theme"
+
 RDEPENDS:${PN} += "gnome-themes-extras"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "0c3f6253d731e7465ba20e0c4a587f4f84a712d133a28584496bbd864ce00f7bc6a4
 
 RPROVIDES:${PN} += "compat-usrmerge-build \
 compat-usrmerge-build(aarch-64)"
+
 RDEPENDS:${PN} += "lua"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hyph-ia.tex) \
 tex(loadhyph-ia.tex) \
 texlive-hyphen-interlingua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

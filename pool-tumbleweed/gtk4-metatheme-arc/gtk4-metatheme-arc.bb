@@ -12,6 +12,7 @@ RPM_HASH = "cc01c3342bfdbfff52c1c40e02118da444e850358d1fed21f58f8e348dbbb68ec219
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-metatheme-arc"
+
 RDEPENDS:${PN} += "gtk4 \
 metatheme-arc-common"
 

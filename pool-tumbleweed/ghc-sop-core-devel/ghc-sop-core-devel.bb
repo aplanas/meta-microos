@@ -10,6 +10,7 @@ RPM_HASH = "9b84a5a69e0a808b68856996004ba88d28a9996b290427214c5d9cf780b6c05f1dc5
 RPROVIDES:${PN} += "ghc-devel(sop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe) \
 ghc-sop-core-devel \
 ghc-sop-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

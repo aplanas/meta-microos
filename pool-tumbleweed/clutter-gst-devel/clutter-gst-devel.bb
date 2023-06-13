@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "clutter-doc \
 clutter-gst-devel \
 clutter-gst-devel(aarch-64) \
 pkgconfig(clutter-gst-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-plugin-cluttergst3 \
 libclutter-gst-3_0-0 \

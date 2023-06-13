@@ -11,6 +11,7 @@ RPM_HASH = "07fc96e78c8fde000f507a33ef5bb316a19df4e6fada0428c281781423d4e4878aa8
 RPROVIDES:${PN} += "gstreamer-transcoder-devel \
 gstreamer-transcoder-devel(aarch-64) \
 pkgconfig(gstreamer-transcoder-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-devel \
 gstreamer-plugins-bad \

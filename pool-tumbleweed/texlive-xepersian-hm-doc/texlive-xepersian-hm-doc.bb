@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-xepersian-hm-doc:fa) \
 texlive-xepersian-hm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

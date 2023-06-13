@@ -13,6 +13,7 @@ RPM_HASH = "edef739d98cc8f8bccbffd0e72eb33b8a6a42dc25fb392bc1c51b5be331ea61fc794
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

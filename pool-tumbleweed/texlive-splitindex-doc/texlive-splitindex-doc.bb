@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(splitindex.1) \
 texlive-splitindex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

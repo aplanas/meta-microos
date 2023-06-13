@@ -16,6 +16,7 @@ perl(List::Compare::Functional) \
 perl(List::Compare::Multiple) \
 perl(List::Compare::Multiple::Accelerated) \
 perl-List-Compare"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -20,6 +20,7 @@ pkgconfig(krb5) \
 pkgconfig(krb5-gssapi) \
 pkgconfig(mit-krb5) \
 pkgconfig(mit-krb5-gssapi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 keyutils-devel \

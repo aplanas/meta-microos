@@ -17,6 +17,7 @@ RPM_HASH = "5bf00fa7508fa1db6ec7879a4179e30449eecb7507359905e481c4eae38f7f0e5b26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-SpeechRecognition-common-en-US"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

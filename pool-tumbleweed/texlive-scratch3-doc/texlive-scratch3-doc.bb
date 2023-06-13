@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-scratch3-doc:fr) \
 texlive-scratch3-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

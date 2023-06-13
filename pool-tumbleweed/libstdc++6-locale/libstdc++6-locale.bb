@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libstdc++6-locale \
 libstdc++6-locale(aarch-64) \
 locale(libstdc++6:de) \
 locale(libstdc++6:fr)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

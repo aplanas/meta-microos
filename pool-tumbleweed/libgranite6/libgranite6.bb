@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "granite \
 libgranite.so.6()(64bit) \
 libgranite6 \
 libgranite6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 granite-common \
 ld-linux-aarch64.so.1()(64bit) \

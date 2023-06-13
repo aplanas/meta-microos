@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iso-codes-devel \
 pkgconfig(iso-codes)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 iso-codes"
 

@@ -14,6 +14,7 @@ RPM_HASH = "097964ee9182718002a3ca6ba7c1a6f5addd6df971b867c8df946006b60dffb35e4c
 
 RPROVIDES:${PN} += "edge-addition-planarity-suite \
 edge-addition-planarity-suite(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

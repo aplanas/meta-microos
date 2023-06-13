@@ -115,6 +115,7 @@ font(tlwgtypo) \
 font(umpush) \
 font(waree) \
 texlive-fonts-tlwg-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

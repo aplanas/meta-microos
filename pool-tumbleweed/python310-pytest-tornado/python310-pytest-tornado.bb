@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-tornado \
 python3.10dist(pytest-tornado) \
 python310-pytest-tornado \
 python3dist(pytest-tornado)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-certifi \
 python310-pytest \

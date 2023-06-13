@@ -15,6 +15,7 @@ scalable-font-bg \
 scalable-font-el \
 scalable-font-ru \
 thryomanes-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

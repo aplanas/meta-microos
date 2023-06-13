@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(Notcurses++) \
 notcurses++-devel \
 notcurses++-devel(aarch-64) \
 pkgconfig(notcurses++)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnotcurses++3 \
 pkgconfig(notcurses)"

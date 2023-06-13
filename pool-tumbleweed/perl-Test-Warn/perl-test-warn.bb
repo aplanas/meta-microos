@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::Warn) \
 perl(Test::Warn::Categorization) \
 perl-Test-Warn"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(Sub::Uplevel)"

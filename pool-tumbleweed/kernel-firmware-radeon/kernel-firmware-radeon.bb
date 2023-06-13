@@ -257,6 +257,7 @@ firmware(radeon/verde_pfp.bin) \
 firmware(radeon/verde_rlc.bin) \
 firmware(radeon/verde_smc.bin) \
 kernel-firmware-radeon"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

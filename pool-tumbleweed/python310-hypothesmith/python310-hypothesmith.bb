@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hypothesmith \
 python3.10dist(hypothesmith) \
 python310-hypothesmith \
 python3dist(hypothesmith)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base \
 python310-hypothesis \

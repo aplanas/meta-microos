@@ -12,6 +12,7 @@ RPM_HASH = "9ea816a18be26e427206bd2164e65761e73a37e1a24e267edfd3ff85e8dee55b2e15
 
 RPROVIDES:${PN} += "haveged-devel \
 haveged-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhavege2"
 
 inherit rpm

@@ -28,6 +28,7 @@ tex(zsfmi-reg.tfm) \
 tex(zsfmia-bol.tfm) \
 tex(zsfmia-reg.tfm) \
 texlive-newtxsf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -38,6 +38,7 @@ libqtsensors_iio-sensor-proxy.so(Qt_6.5)(64bit) \
 libqtsensors_iio-sensor-proxy.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-sensors \
 qt6-sensors(aarch-64)"
+
 RDEPENDS:${PN} += "(iio-sensor-proxy if systemd) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

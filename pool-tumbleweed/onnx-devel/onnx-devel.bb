@@ -10,6 +10,7 @@ RPM_HASH = "7aba91137b938ab6791843e1160bfed6c5e62e986b6559c09172710d71b89650612b
 RPROVIDES:${PN} += "cmake(ONNX) \
 onnx-devel \
 onnx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libonnx \
 libonnx_proto \
 libonnxifi_dummy"

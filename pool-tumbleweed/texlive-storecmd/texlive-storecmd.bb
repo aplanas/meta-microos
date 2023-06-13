@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(storecmd.sty) \
 texlive-storecmd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

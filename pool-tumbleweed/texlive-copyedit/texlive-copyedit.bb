@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(copyedit.sty) \
 texlive-copyedit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

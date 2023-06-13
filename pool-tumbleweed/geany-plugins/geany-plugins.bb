@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "geany-plugins \
 geany-plugins(aarch-64) \
 libgeanylua.so()(64bit) \
 libgeanypluginutils.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 geany \
 ld-linux-aarch64.so.1()(64bit) \

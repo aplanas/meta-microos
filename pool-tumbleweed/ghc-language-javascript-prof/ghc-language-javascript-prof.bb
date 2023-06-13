@@ -10,6 +10,7 @@ RPM_HASH = "e486a3ef4a046bfbd079a5e8b322d4f7af04bab5b7b31557c2fcd3dcb76dcd3aa78b
 RPROVIDES:${PN} += "ghc-language-javascript-prof \
 ghc-language-javascript-prof(aarch-64) \
 ghc-prof(language-javascript-0.7.1.0-3FqnIQtG3956Mxug7EpqjM)"
+
 RDEPENDS:${PN} += "ghc-language-javascript-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

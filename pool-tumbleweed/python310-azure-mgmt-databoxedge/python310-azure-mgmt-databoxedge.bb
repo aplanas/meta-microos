@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-databoxedge \
 python3.10dist(azure-mgmt-databoxedge) \
 python310-azure-mgmt-databoxedge \
 python3dist(azure-mgmt-databoxedge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

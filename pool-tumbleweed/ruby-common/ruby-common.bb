@@ -49,6 +49,7 @@ rpm_macro(rubyxSTOP) \
 rpm_macro(set_gem_binary) \
 ruby-common \
 ruby-macros"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/getopt \

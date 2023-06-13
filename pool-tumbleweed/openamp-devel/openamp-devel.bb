@@ -10,6 +10,7 @@ RPM_HASH = "3de4657d757927a4a43184f1b29afe6cd5deda2c26a24f6e522f97f86e100177716d
 
 RPROVIDES:${PN} += "openamp-devel \
 openamp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopen_amp0"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pdfxup.1) \
 texlive-pdfxup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

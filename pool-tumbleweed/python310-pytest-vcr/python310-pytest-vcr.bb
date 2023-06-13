@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-vcr \
 python3.10dist(pytest-vcr) \
 python310-pytest-vcr \
 python3dist(pytest-vcr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-vcrpy"

@@ -11,6 +11,7 @@ RPM_HASH = "e1968146e996e7c005b45e1910d189d6f55f5f9ddbff7658115017332f33c4fb0a51
 RPROVIDES:${PN} += "libLMS7Support.so()(64bit) \
 soapysdr0.8-module-lms7 \
 soapysdr0.8-module-lms7(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLimeSuite.so.22.09-1()(64bit) \

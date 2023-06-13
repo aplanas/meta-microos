@@ -16,6 +16,7 @@ python3.10dist(deap) \
 python310-deap \
 python310-deap(aarch-64) \
 python3dist(deap)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

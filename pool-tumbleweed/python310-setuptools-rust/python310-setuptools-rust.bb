@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-setuptools-rust \
 python3.10dist(setuptools-rust) \
 python310-setuptools-rust \
 python3dist(setuptools-rust)"
+
 RDEPENDS:${PN} += "cargo \
 python(abi) \
 python310-semantic_version \

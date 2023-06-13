@@ -29,6 +29,7 @@ perl(File::Flock::Subprocess) \
 perl(File::Flock::Subprocess::Connections) \
 perl(File::Flock::Subprocess::Master) \
 perl-File-Flock"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \
 perl(Data::Structure::Util) \

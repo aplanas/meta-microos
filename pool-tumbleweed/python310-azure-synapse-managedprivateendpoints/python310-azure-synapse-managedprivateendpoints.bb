@@ -16,6 +16,7 @@ python3.10dist(azure-synapse-managedprivateendpoints) \
 python310-azure-synapse \
 python310-azure-synapse-managedprivateendpoints \
 python3dist(azure-synapse-managedprivateendpoints)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

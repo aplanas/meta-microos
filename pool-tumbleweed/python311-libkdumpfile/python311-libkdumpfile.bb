@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(libkdumpfile) \
 python311-libkdumpfile \
 python311-libkdumpfile(aarch-64) \
 python3dist(libkdumpfile)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaddrxlat.so.3()(64bit) \

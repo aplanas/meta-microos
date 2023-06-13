@@ -11,6 +11,7 @@ RPM_HASH = "35d4c515fe1738144c102e3587c09cd57402524631a155a5bb7e170845fda2e1d861
 RPROVIDES:${PN} += "libslirp-devel \
 libslirp-devel(aarch-64) \
 pkgconfig(slirp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libslirp0 \
 pkgconfig(glib-2.0)"

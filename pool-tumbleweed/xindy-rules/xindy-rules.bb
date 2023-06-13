@@ -12,6 +12,7 @@ RPM_HASH = "5757005a79d0c98d12765849bccb0fbc869c121cb0ed4478518f7161a288fedce071
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xindy-rules"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

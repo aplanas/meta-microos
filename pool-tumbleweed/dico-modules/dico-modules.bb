@@ -13,6 +13,7 @@ RPM_HASH = "dae6ac5098e8f8141fdd76fc198550e7806b3d3793ab5b1505e2a214d2ae7e76be5c
 
 RPROVIDES:${PN} += "dico-modules \
 dico-modules(aarch-64)"
+
 RDEPENDS:${PN} += "dico \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

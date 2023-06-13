@@ -40,6 +40,7 @@ python310-pyroute2.ndb \
 python310-pyroute2.nftables \
 python310-pyroute2.nslink \
 python3dist(pyroute2)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 update-alternatives"

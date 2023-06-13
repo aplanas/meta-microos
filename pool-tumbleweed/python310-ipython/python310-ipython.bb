@@ -55,6 +55,7 @@ python310-jupyter_ipython-doc \
 python310-jupyter_ipython-doc-html \
 python310-jupyter_ipython-doc-pdf \
 python3dist(ipython)"
+
 RDEPENDS:${PN} += "(python310-prompt_toolkit >= 3.0.38 with python310-prompt_toolkit < 3.1) \
 /bin/sh \
 /usr/bin/python3.10 \

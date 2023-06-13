@@ -13,6 +13,7 @@ RPM_HASH = "1a0c6cc0df75619d23a03073668b364edd8a518aacd69d21b08a36f68b09cb2b6e97
 RPROVIDES:${PN} += "libtun6-0 \
 libtun6-0(aarch-64) \
 libtun6.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

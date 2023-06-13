@@ -13,6 +13,7 @@ RPM_HASH = "d1cd6c369bdf97554fdf2896734312dad4e780ae61b372ada35b26f4f033b2ba384d
 RPROVIDES:${PN} += "libskk-devel \
 libskk-devel(aarch-64) \
 pkgconfig(libskk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libskk0 \
 pkgconfig(gee-0.8) \

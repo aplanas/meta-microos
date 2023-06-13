@@ -10,6 +10,7 @@ RPM_HASH = "5919f7d330844fcabbb0f4a932e9f79c215e0ec82547ef86eeb7bf6486738f32656b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sysvinit-tools-doc"
+
 RDEPENDS:${PN} += "sysvinit-tools"
 
 inherit rpm

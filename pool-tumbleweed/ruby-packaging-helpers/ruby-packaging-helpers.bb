@@ -12,6 +12,7 @@ RPM_HASH = "d94a2060148389ac84abe0c818b92e38a63505f7cfd7ed9517baade3132f3ccb74fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-packaging-helpers"
+
 RDEPENDS:${PN} += "/usr/bin/ruby \
 ruby-common"
 

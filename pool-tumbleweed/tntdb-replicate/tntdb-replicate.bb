@@ -9,6 +9,7 @@ RPM_HASH = "9e33751d1c6f758461def69c6e5c7fd4efb9e770d13e21aaed84d8bc1af2e4eaac91
 
 RPROVIDES:${PN} += "tntdb-replicate \
 tntdb-replicate(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-datalake-nspkg) \
 python311-azure-mgmt-datalake-nspkg \
 python3dist(azure-mgmt-datalake-nspkg)"
+
 RDEPENDS:${PN} += "python311-azure-mgmt-nspkg \
 python311-azure-nspkg"
 

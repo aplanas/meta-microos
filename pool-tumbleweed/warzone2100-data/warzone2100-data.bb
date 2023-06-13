@@ -23,6 +23,7 @@ RPM_HASH = "141e97622583e3ac2c84491135d4c6047c2f4fc89894d8bf35c171ec7aaa573120d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warzone2100-data"
+
 RDEPENDS:${PN} += "warzone2100"
 
 inherit rpm

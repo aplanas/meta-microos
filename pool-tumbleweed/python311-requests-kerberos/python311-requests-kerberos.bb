@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-kerberos) \
 python311-requests-kerberos \
 python3dist(requests-kerberos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyspnego \
 python311-requests"

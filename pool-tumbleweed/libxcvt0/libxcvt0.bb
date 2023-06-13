@@ -12,6 +12,7 @@ RPM_HASH = "dfa991882af7c87971e8de5b5c457dff07e209fcf31fbd42bfd098e3ddb1ca0bf1c1
 RPROVIDES:${PN} += "libxcvt.so.0()(64bit) \
 libxcvt0 \
 libxcvt0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

@@ -14,6 +14,7 @@ libnotes.so()(64bit) \
 xfce4-notes-plugin \
 xfce4-notes-plugin(aarch-64) \
 xfce4-panel-plugin-notes"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

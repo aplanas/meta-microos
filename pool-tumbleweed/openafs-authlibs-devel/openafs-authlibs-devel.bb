@@ -16,6 +16,7 @@ RPM_HASH = "89d1ef335ae7bd857234fe57827c5a4d03e0b5eb4cdbc1e7d8b04d4b76743eade9fe
 
 RPROVIDES:${PN} += "openafs-authlibs-devel \
 openafs-authlibs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "openafs-authlibs \
 openafs-devel"
 

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jchardet \
 mvn(net.sourceforge.jchardet:jchardet) \
 mvn(net.sourceforge.jchardet:jchardet:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

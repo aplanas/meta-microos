@@ -11,6 +11,7 @@ RPM_HASH = "33e8df35f030b9fceb83a9ee2c285327f62e472db904f40b2676fa8d5ae5e1c27a55
 RPROVIDES:${PN} += "libtomoyotools.so.3()(64bit) \
 tomoyo-tools \
 tomoyo-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

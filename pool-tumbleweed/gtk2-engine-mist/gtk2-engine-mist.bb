@@ -11,6 +11,7 @@ RPM_HASH = "c807572effdf87bf88bae0005cf71a141c3c5370b06d7e24aa506c8c8122f48fd75f
 RPROVIDES:${PN} += "gtk2-engine-mist \
 gtk2-engine-mist(aarch-64) \
 libmist.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

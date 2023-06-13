@@ -23,6 +23,7 @@ RPM_HASH = "145b1703487ebe37e95b330702746e8c5880e7f8714aaa4d37a292c0d5c10acf3b3c
 
 RPROVIDES:${PN} += "addrwatch \
 addrwatch(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -22,6 +22,7 @@ RPM_HASH = "15283292286b587314a363d54e0e2820b5e80fbcc86ed35754d84c6fcccf4cdb522f
 RPROVIDES:${PN} += "python-lammps:/usr/lib64/python3.10/site-packages/lammps.py \
 python3-lammps \
 python3-lammps(aarch-64)"
+
 RDEPENDS:${PN} += "liblammps0 \
 python(abi)"
 

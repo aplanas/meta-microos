@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-Flask-Mailman \
 python3.10dist(flask-mailman) \
 python310-Flask-Mailman \
 python3dist(flask-mailman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

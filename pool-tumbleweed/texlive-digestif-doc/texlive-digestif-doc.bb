@@ -9,6 +9,7 @@ RPM_HASH = "7d86c9703c86cbfd772335d2bd9ed7709b14a44d20f800e60758a709c2561cbd6f48
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-digestif-doc"
+
 RDEPENDS:${PN} += "/usr/bin/lua"
 
 inherit rpm

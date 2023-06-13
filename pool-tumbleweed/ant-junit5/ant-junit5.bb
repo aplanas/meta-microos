@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-junit5 \
 config(ant-junit5) \
 mvn(org.apache.ant:ant-junitlauncher) \
 mvn(org.apache.ant:ant-junitlauncher:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

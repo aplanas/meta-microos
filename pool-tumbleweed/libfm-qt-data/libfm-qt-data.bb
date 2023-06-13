@@ -9,6 +9,7 @@ RPM_HASH = "7f576507bf448e9fa633e29ff402c33c9a68af076c4db13a085d7b3c795631ca6fc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfm-qt-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

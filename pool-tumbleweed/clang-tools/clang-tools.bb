@@ -20,6 +20,7 @@ clang-tools(aarch-64) \
 emacs-llvm \
 scan-build \
 scan-view"
+
 RDEPENDS:${PN} += "/usr/bin/clang \
 /usr/bin/perl \
 /usr/bin/python3 \

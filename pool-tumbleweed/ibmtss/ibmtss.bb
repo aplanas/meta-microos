@@ -14,6 +14,7 @@ RPM_HASH = "bf92fdde4ae0adfd78192a0e36c7c453c5a3cfa7ad2612cbc8f8bd0ec1c9a44bf38d
 
 RPROVIDES:${PN} += "ibmtss \
 ibmtss(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

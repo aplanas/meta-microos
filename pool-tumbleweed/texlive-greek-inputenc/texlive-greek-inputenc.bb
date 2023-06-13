@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(iso-8859-7.def) \
 tex(macgreek.def) \
 texlive-greek-inputenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

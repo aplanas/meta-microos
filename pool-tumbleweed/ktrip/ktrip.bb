@@ -15,6 +15,7 @@ ktrip \
 ktrip(aarch-64) \
 metainfo() \
 metainfo(org.kde.ktrip.appdata.xml)"
+
 RDEPENDS:${PN} += "breeze5-icons \
 kirigami2 \
 kpublictransport \

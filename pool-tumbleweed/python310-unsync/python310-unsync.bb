@@ -36,6 +36,7 @@ RPROVIDES:${PN} += "python3-unsync \
 python3.10dist(unsync) \
 python310-unsync \
 python3dist(unsync)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

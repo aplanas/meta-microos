@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-opencensus-ext-threading \
 python3.10dist(opencensus-ext-threading) \
 python310-opencensus-ext-threading \
 python3dist(opencensus-ext-threading)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-opencensus"
 

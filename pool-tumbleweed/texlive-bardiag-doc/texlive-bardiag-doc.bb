@@ -9,6 +9,7 @@ RPM_HASH = "9947be67ccede1880e4927e66cc95aceac852ef1b9048047c664005010cdabace521
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bardiag-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

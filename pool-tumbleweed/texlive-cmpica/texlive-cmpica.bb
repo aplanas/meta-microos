@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(cmpica.tfm) \
 tex(cmpicab.tfm) \
 tex(cmpicati.tfm) \
 texlive-cmpica"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

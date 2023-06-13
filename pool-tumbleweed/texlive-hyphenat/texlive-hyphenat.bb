@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hyphenat.sty) \
 texlive-hyphenat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

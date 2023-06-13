@@ -13,6 +13,7 @@ RPM_HASH = "1fcd694e6f6bb4f218411e44c4bc5b21f6bf3ee3738958c50268d5872251686ebdad
 RPROVIDES:${PN} += "glpk-devel \
 glpk-devel(aarch-64) \
 pkgconfig(glpk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglpk40"
 

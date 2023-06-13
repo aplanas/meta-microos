@@ -11,6 +11,7 @@ RPM_HASH = "87d31c83e396fcbbf6fbb5016991764536bd71442c1fd8977362703ec7212ffe5994
 RPROVIDES:${PN} += "alsa-tools \
 as10k1 \
 as10k1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

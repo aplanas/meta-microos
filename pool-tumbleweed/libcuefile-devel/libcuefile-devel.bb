@@ -9,6 +9,7 @@ RPM_HASH = "95be771f532950bb6588af381d621990279700901929ab1b86c6b72ab77afe5ba685
 
 RPROVIDES:${PN} += "libcuefile-devel \
 libcuefile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcuefile0"
 
 inherit rpm

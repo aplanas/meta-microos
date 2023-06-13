@@ -13,6 +13,7 @@ RPM_HASH = "504df92458b227c4cba60f5012a1b55d6c5c0039c0471e117c9ec0d1b60f07d17191
 
 RPROVIDES:${PN} += "fzy \
 fzy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

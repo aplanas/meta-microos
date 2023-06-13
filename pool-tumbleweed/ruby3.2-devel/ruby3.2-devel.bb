@@ -12,6 +12,7 @@ ruby3.2-devel \
 ruby3.2-devel(aarch-64) \
 rubygems \
 rubygems_with_buildroot_patch"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ruby3.2"
 

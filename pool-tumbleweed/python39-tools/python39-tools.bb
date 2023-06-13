@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python39-2to3 \
 python39-demo \
 python39-tools \
 python39-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python(abi) \
 python39-base"

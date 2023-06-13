@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-gamelift \
 mvn(com.amazonaws:aws-java-sdk-gamelift) \
 mvn(com.amazonaws:aws-java-sdk-gamelift:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.amazonaws:aws-java-sdk-core)"

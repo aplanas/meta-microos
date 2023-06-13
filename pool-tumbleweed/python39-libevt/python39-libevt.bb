@@ -11,6 +11,7 @@ RPM_HASH = "a131a2aad2609c0eab0e6c0b3e633f132b156317f6840114a98205cdce636fda6ae9
 
 RPROVIDES:${PN} += "python39-libevt \
 python39-libevt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

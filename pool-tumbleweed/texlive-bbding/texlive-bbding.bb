@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(Uding.fd) \
 tex(bbding.sty) \
 tex(bbding10.tfm) \
 texlive-bbding"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

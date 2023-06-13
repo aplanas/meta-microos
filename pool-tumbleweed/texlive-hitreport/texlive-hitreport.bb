@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hitreport.cls) \
 texlive-hitreport"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

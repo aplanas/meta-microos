@@ -11,6 +11,7 @@ RPM_HASH = "affb9af2616d19cc481067bfb1556b77a348e9975f8f31935a87a5e7ac031d96b76f
 RPROVIDES:${PN} += "libgtkdatabox.so.1()(64bit) \
 libgtkdatabox1 \
 libgtkdatabox1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

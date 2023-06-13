@@ -10,6 +10,7 @@ RPM_HASH = "e4bf5fd15a8000e12a3d51cd6fe85ed6051fecd1acef05693800d9c8f62825925891
 RPROVIDES:${PN} += "libdc1394 \
 libdc1394-tools \
 libdc1394-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ group(statd) \
 nfs-client \
 nfs-client(aarch-64) \
 user(statd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

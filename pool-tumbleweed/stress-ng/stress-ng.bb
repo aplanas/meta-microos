@@ -14,6 +14,7 @@ RPM_HASH = "543dc2bd2ae73baefcb52b788d11577c51556494c42bb6c1c960f7751ff1dc0baa05
 
 RPROVIDES:${PN} += "stress-ng \
 stress-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \

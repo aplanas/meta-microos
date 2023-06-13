@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libnetfilter_log-devel \
 libnetfilter_log-devel(aarch-64) \
 pkgconfig(libnetfilter_log) \
 pkgconfig(libnetfilter_log_libipulog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_log1 \
 libnfnetlink-devel \

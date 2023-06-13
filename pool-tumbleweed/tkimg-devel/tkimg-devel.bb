@@ -9,6 +9,7 @@ RPM_HASH = "6a87ba4c72ac0538af9919275531d35c8052be7878ff8cab1755c91c0f4af1c8aaf3
 
 RPROVIDES:${PN} += "tkimg-devel \
 tkimg-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

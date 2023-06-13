@@ -15,6 +15,7 @@ locale(net-tools:fr) \
 locale(net-tools:pt_BR) \
 net-tools-lang \
 net-tools-lang-all"
+
 RDEPENDS:${PN} += "net-tools"
 
 inherit rpm

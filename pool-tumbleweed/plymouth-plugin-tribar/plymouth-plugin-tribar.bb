@@ -12,6 +12,7 @@ RPM_HASH = "18c21bf8ade23d0303b4af8feefed98a8446461f3fa345a0d4e3fa6f78c53b404101
 
 RPROVIDES:${PN} += "plymouth-plugin-tribar \
 plymouth-plugin-tribar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

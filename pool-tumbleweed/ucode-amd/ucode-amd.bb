@@ -15,6 +15,7 @@ firmware(amd-ucode/microcode_amd_fam16h.bin) \
 firmware(amd-ucode/microcode_amd_fam17h.bin) \
 firmware(amd-ucode/microcode_amd_fam19h.bin) \
 ucode-amd"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch"

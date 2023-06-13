@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(org.opensuse.yast.ADUC.desktop) \
 yast-aduc \
 yast2-aduc"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 krb5-client \
 samba-client \

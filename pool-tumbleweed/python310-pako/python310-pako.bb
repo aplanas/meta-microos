@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pako \
 python3.10dist(pako) \
 python310-pako \
 python3dist(pako)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

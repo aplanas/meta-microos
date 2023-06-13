@@ -10,6 +10,7 @@ RPM_HASH = "abcde161228516b29b6b0099bed5d4d2502b5dc6e1c8f309865ed206aa64588d476a
 RPROVIDES:${PN} += "pkgconfig(tinygettext) \
 tinygettext-devel \
 tinygettext-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtinygettext0"
 

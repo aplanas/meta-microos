@@ -21,6 +21,7 @@ tex(ieee.bbx) \
 tex(ieee.cbx) \
 tex(magyar-ieee.lbx) \
 texlive-biblatex-ieee"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

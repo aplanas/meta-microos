@@ -11,6 +11,7 @@ RPM_HASH = "841596c1d10662b5af81f941433da3cf6842b5b1730ec91c4c4f82797d95612d46a7
 
 RPROVIDES:${PN} += "memkind \
 memkind(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libmemkind.so.0()(64bit) \
 libnuma.so.1()(64bit) \

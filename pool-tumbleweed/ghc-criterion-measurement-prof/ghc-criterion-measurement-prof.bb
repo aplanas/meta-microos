@@ -10,6 +10,7 @@ RPM_HASH = "9f9cfca6dab05bf92992e236052a0cccb13804c9e546435e04202914441362f07f78
 RPROVIDES:${PN} += "ghc-criterion-measurement-prof \
 ghc-criterion-measurement-prof(aarch-64) \
 ghc-prof(criterion-measurement-0.2.1.0-87nlGOXoqxrBN5mUt0bPv1)"
+
 RDEPENDS:${PN} += "ghc-criterion-measurement-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

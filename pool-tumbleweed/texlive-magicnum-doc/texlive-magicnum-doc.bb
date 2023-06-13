@@ -9,6 +9,7 @@ RPM_HASH = "652893cd5402a04e89de06f31808170f1cf698a06cb901718d5423ce29498cb64ae2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-magicnum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

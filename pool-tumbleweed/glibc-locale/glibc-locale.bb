@@ -504,6 +504,7 @@ locale(glibc:zh_TW.euctw) \
 locale(glibc:zh_TW.utf8) \
 locale(glibc:zu_ZA) \
 locale(glibc:zu_ZA.utf8)"
+
 RDEPENDS:${PN} += "glibc-locale-base"
 
 inherit rpm

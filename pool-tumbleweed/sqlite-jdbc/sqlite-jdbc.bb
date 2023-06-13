@@ -18,6 +18,7 @@ mvn(org.xerial:sqlite-jdbc:pom:) \
 osgi(org.xerial.sqlite-jdbc) \
 sqlite-jdbc \
 sqlite-jdbc(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

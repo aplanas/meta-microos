@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zict) \
 python311-zict \
 python3dist(zict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-HeapDict"
 

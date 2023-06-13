@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-markdown-math) \
 python311-markdown-math \
 python3dist(python-markdown-math)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Markdown"
 

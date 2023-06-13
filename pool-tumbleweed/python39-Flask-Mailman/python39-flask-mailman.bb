@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-mailman) \
 python39-Flask-Mailman \
 python3dist(flask-mailman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask"
 

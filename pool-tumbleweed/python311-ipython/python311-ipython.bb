@@ -48,6 +48,7 @@ python311-jupyter_ipython-doc \
 python311-jupyter_ipython-doc-html \
 python311-jupyter_ipython-doc-pdf \
 python3dist(ipython)"
+
 RDEPENDS:${PN} += "(python311-prompt_toolkit >= 3.0.38 with python311-prompt_toolkit < 3.1) \
 /bin/sh \
 /usr/bin/python3.11 \

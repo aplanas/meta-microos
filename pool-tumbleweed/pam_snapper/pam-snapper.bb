@@ -9,6 +9,7 @@ RPM_HASH = "75c25d8288f2ce49d78cba8aa2c7405ec823bdba4ffbbc4e9ac0872295f87a84ee0b
 
 RPROVIDES:${PN} += "pam_snapper \
 pam_snapper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

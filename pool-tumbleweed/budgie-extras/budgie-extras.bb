@@ -9,6 +9,7 @@ RPM_HASH = "660adff9ebf5d0608ea2bcccac0d7638ca05aea10510382a108df8fbf6632421d2cf
 
 RPROVIDES:${PN} += "budgie-extras \
 budgie-extras(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

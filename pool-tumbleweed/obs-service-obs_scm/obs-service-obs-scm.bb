@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-obs_scm \
 obs-service-tar_scm:/usr/lib/obs/service/obs_scm.service"
+
 RDEPENDS:${PN} += "git-core \
 obs-service-obs_scm-common"
 

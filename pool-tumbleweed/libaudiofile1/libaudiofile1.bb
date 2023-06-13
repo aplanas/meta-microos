@@ -16,6 +16,7 @@ RPM_HASH = "2f63988958d9089ad55d741e3822e56c1720266f86cb3ab83b6b3db5624a3364380b
 RPROVIDES:${PN} += "libaudiofile.so.1()(64bit) \
 libaudiofile1 \
 libaudiofile1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

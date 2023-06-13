@@ -10,6 +10,7 @@ RPM_HASH = "0de845745787dd1490a02d5e902743420d2f8bca0ee1ef1a2733ff00e34776628d55
 
 RPROVIDES:${PN} += "collectd-plugin-amqp \
 collectd-plugin-amqp(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

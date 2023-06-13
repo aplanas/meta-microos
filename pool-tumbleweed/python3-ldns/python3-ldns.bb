@@ -9,6 +9,7 @@ RPM_HASH = "3520864f79d4b817f98cf40354234ed11f864bf8b1277a68d2256ced5a9dad4a1080
 
 RPROVIDES:${PN} += "python3-ldns \
 python3-ldns(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

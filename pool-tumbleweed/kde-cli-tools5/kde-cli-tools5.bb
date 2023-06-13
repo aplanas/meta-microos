@@ -14,6 +14,7 @@ application(org.kde.plasma.settings.open.desktop) \
 kde-cli-tools5 \
 kde-cli-tools5(aarch-64) \
 mimehandler(x-scheme-handler/systemsettings)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kdbusaddons-tools \
 ld-linux-aarch64.so.1()(64bit) \

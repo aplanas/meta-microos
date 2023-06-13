@@ -15,6 +15,7 @@ RPM_HASH = "c51d185ae769b098cbcf7578993c0bb365fa5ada6e4d66123bbddaeb9fc9e92fbefb
 
 RPROVIDES:${PN} += "zynaddsubfx-vst \
 zynaddsubfx-vst(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

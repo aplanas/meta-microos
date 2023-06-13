@@ -13,6 +13,7 @@ RPM_HASH = "07ecae9675afade934cf91948e5934a5a7e53d5521a853156d02277ac8be2ca09d55
 RPROVIDES:${PN} += "broadvoice16 \
 broadvoice16(aarch-64) \
 libbv16.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "14417cf4fbd02ac55ca9fa2f41998b51390bd03c7d3baf4f4ea9b32cbf70ba737df9
 RPROVIDES:${PN} += "libadplug-2.3.3.so.0()(64bit) \
 libadplug2_3_3-0 \
 libadplug2_3_3-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

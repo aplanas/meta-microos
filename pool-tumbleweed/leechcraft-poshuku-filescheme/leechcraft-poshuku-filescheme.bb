@@ -12,6 +12,7 @@ RPM_HASH = "2b2aba42fac13360ead860ebc874d2be8b75ea93f683cef050eb545e9f3172269c50
 RPROVIDES:${PN} += "leechcraft-poshuku-filescheme \
 leechcraft-poshuku-filescheme(aarch-64) \
 libleechcraft_poshuku_filescheme.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

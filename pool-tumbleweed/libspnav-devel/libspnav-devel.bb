@@ -21,6 +21,7 @@ RPM_HASH = "9d877a8cfa9d5aff74a23d3fcb7b018efb76473f32ef223e5a1b37b9420ecfde42f9
 RPROVIDES:${PN} += "libspnav-devel \
 libspnav-devel(aarch-64) \
 pkgconfig(spnav)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspnav0"
 

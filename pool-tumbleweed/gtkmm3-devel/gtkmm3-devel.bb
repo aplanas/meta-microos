@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "gtkmm3-devel \
 gtkmm3-devel(aarch-64) \
 pkgconfig(gdkmm-3.0) \
 pkgconfig(gtkmm-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtkmm-3_0-1 \
 pkgconfig(atkmm-1.6) \

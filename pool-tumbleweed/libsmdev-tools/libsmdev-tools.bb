@@ -11,6 +11,7 @@ RPM_HASH = "12ae5027a2e4544f48ee18d68ecf45b3af920ed5eac8cfaddb1a5322c6d637330751
 
 RPROVIDES:${PN} += "libsmdev-tools \
 libsmdev-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "4806d376b81370c13ff716f2531c6fc05c18700564d89ecd65dd443aa5c3d81e657e
 
 RPROVIDES:${PN} += "coturn-utils \
 coturn-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

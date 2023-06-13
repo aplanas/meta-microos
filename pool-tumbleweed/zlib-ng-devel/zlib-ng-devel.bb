@@ -11,6 +11,7 @@ RPM_HASH = "bc12c2e4e5cb5d2de81427c4b7f46e694d9dd7c437783145735770432ca3b79a2cd3
 RPROVIDES:${PN} += "pkgconfig(zlib-ng) \
 zlib-ng-devel \
 zlib-ng-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libz-ng2"
 

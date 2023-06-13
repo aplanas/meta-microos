@@ -9,6 +9,7 @@ RPM_HASH = "14c25fe47a0cf97c1d771355b051cc84bc4c1458604b4d9a8a4dad0e89e2432c2bbf
 
 RPROVIDES:${PN} += "pqiv-gdkpixbuf \
 pqiv-gdkpixbuf(aarch-64)"
+
 RDEPENDS:${PN} += "libcairo.so.2()(64bit) \
 libgdk-3.so.0()(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

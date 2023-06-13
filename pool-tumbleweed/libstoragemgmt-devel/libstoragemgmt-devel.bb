@@ -11,6 +11,7 @@ RPM_HASH = "4a4ce5e2e1929b284708bb09bfc314068961a6358be25c85e1db3c77985ffa2b11b9
 RPROVIDES:${PN} += "libstoragemgmt-devel \
 libstoragemgmt-devel(aarch-64) \
 pkgconfig(libstoragemgmt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstoragemgmt1"
 

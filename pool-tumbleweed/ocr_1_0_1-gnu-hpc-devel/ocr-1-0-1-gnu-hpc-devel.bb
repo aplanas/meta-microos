@@ -13,6 +13,7 @@ RPM_HASH = "22b25d85871ea04b4e4416cc837c4f0223308dd19ae2537e1893306124872d5c2f28
 
 RPROVIDES:${PN} += "ocr_1_0_1-gnu-hpc-devel \
 ocr_1_0_1-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ocr_1_0_1-gnu-hpc"
 

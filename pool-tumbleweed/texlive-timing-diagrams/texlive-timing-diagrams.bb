@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(timing-diagrams.sty) \
 texlive-timing-diagrams"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

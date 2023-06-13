@@ -56,6 +56,7 @@ osgi(org.eclipse.jgit.pgm) \
 osgi(org.eclipse.jgit.ssh.apache) \
 osgi(org.eclipse.jgit.ssh.jsch) \
 osgi(org.eclipse.jgit.ui)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-material-color-utilities-python \
 python3.10dist(material-color-utilities-python) \
 python310-material-color-utilities-python \
 python3dist(material-color-utilities-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

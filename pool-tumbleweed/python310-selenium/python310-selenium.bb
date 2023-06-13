@@ -16,6 +16,7 @@ python3.10dist(selenium) \
 python310-selenium \
 python310-selenium(aarch-64) \
 python3dist(selenium)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-rdflib \
 python310-urllib3"

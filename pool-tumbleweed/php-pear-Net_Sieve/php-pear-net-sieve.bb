@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "php-pear(Net_Sieve) \
 php-pear-Net_Sieve \
 php5-pear-Net_Sieve \
 php7-pear-Net_Sieve"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear \
 php-pear(Net_Socket)"

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:flog) \
 rubygem(ruby:3.2.0:flog:4) \
 rubygem(ruby:3.2.0:flog:4.6) \
 rubygem(ruby:3.2.0:flog:4.6.6)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby \
 /usr/bin/ruby.ruby3.2 \

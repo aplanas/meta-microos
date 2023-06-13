@@ -18,6 +18,7 @@ application(keepass.desktop) \
 keepass \
 mono(KeePass) \
 mono(KeePassLib)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Drawing) \
 mono(System.Security) \

@@ -21,6 +21,7 @@ tex(xCJK2uni-UJIS.def) \
 tex(xCJK2uni-UKS.def) \
 tex(xCJK2uni.sty) \
 texlive-xcjk2uni"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

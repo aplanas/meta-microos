@@ -20,6 +20,7 @@ RPM_HASH = "8e8fa773d139a2a1746099ec50897b25c6e05eb74e580063e235f8160ad923392628
 RPROVIDES:${PN} += "perl(List::SomeUtils::XS) \
 perl-List-SomeUtils-XS \
 perl-List-SomeUtils-XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

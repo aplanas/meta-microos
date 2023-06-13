@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.9dist(psychtoolbox) \
 python39-psychtoolbox \
 python39-psychtoolbox(aarch-64) \
 python3dist(psychtoolbox)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

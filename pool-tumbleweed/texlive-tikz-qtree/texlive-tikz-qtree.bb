@@ -22,6 +22,7 @@ tex(tikz-qtree-compat.sty) \
 tex(tikz-qtree.sty) \
 tex(tikz-qtree.tex) \
 texlive-tikz-qtree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

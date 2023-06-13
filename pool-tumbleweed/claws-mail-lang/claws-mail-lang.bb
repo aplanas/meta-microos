@@ -32,6 +32,7 @@ locale(claws-mail:sk) \
 locale(claws-mail:sv) \
 locale(claws-mail:tr) \
 locale(claws-mail:zh_TW)"
+
 RDEPENDS:${PN} += "claws-mail"
 
 inherit rpm

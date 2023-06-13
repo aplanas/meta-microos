@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-Chameleon \
 python3.10dist(chameleon) \
 python310-Chameleon \
 python3dist(chameleon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

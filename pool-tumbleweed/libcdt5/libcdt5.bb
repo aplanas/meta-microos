@@ -10,6 +10,7 @@ RPM_HASH = "dc91cb3a5ad228a22a83d2e9ff259dfb59c6374aef12b20a5bdfaf941a3d744755b8
 RPROVIDES:${PN} += "libcdt.so.5()(64bit) \
 libcdt5 \
 libcdt5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

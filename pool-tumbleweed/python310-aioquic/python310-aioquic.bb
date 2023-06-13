@@ -13,6 +13,7 @@ python3.10dist(aioquic) \
 python310-aioquic \
 python310-aioquic(aarch-64) \
 python3dist(aioquic)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "automake \
 config(automake)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 autoconf \

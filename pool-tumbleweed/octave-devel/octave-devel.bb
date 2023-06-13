@@ -26,6 +26,7 @@ rpm_macro(octlib_dir) \
 rpm_macro(octpackages_dir) \
 rpm_macro(octskiptests) \
 rpm_macro(octsysw_settings)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fftw3-devel \
 fftw3-threads-devel \

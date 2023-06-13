@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-constantly \
 python3.10dist(constantly) \
 python310-constantly \
 python3dist(constantly)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

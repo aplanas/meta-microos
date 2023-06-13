@@ -13,6 +13,7 @@ python3.10dist(ezdxf) \
 python310-ezdxf \
 python310-ezdxf(aarch-64) \
 python3dist(ezdxf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

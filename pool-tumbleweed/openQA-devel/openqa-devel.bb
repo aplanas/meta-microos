@@ -9,6 +9,7 @@ RPM_HASH = "d836d5a82a6eb537928f4a9c10f4d52de1404619d41d7d0ebbf1773ec6c9ef05742a
 
 RPROVIDES:${PN} += "openQA-devel \
 openQA-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ShellCheck \
 bsdtar \
 chromedriver \

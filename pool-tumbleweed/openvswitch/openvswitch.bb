@@ -20,6 +20,7 @@ openvswitch-controller \
 openvswitch-dpdk \
 openvswitch-dpdk-switch \
 openvswitch-switch"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

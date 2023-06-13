@@ -16,6 +16,7 @@ RPM_HASH = "4ff11707b5ec4661a0074a169e22af6481eb4150effdeaa8e65420810a14e54b6ce0
 RPROVIDES:${PN} += "vtk-devel:/usr/lib64/libvtkJava.so \
 vtk-java-devel \
 vtk-java-devel(aarch-64)"
+
 RDEPENDS:${PN} += "java-devel \
 vtk-devel \
 vtk-java"

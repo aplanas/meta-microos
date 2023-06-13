@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-qsymm \
 python3.10dist(qsymm) \
 python310-qsymm \
 python3dist(qsymm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy \

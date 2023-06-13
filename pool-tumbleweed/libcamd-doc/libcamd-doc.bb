@@ -9,6 +9,7 @@ RPM_HASH = "c3d2047adfc5af4972f16c060c2ad8c1f5aa632c8430199e2286f873486b2577c229
 
 RPROVIDES:${PN} += "libcamd-doc \
 libcamd-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

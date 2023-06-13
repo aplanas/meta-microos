@@ -10,6 +10,7 @@ RPM_HASH = "a73bd7e1ee85f52732640062fa1de5f607fadbe1bc60664453b53950010f336b95fd
 
 RPROVIDES:${PN} += "openfst-devel \
 openfst-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfst25"
 
 inherit rpm

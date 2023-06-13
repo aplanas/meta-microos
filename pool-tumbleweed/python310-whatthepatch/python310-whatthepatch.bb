@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-whatthepatch \
 python3.10dist(whatthepatch) \
 python310-whatthepatch \
 python3dist(whatthepatch)"
+
 RDEPENDS:${PN} += "ed \
 patch \
 python(abi)"

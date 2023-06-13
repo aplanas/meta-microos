@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(datax.sty) \
 texlive-datax"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

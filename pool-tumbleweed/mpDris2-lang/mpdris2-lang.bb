@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(mpDris2:fr) \
 locale(mpDris2:nl) \
 mpDris2-lang \
 mpDris2-lang-all"
+
 RDEPENDS:${PN} += "mpDris2"
 
 inherit rpm

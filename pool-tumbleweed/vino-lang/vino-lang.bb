@@ -92,6 +92,7 @@ locale(vino:zh_HK) \
 locale(vino:zh_TW) \
 vino-lang \
 vino-lang-all"
+
 RDEPENDS:${PN} += "vino"
 
 inherit rpm

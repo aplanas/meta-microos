@@ -14,6 +14,7 @@ RPM_HASH = "9eed197bbf98cf9266ba6f156541b4ac2643d73118eb741c96719a94225929645835
 RPROVIDES:${PN} += "libselinux-devel \
 libselinux-devel(aarch-64) \
 pkgconfig(libselinux)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libselinux1 \

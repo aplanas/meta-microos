@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "acl-devel \
 libacl-devel \
 libacl-devel(aarch-64) \
 pkgconfig(libacl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libacl1"

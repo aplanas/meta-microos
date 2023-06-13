@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-keycloak \
 python3.10dist(python-keycloak) \
 python310-python-keycloak \
 python3dist(python-keycloak)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-jose \
 python310-requests \

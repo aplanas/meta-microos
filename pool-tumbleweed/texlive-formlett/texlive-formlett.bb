@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(formlett.sty) \
 texlive-formlett"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

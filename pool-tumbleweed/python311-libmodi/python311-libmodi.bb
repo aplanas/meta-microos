@@ -11,6 +11,7 @@ RPM_HASH = "197b623c61a8df52c730b1c60e806046815329b10c1b74583a387ec6680136ee9340
 
 RPROVIDES:${PN} += "python311-libmodi \
 python311-libmodi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

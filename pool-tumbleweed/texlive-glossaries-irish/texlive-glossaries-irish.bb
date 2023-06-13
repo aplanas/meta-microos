@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-irish-noenc.ldf) \
 tex(glossaries-irish-utf8.ldf) \
 tex(glossaries-irish.ldf) \
 texlive-glossaries-irish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

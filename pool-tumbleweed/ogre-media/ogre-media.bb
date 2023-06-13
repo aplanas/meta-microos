@@ -12,6 +12,7 @@ RPM_HASH = "cedb3882bf1055ee33ba197ce794a6fa312d9cfd86d8df5c949a7c1a707e6ae83be2
 
 RPROVIDES:${PN} += "ogre-media \
 ogre-media(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

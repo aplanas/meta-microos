@@ -17,6 +17,7 @@ RPM_HASH = "01cf2d40ee2271dd5a368ca2792088543180442b9bcfe6ee7932925f4ce660e05036
 RPROVIDES:${PN} += "typelib(UPowerGlib) \
 typelib-1_0-UpowerGlib-1_0 \
 typelib-1_0-UpowerGlib-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libupower-glib.so.3()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -11,6 +11,7 @@ RPM_HASH = "b9e83747ee0e5bfc7a063d94c7a76089378a45be0070026083cc25c1a741c2bccf19
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WSL-DistroLauncher-debug"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

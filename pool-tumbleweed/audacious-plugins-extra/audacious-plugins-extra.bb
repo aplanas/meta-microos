@@ -9,6 +9,7 @@ RPM_HASH = "9419eff2005362acb05a311934e55763b056c20c72d942a3f1cf3be9688aaddbe122
 
 RPROVIDES:${PN} += "audacious-plugins-extra \
 audacious-plugins-extra(aarch-64)"
+
 RDEPENDS:${PN} += "audacious-plugins \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

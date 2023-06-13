@@ -9,6 +9,7 @@ RPM_HASH = "4a4d51a0b12018f074fb5af16f3b788940d63266204fdb5dc4f73a9cd520ec60935f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-dunst"
+
 RDEPENDS:${PN} += "bumblebee-status \
 dunst"
 

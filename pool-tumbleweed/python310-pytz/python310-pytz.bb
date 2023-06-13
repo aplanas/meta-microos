@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-pytz \
 python3.10dist(pytz) \
 python310-pytz \
 python3dist(pytz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 python310-base \

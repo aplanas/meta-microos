@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(mercatormap.sty) \
 tex(mercatorpy.def) \
 tex(mercatorsupplier.def) \
 texlive-mercatormap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

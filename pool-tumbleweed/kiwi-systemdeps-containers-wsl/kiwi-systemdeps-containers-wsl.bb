@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kiwi-image-wsl-requires \
 kiwi-image:appx \
 kiwi-systemdeps-containers-wsl \
 kiwi-systemdeps-containers-wsl(aarch-64)"
+
 RDEPENDS:${PN} += "fb-util-for-appx"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "0789c7babd67ea07a2b93a35078a7b477a3b101bd093a959eddfa2163a53b69ca58b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phonrule-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ group(lightdm) \
 lightdm \
 lightdm(aarch-64) \
 user(lightdm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gdmflexiserver \
 ld-linux-aarch64.so.1()(64bit) \

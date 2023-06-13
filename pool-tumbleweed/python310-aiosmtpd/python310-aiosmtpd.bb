@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-aiosmtpd \
 python3.10dist(aiosmtpd) \
 python310-aiosmtpd \
 python3dist(aiosmtpd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -9,6 +9,7 @@ RPM_HASH = "39a18cc07c97bbf931a153c8734d61a0343a121c9a58441f094d9581894f18c70a60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firehol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

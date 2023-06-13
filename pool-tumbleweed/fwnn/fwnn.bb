@@ -19,6 +19,7 @@ RPM_HASH = "a8cfda00d3d1e11ff1cce20c62ed47b4b20c2faffe5519ff9597665eb422e893dd77
 RPROVIDES:${PN} += "config(fwnn) \
 fwnn \
 fwnn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fwnncom \
 ld-linux-aarch64.so.1()(64bit) \

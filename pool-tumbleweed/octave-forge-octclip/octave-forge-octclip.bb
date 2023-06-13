@@ -11,6 +11,7 @@ RPM_HASH = "dc57fe655028665d5078d50f1ff0d5071abf250cecb3177005162655d28f22fb7a06
 
 RPROVIDES:${PN} += "octave-forge-octclip \
 octave-forge-octclip(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

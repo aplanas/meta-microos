@@ -9,6 +9,7 @@ RPM_HASH = "8b477ecf5d7f62c7054386cd38b45d8428f9b6521bc1d3d54ce9c6c4964d9ca9bac8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fnumprint-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

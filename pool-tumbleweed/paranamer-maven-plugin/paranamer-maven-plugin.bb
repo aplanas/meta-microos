@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.thoughtworks.paranamer:paranamer-maven-plugin) \
 mvn(com.thoughtworks.paranamer:paranamer-maven-plugin:pom:) \
 paranamer-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.paranamer:paranamer-generator) \

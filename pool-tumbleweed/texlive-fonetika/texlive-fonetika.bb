@@ -20,6 +20,7 @@ tex(fonetikasans.tfm) \
 tex(fonetikasansbold.tfm) \
 tex(t1fonetika.fd) \
 texlive-fonetika"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "deb36b0e50c2e70426fb34e2aa41e22c2cc96acbb3f9d8c3601f8f0c746949761e99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencensus-proto-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

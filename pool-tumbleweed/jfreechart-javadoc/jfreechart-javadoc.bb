@@ -9,6 +9,7 @@ RPM_HASH = "968e058da8c5ee2d82c14f93abd66a970df3d7d51f2caf641d3875dffb90fafc5c84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jfreechart-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem \
 jfreechart \
 jpackage-utils"

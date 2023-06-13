@@ -70,6 +70,7 @@ locale(bomber:ug) \
 locale(bomber:uk) \
 locale(bomber:zh_CN) \
 locale(bomber:zh_TW)"
+
 RDEPENDS:${PN} += "bomber"
 
 inherit rpm

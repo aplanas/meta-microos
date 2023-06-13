@@ -9,6 +9,7 @@ RPM_HASH = "bfa2e2aaf515ffe8fb378046b18bd5c26937e7aee1fd4649725812331bdd0c6aa442
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lyluatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

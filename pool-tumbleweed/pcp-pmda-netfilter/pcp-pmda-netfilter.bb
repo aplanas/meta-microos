@@ -10,6 +10,7 @@ RPM_HASH = "7628714cf9867a3d1b58d6a99d516c68300afad085fdd240dfe1cd1162e8ea30ee7e
 
 RPROVIDES:${PN} += "pcp-pmda-netfilter \
 pcp-pmda-netfilter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl-PCP-PMDA"
 

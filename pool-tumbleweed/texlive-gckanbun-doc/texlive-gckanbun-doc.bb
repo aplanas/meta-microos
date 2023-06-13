@@ -9,6 +9,7 @@ RPM_HASH = "befc6923efc2eb00412e0796f98d726a704ebccdabf66f0ac30b58e1af3486c947e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gckanbun-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

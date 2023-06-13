@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:ruby-progressbar) \
 rubygem(ruby:3.2.0:ruby-progressbar:1) \
 rubygem(ruby:3.2.0:ruby-progressbar:1.11) \
 rubygem(ruby:3.2.0:ruby-progressbar:1.11.0)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ruby(abi)"
 

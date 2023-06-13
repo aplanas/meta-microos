@@ -11,6 +11,7 @@ RPM_HASH = "8bdcc53636cfee4dc5cca7146e936d47f4a1a8614df81866573fc53a3488d0948031
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-errata"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "a69c47ed4bdfeb79441336f4cdf8bbb058a061592f957c6551c17ce71a844e8e15f2
 RPROVIDES:${PN} += "libKF5TextGrammarCheck.so.1()(64bit) \
 libKF5TextGrammarCheck1 \
 libKF5TextGrammarCheck1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ktextaddons \
 ld-linux-aarch64.so.1()(64bit) \

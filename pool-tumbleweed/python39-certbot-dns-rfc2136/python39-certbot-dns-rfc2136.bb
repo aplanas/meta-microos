@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(certbot-dns-rfc2136) \
 python39-certbot-dns-rfc2136 \
 python3dist(certbot-dns-rfc2136)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-acme \
 python39-certbot \

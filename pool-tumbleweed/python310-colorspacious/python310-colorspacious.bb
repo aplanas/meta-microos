@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-colorspacious \
 python3.10dist(colorspacious) \
 python310-colorspacious \
 python3dist(colorspacious)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

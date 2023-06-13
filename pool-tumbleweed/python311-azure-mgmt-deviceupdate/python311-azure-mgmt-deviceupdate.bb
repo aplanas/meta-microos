@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-deviceupdate) \
 python311-azure-mgmt-deviceupdate \
 python3dist(azure-mgmt-deviceupdate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

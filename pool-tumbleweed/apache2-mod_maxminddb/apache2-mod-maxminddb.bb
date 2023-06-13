@@ -10,6 +10,7 @@ RPM_HASH = "f1f53e1b810d1ac15a67b402d06a259112e3b51ab13363be5fcdf7c163b4f05686a0
 RPROVIDES:${PN} += "apache2-mod_maxminddb \
 apache2-mod_maxminddb(aarch-64) \
 config(apache2-mod_maxminddb)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

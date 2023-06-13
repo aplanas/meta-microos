@@ -75,6 +75,7 @@ locale(k3b:uk) \
 locale(k3b:wa) \
 locale(k3b:zh_CN) \
 locale(k3b:zh_TW)"
+
 RDEPENDS:${PN} += "k3b"
 
 inherit rpm

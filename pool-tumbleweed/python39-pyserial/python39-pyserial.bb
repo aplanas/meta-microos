@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pyserial) \
 python39-pyserial \
 python39-serial \
 python3dist(pyserial)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

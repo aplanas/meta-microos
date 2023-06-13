@@ -10,6 +10,7 @@ RPM_HASH = "f7ac65342b0714fa8474ba5c88bcf25debb6f38d6509b2cc9bc0726b86de5c039071
 
 RPROVIDES:${PN} += "busybox-static \
 busybox-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

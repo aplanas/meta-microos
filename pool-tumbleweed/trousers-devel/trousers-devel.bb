@@ -15,6 +15,7 @@ RPM_HASH = "d4f01e50cb6b630b68669a73daf86f1932a0f6b411dbdf4d5e67bdaaf9d6120e6b1a
 
 RPROVIDES:${PN} += "trousers-devel \
 trousers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libopenssl-devel \
 libtspi1 \

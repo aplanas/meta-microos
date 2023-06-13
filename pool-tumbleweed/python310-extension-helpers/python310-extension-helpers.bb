@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-extension-helpers \
 python3.10dist(extension-helpers) \
 python310-extension-helpers \
 python3dist(extension-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

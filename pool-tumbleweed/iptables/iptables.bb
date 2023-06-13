@@ -10,6 +10,7 @@ RPM_HASH = "3f5a6ff6b5eec6a62a0b456aa0a3db1d86dc0fbbeb466eccd8cfa1cde59e1c2850ea
 
 RPROVIDES:${PN} += "iptables \
 iptables(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 alts \

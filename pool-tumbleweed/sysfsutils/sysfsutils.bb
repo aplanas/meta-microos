@@ -13,6 +13,7 @@ RPM_HASH = "4dc2cf7de5c25006495ba99bf35d140a8f0fef36524f1f301793b85e72e25b478b78
 RPROVIDES:${PN} += "libsysfs \
 sysfsutils \
 sysfsutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

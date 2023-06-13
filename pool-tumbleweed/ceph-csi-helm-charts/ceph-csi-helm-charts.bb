@@ -9,6 +9,7 @@ RPM_HASH = "b81894e73f5d52fe7f3c72ce08d8db978081327b71d0bb1df43fe6ccdf9f8085c53a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-csi-helm-charts"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

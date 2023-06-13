@@ -15,6 +15,7 @@ yast2-agent-tftp \
 yast2-agent-tftp-devel \
 yast2-transfer \
 yast2-transfer(aarch-64)"
+
 RDEPENDS:${PN} += "curl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

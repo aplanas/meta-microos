@@ -12,6 +12,7 @@ RPM_HASH = "068d414f9a79e29aaf707b701edd3631ab589e48d21a7b977e4150247f71fff9fd39
 RPROVIDES:${PN} += "libuhttpmock-1.0.so.1()(64bit) \
 libuhttpmock-1_0-1 \
 libuhttpmock-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

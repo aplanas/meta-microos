@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-http-spi \
 mvn(org.eclipse.jetty:jetty-http-spi) \
 mvn(org.eclipse.jetty:jetty-http-spi:pom:) \
 osgi(org.eclipse.jetty.http.spi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

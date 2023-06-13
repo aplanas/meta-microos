@@ -11,6 +11,7 @@ RPM_HASH = "b1e1519e643f5682d8eed6a5abc598bae1fc0acac187df7a0ad9fca9638dd2e759a5
 
 RPROVIDES:${PN} += "guile1 \
 guile1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 fileutils \
 libc.so.6(GLIBC_2.34)(64bit) \

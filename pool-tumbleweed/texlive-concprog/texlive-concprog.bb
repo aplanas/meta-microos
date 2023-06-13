@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ConcProg.cls) \
 texlive-concprog"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

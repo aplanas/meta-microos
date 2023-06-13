@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libspirv-cross-c-shared-devel \
 pkgconfig(spirv-cross-c-shared) \
 spirv-cross-devel \
 spirv-cross-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspirv-cross-c-shared0"
 

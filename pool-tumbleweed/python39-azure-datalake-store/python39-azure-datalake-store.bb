@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-datalake-store) \
 python39-azure-datalake-store \
 python3dist(azure-datalake-store)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-adal \
 python39-azure-nspkg \

@@ -53,6 +53,7 @@ mimehandler(image/vnd.djvu) \
 mimehandler(image/x-bzeps) \
 mimehandler(image/x-eps) \
 mimehandler(image/x-gzeps)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

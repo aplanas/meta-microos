@@ -22,6 +22,7 @@ tex(nl_rs.tex) \
 tex(r_und_s.sty) \
 tex(r_und_s.tex) \
 texlive-r_und_s"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

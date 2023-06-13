@@ -11,6 +11,7 @@ RPM_HASH = "92313834cb81f7ed8bc26b175bc7a5a7c5046ccbc6435d6b45d96ff7483018369b08
 
 RPROVIDES:${PN} += "libpetsc-gnu-mpich-hpc \
 libpetsc-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpetsc_3_18_5-gnu-mpich-hpc"
 

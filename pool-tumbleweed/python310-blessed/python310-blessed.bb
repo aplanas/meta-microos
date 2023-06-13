@@ -44,6 +44,7 @@ RPROVIDES:${PN} += "python3-blessed \
 python3.10dist(blessed) \
 python310-blessed \
 python3dist(blessed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-curses \
 python310-six \

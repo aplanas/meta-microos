@@ -10,6 +10,7 @@ RPM_HASH = "3839c580f78d03c850609bc7b46e3254b27975df0a0e4f45c8dd4eb46fa3e6fe1a69
 
 RPROVIDES:${PN} += "exiv2 \
 exiv2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

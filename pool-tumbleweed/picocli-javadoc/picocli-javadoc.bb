@@ -9,6 +9,7 @@ RPM_HASH = "6cd6af3341aff96a219bd7aaac5c192a58f9b7d8d84d2858786f3372d9b1697e81d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "picocli-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

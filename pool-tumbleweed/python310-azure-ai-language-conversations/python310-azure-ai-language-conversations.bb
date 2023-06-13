@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-ai-language-conversations \
 python3.10dist(azure-ai-language-conversations) \
 python310-azure-ai-language-conversations \
 python3dist(azure-ai-language-conversations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-language-nspkg \
 python310-azure-ai-nspkg \

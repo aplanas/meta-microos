@@ -42,6 +42,7 @@ locale(ksanecore:tr) \
 locale(ksanecore:uk) \
 locale(ksanecore:zh_CN) \
 locale(ksanecore:zh_TW)"
+
 RDEPENDS:${PN} += "ksanecore"
 
 inherit rpm

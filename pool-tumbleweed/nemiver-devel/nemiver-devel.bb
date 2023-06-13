@@ -13,6 +13,7 @@ RPM_HASH = "48dcc0b97c63485e0cb4ab3679609a5fe36be179673be3bc9bcd3bd3dd9a16e94646
 
 RPROVIDES:${PN} += "nemiver-devel \
 nemiver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "nemiver"
 
 inherit rpm

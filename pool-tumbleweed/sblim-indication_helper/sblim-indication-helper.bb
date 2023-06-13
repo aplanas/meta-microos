@@ -13,6 +13,7 @@ RPM_HASH = "6abe1cfce293fd875dcbcc963f67d831519799e5b29bbfc75de0e688c851ecec91c8
 RPROVIDES:${PN} += "libind_helper.so.0()(64bit) \
 sblim-indication_helper \
 sblim-indication_helper(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

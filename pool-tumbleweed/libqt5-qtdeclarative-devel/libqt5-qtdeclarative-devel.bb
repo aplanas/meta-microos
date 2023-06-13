@@ -30,6 +30,7 @@ pkgconfig(Qt5QmlWorkerScript) \
 pkgconfig(Qt5Quick) \
 pkgconfig(Qt5QuickTest) \
 pkgconfig(Qt5QuickWidgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

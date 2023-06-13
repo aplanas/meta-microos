@@ -12,6 +12,7 @@ RPM_HASH = "c46756ae67fc3b899015cab7ef951ed6abdf329a186591ec1bf478eead4e6166bcc8
 
 RPROVIDES:${PN} += "qemu-accel-tcg-x86 \
 qemu-accel-tcg-x86(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

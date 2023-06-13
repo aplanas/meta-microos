@@ -41,6 +41,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(virtualenv-clone) \
 python311-virtualenv-clone \
 python3dist(virtualenv-clone)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

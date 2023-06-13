@@ -25,6 +25,7 @@ libreadline.so.8(READLINE_8.2)(64bit) \
 libreadline8 \
 libreadline8(aarch-64) \
 readline"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

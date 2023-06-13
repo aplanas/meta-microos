@@ -198,6 +198,7 @@ font(ebgaramondinitials) \
 font(ebgaramondmedium) \
 font(ebgaramondsemibold) \
 texlive-ebgaramond-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

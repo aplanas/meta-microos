@@ -10,6 +10,7 @@ RPM_HASH = "9a2387171a14e6ed2040a5822ac8c45c9aa5e34420002c1c6e23a7e377a200d3c1e3
 RPROVIDES:${PN} += "ghc-prof(tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn) \
 ghc-tagsoup-prof \
 ghc-tagsoup-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-prof(containers-0.6.7) \

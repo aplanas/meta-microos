@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(softlayer-zeep) \
 python311-softlayer-zeep \
 python311-zeep \
 python3dist(softlayer-zeep)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs \
 python311-isodate \

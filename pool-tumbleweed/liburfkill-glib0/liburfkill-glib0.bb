@@ -11,6 +11,7 @@ RPM_HASH = "7d7bf22109bc19d56c7da55eb1778d68f41ca7d52bde057326dc97a05aafcec4c7bb
 RPROVIDES:${PN} += "liburfkill-glib.so.0()(64bit) \
 liburfkill-glib0 \
 liburfkill-glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

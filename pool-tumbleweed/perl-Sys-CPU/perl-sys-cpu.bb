@@ -13,6 +13,7 @@ RPM_HASH = "4f5f0440422bffed552a810ec2a8fab93421ff0d01264db02fbad4c54b00feca440f
 RPROVIDES:${PN} += "perl(Sys::CPU) \
 perl-Sys-CPU \
 perl-Sys-CPU(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

@@ -17,6 +17,7 @@ python3dist(setroubleshoot) \
 setroubleshoot-server \
 setroubleshoot-server(aarch-64) \
 user(setroubleshoot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 audit \

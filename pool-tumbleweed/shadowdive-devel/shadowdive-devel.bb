@@ -9,6 +9,7 @@ RPM_HASH = "b3005ec0b775980b7b26a5882b0c5bf304977551e9819d3b2fee9816f15f29c5b162
 
 RPROVIDES:${PN} += "shadowdive-devel \
 shadowdive-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpng16-compat-devel \
 libshadowdive0_0_0-suse"
 

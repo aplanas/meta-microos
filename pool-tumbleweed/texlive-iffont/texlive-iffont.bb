@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(iffont.sty) \
 texlive-iffont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

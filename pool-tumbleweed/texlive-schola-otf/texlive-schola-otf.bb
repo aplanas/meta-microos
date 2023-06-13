@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(schola-otf.sty) \
 texlive-schola-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ mvn(org.codehaus.mojo.natives:maven-native-mingw) \
 mvn(org.codehaus.mojo.natives:maven-native-mingw:pom:) \
 mvn(org.codehaus.mojo.natives:maven-native-msvc) \
 mvn(org.codehaus.mojo.natives:maven-native-msvc:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.mojo.natives:maven-native-api) \

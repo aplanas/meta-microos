@@ -16,6 +16,7 @@ tex(beamerinnerthemelalic.sty) \
 tex(beamerouterthemelalic.sty) \
 tex(beamerthemelalic.sty) \
 texlive-beamerthemelalic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

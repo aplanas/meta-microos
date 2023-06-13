@@ -11,6 +11,7 @@ RPM_HASH = "f836af4743370872095c731bab68e993c96bf084fd9ccd06ee540b407b1344f18dde
 RPROVIDES:${PN} += "libgee.so.2()(64bit) \
 libgee2 \
 libgee2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

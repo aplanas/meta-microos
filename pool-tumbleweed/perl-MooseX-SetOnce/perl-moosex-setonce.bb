@@ -21,6 +21,7 @@ perl(MooseX::SetOnce) \
 perl(MooseX::SetOnce::Accessor) \
 perl(MooseX::SetOnce::Attribute) \
 perl-MooseX-SetOnce"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose::Role)"
 

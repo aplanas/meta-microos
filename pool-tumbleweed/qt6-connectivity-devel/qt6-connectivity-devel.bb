@@ -13,6 +13,7 @@ pkgconfig(Qt6Bluetooth) \
 pkgconfig(Qt6Nfc) \
 qt6-connectivity-devel \
 qt6-connectivity-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6DBus) \
 cmake(Qt6Network) \

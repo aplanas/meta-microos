@@ -27,6 +27,7 @@ python39-Fabric3 \
 python39-fabric \
 python39-fabric2 \
 python3dist(fabric)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

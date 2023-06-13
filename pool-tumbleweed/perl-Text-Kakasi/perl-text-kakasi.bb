@@ -14,6 +14,7 @@ RPM_HASH = "9fd9151dc9709b3f5dbcc35a6649a5afd510d5258a2e93d0d0c2e1f18487d94c8f9c
 RPROVIDES:${PN} += "perl(Text::Kakasi) \
 perl-Text-Kakasi \
 perl-Text-Kakasi(aarch-64)"
+
 RDEPENDS:${PN} += "kakasi \
 libc.so.6(GLIBC_2.17)(64bit) \
 libkakasi.so.2()(64bit) \

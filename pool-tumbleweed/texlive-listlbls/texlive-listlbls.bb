@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(listlbls.sty) \
 texlive-listlbls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

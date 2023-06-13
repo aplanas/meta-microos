@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer \
 config(adminer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 adminer-database-support \
 mod_php_any \

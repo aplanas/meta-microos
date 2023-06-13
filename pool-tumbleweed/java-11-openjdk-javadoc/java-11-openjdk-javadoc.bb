@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "java-10-openjdk-javadoc \
 java-11-javadoc \
 java-11-openjdk-javadoc \
 java-javadoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 jpackage-utils \
 update-alternatives"

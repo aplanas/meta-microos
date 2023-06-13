@@ -10,6 +10,7 @@ RPM_HASH = "2769a65d0c3a55a4afe81bab45541f0c110a0514c3363226cada7871b70bd90db0a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpmlint-test"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

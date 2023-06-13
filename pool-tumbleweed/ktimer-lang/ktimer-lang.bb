@@ -79,6 +79,7 @@ locale(ktimer:uk) \
 locale(ktimer:vi) \
 locale(ktimer:zh_CN) \
 locale(ktimer:zh_TW)"
+
 RDEPENDS:${PN} += "ktimer"
 
 inherit rpm

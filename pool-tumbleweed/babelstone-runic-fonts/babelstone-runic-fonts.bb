@@ -11,6 +11,7 @@ RPM_HASH = "bb76804c9ae782821dbae05716772da1d2d10ddd2c0b01135bc5bb998d80a07131a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-runic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

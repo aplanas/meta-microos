@@ -34,6 +34,7 @@ locale(goodvibes:sk) \
 locale(goodvibes:te) \
 locale(goodvibes:tr) \
 locale(goodvibes:zh_Hant)"
+
 RDEPENDS:${PN} += "goodvibes"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(storage-fixup) \
 storage-fixup"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash \

@@ -9,6 +9,7 @@ RPM_HASH = "8ebd67baf497f6067431d1764caae7c86756dc4f5b750f8a5a0c813ef188cc029ec3
 
 RPROVIDES:${PN} += "deepin-turbo-devel \
 deepin-turbo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdeepin-turbo0"
 
 inherit rpm

@@ -14,6 +14,7 @@ kanagram(aarch-64) \
 kanagram5 \
 metainfo() \
 metainfo(org.kde.kanagram.appdata.xml)"
+
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

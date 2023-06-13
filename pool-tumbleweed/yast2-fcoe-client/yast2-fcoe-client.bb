@@ -14,6 +14,7 @@ application(org.opensuse.yast.FCoEClient.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.FCoEClient.metainfo.xml) \
 yast2-fcoe-client"
+
 RDEPENDS:${PN} += "fcoe-utils \
 yast2 \
 yast2-network \

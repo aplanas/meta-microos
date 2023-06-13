@@ -17,6 +17,7 @@ RPM_HASH = "796e81265984a3824ad84a5d7db3b6ab760438e27c8ae3d87dac221300d8b52af4cc
 RPROVIDES:${PN} += "config(mpd) \
 mpd \
 mpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

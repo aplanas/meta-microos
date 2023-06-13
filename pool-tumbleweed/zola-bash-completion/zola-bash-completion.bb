@@ -9,6 +9,7 @@ RPM_HASH = "f3479296bb271736b23a02b21503c5232b9325a4ded213df91790006959200f213be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zola-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

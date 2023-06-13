@@ -9,6 +9,7 @@ RPM_HASH = "7fa135a207adcac616c6d478d1ec569877b2218a182745e58e9356f9c6721b490c1b
 
 RPROVIDES:${PN} += "libqt5-qtquickcontrols2-examples \
 libqt5-qtquickcontrols2-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

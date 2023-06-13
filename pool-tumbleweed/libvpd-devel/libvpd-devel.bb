@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libvpd-devel \
 libvpd-devel(aarch-64) \
 pkgconfig(libvpd-2) \
 pkgconfig(libvpd_cxx-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvpd-2_2-3 \
 pkgconfig(sqlite3)"

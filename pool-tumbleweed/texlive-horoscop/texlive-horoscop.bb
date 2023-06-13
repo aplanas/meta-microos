@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(horoscop.sty) \
 texlive-horoscop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "2fb5a8d812bf8b348bd0bc18f53cd271a68ccdbb00a462a50fb9b877e06eca0ccfab
 RPROVIDES:${PN} += "typelib(Cogl) \
 typelib-1_0-Cogl-2_0 \
 typelib-1_0-Cogl-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcogl.so.20()(64bit) \
 typelib(GL) \
 typelib(GLib) \

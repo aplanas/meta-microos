@@ -15,6 +15,7 @@ RPM_HASH = "d04ea74c01cfb22c4f3abe102aea6f4b2685098f62e96628dd5234b38335d9cc8d9f
 RPROVIDES:${PN} += "config(netlabel-tools) \
 netlabel-tools \
 netlabel-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

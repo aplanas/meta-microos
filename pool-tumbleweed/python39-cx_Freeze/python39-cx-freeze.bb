@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.9dist(cx-freeze) \
 python39-cx_Freeze \
 python39-cx_Freeze(aarch-64) \
 python3dist(cx-freeze)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.9 \

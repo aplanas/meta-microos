@@ -10,6 +10,7 @@ RPM_HASH = "12bdabf3a9cac0d23486358e66fae6ffb79060c571d12ded43b5320b4cb0f9dadedd
 
 RPROVIDES:${PN} += "arpwatch \
 arpwatch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

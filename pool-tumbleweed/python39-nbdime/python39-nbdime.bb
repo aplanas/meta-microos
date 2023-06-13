@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(nbdime) \
 python39-jupyter_nbdime \
 python39-nbdime \
 python3dist(nbdime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

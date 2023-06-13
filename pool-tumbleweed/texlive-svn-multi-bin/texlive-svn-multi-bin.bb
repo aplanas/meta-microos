@@ -9,6 +9,7 @@ RPM_HASH = "c2049599612c693d69ebb331125741860e251528c464f09a8429c9eaeea4b2cf7c4b
 
 RPROVIDES:${PN} += "texlive-svn-multi-bin \
 texlive-svn-multi-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-svn-multi"
 
 inherit rpm

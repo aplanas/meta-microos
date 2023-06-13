@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-navigator \
 python3.10dist(ansible-navigator) \
 python3dist(ansible-navigator)"
+
 RDEPENDS:${PN} += "(podman or docker) \
 /usr/bin/python3.10 \
 ansible-builder \

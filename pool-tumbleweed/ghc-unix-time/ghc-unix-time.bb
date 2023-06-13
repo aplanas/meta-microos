@@ -10,6 +10,7 @@ RPM_HASH = "a9c3fd6728d03810c24414287768a1da179c5e765a09677b7738ae36d6e73bb7d0b2
 RPROVIDES:${PN} += "ghc-unix-time \
 ghc-unix-time(aarch-64) \
 libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

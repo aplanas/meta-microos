@@ -10,6 +10,7 @@ RPM_HASH = "0afad8ac7272c2cbff597c5b897d1765975514aae678362b0c5028bdfe89a4536c39
 
 RPROVIDES:${PN} += "libunistring-devel \
 libunistring-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libunistring5"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Concurrent) \
 pkgconfig(Qt6Concurrent) \
 qt6-concurrent-devel \
 qt6-concurrent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Concurrent6 \

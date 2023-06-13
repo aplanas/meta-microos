@@ -10,6 +10,7 @@ RPM_HASH = "99201efc799ef4d96026915d18049a6b290a48a929402df6414b41d422b8cfe0c434
 
 RPROVIDES:${PN} += "lua51-bit32 \
 lua51-bit32(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(awf-gtk4.desktop) \
 awf-gtk4 \
 awf-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += "gtk4 \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

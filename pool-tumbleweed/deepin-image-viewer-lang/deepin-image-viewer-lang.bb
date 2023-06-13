@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-image-viewer-lang \
 deepin-image-viewer-lang-all"
+
 RDEPENDS:${PN} += "deepin-image-viewer"
 
 inherit rpm

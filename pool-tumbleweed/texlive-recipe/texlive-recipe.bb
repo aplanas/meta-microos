@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(recipe.cls) \
 texlive-recipe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

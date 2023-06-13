@@ -11,6 +11,7 @@ RPM_HASH = "a5d4fb8401d7012dbc84a7c71d05c0013bee50a88c2e79c0fb8ca01173bbbdb8f832
 RPROVIDES:${PN} += "libplugin_taglib.so()(64bit) \
 nulloy-taglib \
 nulloy-taglib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

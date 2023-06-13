@@ -12,6 +12,7 @@ RPM_HASH = "f2e884a5b2a50f730cafa2f14eaca06822a6e6d6fa24da21e234b955f9b59ce9054a
 
 RPROVIDES:${PN} += "cups-pk-helper \
 cups-pk-helper(aarch-64)"
+
 RDEPENDS:${PN} += "cups \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

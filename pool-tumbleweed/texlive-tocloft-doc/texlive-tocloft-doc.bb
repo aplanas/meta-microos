@@ -9,6 +9,7 @@ RPM_HASH = "55d21f7558ddf3928ec5903eb0e55e49255163350af8d1eb7d487686660e3b6f0d70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocloft-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

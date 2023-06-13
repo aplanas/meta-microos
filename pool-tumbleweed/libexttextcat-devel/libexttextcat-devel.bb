@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libexttextcat-devel \
 libexttextcat-devel(aarch-64) \
 libtextcat-devel \
 pkgconfig(libexttextcat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libexttextcat-2_0-0"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyquery) \
 python311-pyquery \
 python3dist(pyquery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cssselect \
 python311-lxml"

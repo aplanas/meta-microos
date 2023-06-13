@@ -11,6 +11,7 @@ RPM_HASH = "26db49d7450d10d7d590d5fbd7a0d1d52f380aae7754edb48668bd3a2e180cc92d18
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks-delicious \
 leechcraft-poshuku-onlinebookmarks-delicious(aarch-64) \
 libleechcraft_poshuku_onlinebookmarks_delicious.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku-onlinebookmarks \

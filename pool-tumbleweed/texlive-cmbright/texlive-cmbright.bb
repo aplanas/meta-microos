@@ -91,6 +91,7 @@ tex(tbto10.tfm) \
 tex(ts1cmbr.fd) \
 tex(ts1cmtl.fd) \
 texlive-cmbright"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

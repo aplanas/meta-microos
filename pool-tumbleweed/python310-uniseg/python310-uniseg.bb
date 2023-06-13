@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-uniseg \
 python3.10dist(uniseg) \
 python310-uniseg \
 python3dist(uniseg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

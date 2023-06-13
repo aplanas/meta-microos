@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(schwalbe.cls) \
 tex(schwalbe.sty) \
 tex(swruler.sty) \
 texlive-schwalbe-chess"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-WTF \
 python3.10dist(flask-wtf) \
 python310-Flask-WTF \
 python3dist(flask-wtf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-WTForms \

@@ -14,6 +14,7 @@ RPM_HASH = "412614c0216f95102a9df3d7098e6767d202442b08761057e3c988e3360308e8c300
 RPROVIDES:${PN} += "libgobject-2.0.so.0()(64bit) \
 libgobject-2_0-0 \
 libgobject-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

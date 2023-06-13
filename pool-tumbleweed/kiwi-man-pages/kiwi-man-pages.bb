@@ -10,6 +10,7 @@ RPM_HASH = "f512394de070a6ea34af082928dcd870763c9098c662281274052d9b9e36751a788f
 RPROVIDES:${PN} += "config(kiwi-man-pages) \
 kiwi-man-pages \
 kiwi-man-pages(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

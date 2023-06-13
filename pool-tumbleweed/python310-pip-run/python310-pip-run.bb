@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-pip-run \
 python3.10dist(pip-run) \
 python310-pip-run \
 python3dist(pip-run)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-zope.hookable-doc \
 python310-zope.hookable-doc \
 python311-zope.hookable-doc \
 python39-zope.hookable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

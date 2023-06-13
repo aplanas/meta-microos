@@ -9,6 +9,7 @@ RPM_HASH = "2d7d501e29b3704be3672eb579b7722ed43fb75998f6586ea86e610c69b6dbf1a947
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "debugbreak-devel"
+
 RDEPENDS:${PN} += "debugbreak"
 
 inherit rpm

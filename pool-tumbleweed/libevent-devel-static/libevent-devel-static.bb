@@ -14,6 +14,7 @@ RPM_HASH = "5572f216e075d8cc9d2b147ac28f51853e990e20c2ce7634b8afb75c21045ad5c04a
 
 RPROVIDES:${PN} += "libevent-devel-static \
 libevent-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libevent-devel"
 
 inherit rpm

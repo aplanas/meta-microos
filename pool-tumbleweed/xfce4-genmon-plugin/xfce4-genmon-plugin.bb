@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgenmon.so()(64bit) \
 xfce4-genmon-plugin \
 xfce4-genmon-plugin(aarch-64) \
 xfce4-panel-plugin-genmon"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

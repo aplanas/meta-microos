@@ -12,6 +12,7 @@ eog-plugin-slideshowshuffle(aarch-64) \
 eog-plugins:/usr/lib64/eog/plugins/slideshowshuffle.plugin \
 metainfo() \
 metainfo(eog-slideshowshuffle.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 typelib(Eog) \
 typelib(GObject) \

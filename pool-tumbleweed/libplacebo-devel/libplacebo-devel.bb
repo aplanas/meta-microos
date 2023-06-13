@@ -11,6 +11,7 @@ RPM_HASH = "29a366e3ff7d46cea6c6671c72dc9b055608a8d2966c0a219d24d5b2c6002d4b8953
 RPROVIDES:${PN} += "libplacebo-devel \
 libplacebo-devel(aarch-64) \
 pkgconfig(libplacebo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libplacebo264 \
 pkgconfig(dovi) \

@@ -23,6 +23,7 @@ golang(github.com/linuxdeepin/go-gir/glib-2.0) \
 golang(github.com/linuxdeepin/go-gir/gobject-2.0) \
 golang(github.com/linuxdeepin/go-gir/gudev-1.0) \
 golang-github-linuxdeepin-go-gir-generator"
+
 RDEPENDS:${PN} += "pkgconfig(gdk-2.0) \
 pkgconfig(gdk-3.0) \
 pkgconfig(gio-2.0) \

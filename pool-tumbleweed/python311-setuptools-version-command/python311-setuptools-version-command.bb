@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(setuptools-version-command) \
 python311-setuptools-version-command \
 python3dist(setuptools-version-command)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools"
 

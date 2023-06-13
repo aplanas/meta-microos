@@ -31,6 +31,7 @@ perl(NetPacket::TCP) \
 perl(NetPacket::UDP) \
 perl(NetPacket::USBMon) \
 perl-NetPacket"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Socket) \
 perl(parent)"

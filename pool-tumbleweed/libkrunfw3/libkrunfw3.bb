@@ -16,6 +16,7 @@ RPM_HASH = "c96649b0159f9732cc0090bcbd448410c05ff44a41692dea4f868b0771fc6e943db3
 RPROVIDES:${PN} += "libkrunfw.so.3()(64bit) \
 libkrunfw3 \
 libkrunfw3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

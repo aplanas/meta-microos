@@ -13,6 +13,7 @@ RPM_HASH = "9e8bf4f273c336fea1b74eba5b8f6153aeb55bbe6b209e4bca87906035bc18fd44db
 RPROVIDES:${PN} += "typelib(GnomeBluetooth) \
 typelib-1_0-GnomeBluetooth-1_0 \
 typelib-1_0-GnomeBluetooth-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-bluetooth.so.13()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

@@ -13,6 +13,7 @@ RPM_HASH = "0906ee77666db6588c943400db9295d901d8ead55bdabcafd1db818211b945262a66
 RPROVIDES:${PN} += "libgio-qt.so.0()(64bit) \
 libgio-qt0 \
 libgio-qt0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

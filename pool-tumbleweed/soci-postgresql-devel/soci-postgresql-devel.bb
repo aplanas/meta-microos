@@ -15,6 +15,7 @@ RPM_HASH = "42d232dc4d54e9d5d274c9f08be56d09348cd383aae70e733d75042fcd35f08afb43
 
 RPROVIDES:${PN} += "soci-postgresql-devel \
 soci-postgresql-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoci_postgresql4_0 \
 pkgconfig(libpq) \
 soci-devel"

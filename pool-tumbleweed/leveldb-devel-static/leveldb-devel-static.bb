@@ -11,6 +11,7 @@ RPM_HASH = "dfe0e3c5faf713f6870c818c305e8fb6a32f98c640005742e79e31ed52ae712bbdff
 
 RPROVIDES:${PN} += "leveldb-devel-static \
 leveldb-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "leveldb-devel"
 
 inherit rpm

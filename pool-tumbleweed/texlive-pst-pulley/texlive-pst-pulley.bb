@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-pulley.sty) \
 tex(pst-pulley.tex) \
 texlive-pst-pulley"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

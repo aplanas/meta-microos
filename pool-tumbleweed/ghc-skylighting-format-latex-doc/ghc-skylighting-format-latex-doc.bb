@@ -9,6 +9,7 @@ RPM_HASH = "b8d620c023407e04b38b5e01c595283581d893d6ee73c22d7a287cb0fbb7f62bf389
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skylighting-format-latex-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

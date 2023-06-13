@@ -11,6 +11,7 @@ RPM_HASH = "d81802101fc66684ed320e381423970e1edb1ff983eeb0073d8c7fba26e09d19d328
 RPROVIDES:${PN} += "asclock \
 asclock(aarch-64) \
 astools:/usr/X11R6/bin/asclock"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

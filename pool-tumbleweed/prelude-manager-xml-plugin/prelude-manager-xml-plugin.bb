@@ -9,6 +9,7 @@ RPM_HASH = "c7a8ffeb4c0f70caeac390542f2e2da7f19da8a7a08c13ddb6db20aa2d625a542d82
 
 RPROVIDES:${PN} += "prelude-manager-xml-plugin \
 prelude-manager-xml-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

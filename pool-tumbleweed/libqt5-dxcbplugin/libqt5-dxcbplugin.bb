@@ -11,6 +11,7 @@ RPM_HASH = "9183858c2fe293e80e3870f5e2a6ff16531424c4e5a5dbab404bd88eba5d01a96466
 RPROVIDES:${PN} += "libdxcb.so()(64bit) \
 libqt5-dxcbplugin \
 libqt5-dxcbplugin(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Core.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \

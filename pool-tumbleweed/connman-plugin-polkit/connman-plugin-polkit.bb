@@ -9,6 +9,7 @@ RPM_HASH = "507c225fbed5a236d836c6e5ef2bbf8dacb6d1df4098becb843a14409399396fe727
 
 RPROVIDES:${PN} += "connman-plugin-polkit \
 connman-plugin-polkit(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 dbus-1 \
 polkit"

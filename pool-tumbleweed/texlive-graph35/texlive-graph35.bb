@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(graph35-keys.sty) \
 tex(graph35-pixelart.sty) \
 tex(graph35.sty) \
 texlive-graph35"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

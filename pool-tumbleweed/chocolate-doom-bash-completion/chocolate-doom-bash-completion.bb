@@ -9,6 +9,7 @@ RPM_HASH = "439642532fee763e95b87097db26712b8fe72ce26c678b7381f1ee17b0817faf890c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chocolate-doom-bash-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Test::MockObject) \
 perl(Test::MockObject::Extends) \
 perl-Test-MockObject"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(UNIVERSAL::can) \
 perl(UNIVERSAL::isa)"

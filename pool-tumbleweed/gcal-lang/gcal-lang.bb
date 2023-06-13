@@ -23,6 +23,7 @@ locale(gcal:ru) \
 locale(gcal:sv) \
 locale(gcal:tr) \
 locale(gcal:zh_CN)"
+
 RDEPENDS:${PN} += "gcal"
 
 inherit rpm

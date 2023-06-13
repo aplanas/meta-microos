@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(jack-rack.desktop) \
 jack-rack \
 jack-rack(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 jack \

@@ -11,6 +11,7 @@ RPM_HASH = "563322abe63bbe35f659ef8f537bbf822ae63b622ad0bf97e7a2296959321f40afc6
 RPROVIDES:${PN} += "ktexteditor \
 ktexteditor(aarch-64) \
 libKF5TextEditor.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "479d5b9fde9c50737801e96f8d94aa9e0ab25084243ff8cab84ea9f7b8fd1dae5e39
 
 RPROVIDES:${PN} += "os-autoinst-swtpm \
 os-autoinst-swtpm(aarch-64)"
+
 RDEPENDS:${PN} += "os-autoinst \
 swtpm"
 

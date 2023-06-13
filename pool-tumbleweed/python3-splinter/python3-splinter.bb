@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-splinter \
 python3-splinter(aarch-64) \
 python3.10dist(splinter) \
 python3dist(splinter)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

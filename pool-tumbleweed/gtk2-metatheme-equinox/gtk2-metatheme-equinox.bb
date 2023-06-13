@@ -10,6 +10,7 @@ RPM_HASH = "3ca3f31f38210cc532f8055ec599b4d167c34b93c337d10b96c79b67188bcc7c6c0a
 
 RPROVIDES:${PN} += "gtk2-metatheme-equinox \
 gtk2-metatheme-equinox(aarch-64)"
+
 RDEPENDS:${PN} += "dmz-icon-theme-cursors \
 faenza-icon-theme \
 gtk2-engine-equinox"

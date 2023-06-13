@@ -10,6 +10,7 @@ RPM_HASH = "e0da3c3d47aad83cc5b091eeb08d75b1f15b278654fd5abcb7fa9e4f4b54bc0132ba
 
 RPROVIDES:${PN} += "plasma-nm5-mobile \
 plasma-nm5-mobile(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

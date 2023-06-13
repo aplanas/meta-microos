@@ -11,6 +11,7 @@ RPM_HASH = "2a97890a0a8ea447ca1bb3d64cfd7db922c7ee21009c7bf72c8f83ebc6548bd56856
 RPROVIDES:${PN} += "libyuv-devel \
 libyuv-devel(aarch-64) \
 pkgconfig(libyuv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyuv0(aarch-64)"
 

@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:bn_BD) \
 myspell-bengali \
 myspell-bn_BD \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

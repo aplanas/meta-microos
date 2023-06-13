@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-notificationhubs) \
 python39-azure-mgmt-notificationhubs \
 python3dist(azure-mgmt-notificationhubs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

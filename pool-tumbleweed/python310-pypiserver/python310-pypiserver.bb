@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pypiserver \
 python3.10dist(pypiserver) \
 python310-pypiserver \
 python3dist(pypiserver)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

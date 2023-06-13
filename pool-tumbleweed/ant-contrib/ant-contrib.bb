@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ant-contrib \
 config(ant-contrib) \
 mvn(ant-contrib:ant-contrib) \
 mvn(ant-contrib:ant-contrib:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

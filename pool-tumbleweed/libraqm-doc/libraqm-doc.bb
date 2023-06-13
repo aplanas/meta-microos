@@ -9,6 +9,7 @@ RPM_HASH = "fee7f5c368e94728bc790df852063210b920a4d656d9a49e979ab5b2edca7b2ecb99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libraqm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

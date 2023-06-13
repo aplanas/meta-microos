@@ -95,6 +95,7 @@ locale(gnome-font-viewer:wa) \
 locale(gnome-font-viewer:zh_CN) \
 locale(gnome-font-viewer:zh_HK) \
 locale(gnome-font-viewer:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-font-viewer"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "9a8d704a1b8d8610341c1c8b8b644946b0818341b9437ca5b612878fefdc5973dbc6
 RPROVIDES:${PN} += "pkgconfig(plank) \
 plank-devel \
 plank-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libplank1 \
 pkgconfig(cairo) \

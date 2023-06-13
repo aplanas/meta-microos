@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(copyrightbox.sty) \
 texlive-copyrightbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

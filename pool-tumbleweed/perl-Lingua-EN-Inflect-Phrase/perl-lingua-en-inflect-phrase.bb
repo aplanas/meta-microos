@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Lingua::EN::Inflect::Phrase) \
 perl-Lingua-EN-Inflect-Phrase"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Lingua::EN::FindNumber) \
 perl(Lingua::EN::Inflect) \

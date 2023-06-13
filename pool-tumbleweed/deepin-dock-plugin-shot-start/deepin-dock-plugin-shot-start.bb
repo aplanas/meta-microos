@@ -10,6 +10,7 @@ RPM_HASH = "a614fe1a9f0dee84c808024a49661de3981a272d2ef0af61721a6571d3de3a1947bc
 RPROVIDES:${PN} += "deepin-dock-plugin-shot-start \
 deepin-dock-plugin-shot-start(aarch-64) \
 libshot-start-plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "deepin-dock \
 deepin-screen-recorder \
 ld-linux-aarch64.so.1()(64bit) \

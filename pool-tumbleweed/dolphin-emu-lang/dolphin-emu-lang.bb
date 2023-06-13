@@ -38,6 +38,7 @@ locale(dolphin-emu:sv) \
 locale(dolphin-emu:tr) \
 locale(dolphin-emu:zh_CN) \
 locale(dolphin-emu:zh_TW)"
+
 RDEPENDS:${PN} += "dolphin-emu"
 
 inherit rpm

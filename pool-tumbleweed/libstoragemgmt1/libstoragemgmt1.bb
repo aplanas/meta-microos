@@ -14,6 +14,7 @@ RPM_HASH = "88519a2c443a23d4dcec479093c58cc9873d8b954f1883657b6b7418fcfd16c04371
 RPROVIDES:${PN} += "libstoragemgmt.so.1()(64bit) \
 libstoragemgmt1 \
 libstoragemgmt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

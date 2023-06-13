@@ -24,6 +24,7 @@ rubygem(ruby:3.2.0:net-ldap) \
 rubygem(ruby:3.2.0:net-ldap:0) \
 rubygem(ruby:3.2.0:net-ldap:0.17) \
 rubygem(ruby:3.2.0:net-ldap:0.17.1)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

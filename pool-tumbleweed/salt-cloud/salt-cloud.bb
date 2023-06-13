@@ -12,6 +12,7 @@ RPM_HASH = "cadb1bdadad91a846d51f41f22ab9b986e87421b2ece5859ae0d2675e43a21b5f9fe
 RPROVIDES:${PN} += "config(salt-cloud) \
 salt-cloud \
 salt-cloud(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-apache-libcloud \
 salt \

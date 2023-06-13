@@ -9,6 +9,7 @@ RPM_HASH = "2e9903760165230b7b72a31c5be879ed77d1a15ce9409cc0e9c062835839ead7c77a
 
 RPROVIDES:${PN} += "python3-ktoblzcheck \
 python3-ktoblzcheck(aarch-64)"
+
 RDEPENDS:${PN} += "ktoblzcheck \
 libktoblzcheck1 \
 python(abi)"

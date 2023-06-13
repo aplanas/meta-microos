@@ -20,6 +20,7 @@ RPM_HASH = "f824fa279150cfdc1afa77af90b6253f5003574e63ebc55ac23c6d1b09118bf09960
 RPROVIDES:${PN} += "libcorrect.so.0.0.0()(64bit) \
 libcorrect0_0_0 \
 libcorrect0_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

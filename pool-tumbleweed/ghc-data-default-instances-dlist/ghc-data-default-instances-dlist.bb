@@ -10,6 +10,7 @@ RPM_HASH = "515234bdf0c41fc9e430a20078aa540e082319b29794950c134fe12ea333af24abce
 RPROVIDES:${PN} += "ghc-data-default-instances-dlist \
 ghc-data-default-instances-dlist(aarch-64) \
 libHSdata-default-instances-dlist-0.0.1-Bmo6e1Lr8bt987tygJ1EBf-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so()(64bit) \

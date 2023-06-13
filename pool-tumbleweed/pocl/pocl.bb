@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "libpocl-devices-basic.so()(64bit) \
 libpocl-devices-pthread.so()(64bit) \
 pocl \
 pocl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenCL.so.1()(64bit) \

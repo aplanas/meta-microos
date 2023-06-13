@@ -9,6 +9,7 @@ RPM_HASH = "b22221f4df7cd65a9a9ea769bb8b6b3840f984d2de555fdbdb0f1a1c4c3a16bbad9a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-snotez-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

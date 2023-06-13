@@ -9,6 +9,7 @@ RPM_HASH = "0659fefff808492f9466c914facd116b92a22b742245ee84c36913320fd3c17d433d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-poker-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

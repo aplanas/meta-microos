@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-feedgen \
 python3.10dist(feedgen) \
 python310-feedgen \
 python3dist(feedgen)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-python-dateutil"

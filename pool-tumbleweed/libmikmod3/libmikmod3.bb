@@ -14,6 +14,7 @@ RPM_HASH = "5687ae1797aa61d1778f28955d2d6458ce299da12943bcca829e1e7c8ca17e4eb999
 RPROVIDES:${PN} += "libmikmod.so.3()(64bit) \
 libmikmod3 \
 libmikmod3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

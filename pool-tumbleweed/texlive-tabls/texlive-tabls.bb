@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabls.sty) \
 texlive-tabls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

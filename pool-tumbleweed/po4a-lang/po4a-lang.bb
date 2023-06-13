@@ -42,6 +42,7 @@ locale(po4a:zh_HK) \
 locale(po4a:zh_Hant) \
 po4a-lang \
 po4a-lang-all"
+
 RDEPENDS:${PN} += "po4a"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "047dc874a29062bf4df67b7df1e8a73e68745d73bb84a3e74b94cbd67034df033d86
 RPROVIDES:${PN} += "ghc-fgl \
 ghc-fgl(aarch-64) \
 libHSfgl-5.8.0.0-1euDADByC3LGFbnFGelVpn-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

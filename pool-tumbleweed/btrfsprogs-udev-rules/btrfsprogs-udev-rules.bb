@@ -14,6 +14,7 @@ RPM_HASH = "9a2684e3802dce159d3b72bed50c9d65942aa921f7c7e0b8ef10358a084c2053a822
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsprogs-udev-rules"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

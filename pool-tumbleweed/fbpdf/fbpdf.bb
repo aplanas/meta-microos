@@ -10,6 +10,7 @@ RPM_HASH = "cf5b651bd8320ef41c198ee9cbf30c8aaa5bf3b4d71a5ae510e685fd0271067767d0
 
 RPROVIDES:${PN} += "fbpdf \
 fbpdf(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo.so.2()(64bit) \
 libdrm.so.2()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "7d47be1098fc69925257a8dc2f42f784ddfa76f758f998c0e158ea7437e9498d36e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "occt-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

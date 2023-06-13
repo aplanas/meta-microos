@@ -9,6 +9,7 @@ RPM_HASH = "130b2bf0b6b028f3db3655a071e3bb3c161280f54c9e88e5783bd23dbbc7153195d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-underoverlap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

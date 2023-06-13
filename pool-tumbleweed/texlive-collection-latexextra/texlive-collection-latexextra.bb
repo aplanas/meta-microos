@@ -9,6 +9,7 @@ RPM_HASH = "5327b3038e9bce8581d22ea499a18d6edd4207896407c78d80a9a458dcd2f169ba97
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-latexextra"
+
 RDEPENDS:${PN} += "texlive-2up \
 texlive-a0poster \
 texlive-a4wide \

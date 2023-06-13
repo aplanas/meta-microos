@@ -13,6 +13,7 @@ RPM_HASH = "1a3bee31812f940eb2b2f713ef165ca81ca248607f8c31ecf9c8a3398a0ec3eb3632
 
 RPROVIDES:${PN} += "opus-tools \
 opus-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

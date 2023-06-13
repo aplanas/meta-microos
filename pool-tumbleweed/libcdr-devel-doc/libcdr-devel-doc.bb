@@ -9,6 +9,7 @@ RPM_HASH = "0d292030abf175dc343fc62e9d26b9312b7a51af6d0bbddbd33eff5310d3bc74d0ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcdr-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

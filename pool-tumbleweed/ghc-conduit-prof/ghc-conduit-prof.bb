@@ -10,6 +10,7 @@ RPM_HASH = "2c1a9e329253a6b1d58ccca871ca827d2defceeea29ba429e6e8c3829306739f0581
 RPROVIDES:${PN} += "ghc-conduit-prof \
 ghc-conduit-prof(aarch-64) \
 ghc-prof(conduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2)"
+
 RDEPENDS:${PN} += "ghc-conduit-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

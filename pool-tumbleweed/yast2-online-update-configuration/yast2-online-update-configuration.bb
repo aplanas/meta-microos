@@ -14,6 +14,7 @@ metainfo() \
 metainfo(org.opensuse.yast.OnlineUpdateConfiguration.metainfo.xml) \
 yast2-online-update-configuration \
 yast2-registration:/usr/share/YaST2/clients/online_update_configuration.ycp"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

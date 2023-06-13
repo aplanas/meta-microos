@@ -35,6 +35,7 @@ locale(gnome-radio:sv) \
 locale(gnome-radio:tr) \
 locale(gnome-radio:uk) \
 locale(gnome-radio:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-radio"
 
 inherit rpm

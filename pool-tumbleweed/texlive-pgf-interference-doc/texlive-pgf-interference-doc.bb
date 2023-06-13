@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pgf-interference-doc:de;en) \
 texlive-pgf-interference-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

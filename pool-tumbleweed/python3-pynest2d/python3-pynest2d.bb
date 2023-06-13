@@ -9,6 +9,7 @@ RPM_HASH = "b7035b9ce6dd00176d810d3c18acdf1a3d1493a2d5ffd55b071107f790e3c43c51e7
 
 RPROVIDES:${PN} += "python3-pynest2d \
 python3-pynest2d(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

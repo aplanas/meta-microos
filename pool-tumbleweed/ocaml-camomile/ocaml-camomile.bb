@@ -12,6 +12,7 @@ RPM_HASH = "f25ae8ec05f5236cb1aa799a1763af2eeea1e4b449c861382eeca217d478542fb100
 
 RPROVIDES:${PN} += "ocaml-camomile \
 ocaml-camomile(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

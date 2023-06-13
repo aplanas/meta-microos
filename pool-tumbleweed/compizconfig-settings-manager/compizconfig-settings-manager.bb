@@ -14,6 +14,7 @@ ccsm \
 compizconfig-settings-manager \
 metainfo() \
 metainfo(ccsm.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-ccm \
 typelib(GLib) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-caldav \
 python3.10dist(caldav) \
 python310-caldav \
 python3dist(caldav)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-requests \

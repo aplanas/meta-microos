@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(KF5Kipi) \
 libkipi-devel \
 libkipi-devel(aarch-64) \
 libkipi-kf5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5Config) \
 cmake(KF5I18n) \
 cmake(KF5Service) \

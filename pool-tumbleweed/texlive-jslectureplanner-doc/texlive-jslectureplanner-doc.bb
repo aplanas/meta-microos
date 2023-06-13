@@ -9,6 +9,7 @@ RPM_HASH = "aff02cf8f08d988b5fa9f188cb8db6a66dbbe15f5194385bd2a29614809b1c7993a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jslectureplanner-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

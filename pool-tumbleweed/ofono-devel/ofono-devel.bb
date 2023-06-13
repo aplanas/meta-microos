@@ -15,6 +15,7 @@ RPM_HASH = "10427867f179ce277b24c2a8d9db601285e6900d449f6ef1e6c08c2ea6865f9f4da4
 RPROVIDES:${PN} += "ofono-devel \
 ofono-devel(aarch-64) \
 pkgconfig(ofono)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ofono \
 pkgconfig(dbus-1) \

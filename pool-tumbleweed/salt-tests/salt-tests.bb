@@ -9,6 +9,7 @@ RPM_HASH = "012c24a3e2999ea2ab955b5c87f01446fcc859856abb7d26ecd90567a05b3ab466a1
 
 RPROVIDES:${PN} += "salt-tests \
 salt-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 salt"

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(asaesub.sty) \
 tex(asaetr.cls) \
 tex(asaetr.sty) \
 texlive-asaetr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

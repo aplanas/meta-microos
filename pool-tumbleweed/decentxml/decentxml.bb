@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "decentxml \
 mvn(de.pdark:decentxml) \
 mvn(de.pdark:decentxml:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

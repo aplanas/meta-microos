@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(MooseX::Types::Common) \
 perl(MooseX::Types::Common::Numeric) \
 perl(MooseX::Types::Common::String) \
 perl-MooseX-Types-Common"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MooseX::Types) \
 perl(MooseX::Types::Moose)"

@@ -10,6 +10,7 @@ RPM_HASH = "831892c505f9820d2cc8d9309cac87e0a6349944d319fd9a4fd1cefaec68f6681d67
 RPROVIDES:${PN} += "leechcraft-lmp-mtpsync \
 leechcraft-lmp-mtpsync(aarch-64) \
 libleechcraft_lmp_mtpsync.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-devmon \

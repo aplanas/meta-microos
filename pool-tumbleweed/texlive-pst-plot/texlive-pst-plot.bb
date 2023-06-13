@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(pst-plot.sty) \
 tex(pst-plot.tex) \
 tex(pst-plot97.tex) \
 texlive-pst-plot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "02028e54389396597e89ddfb888253a0fdf8b00d0f75bce9b940e470a84b9c5c8b69
 
 RPROVIDES:${PN} += "kimageformats-eps \
 kimageformats-eps(aarch-64)"
+
 RDEPENDS:${PN} += "ghostscript \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

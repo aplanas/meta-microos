@@ -167,6 +167,7 @@ font(mlmsans9) \
 font(mlmsansdemicond10) \
 font(mlmsansquot8) \
 texlive-mlmodern-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

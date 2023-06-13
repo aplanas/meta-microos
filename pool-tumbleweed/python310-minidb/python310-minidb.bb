@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-minidb \
 python3.10dist(minidb) \
 python310-minidb \
 python3dist(minidb)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

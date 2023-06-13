@@ -9,6 +9,7 @@ RPM_HASH = "7504e458ad53b394f95b8b19322e05740646c3daa72ff972a8e44dbf51ad2b8c09c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umbclegislation-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

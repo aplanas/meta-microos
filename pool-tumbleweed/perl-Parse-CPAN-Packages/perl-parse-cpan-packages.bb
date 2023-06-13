@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(Parse::CPAN::Packages) \
 perl(Parse::CPAN::Packages::Distribution) \
 perl(Parse::CPAN::Packages::Package) \
 perl-Parse-CPAN-Packages"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Peek) \
 perl(CPAN::DistnameInfo) \

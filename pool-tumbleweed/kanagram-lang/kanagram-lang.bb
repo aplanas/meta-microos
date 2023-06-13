@@ -73,6 +73,7 @@ locale(kanagram:ug) \
 locale(kanagram:uk) \
 locale(kanagram:zh_CN) \
 locale(kanagram:zh_TW)"
+
 RDEPENDS:${PN} += "kanagram"
 
 inherit rpm

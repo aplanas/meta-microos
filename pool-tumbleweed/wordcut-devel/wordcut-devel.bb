@@ -10,6 +10,7 @@ RPM_HASH = "48670614b657d2694bb3d6f07193ea48d5562426b91b9e20a1b0a39784b6cfa1f14f
 RPROVIDES:${PN} += "pkgconfig(wordcut) \
 wordcut-devel \
 wordcut-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libwordcut0"

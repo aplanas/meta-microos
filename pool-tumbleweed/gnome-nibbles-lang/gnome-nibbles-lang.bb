@@ -93,6 +93,7 @@ locale(gnome-nibbles:wa) \
 locale(gnome-nibbles:zh_CN) \
 locale(gnome-nibbles:zh_HK) \
 locale(gnome-nibbles:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-nibbles"
 
 inherit rpm

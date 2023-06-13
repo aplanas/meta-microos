@@ -11,6 +11,7 @@ RPM_HASH = "55df24a3c2af14a6655648a2258b008c3ede01ea763ea19ae4628ac778e964055dd7
 
 RPROVIDES:${PN} += "posixovl \
 posixovl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

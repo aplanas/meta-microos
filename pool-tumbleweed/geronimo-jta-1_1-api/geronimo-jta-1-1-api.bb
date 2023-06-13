@@ -21,6 +21,7 @@ mvn(org.apache.geronimo.specs:geronimo-jta_1.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jta_1.1_spec:pom:) \
 mvn(org.eclipse.jetty.orbit:javax.transaction) \
 mvn(org.eclipse.jetty.orbit:javax.transaction:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

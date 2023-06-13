@@ -13,6 +13,7 @@ application(backintime-qt-root.desktop) \
 application(backintime-qt.desktop) \
 backintime-qt \
 config(backintime-qt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 backintime \
 dbus-1-python3 \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(poster.sty) \
 tex(poster.tex) \
 texlive-poster-mac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

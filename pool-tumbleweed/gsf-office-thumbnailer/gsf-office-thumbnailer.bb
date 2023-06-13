@@ -9,6 +9,7 @@ RPM_HASH = "a9f1c3fadeb34a6d24b8a3a796e90b6827cc002d87c9864f3a0a127ca78a8473889a
 
 RPROVIDES:${PN} += "gsf-office-thumbnailer \
 gsf-office-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

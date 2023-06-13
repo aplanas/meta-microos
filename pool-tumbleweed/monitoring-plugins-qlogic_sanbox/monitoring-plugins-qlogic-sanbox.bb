@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-qlogic_sanbox \
 nagios-plugins-qlogic_sanbox"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Getopt::Long) \
 perl(Net::Ping) \

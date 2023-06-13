@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sgmllib3k \
 python3.10dist(sgmllib3k) \
 python310-sgmllib3k \
 python3dist(sgmllib3k)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

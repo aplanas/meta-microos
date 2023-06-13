@@ -20,6 +20,7 @@ python3.10dist(djangorestframework) \
 python310-django-rest-framework \
 python310-djangorestframework \
 python3dist(djangorestframework)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

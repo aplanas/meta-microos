@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:hr_HR) \
 myspell-croatian \
 myspell-dictionary \
 myspell-hr_HR"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

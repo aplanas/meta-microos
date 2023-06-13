@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-WebTest-doc \
 python310-WebTest-doc \
 python311-WebTest-doc \
 python39-WebTest-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "group(pulse) \
 group(pulse-access) \
 system-user-pulse \
 user(pulse)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(audio) \
 sysuser-shadow"

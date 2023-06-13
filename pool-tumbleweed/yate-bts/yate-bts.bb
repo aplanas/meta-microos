@@ -14,6 +14,7 @@ RPM_HASH = "a56987d3791c130c5b00be373a421f7a1fe464cc759d808dc95f4b9f1be6616c82a0
 RPROVIDES:${PN} += "config(yate-bts) \
 yate-bts \
 yate-bts(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/php \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "composer \
 php-composer \
 php-composer2 \
 php7-composer"
+
 RDEPENDS:${PN} += "/bin/sh \
 php \
 php-curl \

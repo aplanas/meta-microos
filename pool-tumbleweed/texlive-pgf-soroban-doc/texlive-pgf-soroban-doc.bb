@@ -9,6 +9,7 @@ RPM_HASH = "ed0874ed144a9cb4b3454f674ea1d93b9707625da2dce3934c72cab0c0aef26e18a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-soroban-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

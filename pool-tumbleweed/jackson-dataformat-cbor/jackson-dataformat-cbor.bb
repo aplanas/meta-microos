@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "jackson-dataformat-cbor \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-cbor) \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:pom:) \
 osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-cbor)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

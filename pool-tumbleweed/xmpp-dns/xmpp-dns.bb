@@ -9,6 +9,7 @@ RPM_HASH = "bafddd3cddb8ed5b814aea4faab99a78c4421df2c54008f1bebf4398df00edd18598
 
 RPROVIDES:${PN} += "xmpp-dns \
 xmpp-dns(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

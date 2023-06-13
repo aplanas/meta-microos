@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "gnutls-devel \
 libgnutls-devel \
 libgnutls-devel(aarch-64) \
 pkgconfig(gnutls)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 crypto-policies \
 glibc-devel \

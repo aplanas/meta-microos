@@ -14,6 +14,7 @@ RPM_HASH = "a9b60b57d02d2ab4db287cb3dec893f195431ba1fcf9d3365e162bb81e079f1c23b5
 
 RPROVIDES:${PN} += "docker-compose \
 docker-compose(aarch-64)"
+
 RDEPENDS:${PN} += "docker \
 docker-compose-switch \
 libc.so.6(GLIBC_2.34)(64bit)"

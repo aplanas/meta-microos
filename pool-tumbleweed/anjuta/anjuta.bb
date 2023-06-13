@@ -61,6 +61,7 @@ mimehandler(application/x-anjuta) \
 mimehandler(application/x-anjuta-compressed-project-template) \
 mimehandler(application/x-anjuta-project-template) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 autoconf \
 autogen \

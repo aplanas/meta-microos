@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(openresolv) \
 openresolv"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash"
 

@@ -351,6 +351,7 @@ perl(DateTime::TimeZone::Pacific::Tongatapu) \
 perl(DateTime::TimeZone::UTC) \
 perl(DateTime::TimeZone::WET) \
 perl-DateTime-TimeZone"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Singleton) \
 perl(List::Util) \

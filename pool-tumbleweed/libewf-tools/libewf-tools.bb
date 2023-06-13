@@ -10,6 +10,7 @@ RPM_HASH = "0f83fdfbdcd34c60a1dd32f4813b06bf6f8df31adcd70163a1dc14eea42b8f163573
 
 RPROVIDES:${PN} += "libewf-tools \
 libewf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 fuse \
 ld-linux-aarch64.so.1()(64bit) \

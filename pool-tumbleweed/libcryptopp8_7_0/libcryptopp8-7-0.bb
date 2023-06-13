@@ -13,6 +13,7 @@ RPM_HASH = "894e8ac842bc3b64112767763dbaacae68279ffa2f8476073517184b0db908ce7715
 RPROVIDES:${PN} += "libcryptopp.so.8.7.0()(64bit) \
 libcryptopp8_7_0 \
 libcryptopp8_7_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(Symbol::Table) \
 perl(Symbol::Table::Tie) \
 perl-Symbol-Table \
 perl-Symbol-Table(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

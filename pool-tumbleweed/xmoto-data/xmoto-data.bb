@@ -9,6 +9,7 @@ RPM_HASH = "cc844f6780efaf3c82c7917e0d79d91e8fad997b2c34481c0641d13bd02cbaeb5a53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmoto-data"
+
 RDEPENDS:${PN} += "xmoto"
 
 inherit rpm

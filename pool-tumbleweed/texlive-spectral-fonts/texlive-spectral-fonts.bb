@@ -159,6 +159,7 @@ font(spectrallight) \
 font(spectralmedium) \
 font(spectralsemibold) \
 texlive-spectral-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

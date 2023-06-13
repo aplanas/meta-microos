@@ -11,6 +11,7 @@ RPM_HASH = "384ea4c8d8d51f5e370582477cd4a6ca26a192957baeacea07b279707d76c737a0df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_type_erasure-devel"
+
 RDEPENDS:${PN} += "libboost_type_erasure1_82_0-devel"
 
 inherit rpm

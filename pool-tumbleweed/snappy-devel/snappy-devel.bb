@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(Snappy) \
 pkgconfig(snappy) \
 snappy-devel \
 snappy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsnappy1"
 

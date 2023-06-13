@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-framework-javadoc \
 avalon-framework-manual"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

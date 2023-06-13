@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(nbformat) \
 python39-jupyter_nbformat \
 python39-nbformat \
 python3dist(nbformat)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

@@ -13,6 +13,7 @@ RPM_HASH = "ce6b892be5fade9daf8991bfc6fd40143cb289c0f5cc7e30aa682f54f6a30939addb
 
 RPROVIDES:${PN} += "CSXCAD-devel \
 CSXCAD-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libCSXCAD0"
 
 inherit rpm

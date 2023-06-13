@@ -10,6 +10,7 @@ RPM_HASH = "1d3e9fc1f2fec5221b4c6337338c47c1d4a86ccdcf1aec91378263f21d08e6ff751b
 RPROVIDES:${PN} += "ghc-boring-prof \
 ghc-boring-prof(aarch-64) \
 ghc-prof(boring-0.2.1-J8lJX6Vz53r2bssyBwOtpl)"
+
 RDEPENDS:${PN} += "ghc-boring-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa) \

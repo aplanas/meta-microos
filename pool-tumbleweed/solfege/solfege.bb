@@ -17,6 +17,7 @@ application(solfege.desktop) \
 config(solfege) \
 solfege \
 solfege(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

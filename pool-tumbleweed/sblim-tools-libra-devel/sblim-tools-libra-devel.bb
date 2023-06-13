@@ -14,6 +14,7 @@ RPM_HASH = "e0ff2c1c2dc5d41a9282725525ec38a18a32d6efad629b7d23a9ef56bb12d78fc68c
 RPROVIDES:${PN} += "libRaTools-devel \
 sblim-tools-libra-devel \
 sblim-tools-libra-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libRaTools0"
 
 inherit rpm

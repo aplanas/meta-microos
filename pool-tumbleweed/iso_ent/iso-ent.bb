@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(iso_ent) \
 iso-ent \
 iso-entities \
 iso_ent"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sgml-register-catalog"
 

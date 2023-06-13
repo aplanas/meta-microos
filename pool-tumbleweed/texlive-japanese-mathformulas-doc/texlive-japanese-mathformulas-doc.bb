@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-japanese-mathformulas-doc:ja) \
 texlive-japanese-mathformulas-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

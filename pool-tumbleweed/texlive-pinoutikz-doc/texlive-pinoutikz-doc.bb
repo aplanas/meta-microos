@@ -9,6 +9,7 @@ RPM_HASH = "44ce873956c1fb5170b57e9d5c89f374e300b5a1d2751a849a3c711c43b4a692d9a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pinoutikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

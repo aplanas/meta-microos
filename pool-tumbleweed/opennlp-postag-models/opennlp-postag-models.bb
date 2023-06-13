@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(edu.washington.cs.knowitall:opennlp-postag-models) \
 mvn(edu.washington.cs.knowitall:opennlp-postag-models:pom:) \
 opennlp-postag-models"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

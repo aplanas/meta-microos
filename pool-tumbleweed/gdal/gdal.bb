@@ -14,6 +14,7 @@ RPM_HASH = "6c3d0d69d081247fcbd021dfc9775d92b63cad623f2f38763c75c3fe9f47a97f96cc
 
 RPROVIDES:${PN} += "gdal \
 gdal(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

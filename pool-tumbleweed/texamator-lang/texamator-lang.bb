@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texamator-lang \
 texamator-lang-all"
+
 RDEPENDS:${PN} += "texamator"
 
 inherit rpm

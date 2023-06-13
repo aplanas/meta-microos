@@ -12,6 +12,7 @@ python3.10dist(beren) \
 python310-beren \
 python310-beren(aarch-64) \
 python3dist(beren)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-apiron"
 

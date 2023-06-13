@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pure-sasl) \
 python39-pure-sasl \
 python3dist(pure-sasl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-kerberos"
 

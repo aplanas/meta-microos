@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(youtube-dl) \
 python311-youtube-dl \
 python3dist(youtube-dl)"
+
 RDEPENDS:${PN} += "ffmpeg \
 python(abi) \
 python311-xml"

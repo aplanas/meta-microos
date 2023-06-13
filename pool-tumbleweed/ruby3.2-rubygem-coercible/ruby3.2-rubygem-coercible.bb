@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:coercible) \
 rubygem(ruby:3.2.0:coercible:1) \
 rubygem(ruby:3.2.0:coercible:1.0) \
 rubygem(ruby:3.2.0:coercible:1.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:descendants_tracker:0.0)"
 

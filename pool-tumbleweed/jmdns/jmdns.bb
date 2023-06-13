@@ -17,6 +17,7 @@ mvn(javax.jmdns:jmdns:pom:) \
 mvn(org.jmdns:jmdns) \
 mvn(org.jmdns:jmdns:pom:) \
 osgi(javax.jmdns)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

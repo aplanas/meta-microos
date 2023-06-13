@@ -1320,6 +1320,7 @@ postscriptdriver(xerox;workcentre_c2424;) \
 postscriptdriver(xerox;xerox_phaser_2135;) \
 postscriptdriver(xerox;xerox_phaser_3500;) \
 postscriptdriver(xerox;xerox_wc_pe120;)"
+
 RDEPENDS:${PN} += "foomatic-filters \
 ghostscript-library"
 

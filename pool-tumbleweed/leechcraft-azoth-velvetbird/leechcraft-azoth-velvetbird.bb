@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-velvetbird \
 leechcraft-azoth-velvetbird(aarch-64) \
 libleechcraft_azoth_velvetbird.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

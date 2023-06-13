@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(librarian.sty) \
 tex(librarian.tex) \
 tex(t-librarian.tex) \
 texlive-librarian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

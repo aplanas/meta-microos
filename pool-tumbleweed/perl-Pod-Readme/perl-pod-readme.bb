@@ -17,6 +17,7 @@ perl(Pod::Readme::Plugin::requires) \
 perl(Pod::Readme::Plugin::version) \
 perl(Pod::Readme::Types) \
 perl-Pod-Readme"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Changes) \

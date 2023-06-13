@@ -19,6 +19,7 @@ RPM_HASH = "3eb9d11589cdb2d86f12ad2f8ddbcdb9df046bf3ead2f5abb0ddab19927a9840bc2b
 RPROVIDES:${PN} += "config(speech-dispatcher-module-espeak) \
 speech-dispatcher-module-espeak \
 speech-dispatcher-module-espeak(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "7e9b193c04de1358ec8c0c334834639dd9e3f9bb0ba50705d66cdd0395fd29843705
 RPROVIDES:${PN} += "libnbd-devel \
 libnbd-devel(aarch-64) \
 pkgconfig(libnbd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnbd0"
 

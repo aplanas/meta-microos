@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-sw_management \
 patterns-base-sw_management(aarch-64) \
 patterns-openSUSE-sw_management"
+
 RDEPENDS:${PN} += "zypper"
 
 inherit rpm

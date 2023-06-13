@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gutenprint-devel \
 gutenprint-devel(aarch-64) \
 pkgconfig(gutenprint) \
 pkgconfig(gutenprintui2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cups \
 ghostscript-library \

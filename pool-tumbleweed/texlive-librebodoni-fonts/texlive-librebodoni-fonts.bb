@@ -124,6 +124,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(librebodoni) \
 texlive-librebodoni-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

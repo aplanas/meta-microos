@@ -11,6 +11,7 @@ RPM_HASH = "e7974a675fbb6402e03c4dc5cfeb9a69308b18e7daa2fdd70ac1e0d62f69825deefd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-targets-fogra"
+
 RDEPENDS:${PN} += "color-filesystem"
 
 inherit rpm

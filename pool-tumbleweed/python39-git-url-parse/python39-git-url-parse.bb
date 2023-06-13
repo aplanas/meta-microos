@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(git-url-parse) \
 python39-git-url-parse \
 python3dist(git-url-parse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pbr"
 

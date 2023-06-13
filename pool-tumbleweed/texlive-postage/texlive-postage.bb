@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(postage.sty) \
 texlive-postage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

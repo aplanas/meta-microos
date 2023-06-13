@@ -56,6 +56,7 @@ locale(console:uk) \
 locale(console:vi) \
 locale(console:zh_CN) \
 locale(console:zh_TW)"
+
 RDEPENDS:${PN} += "console"
 
 inherit rpm

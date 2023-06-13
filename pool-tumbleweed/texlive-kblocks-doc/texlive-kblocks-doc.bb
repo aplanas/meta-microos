@@ -9,6 +9,7 @@ RPM_HASH = "039c588985ee661482c793741d001914867ccc09a42d0490d045cca338e5e4a7222b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kblocks-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "7e672cb2389ac11760ee616cbc4898a0d0c99cad8f056e2e184f2ba63a971c385206
 
 RPROVIDES:${PN} += "libvhdi-tools \
 libvhdi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

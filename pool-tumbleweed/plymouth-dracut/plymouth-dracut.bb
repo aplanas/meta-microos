@@ -9,6 +9,7 @@ RPM_HASH = "047feef6ad5edda6330551e973e5eeb53d8e22d093f3735bd80299437932b31354a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-dracut"
+
 RDEPENDS:${PN} += "/bin/bash \
 plymouth"
 

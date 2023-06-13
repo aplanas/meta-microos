@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:dry-configurable) \
 rubygem(ruby:3.2.0:dry-configurable:1) \
 rubygem(ruby:3.2.0:dry-configurable:1.0) \
 rubygem(ruby:3.2.0:dry-configurable:1.0.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:dry-core) \
 rubygem(ruby:3.2.0:dry-core:1) \

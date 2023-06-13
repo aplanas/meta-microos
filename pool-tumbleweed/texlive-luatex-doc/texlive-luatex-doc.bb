@@ -13,6 +13,7 @@ man(luatex.1) \
 man(texlua.1) \
 man(texluac.1) \
 texlive-luatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

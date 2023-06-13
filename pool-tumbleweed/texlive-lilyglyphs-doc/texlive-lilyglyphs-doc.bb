@@ -9,6 +9,7 @@ RPM_HASH = "ab5ec3ef53c0f34015ac7547edff33b45f1235245b0336011237a71b6781bbbf1d2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lilyglyphs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

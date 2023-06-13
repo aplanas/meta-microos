@@ -14,6 +14,7 @@ RPM_HASH = "6f329fe13c0f02ebab55eeb4b74b217aacdc0193604ff12739061b24b231b9a48ec3
 RPROVIDES:${PN} += "libmosquittopp.so.1()(64bit) \
 libmosquittopp1 \
 libmosquittopp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libmosquitto.so.1()(64bit) \
 libstdc++.so.6()(64bit) \

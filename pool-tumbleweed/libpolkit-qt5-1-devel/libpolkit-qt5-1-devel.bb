@@ -17,6 +17,7 @@ pkgconfig(polkit-qt5-1) \
 pkgconfig(polkit-qt5-agent-1) \
 pkgconfig(polkit-qt5-core-1) \
 pkgconfig(polkit-qt5-gui-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpolkit-qt5-1-1 \
 pkgconfig(Qt5Core) \

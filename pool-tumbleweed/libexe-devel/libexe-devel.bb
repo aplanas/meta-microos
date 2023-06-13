@@ -14,6 +14,7 @@ RPM_HASH = "fb490dae8624f1d6139c623e7c4ca44555cf3ff0a785523cf38a9aa6dd4b6d03827c
 RPROVIDES:${PN} += "libexe-devel \
 libexe-devel(aarch-64) \
 pkgconfig(libexe)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libexe1"

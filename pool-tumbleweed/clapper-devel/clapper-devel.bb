@@ -9,6 +9,7 @@ RPM_HASH = "2daac0765e8eb093d912c73fffe5e913d780e0eedea792293ec1f4f12cda796e2af9
 
 RPROVIDES:${PN} += "clapper-devel \
 clapper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgstclapper-1_0-0 \
 libgstclapperglbaseimporter0 \
 typelib-1_0-GstClapper-1"

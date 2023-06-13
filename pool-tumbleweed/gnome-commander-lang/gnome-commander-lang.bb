@@ -59,6 +59,7 @@ locale(gnome-commander:uk) \
 locale(gnome-commander:vi) \
 locale(gnome-commander:zh_CN) \
 locale(gnome-commander:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-commander"
 
 inherit rpm

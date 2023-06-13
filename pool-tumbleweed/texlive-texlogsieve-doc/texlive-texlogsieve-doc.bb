@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texlogsieve.1) \
 texlive-texlogsieve-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

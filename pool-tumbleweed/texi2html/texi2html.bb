@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texi2html \
 texinfo:/usr/bin/texi2html"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl(Unicode::EastAsianWidth) \

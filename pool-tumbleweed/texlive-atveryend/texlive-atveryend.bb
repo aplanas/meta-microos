@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(atveryend.sty) \
 texlive-atveryend"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

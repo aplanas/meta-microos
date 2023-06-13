@@ -13,6 +13,7 @@ RPM_HASH = "0eca74103eeb83cf94bec81ea764d88b6473677e7df5665ea58f28b24f53aa0f9de5
 RPROVIDES:${PN} += "typelib(GPaste) \
 typelib-1_0-GPaste-2 \
 typelib-1_0-GPaste-2(aarch-64)"
+
 RDEPENDS:${PN} += "libgpaste-2.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pbalance.sty) \
 texlive-pbalance"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

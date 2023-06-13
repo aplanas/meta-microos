@@ -9,6 +9,7 @@ RPM_HASH = "f3061de87c28a75ba592162dd015ee3deaaa32c43c70c22edcab7eff4c7c4669f9ee
 
 RPROVIDES:${PN} += "scim-gtk3 \
 scim-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

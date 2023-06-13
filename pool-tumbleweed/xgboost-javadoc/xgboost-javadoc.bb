@@ -9,6 +9,7 @@ RPM_HASH = "8fae9ecf4a7c7642ac4fffd020e1f2fe8882bb0d3275aff5c4ce09764ab164bcea25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xgboost-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

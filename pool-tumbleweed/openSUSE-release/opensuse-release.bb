@@ -24,6 +24,7 @@ product-url(repository) \
 suse-release \
 suse-release-oss \
 system-installation()"
+
 RDEPENDS:${PN} += "/bin/sh \
 product_flavor(openSUSE)"
 

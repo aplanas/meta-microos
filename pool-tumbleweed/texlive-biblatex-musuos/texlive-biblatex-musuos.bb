@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(german-musuos.lbx) \
 tex(musuos.bbx) \
 tex(musuos.cbx) \
 texlive-biblatex-musuos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

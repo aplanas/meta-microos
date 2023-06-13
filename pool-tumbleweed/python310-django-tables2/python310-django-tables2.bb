@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-tables2 \
 python3.10dist(django-tables2) \
 python310-django-tables2 \
 python3dist(django-tables2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

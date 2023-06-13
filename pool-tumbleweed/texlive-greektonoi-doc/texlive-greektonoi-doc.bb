@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-greektonoi-doc:el) \
 texlive-greektonoi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

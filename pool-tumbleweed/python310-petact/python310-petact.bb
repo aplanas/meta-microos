@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-petact \
 python3.10dist(petact) \
 python310-petact \
 python3dist(petact)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

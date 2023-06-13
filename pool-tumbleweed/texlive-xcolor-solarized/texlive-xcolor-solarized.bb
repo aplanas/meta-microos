@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xcolor-solarized.sty) \
 texlive-xcolor-solarized"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

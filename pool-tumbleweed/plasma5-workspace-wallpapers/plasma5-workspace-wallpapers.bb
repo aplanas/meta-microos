@@ -9,6 +9,7 @@ RPM_HASH = "3df1b0c32f74f008d0ba20b3609b0950791bfc63e524880c51d45ff46581fa0b4053
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plasma5-workspace-wallpapers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

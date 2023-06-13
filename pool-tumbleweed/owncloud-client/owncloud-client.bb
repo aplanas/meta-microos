@@ -26,6 +26,7 @@ config(owncloud-client) \
 mimehandler(application/vnd.owncloud) \
 owncloud-client \
 owncloud-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLibreGraphAPI.so.1()(64bit) \

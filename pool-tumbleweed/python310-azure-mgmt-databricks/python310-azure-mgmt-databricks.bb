@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-databricks \
 python3.10dist(azure-mgmt-databricks) \
 python310-azure-mgmt-databricks \
 python3dist(azure-mgmt-databricks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -48,6 +48,7 @@ mimehandler(image/x-tga) \
 mimehandler(image/x-xbitmap) \
 mimehandler(image/x-xcf) \
 mimehandler(image/x-xpixmap)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdelibs4support \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-cockpit \
 patterns-microos-cockpit(aarch-64)"
+
 RDEPENDS:${PN} += "(cockpit-packagekit if patterns-microos-base-packagekit) \
 cockpit-podman \
 cockpit-system"

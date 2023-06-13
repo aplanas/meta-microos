@@ -11,6 +11,7 @@ RPM_HASH = "729c28991eb7c24b6f5b5495d164f2cc5af7386425f039ceba79651607637f472716
 RPROVIDES:${PN} += "libayatana-appindicator-devel \
 libayatana-appindicator-devel(aarch-64) \
 pkgconfig(ayatana-appindicator-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libayatana-appindicator1 \
 pkgconfig(ayatana-indicator-0.4) \

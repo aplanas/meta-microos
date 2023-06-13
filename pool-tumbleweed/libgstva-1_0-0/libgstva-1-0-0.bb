@@ -14,6 +14,7 @@ RPM_HASH = "0d7833ed10a92f843210ef56ffad61cd9abf46f5ae3f2b561592f145038196228afc
 RPROVIDES:${PN} += "libgstva-1.0.so.0()(64bit) \
 libgstva-1_0-0 \
 libgstva-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

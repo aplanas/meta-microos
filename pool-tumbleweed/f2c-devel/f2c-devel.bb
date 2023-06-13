@@ -9,6 +9,7 @@ RPM_HASH = "443cbb6308bda27676bf177c2e3c2f6f9475f1e8daf6d843debf182afda897b66931
 
 RPROVIDES:${PN} += "f2c-devel \
 f2c-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libf2c0"
 
 inherit rpm

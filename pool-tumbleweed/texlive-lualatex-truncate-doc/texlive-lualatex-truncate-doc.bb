@@ -9,6 +9,7 @@ RPM_HASH = "1879387326b07759a5e201d7a353ef09893b4f6fcf9a9a78b9ab4a35c3958f26db43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualatex-truncate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "61e9bbe57b8b40df3a963b59a0b17fbfef9db862f664e75ec884fc9784077dee0362
 RPROVIDES:${PN} += "gedit-latex \
 gedit-plugin-latex \
 gedit-plugin-latex(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1-python3 \
 gedit \
 gvfs \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(sonivox) \
 pkgconfig(sonivox) \
 sonivox-devel \
 sonivox-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsonivox3"
 

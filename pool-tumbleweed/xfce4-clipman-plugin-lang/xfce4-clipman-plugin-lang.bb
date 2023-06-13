@@ -59,6 +59,7 @@ locale(xfce4-clipman-plugin:zh_TW) \
 xfce4-clipman-plugin-lang \
 xfce4-clipman-plugin-lang-all \
 xfce4-panel-plugin-clipman-lang"
+
 RDEPENDS:${PN} += "xfce4-clipman-plugin"
 
 inherit rpm

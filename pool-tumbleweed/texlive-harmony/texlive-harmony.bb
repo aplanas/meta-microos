@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(harmony.sty) \
 texlive-harmony"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

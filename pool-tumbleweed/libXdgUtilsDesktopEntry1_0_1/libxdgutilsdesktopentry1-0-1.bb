@@ -11,6 +11,7 @@ RPM_HASH = "1865a96964497754505f3939dcab4878b6725cb6dd0de064e95cbb7ec5ea718f0f7c
 RPROVIDES:${PN} += "libXdgUtilsDesktopEntry.so.1.0.1()(64bit) \
 libXdgUtilsDesktopEntry1_0_1 \
 libXdgUtilsDesktopEntry1_0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

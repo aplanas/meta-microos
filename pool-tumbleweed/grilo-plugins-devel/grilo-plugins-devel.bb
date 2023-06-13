@@ -13,6 +13,7 @@ RPM_HASH = "8326f6c051bb3f1ea3650bb48733fcef6b7af6e24f6e0dafb768b7e0e8496ed9e291
 RPROVIDES:${PN} += "grilo-plugins-devel \
 grilo-plugins-devel(aarch-64) \
 pkgconfig(grilo-plugins-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 grilo-plugin-dleyna \
 grilo-plugin-tracker \

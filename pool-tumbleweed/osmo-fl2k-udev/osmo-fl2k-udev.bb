@@ -9,6 +9,7 @@ RPM_HASH = "3ff5b6e18139924445c53c2393143e55322a5f19a070af5aa16b0980040872c3b9d2
 
 RPROVIDES:${PN} += "osmo-fl2k-udev \
 osmo-fl2k-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

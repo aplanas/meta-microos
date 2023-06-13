@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(bsddb3) \
 python39-bsddb3 \
 python39-bsddb3(aarch-64) \
 python3dist(bsddb3)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

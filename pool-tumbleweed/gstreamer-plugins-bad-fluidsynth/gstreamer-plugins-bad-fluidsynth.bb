@@ -12,6 +12,7 @@ gstreamer-plugins-bad-fluidsynth(aarch-64) \
 gstreamer1(decoder-audio/x-midi-event)()(64bit) \
 gstreamer1(element-fluiddec)()(64bit) \
 libgstfluidsynthmidi.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

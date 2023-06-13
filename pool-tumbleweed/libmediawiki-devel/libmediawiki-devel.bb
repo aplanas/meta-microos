@@ -13,6 +13,7 @@ RPM_HASH = "ecb36f24c5a6b5e55b0541311681bab3134f0d2fd6a029827119641005c1e6751350
 RPROVIDES:${PN} += "cmake(KF5MediaWiki) \
 libmediawiki-devel \
 libmediawiki-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cmake(Qt5Core) \
 cmake(Qt5Network) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-graphene-django \
 python3.10dist(graphene-django) \
 python310-graphene-django \
 python3dist(graphene-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-graphene \

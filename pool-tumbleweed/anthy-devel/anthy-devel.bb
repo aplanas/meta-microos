@@ -11,6 +11,7 @@ RPM_HASH = "de0091012ff3f5a2e02ab75d8c0f2fdd75f4edced982749be1702fb53618b885c6dd
 RPROVIDES:${PN} += "anthy-devel \
 anthy-devel(aarch-64) \
 pkgconfig(anthy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libanthy0"
 

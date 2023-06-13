@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(owasp-modsecurity-crs-slr_rules) \
 owasp-modsecurity-crs-slr_rules"
+
 RDEPENDS:${PN} += "owasp-modsecurity-crs"
 
 inherit rpm

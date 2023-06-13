@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jourcl.cls) \
 texlive-jourcl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

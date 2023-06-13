@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gnuhealth-thalamus \
 python3.10dist(thalamus) \
 python3dist(thalamus)"
+
 RDEPENDS:${PN} += "/bin/bash \
 postgresql-server \
 python(abi) \

@@ -10,6 +10,7 @@ RPM_HASH = "1ac67f1dcadf236ae48f8e405019800efbb1eb33abc37f4ab9fc284700882cc33dd8
 RPROVIDES:${PN} += "ghc-disk-free-space-prof \
 ghc-disk-free-space-prof(aarch-64) \
 ghc-prof(disk-free-space-0.1.0.1-CGtWAgWYeLt876pNI1pHoX)"
+
 RDEPENDS:${PN} += "ghc-disk-free-space-devel \
 ghc-prof(base-4.17.1.0)"
 

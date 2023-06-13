@@ -13,6 +13,7 @@ RPM_HASH = "91958df6589c49cc91049b678019143f779644216a53432b28f4beb867e646ac402c
 
 RPROVIDES:${PN} += "mpg123-pulse \
 mpg123-pulse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

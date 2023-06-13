@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-ipyleaflet \
 python3.10dist(ipyleaflet) \
 python310-ipyleaflet \
 python3dist(ipyleaflet)"
+
 RDEPENDS:${PN} += "(python310-ipywidgets >= 7.6.0 with python310-ipywidgets < 9) \
 (python310-traittypes >= 0.2.1 with python310-traittypes < 3) \
 jupyter-ipyleaflet \

@@ -16,6 +16,7 @@ ibus-cangjie \
 metainfo() \
 metainfo(cangjie.appdata.xml) \
 metainfo(quick.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ibus \
 python(abi) \

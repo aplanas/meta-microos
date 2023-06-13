@@ -9,6 +9,7 @@ RPM_HASH = "4bda18bc6576dd9eb59d1ab8a42d061e1bebf284ab59d2194b7537f84676f6173c76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamercolorthemeowl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -20,6 +20,7 @@ libktpcommoninternals7 \
 libktpcommoninternals8 \
 libktpqmlplugin.so()(64bit) \
 qt5qmlimport(org.kde.telepathy.0)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ktp-icons \
 ld-linux-aarch64.so.1()(64bit) \

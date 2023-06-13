@@ -17,6 +17,7 @@ tex(pgflibraryhobby.code.tex) \
 tex(pml3array.sty) \
 tex(tikzlibraryhobby.code.tex) \
 texlive-hobby"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

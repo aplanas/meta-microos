@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(phaistos.map) \
 tex(phaistos.sty) \
 tex(phaistos.tfm) \
 texlive-phaistos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

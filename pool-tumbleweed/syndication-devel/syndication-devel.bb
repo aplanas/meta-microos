@@ -12,6 +12,7 @@ RPM_HASH = "49fb3b749b72c180295b76605fdee840be9f8ea072c00fdada3fa45e4d69ff5964b0
 RPROVIDES:${PN} += "cmake(KF5Syndication) \
 syndication-devel \
 syndication-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5Syndication5"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-apns2 \
 python3.10dist(apns2) \
 python310-apns2 \
 python3dist(apns2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-cryptography \

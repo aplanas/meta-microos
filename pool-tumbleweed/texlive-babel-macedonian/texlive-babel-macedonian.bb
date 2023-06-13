@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(macedonian.ldf) \
 texlive-babel-macedonian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

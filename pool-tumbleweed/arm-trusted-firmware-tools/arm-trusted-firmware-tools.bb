@@ -17,6 +17,7 @@ RPM_HASH = "bc3619835e165b6e56e2da442bbc30635db381a638494c852087ebc68ca3cc26b170
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tools \
 arm-trusted-firmware-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

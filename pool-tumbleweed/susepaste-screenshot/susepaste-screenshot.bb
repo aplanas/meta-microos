@@ -10,6 +10,7 @@ RPM_HASH = "668c9a3fff87eb6021cbb6fe75cd9e7458536a56d8b04b75f7eb8031335e98ab8301
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "susepaste-screenshot"
+
 RDEPENDS:${PN} += "/bin/sh \
 ImageMagick \
 curl \

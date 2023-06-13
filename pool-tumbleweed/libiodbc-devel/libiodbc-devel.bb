@@ -10,6 +10,7 @@ RPM_HASH = "5d0dd0e51c196520407e1e2d551fec8b7c2510f716a275fb5bf8e771ccf3771ea941
 RPROVIDES:${PN} += "libiodbc-devel \
 libiodbc-devel(aarch-64) \
 pkgconfig(libiodbc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 iodbc \

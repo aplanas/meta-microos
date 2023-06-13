@@ -32,6 +32,7 @@ locale(Font-Downloader:ru) \
 locale(Font-Downloader:sv) \
 locale(Font-Downloader:tr) \
 locale(Font-Downloader:zh_CN)"
+
 RDEPENDS:${PN} += "Font-Downloader"
 
 inherit rpm

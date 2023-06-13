@@ -19,6 +19,7 @@ rubygem(ruby:3.2.0:nokogiri) \
 rubygem(ruby:3.2.0:nokogiri:1) \
 rubygem(ruby:3.2.0:nokogiri:1.13) \
 rubygem(ruby:3.2.0:nokogiri:1.13.9)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \

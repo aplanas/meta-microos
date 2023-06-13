@@ -11,6 +11,7 @@ RPM_HASH = "48c3c05e3378061a0e2b05fa2ac08af42c34bd76f7284dd4e8201a896c932148e10a
 RPROVIDES:${PN} += "libminiupnpc-devel \
 libminiupnpc-devel(aarch-64) \
 pkgconfig(miniupnpc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libminiupnpc17"
 

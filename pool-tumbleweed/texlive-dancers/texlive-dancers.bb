@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dancers.tfm) \
 texlive-dancers"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

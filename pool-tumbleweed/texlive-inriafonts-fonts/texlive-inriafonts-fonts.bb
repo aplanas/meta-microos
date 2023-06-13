@@ -123,6 +123,7 @@ font(inriasanslight) \
 font(inriaserif) \
 font(inriaseriflight) \
 texlive-inriafonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

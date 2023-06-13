@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(yast2:it) \
 yast2-trans-it"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

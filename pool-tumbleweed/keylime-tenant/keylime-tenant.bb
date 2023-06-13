@@ -9,6 +9,7 @@ RPM_HASH = "91f2e1e51f3154054044998e066c7be5a72d290b25b86059d2be31479de245c46aea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-tenant"
+
 RDEPENDS:${PN} += "keylime-config \
 keylime-tpm_cert_store \
 python3-keylime"

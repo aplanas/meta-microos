@@ -12,6 +12,7 @@ at(aarch-64) \
 config(at) \
 group(at) \
 user(at)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

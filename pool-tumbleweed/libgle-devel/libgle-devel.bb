@@ -15,6 +15,7 @@ RPM_HASH = "04da692327559c9d3d654850812a4e8f2ad7f2ef621e37e814f1a1357018921cf323
 
 RPROVIDES:${PN} += "libgle-devel \
 libgle-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgle3"
 
 inherit rpm

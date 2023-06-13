@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "man(chktex.1) \
 man(chkweb.1) \
 man(deweb.1) \
 texlive-chktex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

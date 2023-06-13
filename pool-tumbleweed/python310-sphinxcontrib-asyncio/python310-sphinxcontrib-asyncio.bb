@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-asyncio \
 python3.10dist(sphinxcontrib-asyncio) \
 python310-sphinxcontrib-asyncio \
 python3dist(sphinxcontrib-asyncio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

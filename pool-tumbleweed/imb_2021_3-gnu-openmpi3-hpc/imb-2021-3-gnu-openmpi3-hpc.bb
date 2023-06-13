@@ -11,6 +11,7 @@ RPM_HASH = "ce3be2b589654799bc675a70cfc698acd8bb15f9abd029d58449782824b223a3119c
 
 RPROVIDES:${PN} += "imb_2021_3-gnu-openmpi3-hpc \
 imb_2021_3-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 libc.so.6(GLIBC_2.34)(64bit) \

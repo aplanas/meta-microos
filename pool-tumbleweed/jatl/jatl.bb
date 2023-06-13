@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jatl \
 mvn(com.googlecode.jatl:jatl) \
 mvn(com.googlecode.jatl:jatl:pom:) \
 osgi(com.googlecode.jatl)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-lang:commons-lang)"

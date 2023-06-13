@@ -10,6 +10,7 @@ RPM_HASH = "2846a853147e2d265e98523367d728b7027ee4729c734602d5e8d77c35b78bf82ee8
 
 RPROVIDES:${PN} += "ioquake3-devel \
 ioquake3-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

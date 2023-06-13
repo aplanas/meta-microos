@@ -159,6 +159,7 @@ tex(weisman.tex) \
 tex(welcome-to-context.tex) \
 tex(zapf.tex) \
 texlive-context"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

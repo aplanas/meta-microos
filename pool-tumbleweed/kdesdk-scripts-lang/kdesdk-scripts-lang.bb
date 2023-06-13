@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdesdk-scripts-lang \
 kdesdk-scripts-lang-all"
+
 RDEPENDS:${PN} += "kdesdk-scripts"
 
 inherit rpm

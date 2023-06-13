@@ -66,6 +66,7 @@ locale(phonon4qt5-backend-gstreamer:zh_CN) \
 locale(phonon4qt5-backend-gstreamer:zh_TW) \
 phonon4qt5-backend-gstreamer-lang \
 phonon4qt5-backend-gstreamer-lang-all"
+
 RDEPENDS:${PN} += "phonon4qt5-backend-gstreamer"
 
 inherit rpm

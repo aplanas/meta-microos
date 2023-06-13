@@ -15,6 +15,7 @@ RPM_HASH = "a002c748e5383f366b4e25c37574b9bcac87ea1b4afc29020ce02069ef12c2813612
 
 RPROVIDES:${PN} += "nmtree \
 nmtree(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

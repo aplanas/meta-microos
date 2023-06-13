@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kfupm-math-exam.cls) \
 texlive-kfupm-math-exam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

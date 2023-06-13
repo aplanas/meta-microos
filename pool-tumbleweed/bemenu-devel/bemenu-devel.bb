@@ -10,6 +10,7 @@ RPM_HASH = "9d7d0429abc774e9d54688cb898a6cd0a89e1244641e90da723e9e11182874c675e3
 RPROVIDES:${PN} += "bemenu-devel \
 bemenu-devel(aarch-64) \
 pkgconfig(bemenu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 gcc-c++ \

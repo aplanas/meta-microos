@@ -9,6 +9,7 @@ RPM_HASH = "e6a9633c0ff3afe588150be5def43fc3e1996b5d25867d92391baa8acf9a4986a941
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pymisp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

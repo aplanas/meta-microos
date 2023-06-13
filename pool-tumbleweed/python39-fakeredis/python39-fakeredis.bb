@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(fakeredis) \
 python39-fakeredis \
 python3dist(fakeredis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-redis \
 python39-sortedcontainers"

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(biblatex-juradiss.bbx) \
 tex(biblatex-juradiss.cbx) \
 texlive-biblatex-juradiss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

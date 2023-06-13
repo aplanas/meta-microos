@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(translation-update:hr) \
 translation-update-hr"
+
 RDEPENDS:${PN} += "translation-update"
 
 inherit rpm

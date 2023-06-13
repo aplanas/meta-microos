@@ -17,6 +17,7 @@ RPM_HASH = "bb319ba8eb3183f2608d42239ae375abd07d6176d5d9f9b6b5593583b05a85c3e7ec
 RPROVIDES:${PN} += "wxWidgets-3_0-nostl-devel \
 wxWidgets-3_0-nostl-devel(aarch-64) \
 wxWidgets-any-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2-devel \
 ld-linux-aarch64.so.1()(64bit) \

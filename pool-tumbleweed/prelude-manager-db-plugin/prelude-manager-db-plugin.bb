@@ -9,6 +9,7 @@ RPM_HASH = "5c9d591f1f41d6e374175022787d8522d95b46895308e9678ee332a677f1a3bd0a2d
 
 RPROVIDES:${PN} += "prelude-manager-db-plugin \
 prelude-manager-db-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

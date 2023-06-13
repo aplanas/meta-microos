@@ -53,6 +53,7 @@ locale(unknown-horizons:zh_CN) \
 locale(unknown-horizons:zh_TW) \
 unknown-horizons-lang \
 unknown-horizons-lang-all"
+
 RDEPENDS:${PN} += "unknown-horizons"
 
 inherit rpm

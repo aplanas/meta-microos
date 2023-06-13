@@ -9,6 +9,7 @@ RPM_HASH = "0f640f2d323bd69299a22b8becce3957f38906cffeae1540fb0ba4fd91d1709d1709
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lpform-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

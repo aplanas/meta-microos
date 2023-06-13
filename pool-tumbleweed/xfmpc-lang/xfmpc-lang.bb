@@ -55,6 +55,7 @@ locale(xfmpc:zh_CN) \
 locale(xfmpc:zh_TW) \
 xfmpc-lang \
 xfmpc-lang-all"
+
 RDEPENDS:${PN} += "xfmpc"
 
 inherit rpm

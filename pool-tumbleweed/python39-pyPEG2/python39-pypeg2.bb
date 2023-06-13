@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pypeg2) \
 python39-pyPEG2 \
 python3dist(pypeg2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml"
 

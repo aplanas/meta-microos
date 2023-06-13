@@ -139,6 +139,7 @@ font(amiri) \
 font(amiriquran) \
 font(amiriqurancolored) \
 texlive-amiri-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

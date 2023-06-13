@@ -17,6 +17,7 @@ RPM_HASH = "0747f5f8c876ab00f909a966726e0c3c594be5ba55fd02cf790b5a0c6c39fe31e8f3
 
 RPROVIDES:${PN} += "cpulimit \
 cpulimit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

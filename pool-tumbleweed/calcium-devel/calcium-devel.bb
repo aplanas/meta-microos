@@ -12,6 +12,7 @@ RPM_HASH = "74b2b0fdfcc1f9707bfac378e146892c4c995fc7742c2bb3d94a26085d50568c978c
 
 RPROVIDES:${PN} += "calcium-devel \
 calcium-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcalcium0"
 
 inherit rpm

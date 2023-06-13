@@ -18,6 +18,7 @@ font(emmentaler-23) \
 font(emmentaler-26) \
 font(emmentaler-brace) \
 texlive-lilyglyphs-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

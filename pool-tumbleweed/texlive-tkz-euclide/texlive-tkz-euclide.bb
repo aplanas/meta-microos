@@ -54,6 +54,7 @@ tex(tkz-tools-lua-base.tex) \
 tex(tkz-tools-lua-intersections.tex) \
 tex(tkz-tools-lua-math.tex) \
 texlive-tkz-euclide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sortinghat) \
 python39-sortinghat \
 python3dist(sortinghat)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

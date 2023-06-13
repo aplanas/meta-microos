@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(AnyEvent::WebSocket::Server) \
 perl-AnyEvent-WebSocket-Server"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent::Handle) \
 perl(AnyEvent::WebSocket::Client) \

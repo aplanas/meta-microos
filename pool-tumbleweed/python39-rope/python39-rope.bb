@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rope) \
 python39-rope \
 python3dist(rope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39 \
 python39-pytoolconfig-global"

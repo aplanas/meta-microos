@@ -14,6 +14,7 @@ RPM_HASH = "9c5946dea1b83f7f2a169b30770f45b50ca5436cd4f927d771c9936f60717ce540cb
 
 RPROVIDES:${PN} += "irrlicht-devel \
 irrlicht-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libIrrlicht1_8 \
 libstdc++-devel"
 

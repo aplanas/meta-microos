@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jetty-artifact-remote-resources \
 mvn(org.eclipse.jetty.toolchain:jetty-artifact-remote-resources) \
 mvn(org.eclipse.jetty.toolchain:jetty-artifact-remote-resources:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

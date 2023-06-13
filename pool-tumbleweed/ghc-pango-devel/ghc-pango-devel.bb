@@ -10,6 +10,7 @@ RPM_HASH = "f0f8e93d8333597c5814b2cff14959c484f2f1ad28c46d9941de47b5e5487f9a5efa
 RPROVIDES:${PN} += "ghc-devel(pango-0.13.8.2-AyE0ruIpbddIIASgXg66h2) \
 ghc-pango-devel \
 ghc-pango-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

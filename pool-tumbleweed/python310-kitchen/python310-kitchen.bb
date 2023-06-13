@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-kitchen \
 python3.10dist(kitchen) \
 python310-kitchen \
 python3dist(kitchen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

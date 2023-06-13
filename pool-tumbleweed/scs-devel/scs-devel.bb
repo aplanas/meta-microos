@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libscsdir.so()(64bit) \
 libscsindir.so()(64bit) \
 scs-devel \
 scs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblas.so.3()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 liblapack.so.3()(64bit) \

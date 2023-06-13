@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flexipage.sty) \
 texlive-flexipage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

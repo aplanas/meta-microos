@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(terminfo-base) \
 ncurses:/usr/share/tabset \
 terminfo-base \
 terminfo-base(aarch-64)"
+
 RDEPENDS:${PN} += "ncurses"
 
 inherit rpm

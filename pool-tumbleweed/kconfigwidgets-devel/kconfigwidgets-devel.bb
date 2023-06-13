@@ -11,6 +11,7 @@ RPM_HASH = "7a4473414814b823be7272e2746a58f99128f2c3dc7f32e61b7f8360473669260a38
 RPROVIDES:${PN} += "cmake(KF5ConfigWidgets) \
 kconfigwidgets-devel \
 kconfigwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 cmake(KF5Auth) \
 cmake(KF5Codecs) \

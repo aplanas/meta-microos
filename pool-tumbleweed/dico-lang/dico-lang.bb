@@ -20,6 +20,7 @@ locale(dico:pt_BR) \
 locale(dico:sr) \
 locale(dico:sv) \
 locale(dico:uk)"
+
 RDEPENDS:${PN} += "dico"
 
 inherit rpm

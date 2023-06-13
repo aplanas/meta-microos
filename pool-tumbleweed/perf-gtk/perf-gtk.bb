@@ -10,6 +10,7 @@ RPM_HASH = "d5f3644bf0857c4654107d4e252c232d7e5e6bcfbaf0ad4569334a5b4a6ac2d980b6
 RPROVIDES:${PN} += "libperf-gtk.so()(64bit) \
 perf-gtk \
 perf-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -61,6 +61,7 @@ tex(mrcls_rwr7kk.enc) \
 tex(mrcls_rzkwvt.enc) \
 tex(mrcls_stzmvz.enc) \
 texlive-marcellus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

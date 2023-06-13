@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(savetrees.bbx) \
 tex(savetrees.cbx) \
 tex(savetrees.sty) \
 texlive-savetrees"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

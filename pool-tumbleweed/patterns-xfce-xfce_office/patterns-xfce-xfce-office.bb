@@ -15,6 +15,7 @@ pattern-order() \
 patterns-openSUSE-xfce_office \
 patterns-xfce-xfce_office \
 patterns-xfce-xfce_office(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

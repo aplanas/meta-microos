@@ -13,6 +13,7 @@ application() \
 application(sol.desktop) \
 metainfo() \
 metainfo(sol.metainfo.xml)"
+
 RDEPENDS:${PN} += "guile \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

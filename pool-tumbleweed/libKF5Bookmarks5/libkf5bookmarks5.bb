@@ -11,6 +11,7 @@ RPM_HASH = "0822f4b2ed34a5371b4c74df5ac04eb108cfdc832cd29fa83c84ca512d148b0e6ca6
 RPROVIDES:${PN} += "libKF5Bookmarks.so.5()(64bit) \
 libKF5Bookmarks5 \
 libKF5Bookmarks5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

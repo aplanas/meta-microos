@@ -10,6 +10,7 @@ RPM_HASH = "ac4d2fa83efec2b46a2efa4ba4b337f2442830d8b23b14d4428823ad86533ded7c5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pegtl-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

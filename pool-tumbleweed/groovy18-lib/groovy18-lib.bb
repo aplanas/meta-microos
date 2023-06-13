@@ -17,6 +17,7 @@ mvn(org.codehaus.groovy:groovy:1.8) \
 mvn(org.codehaus.groovy:groovy:1.8.9) \
 mvn(org.codehaus.groovy:groovy:pom:1.8) \
 mvn(org.codehaus.groovy:groovy:pom:1.8.9)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(antlr:antlr) \

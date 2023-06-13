@@ -16,6 +16,7 @@ python3-qt6-devel \
 python310-PyQt6-devel \
 python310-PyQt6-devel(aarch-64) \
 python310-qt6-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 cmake(Qt6Bluetooth) \
 cmake(Qt6Designer) \

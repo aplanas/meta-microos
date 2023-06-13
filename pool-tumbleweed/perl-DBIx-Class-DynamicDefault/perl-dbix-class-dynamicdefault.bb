@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DBIx::Class::DynamicDefault) \
 perl-DBIx-Class-DynamicDefault"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBIx::Class)"
 

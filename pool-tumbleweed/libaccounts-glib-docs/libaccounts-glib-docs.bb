@@ -10,6 +10,7 @@ RPM_HASH = "fdefb7d4a990ea2b3e110b9568cab7f74acf51930fbd0c1797a2592fd8405deffbf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libaccounts-glib-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

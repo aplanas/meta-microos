@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(el) \
 mgopen-fonts \
 scalable-font-el"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

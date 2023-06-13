@@ -36,6 +36,7 @@ RPROVIDES:${PN} += "python3-exceptiongroup \
 python3.10dist(exceptiongroup) \
 python310-exceptiongroup \
 python3dist(exceptiongroup)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

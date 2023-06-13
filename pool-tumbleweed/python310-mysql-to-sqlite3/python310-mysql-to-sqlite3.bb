@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mysql-to-sqlite3 \
 python3.10dist(mysql-to-sqlite3) \
 python310-mysql-to-sqlite3 \
 python3dist(mysql-to-sqlite3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

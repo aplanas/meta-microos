@@ -11,6 +11,7 @@ RPM_HASH = "b08fac230377a8dd7b45e22abaf21a00502976341697b36a704f28efb8d5dbe053c9
 RPROVIDES:${PN} += "libgv_python3.so()(64bit) \
 python3-gv \
 python3-gv(aarch-64)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "eb5b88b034b24482b4d2e8f8a78a12ffcf5c1276e4dfaebe04944ac3b9913e52c3a2
 
 RPROVIDES:${PN} += "scim-pinyin \
 scim-pinyin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

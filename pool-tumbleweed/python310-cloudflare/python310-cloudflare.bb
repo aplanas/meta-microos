@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cloudflare \
 python3.10dist(cloudflare) \
 python310-cloudflare \
 python3dist(cloudflare)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

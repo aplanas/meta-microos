@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "msv-msv \
 mvn(net.java.dev.msv:msv-core) \
 mvn(net.java.dev.msv:msv-core:pom:) \
 osgi(net.java.dev.msv.core)"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

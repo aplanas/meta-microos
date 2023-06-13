@@ -10,6 +10,7 @@ RPM_HASH = "e832d637aea48465767120be19a94a54c8b3b922cbb90b8863d198492b5fa06e559f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-cursors"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

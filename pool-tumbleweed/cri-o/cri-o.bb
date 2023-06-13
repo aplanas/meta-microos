@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(cri-o) \
 cri-o \
 cri-o(aarch-64) \
 cri-runtime"
+
 RDEPENDS:${PN} += "/bin/sh \
 cni \
 cni-plugins \

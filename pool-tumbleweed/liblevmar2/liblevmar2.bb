@@ -20,6 +20,7 @@ RPM_HASH = "bd6e48467e080ec58a91d51233c2adfd837d269db413a652b5743125ad64748b062f
 RPROVIDES:${PN} += "liblevmar.so.2()(64bit) \
 liblevmar2 \
 liblevmar2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

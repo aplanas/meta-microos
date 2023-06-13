@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ansicolor \
 python3.10dist(ansicolor) \
 python310-ansicolor \
 python3dist(ansicolor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

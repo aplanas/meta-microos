@@ -10,6 +10,7 @@ RPM_HASH = "ccede7f394872c3960a92207e524415c2d7e4353e5b226190210484c486f1e00613b
 
 RPROVIDES:${PN} += "quvi \
 quvi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

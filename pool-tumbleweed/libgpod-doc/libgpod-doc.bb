@@ -13,6 +13,7 @@ RPM_HASH = "af4c6ae3582c4531df604e2eebca6f0447347e254a1ed1eba83a5d292fa5f66ee8b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgpod-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ application(breezestyleconfig.desktop) \
 breeze5-style \
 breeze5-style(aarch-64) \
 cmake(Breeze)"
+
 RDEPENDS:${PN} += "kconf_update5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

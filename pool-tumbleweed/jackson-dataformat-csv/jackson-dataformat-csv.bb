@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jackson-dataformat-csv \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-csv) \
 mvn(com.fasterxml.jackson.dataformat:jackson-dataformat-csv:pom:) \
 osgi(com.fasterxml.jackson.dataformat.jackson-dataformat-csv)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

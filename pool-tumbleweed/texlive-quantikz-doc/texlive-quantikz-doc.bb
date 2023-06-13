@@ -9,6 +9,7 @@ RPM_HASH = "908f6ebe146abbef73f3407657fbd8a28cbaa46d55d4e74bb8374b686056f20da143
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quantikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

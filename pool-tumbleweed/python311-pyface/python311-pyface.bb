@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyface) \
 python311-pyface \
 python3dist(pyface)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-importlib-metadata \
 python311-importlib-resources \

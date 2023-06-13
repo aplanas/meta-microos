@@ -13,6 +13,7 @@ RPM_HASH = "ab1f0c35c97146be7daa6e617165dfb0d713b6c901f765844cd672d810f1ddb110fe
 RPROVIDES:${PN} += "frei0r-plugins-devel \
 frei0r-plugins-devel(aarch-64) \
 pkgconfig(frei0r)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

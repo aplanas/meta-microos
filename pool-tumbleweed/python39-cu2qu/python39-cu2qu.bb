@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(cu2qu) \
 python39-cu2qu \
 python39-cu2qu(aarch-64) \
 python3dist(cu2qu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

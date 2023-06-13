@@ -10,6 +10,7 @@ RPM_HASH = "810ef282b2e5232e0746004213284cef85a15a37b9731dbb36848b23b0bf46c835f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-testsuite"
+
 RDEPENDS:${PN} += "dejagnu \
 expect \
 yast2-core"

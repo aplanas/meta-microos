@@ -17,6 +17,7 @@ RPM_HASH = "b737beab8cf14a7524fc9ca40c1ec3381e210c74bce63fc19f9ea8fa2847dbce4d5b
 
 RPROVIDES:${PN} += "parkverbot \
 parkverbot(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

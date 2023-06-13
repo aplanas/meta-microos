@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ipyvuetify \
 python3.10dist(ipyvuetify) \
 python310-ipyvuetify \
 python3dist(ipyvuetify)"
+
 RDEPENDS:${PN} += "(python310-ipyvue >= 1.7 with python310-ipyvue < 2) \
 python(abi)"
 

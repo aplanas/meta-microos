@@ -15,6 +15,7 @@ RPM_HASH = "9e643442d190e6b0862ede1633344b7bc89f490e912c774d9fa8c9fc1b2d5c4e75fa
 
 RPROVIDES:${PN} += "lua53-luasocket \
 lua53-luasocket(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

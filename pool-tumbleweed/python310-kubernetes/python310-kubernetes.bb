@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-kubernetes \
 python3.10dist(kubernetes) \
 python310-kubernetes \
 python3dist(kubernetes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-certifi \

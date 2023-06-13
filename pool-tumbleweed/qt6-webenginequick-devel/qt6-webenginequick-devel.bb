@@ -13,6 +13,7 @@ pkgconfig(Qt6WebEngineQuick) \
 pkgconfig(Qt6WebEngineQuickDelegatesQml) \
 qt6-webenginequick-devel \
 qt6-webenginequick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6WebEngineCore) \

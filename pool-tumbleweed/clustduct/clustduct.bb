@@ -13,6 +13,7 @@ RPM_HASH = "fc6f8e8c7c41d4845bd3dde31f4b522f471847d500c2152116d5772190c0bc029b29
 RPROVIDES:${PN} += "clustduct \
 clustduct(aarch-64) \
 config(clustduct)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/lua \
 bc \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "apache-commons-collections4 \
 mvn(org.apache.commons:commons-collections4) \
 mvn(org.apache.commons:commons-collections4:pom:) \
 osgi(org.apache.commons.commons-collections4)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

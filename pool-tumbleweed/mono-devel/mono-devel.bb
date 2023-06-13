@@ -184,6 +184,7 @@ pkgconfig(mono-cairo) \
 pkgconfig(mono-lineeditor) \
 pkgconfig(mono-options) \
 pkgconfig(xbuild12)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

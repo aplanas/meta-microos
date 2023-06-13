@@ -20,6 +20,7 @@ RPM_HASH = "9bc39cade403eaf33a8cfe04cb972fb1f7bb6450eb86c13868351b601de7f8110c35
 RPROVIDES:${PN} += "config(g810-led) \
 g810-led \
 g810-led(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

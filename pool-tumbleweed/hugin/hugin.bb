@@ -32,6 +32,7 @@ metainfo(hugin.appdata.xml) \
 mimehandler(application/x-ptoptimizer-script) \
 mimehandler(image/jpeg) \
 mimehandler(image/tiff)"
+
 RDEPENDS:${PN} += "enblend-enfuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

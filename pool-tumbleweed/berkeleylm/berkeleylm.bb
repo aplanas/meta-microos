@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "berkeleylm \
 mvn(edu.berkeley.nlp:berkeleylm) \
 mvn(edu.berkeley.nlp:berkeleylm:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

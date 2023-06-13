@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(greekdates.sty) \
 texlive-greekdates"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

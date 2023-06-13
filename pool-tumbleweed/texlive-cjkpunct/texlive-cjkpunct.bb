@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(CJKpunct.sty) \
 texlive-cjkpunct"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

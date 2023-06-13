@@ -21,6 +21,7 @@ RPM_HASH = "7cbc307155772224dd08c5e2a2391f346bfc9b4c2b5fcdde0bda6b760fecc374923f
 
 RPROVIDES:${PN} += "octave-forge-interval \
 octave-forge-interval(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

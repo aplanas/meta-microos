@@ -14,6 +14,7 @@ RPM_HASH = "f4cac2ec736e664daaa9e7bbdce937c5e8a18fb4dc102e01eeb30fd71f0f41926d08
 RPROVIDES:${PN} += "mimic-devel \
 mimic-devel(aarch-64) \
 pkgconfig(mimic)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mimic \
 pkgconfig(alsa) \

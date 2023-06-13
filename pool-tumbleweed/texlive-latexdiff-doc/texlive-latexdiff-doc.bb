@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "man(latexdiff-vc.1) \
 man(latexdiff.1) \
 man(latexrevise.1) \
 texlive-latexdiff-doc"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3"

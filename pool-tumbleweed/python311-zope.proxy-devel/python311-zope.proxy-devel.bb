@@ -10,6 +10,7 @@ RPM_HASH = "a97bb002b9d5205e63178573afeb96c6a53ed151b337c0a2e0993dc4321473184cd1
 RPROVIDES:${PN} += "python311-zope-proxy \
 python311-zope.proxy-devel \
 python311-zope.proxy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-zope.proxy"
 
 inherit rpm

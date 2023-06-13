@@ -14,6 +14,7 @@ RPM_HASH = "4553d25fad7f9024ea8adcc99b72f68419a28a0c3fb6ad043610463994a9d8eaaabd
 RPROVIDES:${PN} += "pcsc-acr38-devel \
 pcsc-acr38-devel(aarch-64) \
 pkgconfig(libacr38ucontrol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libacr38ucontrol0 \
 pcsc-lite-devel"

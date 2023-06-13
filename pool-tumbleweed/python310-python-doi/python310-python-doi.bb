@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-doi \
 python3.10dist(python-doi) \
 python310-python-doi \
 python3dist(python-doi)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

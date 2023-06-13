@@ -10,6 +10,7 @@ RPM_HASH = "4a9641fa20b6c1452036cd195878216dddfcbe2458bc21bdbe19372a5e31412fd0fe
 RPROVIDES:${PN} += "ghc-hadolint-prof \
 ghc-hadolint-prof(aarch-64) \
 ghc-prof(hadolint-2.12.0-GJFK4KtL5yr5n9SSzjhIYq)"
+
 RDEPENDS:${PN} += "ghc-hadolint-devel \
 ghc-prof(Cabal-3.8.1.0) \
 ghc-prof(HsYAML-0.2.1.1-KzoQvRN4UKW2jR1yND83sf) \

@@ -15,6 +15,7 @@ RPM_HASH = "baf3dbde6c5105522706e3bab22967e1da7e9212965e37b1f4d373f061e8a65af9e5
 
 RPROVIDES:${PN} += "casync \
 casync(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

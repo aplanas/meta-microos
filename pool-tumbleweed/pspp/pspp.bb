@@ -26,6 +26,7 @@ mimehandler(application/x-spss-sps) \
 mimehandler(application/x-spss-spv) \
 pspp \
 pspp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

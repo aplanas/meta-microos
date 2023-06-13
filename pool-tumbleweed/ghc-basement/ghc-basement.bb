@@ -10,6 +10,7 @@ RPM_HASH = "aec154b78acb964563d2ce0daaab1ee38075abc239988dc310cc4ed8a787d9a628ff
 RPROVIDES:${PN} += "ghc-basement \
 ghc-basement(aarch-64) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

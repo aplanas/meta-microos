@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(kubernetes) \
 python311-kubernetes \
 python3dist(kubernetes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-certifi \

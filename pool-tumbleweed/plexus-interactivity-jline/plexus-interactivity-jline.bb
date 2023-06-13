@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-interactivity-jline) \
 mvn(org.codehaus.plexus:plexus-interactivity-jline:pom:) \
 plexus-interactivity-jline"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jline:jline) \

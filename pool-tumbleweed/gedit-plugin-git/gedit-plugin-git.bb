@@ -12,6 +12,7 @@ gedit-plugin-git(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/git.plugin \
 metainfo() \
 metainfo(gedit-git.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GLib) \
 typelib(GObject) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-vulkan \
 python3.10dist(vulkan) \
 python310-vulkan \
 python3dist(vulkan)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cffi \
 vulkan"

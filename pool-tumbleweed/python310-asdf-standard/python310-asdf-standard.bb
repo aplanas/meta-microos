@@ -14,6 +14,7 @@ python3.10dist(asdf-standard) \
 python310-asdf-standard \
 python310-asdf_standard \
 python3dist(asdf-standard)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

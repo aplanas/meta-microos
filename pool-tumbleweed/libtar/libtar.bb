@@ -10,6 +10,7 @@ RPM_HASH = "a4e095fd9c1af8251a489ed56ee82deb0485969a11c9376eaef538b8f350196714ef
 
 RPROVIDES:${PN} += "libtar \
 libtar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

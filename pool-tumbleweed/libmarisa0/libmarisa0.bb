@@ -10,6 +10,7 @@ RPM_HASH = "0d017724cf017dd0f9186e32789081aa415ddea6e8929ffd5688738eab949c68f274
 RPROVIDES:${PN} += "libmarisa.so.0()(64bit) \
 libmarisa0 \
 libmarisa0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

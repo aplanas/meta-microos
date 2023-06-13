@@ -62,6 +62,7 @@ locale(orage:zh_CN) \
 locale(orage:zh_TW) \
 orage-lang \
 orage-lang-all"
+
 RDEPENDS:${PN} += "orage"
 
 inherit rpm

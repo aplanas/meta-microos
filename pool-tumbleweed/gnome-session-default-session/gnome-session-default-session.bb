@@ -9,6 +9,7 @@ RPM_HASH = "6d05000833613027d02d0bf58b30601c56836616105d738b25e8897a1b7e2f56350b
 
 RPROVIDES:${PN} += "gnome-session-default-session \
 gnome-session-default-session(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-session \
 gnome-settings-daemon \
 gnome-shell"

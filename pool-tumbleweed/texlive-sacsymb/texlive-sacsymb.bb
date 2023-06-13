@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sacsymb.sty) \
 texlive-sacsymb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

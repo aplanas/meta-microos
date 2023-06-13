@@ -9,6 +9,7 @@ RPM_HASH = "76814d2650013de124ca5c6b63a097ea9ef69c72a2f4779e740308024e88acd7db0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-manfnt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

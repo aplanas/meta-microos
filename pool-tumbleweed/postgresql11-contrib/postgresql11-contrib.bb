@@ -20,6 +20,7 @@ RPM_HASH = "eca5a19a1beec6b62431a18fd2c283cc015f34215f9aee953b08ba164b8a79912a11
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql11-contrib \
 postgresql11-contrib(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

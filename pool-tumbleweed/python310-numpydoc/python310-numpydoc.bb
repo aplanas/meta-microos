@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-numpydoc \
 python3.10dist(numpydoc) \
 python310-numpydoc \
 python3dist(numpydoc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-Sphinx"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bxdpxp2e.def) \
 tex(bxeepic.sty) \
 texlive-bxeepic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

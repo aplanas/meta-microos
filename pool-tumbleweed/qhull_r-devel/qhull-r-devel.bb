@@ -16,6 +16,7 @@ pkgconfig(qhull_r) \
 qhull-devel \
 qhull_r-devel \
 qhull_r-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqhull_r8_0"
 

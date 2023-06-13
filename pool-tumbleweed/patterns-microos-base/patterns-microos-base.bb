@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-base \
 patterns-microos-base(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/gzip \
 /usr/bin/hostname \
 MicroOS-release \

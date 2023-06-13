@@ -11,6 +11,7 @@ RPM_HASH = "9cff70193e0792fbf396e41747049dfc692d2fc9204ef74ff867824d22f101ccae19
 RPROVIDES:${PN} += "libboost_system-devel-impl \
 libboost_system1_82_0-devel \
 libboost_system1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_system1_82_0"
 

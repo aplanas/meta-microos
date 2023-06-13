@@ -14,6 +14,7 @@ libstdc++6-pp-gcc11 \
 libstdc++6-pp-gcc12 \
 libstdc++6-pp-gcc12(aarch-64) \
 libstdc++6-pp-gcc9"
+
 RDEPENDS:${PN} += "libstdc++6"
 
 inherit rpm

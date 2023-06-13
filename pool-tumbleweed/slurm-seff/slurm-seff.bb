@@ -11,6 +11,7 @@ RPM_HASH = "21b0f1b4859b851450d0fe45f54aa29759fbafd1d2e15a49b27c390f3cc75eb64aec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-seff"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 perl-slurm"

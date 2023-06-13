@@ -17,6 +17,7 @@ python3.10dist(pykka) \
 python310-Pykka \
 python310-pykka \
 python3dist(pykka)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

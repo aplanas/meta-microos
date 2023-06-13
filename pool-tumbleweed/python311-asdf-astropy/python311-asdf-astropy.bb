@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(asdf-astropy) \
 python311-asdf-astropy \
 python3dist(asdf-astropy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-asdf \
 python311-asdf-coordinates-schemas \

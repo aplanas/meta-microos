@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyhibp \
 python3.10dist(pyhibp) \
 python310-pyhibp \
 python3dist(pyhibp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

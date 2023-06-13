@@ -9,6 +9,7 @@ RPM_HASH = "749b36b357662072344d0e480138600db721805bcb415d828281cebfd20b6fdf3515
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-ms-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

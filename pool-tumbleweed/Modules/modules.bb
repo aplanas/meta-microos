@@ -30,6 +30,7 @@ Modules(aarch-64) \
 config(Modules) \
 environment-modules \
 libtclenvmodules.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

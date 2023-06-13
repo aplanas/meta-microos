@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libappmenu.so()(64bit) \
 vala-panel-appmenu \
 vala-panel-plugin-appmenu \
 vala-panel-plugin-appmenu(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 appmenu-gtk2-module \
 appmenu-gtk3-module \

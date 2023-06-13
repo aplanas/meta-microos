@@ -53,6 +53,7 @@ locale(wget:zh_CN) \
 locale(wget:zh_TW) \
 wget-lang \
 wget-lang-all"
+
 RDEPENDS:${PN} += "wget"
 
 inherit rpm

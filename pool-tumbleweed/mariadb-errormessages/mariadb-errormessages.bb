@@ -10,6 +10,7 @@ RPM_HASH = "74ced2f78fcfc9f3aeb2213ec2605e9fe1d6c4f6bf54cdf5916aa31685a1e1e093da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mariadb-errormessages"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

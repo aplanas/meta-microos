@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "cmake(LAMMPS) \
 lammps-devel \
 lammps-devel(aarch-64) \
 pkgconfig(liblammps)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lammps \
 liblammps0"

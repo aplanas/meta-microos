@@ -10,6 +10,7 @@ RPM_HASH = "9ad521779a8f3d86cb29f523d2ce35311d43e185f8f07c8a1b3d83fa7d9fd4f9f0a6
 RPROVIDES:${PN} += "libastylej.so.3()(64bit) \
 libastylej3 \
 libastylej3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

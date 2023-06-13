@@ -26,6 +26,7 @@ RPM_HASH = "f0a3955eef1dc5496490cefe94afff9f2ecb1660a2b153a1f0e00e0b416f2763089b
 RPROVIDES:${PN} += "libopenshot.so.24()(64bit) \
 libopenshot24 \
 libopenshot24(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

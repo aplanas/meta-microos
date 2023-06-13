@@ -17,6 +17,7 @@ locale(elfutils:es) \
 locale(elfutils:ja) \
 locale(elfutils:pl) \
 locale(elfutils:uk)"
+
 RDEPENDS:${PN} += "elfutils"
 
 inherit rpm

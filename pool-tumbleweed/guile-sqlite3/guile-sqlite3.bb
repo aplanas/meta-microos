@@ -9,6 +9,7 @@ RPM_HASH = "870cd071bbcfa1780710e8af3988b7f26a2a21e4018b618ed18c9de5a80ab8e1c9cb
 
 RPROVIDES:${PN} += "guile-sqlite3 \
 guile-sqlite3(aarch-64)"
+
 RDEPENDS:${PN} += "guile \
 sqlite3-devel"
 

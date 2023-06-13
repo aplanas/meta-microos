@@ -10,6 +10,7 @@ RPM_HASH = "6da20122c36160efab1a6b0f1fa37a8c4e90c0469578fc0b26d499ab954d6bde051c
 RPROVIDES:${PN} += "ghc-byteorder-prof \
 ghc-byteorder-prof(aarch-64) \
 ghc-prof(byteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl)"
+
 RDEPENDS:${PN} += "ghc-byteorder-devel \
 ghc-prof(base-4.17.1.0)"
 

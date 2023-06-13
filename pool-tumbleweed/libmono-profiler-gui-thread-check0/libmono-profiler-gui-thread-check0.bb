@@ -11,6 +11,7 @@ RPM_HASH = "8a183556b1281220608770c884b071b7d178ddb74e2c6616c4c126f8d5e229e869ad
 RPROVIDES:${PN} += "libmono-profiler-gui-thread-check.so.0()(64bit) \
 libmono-profiler-gui-thread-check0 \
 libmono-profiler-gui-thread-check0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "6a3388e6f6332b9240539fecfde60defc3b5d0d4e26b8f1f85c00e0b684e39ebdf35
 
 RPROVIDES:${PN} += "libmetrics-devel \
 libmetrics-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmetrics0"
 
 inherit rpm

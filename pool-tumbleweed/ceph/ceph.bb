@@ -10,6 +10,7 @@ RPM_HASH = "93d70d97d09ba4cd5db8945b22c671d977181ac66b5986acd42f916dd11a63781aed
 
 RPROVIDES:${PN} += "ceph \
 ceph(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 binutils \

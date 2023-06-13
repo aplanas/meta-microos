@@ -13,6 +13,7 @@ RPM_HASH = "1bee51342ae928632cc3b2abda197b3dd808a6e6e62a316f112e33225511df4cd63d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flatpak-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

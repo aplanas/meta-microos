@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hepunits.sty) \
 texlive-hepunits"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

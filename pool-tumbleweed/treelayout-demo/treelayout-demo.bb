@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.abego.treelayout:org.abego.treelayout.demo) \
 mvn(org.abego.treelayout:org.abego.treelayout.demo:pom:) \
 treelayout-demo"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.abego.treelayout:org.abego.treelayout.core)"

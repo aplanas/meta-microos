@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-polish-noenc.ldf) \
 tex(glossaries-polish-utf8.ldf) \
 tex(glossaries-polish.ldf) \
 texlive-glossaries-polish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

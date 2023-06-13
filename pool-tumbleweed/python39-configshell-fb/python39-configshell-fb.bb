@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.9dist(configshell-fb) \
 python39-configshell \
 python39-configshell-fb \
 python3dist(configshell-fb)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python39-pyparsing \

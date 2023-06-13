@@ -14,6 +14,7 @@ mvn(de.loskutov:AnyEditTools) \
 mvn(de.loskutov:de.loskutov.anyedit.AnyEditTools) \
 osgi(AnyEditTools) \
 osgi(de.loskutov.anyedit.AnyEditTools)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.jdt.annotation) \

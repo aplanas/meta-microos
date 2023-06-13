@@ -16,6 +16,7 @@ konsole5 \
 libkonsoleapp.so.1()(64bit) \
 metainfo() \
 metainfo(org.kde.konsole.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 konsole-part \

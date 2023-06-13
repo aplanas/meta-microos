@@ -11,6 +11,7 @@ RPM_HASH = "81944947ba9cc886b489dc9978ee9744c0800f843c85decf2a6ed733a5f930f4b3f0
 
 RPROVIDES:${PN} += "showfont \
 showfont(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFS.so.6()(64bit) \

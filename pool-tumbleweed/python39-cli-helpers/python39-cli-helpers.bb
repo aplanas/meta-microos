@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cli-helpers) \
 python39-cli-helpers \
 python3dist(cli-helpers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pygments \
 python39-configobj \

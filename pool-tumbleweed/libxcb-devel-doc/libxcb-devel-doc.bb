@@ -14,6 +14,7 @@ RPM_HASH = "6c94bc1a2aec50cf8023d004e24bab6ef7f57334a4c35fd7c0458bb98886e9b0b921
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxcb-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

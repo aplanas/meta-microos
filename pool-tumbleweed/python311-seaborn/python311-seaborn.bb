@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(seaborn) \
 python311-seaborn \
 python3dist(seaborn)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib \
 python311-numpy \

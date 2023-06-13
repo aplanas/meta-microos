@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(titleref.sty) \
 texlive-titleref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

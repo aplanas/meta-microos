@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(systemd-coredump) \
 systemd-coredump \
 systemd-coredump(aarch-64) \
 systemd:/usr/bin/coredumpctl"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

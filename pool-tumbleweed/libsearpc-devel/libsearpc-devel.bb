@@ -11,6 +11,7 @@ RPM_HASH = "c33e5e7f90c53cd826f3ecf17caac6c8d13e39bcadb73bce989e353f3cd3de4222bb
 RPROVIDES:${PN} += "libsearpc-devel \
 libsearpc-devel(aarch-64) \
 pkgconfig(libsearpc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 libsearpc1 \

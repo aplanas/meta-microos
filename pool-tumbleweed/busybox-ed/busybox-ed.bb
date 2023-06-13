@@ -9,6 +9,7 @@ RPM_HASH = "67598a7354ebfcce9611a5b35acec10f047c5ea39018f1aa6c05dfecd8692492010f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-ed"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

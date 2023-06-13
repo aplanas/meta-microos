@@ -11,6 +11,7 @@ RPM_HASH = "0f75946abbd806211addaf9ddb537747675f0c8f065a09972dc30938cc3ec836054c
 RPROVIDES:${PN} += "projectM-data \
 projectM-data(aarch-64) \
 projectM-qt5-data"
+
 RDEPENDS:${PN} += "dejavu \
 projectM"
 

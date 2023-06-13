@@ -13,6 +13,7 @@ RPM_HASH = "ba538d05a12c9dbc93ebba0bcef33b310b7a4ae6b7dbbb87d10fd46ee674bcdab6ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualatex-doc-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

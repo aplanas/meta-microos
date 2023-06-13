@@ -16,6 +16,7 @@ RPM_HASH = "1b017dd81f05ab0369565049025c4f7ce852c25a8a6e7a217eb6b50de62f74452b6b
 
 RPROVIDES:${PN} += "gdcm \
 gdcm(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

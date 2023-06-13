@@ -9,6 +9,7 @@ RPM_HASH = "f392e0fa113f0040fd34574df4f5aeb44a7a04077e6f2fd66cc40f369c67d4f2476e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-contrib-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

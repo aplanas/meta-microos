@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(libnss_slurm2) \
 libnss_slurm.so.2()(64bit) \
 libnss_slurm2 \
 libnss_slurm2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

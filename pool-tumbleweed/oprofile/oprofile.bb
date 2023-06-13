@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "libjvmpi_oprofile.so()(64bit) \
 libjvmti_oprofile.so()(64bit) \
 oprofile \
 oprofile(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \

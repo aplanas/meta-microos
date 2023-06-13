@@ -9,6 +9,7 @@ RPM_HASH = "21ec90936b658050ff9c969ab040da96112b18b63d858273bacd53474b2dd0fa5da5
 
 RPROVIDES:${PN} += "scribus-doc \
 scribus-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

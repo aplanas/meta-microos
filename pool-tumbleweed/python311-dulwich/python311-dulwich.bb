@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(dulwich) \
 python311-dulwich \
 python311-dulwich(aarch-64) \
 python3dist(dulwich)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

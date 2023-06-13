@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "font(:lang=und-zsye) \
 font(notocoloremoji) \
 font(notoemoji) \
 texlive-noto-emoji-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

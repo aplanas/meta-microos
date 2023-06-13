@@ -9,6 +9,7 @@ RPM_HASH = "c263fe0944dfbaf98e9e74965211ca4fe05fe029e36136d233ef3d5072d593b47dfc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icinga-php-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

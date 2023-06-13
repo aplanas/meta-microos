@@ -16,6 +16,7 @@ openvswitch-ovn \
 openvswitch-ovn-common \
 ovn \
 ovn(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pgfornament-han-doc:zh) \
 texlive-pgfornament-han-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "fa78a527e2bc350d84cf9a818939b34efebf96bec0c662601058c46f96fd4186a94d
 
 RPROVIDES:${PN} += "ruby-marisa \
 ruby-marisa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

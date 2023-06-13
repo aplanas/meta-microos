@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathpartir.sty) \
 texlive-mathpartir"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

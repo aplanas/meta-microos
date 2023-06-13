@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-lancet-ioam \
 python3.10dist(lancet-ioam) \
 python310-lancet-ioam \
 python3dist(lancet-ioam)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

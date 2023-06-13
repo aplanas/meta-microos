@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cals.sty) \
 texlive-cals"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

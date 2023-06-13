@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibrarycircuits.plc.sfc.code.tex) \
 texlive-tikz-sfc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "bctoolbox-devel \
 bctoolbox-devel(aarch-64) \
 pkgconfig(bctoolbox) \
 pkgconfig(bctoolbox-tester)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libbctoolbox-tester1 \

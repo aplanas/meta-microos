@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pm-isomath.sty) \
 texlive-pm-isomath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

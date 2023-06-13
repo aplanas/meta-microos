@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-glib \
 mono(dbus-sharp-glib)"
+
 RDEPENDS:${PN} += "dbus-sharp \
 mono(dbus-sharp) \
 mono(mscorlib)"

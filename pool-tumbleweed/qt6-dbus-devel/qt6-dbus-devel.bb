@@ -13,6 +13,7 @@ cmake(Qt6DBusTools) \
 pkgconfig(Qt6DBus) \
 qt6-dbus-devel \
 qt6-dbus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6DBus6 \

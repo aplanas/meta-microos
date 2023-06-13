@@ -12,6 +12,7 @@ RPM_HASH = "64acd1a7606fc31c85852b5ffd038259955c3ff677875d88c3a54450158ee967b3d4
 
 RPROVIDES:${PN} += "rtl_433-devel \
 rtl_433-devel(aarch-64)"
+
 RDEPENDS:${PN} += "rtl_433"
 
 inherit rpm

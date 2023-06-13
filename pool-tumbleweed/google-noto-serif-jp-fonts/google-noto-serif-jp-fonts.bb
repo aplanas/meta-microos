@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "google-noto-serif-jp-fonts \
 locale(ja) \
 noto-serif-jp-fonts \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "google-noto-serif-jp-bold-fonts \
 google-noto-serif-jp-regular-fonts"
 

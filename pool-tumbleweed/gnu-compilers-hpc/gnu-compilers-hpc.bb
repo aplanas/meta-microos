@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-compilers-hpc \
 gnu13-compilers-hpc"
+
 RDEPENDS:${PN} += "lua-lmod"
 
 inherit rpm

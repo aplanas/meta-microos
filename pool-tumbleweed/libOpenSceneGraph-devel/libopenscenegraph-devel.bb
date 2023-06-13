@@ -32,6 +32,7 @@ pkgconfig(openscenegraph-osgUtil) \
 pkgconfig(openscenegraph-osgViewer) \
 pkgconfig(openscenegraph-osgVolume) \
 pkgconfig(openscenegraph-osgWidget)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 curl-devel \
 freeglut-devel \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "obs-service-source_validator \
 osc-source_validator \
 perl(DebianSourceChangesValidator)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \

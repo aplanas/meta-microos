@@ -14,6 +14,7 @@ RPM_HASH = "4094b019f856f145034a7be05f2f631ef64b3a1dee86fff95010d5e525cc2647cb89
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mylatexformat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

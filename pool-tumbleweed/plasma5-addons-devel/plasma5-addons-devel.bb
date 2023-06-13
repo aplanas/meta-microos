@@ -11,6 +11,7 @@ RPM_HASH = "1c0bcdaf695517ec45cfab62356a6b26e42a4283779b83520611d39844fdcb0a9b25
 RPROVIDES:${PN} += "cmake(PlasmaPotdProvider) \
 plasma5-addons-devel \
 plasma5-addons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "plasma5-addons"
 
 inherit rpm

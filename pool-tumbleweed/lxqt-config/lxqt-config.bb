@@ -19,6 +19,7 @@ config(lxqt-config) \
 liblxqt-config-cursor.so()(64bit) \
 lxqt-config \
 lxqt-config(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

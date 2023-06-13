@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(skmath.sty) \
 texlive-skmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

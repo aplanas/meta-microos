@@ -12,6 +12,7 @@ RPM_HASH = "23e82e72201b924e6a350e65ff0df7d04c09d313a6137bfdda4f0a80f8e1c98ebd02
 RPROVIDES:${PN} += "finch-devel \
 finch-devel(aarch-64) \
 pkgconfig(finch)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 finch \
 glibc-devel \

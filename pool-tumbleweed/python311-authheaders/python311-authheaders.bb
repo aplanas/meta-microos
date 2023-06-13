@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(authheaders) \
 python311-authheaders \
 python3dist(authheaders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-authres \
 python311-dkimpy \

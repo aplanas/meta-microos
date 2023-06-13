@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hypdestopt.sty) \
 texlive-hypdestopt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

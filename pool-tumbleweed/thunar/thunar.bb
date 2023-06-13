@@ -22,6 +22,7 @@ mimehandler(inode/directory) \
 thunar \
 thunar(aarch-64) \
 thunar-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 exo-tools \
 ld-linux-aarch64.so.1()(64bit) \

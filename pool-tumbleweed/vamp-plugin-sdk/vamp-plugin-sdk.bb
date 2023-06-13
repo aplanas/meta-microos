@@ -10,6 +10,7 @@ RPM_HASH = "a5b490c9dbb470b456c73ba35730ac64d3c0484f71c3a79f4f541441803d554912b6
 
 RPROVIDES:${PN} += "vamp-plugin-sdk \
 vamp-plugin-sdk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.35)(64bit) \

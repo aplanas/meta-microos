@@ -13,6 +13,7 @@ RPM_HASH = "fd4bb2a0db21ce8a5d2042db13c8dfb55cb33efe089714b5600969fbbb00ed8774f4
 RPROVIDES:${PN} += "libgsasl-devel \
 libgsasl-devel(aarch-64) \
 pkgconfig(libgsasl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgsasl7 \
 pkgconfig(krb5-gssapi) \

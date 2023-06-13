@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-headers-dummy-pthread \
 mingw64-unistd-pthread-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

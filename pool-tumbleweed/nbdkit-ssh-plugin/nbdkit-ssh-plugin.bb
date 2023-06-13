@@ -9,6 +9,7 @@ RPM_HASH = "f5a6b1adf2cc1bef87ffc2b649795059d1d4b3c68f8e626e8ce263d469b9f84005a5
 
 RPROVIDES:${PN} += "nbdkit-ssh-plugin \
 nbdkit-ssh-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

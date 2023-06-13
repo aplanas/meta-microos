@@ -33,6 +33,7 @@ perl(XML::Perl2SAX) \
 perl(XML::SAX2Perl) \
 perl-libxml-perl \
 perl-libxml-perl(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-XML-Parser"
 

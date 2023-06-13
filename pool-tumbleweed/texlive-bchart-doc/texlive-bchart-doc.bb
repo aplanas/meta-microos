@@ -9,6 +9,7 @@ RPM_HASH = "3e289f765fca173582f863e3ee1d13e776997850fa1dbc8ee3378f0fd9d3a6acf1ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bchart-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

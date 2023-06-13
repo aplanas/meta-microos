@@ -69,6 +69,7 @@ locale(pinta:zh_HK) \
 locale(pinta:zh_TW) \
 pinta-lang \
 pinta-lang-all"
+
 RDEPENDS:${PN} += "pinta"
 
 inherit rpm

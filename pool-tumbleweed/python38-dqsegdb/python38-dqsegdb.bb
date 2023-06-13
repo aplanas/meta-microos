@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(dqsegdb) \
 python38-dqsegdb \
 python3dist(dqsegdb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.8 \
 python(abi) \

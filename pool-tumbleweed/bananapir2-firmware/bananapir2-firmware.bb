@@ -9,6 +9,7 @@ RPM_HASH = "05c8366fae63e9d78ef6f1144778a2e3269ddb1d67fbdecb3f595d276faaae09179e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bananapir2-firmware"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

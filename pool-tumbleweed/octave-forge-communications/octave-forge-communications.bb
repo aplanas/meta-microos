@@ -11,6 +11,7 @@ RPM_HASH = "49cc3134318869dbc067e6da6a4488aadad3f4bff6029db110a0a0f1b39792ed122d
 
 RPROVIDES:${PN} += "octave-forge-communications \
 octave-forge-communications(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

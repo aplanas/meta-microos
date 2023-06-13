@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-invocations \
 python3.10dist(invocations) \
 python310-invocations \
 python3dist(invocations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-blessings \
 python310-invoke \

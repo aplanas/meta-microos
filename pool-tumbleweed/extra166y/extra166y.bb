@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "extra166y \
 mvn(org.codehaus.jsr166-mirror:extra166y) \
 mvn(org.codehaus.jsr166-mirror:extra166y:pom:) \
 osgi(extra166y)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

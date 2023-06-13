@@ -87,6 +87,7 @@ locale(libKF5IconThemes5:vi) \
 locale(libKF5IconThemes5:wa) \
 locale(libKF5IconThemes5:zh_CN) \
 locale(libKF5IconThemes5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5IconThemes5"
 
 inherit rpm

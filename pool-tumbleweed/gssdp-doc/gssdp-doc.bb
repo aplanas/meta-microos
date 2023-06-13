@@ -9,6 +9,7 @@ RPM_HASH = "5a5c3a3fd47dc16ed90fe22000ec5748ceb9f9e3344cdc865a6f699fa46fa5d78a1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gssdp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

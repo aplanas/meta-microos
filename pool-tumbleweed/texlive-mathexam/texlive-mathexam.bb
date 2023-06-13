@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathexam.sty) \
 texlive-mathexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

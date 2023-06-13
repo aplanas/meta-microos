@@ -10,6 +10,7 @@ RPM_HASH = "e2a90f126c520aa4cfecd3ac9169c0272e0642addb12e00660a623c2097d45b2215a
 RPROVIDES:${PN} += "config(nilfs-utils) \
 nilfs-utils \
 nilfs-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

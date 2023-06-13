@@ -22,6 +22,7 @@ python3.10dist(parsley) \
 python310-Parsley \
 python310-parsley \
 python3dist(parsley)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

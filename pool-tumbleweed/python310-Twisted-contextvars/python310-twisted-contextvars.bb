@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-contextvars \
 python310-Twisted-contextvars"
+
 RDEPENDS:${PN} += "python310-Twisted"
 
 inherit rpm

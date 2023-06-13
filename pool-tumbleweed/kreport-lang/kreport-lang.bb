@@ -74,6 +74,7 @@ locale(kreport:vi) \
 locale(kreport:wa) \
 locale(kreport:zh_CN) \
 locale(kreport:zh_TW)"
+
 RDEPENDS:${PN} += "kreport"
 
 inherit rpm

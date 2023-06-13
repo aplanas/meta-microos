@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "gamemode \
 gamemode(aarch-64) \
 gamemoded:/usr/bin/gamemodelist \
 gamemoded:/usr/bin/gamemoderun"
+
 RDEPENDS:${PN} += "/bin/bash \
 libgamemodeauto0"
 

@@ -9,6 +9,7 @@ RPM_HASH = "9fdef4a35d453629efc8f3f74afcd348ba98acc0cbf495c25288e3803e337c05a5ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boringssl-source"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

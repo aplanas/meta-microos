@@ -36,6 +36,7 @@ perl(XMLRPC::Transport::POP3::Server) \
 perl(XMLRPC::Transport::TCP) \
 perl(XMLRPC::Transport::TCP::Server) \
 perl-XMLRPC-Lite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(SOAP::Lite) \
 perl(SOAP::Transport::TCP)"

@@ -10,6 +10,7 @@ RPM_HASH = "8771c47e6f98f4ea617a9e32b86e58a2fe7dc50602c820cbbd645d1be1551ccbd716
 RPROVIDES:${PN} += "ghc-devel(xmonad-contrib-0.17.1-4q9MntM3g8MH8PR7JoUT1u) \
 ghc-xmonad-contrib-devel \
 ghc-xmonad-contrib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX) \

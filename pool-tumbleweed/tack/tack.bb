@@ -14,6 +14,7 @@ RPM_HASH = "11c68fdb1ba5eabb866693a245cb41e93f951ef94803fcc65a37ab14628f8a54a15a
 RPROVIDES:${PN} += "ncurses-devel:/usr/bin/tack \
 tack \
 tack(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

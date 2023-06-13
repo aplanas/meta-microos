@@ -12,6 +12,7 @@ RPM_HASH = "af3e90e1c66875109c0212b697087f05cf87a89bbb1ca61fe2a7ee14e833935e1a81
 
 RPROVIDES:${PN} += "ceph-mgr \
 ceph-mgr(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
 ceph-mgr-modules-core \

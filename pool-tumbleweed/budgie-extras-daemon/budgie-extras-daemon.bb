@@ -9,6 +9,7 @@ RPM_HASH = "29b8f38b8014559f375d001ab541fc8221fd22e526633cd2e040ccf415215d23269b
 
 RPROVIDES:${PN} += "budgie-extras-daemon \
 budgie-extras-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

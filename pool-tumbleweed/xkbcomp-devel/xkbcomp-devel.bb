@@ -11,6 +11,7 @@ RPM_HASH = "263838e446c69a965757b69db89fd800b2aeab9e51c432c9613768f68a23d3633d15
 RPROVIDES:${PN} += "pkgconfig(xkbcomp) \
 xkbcomp-devel \
 xkbcomp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xkbcomp"
 

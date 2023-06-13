@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(scim-skk:ja) \
 skkdic"
+
 RDEPENDS:${PN} += "info"
 
 inherit rpm

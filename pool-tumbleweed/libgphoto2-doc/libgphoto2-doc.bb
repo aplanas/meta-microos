@@ -13,6 +13,7 @@ RPM_HASH = "3c44e525c5bf29087aed8f7936c9f01cd8a72c96f2fff2ef3a9f9b1eeff849c26fb9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgphoto2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

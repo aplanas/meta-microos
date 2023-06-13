@@ -19,6 +19,7 @@ RPM_HASH = "90b5623986b1c35ffa068a15eacfd1e90c071dbb83511393340d4f79bffaec0730a6
 RPROVIDES:${PN} += "libfactory-devel \
 libfactory-devel(aarch-64) \
 pkgconfig(factory)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfactory-4_3_1 \
 pkgconfig(omalloc) \

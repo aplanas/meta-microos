@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cloudscraper) \
 python39-cloudscraper \
 python3dist(cloudscraper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyparsing \
 python39-requests \

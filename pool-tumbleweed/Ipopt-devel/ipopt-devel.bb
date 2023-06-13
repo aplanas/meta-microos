@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "Ipopt-devel \
 Ipopt-devel(aarch-64) \
 ipopt-devel \
 pkgconfig(ipopt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libipopt3 \
 mumps-devel"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-default-settings-branding \
 systemd-default-settings-branding-SLE"
+
 RDEPENDS:${PN} += "systemd-default-settings"
 
 inherit rpm

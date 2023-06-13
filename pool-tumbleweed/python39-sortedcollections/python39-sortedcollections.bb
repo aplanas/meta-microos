@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sortedcollections) \
 python39-sortedcollections \
 python3dist(sortedcollections)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sortedcontainers"
 

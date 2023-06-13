@@ -10,6 +10,7 @@ RPM_HASH = "a4f287f51c5a17d257065dfb67b136c836b2a5aff2fb99d45ed1f75f0f527e040710
 RPROVIDES:${PN} += "ghc-xmobar \
 ghc-xmobar(aarch-64) \
 libHSxmobar-0.46-EX7mQtJrJ088kSUMN9v7Od-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

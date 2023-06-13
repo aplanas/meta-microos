@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Stow) \
 perl(Stow::Util) \
 stow"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl \

@@ -11,6 +11,7 @@ RPM_HASH = "5f6906e777466c5abe95eff53f9cf9a2c7cc8bccdeeddc13b62ab7f2836a6d4040f2
 
 RPROVIDES:${PN} += "lv2-swh-plugins \
 lv2-swh-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "dde27e45d4efe83aea49ced6e352cce3738dd0e5e4873c591699d0ead82cc313917d
 RPROVIDES:${PN} += "libx86emu.so.3()(64bit) \
 libx86emu3 \
 libx86emu3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

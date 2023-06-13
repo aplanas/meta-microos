@@ -31,6 +31,7 @@ mimehandler(application/x-font-pcf) \
 mimehandler(application/x-font-ttf) \
 mimehandler(application/x-font-type1) \
 mimehandler(application/x-mate-theme-package)"
+
 RDEPENDS:${PN} += "gsettings-backend-dconf \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1()(64bit) \

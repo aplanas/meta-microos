@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(limecv.cls) \
 texlive-limecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

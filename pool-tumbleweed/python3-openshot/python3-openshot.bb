@@ -9,6 +9,7 @@ RPM_HASH = "2ac2645fbac0cb952497c36d34507b326f03efe47873e7549c6fe8417c0fffda6ff2
 
 RPROVIDES:${PN} += "python3-openshot \
 python3-openshot(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Gui.so.5()(64bit) \

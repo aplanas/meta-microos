@@ -103,6 +103,7 @@ bundled(golang(golang.org/x/net/proxy)) \
 bundled(golang(golang.org/x/sys/unix)) \
 bundled(golang(golang.org/x/sys/windows)) \
 config(amazon-ecs-init)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 systemd"

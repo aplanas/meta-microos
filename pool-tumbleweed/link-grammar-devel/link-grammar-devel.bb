@@ -15,6 +15,7 @@ RPM_HASH = "6d3e249e4f7c975861b9b04c8d392d8d2e7cffe79724ba54328b62b9741261911751
 RPROVIDES:${PN} += "link-grammar-devel \
 link-grammar-devel(aarch-64) \
 pkgconfig(link-grammar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblink-grammar5"
 

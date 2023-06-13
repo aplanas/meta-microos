@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(junos-eznc) \
 python39-junos-eznc \
 python3dist(junos-eznc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-PyYAML \

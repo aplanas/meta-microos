@@ -11,6 +11,7 @@ RPM_HASH = "354a0d6b9475bea9ff0daac497516ef9844186a6862fc2ed857e3d420ee7393d52a3
 RPROVIDES:${PN} += "fftw-devel \
 fftw3_3_3_10-gnu-openmpi4-hpc-devel \
 fftw3_3_3_10-gnu-openmpi4-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 gnu-compilers-hpc-devel \

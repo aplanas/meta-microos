@@ -10,6 +10,7 @@ RPM_HASH = "dfb28e61a6ebdd1ea6f50d31a39c8ded056adc5c0e92e281e513d1d8a885e493e8dd
 RPROVIDES:${PN} += "cmake(dmlc) \
 dmlc-core-devel \
 dmlc-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdmlc"
 
 inherit rpm

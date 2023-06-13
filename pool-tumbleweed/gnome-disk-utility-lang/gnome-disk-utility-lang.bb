@@ -84,6 +84,7 @@ locale(gnome-disk-utility:vi) \
 locale(gnome-disk-utility:zh_CN) \
 locale(gnome-disk-utility:zh_HK) \
 locale(gnome-disk-utility:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-disk-utility"
 
 inherit rpm

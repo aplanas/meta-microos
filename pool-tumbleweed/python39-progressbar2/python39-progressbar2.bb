@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(progressbar2) \
 python39-progressbar2 \
 python3dist(progressbar2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-utils"
 

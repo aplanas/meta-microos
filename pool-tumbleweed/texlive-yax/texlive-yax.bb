@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(t-yax.tex) \
 tex(yax.sty) \
 tex(yax.tex) \
 texlive-yax"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

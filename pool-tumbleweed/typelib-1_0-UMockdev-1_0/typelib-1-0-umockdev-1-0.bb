@@ -14,6 +14,7 @@ RPM_HASH = "913a8ae4d84d5e22642be0bdb6ce160fd8fc4555de1a5549f47c6194b2ecac30a384
 RPROVIDES:${PN} += "typelib(UMockdev) \
 typelib-1_0-UMockdev-1_0 \
 typelib-1_0-UMockdev-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libumockdev.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

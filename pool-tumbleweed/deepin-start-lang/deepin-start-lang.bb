@@ -9,6 +9,7 @@ RPM_HASH = "4fdfdbd21caab45571d2c11c1f2767f7aa0fe2305c3944a2fa9bd5524cc21cf0dd55
 
 RPROVIDES:${PN} += "deepin-start-lang \
 deepin-start-lang(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-start"
 
 inherit rpm

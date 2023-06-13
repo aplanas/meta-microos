@@ -10,6 +10,7 @@ RPM_HASH = "731fa94fa1b257e07214481475e71dd2af6dd7f2e6e3f842c32bd19b6489942aa745
 
 RPROVIDES:${PN} += "python39-matplotlib-web \
 python39-matplotlib-web(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-tornado"

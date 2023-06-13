@@ -13,6 +13,7 @@ RPM_HASH = "cac765d19f52200701c09e11ff9d6e08c5f722cfee7b2db75ab6670d3841c6d6b6c9
 RPROVIDES:${PN} += "libfwevt-devel \
 libfwevt-devel(aarch-64) \
 pkgconfig(libfwevt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfwevt1"
 

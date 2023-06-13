@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-morisawa-doc:ja) \
 texlive-morisawa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

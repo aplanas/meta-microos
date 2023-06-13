@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(qt5xdg) \
 libqt5xdg-devel \
 libqt5xdg-devel(aarch-64) \
 pkgconfig(Qt5Xdg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Xdg3 \
 pkgconfig \

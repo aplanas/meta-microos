@@ -9,6 +9,7 @@ RPM_HASH = "293265fc6e299d4b98f15358f8e149ea658b1a61f07dc29b1fa7742f4d39671415f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diabetes-logbook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

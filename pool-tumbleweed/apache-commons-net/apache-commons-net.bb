@@ -18,6 +18,7 @@ jakarta-commons-net \
 mvn(commons-net:commons-net) \
 mvn(commons-net:commons-net:pom:) \
 osgi(org.apache.commons.commons-net)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

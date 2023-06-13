@@ -10,6 +10,7 @@ RPM_HASH = "feb5600c1b55334da41c599ae8a08926ab41a86e1983dc3a1e0a3469d3fe79a1ba9b
 RPROVIDES:${PN} += "libzbarqt.so.0()(64bit) \
 libzbarqt0 \
 libzbarqt0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

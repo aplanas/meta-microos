@@ -43,6 +43,7 @@ locale(kirigami-addons:tr) \
 locale(kirigami-addons:uk) \
 locale(kirigami-addons:zh_CN) \
 locale(kirigami-addons:zh_TW)"
+
 RDEPENDS:${PN} += "kirigami-addons"
 
 inherit rpm

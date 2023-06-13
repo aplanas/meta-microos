@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(elbioimp.cls) \
 texlive-elbioimp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

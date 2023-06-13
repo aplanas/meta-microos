@@ -15,6 +15,7 @@ RPM_HASH = "db370a1bedd34c2fac951ab56cf1467bfacf6ccd098a76c32d6eca9b8de3eb516756
 
 RPROVIDES:${PN} += "libkeccak-devel \
 libkeccak-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkeccak1"
 
 inherit rpm

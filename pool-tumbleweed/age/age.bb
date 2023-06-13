@@ -10,6 +10,7 @@ RPM_HASH = "35d844d4a491373a0d5f0eb51da9de2286aae44bb6dd8bd0b26a31adf8d89bd6fda4
 
 RPROVIDES:${PN} += "age \
 age(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

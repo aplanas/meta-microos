@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libQt5HunspellInputMethod.so.5()(64bit) \
 libQt5HunspellInputMethod.so.5(Qt_5.15.9_PRIVATE_API)(64bit) \
 libQt5HunspellInputMethod5 \
 libQt5HunspellInputMethod5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

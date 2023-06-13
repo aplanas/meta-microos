@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-falcon-doc \
 python310-falcon-doc \
 python311-falcon-doc \
 python39-falcon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

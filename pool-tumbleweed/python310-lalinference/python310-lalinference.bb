@@ -10,6 +10,7 @@ RPM_HASH = "4dfc771ba46818bf3842a3ecda6a60b48206bc02a3456ed9cf658fca5b0fe5fc346a
 RPROVIDES:${PN} += "python3-lalinference \
 python310-lalinference \
 python310-lalinference(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "2aa2ce288464ae595c92872d3f36470c6eb6677174f64ceb87895339fa88fb0d1c03
 
 RPROVIDES:${PN} += "edk2-ArmVExpress-FVP-AArch64 \
 edk2-ArmVExpress-FVP-AArch64(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

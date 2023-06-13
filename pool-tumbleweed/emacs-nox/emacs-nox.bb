@@ -14,6 +14,7 @@ RPM_HASH = "72a00e6b56d73f15a3421185ba039c57dfa5e73b32a879b8009248b97a5818f36949
 RPROVIDES:${PN} += "emacs-nox \
 emacs-nox(aarch-64) \
 emacs_program"
+
 RDEPENDS:${PN} += "/bin/sh \
 emacs \
 emacs-eln \

@@ -29,6 +29,7 @@ locale(mate-eiciel:zh_CN) \
 locale(mate-eiciel:zh_TW) \
 mate-eiciel-lang \
 mate-eiciel-lang-all"
+
 RDEPENDS:${PN} += "mate-eiciel"
 
 inherit rpm

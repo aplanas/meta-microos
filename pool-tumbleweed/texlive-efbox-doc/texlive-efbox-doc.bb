@@ -9,6 +9,7 @@ RPM_HASH = "c7caaa115bcdeb869cbe6ac8c9b922d3511ac1b13e4ff23de3ddb7f4f8770cca9ea3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-efbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

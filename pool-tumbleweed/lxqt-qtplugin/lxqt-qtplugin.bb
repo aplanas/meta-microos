@@ -19,6 +19,7 @@ RPM_HASH = "8fa6f472c4efac77da175f6a6630d763ee9b9a8d9765af21b3f7b2ef9af521889eaa
 RPROVIDES:${PN} += "libqtlxqt.so()(64bit) \
 lxqt-qtplugin \
 lxqt-qtplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

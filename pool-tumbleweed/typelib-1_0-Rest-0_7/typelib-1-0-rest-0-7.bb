@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "typelib(Rest) \
 typelib(RestExtras) \
 typelib-1_0-Rest-0_7 \
 typelib-1_0-Rest-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "librest-0.7.so.0()(64bit) \
 librest-extras-0.7.so.0()(64bit) \
 typelib(GLib) \

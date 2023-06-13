@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gnuhealth-orthanc \
 python3.10dist(gnuhealth-orthanc) \
 python3dist(gnuhealth-orthanc)"
+
 RDEPENDS:${PN} += "gnuhealth \
 python(abi) \
 python3-beren \

@@ -10,6 +10,7 @@ RPM_HASH = "d334ea3ba15713a3af00aa540ccd471e0e665a19840831ce7f13d565dfe5cecc073e
 RPROVIDES:${PN} += "libexttextcat \
 libexttextcat(aarch-64) \
 libtextcat"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(osmviz) \
 python39-osmviz \
 python3dist(osmviz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pygame"
 

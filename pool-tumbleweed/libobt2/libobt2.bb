@@ -11,6 +11,7 @@ RPM_HASH = "56cfcc959fc6a6df28de999ddca6bb411e3ba10d84f9879cabf057b0b3fdc8661e19
 RPROVIDES:${PN} += "libobt.so.2()(64bit) \
 libobt2 \
 libobt2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Task::Kensho::Exceptions) \
 perl-Task-Kensho-Exceptions"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Syntax::Keyword::Try) \
 perl(Try::Tiny) \

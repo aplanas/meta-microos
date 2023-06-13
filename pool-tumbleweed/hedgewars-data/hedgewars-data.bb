@@ -13,6 +13,7 @@ RPM_HASH = "f6cab441ebff1cf8baafe4c54c53b5410f18a3f13082a18c243617ec8c6699a0b591
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hedgewars-data"
+
 RDEPENDS:${PN} += "hedgewars"
 
 inherit rpm

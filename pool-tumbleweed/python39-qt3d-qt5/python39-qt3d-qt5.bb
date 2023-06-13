@@ -12,6 +12,7 @@ python39-PyQt3D \
 python39-qt3d-qt5 \
 python39-qt3d-qt5(aarch-64) \
 python3dist(pyqt3d)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt53DAnimation.so.5()(64bit) \

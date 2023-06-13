@@ -12,6 +12,7 @@ RPM_HASH = "3b9b99b469135e913521fad71c2024ee3af54874a5e17621fa3acb16b548367a7222
 
 RPROVIDES:${PN} += "sblim-cmpi-c++-devel \
 sblim-cmpi-c++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcmpiCppImpl0 \
 sblim-cmpi-devel"
 

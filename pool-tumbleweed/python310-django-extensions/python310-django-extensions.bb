@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-extensions \
 python3.10dist(django-extensions) \
 python310-django-extensions \
 python3dist(django-extensions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

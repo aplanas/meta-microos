@@ -20,6 +20,7 @@ docker-libnetwork \
 group(docker) \
 group(dockremap) \
 user(dockremap)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

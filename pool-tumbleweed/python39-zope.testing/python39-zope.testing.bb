@@ -58,6 +58,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zope.testing) \
 python39-zope.testing \
 python3dist(zope.testing)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

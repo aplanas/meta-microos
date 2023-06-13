@@ -11,6 +11,7 @@ RPM_HASH = "f7dd61d24191e14d804e5b5c2ad3cd45cadeeb1c7a4861bc0b12fef960773fbf17b7
 RPROVIDES:${PN} += "libframecppcmn.so.11()(64bit) \
 libframecppcmn11 \
 libframecppcmn11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

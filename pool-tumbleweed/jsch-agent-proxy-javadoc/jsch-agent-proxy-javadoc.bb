@@ -9,6 +9,7 @@ RPM_HASH = "71362fd406f7167e150087793f4fc6d4e3994bcfe27aa48b47af6c4abe79f250a3b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem \
 mvn(com.jcraft:jsch.agentproxy.core)"
 

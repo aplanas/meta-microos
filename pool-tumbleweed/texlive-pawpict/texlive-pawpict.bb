@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pawpict.sty) \
 texlive-pawpict"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

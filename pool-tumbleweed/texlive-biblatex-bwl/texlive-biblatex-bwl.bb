@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bwl-FU.bbx) \
 tex(bwl-FU.cbx) \
 texlive-biblatex-bwl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

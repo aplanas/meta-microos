@@ -11,6 +11,7 @@ RPM_HASH = "ece906fcaf434a123163d94d9360ab405c7d5842226a5a821432b1939cac72bfa372
 
 RPROVIDES:${PN} += "budgie-takeabreak-applet \
 budgie-takeabreak-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 iceauth \
 python3-gobject-Gdk \

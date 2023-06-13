@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(color.cfg) \
 tex(graphics.cfg) \
 texlive-graphics-cfg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

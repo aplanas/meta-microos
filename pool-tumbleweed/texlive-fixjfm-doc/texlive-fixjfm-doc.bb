@@ -9,6 +9,7 @@ RPM_HASH = "a50e74d9495f55deb765d23e1bd8831940ea380b17285e85db254b07dfffd0403d99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fixjfm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

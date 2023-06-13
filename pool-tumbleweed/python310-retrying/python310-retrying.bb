@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-retrying \
 python3.10dist(retrying) \
 python310-retrying \
 python3dist(retrying)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

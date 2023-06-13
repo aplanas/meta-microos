@@ -12,6 +12,7 @@ python3.10dist(influxdb) \
 python310-influxdb \
 python310-influxdb(aarch-64) \
 python3dist(influxdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msgpack \
 python310-python-dateutil \

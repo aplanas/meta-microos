@@ -36,6 +36,7 @@ perl(Git::Repository::Command) \
 perl(Git::Repository::Plugin) \
 perl(Test::Git) \
 perl-Git-Repository"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Git::Version::Compare) \
 perl(System::Command) \

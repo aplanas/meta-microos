@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-simplekml \
 python3.10dist(simplekml) \
 python310-simplekml \
 python3dist(simplekml)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

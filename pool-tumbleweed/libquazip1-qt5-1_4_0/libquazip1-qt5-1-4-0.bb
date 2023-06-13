@@ -13,6 +13,7 @@ libquazip1-qt5-1_4_0 \
 libquazip1-qt5-1_4_0(aarch-64) \
 libquazip1-qt5.so.1.4.0()(64bit) \
 libquazip5-1"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

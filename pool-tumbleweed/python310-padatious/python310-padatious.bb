@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-padatious \
 python3.10dist(padatious) \
 python310-padatious \
 python3dist(padatious)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

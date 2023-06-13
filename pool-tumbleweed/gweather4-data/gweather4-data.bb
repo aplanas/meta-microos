@@ -11,6 +11,7 @@ RPM_HASH = "8ed5d6b2cbeac13cb6fdb54a4aa17aafc5873880376d76b100a0efe89bd51020de2d
 RPROVIDES:${PN} += "gweather4-data \
 gweather4-data(aarch-64) \
 libgweather4"
+
 RDEPENDS:${PN} += "libgweather-4-0"
 
 inherit rpm

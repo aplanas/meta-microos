@@ -10,6 +10,7 @@ RPM_HASH = "38d6163cab3d2d23d2ddab72c80e50c516809c789142c09f6e045e4027ab9b625fed
 RPROVIDES:${PN} += "input-pad-xtest \
 input-pad-xtest(aarch-64) \
 libinput-pad-xtest-gdk.so()(64bit)"
+
 RDEPENDS:${PN} += "input-pad \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "granite-common \
 granite-common(aarch-64) \
 metainfo() \
 metainfo(granite.appdata.xml)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

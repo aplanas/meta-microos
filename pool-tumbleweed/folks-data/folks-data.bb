@@ -13,6 +13,7 @@ RPM_HASH = "82822f7410a11ce7960057963ce502aaae6363f2a7c8d1b1f12dc8be098377a33c01
 RPROVIDES:${PN} += "folks-data \
 folks-data(aarch-64) \
 libfolks-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

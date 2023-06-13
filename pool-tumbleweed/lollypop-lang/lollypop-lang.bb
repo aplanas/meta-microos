@@ -54,6 +54,7 @@ locale(lollypop:zh_CN) \
 locale(lollypop:zh_Hant) \
 lollypop-lang \
 lollypop-lang-all"
+
 RDEPENDS:${PN} += "lollypop"
 
 inherit rpm

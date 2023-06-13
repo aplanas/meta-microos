@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-virtualenv \
 python3.10dist(virtualenv) \
 python310-virtualenv \
 python3dist(virtualenv)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

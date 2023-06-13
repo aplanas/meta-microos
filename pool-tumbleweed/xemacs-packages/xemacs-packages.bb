@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xemacs-packages) \
 xemacs-packages \
 xemacs:/usr/share/xemacs/xemacs-packages/etc/auctex/style/amsart.elc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl"

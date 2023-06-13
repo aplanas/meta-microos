@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:turbo-rails:1) \
 rubygem(ruby:3.2.0:turbo-rails:1.3) \
 rubygem(ruby:3.2.0:turbo-rails:1.3.2) \
 rubygem(turbo-rails)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:activejob) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Bullet) \
 libbullet-devel \
 libbullet-devel(aarch-64) \
 pkgconfig(bullet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libBulletFileLoader3_17 \
 libBulletInverseDynamicsUtils3_17 \

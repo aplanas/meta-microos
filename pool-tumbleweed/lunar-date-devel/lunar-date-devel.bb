@@ -10,6 +10,7 @@ RPM_HASH = "6a27b5d4c65e56ce8194f6507b9cb4cfee8fec60a26c5a5359c3f7f473ceda0572d8
 RPROVIDES:${PN} += "lunar-date-devel \
 lunar-date-devel(aarch-64) \
 pkgconfig(lunar-date-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblunar-date-3_0-1 \
 pkgconfig(gio-2.0) \

@@ -14,6 +14,7 @@ RPM_HASH = "b3e434aadf98ecce158e88924493cb3ff3dbfed20e9ae3001e7414c0bbdc679a5e18
 
 RPROVIDES:${PN} += "fontforge-devel \
 fontforge-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fontforge \
 freetype2-devel"
 

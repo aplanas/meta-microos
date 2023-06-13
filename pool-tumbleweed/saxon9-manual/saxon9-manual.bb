@@ -9,6 +9,7 @@ RPM_HASH = "5786aef051c95b953b4e3063c0be68dc24beb04398aa418ace453ec6ef6b8ae462a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon9-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

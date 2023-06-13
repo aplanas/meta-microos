@@ -9,6 +9,7 @@ RPM_HASH = "14fd233abdb9b27647a8133f64940c69133ada81f75d03b8e08765167fbd6bd96c57
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conftest-zsh-completion"
+
 RDEPENDS:${PN} += "conftest"
 
 inherit rpm

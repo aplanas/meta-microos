@@ -9,6 +9,7 @@ RPM_HASH = "aea9259524a3a86b6aebe192a2d6f8ace080f3f0c224a3ced1e8e52e9e08fb3c4e72
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mentis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

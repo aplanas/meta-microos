@@ -11,6 +11,7 @@ RPM_HASH = "f49d682dd30baadfe1a616716c9905a301fb4a190f981b816987ce4a07ee1c5df2d7
 RPROVIDES:${PN} += "libxreaderview.so.3()(64bit) \
 libxreaderview3 \
 libxreaderview3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "fb6dd02a1c5d7e91fe8e1f59f91c70faea62e13af556afe2232bc157a015f0611774
 RPROVIDES:${PN} += "libgstfft-1.0.so.0()(64bit) \
 libgstfft-1_0-0 \
 libgstfft-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

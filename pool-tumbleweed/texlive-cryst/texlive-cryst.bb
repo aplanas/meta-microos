@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cryst.tfm) \
 texlive-cryst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

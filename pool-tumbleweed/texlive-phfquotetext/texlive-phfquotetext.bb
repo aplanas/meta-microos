@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phfquotetext.sty) \
 texlive-phfquotetext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-Nuitka \
 python3.10dist(nuitka) \
 python310-Nuitka \
 python3dist(nuitka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 gcc-c++ \

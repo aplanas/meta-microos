@@ -13,6 +13,7 @@ RPM_HASH = "58cdd4c5b7767341ea1b8c6c472faa8ec3dcd29c9669911450e7e2689169b69013b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hello-kubic-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

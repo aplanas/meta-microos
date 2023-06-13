@@ -16,6 +16,7 @@ RPM_HASH = "5a256a1846d9b36368d1174b253e3ed23dbeba1b0f4dbb3b1236dec50bc8531457f3
 RPROVIDES:${PN} += "libktpaccountskcminternal.so.9()(64bit) \
 libktpaccountskcminternal9 \
 libktpaccountskcminternal9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

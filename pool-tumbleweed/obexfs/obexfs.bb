@@ -10,6 +10,7 @@ RPM_HASH = "0f236f86cd98763d345bbda6ca1978be36ddd3161ccafe1ad9f430adaf047f81f31c
 
 RPROVIDES:${PN} += "obexfs \
 obexfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

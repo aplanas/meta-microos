@@ -21,6 +21,7 @@ tex(vect7.tfm) \
 tex(vect8.tfm) \
 tex(vect9.tfm) \
 texlive-esvect"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

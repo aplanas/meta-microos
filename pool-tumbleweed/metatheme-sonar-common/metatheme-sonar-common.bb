@@ -9,6 +9,7 @@ RPM_HASH = "457254f0cf4496acf66e8e8f1a7a4be589cdcfc8cda527aecbd546a7d82aeaaf4f36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-sonar-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

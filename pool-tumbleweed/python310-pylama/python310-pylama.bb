@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-pylama \
 python3.10dist(pylama) \
 python310-pylama \
 python3dist(pylama)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

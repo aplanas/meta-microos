@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-phonenumber-field) \
 python311-django-phonenumber-field \
 python3dist(django-phonenumber-field)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Babel \
 python311-Django \

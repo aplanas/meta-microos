@@ -14,6 +14,7 @@ RPM_HASH = "1668fa3275ef2b35b923d65daf6f680516d04e4c24f845652f440aa18acacb9504d3
 
 RPROVIDES:${PN} += "xfsprogs-devel \
 xfsprogs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhandle1 \
 libuuid-devel \
 xfsprogs"

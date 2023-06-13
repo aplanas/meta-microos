@@ -11,6 +11,7 @@ RPM_HASH = "2db830a7e38493c4312ed3b033895ff914ab898d33c6c082e9797495293a3c18539e
 RPROVIDES:${PN} += "libgnome-autoar-0-0 \
 libgnome-autoar-0-0(aarch-64) \
 libgnome-autoar-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

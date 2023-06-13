@@ -10,6 +10,7 @@ RPM_HASH = "43bc09f2f805ad852b323df2dd4fed99ca8856671602b98aba7ac56a7608396d8d74
 RPROVIDES:${PN} += "pkgconfig(wv-1.0) \
 wv-devel \
 wv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgsf-devel \
 libwmf-devel \

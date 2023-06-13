@@ -10,6 +10,7 @@ RPM_HASH = "289e03e6ca8e471725fc954a0a0889d6f3702a5f12e4c3a3ad84262b297cd66b00b6
 RPROVIDES:${PN} += "neko-mysql \
 neko-mysql(aarch-64) \
 nekovm-mysql"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

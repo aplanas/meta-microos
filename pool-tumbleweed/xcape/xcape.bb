@@ -11,6 +11,7 @@ RPM_HASH = "a2a083f726303250d6672e74f441e7f2ea26c7ba8f529b91b658ffc6280e89bb4d5b
 
 RPROVIDES:${PN} += "xcape \
 xcape(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

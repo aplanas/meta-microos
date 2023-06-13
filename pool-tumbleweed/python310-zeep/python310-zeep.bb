@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-zeep \
 python3.10dist(zeep) \
 python310-zeep \
 python3dist(zeep)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-cached-property \

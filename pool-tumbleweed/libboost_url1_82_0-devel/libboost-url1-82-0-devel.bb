@@ -10,6 +10,7 @@ RPM_HASH = "db66da0d8562a64fc8e0446e32fd214b26e314003ae3b531d2537f518367a167e807
 RPROVIDES:${PN} += "libboost_url-devel-impl \
 libboost_url1_82_0-devel \
 libboost_url1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

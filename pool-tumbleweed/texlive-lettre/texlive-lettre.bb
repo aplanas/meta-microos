@@ -19,6 +19,7 @@ tex(lettre-obs.cfg) \
 tex(lettre-romand.ldf) \
 tex(lettre.cls) \
 texlive-lettre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

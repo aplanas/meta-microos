@@ -11,6 +11,7 @@ RPM_HASH = "0bc318e8d677a3646b8d4ca8aeecc01d61f2a2b770eed01230ca142e308e38e9e819
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-rarfile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

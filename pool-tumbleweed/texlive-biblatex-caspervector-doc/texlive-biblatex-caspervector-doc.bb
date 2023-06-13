@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-biblatex-caspervector-doc:zh) \
 texlive-biblatex-caspervector-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

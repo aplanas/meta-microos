@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.11dist(netcdf4) \
 python311-netCDF4 \
 python311-netCDF4(aarch-64) \
 python3dist(netcdf4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 hdf5 \

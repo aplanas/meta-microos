@@ -13,6 +13,7 @@ RPM_HASH = "21fdaad3751ba13f3c7f7e4969e977a2924b1b4746f044ed22bd9e5ab4059ff6e029
 
 RPROVIDES:${PN} += "ruby-xapian \
 ruby-xapian(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

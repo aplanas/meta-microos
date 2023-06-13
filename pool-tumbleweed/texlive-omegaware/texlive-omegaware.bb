@@ -24,6 +24,7 @@ man(outocp.1) \
 man(ovf2ovp.1) \
 man(ovp2ovf.1) \
 texlive-omegaware"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

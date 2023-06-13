@@ -9,6 +9,7 @@ RPM_HASH = "bb82feb742150e260978c82a5bc73bb3770d830841ee296b42ab073b218cd75fb7cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-abraces-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

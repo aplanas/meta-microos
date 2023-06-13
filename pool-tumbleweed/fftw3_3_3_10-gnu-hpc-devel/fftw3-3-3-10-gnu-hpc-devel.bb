@@ -11,6 +11,7 @@ RPM_HASH = "4bcae33db7fde618a4f53c48f4fd4ce7cef4abc199f57e9d1e2f6d16e698ead29b99
 RPROVIDES:${PN} += "fftw-devel \
 fftw3_3_3_10-gnu-hpc-devel \
 fftw3_3_3_10-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 gnu-compilers-hpc-devel \

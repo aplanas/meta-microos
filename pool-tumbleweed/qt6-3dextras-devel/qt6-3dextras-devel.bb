@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DExtras) \
 pkgconfig(Qt63DExtras) \
 qt6-3dextras-devel \
 qt6-3dextras-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt63DInput) \

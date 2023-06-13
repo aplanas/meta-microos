@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(MIME::Charset) \
 perl(MIME::Charset::UTF) \
 perl(MIME::Charset::_Compat) \
 perl-MIME-Charset"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

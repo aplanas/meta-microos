@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-pglocks) \
 python39-django-pglocks \
 python3dist(django-pglocks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-psycopg2"

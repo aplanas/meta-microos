@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ghab.sty) \
 texlive-ghab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

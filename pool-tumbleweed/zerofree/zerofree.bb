@@ -14,6 +14,7 @@ RPM_HASH = "aad57a7e29cd9bc4e18b65faca4fdfdc4c2bc80572c575c01456eb790a11fc080161
 
 RPROVIDES:${PN} += "zerofree \
 zerofree(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

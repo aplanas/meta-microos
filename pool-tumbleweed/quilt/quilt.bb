@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(quilt) \
 quilt"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 coreutils \

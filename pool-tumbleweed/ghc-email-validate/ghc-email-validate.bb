@@ -10,6 +10,7 @@ RPM_HASH = "a9831505a2d8440176e04a93e93306b65372a0303b6d4ad5c45a367f9588ddf7901d
 RPROVIDES:${PN} += "ghc-email-validate \
 ghc-email-validate(aarch-64) \
 libHSemail-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

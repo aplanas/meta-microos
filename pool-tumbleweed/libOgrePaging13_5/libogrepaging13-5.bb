@@ -15,6 +15,7 @@ RPM_HASH = "832cc42913ca30b859c8ebf5512e9606acf0dbf7130c9b921a286fa232be42cad30a
 RPROVIDES:${PN} += "libOgrePaging.so.13.5()(64bit) \
 libOgrePaging13_5 \
 libOgrePaging13_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

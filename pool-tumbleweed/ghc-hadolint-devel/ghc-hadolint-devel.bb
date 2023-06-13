@@ -10,6 +10,7 @@ RPM_HASH = "1b129b7dc1926f909e9fd70af31524fd7b0e8056e8f716d18a16d5919d92ff662f52
 RPROVIDES:${PN} += "ghc-devel(hadolint-2.12.0-GJFK4KtL5yr5n9SSzjhIYq) \
 ghc-hadolint-devel \
 ghc-hadolint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(Cabal-3.8.1.0) \

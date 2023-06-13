@@ -10,6 +10,7 @@ RPM_HASH = "c9694e3a4e0fcaf1e73f7f57bc4e41886be9c6a794a9ae70966f410312b88cb83b5a
 
 RPROVIDES:${PN} += "gcc12-ada \
 gcc12-ada(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12 \
 libada12 \
 libc.so.6(GLIBC_2.36)(64bit) \

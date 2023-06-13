@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-assets) \
 python311-django-assets \
 python3dist(django-assets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-webassets"

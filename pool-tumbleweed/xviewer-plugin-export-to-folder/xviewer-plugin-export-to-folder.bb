@@ -12,6 +12,7 @@ metainfo(xviewer-export-to-folder.metainfo.xml) \
 xviewer-plugin-export-to-folder \
 xviewer-plugin-export-to-folder(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/export-to-folder.plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 typelib(GObject) \
 typelib(Gio) \

@@ -10,6 +10,7 @@ RPM_HASH = "ad0b8a0670bbadebc20e7a83afa74b572d108bfae1606dc9392633940700ca8777ac
 RPROVIDES:${PN} += "gkrellm-cpufreq \
 gkrellm-cpupower \
 gkrellm-cpupower(aarch-64)"
+
 RDEPENDS:${PN} += "cpupower \
 gkrellm \
 ld-linux-aarch64.so.1()(64bit) \

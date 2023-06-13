@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(savefnmark.sty) \
 texlive-savefnmark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

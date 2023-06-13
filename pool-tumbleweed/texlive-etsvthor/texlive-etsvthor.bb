@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(etsvthor.sty) \
 texlive-etsvthor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

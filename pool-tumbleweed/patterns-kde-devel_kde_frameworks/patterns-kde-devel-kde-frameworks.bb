@@ -17,6 +17,7 @@ patterns-kde-devel_kde \
 patterns-kde-devel_kde_frameworks \
 patterns-openSUSE-devel_kde \
 patterns-openSUSE-devel_kde_framework"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

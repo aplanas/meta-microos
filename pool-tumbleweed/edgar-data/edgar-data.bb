@@ -10,6 +10,7 @@ RPM_HASH = "d2ee354da85bbf5abf48ecae3ae6683804e0105be313274578034dcb9d0577058084
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edgar-data"
+
 RDEPENDS:${PN} += "edgar"
 
 inherit rpm

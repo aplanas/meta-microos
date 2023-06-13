@@ -129,6 +129,7 @@ font(aemroman9) \
 font(aepagella) \
 font(aeschola) \
 texlive-aesupp-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

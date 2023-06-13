@@ -16,6 +16,7 @@ tex(brazilian.ldf) \
 tex(portuges.ldf) \
 tex(portuguese.ldf) \
 texlive-babel-portuges"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

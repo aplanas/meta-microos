@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(smalltableof.sty) \
 texlive-smalltableof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

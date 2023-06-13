@@ -10,6 +10,7 @@ RPM_HASH = "bdc34904eefe23b2017042b5f421e3e946537c69dd3ef4840ffb09fbc7b5334155ec
 RPROVIDES:${PN} += "libboost_chrono.so.1.82.0()(64bit) \
 libboost_chrono1_82_0 \
 libboost_chrono1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlDebugPrivate) \
 qt6-qmldebug-devel-static \
 qt6-qmldebug-devel-static(aarch-64) \
 qt6-qmldebug-private-devel"
+
 RDEPENDS:${PN} += "cmake(Qt6Network) \
 qt6-core-private-devel \
 qt6-packetprotocol-devel-static \

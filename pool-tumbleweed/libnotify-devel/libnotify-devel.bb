@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libnotify-devel \
 libnotify-devel(aarch-64) \
 libnotify-doc \
 pkgconfig(libnotify)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnotify4 \
 pkgconfig(gdk-pixbuf-2.0) \

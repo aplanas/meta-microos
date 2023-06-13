@@ -10,6 +10,7 @@ RPM_HASH = "8109c1eaf5f4be81c696f85478a5ee7d3a48f05d43e40a0cfdc991eb5fe83d6671dc
 RPROVIDES:${PN} += "cmake(zfp) \
 zfp-devel \
 zfp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzfp1"
 
 inherit rpm

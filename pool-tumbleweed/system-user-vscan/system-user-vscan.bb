@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(vscan) \
 system-user-vscan \
 user(vscan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

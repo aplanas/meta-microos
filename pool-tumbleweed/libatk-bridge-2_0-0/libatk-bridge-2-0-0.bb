@@ -13,6 +13,7 @@ RPM_HASH = "f57c0c8dd24ca84f09e9d0facc11cf749bdf31b2a64d6916a5d60591008c7a32c89e
 RPROVIDES:${PN} += "libatk-bridge-2.0.so.0()(64bit) \
 libatk-bridge-2_0-0 \
 libatk-bridge-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

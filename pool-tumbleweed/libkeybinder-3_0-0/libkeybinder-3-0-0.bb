@@ -15,6 +15,7 @@ RPM_HASH = "8ed18085b77d70ae0c872d3c175ce06f4e9f838412e8ff759e53d592fa5d5548c152
 RPROVIDES:${PN} += "libkeybinder-3.0.so.0()(64bit) \
 libkeybinder-3_0-0 \
 libkeybinder-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

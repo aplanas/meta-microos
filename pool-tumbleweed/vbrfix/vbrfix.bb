@@ -24,6 +24,7 @@ RPM_HASH = "e8a7ce964a4c0e76da02a8eb077d1af7211d81e1649ea8072062705ade892aaf3f1e
 RPROVIDES:${PN} += "vbrfix \
 vbrfix(aarch-64) \
 vbrfixc"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

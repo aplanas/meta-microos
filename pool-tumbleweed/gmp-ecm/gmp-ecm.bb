@@ -13,6 +13,7 @@ RPM_HASH = "2d42857dbeac13363e32c8daee05ffccd96d3ab3587c519bc4f83f4d7f552a20bc66
 
 RPROVIDES:${PN} += "gmp-ecm \
 gmp-ecm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

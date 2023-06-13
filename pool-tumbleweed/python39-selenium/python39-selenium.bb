@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(selenium) \
 python39-selenium \
 python39-selenium(aarch-64) \
 python3dist(selenium)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-rdflib \
 python39-urllib3"

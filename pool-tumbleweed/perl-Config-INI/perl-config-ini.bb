@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(Config::INI) \
 perl(Config::INI::Reader) \
 perl(Config::INI::Writer) \
 perl-Config-INI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mixin::Linewise::Readers) \
 perl(Mixin::Linewise::Writers)"

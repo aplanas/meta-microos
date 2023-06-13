@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-mirror-doc:fr) \
 texlive-pst-mirror-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

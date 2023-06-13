@@ -10,6 +10,7 @@ RPM_HASH = "b18974ff66576791d23528fbd3fa2f14dc014f0f7a7492ee91fec5588468081cf471
 RPROVIDES:${PN} += "ptscotch-mpich-devel-static \
 ptscotch-mpich-devel-static(aarch-64) \
 scotch-devel-static"
+
 RDEPENDS:${PN} += "ptscotch-mpich-devel"
 
 inherit rpm

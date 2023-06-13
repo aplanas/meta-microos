@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-jwcrypto \
 python3.10dist(jwcrypto) \
 python310-jwcrypto \
 python3dist(jwcrypto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Deprecated \
 python310-cryptography"

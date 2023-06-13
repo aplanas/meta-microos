@@ -21,6 +21,7 @@ tex(akletter.cfg) \
 tex(akletter.cls) \
 tex(myletter.cls) \
 texlive-akletter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -23,6 +23,7 @@ RPM_HASH = "d13e3d2f6f36b33a6e71a53f1bc85c467dc8a7b720d781cbd0b5ecde27d420a85627
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "storeBackup"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 bzip2 \

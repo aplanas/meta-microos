@@ -10,6 +10,7 @@ RPM_HASH = "455f7f9e1002e5667274f56b9a3482821b4379edaafb7cee5047064ed6b395d7c583
 
 RPROVIDES:${PN} += "pcp-export-pcp2zabbix \
 pcp-export-pcp2zabbix(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-pcp"
 

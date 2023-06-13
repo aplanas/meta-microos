@@ -10,6 +10,7 @@ RPM_HASH = "e56901f010e7671125c2b6ebbe2bc3e148deb5c9856482a8c6dae56664274351e1ee
 RPROVIDES:${PN} += "ghc-ShellCheck \
 ghc-ShellCheck(aarch-64) \
 libHSShellCheck-0.9.0-DdkSsqjqnem8sl1ZfVxG9G-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSDiff-0.4.1-CiDqeLEcsRQOQjfgZOPVP-ghc9.4.5.so()(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \

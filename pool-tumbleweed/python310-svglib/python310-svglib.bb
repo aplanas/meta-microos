@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-svglib \
 python3.10dist(svglib) \
 python310-svglib \
 python3dist(svglib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -43,6 +43,7 @@ locale(libbytesize:tr) \
 locale(libbytesize:uk) \
 locale(libbytesize:zh_CN) \
 locale(libbytesize:zh_TW)"
+
 RDEPENDS:${PN} += "libbytesize"
 
 inherit rpm

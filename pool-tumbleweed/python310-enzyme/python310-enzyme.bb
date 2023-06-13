@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-enzyme \
 python3.10dist(enzyme) \
 python310-enzyme \
 python3dist(enzyme)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

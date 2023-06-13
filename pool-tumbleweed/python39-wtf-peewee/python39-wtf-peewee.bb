@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wtf-peewee) \
 python39-wtf-peewee \
 python3dist(wtf-peewee)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WTForms \
 python39-peewee"

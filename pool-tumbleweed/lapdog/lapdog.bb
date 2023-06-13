@@ -15,6 +15,7 @@ RPM_HASH = "3cb5862ade6e75eb3cb7e075dd4af4476940525de7b2079c46b6b6b018f4d53d981f
 RPROVIDES:${PN} += "config(lapdog) \
 lapdog \
 lapdog(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

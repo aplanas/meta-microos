@@ -73,6 +73,7 @@ locale(kdevelop5:uk) \
 locale(kdevelop5:vi) \
 locale(kdevelop5:zh_CN) \
 locale(kdevelop5:zh_TW)"
+
 RDEPENDS:${PN} += "kdevelop5"
 
 inherit rpm

@@ -12,6 +12,7 @@ libqt5-qtpdf-imports \
 libqt5-qtpdf-imports(aarch-64) \
 qt5qmlimport(QtQuick.Pdf.2) \
 qt5qmlimport(QtQuick.Pdf.5)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

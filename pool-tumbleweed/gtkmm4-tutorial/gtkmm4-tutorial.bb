@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtkmm-documentation \
 gtkmm-tutorial \
 gtkmm4-documentation \
 gtkmm4-tutorial"
+
 RDEPENDS:${PN} += "gtkmm4-doc"
 
 inherit rpm

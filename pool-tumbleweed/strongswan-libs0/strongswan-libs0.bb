@@ -111,6 +111,7 @@ libtpmtss.so.0()(64bit) \
 libvici.so.0()(64bit) \
 strongswan-libs0 \
 strongswan-libs0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

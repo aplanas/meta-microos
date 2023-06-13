@@ -97,6 +97,7 @@ osgi(org.eclipse.ecf.server.generic.feature) \
 osgi(org.eclipse.ecf.sharedobject) \
 osgi(org.eclipse.ecf.sharedobject.feature) \
 osgi(org.eclipse.osgi.services.remoteserviceadmin)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(javax.xml) \

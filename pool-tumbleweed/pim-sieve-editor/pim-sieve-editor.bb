@@ -16,6 +16,7 @@ metainfo() \
 metainfo(org.kde.sieveeditor.appdata.xml) \
 pim-sieve-editor \
 pim-sieve-editor(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kmail \
 ld-linux-aarch64.so.1()(64bit) \

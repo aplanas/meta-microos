@@ -48,6 +48,7 @@ locale(zim:zh_CN) \
 locale(zim:zh_TW) \
 zim-lang \
 zim-lang-all"
+
 RDEPENDS:${PN} += "zim"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "b1823366e680f9fe60e8b841abbc85c829ae245f96cfe2e4a4f10d85ce038c7cda41
 
 RPROVIDES:${PN} += "imlib2-filters \
 imlib2-filters(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2-1 \

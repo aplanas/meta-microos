@@ -13,6 +13,7 @@ RPM_HASH = "3d170376212a13a3f69aa5464e0eac7d8c760f182f543775c5055b3c8f7d1dd210d1
 
 RPROVIDES:${PN} += "mathgl-examples \
 mathgl-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

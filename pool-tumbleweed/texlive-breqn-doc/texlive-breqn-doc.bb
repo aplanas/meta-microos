@@ -9,6 +9,7 @@ RPM_HASH = "873bea9fd7573f03d84288521803630a199f239bb0b206721c50f3c79f9a1b56b80a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-breqn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

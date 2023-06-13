@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(asdf-wcs-schemas) \
 python39-asdf-wcs-schemas \
 python39-asdf_wcs_schemas \
 python3dist(asdf-wcs-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asdf"
 

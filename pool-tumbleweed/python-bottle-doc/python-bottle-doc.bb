@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python-bottle-doc \
 python310-bottle-doc \
 python311-bottle-doc \
 python39-bottle-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

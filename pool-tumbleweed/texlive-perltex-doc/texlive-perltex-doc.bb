@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(perltex.1) \
 texlive-perltex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

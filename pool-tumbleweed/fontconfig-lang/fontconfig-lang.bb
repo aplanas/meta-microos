@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "fontconfig-lang \
 fontconfig-lang-all \
 locale(fontconfig:ka) \
 locale(fontconfig:zh_CN)"
+
 RDEPENDS:${PN} += "fontconfig"
 
 inherit rpm

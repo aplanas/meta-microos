@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(danish.ldf) \
 texlive-babel-danish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

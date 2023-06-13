@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-fudge \
 python3.10dist(fudge) \
 python310-fudge \
 python3dist(fudge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

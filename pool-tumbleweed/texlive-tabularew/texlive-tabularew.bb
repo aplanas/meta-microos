@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabularew.sty) \
 texlive-tabularew"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

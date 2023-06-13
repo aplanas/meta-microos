@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-mocks) \
 rubygem(ruby:3.2.0:rspec-mocks:3) \
 rubygem(ruby:3.2.0:rspec-mocks:3.12) \
 rubygem(ruby:3.2.0:rspec-mocks:3.12.3)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:diff-lcs) \
 rubygem(ruby:3.2.0:rspec-support:3.12)"

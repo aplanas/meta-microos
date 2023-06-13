@@ -9,6 +9,7 @@ RPM_HASH = "ea96a071a25c6dd916c350e447e617b9434fc2db5b5a8116e7701612e8866bff10c5
 
 RPROVIDES:${PN} += "casacore \
 casacore(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

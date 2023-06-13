@@ -14,6 +14,7 @@ RPM_HASH = "5a88f6ca9766d57ad16bd57bb936d7ba9a0806fda053c37c287abb5c339c9176e997
 RPROVIDES:${PN} += "libupb.so.31()(64bit) \
 libupb31 \
 libupb31(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

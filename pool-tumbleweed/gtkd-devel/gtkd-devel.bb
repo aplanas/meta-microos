@@ -15,6 +15,7 @@ pkgconfig(gtkdgl-3) \
 pkgconfig(gtkdsv-3) \
 pkgconfig(peasd-3) \
 pkgconfig(vted-3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgstreamerd-3-0 \
 libgtkd-3-0 \

@@ -9,6 +9,7 @@ RPM_HASH = "2b7983d19ffe04d9c5becd238b5674d5b2665e7d21b8ddcc5be20b3d5e9d1b49fb4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liballegro-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

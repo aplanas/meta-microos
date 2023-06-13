@@ -12,6 +12,7 @@ RPM_HASH = "04930d54ccab2f1812ee5ff53af5e6187e242de3988cec5ce212a6bebba91d5d4996
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwebview-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtwebview-devel"
 

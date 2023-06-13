@@ -92,6 +92,7 @@ locale(dippi:zh) \
 locale(dippi:zh_CN) \
 locale(dippi:zh_HK) \
 locale(dippi:zh_TW)"
+
 RDEPENDS:${PN} += "dippi"
 
 inherit rpm

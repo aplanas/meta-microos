@@ -11,6 +11,7 @@ RPM_HASH = "faf3ff0c6d77836713c20b53c6c41035b0d312f648a1db42a0df9a0f270d0348e9dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "servletapi4-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

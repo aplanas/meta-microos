@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6OpenGLWidgets) \
 pkgconfig(Qt6OpenGLWidgets) \
 qt6-openglwidgets-devel \
 qt6-openglwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-libGLESv3-devel \
 cmake(Qt6OpenGL) \

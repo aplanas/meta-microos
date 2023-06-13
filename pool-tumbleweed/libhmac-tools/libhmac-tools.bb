@@ -9,6 +9,7 @@ RPM_HASH = "5a95ef13156c21fe924ee54f36c35a60531741ef25b80c5f42fd562781894f989db5
 
 RPROVIDES:${PN} += "libhmac-tools \
 libhmac-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

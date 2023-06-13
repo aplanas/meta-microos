@@ -16,6 +16,7 @@ python3.11dist(glances) \
 python311-Glances \
 python311-glances \
 python3dist(glances)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

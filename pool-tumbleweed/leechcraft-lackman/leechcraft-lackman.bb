@@ -22,6 +22,7 @@ RPM_HASH = "ca82040611fe060b0cd717152fa1243c6541f0028328735031347dec82103a25fed8
 RPROVIDES:${PN} += "leechcraft-lackman \
 leechcraft-lackman(aarch-64) \
 libleechcraft_lackman.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

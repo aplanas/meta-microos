@@ -11,6 +11,7 @@ RPM_HASH = "e7a4b4ec3c250264b8affb309ecea64c7dff47c13b77331bc98e2ffb4cce51df2337
 
 RPROVIDES:${PN} += "python3-gr-osmosdr \
 python3-gr-osmosdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "661de4ee0967a71e8d6c75bef878cc4ca4b105f39e77ed4417a32addf758117a178b
 
 RPROVIDES:${PN} += "libquicktime \
 libquicktime(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.58.134()(64bit) \

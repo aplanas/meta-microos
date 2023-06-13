@@ -10,6 +10,7 @@ RPM_HASH = "1ce10e9af15e0ac4bcadeeecb12e3ac239c6292f1187828f93d5595e7697f24f457d
 RPROVIDES:${PN} += "aide \
 aide(aarch-64) \
 config(aide)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

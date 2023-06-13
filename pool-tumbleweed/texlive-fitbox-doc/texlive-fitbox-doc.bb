@@ -9,6 +9,7 @@ RPM_HASH = "93d81c8266ebc5561b40b2abb894ab8c9a4d6ae546cfce3aa643a975c08a1c7f4f9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fitbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

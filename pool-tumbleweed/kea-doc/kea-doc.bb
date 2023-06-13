@@ -9,6 +9,7 @@ RPM_HASH = "7f7b563f76f24a5e07d6a1ec51c691a0fe989ee8f57bc913619ef819fe7c09135826
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kea-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

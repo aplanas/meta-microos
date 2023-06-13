@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6WaylandCompositor) \
 pkgconfig(Qt6WaylandCompositor) \
 qt6-waylandcompositor-devel \
 qt6-waylandcompositor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6OpenGL) \

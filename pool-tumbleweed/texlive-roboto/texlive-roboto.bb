@@ -4669,6 +4669,7 @@ tex(roboto-serif.sty) \
 tex(roboto.map) \
 tex(roboto.sty) \
 texlive-roboto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

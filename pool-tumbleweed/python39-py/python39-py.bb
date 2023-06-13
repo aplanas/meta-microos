@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(py) \
 python39-py \
 python3dist(py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-apipkg \
 python39-iniconfig"

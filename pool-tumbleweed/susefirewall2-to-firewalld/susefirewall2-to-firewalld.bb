@@ -10,6 +10,7 @@ RPM_HASH = "067550f466db03640ee1f87c10432cd457542cdbf54341e7c5b8c43c34205d1e75f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "susefirewall2-to-firewalld"
+
 RDEPENDS:${PN} += "/bin/bash \
 firewalld \
 iptables"

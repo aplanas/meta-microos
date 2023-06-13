@@ -11,6 +11,7 @@ RPM_HASH = "a0e1487fcb0cb26263fad727ae72a217a8b657f31fced14144a8fe3eff6e93735835
 RPROVIDES:${PN} += "ghc-clientsession \
 ghc-clientsession(aarch-64) \
 libHSclientsession-0.9.1.2-Jnvj5vMN6iR9xGMf6HxcGE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

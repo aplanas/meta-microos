@@ -11,6 +11,7 @@ RPM_HASH = "e278264fd6c511abaa3d069a60d7d2ddb83323300139adfa976460ee3632960aad7d
 
 RPROVIDES:${PN} += "qore-xml-module \
 qore-xml-module(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

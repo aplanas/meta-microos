@@ -18,6 +18,7 @@ RPM_HASH = "05a8b489b22296135d43b0fbd6dc018dcbf304c0ca93e22d157eefcb01a9bcc44808
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexdiff"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

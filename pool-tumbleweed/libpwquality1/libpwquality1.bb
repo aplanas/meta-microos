@@ -14,6 +14,7 @@ libpwquality.so.1()(64bit) \
 libpwquality.so.1(LIBPWQUALITY_1.0)(64bit) \
 libpwquality1 \
 libpwquality1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cracklib-dict \
 ld-linux-aarch64.so.1()(64bit) \

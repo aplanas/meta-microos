@@ -12,6 +12,7 @@ RPM_HASH = "ac5d708250ea57fb2ebf6c1600af0b41eaf8e128cd4a39c787933ecd4813be005101
 RPROVIDES:${PN} += "glibc-devel:/usr/bin/rpcgen \
 rpcgen \
 rpcgen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

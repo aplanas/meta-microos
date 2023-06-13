@@ -10,6 +10,7 @@ RPM_HASH = "223143f55b86c3d177fdc9ef5d37acdfefa9bfc68cac3042ff5eff6c33bd7e406fab
 RPROVIDES:${PN} += "cmake(minisat) \
 minisat-devel \
 minisat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libminisat2 \
 zlib-devel"
 

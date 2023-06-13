@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(JThread) \
 jthread-devel \
 jthread-devel(aarch-64) \
 pkgconfig(jthread)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjthread1_3_3"
 

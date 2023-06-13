@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libxkbfile-devel \
 libxkbfile-devel(aarch-64) \
 pkgconfig(xkbfile) \
 xorg-x11-libxkbfile-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxkbfile1 \
 pkgconfig(kbproto) \

@@ -58,6 +58,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::Spelling) \
 perl-Test-Spelling"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IPC::Run3) \
 perl(Pod::Spell)"

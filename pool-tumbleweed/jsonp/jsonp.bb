@@ -19,6 +19,7 @@ mvn(org.glassfish:jsonp-jaxrs:pom:) \
 osgi(jakarta.json-api) \
 osgi(org.glassfish.javax.json) \
 osgi(org.glassfish.jsonp-jaxrs)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

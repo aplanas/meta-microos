@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Mqtt) \
 pkgconfig(Qt6Mqtt) \
 qt6-mqtt-devel \
 qt6-mqtt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 libQt6Mqtt6 \

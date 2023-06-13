@@ -10,6 +10,7 @@ RPM_HASH = "b7417193c136c942604b2456c6f8ee9656aa4345bd67b07dc943193cc39a56d20b3d
 
 RPROVIDES:${PN} += "udev-configure-printer \
 udev-configure-printer(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1-python3 \
 ld-linux-aarch64.so.1()(64bit) \

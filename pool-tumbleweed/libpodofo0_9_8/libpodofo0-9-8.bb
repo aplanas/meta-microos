@@ -10,6 +10,7 @@ RPM_HASH = "8dd1e1946c1e701732b4dbd86c085d34f4fc17a8b19bebb9eece0513f58872a4a059
 RPROVIDES:${PN} += "libpodofo.so.0.9.8()(64bit) \
 libpodofo0_9_8 \
 libpodofo0_9_8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

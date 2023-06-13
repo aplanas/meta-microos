@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(org.gnome.Kiosk.SearchApp.desktop) \
 gnome-kiosk-sample-app"
+
 RDEPENDS:${PN} += "MozillaFirefox \
 gnome-kiosk"
 

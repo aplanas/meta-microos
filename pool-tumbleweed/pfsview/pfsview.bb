@@ -9,6 +9,7 @@ RPM_HASH = "066424d794bdb61302628997652e03f4f60ecaf3290fbb6b345b126ecf536e2f7e35
 
 RPROVIDES:${PN} += "pfsview \
 pfsview(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

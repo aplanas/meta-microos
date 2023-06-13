@@ -9,6 +9,7 @@ RPM_HASH = "67b916f137a93332b376dce8e50a0fb21a9d3ac4ee1ac19fcf4bcfb0ecbeccb87f9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kerkis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

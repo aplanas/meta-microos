@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(quran-bn.sty) \
 tex(qurantext-bni.translation.def) \
 tex(qurantext-bnii.translation.def) \
 texlive-quran-bn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

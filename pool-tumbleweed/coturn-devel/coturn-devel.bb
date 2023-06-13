@@ -9,6 +9,7 @@ RPM_HASH = "fe4712f8012d824661fd1decf68b10c4134e7481959a0d3a5d4948b2ee855fb03116
 
 RPROVIDES:${PN} += "coturn-devel \
 coturn-devel(aarch-64)"
+
 RDEPENDS:${PN} += "coturn"
 
 inherit rpm

@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(guit.cfg) \
 tex(guit.sty) \
 texlive-guitlogo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

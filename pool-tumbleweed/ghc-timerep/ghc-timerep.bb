@@ -20,6 +20,7 @@ RPM_HASH = "49d9b2084563707854dea68091b05f8375dcd43ed22971256daa09331c9d8d8c87b4
 RPROVIDES:${PN} += "ghc-timerep \
 ghc-timerep(aarch-64) \
 libHStimerep-2.1.0.0-I3sgV342xF22sEKbdw3Ltk-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

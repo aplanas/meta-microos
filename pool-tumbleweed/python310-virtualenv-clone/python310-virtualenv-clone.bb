@@ -42,6 +42,7 @@ RPROVIDES:${PN} += "python3-virtualenv-clone \
 python3.10dist(virtualenv-clone) \
 python310-virtualenv-clone \
 python3dist(virtualenv-clone)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

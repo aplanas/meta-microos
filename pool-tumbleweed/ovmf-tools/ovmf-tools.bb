@@ -12,6 +12,7 @@ RPM_HASH = "84f27b1667370423bb6774ef891e5a9cc33fc4cf5698562cde03b3b5127e66bad262
 
 RPROVIDES:${PN} += "ovmf-tools \
 ovmf-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "f0328ead0587ac4626e363e0c0727b418de64e7f82d17b0f6e15ac1e51cd36e96909
 RPROVIDES:${PN} += "a52 \
 a52dec \
 a52dec(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 liba52-0 \

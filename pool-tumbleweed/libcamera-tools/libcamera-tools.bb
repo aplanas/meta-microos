@@ -13,6 +13,7 @@ RPM_HASH = "7aca14b2c2faffb76121fa55f9ef29fe67ff2276e9a0f8184a9a4965ce8c4947e6ec
 
 RPROVIDES:${PN} += "libcamera-tools \
 libcamera-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

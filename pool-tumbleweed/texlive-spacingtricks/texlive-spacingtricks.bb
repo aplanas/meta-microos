@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spacingtricks.sty) \
 texlive-spacingtricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

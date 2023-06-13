@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(blindtext.sty) \
 texlive-blindtext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

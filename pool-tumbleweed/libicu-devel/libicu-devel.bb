@@ -14,6 +14,7 @@ libicu-devel(aarch-64) \
 pkgconfig(icu-i18n) \
 pkgconfig(icu-io) \
 pkgconfig(icu-uc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libicu73 \

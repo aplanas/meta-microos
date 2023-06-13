@@ -10,6 +10,7 @@ RPM_HASH = "932708093b28ead10f3d23db01d5f0c120da74bb39f60168157db6ac6b25f44ac882
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eigen3-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

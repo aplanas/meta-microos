@@ -91,6 +91,7 @@ locale(metacity:zh_HK) \
 locale(metacity:zh_TW) \
 metacity-lang \
 metacity-lang-all"
+
 RDEPENDS:${PN} += "metacity"
 
 inherit rpm

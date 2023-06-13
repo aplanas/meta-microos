@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(pcmanx.desktop) \
 pcmanx-gtk2 \
 pcmanx-gtk2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

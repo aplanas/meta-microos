@@ -46,6 +46,7 @@ tex(usimpleiconsSix.fd) \
 tex(usimpleiconsThree.fd) \
 tex(usimpleiconsTwo.fd) \
 texlive-simpleicons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

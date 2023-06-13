@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(atenddvi-2019-12-11.sty) \
 tex(atenddvi.sty) \
 texlive-atenddvi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

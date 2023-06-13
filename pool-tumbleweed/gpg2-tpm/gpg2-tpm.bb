@@ -11,6 +11,7 @@ RPM_HASH = "eddf65a3f379a88b95c3456782e2d96859c68ce5381210c7af5cd5a341d9ae3c9197
 
 RPROVIDES:${PN} += "gpg2-tpm \
 gpg2-tpm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \

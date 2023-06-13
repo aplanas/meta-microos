@@ -9,6 +9,7 @@ RPM_HASH = "d129985e2688c7bc98dfffd8a879b940b2fb9cc52d56c72815563ea2a32906e1c5c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plantuml-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

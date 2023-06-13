@@ -12,6 +12,7 @@ RPM_HASH = "300373bae0aa2aac027a9050d7d8048ff290245d8148d9311241dba264c6ba165a84
 
 RPROVIDES:${PN} += "sanlk-reset \
 sanlk-reset(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

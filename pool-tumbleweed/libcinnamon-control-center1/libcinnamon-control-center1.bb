@@ -17,6 +17,7 @@ libnetwork.so()(64bit) \
 libonline-accounts.so()(64bit) \
 libregion.so()(64bit) \
 libwacom-properties.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

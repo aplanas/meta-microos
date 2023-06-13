@@ -14,6 +14,7 @@ librsvg-2-2 \
 librsvg-2-2(aarch-64) \
 librsvg-2.so.2()(64bit) \
 librsvg2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \

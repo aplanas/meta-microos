@@ -15,6 +15,7 @@ RPM_HASH = "842497c11b3aa398839a4e006f0a9b17c0d6c28f312421669504d7b7b1b8158e0f01
 RPROVIDES:${PN} += "libofa-devel \
 libofa-devel(aarch-64) \
 pkgconfig(libofa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libofa0 \

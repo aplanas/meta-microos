@@ -16,6 +16,7 @@ RPM_HASH = "cde670eea9e88e575018e3071845f33c8908d965f006477a5b6972913b7a68cbd7cd
 RPROVIDES:${PN} += "ucommon \
 ucommon(aarch-64) \
 ucommon-bin"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

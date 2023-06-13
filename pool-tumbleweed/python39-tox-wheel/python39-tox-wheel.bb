@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tox-wheel) \
 python39-tox-wheel \
 python3dist(tox-wheel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tox \
 python39-wheel"

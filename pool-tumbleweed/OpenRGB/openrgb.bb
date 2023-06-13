@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "OpenRGB \
 OpenRGB(aarch-64) \
 application() \
 application(OpenRGB.desktop)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

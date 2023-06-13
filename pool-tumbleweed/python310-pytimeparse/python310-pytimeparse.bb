@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-pytimeparse \
 python3.10dist(pytimeparse) \
 python310-pytimeparse \
 python3dist(pytimeparse)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

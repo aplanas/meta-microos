@@ -9,6 +9,7 @@ RPM_HASH = "881c15982d46687ecfd2c8d2b91013f3328023fec8eb73bbb13250ca3598ddb4b65c
 
 RPROVIDES:${PN} += "texlive-pedigree-perl-bin \
 texlive-pedigree-perl-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pedigree-perl"
 
 inherit rpm

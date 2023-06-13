@@ -9,6 +9,7 @@ RPM_HASH = "8a25d2afc7d6c51e1a90f3bfe16fec9c32668814bf35419af79c2b485a732ca16f2a
 
 RPROVIDES:${PN} += "texlive-autosp-bin \
 texlive-autosp-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

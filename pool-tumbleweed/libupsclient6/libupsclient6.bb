@@ -13,6 +13,7 @@ RPM_HASH = "c2d48fc7fa341dcf365f7f7abce11a39d9cb655e9b6a934ffb4864cd3a2d0041bae8
 RPROVIDES:${PN} += "libupsclient.so.6()(64bit) \
 libupsclient6 \
 libupsclient6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

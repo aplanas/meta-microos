@@ -11,6 +11,7 @@ RPM_HASH = "043b1d209c442ca375ff17e93072181426f4fc699b115bd9d4f46199d5828ac24fb6
 
 RPROVIDES:${PN} += "ansifilter \
 ansifilter(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

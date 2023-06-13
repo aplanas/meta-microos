@@ -10,6 +10,7 @@ RPM_HASH = "cfc029b499cf8dc2b49d655bcacbab711d404ded6ed687c68afbd8a0b2c66f6378d9
 
 RPROVIDES:${PN} += "qt6-webenginecore-private-devel \
 qt6-webenginecore-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WebEngineCore)"
 
 inherit rpm

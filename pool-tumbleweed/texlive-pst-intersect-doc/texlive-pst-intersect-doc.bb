@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-intersect-doc:de;en) \
 texlive-pst-intersect-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

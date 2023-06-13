@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pure-eval \
 python3.10dist(pure-eval) \
 python310-pure-eval \
 python3dist(pure-eval)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

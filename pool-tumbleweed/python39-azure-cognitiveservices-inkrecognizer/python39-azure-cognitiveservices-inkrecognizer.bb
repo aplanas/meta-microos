@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-cognitiveservices-inkrecognizer) \
 python39-azure-cognitiveservices-inkrecognizer \
 python3dist(azure-cognitiveservices-inkrecognizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-cognitiveservices-nspkg \
 python39-azure-common \

@@ -9,6 +9,7 @@ RPM_HASH = "cb17dec7fed522afa052c52be0e96f547874f7beef2fd12d648211e9bf078648c6f4
 
 RPROVIDES:${PN} += "gcc13-testresults \
 gcc13-testresults(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

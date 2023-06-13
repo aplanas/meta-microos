@@ -14,6 +14,7 @@ RPM_HASH = "f5e143d87b0176135abe41d82212c28bafb6da5d1ada54766cdd73aa786a8ba2203a
 RPROVIDES:${PN} += "libofx-devel \
 libofx-devel(aarch-64) \
 pkgconfig(libofx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libofx \

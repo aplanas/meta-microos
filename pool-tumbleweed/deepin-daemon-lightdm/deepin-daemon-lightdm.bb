@@ -9,6 +9,7 @@ RPM_HASH = "a60cf9e2db854737f13c43940b6545e4412caa8ae286b87e24105c429b895495e9be
 
 RPROVIDES:${PN} += "deepin-daemon-lightdm \
 deepin-daemon-lightdm(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-daemon \
 lightdm"
 

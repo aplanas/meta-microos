@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:ro) \
 myspell-dictionary \
 myspell-ro \
 myspell-romanian"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

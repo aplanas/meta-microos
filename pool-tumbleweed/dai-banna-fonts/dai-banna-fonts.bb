@@ -10,6 +10,7 @@ RPM_HASH = "81ac613591f95bef2dbbb5701777ada78defd2dca5b2bce56d6ff8275a82067d92c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dai-banna-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

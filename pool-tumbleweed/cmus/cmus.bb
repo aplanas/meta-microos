@@ -11,6 +11,7 @@ RPM_HASH = "a127a1569fb5c7ee04a6c0e6256673abadc0a80ca7c8eb16478d835e836b560be403
 RPROVIDES:${PN} += "cmus \
 cmus(aarch-64) \
 config(cmus)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

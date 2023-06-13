@@ -21,6 +21,7 @@ locale(budgie-screenshot-applet:lt) \
 locale(budgie-screenshot-applet:nl_BE) \
 locale(budgie-screenshot-applet:pl_PL) \
 locale(budgie-screenshot-applet:sv)"
+
 RDEPENDS:${PN} += "budgie-screenshot-applet"
 
 inherit rpm

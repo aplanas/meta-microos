@@ -17,6 +17,7 @@ locale(enchant-1:az) \
 locale(enchant-1:tk) \
 locale(enchant-1:tr) \
 locale(enchant-1:tt)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

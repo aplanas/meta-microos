@@ -11,6 +11,7 @@ RPM_HASH = "8e5e797dbbdd152ddff64c6da1a668c06ce4ad11d0df2e40254f7a568b22482c65ba
 RPROVIDES:${PN} += "gtk2-engine-industrial \
 gtk2-engine-industrial(aarch-64) \
 libindustrial.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

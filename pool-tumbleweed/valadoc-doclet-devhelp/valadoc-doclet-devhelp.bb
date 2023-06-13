@@ -11,6 +11,7 @@ RPM_HASH = "7502b8d83714bdf7e707fb04cd703ed29c10d2d17df8d334182f41ec67d23f177e73
 RPROVIDES:${PN} += "libdoclet.so()(64bit) \
 valadoc-doclet-devhelp \
 valadoc-doclet-devhelp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

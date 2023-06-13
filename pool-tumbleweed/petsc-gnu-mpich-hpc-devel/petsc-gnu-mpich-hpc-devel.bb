@@ -11,6 +11,7 @@ RPM_HASH = "1d61714331c7f3607bc9fca31cbf997282f9d227254cf119ca5ef0b1c20b8773dea5
 
 RPROVIDES:${PN} += "petsc-gnu-mpich-hpc-devel \
 petsc-gnu-mpich-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "petsc_3_18_5-gnu-mpich-hpc-devel"
 
 inherit rpm

@@ -60,6 +60,7 @@ libsunec.so()(64bit) \
 libunpack.so()(64bit) \
 libverify.so()(64bit) \
 libzip.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 jpackage-utils \
 ld-linux-aarch64.so.1()(64bit) \

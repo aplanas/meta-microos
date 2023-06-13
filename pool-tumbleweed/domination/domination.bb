@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(domination.desktop) \
 domination"
+
 RDEPENDS:${PN} += "/bin/sh \
 domination-data \
 jre"

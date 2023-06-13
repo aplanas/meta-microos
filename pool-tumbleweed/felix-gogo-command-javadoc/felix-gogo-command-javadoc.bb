@@ -9,6 +9,7 @@ RPM_HASH = "ddcf680e7f397bbb52788f63343e2770d061259d4de6e7ad4a2f94e9488fae80ab62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-command-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

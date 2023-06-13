@@ -165,6 +165,7 @@ font(:lang=zu) \
 font(cantarell) \
 metainfo() \
 metainfo(org.gnome.cantarell.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

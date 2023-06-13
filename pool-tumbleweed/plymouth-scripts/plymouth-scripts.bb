@@ -10,6 +10,7 @@ RPM_HASH = "6ad222d9170ffa0fdd0fe5a6b24dd1c6baac73f6404fb8adddc4ce1c1edb93872d1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-scripts"
+
 RDEPENDS:${PN} += "/bin/bash \
 awk \
 dracut \

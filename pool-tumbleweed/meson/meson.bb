@@ -21,6 +21,7 @@ rpm_macro(meson) \
 rpm_macro(meson_build) \
 rpm_macro(meson_install) \
 rpm_macro(meson_test)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ninja \
 python(abi) \

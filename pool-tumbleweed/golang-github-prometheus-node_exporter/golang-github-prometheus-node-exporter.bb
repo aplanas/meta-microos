@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "golang-github-prometheus-node_exporter \
 golang-github-prometheus-node_exporter(aarch-64) \
 node_exporter \
 prometheus(node_exporter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

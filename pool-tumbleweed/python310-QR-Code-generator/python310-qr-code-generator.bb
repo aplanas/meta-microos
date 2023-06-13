@@ -14,6 +14,7 @@ python3.10dist(qrcodegen) \
 python310-QR-Code-generator \
 python310-QR-Code-generator(aarch-64) \
 python3dist(qrcodegen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

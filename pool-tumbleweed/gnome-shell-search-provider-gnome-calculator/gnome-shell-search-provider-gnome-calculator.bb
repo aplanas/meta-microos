@@ -10,6 +10,7 @@ RPM_HASH = "83302914555699d5dfd3f087060379173c78b45de143b1df0c07f109771cffb55c96
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-calculator \
 gnome-shell-search-provider-gnome-calculator(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-calculator \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

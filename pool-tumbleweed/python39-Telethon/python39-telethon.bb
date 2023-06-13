@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(telethon) \
 python39-Telethon \
 python3dist(telethon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyaes \
 python39-rsa"

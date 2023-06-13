@@ -11,6 +11,7 @@ RPM_HASH = "445fdc20ac6a5b6fd6dc12350256fa6581f31ec88c37d309231d10ccef84fb83af2f
 RPROVIDES:${PN} += "libgwengui-fox16-79 \
 libgwengui-fox16-79(aarch-64) \
 libgwengui-fox16.so.79()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPM_HASH = "ebfa9f9c90978371624dbe0a65ace2d97426c223701206398de58ad987791cfe1188
 
 RPROVIDES:${PN} += "mined \
 mined(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

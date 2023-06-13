@@ -13,6 +13,7 @@ application(org.gnome.Music.desktop) \
 gnome-music \
 metainfo() \
 metainfo(org.gnome.Music.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1-python3 \
 grilo-plugin-tracker \

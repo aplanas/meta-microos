@@ -13,6 +13,7 @@ RPM_HASH = "08380fea16feff1db848a1252c2fb55bff74b70fb1689d5eb2673683464cb64a88d0
 RPROVIDES:${PN} += "sddm-branding \
 sddm-branding-openSUSE \
 sddm-branding-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
 sddm \

@@ -10,6 +10,7 @@ RPM_HASH = "03e21ebcfc6119fad83386ac29afeca7a86912762858e27bcf275fb7728b7c2df8db
 RPROVIDES:${PN} += "pkgconfig(wimlib) \
 wimlib-devel \
 wimlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwim15 \
 pkgconfig(fuse) \

@@ -16,6 +16,7 @@ RPM_HASH = "dbe85cce9b7216126e8936a7226137591ead1e6e12d9cd8128c7ccbb981c658ce01c
 
 RPROVIDES:${PN} += "lxappearance-obconf \
 lxappearance-obconf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

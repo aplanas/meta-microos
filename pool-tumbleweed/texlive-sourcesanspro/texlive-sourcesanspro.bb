@@ -1492,6 +1492,7 @@ tex(a_zypyw7.enc) \
 tex(sourcesanspro-type1-autoinst.sty) \
 tex(sourcesanspro.sty) \
 texlive-sourcesanspro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

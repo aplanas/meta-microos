@@ -14,6 +14,7 @@ metainfo() \
 metainfo(org.kde.plasma.firewall.metainfo.xml) \
 plasma5-firewall \
 plasma5-firewall(aarch-64)"
+
 RDEPENDS:${PN} += "firewalld \
 kdeclarative-components \
 kirigami2 \

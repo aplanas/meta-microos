@@ -9,6 +9,7 @@ RPM_HASH = "6b408f6379432344c96aa0a9d11983cdbe0a21c941961277dd8783a22f4fe0452d1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyperfine-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

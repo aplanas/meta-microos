@@ -15,6 +15,7 @@ RPM_HASH = "7a3a8d3d73b28e1defaa7c3b2be3ba6226919a61d814b1c7db7b1ab66e818e998338
 RPROVIDES:${PN} += "libbfio-devel \
 libbfio-devel(aarch-64) \
 pkgconfig(libbfio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio1"
 

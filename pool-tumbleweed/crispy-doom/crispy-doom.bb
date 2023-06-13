@@ -23,6 +23,7 @@ metainfo() \
 metainfo(io.github.fabiangreffrath.Doom.metainfo.xml) \
 metainfo(io.github.fabiangreffrath.Heretic.metainfo.xml) \
 metainfo(io.github.fabiangreffrath.Hexen.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

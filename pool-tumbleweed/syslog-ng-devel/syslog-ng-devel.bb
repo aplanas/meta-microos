@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libevtlog-devel \
 pkgconfig(syslog-ng) \
 syslog-ng-devel \
 syslog-ng-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/pkg-config \

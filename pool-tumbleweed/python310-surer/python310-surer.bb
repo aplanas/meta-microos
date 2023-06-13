@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-surer \
 python3.10dist(surer) \
 python310-surer \
 python3dist(surer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

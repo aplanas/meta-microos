@@ -12,6 +12,7 @@ RPM_HASH = "cecfc77746311a93cccc2031945fc952c3f4c8e7ce44f73f9599b78eaba81f4d1763
 
 RPROVIDES:${PN} += "qemu-ksm \
 qemu-ksm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

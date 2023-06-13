@@ -33,6 +33,7 @@ rpm_macro(asterisk_snd_ulaw) \
 rpm_macro(asterisk_snd_wav) \
 rpm_macro(asterisk_sound_package) \
 rpm_macro(asterisk_sounds_dir)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

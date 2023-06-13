@@ -13,6 +13,7 @@ RPM_HASH = "dedd9a22b1ffd8e657e3ff016fc2e81ceef0354a70b01fd219edbaeb6602af6ba495
 RPROVIDES:${PN} += "libfole-devel \
 libfole-devel(aarch-64) \
 pkgconfig(libfole)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfole1"
 

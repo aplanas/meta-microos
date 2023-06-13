@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(noconflict.sty) \
 texlive-noconflict"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

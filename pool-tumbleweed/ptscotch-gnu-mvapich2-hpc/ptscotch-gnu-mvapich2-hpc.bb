@@ -11,6 +11,7 @@ RPM_HASH = "8d8ff7483d6f1c2878c2f0a0fb08d42f8004f6b6ce2986c4d65193598a8378dd4b63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ptscotch-gnu-mvapich2-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 ptscotch_6_1_0-gnu-mvapich2-hpc"
 

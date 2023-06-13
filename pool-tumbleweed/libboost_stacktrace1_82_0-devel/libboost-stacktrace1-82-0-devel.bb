@@ -12,6 +12,7 @@ RPM_HASH = "e1c61e1ea80988b1814f65e3ad1266f6bc52cd2df9d38010d07bd2cd3c47e93fbba6
 RPROVIDES:${PN} += "libboost_stacktrace-devel-impl \
 libboost_stacktrace1_82_0-devel \
 libboost_stacktrace1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_stacktrace1_82_0"
 

@@ -31,6 +31,7 @@ mimehandler(video/x-ms-wmv) \
 mimehandler(video/x-msvideo) \
 mimehandler(video/x-ogm+ogg) \
 mimehandler(video/x-theora+ogg)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-makecirc-doc:en;es) \
 texlive-makecirc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

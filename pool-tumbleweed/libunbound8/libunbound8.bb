@@ -12,6 +12,7 @@ RPM_HASH = "776cd5cd6c4346c69c09af323cba66c6408c97baf0abcc4db4392b6674f1e055e53d
 RPROVIDES:${PN} += "libunbound.so.8()(64bit) \
 libunbound8 \
 libunbound8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

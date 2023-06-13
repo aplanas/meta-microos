@@ -18,6 +18,7 @@ e16(aarch-64) \
 enlight \
 libhack.so()(64bit) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \

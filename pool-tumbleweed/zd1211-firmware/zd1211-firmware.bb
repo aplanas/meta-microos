@@ -19,6 +19,7 @@ firmware(zd1211/zd1211b_uphm) \
 firmware(zd1211/zd1211b_uphr) \
 firmware(zd1211/zd1211b_ur) \
 zd1211-firmware"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

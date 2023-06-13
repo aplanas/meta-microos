@@ -12,6 +12,7 @@ RPM_HASH = "c42702e53eb1dde9f1ec8f07e84bcaec7f8e293950f594ae56965b7f932f8ddc6e4a
 
 RPROVIDES:${PN} += "o2scl-devel \
 o2scl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "armadillo-devel \
 eigen3-devel \
 gcc-c++ \

@@ -11,6 +11,7 @@ RPM_HASH = "d7bfabcfb0f3222c05ed88e0e727e844d63eed343f923b0a2fc9cd24d761dddde05a
 RPROVIDES:${PN} += "khotkeys5 \
 khotkeys5(aarch-64) \
 libkhotkeysprivate.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

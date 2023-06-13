@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-swagger-spec-validator \
 python3.10dist(swagger-spec-validator) \
 python310-swagger-spec-validator \
 python3dist(swagger-spec-validator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-jsonschema \

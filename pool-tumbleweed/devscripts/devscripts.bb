@@ -89,6 +89,7 @@ perl(Devscripts::Utils) \
 perl(Devscripts::Versort) \
 python3.10dist(devscripts) \
 python3dist(devscripts)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

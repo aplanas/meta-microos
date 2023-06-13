@@ -9,6 +9,7 @@ RPM_HASH = "898695bb7344257a288396c93caaf5295d81b4276da9c18d813d80a35e8dce5b724b
 
 RPROVIDES:${PN} += "collectd-plugin-lua \
 collectd-plugin-lua(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

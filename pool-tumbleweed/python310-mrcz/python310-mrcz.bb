@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-mrcz \
 python3.10dist(mrcz) \
 python310-mrcz \
 python3dist(mrcz)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-blosc \
 python310-numpy"

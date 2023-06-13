@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(pathable) \
 python311-dictpath \
 python311-pathable \
 python3dist(pathable)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

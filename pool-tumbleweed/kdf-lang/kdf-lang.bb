@@ -78,6 +78,7 @@ locale(kdf:ug) \
 locale(kdf:uk) \
 locale(kdf:zh_CN) \
 locale(kdf:zh_TW)"
+
 RDEPENDS:${PN} += "kdf"
 
 inherit rpm

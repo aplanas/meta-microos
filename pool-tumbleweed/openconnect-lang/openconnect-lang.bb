@@ -45,6 +45,7 @@ locale(openconnect:zh_CN) \
 locale(openconnect:zh_TW) \
 openconnect-lang \
 openconnect-lang-all"
+
 RDEPENDS:${PN} += "openconnect"
 
 inherit rpm

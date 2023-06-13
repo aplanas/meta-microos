@@ -10,6 +10,7 @@ RPM_HASH = "b73365485f6179e9b6b4920f69d01dbe0b0c8e25ee98e33d1bfe4e200b867e5cc0c8
 RPROVIDES:${PN} += "ghc-devel(glib-0.13.8.2-DQyux8etmkJKUbOUWF524Z) \
 ghc-glib-devel \
 ghc-glib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

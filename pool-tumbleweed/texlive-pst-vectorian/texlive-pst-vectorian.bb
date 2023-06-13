@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(psvectorian.sty) \
 texlive-pst-vectorian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

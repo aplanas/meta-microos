@@ -20,6 +20,7 @@ libmtp.so()(64bit) \
 libusb.so()(64bit) \
 metainfo() \
 metainfo(calibre-gui.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 bzip2 \

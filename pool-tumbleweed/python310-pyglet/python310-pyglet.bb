@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyglet \
 python3.10dist(pyglet) \
 python310-pyglet \
 python3dist(pyglet)"
+
 RDEPENDS:${PN} += "Mesa-dri \
 libxcb-glx0 \
 python(abi) \

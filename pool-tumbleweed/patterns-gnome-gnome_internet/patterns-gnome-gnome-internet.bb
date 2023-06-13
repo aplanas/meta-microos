@@ -15,6 +15,7 @@ pattern-order() \
 patterns-gnome-gnome_internet \
 patterns-gnome-gnome_internet(aarch-64) \
 patterns-openSUSE-gnome_internet"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

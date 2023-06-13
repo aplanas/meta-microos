@@ -17,6 +17,7 @@ kipi-plugins5 \
 libKF5kipiplugins.so.5.9.1()(64bit) \
 metainfo() \
 metainfo(org.kde.kipi_plugins.metainfo.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

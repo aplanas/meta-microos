@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fgruler.sty) \
 texlive-fgruler"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

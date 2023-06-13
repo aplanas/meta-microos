@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(isc-dhcp-leases) \
 python311-isc_dhcp_leases \
 python3dist(isc-dhcp-leases)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

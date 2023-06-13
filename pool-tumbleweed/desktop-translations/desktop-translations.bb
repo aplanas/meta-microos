@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "desktop-translations \
 locale(af;ar;bg;be;bn;bs;ca;cs;cy;da;de;el;en_GB;eo;es;et;fi;fr;gl;gu;he;hi;hr;hu;id;it;ja;ka;kab;km;ko;lo;lt;mk;mr;nb;nl;pa;pl;pt;ro;ru;si;sk;sl;sr;sr@Latn;sv;ta;tr;uk;vi;wa;xh;zh_CN;zh_TW;zu)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

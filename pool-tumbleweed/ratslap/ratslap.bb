@@ -12,6 +12,7 @@ RPM_HASH = "d17aabfd1078c59059f571b4f4ce84c962a315bb459aa82be48a2f68775bca439965
 
 RPROVIDES:${PN} += "ratslap \
 ratslap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

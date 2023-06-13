@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "backintime \
 backintime-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cron \
 dbus-1-python3 \

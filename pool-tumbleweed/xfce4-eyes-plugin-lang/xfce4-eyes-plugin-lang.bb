@@ -64,6 +64,7 @@ locale(xfce4-eyes-plugin:zh_TW) \
 xfce4-eyes-plugin-lang \
 xfce4-eyes-plugin-lang-all \
 xfce4-panel-plugin-eyes-lang"
+
 RDEPENDS:${PN} += "xfce4-eyes-plugin"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-iot-deviceupdate \
 python3.10dist(azure-iot-deviceupdate) \
 python310-azure-iot-deviceupdate \
 python3dist(azure-iot-deviceupdate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-iot-nspkg \

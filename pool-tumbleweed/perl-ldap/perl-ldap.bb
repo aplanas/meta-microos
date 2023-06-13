@@ -67,6 +67,7 @@ perl(Net::LDAP::Util) \
 perl(Net::LDAPI) \
 perl(Net::LDAPS) \
 perl-ldap"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Convert::ASN1)"
 

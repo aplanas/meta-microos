@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lithuanian.ldf) \
 texlive-babel-lithuanian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

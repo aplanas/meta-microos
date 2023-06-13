@@ -10,6 +10,7 @@ RPM_HASH = "f1cce87a6a7ade85a1bf35672605d8986e0cf4fc64ed13d668ce756efc9aa7c3d46b
 RPROVIDES:${PN} += "libfluidsynth.so.3()(64bit) \
 libfluidsynth3 \
 libfluidsynth3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

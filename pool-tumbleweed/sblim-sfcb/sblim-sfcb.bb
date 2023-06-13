@@ -37,6 +37,7 @@ libsfcProfileProvider.so.0()(64bit) \
 libsfcQualifierProvider.so.0()(64bit) \
 sblim-sfcb \
 sblim-sfcb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

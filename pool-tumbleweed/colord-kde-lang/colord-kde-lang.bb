@@ -54,6 +54,7 @@ locale(colord-kde:ug) \
 locale(colord-kde:uk) \
 locale(colord-kde:zh_CN) \
 locale(colord-kde:zh_TW)"
+
 RDEPENDS:${PN} += "colord-kde"
 
 inherit rpm

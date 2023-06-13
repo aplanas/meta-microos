@@ -15,6 +15,7 @@ RPM_HASH = "51fe2a446c99dbe0c9fe06a65341728d0645057efadece8cef99813a316d47aca6c4
 
 RPROVIDES:${PN} += "genius \
 genius(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

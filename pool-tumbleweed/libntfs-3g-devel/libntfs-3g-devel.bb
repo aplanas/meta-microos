@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libntfs-3g-devel \
 libntfs-3g-devel(aarch-64) \
 ntfs-3g-devel \
 pkgconfig(libntfs-3g)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libntfs-3g89"

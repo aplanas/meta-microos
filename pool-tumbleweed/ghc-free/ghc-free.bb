@@ -27,6 +27,7 @@ RPM_HASH = "00a2e050313bb496045ec1bb23a91fe3630784f3e09859983d7c34cb8c15054218f0
 RPROVIDES:${PN} += "ghc-free \
 ghc-free(aarch-64) \
 libHSfree-5.1.10-7AdTZukDGhL7qWMpdopXbC-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

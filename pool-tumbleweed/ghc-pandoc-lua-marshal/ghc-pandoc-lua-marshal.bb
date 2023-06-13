@@ -18,6 +18,7 @@ RPM_HASH = "80147bb6316e23a718f0e026e8ba3339990ed1789330e37e0db8c569f4d249804e5a
 RPROVIDES:${PN} += "ghc-pandoc-lua-marshal \
 ghc-pandoc-lua-marshal(aarch-64) \
 libHSpandoc-lua-marshal-0.2.2-2fE4OFaoKDIH7Xx6aGVXCP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mixlib-log) \
 rubygem(ruby:3.2.0:mixlib-log:3) \
 rubygem(ruby:3.2.0:mixlib-log:3.0) \
 rubygem(ruby:3.2.0:mixlib-log:3.0.9)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

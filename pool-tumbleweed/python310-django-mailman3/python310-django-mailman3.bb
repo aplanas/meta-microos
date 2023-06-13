@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-mailman3 \
 python3.10dist(django-mailman3) \
 python310-django-mailman3 \
 python3dist(django-mailman3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-allauth \

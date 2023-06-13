@@ -17,6 +17,7 @@ application(sax3.desktop) \
 libsax3-yuif.so()(64bit) \
 sax3 \
 sax3(aarch-64)"
+
 RDEPENDS:${PN} += "augeas \
 augeas-lenses \
 ld-linux-aarch64.so.1()(64bit) \

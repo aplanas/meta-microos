@@ -9,6 +9,7 @@ RPM_HASH = "182ed329c248c9f3bb7fb036a602a49308997a5e24fa592447bcba06c9248346614f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-greybird"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-greybird-common"
 

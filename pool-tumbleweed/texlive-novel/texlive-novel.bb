@@ -34,6 +34,7 @@ tex(novel-pdfx.sty) \
 tex(novel-xmppacket.sty) \
 tex(novel.cls) \
 texlive-novel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

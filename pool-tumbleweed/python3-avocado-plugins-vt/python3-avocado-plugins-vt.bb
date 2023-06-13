@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(python3-avocado-plugins-vt) \
 python3-avocado-plugins-vt \
 python3.10dist(avocado-framework-plugin-vt) \
 python3dist(avocado-framework-plugin-vt)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

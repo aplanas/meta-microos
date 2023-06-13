@@ -10,6 +10,7 @@ RPM_HASH = "6105d7af57ef3a9afd481061bcf59e455b0cff1a6f78b2b594729895ea4ad78edb01
 RPROVIDES:${PN} += "xorg-x11-Xnest \
 xorg-x11-server-extra \
 xorg-x11-server-extra(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

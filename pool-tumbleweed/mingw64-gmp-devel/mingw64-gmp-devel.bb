@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mingw64(lib:gmp) \
 mingw64(lib:gmpxx) \
 mingw64-gmp-devel"
+
 RDEPENDS:${PN} += "mingw64-libgmp10 \
 mingw64-libgmpxx"
 

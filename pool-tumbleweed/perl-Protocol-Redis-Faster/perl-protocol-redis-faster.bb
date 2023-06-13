@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Protocol::Redis::Faster) \
 perl-Protocol-Redis-Faster"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Protocol::Redis) \
 perl(parent)"

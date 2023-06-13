@@ -15,6 +15,7 @@ pkgconfig(libboinc_api) \
 pkgconfig(libboinc_crypt) \
 pkgconfig(libboinc_graphics2) \
 pkgconfig(libboinc_opencl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboinc7 \
 openssl-devel \

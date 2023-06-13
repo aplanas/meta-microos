@@ -15,6 +15,7 @@ RPM_HASH = "c2fdd635e35d659ae26882b30025809df5725feea214d2737713d3deba1c80aa2fe9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fillets-ng-data"
+
 RDEPENDS:${PN} += "fillets-ng"
 
 inherit rpm

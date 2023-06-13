@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(compressed-rtf) \
 python39-compressed_rtf \
 python3dist(compressed-rtf)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

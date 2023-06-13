@@ -13,6 +13,7 @@ RPM_HASH = "7c537136688e7babd8ea7ea9e3205962f97105a037742b5ff438222c3a425b0050ef
 
 RPROVIDES:${PN} += "cflow \
 cflow(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

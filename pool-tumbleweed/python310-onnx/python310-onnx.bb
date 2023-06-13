@@ -17,6 +17,7 @@ python310-onnx \
 python310-onnx(aarch-64) \
 python310-onnx-devel \
 python3dist(onnx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libc.so.6(GLIBC_2.33)(64bit) \

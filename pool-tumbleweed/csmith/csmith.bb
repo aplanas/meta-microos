@@ -11,6 +11,7 @@ RPM_HASH = "265370caa740b8010825260580da786cffe80722fbc4afa7842788b060db0ffe6bf6
 
 RPROVIDES:${PN} += "csmith \
 csmith(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

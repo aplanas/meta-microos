@@ -53,6 +53,7 @@ tex(pismo.tex) \
 tex(rusfonts.tex) \
 tex(statya.tex) \
 texlive-lhcyr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

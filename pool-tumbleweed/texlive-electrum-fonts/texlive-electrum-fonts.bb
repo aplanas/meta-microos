@@ -88,6 +88,7 @@ font(:lang=zu) \
 font(electrumadfexp) \
 font(electrumadfexplt) \
 texlive-electrum-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

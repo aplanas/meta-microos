@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(urllib3) \
 python311-urllib3 \
 python3dist(urllib3)"
+
 RDEPENDS:${PN} += "ca-certificates-mozilla \
 python(abi) \
 python311-certifi \

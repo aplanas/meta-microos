@@ -11,6 +11,7 @@ RPM_HASH = "a5806a76c54a6c771d88bb19e35ad224a0deb3fad3c25167c695248a7155c42fc27b
 
 RPROVIDES:${PN} += "joycond \
 joycond(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kmod(hid_nintendo.ko) \
 ld-linux-aarch64.so.1()(64bit) \

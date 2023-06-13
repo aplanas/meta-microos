@@ -16,6 +16,7 @@ perl(Stream::Buffered::Auto) \
 perl(Stream::Buffered::File) \
 perl(Stream::Buffered::PerlIO) \
 perl-Stream-Buffered"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::File)"
 

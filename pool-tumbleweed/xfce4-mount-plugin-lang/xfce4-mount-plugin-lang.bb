@@ -57,6 +57,7 @@ locale(xfce4-mount-plugin:zh_TW) \
 xfce4-mount-plugin-lang \
 xfce4-mount-plugin-lang-all \
 xfce4-panel-plugin-mount-lang"
+
 RDEPENDS:${PN} += "xfce4-mount-plugin"
 
 inherit rpm

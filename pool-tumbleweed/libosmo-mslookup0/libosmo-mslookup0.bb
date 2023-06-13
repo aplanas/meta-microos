@@ -10,6 +10,7 @@ RPM_HASH = "3f6a78a78df8c613d0fd836d40b7acf03265b5cc2f2fe4a73a1afabd09e39ec0a2ec
 RPROVIDES:${PN} += "libosmo-mslookup.so.0()(64bit) \
 libosmo-mslookup0 \
 libosmo-mslookup0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

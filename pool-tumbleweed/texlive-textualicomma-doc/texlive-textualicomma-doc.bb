@@ -9,6 +9,7 @@ RPM_HASH = "198fa427630bf2b87ec06aafe26dac388d145ed7e5624f13192a115724e5ee33cf14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textualicomma-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

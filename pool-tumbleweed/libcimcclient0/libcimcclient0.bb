@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcimcclient.so.0()(64bit) \
 libcimcclient.so.0(CIMCCLIENT_1.0)(64bit) \
 libcimcclient0 \
 libcimcclient0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

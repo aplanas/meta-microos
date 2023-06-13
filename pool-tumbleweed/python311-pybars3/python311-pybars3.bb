@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pybars3) \
 python311-pybars3 \
 python3dist(pybars3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyMeta3"
 

@@ -16,6 +16,7 @@ rpm_macro(hpc_gnu_init) \
 rpm_macro(hpc_gnu_requires) \
 rpm_macro(hpc_gnu_requires_devel) \
 rpm_macro(hpc_setup_gnu)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel"
 
 inherit rpm

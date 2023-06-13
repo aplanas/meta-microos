@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-power-manager-branding-upstream) \
 xfce4-power-manager-branding \
 xfce4-power-manager-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

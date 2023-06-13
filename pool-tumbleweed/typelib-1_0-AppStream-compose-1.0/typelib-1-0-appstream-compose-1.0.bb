@@ -10,6 +10,7 @@ RPM_HASH = "61a7054df368e0db7133d2f93563b437a94e68c7e80e860851d25289d9971a10a4d9
 RPROVIDES:${PN} += "typelib(AppStreamCompose) \
 typelib-1_0-AppStream-compose-1.0 \
 typelib-1_0-AppStream-compose-1.0(aarch-64)"
+
 RDEPENDS:${PN} += "libappstream-compose.so.0()(64bit) \
 typelib(AppStream) \
 typelib(GLib) \

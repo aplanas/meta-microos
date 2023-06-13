@@ -9,6 +9,7 @@ RPM_HASH = "6bbd2081bb3661c724867144d2c2251cf1d3ec9cfffdb41ef474fc5c35ae45929af0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "a2ps-h"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python"
 

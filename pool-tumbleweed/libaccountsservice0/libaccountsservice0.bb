@@ -13,6 +13,7 @@ RPM_HASH = "f652243c4083880b9ed7e18816a3a5b96ca9e9992aaf1fbc37d15e767101b0c287dd
 RPROVIDES:${PN} += "libaccountsservice.so.0()(64bit) \
 libaccountsservice0 \
 libaccountsservice0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 accountsservice \
 ld-linux-aarch64.so.1()(64bit) \

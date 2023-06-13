@@ -18,6 +18,7 @@ metainfo(org.opensuse.yast.LAN.metainfo.xml) \
 metainfo(org.opensuse.yast.Remote.metainfo.xml) \
 yast2-network \
 yast2-network-devel-doc"
+
 RDEPENDS:${PN} += "/bin/rm \
 /usr/bin/perl \
 augeas-lenses \

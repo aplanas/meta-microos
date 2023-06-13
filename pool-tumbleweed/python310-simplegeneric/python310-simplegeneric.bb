@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3-simplegeneric \
 python3.10dist(simplegeneric) \
 python310-simplegeneric \
 python3dist(simplegeneric)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

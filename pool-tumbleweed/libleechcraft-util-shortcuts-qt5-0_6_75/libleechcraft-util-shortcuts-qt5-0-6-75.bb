@@ -11,6 +11,7 @@ RPM_HASH = "9fc5a630c821fca161a080754930025184da15370723a95a7cdb04886ad499d632da
 RPROVIDES:${PN} += "libleechcraft-util-shortcuts-qt5-0_6_75 \
 libleechcraft-util-shortcuts-qt5-0_6_75(aarch-64) \
 libleechcraft-util-shortcuts-qt5.so.0.6.75()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

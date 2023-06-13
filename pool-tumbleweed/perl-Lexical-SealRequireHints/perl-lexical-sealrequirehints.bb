@@ -48,6 +48,7 @@ RPM_HASH = "4c598f05603f7374f39e211b083cfc2613a3d0a4129ea85a5e0c999e5ef2bdae00ae
 RPROVIDES:${PN} += "perl(Lexical::SealRequireHints) \
 perl-Lexical-SealRequireHints \
 perl-Lexical-SealRequireHints(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

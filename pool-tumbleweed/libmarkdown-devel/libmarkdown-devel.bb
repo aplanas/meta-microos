@@ -12,6 +12,7 @@ RPM_HASH = "c3356d96b16d60134b00671cfbbf020b77fe2e49b4031f06b9eb694e7108b084def5
 RPROVIDES:${PN} += "libmarkdown-devel \
 libmarkdown-devel(aarch-64) \
 pkgconfig(libmarkdown)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmarkdown3"
 

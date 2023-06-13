@@ -38,6 +38,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(SQL::SplitStatement) \
 perl(SQL::SplitStatement::Tokenizer) \
 perl-SQL-SplitStatement"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Fast) \

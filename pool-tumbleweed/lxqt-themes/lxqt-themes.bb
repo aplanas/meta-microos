@@ -9,6 +9,7 @@ RPM_HASH = "0c7cb253ae09057a3bce0d555e4c01d4fa22e90679837e308bc6a5afcffb6aa45079
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-themes"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

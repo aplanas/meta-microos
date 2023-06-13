@@ -23,6 +23,7 @@ libast.so.5()(64bit) \
 libcmd.so.1()(64bit) \
 libdll.so.1()(64bit) \
 libshell.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \
 /bin/sh \

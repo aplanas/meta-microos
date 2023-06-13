@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Config::MySQL) \
 perl(Config::MySQL::Reader) \
 perl(Config::MySQL::Writer) \
 perl-Config-MySQL"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::INI::Reader) \
 perl(Config::INI::Writer)"

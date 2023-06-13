@@ -14,6 +14,7 @@ RPM_HASH = "d91f201b777566fed1d67b417b940528caa5bd2c74198d46c3f01b595f3f13c8ea69
 
 RPROVIDES:${PN} += "libratbag-tools \
 libratbag-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -22,6 +22,7 @@ RPM_HASH = "7a6c13020e94f997fe0518cf88f45b4686bef38e1ab6528387f15cd51955f2d28675
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makecookbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

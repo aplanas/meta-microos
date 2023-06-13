@@ -9,6 +9,7 @@ RPM_HASH = "3ef77b6a334460ab8607c4ba42a826eed3b0684eefbd43953b79811c45027b7490a2
 
 RPROVIDES:${PN} += "qt6-wayland-docs-qch \
 qt6-wayland-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

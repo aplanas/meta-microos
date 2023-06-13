@@ -16,6 +16,7 @@ mvn(org.apache.ant:ant-junit) \
 mvn(org.apache.ant:ant-junit4) \
 mvn(org.apache.ant:ant-junit4:pom:) \
 mvn(org.apache.ant:ant-junit:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

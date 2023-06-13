@@ -48,6 +48,7 @@ firmware(qlogic/isp1000.bin) \
 firmware(qlogic/sd7220.fw) \
 kernel-firmware-qlogic \
 qlogic-firmware"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

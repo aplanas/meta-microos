@@ -10,6 +10,7 @@ RPM_HASH = "190196b111739b0b22f9357b840b0de6529203f7118cbbcfc57f2e2abb6416036c62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-diskprediction-local"
+
 RDEPENDS:${PN} += "/bin/sh \
 ceph-mgr \
 python3-numpy \

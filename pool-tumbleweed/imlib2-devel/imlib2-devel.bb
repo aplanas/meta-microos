@@ -10,6 +10,7 @@ RPM_HASH = "15ba6c875389352a6d3c6ff5cc12c002f3fe624780750e2dddf2775a8b6510b5a675
 RPROVIDES:${PN} += "imlib2-devel \
 imlib2-devel(aarch-64) \
 pkgconfig(imlib2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libImlib2-1 \
 xorg-x11-libX11-devel"

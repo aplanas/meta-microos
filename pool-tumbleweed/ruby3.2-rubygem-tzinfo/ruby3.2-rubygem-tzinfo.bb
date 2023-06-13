@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:tzinfo:2) \
 rubygem(ruby:3.2.0:tzinfo:2.0) \
 rubygem(ruby:3.2.0:tzinfo:2.0.5) \
 rubygem(tzinfo)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby:1) \
 timezone"

@@ -19,6 +19,7 @@ pkgconfig(libcrypto) \
 pkgconfig(libssl) \
 pkgconfig(libtls) \
 pkgconfig(openssl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcrypto50 \
 libssl53 \

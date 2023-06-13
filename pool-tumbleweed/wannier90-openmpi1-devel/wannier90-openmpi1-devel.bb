@@ -10,6 +10,7 @@ RPM_HASH = "12d007415412b7306684b2d5d8167bb7327d4b9c7db38be15f723e540624ecb37a6e
 RPROVIDES:${PN} += "libwannier.so()(64bit) \
 wannier90-openmpi1-devel \
 wannier90-openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblas.so.3()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgfortran.so.5()(64bit) \

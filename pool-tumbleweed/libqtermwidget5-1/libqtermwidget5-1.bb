@@ -17,6 +17,7 @@ RPM_HASH = "bcfe3748d5e5206d6659f30cfff9dda48a0195957b31326e17b05a2c4edce19a32e4
 RPROVIDES:${PN} += "libqtermwidget5-1 \
 libqtermwidget5-1(aarch-64) \
 libqtermwidget5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

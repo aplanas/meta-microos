@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(liftarm.sty) \
 texlive-liftarm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

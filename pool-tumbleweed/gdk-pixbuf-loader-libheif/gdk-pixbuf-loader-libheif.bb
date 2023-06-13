@@ -12,6 +12,7 @@ RPM_HASH = "ec28219418c43995b134f61041584a7e0a5b0ad520cbcd0ad49ae4678d3181af1e3a
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libheif \
 gdk-pixbuf-loader-libheif(aarch-64) \
 libpixbufloader-heif.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

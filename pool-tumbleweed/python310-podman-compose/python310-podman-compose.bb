@@ -22,6 +22,7 @@ python3-podman-compose \
 python3.10dist(podman-compose) \
 python310-podman-compose \
 python3dist(podman-compose)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 podman \

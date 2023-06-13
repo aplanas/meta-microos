@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xarray-einstats \
 python3.10dist(xarray-einstats) \
 python310-xarray-einstats \
 python3dist(xarray-einstats)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy \

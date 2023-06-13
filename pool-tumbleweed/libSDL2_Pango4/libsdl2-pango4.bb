@@ -13,6 +13,7 @@ RPM_HASH = "b481e538d22b085f9701e03648dc692611e44119904ba96f6fe51de7c83b81d8b949
 RPROVIDES:${PN} += "libSDL2_Pango.so.4()(64bit) \
 libSDL2_Pango4 \
 libSDL2_Pango4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

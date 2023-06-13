@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(libtins) \
 libtins-devel \
 libtins-devel(aarch-64) \
 pkgconfig(libtins)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpcap-devel \
 libtins4_4"

@@ -12,6 +12,7 @@ python3.10dist(pyuv) \
 python310-pyuv \
 python310-pyuv(aarch-64) \
 python3dist(pyuv)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "1b932216c4fba81c96ada668395dc4a1e8be562f6570b90b47d1471983899c9f41c1
 
 RPROVIDES:${PN} += "qt6-websockets-docs-html \
 qt6-websockets-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

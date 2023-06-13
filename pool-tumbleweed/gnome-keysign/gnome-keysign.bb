@@ -19,6 +19,7 @@ metainfo() \
 metainfo(org.gnome.Keysign.appdata.xml) \
 python3.10dist(gnome-keysign) \
 python3dist(gnome-keysign)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gstreamer1(element-zbar)()(64bit) \
 python(abi) \

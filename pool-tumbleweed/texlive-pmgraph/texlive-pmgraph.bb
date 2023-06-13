@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pmgraph.sty) \
 texlive-pmgraph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

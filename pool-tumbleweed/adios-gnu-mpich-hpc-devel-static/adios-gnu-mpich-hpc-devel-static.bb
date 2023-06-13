@@ -11,6 +11,7 @@ RPM_HASH = "d8c3bf27cc4dccbae5b1aa7fc386d6c99251f68de97464d42d33f7e29e4ddd257836
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adios-gnu-mpich-hpc-devel-static"
+
 RDEPENDS:${PN} += "/bin/sh \
 adios_1_13_1-gnu-mpich-hpc-devel-static"
 

@@ -15,6 +15,7 @@ RPM_HASH = "6cb5375edeea99053f5f4c9f08342fef9e42de1e19a4d57922fb59e087c02e9f18c7
 RPROVIDES:${PN} += "perl(JSON::XS) \
 perl-JSON-XS \
 perl-JSON-XS(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

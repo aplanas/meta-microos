@@ -13,6 +13,7 @@ RPM_HASH = "f206187d6a05e18359ba049b81c865ce94182fa76335a3019b2c3e1d21911a52afc9
 RPROVIDES:${PN} += "libmuffin.so.0()(64bit) \
 libmuffin0 \
 libmuffin0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

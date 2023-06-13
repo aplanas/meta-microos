@@ -16,6 +16,7 @@ config(mutt) \
 mimehandler(x-scheme-handler/mailto) \
 mutt \
 mutt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/cat \
 /usr/bin/grep \

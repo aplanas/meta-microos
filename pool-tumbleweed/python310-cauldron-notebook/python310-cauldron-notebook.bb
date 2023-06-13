@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-cauldron-notebook \
 python3.10dist(cauldron-notebook) \
 python310-cauldron-notebook \
 python3dist(cauldron-notebook)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

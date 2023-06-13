@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-compiler-devel \
 pkgconfig(blueprint-compiler)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 blueprint-compiler"
 

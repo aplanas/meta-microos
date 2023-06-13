@@ -9,6 +9,7 @@ RPM_HASH = "eadcfe5f12c256f056368dc9874a3e6d84b5d7fc846e8341593be27ad70d489aaf20
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cinzel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -560,6 +560,7 @@ tex(wncy-kuriermi.tfm) \
 tex(wncy-kurierr.tfm) \
 tex(wncy-kurierri.tfm) \
 texlive-kurier"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

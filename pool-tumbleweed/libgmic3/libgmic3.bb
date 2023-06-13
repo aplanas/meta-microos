@@ -11,6 +11,7 @@ RPM_HASH = "aac8fb1983e0cdec606fd3a99725aff0747af6453b4dc6c3a9d907e599baa86cccce
 RPROVIDES:${PN} += "libgmic.so.3()(64bit) \
 libgmic3 \
 libgmic3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

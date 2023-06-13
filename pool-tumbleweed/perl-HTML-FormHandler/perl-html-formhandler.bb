@@ -192,6 +192,7 @@ perl(HTML::FormHandler::Widget::Wrapper::Table) \
 perl(HTML::FormHandler::Widget::Wrapper::TableInline) \
 perl(HTML::FormHandler::Wizard) \
 perl-HTML-FormHandler"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(Crypt::Blowfish) \

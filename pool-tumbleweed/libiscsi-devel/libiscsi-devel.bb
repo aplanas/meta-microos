@@ -10,6 +10,7 @@ RPM_HASH = "caf9e8e736f12ee95700a12582af13b927a79eaaf3c1cb53f9773a6ce73a511a184d
 RPROVIDES:${PN} += "libiscsi-devel \
 libiscsi-devel(aarch-64) \
 pkgconfig(libiscsi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiscsi9"
 

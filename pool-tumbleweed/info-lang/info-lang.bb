@@ -41,6 +41,7 @@ locale(info:uk) \
 locale(info:vi) \
 locale(info:zh_CN) \
 locale(info:zh_TW)"
+
 RDEPENDS:${PN} += "info"
 
 inherit rpm

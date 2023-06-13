@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:fluentd) \
 rubygem(ruby:3.2.0:fluentd:1) \
 rubygem(ruby:3.2.0:fluentd:1.15) \
 rubygem(ruby:3.2.0:fluentd:1.15.3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/ruby.ruby3.2 \

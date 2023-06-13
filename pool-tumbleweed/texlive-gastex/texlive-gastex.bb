@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gastex.sty) \
 texlive-gastex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

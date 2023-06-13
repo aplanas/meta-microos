@@ -10,6 +10,7 @@ RPM_HASH = "1747f815c3640504fa112d150d69f2b848cd3bddc7d7dd5b13b4b1c35efe02fe692f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 tftp"
 

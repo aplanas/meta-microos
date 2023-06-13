@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-alertsmanagement \
 python3.10dist(azure-mgmt-alertsmanagement) \
 python310-azure-mgmt-alertsmanagement \
 python3dist(azure-mgmt-alertsmanagement)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

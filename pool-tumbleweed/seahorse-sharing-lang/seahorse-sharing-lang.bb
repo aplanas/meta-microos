@@ -22,6 +22,7 @@ locale(seahorse-sharing:sr) \
 locale(seahorse-sharing:sr@latin) \
 seahorse-sharing-lang \
 seahorse-sharing-lang-all"
+
 RDEPENDS:${PN} += "seahorse-sharing"
 
 inherit rpm

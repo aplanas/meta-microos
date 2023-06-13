@@ -10,6 +10,7 @@ RPM_HASH = "4bcc5d4ae3c8cc6413fa96afac41b99ddd58d8947a01445a3674329daae744632bc5
 RPROVIDES:${PN} += "ghc-edit-distance-prof \
 ghc-edit-distance-prof(aarch-64) \
 ghc-prof(edit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu)"
+
 RDEPENDS:${PN} += "ghc-edit-distance-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

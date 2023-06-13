@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "fcitx-qt6 \
 fcitx5-qt6 \
 fcitx5-qt6(aarch-64) \
 libfcitx5platforminputcontextplugin.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFcitx5Qt6DBusAddons.so.1()(64bit) \

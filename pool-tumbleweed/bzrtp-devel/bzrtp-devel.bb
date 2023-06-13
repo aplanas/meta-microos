@@ -12,6 +12,7 @@ RPM_HASH = "80a96c03229230f39182ef65bb60d8ecc87ed3195801b49187150ce70a8b6d81f99b
 RPROVIDES:${PN} += "bzrtp-devel \
 bzrtp-devel(aarch-64) \
 pkgconfig(libbzrtp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbzrtp0"
 

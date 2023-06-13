@@ -27,6 +27,7 @@ perl(Class::MethodMaker::hash) \
 perl(Class::MethodMaker::scalar) \
 perl-Class-MethodMaker \
 perl-Class-MethodMaker(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

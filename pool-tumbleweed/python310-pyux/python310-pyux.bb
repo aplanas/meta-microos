@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyux \
 python3.10dist(pyux) \
 python310-pyux \
 python3dist(pyux)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

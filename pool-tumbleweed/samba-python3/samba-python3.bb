@@ -10,6 +10,7 @@ RPM_HASH = "1c6f8b9506f4248830cae48a5c9c58c39956ae66fce0570542052a16a77149d71ffb
 
 RPROVIDES:${PN} += "samba-python3 \
 samba-python3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMESSAGING-SEND-samba4.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "decd6f378f0d9a6ec5e3a07f1adf248ed5e5d71f0e9eb424f1cf3c1837e9cc98f2eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-test"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dask-complete"
 

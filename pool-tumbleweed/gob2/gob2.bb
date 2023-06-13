@@ -11,6 +11,7 @@ RPM_HASH = "92827477a535d01e176c0511b46b5e930e5efb89f382f22da0e6016ec8a4f1733ef7
 
 RPROVIDES:${PN} += "gob2 \
 gob2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

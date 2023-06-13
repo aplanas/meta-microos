@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tram.sty) \
 texlive-tram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

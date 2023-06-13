@@ -9,6 +9,7 @@ RPM_HASH = "7ab8b3ed6c4b38e312278de43d4ee10432aa6d4dcf75009f61a256929444729a438f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haddock-library-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

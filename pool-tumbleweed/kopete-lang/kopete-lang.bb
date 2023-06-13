@@ -83,6 +83,7 @@ locale(kopete:wa) \
 locale(kopete:zh_CN) \
 locale(kopete:zh_HK) \
 locale(kopete:zh_TW)"
+
 RDEPENDS:${PN} += "kopete"
 
 inherit rpm

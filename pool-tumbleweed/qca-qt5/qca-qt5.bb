@@ -20,6 +20,7 @@ libqca-ossl.so()(64bit) \
 libqca-softstore.so()(64bit) \
 qca-qt5 \
 qca-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "gpg2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

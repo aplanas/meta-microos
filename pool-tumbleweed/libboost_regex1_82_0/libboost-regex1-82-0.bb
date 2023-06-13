@@ -10,6 +10,7 @@ RPM_HASH = "f0ebe9c4c9b96967915a131ff4f1c3007b18c02dc32a975511c688a110a2208f52de
 RPROVIDES:${PN} += "libboost_regex.so.1.82.0()(64bit) \
 libboost_regex1_82_0 \
 libboost_regex1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

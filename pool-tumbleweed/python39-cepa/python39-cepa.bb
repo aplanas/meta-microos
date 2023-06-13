@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(cepa) \
 python39-cepa \
 python39-stem \
 python3dist(cepa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

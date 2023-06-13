@@ -15,6 +15,7 @@ RPM_HASH = "5f7247fac6aef026c65173759c4aa3886de346d3b9a85565632d5b561fd1aac44315
 
 RPROVIDES:${PN} += "soci-sqlite3-devel \
 soci-sqlite3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoci_sqlite3-4_0 \
 pkgconfig(sqlite3) \
 soci-devel"

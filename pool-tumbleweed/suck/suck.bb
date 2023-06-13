@@ -11,6 +11,7 @@ RPM_HASH = "b91b13aededc15f0b11f61c705e36692f071d2660d3636ae979ada77cd277c38ad1c
 
 RPROVIDES:${PN} += "suck \
 suck(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

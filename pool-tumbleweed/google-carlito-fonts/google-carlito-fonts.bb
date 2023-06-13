@@ -13,6 +13,7 @@ RPM_HASH = "04301c36b5f76621a45d102a7be4515e17e12c775decd5cf9af285cd5645fb10fd94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-carlito-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

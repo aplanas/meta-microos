@@ -17,6 +17,7 @@ perl(XML::SAX::ExpatXS::Encoding) \
 perl(XML::SAX::ExpatXS::Preload) \
 perl-XML-SAX-ExpatXS \
 perl-XML-SAX-ExpatXS(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 expat \
 ld-linux-aarch64.so.1()(64bit) \

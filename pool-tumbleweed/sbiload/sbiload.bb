@@ -10,6 +10,7 @@ RPM_HASH = "510f565bcbca2d7447739fea6c1ec3e88482e55eb3eb8829256dd20e92c5c580e32a
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/sbiload \
 sbiload \
 sbiload(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

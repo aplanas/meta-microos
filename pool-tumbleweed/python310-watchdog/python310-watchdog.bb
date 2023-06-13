@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-watchdog \
 python3.10dist(watchdog) \
 python310-watchdog \
 python3dist(watchdog)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

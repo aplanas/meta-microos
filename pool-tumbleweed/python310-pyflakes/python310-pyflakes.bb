@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyflakes \
 python3.10dist(pyflakes) \
 python310-pyflakes \
 python3dist(pyflakes)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

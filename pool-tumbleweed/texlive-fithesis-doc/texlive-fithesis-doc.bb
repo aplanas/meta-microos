@@ -9,6 +9,7 @@ RPM_HASH = "585f5a019569b181ffc82645bf6e423b25ed5f487eee80b61729e3acf7e923cb9c8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fithesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

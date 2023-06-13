@@ -11,6 +11,7 @@ RPM_HASH = "0a243a8e59eec18bdd8c4a647c2e6e8e05be07860437fda7552d726dcdace53021b5
 RPROVIDES:${PN} += "bcunit-devel \
 bcunit-devel(aarch-64) \
 pkgconfig(bcunit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbcunit1 \
 ncurses-devel"

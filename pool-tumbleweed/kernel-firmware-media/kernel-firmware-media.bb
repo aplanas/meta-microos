@@ -82,6 +82,7 @@ firmware(vicam/firmware.fw) \
 firmware(vpu_d.bin) \
 firmware(vpu_p.bin) \
 kernel-firmware-media"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

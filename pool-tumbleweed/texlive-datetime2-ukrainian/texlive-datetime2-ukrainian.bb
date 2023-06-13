@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(datetime2-ukrainian-ascii.ldf) \
 tex(datetime2-ukrainian-utf8.ldf) \
 tex(datetime2-ukrainian.ldf) \
 texlive-datetime2-ukrainian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

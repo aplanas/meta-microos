@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pytest-arraydiff \
 python3.10dist(pytest-arraydiff) \
 python310-pytest-arraydiff \
 python3dist(pytest-arraydiff)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-pytest"

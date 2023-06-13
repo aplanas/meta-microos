@@ -22,6 +22,7 @@ RPM_HASH = "7e02ca828c17f5abc01542865e26364365869557fc53f68f5c691cd2aee63fc8b71a
 
 RPROVIDES:${PN} += "gri \
 gri(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

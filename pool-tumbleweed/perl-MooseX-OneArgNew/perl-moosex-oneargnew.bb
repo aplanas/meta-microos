@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::OneArgNew) \
 perl-MooseX-OneArgNew"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose::Util::TypeConstraints) \
 perl(MooseX::Role::Parameterized) \

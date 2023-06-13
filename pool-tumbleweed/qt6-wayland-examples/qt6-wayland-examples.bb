@@ -10,6 +10,7 @@ RPM_HASH = "b3ae642c889fe2349dc0464976ca071dee97dfa0587fd22861ee9360f3edb7a17cfc
 RPROVIDES:${PN} += "libexampleshellplugin.so()(64bit) \
 qt6-wayland-examples \
 qt6-wayland-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

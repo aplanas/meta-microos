@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-rebulk \
 python3.10dist(rebulk) \
 python310-rebulk \
 python3dist(rebulk)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "7a2b060b50911e8e2ae961360b0050f765bd0b44f352316442431d91a8447f45bde1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icewm-themes"
+
 RDEPENDS:${PN} += "icewm"
 
 inherit rpm

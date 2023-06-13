@@ -26,6 +26,7 @@ RPM_HASH = "9f15ea247ef49af305312f7bf862022d78463950ced60681667f405b6b4fdde8da50
 RPROVIDES:${PN} += "ghc-microlens-ghc \
 ghc-microlens-ghc(aarch-64) \
 libHSmicrolens-ghc-0.4.14.1-4Q8SZXKkgj872LFERorIGB-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

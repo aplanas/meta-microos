@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgflibraryeasing.code.tex) \
 texlive-easing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

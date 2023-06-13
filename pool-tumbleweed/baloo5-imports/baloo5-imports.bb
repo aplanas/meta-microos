@@ -14,6 +14,7 @@ libbaloomonitorplugin.so()(64bit) \
 libbalooplugin.so()(64bit) \
 qt5qmlimport(org.kde.baloo.0) \
 qt5qmlimport(org.kde.baloo.experimental.0)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Baloo.so.5()(64bit) \

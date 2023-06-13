@@ -10,6 +10,7 @@ RPM_HASH = "5b41ba8e5795dbacab0f5757a582362f6e1f7e43d8ad11237c123dd1b0a5b026afa4
 
 RPROVIDES:${PN} += "libzio-devel \
 libzio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzio1"
 
 inherit rpm

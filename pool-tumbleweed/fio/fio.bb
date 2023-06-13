@@ -16,6 +16,7 @@ RPM_HASH = "334b87324959c3b8ac491243126afcc6fb58de802da6a5f1d9769fff1b60ddc6ec56
 
 RPROVIDES:${PN} += "fio \
 fio(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

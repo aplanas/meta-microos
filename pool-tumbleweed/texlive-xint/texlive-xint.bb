@@ -42,6 +42,7 @@ tex(xintseries.sty) \
 tex(xinttools.sty) \
 tex(xinttrig.sty) \
 texlive-xint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fsspec \
 python3.10dist(fsspec) \
 python310-fsspec \
 python3dist(fsspec)"
+
 RDEPENDS:${PN} += "fuse \
 python(abi)"
 

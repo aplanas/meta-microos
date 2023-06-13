@@ -43,6 +43,7 @@ locale(kclock:tr) \
 locale(kclock:uk) \
 locale(kclock:zh_CN) \
 locale(kclock:zh_TW)"
+
 RDEPENDS:${PN} += "kclock"
 
 inherit rpm

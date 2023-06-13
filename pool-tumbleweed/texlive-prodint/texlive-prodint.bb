@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(prodint.map) \
 tex(prodint.sty) \
 tex(prodint.tfm) \
 texlive-prodint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

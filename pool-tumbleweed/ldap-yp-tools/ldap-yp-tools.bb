@@ -9,6 +9,7 @@ RPM_HASH = "963d2d167b3c1a1fde159414b1f1441e212a2d15e104b427e133ee4ba66cbcbab245
 
 RPROVIDES:${PN} += "ldap-yp-tools \
 ldap-yp-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

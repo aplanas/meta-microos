@@ -9,6 +9,7 @@ RPM_HASH = "f5887ab86883eb7abdc97970b517b1334e991ed3eddbd47dbdb0b8dea36a4210d2c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shobhika-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

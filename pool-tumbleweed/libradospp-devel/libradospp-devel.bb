@@ -10,6 +10,7 @@ RPM_HASH = "a124a2172ed254c3efa820d0b282ca2c7f6e83cffee8a560608fd60882d952ab8cdb
 
 RPROVIDES:${PN} += "libradospp-devel \
 libradospp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librados-devel \
 librados2"
 

@@ -9,6 +9,7 @@ RPM_HASH = "7583d344a28d1bb0d5f5951dc0bd8aabfa0ce6d9776cdf4a74f351b7bc13a4a996eb
 
 RPROVIDES:${PN} += "telepathy-idle \
 telepathy-idle(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

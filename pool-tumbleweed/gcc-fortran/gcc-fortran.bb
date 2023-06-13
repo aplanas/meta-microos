@@ -9,6 +9,7 @@ RPM_HASH = "fabe9ff9d709f27d043c74aaf0d6cad37bfd8940cb142f7097411e18020157c6efd4
 
 RPROVIDES:${PN} += "gcc-fortran \
 gcc-fortran(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 gcc13-fortran"
 

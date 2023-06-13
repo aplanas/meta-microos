@@ -12,6 +12,7 @@ RPM_HASH = "753264f2b49a9a656156dfef5f10dde178205c23e386b48b5ee5d5489e052fd113f4
 
 RPROVIDES:${PN} += "genius-devel \
 genius-devel(aarch-64)"
+
 RDEPENDS:${PN} += "genius"
 
 inherit rpm

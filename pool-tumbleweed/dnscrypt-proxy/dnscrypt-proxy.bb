@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(dnscrypt-proxy) \
 dnscrypt \
 dnscrypt-proxy \
 dnscrypt-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 bash \

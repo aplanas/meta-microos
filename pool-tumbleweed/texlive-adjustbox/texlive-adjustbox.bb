@@ -28,6 +28,7 @@ tex(tc-pgf.def) \
 tex(tc-xetex.def) \
 tex(trimclip.sty) \
 texlive-adjustbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

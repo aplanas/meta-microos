@@ -10,6 +10,7 @@ RPM_HASH = "62b408fb231deb4af2d4833715083978ae4c886f73796f3ab8979a52b5ac225b8879
 
 RPROVIDES:${PN} += "libdwarves-devel \
 libdwarves-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdwarves1"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "55c932582edd7a42d2d173b9dbf2f07ec72bfc89de33b39adaf16769ff76741f4bb8
 
 RPROVIDES:${PN} += "nfs-client-provisioner \
 nfs-client-provisioner(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

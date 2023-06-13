@@ -18,6 +18,7 @@ libminst.so()(64bit) \
 libmtrace.so()(64bit) \
 libversionCheck.so()(64bit) \
 libwaiters.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-1_8_0-openj9 \
 ld-linux-aarch64.so.1()(64bit) \

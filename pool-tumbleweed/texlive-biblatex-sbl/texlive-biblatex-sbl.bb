@@ -22,6 +22,7 @@ tex(sbl.bbx) \
 tex(sbl.cbx) \
 tex(spanish-sbl.lbx) \
 texlive-biblatex-sbl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

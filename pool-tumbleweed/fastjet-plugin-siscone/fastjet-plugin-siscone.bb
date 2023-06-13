@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "fastjet-plugin-siscone \
 fastjet-plugin-siscone(aarch-64) \
 libsiscone.so.0()(64bit) \
 libsiscone_spherical.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

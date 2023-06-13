@@ -27,6 +27,7 @@ perl(Perl6::Junction::Base) \
 perl(Perl6::Junction::None) \
 perl(Perl6::Junction::One) \
 perl-Perl6-Junction"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

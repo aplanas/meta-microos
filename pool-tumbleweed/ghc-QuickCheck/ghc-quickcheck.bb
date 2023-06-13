@@ -32,6 +32,7 @@ RPM_HASH = "3751946922f20b519093c11c4b2dab85dc4f10432589bba8bbea84c8f1111c98a0ac
 RPROVIDES:${PN} += "ghc-QuickCheck \
 ghc-QuickCheck(aarch-64) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

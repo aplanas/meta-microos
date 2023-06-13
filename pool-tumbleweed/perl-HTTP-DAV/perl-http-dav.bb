@@ -20,6 +20,7 @@ perl(HTTP::DAV::Response) \
 perl(HTTP::DAV::UserAgent) \
 perl(HTTP::DAV::Utils) \
 perl-HTTP-DAV"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(LWP) \

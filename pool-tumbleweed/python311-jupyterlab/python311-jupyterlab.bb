@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyterlab) \
 python311-jupyter_jupyterlab \
 python311-jupyterlab \
 python3dist(jupyterlab)"
+
 RDEPENDS:${PN} += "(python311-jupyter-server-ydoc >= 0.8 with python311-jupyter-server-ydoc < 0.9) \
 (python311-jupyter-ydoc >= 0.2.3 with python311-jupyter-ydoc < 0.3) \
 (python311-jupyter_server >= 1.16 with python311-jupyter_server < 3) \

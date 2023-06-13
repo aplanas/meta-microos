@@ -9,6 +9,7 @@ RPM_HASH = "0a5dd011d2bc5c8ac44e2bb39e9630b9b85f4b74d39deaf0ce86c0b53d15b7043b63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flacards-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

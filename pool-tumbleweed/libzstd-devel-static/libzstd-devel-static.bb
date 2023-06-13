@@ -12,6 +12,7 @@ RPM_HASH = "11149e898c8072adb6894414857a97bf484289f376adb0b12fec0ca34b5140c4a690
 
 RPROVIDES:${PN} += "libzstd-devel-static \
 libzstd-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libzstd-devel"
 
 inherit rpm

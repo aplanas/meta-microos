@@ -83,6 +83,7 @@ tex(ectiup2986.vf) \
 tex(ectiup3583.tfm) \
 tex(ectiup3583.vf) \
 texlive-cmtiup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

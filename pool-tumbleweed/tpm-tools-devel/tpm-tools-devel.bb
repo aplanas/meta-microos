@@ -17,6 +17,7 @@ RPM_HASH = "8f164fd5bbc857500824326c13b1a0c57a4fd55caf587fc2b85d77bde3903e7e9c79
 
 RPROVIDES:${PN} += "tpm-tools-devel \
 tpm-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtpm_unseal1"
 
 inherit rpm

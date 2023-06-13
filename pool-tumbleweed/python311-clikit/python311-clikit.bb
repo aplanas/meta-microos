@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(clikit) \
 python311-clikit \
 python3dist(clikit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-crashtest \
 python311-pastel \

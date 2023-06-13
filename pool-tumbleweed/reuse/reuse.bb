@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.10dist(reuse) \
 python3dist(reuse) \
 reuse \
 reuse(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 python3 \

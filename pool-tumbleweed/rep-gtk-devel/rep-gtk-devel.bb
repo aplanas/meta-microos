@@ -12,6 +12,7 @@ RPM_HASH = "d7f8da87fac4d77ae97582977f38843d470506906852bf762c37c97960be487b30fb
 RPROVIDES:${PN} += "pkgconfig(rep-gtk) \
 rep-gtk-devel \
 rep-gtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gdk-pixbuf-2.0) \
 pkgconfig(gtk+-2.0) \

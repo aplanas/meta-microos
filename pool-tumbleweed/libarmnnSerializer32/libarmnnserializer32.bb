@@ -16,6 +16,7 @@ RPM_HASH = "c972e5bd12eeaa9a6457522dd1d8cbf70c8eb59dfffc121e3059c68e59bcb507d22f
 RPROVIDES:${PN} += "libarmnnSerializer.so.32()(64bit) \
 libarmnnSerializer32 \
 libarmnnSerializer32(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

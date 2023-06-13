@@ -12,6 +12,7 @@ RPM_HASH = "41097c20c1d6b4c13ff174027704ea679637d2952a621c4814f3cd4c3059b517df00
 
 RPROVIDES:${PN} += "fbi \
 fbi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghostscript-library \
 libc.so.6(GLIBC_2.34)(64bit) \

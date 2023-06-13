@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-qt-documentation) \
 python311-sphinx-qt-documentation \
 python3dist(sphinx-qt-documentation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx"
 

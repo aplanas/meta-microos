@@ -13,6 +13,7 @@ RPM_HASH = "c37c64c33e0f6ac71393111e9604a01c81bd5195dff92a2161ce90131cbc7964c04f
 RPROVIDES:${PN} += "libcdata-devel \
 libcdata-devel(aarch-64) \
 pkgconfig(libcdata)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdata1"
 

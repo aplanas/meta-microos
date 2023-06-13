@@ -18,6 +18,7 @@ libicuio.so.73()(64bit) \
 libicutest.so.73()(64bit) \
 libicutu.so.73()(64bit) \
 libicuuc.so.73()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

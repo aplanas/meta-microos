@@ -12,6 +12,7 @@ RPM_HASH = "795a0cd68befc1b39dcb36a2fbd1137b3d58f0a9107317940a54b868eafc4f9c604f
 RPROVIDES:${PN} += "libmgl-mpi.so.8()(64bit) \
 libmgl-mpi8 \
 libmgl-mpi8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

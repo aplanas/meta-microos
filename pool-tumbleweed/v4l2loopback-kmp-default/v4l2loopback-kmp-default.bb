@@ -16,6 +16,7 @@ v4l2loopback-kmp \
 v4l2loopback-kmp-default \
 v4l2loopback-kmp-default(aarch-64) \
 v4l2loopback-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

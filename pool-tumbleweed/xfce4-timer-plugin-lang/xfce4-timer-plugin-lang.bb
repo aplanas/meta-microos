@@ -57,6 +57,7 @@ locale(xfce4-timer-plugin:zh_TW) \
 xfce4-panel-plugin-timer-lang \
 xfce4-timer-plugin-lang \
 xfce4-timer-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-timer-plugin"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "b91a27cade85714c6d46fcac72ba90c6018925fc6fca005c421b8584a742a52525a6
 RPROVIDES:${PN} += "libsox.so.3()(64bit) \
 libsox3 \
 libsox3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "librest-devel \
 librest-devel(aarch-64) \
 pkgconfig(rest-1.0) \
 pkgconfig(rest-extras-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librest-1_0-0 \
 pkgconfig(glib-2.0) \

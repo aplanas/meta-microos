@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-gunicorn \
 python3.10dist(gunicorn) \
 python310-gunicorn \
 python3dist(gunicorn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

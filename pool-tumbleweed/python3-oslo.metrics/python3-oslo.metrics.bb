@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.metrics \
 python3.10dist(oslo.metrics) \
 python3dist(oslo.metrics)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-oslo.config \

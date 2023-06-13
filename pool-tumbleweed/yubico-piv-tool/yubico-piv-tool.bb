@@ -11,6 +11,7 @@ RPM_HASH = "4bcf8d51fcdd587236eb76583dbd7cef72de954a9b501b4cb99b5b7baf068e9e9d19
 
 RPROVIDES:${PN} += "yubico-piv-tool \
 yubico-piv-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "5af6c163395ec2becafa833ff9aa7f61b13fbc5ae4a386785b074ce709ae703cb0f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-noto-emoji"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

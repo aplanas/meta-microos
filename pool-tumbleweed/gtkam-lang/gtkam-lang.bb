@@ -37,6 +37,7 @@ locale(gtkam:sv) \
 locale(gtkam:uk) \
 locale(gtkam:vi) \
 locale(gtkam:zh_CN)"
+
 RDEPENDS:${PN} += "gtkam"
 
 inherit rpm

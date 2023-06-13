@@ -23,6 +23,7 @@ perl(GD::Graph::pie) \
 perl(GD::Graph::points) \
 perl(GD::Graph::utils) \
 perl-GDGraph"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(GD) \
 perl(GD::Text)"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(nlohmann_json) \
 nlohmann_json-devel \
 nlohmann_json-devel(aarch-64) \
 pkgconfig(nlohmann_json)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstdc++-devel"
 

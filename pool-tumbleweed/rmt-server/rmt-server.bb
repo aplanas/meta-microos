@@ -74,6 +74,7 @@ bundled(rubygem(zeitwerk)) \
 config(rmt-server) \
 rmt-server \
 rmt-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

@@ -10,6 +10,7 @@ RPM_HASH = "fa2b3af2cfff504ac8dad9eae43391261ca9ff873841f373fbe8e7fca114e1140a87
 RPROVIDES:${PN} += "cmake(Netgen) \
 netgen-devel \
 netgen-devel(aarch-64)"
+
 RDEPENDS:${PN} += "netgen \
 netgen-libs \
 occt-devel"

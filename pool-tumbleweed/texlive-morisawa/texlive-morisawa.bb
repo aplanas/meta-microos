@@ -54,6 +54,7 @@ tex(morisawa5.map) \
 tex(ryumin-l-v.tfm) \
 tex(ryumin-l.tfm) \
 texlive-morisawa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

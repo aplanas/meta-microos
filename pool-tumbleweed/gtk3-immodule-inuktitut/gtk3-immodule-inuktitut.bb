@@ -14,6 +14,7 @@ RPM_HASH = "db0340a7b11543f12498f806a780dd046735dc9710a9b0247b11160191200980c391
 RPROVIDES:${PN} += "gtk3-immodule-inuktitut \
 gtk3-immodule-inuktitut(aarch-64) \
 locale(gtk3:iu)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

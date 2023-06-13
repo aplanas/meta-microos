@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "goffice \
 libgoffice-0.10.so.10()(64bit) \
 libgoffice-0_10-10 \
 libgoffice-0_10-10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

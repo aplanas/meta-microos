@@ -14,6 +14,7 @@ pkgconfig(quazip1-qt5) \
 quazip-devel \
 quazip-qt5-devel \
 quazip-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt5Core) \
 libquazip1-qt5-1_4_0 \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(tech.uom:uom-parent:pom:) \
 uom-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

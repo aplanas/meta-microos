@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-restview \
 python3.10dist(restview) \
 python310-restview \
 python3dist(restview)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

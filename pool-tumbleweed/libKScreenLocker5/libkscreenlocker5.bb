@@ -10,6 +10,7 @@ RPM_HASH = "637971308e3de91c6a2edf7df46574266646f7b7a3519a48ec1f3af97b0684b99596
 RPROVIDES:${PN} += "libKScreenLocker.so.5()(64bit) \
 libKScreenLocker5 \
 libKScreenLocker5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

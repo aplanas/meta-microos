@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(excludeonly.sty) \
 texlive-excludeonly"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

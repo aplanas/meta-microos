@@ -10,6 +10,7 @@ RPM_HASH = "7d0ec616e1d800c332e4fef95e28df97bf48a6cdcf374e4b94b0c97b0ff68455d6e5
 RPROVIDES:${PN} += "ghc-extra-prof \
 ghc-extra-prof(aarch-64) \
 ghc-prof(extra-1.7.13-CLIQu72ADU8JHmf7UWoQG4)"
+
 RDEPENDS:${PN} += "ghc-extra-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(clock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV) \

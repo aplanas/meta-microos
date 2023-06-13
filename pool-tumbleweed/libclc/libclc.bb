@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "libclc \
 libclc(llvm16) \
 pkgconfig(libclc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

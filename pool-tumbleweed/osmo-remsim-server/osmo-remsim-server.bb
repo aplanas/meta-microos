@@ -11,6 +11,7 @@ RPM_HASH = "ff273c40badc88f2f5d8108cadf0b13193e22da15575826e26834962071d1ee5bbac
 
 RPROVIDES:${PN} += "osmo-remsim-server \
 osmo-remsim-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -46,6 +46,7 @@ locale(plasma5-firewall:zh_CN) \
 locale(plasma5-firewall:zh_TW) \
 plasma5-firewall-lang \
 plasma5-firewall-lang-all"
+
 RDEPENDS:${PN} += "plasma5-firewall"
 
 inherit rpm

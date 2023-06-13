@@ -26,6 +26,7 @@ RPM_HASH = "1d90bdcf450964a0966e69cbd1884bb102dbc0d5e020a6e070ec6ed82925ef2b95ac
 
 RPROVIDES:${PN} += "gstreamer-editing-services \
 gstreamer-editing-services(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

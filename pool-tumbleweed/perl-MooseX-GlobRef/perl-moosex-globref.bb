@@ -28,6 +28,7 @@ perl(MooseX::GlobRef::Object) \
 perl(MooseX::GlobRef::Role::Meta::Instance) \
 perl(MooseX::GlobRef::Role::Object) \
 perl-MooseX-GlobRef"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

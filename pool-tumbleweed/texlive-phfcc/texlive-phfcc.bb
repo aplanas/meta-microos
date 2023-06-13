@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phfcc.sty) \
 texlive-phfcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

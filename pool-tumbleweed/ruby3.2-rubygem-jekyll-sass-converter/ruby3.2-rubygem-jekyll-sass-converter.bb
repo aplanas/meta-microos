@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:jekyll-sass-converter) \
 rubygem(ruby:3.2.0:jekyll-sass-converter:2) \
 rubygem(ruby:3.2.0:jekyll-sass-converter:2.2) \
 rubygem(ruby:3.2.0:jekyll-sass-converter:2.2.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:sassc)"
 

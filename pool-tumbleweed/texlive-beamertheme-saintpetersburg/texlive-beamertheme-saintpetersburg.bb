@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(beamercolorthemeSaintPetersburg.sty) \
 tex(beamerfontthemeSaintPetersburg.sty) \
 tex(beamerthemeSaintPetersburg.sty) \
 texlive-beamertheme-saintpetersburg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

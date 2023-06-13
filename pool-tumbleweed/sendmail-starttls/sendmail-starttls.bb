@@ -12,6 +12,7 @@ RPM_HASH = "37d93aec34bfc96aa375c98c0636e321e3f3d524b1678533ca90a95c3cdee0df0bfa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sendmail-starttls"
+
 RDEPENDS:${PN} += "cyrus-sasl-saslauthd \
 openssl"
 

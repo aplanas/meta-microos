@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgamemode-devel \
 libgamemode-devel(aarch-64) \
 pkgconfig(gamemode) \
 pkgconfig(libgamemodeauto)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgamemode0 \
 libgamemodeauto0"

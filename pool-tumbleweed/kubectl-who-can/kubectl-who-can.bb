@@ -10,6 +10,7 @@ RPM_HASH = "cf3e1a92a3bdd29f786124b9031a8876068bbfb3b34cf52cb621d8542db1ce5e00a3
 
 RPROVIDES:${PN} += "kubectl-who-can \
 kubectl-who-can(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

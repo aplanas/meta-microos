@@ -11,6 +11,7 @@ RPM_HASH = "62feec7b71b35699980f012d1a0ea3730b757b2ecf1e0ee4c5743a6f51aa1142e934
 RPROVIDES:${PN} += "docparser-devel \
 docparser-devel(aarch-64) \
 pkgconfig(docparser)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdocparser1"
 

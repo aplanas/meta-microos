@@ -9,6 +9,7 @@ RPM_HASH = "7de9cd242a45bac6b9f0e5fdafe81c96ff0d1763823f78615e45ae08b2880d0497d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typed-process-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

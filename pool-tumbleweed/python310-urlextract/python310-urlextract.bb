@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-urlextract \
 python3.10dist(urlextract) \
 python310-urlextract \
 python3dist(urlextract)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ RPM_HASH = "15795bc378e6df0497a1ec7b0ffd316f064a81bd4fde9b8e84462a0c74cb3b5375a9
 
 RPROVIDES:${PN} += "unpaper \
 unpaper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \

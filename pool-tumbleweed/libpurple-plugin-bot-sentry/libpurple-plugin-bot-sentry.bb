@@ -13,6 +13,7 @@ RPM_HASH = "6b9c7931d88146bce6048303c86205c21f8884237397e40a71399dc75171de82aa14
 RPROVIDES:${PN} += "libpurple-plugin-bot-sentry \
 libpurple-plugin-bot-sentry(aarch-64) \
 pidgin-bot-sentry"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpurple.so.0()(64bit)"

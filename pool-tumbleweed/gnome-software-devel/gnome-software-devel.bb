@@ -11,6 +11,7 @@ RPM_HASH = "700c7989dec61730a2301c17c38073d36f3966d3c26a84e6bbfdd2aae05abf4d6220
 RPROVIDES:${PN} += "gnome-software-devel \
 gnome-software-devel(aarch-64) \
 pkgconfig(gnome-software)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-software \
 pkgconfig(appstream) \

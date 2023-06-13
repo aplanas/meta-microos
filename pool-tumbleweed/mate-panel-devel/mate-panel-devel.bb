@@ -12,6 +12,7 @@ RPM_HASH = "b99b0bfd2e6c5d34cfeff571e0fab80a7fe1dd07576349ddaab3c7215cb802bc4cc3
 RPROVIDES:${PN} += "mate-panel-devel \
 mate-panel-devel(aarch-64) \
 pkgconfig(libmatepanelapplet-4.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmate-panel-applet-4-1 \
 pkgconfig(gio-2.0) \

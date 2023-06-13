@@ -24,6 +24,7 @@ tex(gfscomplutum.sty) \
 tex(gpcomplutum.enc) \
 tex(lgrcomplutum.fd) \
 texlive-gfscomplutum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

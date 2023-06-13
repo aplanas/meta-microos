@@ -9,6 +9,7 @@ RPM_HASH = "9b3e3c23fe13e193058fd1798d823c9771eb438b4d7c9a3abba25ba82e5da2f66e5a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-circuit-macros-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

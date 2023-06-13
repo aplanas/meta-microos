@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyautogui) \
 python311-PyAutoGUI \
 python3dist(pyautogui)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow \
 python311-PyMsgBox \

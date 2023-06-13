@@ -16,6 +16,7 @@ cmake(DtkTools) \
 dtkcore-devel \
 dtkcore-devel(aarch-64) \
 pkgconfig(dtkcore)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dtkcommon \
 libdtkcore5"

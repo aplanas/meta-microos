@@ -38,6 +38,7 @@ mimehandler(text/x-pascal) \
 mimehandler(text/x-tcl) \
 mimehandler(text/x-tex) \
 mimehandler(x-scheme-handler/mailto)"
+
 RDEPENDS:${PN} += "/bin/sh \
 emacs \
 emacs-eln \

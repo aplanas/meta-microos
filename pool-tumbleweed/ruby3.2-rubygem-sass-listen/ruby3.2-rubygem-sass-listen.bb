@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:sass-listen:4) \
 rubygem(ruby:3.2.0:sass-listen:4.0) \
 rubygem(ruby:3.2.0:sass-listen:4.0.0) \
 rubygem(sass-listen)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rb-fsevent) \
 rubygem(ruby:3.2.0:rb-fsevent:0) \

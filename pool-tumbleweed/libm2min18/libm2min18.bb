@@ -10,6 +10,7 @@ RPM_HASH = "1d7edf27723673561d9edf7dc7b8c463dad6bc69cf10ab7e24ba7c34363d7834caf8
 RPROVIDES:${PN} += "libm2min.so.18()(64bit) \
 libm2min18 \
 libm2min18(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

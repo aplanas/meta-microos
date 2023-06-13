@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(opencensus) \
 python39-opencensus \
 python3dist(opencensus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-api-core \
 python39-opencensus-context"

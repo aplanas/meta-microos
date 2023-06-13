@@ -563,6 +563,7 @@ tex(zbvbmi.vf) \
 tex(zbvmi.tfm) \
 tex(zbvmi.vf) \
 texlive-baskervaldx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

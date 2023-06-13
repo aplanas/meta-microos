@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(Qt5Xml) \
 libQt5Xml-devel \
 libQt5Xml-devel(aarch-64) \
 pkgconfig(Qt5Xml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Xml5 \

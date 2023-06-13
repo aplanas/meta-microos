@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-gflags) \
 python311-python-gflags \
 python3dist(python-gflags)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi) \
 update-alternatives"

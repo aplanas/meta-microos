@@ -9,6 +9,7 @@ RPM_HASH = "d9097f16491b8726c6d48622e07df28f1059eb9c4f826721232e387be27f4b92bd49
 
 RPROVIDES:${PN} += "qore-sqlite3-module \
 qore-sqlite3-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

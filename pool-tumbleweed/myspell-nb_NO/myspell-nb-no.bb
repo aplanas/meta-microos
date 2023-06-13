@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:nb_NO) \
 myspell-dictionary \
 myspell-nb_NO \
 myspell-norsk-bokmaal"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-no"
 

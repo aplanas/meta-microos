@@ -11,6 +11,7 @@ RPM_HASH = "719d565064f940b0e88b88014b054adb5fbca29331490e81018b8db833046fd54c7d
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-net-openSUSE \
 skelcd-installer-net-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

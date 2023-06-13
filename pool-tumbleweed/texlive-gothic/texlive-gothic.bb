@@ -23,6 +23,7 @@ tex(yinit.tfm) \
 tex(ysmfrak.tfm) \
 tex(yswab.tfm) \
 texlive-gothic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

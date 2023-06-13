@@ -11,6 +11,7 @@ RPM_HASH = "d4ac4b509c2886aa203e3e86cbad567d370a21ee9ff2655a48a246a05add874cbee6
 RPROVIDES:${PN} += "libdtkgui.so.5()(64bit) \
 libdtkgui5 \
 libdtkgui5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

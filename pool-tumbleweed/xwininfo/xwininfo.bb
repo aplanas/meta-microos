@@ -9,6 +9,7 @@ RPM_HASH = "52cc1896359aff7e3bdfa812725d0c563164d6d30079d8e7b6baf7d3391d6bb19813
 
 RPROVIDES:${PN} += "xwininfo \
 xwininfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

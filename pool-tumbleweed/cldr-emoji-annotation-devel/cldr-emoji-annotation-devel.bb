@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cldr-emoji-annotation-devel \
 pkgconfig(cldr-emoji-annotation)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cldr-emoji-annotation"
 

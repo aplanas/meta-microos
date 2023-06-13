@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(changelayout.sty) \
 texlive-changelayout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

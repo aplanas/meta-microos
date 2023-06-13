@@ -23,6 +23,7 @@ locale(weechat:sr) \
 locale(weechat:tr) \
 weechat-lang \
 weechat-lang-all"
+
 RDEPENDS:${PN} += "weechat"
 
 inherit rpm

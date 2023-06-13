@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(dstat.desktop) \
 dstat"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 python3-curses \

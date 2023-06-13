@@ -28,6 +28,7 @@ locale(geany-plugins:ru) \
 locale(geany-plugins:tr) \
 locale(geany-plugins:uk) \
 locale(geany-plugins:zh_CN)"
+
 RDEPENDS:${PN} += "geany-plugins"
 
 inherit rpm

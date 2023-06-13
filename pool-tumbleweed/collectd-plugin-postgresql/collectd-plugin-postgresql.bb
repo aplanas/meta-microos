@@ -10,6 +10,7 @@ RPM_HASH = "369a56ceaea27b66ffb497367dd784d26117d095fc92e4986d2bd34840fb1a8a0db9
 RPROVIDES:${PN} += "collectd-plugin-postgresql \
 collectd-plugin-postgresql(aarch-64) \
 config(collectd-plugin-postgresql)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

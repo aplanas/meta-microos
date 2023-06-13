@@ -53,6 +53,7 @@ locale(akonadi-search:tr) \
 locale(akonadi-search:uk) \
 locale(akonadi-search:zh_CN) \
 locale(akonadi-search:zh_TW)"
+
 RDEPENDS:${PN} += "akonadi-search"
 
 inherit rpm

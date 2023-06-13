@@ -30,6 +30,7 @@ locale(apparmor-utils:tr) \
 locale(apparmor-utils:ug) \
 locale(apparmor-utils:uk) \
 locale(apparmor-utils:zh_CN)"
+
 RDEPENDS:${PN} += "apparmor-utils"
 
 inherit rpm

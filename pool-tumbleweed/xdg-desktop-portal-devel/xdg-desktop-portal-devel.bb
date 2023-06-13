@@ -15,6 +15,7 @@ RPM_HASH = "94c883eda3c8d15c37c9bfb959b426a23e9c02b5063259885d55be5db64ddb716d06
 RPROVIDES:${PN} += "pkgconfig(xdg-desktop-portal) \
 xdg-desktop-portal-devel \
 xdg-desktop-portal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xdg-desktop-portal"
 

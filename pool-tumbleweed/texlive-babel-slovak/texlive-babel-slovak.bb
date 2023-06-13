@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(slovak.ldf) \
 texlive-babel-slovak"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

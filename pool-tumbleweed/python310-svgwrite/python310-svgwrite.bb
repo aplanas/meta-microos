@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-svgwrite \
 python3.10dist(svgwrite) \
 python310-svgwrite \
 python3dist(svgwrite)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyparsing"
 

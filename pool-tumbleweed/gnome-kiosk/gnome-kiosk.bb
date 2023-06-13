@@ -13,6 +13,7 @@ application(org.gnome.Kiosk.Script.desktop) \
 application(org.gnome.Kiosk.desktop) \
 gnome-kiosk \
 gnome-kiosk(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/sh \
 gnome-session \
 ld-linux-aarch64.so.1()(64bit) \

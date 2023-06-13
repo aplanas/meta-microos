@@ -12,6 +12,7 @@ RPM_HASH = "60746097e2e67783591ed00f0bb763990b2aff59cc213872ad8d13db38d2090af29a
 
 RPROVIDES:${PN} += "janet \
 janet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

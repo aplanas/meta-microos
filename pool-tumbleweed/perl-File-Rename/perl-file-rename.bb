@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "perl(File::Rename) \
 perl(File::Rename::Options) \
 perl(File::Rename::Unicode) \
 perl-File-Rename"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

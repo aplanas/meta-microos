@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-eltex-doc:en;cs) \
 texlive-eltex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

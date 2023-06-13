@@ -12,6 +12,7 @@ RPM_HASH = "5ead92695f7c531418c5c3404b890b3d81050a8c7e57a3b77c7d804073cc3e8c2eb3
 RPROVIDES:${PN} += "libKF5NewStuff.so.5()(64bit) \
 libKF5NewStuff5 \
 libKF5NewStuff5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 knewstuff \
 ld-linux-aarch64.so.1()(64bit) \

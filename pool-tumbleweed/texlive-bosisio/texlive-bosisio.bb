@@ -18,6 +18,7 @@ tex(mathcmd.sty) \
 tex(quotes.sty) \
 tex(sobolev.sty) \
 texlive-bosisio"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

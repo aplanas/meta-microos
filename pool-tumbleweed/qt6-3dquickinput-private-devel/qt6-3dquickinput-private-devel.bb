@@ -10,6 +10,7 @@ RPM_HASH = "66645f6e75bef30a9f3dc26fb4fb4490030e06c65ca8b6c77bb3929321fe5afc2999
 
 RPROVIDES:${PN} += "qt6-3dquickinput-private-devel \
 qt6-3dquickinput-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt63DQuickInput)"
 
 inherit rpm

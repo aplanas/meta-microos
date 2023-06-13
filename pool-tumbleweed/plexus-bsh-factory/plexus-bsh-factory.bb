@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-bsh-factory) \
 mvn(org.codehaus.plexus:plexus-bsh-factory:pom:) \
 plexus-bsh-factory"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(bsh:bsh) \

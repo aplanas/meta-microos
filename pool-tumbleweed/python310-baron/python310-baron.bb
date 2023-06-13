@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-baron \
 python3.10dist(baron) \
 python310-baron \
 python3dist(baron)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-rply"
 

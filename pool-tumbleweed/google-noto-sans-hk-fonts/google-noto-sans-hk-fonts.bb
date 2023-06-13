@@ -17,6 +17,7 @@ noto-sans-cjkhk-fonts \
 noto-sans-hk-fonts \
 scalable-font-zh-HK \
 scalable-font-zh-MO"
+
 RDEPENDS:${PN} += "google-noto-sans-hk-bold-fonts \
 google-noto-sans-hk-regular-fonts"
 

@@ -10,6 +10,7 @@ RPM_HASH = "fccee9155e815f98a230f9b9ed9dcd81ee62422f7a5675048cd2af100befbd7baaad
 RPROVIDES:${PN} += "libgstrtspserver-1.0.so.0()(64bit) \
 libgstrtspserver-1_0-0 \
 libgstrtspserver-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

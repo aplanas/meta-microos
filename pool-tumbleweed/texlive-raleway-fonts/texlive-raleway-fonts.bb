@@ -138,6 +138,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(raleway) \
 texlive-raleway-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

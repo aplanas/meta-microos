@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fastapi \
 python3.10dist(fastapi) \
 python310-fastapi \
 python3dist(fastapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pydantic \
 python310-starlette"

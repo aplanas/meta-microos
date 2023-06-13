@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Pebble \
 python3.10dist(pebble) \
 python310-Pebble \
 python3dist(pebble)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

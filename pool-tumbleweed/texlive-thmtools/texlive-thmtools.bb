@@ -31,6 +31,7 @@ tex(thmdef-thmbox.sty) \
 tex(thmtools.sty) \
 tex(unique.sty) \
 texlive-thmtools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

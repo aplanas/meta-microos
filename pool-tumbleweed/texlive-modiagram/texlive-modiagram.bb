@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(modiagram.sty) \
 texlive-modiagram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

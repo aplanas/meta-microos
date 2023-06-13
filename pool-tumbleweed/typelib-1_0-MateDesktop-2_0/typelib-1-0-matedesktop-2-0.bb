@@ -11,6 +11,7 @@ RPM_HASH = "9e34329e446cdf3e5c4cbf5d2dc9343078aeec4ce48518038d387a5ae5b08c7036b9
 RPROVIDES:${PN} += "typelib(MateDesktop) \
 typelib-1_0-MateDesktop-2_0 \
 typelib-1_0-MateDesktop-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmate-desktop-2.so.17()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

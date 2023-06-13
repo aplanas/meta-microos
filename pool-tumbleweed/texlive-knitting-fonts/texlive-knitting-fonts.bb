@@ -117,6 +117,7 @@ font(knittingsymbols-wide-foreground) \
 font(knittingsymbols-wide-grid) \
 font(knittingsymbols-wide-purl) \
 texlive-knitting-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

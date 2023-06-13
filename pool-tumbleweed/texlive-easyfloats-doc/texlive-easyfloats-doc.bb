@@ -9,6 +9,7 @@ RPM_HASH = "63ec271fb306298d7ad8cde89c2c7fe6a2ecea84988c2798015aa62cb3d739ade9f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-easyfloats-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "d66b49d4f7e07c2ac801f78792c124ed981422878c30090062abb25e54dbf587e1d2
 
 RPROVIDES:${PN} += "htcondor-kbdd \
 htcondor-kbdd(aarch-64)"
+
 RDEPENDS:${PN} += "htcondor \
 htcondor-classads"
 

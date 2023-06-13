@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(compton.desktop) \
 compton \
 compton(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 hicolor-icon-theme \

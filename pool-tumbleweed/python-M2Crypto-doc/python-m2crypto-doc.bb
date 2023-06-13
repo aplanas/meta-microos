@@ -18,6 +18,7 @@ RPM_HASH = "051d3269d4979d23f9adea7684ef762462340d677f37fd7c33adfeb4e22e4978c48d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-M2Crypto-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

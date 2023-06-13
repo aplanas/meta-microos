@@ -16,6 +16,7 @@ RPM_HASH = "3198b9658f4cbf39b5c0ef1b8c93a186987b92247047c9f91c950cc4432f2c597ba8
 RPROVIDES:${PN} += "mumps(examples)() \
 mumps-scotch-examples \
 mumps-scotch-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblas.so.3()(64bit) \

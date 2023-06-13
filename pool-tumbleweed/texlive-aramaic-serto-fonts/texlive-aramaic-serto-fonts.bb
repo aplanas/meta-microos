@@ -13,6 +13,7 @@ font(assyrb10) \
 font(serto10) \
 font(sertob10) \
 texlive-aramaic-serto-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

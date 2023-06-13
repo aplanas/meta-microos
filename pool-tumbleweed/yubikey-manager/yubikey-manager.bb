@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-yubikey-manager \
 python3.10dist(yubikey-manager) \
 python3dist(yubikey-manager) \
 yubikey-manager"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-click \

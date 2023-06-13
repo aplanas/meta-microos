@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minutes.sty) \
 texlive-minutes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "e582ac639988db0d17b1855b0ec5767e943cbbcefbf497af4323642e55ee59d53e93
 
 RPROVIDES:${PN} += "uhd-utils \
 uhd-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "51857b631d4e4247ca13d49df186118640e8e3ee38fabad2cc478869b0c2997e2c48
 RPROVIDES:${PN} += "libgif.so.7()(64bit) \
 libgif7 \
 libgif7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

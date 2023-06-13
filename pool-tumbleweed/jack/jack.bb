@@ -22,6 +22,7 @@ jack(aarch-64) \
 jack-audio-connection-kit \
 jack-daemon \
 jack2"
+
 RDEPENDS:${PN} += "jack-dbus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

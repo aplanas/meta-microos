@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-defusedxml \
 python3.10dist(defusedxml) \
 python310-defusedxml \
 python3dist(defusedxml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-xml"
 

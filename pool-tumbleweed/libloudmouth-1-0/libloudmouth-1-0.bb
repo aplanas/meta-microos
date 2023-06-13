@@ -12,6 +12,7 @@ RPM_HASH = "5a0e5a8b0b74a7b6e8d5fc87a68e0f70e3c1a636b553a92c3cf75139dc0a10ac8a39
 RPROVIDES:${PN} += "libloudmouth-1-0 \
 libloudmouth-1-0(aarch-64) \
 libloudmouth-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

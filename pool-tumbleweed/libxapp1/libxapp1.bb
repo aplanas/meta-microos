@@ -13,6 +13,7 @@ RPM_HASH = "31f531d8323f7cc7cfa15abe9659ccf21c1719025be8d9d8796ad18771259888ad4a
 RPROVIDES:${PN} += "libxapp.so.1()(64bit) \
 libxapp1 \
 libxapp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(nbconvert) \
 python39-jupyter_nbconvert \
 python39-nbconvert \
 python3dist(nbconvert)"
+
 RDEPENDS:${PN} += "(python39-mistune >= 2.0.3 with python39-mistune < 3) \
 /bin/sh \
 /usr/bin/python3.9 \

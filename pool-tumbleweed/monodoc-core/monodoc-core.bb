@@ -15,6 +15,7 @@ monodoc-core \
 monodoc-core(aarch-64) \
 monodoc-devel \
 pkgconfig(monodoc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 mono(ICSharpCode.SharpZipLib) \

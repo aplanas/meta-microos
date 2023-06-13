@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-intervals \
 python3.10dist(intervals) \
 python310-intervals \
 python3dist(intervals)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-infinity"
 

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-quantum-blackbird \
 python3.10dist(quantum-blackbird) \
 python310-quantum-blackbird \
 python3dist(quantum-blackbird)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-antlr4-python3-runtime \
 python310-networkx \

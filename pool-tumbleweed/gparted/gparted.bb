@@ -17,6 +17,7 @@ gparted \
 gparted(aarch-64) \
 metainfo() \
 metainfo(gparted.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 gpart \

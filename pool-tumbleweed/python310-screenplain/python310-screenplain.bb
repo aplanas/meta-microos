@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-screenplain \
 python3.10dist(screenplain) \
 python310-screenplain \
 python3dist(screenplain)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

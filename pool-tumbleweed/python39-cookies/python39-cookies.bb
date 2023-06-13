@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cookies) \
 python39-cookies \
 python3dist(cookies)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

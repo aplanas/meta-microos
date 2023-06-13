@@ -13,6 +13,7 @@ RPM_HASH = "8ee62de7dc06d8f683735377ff20ad3ca74d9bea07cc47a4c79da50fee6b1799a2a3
 
 RPROVIDES:${PN} += "libcbor-doc \
 libcbor-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

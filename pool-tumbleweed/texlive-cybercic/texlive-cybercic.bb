@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cybercic.sty) \
 texlive-cybercic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

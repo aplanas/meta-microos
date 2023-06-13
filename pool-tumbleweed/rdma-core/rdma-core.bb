@@ -14,6 +14,7 @@ ofed \
 rdma \
 rdma-core \
 rdma-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 kmod \

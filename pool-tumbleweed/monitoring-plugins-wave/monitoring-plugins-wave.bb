@@ -10,6 +10,7 @@ RPM_HASH = "12dfc776be5f88e2061df302fb32facc98e71e980aecbb4131ddc01d98ce3c7f7fc3
 RPROVIDES:${PN} += "monitoring-plugins-wave \
 monitoring-plugins-wave(aarch-64) \
 nagios-plugins-wave"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 net-snmp \

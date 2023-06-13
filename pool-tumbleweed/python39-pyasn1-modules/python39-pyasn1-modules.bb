@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyasn1-modules) \
 python39-pyasn1-modules \
 python3dist(pyasn1-modules)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pyasn1"
 

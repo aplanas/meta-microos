@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cron-descriptor \
 python3.10dist(cron-descriptor) \
 python310-cron-descriptor \
 python3dist(cron-descriptor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

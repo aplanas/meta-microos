@@ -13,6 +13,7 @@ RPM_HASH = "46bab18b980269c29c736cb29f0ec6b61c44a8876cc26d8d64f03e5d1f42d06e5ebd
 RPROVIDES:${PN} += "libpmemlog-devel \
 libpmemlog-devel(aarch-64) \
 pkgconfig(libpmemlog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

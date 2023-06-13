@@ -9,6 +9,7 @@ RPM_HASH = "f2308927eb54b6a4e18ccf27f606455b612a628e460197ee2728b5033eed769c015a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bezierplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

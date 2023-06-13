@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgraphene-devel \
 libgraphene-devel(aarch-64) \
 pkgconfig(graphene-1.0) \
 pkgconfig(graphene-gobject-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

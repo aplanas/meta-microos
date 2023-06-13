@@ -13,6 +13,7 @@ RPM_HASH = "d39baec64a904a5787cd60fe2837fd077f4fd7dd6c14042cf3f01deb12d96a1fd270
 
 RPROVIDES:${PN} += "libselinux-devel-static \
 libselinux-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libselinux-devel \
 pkgconfig(libpcre2-8) \
 pkgconfig(libsepol)"

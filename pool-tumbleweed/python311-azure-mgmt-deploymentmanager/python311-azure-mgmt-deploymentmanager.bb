@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-deploymentmanager) \
 python311-azure-mgmt-deploymentmanager \
 python3dist(azure-mgmt-deploymentmanager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

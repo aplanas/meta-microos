@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libreoffice-branding \
 libreoffice-branding-SLE \
 libreoffice-branding-openSUSE \
 libreoffice-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-shade-plugin \
 mvn(org.apache.maven.plugins:maven-shade-plugin) \
 mvn(org.apache.maven.plugins:maven-shade-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

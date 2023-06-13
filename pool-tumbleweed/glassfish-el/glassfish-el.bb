@@ -21,6 +21,7 @@ mvn(org.glassfish:javax.el-impl) \
 mvn(org.glassfish:javax.el-impl:pom:) \
 mvn(org.glassfish:javax.el:pom:) \
 osgi(com.sun.el.javax.el)"
+
 RDEPENDS:${PN} += "glassfish-el-api \
 java-headless \
 javapackages-filesystem \

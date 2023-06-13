@@ -24,6 +24,7 @@ libpixbufloader-tga.so()(64bit) \
 libpixbufloader-tiff.so()(64bit) \
 libpixbufloader-xbm.so()(64bit) \
 libpixbufloader-xpm.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gdk-pixbuf-query-loaders \

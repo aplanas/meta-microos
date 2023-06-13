@@ -17,6 +17,7 @@ RPM_HASH = "0f4c387af25918ecc806117b1992b59ac73c4d13f9baa6d53909deb9418eaf480bdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-purifyeps"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

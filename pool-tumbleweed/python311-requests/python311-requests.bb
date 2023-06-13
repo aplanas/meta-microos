@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests) \
 python311-requests \
 python3dist(requests)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python311 \

@@ -11,6 +11,7 @@ RPM_HASH = "cceb97ce5bf0f2236bb6ea9cdc9d9bdb705591f681078fa2412c2c2648ad72b182a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpmconf"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-rpm \
 python3-rpmconf"

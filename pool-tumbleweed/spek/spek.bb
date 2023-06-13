@@ -61,6 +61,7 @@ mimehandler(audio/x-wavpack) \
 mimehandler(audio/x-xm) \
 spek \
 spek(aarch-64)"
+
 RDEPENDS:${PN} += "libavcodec.so.59()(64bit) \
 libavcodec.so.59(LIBAVCODEC_59.37_SUSE)(64bit) \
 libavformat.so.59()(64bit) \

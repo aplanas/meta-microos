@@ -10,6 +10,7 @@ RPM_HASH = "3ecc4d75b9cb209fd2d936f8124a482b6a944295ba81befd31b900a7d45250156ba9
 RPROVIDES:${PN} += "libkwebenginepart.so()(64bit) \
 webenginepart \
 webenginepart(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Completion.so.5()(64bit) \

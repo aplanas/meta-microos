@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsFolderListModel) \
 pkgconfig(Qt6LabsFolderListModel) \
 qt6-labsfolderlistmodel-devel \
 qt6-labsfolderlistmodel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6LabsFolderListModel6 \
 pkgconfig(Qt6Core) \

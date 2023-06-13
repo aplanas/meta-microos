@@ -14,6 +14,7 @@ RPM_HASH = "28842057cc0b5f6760db875f03ace3fdc1e8d74e590732f6370e2e6fb8286f5b12c6
 RPROVIDES:${PN} += "libreoffice-sdk \
 libreoffice-sdk(aarch-64) \
 libreoffice-ure-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcc-c++ \
 ld-linux-aarch64.so.1()(64bit) \

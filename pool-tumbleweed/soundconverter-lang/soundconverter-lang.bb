@@ -61,6 +61,7 @@ locale(soundconverter:zh_CN) \
 locale(soundconverter:zh_TW) \
 soundconverter-lang \
 soundconverter-lang-all"
+
 RDEPENDS:${PN} += "soundconverter"
 
 inherit rpm

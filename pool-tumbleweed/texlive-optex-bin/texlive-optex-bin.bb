@@ -9,6 +9,7 @@ RPM_HASH = "69974390610fb1b4b0e745b5f163dcae580a7f6ea4bfee2afac6f1c167d9fbbc8ed4
 
 RPROVIDES:${PN} += "texlive-optex-bin \
 texlive-optex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-optex"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(hyper-v-enhanced-session) \
 hyper-v-enhanced-session"
+
 RDEPENDS:${PN} += "(kmod(hv_sock.ko) if kernel) \
 (lightdm or gdm or kdm) \
 /bin/sh \

@@ -27,6 +27,7 @@ pkgconfig(libdrm_nouveau) \
 pkgconfig(libdrm_radeon) \
 pkgconfig(libdrm_tegra) \
 pkgconfig(libdrm_vc4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdrm2 \
 libdrm_amdgpu1 \

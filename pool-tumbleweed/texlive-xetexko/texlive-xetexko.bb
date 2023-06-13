@@ -19,6 +19,7 @@ tex(xetexko-space.sty) \
 tex(xetexko-vertical.sty) \
 tex(xetexko.sty) \
 texlive-xetexko"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

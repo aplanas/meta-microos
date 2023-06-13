@@ -11,6 +11,7 @@ RPM_HASH = "316a772f1f3b0401fe6a3ecb4ae6b24a8e70f8465e14e5ee1a7fae675706a26160f5
 RPROVIDES:${PN} += "libpurple-plugin-skypeweb \
 libpurple-plugin-skypeweb(aarch-64) \
 libskypeweb.so()(64bit)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "ddd57759a08c2613491e697c7b610acebe9ec84b8fe29b761012828d78ac01841922
 RPROVIDES:${PN} += "libASESerial.so()(64bit) \
 pcsc-asedriveiiie-serial \
 pcsc-asedriveiiie-serial(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

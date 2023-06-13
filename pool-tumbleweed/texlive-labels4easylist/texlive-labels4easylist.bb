@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(labels4easylist.sty) \
 texlive-labels4easylist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

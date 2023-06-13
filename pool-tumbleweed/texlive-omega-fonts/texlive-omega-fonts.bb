@@ -46,6 +46,7 @@ font(omegaserifipa) \
 font(omegaseriflatin) \
 font(omegaseriftifinagh) \
 texlive-omega-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tocvsec2.sty) \
 texlive-tocvsec2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

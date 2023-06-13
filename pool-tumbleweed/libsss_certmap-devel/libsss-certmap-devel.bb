@@ -10,6 +10,7 @@ RPM_HASH = "e1ebc7a382b11787776d775e287a77dc782d6f289fcaa1ad165a43968c51b66cb0d6
 RPROVIDES:${PN} += "libsss_certmap-devel \
 libsss_certmap-devel(aarch-64) \
 pkgconfig(sss_certmap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsss_certmap0"
 

@@ -16,6 +16,7 @@ containerd \
 containerd(aarch-64) \
 containerd-git \
 containerd-kubic"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-whois) \
 python39-python-whois \
 python3dist(python-whois)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-future"
 

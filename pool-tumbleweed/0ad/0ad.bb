@@ -21,6 +21,7 @@ libCollada.so()(64bit) \
 metainfo() \
 metainfo(0ad.appdata.xml) \
 mimehandler(application/x-pyromod+zip)"
+
 RDEPENDS:${PN} += "/bin/sh \
 0ad-data \
 ld-linux-aarch64.so.1()(64bit) \

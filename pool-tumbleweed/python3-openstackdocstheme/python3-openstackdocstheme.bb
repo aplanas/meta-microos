@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-openstackdocstheme \
 python3.10dist(openstackdocstheme) \
 python3dist(openstackdocstheme)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 python(abi) \

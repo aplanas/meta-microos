@@ -10,6 +10,7 @@ RPM_HASH = "7f15956d42bb10f190e227ed28feead4d4a19f03ef199af95814da9333dd527a6fa7
 RPROVIDES:${PN} += "fish-devel \
 fish-devel(aarch-64) \
 pkgconfig(fish)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

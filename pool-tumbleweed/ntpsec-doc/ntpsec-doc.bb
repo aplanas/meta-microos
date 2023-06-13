@@ -9,6 +9,7 @@ RPM_HASH = "1dfca9d7f13ed9c13bc0ff30538178391e72405c14a05f57a488a4841aeb8c3465f9
 
 RPROVIDES:${PN} += "ntpsec-doc \
 ntpsec-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

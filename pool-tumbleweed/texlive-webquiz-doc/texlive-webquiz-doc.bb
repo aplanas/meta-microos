@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(webquiz.1) \
 texlive-webquiz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

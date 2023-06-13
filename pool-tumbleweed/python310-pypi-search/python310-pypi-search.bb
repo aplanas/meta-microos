@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pypi-search \
 python3.10dist(pypi-search) \
 python310-pypi-search \
 python3dist(pypi-search)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

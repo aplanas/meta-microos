@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(na-position.sty) \
 texlive-na-position"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

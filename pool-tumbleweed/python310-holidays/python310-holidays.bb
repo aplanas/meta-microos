@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-holidays \
 python3.10dist(holidays) \
 python310-holidays \
 python3dist(holidays)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-convertdate \
 python310-hijri-converter \

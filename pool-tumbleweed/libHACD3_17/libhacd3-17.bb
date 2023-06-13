@@ -10,6 +10,7 @@ RPM_HASH = "979c52484e47b216bdd1c03e1183411903869a62abe539abcbc30bccc27b7cc54bd4
 RPROVIDES:${PN} += "libHACD.so.3.17()(64bit) \
 libHACD3_17 \
 libHACD3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

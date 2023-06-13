@@ -13,6 +13,7 @@ libreoffice-help-bn_IN \
 libreoffice-l10n-bn-IN \
 libreoffice-l10n-bn_IN \
 locale(libreoffice:bn_IN)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \

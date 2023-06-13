@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-silk) \
 python311-django-silk \
 python3dist(django-silk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-Jinja2 \

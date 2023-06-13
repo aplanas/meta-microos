@@ -43,6 +43,7 @@ tex(stex.sty) \
 tex(stexthm.sty) \
 tex(tikzinput.sty) \
 texlive-stex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

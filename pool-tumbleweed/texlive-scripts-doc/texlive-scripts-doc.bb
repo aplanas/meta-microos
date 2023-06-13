@@ -31,6 +31,7 @@ texlive-tetex-doc:/usr/share/man/man5/fmtutil.cnf.5.gz \
 texlive-tetex-doc:/usr/share/man/man5/updmap.cfg.5.gz \
 texlive-texconfig-doc:/usr/share/man/man1/texconfig-sys.1.gz \
 texlive-texconfig-doc:/usr/share/man/man1/texconfig.1.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

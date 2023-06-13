@@ -11,6 +11,7 @@ RPM_HASH = "38cb0a1eee23557298f585e75c6301f793318435add6196691cbacfae473a3afa604
 
 RPROVIDES:${PN} += "lld \
 lld(aarch-64)"
+
 RDEPENDS:${PN} += "lld16"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tabularcalc-doc:en;fr) \
 texlive-tabularcalc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -474,6 +474,7 @@ tex(usorbian.sty) \
 tex(welsh.sty) \
 tex(xebabel.def) \
 texlive-babel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

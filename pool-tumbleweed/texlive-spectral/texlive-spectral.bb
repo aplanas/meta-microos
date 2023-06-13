@@ -1269,6 +1269,7 @@ tex(spctrl_y3a2sk.enc) \
 tex(spectral.map) \
 tex(spectral.sty) \
 texlive-spectral"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

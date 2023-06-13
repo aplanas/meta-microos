@@ -23,6 +23,7 @@ locale(hourglass:pt_BR) \
 locale(hourglass:ru) \
 locale(hourglass:sv) \
 locale(hourglass:tr)"
+
 RDEPENDS:${PN} += "hourglass"
 
 inherit rpm

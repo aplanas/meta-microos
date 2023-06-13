@@ -9,6 +9,7 @@ RPM_HASH = "1808021e770d11c86da7899fddd766d389b50cba8aa9dcf8556b9e6bfcbe40e6726e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moreenum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

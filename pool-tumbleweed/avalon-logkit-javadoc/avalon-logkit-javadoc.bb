@@ -9,6 +9,7 @@ RPM_HASH = "af9a5b115008c4caf6ab69169e64e8480461e359a364398ff7bef2f522202df1ef4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-logkit-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

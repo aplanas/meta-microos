@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libosmocoding.so.0()(64bit) \
 libosmocoding.so.0(LIBOSMOCODING_1.0)(64bit) \
 libosmocoding0 \
 libosmocoding0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

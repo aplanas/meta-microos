@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:mini_portile2) \
 rubygem(ruby:3.2.0:mini_portile2:2) \
 rubygem(ruby:3.2.0:mini_portile2:2.8) \
 rubygem(ruby:3.2.0:mini_portile2:2.8.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

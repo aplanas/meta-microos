@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "amsynth-lang \
 amsynth-lang-all \
 locale(amsynth:de) \
 locale(amsynth:fr)"
+
 RDEPENDS:${PN} += "amsynth"
 
 inherit rpm

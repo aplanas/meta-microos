@@ -10,6 +10,7 @@ RPM_HASH = "0e35ccfc2abb96891002be9f43d64fbff55ad1ba225026f4a4d1a6cb8303cd12bc6e
 RPROVIDES:${PN} += "lib4store-devel \
 lib4store-devel(aarch-64) \
 pkgconfig(4store-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lib4store0"
 

@@ -74,6 +74,7 @@ locale(kbruch:ug) \
 locale(kbruch:uk) \
 locale(kbruch:zh_CN) \
 locale(kbruch:zh_TW)"
+
 RDEPENDS:${PN} += "kbruch"
 
 inherit rpm

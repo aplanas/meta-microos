@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PTable \
 python3.10dist(ptable) \
 python310-PTable \
 python3dist(ptable)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

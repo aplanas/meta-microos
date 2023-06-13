@@ -10,6 +10,7 @@ RPM_HASH = "12abc1c214fce8a0754678a3232893a8814f6129ae571c80133589e84604340ad7f8
 RPROVIDES:${PN} += "ghc-prof(xml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb) \
 ghc-xml-types-prof \
 ghc-xml-types-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-prof(text-2.0.2) \

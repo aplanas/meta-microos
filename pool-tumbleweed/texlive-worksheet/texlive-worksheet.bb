@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(worksheet.sty) \
 texlive-worksheet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

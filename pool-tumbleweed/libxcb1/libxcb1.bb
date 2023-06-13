@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libxcb.so.1()(64bit) \
 libxcb1 \
 libxcb1(aarch-64) \
 xorg-x11-libxcb"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

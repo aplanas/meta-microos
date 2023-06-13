@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-lazy-fixture \
 python3.10dist(pytest-lazy-fixture) \
 python310-pytest-lazy-fixture \
 python3dist(pytest-lazy-fixture)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

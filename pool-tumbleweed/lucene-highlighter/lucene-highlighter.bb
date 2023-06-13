@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-highlighter \
 mvn(org.apache.lucene:lucene-highlighter) \
 mvn(org.apache.lucene:lucene-highlighter:pom:) \
 osgi(org.apache.lucene.highlighter)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core) \

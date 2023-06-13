@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyglet) \
 python39-pyglet \
 python3dist(pyglet)"
+
 RDEPENDS:${PN} += "Mesa-dri \
 libxcb-glx0 \
 python(abi) \

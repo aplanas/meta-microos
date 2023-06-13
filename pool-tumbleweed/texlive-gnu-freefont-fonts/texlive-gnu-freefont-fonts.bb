@@ -240,6 +240,7 @@ font(freemono) \
 font(freesans) \
 font(freeserif) \
 texlive-gnu-freefont-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

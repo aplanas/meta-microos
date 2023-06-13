@@ -9,6 +9,7 @@ RPM_HASH = "2fb3d5f13fe43ec6bd154e775830c28a327d0115a41231ae25114304ca9cd3f72867
 
 RPROVIDES:${PN} += "cockpit-devel \
 cockpit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env"
 
 inherit rpm

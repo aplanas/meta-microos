@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(autobahn) \
 python311-autobahn \
 python311-autobahn(aarch-64) \
 python3dist(autobahn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

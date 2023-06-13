@@ -11,6 +11,7 @@ RPM_HASH = "5fd2bfecf950908d50f5d7c1974dbf8b559148fa0746cbd65038e899973dcfac08e9
 
 RPROVIDES:${PN} += "libyui-rest-api-devel \
 libyui-rest-api-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost-devel \
 glibc-devel \
 jsoncpp-devel \

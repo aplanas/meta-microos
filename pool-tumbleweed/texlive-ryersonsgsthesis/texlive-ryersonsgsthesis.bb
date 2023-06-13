@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ryersonSGSThesis.cls) \
 texlive-ryersonsgsthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-jupyter-server \
 python310-pytest-jupyter-server"
+
 RDEPENDS:${PN} += "python310-jupyter-server \
 python310-nbformat \
 python310-pytest-jupyter \

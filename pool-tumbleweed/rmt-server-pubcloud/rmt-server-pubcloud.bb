@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(rmt-server-pubcloud) \
 rmt-server-configuration \
 rmt-server-pubcloud \
 rmt-server-pubcloud(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 rmt-server"
 

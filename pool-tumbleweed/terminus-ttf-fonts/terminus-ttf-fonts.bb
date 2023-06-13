@@ -10,6 +10,7 @@ RPM_HASH = "e1d4408b56b36be32ea4021e69a7962490c8ee13268780ce6d7d20366fd7536d8c87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminus-ttf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

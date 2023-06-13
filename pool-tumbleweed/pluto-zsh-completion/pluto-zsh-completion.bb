@@ -9,6 +9,7 @@ RPM_HASH = "9db19b68036120e340fba6ad71b5dfe4bf034ccfc0a2ff13d42c03dfb3f5257f19e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pluto-zsh-completion"
+
 RDEPENDS:${PN} += "pluto"
 
 inherit rpm

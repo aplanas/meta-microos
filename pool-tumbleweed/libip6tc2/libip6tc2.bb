@@ -12,6 +12,7 @@ RPM_HASH = "f69614de21f6f95494ab0810b17bfd0e9ac7d91ae07bf737fb09e6f05ec9dbfc477b
 RPROVIDES:${PN} += "libip6tc.so.2()(64bit) \
 libip6tc2 \
 libip6tc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

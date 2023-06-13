@@ -10,6 +10,7 @@ RPM_HASH = "84c22139e7d6b455f56d59f590ed81f76cccfa908aada7527d663394e325341d17e4
 RPROVIDES:${PN} += "fbiterm \
 fbiterm(aarch-64) \
 locale(ja;ko;zh)"
+
 RDEPENDS:${PN} += "group(tty) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

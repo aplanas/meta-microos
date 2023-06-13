@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fissix \
 python3.10dist(fissix) \
 python310-fissix \
 python3dist(fissix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-appdirs"
 

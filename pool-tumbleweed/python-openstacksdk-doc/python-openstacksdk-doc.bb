@@ -16,6 +16,7 @@ RPM_HASH = "2e0b6beb3dbb93e49caf3f83596559cf69f4c74888fefd013326cae460347428d827
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-openstacksdk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

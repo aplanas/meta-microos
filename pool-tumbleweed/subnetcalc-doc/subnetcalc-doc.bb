@@ -10,6 +10,7 @@ RPM_HASH = "b74a258fd832a303b61cfbe6f28b046a4f9a3b8a91b596e3c3ea0a16b1af521426d7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subnetcalc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ metainfo(org.kde.neochat.appdata.xml) \
 mimehandler(x-scheme-handler/matrix) \
 neochat \
 neochat(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 kitemmodels-imports \

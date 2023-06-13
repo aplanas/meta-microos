@@ -14,6 +14,7 @@ RPM_HASH = "d309bf84fe40e995f3b56b680a14cd281a864a83e115dd539a9d07b52f70f544f88f
 
 RPROVIDES:${PN} += "bsdiff \
 bsdiff(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

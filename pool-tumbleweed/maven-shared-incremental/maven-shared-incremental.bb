@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-shared-incremental \
 mvn(org.apache.maven.shared:maven-shared-incremental) \
 mvn(org.apache.maven.shared:maven-shared-incremental:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

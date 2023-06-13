@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Authlib \
 python3.10dist(authlib) \
 python310-Authlib \
 python3dist(authlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography"
 

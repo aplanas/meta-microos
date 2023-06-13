@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-developer-loadtesting \
 python3.10dist(azure-developer-loadtesting) \
 python310-azure-developer-loadtesting \
 python3dist(azure-developer-loadtesting)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-core \

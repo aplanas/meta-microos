@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pdfposter \
 python3.10dist(pdftools.pdfposter) \
 python3dist(pdftools.pdfposter)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PyPDF2 \

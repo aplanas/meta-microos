@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lstfiracode.sty) \
 texlive-lstfiracode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

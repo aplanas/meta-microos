@@ -10,6 +10,7 @@ RPM_HASH = "742ae8ec365a5c216fb71205383742ca1b2a38f0f7a69cc0d751100e839da5aebc65
 
 RPROVIDES:${PN} += "u-boot-p2371-2180-doc \
 u-boot-p2371-2180-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

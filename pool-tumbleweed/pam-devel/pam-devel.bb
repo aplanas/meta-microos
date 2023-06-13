@@ -24,6 +24,7 @@ rpm_macro(_pam_secconfdir) \
 rpm_macro(_pam_secdistconfdir) \
 rpm_macro(_pam_vendordir) \
 rpm_macro(_pamdir)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 pam"

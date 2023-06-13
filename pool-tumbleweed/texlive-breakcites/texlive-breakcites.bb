@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(breakcites.sty) \
 texlive-breakcites"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

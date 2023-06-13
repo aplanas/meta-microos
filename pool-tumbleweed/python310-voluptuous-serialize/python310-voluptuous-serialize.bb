@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-voluptuous-serialize \
 python3.10dist(voluptuous-serialize) \
 python310-voluptuous-serialize \
 python3dist(voluptuous-serialize)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-voluptuous"
 

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-WebOb \
 python3.10dist(webob) \
 python310-WebOb \
 python3dist(webob)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

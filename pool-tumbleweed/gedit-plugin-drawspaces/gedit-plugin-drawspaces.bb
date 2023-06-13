@@ -13,6 +13,7 @@ gedit-plugins:/usr/lib64/gedit/plugins/drawspaces.plugin \
 libdrawspaces.so()(64bit) \
 metainfo() \
 metainfo(gedit-drawspaces.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

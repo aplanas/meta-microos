@@ -18,6 +18,7 @@ RPM_HASH = "0a689d8ad336afe50facf1be9f759463be8f55e52b7e34b0570cc84ff0f69c495725
 
 RPROVIDES:${PN} += "dirac \
 dirac(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

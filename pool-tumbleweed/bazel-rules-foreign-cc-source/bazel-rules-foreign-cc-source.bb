@@ -12,6 +12,7 @@ RPM_HASH = "2673768084f5d2ad13787ab76d322845fc74e8ac7dd155d51b5b877f2e82ad52c3c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-foreign-cc-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

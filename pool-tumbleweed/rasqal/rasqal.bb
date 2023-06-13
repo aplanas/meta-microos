@@ -13,6 +13,7 @@ RPM_HASH = "5fee0d3f3a5459247ebf84b4fccc419c082d929ff208133f575602cea73e77566b6b
 
 RPROVIDES:${PN} += "rasqal \
 rasqal(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

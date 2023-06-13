@@ -19,6 +19,7 @@ application(transmageddon.desktop) \
 metainfo() \
 metainfo(transmageddon.appdata.xml) \
 transmageddon"
+
 RDEPENDS:${PN} += "/bin/bash \
 gstreamer-plugins-base \
 python3 \

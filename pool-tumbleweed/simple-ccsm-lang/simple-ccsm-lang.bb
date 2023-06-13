@@ -37,6 +37,7 @@ locale(simple-ccsm:zh_CN) \
 locale(simple-ccsm:zh_TW) \
 simple-ccsm-lang \
 simple-ccsm-lang-all"
+
 RDEPENDS:${PN} += "simple-ccsm"
 
 inherit rpm

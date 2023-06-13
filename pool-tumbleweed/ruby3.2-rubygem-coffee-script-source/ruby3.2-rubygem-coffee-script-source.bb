@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:coffee-script-source) \
 rubygem(ruby:3.2.0:coffee-script-source:1) \
 rubygem(ruby:3.2.0:coffee-script-source:1.12) \
 rubygem(ruby:3.2.0:coffee-script-source:1.12.2)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

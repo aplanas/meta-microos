@@ -21,6 +21,7 @@ python39-base \
 python39-base(aarch-64) \
 python39-typing \
 python39-xml"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

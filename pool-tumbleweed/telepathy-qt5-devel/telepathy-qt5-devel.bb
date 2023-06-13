@@ -16,6 +16,7 @@ pkgconfig(TelepathyQt5Service) \
 telepathy-qt5-devel \
 telepathy-qt5-devel(aarch-64) \
 telepathy-qt5-service-devel-static"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtelepathy-qt5-0 \
 libtelepathy-qt5-farstream0 \

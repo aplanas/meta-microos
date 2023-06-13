@@ -9,6 +9,7 @@ RPM_HASH = "037a02e1d1a6d341150c5b5c5d45f0ade0ba76b223ba70e0dfb3bd110fc8d549b569
 
 RPROVIDES:${PN} += "neix \
 neix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

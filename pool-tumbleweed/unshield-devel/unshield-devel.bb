@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libunshield \
 pkgconfig(libunshield) \
 unshield-devel \
 unshield-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunshield0"
 

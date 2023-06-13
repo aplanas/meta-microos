@@ -15,6 +15,7 @@ locale(abook:fr) \
 locale(abook:it) \
 locale(abook:ja) \
 locale(abook:sv)"
+
 RDEPENDS:${PN} += "abook"
 
 inherit rpm

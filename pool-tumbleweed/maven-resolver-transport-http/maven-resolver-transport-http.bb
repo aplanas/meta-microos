@@ -14,6 +14,7 @@ mvn(org.apache.maven.resolver:maven-resolver-transport-http:pom:) \
 mvn(org.eclipse.aether:aether-transport-http) \
 mvn(org.eclipse.aether:aether-transport-http:pom:) \
 osgi(org.apache.maven.resolver.transport.http)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.httpcomponents:httpclient) \

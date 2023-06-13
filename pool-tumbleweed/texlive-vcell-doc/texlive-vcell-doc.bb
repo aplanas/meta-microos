@@ -9,6 +9,7 @@ RPM_HASH = "ff85f808862cb9f85068b89999b4d977098abbafeac97ec783c9fbdba09e9b43479b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vcell-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

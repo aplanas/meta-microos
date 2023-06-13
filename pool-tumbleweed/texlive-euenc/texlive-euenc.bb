@@ -32,6 +32,7 @@ tex(eu2lmssq.fd) \
 tex(eu2lmtt.fd) \
 tex(eu2lmvtt.fd) \
 texlive-euenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

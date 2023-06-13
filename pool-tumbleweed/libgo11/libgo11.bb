@@ -10,6 +10,7 @@ RPM_HASH = "295367994d6ac90e2215193a2eb10c6e7acc578577844270b5feb30e927fcb698905
 RPROVIDES:${PN} += "libgo.so.11()(64bit) \
 libgo11 \
 libgo11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

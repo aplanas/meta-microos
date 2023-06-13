@@ -66,6 +66,7 @@ locale(granatier:ug) \
 locale(granatier:uk) \
 locale(granatier:zh_CN) \
 locale(granatier:zh_TW)"
+
 RDEPENDS:${PN} += "granatier"
 
 inherit rpm

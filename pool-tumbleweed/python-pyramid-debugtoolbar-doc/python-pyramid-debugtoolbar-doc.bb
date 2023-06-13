@@ -9,6 +9,7 @@ RPM_HASH = "f644d472804fec2d90cebf11bc2c9e8bda5ef7ab8e4e88b25fbc9fd992040425c162
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyramid-debugtoolbar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

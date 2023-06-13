@@ -10,6 +10,7 @@ RPM_HASH = "7bf45ed40bbf65bc043e3fb806e508c4b489cff829d73d8ebb722906dde073fdf0b2
 RPROVIDES:${PN} += "gedit-plugin-session-saver \
 gedit-plugin-session-saver(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/session-saver.plugin"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GLib) \
 typelib(GObject) \

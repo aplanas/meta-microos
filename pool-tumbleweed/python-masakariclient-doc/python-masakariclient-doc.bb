@@ -11,6 +11,7 @@ RPM_HASH = "c931863d71a249bfb6319b45bf456457014909b180f91c9b3f6eb2fdc93a09b17bdd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-masakariclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

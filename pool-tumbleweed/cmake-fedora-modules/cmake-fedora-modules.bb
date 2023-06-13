@@ -11,6 +11,7 @@ RPM_HASH = "c3e99d8c265e42a9304fea54212417f8923528228a4977abe18639728318f149f985
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-fedora-modules"
+
 RDEPENDS:${PN} += "cmake"
 
 inherit rpm

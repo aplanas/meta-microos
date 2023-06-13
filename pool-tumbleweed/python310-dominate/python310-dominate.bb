@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-dominate \
 python3.10dist(dominate) \
 python310-dominate \
 python3dist(dominate)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

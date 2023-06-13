@@ -9,6 +9,7 @@ RPM_HASH = "c10dda2d6a92f50b75ff8c064bd4d42470a61ea3155be4cbdf77155bfafd1c698354
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsneohellenicmath-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

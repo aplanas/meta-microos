@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(shijian) \
 python39-shijian \
 python3dist(shijian)"
+
 RDEPENDS:${PN} += "python39-matplotlib \
 python39-numpy \
 python39-pandas \

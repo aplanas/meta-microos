@@ -40,6 +40,7 @@ RPM_HASH = "8c839e7c5622b4d0068aa4cc106a41dd7afa33f7b978bfdb63a0d5c1e8b3cf5e95b2
 RPROVIDES:${PN} += "config(nim) \
 nim \
 nim(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 gcc \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ libKF5WaylandClient.so.5()(64bit) \
 libKF5WaylandClient5 \
 libKF5WaylandServer.so.5()(64bit) \
 libKF5WaylandServer5"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

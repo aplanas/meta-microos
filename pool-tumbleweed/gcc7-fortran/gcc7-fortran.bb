@@ -9,6 +9,7 @@ RPM_HASH = "c2b634e3e67eaeed887ae4382a7786ab22ddd1f2006a2c65b3acfd004caee7e8e8d7
 
 RPROVIDES:${PN} += "gcc7-fortran \
 gcc7-fortran(aarch-64)"
+
 RDEPENDS:${PN} += "gcc7 \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgfortran4 \

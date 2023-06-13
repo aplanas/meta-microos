@@ -11,6 +11,7 @@ RPM_HASH = "8f0a716fdb76ce178163b5d459b30fd23fc0237e9ff855d2096fbd03dd23ebaee78d
 RPROVIDES:${PN} += "liborigin-devel \
 liborigin-devel(aarch-64) \
 pkgconfig(liborigin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liborigin3"
 

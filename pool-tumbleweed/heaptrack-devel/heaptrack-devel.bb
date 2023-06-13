@@ -10,6 +10,7 @@ RPM_HASH = "04d06eb8dbe80fbaf25189927cc3e2802a6bb6106e7d82475622ef134ddc913d247d
 
 RPROVIDES:${PN} += "heaptrack-devel \
 heaptrack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "heaptrack"
 
 inherit rpm

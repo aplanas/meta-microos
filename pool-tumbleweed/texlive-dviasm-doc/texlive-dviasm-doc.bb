@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(dviasm.1) \
 texlive-dviasm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

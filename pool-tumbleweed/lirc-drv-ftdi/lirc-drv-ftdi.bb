@@ -10,6 +10,7 @@ RPM_HASH = "33df61436a3eca3c6402f01544dee05b2205d641c5accc8276cbeb4cc2ab9062a32b
 
 RPROVIDES:${PN} += "lirc-drv-ftdi \
 lirc-drv-ftdi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

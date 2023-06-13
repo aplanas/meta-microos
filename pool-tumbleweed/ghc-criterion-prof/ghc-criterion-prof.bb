@@ -10,6 +10,7 @@ RPM_HASH = "1eb1cdd4da78a1a93e3fe5fb2f704cad5b09db9b73429b23ad9c8a2e0d106c274c9e
 RPROVIDES:${PN} += "ghc-criterion-prof \
 ghc-criterion-prof(aarch-64) \
 ghc-prof(criterion-1.6.0.0-DRzDBgvFHz63cqdMc7T97x)"
+
 RDEPENDS:${PN} += "ghc-criterion-devel \
 ghc-prof(Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R) \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

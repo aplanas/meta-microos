@@ -10,6 +10,7 @@ RPM_HASH = "14fdfd539e51fc51cc26d10abbcbed2b038ee092caa611777a07b279f05c2b885911
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost1_82_0-doc-pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "296e9fbd14046d8bfa29dd761cb689ae7de4b4eed7ed328020de133bf25fb483c5e9
 RPROVIDES:${PN} += "gtk3-immodule-amharic \
 gtk3-immodule-amharic(aarch-64) \
 locale(gtk3:am)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

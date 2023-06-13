@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-minio-storage) \
 python39-django-minio-storage \
 python3dist(django-minio-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-minio"

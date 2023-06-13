@@ -11,6 +11,7 @@ RPM_HASH = "77391d45f6428aeef8804bd151f7d1ef251819725dd6b283b971cfc5b0c2b239747a
 RPROVIDES:${PN} += "cmake(KF5SyntaxHighlighting) \
 syntax-highlighting-devel \
 syntax-highlighting-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5Gui) \
 extra-cmake-modules \

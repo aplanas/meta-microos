@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-bson \
 python3.10dist(bson) \
 python310-bson \
 python3dist(bson)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

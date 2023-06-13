@@ -10,6 +10,7 @@ RPM_HASH = "da86c04b3b4e2da2cc8e4573b5bfd1304c7e772765ee57454a081db18d13e827ffe0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-Xvnc-java"
+
 RDEPENDS:${PN} += "systemd"
 
 inherit rpm

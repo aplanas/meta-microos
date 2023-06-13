@@ -32,6 +32,7 @@ RPM_HASH = "1be80c9ffdfb8807f3e77724f0378ae7bb9bf54afc194d7439f47758db3a3f272357
 
 RPROVIDES:${PN} += "spdx-sbom-generator \
 spdx-sbom-generator(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

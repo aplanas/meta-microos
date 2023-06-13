@@ -51,6 +51,7 @@ tex(zref-user.sty) \
 tex(zref-xr.sty) \
 tex(zref.sty) \
 texlive-zref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

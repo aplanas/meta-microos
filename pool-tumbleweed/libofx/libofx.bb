@@ -11,6 +11,7 @@ RPM_HASH = "cce530968c46a5471e6397ec1d4234bee9c1db2b4ea26398b4d668d8596a92800e41
 
 RPROVIDES:${PN} += "libofx \
 libofx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

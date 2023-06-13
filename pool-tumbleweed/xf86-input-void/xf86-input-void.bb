@@ -13,6 +13,7 @@ RPM_HASH = "732f16fc93382372bcb7fe49a7deddd90d58d8f0dac9c95448df1d13a62aced793e5
 
 RPROVIDES:${PN} += "xf86-input-void \
 xf86-input-void(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 X11_ABI_XINPUT \
 ld-linux-aarch64.so.1()(64bit) \

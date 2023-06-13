@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(php8-enchant) \
 php-enchant \
 php8-enchant \
 php8-enchant(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

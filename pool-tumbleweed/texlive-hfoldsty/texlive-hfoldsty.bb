@@ -658,6 +658,7 @@ tex(ts1hfoss.fd) \
 tex(ts1hfott.fd) \
 tex(ts1hfovtt.fd) \
 texlive-hfoldsty"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

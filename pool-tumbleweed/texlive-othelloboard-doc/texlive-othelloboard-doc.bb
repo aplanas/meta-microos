@@ -9,6 +9,7 @@ RPM_HASH = "45736aa20731815065d7d4b565b6449d07c3656878f4639680cf78bcf7e6e397e726
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-othelloboard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

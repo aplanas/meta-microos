@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.9dist(hatch-fancy-pypi-readme) \
 python39-hatch-fancy-pypi-readme \
 python39-hatch_fancy_pypi_readme \
 python3dist(hatch-fancy-pypi-readme)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

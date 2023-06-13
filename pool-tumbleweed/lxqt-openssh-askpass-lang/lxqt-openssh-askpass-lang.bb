@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-openssh-askpass-lang \
 lxqt-openssh-askpass-lang-all"
+
 RDEPENDS:${PN} += "lxqt-openssh-askpass"
 
 inherit rpm

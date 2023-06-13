@@ -9,6 +9,7 @@ RPM_HASH = "e53b2f77beee0198407732077ec386d7b47436dbb279bf29662bd695d86d9432420d
 
 RPROVIDES:${PN} += "ufiformat \
 ufiformat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

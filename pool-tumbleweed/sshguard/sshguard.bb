@@ -12,6 +12,7 @@ RPM_HASH = "822dc3a495a460f59e53fd444632f502502277a9db282ff2ef040bd28f2429048414
 RPROVIDES:${PN} += "config(sshguard) \
 sshguard \
 sshguard(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

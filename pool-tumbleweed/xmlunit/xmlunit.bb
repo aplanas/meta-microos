@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(xmlunit:xmlunit) \
 mvn(xmlunit:xmlunit:pom:) \
 xmlunit"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 junit \

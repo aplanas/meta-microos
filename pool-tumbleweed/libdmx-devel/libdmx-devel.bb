@@ -17,6 +17,7 @@ RPM_HASH = "b2527dd543d1708c48bbdab6a4015a520f38ebc2330acc89d63909be43a07ba7644d
 RPROVIDES:${PN} += "libdmx-devel \
 libdmx-devel(aarch-64) \
 pkgconfig(dmx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmx1 \
 pkgconfig(dmxproto) \

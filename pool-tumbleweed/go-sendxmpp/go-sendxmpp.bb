@@ -9,6 +9,7 @@ RPM_HASH = "3bfbf0000e5e4afacde28d80707d6bb09a1798fd6134dfa3a1e36d27cd629bdd5cc3
 
 RPROVIDES:${PN} += "go-sendxmpp \
 go-sendxmpp(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

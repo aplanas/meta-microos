@@ -9,6 +9,7 @@ RPM_HASH = "7065ba4ad2db692517524688c7b328df4d3617d619e8b0db059800f982c1695183a8
 
 RPROVIDES:${PN} += "paps \
 paps(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-locale \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

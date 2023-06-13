@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jaraco.envs) \
 python39-jaraco.envs \
 python3dist(jaraco.envs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-path \
 python39-virtualenv"

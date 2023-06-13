@@ -17,6 +17,7 @@ engauge-digitizer(aarch-64) \
 metainfo() \
 metainfo(engauge-digitizer.appdata.xml) \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

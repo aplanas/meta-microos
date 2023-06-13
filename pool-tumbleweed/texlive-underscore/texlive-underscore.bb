@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(underscore.sty) \
 texlive-underscore"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

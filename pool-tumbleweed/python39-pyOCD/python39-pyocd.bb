@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pyocd) \
 python39-pyOCD \
 python39-pyocd \
 python3dist(pyocd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -10,6 +10,7 @@ RPM_HASH = "83345289bd5101b7454c4851f5e7a158aef32aaa150cbe7cdd66c6b03a11c2a100f3
 RPROVIDES:${PN} += "config(signond) \
 signond \
 signond(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

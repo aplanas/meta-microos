@@ -9,6 +9,7 @@ RPM_HASH = "848d517f9f93cd8c9723e1199639a6b07359a7e294ec0c21a09b26012d54a5b0f423
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-awesomebox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

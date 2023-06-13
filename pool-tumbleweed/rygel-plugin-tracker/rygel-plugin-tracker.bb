@@ -14,6 +14,7 @@ RPM_HASH = "088d35446ece101e3d9b7e1eaf2d50acedb53ab4610450b9c12fe010f013cf72cead
 RPROVIDES:${PN} += "librygel-tracker3.so()(64bit) \
 rygel-plugin-tracker \
 rygel-plugin-tracker(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

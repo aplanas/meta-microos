@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(coreschema) \
 python311-coreschema \
 python3dist(coreschema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Jinja2"
 

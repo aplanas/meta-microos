@@ -11,6 +11,7 @@ RPM_HASH = "c6a418b1c890cacef2151e45bb3415d43811bff112d63f9e55e6ad2e678d3e91bd1e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "novnc"
+
 RDEPENDS:${PN} += "/bin/bash \
 python3-websockify \
 which"

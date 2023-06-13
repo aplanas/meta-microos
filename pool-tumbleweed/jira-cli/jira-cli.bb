@@ -15,6 +15,7 @@ RPM_HASH = "11bee85a174a5d232acfcb9b88dfd54857e83f9c5e88db5b79a35fb01e5b8a11c1fe
 
 RPROVIDES:${PN} += "jira-cli \
 jira-cli(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

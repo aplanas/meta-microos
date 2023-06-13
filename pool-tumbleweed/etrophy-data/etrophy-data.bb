@@ -9,6 +9,7 @@ RPM_HASH = "1e6c330189865889e6eec57c27a2d5df99b30618c6cb97d5a0396a9151f87e2ac2f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etrophy-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

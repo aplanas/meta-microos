@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(defusedxml) \
 python39-defusedxml \
 python3dist(defusedxml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-xml"
 

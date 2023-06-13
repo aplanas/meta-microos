@@ -13,6 +13,7 @@ RPM_HASH = "31c1c7cb6a1273541eafcf5f96a1d6a3d4aede122060cf6614a812d3b17ee351e1c8
 RPROVIDES:${PN} += "libKF5MediaWiki.so.5()(64bit) \
 libKF5MediaWiki5 \
 libKF5MediaWiki5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

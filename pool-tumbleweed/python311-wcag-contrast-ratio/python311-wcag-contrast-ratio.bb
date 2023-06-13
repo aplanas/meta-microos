@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wcag-contrast-ratio) \
 python311-wcag-contrast-ratio \
 python3dist(wcag-contrast-ratio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

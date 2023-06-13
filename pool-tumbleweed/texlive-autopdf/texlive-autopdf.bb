@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(autopdf.sty) \
 texlive-autopdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

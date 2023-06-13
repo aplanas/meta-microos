@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(fastjsonschema) \
 python39-fastjsonschema \
 python3dist(fastjsonschema)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

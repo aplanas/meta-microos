@@ -18,6 +18,7 @@ libpopt.so.0(LIBPOPT_0)(64bit) \
 libpopt0 \
 libpopt0(aarch-64) \
 popt"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

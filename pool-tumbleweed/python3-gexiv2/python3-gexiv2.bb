@@ -12,6 +12,7 @@ RPM_HASH = "e1f1275df87f0cd403efad27755c986e5491169af4c5e70519439d25d0e2f7dbf7bb
 
 RPROVIDES:${PN} += "python3-gexiv2 \
 python3-gexiv2(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-gobject \
 typelib(GExiv2)"

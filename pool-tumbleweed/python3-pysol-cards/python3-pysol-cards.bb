@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pysol-cards \
 python3.10dist(pysol-cards) \
 python3dist(pysol-cards)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-random2 \
 python3-six"

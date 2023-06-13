@@ -9,6 +9,7 @@ RPM_HASH = "8137af44aa9d5425bacfae0ae70999c8c031925cabdae19807a434cd0fa19dd0c115
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icinga-l10n"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

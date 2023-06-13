@@ -20,6 +20,7 @@ RPM_HASH = "8756f8f21a4fe3764977c8b97c70a0eb08bbbed2382fa5c8042e88ac89de883665d8
 
 RPROVIDES:${PN} += "qpdf \
 qpdf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

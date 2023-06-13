@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-croniter \
 python3.10dist(croniter) \
 python310-croniter \
 python3dist(croniter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

@@ -9,6 +9,7 @@ RPM_HASH = "5ff3523e412b8a7d668d0b1cfa231514f43113038a2b3242e5cfa96f840fd3013655
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-fish-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

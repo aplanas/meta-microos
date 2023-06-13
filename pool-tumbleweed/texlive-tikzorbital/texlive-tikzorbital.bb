@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzorbital.sty) \
 texlive-tikzorbital"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

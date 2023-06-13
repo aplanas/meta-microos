@@ -9,6 +9,7 @@ RPM_HASH = "7adfd71e14107f35bf6d365c1b4c91df5fa4da2878fd7ce6eb03b5744bcfedab6622
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-layout"
+
 RDEPENDS:${PN} += "bumblebee-status \
 setxkbmap"
 

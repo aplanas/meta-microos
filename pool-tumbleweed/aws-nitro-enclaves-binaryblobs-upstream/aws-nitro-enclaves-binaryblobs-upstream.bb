@@ -12,6 +12,7 @@ RPM_HASH = "9dd5f5182e3310b56ddbc215563027ff41226727117e5c7a5c53cb0f10bd57d424ca
 RPROVIDES:${PN} += "aws-nitro-enclaves-binaryblobs \
 aws-nitro-enclaves-binaryblobs-upstream \
 aws-nitro-enclaves-binaryblobs-upstream(aarch-64)"
+
 RDEPENDS:${PN} += "rtld(GNU_HASH)"
 
 inherit rpm

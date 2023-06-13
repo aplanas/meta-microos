@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-asdf \
 python3.10dist(asdf) \
 python310-asdf \
 python3dist(asdf)"
+
 RDEPENDS:${PN} += "(python310-jsonschema >= 4.0.1 with python310-jsonschema < 4.18) \
 /bin/sh \
 /usr/bin/python3.10 \

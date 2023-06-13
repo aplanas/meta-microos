@@ -17,6 +17,7 @@ RPM_HASH = "8bc5aafa4cf989785ec964f55ad77dcc23a801312f93f70f8f09dd081820a046b025
 RPROVIDES:${PN} += "config(pmacct) \
 pmacct \
 pmacct(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

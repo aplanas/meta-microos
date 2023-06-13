@@ -15,6 +15,7 @@ RPM_HASH = "6e3a642e541a38e76cb9dd906ed55adfee6354dd23ac5c53c7d6c52c02ebb0e9fff7
 RPROVIDES:${PN} += "libtomcrypt.so.1()(64bit) \
 libtomcrypt1 \
 libtomcrypt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

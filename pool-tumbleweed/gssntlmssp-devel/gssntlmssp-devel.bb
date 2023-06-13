@@ -9,6 +9,7 @@ RPM_HASH = "7bf22f60a7505aaf764700310a96db8d0ec4d286328bf31ee2005bbbbde594e47352
 
 RPROVIDES:${PN} += "gssntlmssp-devel \
 gssntlmssp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gssntlmssp"
 
 inherit rpm

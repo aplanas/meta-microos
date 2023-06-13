@@ -19,6 +19,7 @@ RPM_HASH = "e7c4c6171eaa96943cb3ac82c599f6e99a4918ff2593b7fc2e2cb4bbbf457cc59dce
 RPROVIDES:${PN} += "ghc-transformers-compat \
 ghc-transformers-compat(aarch-64) \
 libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hawkauthlib) \
 python39-hawkauthlib \
 python3dist(hawkauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WebOb"
 

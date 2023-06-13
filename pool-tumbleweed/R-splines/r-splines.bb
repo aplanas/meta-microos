@@ -9,6 +9,7 @@ RPM_HASH = "5170e321e9eb15378f1d211939a48b287f851fd876b2e458b945411fde3a4e61201b
 
 RPROVIDES:${PN} += "R-splines \
 R-splines(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 libR.so()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

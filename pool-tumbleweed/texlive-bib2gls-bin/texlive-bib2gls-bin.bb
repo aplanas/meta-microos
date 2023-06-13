@@ -9,6 +9,7 @@ RPM_HASH = "ee17a6b99bc67d4ba4620ab19d796ad998b61c7e5d3242fbd2f59acbf1aa7657c5d0
 
 RPROVIDES:${PN} += "texlive-bib2gls-bin \
 texlive-bib2gls-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-bib2gls"
 
 inherit rpm

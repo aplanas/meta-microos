@@ -43,6 +43,7 @@ RPM_HASH = "3e8be3a943054c911dfa101894ed17448b96338559169e4b6019638d922299653fe2
 RPROVIDES:${PN} += "ghc-lukko \
 ghc-lukko(aarch-64) \
 libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "f7b81845950b987fd883c6cf778968a7cf649708efe7f2ddbe41b17597c71ad0233e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-systemd-sleep-plugin"
+
 RDEPENDS:${PN} += "/bin/bash \
 grub2 \
 util-linux"

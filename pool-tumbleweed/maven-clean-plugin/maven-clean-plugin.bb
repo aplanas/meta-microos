@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-clean-plugin \
 mvn(org.apache.maven.plugins:maven-clean-plugin) \
 mvn(org.apache.maven.plugins:maven-clean-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

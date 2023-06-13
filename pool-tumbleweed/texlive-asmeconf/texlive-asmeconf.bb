@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(asmeconf.cls) \
 texlive-asmeconf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

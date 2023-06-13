@@ -102,6 +102,7 @@ firmware(wfx/wfm_wf200_C0.sec) \
 firmware(yam/1200.bin) \
 firmware(yam/9600.bin) \
 kernel-firmware-platform"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

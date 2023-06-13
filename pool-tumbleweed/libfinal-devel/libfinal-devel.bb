@@ -16,6 +16,7 @@ RPM_HASH = "8fa102ed6fc960e1ab5311c8165ac017241b35c585e91c8d93e740c74e03a3bad6b0
 RPROVIDES:${PN} += "libfinal-devel \
 libfinal-devel(aarch-64) \
 pkgconfig(finalcut)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bdftopcf \
 coreutils \

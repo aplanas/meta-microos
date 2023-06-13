@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-slip-dbus \
 python3.10dist(slip.dbus) \
 python310-slip-dbus \
 python3dist(slip.dbus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dbus-python \
 python310-decorator \

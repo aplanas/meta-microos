@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(LibtorrentRasterbar) \
 libtorrent-rasterbar-devel \
 libtorrent-rasterbar-devel(aarch-64) \
 pkgconfig(libtorrent-rasterbar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gcc-c++ \
 libboost_headers-devel \

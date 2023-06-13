@@ -10,6 +10,7 @@ RPM_HASH = "3f635b1ad1fbe077d4e308485f96f3b6334134fa3d32b966fc69d4e5464a539e268f
 RPROVIDES:${PN} += "perl(Passwd::Keyring::Gnome) \
 perl-Passwd-Keyring-Gnome \
 perl-Passwd-Keyring-Gnome(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-sofa) \
 python39-python-sofa \
 python3dist(python-sofa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-netCDF4 \
 python39-numpy \

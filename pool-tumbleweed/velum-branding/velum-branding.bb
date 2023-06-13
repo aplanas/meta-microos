@@ -9,6 +9,7 @@ RPM_HASH = "6d25279dda1dff265bba5b2c090ff4a585dac04807829417e3188095fdcf5f2eea9a
 
 RPROVIDES:${PN} += "velum-branding \
 velum-branding(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

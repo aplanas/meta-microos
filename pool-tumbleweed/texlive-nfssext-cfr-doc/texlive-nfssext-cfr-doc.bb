@@ -9,6 +9,7 @@ RPM_HASH = "ffd47a22192fa6691c12521600a1ece52b6f15144e7fa5b244f549ee99f68f7027b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nfssext-cfr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

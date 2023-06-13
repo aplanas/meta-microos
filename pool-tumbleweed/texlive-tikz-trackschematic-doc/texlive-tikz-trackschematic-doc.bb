@@ -9,6 +9,7 @@ RPM_HASH = "0f75aaa2d1960a82eac9c21dbcc0078dc99aa3ea169e3a9d24baa26566836cafad4e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-trackschematic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

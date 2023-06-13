@@ -12,6 +12,7 @@ RPM_HASH = "98fc3c10630f632192baf94e35d7343c725c3baff4c85d4ab5c20b6721f0d2f9be77
 RPROVIDES:${PN} += "cyrus-sasl-plain \
 cyrus-sasl-plain(aarch-64) \
 libplain.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

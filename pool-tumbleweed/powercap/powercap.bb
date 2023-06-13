@@ -17,6 +17,7 @@ RPM_HASH = "cab0373c57f2e92d32f60617efaf668a54b4ee6e3d36f8acd66db0b045184f96e0f0
 RPROVIDES:${PN} += "libpowercap.so.0()(64bit) \
 powercap \
 powercap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

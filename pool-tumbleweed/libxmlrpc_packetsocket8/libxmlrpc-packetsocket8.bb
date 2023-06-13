@@ -11,6 +11,7 @@ RPM_HASH = "93b1646b24c68d8df75acff3fe4b47a2bf57394fc867619a48ee30a0517e611bb09d
 RPROVIDES:${PN} += "libxmlrpc_packetsocket.so.8()(64bit) \
 libxmlrpc_packetsocket8 \
 libxmlrpc_packetsocket8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

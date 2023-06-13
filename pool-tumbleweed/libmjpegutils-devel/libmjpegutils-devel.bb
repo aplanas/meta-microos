@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libmjpegutils-devel \
 libmjpegutils-devel(aarch-64) \
 mjpegtools-devel \
 pkgconfig(mjpegtools)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblavfile-2_2-0 \
 liblavjpeg-2_2-0 \

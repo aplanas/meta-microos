@@ -59,6 +59,7 @@ locale(xfce4-cpugraph-plugin:zh_TW) \
 xfce4-cpugraph-plugin-lang \
 xfce4-cpugraph-plugin-lang-all \
 xfce4-panel-plugin-cpugraph-lang"
+
 RDEPENDS:${PN} += "xfce4-cpugraph-plugin"
 
 inherit rpm

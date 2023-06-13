@@ -20,6 +20,7 @@ RPM_HASH = "25f09be853b3e2c33db60cca7cb863d26e178d912dfa0a96dc797e7711a38149d934
 RPROVIDES:${PN} += "libcourier-unicode.so.7()(64bit) \
 libcourier-unicode7 \
 libcourier-unicode7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

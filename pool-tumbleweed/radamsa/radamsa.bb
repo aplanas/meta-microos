@@ -15,6 +15,7 @@ RPM_HASH = "bc7e475245da414f369ec79aaec03054b3be634272f61f8e09ab6872b162d032bc24
 
 RPROVIDES:${PN} += "radamsa \
 radamsa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -9,6 +9,7 @@ RPM_HASH = "870a55afe070412fa4ef2469302101150105845f9580e5a71ad9805c771b7697ef6d
 
 RPROVIDES:${PN} += "ungoogled-chromium-chromedriver \
 ungoogled-chromium-chromedriver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "dc6638c4da02ca0c3187344c52bc0aabf2e8cc67a0dbb2a04f4fd38bc2f987815dd4
 
 RPROVIDES:${PN} += "update-test-security \
 update-test-security(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

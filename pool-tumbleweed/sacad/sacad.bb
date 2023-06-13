@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(sacad) \
 python3dist(sacad) \
 sacad"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Pillow \

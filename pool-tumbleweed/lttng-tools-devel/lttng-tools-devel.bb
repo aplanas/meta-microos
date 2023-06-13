@@ -11,6 +11,7 @@ RPM_HASH = "8c3cde4d2db949203a8cd9e74c766bd2f30f08a752afee5609f3db88c77ca6f71825
 RPROVIDES:${PN} += "lttng-tools-devel \
 lttng-tools-devel(aarch-64) \
 pkgconfig(lttng-ctl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblttng-ctl0 \
 pkgconfig(liburcu) \

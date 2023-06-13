@@ -196,6 +196,7 @@ font(lmsans9) \
 font(lmsansdemicond10) \
 font(lmsansquot8) \
 texlive-lm-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

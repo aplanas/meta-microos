@@ -9,6 +9,7 @@ RPM_HASH = "e2c52a6424e09ffa6d0d6f2516bd2ba5c4f5ba7bcd5c0014e3b1fe0b6492c66c576c
 
 RPROVIDES:${PN} += "qt6-quicktimeline-docs-html \
 qt6-quicktimeline-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -105,6 +105,7 @@ perl(PPIx::Regexp::Token::Whitespace) \
 perl(PPIx::Regexp::Tokenizer) \
 perl(PPIx::Regexp::Util) \
 perl-PPIx-Regexp"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PPI::Document) \
 perl(PPI::Dumper) \

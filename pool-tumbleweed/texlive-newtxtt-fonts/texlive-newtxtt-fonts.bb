@@ -101,6 +101,7 @@ font(newtxbttsc) \
 font(newtxtt) \
 font(newtxttsc) \
 texlive-newtxtt-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

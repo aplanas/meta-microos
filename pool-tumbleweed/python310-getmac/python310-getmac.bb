@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-getmac \
 python3.10dist(getmac) \
 python310-getmac \
 python3dist(getmac)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

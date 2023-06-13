@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pip-shims) \
 python39-pip-shims \
 python3dist(pip-shims)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pip \
 python39-setuptools \

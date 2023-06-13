@@ -15,6 +15,7 @@ RPM_HASH = "90b7ab67c7f77a221b84981504a87bece516cdecf9f10cbdd23958ef80d05b80b185
 RPROVIDES:${PN} += "libdiscid-devel \
 libdiscid-devel(aarch-64) \
 pkgconfig(libdiscid)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdiscid0"
 

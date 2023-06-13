@@ -13,6 +13,7 @@ RPM_HASH = "ad55f4ae85c1e3da1f9260eebac35cc56c471f70fb7f8663e05a3a976f607c46c0ab
 
 RPROVIDES:${PN} += "plplot-doc \
 plplot-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

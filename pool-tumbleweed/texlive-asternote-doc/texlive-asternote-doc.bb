@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ja) \
 locale(texlive-asternote-doc:en \
 texlive-asternote-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

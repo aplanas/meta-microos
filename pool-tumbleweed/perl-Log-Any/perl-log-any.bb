@@ -63,6 +63,7 @@ perl(Log::Any::Proxy::Test) \
 perl(Log::Any::Proxy::WithStackTrace) \
 perl(Log::Any::Test) \
 perl-Log-Any"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

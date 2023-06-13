@@ -17,6 +17,7 @@ ffmpeg-4-libavdevice-devel(aarch-64) \
 ffmpeg-devel \
 libavdevice-devel \
 pkgconfig(libavdevice)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-4-libavcodec-devel \
 ffmpeg-4-libavfilter-devel \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(geekodoc) \
 geekodoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 sgml-skel"
 

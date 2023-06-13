@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "log4j-nosql \
 mvn(org.apache.logging.log4j:log4j-couchdb) \
 mvn(org.apache.logging.log4j:log4j-couchdb:pom:) \
 osgi(org.apache.logging.log4j.couchdb)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.logging.log4j:log4j-core) \

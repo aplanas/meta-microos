@@ -142,6 +142,7 @@ tex(upzd.fd) \
 tex(utopia.map) \
 tex(utopia.sty) \
 texlive-psnfss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

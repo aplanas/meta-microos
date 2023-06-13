@@ -15,6 +15,7 @@ pattern-icon() \
 pattern-order() \
 patterns-kde-kde_telepathy \
 patterns-openSUSE-kde_telephony"
+
 RDEPENDS:${PN} += "ktp-accounts-kcm \
 ktp-auth-handler \
 ktp-common-internals \

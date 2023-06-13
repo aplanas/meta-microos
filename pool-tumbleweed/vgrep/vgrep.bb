@@ -14,6 +14,7 @@ RPM_HASH = "f852b4ca83c177b11b7f157ebe07269a82abb8629c32b230c523a676f09f40eed9f9
 
 RPROVIDES:${PN} += "vgrep \
 vgrep(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 grep"
 

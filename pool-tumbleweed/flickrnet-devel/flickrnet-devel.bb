@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flickrnet-devel \
 pkgconfig(flickrnet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 flickrnet \
 pkgconfig"

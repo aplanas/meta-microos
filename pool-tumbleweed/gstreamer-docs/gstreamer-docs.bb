@@ -16,6 +16,7 @@ gstreamer-plugins-good-doc \
 gstreamer-plugins-libav-doc \
 gstreamer-plugins-ugly-doc \
 gstreamer-plugins-vaapi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

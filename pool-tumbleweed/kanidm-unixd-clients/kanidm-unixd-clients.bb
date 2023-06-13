@@ -11,6 +11,7 @@ RPM_HASH = "36bfcb271436e047bb5fef90382c4b5f2ef24462405326cb7090017aad5f901cc2bf
 RPROVIDES:${PN} += "kanidm-unixd-clients \
 kanidm-unixd-clients(aarch-64) \
 libnss_kanidm.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kanidm-clients \
 libc.so.6(GLIBC_2.34)(64bit) \

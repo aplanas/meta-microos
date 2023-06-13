@@ -12,6 +12,7 @@ RPM_HASH = "03208d8b1d2ac9bfe850064cbbe2700978e4ac51965b82f84665ea3e4a16b9aa1e44
 RPROVIDES:${PN} += "libmgl-glut.so.8()(64bit) \
 libmgl-glut8 \
 libmgl-glut8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

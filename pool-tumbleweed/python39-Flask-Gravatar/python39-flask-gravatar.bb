@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flask-gravatar) \
 python39-Flask-Gravatar \
 python3dist(flask-gravatar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Flask"
 

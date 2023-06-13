@@ -9,6 +9,7 @@ RPM_HASH = "8623f6e40bd054ea8756b9967b652ce9947494e3b0d50bb8d882c9f31762aafff975
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-fdo-notify-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

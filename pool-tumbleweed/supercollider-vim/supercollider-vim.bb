@@ -9,6 +9,7 @@ RPM_HASH = "4023782295e5af68722b4dc5426377b9c255448a61234e7523abe0e7055b7c0b9bdd
 
 RPROVIDES:${PN} += "supercollider-vim \
 supercollider-vim(aarch-64)"
+
 RDEPENDS:${PN} += "supercollider"
 
 inherit rpm

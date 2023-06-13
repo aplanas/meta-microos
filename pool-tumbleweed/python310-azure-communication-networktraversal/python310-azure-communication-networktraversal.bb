@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-communication-networktraversal \
 python3.10dist(azure-communication-networktraversal) \
 python310-azure-communication-networktraversal \
 python3dist(azure-communication-networktraversal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-communication-nspkg \
 python310-azure-core \

@@ -14,6 +14,7 @@ mpg123-devel(aarch-64) \
 pkgconfig(libmpg123) \
 pkgconfig(libout123) \
 pkgconfig(libsyn123)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpg123-0 \
 libout123-0 \

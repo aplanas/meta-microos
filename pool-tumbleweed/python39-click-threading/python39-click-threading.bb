@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(click-threading) \
 python39-click-threading \
 python3dist(click-threading)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-click"
 

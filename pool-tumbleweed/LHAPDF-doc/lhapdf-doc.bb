@@ -12,6 +12,7 @@ RPM_HASH = "5a1ab3372a4842c1f93aa6561fe08ad1c91e665c1708f81847a46a5d7fd64a508604
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "LHAPDF-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

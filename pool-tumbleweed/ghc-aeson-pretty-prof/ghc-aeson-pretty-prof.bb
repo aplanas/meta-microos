@@ -10,6 +10,7 @@ RPM_HASH = "4df7f0f2a492931eea752e8fc65c21b060c1b7c9f005224a1af029e9e33172f9c702
 RPROVIDES:${PN} += "ghc-aeson-pretty-prof \
 ghc-aeson-pretty-prof(aarch-64) \
 ghc-prof(aeson-pretty-0.8.9-LUjG36DF6cc5sU1N5Uw0pr)"
+
 RDEPENDS:${PN} += "ghc-aeson-pretty-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

@@ -42,6 +42,7 @@ locale(kwave:tr) \
 locale(kwave:uk) \
 locale(kwave:zh_CN) \
 locale(kwave:zh_TW)"
+
 RDEPENDS:${PN} += "kwave"
 
 inherit rpm

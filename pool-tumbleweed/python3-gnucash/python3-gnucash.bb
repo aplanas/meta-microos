@@ -10,6 +10,7 @@ RPM_HASH = "a1b44c0032a2abe256c3ae5f8cbef4f70a7cad0fbd15c80ea4c88825590e0dc9643c
 
 RPROVIDES:${PN} += "python3-gnucash \
 python3-gnucash(aarch-64)"
+
 RDEPENDS:${PN} += "gnucash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

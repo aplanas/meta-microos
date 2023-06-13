@@ -17,6 +17,7 @@ RPM_HASH = "7b970ddd33a412e249ebff863998bbe77bf30c997caa748af66cf492e3ebfcd2c71e
 RPROVIDES:${PN} += "sofia-sip \
 sofia-sip(aarch-64) \
 sofia-sip-utils"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

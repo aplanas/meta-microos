@@ -15,6 +15,7 @@ RPM_HASH = "ba420a12b0fa1355d1d427b881905d2783ba97d1d9c4c815a663375c4b22f520dc81
 RPROVIDES:${PN} += "config(mrouted) \
 mrouted \
 mrouted(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

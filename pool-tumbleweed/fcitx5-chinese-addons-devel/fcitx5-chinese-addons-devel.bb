@@ -12,6 +12,7 @@ cmake(Fcitx5ModulePinyinHelper) \
 cmake(Fcitx5ModulePunctuation) \
 fcitx5-chinese-addons-devel \
 fcitx5-chinese-addons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx5-chinese-addons \
 fcitx5-pinyindictmanager"
 

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "liboggz.so.2()(64bit) \
 liboggz.so.2(liboggz.so.0.2)(64bit) \
 liboggz2 \
 liboggz2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

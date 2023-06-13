@@ -13,6 +13,7 @@ libxfce4ui-devel(aarch-64) \
 libxfce4uiglade2.so()(64bit) \
 pkgconfig(libxfce4kbd-private-3) \
 pkgconfig(libxfce4ui-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgladeui-2.so.13()(64bit) \

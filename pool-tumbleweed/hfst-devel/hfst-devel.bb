@@ -15,6 +15,7 @@ RPM_HASH = "5882cfb79c5310ff7c4ea04a95b67f4f9d08a911fe39b96f326b15e471cf5df9ddf6
 RPROVIDES:${PN} += "hfst-devel \
 hfst-devel(aarch-64) \
 pkgconfig(hfst)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhfst53"
 

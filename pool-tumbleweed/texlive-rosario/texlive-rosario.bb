@@ -612,6 +612,7 @@ tex(ros_wlsyn3.enc) \
 tex(ros_wxmaut.enc) \
 tex(ros_znhcko.enc) \
 texlive-rosario"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

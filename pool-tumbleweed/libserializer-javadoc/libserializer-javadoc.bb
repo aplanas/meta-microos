@@ -9,6 +9,7 @@ RPM_HASH = "c8d311136978e5b1b61f9fdcc5b7915f032c75c663edcc7bd2ae2253e18e8cbd4599
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libserializer-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

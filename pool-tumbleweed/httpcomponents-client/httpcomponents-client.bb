@@ -23,6 +23,7 @@ mvn(org.apache.httpcomponents:httpmime:pom:) \
 osgi(org.apache.httpcomponents.fluent-hc) \
 osgi(org.apache.httpcomponents.httpclient) \
 osgi(org.apache.httpcomponents.httpmime)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-codec:commons-codec) \

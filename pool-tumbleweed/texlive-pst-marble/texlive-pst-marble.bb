@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-marble.sty) \
 tex(pst-marble.tex) \
 texlive-pst-marble"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "bd7f707de513734cb2d53cf43166f189b8ffe6b0f4227057ad235414cff241fb82f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grading-scheme-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

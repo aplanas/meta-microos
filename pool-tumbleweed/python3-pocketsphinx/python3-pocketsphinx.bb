@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pocketsphinx \
 python3-pocketsphinx(aarch-64) \
 python3.10dist(pocketsphinx) \
 python3dist(pocketsphinx)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

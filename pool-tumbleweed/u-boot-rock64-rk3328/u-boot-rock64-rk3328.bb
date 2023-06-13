@@ -11,6 +11,7 @@ RPM_HASH = "60073d431985cc485a379da66d31319e499e2d80d04510383e1116e93f2c42f429ca
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rock64-rk3328 \
 u-boot-rock64-rk3328(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

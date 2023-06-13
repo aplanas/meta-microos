@@ -12,6 +12,7 @@ RPM_HASH = "1e18aa6b4a0378c1fff6d9695289616bd092ae19f8d62884b0a464cce16d7a775da1
 
 RPROVIDES:${PN} += "btfs \
 btfs(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

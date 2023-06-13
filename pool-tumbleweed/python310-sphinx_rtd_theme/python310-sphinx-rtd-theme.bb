@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinx_rtd_theme \
 python3.10dist(sphinx-rtd-theme) \
 python310-sphinx_rtd_theme \
 python3dist(sphinx-rtd-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-docutils \

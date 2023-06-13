@@ -28,6 +28,7 @@ postgresql-devel-exclusive \
 postgresql-devel-implementation \
 postgresql12-devel \
 postgresql12-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

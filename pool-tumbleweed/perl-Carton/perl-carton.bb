@@ -39,6 +39,7 @@ perl(Carton::Snapshot::Parser) \
 perl(Carton::Tree) \
 perl(Carton::Util) \
 perl-Carton"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta) \

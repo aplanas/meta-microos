@@ -9,6 +9,7 @@ RPM_HASH = "4da8893c7863fc0bdbc7d42bda82f72aca681397802aa580da42e51e21897ade55bc
 
 RPROVIDES:${PN} += "spooles-devel \
 spooles-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libspooles2_2"
 
 inherit rpm

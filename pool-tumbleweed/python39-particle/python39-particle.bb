@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(particle) \
 python39-particle \
 python3dist(particle)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-hepunits"

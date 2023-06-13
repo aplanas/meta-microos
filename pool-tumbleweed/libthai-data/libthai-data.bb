@@ -14,6 +14,7 @@ RPM_HASH = "4f59060ec4c3f25a8be462652525d028a31f6f14ae8acc086191e7ebd8e8ffb1020c
 
 RPROVIDES:${PN} += "libthai-data \
 libthai-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

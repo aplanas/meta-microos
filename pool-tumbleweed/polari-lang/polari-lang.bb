@@ -66,6 +66,7 @@ locale(polari:zh_HK) \
 locale(polari:zh_TW) \
 polari-lang \
 polari-lang-all"
+
 RDEPENDS:${PN} += "polari"
 
 inherit rpm

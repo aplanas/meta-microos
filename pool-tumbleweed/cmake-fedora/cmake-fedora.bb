@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-fedora \
 config(cmake-fedora)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh"
 

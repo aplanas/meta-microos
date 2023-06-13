@@ -11,6 +11,7 @@ RPM_HASH = "79c6811f08b72acc59e99d74f95bb8dd432f32fcd63f574512d16525c38e5bea2501
 RPROVIDES:${PN} += "libdxflib-3.26.4.so.1()(64bit) \
 libdxflib-3_26_4-1 \
 libdxflib-3_26_4-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

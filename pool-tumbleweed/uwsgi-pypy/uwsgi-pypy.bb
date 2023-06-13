@@ -11,6 +11,7 @@ RPM_HASH = "d812d721911140c55e945641841dc8e67f78b941bcce328717aca7be04eb4410ab4b
 
 RPROVIDES:${PN} += "uwsgi-pypy \
 uwsgi-pypy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

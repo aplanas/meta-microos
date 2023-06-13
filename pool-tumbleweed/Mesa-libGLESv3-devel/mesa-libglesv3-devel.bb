@@ -15,6 +15,7 @@ RPM_HASH = "f0cb972d9d7b838af71e18ebaa55d61bc67aba3e7e132afb965da509d966ce8a3f18
 
 RPROVIDES:${PN} += "Mesa-libGLESv3-devel \
 Mesa-libGLESv3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa-KHR-devel \
 pkgconfig(egl)"
 

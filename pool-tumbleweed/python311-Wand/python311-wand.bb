@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wand) \
 python311-Wand \
 python3dist(wand)"
+
 RDEPENDS:${PN} += "ImageMagick \
 python(abi)"
 

@@ -12,6 +12,7 @@ RPM_HASH = "8bfd3de50dd1c7b19035196a92024bbdcbec2f5d25819ac6821d211ae331dec02d05
 
 RPROVIDES:${PN} += "ledger \
 ledger(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "f3aee3ffbf8bce43b6be5bf73ca0d10365466fc63afe46461832b00b85fcc221af2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-bibtexextra"
+
 RDEPENDS:${PN} += "texlive-aaai-named \
 texlive-aichej \
 texlive-ajl \

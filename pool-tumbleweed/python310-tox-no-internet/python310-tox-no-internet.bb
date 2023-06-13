@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tox-no-internet \
 python3.10dist(tox-no-internet) \
 python310-tox-no-internet \
 python3dist(tox-no-internet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tox"
 

@@ -52,6 +52,7 @@ locale(audacious-plugins:tr) \
 locale(audacious-plugins:uk) \
 locale(audacious-plugins:zh_CN) \
 locale(audacious-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "audacious-plugins"
 
 inherit rpm

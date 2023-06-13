@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-kmr-Latn \
 libreoffice-help-kmr_Latn \
 libreoffice-l10n-kmr_Latn \
 locale(libreoffice:kmr_Latn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \

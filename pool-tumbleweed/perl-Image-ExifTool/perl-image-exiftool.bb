@@ -189,6 +189,7 @@ perl(Image::ExifTool::ZIP) \
 perl(Image::ExifTool::ZISRAW) \
 perl(Image::ExifTool::iWork) \
 perl-Image-ExifTool"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::RandomAccess)"
 

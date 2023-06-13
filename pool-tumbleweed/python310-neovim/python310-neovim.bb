@@ -14,6 +14,7 @@ python3.10dist(pynvim) \
 python310-neovim \
 python310-nvim \
 python3dist(pynvim)"
+
 RDEPENDS:${PN} += "neovim \
 python(abi) \
 python310-greenlet \

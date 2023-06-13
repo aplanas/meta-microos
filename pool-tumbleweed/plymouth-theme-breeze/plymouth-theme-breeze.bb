@@ -10,6 +10,7 @@ RPM_HASH = "896294ddbe7493ea9a30b9ddc4aaf2fea0caee872c7940e6e3578a001a216c7fe892
 
 RPROVIDES:${PN} += "plymouth-theme-breeze \
 plymouth-theme-breeze(aarch-64)"
+
 RDEPENDS:${PN} += "plymouth-plugin-label-ft \
 plymouth-scripts \
 plymouth-theme-breeze-plugin-breeze"

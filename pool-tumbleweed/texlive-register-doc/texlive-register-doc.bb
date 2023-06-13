@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Reg_macro) \
 texlive-register-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

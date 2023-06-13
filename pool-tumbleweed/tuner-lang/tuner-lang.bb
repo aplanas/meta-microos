@@ -15,6 +15,7 @@ locale(tuner:nl) \
 locale(tuner:tr) \
 tuner-lang \
 tuner-lang-all"
+
 RDEPENDS:${PN} += "tuner"
 
 inherit rpm

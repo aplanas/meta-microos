@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(endiagram.sty) \
 texlive-endiagram"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

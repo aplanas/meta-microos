@@ -10,6 +10,7 @@ RPM_HASH = "327531d1c6c94a4da79d9ce2402115bb0023f09ad612b57d05f307c3ef4f625bed0d
 
 RPROVIDES:${PN} += "slurp \
 slurp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

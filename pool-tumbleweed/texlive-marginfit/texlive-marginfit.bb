@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(marginfit.sty) \
 texlive-marginfit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

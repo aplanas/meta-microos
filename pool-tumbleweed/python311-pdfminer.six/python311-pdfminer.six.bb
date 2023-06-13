@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(pdfminer.six) \
 python311-pdfminer.six \
 python311-pdfminer3k \
 python3dist(pdfminer.six)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

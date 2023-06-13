@@ -12,6 +12,7 @@ RPM_HASH = "dd0d943ab2f5d4e6552e1618c50d33be8d58b7f069cba0ddea18deb827ea136b417d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-pymongo"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aws-xray-sdk \
 python311-pymongo"

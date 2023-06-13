@@ -23,6 +23,7 @@ pkgconfig(x11) \
 pkgconfig(x11-xcb) \
 xorg-x11-libX11-devel \
 xorgproto-devel:/usr/include/X11/extensions/XKBgeom.h"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libX11-6 \
 libX11-xcb1 \

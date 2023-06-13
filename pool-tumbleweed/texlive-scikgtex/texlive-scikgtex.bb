@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scikgtex.sty) \
 texlive-scikgtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

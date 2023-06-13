@@ -11,6 +11,7 @@ RPM_HASH = "d76186e3e0f45f5e06576be50e51c50a1f1d904d071db478538c4909e02cac755f57
 RPROVIDES:${PN} += "perl(Fuse) \
 perl-Fuse \
 perl-Fuse(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

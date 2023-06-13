@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-weblate-language-data \
 python3.10dist(weblate-language-data) \
 python310-weblate-language-data \
 python3dist(weblate-language-data)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

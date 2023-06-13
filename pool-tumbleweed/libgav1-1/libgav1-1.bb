@@ -11,6 +11,7 @@ RPM_HASH = "248be200030d2431a481f5864e14779a3523a95f799e92bbfc8fb4a98ee6974d6052
 RPROVIDES:${PN} += "libgav1-1 \
 libgav1-1(aarch-64) \
 libgav1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

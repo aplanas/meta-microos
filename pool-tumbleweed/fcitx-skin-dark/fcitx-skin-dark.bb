@@ -11,6 +11,7 @@ RPM_HASH = "043b524ae33ce964b211ceecb0247c8f7916a26683fde85c48037842eff8b8737089
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-skin-dark"
+
 RDEPENDS:${PN} += "fcitx"
 
 inherit rpm

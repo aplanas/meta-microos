@@ -13,6 +13,7 @@ python3.10dist(quimb) \
 python310-quimb \
 python310-quimb(aarch-64) \
 python3dist(quimb)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 python(abi) \

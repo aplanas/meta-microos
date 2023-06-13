@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-zope.deprecation \
 python3.10dist(zope.deprecation) \
 python310-zope.deprecation \
 python3dist(zope.deprecation)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

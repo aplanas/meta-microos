@@ -10,6 +10,7 @@ RPM_HASH = "f6f93b4bdad3ba31c08dff9de28346189026c00899bf116cd72947e525a4b0e57e51
 RPROVIDES:${PN} += "libusbauth-configparser.so.1()(64bit) \
 libusbauth-configparser1 \
 libusbauth-configparser1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

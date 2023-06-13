@@ -17,6 +17,7 @@ RPM_HASH = "6693db3bf5bd6940c47ad4bad45cc4130df29b3bc456a54e32d3efd86daddca4a545
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-recipes"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/sh \

@@ -9,6 +9,7 @@ RPM_HASH = "2524a58f3e5c4fc6c4ceb5906ff0840bb43266eaee6529ce5570660d4446bdd21b0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-strands-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

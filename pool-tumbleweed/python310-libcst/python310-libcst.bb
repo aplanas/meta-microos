@@ -12,6 +12,7 @@ python3.10dist(libcst) \
 python310-libcst \
 python310-libcst(aarch-64) \
 python3dist(libcst)"
+
 RDEPENDS:${PN} += "(python310-dataclasses if python310-base < 3.7) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -21,6 +21,7 @@ mimehandler(application/vnd.oasis.opendocument.graphics-flat-xml) \
 mimehandler(application/vnd.oasis.opendocument.presentation-flat-xml) \
 mimehandler(application/vnd.oasis.opendocument.spreadsheet-flat-xml) \
 mimehandler(application/vnd.oasis.opendocument.text-flat-xml)"
+
 RDEPENDS:${PN} += "libreoffice-calc \
 libreoffice-draw \
 libreoffice-impress \

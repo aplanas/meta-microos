@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(recipecard.cls) \
 texlive-recipecard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

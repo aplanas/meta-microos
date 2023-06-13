@@ -29,6 +29,7 @@ RPM_HASH = "1fbcf09aa0c424026ecf9f0ab105fd639a30a5065c06c50850b1cff83645260e0c9d
 
 RPROVIDES:${PN} += "xyconvert \
 xyconvert(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

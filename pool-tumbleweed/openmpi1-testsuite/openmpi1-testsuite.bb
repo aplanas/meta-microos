@@ -11,6 +11,7 @@ RPM_HASH = "fd7213a09f082511b97a2dd0e480007908d199ec3b64941455c720dc30a81f5fd6cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi1-testsuite"
+
 RDEPENDS:${PN} += "mpi-selector \
 openmpi-runtime-config \
 openmpi1-libs"

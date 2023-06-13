@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(setuptools-rust) \
 python39-setuptools-rust \
 python3dist(setuptools-rust)"
+
 RDEPENDS:${PN} += "cargo \
 python(abi) \
 python39-semantic_version \

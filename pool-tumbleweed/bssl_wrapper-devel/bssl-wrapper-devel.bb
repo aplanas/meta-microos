@@ -11,6 +11,7 @@ RPM_HASH = "9b05e3eee07237c9bb403dcc957445d9671ebaf539c23cb084e0ba26afda1ec182d4
 
 RPROVIDES:${PN} += "bssl_wrapper-devel \
 bssl_wrapper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbssl_wrapper_lib0"
 
 inherit rpm

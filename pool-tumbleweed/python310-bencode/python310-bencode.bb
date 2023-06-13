@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-bencode \
 python3.10dist(bencode.py) \
 python310-bencode \
 python3dist(bencode.py)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

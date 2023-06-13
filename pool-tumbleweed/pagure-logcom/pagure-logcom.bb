@@ -10,6 +10,7 @@ RPM_HASH = "0ad5d21b875b094d2cd314ba2fd70eb47164c4e92289371e142ed5b71ca77d40655a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-logcom"
+
 RDEPENDS:${PN} += "/bin/sh \
 pagure \
 systemd"

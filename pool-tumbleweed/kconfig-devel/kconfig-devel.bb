@@ -22,6 +22,7 @@ RPM_HASH = "3ce674e9a092a702e841c30def461a9c0c48c1f5408269b5f088f1839ff3557966d1
 RPROVIDES:${PN} += "cmake(KF5Config) \
 kconfig-devel \
 kconfig-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5DBus) \
 cmake(Qt5Xml) \
 extra-cmake-modules \

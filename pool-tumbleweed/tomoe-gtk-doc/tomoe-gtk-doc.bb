@@ -9,6 +9,7 @@ RPM_HASH = "adcaed5fd8379f95f37e907d4bfdb8f72f5bc041d5d213d44b6489c31a83b94b9ffe
 
 RPROVIDES:${PN} += "tomoe-gtk-doc \
 tomoe-gtk-doc(aarch-64)"
+
 RDEPENDS:${PN} += "tomoe-gtk"
 
 inherit rpm

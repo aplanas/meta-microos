@@ -60,6 +60,7 @@ tex(bttr_vzfpnj.enc) \
 tex(bttr_w3wxei.enc) \
 tex(bttr_x2bjkb.enc) \
 texlive-bitter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Multimedia-private-headers-devel \
 libqt5-qtmultimedia-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Gui-private-headers-devel \
 libQt5Widgets-private-headers-devel \
 libqt5-qtmultimedia-devel"

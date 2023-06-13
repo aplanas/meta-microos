@@ -12,6 +12,7 @@ RPM_HASH = "39fd76617a707ad5db42ddb93b990acc684dbc0243587efdc5d46bdb64f2fbfd1b28
 
 RPROVIDES:${PN} += "calligra-extras-dolphin \
 calligra-extras-dolphin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

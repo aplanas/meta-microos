@@ -9,6 +9,7 @@ RPM_HASH = "5b36afd24f5bce769f4597f99fc279ac58648178ff47a56f6681bdf159a838199c60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jzlib-demo"
+
 RDEPENDS:${PN} += "jzlib"
 
 inherit rpm

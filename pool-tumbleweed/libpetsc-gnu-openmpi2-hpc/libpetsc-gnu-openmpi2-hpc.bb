@@ -11,6 +11,7 @@ RPM_HASH = "655bf7c14e6193d7241e8d09b4aa4866852882cdceb83153e45a91a440e72937606b
 
 RPROVIDES:${PN} += "libpetsc-gnu-openmpi2-hpc \
 libpetsc-gnu-openmpi2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libpetsc_3_18_5-gnu-openmpi2-hpc"
 

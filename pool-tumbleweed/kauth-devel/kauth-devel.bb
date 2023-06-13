@@ -11,6 +11,7 @@ RPM_HASH = "4f46eb5a9459d3ee74c0406f4a90c5d1409eca3678539ece3e485769ec477a465e6e
 RPROVIDES:${PN} += "cmake(KF5Auth) \
 kauth-devel \
 kauth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 extra-cmake-modules \
 libKF5Auth5"

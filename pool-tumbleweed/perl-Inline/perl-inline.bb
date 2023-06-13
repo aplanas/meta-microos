@@ -33,6 +33,7 @@ perl(Inline::Foo) \
 perl(Inline::MakeMaker) \
 perl(Inline::denter) \
 perl-Inline"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(version)"
 

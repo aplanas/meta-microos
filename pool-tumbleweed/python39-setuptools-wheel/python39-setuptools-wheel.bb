@@ -11,6 +11,7 @@ RPM_HASH = "80bd6edae92dfa381abc99d2cb948509c1e68c9bbcb0740899ce9314225117af8442
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-setuptools-wheel"
+
 RDEPENDS:${PN} += "python(abi) \
 update-alternatives"
 

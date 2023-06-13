@@ -15,6 +15,7 @@ man(mft.1) \
 man(pktogf.1) \
 man(pktype.1) \
 texlive-mfware-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

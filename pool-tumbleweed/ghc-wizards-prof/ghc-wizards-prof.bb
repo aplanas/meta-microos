@@ -10,6 +10,7 @@ RPM_HASH = "a78faab06279ec9fd39d94389a325f1d3d969b1511ab8fca20a1cf66d036df6cc97c
 RPROVIDES:${PN} += "ghc-prof(wizards-1.0.3-1eOj2T9eMm8Jj6cnosVGZb) \
 ghc-wizards-prof \
 ghc-wizards-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(control-monad-free-0.6.2-AMlHq80A2qJLNQ8iIcl5z7) \

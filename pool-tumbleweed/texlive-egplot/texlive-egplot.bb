@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(egplot.sty) \
 texlive-egplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ cmake(Qt6WebEngineCoreTools) \
 pkgconfig(Qt6WebEngineCore) \
 qt6-webenginecore-devel \
 qt6-webenginecore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Network) \

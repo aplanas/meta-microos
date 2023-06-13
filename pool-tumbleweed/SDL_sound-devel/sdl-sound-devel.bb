@@ -14,6 +14,7 @@ RPM_HASH = "543daeabc3d5904054bd5cd796d5c6b37282e937ba76361b0ae13d46cb1fa518aa78
 RPROVIDES:${PN} += "SDL_sound-devel \
 SDL_sound-devel(aarch-64) \
 libSDL_sound-devel"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

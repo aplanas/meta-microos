@@ -34,6 +34,7 @@ locale(hivex:si) \
 locale(hivex:sr) \
 locale(hivex:uk) \
 locale(hivex:zh_CN)"
+
 RDEPENDS:${PN} += "hivex"
 
 inherit rpm

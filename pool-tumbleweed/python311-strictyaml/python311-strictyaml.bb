@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(strictyaml) \
 python311-strictyaml \
 python3dist(strictyaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-dateutil"
 

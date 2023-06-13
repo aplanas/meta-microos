@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KWinDBusInterface) \
 cmake(KWinEffects) \
 deepin-kwin-devel \
 deepin-kwin-devel(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-kwin"
 
 inherit rpm

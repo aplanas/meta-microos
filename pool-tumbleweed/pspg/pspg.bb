@@ -12,6 +12,7 @@ RPM_HASH = "7372b58aac7e3bae5443c6589024b224e2a0506ccbbc59bf6c940dd95c3068ebe66d
 
 RPROVIDES:${PN} += "pspg \
 pspg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

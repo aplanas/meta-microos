@@ -45,6 +45,7 @@ tex(xymtexps.sty) \
 tex(xymtx-pdf.sty) \
 tex(xymtx-ps.sty) \
 texlive-xymtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

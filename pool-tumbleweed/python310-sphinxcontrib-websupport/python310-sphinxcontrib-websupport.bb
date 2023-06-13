@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-websupport \
 python3.10dist(sphinxcontrib-websupport) \
 python310-sphinxcontrib-websupport \
 python3dist(sphinxcontrib-websupport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-docutils"

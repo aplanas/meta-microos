@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-setuptools-wheel \
 python310-setuptools-wheel"
+
 RDEPENDS:${PN} += "python(abi) \
 update-alternatives"
 

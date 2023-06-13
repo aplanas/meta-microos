@@ -13,6 +13,7 @@ RPM_HASH = "98b177c72b5b98afc7b92b8f3cdf45dbf04a3889238383790dd99f7fa9df5ce75cae
 RPROVIDES:${PN} += "ghc-entropy \
 ghc-entropy(aarch-64) \
 libHSentropy-0.4.1.10-HkaMHQZP8nyRj15panvtP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

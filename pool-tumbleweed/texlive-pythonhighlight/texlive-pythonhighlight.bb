@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pythonhighlight.sty) \
 texlive-pythonhighlight"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

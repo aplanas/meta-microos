@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tox-wheel \
 python3.10dist(tox-wheel) \
 python310-tox-wheel \
 python3dist(tox-wheel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tox \
 python310-wheel"

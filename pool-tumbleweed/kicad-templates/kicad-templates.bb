@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-library:/usr/share/kicad/template/Arduino_Fio/fp-lib-table \
 kicad-templates"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

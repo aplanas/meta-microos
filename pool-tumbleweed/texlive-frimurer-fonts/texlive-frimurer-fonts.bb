@@ -92,6 +92,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(frimurer) \
 texlive-frimurer-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

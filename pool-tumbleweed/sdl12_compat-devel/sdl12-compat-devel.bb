@@ -14,6 +14,7 @@ pkgconfig(sdl) \
 pkgconfig(sdl12_compat) \
 sdl12_compat-devel \
 sdl12_compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libSDL-1_2-0 \

@@ -9,6 +9,7 @@ RPM_HASH = "0219c47f65d65d0f4cca48a41440b1ceccaada899ef164c03f37b52b16df9ae7843d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "melange-zsh-completion"
+
 RDEPENDS:${PN} += "melange"
 
 inherit rpm

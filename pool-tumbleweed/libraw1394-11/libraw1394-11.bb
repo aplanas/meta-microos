@@ -18,6 +18,7 @@ RPM_HASH = "198211be89632e10b8acb0369a74dec7d5752458db94fa6e2720d97e5a8afdc79492
 RPROVIDES:${PN} += "libraw1394-11 \
 libraw1394-11(aarch-64) \
 libraw1394.so.11()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

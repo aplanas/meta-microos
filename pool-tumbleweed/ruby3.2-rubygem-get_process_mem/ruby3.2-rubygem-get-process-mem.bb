@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:get_process_mem) \
 rubygem(ruby:3.2.0:get_process_mem:0) \
 rubygem(ruby:3.2.0:get_process_mem:0.2) \
 rubygem(ruby:3.2.0:get_process_mem:0.2.7)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ffi:1)"
 

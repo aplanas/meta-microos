@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(datetime2-spanish-ascii.ldf) \
 tex(datetime2-spanish-utf8.ldf) \
 tex(datetime2-spanish.ldf) \
 texlive-datetime2-spanish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

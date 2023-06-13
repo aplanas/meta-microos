@@ -13,6 +13,7 @@ RPM_HASH = "c217bdc206246f6f13658092c4037116c3f150c9304deb4ece18b45b6b66f537fe50
 RPROVIDES:${PN} += "libzstd-devel \
 libzstd-devel(aarch-64) \
 pkgconfig(libzstd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libzstd1"

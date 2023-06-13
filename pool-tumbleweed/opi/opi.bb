@@ -14,6 +14,7 @@ metainfo(org.openSUSE.opi.appdata.xml) \
 opi \
 python3.10dist(opi) \
 python3dist(opi)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 curl \
 python(abi) \

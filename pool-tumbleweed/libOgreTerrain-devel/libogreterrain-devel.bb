@@ -12,6 +12,7 @@ RPM_HASH = "3f1f5e7abca132ba5a22e51ecc03173491cd389a404aa5ff0879c855a00149d25a9d
 RPROVIDES:${PN} += "libOgreTerrain-devel \
 libOgreTerrain-devel(aarch-64) \
 pkgconfig(OGRE-Terrain)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreTerrain13_5 \
 pkgconfig(OGRE) \

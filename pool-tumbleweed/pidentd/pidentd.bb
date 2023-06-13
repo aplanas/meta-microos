@@ -12,6 +12,7 @@ RPM_HASH = "60ffe80c8b9aeb16dd1bf3d141ca2dba569b5b1d2fe561efed58430f3d84415b008d
 RPROVIDES:${PN} += "config(pidentd) \
 pidentd \
 pidentd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

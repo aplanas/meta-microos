@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libqt5-qtquicktimeline \
 libqt5-qtquicktimeline(aarch-64) \
 libqtquicktimelineplugin.so()(64bit) \
 qt5qmlimport(QtQuick.Timeline.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

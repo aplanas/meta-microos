@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Class::Accessor::Grouped) \
 perl-Class-Accessor-Grouped"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::XSAccessor) \
 perl(Module::Runtime) \

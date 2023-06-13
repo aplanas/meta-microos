@@ -9,6 +9,7 @@ RPM_HASH = "17a2d9a3c5d6e8096c5aaf6d5f94116f994b4e32021de73921686c37b095181885d6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ucblogo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ RPM_HASH = "cf12ab88b7b494e3d78e1210284c02e0cf569c629e5bd969f290618d6e05701af433
 RPROVIDES:${PN} += "libsource-highlight-devel \
 libsource-highlight-devel(aarch-64) \
 pkgconfig(source-highlight)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libsource-highlight4"

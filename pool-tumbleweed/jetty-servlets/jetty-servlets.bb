@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-servlets \
 mvn(org.eclipse.jetty:jetty-servlets) \
 mvn(org.eclipse.jetty:jetty-servlets:pom:) \
 osgi(org.eclipse.jetty.servlets)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.eclipse.jetty:jetty-continuation) \

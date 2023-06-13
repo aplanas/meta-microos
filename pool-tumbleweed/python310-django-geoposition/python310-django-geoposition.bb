@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-geoposition \
 python3.10dist(django-geoposition) \
 python310-django-geoposition \
 python3dist(django-geoposition)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

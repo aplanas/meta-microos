@@ -11,6 +11,7 @@ RPM_HASH = "eb86ebbf52fc8ebae03031a0dd21901b7fe543482f73ad1b33256fe099fc529d9816
 
 RPROVIDES:${PN} += "libnetcdf-cxx4-gnu-hpc \
 libnetcdf-cxx4-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf-cxx4_4_3_1-gnu-hpc"
 

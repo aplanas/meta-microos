@@ -9,6 +9,7 @@ RPM_HASH = "e6ed95a0913751ff5ec3bf953a743120740213baf22285ac1318163de0cd38cef34c
 
 RPROVIDES:${PN} += "hexchat-plugins-perl \
 hexchat-plugins-perl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

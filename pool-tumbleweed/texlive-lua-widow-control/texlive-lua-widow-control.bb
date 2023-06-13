@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "tex(lua-widow-control-2022-02-22.sty) \
 tex(lua-widow-control.sty) \
 tex(lua-widow-control.tex) \
 texlive-lua-widow-control"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

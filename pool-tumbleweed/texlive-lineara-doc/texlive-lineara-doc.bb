@@ -9,6 +9,7 @@ RPM_HASH = "b619dd134242fb8bdbbcb57d7c7d9e15f35d712631fecbcc1fc178e06227332b4b3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lineara-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

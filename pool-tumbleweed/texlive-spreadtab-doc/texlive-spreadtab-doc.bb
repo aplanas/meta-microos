@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-spreadtab-doc:en;fr) \
 texlive-spreadtab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "224cc485f9279b3f46566e8f379eadabad4c2f139ea2380c2fcfd32f68cd87558979
 
 RPROVIDES:${PN} += "monero-utils \
 monero-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_chrono.so.1.81.0()(64bit) \

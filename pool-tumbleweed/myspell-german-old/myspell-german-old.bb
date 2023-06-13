@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "myspell-dictionary \
 myspell-german-dictionary \
 myspell-german-old"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

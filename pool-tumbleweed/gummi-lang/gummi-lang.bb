@@ -29,6 +29,7 @@ locale(gummi:ru) \
 locale(gummi:sv) \
 locale(gummi:zh_CN) \
 locale(gummi:zh_TW)"
+
 RDEPENDS:${PN} += "gummi"
 
 inherit rpm

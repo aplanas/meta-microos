@@ -16,6 +16,7 @@ font(stixintegralsup) \
 font(stixintegralsupd) \
 font(stixintegralsupsm) \
 stix-integrals-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

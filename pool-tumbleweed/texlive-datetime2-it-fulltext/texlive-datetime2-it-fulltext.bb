@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(datetime2-it-fulltext-ascii.ldf) \
 tex(datetime2-it-fulltext-utf8.ldf) \
 tex(datetime2-it-fulltext.sty) \
 texlive-datetime2-it-fulltext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

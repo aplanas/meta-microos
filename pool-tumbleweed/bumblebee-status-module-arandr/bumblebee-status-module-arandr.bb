@@ -9,6 +9,7 @@ RPM_HASH = "b40dc266911854e15c201b5eb7d89fa646ebc37a3f260cbbc40f79d497ac02602067
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-arandr"
+
 RDEPENDS:${PN} += "arandr \
 bumblebee-status"
 

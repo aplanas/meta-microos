@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "HyperKitty \
 python3.9dist(hyperkitty) \
 python39-HyperKitty \
 python3dist(hyperkitty)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-django-compressor \

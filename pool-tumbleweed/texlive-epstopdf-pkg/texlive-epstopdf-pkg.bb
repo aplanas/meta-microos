@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(epstopdf-base.sty) \
 tex(epstopdf.sty) \
 texlive-epstopdf-pkg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

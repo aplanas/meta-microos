@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lualatex-math.sty) \
 texlive-lualatex-math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

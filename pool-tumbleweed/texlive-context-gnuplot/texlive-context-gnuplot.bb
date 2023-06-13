@@ -12,6 +12,7 @@ RPM_HASH = "8eec8a6058c328c292b5760c3ab8b47e76fe84e607e12c715a0b41e6b67c31805255
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-gnuplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "9702e76f0998a7ab2cf62d26bb9cdaa47b551b31a6df90b554021192feeea8c70fa4
 RPROVIDES:${PN} += "librtmidi.so.6()(64bit) \
 librtmidi6 \
 librtmidi6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

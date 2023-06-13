@@ -10,6 +10,7 @@ RPM_HASH = "d4faade32d7dd66849d206ab923940c67bc93b7251835ccd2abea56ec921012d7089
 RPROVIDES:${PN} += "ghc-devel(foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c) \
 ghc-foldl-devel \
 ghc-foldl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

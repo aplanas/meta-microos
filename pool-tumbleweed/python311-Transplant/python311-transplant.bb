@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(transplant) \
 python311-Transplant \
 python3dist(transplant)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-msgpack-python \
 python311-numpy \

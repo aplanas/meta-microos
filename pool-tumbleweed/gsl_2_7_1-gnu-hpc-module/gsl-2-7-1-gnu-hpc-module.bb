@@ -10,6 +10,7 @@ RPM_HASH = "e9b35b5b5c7f795a1113994987ad234846faf033942be32a020bd0bf7549f8cb78da
 
 RPROVIDES:${PN} += "gsl_2_7_1-gnu-hpc-module \
 gsl_2_7_1-gnu-hpc-module(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

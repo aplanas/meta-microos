@@ -18,6 +18,7 @@ tex(bboldx.enc) \
 tex(bboldx.map) \
 tex(bboldx.sty) \
 texlive-bboldx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

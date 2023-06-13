@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(libreoffice:fa_IR) \
 locale(seamonkey-spellchecker:fa_IR) \
 myspell-dictionary \
 myspell-fa_IR"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

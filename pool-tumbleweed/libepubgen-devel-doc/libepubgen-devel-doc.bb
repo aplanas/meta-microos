@@ -9,6 +9,7 @@ RPM_HASH = "23b9f227fd6ced83dfe2ab253423659b42681404d603fb34d6b0a83eb405e4c8655e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libepubgen-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

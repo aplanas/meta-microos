@@ -25,6 +25,7 @@ tex(size20.clo) \
 tex(size8.clo) \
 tex(size9.clo) \
 texlive-extsizes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

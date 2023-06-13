@@ -71,6 +71,7 @@ locale(gnome-calendar:vi) \
 locale(gnome-calendar:zh_CN) \
 locale(gnome-calendar:zh_HK) \
 locale(gnome-calendar:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-calendar"
 
 inherit rpm

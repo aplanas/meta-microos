@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-pytools \
 python3.10dist(pytools) \
 python310-pytools \
 python3dist(pytools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-platformdirs \

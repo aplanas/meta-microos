@@ -9,6 +9,7 @@ RPM_HASH = "404d8eeaff481cce19ad94bf126d2c219c0c0ab25550ffa92c400e16aac960bd2844
 
 RPROVIDES:${PN} += "onedrive-completion-fish \
 onedrive-completion-fish(aarch-64)"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

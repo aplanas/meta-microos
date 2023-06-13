@@ -9,6 +9,7 @@ RPM_HASH = "4a783635563c90d92010188b8446d2ccea08a0e003793a7c74f070866fb28217b292
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-electrum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

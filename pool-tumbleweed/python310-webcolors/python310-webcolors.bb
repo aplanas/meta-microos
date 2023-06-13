@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-webcolors \
 python3.10dist(webcolors) \
 python310-webcolors \
 python3dist(webcolors)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

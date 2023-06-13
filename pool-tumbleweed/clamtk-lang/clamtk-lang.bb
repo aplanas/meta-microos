@@ -65,6 +65,7 @@ locale(clamtk:ug) \
 locale(clamtk:uk) \
 locale(clamtk:zh_CN) \
 locale(clamtk:zh_TW)"
+
 RDEPENDS:${PN} += "clamtk"
 
 inherit rpm

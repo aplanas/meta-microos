@@ -12,6 +12,7 @@ RPM_HASH = "cbf797404cff5cffb9f4ad1b5be006f284bdeca4c83c9d18be37d9b5f6637831d2c0
 RPROVIDES:${PN} += "libKPim5Itinerary.so.5()(64bit) \
 libKPim5Itinerary5 \
 libKPim5Itinerary5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

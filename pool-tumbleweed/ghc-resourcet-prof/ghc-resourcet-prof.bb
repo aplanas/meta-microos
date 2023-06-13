@@ -10,6 +10,7 @@ RPM_HASH = "629763b2eca5cceb2147b3d57de5b11290e0c711e25fa4ea7a7b9418c320637528ef
 RPROVIDES:${PN} += "ghc-prof(resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv) \
 ghc-resourcet-prof \
 ghc-resourcet-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \
 ghc-prof(exceptions-0.10.5) \

@@ -9,6 +9,7 @@ RPM_HASH = "6cb0c3634f77150ee936e200132eea1a2d93b5f2d8e123af88ab114f61c49f7ad251
 
 RPROVIDES:${PN} += "ossim-sample-data \
 ossim-sample-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

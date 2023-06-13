@@ -12,6 +12,7 @@ RPM_HASH = "3dda23a3615ad90401d8c9436ac6c5be11ec9367cddd9016f0e7777955e1fc82421e
 RPROVIDES:${PN} += "etcd-for-k8s \
 etcd-for-k8s1.27 \
 etcd-for-k8s1.27(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit)"
 

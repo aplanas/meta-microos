@@ -12,6 +12,7 @@ RPM_HASH = "f4fbaa53440759de8e5e2794f25ac37476d44ee6cc0a90dcdb79ff095936f4a7c880
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nut-doc-asciidoc"
+
 RDEPENDS:${PN} += "nut-doc-images"
 
 inherit rpm

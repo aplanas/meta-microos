@@ -9,6 +9,7 @@ RPM_HASH = "749d2ac309058030cd2b112e8a9d2ca11fe5998efe45c038e897d4749280d83392ba
 
 RPROVIDES:${PN} += "airspy-udev \
 airspy-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 shadow"
 

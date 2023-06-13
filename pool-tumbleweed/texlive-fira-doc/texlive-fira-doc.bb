@@ -9,6 +9,7 @@ RPM_HASH = "feac89b58f9043f4760806ef28b1437ec22823d197fad7b909ec6f8105aef14ff83d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fira-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

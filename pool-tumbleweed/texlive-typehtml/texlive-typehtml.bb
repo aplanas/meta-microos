@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(typehtml.sty) \
 texlive-typehtml"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "28360939d267074493ffdb995a75b71e6c8b449ae2d784e63c30056601d70bba445b
 RPROVIDES:${PN} += "config(samplicator) \
 samplicator \
 samplicator(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

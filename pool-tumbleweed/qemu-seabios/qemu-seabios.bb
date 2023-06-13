@@ -10,6 +10,7 @@ RPM_HASH = "b59c46a0acd95f317f25e8aaf6feb01e9c8b4c7e9d300c4d6466ee3c63546c55f729
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-seabios"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

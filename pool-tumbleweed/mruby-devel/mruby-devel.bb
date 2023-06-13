@@ -13,6 +13,7 @@ RPM_HASH = "e30774db5fe234ac68d6ebd4c722635e06e2e532043ac99f69cd8cf8a1682f277a4c
 
 RPROVIDES:${PN} += "mruby-devel \
 mruby-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmruby3_1_0 \
 libmruby_core3_1_0"
 

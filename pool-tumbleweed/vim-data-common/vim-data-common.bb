@@ -9,6 +9,7 @@ RPM_HASH = "27fa95f96dd865709bf0ecae155126f727e530c711538e32d4e9ebef4db1723a4d3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-data-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

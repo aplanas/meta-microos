@@ -10,6 +10,7 @@ RPM_HASH = "33cf6a1b0a41f7e41268cc1db3371df2084922fe4ce797de43f3bf15b9b4d7272c30
 RPROVIDES:${PN} += "xorg-x11-libX11-ccache \
 xorg-x11-libX11-ccache(aarch-64) \
 xorg-x11:/var/X11R6/compose-cache/"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

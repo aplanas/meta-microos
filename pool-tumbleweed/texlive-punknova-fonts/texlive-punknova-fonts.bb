@@ -32,6 +32,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(punknova) \
 texlive-punknova-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

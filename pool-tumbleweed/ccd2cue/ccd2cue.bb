@@ -11,6 +11,7 @@ RPM_HASH = "33585392974abf6072215da60fbc9be71ce720e10a45f0695efcea007d5bf892f4ac
 
 RPROVIDES:${PN} += "ccd2cue \
 ccd2cue(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

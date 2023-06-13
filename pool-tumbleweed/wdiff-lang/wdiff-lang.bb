@@ -51,6 +51,7 @@ locale(wdiff:zh_CN) \
 locale(wdiff:zh_TW) \
 wdiff-lang \
 wdiff-lang-all"
+
 RDEPENDS:${PN} += "wdiff"
 
 inherit rpm

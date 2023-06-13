@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pyradio \
 python3.10dist(pyradio) \
 python3dist(pyradio)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

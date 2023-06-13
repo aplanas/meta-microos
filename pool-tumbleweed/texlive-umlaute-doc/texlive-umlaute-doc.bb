@@ -9,6 +9,7 @@ RPM_HASH = "3ad1bb91397e60e3fc4f6a1419a4e0f8223194e1a08532dc1ef4e9f14f5720703229
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umlaute-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

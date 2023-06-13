@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(arydshln.sty) \
 texlive-arydshln"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

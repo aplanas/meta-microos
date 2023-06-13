@@ -17,6 +17,7 @@ RPM_HASH = "612b033f90800e8d855992ae9e5781cc53dd289e10336d0f8154add1ba896bdb1ca0
 RPROVIDES:${PN} += "libzvbi.so.0()(64bit) \
 libzvbi0 \
 libzvbi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

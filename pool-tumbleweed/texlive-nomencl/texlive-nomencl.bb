@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nomencl.sty) \
 texlive-nomencl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

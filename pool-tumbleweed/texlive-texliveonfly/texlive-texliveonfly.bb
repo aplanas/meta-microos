@@ -17,6 +17,7 @@ RPM_HASH = "b08952ce780b941a718670ebf99cf7546f4513e1098b30f8b6417f5ba1701d7f83d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texliveonfly"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

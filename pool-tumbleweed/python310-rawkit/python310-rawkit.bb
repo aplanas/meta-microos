@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-rawkit \
 python3.10dist(rawkit) \
 python310-rawkit \
 python3dist(rawkit)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -52,6 +52,7 @@ locale(a2ps:uk) \
 locale(a2ps:vi) \
 locale(a2ps:zh_CN) \
 locale(a2ps:zh_TW)"
+
 RDEPENDS:${PN} += "a2ps"
 
 inherit rpm

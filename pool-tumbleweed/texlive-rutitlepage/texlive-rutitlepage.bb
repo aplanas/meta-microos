@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rutitlepage.sty) \
 texlive-rutitlepage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

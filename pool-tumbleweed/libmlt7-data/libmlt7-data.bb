@@ -11,6 +11,7 @@ RPM_HASH = "75f9a1bb47b827da12a828f668c4b6059f21152937945fe5f9421108701ca2825dac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmlt7-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

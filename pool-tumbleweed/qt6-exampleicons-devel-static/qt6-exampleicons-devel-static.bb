@@ -10,6 +10,7 @@ RPM_HASH = "090fd342b6e6b548bc994ae5df0f33fd17fc9a99299a6cc896cf2437da8ab6d45d9b
 RPROVIDES:${PN} += "cmake(Qt6ExampleIconsPrivate) \
 qt6-exampleicons-devel-static \
 qt6-exampleicons-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-core-private-devel \
 qt6-gui-private-devel"
 

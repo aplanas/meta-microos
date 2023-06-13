@@ -21,6 +21,7 @@ rpm_macro(lua_version_nodots) \
 rpm_macro(luarocks_build) \
 rpm_macro(luarocks_install) \
 rpm_macro(luarocks_treedir)"
+
 RDEPENDS:${PN} += "lua"
 
 inherit rpm

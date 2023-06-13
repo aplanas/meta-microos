@@ -9,6 +9,7 @@ RPM_HASH = "74c0d44170090dc121945313faa0a4b01a9c747e77ff149ff7db8de2fb7307aa0139
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-linebreaker-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

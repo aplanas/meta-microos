@@ -33,6 +33,7 @@ perl(Image::Info::XPM) \
 perl(Image::TIFF) \
 perl(Image::TIFF::Rational) \
 perl-Image-Info"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6cb7d3ca040e50bc060a5269d25295fd58cd2a22a432cfb1f34d8ee83a831007722d
 
 RPROVIDES:${PN} += "iceauth \
 iceauth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libICE.so.6()(64bit) \

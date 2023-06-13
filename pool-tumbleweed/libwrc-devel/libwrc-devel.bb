@@ -13,6 +13,7 @@ RPM_HASH = "260c91216f98487f4f0af180a8ec37b0c7eacf59526b2bafc4e82ddd012971d762ab
 RPROVIDES:${PN} += "libwrc-devel \
 libwrc-devel(aarch-64) \
 pkgconfig(libwrc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libwrc1"

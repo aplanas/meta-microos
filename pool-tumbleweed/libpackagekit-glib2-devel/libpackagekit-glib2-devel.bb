@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libpackagekit-glib12-devel \
 libpackagekit-glib2-devel \
 libpackagekit-glib2-devel(aarch-64) \
 pkgconfig(packagekit-glib2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpackagekit-glib2-18 \
 pkgconfig(gio-2.0) \

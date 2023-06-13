@@ -22,6 +22,7 @@ ocamlx(Fmt) \
 ocamlx(Fmt_cli) \
 ocamlx(Fmt_top) \
 ocamlx(Fmt_tty)"
+
 RDEPENDS:${PN} += "ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

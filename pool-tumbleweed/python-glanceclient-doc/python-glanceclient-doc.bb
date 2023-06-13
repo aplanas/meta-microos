@@ -12,6 +12,7 @@ RPM_HASH = "41a1bd0709c128fa941578c704bddd5339e355227886a847b682d1ef13554f6c0483
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-glanceclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

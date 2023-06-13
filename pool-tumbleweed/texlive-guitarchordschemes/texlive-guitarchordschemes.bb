@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(guitarchordschemes.sty) \
 texlive-guitarchordschemes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

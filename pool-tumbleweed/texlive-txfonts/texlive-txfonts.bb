@@ -241,6 +241,7 @@ tex(utxsyb.fd) \
 tex(utxsyc.fd) \
 tex(utxtt.fd) \
 texlive-txfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

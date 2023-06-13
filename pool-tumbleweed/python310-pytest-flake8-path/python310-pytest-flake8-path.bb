@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-flake8-path \
 python3.10dist(pytest-flake8-path) \
 python310-pytest-flake8-path \
 python3dist(pytest-flake8-path)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8 \
 python310-pytest"

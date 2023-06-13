@@ -13,6 +13,7 @@ RPM_HASH = "5e1a668291b119c10a85cb12fb096270f662aa1c32c414a7fd884eb7965080ca1cbf
 RPROVIDES:${PN} += "libevtx-devel \
 libevtx-devel(aarch-64) \
 pkgconfig(libevtx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libevtx1"

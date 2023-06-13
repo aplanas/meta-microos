@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mygpoclient \
 python3.10dist(mygpoclient) \
 python310-mygpoclient \
 python3dist(mygpoclient)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

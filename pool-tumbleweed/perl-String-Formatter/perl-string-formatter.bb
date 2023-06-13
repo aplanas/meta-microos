@@ -60,6 +60,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(String::Formatter) \
 perl(String::Formatter::Cookbook) \
 perl-String-Formatter"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Params::Util) \
 perl(Sub::Exporter)"

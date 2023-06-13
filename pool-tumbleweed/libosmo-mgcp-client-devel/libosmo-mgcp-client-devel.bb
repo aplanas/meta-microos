@@ -13,6 +13,7 @@ RPM_HASH = "31c5d9672e5ee3ab551da3aa442c03ed759622c2d0732ab70feabad065c76e90071b
 RPROVIDES:${PN} += "libosmo-mgcp-client-devel \
 libosmo-mgcp-client-devel(aarch-64) \
 pkgconfig(libosmo-mgcp-client)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-mgcp-client9"
 

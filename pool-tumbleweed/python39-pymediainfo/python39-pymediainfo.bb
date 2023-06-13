@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pymediainfo) \
 python39-pymediainfo \
 python3dist(pymediainfo)"
+
 RDEPENDS:${PN} += "libmediainfo0 \
 python(abi)"
 

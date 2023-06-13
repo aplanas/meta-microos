@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(easybase.sty) \
 tex(easybook.cls) \
 tex(eb-tcolorbox.cfg) \
 texlive-easybook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

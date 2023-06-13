@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(python-gnupg) \
 python311-gnupg \
 python311-python-gnupg \
 python3dist(python-gnupg)"
+
 RDEPENDS:${PN} += "gpg2 \
 python(abi)"
 

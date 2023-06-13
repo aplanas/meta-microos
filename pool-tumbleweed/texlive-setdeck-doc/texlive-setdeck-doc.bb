@@ -9,6 +9,7 @@ RPM_HASH = "d709df107b712b5a6216de056db9bd43bcef71df0223b0194affa383875f1371d882
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-setdeck-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

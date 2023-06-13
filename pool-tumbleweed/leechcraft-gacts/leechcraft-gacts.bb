@@ -11,6 +11,7 @@ RPM_HASH = "91f2c7a4fdcbee799d341ba6835ab5aa00cd82f79e48272de0a4c9cd1e966b2fea0d
 RPROVIDES:${PN} += "leechcraft-gacts \
 leechcraft-gacts(aarch-64) \
 libleechcraft_gacts.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

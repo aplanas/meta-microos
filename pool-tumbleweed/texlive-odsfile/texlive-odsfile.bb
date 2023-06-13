@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(odsfile.sty) \
 texlive-odsfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

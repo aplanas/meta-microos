@@ -170,6 +170,7 @@ perl(Apache::AuthCookie::Params::Base) \
 perl(Apache::AuthCookie::Params::CGI) \
 perl(Apache::AuthCookie::Util) \
 perl-Apache-AuthCookie"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(HTTP::Body) \

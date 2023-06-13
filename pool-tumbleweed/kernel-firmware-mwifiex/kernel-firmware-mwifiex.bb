@@ -26,6 +26,7 @@ firmware(mrvl/usb8801_uapsta.bin) \
 firmware(mrvl/usb8897_uapsta.bin) \
 firmware(mrvl/usbusb8997_combo_v4.bin) \
 kernel-firmware-mwifiex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

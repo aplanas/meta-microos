@@ -18,6 +18,7 @@ RPM_HASH = "7734152fa23a403bbb1fc77ab9f0dfe88f0eee456fcc66a735ee71f1c9814d38b111
 
 RPROVIDES:${PN} += "lua53-readline \
 lua53-readline(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

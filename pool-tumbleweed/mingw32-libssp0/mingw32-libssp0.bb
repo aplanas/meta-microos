@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mingw32(libssp-0.dll) \
 mingw32-libssp \
 mingw32-libssp0 \
 mingw32-libssp0(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

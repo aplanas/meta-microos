@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(minted.sty) \
 tex(minted1.sty) \
 texlive-minted"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

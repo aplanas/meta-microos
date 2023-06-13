@@ -23,6 +23,7 @@ locale(tcsh:ru_UA.koi8u) \
 locale(tcsh:uk_UA) \
 tcsh-lang \
 tcsh-lang-all"
+
 RDEPENDS:${PN} += "tcsh"
 
 inherit rpm

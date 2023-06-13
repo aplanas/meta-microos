@@ -40,6 +40,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(CGI::Ajax) \
 perl-CGI-Ajax"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI) \
 perl(Class::Accessor)"

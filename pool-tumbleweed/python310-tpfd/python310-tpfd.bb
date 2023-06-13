@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-tpfd \
 python3.10dist(tpfd) \
 python310-tpfd \
 python3dist(tpfd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-parse"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dropbox \
 python3.10dist(dropbox) \
 python310-dropbox \
 python3dist(dropbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-six"

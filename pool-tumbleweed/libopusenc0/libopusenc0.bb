@@ -10,6 +10,7 @@ RPM_HASH = "bf0a92fe02c08c2279341792205a9546db532af3791f9ebe51be7852aa3bc71c57dc
 RPROVIDES:${PN} += "libopusenc.so.0()(64bit) \
 libopusenc0 \
 libopusenc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

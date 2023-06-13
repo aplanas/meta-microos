@@ -11,6 +11,7 @@ RPM_HASH = "d4ec5bfd5b867575e94cee7bf5ad296de13e92eff82ef89425624f551b2a1d0e4961
 
 RPROVIDES:${PN} += "liblouis-tools \
 liblouis-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

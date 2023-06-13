@@ -20,6 +20,7 @@ metainfo(org.bpython-interpreter.bpython-3.11.metainfo.xml) \
 python3.11dist(bpython) \
 python311-bpython \
 python3dist(bpython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

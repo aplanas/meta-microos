@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luacensor.sty) \
 texlive-luacensor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

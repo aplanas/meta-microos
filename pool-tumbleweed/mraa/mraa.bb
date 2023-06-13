@@ -19,6 +19,7 @@ RPM_HASH = "05f8e4c91164a1a2d2dcf79047981af2ba71b6ef5865ad2e73d6a7df6c2abf1b8809
 
 RPROVIDES:${PN} += "mraa \
 mraa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

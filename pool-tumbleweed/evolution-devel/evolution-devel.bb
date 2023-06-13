@@ -15,6 +15,7 @@ pkgconfig(evolution-calendar-3.0) \
 pkgconfig(evolution-mail-3.0) \
 pkgconfig(evolution-shell-3.0) \
 pkgconfig(libemail-engine)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 evolution \
 evolution-data-server-devel \

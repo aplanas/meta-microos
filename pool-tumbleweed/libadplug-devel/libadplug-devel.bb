@@ -17,6 +17,7 @@ RPM_HASH = "e2fb66ae3073dbb4f5d44c54f2e6aa46db92ef6088409bc53eb385248cfd3e5a2776
 RPROVIDES:${PN} += "libadplug-devel \
 libadplug-devel(aarch-64) \
 pkgconfig(adplug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libadplug2_3_3-0 \
 pkgconfig(libbinio)"

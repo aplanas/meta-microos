@@ -9,6 +9,7 @@ RPM_HASH = "6eab4f282f867cc167ec4b186e27b8e50174ded3d63443477716e8aa4bf011d53aa5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-policy-doc"
+
 RDEPENDS:${PN} += "/usr/bin/xdg-open \
 selinux-policy"
 

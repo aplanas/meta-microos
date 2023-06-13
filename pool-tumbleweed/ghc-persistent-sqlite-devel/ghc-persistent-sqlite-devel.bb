@@ -11,6 +11,7 @@ RPM_HASH = "a12fa0149c1866aeae47b74c9c1e0127233ba889ec5b432c033af06ff53977edd194
 RPROVIDES:${PN} += "ghc-devel(persistent-sqlite-2.13.1.1-6m8kOitQFXeAVXzn0JSxB5) \
 ghc-persistent-sqlite-devel \
 ghc-persistent-sqlite-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

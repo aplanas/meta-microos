@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(parrun.sty) \
 texlive-parrun"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

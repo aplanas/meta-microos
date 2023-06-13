@@ -15,6 +15,7 @@ RPM_HASH = "1f0cd0e16c50766736683732ded5d5bcb55f1ef7966feb8e05d39ff7de0905ec5e6f
 RPROVIDES:${PN} += "libgraphite2-3 \
 libgraphite2-3(aarch-64) \
 libgraphite2.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

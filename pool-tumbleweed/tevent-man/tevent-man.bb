@@ -16,6 +16,7 @@ RPM_HASH = "bbb5caefd55e0007f470cc09ab59ce61f0c3e0e05253b566c2b72f1e0fdb3afa5101
 
 RPROVIDES:${PN} += "tevent-man \
 tevent-man(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

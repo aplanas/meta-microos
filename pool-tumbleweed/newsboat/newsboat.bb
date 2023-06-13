@@ -13,6 +13,7 @@ RPM_HASH = "d13a79330c18739b8980ce64674bd3ae62978f7d0a3fcc5165d319de4da5fc06c895
 RPROVIDES:${PN} += "newsbeuter \
 newsboat \
 newsboat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

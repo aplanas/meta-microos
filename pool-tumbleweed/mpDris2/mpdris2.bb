@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(mpdris2.desktop) \
 mpDris2"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 perl(:MODULE_COMPAT_5.36.0) \
 python3-python-mpd2 \

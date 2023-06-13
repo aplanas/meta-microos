@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libphobos2-ldc-debug-shared.so.102()(64bit) \
 libphobos2-ldc-shared.so.102()(64bit) \
 libphobos2-ldc102 \
 libphobos2-ldc102(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

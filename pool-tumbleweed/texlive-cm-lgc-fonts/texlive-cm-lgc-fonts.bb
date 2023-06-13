@@ -134,6 +134,7 @@ font(cmtypewriterce) \
 font(cmtypewritercyrillic) \
 font(cmtypewritergreek) \
 texlive-cm-lgc-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -10,6 +10,7 @@ RPM_HASH = "5692c48d0a4f7e186ded08a273f58019174ae332f9b15aa3f3adcf31f2b646dcb525
 
 RPROVIDES:${PN} += "qore-linenoise-module \
 qore-linenoise-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

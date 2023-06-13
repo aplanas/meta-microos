@@ -16,6 +16,7 @@ RPM_HASH = "13e6946d3c42c3998eaab6a10b9bd0ef0b8469bf4e8e3f6b581ec014272c263e4e07
 RPROVIDES:${PN} += "ghc-vault \
 ghc-vault(aarch-64) \
 libHSvault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

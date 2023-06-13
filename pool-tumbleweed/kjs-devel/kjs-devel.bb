@@ -12,6 +12,7 @@ RPM_HASH = "44fd7d14afe504e98f66708e77cc2122aaebb222a05f558a0f32d15edbe909ab2c30
 RPROVIDES:${PN} += "cmake(KF5JS) \
 kjs-devel \
 kjs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 cmake(Qt5Core) \
 extra-cmake-modules \

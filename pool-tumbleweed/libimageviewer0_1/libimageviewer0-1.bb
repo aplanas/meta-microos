@@ -10,6 +10,7 @@ RPM_HASH = "eb503e982f832ba1d6675199a44e04e31dbc185fffd10438a848b338846b51aa315c
 RPROVIDES:${PN} += "libimageviewer.so.0.1()(64bit) \
 libimageviewer0_1 \
 libimageviewer0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

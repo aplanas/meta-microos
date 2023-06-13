@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(notoccite.sty) \
 texlive-notoccite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

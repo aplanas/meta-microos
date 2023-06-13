@@ -10,6 +10,7 @@ RPM_HASH = "3a85630360427fdf839ee1036a0775703881b9b7ce755296b5d9a481ea08871ae439
 RPROVIDES:${PN} += "libcwnn.so.0()(64bit) \
 libcwnn0 \
 libcwnn0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

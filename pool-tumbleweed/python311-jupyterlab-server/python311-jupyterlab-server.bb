@@ -19,6 +19,7 @@ python311-jupyter_jupyterlab_server \
 python311-jupyterlab-server \
 python311-jupyterlab_server \
 python3dist(jupyterlab-server)"
+
 RDEPENDS:${PN} += "(python311-jupyter-server >= 1.21 with python311-jupyter-server < 3) \
 python(abi) \
 python311-Babel \

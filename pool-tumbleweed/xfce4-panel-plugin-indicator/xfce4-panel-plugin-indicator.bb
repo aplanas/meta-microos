@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "ayatana-indicator-renderer \
 libindicator-plugin.so()(64bit) \
 xfce4-panel-plugin-indicator \
 xfce4-panel-plugin-indicator(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libayatana-ido3-0.4.so.0()(64bit) \

@@ -28,6 +28,7 @@ mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https) \
 mozilla-kde4-version \
 web_browser"
+
 RDEPENDS:${PN} += "/bin/sh \
 MozillaFirefox-branding \
 coreutils \

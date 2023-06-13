@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(pycapnp) \
 python39-pycapnp \
 python39-pycapnp(aarch-64) \
 python3dist(pycapnp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

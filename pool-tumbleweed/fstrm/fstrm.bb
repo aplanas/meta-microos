@@ -24,6 +24,7 @@ RPM_HASH = "6e1d7a1768280ec50fb1b98d2b57fed270e89905ba41a0107a1811e2867c6e857613
 
 RPROVIDES:${PN} += "fstrm \
 fstrm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

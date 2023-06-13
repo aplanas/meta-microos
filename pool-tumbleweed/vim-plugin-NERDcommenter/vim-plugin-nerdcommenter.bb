@@ -11,6 +11,7 @@ RPM_HASH = "5d2542e1e80a4b4d3ae68e4b5bdd18faa10a47433f49c7fe817ba8bceb6c59c2f74f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-NERDcommenter"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

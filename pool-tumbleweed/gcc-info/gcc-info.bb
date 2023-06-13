@@ -9,6 +9,7 @@ RPM_HASH = "0059521cbe7fb2c85950507c33061029803c18052940cb64b14bd4e684f8411b3fd5
 
 RPROVIDES:${PN} += "gcc-info \
 gcc-info(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcc13-info"
 

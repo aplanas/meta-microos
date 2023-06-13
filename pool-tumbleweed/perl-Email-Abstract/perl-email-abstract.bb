@@ -29,6 +29,7 @@ perl(Email::Abstract::MailInternet) \
 perl(Email::Abstract::MailMessage) \
 perl(Email::Abstract::Plugin) \
 perl-Email-Abstract"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Simple) \
 perl(MRO::Compat) \

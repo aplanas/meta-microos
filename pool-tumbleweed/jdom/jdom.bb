@@ -19,6 +19,7 @@ mvn(jdom:jdom:pom:) \
 mvn(org.jdom:jdom) \
 mvn(org.jdom:jdom:pom:) \
 osgi(org.jdom)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jaxen:jaxen) \

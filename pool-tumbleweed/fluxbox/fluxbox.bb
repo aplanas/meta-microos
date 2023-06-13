@@ -16,6 +16,7 @@ RPM_HASH = "1b5f230cc654e147ab122be604382eaa58180b2846806150cb675acdba1d868d9cb3
 RPROVIDES:${PN} += "fluxbox \
 fluxbox(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

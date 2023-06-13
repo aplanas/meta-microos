@@ -15,6 +15,7 @@ RPM_HASH = "1c1018dea9b2883ec0a721a02706356342cf71308cf690d11744d2cf18b90a5faec9
 
 RPROVIDES:${PN} += "qqwing \
 qqwing(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

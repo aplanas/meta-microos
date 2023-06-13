@@ -13,6 +13,7 @@ RPM_HASH = "5a2ff4a4c66dc7c1906dc909bc9a2f69cc591f7bd215b5bc12ba3ac5b312357fba93
 RPROVIDES:${PN} += "dxflib-devel \
 dxflib-devel(aarch-64) \
 pkgconfig(dxflib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdxflib-3_26_4-1"
 

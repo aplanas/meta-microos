@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(georgian.ldf) \
 tex(georgian.sty) \
 tex(georgiancaps.tex) \
 texlive-babel-georgian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-applicationinsights \
 python3.10dist(applicationinsights) \
 python310-applicationinsights \
 python3dist(applicationinsights)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

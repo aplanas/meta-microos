@@ -12,6 +12,7 @@ RPM_HASH = "93bfce06d59b5a870f736dbbd04542266163a2523f2f8792644a463a08b51b0922a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcheat-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

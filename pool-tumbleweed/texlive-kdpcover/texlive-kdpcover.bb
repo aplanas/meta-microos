@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kdpcover.cls) \
 texlive-kdpcover"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

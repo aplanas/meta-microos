@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-patchy \
 python3.10dist(patchy) \
 python310-patchy \
 python3dist(patchy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pkgutil-resolve-name"
 

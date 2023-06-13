@@ -13,6 +13,7 @@ python3.10dist(twitter.common.lang) \
 python310-twitter.common.lang \
 python310-twitter.common.lang(aarch-64) \
 python3dist(twitter.common.lang)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(libevdev) \
 python311-libevdev \
 python3dist(libevdev)"
+
 RDEPENDS:${PN} += "libevdev2 \
 python(abi)"
 

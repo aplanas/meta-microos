@@ -11,6 +11,7 @@ RPM_HASH = "27bbecd629e0d9d67458867b0ad08b7b29704c6dc9098797d022079c8c3f82fc28b0
 
 RPROVIDES:${PN} += "rsvg-convert \
 rsvg-convert(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \

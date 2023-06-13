@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.gnome.Gtranslator.appdata.xml) \
 mimehandler(text/x-gettext-translation) \
 mimehandler(text/x-gettext-translation-template)"
+
 RDEPENDS:${PN} += "gsettings-desktop-schemas \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "130711427a8c39a1ae608348f4560824e6bab6cfacd0aae75f4b2631677e0dd81c06
 
 RPROVIDES:${PN} += "totem-pl-parser \
 totem-pl-parser(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

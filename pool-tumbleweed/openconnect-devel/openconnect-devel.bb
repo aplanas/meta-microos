@@ -14,6 +14,7 @@ RPM_HASH = "57a2079e742f7a730cca8414e023410c6993b8d845613d9a42bd204dfe8b4b97382d
 RPROVIDES:${PN} += "openconnect-devel \
 openconnect-devel(aarch-64) \
 pkgconfig(openconnect)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenconnect5 \
 pkgconfig(gnutls) \

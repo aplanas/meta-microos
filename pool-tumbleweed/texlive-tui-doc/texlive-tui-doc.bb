@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tui-doc:en;es) \
 texlive-tui-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

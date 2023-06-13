@@ -15,6 +15,7 @@ font(stmary7) \
 font(stmary8) \
 font(stmary9) \
 texlive-stmaryrd-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

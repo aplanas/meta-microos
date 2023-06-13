@@ -17,6 +17,7 @@ RPM_HASH = "042d73b3c2c2b2e3566f9e4e12f088d5a2c4cc8e33a90d56c6a1061463796b2fb2b6
 RPROVIDES:${PN} += "pkgconfig(voms-2.0) \
 voms-devel \
 voms-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 automake \
 libopenssl-devel \

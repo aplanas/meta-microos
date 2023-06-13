@@ -95,6 +95,7 @@ locale(evolution:wa) \
 locale(evolution:zh_CN) \
 locale(evolution:zh_HK) \
 locale(evolution:zh_TW)"
+
 RDEPENDS:${PN} += "evolution"
 
 inherit rpm

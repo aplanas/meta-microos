@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libtaginfo-devel \
 libtaginfo-devel(aarch-64) \
 pkgconfig(libtaginfo) \
 pkgconfig(libtaginfo_c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtaginfo1 \
 libtaginfo_c0 \

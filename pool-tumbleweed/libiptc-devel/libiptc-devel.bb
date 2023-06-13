@@ -13,6 +13,7 @@ libiptc-devel(aarch-64) \
 pkgconfig(libip4tc) \
 pkgconfig(libip6tc) \
 pkgconfig(libiptc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libip4tc2 \
 libip6tc2 \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-rst.linker \
 python3.10dist(rst.linker) \
 python310-rst.linker \
 python3dist(rst.linker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

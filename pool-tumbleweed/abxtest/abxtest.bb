@@ -11,6 +11,7 @@ RPM_HASH = "1af2bd35c3c752f551b6bdd29b57c14eb1182f0293f1e7c91bd80db5cc1d077654d3
 
 RPROVIDES:${PN} += "abxtest \
 abxtest(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

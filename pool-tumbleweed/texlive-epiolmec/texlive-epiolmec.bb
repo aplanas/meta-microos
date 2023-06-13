@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(EpiOlmec.tfm) \
 tex(epiolmec.map) \
 tex(epiolmec.sty) \
 texlive-epiolmec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

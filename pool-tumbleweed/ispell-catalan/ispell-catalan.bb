@@ -15,6 +15,7 @@ ispell-catalan \
 ispell-catalan(aarch-64) \
 ispell_dictionary \
 locale(ispell:ca)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

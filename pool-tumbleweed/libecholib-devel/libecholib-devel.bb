@@ -9,6 +9,7 @@ RPM_HASH = "8a2f96cd002638004939ef497f766b0e2c4cf9c168a6e20df574bab789318f7cf29c
 
 RPROVIDES:${PN} += "libecholib-devel \
 libecholib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libecholib1_3"
 
 inherit rpm

@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-gnome-gnome \
 patterns-gnome-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

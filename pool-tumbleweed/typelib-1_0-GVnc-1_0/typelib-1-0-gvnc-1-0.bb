@@ -15,6 +15,7 @@ RPM_HASH = "7c0ff68aea24cad1a1eeb2682dc6f345e058ac37357bbdc8a495dd41afca6110af52
 RPROVIDES:${PN} += "typelib(GVnc) \
 typelib-1_0-GVnc-1_0 \
 typelib-1_0-GVnc-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgvnc-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

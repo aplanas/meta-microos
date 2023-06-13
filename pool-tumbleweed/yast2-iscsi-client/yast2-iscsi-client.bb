@@ -14,6 +14,7 @@ application(org.opensuse.yast.iSCSIClient.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.iSCSIClient.metainfo.xml) \
 yast2-iscsi-client"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-packager \
 yast2-ruby-bindings"

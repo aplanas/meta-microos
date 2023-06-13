@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-pytest-randomly \
 python3.10dist(pytest-randomly) \
 python310-pytest-randomly \
 python3dist(pytest-randomly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-importlib-metadata \
 python310-pytest"

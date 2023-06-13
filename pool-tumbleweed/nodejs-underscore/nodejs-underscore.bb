@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-underscore \
 npm(underscore)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

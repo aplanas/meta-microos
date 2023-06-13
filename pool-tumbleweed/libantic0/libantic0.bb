@@ -10,6 +10,7 @@ RPM_HASH = "ae3dd7c8e3ac94d54c32fe3e32517381625d1511dca192538866fed2f8c639781db4
 RPROVIDES:${PN} += "libantic.so.0()(64bit) \
 libantic0 \
 libantic0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

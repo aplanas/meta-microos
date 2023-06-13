@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon-scripts \
 saxon6-scripts"
+
 RDEPENDS:${PN} += "saxon6"
 
 inherit rpm

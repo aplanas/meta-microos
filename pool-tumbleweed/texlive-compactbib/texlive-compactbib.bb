@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(compactbib.sty) \
 texlive-compactbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -72,6 +72,7 @@ nemo-extension-seahorse-lang \
 nemo-extension-share-lang \
 nemo-extensions-lang \
 nemo-extensions-lang-all"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

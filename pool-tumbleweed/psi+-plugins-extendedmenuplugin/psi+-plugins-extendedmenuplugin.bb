@@ -10,6 +10,7 @@ RPM_HASH = "969caf1ba02e263d6be403b21130e1184786c758adb70db3fc1cf5812509f82f8456
 RPROVIDES:${PN} += "libextendedmenuplugin.so()(64bit) \
 psi+-plugins-extendedmenuplugin \
 psi+-plugins-extendedmenuplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

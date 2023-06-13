@@ -11,6 +11,7 @@ RPM_HASH = "ec1cae39a3923e414fa02e4bf28872727dcab2dd9bf86d23cf0446ae1e66e66944a9
 
 RPROVIDES:${PN} += "fnotifystat \
 fnotifystat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

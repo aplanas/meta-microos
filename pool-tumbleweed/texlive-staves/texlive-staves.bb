@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(icelandic.map) \
 tex(icelandic.tfm) \
 tex(staves.sty) \
 texlive-staves"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

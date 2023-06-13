@@ -9,6 +9,7 @@ RPM_HASH = "02d9e9228098d13aa27dcbf1f2878d04c3a02e2f525c3df4b4b1eef7bc25bdc9bf49
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textfit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

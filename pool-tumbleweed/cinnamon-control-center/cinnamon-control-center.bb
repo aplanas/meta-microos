@@ -18,6 +18,7 @@ application(cinnamon-network-panel.desktop) \
 application(cinnamon-wacom-panel.desktop) \
 cinnamon-control-center \
 cinnamon-control-center(aarch-64)"
+
 RDEPENDS:${PN} += "accountsservice \
 adwaita-icon-theme \
 cinnamon-control-center-common \

@@ -12,6 +12,7 @@ distcc-server \
 distcc-server(aarch-64) \
 python3.10dist(include-server) \
 python3dist(include-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 distcc \
 ld-linux-aarch64.so.1()(64bit) \

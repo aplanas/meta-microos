@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-partd \
 python3.10dist(partd) \
 python310-partd \
 python3dist(partd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-locket \
 python310-toolz"

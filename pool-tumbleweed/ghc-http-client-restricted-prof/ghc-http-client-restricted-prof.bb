@@ -10,6 +10,7 @@ RPM_HASH = "4209fc1ea47ec31de5fb3440b520c78a79d7211b4b9efe34c205dd8c6486460cab15
 RPROVIDES:${PN} += "ghc-http-client-restricted-prof \
 ghc-http-client-restricted-prof(aarch-64) \
 ghc-prof(http-client-restricted-0.0.5-H9uptV4si451SzytuhF5eP)"
+
 RDEPENDS:${PN} += "ghc-http-client-restricted-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(connection-0.3.1-IDyFh0K8hgZvp3uiDVm7m) \

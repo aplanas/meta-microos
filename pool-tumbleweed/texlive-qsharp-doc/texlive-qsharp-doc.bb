@@ -9,6 +9,7 @@ RPM_HASH = "5a8f231a3ae4cc8dc2d9cd49ad081f0a22b68d6822bc71e9333b52a4ebf28246e3fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qsharp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

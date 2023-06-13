@@ -14,6 +14,7 @@ RPM_HASH = "c172bcdb04ad8d29bc4fbe28672dcc6165ac7985414f7000877d08616613e3c16d5c
 
 RPROVIDES:${PN} += "irrlicht-data \
 irrlicht-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

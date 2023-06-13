@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xassoccnt.sty) \
 texlive-xassoccnt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

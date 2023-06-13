@@ -10,6 +10,7 @@ RPM_HASH = "708c53a8a80713e9a4e72391eb1befaee136dbae9280001fdf5f7a06b84d5cbd4f6a
 RPROVIDES:${PN} += "ghc-devel(void-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz) \
 ghc-void-devel \
 ghc-void-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

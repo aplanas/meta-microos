@@ -9,6 +9,7 @@ RPM_HASH = "7c5eb17f89b6e8b838e9795740e494e1b19cc7d799cf7d5918eeae18333b6d35c0a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerswitch-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

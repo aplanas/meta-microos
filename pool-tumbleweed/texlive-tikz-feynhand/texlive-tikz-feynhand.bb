@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "tex(tikz-feynhand.sty) \
 tex(tikzfeynhand.keys.code.tex) \
 tex(tikzlibraryfeynhand.code.tex) \
 texlive-tikz-feynhand"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

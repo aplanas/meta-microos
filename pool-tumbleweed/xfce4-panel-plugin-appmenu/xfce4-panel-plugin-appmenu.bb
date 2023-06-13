@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libappmenu-xfce.so()(64bit) \
 xfce4-panel-plugin-appmenu \
 xfce4-panel-plugin-appmenu(aarch-64) \
 xfce4-vala-panel-appmenu-plugin"
+
 RDEPENDS:${PN} += "appmenu-gtk2-module \
 appmenu-gtk3-module \
 appmenu-registrar \

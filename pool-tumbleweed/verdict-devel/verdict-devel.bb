@@ -10,6 +10,7 @@ RPM_HASH = "88b8fca37930d19c570febe64734d61ec9a40ed132fd006c4d02e170796df0f8ca3b
 RPROVIDES:${PN} += "cmake(Verdict) \
 verdict-devel \
 verdict-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libverdict1_4"
 
 inherit rpm

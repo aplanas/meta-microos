@@ -13,6 +13,7 @@ RPM_HASH = "3ff106dc2aaaf76005efc0c36147676f9e1cea604b2fac84cfa44d43a7375cd00bbe
 
 RPROVIDES:${PN} += "teseq \
 teseq(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

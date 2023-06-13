@@ -10,6 +10,7 @@ RPM_HASH = "198aac9e132c90f0eedbd7238273fb3f1e545a4704ebba0257af2e32da727fe671a9
 RPROVIDES:${PN} += "libgepub-0.7.so.0()(64bit) \
 libgepub-0_7-0 \
 libgepub-0_7-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

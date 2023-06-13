@@ -96,6 +96,7 @@ locale(xreader:zh_HK) \
 locale(xreader:zh_TW) \
 xreader-lang \
 xreader-lang-all"
+
 RDEPENDS:${PN} += "xreader"
 
 inherit rpm

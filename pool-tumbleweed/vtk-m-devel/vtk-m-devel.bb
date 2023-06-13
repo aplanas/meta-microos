@@ -14,6 +14,7 @@ RPM_HASH = "12a12017bedd59a857d6336b697f767203a704855afc42daf15f6394ab55f875ded2
 RPROVIDES:${PN} += "cmake(VTKm) \
 vtk-m-devel \
 vtk-m-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 libvtk-m-2_0"
 

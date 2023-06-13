@@ -9,6 +9,7 @@ RPM_HASH = "f81aea61032b5b893e0ad5d6216410544e8107148c948b0f6cd9f83868fef273ac56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyzologo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

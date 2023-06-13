@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-server-fixtures \
 python3.10dist(pytest-server-fixtures) \
 python310-pytest-server-fixtures \
 python3dist(pytest-server-fixtures)"
+
 RDEPENDS:${PN} += "lsof \
 net-tools-deprecated \
 python(abi) \

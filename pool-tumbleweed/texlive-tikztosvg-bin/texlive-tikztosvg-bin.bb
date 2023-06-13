@@ -9,6 +9,7 @@ RPM_HASH = "8cf8a80b9f6bb5a37f6e3d0bbf654638db00ed1470fca590133c1e46b29366455fb1
 
 RPROVIDES:${PN} += "texlive-tikztosvg-bin \
 texlive-tikztosvg-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-tikztosvg"
 
 inherit rpm

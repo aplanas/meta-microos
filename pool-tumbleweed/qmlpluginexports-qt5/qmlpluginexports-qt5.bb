@@ -10,6 +10,7 @@ RPM_HASH = "f40b03221091b4586f17e729a7d312dfc13d23cbc53499d9d5703f563cb6ec643754
 
 RPROVIDES:${PN} += "qmlpluginexports-qt5 \
 qmlpluginexports-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -15,6 +15,7 @@ khangman(aarch-64) \
 khangman5 \
 metainfo() \
 metainfo(org.kde.khangman.appdata.xml)"
+
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

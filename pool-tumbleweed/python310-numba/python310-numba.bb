@@ -26,6 +26,7 @@ python3.10dist(numba) \
 python310-numba \
 python310-numba(aarch-64) \
 python3dist(numba)"
+
 RDEPENDS:${PN} += "(python310-llvmlite >= 0.40 with python310-llvmlite < 0.41) \
 (python310-numpy >= 1.21 with python310-numpy < 1.25) \
 /bin/sh \

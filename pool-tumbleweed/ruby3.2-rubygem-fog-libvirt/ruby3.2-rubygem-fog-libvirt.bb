@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:fog-libvirt) \
 rubygem(ruby:3.2.0:fog-libvirt:0) \
 rubygem(ruby:3.2.0:fog-libvirt:0.10) \
 rubygem(ruby:3.2.0:fog-libvirt:0.10.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:fog-core) \
 rubygem(ruby:3.2.0:fog-json) \

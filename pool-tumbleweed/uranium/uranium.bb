@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt5qmlimport(UM.1) \
 uranium"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.10dist(arcus) \
 python3.10dist(cryptography) \

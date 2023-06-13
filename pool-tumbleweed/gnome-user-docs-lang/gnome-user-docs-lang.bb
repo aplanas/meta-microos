@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-user-docs-lang \
 gnome-user-docs-lang-all"
+
 RDEPENDS:${PN} += "gnome-user-docs"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "8c3345fbe23db21485af825aa9e1a2e8d76056d8778ca22138a47854ae4763c5c539
 
 RPROVIDES:${PN} += "lrslib-devel \
 lrslib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblrs1"
 
 inherit rpm

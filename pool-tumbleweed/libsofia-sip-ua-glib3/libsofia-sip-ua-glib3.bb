@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libsofia-sip-ua-glib.so.3()(64bit) \
 libsofia-sip-ua-glib3 \
 libsofia-sip-ua-glib3(aarch-64) \
 sofia-sip-glib"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

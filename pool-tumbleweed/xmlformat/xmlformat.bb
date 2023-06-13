@@ -16,6 +16,7 @@ RPM_HASH = "5bb95fc0a8625d657d58df7dc63ab641b4c37e53bb88a84f8d327035a4f855d581c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlformat"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/ruby \

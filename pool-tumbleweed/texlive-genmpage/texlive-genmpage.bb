@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(genmpage.sty) \
 texlive-genmpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

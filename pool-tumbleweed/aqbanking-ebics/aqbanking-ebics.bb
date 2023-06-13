@@ -11,6 +11,7 @@ RPM_HASH = "110a7c84e8c2ba2c1e4e02270fe934229c15bb481df561726990ac94f7324b91e823
 
 RPROVIDES:${PN} += "aqbanking-ebics \
 aqbanking-ebics(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 aqbanking \
 ld-linux-aarch64.so.1()(64bit) \

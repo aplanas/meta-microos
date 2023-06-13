@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-freetype-py \
 python3.10dist(freetype-py) \
 python310-freetype-py \
 python3dist(freetype-py)"
+
 RDEPENDS:${PN} += "freetype2 \
 python(abi)"
 

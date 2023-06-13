@@ -9,6 +9,7 @@ RPM_HASH = "f0d7ac60538301ce3fe3fcc122e9986ab24ff3c2cc29973c568905eb7dbf92d83a9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-layout-xkb"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-xkbgroup"
 

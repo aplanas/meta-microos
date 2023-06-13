@@ -51,6 +51,7 @@ tex(ofsdef.tex) \
 tex(pantyk.tex) \
 tex(txfn.tex) \
 texlive-ofs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

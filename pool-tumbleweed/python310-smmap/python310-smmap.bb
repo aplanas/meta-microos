@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-smmap \
 python3.10dist(smmap) \
 python310-smmap \
 python3dist(smmap)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

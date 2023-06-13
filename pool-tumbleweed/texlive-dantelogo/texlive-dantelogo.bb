@@ -28,6 +28,7 @@ tex(dante.enc) \
 tex(dante.map) \
 tex(dantelogo.sty) \
 texlive-dantelogo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

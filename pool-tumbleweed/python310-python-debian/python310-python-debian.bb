@@ -24,6 +24,7 @@ python3.10dist(python-debian) \
 python310-debian \
 python310-python-debian \
 python3dist(python-debian)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-chardet \
 python310-six \

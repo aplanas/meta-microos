@@ -141,6 +141,7 @@ tex(multimedia.sty) \
 tex(multimediasymbols.sty) \
 tex(xmpmulti.sty) \
 texlive-beamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

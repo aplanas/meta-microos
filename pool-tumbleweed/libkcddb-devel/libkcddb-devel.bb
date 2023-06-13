@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Cddb) \
 libkcddb-devel \
 libkcddb-devel(aarch-64) \
 libkcddb5-devel"
+
 RDEPENDS:${PN} += "libKF5Cddb5 \
 libkcddb"
 

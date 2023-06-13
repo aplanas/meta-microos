@@ -59,6 +59,7 @@ locale(gitg:vi) \
 locale(gitg:zh_CN) \
 locale(gitg:zh_HK) \
 locale(gitg:zh_TW)"
+
 RDEPENDS:${PN} += "gitg"
 
 inherit rpm

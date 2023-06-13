@@ -30,6 +30,7 @@ libcdkw.so.6.2.4(CDK_4.0.3)(64bit) \
 libcdkw.so.6.2.4(CDK_5.0.4)(64bit) \
 libcdkw.so.6.2.4(CDK_6.1.4)(64bit) \
 libcdkw.so.6.2.4(CDK_6.2.4)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

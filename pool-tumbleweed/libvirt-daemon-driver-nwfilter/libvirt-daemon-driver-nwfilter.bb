@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(libvirt-daemon-driver-nwfilter) \
 libvirt-daemon-driver-nwfilter \
 libvirt-daemon-driver-nwfilter(aarch-64) \
 libvirt_driver_nwfilter.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ebtables \
 iptables \

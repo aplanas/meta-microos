@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyjsparser \
 python3.10dist(pyjsparser) \
 python310-pyjsparser \
 python3dist(pyjsparser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "2ddec0b40041a96322d6b0beb3b5dfd597ad1e85df4bb1e929db02a4e119767df13d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-appendixnumberbeamer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

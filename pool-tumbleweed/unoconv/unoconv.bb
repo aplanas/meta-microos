@@ -19,6 +19,7 @@ RPM_HASH = "0b98d3dc266769a52fb79a4553e772d10a361de35d9f79a4587b2f46a97a5e41b63a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unoconv"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libreoffice-pyuno \
 python3"

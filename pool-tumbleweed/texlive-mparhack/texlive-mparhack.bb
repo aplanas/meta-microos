@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mparhack.sty) \
 texlive-mparhack"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

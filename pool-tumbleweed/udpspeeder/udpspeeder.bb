@@ -15,6 +15,7 @@ RPM_HASH = "35eac600d531704699a060e4de25e4a7ae719b71a8778bda06eea4de7899ceadb873
 
 RPROVIDES:${PN} += "udpspeeder \
 udpspeeder(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

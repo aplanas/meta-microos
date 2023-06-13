@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(boxedminipage.sty) \
 tex(boxedminipage2e.sty) \
 texlive-boxedminipage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(makeglossaries-lite.1) \
 man(makeglossaries.1) \
 texlive-glossaries-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

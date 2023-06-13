@@ -14,6 +14,7 @@ RPM_HASH = "49c1b52f4ae03a2edb913e0862c097ef49c03f5e717b7189d07cfee305982875e7cb
 RPROVIDES:${PN} += "liblc3-devel \
 liblc3-devel(aarch-64) \
 pkgconfig(lc3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblc3-1"
 

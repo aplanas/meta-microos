@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gckanbun.sty) \
 texlive-gckanbun"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-ups) \
 monitoring-plugins-ups \
 monitoring-plugins-ups(aarch-64) \
 nagios-plugins-ups"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -9,6 +9,7 @@ RPM_HASH = "173aab60359a12bd2dbda2a2052ae8ffe9806168361edf039d86d4a1fc353945e486
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflscape-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

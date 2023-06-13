@@ -88,6 +88,7 @@ qt5qmlimport(org.kde.plasma.private.taskmanager.0) \
 qt5qmlimport(org.kde.plasma.private.trash.1) \
 qt5qmlimport(org.kde.private.desktopcontainment.desktop.0) \
 qt5qmlimport(org.kde.private.desktopcontainment.folder.0)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/awk \
 /usr/bin/env \

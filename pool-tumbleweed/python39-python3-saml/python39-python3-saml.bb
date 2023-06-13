@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python3-saml) \
 python39-python3-saml \
 python3dist(python3-saml)"
+
 RDEPENDS:${PN} += "libxmlsec1-openssl1 \
 python(abi) \
 python39-isodate \

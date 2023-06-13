@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-datawidgets \
 jupyter-ipydatawidgets"
+
 RDEPENDS:${PN} += "jupyter-notebook \
 python3-ipydatawidgets"
 

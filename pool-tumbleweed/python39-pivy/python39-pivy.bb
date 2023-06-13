@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3.9dist(pivy) \
 python39-pivy \
 python39-pivy(aarch-64) \
 python3dist(pivy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chemcompounds.sty) \
 texlive-chemcompounds"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

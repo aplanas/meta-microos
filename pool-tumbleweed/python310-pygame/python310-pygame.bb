@@ -17,6 +17,7 @@ python3.10dist(pygame) \
 python310-pygame \
 python310-pygame(aarch-64) \
 python3dist(pygame)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.10 \
 fontconfig \

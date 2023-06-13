@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgrpc1_54 \
 libgrpc1_54(aarch-64) \
 libgrpc_authorization_provider.so.1.54()(64bit) \
 libgrpc_plugin_support.so.1.54()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

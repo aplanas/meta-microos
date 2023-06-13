@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-servicefabricmanagedclusters \
 python3.10dist(azure-mgmt-servicefabricmanagedclusters) \
 python310-azure-mgmt-servicefabricmanagedclusters \
 python3dist(azure-mgmt-servicefabricmanagedclusters)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

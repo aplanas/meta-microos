@@ -12,6 +12,7 @@ RPM_HASH = "f19279257e62751e0722c84581ba3cc1ce9adf2101cd9f5230cfef931c91758d52df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualibs"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/texlua \
 coreutils \

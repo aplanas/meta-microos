@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-network-utils-lang \
 deepin-network-utils-lang-all"
+
 RDEPENDS:${PN} += "deepin-network-utils"
 
 inherit rpm

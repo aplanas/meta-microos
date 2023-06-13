@@ -78,6 +78,7 @@ locale(glib-networking:vi) \
 locale(glib-networking:zh_CN) \
 locale(glib-networking:zh_HK) \
 locale(glib-networking:zh_TW)"
+
 RDEPENDS:${PN} += "glib-networking"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "a7f8738b5caf1021f8d33c39366c8d2dbd9b3abb7139a82c4ea3e6a8e268ed10ce72
 RPROVIDES:${PN} += "gtksourceview4-devel \
 gtksourceview4-devel(aarch-64) \
 pkgconfig(gtksourceview-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtksourceview-4-0 \
 libgtksourceview4 \

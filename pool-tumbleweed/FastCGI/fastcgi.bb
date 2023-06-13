@@ -11,6 +11,7 @@ RPM_HASH = "8907fdddf9b08f1fa8fc42032bf399fd915d011c6c56ee1b39f8a0641c276074e01a
 
 RPROVIDES:${PN} += "FastCGI \
 FastCGI(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

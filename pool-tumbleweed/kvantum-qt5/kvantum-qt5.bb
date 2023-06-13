@@ -15,6 +15,7 @@ RPM_HASH = "39380454afb538f047be2a3658e0f2cc896443a2d3f1fc700a22220f5ce3760f797c
 RPROVIDES:${PN} += "kvantum-qt5 \
 kvantum-qt5(aarch-64) \
 libkvantum.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WindowSystem.so.5()(64bit) \

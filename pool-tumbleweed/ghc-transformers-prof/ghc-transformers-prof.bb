@@ -10,6 +10,7 @@ RPM_HASH = "be3bf4846f4697bbe7947d59fd74a6e3fb3f5926871b13fff0d7eb63ea050d7838a5
 RPROVIDES:${PN} += "ghc-prof(transformers-0.5.6.2) \
 ghc-transformers-prof \
 ghc-transformers-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-transformers-devel(aarch-64)"
 

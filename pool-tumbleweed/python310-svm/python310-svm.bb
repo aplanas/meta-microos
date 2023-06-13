@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-svm \
 python310-svm"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 gnuplot \
 python(abi) \

@@ -9,6 +9,7 @@ RPM_HASH = "8d41235bbc778fadeacac90dbc2c561286c1468f74bfc9b0bc8fb6a5169428fca999
 
 RPROVIDES:${PN} += "texlive-webquiz-bin \
 texlive-webquiz-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-webquiz"
 
 inherit rpm

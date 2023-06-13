@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono(SharpFont) \
 sharpfont"
+
 RDEPENDS:${PN} += "mono(System.Core) \
 mono(System.Drawing) \
 mono(mscorlib)"

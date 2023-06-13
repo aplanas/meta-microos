@@ -9,6 +9,7 @@ RPM_HASH = "289272ad76026d12226a5fb6b429c231446d8d595f7b51b7c0c0fbf6251a81af9fec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "voms-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

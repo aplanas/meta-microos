@@ -20,6 +20,7 @@ RPM_HASH = "6be19bcfffa4fcb92df66c8140f6b188974d3b4dced7634b8efb2c6e263cfa99cb5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgroups-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

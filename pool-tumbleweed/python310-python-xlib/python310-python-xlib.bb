@@ -15,6 +15,7 @@ python3.10dist(python-xlib) \
 python310-python-xlib \
 python310-xlib \
 python3dist(python-xlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ordered-namespace \
 python3.10dist(ordered-namespace) \
 python310-ordered-namespace \
 python3dist(ordered-namespace)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

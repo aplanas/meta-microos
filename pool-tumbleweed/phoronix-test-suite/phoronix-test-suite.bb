@@ -23,6 +23,7 @@ metainfo() \
 metainfo(phoronix-test-suite.appdata.xml) \
 mimehandler(application/x-openbenchmarking) \
 phoronix-test-suite"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

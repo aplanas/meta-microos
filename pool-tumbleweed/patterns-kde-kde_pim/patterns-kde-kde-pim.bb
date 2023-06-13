@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 pattern-visible() \
 patterns-kde-kde_pim"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

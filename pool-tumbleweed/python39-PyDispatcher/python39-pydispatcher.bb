@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydispatcher) \
 python39-PyDispatcher \
 python3dist(pydispatcher)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

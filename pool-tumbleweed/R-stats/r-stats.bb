@@ -9,6 +9,7 @@ RPM_HASH = "dc37be6f09c9961d747d3e69e93fcae7b3641c05867aee80cfa81ee93f596e6e5ede
 
 RPROVIDES:${PN} += "R-stats \
 R-stats(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

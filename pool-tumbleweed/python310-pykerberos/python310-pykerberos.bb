@@ -15,6 +15,7 @@ python3.10dist(pykerberos) \
 python310-pykerberos \
 python310-pykerberos(aarch-64) \
 python3dist(pykerberos)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

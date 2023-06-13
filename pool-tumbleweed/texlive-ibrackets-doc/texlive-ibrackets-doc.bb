@@ -9,6 +9,7 @@ RPM_HASH = "5275e532a8faa664809bdff55a2b3ed2c9dd4c1d56fc107fb494fd65685fe8e121f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibrackets-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

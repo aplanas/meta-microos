@@ -15,6 +15,7 @@ libgvplugin_gtk.so.6()(64bit) \
 libgvplugin_pango.so.6()(64bit) \
 libgvplugin_rsvg.so.6()(64bit) \
 libgvplugin_xlib.so.6()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \

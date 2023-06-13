@@ -100,6 +100,7 @@ font(:lang=zu) \
 font(alkalami) \
 font(alkalamilight) \
 texlive-alkalami-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

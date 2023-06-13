@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(verse.sty) \
 texlive-verse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

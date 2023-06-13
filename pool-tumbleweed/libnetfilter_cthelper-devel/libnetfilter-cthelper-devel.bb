@@ -11,6 +11,7 @@ RPM_HASH = "df68a3881fa7fd4e532370868879cdce6aca701ad71c200b711e61b70cd3b846ac2c
 RPROVIDES:${PN} += "libnetfilter_cthelper-devel \
 libnetfilter_cthelper-devel(aarch-64) \
 pkgconfig(libnetfilter_cthelper)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetfilter_cthelper0"
 

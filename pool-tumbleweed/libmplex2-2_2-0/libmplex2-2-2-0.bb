@@ -14,6 +14,7 @@ RPM_HASH = "030fe0f412c6c995a4383228dca5090ab69673e43bfd12295332b7a749c8f97db399
 RPROVIDES:${PN} += "libmplex2-2.2.so.0()(64bit) \
 libmplex2-2_2-0 \
 libmplex2-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

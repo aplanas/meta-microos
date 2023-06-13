@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-netmiko \
 python3.10dist(netmiko) \
 python310-netmiko \
 python3dist(netmiko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

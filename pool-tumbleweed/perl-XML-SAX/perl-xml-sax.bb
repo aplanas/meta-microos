@@ -22,6 +22,7 @@ perl(XML::SAX::PurePerl::Reader::Stream) \
 perl(XML::SAX::PurePerl::Reader::String) \
 perl(XML::SAX::PurePerl::Reader::URI) \
 perl-XML-SAX"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::NamespaceSupport) \

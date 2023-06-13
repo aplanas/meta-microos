@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(lua53-luarocks) \
 lua53-luarocks"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.3 \
 curl \

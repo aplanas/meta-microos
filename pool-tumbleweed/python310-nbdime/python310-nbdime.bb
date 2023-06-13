@@ -17,6 +17,7 @@ python3.10dist(nbdime) \
 python310-jupyter_nbdime \
 python310-nbdime \
 python3dist(nbdime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

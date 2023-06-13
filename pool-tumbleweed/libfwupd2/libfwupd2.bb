@@ -76,6 +76,7 @@ libfwupd.so.2(LIBFWUPD_1.8.7)(64bit) \
 libfwupd.so.2(LIBFWUPD_1.8.8)(64bit) \
 libfwupd2 \
 libfwupd2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fwupd \
 ld-linux-aarch64.so.1()(64bit) \

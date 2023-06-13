@@ -9,6 +9,7 @@ RPM_HASH = "96014624acffe66b6cdc96860ca3e352e4c5367b960603555edf92414919aeae3648
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "judy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

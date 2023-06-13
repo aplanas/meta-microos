@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-solides3d.sty) \
 tex(pst-solides3d.tex) \
 texlive-pst-solides3d"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

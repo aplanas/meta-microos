@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Term::Size::Perl) \
 perl(Term::Size::Perl::Params) \
 perl-Term-Size-Perl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

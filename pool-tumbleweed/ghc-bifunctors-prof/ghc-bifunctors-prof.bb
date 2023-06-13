@@ -10,6 +10,7 @@ RPM_HASH = "bd41c5d9d7f9d69c231b027683ebe9e7727507abe0ab9556ea14bcf9388b3d7025ca
 RPROVIDES:${PN} += "ghc-bifunctors-prof \
 ghc-bifunctors-prof(aarch-64) \
 ghc-prof(bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL)"
+
 RDEPENDS:${PN} += "ghc-bifunctors-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8) \

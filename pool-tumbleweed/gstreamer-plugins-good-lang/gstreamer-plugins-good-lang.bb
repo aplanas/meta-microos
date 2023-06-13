@@ -52,6 +52,7 @@ locale(gstreamer-plugins-good:vi) \
 locale(gstreamer-plugins-good:zh_CN) \
 locale(gstreamer-plugins-good:zh_HK) \
 locale(gstreamer-plugins-good:zh_TW)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-good"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "12aa8d20f696b6eaad7cde32e55e12a7055e35ccfb404b73b56c3a9dfeba16b5e904
 RPROVIDES:${PN} += "libgpm.so.2()(64bit) \
 libgpm2 \
 libgpm2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

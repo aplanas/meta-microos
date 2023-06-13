@@ -12,6 +12,7 @@ pkgconfig(odbccr) \
 pkgconfig(odbcinst) \
 unixODBC-devel \
 unixODBC-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libodbc2 \
 pkgconfig(odbc) \

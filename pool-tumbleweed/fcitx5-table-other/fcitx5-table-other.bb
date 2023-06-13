@@ -27,6 +27,7 @@ fcitx-table-vi-qr \
 fcitx5-table-other \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.TableOther.metainfo.xml)"
+
 RDEPENDS:${PN} += "fcitx5"
 
 inherit rpm

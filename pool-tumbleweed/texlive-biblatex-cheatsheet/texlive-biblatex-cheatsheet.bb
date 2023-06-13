@@ -11,6 +11,7 @@ RPM_HASH = "2555be27dbf6e52d3d56386dbf62d92b264aede915db8c533e02048cffa3d5d55784
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-cheatsheet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

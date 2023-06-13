@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vtkdata \
 vtklargedata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

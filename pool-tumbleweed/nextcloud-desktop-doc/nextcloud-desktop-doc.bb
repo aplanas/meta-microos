@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nextcloud-client-doc \
 nextcloud-desktop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

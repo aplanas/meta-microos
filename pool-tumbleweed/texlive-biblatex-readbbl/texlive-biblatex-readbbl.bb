@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblatex-readbbl.sty) \
 texlive-biblatex-readbbl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

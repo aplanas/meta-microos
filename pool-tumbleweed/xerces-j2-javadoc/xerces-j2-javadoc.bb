@@ -9,6 +9,7 @@ RPM_HASH = "5e92dc90858f47835fa24488044b44abbab2a14492880b490389741c96c720d93f06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xerces-j2-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -25,6 +25,7 @@ RPM_HASH = "945d4f5faefa53082035440f31edccbc5d330a3464c8c7f4f9d6b620a4135de3df59
 
 RPROVIDES:${PN} += "ueberzugpp \
 ueberzugpp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

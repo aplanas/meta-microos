@@ -14,6 +14,7 @@ rpm_macro(_mingw32_cmake) \
 rpm_macro(_mingw32_cmake_build) \
 rpm_macro(_mingw32_cmake_install) \
 rpm_macro(_mingw32_ctest)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cmake \
 mingw32-filesystem"

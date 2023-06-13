@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-python-memcached \
 python3.10dist(python-memcached) \
 python310-python-memcached \
 python3dist(python-memcached)"
+
 RDEPENDS:${PN} += "memcached \
 python(abi)"
 

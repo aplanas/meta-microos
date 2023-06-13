@@ -10,6 +10,7 @@ RPM_HASH = "613e68775e4e1ebaca1e9f7b85ae0827dd54c96e07dc3f4a4927009a28cb3d4a930d
 RPROVIDES:${PN} += "bundled(CuteLogger) \
 deepin-shortcut-viewer \
 deepin-shortcut-viewer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

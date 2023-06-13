@@ -16,6 +16,7 @@ RPM_HASH = "329542d3effdf4a518f4a08444e926311626e6c01e8e08e45964b781af638b971859
 RPROVIDES:${PN} += "task \
 taskwarrior \
 taskwarrior(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

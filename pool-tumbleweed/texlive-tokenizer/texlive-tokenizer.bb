@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tokenizer.sty) \
 texlive-tokenizer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

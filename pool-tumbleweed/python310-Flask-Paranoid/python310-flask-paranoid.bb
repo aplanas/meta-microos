@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-Flask-Paranoid \
 python3.10dist(flask-paranoid) \
 python310-Flask-Paranoid \
 python3dist(flask-paranoid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

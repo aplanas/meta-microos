@@ -11,6 +11,7 @@ RPM_HASH = "b1e45b6181bf3abc4ee4514abf4ad69df977f3205ff8c5cdc80f8c80f4a4653007ef
 RPROVIDES:${PN} += "libelf-devel \
 libelf-devel(aarch-64) \
 pkgconfig(libelf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libelf1 \

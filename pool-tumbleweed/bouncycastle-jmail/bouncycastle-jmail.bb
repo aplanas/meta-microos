@@ -25,6 +25,7 @@ mvn(org.bouncycastle:bcjmail-jdk18) \
 mvn(org.bouncycastle:bcjmail-jdk18:pom:) \
 mvn(org.bouncycastle:bcjmail-jdk18on) \
 mvn(org.bouncycastle:bcjmail-jdk18on:pom:)"
+
 RDEPENDS:${PN} += "bouncycastle \
 bouncycastle-pkix \
 bouncycastle-util \

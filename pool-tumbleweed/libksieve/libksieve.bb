@@ -10,6 +10,7 @@ RPM_HASH = "2e6a8f01807e451f4a5ff196b924259155802ad41cbee4245937bd9bacb91255f45e
 
 RPROVIDES:${PN} += "libksieve \
 libksieve(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

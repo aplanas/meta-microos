@@ -11,6 +11,7 @@ RPM_HASH = "b21e949a21fb328418beb2a0e5c60ab715b8ddc7c99fd5978d39ff26e137d8d9981f
 
 RPROVIDES:${PN} += "kglobalaccel5 \
 kglobalaccel5(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

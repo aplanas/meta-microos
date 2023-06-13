@@ -18,6 +18,7 @@ metainfo(xfce4-screenshooter.appdata.xml) \
 xfce4-screenshooter \
 xfce4-screenshooter(aarch-64) \
 xfce4-screenshooter-doc"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

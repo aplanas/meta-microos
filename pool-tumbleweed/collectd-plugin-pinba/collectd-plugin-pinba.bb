@@ -10,6 +10,7 @@ RPM_HASH = "b7949375257b3b5532ad96cef87d2a371d2fc4b95c1351b93e79727be4523b60b82f
 
 RPROVIDES:${PN} += "collectd-plugin-pinba \
 collectd-plugin-pinba(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

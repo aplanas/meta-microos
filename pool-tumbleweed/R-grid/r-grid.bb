@@ -9,6 +9,7 @@ RPM_HASH = "190df01a5c2161eed0f639e91b6292358aa5b9d8493e85c68cfc8478fead95b49c50
 
 RPROVIDES:${PN} += "R-grid \
 R-grid(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

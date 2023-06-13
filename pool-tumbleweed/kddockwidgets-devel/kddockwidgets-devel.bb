@@ -10,6 +10,7 @@ RPM_HASH = "66c3ecc64227d8224da547d168052f18321f2295bc5bdaf9e4b4b32a8f9789f033f5
 RPROVIDES:${PN} += "cmake(KDDockWidgets) \
 kddockwidgets-devel \
 kddockwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5X11Extras) \
 libkddockwidgets1_7"
 

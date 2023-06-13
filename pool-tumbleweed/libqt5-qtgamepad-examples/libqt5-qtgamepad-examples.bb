@@ -9,6 +9,7 @@ RPM_HASH = "739ecec2313a9c8ab4a04d5dabb900ff3ce4459813419953011a32b0e5a1a5105e95
 
 RPROVIDES:${PN} += "libqt5-qtgamepad-examples \
 libqt5-qtgamepad-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

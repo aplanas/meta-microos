@@ -12,6 +12,7 @@ RPM_HASH = "19e42ef9192d68a27de37a194fd54691bbebd5039b449551d8d27cdfc5a4e4b27cfe
 RPROVIDES:${PN} += "config(pnm2ppa) \
 pnm2ppa \
 pnm2ppa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

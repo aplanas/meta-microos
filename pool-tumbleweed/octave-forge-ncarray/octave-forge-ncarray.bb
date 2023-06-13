@@ -10,6 +10,7 @@ RPM_HASH = "e987933e3f4431675edd81c814edc596412fbf078d597b80bc3f87e70fca9cd8dc4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-ncarray"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli \
 octave-forge-netcdf \

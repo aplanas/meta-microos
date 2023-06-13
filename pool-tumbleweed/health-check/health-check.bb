@@ -13,6 +13,7 @@ RPM_HASH = "d51da82a5bd04bfdf671c2b6df9e02ec7349685a1d3af1d468d54ddadffc05f6c3e2
 
 RPROVIDES:${PN} += "health-check \
 health-check(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbsd.so.0()(64bit) \

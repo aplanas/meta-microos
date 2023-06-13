@@ -13,6 +13,7 @@ RPM_HASH = "7289d7c87243495ed339692f2cbf955f95a3d59d71a0c7576c360f8a2e45f09614df
 RPROVIDES:${PN} += "python3-libpff \
 python310-libpff \
 python310-libpff(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-more-itertools \
 python3.10dist(more-itertools) \
 python310-more-itertools \
 python3dist(more-itertools)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

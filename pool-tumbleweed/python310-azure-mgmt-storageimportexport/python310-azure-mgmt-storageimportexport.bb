@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-storageimportexport \
 python3.10dist(azure-mgmt-storageimportexport) \
 python310-azure-mgmt-storageimportexport \
 python3dist(azure-mgmt-storageimportexport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

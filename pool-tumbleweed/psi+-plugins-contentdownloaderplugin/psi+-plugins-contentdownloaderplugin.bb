@@ -11,6 +11,7 @@ RPM_HASH = "dc965e555eac2646459d4c760e2b9b56ffdff9fe891108295fea4c8ee858b9921fcc
 RPROVIDES:${PN} += "libcontentdownloaderplugin.so()(64bit) \
 psi+-plugins-contentdownloaderplugin \
 psi+-plugins-contentdownloaderplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

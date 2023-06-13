@@ -105,6 +105,7 @@ font(tex\040vect7) \
 font(tex\040vect8) \
 font(tex\040vect9) \
 texlive-esvect-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

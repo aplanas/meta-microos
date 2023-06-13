@@ -9,6 +9,7 @@ RPM_HASH = "6ee2cd7e715155eb1e2a23ab6fe8ed98513742d0d927c403b048b19c444acdd4f6d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-raleway-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

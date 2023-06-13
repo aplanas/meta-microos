@@ -13,6 +13,7 @@ NetworkManager-devel(aarch-64) \
 NetworkManager-doc \
 pkgconfig(libnm) \
 rpm_macro(_vpnservicedir)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 NetworkManager \
 libnm0 \

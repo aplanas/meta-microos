@@ -26,6 +26,7 @@ perl(Tie::Simple::Hash) \
 perl(Tie::Simple::Scalar) \
 perl(Tie::Simple::Util) \
 perl-Tie-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

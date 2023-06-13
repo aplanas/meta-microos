@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(ctie.1) \
 texlive-ctie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

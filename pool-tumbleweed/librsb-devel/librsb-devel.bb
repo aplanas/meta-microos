@@ -15,6 +15,7 @@ RPM_HASH = "91b9cf2a10906213ea48c41f10e0e1df25274916d87f4c034fd76a7e02d409d9a3fd
 
 RPROVIDES:${PN} += "librsb-devel \
 librsb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

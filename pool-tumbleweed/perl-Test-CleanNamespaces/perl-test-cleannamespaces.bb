@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::CleanNamespaces) \
 perl-Test-CleanNamespaces"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Runtime) \
 perl(Package::Stash) \

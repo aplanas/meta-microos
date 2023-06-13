@@ -25,6 +25,7 @@ osgi(org.powermock.powermock-classloading-base) \
 osgi(org.powermock.powermock-classloading-objenesis) \
 osgi(org.powermock.powermock-core) \
 powermock-core"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.javassist:javassist) \

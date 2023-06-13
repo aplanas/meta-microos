@@ -10,6 +10,7 @@ RPM_HASH = "ab6cd7a808df09c39aea26728ef2e692d5249ac20eaa102ef356d5f3326894738fdb
 RPROVIDES:${PN} += "ghc-alsa-mixer-devel \
 ghc-alsa-mixer-devel(aarch-64) \
 ghc-devel(alsa-mixer-0.3.0-Ff4FVP5Sg8l3sx20Z8BrVj)"
+
 RDEPENDS:${PN} += "/bin/sh \
 alsa-devel \
 ghc-alsa-mixer \

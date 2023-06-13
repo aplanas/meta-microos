@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(net.sf.proguard:proguard-gui) \
 mvn(net.sf.proguard:proguard-gui:pom:) \
 proguard-gui"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

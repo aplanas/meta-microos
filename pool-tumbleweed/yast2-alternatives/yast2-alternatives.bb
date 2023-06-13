@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Alternatives.metainfo.xml) \
 yast2-alternatives \
 yast2-alternatives(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

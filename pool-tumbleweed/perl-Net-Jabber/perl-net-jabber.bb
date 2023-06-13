@@ -39,6 +39,7 @@ perl(Net::Jabber::Stanza) \
 perl(Net::Jabber::XDB) \
 perl-Net-Jabber \
 perl-Net-Jabber(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-Authen-SASL \
 perl-Digest-SHA1 \

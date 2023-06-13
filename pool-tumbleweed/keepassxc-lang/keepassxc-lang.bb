@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepassxc-lang \
 keepassxc-lang-all"
+
 RDEPENDS:${PN} += "keepassxc"
 
 inherit rpm

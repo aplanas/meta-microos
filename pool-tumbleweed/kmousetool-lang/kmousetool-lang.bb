@@ -78,6 +78,7 @@ locale(kmousetool:uk) \
 locale(kmousetool:vi) \
 locale(kmousetool:zh_CN) \
 locale(kmousetool:zh_TW)"
+
 RDEPENDS:${PN} += "kmousetool"
 
 inherit rpm

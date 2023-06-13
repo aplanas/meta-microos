@@ -10,6 +10,7 @@ RPM_HASH = "e54d27f1d8680b6138579a830471a63c95893cae60590df5c5cd47cfc79fa69cfab8
 RPROVIDES:${PN} += "libpano-devel \
 libpano-devel(aarch-64) \
 pkgconfig(libpano13)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libpano13-3"

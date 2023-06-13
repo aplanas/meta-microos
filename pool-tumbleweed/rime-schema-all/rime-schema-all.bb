@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brise \
 rime-schema-all"
+
 RDEPENDS:${PN} += "rime-schema-default \
 rime-schema-extra"
 

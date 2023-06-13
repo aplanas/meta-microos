@@ -9,6 +9,7 @@ RPM_HASH = "48442348c19b08f5bf569667d2a376d104069543299af9fabc0c786f66635bd78de6
 
 RPROVIDES:${PN} += "ComputeLibrary-sample-data \
 ComputeLibrary-sample-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "d2c04b630b8b1fb57a94f4c4774498c9ee443c35da1691e15ac4e27836307a0e6e1a
 RPROVIDES:${PN} += "libluksmeta.so.0()(64bit) \
 libluksmeta0 \
 libluksmeta0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-digitaltwins-core) \
 python311-azure-digitaltwins-core \
 python3dist(azure-digitaltwins-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-azure-digitaltwins-nspkg \

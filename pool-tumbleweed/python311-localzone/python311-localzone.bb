@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(localzone) \
 python311-localzone \
 python3dist(localzone)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dnspython"
 

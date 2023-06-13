@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibraryshadows.blur.code.tex) \
 texlive-pgf-blur"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

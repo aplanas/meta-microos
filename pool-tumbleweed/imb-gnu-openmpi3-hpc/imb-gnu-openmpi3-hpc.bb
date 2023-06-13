@@ -11,6 +11,7 @@ RPM_HASH = "1688225c87581340df357a4962ad8702a70838a07e8f60f44e4336352c42429bc631
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imb-gnu-openmpi3-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 imb_2021_3-gnu-openmpi3-hpc"
 

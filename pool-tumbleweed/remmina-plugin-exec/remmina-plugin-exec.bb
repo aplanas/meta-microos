@@ -10,6 +10,7 @@ RPM_HASH = "d4f68f26db40d8891684c5af3318f1a3b97049eb4d28868b63e5e32a0ce0f2c555b2
 
 RPROVIDES:${PN} += "remmina-plugin-exec \
 remmina-plugin-exec(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

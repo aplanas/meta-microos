@@ -33,6 +33,7 @@ tex(wallcalendar-swedish.tex) \
 tex(wallcalendar-thai.tex) \
 tex(wallcalendar.cls) \
 texlive-wallcalendar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

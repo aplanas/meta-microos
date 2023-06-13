@@ -9,6 +9,7 @@ RPM_HASH = "e6d93a3f0afc3fde1ad2b170ab76fa428f43074916a8b4126d1a04c8bfa437d7df05
 
 RPROVIDES:${PN} += "aalib-devel \
 aalib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-devel \
 libaa1"

@@ -38,6 +38,7 @@ tex(uni0400.def) \
 tex(uni1f00.def) \
 tex(ut1enc-antomega.def) \
 texlive-antomega"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

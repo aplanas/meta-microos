@@ -9,6 +9,7 @@ RPM_HASH = "c9fdc04b3a47562bc0d5b18473a15c9773d832d7d7fd474913eaf40541a13267919e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-ladder-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

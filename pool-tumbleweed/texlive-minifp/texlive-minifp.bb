@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mfpextra.tex) \
 tex(minifp.sty) \
 texlive-minifp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

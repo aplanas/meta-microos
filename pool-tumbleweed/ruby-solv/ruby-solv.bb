@@ -9,6 +9,7 @@ RPM_HASH = "f927fc80d63d262fd10979474b78f913c39ab7ca09719f47e3046debb7bef92f4794
 
 RPROVIDES:${PN} += "ruby-solv \
 ruby-solv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

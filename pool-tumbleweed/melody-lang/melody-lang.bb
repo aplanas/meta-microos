@@ -91,6 +91,7 @@ locale(melody:zh_HK) \
 locale(melody:zh_TW) \
 melody-lang \
 melody-lang-all"
+
 RDEPENDS:${PN} += "melody"
 
 inherit rpm

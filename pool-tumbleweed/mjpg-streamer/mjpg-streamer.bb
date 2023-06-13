@@ -20,6 +20,7 @@ RPM_HASH = "1bca7a530541d2b9a55ba358a20063c26e57197090a7f80c65d1bde7c566390b341c
 
 RPROVIDES:${PN} += "mjpg-streamer \
 mjpg-streamer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libSDL-1.2.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

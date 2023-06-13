@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fcavtex-doc:pt) \
 texlive-fcavtex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

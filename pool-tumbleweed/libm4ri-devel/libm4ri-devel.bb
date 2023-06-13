@@ -14,6 +14,7 @@ RPM_HASH = "43c8ea5d3a62f41d620a2725031777150adf1d40333e8922ee3628433ad5d55530b1
 RPROVIDES:${PN} += "libm4ri-devel \
 libm4ri-devel(aarch-64) \
 pkgconfig(m4ri)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libm4ri-0_0_20200125 \
 pkgconfig(libpng)"

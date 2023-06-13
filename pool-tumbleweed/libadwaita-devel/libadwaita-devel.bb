@@ -11,6 +11,7 @@ RPM_HASH = "50ecf36da3789c4aacd48a4b7daad63bc5c3bc9492487763628f618a026cd3bb8ce5
 RPROVIDES:${PN} += "libadwaita-devel \
 libadwaita-devel(aarch-64) \
 pkgconfig(libadwaita-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libadwaita-1-0 \
 pkgconfig(fribidi) \

@@ -9,6 +9,7 @@ RPM_HASH = "db5607cacb453f2b944cf1c862758ded416302742d338dd9f9850f7a823b6d4f0262
 
 RPROVIDES:${PN} += "libcpuid-tools \
 libcpuid-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(imreg) \
 python39-imreg \
 python3dist(imreg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-scipy"

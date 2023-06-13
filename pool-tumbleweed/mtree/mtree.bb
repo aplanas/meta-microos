@@ -16,6 +16,7 @@ RPM_HASH = "5ec2893c693622525b0ff1480ee0020ddf55c1ef117c1a9d24a89cb9820cc7ee80f1
 
 RPROVIDES:${PN} += "mtree \
 mtree(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

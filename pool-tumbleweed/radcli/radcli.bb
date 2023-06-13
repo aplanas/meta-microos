@@ -13,6 +13,7 @@ RPM_HASH = "909eb86a3ae600396bfa0cc4e0d36110f724d8b98d7e18ef8efa4d8b633f7d5f3d58
 RPROVIDES:${PN} += "config(radcli) \
 radcli \
 radcli(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "tex(nbaseprt.sty) \
 tex(numprint.sty) \
 tex(numprint032.sty) \
 texlive-numprint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

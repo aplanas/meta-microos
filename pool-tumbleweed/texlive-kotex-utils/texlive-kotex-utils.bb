@@ -11,6 +11,7 @@ RPM_HASH = "470292faa10c73a9aa4be9d8098587f7001bc234e87e2babf8ebacb8e402ebdda2f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kotex-utils"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

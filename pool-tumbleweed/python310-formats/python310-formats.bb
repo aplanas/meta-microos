@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-formats \
 python3.10dist(formats) \
 python310-formats \
 python3dist(formats)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

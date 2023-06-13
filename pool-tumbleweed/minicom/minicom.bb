@@ -13,6 +13,7 @@ RPM_HASH = "11a12d3dbc2d90564ab6363f16f75cb49366bf6e8ac86112f5ece3b39b24402fd510
 
 RPROVIDES:${PN} += "minicom \
 minicom(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ckermit \
 group(uucp) \

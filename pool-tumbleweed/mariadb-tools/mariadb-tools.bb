@@ -13,6 +13,7 @@ mariadb-tools(aarch-64) \
 mysql-client:/usr/bin/perror \
 mysql-tools \
 mysql:/usr/bin/mysqlhotcopy"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

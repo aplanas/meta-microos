@@ -29,6 +29,7 @@ libevent_core-2.1.so.7()(64bit) \
 libevent_extra-2.1.so.7()(64bit) \
 libevent_openssl-2.1.so.7()(64bit) \
 libevent_pthreads-2.1.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

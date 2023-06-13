@@ -19,6 +19,7 @@ locale(spice-up:sr) \
 locale(spice-up:sr@latin) \
 spice-up-lang \
 spice-up-lang-all"
+
 RDEPENDS:${PN} += "spice-up"
 
 inherit rpm

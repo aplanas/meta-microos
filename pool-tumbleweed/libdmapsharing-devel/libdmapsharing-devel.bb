@@ -18,6 +18,7 @@ RPM_HASH = "470998e0ac3fcb86aed1205eb0099ae4c534604ba52a7d95a81a524b55c8a11131c7
 RPROVIDES:${PN} += "libdmapsharing-devel \
 libdmapsharing-devel(aarch-64) \
 pkgconfig(libdmapsharing-4.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmapsharing-4_0-3 \
 pkgconfig(glib-2.0) \

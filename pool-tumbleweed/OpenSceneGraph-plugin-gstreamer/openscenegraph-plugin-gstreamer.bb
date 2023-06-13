@@ -15,6 +15,7 @@ OpenSceneGraph-plugin-gstreamer(aarch-64) \
 OpenSceneGraph-plugins:/usr/lib64/osgPlugins-3.6.5/osgdb_gstreamer.so \
 OpenSceneGraphPlugin(ext:avi) \
 OpenSceneGraphPlugin(ext:mov)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenThreads.so.21()(64bit) \

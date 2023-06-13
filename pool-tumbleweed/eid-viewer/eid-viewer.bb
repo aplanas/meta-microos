@@ -20,6 +20,7 @@ eid-viewer \
 eid-viewer(aarch-64) \
 metainfo() \
 metainfo(eid-viewer.appdata.xml)"
+
 RDEPENDS:${PN} += "eid-mw \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

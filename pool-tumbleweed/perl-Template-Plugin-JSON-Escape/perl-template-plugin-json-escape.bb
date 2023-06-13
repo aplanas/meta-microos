@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Template::Plugin::JSON::Escape) \
 perl-Template-Plugin-JSON-Escape"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(JSON) \
 perl(Template)"

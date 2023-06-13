@@ -9,6 +9,7 @@ RPM_HASH = "3d23b0aeeba89982cd2087ac29be9960e56caa7229fb3a60fc611c997319d39c2cbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xslide"
+
 RDEPENDS:${PN} += "emacs_program \
 psgml"
 

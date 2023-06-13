@@ -16,6 +16,7 @@ python3.10dist(h5py) \
 python310-h5py-openmpi1 \
 python310-h5py-openmpi1(aarch-64) \
 python3dist(h5py)"
+
 RDEPENDS:${PN} += "hdf5-openmpi1 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

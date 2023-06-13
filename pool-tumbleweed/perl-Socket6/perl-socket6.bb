@@ -13,6 +13,7 @@ RPM_HASH = "c4e6a0f3821e09b7b12919eef10dcb361ff6c4e3a81fa94453508a3a268824c42165
 RPROVIDES:${PN} += "perl(Socket6) \
 perl-Socket6 \
 perl-Socket6(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

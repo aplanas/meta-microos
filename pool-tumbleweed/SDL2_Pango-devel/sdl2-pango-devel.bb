@@ -14,6 +14,7 @@ RPM_HASH = "f2a239a51c978dee291646307365f11f21468229ebceb7cd82ba8840320da34697be
 RPROVIDES:${PN} += "SDL2_Pango-devel \
 SDL2_Pango-devel(aarch-64) \
 pkgconfig(SDL2_Pango)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL2_Pango4 \
 pkgconfig(freetype2) \

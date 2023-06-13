@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:dry-types) \
 rubygem(ruby:3.2.0:dry-types:1) \
 rubygem(ruby:3.2.0:dry-types:1.7) \
 rubygem(ruby:3.2.0:dry-types:1.7.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby:1) \
 rubygem(ruby:3.2.0:dry-core) \

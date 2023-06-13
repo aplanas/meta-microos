@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-filter \
 python3.10dist(django-filter) \
 python310-django-filter \
 python3dist(django-filter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-djangorestframework"

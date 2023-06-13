@@ -11,6 +11,7 @@ RPM_HASH = "842cd5040d622e3fd042b23ac6da81a1ca68d298a7d48e0ff1caf9d570cc69142b30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xvfb-run"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 util-linux \

@@ -32,6 +32,7 @@ perl(Data::Entropy::RawSource::RandomOrg) \
 perl(Data::Entropy::RawSource::RandomnumbersInfo) \
 perl(Data::Entropy::Source) \
 perl-Data-Entropy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::Rijndael) \
 perl(Data::Float) \

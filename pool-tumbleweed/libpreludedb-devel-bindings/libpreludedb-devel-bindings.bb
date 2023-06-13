@@ -13,6 +13,7 @@ RPM_HASH = "7ff84179dba6b74fdd9b6cc922c0312b431abb5c6b3e0712d4a07db9c669c5633169
 
 RPROVIDES:${PN} += "libpreludedb-devel-bindings \
 libpreludedb-devel-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "libpreludedb-devel \
 python3-devel \
 swig"

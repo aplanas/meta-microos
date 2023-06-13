@@ -16,6 +16,7 @@ libktpchatplugin.so()(64bit) \
 libktpcontactlistplugin.so()(64bit) \
 qt5qmlimport(org.kde.ktpchat.0) \
 qt5qmlimport(org.kde.ktpcontactlist.0)"
+
 RDEPENDS:${PN} += "ktp-common-internals \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

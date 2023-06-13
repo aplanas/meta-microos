@@ -11,6 +11,7 @@ RPM_HASH = "3ff6e0f47392da18ada0ec82b7e6ef72c0d523b59bb3d86bbe52dfd9329c975c3ee8
 
 RPROVIDES:${PN} += "happy \
 happy(aarch-64)"
+
 RDEPENDS:${PN} += "libatomic.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

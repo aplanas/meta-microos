@@ -11,6 +11,7 @@ RPM_HASH = "754fecd56213e411dfffceb81445d49da59af3340855510d27fb7a77fa8f0cf1c0b4
 RPROVIDES:${PN} += "libdvdread-devel \
 libdvdread-devel(aarch-64) \
 pkgconfig(dvdread)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libdvdread8"

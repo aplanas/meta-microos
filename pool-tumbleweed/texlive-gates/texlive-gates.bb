@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "tex(gates.sty) \
 tex(gates.tex) \
 tex(t-gates.tex) \
 texlive-gates"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

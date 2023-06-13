@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6HunspellInputMethod) \
 qt6-hunspellinputmethod-devel \
 qt6-hunspellinputmethod-private-devel \
 qt6-hunspellinputmethod-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Gui) \
 libQt6HunspellInputMethod6 \
 qt6-virtualkeyboard-private-devel"

@@ -19,6 +19,7 @@ RPM_HASH = "21a6942d7ea2312f682bbccfd9bc79a69eee5cb48ebefa0ba3550450cec468c08a70
 RPROVIDES:${PN} += "libbiblesync.so.2.0()(64bit) \
 libbiblesync2_0 \
 libbiblesync2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

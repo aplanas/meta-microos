@@ -19,6 +19,7 @@ python311-BTrees \
 python311-BTrees(aarch-64) \
 python311-BTrees-doc \
 python3dist(btrees)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

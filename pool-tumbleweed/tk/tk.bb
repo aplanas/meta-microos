@@ -23,6 +23,7 @@ tk(aarch-64) \
 tkcon \
 wish \
 wish8.6"
+
 RDEPENDS:${PN} += "/bin/rm \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "8a7691c2dfd46e0d4090f047e5c6f111a5fba3aa872429cf73ea103fbff8425117c5
 RPROVIDES:${PN} += "liballegro_font.so.5.2()(64bit) \
 liballegro_font5_2 \
 liballegro_font5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

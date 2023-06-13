@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(leftindex.sty) \
 texlive-leftindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

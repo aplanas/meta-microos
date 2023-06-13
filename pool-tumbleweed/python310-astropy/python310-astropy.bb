@@ -15,6 +15,7 @@ python3.10dist(astropy) \
 python310-astropy \
 python310-astropy(aarch-64) \
 python3dist(astropy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "e109bc0adfc70264f13b82088b5054956882cfd1f1b865fe3a3e4d2bb848ae354118
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-optic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

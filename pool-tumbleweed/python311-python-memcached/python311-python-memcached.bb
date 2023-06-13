@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-memcached) \
 python311-python-memcached \
 python3dist(python-memcached)"
+
 RDEPENDS:${PN} += "memcached \
 python(abi)"
 

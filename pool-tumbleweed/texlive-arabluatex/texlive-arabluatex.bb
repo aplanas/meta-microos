@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(arabluatex-patch.sty) \
 tex(arabluatex.sty) \
 texlive-arabluatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

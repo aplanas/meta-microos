@@ -15,6 +15,7 @@ RPM_HASH = "a51c6ee225eeb4f6d73003fde4927a639340bade6ecaee653360a8e4a65ec93e1585
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rfcdiff"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

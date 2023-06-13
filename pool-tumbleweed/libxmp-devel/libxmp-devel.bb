@@ -17,6 +17,7 @@ RPM_HASH = "af83dc3af7149b777b931d4d98c75211fada4dee41a70b37fff3845d2c2f1d6be4bd
 RPROVIDES:${PN} += "libxmp-devel \
 libxmp-devel(aarch-64) \
 pkgconfig(libxmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxmp4"
 

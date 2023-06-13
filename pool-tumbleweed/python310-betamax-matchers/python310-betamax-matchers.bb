@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-betamax-matchers \
 python3.10dist(betamax-matchers) \
 python310-betamax-matchers \
 python3dist(betamax-matchers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-betamax \
 python310-requests-toolbelt"

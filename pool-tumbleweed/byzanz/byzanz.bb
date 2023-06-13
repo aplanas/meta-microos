@@ -11,6 +11,7 @@ RPM_HASH = "ef6825f911ac26320434e72ca7402de72f5a79eb9b0e8b7f1478b4a34e8e17dae0d2
 
 RPROVIDES:${PN} += "byzanz \
 byzanz(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "3ebf75aba4c0fca3ae28c72c996ab45ed2e791e65f1186982078a0bac104890c9cec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-addliga-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

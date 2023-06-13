@@ -9,6 +9,7 @@ RPM_HASH = "b1d8e94ef1a39d3dea2fe497af14fae479289d0567e1fba91e71b2932bc993ba6237
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "salt-fish-completion"
+
 RDEPENDS:${PN} += "salt"
 
 inherit rpm

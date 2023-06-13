@@ -10,6 +10,7 @@ RPM_HASH = "51ef6cb9c2ed96435a02222f5a0355e7c250ecadcbdbdfa34889875849fe9b3ec5ae
 
 RPROVIDES:${PN} += "mISDNuser \
 mISDNuser(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

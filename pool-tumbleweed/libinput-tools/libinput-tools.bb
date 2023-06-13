@@ -10,6 +10,7 @@ RPM_HASH = "baa61d340a003f88b83a2795a68270374b5e56f3bd0dc3c393b95a2d17fbcb9247c7
 
 RPROVIDES:${PN} += "libinput-tools \
 libinput-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

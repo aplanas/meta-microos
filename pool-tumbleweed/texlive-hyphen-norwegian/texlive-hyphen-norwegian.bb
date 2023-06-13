@@ -17,6 +17,7 @@ tex(hyph-no.tex) \
 tex(loadhyph-nb.tex) \
 tex(loadhyph-nn.tex) \
 texlive-hyphen-norwegian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

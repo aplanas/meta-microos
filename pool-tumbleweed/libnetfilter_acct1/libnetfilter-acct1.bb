@@ -13,6 +13,7 @@ libnetfilter_acct.so.1(LIBNETFILTER_ACCT_1.0)(64bit) \
 libnetfilter_acct.so.1(LIBNETFILTER_ACCT_1.1)(64bit) \
 libnetfilter_acct1 \
 libnetfilter_acct1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ myspell-dictionary \
 myspell-serbian-cyrillic \
 myspell-serbian-latin \
 myspell-sr"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

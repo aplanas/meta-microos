@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-kernel-test) \
 python311-jupyter-kernel-test \
 python311-jupyter_kernel_test \
 python3dist(jupyter-kernel-test)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonschema \
 python311-jupyter_client"

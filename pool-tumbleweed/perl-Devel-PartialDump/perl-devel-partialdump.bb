@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DB) \
 perl(Devel::PartialDump) \
 perl-Devel-PartialDump"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Tiny) \
 perl(Sub::Exporter) \

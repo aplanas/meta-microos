@@ -33,6 +33,7 @@ RPM_HASH = "da5a584dbec3f6827bcedbff3dc8d02afd97aeba4fc7e83f302b2325f7636820ecc1
 RPROVIDES:${PN} += "libxspf-devel \
 libxspf-devel(aarch-64) \
 pkgconfig(xspf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

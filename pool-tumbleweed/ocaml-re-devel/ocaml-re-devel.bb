@@ -61,6 +61,7 @@ ocamlx(Re_pcre) \
 ocamlx(Re_perl) \
 ocamlx(Re_posix) \
 ocamlx(Re_str)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(Stdlib) \

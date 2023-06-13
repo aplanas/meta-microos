@@ -19,6 +19,7 @@ tex(luakeys-debug.tex) \
 tex(luakeys.sty) \
 tex(luakeys.tex) \
 texlive-luakeys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "8c275ae83331923d909dc73acf56772248f2be1afe886abaf0663b86a213fbf6dc4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-template-haskell-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

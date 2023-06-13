@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "felix-shell \
 mvn(org.apache.felix:org.apache.felix.shell) \
 mvn(org.apache.felix:org.apache.felix.shell:pom:) \
 osgi(org.apache.felix.shell)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.osgi:osgi.cmpn) \

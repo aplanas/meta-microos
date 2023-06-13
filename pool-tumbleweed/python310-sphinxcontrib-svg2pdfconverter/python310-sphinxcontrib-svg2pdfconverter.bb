@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-svg2pdfconverter \
 python3.10dist(sphinxcontrib-svg2pdfconverter) \
 python310-sphinxcontrib-svg2pdfconverter \
 python3dist(sphinxcontrib-svg2pdfconverter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

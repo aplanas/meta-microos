@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(watchfiles) \
 python39-watchfiles \
 python39-watchfiles(aarch-64) \
 python3dist(watchfiles)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 libc.so.6(GLIBC_2.34)(64bit) \

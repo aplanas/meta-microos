@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-stm:scala-stm_2.10) \
 mvn(org.scala-stm:scala-stm_2.10:pom:) \
 scala-stm"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library)"

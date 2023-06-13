@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(logicproof.sty) \
 texlive-logicproof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

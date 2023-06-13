@@ -10,6 +10,7 @@ RPM_HASH = "277dc5ec42099b24dd3fb044de4bc84c310ff41f6d642fbee79c27a76e1523d80dc3
 RPROVIDES:${PN} += "leechcraft-kbswitch \
 leechcraft-kbswitch(aarch-64) \
 libleechcraft_kbswitch.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

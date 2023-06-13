@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-repomd) \
 monitoring-plugins-repomd \
 nagios-plugins-repomd"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 curl \

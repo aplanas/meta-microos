@@ -18,6 +18,7 @@ mvn(com.google.code.gson:gson-extras:pom:) \
 mvn(com.google.code.gson:gson-parent:pom:) \
 mvn(com.google.code.gson:gson:pom:) \
 osgi(com.google.gson)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.annotation:jsr250-api)"

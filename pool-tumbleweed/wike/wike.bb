@@ -15,6 +15,7 @@ application(com.github.hugolabe.Wike.desktop) \
 metainfo() \
 metainfo(com.github.hugolabe.Wike.metainfo.xml) \
 wike"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 typelib(Adw) \

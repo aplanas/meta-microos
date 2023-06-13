@@ -13,6 +13,7 @@ libwmf-devel(aarch-64) \
 mswordvd:/usr/lib/libwmf.a \
 pkgconfig(libwmf) \
 wv-devel:/usr/lib/libwmf.a"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libwmf-0_2-7 \

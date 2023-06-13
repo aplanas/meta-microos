@@ -10,6 +10,7 @@ RPM_HASH = "d3ccaaa59eb1162b9f0f322f2c017643a5ff30c644f3b3b1b98cfc75c126ae93e53d
 RPROVIDES:${PN} += "pkgconfig(wlroots) \
 wlroots10-devel \
 wlroots10-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwlroots10 \
 pkgconfig(egl) \

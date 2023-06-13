@@ -10,6 +10,7 @@ RPM_HASH = "a989a70efda976bb0e94e54df57b5c2fe64783f36f3bc85c2c532ded019e117ffb3d
 RPROVIDES:${PN} += "libmaeparser.so.1()(64bit) \
 libmaeparser1 \
 libmaeparser1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

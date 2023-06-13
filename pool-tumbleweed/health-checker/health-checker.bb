@@ -15,6 +15,7 @@ RPM_HASH = "5605bd24b2cfbaeda21afa509eb538a8b9b95113bcec10cf50e214ae1229a45b50ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "health-checker"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 health-checker-plugins"

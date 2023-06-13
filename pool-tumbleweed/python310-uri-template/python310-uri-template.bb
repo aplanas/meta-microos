@@ -14,6 +14,7 @@ python3.10dist(uri-template) \
 python310-uri-template \
 python310-uri_template \
 python3dist(uri-template)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

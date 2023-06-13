@@ -11,6 +11,7 @@ RPM_HASH = "eece3e71a5ec40380aad2aa3c0b550b0f3779490fbd1971c52e1969eb64eccc9381d
 
 RPROVIDES:${PN} += "libscalapack2-gnu-openmpi3-hpc \
 libscalapack2-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libscalapack2_2_1_0-gnu-openmpi3-hpc"
 

@@ -9,6 +9,7 @@ RPM_HASH = "9b100c11c4db3138420072f1885a525abb66f27374cd74c8590fc8d16c91569cb40a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-saharaclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-defcon \
 python3.10dist(defcon) \
 python310-defcon \
 python3dist(defcon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-fs"

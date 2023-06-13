@@ -54,6 +54,7 @@ locale(spacefm:zh_CN) \
 locale(spacefm:zh_TW) \
 spacefm-lang \
 spacefm-lang-all"
+
 RDEPENDS:${PN} += "spacefm"
 
 inherit rpm

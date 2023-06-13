@@ -141,6 +141,7 @@ font(ptsansnarrow) \
 font(ptserif) \
 font(ptserifcaption) \
 texlive-paratype-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ RPM_HASH = "7788e370510d68e65422cf3a9fd84f0716b17f5f49c5b699822b8a18c2802f7a47c5
 
 RPROVIDES:${PN} += "xmlsec1 \
 xmlsec1(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libxml2.so.2()(64bit) \
 libxml2.so.2(LIBXML2_2.4.30)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "d768cf41f3c4fb75e1df41206b24697c09d19ad4a63c4d5245fe1c93670309b5a757
 
 RPROVIDES:${PN} += "nauty-devel \
 nauty-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnauty-2_8_6"
 
 inherit rpm

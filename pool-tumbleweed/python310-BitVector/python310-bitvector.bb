@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-BitVector \
 python3.10dist(bitvector) \
 python310-BitVector \
 python3dist(bitvector)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

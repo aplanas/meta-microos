@@ -14,6 +14,7 @@ RPM_HASH = "3a5683983d163856af53f7e1b0c10ec009fb9a99deddb4c7fe2700743be06af497e1
 RPROVIDES:${PN} += "libzip.so.5()(64bit) \
 libzip5 \
 libzip5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

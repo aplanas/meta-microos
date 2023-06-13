@@ -16,6 +16,7 @@ RPM_HASH = "4962f7011061822af492b912df50711325c51ca14ef348fe4ba48847cf0241e8fe81
 RPROVIDES:${PN} += "libarmnnBasePipeServer.so.32()(64bit) \
 libarmnnBasePipeServer32-opencl \
 libarmnnBasePipeServer32-opencl(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

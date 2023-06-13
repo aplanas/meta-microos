@@ -15,6 +15,7 @@ RPM_HASH = "a39bf7e192f3a58364b21fc68535481ef3835b88345c8a1d585a09512b73d1662fc4
 
 RPROVIDES:${PN} += "tpm2-tss-engine-devel \
 tpm2-tss-engine-devel(aarch-64)"
+
 RDEPENDS:${PN} += "tpm2-tss-engine"
 
 inherit rpm

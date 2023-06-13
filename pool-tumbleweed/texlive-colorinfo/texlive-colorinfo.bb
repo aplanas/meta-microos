@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colorinfo.sty) \
 texlive-colorinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

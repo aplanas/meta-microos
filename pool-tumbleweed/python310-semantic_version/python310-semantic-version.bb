@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-semantic_version \
 python3.10dist(semantic-version) \
 python310-semantic_version \
 python3dist(semantic-version)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ldapdomaindump \
 python3.10dist(ldapdomaindump) \
 python310-ldapdomaindump \
 python3dist(ldapdomaindump)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

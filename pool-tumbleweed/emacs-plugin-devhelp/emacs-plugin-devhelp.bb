@@ -11,6 +11,7 @@ RPM_HASH = "096cd54d68b625b5208ca6b81ea9fe236ec8773136faefa30c41af2b48d77cbe829b
 
 RPROVIDES:${PN} += "emacs-plugin-devhelp \
 emacs-plugin-devhelp(aarch-64)"
+
 RDEPENDS:${PN} += "devhelp \
 emacs"
 

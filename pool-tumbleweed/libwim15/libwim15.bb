@@ -11,6 +11,7 @@ RPM_HASH = "861be1a89cdc255fd9c48ab8fa548d1692dedd3c1750964655873055be5e55d578a4
 RPROVIDES:${PN} += "libwim.so.15()(64bit) \
 libwim15 \
 libwim15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

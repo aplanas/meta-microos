@@ -9,6 +9,7 @@ RPM_HASH = "42dcdf1c47737db404bb25b2231e31ce442a5a7f7b81362ddd4f61eeff5ff3bda936
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-avremu-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

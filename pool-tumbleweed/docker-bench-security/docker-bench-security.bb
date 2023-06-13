@@ -12,6 +12,7 @@ RPM_HASH = "6c51e3d22148ce385b4c806e471f9acd5e9d65b74461be0465e10f16a8243678dfc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-bench-security"
+
 RDEPENDS:${PN} += "/bin/sh \
 audit \
 docker \

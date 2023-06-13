@@ -17,6 +17,7 @@ RPM_HASH = "dba5c544423f911c1867c553afe37c47bfe5fbfdb9c598589e15eb53d8ee603e286e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

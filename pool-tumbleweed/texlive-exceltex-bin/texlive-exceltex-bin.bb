@@ -9,6 +9,7 @@ RPM_HASH = "59a3eeecfeb3763345066c85eb6e8039ad6bb966e5837af0d6d4d9e0b04a6e051df6
 
 RPROVIDES:${PN} += "texlive-exceltex-bin \
 texlive-exceltex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-exceltex"
 
 inherit rpm

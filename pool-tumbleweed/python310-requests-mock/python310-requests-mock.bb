@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-requests-mock \
 python3.10dist(requests-mock) \
 python310-requests-mock \
 python3dist(requests-mock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dbm \
 python310-requests \

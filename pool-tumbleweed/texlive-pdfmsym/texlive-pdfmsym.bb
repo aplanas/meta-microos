@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfmsym.tex) \
 texlive-pdfmsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

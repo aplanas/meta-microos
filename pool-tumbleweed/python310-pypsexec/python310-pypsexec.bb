@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pypsexec \
 python3.10dist(pypsexec) \
 python310-pypsexec \
 python3dist(pypsexec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-smbprotocol"
 

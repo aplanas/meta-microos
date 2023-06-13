@@ -11,6 +11,7 @@ RPM_HASH = "e4fea6d236ae4c4ed68baf5308a2478cb6e9c1413e37199f44f7b99578538cf67090
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python2-pip"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python2 \
 ca-certificates \

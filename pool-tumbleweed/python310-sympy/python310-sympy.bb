@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-sympy \
 python3.10dist(sympy) \
 python310-sympy \
 python3dist(sympy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

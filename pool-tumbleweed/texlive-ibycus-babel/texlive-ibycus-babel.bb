@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(ibycus.ldf) \
 tex(lgienc.def) \
 tex(lgifib.fd) \
 texlive-ibycus-babel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

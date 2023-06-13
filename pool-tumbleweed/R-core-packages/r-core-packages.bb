@@ -9,6 +9,7 @@ RPM_HASH = "d22efc404596a5d5fbf25835e4c41885fc8cd08644f74c36a582d5d4138193797a44
 
 RPROVIDES:${PN} += "R-core-packages \
 R-core-packages(aarch-64)"
+
 RDEPENDS:${PN} += "R-compiler \
 R-datasets \
 R-grDevices \

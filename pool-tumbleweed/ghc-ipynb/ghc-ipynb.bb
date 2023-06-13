@@ -11,6 +11,7 @@ RPM_HASH = "91c8869ec43a17681ccc6dce13b8b3e7b061b20b59bd609777cc6adbdcaca316ac2e
 RPROVIDES:${PN} += "ghc-ipynb \
 ghc-ipynb(aarch-64) \
 libHSipynb-0.2-5jt56R8prxRLKDISePbcpi-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

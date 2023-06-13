@@ -14,6 +14,7 @@ python3.10dist(prometheus-client) \
 python310-prometheus-client \
 python310-prometheus_client \
 python3dist(prometheus-client)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "17e4d9cffad4b811f259e39c51782b08a27964136f80a1b0a20bb3d6679d5aada493
 
 RPROVIDES:${PN} += "cava \
 cava(aarch-64)"
+
 RDEPENDS:${PN} += "kbd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

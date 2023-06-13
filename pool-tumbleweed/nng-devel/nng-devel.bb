@@ -10,6 +10,7 @@ RPM_HASH = "9ebc1b3225459881a7601a9dc93af249191f74b183f4d23812e019fc3d21bd8d8441
 RPROVIDES:${PN} += "cmake(nng) \
 nng-devel \
 nng-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

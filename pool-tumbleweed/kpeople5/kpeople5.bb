@@ -14,6 +14,7 @@ libKF5PeopleBackend.so.5()(64bit) \
 libKF5PeopleDeclarative.so()(64bit) \
 libKF5PeopleWidgets.so.5()(64bit) \
 qt5qmlimport(org.kde.people.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

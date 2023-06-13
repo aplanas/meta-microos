@@ -10,6 +10,7 @@ RPM_HASH = "e2708c781b06aac3769c454b3037b4db8d132f3865e92b4757832dad3e565f0b73c4
 
 RPROVIDES:${PN} += "ftgamma \
 ftgamma(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

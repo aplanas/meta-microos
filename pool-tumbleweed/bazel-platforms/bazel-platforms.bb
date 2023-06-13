@@ -10,6 +10,7 @@ RPM_HASH = "d88bdef6f322159964d9e3b0cdce87fc52cac553be82a53a8d87b8a5d25e8b84313b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-platforms"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

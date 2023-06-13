@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt5DataVisualization) \
 libQt5DataVisualization5-devel \
 libQt5DataVisualization5-devel(aarch-64) \
 pkgconfig(Qt5DataVisualization)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5DataVisualization5 \
 pkgconfig(Qt5Core) \

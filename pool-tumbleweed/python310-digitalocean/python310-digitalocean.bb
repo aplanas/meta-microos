@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-digitalocean \
 python3.10dist(python-digitalocean) \
 python310-digitalocean \
 python3dist(python-digitalocean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jsonpickle \
 python310-pytest \

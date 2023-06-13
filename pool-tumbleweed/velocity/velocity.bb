@@ -32,6 +32,7 @@ mvn(velocity:velocity) \
 mvn(velocity:velocity:pom:) \
 osgi(org.apache.velocity) \
 velocity"
+
 RDEPENDS:${PN} += "avalon-logkit \
 commons-collections \
 commons-lang \

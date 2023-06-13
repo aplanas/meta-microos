@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(fs-uae-launcher.desktop) \
 fs-uae-launcher"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 fs-uae \
 python3-opengl \

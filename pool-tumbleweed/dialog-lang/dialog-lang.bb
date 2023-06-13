@@ -62,6 +62,7 @@ locale(dialog:vi) \
 locale(dialog:wa) \
 locale(dialog:zh_CN) \
 locale(dialog:zh_TW)"
+
 RDEPENDS:${PN} += "dialog"
 
 inherit rpm

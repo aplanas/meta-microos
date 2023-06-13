@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pdfextra.sty) \
 tex(pdfextra.tex) \
 texlive-pdfextra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

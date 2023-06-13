@@ -13,6 +13,7 @@ RPM_HASH = "faeeeb9fdb79a221c5609809f61033a4fcecf1925ebc16feab0dfbe3e0292d78c0e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "webalizer-flags"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

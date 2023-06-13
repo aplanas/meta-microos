@@ -9,6 +9,7 @@ RPM_HASH = "6d1aaf62f581010cf090865e775c99d0776eaf66bd8e65473f83fe7aa2b71cc97cce
 
 RPROVIDES:${PN} += "texlive-platex-bin \
 texlive-platex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-platex"
 
 inherit rpm

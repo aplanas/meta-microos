@@ -9,6 +9,7 @@ RPM_HASH = "d6c3dea8e4b2e7ae0f8430163fb0de2eb80963dc5595bd8892532d8c24a1ffa8e9ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pluto-fish-completion"
+
 RDEPENDS:${PN} += "pluto"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "84c969936a725b2ff3966045be1a90dc3fc5de2422b00e5910ae83fa4dcbe143bed5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-patterns-suma"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 sca-patterns-base"
 

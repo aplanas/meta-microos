@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-games-games \
 patterns-games-games(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

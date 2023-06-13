@@ -19,6 +19,7 @@ python3.10dist(hotdoc) \
 python310-hotdoc \
 python310-hotdoc(aarch-64) \
 python3dist(hotdoc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 /usr/bin/sh \

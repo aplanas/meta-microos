@@ -14,6 +14,7 @@ RPM_HASH = "22fe3dc243693361a8f558d8719cb5fd7b44949fdddc4d3ae0629af985117162cf0f
 RPROVIDES:${PN} += "typelib(GExiv2) \
 typelib-1_0-GExiv2-0_10 \
 typelib-1_0-GExiv2-0_10(aarch-64)"
+
 RDEPENDS:${PN} += "libgexiv2.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

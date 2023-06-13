@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "handedict \
 locale(gjiten:zh)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

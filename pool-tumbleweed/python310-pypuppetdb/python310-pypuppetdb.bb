@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pypuppetdb \
 python3.10dist(pypuppetdb) \
 python310-pypuppetdb \
 python3dist(pypuppetdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

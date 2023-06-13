@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(versiontag) \
 python311-versiontag \
 python3dist(versiontag)"
+
 RDEPENDS:${PN} += "git-core \
 python(abi)"
 

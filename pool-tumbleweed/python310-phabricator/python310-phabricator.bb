@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-phabricator \
 python3.10dist(phabricator) \
 python310-phabricator \
 python3dist(phabricator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

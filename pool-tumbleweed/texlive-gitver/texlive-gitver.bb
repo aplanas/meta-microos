@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gitver.sty) \
 texlive-gitver"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

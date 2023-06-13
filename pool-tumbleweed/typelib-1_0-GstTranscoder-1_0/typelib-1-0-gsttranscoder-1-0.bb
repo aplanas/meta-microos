@@ -10,6 +10,7 @@ RPM_HASH = "4cec7f1d0ea5065b62aba284351f22aa1351d11a6f5a86d305c888d831ca525b4e19
 RPROVIDES:${PN} += "typelib(GstTranscoder) \
 typelib-1_0-GstTranscoder-1_0 \
 typelib-1_0-GstTranscoder-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgsttranscoder-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

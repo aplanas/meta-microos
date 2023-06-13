@@ -11,6 +11,7 @@ RPM_HASH = "5c2a3c11ff1d9c96d8fe0f86b5b229019fc6a0226e4b3ef4a667c7213c8525854e52
 RPROVIDES:${PN} += "libosmosdrSupport.so()(64bit) \
 soapysdr0.8-module-osmosdr \
 soapysdr0.8-module-osmosdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapyOsmoSDR.so.0()(64bit) \

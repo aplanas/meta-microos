@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(icelandic.ldf) \
 texlive-babel-icelandic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

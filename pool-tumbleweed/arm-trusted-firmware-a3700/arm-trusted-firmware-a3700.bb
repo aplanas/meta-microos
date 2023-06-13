@@ -11,6 +11,7 @@ RPM_HASH = "bcc5e6e7ec749b939f7f9c6abe0bc909676eea44f7e01cfd582ed2c20216c72aeae0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-a3700"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(h5netcdf) \
 python311-h5netcdf \
 python3dist(h5netcdf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-h5py"
 

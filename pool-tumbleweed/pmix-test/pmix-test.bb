@@ -9,6 +9,7 @@ RPM_HASH = "ddf2d08dbd25535ad3cdd3c62c2d7075f4fa7b4a2262e2bbedd5bf60a0eba7f48154
 
 RPROVIDES:${PN} += "pmix-test \
 pmix-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

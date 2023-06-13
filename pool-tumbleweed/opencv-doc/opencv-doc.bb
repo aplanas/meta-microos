@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencv-doc \
 opencv-qt5-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

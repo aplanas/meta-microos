@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(hostinfo) \
 hostinfo"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \

@@ -16,6 +16,7 @@ python39-glue \
 python39-lscsoft-glue \
 python39-lscsoft-glue(aarch-64) \
 python3dist(lscsoft-glue)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

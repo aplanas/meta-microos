@@ -10,6 +10,7 @@ RPM_HASH = "22799233797d535e19cff32c3c262b0076a323f2b48f3a072113636fa0a6ffba2f71
 RPROVIDES:${PN} += "typelib(IBus) \
 typelib-1_0-IBus-1_0 \
 typelib-1_0-IBus-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libibus-1.0.so.5()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

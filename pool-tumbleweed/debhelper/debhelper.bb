@@ -35,6 +35,7 @@ perl(Debian::Debhelper::Dh_Lib) \
 perl(Debian::Debhelper::Dh_Version) \
 perl(Debian::Debhelper::Sequence) \
 perl(Debian::Debhelper::SequencerUtil)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 dh-autoreconf \
 dpkg \

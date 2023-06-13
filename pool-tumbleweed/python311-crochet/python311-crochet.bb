@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(crochet) \
 python311-crochet \
 python3dist(crochet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Twisted \
 python311-wrapt"

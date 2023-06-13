@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-nbxmpp \
 python3.10dist(nbxmpp) \
 python310-nbxmpp \
 python3dist(nbxmpp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.10dist(idna) \
 python3.10dist(packaging) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pybindgen) \
 python311-PyBindGen \
 python3dist(pybindgen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

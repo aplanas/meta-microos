@@ -16,6 +16,7 @@ application(mame.desktop) \
 config(mame) \
 mame \
 mame(aarch-64)"
+
 RDEPENDS:${PN} += "libFLAC.so.12()(64bit) \
 libGL.so.1()(64bit) \
 libQt5Core.so.5()(64bit) \

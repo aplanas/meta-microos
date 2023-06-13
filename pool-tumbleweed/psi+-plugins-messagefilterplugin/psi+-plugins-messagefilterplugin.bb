@@ -10,6 +10,7 @@ RPM_HASH = "d52474c6304552875015b545ec073586d8dfbbe0e1e97fd8f70a98aa64e7f297b60b
 RPROVIDES:${PN} += "libmessagefilterplugin.so()(64bit) \
 psi+-plugins-messagefilterplugin \
 psi+-plugins-messagefilterplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

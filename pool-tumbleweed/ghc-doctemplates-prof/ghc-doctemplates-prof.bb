@@ -10,6 +10,7 @@ RPM_HASH = "1d6288cf1da1d45e9e5cef65d5ff12e781f7c1b08fcb0d3948171263756bbcb2b9fb
 RPROVIDES:${PN} += "ghc-doctemplates-prof \
 ghc-doctemplates-prof(aarch-64) \
 ghc-prof(doctemplates-0.11-BPgXv8g09ry9FVnSp2Q4Ny)"
+
 RDEPENDS:${PN} += "ghc-doctemplates-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

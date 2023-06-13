@@ -11,6 +11,7 @@ RPM_HASH = "0fbdfafff8a6ce85954f6f18077d384e8f29f0973836e317edb3a157f2c6f7dba360
 RPROVIDES:${PN} += "cmake(Qt6Quick3DGlslParserPrivate) \
 qt6-quick3dglslparser-private-devel \
 qt6-quick3dglslparser-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Core) \
 libQt6Quick3DGlslParser6"
 

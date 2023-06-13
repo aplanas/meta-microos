@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(signon-plugins) \
 pkgconfig(signon-plugins-common) \
 signon-plugins-devel \
 signon-plugins-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsignon-qt5-devel \
 pkgconfig(libsignon-qt5) \

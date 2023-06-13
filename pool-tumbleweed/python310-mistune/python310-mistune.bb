@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mistune \
 python3.10dist(mistune) \
 python310-mistune \
 python3dist(mistune)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "55b3afa147934193a8becb236bb5a848050ccb412e555ab8c27b362821491e2289ff
 RPROVIDES:${PN} += "callaudiod-devel \
 callaudiod-devel(aarch-64) \
 pkgconfig(libcallaudio-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 callaudiod \
 libcallaudio0_1-0 \

@@ -11,6 +11,7 @@ RPM_HASH = "c62fbe6325a4a996edbbc7a6aba77affac4c15df22c5b06bfedd5edb7271c422be84
 RPROVIDES:${PN} += "libluv-devel \
 libluv-devel(aarch-64) \
 pkgconfig(libluv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libluv1"
 

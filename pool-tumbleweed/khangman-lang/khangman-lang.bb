@@ -75,6 +75,7 @@ locale(khangman:ug) \
 locale(khangman:uk) \
 locale(khangman:zh_CN) \
 locale(khangman:zh_TW)"
+
 RDEPENDS:${PN} += "khangman"
 
 inherit rpm

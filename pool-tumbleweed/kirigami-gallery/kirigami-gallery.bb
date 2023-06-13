@@ -16,6 +16,7 @@ kirigami-gallery \
 kirigami-gallery(aarch-64) \
 metainfo() \
 metainfo(org.kde.kirigami2.gallery.appdata.xml)"
+
 RDEPENDS:${PN} += "kirigami2 \
 kitemmodels-imports \
 ld-linux-aarch64.so.1()(64bit) \

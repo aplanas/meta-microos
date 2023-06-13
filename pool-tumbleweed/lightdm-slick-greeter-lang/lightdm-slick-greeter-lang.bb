@@ -88,6 +88,7 @@ locale(lightdm-slick-greeter:vi) \
 locale(lightdm-slick-greeter:zh_CN) \
 locale(lightdm-slick-greeter:zh_HK) \
 locale(lightdm-slick-greeter:zh_TW)"
+
 RDEPENDS:${PN} += "lightdm-slick-greeter"
 
 inherit rpm

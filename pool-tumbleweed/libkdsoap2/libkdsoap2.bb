@@ -11,6 +11,7 @@ RPM_HASH = "b9513e1376840bbe5fc4f2e3eb107149f1f664567851177d10ad91852931e0e75bc0
 RPROVIDES:${PN} += "libkdsoap.so.2()(64bit) \
 libkdsoap2 \
 libkdsoap2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

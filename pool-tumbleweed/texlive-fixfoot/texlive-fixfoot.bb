@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixfoot.sty) \
 texlive-fixfoot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

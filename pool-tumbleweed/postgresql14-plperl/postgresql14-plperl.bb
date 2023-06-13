@@ -14,6 +14,7 @@ RPM_HASH = "559b4e011f63a09f46e61d0805c04f727881c3e767dab31d25b23bae73e3a5d714d7
 RPROVIDES:${PN} += "postgresql-plperl-implementation \
 postgresql14-plperl \
 postgresql14-plperl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-oct2py \
 python3.10dist(oct2py) \
 python310-oct2py \
 python3dist(oct2py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-octave-kernel \

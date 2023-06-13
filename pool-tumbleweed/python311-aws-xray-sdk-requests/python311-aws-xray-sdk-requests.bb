@@ -12,6 +12,7 @@ RPM_HASH = "3ac5fd0a980ee58811e3b1fea69d4ce2f0af77257375c14b34dafeb5d8ecf8a39ad3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-aws-xray-sdk-requests"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aws-xray-sdk \
 python311-requests"

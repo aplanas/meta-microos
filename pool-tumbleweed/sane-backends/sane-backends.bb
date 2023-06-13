@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "config(sane-backends) \
 sane \
 sane-backends \
 sane-backends(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \

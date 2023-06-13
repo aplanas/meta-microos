@@ -12,6 +12,7 @@ RPM_HASH = "94a535432474879bbf88511782ea7fd2941f988613313208d4c85889667a6fdbef0b
 
 RPROVIDES:${PN} += "edge-addition-planarity-suite-devel \
 edge-addition-planarity-suite-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libplanarity0"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-magnumclient \
 python3.10dist(python-magnumclient) \
 python3dist(python-magnumclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-PrettyTable \

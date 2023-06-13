@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Alien::Build::Plugin::Download::GitLab) \
 perl-Alien-Build-Plugin-Download-GitLab"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Alien::Build::Plugin) \
 perl(JSON::PP) \

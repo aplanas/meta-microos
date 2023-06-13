@@ -10,6 +10,7 @@ RPM_HASH = "6dd1f1ab3e7d1377f193a32fd54554d3a58f74cee51266873d8d30a2058e22da4608
 RPROVIDES:${PN} += "mate-desktop-devel \
 mate-desktop-devel(aarch-64) \
 pkgconfig(mate-desktop-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmate-desktop-2-17 \
 pkgconfig(dconf) \

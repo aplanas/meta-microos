@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libaa.so.1()(64bit) \
 libaa1 \
 libaa1(aarch-64) \
 libvga.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

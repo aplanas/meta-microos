@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(saxon:saxon-jdom) \
 saxon-jdom \
 saxon6-jdom"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jdom \

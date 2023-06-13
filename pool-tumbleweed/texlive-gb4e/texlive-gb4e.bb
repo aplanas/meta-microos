@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cgloss4e.sty) \
 tex(gb4e.sty) \
 texlive-gb4e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

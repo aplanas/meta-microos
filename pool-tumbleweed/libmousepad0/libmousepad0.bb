@@ -10,6 +10,7 @@ RPM_HASH = "2a804d03f8779205b023c48bd9746b5d24aeff74c842c9793818c09515141301af49
 RPROVIDES:${PN} += "libmousepad.so.0()(64bit) \
 libmousepad0 \
 libmousepad0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

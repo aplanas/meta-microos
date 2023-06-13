@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-allauth) \
 python311-django-allauth \
 python3dist(django-allauth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-python3-openid \

@@ -50,6 +50,7 @@ locale(gnome-subtitles:uk) \
 locale(gnome-subtitles:zh_CN) \
 locale(gnome-subtitles:zh_HK) \
 locale(gnome-subtitles:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-subtitles"
 
 inherit rpm

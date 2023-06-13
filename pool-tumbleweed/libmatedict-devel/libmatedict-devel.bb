@@ -11,6 +11,7 @@ RPM_HASH = "7b677590f13153f29e8f97d4a37e9ca2579b7848eb559c5acec808c13d49eb812037
 RPROVIDES:${PN} += "libmatedict-devel \
 libmatedict-devel(aarch-64) \
 pkgconfig(mate-dict)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmatedict6 \
 pkgconfig(gtk+-3.0)"

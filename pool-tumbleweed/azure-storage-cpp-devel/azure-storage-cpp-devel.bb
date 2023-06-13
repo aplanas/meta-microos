@@ -9,6 +9,7 @@ RPM_HASH = "9a4759f690c6cdaabeeae22273ef9001f7ab0659515e0d71bbb33d8e0e9cf61c956d
 
 RPROVIDES:${PN} += "azure-storage-cpp-devel \
 azure-storage-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libazurestorage7 \
 libboost_chrono-devel \
 libboost_date_time-devel \

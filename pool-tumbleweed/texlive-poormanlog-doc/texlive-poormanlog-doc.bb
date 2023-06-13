@@ -9,6 +9,7 @@ RPM_HASH = "eb886ccb597a0fb87518b9eea472eacbbdb18078b7a444f9ec18edb888a3451428f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poormanlog-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

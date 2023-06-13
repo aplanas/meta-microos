@@ -18,6 +18,7 @@ python3.10dist(tables) \
 python310-tables \
 python310-tables(aarch-64) \
 python3dist(tables)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 hdf5 \

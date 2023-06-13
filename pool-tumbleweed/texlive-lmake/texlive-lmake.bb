@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lmake.sty) \
 texlive-lmake"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

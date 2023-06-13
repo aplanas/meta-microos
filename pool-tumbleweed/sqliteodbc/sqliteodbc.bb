@@ -19,6 +19,7 @@ libsqlite3_mod_zipfile-0.9998.so()(64bit) \
 libsqlite3odbc-0.9998.so()(64bit) \
 sqliteodbc \
 sqliteodbc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

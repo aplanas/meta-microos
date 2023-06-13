@@ -14,6 +14,7 @@ RPM_HASH = "52bcef857bef09ded542747539e71931f284150ccfd243b02ae3ad944979dca9c7f3
 RPROVIDES:${PN} += "libcue-devel \
 libcue-devel(aarch-64) \
 pkgconfig(libcue)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcue2"
 

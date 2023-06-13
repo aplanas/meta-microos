@@ -13,6 +13,7 @@ RPM_HASH = "9eed53f7c27959e62faa5a69af06ac84ff569de8a10ebd11e56c5bda78f46e291b91
 
 RPROVIDES:${PN} += "debianutils \
 debianutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

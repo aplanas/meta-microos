@@ -30,6 +30,7 @@ pkgconfig(gstreamer-vulkan-xcb-1.0) \
 pkgconfig(gstreamer-wayland-1.0) \
 pkgconfig(gstreamer-webrtc-1.0) \
 pkgconfig(gstreamer-webrtc-nice-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-plugins-bad \
 gstreamer-plugins-bad-fluidsynth \

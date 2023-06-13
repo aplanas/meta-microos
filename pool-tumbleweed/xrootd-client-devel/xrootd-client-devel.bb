@@ -14,6 +14,7 @@ RPM_HASH = "1e5f2d850bca3c47e163582da5397ef6f73be71256f5fe0f9f477b2ce7987ee531e4
 RPROVIDES:${PN} += "xrootd-cl-devel \
 xrootd-client-devel \
 xrootd-client-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libXrdCrypto.so.2()(64bit) \

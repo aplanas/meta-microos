@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:winrm-elevated:1) \
 rubygem(ruby:3.2.0:winrm-elevated:1.2) \
 rubygem(ruby:3.2.0:winrm-elevated:1.2.3) \
 rubygem(winrm-elevated)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:erubi:1) \
 rubygem(ruby:3.2.0:winrm-fs:1) \

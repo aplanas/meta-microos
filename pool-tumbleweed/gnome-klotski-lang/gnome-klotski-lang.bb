@@ -93,6 +93,7 @@ locale(gnome-klotski:wa) \
 locale(gnome-klotski:zh_CN) \
 locale(gnome-klotski:zh_HK) \
 locale(gnome-klotski:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-klotski"
 
 inherit rpm

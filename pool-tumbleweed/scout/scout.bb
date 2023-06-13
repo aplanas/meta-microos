@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(scout) \
 scout"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3 \

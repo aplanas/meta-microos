@@ -65,6 +65,7 @@ locale(libgarcon:uk) \
 locale(libgarcon:zh_CN) \
 locale(libgarcon:zh_HK) \
 locale(libgarcon:zh_TW)"
+
 RDEPENDS:${PN} += "libgarcon-data"
 
 inherit rpm

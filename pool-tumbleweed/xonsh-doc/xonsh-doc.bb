@@ -9,6 +9,7 @@ RPM_HASH = "2cc21530e3cd2438a9cc17e188b8dd6efd1802ae907c71b7c28b24cf74938829170c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xonsh-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

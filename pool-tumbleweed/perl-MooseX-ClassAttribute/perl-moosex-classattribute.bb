@@ -29,6 +29,7 @@ perl(MooseX::ClassAttribute::Trait::Mixin::HasClassAttributes) \
 perl(MooseX::ClassAttribute::Trait::Role) \
 perl(MooseX::ClassAttribute::Trait::Role::Composite) \
 perl-MooseX-ClassAttribute"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(Moose) \

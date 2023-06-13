@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(quimb) \
 python39-quimb \
 python39-quimb(aarch-64) \
 python3dist(quimb)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 python(abi) \

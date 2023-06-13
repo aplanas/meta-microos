@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libamd-2_4_6 \
 libamd.so.2()(64bit) \
 libamd2 \
 libamd2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libm.so.6()(64bit) \

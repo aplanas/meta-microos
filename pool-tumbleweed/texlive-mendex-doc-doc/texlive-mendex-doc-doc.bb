@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-mendex-doc-doc:ja) \
 texlive-mendex-doc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

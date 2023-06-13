@@ -13,6 +13,7 @@ RPM_HASH = "9bdc3c91f93441b28b50c12fe650ca79fbc4bac1904dc23f39412e5bb29c5799c7e8
 
 RPROVIDES:${PN} += "gtk-sharp2-complete \
 gtk-sharp2-complete(aarch-64)"
+
 RDEPENDS:${PN} += "glade-sharp2 \
 glib-sharp2 \
 gtk-sharp2 \

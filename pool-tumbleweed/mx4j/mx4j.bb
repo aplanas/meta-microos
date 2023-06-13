@@ -27,6 +27,7 @@ mvn(mx4j:mx4j-tools:pom:) \
 mvn(mx4j:mx4j:pom:) \
 mx4j \
 openjmx"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-logging \
 axis \

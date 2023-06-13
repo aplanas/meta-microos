@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(grading-scheme.sty) \
 texlive-grading-scheme"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "164193ee7d908fee9e9b9ca934d6658f077c64e72ee1286f5103d977b2869e5802f9
 RPROVIDES:${PN} += "cmake(DeepinWaylandProtocols) \
 deepin-wayland-protocols \
 deepin-wayland-protocols(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

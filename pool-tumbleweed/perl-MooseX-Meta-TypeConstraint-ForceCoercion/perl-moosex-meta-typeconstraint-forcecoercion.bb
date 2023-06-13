@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MooseX::Meta::TypeConstraint::ForceCoercion) \
 perl-MooseX-Meta-TypeConstraint-ForceCoercion"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(namespace::autoclean)"

@@ -9,6 +9,7 @@ RPM_HASH = "fd50cbfdd61ebca25cf300314ca447fa6b19579340f1d239fb9fcdc4d1a281e27886
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "helm-zsh-completion"
+
 RDEPENDS:${PN} += "helm"
 
 inherit rpm

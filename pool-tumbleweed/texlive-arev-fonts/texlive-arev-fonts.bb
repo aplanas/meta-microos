@@ -88,6 +88,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(arevsans) \
 texlive-arev-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -17,6 +17,7 @@ python3.10dist(maturin) \
 python310-maturin \
 python310-maturin(aarch-64) \
 python3dist(maturin)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

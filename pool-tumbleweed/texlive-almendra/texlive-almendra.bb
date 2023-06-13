@@ -88,6 +88,7 @@ tex(almndr_xs7q5m.enc) \
 tex(almndr_yxs7h5.enc) \
 tex(almndr_zt62bd.enc) \
 texlive-almendra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

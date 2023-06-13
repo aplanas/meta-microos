@@ -13,6 +13,7 @@ RPM_HASH = "9f4bf9eaf0190972fee81cd6ee41adc07d76ac2f77f607f5d7a4994f502d0113fa2c
 RPROVIDES:${PN} += "libguestfs-gobject-devel \
 libguestfs-gobject-devel(aarch-64) \
 pkgconfig(libguestfs-gobject-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libguestfs-gobject-1_0 \

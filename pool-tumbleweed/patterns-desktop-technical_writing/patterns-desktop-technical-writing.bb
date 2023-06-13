@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-desktop-technical_writing \
 patterns-desktop-technical_writing(aarch-64) \
 patterns-openSUSE-technical_writing"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

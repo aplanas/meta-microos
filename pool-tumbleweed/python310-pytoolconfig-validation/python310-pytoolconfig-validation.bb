@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytoolconfig-validation \
 python310-pytoolconfig-validation"
+
 RDEPENDS:${PN} += "python310-pydantic \
 python310-pytoolconfig"
 

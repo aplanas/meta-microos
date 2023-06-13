@@ -17,6 +17,7 @@ gtkhtml-devel(aarch-64) \
 gtkhtml2-devel \
 pkgconfig(gtkhtml-editor-4.0) \
 pkgconfig(libgtkhtml-4.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

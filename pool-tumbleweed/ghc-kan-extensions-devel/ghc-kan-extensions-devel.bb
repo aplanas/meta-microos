@@ -10,6 +10,7 @@ RPM_HASH = "9ad3738fb8a6609bf6e08885e800f71008160bb461797103781b9cc14bed69049f6e
 RPROVIDES:${PN} += "ghc-devel(kan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO) \
 ghc-kan-extensions-devel \
 ghc-kan-extensions-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA) \

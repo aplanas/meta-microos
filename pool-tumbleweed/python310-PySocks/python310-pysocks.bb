@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-PySocks \
 python3.10dist(pysocks) \
 python310-PySocks \
 python3dist(pysocks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

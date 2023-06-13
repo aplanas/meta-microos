@@ -36,6 +36,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::HasVersion) \
 perl-Test-HasVersion"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::Builder::Tester)"

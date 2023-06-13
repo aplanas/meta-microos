@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libqgtk2.so()(64bit) \
 libqgtk2style.so()(64bit) \
 libqt5-qtstyleplugins-platformtheme-gtk2 \
 libqt5-qtstyleplugins-platformtheme-gtk2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

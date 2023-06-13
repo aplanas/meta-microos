@@ -16,6 +16,7 @@ mygnuhealth \
 mygnuhealth(aarch-64) \
 python3.10dist(mygnuhealth) \
 python3dist(mygnuhealth)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 kirigami2 \

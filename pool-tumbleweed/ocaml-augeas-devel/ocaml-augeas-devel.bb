@@ -10,6 +10,7 @@ RPM_HASH = "fbde0605342a6b3025d757bd54974b6ff05fac4a734ee73a5ffc2ee3d752e26e01cc
 
 RPROVIDES:${PN} += "ocaml-augeas-devel \
 ocaml-augeas-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ocaml-augeas"
 
 inherit rpm

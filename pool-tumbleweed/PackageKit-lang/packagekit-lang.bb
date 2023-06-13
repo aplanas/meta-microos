@@ -78,6 +78,7 @@ locale(PackageKit:wa) \
 locale(PackageKit:zh_CN) \
 locale(PackageKit:zh_HK) \
 locale(PackageKit:zh_TW)"
+
 RDEPENDS:${PN} += "PackageKit"
 
 inherit rpm

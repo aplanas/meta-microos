@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gnuplottex.sty) \
 texlive-gnuplottex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

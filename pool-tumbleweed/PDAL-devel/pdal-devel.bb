@@ -16,6 +16,7 @@ libPDAL13-devel \
 libpdal-devel \
 libpdal13-devel \
 pkgconfig(pdal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 cmake \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-module-guice \
 mvn(com.fasterxml.jackson.module:jackson-module-guice) \
 mvn(com.fasterxml.jackson.module:jackson-module-guice:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-guice)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

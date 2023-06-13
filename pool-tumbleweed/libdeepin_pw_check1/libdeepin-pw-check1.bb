@@ -10,6 +10,7 @@ RPM_HASH = "6fe88dea7f6acd28901e5b71800e7cab691029cc4c8980c9531497a63e6ff4125865
 RPROVIDES:${PN} += "libdeepin_pw_check.so.1()(64bit) \
 libdeepin_pw_check1 \
 libdeepin_pw_check1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

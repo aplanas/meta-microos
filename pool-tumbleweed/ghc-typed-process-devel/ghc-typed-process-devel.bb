@@ -10,6 +10,7 @@ RPM_HASH = "3afa333d8e5ab47aa1d26aaa0b5cfd94c4edad7d7ca75efaf90e5ca9ba1ccb7c757e
 RPROVIDES:${PN} += "ghc-devel(typed-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO) \
 ghc-typed-process-devel \
 ghc-typed-process-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \

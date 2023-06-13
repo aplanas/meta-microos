@@ -10,6 +10,7 @@ RPM_HASH = "2ba26e185ceea86493fa16b42ce6869283e9ef3a025b5ae240bd823f488e227eb065
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luassert"
+
 RDEPENDS:${PN} += "lua53"
 
 inherit rpm

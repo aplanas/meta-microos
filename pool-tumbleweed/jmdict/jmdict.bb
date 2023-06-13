@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmdict \
 locale(ja)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

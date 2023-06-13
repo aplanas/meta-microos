@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-databases \
 python3.10dist(databases) \
 python310-databases \
 python3dist(databases)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sqlalchemy"
 

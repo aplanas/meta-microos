@@ -15,6 +15,7 @@ python3.10dist(cachecontrol) \
 python310-CacheControl \
 python310-cachecontrol \
 python3dist(cachecontrol)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

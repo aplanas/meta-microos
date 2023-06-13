@@ -9,6 +9,7 @@ RPM_HASH = "fce8bc7ce76d585fd63f319511402f7b3ee2d7d6da9ace3113057433d3f61dcdc61e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-ecv-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

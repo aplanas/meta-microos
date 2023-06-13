@@ -13,6 +13,7 @@ RPM_HASH = "6d916e2689539751491cf382e5b38bf72977b03a7a38607362c1f275a9849e33e384
 RPROVIDES:${PN} += "coin-or-Osi-devel \
 coin-or-Osi-devel(aarch-64) \
 pkgconfig(osi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOsi1 \
 pkgconfig(coinutils)"

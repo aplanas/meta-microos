@@ -18,6 +18,7 @@ python3.10dist(txt2tags) \
 python310-txt2tags \
 python3dist(txt2tags) \
 txt2tags"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.10 \

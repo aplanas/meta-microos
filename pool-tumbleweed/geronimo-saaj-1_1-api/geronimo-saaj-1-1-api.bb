@@ -15,6 +15,7 @@ mvn(org.apache.geronimo.specs:geronimo-saaj_1.1_spec:pom:) \
 saaj \
 saaj_1_1_api \
 saaj_api"
+
 RDEPENDS:${PN} += "/bin/sh \
 jaf_1_0_2_api \
 java-headless \

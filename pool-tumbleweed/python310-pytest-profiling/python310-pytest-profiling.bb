@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-profiling \
 python3.10dist(pytest-profiling) \
 python310-pytest-profiling \
 python3dist(pytest-profiling)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gprof2dot \
 python310-pytest"

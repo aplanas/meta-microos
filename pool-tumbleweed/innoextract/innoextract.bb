@@ -13,6 +13,7 @@ RPM_HASH = "5cd1622d938504a931ecadc4297c2761e42bbbfc264880de626c8a26aee592ae132d
 
 RPROVIDES:${PN} += "innoextract \
 innoextract(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

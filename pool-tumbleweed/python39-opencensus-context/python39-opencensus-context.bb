@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(opencensus-context) \
 python39-opencensus-context \
 python3dist(opencensus-context)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

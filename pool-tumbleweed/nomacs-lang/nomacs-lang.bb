@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nomacs-lang \
 nomacs-lang-all"
+
 RDEPENDS:${PN} += "nomacs"
 
 inherit rpm

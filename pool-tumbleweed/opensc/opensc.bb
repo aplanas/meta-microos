@@ -27,6 +27,7 @@ libsmm-local.so.8()(64bit) \
 opensc \
 opensc(aarch-64) \
 pkgconfig(opensc-pkcs11)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

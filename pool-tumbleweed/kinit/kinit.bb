@@ -11,6 +11,7 @@ RPM_HASH = "65e4f49e84328e5986f8db138703de867dffb80a10f4d87b2936d8e3abcedf4298c6
 RPROVIDES:${PN} += "kinit \
 kinit(aarch-64) \
 libkdeinit5_klauncher.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

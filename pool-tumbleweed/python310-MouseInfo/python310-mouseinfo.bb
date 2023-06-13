@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-MouseInfo \
 python3.10dist(mouseinfo) \
 python310-MouseInfo \
 python3dist(mouseinfo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-pyperclip"

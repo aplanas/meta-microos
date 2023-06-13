@@ -20,6 +20,7 @@ tex(puenc-greek.def) \
 tex(textalpha.sty) \
 tex(tuenc-greek.def) \
 texlive-greek-fontenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua \
 coreutils \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(listbib.cfg) \
 tex(listbib.sty) \
 tex(listbib.tex) \
 texlive-listbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

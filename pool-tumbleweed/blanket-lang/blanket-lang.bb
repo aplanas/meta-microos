@@ -44,6 +44,7 @@ locale(blanket:ta) \
 locale(blanket:tr) \
 locale(blanket:uk) \
 locale(blanket:zh_CN)"
+
 RDEPENDS:${PN} += "blanket"
 
 inherit rpm

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(coseoul.sty) \
 texlive-coseoul"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

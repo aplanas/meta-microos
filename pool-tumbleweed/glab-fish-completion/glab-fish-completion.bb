@@ -9,6 +9,7 @@ RPM_HASH = "75a0b1e34a30bf6ed08b55f11f726908d7d5eee1caa3bbff2c8465515521c303d7a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-fish-completion"
+
 RDEPENDS:${PN} += "glab"
 
 inherit rpm

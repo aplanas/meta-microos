@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jnr-a64asm \
 mvn(com.github.jnr:jnr-a64asm) \
 mvn(com.github.jnr:jnr-a64asm:pom:) \
 osgi(com.github.jnr.a64asm)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

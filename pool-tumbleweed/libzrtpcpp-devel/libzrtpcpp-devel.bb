@@ -11,6 +11,7 @@ RPM_HASH = "0b1ce6320bbdba9f21da6eef062ca276e4a46d73ec3607562006b8f0f452a653304d
 RPROVIDES:${PN} += "libzrtpcpp-devel \
 libzrtpcpp-devel(aarch-64) \
 pkgconfig(libzrtpcpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ccrtp-devel \
 libzrtpcpp4 \

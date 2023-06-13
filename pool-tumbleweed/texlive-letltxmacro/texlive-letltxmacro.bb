@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(letltxmacro.sty) \
 texlive-letltxmacro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

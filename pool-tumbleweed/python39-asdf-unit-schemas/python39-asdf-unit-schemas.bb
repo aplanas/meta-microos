@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(asdf-unit-schemas) \
 python39-asdf-unit-schemas \
 python39-asdf_unit_schemas \
 python3dist(asdf-unit-schemas)"
+
 RDEPENDS:${PN} += "(python39-importlib_resources >= 3 if python39-base < 3.9) \
 python(abi) \
 python39-asdf-standard"

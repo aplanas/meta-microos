@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(isoduration) \
 python311-isoduration \
 python3dist(isoduration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-arrow"
 

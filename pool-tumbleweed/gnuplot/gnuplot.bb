@@ -12,6 +12,7 @@ RPM_HASH = "a8f75aff5eb8a7b8e7fdb64092def9e4ed97daedd4b8ebdd0b724e152a5795f66426
 
 RPROVIDES:${PN} += "gnuplot \
 gnuplot(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

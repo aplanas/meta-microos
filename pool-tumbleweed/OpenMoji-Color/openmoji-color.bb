@@ -9,6 +9,7 @@ RPM_HASH = "b3880f05efd216f0591ff48f63ee2ac17ced8f6cdbf008f7c971c9659c126addcc5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenMoji-Color"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

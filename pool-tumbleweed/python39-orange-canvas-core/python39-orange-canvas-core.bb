@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(orange-canvas-core) \
 python39-orange-canvas-core \
 python3dist(orange-canvas-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-AnyQt \
 python39-CacheControl \

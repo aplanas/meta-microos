@@ -11,6 +11,7 @@ RPM_HASH = "c596a1aa9d88d658d4393b5a626e41f0855037d748f5b30e93ef3f544c0f18c7b8dd
 RPROVIDES:${PN} += "libfabric-devel \
 libfabric-devel(aarch-64) \
 pkgconfig(libfabric)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfabric1"
 

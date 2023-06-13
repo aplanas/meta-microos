@@ -27,6 +27,7 @@ libwireplumber-module-si-standard-link.so()(64bit) \
 pipewire-session-manager \
 wireplumber \
 wireplumber(aarch-64)"
+
 RDEPENDS:${PN} += "(wireplumber-audio if (pipewire-pulseaudio or pipewire-jack)) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

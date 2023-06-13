@@ -9,6 +9,7 @@ RPM_HASH = "1151de8dae72d04a04ceac4eb078be8a1695648d700790b0a1568ba00cb928369bb1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pinlabel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

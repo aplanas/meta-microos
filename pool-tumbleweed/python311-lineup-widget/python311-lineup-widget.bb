@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(lineup-widget) \
 python311-lineup-widget \
 python3dist(lineup-widget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipywidgets \
 python311-notebook \

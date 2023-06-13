@@ -16,6 +16,7 @@ RPM_HASH = "720c22c7c1eac1b71c5f6718a8a4b74f0f8e1cd2609417d28beca9ba8e55d4bb3d87
 RPROVIDES:${PN} += "vtk-openmpi2-devel:/usr/lib64/mpi/gcc/openmpi2/lib64//libvtkJava.so \
 vtk-openmpi2-java-devel \
 vtk-openmpi2-java-devel(aarch-64)"
+
 RDEPENDS:${PN} += "java-devel \
 vtk-openmpi2-devel \
 vtk-openmpi2-java"

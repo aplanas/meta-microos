@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makerobust.sty) \
 texlive-makerobust"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "7f8def47573d407c88dca60a02933484fd0d830dcc85f4bb30e63c486ca7576500fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-matlab-prettifier-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

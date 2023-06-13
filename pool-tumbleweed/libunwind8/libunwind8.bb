@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libunwind-aarch64.so.8()(64bit) \
 libunwind.so.8()(64bit) \
 libunwind8 \
 libunwind8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kiwi-image-docker-requires \
 kiwi-image:docker \
 kiwi-systemdeps-containers \
 kiwi-systemdeps-containers(aarch-64)"
+
 RDEPENDS:${PN} += "skopeo \
 umoci"
 

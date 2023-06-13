@@ -11,6 +11,7 @@ RPM_HASH = "a1d0383579d9d8a56faecfbe4b45408944f701495c0ea5cafb736af7a0f68f552ae1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-ptpython-ptipython"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python311-ipython \

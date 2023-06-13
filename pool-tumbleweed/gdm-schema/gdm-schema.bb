@@ -10,6 +10,7 @@ RPM_HASH = "64742b648487b778274b6d6e15566efa1f63602a595c2f565de0556fbf241e02a79f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdm-schema"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

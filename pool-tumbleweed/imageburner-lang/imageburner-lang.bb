@@ -91,6 +91,7 @@ locale(imageburner:wa) \
 locale(imageburner:zh) \
 locale(imageburner:zh_HK) \
 locale(imageburner:zh_TW)"
+
 RDEPENDS:${PN} += "imageburner"
 
 inherit rpm

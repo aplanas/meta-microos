@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(queuelib) \
 python311-queuelib \
 python3dist(queuelib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(panel) \
 python39-panel \
 python3dist(panel)"
+
 RDEPENDS:${PN} += "(python39-bokeh >= 2.4.3 with python39-bokeh < 2.5) \
 /bin/sh \
 /usr/bin/python3.9 \

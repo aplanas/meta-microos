@@ -13,6 +13,7 @@ RPM_HASH = "4faf20c7c9ee37ce0dd1374ff2f4a65acd5b5a34830889a8846f31029bb240a06fb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icedtea-web-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

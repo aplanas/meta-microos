@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-lsp-black) \
 python311-python-lsp-black \
 python3dist(python-lsp-black)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-black \
 python311-python-lsp-server \

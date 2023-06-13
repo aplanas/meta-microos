@@ -9,6 +9,7 @@ RPM_HASH = "31bf1ceff50f44acf1437b2ee393f57e26875ff01ae818831e10461029d8deb7fdc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-component-metadata-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

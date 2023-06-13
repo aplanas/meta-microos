@@ -9,6 +9,7 @@ RPM_HASH = "6162df36ee9c490d5e155df4271e090775f85b437525cb2f88c6c1bd379905d5a6ae
 
 RPROVIDES:${PN} += "sbl-orca \
 sbl-orca(aarch-64)"
+
 RDEPENDS:${PN} += "orca \
 python(abi)"
 

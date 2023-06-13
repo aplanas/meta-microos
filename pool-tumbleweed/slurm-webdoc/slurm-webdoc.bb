@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(slurm-webdoc) \
 slurm-webdoc"
+
 RDEPENDS:${PN} += "apache2 \
 slurm-doc"
 

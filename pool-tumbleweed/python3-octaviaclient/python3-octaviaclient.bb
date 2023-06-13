@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-octaviaclient \
 python3.10dist(python-octaviaclient) \
 python3dist(python-octaviaclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-Babel \
 python3-cliff \

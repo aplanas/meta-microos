@@ -11,6 +11,7 @@ RPM_HASH = "15b673051eeccc8f9fbe46e15a8c9e415d7bd3c5811e46e6a0f6c76f5e9b54608acd
 
 RPROVIDES:${PN} += "python311-libluksde \
 python311-libluksde(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

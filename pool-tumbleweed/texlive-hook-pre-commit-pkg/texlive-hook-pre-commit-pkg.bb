@@ -21,6 +21,7 @@ RPM_HASH = "18a96407650da9e0e76d38ab81b18d53ce3dc7e6affd110efa4d242ee8dad2945a0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hook-pre-commit-pkg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

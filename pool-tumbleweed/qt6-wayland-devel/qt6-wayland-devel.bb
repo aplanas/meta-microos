@@ -9,6 +9,7 @@ RPM_HASH = "8c403288c57d014477412972b225562e8d2166f125b2f22118124415481a7baf8c48
 
 RPROVIDES:${PN} += "qt6-wayland-devel \
 qt6-wayland-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WaylandClient) \
 cmake(Qt6WaylandCompositor) \
 cmake(Qt6WaylandGlobalPrivate)"

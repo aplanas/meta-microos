@@ -96,6 +96,7 @@ locale(mate-polkit:zh_HK) \
 locale(mate-polkit:zh_TW) \
 mate-polkit-lang \
 mate-polkit-lang-all"
+
 RDEPENDS:${PN} += "mate-polkit"
 
 inherit rpm

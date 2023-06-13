@@ -20,6 +20,7 @@ libunbound-devel-mini \
 libunbound-devel-mini(aarch-64) \
 libunbound.so.8()(64bit) \
 pkgconfig(libunbound)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

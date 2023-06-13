@@ -20,6 +20,7 @@ RPM_HASH = "082ba785550823ccfb0be7ad9ed2769946e24473011e334c6c27fe3a369242456299
 RPROVIDES:${PN} += "libmoar.so()(64bit) \
 moarvm \
 moarvm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

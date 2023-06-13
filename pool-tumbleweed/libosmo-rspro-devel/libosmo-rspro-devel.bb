@@ -15,6 +15,7 @@ RPM_HASH = "6eb83c7409948f5271db6e890e21323a3e11b092f9068ffa8d2834189f30b8a5563f
 RPROVIDES:${PN} += "libosmo-rspro-devel \
 libosmo-rspro-devel(aarch-64) \
 pkgconfig(libosmo-rspro)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-rspro1"
 

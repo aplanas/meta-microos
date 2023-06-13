@@ -18,6 +18,7 @@ libwebkit2gtk-4.0.so.37()(64bit) \
 libwebkit2gtk-4_0-37 \
 libwebkit2gtk-4_0-37(aarch-64) \
 libwebkit2gtk3"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bubblewrap \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(ganglia-web) \
 ganglia-web"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 apache2 \

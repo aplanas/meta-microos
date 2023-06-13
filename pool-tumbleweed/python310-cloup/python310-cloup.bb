@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-cloup \
 python3.10dist(cloup) \
 python310-cloup \
 python3dist(cloup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

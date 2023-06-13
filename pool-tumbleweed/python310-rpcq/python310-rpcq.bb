@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-rpcq \
 python3.10dist(rpcq) \
 python310-rpcq \
 python3dist(rpcq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msgpack \
 python310-python-rapidjson \

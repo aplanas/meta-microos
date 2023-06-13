@@ -24,6 +24,7 @@ python3.10dist(netcdf4) \
 python310-netCDF4 \
 python310-netCDF4(aarch-64) \
 python3dist(netcdf4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 hdf5 \

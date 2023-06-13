@@ -12,6 +12,7 @@ RPM_HASH = "53629621eeb3cfd16e9cd0cde56d97ac6d7bd1c3f360e0c8616af4e44f99df08c56d
 RPROVIDES:${PN} += "libKF5SonnetUi.so.5()(64bit) \
 libKF5SonnetUi5 \
 libKF5SonnetUi5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

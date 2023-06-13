@@ -11,6 +11,7 @@ RPM_HASH = "6e4a49db74b703b28292f2b641dd2dac2bb1ded03824b0ac98b594ebe66047bd8923
 RPROVIDES:${PN} += "pkgconfig(speexdsp) \
 speexdsp-devel \
 speexdsp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspeexdsp1"
 

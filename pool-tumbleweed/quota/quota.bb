@@ -13,6 +13,7 @@ RPM_HASH = "103fc70d6e9432f50502d6b0d153c6ba3bba6acb78b56b2d97ff8d4d285c21e78bb1
 RPROVIDES:${PN} += "config(quota) \
 quota \
 quota(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fewerfloatpages.sty) \
 texlive-fewerfloatpages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

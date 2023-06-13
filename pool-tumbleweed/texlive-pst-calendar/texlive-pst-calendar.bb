@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-calendar.sty) \
 texlive-pst-calendar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

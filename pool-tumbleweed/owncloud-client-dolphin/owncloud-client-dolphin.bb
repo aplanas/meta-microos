@@ -11,6 +11,7 @@ RPM_HASH = "8e0f8b757974b5d19c9e153cffd2b3846e98306ea382aabf09997ba877a9dab5bb1a
 RPROVIDES:${PN} += "libownclouddolphinpluginhelper.so()(64bit) \
 owncloud-client-dolphin \
 owncloud-client-dolphin(aarch-64)"
+
 RDEPENDS:${PN} += "dolphin \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

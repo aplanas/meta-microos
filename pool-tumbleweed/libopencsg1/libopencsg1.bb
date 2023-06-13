@@ -14,6 +14,7 @@ RPM_HASH = "7f70a69583e66f99e2df7feec26b81d4916778565472fe518d50780083a98e57a0a6
 RPROVIDES:${PN} += "libopencsg.so.1()(64bit) \
 libopencsg1 \
 libopencsg1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libGL.so.1()(64bit) \
 libGLEW.so.2.2()(64bit) \

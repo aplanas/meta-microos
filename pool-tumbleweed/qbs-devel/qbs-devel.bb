@@ -9,6 +9,7 @@ RPM_HASH = "047c48fc05f507f3233d0fe79365675736bc435d01894a994fd73f166131d1b7e512
 
 RPROVIDES:${PN} += "qbs-devel \
 qbs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "qbs"
 
 inherit rpm

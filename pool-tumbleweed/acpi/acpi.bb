@@ -12,6 +12,7 @@ RPM_HASH = "e11628d8077fe7712ce0ea41e8d9719360957022ffd4288196a0254a1dc7d5a32a44
 RPROVIDES:${PN} += "acpi \
 acpi(aarch-64) \
 acpid:/usr/bin/acpi"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

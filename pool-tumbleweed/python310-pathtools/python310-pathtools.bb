@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pathtools \
 python3.10dist(pathtools) \
 python310-pathtools \
 python3dist(pathtools)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

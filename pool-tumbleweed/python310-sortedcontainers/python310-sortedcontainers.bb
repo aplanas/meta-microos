@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-sortedcontainers \
 python3.10dist(sortedcontainers) \
 python310-sortedcontainers \
 python3dist(sortedcontainers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

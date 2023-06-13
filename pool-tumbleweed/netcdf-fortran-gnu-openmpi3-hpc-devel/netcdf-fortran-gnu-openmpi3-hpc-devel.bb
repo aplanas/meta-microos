@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcdf-fortran-gnu-openmpi3-hpc \
 netcdf-fortran-gnu-openmpi3-hpc-devel"
+
 RDEPENDS:${PN} += "netcdf-fortran_4_5_3-gnu-openmpi3-hpc-devel"
 
 inherit rpm

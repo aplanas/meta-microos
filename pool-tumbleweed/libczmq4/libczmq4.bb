@@ -20,6 +20,7 @@ RPM_HASH = "3da1aa61de7afe580a8a5f324efc87ec0fb5bbe4b458b6532bca8720ad0f83af0119
 RPROVIDES:${PN} += "libczmq.so.4()(64bit) \
 libczmq4 \
 libczmq4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

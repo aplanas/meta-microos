@@ -20,6 +20,7 @@ locale(qemu:uk) \
 locale(qemu:zh_CN) \
 qemu-lang \
 qemu-lang(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

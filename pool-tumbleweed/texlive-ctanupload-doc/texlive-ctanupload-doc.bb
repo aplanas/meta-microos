@@ -9,6 +9,7 @@ RPM_HASH = "50c57a34e9c4e314e2a2eb9df2ae6fa00436c58eb87cfa3d45a1780b56eac396f52c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanupload-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "a3b1af93ba18a87d67f80e4bfcc84327d2d57b501ac97de2a97edf0effc7d03b61d0
 RPROVIDES:${PN} += "config(openslp) \
 openslp \
 openslp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

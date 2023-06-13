@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jakarta-mail \
 mvn(jakarta.mail:jakarta.mail-api) \
 mvn(jakarta.mail:jakarta.mail-api:pom:) \
 osgi(jakarta.mail-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jakarta.activation:jakarta.activation-api)"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-localflavor) \
 python311-django-localflavor \
 python3dist(django-localflavor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-python-stdnum"

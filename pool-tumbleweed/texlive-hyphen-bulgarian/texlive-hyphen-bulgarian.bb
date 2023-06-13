@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-bg.t2a.tex) \
 tex(hyph-bg.tex) \
 tex(loadhyph-bg.tex) \
 texlive-hyphen-bulgarian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

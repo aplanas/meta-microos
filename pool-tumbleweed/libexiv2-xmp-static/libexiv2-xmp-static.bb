@@ -9,6 +9,7 @@ RPM_HASH = "6ca4195c3966ea154b27774fdbee07d6ffdda0f8e7b5453347d687e941e25d10a0b4
 
 RPROVIDES:${PN} += "libexiv2-xmp-static \
 libexiv2-xmp-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

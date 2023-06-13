@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bibleref-mouth.sty) \
 texlive-bibleref-mouth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

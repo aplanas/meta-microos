@@ -14,6 +14,7 @@ RPM_HASH = "488e5dc61e5ca58ee06a50fdebb8d1ba418556d82b4f4d3edd82e9a2aee35038e030
 RPROVIDES:${PN} += "typelib(Gdl) \
 typelib-1_0-Gdl-3 \
 typelib-1_0-Gdl-3(aarch-64)"
+
 RDEPENDS:${PN} += "libgdl-3.so.5()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

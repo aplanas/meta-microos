@@ -11,6 +11,7 @@ RPM_HASH = "1114c0c75d7da361607326976159218d3705ed4b6693384044979231cbc241a79305
 
 RPROVIDES:${PN} += "libqcow-tools \
 libqcow-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

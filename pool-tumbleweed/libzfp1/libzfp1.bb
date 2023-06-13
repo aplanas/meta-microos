@@ -13,6 +13,7 @@ RPM_HASH = "2b2205072d69a8b4e00168d1cdd493fc26d094bb4421236bc5680a4f89737f845f09
 RPROVIDES:${PN} += "libzfp.so.1()(64bit) \
 libzfp1 \
 libzfp1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

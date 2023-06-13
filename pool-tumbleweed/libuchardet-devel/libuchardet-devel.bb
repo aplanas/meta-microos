@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(uchardet) \
 libuchardet-devel \
 libuchardet-devel(aarch-64) \
 pkgconfig(uchardet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuchardet0"
 

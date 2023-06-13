@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cattrs \
 python3.10dist(cattrs) \
 python310-cattrs \
 python3dist(cattrs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

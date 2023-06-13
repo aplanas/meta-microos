@@ -10,6 +10,7 @@ RPM_HASH = "56ff3fc200127f50897f1e8a4963957a38a13ec45b29aa3b74149436d355f96ad787
 RPROVIDES:${PN} += "leechcraft-intermutko \
 leechcraft-intermutko(aarch-64) \
 libleechcraft_intermutko.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

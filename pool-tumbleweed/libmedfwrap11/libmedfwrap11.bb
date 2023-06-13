@@ -13,6 +13,7 @@ RPM_HASH = "b348664cd0db70832906fb21640eff6ef0d5ff2be08e5fcd671ed57c495ef650d248
 RPROVIDES:${PN} += "libmedfwrap.so.11()(64bit) \
 libmedfwrap11 \
 libmedfwrap11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

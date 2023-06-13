@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libOrthancPostgreSQLIndex.so.4.0()(64bit) \
 libOrthancPostgreSQLStorage.so.4.0()(64bit) \
 orthanc-postgresql \
 orthanc-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

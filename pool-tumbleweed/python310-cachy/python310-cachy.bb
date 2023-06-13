@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cachy \
 python3.10dist(cachy) \
 python310-cachy \
 python3dist(cachy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

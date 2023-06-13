@@ -9,6 +9,7 @@ RPM_HASH = "67ac95210d8b7d42f7adb2052620a2393407e10ea09b1c9010cb774b673bbd1fb0ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flux2-cli-fish-completion"
+
 RDEPENDS:${PN} += "flux2-cli"
 
 inherit rpm

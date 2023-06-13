@@ -19,6 +19,7 @@ RPM_HASH = "da9c9d5fbc82924c380ab05a13433b9d6bce51b40448ff6ed9c4196941cedb4b3feb
 RPROVIDES:${PN} += "libgraphene-1.0.so.0()(64bit) \
 libgraphene-1_0-0 \
 libgraphene-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

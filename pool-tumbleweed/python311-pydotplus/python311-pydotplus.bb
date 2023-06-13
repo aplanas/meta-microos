@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pydotplus) \
 python311-pydotplus \
 python3dist(pydotplus)"
+
 RDEPENDS:${PN} += "graphviz \
 python(abi) \
 python311-pyparsing"

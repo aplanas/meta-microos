@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(strictyaml) \
 python39-strictyaml \
 python3dist(strictyaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil"
 

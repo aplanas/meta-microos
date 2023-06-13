@@ -21,6 +21,7 @@ cmake(QCoro5Test) \
 cmake(QCoro5WebSockets) \
 qcoro-qt5-devel \
 qcoro-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQCoro5Core0 \
 libQCoro5DBus0 \
 libQCoro5Network0 \

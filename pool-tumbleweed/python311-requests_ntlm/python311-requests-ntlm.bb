@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(requests-ntlm) \
 python311-requests_ntlm \
 python3dist(requests-ntlm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography \
 python311-pyspnego \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gmdoc-enhance.sty) \
 texlive-gmdoc-enhance"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

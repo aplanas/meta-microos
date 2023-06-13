@@ -9,6 +9,7 @@ RPM_HASH = "8b431f84fbd5307b24ef2da9cccf9651cbfffe51e883b96cb93de26e713d650fefe7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skaffold-zsh-completion"
+
 RDEPENDS:${PN} += "skaffold"
 
 inherit rpm

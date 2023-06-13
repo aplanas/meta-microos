@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-GooCalendar \
 python3.10dist(goocalendar) \
 python310-GooCalendar \
 python3dist(goocalendar)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(GObject) \
 typelib(Gdk) \

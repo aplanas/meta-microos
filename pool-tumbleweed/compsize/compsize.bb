@@ -11,6 +11,7 @@ RPM_HASH = "9f08414f1293d6d2176ac2b94fb6a4b77b0ead4b81a9b8be01193f44ececa5dd343a
 
 RPROVIDES:${PN} += "compsize \
 compsize(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

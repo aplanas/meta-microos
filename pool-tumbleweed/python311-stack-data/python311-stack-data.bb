@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(stack-data) \
 python311-stack-data \
 python3dist(stack-data)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-asttokens \
 python311-executing \

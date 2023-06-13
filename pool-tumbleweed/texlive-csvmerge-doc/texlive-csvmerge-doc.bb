@@ -9,6 +9,7 @@ RPM_HASH = "fec689e35385941053fc545d36fc0cd2ccd508a4273229ffe9023f5a15d800fa2b12
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csvmerge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

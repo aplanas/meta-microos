@@ -17,6 +17,7 @@ RPM_HASH = "812106a1fe4af54693c323c1cb658acd025287804aeb3c0e9fdaba3a0ec7b03037c7
 RPROVIDES:${PN} += "libscamperctrl.so.1()(64bit) \
 libscamperctrl1 \
 libscamperctrl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

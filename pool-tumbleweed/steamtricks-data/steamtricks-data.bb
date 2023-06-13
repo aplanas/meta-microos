@@ -13,6 +13,7 @@ RPM_HASH = "efe8acc055119a06727773cb486ea179c288eb566e91393946bab9bbf5ded04a9ce7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "steamtricks-data"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 bsdiff \

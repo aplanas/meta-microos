@@ -16,6 +16,7 @@ mvn(javax.websocket:javax.websocket-client-api:pom:) \
 mvn(org.jboss.spec.javax.websocket:jboss-websocket-api_1.0_spec) \
 mvn(org.jboss.spec.javax.websocket:jboss-websocket-api_1.0_spec:pom:) \
 osgi(org.jboss.spec.javax.websocket.jboss-websocket-api_1.0_spec)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

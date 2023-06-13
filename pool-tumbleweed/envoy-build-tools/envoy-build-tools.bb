@@ -10,6 +10,7 @@ RPM_HASH = "2c870d49db8805930deafcb28e795278a5b5948860266e0996a4567ef3acc785f102
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "envoy-build-tools"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

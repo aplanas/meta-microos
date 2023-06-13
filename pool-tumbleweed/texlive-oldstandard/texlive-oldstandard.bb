@@ -233,6 +233,7 @@ tex(ost_y2jfiq.enc) \
 tex(ost_yp4wmb.enc) \
 tex(ost_ytxedg.enc) \
 texlive-oldstandard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

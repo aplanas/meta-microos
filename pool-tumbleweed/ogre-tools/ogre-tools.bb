@@ -16,6 +16,7 @@ RPM_HASH = "c451e3e7b4ddcfa7248ce18cc55e8c192ca555d54d21aa76fc2f8643c0cb0cbacb65
 
 RPROVIDES:${PN} += "ogre-tools \
 ogre-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOgreMain.so.13.5()(64bit) \

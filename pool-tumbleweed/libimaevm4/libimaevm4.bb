@@ -11,6 +11,7 @@ RPM_HASH = "332eea56e00ec4025e875858c0d14d82d0b74bbf0cf8f592a1ad3d577ac8e215f7db
 RPROVIDES:${PN} += "libimaevm.so.4()(64bit) \
 libimaevm4 \
 libimaevm4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

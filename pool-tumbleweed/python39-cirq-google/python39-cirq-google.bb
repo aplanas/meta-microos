@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cirq-google) \
 python39-cirq-google \
 python3dist(cirq-google)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cirq-core \
 python39-google-api-core \

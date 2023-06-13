@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-libsteam \
 pidgin-plugin-libsteam"
+
 RDEPENDS:${PN} += "libpurple-plugin-libsteam"
 
 inherit rpm

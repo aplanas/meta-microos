@@ -11,6 +11,7 @@ RPM_HASH = "b0b3e522f7fb638b840823b597d4c7f8a7e2568b43dcda11d00a45685ccc22655019
 
 RPROVIDES:${PN} += "qpid-proton-test \
 qpid-proton-test(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "bfba3b9fb1e5816aab855b41f216fbeed48103b1f1148c0e8fb0664d9af5bff455d9
 
 RPROVIDES:${PN} += "libadns-devel \
 libadns-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libadns1"
 

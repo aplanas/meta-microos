@@ -10,6 +10,7 @@ RPM_HASH = "3c7003fa3e633980b5ae0eb8901456d255dc321ec3059a65d53518e995205ee637b3
 RPROVIDES:${PN} += "SwayNotificationCenter \
 SwayNotificationCenter(aarch-64) \
 config(SwayNotificationCenter)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

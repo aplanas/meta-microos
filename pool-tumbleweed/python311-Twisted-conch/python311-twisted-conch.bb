@@ -12,6 +12,7 @@ RPM_HASH = "986a30d7cbd5c8885e9366210c7a77bd49369621321834e297b082a32ffa5990e7fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Twisted-conch"
+
 RDEPENDS:${PN} += "python311-Twisted \
 python311-appdirs \
 python311-bcrypt \

@@ -12,6 +12,7 @@ RPM_HASH = "c2b759b935ce1e8114c1066cdb08e8f88a4566f9a85be3b072273ed6230ffb173e7c
 RPROVIDES:${PN} += "nemo-devel \
 nemo-devel(aarch-64) \
 pkgconfig(libnemo-extension)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnemo-extension1 \
 nemo \

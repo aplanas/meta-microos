@@ -10,6 +10,7 @@ RPM_HASH = "efe8b7d71509612ce5179f08292ef2e1a46deb26c8c84705bb513d80ba0c29c4d309
 RPROVIDES:${PN} += "leechcraft-namauth \
 leechcraft-namauth(aarch-64) \
 libleechcraft_namauth.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

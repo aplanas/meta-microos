@@ -10,6 +10,7 @@ RPM_HASH = "e9d14e4705c94cb3eb397c853e86b21b9ad209e30db62b1e658c0e9a8ba9ad854f35
 
 RPROVIDES:${PN} += "libsoftokn3-hmac \
 libsoftokn3-hmac(aarch-64)"
+
 RDEPENDS:${PN} += "libsoftokn3"
 
 inherit rpm

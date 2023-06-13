@@ -12,6 +12,7 @@ RPM_HASH = "6eeb87ba0700ad34d90f15b620cc75f01bad2be3f9523088418c2d2611fa4d7b248d
 RPROVIDES:${PN} += "libtracefs-devel \
 libtracefs-devel(aarch-64) \
 pkgconfig(libtracefs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtracefs1 \
 pkgconfig(libtraceevent)"

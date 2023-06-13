@@ -93,6 +93,7 @@ locale(kwin5:vi) \
 locale(kwin5:wa) \
 locale(kwin5:zh_CN) \
 locale(kwin5:zh_TW)"
+
 RDEPENDS:${PN} += "kwin5"
 
 inherit rpm

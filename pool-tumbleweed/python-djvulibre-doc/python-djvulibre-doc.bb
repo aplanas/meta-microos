@@ -12,6 +12,7 @@ RPM_HASH = "86fe6b4755214aebf6b296575249e6130b4d91ec6819582db1b21fc025f59c9274fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-djvulibre-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

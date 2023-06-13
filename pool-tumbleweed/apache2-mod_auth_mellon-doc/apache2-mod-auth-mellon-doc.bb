@@ -9,6 +9,7 @@ RPM_HASH = "897e520fd296c006557c1d23f936002cb8592a10ca072ec15869831ddae45f41697f
 
 RPROVIDES:${PN} += "apache2-mod_auth_mellon-doc \
 apache2-mod_auth_mellon-doc(aarch-64)"
+
 RDEPENDS:${PN} += "apache2-mod_auth_mellon"
 
 inherit rpm

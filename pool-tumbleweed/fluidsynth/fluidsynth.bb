@@ -12,6 +12,7 @@ RPM_HASH = "4d9358f75fc5c18df85308c469476d082a300c3b1c6ff65886c73cb26580a03f553d
 
 RPROVIDES:${PN} += "fluidsynth \
 fluidsynth(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

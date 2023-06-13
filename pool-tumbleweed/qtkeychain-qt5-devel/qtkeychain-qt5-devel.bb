@@ -12,6 +12,7 @@ RPM_HASH = "ac286819a0c8b000fffc382132502feac8fce35e52e59a2eb0be5495a13d806978b0
 RPROVIDES:${PN} += "cmake(Qt5Keychain) \
 qtkeychain-qt5-devel \
 qtkeychain-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5keychain1"
 
 inherit rpm

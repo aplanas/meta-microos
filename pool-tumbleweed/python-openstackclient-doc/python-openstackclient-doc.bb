@@ -12,6 +12,7 @@ RPM_HASH = "1c66f02aa79e3872a5a015d40b21b327d7ac9c2d3a2589221a26f61926be601a3079
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-openstackclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

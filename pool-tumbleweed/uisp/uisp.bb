@@ -12,6 +12,7 @@ RPM_HASH = "003326276179f78ccc9a10da0c0ee13049b32dadd42986d7ee594ec5e3587a4839c9
 RPROVIDES:${PN} += "avr-programmer \
 uisp \
 uisp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/cat \
 /bin/sh \
 /sbin/modprobe \

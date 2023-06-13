@@ -17,6 +17,7 @@ RPM_HASH = "79e133ee78883d3a2ba6a1d6791ab072db968583a6294fe127e18e3bc8bb1a902dbd
 RPROVIDES:${PN} += "libflickcurl.so.0()(64bit) \
 libflickcurl0 \
 libflickcurl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

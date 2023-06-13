@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-mail) \
 python311-Flask-Mail \
 python3dist(flask-mail)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-blinker"

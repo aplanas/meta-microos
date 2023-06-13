@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(control) \
 python38-control \
 python3dist(control)"
+
 RDEPENDS:${PN} += "python(abi) \
 python38-matplotlib \
 python38-numpy \

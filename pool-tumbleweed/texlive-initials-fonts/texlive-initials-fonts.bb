@@ -109,6 +109,7 @@ font(starburst) \
 font(typographercaps) \
 font(zallmancaps) \
 texlive-initials-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

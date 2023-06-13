@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ibrackets.sty) \
 texlive-ibrackets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "f3fc78f59e87e238bb5527ba9e884dc9db2913851ffef8cdf51c0676116b9539e7b9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "network-autoconfig"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 systemd \

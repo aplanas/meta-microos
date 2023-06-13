@@ -152,6 +152,7 @@ font(:lang=zu) \
 font(stixtwomath) \
 font(stixtwotext) \
 texlive-stix2-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -9,6 +9,7 @@ RPM_HASH = "c0602c7b48bbeef76cd8d1502e7570ae6fba38ce2ee18dd89b2fbf1ac17ae2ae1318
 
 RPROVIDES:${PN} += "collectd-plugin-mqtt \
 collectd-plugin-mqtt(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

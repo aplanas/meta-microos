@@ -11,6 +11,7 @@ RPM_HASH = "43586d6af150afe15adec964725235dda25a0b7a97d239aca5b0c0b6172e69d52ed4
 
 RPROVIDES:${PN} += "pdf2djvu \
 pdf2djvu(aarch-64)"
+
 RDEPENDS:${PN} += "djvulibre \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

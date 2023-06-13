@@ -10,6 +10,7 @@ RPM_HASH = "b3039b0f66f87639be0fb3014ca3372eac7be7bc0d456dacc655611729280dce714e
 
 RPROVIDES:${PN} += "sssd-tools \
 sssd-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

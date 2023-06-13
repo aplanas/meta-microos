@@ -11,6 +11,7 @@ RPM_HASH = "e08fa727c59cb7f359885c50c400da419d1bb1767945a0b57b97bd317e6958101654
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aisleriot-themes"
+
 RDEPENDS:${PN} += "aisleriot"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "1387c14e2111cd2435f07097faf94367bf16a868a9d48fddf2931695f7f3f438be2e
 
 RPROVIDES:${PN} += "ssh-contact-client \
 ssh-contact-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

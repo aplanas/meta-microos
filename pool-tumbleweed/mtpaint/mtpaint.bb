@@ -39,6 +39,7 @@ mimehandler(image/xbm) \
 mimehandler(image/xpm) \
 mtpaint \
 mtpaint(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ImageMagick \
 ld-linux-aarch64.so.1()(64bit) \

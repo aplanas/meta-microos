@@ -9,6 +9,7 @@ RPM_HASH = "5cea77d49b9e40d662b013d6a30038c9d3f74021c0261772add5fd57090b11d43673
 
 RPROVIDES:${PN} += "bsdtar \
 bsdtar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

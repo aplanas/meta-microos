@@ -11,6 +11,7 @@ RPM_HASH = "908e36796e508bc1d99b47be6e98193f711c0e0ddd2a045b43d393bf2b509e1300ae
 
 RPROVIDES:${PN} += "t38modem \
 t38modem(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

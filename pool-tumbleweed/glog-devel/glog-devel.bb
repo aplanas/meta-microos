@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(glog) \
 glog-devel \
 glog-devel(aarch-64) \
 pkgconfig(libglog)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglog0"
 

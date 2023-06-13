@@ -13,6 +13,7 @@ RPM_HASH = "8ca87e226bf5ddbf2e1aa5edd2bf192dd98e80d69a14e3d1cc3fb8e60586fbaf9166
 RPROVIDES:${PN} += "ghc-old-time \
 ghc-old-time(aarch-64) \
 libHSold-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

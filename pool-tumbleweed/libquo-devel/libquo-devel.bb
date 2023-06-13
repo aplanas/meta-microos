@@ -16,6 +16,7 @@ RPM_HASH = "a0cb251579c8203fa3f7eba035f120686cc892514e5d0b77d27f1d1b899cdf30dec7
 RPROVIDES:${PN} += "libquo-devel \
 libquo-devel(aarch-64) \
 pkgconfig(libquo)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

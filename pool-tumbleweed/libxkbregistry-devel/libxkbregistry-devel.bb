@@ -14,6 +14,7 @@ RPM_HASH = "b18f91d9560100be5d6592bde4873ca15f86a879b01fbda1ef4d2ecfb1f529d69f8a
 RPROVIDES:${PN} += "libxkbregistry-devel \
 libxkbregistry-devel(aarch-64) \
 pkgconfig(xkbregistry)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxkbregistry0 \
 pkgconfig(libxml-2.0)"

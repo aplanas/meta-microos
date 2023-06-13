@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyowm) \
 python311-pyowm \
 python3dist(pyowm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-geojson \
 python311-requests"

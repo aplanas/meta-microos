@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-morecvutils \
 python3.10dist(morecvutils) \
 python3dist(morecvutils)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 gstreamer-plugins-good \

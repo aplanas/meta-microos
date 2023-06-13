@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(kombu) \
 python311-kombu \
 python3dist(kombu)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-amqp \
 python311-cached-property \

@@ -15,6 +15,7 @@ RPM_HASH = "98657c98cd905b26659e87a6612f7dd35286b2b8c25c88b9fe732e3046850d438482
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luaepnf"
+
 RDEPENDS:${PN} += "lua53 \
 lua53-lpeg"
 

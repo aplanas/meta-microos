@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-futurist \
 python3.10dist(futurist) \
 python3dist(futurist)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

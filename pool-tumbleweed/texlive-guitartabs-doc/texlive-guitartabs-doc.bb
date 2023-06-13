@@ -9,6 +9,7 @@ RPM_HASH = "72921444b1c3e49ee0af051baaa6543be01d5faeb9e37f12b1cff5ae38f508f7bb1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-guitartabs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

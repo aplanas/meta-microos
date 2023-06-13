@@ -14,6 +14,7 @@ RPM_HASH = "2f452e32d6a6362eba82eb06ce847ed134d4b0aa6728d1f869f736fbf9773172dbec
 RPROVIDES:${PN} += "ck-devel \
 ck-devel(aarch-64) \
 pkgconfig(ck)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libck0"
 

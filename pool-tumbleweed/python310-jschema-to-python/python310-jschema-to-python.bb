@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jschema-to-python \
 python3.10dist(jschema-to-python) \
 python310-jschema-to-python \
 python3dist(jschema-to-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-jsonpickle \

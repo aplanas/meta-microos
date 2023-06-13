@@ -9,6 +9,7 @@ RPM_HASH = "27b68a7dff58105edfcb5c7cb52f09e86b7485fac2e28d55dc678f86d9beb1cc9d35
 
 RPROVIDES:${PN} += "libfreehand-tools \
 libfreehand-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "836a48add07cedbde952dcdb285915154d9d1c67bede8bd0b35b733f79b263a4f5bd
 RPROVIDES:${PN} += "perl(Crypt::DES) \
 perl-Crypt-DES \
 perl-Crypt-DES(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

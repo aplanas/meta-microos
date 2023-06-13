@@ -12,6 +12,7 @@ RPM_HASH = "23d51397d02b5595f3567b5d0b3dad1d1a3f16b0dd6c942b433fea4a2ad2e0488258
 RPROVIDES:${PN} += "luabind-devel \
 luabind-devel(aarch-64) \
 pkgconfig(luabind)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libluabind0_9_1 \
 lua53-devel"

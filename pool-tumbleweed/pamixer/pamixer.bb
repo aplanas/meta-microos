@@ -10,6 +10,7 @@ RPM_HASH = "767cb182d7ca6af391ba0140e8693790bf9ae90f856626a1393901e0b74218f54e05
 
 RPROVIDES:${PN} += "pamixer \
 pamixer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

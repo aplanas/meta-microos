@@ -149,6 +149,7 @@ tex(charssil-tlf-ts1.tfm) \
 tex(charssil-tlf-ts1.vf) \
 tex(charssil.map) \
 texlive-charissil"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

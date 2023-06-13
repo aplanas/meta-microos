@@ -9,6 +9,7 @@ RPM_HASH = "2c921c3cafe02f5f04eea4ad8333dd7b5ab5aaa370a2d800bd6ae5f721898692cfb1
 
 RPROVIDES:${PN} += "xmppc \
 xmppc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

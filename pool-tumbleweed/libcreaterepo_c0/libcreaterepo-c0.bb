@@ -11,6 +11,7 @@ RPM_HASH = "4bbe0b476a2b0c1e2eca4dc14d67053de45ce1caa65e26947dd7c7c5e6d9540edf04
 RPROVIDES:${PN} += "libcreaterepo_c.so.0()(64bit) \
 libcreaterepo_c0 \
 libcreaterepo_c0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

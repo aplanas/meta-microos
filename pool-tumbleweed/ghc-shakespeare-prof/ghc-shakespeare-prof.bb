@@ -10,6 +10,7 @@ RPM_HASH = "65950145ef82e7334a15380e046c1922653b3a5a8dbf4f5f4bd1ec5f84ec70f84627
 RPROVIDES:${PN} += "ghc-prof(shakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0) \
 ghc-shakespeare-prof \
 ghc-shakespeare-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR) \

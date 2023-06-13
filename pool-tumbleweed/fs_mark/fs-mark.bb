@@ -12,6 +12,7 @@ RPM_HASH = "eb014461283fa2083fefb031395ea3075bebc60c3ed0279be94cee1eccf9856b75dd
 
 RPROVIDES:${PN} += "fs_mark \
 fs_mark(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

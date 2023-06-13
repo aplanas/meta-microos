@@ -9,6 +9,7 @@ RPM_HASH = "633e968b032f7841c14213924959d8b40f2548f73e54f38ff1490eb45aee97752ab4
 
 RPROVIDES:${PN} += "jcat-tool \
 jcat-tool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

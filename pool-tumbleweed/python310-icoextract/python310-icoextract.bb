@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-icoextract \
 python3.10dist(icoextract) \
 python310-icoextract \
 python3dist(icoextract)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

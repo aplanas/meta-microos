@@ -65,6 +65,7 @@ locale(kmail-account-wizard:ug) \
 locale(kmail-account-wizard:uk) \
 locale(kmail-account-wizard:zh_CN) \
 locale(kmail-account-wizard:zh_TW)"
+
 RDEPENDS:${PN} += "kmail-account-wizard"
 
 inherit rpm

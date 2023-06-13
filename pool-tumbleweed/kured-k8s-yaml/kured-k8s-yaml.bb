@@ -10,6 +10,7 @@ RPM_HASH = "930739e79d05375e7479540e1d29ea12ce4ce1a0112ac9d6560df56ed4adb6358b91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kured-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

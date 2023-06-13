@@ -14,6 +14,7 @@ tex(LNI-ngerman.lbx) \
 tex(LNI.bbx) \
 tex(LNI.cbx) \
 texlive-biblatex-lni"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ RPM_HASH = "c58aac52b26b124b286a8037930c4716f7217460da120431ae3217e16b0fa1912ea2
 RPROVIDES:${PN} += "libtcnative-1-0-devel \
 libtcnative-1-0-devel(aarch-64) \
 pkgconfig(tcnative-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libapr1-devel \

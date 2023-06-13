@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-mpl) \
 python311-pytest-mpl \
 python3dist(pytest-mpl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow \
 python311-matplotlib \

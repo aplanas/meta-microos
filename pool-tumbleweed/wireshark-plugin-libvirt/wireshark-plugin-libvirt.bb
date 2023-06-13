@@ -10,6 +10,7 @@ RPM_HASH = "b68c7574427568bb64b169f603306d2115bbdb03bed4cb3a05659badfcd50d957b29
 RPROVIDES:${PN} += "libvirt.so()(64bit) \
 wireshark-plugin-libvirt \
 wireshark-plugin-libvirt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

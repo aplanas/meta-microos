@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-branding \
 plymouth-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

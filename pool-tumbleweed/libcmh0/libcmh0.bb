@@ -15,6 +15,7 @@ RPM_HASH = "082f43f7eb81af6bf2e331fb99bc3ed181a9b6d80c0fa4202e44b9f709ef284d8bdb
 RPROVIDES:${PN} += "libcmh.so.0()(64bit) \
 libcmh0 \
 libcmh0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

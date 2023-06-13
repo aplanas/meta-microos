@@ -10,6 +10,7 @@ RPM_HASH = "afefdabbc07ebc24397f218de2306a41fea8006834e5300d8642f49794cd73924ec9
 
 RPROVIDES:${PN} += "sbsigntools \
 sbsigntools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "89c90975fb9a364910e8ad8bff77e8b8cac745177aead619f6407a97d4ff18fa95f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-man"
+
 RDEPENDS:${PN} += "man"
 
 inherit rpm

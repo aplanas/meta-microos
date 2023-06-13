@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-storaged \
 metainfo() \
 metainfo(org.cockpit-project.cockpit-storaged.metainfo.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cockpit-shell \
 libudisks2-0_lvm2 \

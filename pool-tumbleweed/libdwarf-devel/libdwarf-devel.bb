@@ -13,6 +13,7 @@ RPM_HASH = "995283942e1e86f262a3a63efe5a4c5282b267a04ff21c228700930c59d6596a1f2e
 RPROVIDES:${PN} += "libdwarf-devel \
 libdwarf-devel(aarch-64) \
 pkgconfig(libdwarf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdwarf0 \
 libelf-devel \

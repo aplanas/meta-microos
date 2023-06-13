@@ -10,6 +10,7 @@ RPM_HASH = "e30f688d4f6b93d9ab16e1430bebfc74ad31489c49f285274be8496ddc84c18b153d
 RPROVIDES:${PN} += "libtimezonemap.so.1()(64bit) \
 libtimezonemap1 \
 libtimezonemap1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

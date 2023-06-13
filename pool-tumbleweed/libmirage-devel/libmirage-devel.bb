@@ -16,6 +16,7 @@ RPM_HASH = "543b70f1c064dd9c3fa43855ca1e876e470124a13ffe2476e26a7c1b858072e4303d
 RPROVIDES:${PN} += "libmirage-devel \
 libmirage-devel(aarch-64) \
 pkgconfig(libmirage)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libmirage11 \

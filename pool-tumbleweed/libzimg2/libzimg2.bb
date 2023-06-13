@@ -11,6 +11,7 @@ RPM_HASH = "c1946e7b3b314a73a30bd636994452fb7b80ad916b4abc27b65ae438ac3ae00125b5
 RPROVIDES:${PN} += "libzimg.so.2()(64bit) \
 libzimg2 \
 libzimg2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

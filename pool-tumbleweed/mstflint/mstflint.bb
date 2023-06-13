@@ -15,6 +15,7 @@ RPM_HASH = "8d930d3470dacd5a9baed6c5ab9e59394e37c3ee2dd6ccd8a8f47b6592b991855736
 
 RPROVIDES:${PN} += "mstflint \
 mstflint(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

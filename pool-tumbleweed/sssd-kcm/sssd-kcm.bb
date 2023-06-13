@@ -10,6 +10,7 @@ RPM_HASH = "c93790d244b9efb1bbc209cb339324669fcf5dfe227b6f310cba138c1e24dca22a7e
 
 RPROVIDES:${PN} += "sssd-kcm \
 sssd-kcm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

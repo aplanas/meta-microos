@@ -13,6 +13,7 @@ RPM_HASH = "a8d6ab37d11f4abed6119f3ba2da9cf965bae5a2c1e1ed3f68eb9c62da6500482038
 RPROVIDES:${PN} += "libbotan-2-19 \
 libbotan-2-19(aarch-64) \
 libbotan-2.so.19()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

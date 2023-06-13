@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tei_4) \
 tei_4"
+
 RDEPENDS:${PN} += "/bin/sh \
 /bin/touch \
 /usr/bin/edit-xml-catalog \

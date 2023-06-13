@@ -13,6 +13,7 @@ RPM_HASH = "40f250c946697d00d3e36ff566725d9a193ae10c89106d3295d17fca74e061a95dc0
 RPROVIDES:${PN} += "libaudaspace-c.so.1.4()(64bit) \
 libaudaspace-c1_4 \
 libaudaspace-c1_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

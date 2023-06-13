@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(python-ldap) \
 python39-ldap \
 python39-ldap(aarch-64) \
 python3dist(python-ldap)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

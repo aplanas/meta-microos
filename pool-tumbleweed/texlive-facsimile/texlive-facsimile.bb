@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(fac-de.cfg) \
 tex(fac-en.cfg) \
 tex(facsimile.cls) \
 texlive-facsimile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

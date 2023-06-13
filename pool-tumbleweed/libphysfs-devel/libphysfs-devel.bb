@@ -13,6 +13,7 @@ libphysfs-devel \
 libphysfs-devel(aarch-64) \
 physfs-devel \
 pkgconfig(physfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libphysfs1"
 

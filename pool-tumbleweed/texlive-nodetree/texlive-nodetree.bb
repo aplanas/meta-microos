@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(nodetree-embed.sty) \
 tex(nodetree.sty) \
 tex(nodetree.tex) \
 texlive-nodetree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

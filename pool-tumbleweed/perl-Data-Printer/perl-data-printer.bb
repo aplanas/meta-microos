@@ -55,6 +55,7 @@ perl(Data::Printer::Theme::Material) \
 perl(Data::Printer::Theme::Monokai) \
 perl(Data::Printer::Theme::Solarized) \
 perl-Data-Printer"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(version)"
 

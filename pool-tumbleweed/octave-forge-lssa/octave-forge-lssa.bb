@@ -12,6 +12,7 @@ RPM_HASH = "cce06b1e915dd3e182885b42cc77f3839ba15fac8e1a805ac2a1ca6719234ebc2517
 
 RPROVIDES:${PN} += "octave-forge-lssa \
 octave-forge-lssa(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

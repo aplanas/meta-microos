@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kded-lang \
 kded-lang-all"
+
 RDEPENDS:${PN} += "kded"
 
 inherit rpm

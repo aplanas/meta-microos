@@ -15,6 +15,7 @@ mate-control-center-devel(aarch-64) \
 pkgconfig(mate-default-applications) \
 pkgconfig(mate-keybindings) \
 pkgconfig(mate-window-settings-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmate-window-settings1 \
 pkgconfig(gtk+-3.0) \

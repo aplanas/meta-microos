@@ -9,6 +9,7 @@ RPM_HASH = "d55f3298f04f9b5e7d56585eb279f71819c4d838aabc569058bffc503e9129031686
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wesnoth-fslayout"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

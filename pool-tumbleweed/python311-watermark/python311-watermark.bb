@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(watermark) \
 python311-jupyter_watermark \
 python311-watermark \
 python3dist(watermark)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipython"
 

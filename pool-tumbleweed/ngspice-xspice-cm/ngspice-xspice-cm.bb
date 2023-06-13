@@ -11,6 +11,7 @@ RPM_HASH = "829eaa836c32eac7bcdab40821e63ff8e77f83a85ec0a63c9f483fcb294c08889128
 
 RPROVIDES:${PN} += "ngspice-xspice-cm \
 ngspice-xspice-cm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-data-tables) \
 python39-azure-data-tables \
 python3dist(azure-data-tables)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
 python(abi) \
 python39-azure-core \

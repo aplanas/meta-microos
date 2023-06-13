@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mla.sty) \
 texlive-mla-paper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

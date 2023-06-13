@@ -11,6 +11,7 @@ RPM_HASH = "ff51005e353f7a21b8a5c99df31cbe11ec1da3ce0de4131f4eb0986de0defb089127
 
 RPROVIDES:${PN} += "python39-libscca \
 python39-libscca(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

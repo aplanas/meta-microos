@@ -25,6 +25,7 @@ pkgconfig(gtk+-x11-2.0) \
 rpm_macro(gtk2_immodule_post) \
 rpm_macro(gtk2_immodule_postun) \
 rpm_macro(gtk2_immodule_requires)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

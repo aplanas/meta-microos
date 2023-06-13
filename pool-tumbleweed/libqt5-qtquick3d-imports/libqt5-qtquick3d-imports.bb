@@ -17,6 +17,7 @@ qt5qmlimport(QtQuick3D.1) \
 qt5qmlimport(QtQuick3D.Effects.1) \
 qt5qmlimport(QtQuick3D.Helpers.1) \
 qt5qmlimport(QtQuick3D.Materials.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

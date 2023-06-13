@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(xarray) \
 python39-xarray \
 python39-xray \
 python3dist(xarray)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-packaging \

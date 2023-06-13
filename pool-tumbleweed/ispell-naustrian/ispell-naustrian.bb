@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "ispell-naustrian \
 ispell-naustrian(aarch-64) \
 ispell_dictionary \
 locale(ispell:de_AT)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

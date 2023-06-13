@@ -14,6 +14,7 @@ RPM_HASH = "fd822717d41b47d0b6fdaea4e9c4256814751539c16d28cceceb5755717a2772336a
 RPROVIDES:${PN} += "typelib(CoglPango) \
 typelib-1_0-CoglPango-2_0 \
 typelib-1_0-CoglPango-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcogl-pango.so.20()(64bit) \
 libcogl.so.20()(64bit) \
 typelib(Cogl) \

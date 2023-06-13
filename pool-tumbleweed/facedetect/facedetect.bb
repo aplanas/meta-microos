@@ -14,6 +14,7 @@ RPM_HASH = "0bf9c5a6b50394162c259505434a0e9e514b713f95cf5cdbf3c5c5450e8974a3a6e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "facedetect"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-numpy \
 python3-opencv"

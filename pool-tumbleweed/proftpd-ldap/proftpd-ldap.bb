@@ -9,6 +9,7 @@ RPM_HASH = "fe4a58210f98406b4224b5d1eb45fbdae62c1a1dfac54c6e0191d012dc05c0ac6e26
 
 RPROVIDES:${PN} += "proftpd-ldap \
 proftpd-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

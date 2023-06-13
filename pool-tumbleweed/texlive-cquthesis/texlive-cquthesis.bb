@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(cquthesis.cfg) \
 tex(cquthesis.cls) \
 tex(cquthesis.sty) \
 texlive-cquthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

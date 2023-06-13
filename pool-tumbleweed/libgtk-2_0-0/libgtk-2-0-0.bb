@@ -21,6 +21,7 @@ libpixmap.so()(64bit) \
 libprintbackend-cups.so()(64bit) \
 libprintbackend-file.so()(64bit) \
 libprintbackend-lpr.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 gtk2-tools \

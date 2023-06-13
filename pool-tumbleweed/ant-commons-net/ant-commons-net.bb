@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ant-commons-net \
 config(ant-commons-net) \
 mvn(org.apache.ant:ant-commons-net) \
 mvn(org.apache.ant:ant-commons-net:pom:)"
+
 RDEPENDS:${PN} += "ant \
 apache-commons-net \
 java-headless \

@@ -9,6 +9,7 @@ RPM_HASH = "fee2d63a523d216716a1ff9a343fb80115bb3fe0a7af108f3b4ed9d0f7ea2f425fbf
 
 RPROVIDES:${PN} += "lua51-lua-ev \
 lua51-lua-ev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

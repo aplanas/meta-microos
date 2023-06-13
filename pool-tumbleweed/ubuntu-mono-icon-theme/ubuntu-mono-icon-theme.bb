@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-mono \
 ubuntu-mono-icon-theme"
+
 RDEPENDS:${PN} += "adwaita-icon-theme \
 hicolor-icon-theme \
 humanity-icon-theme"

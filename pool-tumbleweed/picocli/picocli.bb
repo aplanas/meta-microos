@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "mvn(info.picocli:picocli) \
 mvn(info.picocli:picocli:pom:) \
 osgi(picocli) \
 picocli"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

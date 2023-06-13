@@ -10,6 +10,7 @@ RPM_HASH = "473e3551cacffc76d5ff638e1510c2202f1bab4aa11f5a1c214d3e8aafe9b492721b
 
 RPROVIDES:${PN} += "u-boot-pinephone-doc \
 u-boot-pinephone-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyperf \
 python3.10dist(pyperf) \
 python310-pyperf \
 python3dist(pyperf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

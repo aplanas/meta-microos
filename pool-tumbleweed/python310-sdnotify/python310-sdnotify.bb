@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sdnotify \
 python3.10dist(sdnotify) \
 python310-sdnotify \
 python3dist(sdnotify)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "b47e511030239fb73c683e9196f825f87a97631830c710876b761cd4367caf5449b0
 
 RPROVIDES:${PN} += "gource \
 gource(aarch-64)"
+
 RDEPENDS:${PN} += "freefont \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

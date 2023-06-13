@@ -23,6 +23,7 @@ tex(hgbmath.sty) \
 tex(hgbreport.cls) \
 tex(hgbthesis.cls) \
 texlive-hagenberg-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

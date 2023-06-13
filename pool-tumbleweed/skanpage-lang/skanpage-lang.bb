@@ -43,6 +43,7 @@ locale(skanpage:zh_CN) \
 locale(skanpage:zh_TW) \
 skanpage-lang \
 skanpage-lang-all"
+
 RDEPENDS:${PN} += "skanpage"
 
 inherit rpm

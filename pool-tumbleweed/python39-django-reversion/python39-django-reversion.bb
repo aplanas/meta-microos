@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-reversion) \
 python39-django-reversion \
 python3dist(django-reversion)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

@@ -94,6 +94,7 @@ locale(kdesignerplugin:wa) \
 locale(kdesignerplugin:zh_CN) \
 locale(kdesignerplugin:zh_HK) \
 locale(kdesignerplugin:zh_TW)"
+
 RDEPENDS:${PN} += "kdesignerplugin"
 
 inherit rpm

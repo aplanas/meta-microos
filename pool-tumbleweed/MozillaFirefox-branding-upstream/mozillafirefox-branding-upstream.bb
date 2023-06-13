@@ -10,6 +10,7 @@ RPM_HASH = "832c8a4ee9c3d329508007c386a4706c5ae220be18960be32dc76002211a0bfd69c1
 RPROVIDES:${PN} += "MozillaFirefox-branding \
 MozillaFirefox-branding-upstream \
 MozillaFirefox-branding-upstream(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

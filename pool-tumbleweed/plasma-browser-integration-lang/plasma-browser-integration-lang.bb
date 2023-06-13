@@ -51,6 +51,7 @@ locale(plasma-browser-integration:zh_CN) \
 locale(plasma-browser-integration:zh_TW) \
 plasma-browser-integration-lang \
 plasma-browser-integration-lang-all"
+
 RDEPENDS:${PN} += "plasma-browser-integration"
 
 inherit rpm

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-keyvault-secrets) \
 python39-azure-keyvault-secrets \
 python3dist(azure-keyvault-secrets)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.8) \
 python(abi) \
 python39-azure-common \

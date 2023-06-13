@@ -13,6 +13,7 @@ RPM_HASH = "e307478daf27a0cd0a9a143012afc5f795dc4255574a9e0277575cf942d3063af0c1
 RPROVIDES:${PN} += "typelib(GoVirt) \
 typelib-1_0-GoVirt-1_0 \
 typelib-1_0-GoVirt-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgovirt.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

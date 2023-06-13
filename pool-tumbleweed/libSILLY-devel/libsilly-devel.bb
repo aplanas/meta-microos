@@ -15,6 +15,7 @@ RPM_HASH = "219d7b192e597a18b922206c538e2b71ff1ab0fa7cb3ddb0804b2d7b1518135609fe
 RPROVIDES:${PN} += "libSILLY-devel \
 libSILLY-devel(aarch-64) \
 pkgconfig(SILLY)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSILLY1"
 

@@ -13,6 +13,7 @@ RPM_HASH = "75ad2b0de68bf8946e256d19c3f68a0280d2ef693f882f214b2dffd2998692afac05
 
 RPROVIDES:${PN} += "libscg-devel \
 libscg-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librscg1_0 \
 libscg1_0 \
 libscgcmd1_0 \

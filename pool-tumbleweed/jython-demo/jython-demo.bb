@@ -27,6 +27,7 @@ RPM_HASH = "8dc19baf17ad64829ad15a4ffd3f2b079ec21d5656fa1c385b2064bb6816b7934874
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jython-demo"
+
 RDEPENDS:${PN} += "jython"
 
 inherit rpm

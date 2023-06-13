@@ -10,6 +10,7 @@ RPM_HASH = "f6a221cd24dc54752c87e90aa672b552a875f3ca205acdefebf7f93a6a53f0001898
 
 RPROVIDES:${PN} += "linux-atm-devel \
 linux-atm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libatm1"
 
 inherit rpm

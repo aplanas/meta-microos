@@ -12,6 +12,7 @@ RPM_HASH = "1b4749bfebd246d60c6c7671bfdf3c013610e8422063551003cb94aca7266bfdce36
 RPROVIDES:${PN} += "libpmempool-devel \
 libpmempool-devel(aarch-64) \
 pkgconfig(libpmempool)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

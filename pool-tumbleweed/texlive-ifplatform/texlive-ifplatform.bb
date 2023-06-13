@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifplatform.sty) \
 texlive-ifplatform"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

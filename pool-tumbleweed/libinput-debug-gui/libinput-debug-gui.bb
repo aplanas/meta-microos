@@ -10,6 +10,7 @@ RPM_HASH = "ef7749ab4328f5d5f386637cbd0625a1142b457b17b75b6cb45a470e036bd52790f1
 
 RPROVIDES:${PN} += "libinput-debug-gui \
 libinput-debug-gui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

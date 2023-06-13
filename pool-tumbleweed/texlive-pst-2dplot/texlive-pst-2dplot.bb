@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-2dplot.sty) \
 texlive-pst-2dplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-mate-mate_basis \
 patterns-mate-mate_basis(aarch-64)"
+
 RDEPENDS:${PN} += "caja \
 dbus(org.freedesktop.Notifications) \
 lightdm \

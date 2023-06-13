@@ -32,6 +32,7 @@ perl(Verilog::Std) \
 perl(std) \
 perl-Verilog-Perl \
 perl-Verilog-Perl(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

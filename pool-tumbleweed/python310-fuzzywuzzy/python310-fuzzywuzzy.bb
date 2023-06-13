@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fuzzywuzzy \
 python3.10dist(fuzzywuzzy) \
 python310-fuzzywuzzy \
 python3dist(fuzzywuzzy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

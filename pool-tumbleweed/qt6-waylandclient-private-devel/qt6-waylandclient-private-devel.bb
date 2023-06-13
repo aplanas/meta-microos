@@ -10,6 +10,7 @@ RPM_HASH = "6528b18a5a4c92d2df2cff1a5720758e8ba09fc96322d6d9f74b7c0f0e905be80787
 
 RPROVIDES:${PN} += "qt6-waylandclient-private-devel \
 qt6-waylandclient-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WaylandClient)"
 
 inherit rpm

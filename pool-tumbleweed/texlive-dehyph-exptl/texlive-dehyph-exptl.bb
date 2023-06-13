@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(dehyphn-x-2023-03-06.tex) \
 tex(dehypht-x-2023-03-06.tex) \
 tex(dehyphts-x-2023-03-06.tex) \
 texlive-dehyph-exptl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

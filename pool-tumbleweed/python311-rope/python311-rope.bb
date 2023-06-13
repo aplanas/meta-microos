@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(rope) \
 python311-rope \
 python3dist(rope)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311 \
 python311-pytoolconfig-global"

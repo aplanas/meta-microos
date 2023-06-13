@@ -15,6 +15,7 @@ RPM_HASH = "2e7aceddbae3916ecda7156af3da01d5b43b6f23bf9b210f729eb4edca306eadc6c2
 RPROVIDES:${PN} += "libpsl.so.5()(64bit) \
 libpsl5 \
 libpsl5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

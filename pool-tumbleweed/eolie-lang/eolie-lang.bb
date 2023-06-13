@@ -37,6 +37,7 @@ locale(eolie:tr) \
 locale(eolie:uk) \
 locale(eolie:zh_Hans) \
 locale(eolie:zh_Hant)"
+
 RDEPENDS:${PN} += "eolie"
 
 inherit rpm

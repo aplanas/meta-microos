@@ -31,6 +31,7 @@ libwraster.so.6()(64bit) \
 libwraster.so.6(LIBWRASTER6)(64bit) \
 windowmanager \
 wmaker"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

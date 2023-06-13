@@ -9,6 +9,7 @@ RPM_HASH = "7fdacf1e33e395d26335df039a912032e228c7ea13967154db3d3146ddde38e65a8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-automaton-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

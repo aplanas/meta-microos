@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(unittest-mixins) \
 python39-unittest-mixins \
 python3dist(unittest-mixins)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

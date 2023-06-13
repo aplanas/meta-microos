@@ -13,6 +13,7 @@ RPM_HASH = "c21ae06685345494c4de71540cbebe4e5e2ba521ede5b8d4eb9fad974db602254c4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-unifont-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

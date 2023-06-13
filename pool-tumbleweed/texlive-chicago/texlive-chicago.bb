@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chicago.sty) \
 texlive-chicago"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

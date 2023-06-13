@@ -10,6 +10,7 @@ RPM_HASH = "d82e7307a0191cd2fb99730ad1fba13041bb48dd7a69f040f60a2b1abc3560ad15c0
 
 RPROVIDES:${PN} += "lua53-lua-ev-devel \
 lua53-lua-ev-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lua53-lua-ev"
 
 inherit rpm

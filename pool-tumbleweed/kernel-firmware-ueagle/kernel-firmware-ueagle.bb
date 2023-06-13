@@ -34,6 +34,7 @@ firmware(ueagle-atm/eagleII.fw) \
 firmware(ueagle-atm/eagleIII.fw) \
 firmware(ueagle-atm/eagleIV.fw) \
 kernel-firmware-ueagle"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -9,6 +9,7 @@ RPM_HASH = "56d696b56eac2fdb6896ca43c34ea966d7fa8fd670bb6467e96b60617f13372e94b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-canoniclayout-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

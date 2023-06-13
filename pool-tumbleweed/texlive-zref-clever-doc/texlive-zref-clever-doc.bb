@@ -9,6 +9,7 @@ RPM_HASH = "cbdd47e30c032c0448920a75f076dc44b00d72a9f4426f6a06bd87eb7a2fac1ef3f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zref-clever-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

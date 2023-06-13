@@ -9,6 +9,7 @@ RPM_HASH = "5317b34825cbac480c3dd506c2d4c1915e1b2db1e3fe919662dc5ed3a56c8184db8c
 
 RPROVIDES:${PN} += "akonadi-plugin-contacts \
 akonadi-plugin-contacts(aarch-64)"
+
 RDEPENDS:${PN} += "akonadi-contact \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

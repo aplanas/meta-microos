@@ -13,6 +13,7 @@ RPM_HASH = "6168351a31c24536f4e1e5db31a0784f36bdfbc8baa4e025c25ff5ffb01a75871b6a
 
 RPROVIDES:${PN} += "zutty \
 zutty(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

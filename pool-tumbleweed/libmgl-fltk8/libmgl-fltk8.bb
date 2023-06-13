@@ -12,6 +12,7 @@ RPM_HASH = "06389c682fb9882c0e65e09700f795e6b46e0e10a21ac9f66f3283e24c8a089a3851
 RPROVIDES:${PN} += "libmgl-fltk.so.8()(64bit) \
 libmgl-fltk8 \
 libmgl-fltk8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

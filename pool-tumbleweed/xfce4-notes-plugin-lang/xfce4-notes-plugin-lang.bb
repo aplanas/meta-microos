@@ -61,6 +61,7 @@ locale(xfce4-notes-plugin:zh_TW) \
 xfce4-notes-plugin-lang \
 xfce4-notes-plugin-lang-all \
 xfce4-panel-plugin-notes-lang"
+
 RDEPENDS:${PN} += "xfce4-notes-plugin"
 
 inherit rpm

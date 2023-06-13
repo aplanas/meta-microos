@@ -13,6 +13,7 @@ RPM_HASH = "90d55b9616f22345aba00deaade58ce6f96b1887fccb1582bae91c3357dc3b71a297
 RPROVIDES:${PN} += "liburiparser.so.1()(64bit) \
 liburiparser1 \
 liburiparser1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

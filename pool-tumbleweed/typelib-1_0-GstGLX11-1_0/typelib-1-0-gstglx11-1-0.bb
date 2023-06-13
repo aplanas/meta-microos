@@ -17,6 +17,7 @@ RPM_HASH = "e6aaa5c46c982c7e8f35c4576f12b678e110876d39c565124529f4b08a9717054f03
 RPROVIDES:${PN} += "typelib(GstGLX11) \
 typelib-1_0-GstGLX11-1_0 \
 typelib-1_0-GstGLX11-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstgl-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

@@ -13,6 +13,7 @@ RPM_HASH = "6b0a68421f8fbfa31819dbc19549bc91bb8b37d9010dec23b15c655fd6d0f242f7f6
 RPROVIDES:${PN} += "libcephfs.so.2()(64bit) \
 libcephfs2 \
 libcephfs2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

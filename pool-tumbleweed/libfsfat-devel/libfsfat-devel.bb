@@ -14,6 +14,7 @@ RPM_HASH = "738c7998c30067d89a01b5bc1f790341e2d9d331e4fa008e8c50dbf223fc2c65d103
 RPROVIDES:${PN} += "libfsfat-devel \
 libfsfat-devel(aarch-64) \
 pkgconfig(libfsfat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsfat1"

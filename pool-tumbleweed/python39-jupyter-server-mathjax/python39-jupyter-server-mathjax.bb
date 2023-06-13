@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jupyter-server-mathjax) \
 python39-jupyter-server-mathjax \
 python3dist(jupyter-server-mathjax)"
+
 RDEPENDS:${PN} += "jupyter-server-mathjax \
 python(abi) \
 python39-jupyter_server"

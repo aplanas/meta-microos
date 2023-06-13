@@ -15,6 +15,7 @@ RPM_HASH = "4f26da63970bb7a5d333a992b00597eee6a8025f09595905e3e1635c0a1fc5b235e5
 RPROVIDES:${PN} += "Vc-devel \
 Vc-devel(aarch-64) \
 cmake(Vc)"
+
 RDEPENDS:${PN} += "Vc-devel-static"
 
 inherit rpm

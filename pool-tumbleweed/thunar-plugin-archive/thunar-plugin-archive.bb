@@ -13,6 +13,7 @@ RPM_HASH = "da2da37d7358a570b4d6d40d9513447a543bdec882f658471bc8fedfab5cb4f2d331
 RPROVIDES:${PN} += "thunar-archive-plugin \
 thunar-plugin-archive \
 thunar-plugin-archive(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -82,6 +82,7 @@ locale(kgamma5:vi) \
 locale(kgamma5:zh_CN) \
 locale(kgamma5:zh_HK) \
 locale(kgamma5:zh_TW)"
+
 RDEPENDS:${PN} += "kgamma5"
 
 inherit rpm

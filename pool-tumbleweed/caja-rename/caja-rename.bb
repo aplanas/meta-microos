@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "caja-rename \
 python3.10dist(cajarename) \
 python3dist(cajarename)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 caja \
 python(abi) \

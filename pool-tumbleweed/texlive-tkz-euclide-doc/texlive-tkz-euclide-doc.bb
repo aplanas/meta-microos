@@ -9,6 +9,7 @@ RPM_HASH = "980905d5fa63aa682736e4a9d5e6df10d52c80defbaa3ee172b48c2d479b7db7a219
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkz-euclide-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "339ac0dcfe74a7817c3c34461f6b7f6ced24e36e5391445b03a66a0b80895af2cbaa
 RPROVIDES:${PN} += "config(gssproxy) \
 gssproxy \
 gssproxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "dfde0be84def54f7125d8d6f86d68278462e7aa44a4a8d4c041bf3d78bfb5ccb3709
 
 RPROVIDES:${PN} += "libprelude-devel-bindings \
 libprelude-devel-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "libprelude-devel \
 lua-devel \
 python3-devel \

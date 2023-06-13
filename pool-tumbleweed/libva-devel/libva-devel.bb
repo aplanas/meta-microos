@@ -19,6 +19,7 @@ pkgconfig(libva) \
 pkgconfig(libva-drm) \
 pkgconfig(libva-wayland) \
 pkgconfig(libva-x11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libva-drm2 \
 libva-wayland2 \

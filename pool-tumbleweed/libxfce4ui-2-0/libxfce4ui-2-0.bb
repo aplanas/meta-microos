@@ -11,6 +11,7 @@ RPM_HASH = "81ea9d8954898226f110e009b5fcb527429b0f79ae821ec76b2d4422dcffdc4ad7b6
 RPROVIDES:${PN} += "libxfce4ui-2-0 \
 libxfce4ui-2-0(aarch-64) \
 libxfce4ui-2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 exo-tools \
 ld-linux-aarch64.so.1()(64bit) \

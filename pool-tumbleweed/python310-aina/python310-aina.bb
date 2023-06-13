@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-aina \
 python3.10dist(aina) \
 python310-aina \
 python3dist(aina)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ RPM_HASH = "0c20c759fa3ef89ca91d85cba678cfba524a0b4a13d2a1a78d5ecab675a2b6ecea77
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yinit-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

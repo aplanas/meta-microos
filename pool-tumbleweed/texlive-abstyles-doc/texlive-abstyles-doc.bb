@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-abstyles-doc:de) \
 texlive-abstyles-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

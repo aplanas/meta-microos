@@ -13,6 +13,7 @@ RPM_HASH = "0d08500e545a36c8770ff7cb49aef0cfecc2124afbd1083f3f56727e3fa7e5c19f2d
 
 RPROVIDES:${PN} += "kernel-install-tools \
 kernel-install-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 mozilla-nss-tools \
 openssl \

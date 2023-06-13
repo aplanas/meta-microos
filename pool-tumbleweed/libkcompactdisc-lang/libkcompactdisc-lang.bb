@@ -72,6 +72,7 @@ locale(libkcompactdisc:uk) \
 locale(libkcompactdisc:wa) \
 locale(libkcompactdisc:zh_CN) \
 locale(libkcompactdisc:zh_TW)"
+
 RDEPENDS:${PN} += "libkcompactdisc"
 
 inherit rpm

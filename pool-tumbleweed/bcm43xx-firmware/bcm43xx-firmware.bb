@@ -42,6 +42,7 @@ firmware(brcm/brcmfmac4356-pcie.txt) \
 model-zero-2-w.bin) \
 model-zero-2-w.txt) \
 vega-s95-telos.txt)"
+
 RDEPENDS:${PN} += "kernel-firmware-brcm"
 
 inherit rpm

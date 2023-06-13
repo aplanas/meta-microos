@@ -13,6 +13,7 @@ RPM_HASH = "99dff7519e9d3a71c93578a3457813a90b42a7ee3d1a19a41bc37ecd0146540e71f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "srecord-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "4d71cf7b27c4610f52281d738c56364597e0312efca7548e7a182289a64f097349d5
 
 RPROVIDES:${PN} += "xbsql-devel \
 xbsql-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxbsql0"
 
 inherit rpm

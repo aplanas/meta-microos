@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-archetype-packaging \
 mvn(org.apache.maven.archetype:archetype-packaging) \
 mvn(org.apache.maven.archetype:archetype-packaging:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

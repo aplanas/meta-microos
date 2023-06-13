@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(addrset.sty) \
 tex(newlfm.cls) \
 tex(setdim.sty) \
 texlive-newlfm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

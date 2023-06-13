@@ -12,6 +12,7 @@ RPM_HASH = "407c28746b243a324a7a07a6ce3c985c5bc47741d9a73058013fe902365022847215
 RPROVIDES:${PN} += "libfec.so.3()(64bit) \
 libfec3 \
 libfec3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

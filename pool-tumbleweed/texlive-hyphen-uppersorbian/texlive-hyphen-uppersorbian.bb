@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(hyph-hsb.ec.tex) \
 tex(hyph-hsb.tex) \
 tex(loadhyph-hsb.tex) \
 texlive-hyphen-uppersorbian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

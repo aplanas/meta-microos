@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(ipdb) \
 python39-ipdb \
 python39-jupyter_ipdb \
 python3dist(ipdb)"
+
 RDEPENDS:${PN} += "(python39-ipython >= 7.16.3 if python39-base < 3.7) \
 (python39-ipython >= 7.31.1 if python39-base >= 3.7) \
 (python39-tomli if python39-base < 3.11) \

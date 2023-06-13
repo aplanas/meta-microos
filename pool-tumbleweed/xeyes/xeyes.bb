@@ -9,6 +9,7 @@ RPM_HASH = "f94ffa408c1f7d8a5bae9b2fd74bdbaeadbd26a867f8e4f859900b14f9ee7b57601d
 
 RPROVIDES:${PN} += "xeyes \
 xeyes(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \

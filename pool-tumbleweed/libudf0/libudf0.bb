@@ -11,6 +11,7 @@ RPM_HASH = "a76ed3f5437177e30e8267e5cd40cfa8946a2177ea79c8ffebb71cc1d1b384aa1b12
 RPROVIDES:${PN} += "libudf.so.0()(64bit) \
 libudf0 \
 libudf0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "e47b48922f6da81feb76f2fb852569104a5538eed7a4505631673997bb99d5cd5796
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-headers"
+
 RDEPENDS:${PN} += "mingw32-unistd-pthread-devel"
 
 inherit rpm

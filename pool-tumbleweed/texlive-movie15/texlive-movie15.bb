@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(movie15.sty) \
 texlive-movie15"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

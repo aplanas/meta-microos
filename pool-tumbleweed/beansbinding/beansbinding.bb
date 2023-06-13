@@ -12,6 +12,7 @@ RPM_HASH = "f7160c39445aace0e7499b3928dc48b3cfc8a4c607ed34f31589d38567738f45a637
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beansbinding"
+
 RDEPENDS:${PN} += "java"
 
 inherit rpm

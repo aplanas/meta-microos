@@ -10,6 +10,7 @@ RPM_HASH = "ec538064bfbc41988745c6bc9e3b8dde4d24146010a2cfff89c083e409850d2caa79
 RPROVIDES:${PN} += "typelib(GstClapper) \
 typelib-1_0-GstClapper-1 \
 typelib-1_0-GstClapper-1(aarch-64)"
+
 RDEPENDS:${PN} += "libgstclapper-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

@@ -12,6 +12,7 @@ ghc-deepseq-devel(aarch-64) \
 ghc-deepseq-static \
 ghc-deepseq-static(aarch-64) \
 ghc-devel(deepseq-1.4.8.0)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-deepseq(aarch-64) \
 ghc-devel(array-0.5.4.0) \

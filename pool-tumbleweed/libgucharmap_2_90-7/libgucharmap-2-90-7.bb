@@ -12,6 +12,7 @@ RPM_HASH = "44b47ace6caeda21cf3e5ab804c578a3c6f810aedb3e26ef46f6180c4c321a311103
 RPROVIDES:${PN} += "libgucharmap_2_90-7 \
 libgucharmap_2_90-7(aarch-64) \
 libgucharmap_2_90.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

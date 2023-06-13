@@ -11,6 +11,7 @@ RPM_HASH = "76f2d691825b968aa777a8245de43da50a3f594a1f388be94eb4f6218de19f99d147
 RPROVIDES:${PN} += "libKPim5GAPICalendar.so.5()(64bit) \
 libKPim5GAPICalendar5 \
 libKPim5GAPICalendar5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

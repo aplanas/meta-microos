@@ -9,6 +9,7 @@ RPM_HASH = "9b728a81d0a6585d3c3b507672ba9e69be8fcfca09e82bf5847368ced8524eb085bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkz-berge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

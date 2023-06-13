@@ -33,6 +33,7 @@ font(:lang=zu) \
 font(arrowsadf) \
 font(bulletsadf) \
 texlive-adfsymbols-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "jackson-module-blackbird \
 mvn(com.fasterxml.jackson.module:jackson-module-blackbird) \
 mvn(com.fasterxml.jackson.module:jackson-module-blackbird:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-blackbird)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

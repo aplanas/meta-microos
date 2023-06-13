@@ -17,6 +17,7 @@ RPM_HASH = "674e7796b915fa3000ef71406094a565ec0869a329be4225bab22c7bd736c475e24d
 RPROVIDES:${PN} += "pkgconfig(libspdylay) \
 spdylay-devel \
 spdylay-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspdylay7 \
 pkgconfig(zlib)"

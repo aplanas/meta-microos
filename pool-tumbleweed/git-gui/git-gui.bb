@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "application() \
 application(git-gui.desktop) \
 git-gui \
 git-gui(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 git-core \
 tk"

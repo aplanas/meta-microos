@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-unixsocket) \
 python39-requests-unixsocket \
 python3dist(requests-unixsocket)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python39-requests"

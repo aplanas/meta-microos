@@ -9,6 +9,7 @@ RPM_HASH = "2e1af7b0cdbdec462130f4d15831537e10d0a8389ef007c53a23a916422779d207b7
 
 RPROVIDES:${PN} += "ptscotch-openmpi2-devel \
 ptscotch-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-fortran \
 libptscotch0-openmpi2 \
 openmpi2-devel \

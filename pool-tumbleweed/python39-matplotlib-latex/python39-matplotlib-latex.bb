@@ -10,6 +10,7 @@ RPM_HASH = "d223e1a81d18535f1d9c6450ba7cda069c729eed9a1867f19907e29175376020d80c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-matplotlib-latex"
+
 RDEPENDS:${PN} += "python39-matplotlib \
 tex(avant.sty) \
 tex(chancery.sty) \

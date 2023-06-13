@@ -13,6 +13,7 @@ RPM_HASH = "7512bb269788f0d8ad415a88de433b81c99434dd20f1b7da53c192727969d6b6f507
 
 RPROVIDES:${PN} += "xf86-video-vesa \
 xf86-video-vesa(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_HAS_DPMS_GET_CAPABILITIES \
 X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \

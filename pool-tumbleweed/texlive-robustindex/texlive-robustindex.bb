@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(robustglossary.sty) \
 tex(robustindex.sty) \
 texlive-robustindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -36,6 +36,7 @@ RPM_HASH = "e971db11801f6e5aa2a199d338c051fe5f569f67130bfdc33af49db571e25b98d2b9
 RPROVIDES:${PN} += "apache2-mod_authn_otp \
 apache2-mod_authn_otp(aarch-64) \
 otptool"
+
 RDEPENDS:${PN} += "apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

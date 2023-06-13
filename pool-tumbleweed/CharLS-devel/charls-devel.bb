@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "CharLS-devel \
 CharLS-devel(aarch-64) \
 cmake(charls) \
 pkgconfig(charls)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcharls2"
 

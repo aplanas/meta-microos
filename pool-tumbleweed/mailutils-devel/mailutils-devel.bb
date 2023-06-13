@@ -10,6 +10,7 @@ RPM_HASH = "92b39c8e035c12cd73c48a68de12dd016eb8bc82dc9008494324fb01e1e8d722fb69
 
 RPROVIDES:${PN} += "mailutils-devel \
 mailutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmailutils9 \
 mailutils"
 

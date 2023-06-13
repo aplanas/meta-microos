@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cryptography-vectors \
 python3.10dist(cryptography-vectors) \
 python310-cryptography-vectors \
 python3dist(cryptography-vectors)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi)"
 

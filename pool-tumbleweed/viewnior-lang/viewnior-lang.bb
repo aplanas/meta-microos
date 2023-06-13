@@ -43,6 +43,7 @@ locale(viewnior:zh_CN) \
 locale(viewnior:zh_TW) \
 viewnior-lang \
 viewnior-lang-all"
+
 RDEPENDS:${PN} += "viewnior"
 
 inherit rpm

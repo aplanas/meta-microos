@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-pytidylib \
 python3.10dist(pytidylib) \
 python310-pytidylib \
 python3dist(pytidylib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

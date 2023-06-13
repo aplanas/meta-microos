@@ -16,6 +16,7 @@ RPM_HASH = "954cc3ecf4a396c7b237e996e72469c482b41be45d866c8e10954b83382b8dce4f5a
 
 RPROVIDES:${PN} += "ptools \
 ptools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

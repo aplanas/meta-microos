@@ -14,6 +14,7 @@ RPM_HASH = "6c21dc93b0e537a1775b74da367ad6da630213723edb9f5cbc4753297c4cda0f99ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pink-pony-data"
+
 RDEPENDS:${PN} += "pink-pony"
 
 inherit rpm

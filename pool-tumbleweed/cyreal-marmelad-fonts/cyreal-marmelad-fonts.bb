@@ -20,6 +20,7 @@ RPM_HASH = "2b20136d7fcc7558c86a6f1fc4ff6f6b9d30a53f48f9075eadea3e4b919e97d212e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-marmelad-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

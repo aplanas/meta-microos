@@ -15,6 +15,7 @@ dolphin(aarch-64) \
 metainfo() \
 metainfo(org.kde.dolphin.appdata.xml) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 baloo5-kioslaves \
 dolphin-part \

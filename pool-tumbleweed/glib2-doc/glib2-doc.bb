@@ -12,6 +12,7 @@ RPM_HASH = "2847683dfdc7117a7b12dec176faf402ba1423c25fd4e82ff504bffd6ff493cb23c3
 RPROVIDES:${PN} += "glib2-devel:/usr/share/gtk-doc/html/gobject/index.html \
 glib2-doc \
 glib2-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

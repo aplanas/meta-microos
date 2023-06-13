@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tblib) \
 python39-tblib \
 python3dist(tblib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

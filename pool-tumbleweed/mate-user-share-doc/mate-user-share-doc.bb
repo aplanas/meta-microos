@@ -9,6 +9,7 @@ RPM_HASH = "b0a4f5351fd671c9485480d38b327cb715d672f2d027315589ae7df270f2c6d6e7cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-user-share-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

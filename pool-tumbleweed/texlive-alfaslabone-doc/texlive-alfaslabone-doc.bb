@@ -9,6 +9,7 @@ RPM_HASH = "0c204e9a841e055ec963692e3a470341039d96f9f07640a73fc6f513d7b573ffcbc9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alfaslabone-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

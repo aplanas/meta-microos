@@ -10,6 +10,7 @@ RPM_HASH = "ff25298a5517457defe10a53d2920bea128df2e4fe90b7c0660b572c6a44eafcd4d1
 RPROVIDES:${PN} += "ghc-mmorph-prof \
 ghc-mmorph-prof(aarch-64) \
 ghc-prof(mmorph-1.2.0-4Mt4o3YW9h63uaZAnM2RZC)"
+
 RDEPENDS:${PN} += "ghc-mmorph-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(mtl-2.2.2) \

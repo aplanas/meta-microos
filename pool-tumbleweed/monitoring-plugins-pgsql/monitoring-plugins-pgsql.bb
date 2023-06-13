@@ -11,6 +11,7 @@ RPM_HASH = "60d07b4ec6ca3218a4b94d7d149b4691b77ff335295fdad6512c7489d05c26694973
 RPROVIDES:${PN} += "monitoring-plugins-pgsql \
 monitoring-plugins-pgsql(aarch-64) \
 nagios-plugins-pgsql"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

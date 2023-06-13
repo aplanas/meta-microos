@@ -9,6 +9,7 @@ RPM_HASH = "b731907a2e54716162933bd43b5b67bbfa5d0fa660b374c5a383c1f362eee45d94e5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poetrytex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "9067abeacd08b6812beacd7b83146af98fa6a8b7a2b2bbe6ed92d1b75d9e328c674c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-orbitron-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

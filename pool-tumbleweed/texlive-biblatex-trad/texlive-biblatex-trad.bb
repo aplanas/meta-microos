@@ -20,6 +20,7 @@ tex(trad-standard.cbx) \
 tex(trad-unsrt.bbx) \
 tex(trad-unsrt.cbx) \
 texlive-biblatex-trad"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

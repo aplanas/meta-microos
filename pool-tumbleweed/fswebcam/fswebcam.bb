@@ -10,6 +10,7 @@ RPM_HASH = "4cf2daa523ddb2847e1393dc1a94f44712a3cd67893883b20b9863d59856bab25a98
 
 RPROVIDES:${PN} += "fswebcam \
 fswebcam(aarch-64)"
+
 RDEPENDS:${PN} += "gd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

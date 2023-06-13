@@ -9,6 +9,7 @@ RPM_HASH = "74cb1a30337e9e7a8e50a7c53ed4caaf5e0a7e299e363b6db3a64d3bd9b0ad8478ff
 
 RPROVIDES:${PN} += "ocaml-libvirt \
 ocaml-libvirt(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

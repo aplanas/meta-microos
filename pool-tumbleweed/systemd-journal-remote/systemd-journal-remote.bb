@@ -16,6 +16,7 @@ RPM_HASH = "2517778d20e3a0da9672213664f4be0d6c290f26a9b3412c1a0a311c12276e28c715
 RPROVIDES:${PN} += "config(systemd-journal-remote) \
 systemd-journal-remote \
 systemd-journal-remote(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

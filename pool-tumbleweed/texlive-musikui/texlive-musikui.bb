@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(musikui.sty) \
 texlive-musikui"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

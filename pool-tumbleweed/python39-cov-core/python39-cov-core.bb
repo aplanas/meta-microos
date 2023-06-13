@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cov-core) \
 python39-cov-core \
 python3dist(cov-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-coverage"
 

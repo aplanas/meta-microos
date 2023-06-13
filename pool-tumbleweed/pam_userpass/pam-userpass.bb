@@ -15,6 +15,7 @@ RPM_HASH = "4a0a68e00687da678396b172abd86764c105986508417b0026335789dd57b18fd423
 RPROVIDES:${PN} += "pam-modules:/usr/lib64/security/pam_userpass.so \
 pam_userpass \
 pam_userpass(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

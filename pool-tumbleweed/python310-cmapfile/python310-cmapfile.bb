@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cmapfile \
 python3.10dist(cmapfile) \
 python310-cmapfile \
 python3dist(cmapfile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -9,6 +9,7 @@ RPM_HASH = "8d033f55bbf4cfe04bc9255c59ba5362000055933b1408b6d2d42c44415aa8fc81b1
 
 RPROVIDES:${PN} += "texlive-patgen-bin \
 texlive-patgen-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "c7bb52d45e87eb0f80963013090b8bb1e18d84799b78e006121e083e01ec3722dad0
 
 RPROVIDES:${PN} += "mpeg2dec \
 mpeg2dec(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

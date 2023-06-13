@@ -91,6 +91,7 @@ locale(alacarte:vi) \
 locale(alacarte:zh_CN) \
 locale(alacarte:zh_HK) \
 locale(alacarte:zh_TW)"
+
 RDEPENDS:${PN} += "alacarte"
 
 inherit rpm

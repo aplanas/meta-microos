@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(nextcloud) \
 nextcloud"
+
 RDEPENDS:${PN} += "/bin/sh \
 cron \
 curl \

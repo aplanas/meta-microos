@@ -9,6 +9,7 @@ RPM_HASH = "79b85f44edf5c64b085d1e2c1edca5e5293b1d5329164c686c78177ea9342015307b
 
 RPROVIDES:${PN} += "qt6-speech-docs-html \
 qt6-speech-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

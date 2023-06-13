@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "adriconf \
 adriconf(aarch-64) \
 application() \
 application(adriconf.desktop)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

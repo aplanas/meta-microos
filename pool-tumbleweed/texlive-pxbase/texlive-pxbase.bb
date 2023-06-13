@@ -20,6 +20,7 @@ tex(pxbsjc1.def) \
 tex(pxjsfenc.def) \
 tex(upkcat.sty) \
 texlive-pxbase"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

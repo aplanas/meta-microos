@@ -11,6 +11,7 @@ RPM_HASH = "733929df1cdefbdc2ff9deddc8c1849c101e37c27db7b1ad3f21e29f8c28033e220b
 RPROVIDES:${PN} += "libtsan.so.2()(64bit) \
 libtsan2 \
 libtsan2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

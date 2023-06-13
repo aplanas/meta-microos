@@ -13,6 +13,7 @@ RPM_HASH = "3a25cdffe4ac56bff84b156d336945a276442f02bfa5dc471f57d5ece0761db8e314
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-cs-fixer"
+
 RDEPENDS:${PN} += "php8-iconv \
 php8-phar \
 php8-tokenizer"

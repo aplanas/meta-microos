@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(isag.desktop) \
 sysstat-isag \
 sysstat-isag(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot \
 sysstat \

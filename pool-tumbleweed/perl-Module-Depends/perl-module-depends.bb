@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(Module::Depends) \
 perl(Module::Depends::Intrusive) \
 perl(Module::Depends::Intrusive::Fake::Module::Build) \
 perl-Module-Depends"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Chained) \
 perl(Parse::CPAN::Meta)"

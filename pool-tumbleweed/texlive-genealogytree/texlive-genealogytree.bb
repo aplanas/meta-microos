@@ -40,6 +40,7 @@ tex(gtrlib.debug.code.tex) \
 tex(gtrlib.fanchart.code.tex) \
 tex(gtrlib.templates.code.tex) \
 texlive-genealogytree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

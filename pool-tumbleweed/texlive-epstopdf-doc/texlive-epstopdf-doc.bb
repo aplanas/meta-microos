@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(epstopdf.1) \
 man(repstopdf.1) \
 texlive-epstopdf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

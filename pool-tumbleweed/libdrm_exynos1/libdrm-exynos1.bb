@@ -14,6 +14,7 @@ RPM_HASH = "075a095484e22bc76e2c4278d9ef9905339e46b649b3b2aacfdc969c44d25dd7d572
 RPROVIDES:${PN} += "libdrm_exynos.so.1()(64bit) \
 libdrm_exynos1 \
 libdrm_exynos1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

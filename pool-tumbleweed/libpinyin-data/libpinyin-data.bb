@@ -12,6 +12,7 @@ RPM_HASH = "91d9b4e2074b21fd86db39d17844d78a16c91b31c22322b295494458e4077d2197ec
 
 RPROVIDES:${PN} += "libpinyin-data \
 libpinyin-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

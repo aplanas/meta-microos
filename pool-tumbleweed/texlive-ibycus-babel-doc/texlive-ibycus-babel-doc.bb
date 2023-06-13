@@ -9,6 +9,7 @@ RPM_HASH = "31bed5f4c90fd1ebf43ba09be0d656d4ead5034a3146380e424fab8db539729e0244
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibycus-babel-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

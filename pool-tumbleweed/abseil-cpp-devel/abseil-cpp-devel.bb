@@ -186,6 +186,7 @@ pkgconfig(absl_time_zone) \
 pkgconfig(absl_type_traits) \
 pkgconfig(absl_utility) \
 pkgconfig(absl_variant)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libabsl2301_0_0"
 

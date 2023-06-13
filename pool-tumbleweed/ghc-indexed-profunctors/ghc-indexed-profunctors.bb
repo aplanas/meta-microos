@@ -12,6 +12,7 @@ RPM_HASH = "33749c892a8d4f2da57b46b0eca3d9afd372701485ae5e7e0450a74f84d2633992dc
 RPROVIDES:${PN} += "ghc-indexed-profunctors \
 ghc-indexed-profunctors(aarch-64) \
 libHSindexed-profunctors-0.1.1-8slbuH4IUUg1HsCF6rf8GV-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

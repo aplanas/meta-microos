@@ -20,6 +20,7 @@ RPM_HASH = "8732b3dc35cfdad212de37cea0097280000342b5de0a02bbe678e34d59d8069254ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ketchup"
+
 RDEPENDS:${PN} += "/usr/bin/python"
 
 inherit rpm

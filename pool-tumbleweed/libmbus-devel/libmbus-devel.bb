@@ -12,6 +12,7 @@ RPM_HASH = "fc5843d272b6ac8574382aa1234935b525a3ec520703cfa05db1a9ea1f852aaa3a2d
 RPROVIDES:${PN} += "libmbus-devel \
 libmbus-devel(aarch-64) \
 pkgconfig(libmbus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmbus0"
 

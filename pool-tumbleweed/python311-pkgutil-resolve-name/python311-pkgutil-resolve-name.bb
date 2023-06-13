@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pkgutil-resolve-name) \
 python311-pkgutil-resolve-name \
 python3dist(pkgutil-resolve-name)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

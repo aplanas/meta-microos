@@ -14,6 +14,7 @@ RPM_HASH = "9bfbba74dc9cb802b29bffc31bb71184749a627bc405464937af4ea72605273eb13a
 RPROVIDES:${PN} += "libdmr.so.0.1()(64bit) \
 libdmr0_1 \
 libdmr0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

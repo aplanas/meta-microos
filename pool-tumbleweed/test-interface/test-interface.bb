@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-sbt:test-interface) \
 mvn(org.scala-sbt:test-interface:pom:) \
 test-interface"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

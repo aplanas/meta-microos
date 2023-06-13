@@ -10,6 +10,7 @@ RPM_HASH = "40d72bf2b8dd84653cbb5fa373da14c15aeb01dbd50c7d23bf998def91d1f48a79e3
 RPROVIDES:${PN} += "ghc-hslua-repl-prof \
 ghc-hslua-repl-prof(aarch-64) \
 ghc-prof(hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1)"
+
 RDEPENDS:${PN} += "ghc-hslua-repl-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

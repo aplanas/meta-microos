@@ -11,6 +11,7 @@ RPM_HASH = "922f112204e46e5e44ca908d57335d763c91987e1e5363be85ee7baaba26a32d52ed
 RPROVIDES:${PN} += "ghc-devel(integer-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu) \
 ghc-integer-logarithms-devel \
 ghc-integer-logarithms-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

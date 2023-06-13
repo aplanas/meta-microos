@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(keyring-pass) \
 python39-keyring-pass \
 python3dist(keyring-pass)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jaraco.classes \
 python39-keyring"

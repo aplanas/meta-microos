@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luarandom.sty) \
 texlive-luarandom"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

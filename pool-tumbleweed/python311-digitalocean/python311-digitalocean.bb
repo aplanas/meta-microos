@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-digitalocean) \
 python311-digitalocean \
 python3dist(python-digitalocean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonpickle \
 python311-pytest \

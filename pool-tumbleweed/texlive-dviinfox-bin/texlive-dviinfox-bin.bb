@@ -9,6 +9,7 @@ RPM_HASH = "1b1b04f8278ccb8b2fb662d2d07d618005128245fbd6af42e4dfc12debaeab77a21a
 
 RPROVIDES:${PN} += "texlive-dviinfox-bin \
 texlive-dviinfox-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-dviinfox"
 
 inherit rpm

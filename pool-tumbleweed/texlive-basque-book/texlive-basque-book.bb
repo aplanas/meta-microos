@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(basque-book.cls) \
 texlive-basque-book"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

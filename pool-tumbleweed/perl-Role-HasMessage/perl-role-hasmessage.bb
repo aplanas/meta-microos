@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Role::HasMessage) \
 perl(Role::HasMessage::Errf) \
 perl-Role-HasMessage"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose::Role) \
 perl(MooseX::Role::Parameterized) \

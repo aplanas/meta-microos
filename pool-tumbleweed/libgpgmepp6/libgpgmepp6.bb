@@ -15,6 +15,7 @@ RPM_HASH = "1e65fc5302815e096265ccc19423f6d1bf994f40e008507657a9ce9c2efa456626e8
 RPROVIDES:${PN} += "libgpgmepp.so.6()(64bit) \
 libgpgmepp6 \
 libgpgmepp6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gpg2 \
 ld-linux-aarch64.so.1()(64bit) \

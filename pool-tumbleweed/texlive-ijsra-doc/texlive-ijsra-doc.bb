@@ -9,6 +9,7 @@ RPM_HASH = "48239fa5884a07ea1e370fa776c6f62ba0abc8c4e61fb0b8d0a3e1b727b67555d475
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ijsra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

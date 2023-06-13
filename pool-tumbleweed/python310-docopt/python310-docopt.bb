@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-docopt \
 python3.10dist(docopt) \
 python310-docopt \
 python3dist(docopt)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

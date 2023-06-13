@@ -12,6 +12,7 @@ RPM_HASH = "e4d2d4d678894095344901f83c5f0836f643e80c06fe618d42ed9f64a18e498c4a07
 
 RPROVIDES:${PN} += "lasem \
 lasem(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(poppler-data) \
 poppler-data-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 poppler-data"
 

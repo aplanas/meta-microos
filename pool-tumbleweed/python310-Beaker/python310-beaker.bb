@@ -40,6 +40,7 @@ RPROVIDES:${PN} += "python3-Beaker \
 python3.10dist(beaker) \
 python310-Beaker \
 python3dist(beaker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dbm \
 python310-pylibmc \

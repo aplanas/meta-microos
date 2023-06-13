@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-azure-keyvault-secrets \
 python3.10dist(azure-keyvault-secrets) \
 python310-azure-keyvault-secrets \
 python3dist(azure-keyvault-secrets)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

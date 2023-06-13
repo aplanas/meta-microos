@@ -20,6 +20,7 @@ RPM_HASH = "8d99345a18d299b25662ba191555d5d5eba6a84a109cc795112c368540cd396fd6e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-cup-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

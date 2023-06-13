@@ -20,6 +20,7 @@ RPM_HASH = "6c5e280a76735beafd10242049171a5139b3071918acc48a482a954d23fd295c9061
 RPROVIDES:${PN} += "ghc-xml-types \
 ghc-xml-types(aarch-64) \
 libHSxml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

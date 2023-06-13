@@ -9,6 +9,7 @@ RPM_HASH = "fcf166b24ae5c722a0cbfbff8908ba8619e86e616d992f2c3f68bfed864da4bd3354
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-piano-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

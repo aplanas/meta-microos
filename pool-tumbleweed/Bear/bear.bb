@@ -14,6 +14,7 @@ RPM_HASH = "6ded759b9cdb05a31d4c84dd61c706c50a7d4d4a5acb2aca2d8c9e8f8729ce9e0cf8
 RPROVIDES:${PN} += "Bear \
 Bear(aarch-64) \
 libexec.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_synchronization.so.2206.0.0()(64bit) \

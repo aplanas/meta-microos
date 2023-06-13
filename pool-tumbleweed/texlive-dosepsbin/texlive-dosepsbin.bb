@@ -18,6 +18,7 @@ RPM_HASH = "d951ce62cfa2b54c59918b71e487d27c242ad549745b9d34f78445f6df43686fc917
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dosepsbin"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

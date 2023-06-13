@@ -126,6 +126,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Ref::Util) \
 perl(Ref::Util::PP) \
 perl-Ref-Util"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Ref::Util::XS)"
 

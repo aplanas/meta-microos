@@ -12,6 +12,7 @@ RPM_HASH = "04231630da4c08d65d166c9c25e49a4a3201dd5226e76f5b64654f56b2186d2a079c
 
 RPROVIDES:${PN} += "sunpinyin-tools \
 sunpinyin-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/make \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

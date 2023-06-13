@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Contacts) \
 kcontacts-devel \
 kcontacts-devel(aarch-64) \
 kcontacts5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5Codecs) \
 cmake(KF5Config) \
 cmake(KF5CoreAddons) \

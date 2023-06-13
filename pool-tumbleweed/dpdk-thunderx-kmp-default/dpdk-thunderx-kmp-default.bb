@@ -12,6 +12,7 @@ dpdk-thunderx-kmp-default(aarch-64) \
 dpdk-thunderx-kmp-default-k6.3.4_1 \
 kmod(rte_kni.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

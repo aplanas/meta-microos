@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "php-pear(Net_IDNA2) \
 php-pear-Net_IDNA2 \
 php5-pear-Net_IDNA2 \
 php7-pear-Net_IDNA2"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

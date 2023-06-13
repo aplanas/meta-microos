@@ -39,6 +39,7 @@ libxdg-shell.so()(64bit) \
 qt5qmlimport(QtWayland.Client.TextureSharing.1) \
 qt5qmlimport(QtWayland.Compositor.1) \
 qt5qmlimport(QtWayland.Compositor.TextureSharingExtension.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

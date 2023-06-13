@@ -13,6 +13,7 @@ RPM_HASH = "9fdb0391345a874fea6538568afb39dd4fb3244a92d2c7624bb0ee366e0271ba0483
 RPROVIDES:${PN} += "config(tpm2-0-tss) \
 tpm2-0-tss \
 tpm2-0-tss(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 user(tss)"
 

@@ -12,6 +12,7 @@ application(colordkdeiccimporter.desktop) \
 colord-kde \
 colord-kde(aarch-64) \
 mimehandler(application/vnd.iccprofile)"
+
 RDEPENDS:${PN} += "colord \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

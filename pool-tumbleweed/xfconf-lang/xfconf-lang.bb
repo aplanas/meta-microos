@@ -63,6 +63,7 @@ locale(xfconf:zh_HK) \
 locale(xfconf:zh_TW) \
 xfconf-lang \
 xfconf-lang-all"
+
 RDEPENDS:${PN} += "libxfconf-0-3"
 
 inherit rpm

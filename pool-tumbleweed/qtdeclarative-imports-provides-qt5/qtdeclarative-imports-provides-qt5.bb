@@ -26,6 +26,7 @@ qt5qmlimport(QtQuick.Shapes.1) \
 qt5qmlimport(QtQuick.Window.2) \
 qtdeclarative-imports-provides-qt5 \
 qtdeclarative-imports-provides-qt5(aarch-64)"
+
 RDEPENDS:${PN} += "libQtQuick5"
 
 inherit rpm

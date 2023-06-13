@@ -103,6 +103,7 @@ locale(caja:wa) \
 locale(caja:zh_CN) \
 locale(caja:zh_HK) \
 locale(caja:zh_TW)"
+
 RDEPENDS:${PN} += "caja"
 
 inherit rpm

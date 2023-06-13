@@ -13,6 +13,7 @@ prometheus(sap_host_exporter) \
 prometheus-sap_host_exporter \
 prometheus-sap_host_exporter(aarch-64) \
 sap_host_exporter"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

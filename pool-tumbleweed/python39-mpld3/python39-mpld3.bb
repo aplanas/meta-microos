@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mpld3) \
 python39-mpld3 \
 python3dist(mpld3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-matplotlib"

@@ -9,6 +9,7 @@ RPM_HASH = "fc0a457bd54fd2e4753f13592afe26214a96b755fc349f87835d0e94a7fd68e258f7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sectionbreak-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

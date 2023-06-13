@@ -13,6 +13,7 @@ RPM_HASH = "4e3630598220af6d2c2f71bde4efe34270e618eadf4328d848f749b9b88edee609fb
 
 RPROVIDES:${PN} += "libpresage-devel \
 libpresage-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpresage1"
 
 inherit rpm

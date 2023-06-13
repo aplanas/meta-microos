@@ -13,6 +13,7 @@ RPM_HASH = "34af0160cf930962f3ab1c2ae45d7fe96e11da3881a55dc8a867be4570e6b87fa416
 
 RPROVIDES:${PN} += "dssi \
 dssi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

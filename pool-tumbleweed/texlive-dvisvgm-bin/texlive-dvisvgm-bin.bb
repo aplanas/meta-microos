@@ -9,6 +9,7 @@ RPM_HASH = "657cce7740367daa37f605105cfbed55e9635ff8b0d0f399b230d222b1a83dec89eb
 
 RPROVIDES:${PN} += "texlive-dvisvgm-bin \
 texlive-dvisvgm-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

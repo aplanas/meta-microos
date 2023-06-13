@@ -16,6 +16,7 @@ fcitx \
 fcitx(aarch-64) \
 locale(ko;zh_CN;zh_SG) \
 mimehandler(application/x-fskin)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 fcitx-branding \

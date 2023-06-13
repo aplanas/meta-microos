@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cp210x-program \
 python3.10dist(cp210x-program) \
 python3dist(cp210x-program)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-pyusb"

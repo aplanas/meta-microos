@@ -17,6 +17,7 @@ liblibcodelite.so()(64bit) \
 libplugin.so()(64bit) \
 libwxshapeframework.so()(64bit) \
 libwxsqlite3.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/node \
 /usr/bin/python3 \

@@ -14,6 +14,7 @@ mvn(ml.dmlc:xgboost4j) \
 mvn(ml.dmlc:xgboost4j:pom:) \
 xgboost \
 xgboost(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.esotericsoftware.kryo:kryo) \

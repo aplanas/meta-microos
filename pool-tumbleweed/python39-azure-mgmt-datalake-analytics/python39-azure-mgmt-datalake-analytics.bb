@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-datalake-analytics) \
 python39-azure-mgmt-datalake-analytics \
 python3dist(azure-mgmt-datalake-analytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-datalake-nspkg \

@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(qyxf-book.cls) \
 texlive-qyxf-book"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

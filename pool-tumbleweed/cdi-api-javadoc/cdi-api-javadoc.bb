@@ -9,6 +9,7 @@ RPM_HASH = "fb4e011ebe5a2fd227665614fc3d8a7dc9ff8e31e6a4378585a5a5b1fd1802a89ffe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cdi-api-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

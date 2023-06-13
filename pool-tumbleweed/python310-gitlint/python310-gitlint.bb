@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-gitlint \
 python3.10dist(gitlint-core) \
 python310-gitlint \
 python3dist(gitlint-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

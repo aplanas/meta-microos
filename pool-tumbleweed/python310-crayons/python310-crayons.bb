@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-crayons \
 python3.10dist(crayons) \
 python310-crayons \
 python3dist(crayons)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-colorama"
 

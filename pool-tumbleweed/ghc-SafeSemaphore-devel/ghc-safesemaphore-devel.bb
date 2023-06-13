@@ -10,6 +10,7 @@ RPM_HASH = "131e012300b327292fe56babeb3b1d3814193a84195b4ac50b039ec5965aa551aeb4
 RPROVIDES:${PN} += "ghc-SafeSemaphore-devel \
 ghc-SafeSemaphore-devel(aarch-64) \
 ghc-devel(SafeSemaphore-0.10.1-4RgR0Mf1NXcDYTDfcuJnia)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-SafeSemaphore \
 ghc-compiler \

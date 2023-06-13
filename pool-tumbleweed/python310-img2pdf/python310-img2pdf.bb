@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-img2pdf \
 python3.10dist(img2pdf) \
 python310-img2pdf \
 python3dist(img2pdf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

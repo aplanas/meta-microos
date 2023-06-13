@@ -10,6 +10,7 @@ RPM_HASH = "ab1f7c2d00bb8aa5005927eef50429a550f9ffe6f3f3381395786fc578d5ed85d22e
 RPROVIDES:${PN} += "kubernetes-proxy-provider \
 kubernetes1.25-proxy \
 kubernetes1.25-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "conntrack-tools \
 ebtables \
 ipset \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libsecret-devel \
 libsecret-devel(aarch-64) \
 pkgconfig(libsecret-1) \
 pkgconfig(libsecret-unstable)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsecret-1-0 \
 pkgconfig(gio-2.0) \

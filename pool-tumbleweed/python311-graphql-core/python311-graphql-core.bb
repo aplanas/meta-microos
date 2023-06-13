@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(graphql-core) \
 python311-graphql-core \
 python3dist(graphql-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

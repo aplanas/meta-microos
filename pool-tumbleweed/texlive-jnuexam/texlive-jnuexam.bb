@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jnuexam.cls) \
 texlive-jnuexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

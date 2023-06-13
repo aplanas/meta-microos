@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tinyrecord \
 python3.10dist(tinyrecord) \
 python310-tinyrecord \
 python3dist(tinyrecord)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tinydb"
 

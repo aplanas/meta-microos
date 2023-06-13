@@ -10,6 +10,7 @@ RPM_HASH = "caf229e6d92ea840d45131da1b68f0a8c517a348ebcc2bf643733035fa0dfa7111b3
 RPROVIDES:${PN} += "libqxtglobalshortcut.so.0()(64bit) \
 libqxtglobalshortcut0 \
 libqxtglobalshortcut0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

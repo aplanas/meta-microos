@@ -9,6 +9,7 @@ RPM_HASH = "520cb15d5838f4bac205297c497e91ee44d77532a67fb3abedd5ed97a85dd59dc1da
 
 RPROVIDES:${PN} += "python311-editdistance-devel \
 python311-editdistance-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-base \
 python311-editdistance"
 

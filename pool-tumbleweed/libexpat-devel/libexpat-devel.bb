@@ -15,6 +15,7 @@ RPM_HASH = "10f43af2388b7f4876b13ff9f7e2b9e8368cf0a735d1313089d2d232bd9df7eaa16c
 RPROVIDES:${PN} += "libexpat-devel \
 libexpat-devel(aarch-64) \
 pkgconfig(expat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libexpat1"

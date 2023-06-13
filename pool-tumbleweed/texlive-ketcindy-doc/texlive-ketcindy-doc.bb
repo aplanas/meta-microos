@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-ketcindy-doc:ja) \
 texlive-ketcindy-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

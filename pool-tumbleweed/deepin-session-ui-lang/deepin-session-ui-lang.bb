@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-session-ui-lang \
 deepin-session-ui-lang-all"
+
 RDEPENDS:${PN} += "deepin-session-ui"
 
 inherit rpm

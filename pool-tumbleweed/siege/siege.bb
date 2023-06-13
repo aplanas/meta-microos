@@ -17,6 +17,7 @@ RPM_HASH = "78ba701f78a09fe46be5cc26dfc81152b3a152148d8d14ff2db65408a98b323af4b5
 RPROVIDES:${PN} += "config(siege) \
 siege \
 siege(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

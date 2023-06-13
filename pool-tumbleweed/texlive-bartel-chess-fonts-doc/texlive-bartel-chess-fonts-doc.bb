@@ -9,6 +9,7 @@ RPM_HASH = "623510d8c6461f8e174837aa2be29049517baddb73e7918ce3e8d79dc005599ee074
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bartel-chess-fonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

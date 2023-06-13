@@ -18,6 +18,7 @@ RPM_HASH = "a9d76a7d19166b3d5aa4c4e9bc4795d2771053f428cd134c0e0f233b785bff6e01ce
 RPROVIDES:${PN} += "postgresql-llvmjit-implementation \
 postgresql15-llvmjit \
 postgresql15-llvmjit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.15()(64bit) \

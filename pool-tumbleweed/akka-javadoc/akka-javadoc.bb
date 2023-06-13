@@ -9,6 +9,7 @@ RPM_HASH = "9b1e07d4dc75e9e5ee7c118565c1b412417112b058041c573797e8c58eb5d7a24662
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akka-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-cantonese \
 rime-schema-jyutping"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

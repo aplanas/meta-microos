@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(iidef.sty) \
 texlive-thucoursework"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

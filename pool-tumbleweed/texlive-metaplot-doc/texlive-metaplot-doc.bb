@@ -9,6 +9,7 @@ RPM_HASH = "aca08eb853cf5249a80f73feb3f5e698be3bf6e9ac015ec7e03aa394082e1d1a0db1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

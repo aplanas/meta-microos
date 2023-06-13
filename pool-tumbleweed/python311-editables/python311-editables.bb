@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(editables) \
 python311-editables \
 python3dist(editables)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

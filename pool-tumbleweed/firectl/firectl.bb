@@ -9,6 +9,7 @@ RPM_HASH = "1098a9157b96286433a0e92af31b78cf7ab221b97c5a5fb2eb57f1802ec55567a017
 
 RPROVIDES:${PN} += "firectl \
 firectl(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

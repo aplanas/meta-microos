@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jakarta-activation \
 mvn(jakarta.activation:jakarta.activation-api) \
 mvn(jakarta.activation:jakarta.activation-api:pom:) \
 osgi(jakarta.activation-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

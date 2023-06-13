@@ -19,6 +19,7 @@ libfaketimeMT.so.1(GLIBC_2.2)(64bit) \
 libfaketimeMT.so.1(GLIBC_2.2.5)(64bit) \
 libfaketimeMT.so.1(GLIBC_2.3.2)(64bit) \
 libfaketimeMT.so.1(GLIBC_2.3.3)(64bit)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit)"

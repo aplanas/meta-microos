@@ -20,6 +20,7 @@ RPM_HASH = "08f6f3238c212c744193d8fc88cde838f91a2b72de76c0bf133bcc8674e2b77a1cfb
 
 RPROVIDES:${PN} += "openmpi5-docs \
 openmpi5-docs(aarch-64)"
+
 RDEPENDS:${PN} += "openmpi5"
 
 inherit rpm

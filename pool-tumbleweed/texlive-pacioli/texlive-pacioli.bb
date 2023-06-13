@@ -18,6 +18,7 @@ tex(ot1cpc.fd) \
 tex(pacioli.sty) \
 tex(t1cpc.fd) \
 texlive-pacioli"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

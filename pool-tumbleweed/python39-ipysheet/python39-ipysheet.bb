@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipysheet) \
 python39-ipysheet \
 python3dist(ipysheet)"
+
 RDEPENDS:${PN} += "(python39-ipywidgets >= 7.5.0 with python39-ipywidgets < 9) \
 jupyter-ipysheet \
 python(abi)"

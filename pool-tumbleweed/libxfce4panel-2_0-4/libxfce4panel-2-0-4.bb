@@ -10,6 +10,7 @@ RPM_HASH = "b0d583605bad6b5cc92eb693b32b68d91f3f5fccca3bf29052feb09cd65d5cc609ab
 RPROVIDES:${PN} += "libxfce4panel-2.0.so.4()(64bit) \
 libxfce4panel-2_0-4 \
 libxfce4panel-2_0-4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

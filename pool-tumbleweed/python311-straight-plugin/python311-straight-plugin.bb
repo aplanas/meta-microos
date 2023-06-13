@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(straight.plugin) \
 python311-straight-plugin \
 python3dist(straight.plugin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

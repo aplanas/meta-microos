@@ -11,6 +11,7 @@ RPM_HASH = "04f486d62e814451960aa76b0f7c3e6706a6ee06b1b981c6e96c32ef8a1506410d9e
 RPROVIDES:${PN} += "hypre_2_20_0-gnu-openmpi3-hpc-devel \
 hypre_2_20_0-gnu-openmpi3-hpc-devel(aarch-64) \
 pkgconfig(hypre)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \

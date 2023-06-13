@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-comprehensions \
 python3.10dist(flake8-comprehensions) \
 python310-flake8-comprehensions \
 python3dist(flake8-comprehensions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

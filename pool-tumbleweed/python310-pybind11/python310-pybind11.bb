@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pybind11 \
 python3.10dist(pybind11) \
 python310-pybind11 \
 python3dist(pybind11)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

@@ -11,6 +11,7 @@ RPM_HASH = "55f578f94f4115dcb3d1eb2b3845c8972308fd15e491ef4cb8c4edada6c83f047454
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papi-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 papi_7_0_0-hpc"
 

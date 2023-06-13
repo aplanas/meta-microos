@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libhcrypto.so.4()(64bit) \
 libhcrypto.so.4(HEIMDAL_CRYPTO_1.0)(64bit) \
 libhcrypto4 \
 libhcrypto4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

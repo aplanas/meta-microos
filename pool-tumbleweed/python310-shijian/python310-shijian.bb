@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-shijian \
 python3.10dist(shijian) \
 python310-shijian \
 python3dist(shijian)"
+
 RDEPENDS:${PN} += "python310-matplotlib \
 python310-numpy \
 python310-pandas \

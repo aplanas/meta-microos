@@ -10,6 +10,7 @@ RPM_HASH = "a1f255a30fc6c81e420f663677ff479151d6659692668b4acb64d4c2b10c4295c16a
 RPROVIDES:${PN} += "ghc-memory-prof \
 ghc-memory-prof(aarch-64) \
 ghc-prof(memory-0.18.0-2DG6nqjfLMK4MSR77XYQqL)"
+
 RDEPENDS:${PN} += "ghc-memory-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(basement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S) \

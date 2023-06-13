@@ -21,6 +21,7 @@ RPM_HASH = "4cf4eb38bc0547a3b1253f794ad4fd2ee29df5389bb8e7827b768eb597eb8b772f38
 
 RPROVIDES:${PN} += "hsetroot \
 hsetroot(aarch-64)"
+
 RDEPENDS:${PN} += "imlib2-filters \
 imlib2-loaders \
 libImlib2.so.1()(64bit) \

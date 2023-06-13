@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tablib) \
 python39-tablib \
 python3dist(tablib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-MarkupPy \
 python39-PyYAML \

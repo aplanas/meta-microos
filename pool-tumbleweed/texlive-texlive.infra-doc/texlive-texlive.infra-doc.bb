@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(mktexlsr.1) \
 man(tlmgr.1) \
 texlive-texlive.infra-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

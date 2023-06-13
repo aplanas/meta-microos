@@ -9,6 +9,7 @@ RPM_HASH = "7011b5aa14b0d8eacf015747d565483174f45e2ba824738c025098fe471b32bc8985
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flameshot-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 flameshot"
 

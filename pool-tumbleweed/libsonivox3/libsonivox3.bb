@@ -18,6 +18,7 @@ RPM_HASH = "5732cf1e92d416c494909b56fc4ecc23835309beb2ab5a79265db063642445964af2
 RPROVIDES:${PN} += "libsonivox.so.3()(64bit) \
 libsonivox3 \
 libsonivox3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

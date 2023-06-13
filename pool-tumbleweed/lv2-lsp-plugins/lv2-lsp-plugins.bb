@@ -15,6 +15,7 @@ RPM_HASH = "6c707ffffaba4773603323dcef336b3e767d46c0ce79437d5fc152c3005ddfc6bf9e
 
 RPROVIDES:${PN} += "lv2-lsp-plugins \
 lv2-lsp-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "957991fb964643aae333d5342424c158f3e1484a35d95abc1f213e435c8e1e83c5b0
 RPROVIDES:${PN} += "ghc-commonmark-pandoc-devel \
 ghc-commonmark-pandoc-devel(aarch-64) \
 ghc-devel(commonmark-pandoc-0.2.1.3-FiR1R9G72Pe54eJfxxlumA)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-commonmark-pandoc \
 ghc-compiler \

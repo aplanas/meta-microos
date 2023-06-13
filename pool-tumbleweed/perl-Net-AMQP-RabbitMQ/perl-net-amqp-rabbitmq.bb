@@ -16,6 +16,7 @@ RPM_HASH = "f11aae97f6154e101e097acb06e76918998c9b0b8e41fd02241ae6f90e309304d709
 RPROVIDES:${PN} += "perl(Net::AMQP::RabbitMQ) \
 perl-Net-AMQP-RabbitMQ \
 perl-Net-AMQP-RabbitMQ(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

@@ -19,6 +19,7 @@ mimehandler(text/x-php) \
 mimehandler(text/x-shellscript) \
 notepadqq \
 notepadqq(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/node \

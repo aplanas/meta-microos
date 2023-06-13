@@ -16,6 +16,7 @@ RPM_HASH = "f43f05fe22a37d7d646efe07727947e06236aadfcfc580e73efba0a68bc154a231f7
 RPROVIDES:${PN} += "libabigail-devel \
 libabigail-devel(aarch-64) \
 pkgconfig(libabigail)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libabigail0 \
 pkgconfig(libxml-2.0)"

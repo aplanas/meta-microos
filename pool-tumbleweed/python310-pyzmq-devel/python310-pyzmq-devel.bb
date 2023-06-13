@@ -10,6 +10,7 @@ RPM_HASH = "b468de0e3d4b050724f6a9593e665829bf8b95e92208eadc0c102012d36c170d444f
 RPROVIDES:${PN} += "python3-pyzmq-devel \
 python310-pyzmq-devel \
 python310-pyzmq-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-devel \
 python310-pyzmq \

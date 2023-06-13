@@ -11,6 +11,7 @@ RPM_HASH = "2db06643c4549c167ece148511d63299b4d8660324a696b22339ae5ffe5976e1260f
 RPROVIDES:${PN} += "libwapcaplet-devel \
 libwapcaplet-devel(aarch-64) \
 pkgconfig(libwapcaplet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwapcaplet0"
 

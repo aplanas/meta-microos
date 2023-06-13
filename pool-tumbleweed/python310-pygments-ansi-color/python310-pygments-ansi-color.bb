@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pygments-ansi-color \
 python3.10dist(pygments-ansi-color) \
 python310-pygments-ansi-color \
 python3dist(pygments-ansi-color)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pygments \
 python310-setuptools"

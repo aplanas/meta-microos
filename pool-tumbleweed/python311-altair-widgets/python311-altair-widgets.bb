@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(altair-widgets) \
 python311-altair-widgets \
 python311-jupyter_altair-widgets \
 python3dist(altair-widgets)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-altair \
 python311-ipython \

@@ -12,6 +12,7 @@ RPM_HASH = "8f8b827e77f7f89e0e777eb0ac5f4b666148b66f4be84e9566a2aad7bb1966beb2ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mwic"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-pyenchant \
 python3-regex"

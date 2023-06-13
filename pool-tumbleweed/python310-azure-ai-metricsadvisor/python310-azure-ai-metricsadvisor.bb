@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-azure-ai-metricsadvisor \
 python3.10dist(azure-ai-metricsadvisor) \
 python310-azure-ai-metricsadvisor \
 python3dist(azure-ai-metricsadvisor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-ai-nspkg \
 python310-azure-core \

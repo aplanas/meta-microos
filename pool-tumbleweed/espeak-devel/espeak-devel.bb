@@ -15,6 +15,7 @@ RPM_HASH = "f7e848f28294d7e0b4809911479b592937041e2988d12929158c07e354288f5724f6
 
 RPROVIDES:${PN} += "espeak-devel \
 espeak-devel(aarch-64)"
+
 RDEPENDS:${PN} += "espeak"
 
 inherit rpm

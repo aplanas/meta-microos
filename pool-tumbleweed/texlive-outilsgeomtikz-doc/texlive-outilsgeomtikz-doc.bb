@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-outilsgeomtikz-doc:fr) \
 texlive-outilsgeomtikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

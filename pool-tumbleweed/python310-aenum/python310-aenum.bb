@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-aenum \
 python3.10dist(aenum) \
 python310-aenum \
 python3dist(aenum)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

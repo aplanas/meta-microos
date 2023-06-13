@@ -12,6 +12,7 @@ RPM_HASH = "5d29121b173e967928be39819ed68aefc9666b9d62b88ca28b72821801c7be6c8e4e
 
 RPROVIDES:${PN} += "libpff-tools \
 libpff-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

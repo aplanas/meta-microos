@@ -12,6 +12,7 @@ RPM_HASH = "0d8a5b22d527baa8be365b0484ff3090c52615d7ecbce4bde7e226386aa9513cb3aa
 RPROVIDES:${PN} += "libqmi-devel \
 libqmi-devel(aarch-64) \
 pkgconfig(qmi-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqmi-glib5 \
 pkgconfig(gio-2.0) \

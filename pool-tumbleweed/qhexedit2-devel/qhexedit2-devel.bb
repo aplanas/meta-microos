@@ -11,6 +11,7 @@ RPM_HASH = "48dfb318233055a79bc39eba5bb96a5371ebea66430223d1fbd7d6ba0f099aa15f35
 RPROVIDES:${PN} += "pkgconfig(qhexedit2) \
 qhexedit2-devel \
 qhexedit2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqhexedit4"
 

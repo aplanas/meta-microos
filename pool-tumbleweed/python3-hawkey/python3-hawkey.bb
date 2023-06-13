@@ -10,6 +10,7 @@ RPM_HASH = "ecc3e92ae47f49ebe739e355b4cd398bdde5103e86dac779de7a1768d0c0e77f801d
 
 RPROVIDES:${PN} += "python3-hawkey \
 python3-hawkey(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

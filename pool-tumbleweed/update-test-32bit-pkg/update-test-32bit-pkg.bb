@@ -11,6 +11,7 @@ RPM_HASH = "a3ccbc92732bbb79c194c2d67dd9a3bcaa1f88aa0176fbf7463deb7fdcc926d19623
 
 RPROVIDES:${PN} += "update-test-32bit-pkg \
 update-test-32bit-pkg(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

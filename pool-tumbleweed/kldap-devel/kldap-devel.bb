@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Ldap) \
 cmake(KPim5Ldap) \
 kldap-devel \
 kldap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cyrus-sasl-devel \
 libKPim5Ldap5 \

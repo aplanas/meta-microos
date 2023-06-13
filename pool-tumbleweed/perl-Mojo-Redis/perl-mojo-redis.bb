@@ -30,6 +30,7 @@ perl(Mojo::Redis::Cursor) \
 perl(Mojo::Redis::Database) \
 perl(Mojo::Redis::PubSub) \
 perl-Mojo-Redis"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mojolicious) \
 perl(Protocol::Redis::Faster)"

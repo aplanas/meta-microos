@@ -22,6 +22,7 @@ mvn(org.glassfish.hk2:maven-plugins:pom:) \
 mvn(org.glassfish.hk2:osgiversion-maven-plugin) \
 mvn(org.glassfish.hk2:osgiversion-maven-plugin:pom:) \
 osgi(org.glassfish.hk2.inhabitant-generator)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.inject:javax.inject) \

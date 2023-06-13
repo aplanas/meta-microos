@@ -10,6 +10,7 @@ RPM_HASH = "c1d21764bea3eab6fb121f918b4933c7437a91f290825686c479e3e14b3002949353
 RPROVIDES:${PN} += "aspell-csb \
 aspell-csb(aarch-64) \
 locale(aspell:csb)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

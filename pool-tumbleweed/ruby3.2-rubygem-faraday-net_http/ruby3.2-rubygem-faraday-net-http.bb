@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:faraday-net_http) \
 rubygem(ruby:3.2.0:faraday-net_http:3) \
 rubygem(ruby:3.2.0:faraday-net_http:3.0) \
 rubygem(ruby:3.2.0:faraday-net_http:3.0.2)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

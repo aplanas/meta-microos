@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(libSHERPA-MC0-config) \
 libSHERPA-MC-config \
 libSHERPA-MC0-config"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

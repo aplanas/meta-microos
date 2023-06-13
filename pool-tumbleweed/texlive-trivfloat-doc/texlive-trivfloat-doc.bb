@@ -9,6 +9,7 @@ RPM_HASH = "ff788828c8b2480c1aae3c197fe57c5ca2afc16470138bf28a5f3f74ef13f0436a27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trivfloat-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

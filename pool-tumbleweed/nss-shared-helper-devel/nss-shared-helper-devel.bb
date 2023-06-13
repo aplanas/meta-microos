@@ -11,6 +11,7 @@ RPM_HASH = "603bad1c2284b0122bf57efed8c65be44af434d844001a92988eddcc9f53142e322a
 RPROVIDES:${PN} += "nss-shared-helper-devel \
 nss-shared-helper-devel(aarch-64) \
 pkgconfig(nss-shared-helper)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnsssharedhelper0 \
 mozilla-nss-devel \

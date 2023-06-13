@@ -11,6 +11,7 @@ RPM_HASH = "d0d70218134ad499ee5941cacd79bfd02644f1c37f1f34575469379af4623fae24a9
 RPROVIDES:${PN} += "libdatovka-devel \
 libdatovka-devel(aarch-64) \
 pkgconfig(libdatovka)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdatovka4 \
 pkgconfig(libcurl) \

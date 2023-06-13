@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pymarc \
 python3.10dist(pymarc) \
 python310-pymarc \
 python3dist(pymarc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

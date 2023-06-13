@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(qxtglobalshortcut) \
 pkgconfig(qxtglobalshortcut) \
 qxtglobalshortcut-devel \
 qxtglobalshortcut-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqxtglobalshortcut0 \
 pkgconfig(Qt5Widgets)"

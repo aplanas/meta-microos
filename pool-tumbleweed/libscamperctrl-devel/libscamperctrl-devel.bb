@@ -16,6 +16,7 @@ RPM_HASH = "26383f4aa945220afddc366dcf1e27ac3ab3fd3e59fdc0bb2e2225ea94acdea87d1e
 
 RPROVIDES:${PN} += "libscamperctrl-devel \
 libscamperctrl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libscamperctrl1"
 
 inherit rpm

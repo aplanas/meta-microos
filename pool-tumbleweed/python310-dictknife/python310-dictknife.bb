@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-dictknife \
 python3.10dist(dictknife) \
 python310-dictknife \
 python3dist(dictknife)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

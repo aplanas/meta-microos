@@ -32,6 +32,7 @@ tex(lollipop-text.tex) \
 tex(lollipop-tools.tex) \
 tex(lollipop.tex) \
 texlive-lollipop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

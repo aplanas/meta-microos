@@ -40,6 +40,7 @@ locale(kontrast:tr) \
 locale(kontrast:uk) \
 locale(kontrast:zh_CN) \
 locale(kontrast:zh_TW)"
+
 RDEPENDS:${PN} += "kontrast"
 
 inherit rpm

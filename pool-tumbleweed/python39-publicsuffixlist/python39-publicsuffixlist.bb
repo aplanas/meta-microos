@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(publicsuffixlist) \
 python39-publicsuffixlist \
 python3dist(publicsuffixlist)"
+
 RDEPENDS:${PN} += "publicsuffix \
 python(abi)"
 

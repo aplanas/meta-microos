@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "molecule \
 python3.10dist(molecule) \
 python3dist(molecule)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ansible-core \
 python(abi) \

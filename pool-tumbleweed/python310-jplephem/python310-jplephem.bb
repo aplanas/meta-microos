@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-jplephem \
 python3.10dist(jplephem) \
 python310-jplephem \
 python3dist(jplephem)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

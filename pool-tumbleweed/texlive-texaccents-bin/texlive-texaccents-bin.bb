@@ -9,6 +9,7 @@ RPM_HASH = "45c1b19027ba0c72edd762c14c1623a17ebac64dbf9fe739cedeb3836edae5e21b31
 
 RPROVIDES:${PN} += "texlive-texaccents-bin \
 texlive-texaccents-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texaccents"
 
 inherit rpm

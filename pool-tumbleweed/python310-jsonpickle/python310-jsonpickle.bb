@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-jsonpickle \
 python3.10dist(jsonpickle) \
 python310-jsonpickle \
 python3dist(jsonpickle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

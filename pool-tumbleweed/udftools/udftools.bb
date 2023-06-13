@@ -10,6 +10,7 @@ RPM_HASH = "f5b2b4a88f8dbd3f27170d5989a5d6090b021b9859e88b3e8f052fafb5dedd895d11
 RPROVIDES:${PN} += "udf \
 udftools \
 udftools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

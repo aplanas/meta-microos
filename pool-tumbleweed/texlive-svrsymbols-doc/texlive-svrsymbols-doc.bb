@@ -9,6 +9,7 @@ RPM_HASH = "cae648c831c875f22f0b9eee29d250d9e42d4de4e185d118b898a9fa6bc0a865df13
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svrsymbols-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "d7a03dfc5be737554c9412490a716166cf8767ea46977a8883e1b09ed3268658e4ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-mistralclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

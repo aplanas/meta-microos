@@ -15,6 +15,7 @@ RPM_HASH = "810f5ac3de701febc08910434ec7c203565cacf1496f7d7d3b35ed63f0cb3f13cac7
 RPROVIDES:${PN} += "typelib(OsmGpsMap) \
 typelib-1_0-OsmGpsMap-1_0 \
 typelib-1_0-OsmGpsMap-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libosmgpsmap-1.0.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

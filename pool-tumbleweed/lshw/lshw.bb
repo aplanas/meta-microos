@@ -19,6 +19,7 @@ RPM_HASH = "9a83fb0ab4239b1bb4d86456ce4add48a3b570e57fec104ff1b09584a430a87513e6
 
 RPROVIDES:${PN} += "lshw \
 lshw(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

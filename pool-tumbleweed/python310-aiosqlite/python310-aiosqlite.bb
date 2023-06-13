@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-aiosqlite \
 python3.10dist(aiosqlite) \
 python310-aiosqlite \
 python3dist(aiosqlite)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-PyAutoGUI \
 python3.10dist(pyautogui) \
 python310-PyAutoGUI \
 python3dist(pyautogui)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-PyMsgBox \

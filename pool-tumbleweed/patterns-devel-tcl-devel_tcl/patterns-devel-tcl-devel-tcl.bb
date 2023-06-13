@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-tcl-devel_tcl \
 patterns-devel-tcl-devel_tcl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

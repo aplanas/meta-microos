@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(hylang.tex) \
 tex(hyplain.tex) \
 tex(hyrules.tex) \
 texlive-hyplain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

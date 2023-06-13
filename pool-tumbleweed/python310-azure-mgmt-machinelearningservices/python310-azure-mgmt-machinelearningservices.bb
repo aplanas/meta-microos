@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-machinelearningservices \
 python3.10dist(azure-mgmt-machinelearningservices) \
 python310-azure-mgmt-machinelearningservices \
 python3dist(azure-mgmt-machinelearningservices)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -36,6 +36,7 @@ locale(gpg2:tr) \
 locale(gpg2:uk) \
 locale(gpg2:zh_CN) \
 locale(gpg2:zh_TW)"
+
 RDEPENDS:${PN} += "gpg2"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "fc08cfe7bcd5c799e3aba0dba26e4ddb63a234338239cc2f25a1294bef61eaf582dd
 RPROVIDES:${PN} += "ghc-cassava-megaparsec \
 ghc-cassava-megaparsec(aarch-64) \
 libHScassava-megaparsec-2.0.4-2pnivL0ArW7GGP4dYCJwT3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

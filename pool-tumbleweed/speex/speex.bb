@@ -12,6 +12,7 @@ RPM_HASH = "3880a0880b4132221740038d695cc8a32c5496e953a523f45777c1604f32f48c9062
 
 RPROVIDES:${PN} += "speex \
 speex(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "74730f0b2496d6e06a268dfa14029362a9c08eb883dc3c7082885c2f3c1d8fb4beb4
 RPROVIDES:${PN} += "libxplayer-plparser-mini.so.18()(64bit) \
 libxplayer-plparser-mini18 \
 libxplayer-plparser-mini18(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-jsmath \
 python3.10dist(sphinxcontrib-jsmath) \
 python310-sphinxcontrib-jsmath \
 python3dist(sphinxcontrib-jsmath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

@@ -48,6 +48,7 @@ perl(Mac::PropertyList::true) \
 perl(Mac::PropertyList::uid) \
 perl(Mac::PropertyList::ustring) \
 perl-Mac-PropertyList"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::Entities) \
 perl(parent)"

@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3-ipyvolume \
 python3.10dist(ipyvolume) \
 python310-ipyvolume \
 python3dist(ipyvolume)"
+
 RDEPENDS:${PN} += "jupyter-ipyvolume \
 python(abi) \
 python310-Pillow \

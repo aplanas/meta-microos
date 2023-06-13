@@ -15,6 +15,7 @@ RPM_HASH = "5f17193b2af134885b5074850860f3d27a16a6b1c7e8ca56e6a3a48c0e56f7592fcd
 RPROVIDES:${PN} += "ghc-csv \
 ghc-csv(aarch-64) \
 libHScsv-0.1.2-LKioaw43aTAAAKpIk04xxN-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

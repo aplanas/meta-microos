@@ -64,6 +64,7 @@ locale(tumbler:zh_HK) \
 locale(tumbler:zh_TW) \
 tumbler-lang \
 tumbler-lang-all"
+
 RDEPENDS:${PN} += "libtumbler-1-0"
 
 inherit rpm

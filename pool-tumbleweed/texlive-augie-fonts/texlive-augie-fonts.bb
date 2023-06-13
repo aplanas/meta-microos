@@ -82,6 +82,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(augie) \
 texlive-augie-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

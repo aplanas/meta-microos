@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "kanku-triggerd \
 perl(Kanku::Daemon::TriggerD) \
 perl(Kanku::Listener::RabbitMQ)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 kanku-common \

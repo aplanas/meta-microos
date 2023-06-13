@@ -13,6 +13,7 @@ RPM_HASH = "ae626580c33e18b2b356bb7956877dea50fe8498560336d0ccc7d8354df440294010
 
 RPROVIDES:${PN} += "jimtcl \
 jimtcl(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

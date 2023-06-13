@@ -17,6 +17,7 @@ RPM_HASH = "f06ea395ee8f75f2b270611f7db3fee02dd326832b97e4a274187dba53862f49451e
 
 RPROVIDES:${PN} += "SecLists \
 SecLists(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env"
 

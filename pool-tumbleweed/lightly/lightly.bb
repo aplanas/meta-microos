@@ -9,6 +9,7 @@ RPM_HASH = "956d96862fdcc49b464eacb9d022501195d4410b3e2b9153cd8ad3d891b6b0eee2c8
 
 RPROVIDES:${PN} += "lightly \
 lightly(aarch-64)"
+
 RDEPENDS:${PN} += "breeze5-cursors \
 breeze5-icons \
 lightly-decoration \

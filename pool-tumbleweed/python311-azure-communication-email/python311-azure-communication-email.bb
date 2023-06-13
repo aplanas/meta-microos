@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-communication-email) \
 python311-azure-communication-email \
 python3dist(azure-communication-email)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-communication-nspkg \

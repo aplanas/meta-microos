@@ -9,6 +9,7 @@ RPM_HASH = "331a36547f511556ff1671ee01825aa68566592addad9771fd23f5782a2fad460e8b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plantslabels-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(primesieve) \
 libprimesieve-devel \
 libprimesieve-devel(aarch-64) \
 pkgconfig(primesieve)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libprimesieve11"
 

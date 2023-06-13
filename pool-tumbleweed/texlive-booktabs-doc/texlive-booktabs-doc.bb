@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-booktabs-doc:en) \
 texlive-booktabs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(PixelArtTikz.sty) \
 texlive-pixelarttikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

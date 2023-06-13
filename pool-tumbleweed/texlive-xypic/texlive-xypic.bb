@@ -106,6 +106,7 @@ tex(xyv2.tex) \
 tex(xyweb.tex) \
 tex(xyxdvi.tex) \
 texlive-xypic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -40,6 +40,7 @@ mimehandler(image/vnd.djvu+multipage) \
 mimehandler(image/x-bzeps) \
 mimehandler(image/x-eps) \
 mimehandler(image/x-gzeps)"
+
 RDEPENDS:${PN} += "atril-backends \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

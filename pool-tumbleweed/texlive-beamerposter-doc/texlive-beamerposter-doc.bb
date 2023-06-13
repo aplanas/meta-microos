@@ -9,6 +9,7 @@ RPM_HASH = "d05d0c10eaafc74bfc2975347de6201839cfd1a61279fe62300d7e793df2e73b89ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerposter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

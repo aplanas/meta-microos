@@ -10,6 +10,7 @@ RPM_HASH = "f1b8f8a22263068c2a6b3fad6ae8ac25da79db7be05c112433388f2febf48c7ce674
 RPROVIDES:${PN} += "ghc-fgl-prof \
 ghc-fgl-prof(aarch-64) \
 ghc-prof(fgl-5.8.0.0-1euDADByC3LGFbnFGelVpn)"
+
 RDEPENDS:${PN} += "ghc-fgl-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

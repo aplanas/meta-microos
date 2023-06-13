@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sepfootnotes.sty) \
 texlive-sepfootnotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

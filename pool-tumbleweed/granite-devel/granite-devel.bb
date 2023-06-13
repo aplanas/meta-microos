@@ -12,6 +12,7 @@ RPM_HASH = "0cc169e90f6cd5dce8dc84be7810b748fa72d3064d9e42b10939beaf1d0dfb063e26
 RPROVIDES:${PN} += "granite-devel \
 granite-devel(aarch-64) \
 pkgconfig(granite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgranite6 \
 pkgconfig(gee-0.8) \

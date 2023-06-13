@@ -29,6 +29,7 @@ perl(App::Perlbrew::Path::Root) \
 perl(App::Perlbrew::Util) \
 perl(App::perlbrew) \
 perl-App-perlbrew"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Perl::Releases) \

@@ -88,6 +88,7 @@ perl(Plack::Util::Accessor) \
 perl(Plack::Util::IOWithPath) \
 perl(Plack::Util::Prototype) \
 perl-Plack"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Apache::LogFormat::Compiler) \

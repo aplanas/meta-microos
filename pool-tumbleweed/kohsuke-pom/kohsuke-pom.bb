@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kohsuke-pom \
 mvn(org.kohsuke:pom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

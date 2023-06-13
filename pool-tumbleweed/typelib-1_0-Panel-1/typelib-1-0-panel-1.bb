@@ -10,6 +10,7 @@ RPM_HASH = "6f6a1ed4dcf1ff67e26a67068a89c58d992ea7350132e8339e7855a4f19bc5afd054
 RPROVIDES:${PN} += "typelib(Panel) \
 typelib-1_0-Panel-1 \
 typelib-1_0-Panel-1(aarch-64)"
+
 RDEPENDS:${PN} += "libpanel-1.so.1()(64bit) \
 typelib(Adw) \
 typelib(GLib) \

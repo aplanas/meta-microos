@@ -10,6 +10,7 @@ RPM_HASH = "225d2472332dd615a1e90cf6e0f8d030e7403e742fef2a64ce3d0331e5229f48291a
 RPROVIDES:${PN} += "libchardet.so.1()(64bit) \
 libchardet1 \
 libchardet1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \

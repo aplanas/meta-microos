@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zref-clever.sty) \
 texlive-zref-clever"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

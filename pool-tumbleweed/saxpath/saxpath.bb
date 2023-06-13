@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(saxpath:saxpath) \
 mvn(saxpath:saxpath:pom:) \
 saxpath"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jboss-interceptors-1.2-api \
 mvn(org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec) \
 mvn(org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:pom:) \
 osgi(org.jboss.spec.javax.interceptor.jboss-interceptors-api_1.2_spec)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

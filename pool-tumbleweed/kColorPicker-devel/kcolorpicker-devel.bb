@@ -10,6 +10,7 @@ RPM_HASH = "6911b9823614812576a7a7b8cee1c4d6c2ac88ebc889b974f9c059b8211dae465ac3
 RPROVIDES:${PN} += "cmake(kColorPicker) \
 kColorPicker-devel \
 kColorPicker-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkColorPicker0"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-snowballstemmer \
 python3.10dist(snowballstemmer) \
 python310-snowballstemmer \
 python3dist(snowballstemmer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

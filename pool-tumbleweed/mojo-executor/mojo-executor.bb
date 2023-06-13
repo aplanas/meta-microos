@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "mojo-executor \
 mvn(org.twdata.maven:mojo-executor) \
 mvn(org.twdata.maven:mojo-executor-parent:pom:) \
 mvn(org.twdata.maven:mojo-executor:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-utils)"

@@ -59,6 +59,7 @@ locale(kscreen5:tr) \
 locale(kscreen5:uk) \
 locale(kscreen5:zh_CN) \
 locale(kscreen5:zh_TW)"
+
 RDEPENDS:${PN} += "kscreen5"
 
 inherit rpm

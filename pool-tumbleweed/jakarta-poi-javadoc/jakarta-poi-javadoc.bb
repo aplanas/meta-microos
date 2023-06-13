@@ -17,6 +17,7 @@ RPM_HASH = "26f6037808ed877255d925c8fef645fbb20a42b08d0e541ee4634cf808c220983e67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-poi-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

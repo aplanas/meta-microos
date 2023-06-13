@@ -11,6 +11,7 @@ RPM_HASH = "1f3b61e582fc237720c879e843505c9a2365d8265ea968d9f1f4b1b3b4d441ec0fbc
 RPROVIDES:${PN} += "xembed-sni-proxy \
 xembedsniproxy \
 xembedsniproxy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WindowSystem.so.5()(64bit) \

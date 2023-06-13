@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xkbgroup \
 python3.10dist(xkbgroup) \
 python310-xkbgroup \
 python3dist(xkbgroup)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

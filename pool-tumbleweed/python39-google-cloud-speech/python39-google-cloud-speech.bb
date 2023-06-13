@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(google-cloud-speech) \
 python39-google-cloud-speech \
 python3dist(google-cloud-speech)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-api-core \
 python39-proto-plus \

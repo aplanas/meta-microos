@@ -17,6 +17,7 @@ RPM_HASH = "bcdfe5c89ee8c5ebf9487b13c90b0dc32f252b78cbb4bc6addfe0b9153cd1a21b2c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "awesome-freedesktop"
+
 RDEPENDS:${PN} += "awesome"
 
 inherit rpm

@@ -70,6 +70,7 @@ perl(DBIx::Class::Migration::TempDirSandboxBuilder) \
 perl(DBIx::Class::Migration::Types) \
 perl(Test::DBIx::Class::FixtureCommand::Population) \
 perl-DBIx-Class-Migration"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \

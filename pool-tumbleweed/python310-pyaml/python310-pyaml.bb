@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyaml \
 python3.10dist(pyaml) \
 python310-pyaml \
 python3dist(pyaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

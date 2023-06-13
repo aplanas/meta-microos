@@ -10,6 +10,7 @@ RPM_HASH = "a181fe42b4f5a55399f1572235eecc49dde480ecafe8dc301fed762f24a6bdd44f85
 RPROVIDES:${PN} += "monitoring-plugins-file_age \
 monitoring-plugins-file_age(aarch-64) \
 nagios-plugins-file_age"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl"

@@ -15,6 +15,7 @@ tex(orhant16.tfm) \
 tex(orhant20.tfm) \
 tex(orhant25.tfm) \
 texlive-orkhun"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-rails) \
 rubygem(ruby:3.2.0:rspec-rails:4) \
 rubygem(ruby:3.2.0:rspec-rails:4.0) \
 rubygem(ruby:3.2.0:rspec-rails:4.0.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:activesupport) \

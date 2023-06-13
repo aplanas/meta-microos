@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(vine) \
 python311-vine \
 python3dist(vine)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

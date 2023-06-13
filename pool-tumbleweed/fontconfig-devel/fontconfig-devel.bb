@@ -12,6 +12,7 @@ RPM_HASH = "38ce0aa65920eb07f6df2df931820d3cbbf6dcff964d4ae7f1b1e73dea0c49f1698a
 RPROVIDES:${PN} += "fontconfig-devel \
 fontconfig-devel(aarch-64) \
 pkgconfig(fontconfig)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gettext-devel \
 glibc-devel \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-certbot-dns-route53 \
 python3.10dist(certbot-dns-route53) \
 python310-certbot-dns-route53 \
 python3dist(certbot-dns-route53)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-acme \
 python310-boto3 \

@@ -11,6 +11,7 @@ RPM_HASH = "f93d443d1e5855def08c46b77e4c9c2255884b63eb94800ad10ecb4f8f22c682ee7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-freezerclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

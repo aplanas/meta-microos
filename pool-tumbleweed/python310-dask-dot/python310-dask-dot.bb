@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask-dot \
 python310-dask-dot"
+
 RDEPENDS:${PN} += "graphviz \
 graphviz-gd \
 graphviz-gnome \

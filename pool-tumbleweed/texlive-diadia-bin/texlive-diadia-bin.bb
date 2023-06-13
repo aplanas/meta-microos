@@ -9,6 +9,7 @@ RPM_HASH = "2c5446a4c1270f46bc8d512a359dcfdf8d20f6e6a3ea3dfdcffacd00752612dcddff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diadia-bin"
+
 RDEPENDS:${PN} += "texlive-diadia"
 
 inherit rpm

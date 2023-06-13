@@ -9,6 +9,7 @@ RPM_HASH = "da24d617f86a4f987dab80a83e3f9ec6493ec5234c462fc4c240940e8bd46f3f7fab
 
 RPROVIDES:${PN} += "libblacs2-openmpi4-devel-static \
 libblacs2-openmpi4-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libblacs2-openmpi4-devel"
 
 inherit rpm

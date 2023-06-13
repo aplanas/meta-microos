@@ -11,6 +11,7 @@ RPM_HASH = "f9f96ac6100b925fb27a764b93224a0fcc52a5175e85f52839bfd4e8d3959978312b
 RPROVIDES:${PN} += "libKPim5GAPIBlogger.so.5()(64bit) \
 libKPim5GAPIBlogger5 \
 libKPim5GAPIBlogger5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

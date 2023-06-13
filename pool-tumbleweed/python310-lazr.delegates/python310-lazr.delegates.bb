@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-lazr.delegates \
 python3.10dist(lazr.delegates) \
 python310-lazr.delegates \
 python3dist(lazr.delegates)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.interface"
 

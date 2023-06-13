@@ -91,6 +91,7 @@ locale(zenity:zh_HK) \
 locale(zenity:zh_TW) \
 zenity-lang \
 zenity-lang-all"
+
 RDEPENDS:${PN} += "zenity"
 
 inherit rpm

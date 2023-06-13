@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(goocalendar) \
 python39-GooCalendar \
 python3dist(goocalendar)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(GObject) \
 typelib(Gdk) \

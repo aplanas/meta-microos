@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-redis-lock \
 python3.10dist(python-redis-lock) \
 python310-python-redis-lock \
 python3dist(python-redis-lock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-redis"
 

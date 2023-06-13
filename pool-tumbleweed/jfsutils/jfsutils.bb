@@ -19,6 +19,7 @@ RPM_HASH = "0302c51635e622650c046740c09e1d80c47b8ac15a75bb526120e7e49eba5c26d328
 RPROVIDES:${PN} += "jfsprogs \
 jfsutils \
 jfsutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "8b941321614f70c6a25df680244a6cc98c561b28a95a5f140d8fba28adbc9587ce78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-CSXCAD"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

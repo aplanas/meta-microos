@@ -14,6 +14,7 @@ gnuhealth-client \
 mimehandler(application/gnuhealth-client) \
 python3.10dist(gnuhealth-client) \
 python3dist(gnuhealth-client)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnu-free-fonts \
 gobject-introspection \

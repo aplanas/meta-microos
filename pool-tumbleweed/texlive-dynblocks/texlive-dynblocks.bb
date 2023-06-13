@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dynblocks.sty) \
 texlive-dynblocks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

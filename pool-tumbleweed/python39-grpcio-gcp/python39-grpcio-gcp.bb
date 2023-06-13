@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(grpcio-gcp) \
 python39-grpcio-gcp \
 python3dist(grpcio-gcp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-grpcio"
 

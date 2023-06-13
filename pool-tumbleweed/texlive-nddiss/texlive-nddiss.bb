@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nddiss2e.cls) \
 texlive-nddiss"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

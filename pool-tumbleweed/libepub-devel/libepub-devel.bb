@@ -9,6 +9,7 @@ RPM_HASH = "d3ff02da5094c8db985b38c60aa1bbad1a890787884e37bbf789ba2005d02def9544
 
 RPROVIDES:${PN} += "libepub-devel \
 libepub-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libepub0"
 

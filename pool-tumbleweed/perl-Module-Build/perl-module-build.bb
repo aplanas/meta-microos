@@ -70,6 +70,7 @@ perl(Module::Build::Platform::darwin) \
 perl(Module::Build::Platform::os2) \
 perl(Module::Build::PodParser) \
 perl-Module-Build"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Meta) \

@@ -11,6 +11,7 @@ RPM_HASH = "761e3bc5b8f63c6edec3a644383166f9269e5480457c5ac9bf976a08bbe170967959
 RPROVIDES:${PN} += "libplugin_gstreamer.so()(64bit) \
 nulloy-gstreamer \
 nulloy-gstreamer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

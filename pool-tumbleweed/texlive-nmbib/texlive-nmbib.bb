@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nmbib.sty) \
 texlive-nmbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

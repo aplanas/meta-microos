@@ -9,6 +9,7 @@ RPM_HASH = "85592de01a82fc7ef49d6e1da7096b915016171531c52bb3dc78c7ed47d916847f4d
 
 RPROVIDES:${PN} += "python311-mpi4py-devel \
 python311-mpi4py-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-devel \
 python311-mpi4py \
 python311-mpi4py-common-devel"

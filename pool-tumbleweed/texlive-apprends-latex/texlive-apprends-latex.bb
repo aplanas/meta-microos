@@ -10,6 +10,7 @@ RPM_HASH = "b676098aa7d75576dd67dd685e3dc123cb3192bdbdb167c1dc59933c26c650ffff68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apprends-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

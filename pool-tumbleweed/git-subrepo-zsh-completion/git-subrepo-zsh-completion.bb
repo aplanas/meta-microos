@@ -9,6 +9,7 @@ RPM_HASH = "27f98d815f25470c356ae400f5ce2bd70771e7ce561364338c40d772f136f00b8510
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-subrepo-zsh-completion"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

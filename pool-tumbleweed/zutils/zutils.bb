@@ -16,6 +16,7 @@ RPM_HASH = "2d625f0fafb596ea776baf3bb1b767395e0973dc98f1ae94bb54fb93466a717288fa
 
 RPROVIDES:${PN} += "zutils \
 zutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

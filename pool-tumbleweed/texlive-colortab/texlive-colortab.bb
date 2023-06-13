@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(colortab.sty) \
 tex(colortab.tex) \
 texlive-colortab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

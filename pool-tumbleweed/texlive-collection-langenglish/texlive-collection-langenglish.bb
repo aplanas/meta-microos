@@ -9,6 +9,7 @@ RPM_HASH = "67b3092952c1b69be141cce44da96b801f180eba051ad27c91770bae6d5a426aae62
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langenglish"
+
 RDEPENDS:${PN} += "texlive-amiweb2c-guide \
 texlive-amscls-doc \
 texlive-amslatex-primer \

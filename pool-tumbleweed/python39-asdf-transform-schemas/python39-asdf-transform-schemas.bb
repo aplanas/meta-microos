@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(asdf-transform-schemas) \
 python39-asdf-transform-schemas \
 python39-asdf_transform_schemas \
 python3dist(asdf-transform-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asdf-standard"
 

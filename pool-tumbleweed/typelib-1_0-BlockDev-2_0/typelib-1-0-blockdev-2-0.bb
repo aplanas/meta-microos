@@ -11,6 +11,7 @@ RPM_HASH = "2642963f9599c953b150f5ba98caebff5be3d51043776108c59cc1f4020c28ef9d65
 RPROVIDES:${PN} += "typelib(BlockDev) \
 typelib-1_0-BlockDev-2_0 \
 typelib-1_0-BlockDev-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libbd_utils.so.2()(64bit) \
 libblockdev.so.2()(64bit) \
 typelib(GLib) \

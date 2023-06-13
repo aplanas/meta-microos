@@ -11,6 +11,7 @@ RPM_HASH = "3aecf38678d6c04bb7d355358d02730ebf798c91e1aaca4372c17708824a096a42b0
 RPROVIDES:${PN} += "ghc-colourista \
 ghc-colourista(aarch-64) \
 libHScolourista-0.1.0.2-5hJOPOBvzIt9IdOCkudaU3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

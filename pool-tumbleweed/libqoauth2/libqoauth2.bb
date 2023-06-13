@@ -11,6 +11,7 @@ RPM_HASH = "d283d2d5883aad587e21a90aa10bc69c5342c936f94b6dbc153d5a063509d0868e63
 RPROVIDES:${PN} += "libqoauth.so.2()(64bit) \
 libqoauth2 \
 libqoauth2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

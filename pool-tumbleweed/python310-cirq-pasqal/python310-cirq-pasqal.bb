@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cirq-pasqal \
 python3.10dist(cirq-pasqal) \
 python310-cirq-pasqal \
 python3dist(cirq-pasqal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cirq-core \
 python310-requests"

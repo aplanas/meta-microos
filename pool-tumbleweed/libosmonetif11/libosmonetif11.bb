@@ -10,6 +10,7 @@ RPM_HASH = "4acbf8fdd4f89fa654e6e339ea32c2cdf1b8cdf786e6d49e33e3c799db15a85ddebe
 RPROVIDES:${PN} += "libosmonetif.so.11()(64bit) \
 libosmonetif11 \
 libosmonetif11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "fb0bd0cb4af4a9292118fb6d8e94a0231a443e904114cd7ec7521403e72fbe6cdce7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conftest-fish-completion"
+
 RDEPENDS:${PN} += "conftest"
 
 inherit rpm

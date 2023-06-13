@@ -10,6 +10,7 @@ RPM_HASH = "235cc1821b906dbf31f332566babadac7a62c4c39abe649bcf89d7ae315e5346ce37
 
 RPROVIDES:${PN} += "noping \
 noping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -19,6 +19,7 @@ mimehandler(text/plain) \
 python3.10dist(qtodotxt) \
 python3dist(qtodotxt) \
 qtodotxt"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

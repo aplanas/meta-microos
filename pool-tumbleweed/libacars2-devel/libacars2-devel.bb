@@ -13,6 +13,7 @@ RPM_HASH = "b81f0cddbf00eb25f8f8c8038479a1cdeb20c378ee9b67bcdc8c078dd621ba5d6509
 RPROVIDES:${PN} += "libacars2-devel \
 libacars2-devel(aarch-64) \
 pkgconfig(libacars-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libacars-2-2"
 

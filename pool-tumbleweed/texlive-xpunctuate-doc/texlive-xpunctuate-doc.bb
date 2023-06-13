@@ -9,6 +9,7 @@ RPM_HASH = "fcd7166d9c2eba4a6cfbea5f27b4ea2c97762ee743ca1cea492057aa3ed99fa1cdc6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xpunctuate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

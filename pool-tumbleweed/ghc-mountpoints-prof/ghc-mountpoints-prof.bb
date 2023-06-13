@@ -10,6 +10,7 @@ RPM_HASH = "8407461d9315136b2a4b07bfe310852e352ec07e903050e076d44eea2e5491a64f33
 RPROVIDES:${PN} += "ghc-mountpoints-prof \
 ghc-mountpoints-prof(aarch-64) \
 ghc-prof(mountpoints-1.0.2-1s316lA2PKMJiFY8pZCQYD)"
+
 RDEPENDS:${PN} += "ghc-mountpoints-devel \
 ghc-prof(base-4.17.1.0)"
 

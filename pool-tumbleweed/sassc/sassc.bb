@@ -13,6 +13,7 @@ RPM_HASH = "430a8ea3bb52cd9b2ac1b158571b3b3e75e97f515a02d01a4cb699e6993a773d2b03
 
 RPROVIDES:${PN} += "sassc \
 sassc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

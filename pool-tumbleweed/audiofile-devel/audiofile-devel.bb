@@ -16,6 +16,7 @@ RPM_HASH = "46b8f184f48bb57e6d16120b1aa0d60e7464aec841311efb5ca6842ba79991a03cbb
 RPROVIDES:${PN} += "audiofile-devel \
 audiofile-devel(aarch-64) \
 pkgconfig(audiofile)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaudiofile1"
 

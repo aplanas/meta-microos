@@ -97,6 +97,7 @@ locale(nautilus:zh_HK) \
 locale(nautilus:zh_TW) \
 nautilus-lang \
 nautilus-lang-all"
+
 RDEPENDS:${PN} += "nautilus"
 
 inherit rpm

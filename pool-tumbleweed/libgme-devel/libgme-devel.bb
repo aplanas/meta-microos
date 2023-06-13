@@ -11,6 +11,7 @@ RPM_HASH = "c1928c84e53e1897df707cadb82c9aab3e89a6dfee6429b4869aef715a84e6527eef
 RPROVIDES:${PN} += "libgme-devel \
 libgme-devel(aarch-64) \
 pkgconfig(libgme)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgme0"
 

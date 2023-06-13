@@ -14,6 +14,7 @@ perl(ExtUtils::Helpers::Unix) \
 perl(ExtUtils::Helpers::VMS) \
 perl(ExtUtils::Helpers::Windows) \
 perl-ExtUtils-Helpers"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

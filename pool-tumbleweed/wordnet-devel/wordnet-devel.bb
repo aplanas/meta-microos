@@ -19,6 +19,7 @@ RPM_HASH = "ee5c8777cfeb337f8414921d426f0d5c56e5a5f15189bd8b3e1979e596123acc61df
 
 RPROVIDES:${PN} += "wordnet-devel \
 wordnet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libWN3 \
 tcl-devel \
 tk-devel"

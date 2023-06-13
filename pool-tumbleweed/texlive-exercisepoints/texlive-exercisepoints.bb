@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(exercisepoints.sty) \
 texlive-exercisepoints"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

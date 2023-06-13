@@ -36,6 +36,7 @@ locale(kcm_flatpak:tr) \
 locale(kcm_flatpak:uk) \
 locale(kcm_flatpak:zh_CN) \
 locale(kcm_flatpak:zh_TW)"
+
 RDEPENDS:${PN} += "kcm_flatpak"
 
 inherit rpm

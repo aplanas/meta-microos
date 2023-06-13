@@ -10,6 +10,7 @@ RPM_HASH = "9af2cdc9e65d8d944984dcefac9de2b546c58bdb783b4b2d93bcc0d2944b9045cf20
 RPROVIDES:${PN} += "libaudgui.so.5()(64bit) \
 libaudgui5 \
 libaudgui5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

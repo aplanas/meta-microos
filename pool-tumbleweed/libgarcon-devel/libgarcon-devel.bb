@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgarcon-devel \
 libgarcon-devel(aarch-64) \
 pkgconfig(garcon-1) \
 pkgconfig(garcon-gtk3-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgarcon-1-0 \
 pkgconfig(garcon-1) \

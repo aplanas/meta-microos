@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "cmake(xsimd) \
 pkgconfig(xsimd) \
 xsimd-devel \
 xsimd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

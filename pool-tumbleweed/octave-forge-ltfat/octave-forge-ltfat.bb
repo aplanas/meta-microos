@@ -15,6 +15,7 @@ RPM_HASH = "0c558bf03b8d064986d82c8bd8977cf2d9966988182e82fe81f3356dfc9a3f0459f7
 
 RPROVIDES:${PN} += "octave-forge-ltfat \
 octave-forge-ltfat(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

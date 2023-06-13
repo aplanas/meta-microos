@@ -17,6 +17,7 @@ libwsman_server.so.1()(64bit) \
 libwsman_test.so.1()(64bit) \
 openwsman-server \
 openwsman-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/hostname \
 /bin/sh \
 coreutils \

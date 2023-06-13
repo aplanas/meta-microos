@@ -9,6 +9,7 @@ RPM_HASH = "f0463ff9a9c3b233d6e53842e8df78613829827a5877dfdcf11e7832e5eb485775ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces-selinux"
+
 RDEPENDS:${PN} += "/bin/sh \
 selinux-policy \
 selinux-policy-targeted"

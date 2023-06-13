@@ -14,6 +14,7 @@ metainfo() \
 metainfo(org.opensuse.yast.GeoCluster.metainfo.xml) \
 perl(GeoCluster) \
 yast2-geo-cluster"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 autoyast2-installation \
 yast2 \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-nginx \
 python3.10dist(azure-mgmt-nginx) \
 python310-azure-mgmt-nginx \
 python3dist(azure-mgmt-nginx)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.0.1 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

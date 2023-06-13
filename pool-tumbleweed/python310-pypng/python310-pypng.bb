@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pypng \
 python3.10dist(pypng) \
 python310-pypng \
 python3dist(pypng)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

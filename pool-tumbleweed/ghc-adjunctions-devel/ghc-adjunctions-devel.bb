@@ -10,6 +10,7 @@ RPM_HASH = "5cd1fc7ce15a01567dbb51e805f765c6c11759dce444ceebb6aa217869c5f2ffdf5f
 RPROVIDES:${PN} += "ghc-adjunctions-devel \
 ghc-adjunctions-devel(aarch-64) \
 ghc-devel(adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-adjunctions \
 ghc-compiler \

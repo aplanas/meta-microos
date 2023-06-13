@@ -10,6 +10,7 @@ RPM_HASH = "ce3946b015db34a6d38db402ea10c13ff6317f1af4eebb67151385530c4d697632f5
 
 RPROVIDES:${PN} += "xrestop \
 xrestop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

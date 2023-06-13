@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dnspython) \
 python39-dnspython \
 python3dist(dnspython)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-httpx \

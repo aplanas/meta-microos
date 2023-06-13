@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dirtree.sty) \
 tex(dirtree.tex) \
 texlive-dirtree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

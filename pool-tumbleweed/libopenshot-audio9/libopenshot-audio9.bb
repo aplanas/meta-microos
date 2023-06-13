@@ -13,6 +13,7 @@ RPM_HASH = "898910bf782f4d321014990352c2dc15906759377ca9624d2623f4fd00913d997460
 RPROVIDES:${PN} += "libopenshot-audio.so.9()(64bit) \
 libopenshot-audio9 \
 libopenshot-audio9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

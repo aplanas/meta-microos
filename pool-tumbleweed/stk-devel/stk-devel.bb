@@ -11,6 +11,7 @@ RPM_HASH = "22926bcf1bd7acbcb3dbb7319d3cbfc994445abdd18504887af8c918de612e1f7fb0
 RPROVIDES:${PN} += "libstk-devel \
 stk-devel \
 stk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstk4.6.2"
 
 inherit rpm

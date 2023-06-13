@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-newsfeed \
 python3.10dist(sphinxcontrib-newsfeed) \
 python310-sphinxcontrib-newsfeed \
 python3dist(sphinxcontrib-newsfeed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

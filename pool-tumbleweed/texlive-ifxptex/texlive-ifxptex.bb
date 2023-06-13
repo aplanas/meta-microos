@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifxptex.sty) \
 texlive-ifxptex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

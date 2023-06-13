@@ -9,6 +9,7 @@ RPM_HASH = "bee71c21e9e5fb01013948f5fb1ec13a939b035307eebb3fcd40e39d1661715ff2e3
 
 RPROVIDES:${PN} += "mame-tools \
 mame-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libFLAC.so.12()(64bit) \
 libSDL2-2.0.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

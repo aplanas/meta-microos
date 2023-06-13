@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:lv_LV) \
 myspell-dictionary \
 myspell-latvian \
 myspell-lv_LV"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

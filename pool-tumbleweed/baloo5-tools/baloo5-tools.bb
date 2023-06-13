@@ -11,6 +11,7 @@ RPM_HASH = "f3da45028f2e80dd6883f0eb8fba1339b00d70d262ea11016353798a8f41688d2a94
 RPROVIDES:${PN} += "baloo-tools \
 baloo5-tools \
 baloo5-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Baloo.so.5()(64bit) \

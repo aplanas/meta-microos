@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-paranoid) \
 python311-Flask-Paranoid \
 python3dist(flask-paranoid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask"
 

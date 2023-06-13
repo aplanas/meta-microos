@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(elasticsearch-dsl) \
 python39-elasticsearch-dsl \
 python3dist(elasticsearch-dsl)"
+
 RDEPENDS:${PN} += "(python39-elasticsearch >= 7.0.0 with python39-elasticsearch < 8) \
 python(abi) \
 python39-python-dateutil"

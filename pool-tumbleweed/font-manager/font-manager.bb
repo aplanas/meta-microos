@@ -24,6 +24,7 @@ mimehandler(application/x-font-ttf) \
 mimehandler(font/otf) \
 mimehandler(font/ttc) \
 mimehandler(font/ttf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 font-manager-common \
 font-viewer \

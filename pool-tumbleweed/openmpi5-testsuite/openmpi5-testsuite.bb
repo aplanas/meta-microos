@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpi \
 openmpi5-testsuite"
+
 RDEPENDS:${PN} += "mpi-selector \
 openmpi-runtime-config \
 openmpi5-libs \

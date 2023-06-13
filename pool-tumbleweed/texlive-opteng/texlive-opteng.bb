@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(opteng.sty) \
 texlive-opteng"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

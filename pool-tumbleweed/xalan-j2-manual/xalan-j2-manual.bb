@@ -15,6 +15,7 @@ RPM_HASH = "c3e3322c2853e71db4606e49777af5329e91a210c9b43d6af3c13b6e120dd83d3f74
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xalan-j2-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

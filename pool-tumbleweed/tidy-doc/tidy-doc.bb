@@ -9,6 +9,7 @@ RPM_HASH = "bc6ced661fc6ce0332bd4f19e15482cc82bad399a24ece5cb41cb0efb07727ec583c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tidy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

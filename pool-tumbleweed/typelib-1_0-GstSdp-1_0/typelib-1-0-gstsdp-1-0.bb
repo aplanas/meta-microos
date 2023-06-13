@@ -17,6 +17,7 @@ RPM_HASH = "e85ba16a9880f64b9dae2ad9c090b79ab965384c0a9b1e6fefd182ddaa5ee8ab60da
 RPROVIDES:${PN} += "typelib(GstSdp) \
 typelib-1_0-GstSdp-1_0 \
 typelib-1_0-GstSdp-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstsdp-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

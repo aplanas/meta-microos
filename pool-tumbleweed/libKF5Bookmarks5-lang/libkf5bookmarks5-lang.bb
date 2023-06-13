@@ -87,6 +87,7 @@ locale(libKF5Bookmarks5:vi) \
 locale(libKF5Bookmarks5:wa) \
 locale(libKF5Bookmarks5:zh_CN) \
 locale(libKF5Bookmarks5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5Bookmarks5"
 
 inherit rpm

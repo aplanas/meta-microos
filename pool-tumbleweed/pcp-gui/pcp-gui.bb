@@ -15,6 +15,7 @@ application(pmchart.desktop) \
 config(pcp-gui) \
 pcp-gui \
 pcp-gui(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dejavu-fonts \
 ld-linux-aarch64.so.1()(64bit) \

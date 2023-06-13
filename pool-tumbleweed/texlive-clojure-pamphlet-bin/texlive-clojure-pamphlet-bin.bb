@@ -9,6 +9,7 @@ RPM_HASH = "4e4e2c5d280c39285da92d4e8c2ede30d6513abb62ffa72c2213a44ba1b6630fe586
 
 RPROVIDES:${PN} += "texlive-clojure-pamphlet-bin \
 texlive-clojure-pamphlet-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-clojure-pamphlet"
 
 inherit rpm

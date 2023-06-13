@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyroma \
 python3.10dist(pyroma) \
 python310-pyroma \
 python3dist(pyroma)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.9dist(rtree) \
 python39-Rtree \
 python39-rtree \
 python3dist(rtree)"
+
 RDEPENDS:${PN} += "libspatialindex6 \
 python(abi)"
 

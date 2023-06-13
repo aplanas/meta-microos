@@ -16,6 +16,7 @@ php-fpm \
 php-sapi \
 php8-fpm \
 php8-fpm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(www) \
 ld-linux-aarch64.so.1()(64bit) \

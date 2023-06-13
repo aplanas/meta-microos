@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(ipvsadm) \
 ipvsadm \
 ipvsadm(aarch-64) \
 ipvsadm-1.31"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

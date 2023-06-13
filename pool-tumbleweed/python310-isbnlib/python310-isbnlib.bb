@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-isbnlib \
 python3.10dist(isbnlib) \
 python310-isbnlib \
 python3dist(isbnlib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

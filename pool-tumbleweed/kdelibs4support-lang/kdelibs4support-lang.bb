@@ -94,6 +94,7 @@ locale(kdelibs4support:wa) \
 locale(kdelibs4support:zh_CN) \
 locale(kdelibs4support:zh_HK) \
 locale(kdelibs4support:zh_TW)"
+
 RDEPENDS:${PN} += "kdelibs4support"
 
 inherit rpm

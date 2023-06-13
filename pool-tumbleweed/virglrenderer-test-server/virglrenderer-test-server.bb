@@ -12,6 +12,7 @@ RPM_HASH = "c2f77da15c280bbf410f29d6b3ca4cafeeff79543544919f4924ef4a6535abc84ce1
 
 RPROVIDES:${PN} += "virglrenderer-test-server \
 virglrenderer-test-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-storageimportexport) \
 python311-azure-mgmt-storageimportexport \
 python3dist(azure-mgmt-storageimportexport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-nspkg \

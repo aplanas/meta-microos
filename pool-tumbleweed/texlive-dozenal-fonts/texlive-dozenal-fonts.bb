@@ -57,6 +57,7 @@ font(dozchsl12) \
 font(dozchsl8) \
 font(dozchsl9) \
 texlive-dozenal-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -21,6 +21,7 @@ tex(minijs.sty) \
 tex(okumacro.sty) \
 tex(okuverb.sty) \
 texlive-jsclasses"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

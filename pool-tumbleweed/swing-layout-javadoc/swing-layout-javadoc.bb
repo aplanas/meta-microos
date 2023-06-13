@@ -19,6 +19,7 @@ RPM_HASH = "78a2d0685aaad16bf191ffb8fb565175c141e84cea64e08ac43b11f3fdfc05e3ee7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swing-layout-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

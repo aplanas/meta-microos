@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(sharpfont) \
 sharpfont-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 sharpfont"
 

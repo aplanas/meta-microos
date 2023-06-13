@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel5.3 \
 bcel5_3"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

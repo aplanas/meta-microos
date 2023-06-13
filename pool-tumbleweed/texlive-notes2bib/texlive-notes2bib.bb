@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(notes2bib.sty) \
 texlive-notes2bib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

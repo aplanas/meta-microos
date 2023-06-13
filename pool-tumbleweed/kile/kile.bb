@@ -37,6 +37,7 @@ metainfo() \
 metainfo(org.kde.kile.appdata.xml) \
 mimehandler(text/x-kilepr) \
 mimehandler(text/x-tex)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 konsole-part \
 ld-linux-aarch64.so.1()(64bit) \

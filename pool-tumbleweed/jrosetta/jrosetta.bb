@@ -12,6 +12,7 @@ RPM_HASH = "e995c224bd980117f6b2ca06267968f6b420d84660501dc00ffc2e71cb0ec6f3291f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jrosetta"
+
 RDEPENDS:${PN} += "java \
 jpackage-utils"
 

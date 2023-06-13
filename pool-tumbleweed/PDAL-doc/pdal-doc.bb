@@ -10,6 +10,7 @@ RPM_HASH = "b69f792d3f7b07f23b9dd28105dec0f565a25aaee8408d691e69713fac5b5bf26233
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PDAL-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

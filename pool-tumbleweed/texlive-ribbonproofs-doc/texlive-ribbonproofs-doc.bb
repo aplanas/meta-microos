@@ -9,6 +9,7 @@ RPM_HASH = "353a2cfd1a16f72f7482f040b4694c9b274efdee6f6e35b610e3163ec3d61f033007
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ribbonproofs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

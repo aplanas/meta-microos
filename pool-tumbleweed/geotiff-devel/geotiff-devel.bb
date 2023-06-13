@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "geotiff-devel \
 geotiff-devel(aarch-64) \
 libgeotiff-devel \
 pkgconfig(libgeotiff)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgeotiff5 \
 pkgconfig(libtiff-4) \

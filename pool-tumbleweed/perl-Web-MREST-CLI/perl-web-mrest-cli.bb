@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Web::MREST::CLI) \
 perl(Web::MREST::CLI::Parser) \
 perl-Web-MREST-CLI"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(App::CELL) \

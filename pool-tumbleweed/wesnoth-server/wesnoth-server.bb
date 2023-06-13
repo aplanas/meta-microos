@@ -10,6 +10,7 @@ RPM_HASH = "cc86b005540fb06f5c67f6014975c6f597893e39b234e4560c1faea6d6687a6d77d2
 
 RPROVIDES:${PN} += "wesnoth-server \
 wesnoth-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_coroutine.so.1.82.0()(64bit) \

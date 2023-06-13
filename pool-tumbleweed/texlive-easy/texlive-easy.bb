@@ -20,6 +20,7 @@ tex(easymat.sty) \
 tex(easytable.sty) \
 tex(easyvector.sty) \
 texlive-easy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-vcrpy \
 python3.10dist(vcrpy) \
 python310-vcrpy \
 python3dist(vcrpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-six \

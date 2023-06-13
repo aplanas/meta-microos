@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(trimspaces.sty) \
 texlive-trimspaces"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

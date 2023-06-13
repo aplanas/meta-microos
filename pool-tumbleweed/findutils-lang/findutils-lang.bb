@@ -48,6 +48,7 @@ locale(findutils:uk) \
 locale(findutils:vi) \
 locale(findutils:zh_CN) \
 locale(findutils:zh_TW)"
+
 RDEPENDS:${PN} += "findutils"
 
 inherit rpm

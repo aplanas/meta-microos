@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-theme-default \
 pagure-theme-default-upstream"
+
 RDEPENDS:${PN} += "pagure-theme-upstream"
 
 inherit rpm

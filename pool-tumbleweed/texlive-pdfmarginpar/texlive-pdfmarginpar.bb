@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfmarginpar.sty) \
 texlive-pdfmarginpar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

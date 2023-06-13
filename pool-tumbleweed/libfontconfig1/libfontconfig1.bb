@@ -13,6 +13,7 @@ RPM_HASH = "d6a0cef4dee5ad9494bd7d3926b5f4232bd5b492fda808ef1cd13ce0e40d50eb4361
 RPROVIDES:${PN} += "libfontconfig.so.1()(64bit) \
 libfontconfig1 \
 libfontconfig1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fontconfig \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(azure-ai-language-nspkg) \
 python38-azure-ai-language-nspkg \
 python3dist(azure-ai-language-nspkg)"
+
 RDEPENDS:${PN} += "python38-azure-ai-nspkg \
 python38-azure-nspkg"
 

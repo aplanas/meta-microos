@@ -34,6 +34,7 @@ locale(gcc13:uk) \
 locale(gcc13:vi) \
 locale(gcc13:zh_CN) \
 locale(gcc13:zh_TW)"
+
 RDEPENDS:${PN} += "gcc13"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "378353472bdc259711e28e0b20317e9695c5c382bf840b216faad2f04e43d0503673
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ecpint-common"
+
 RDEPENDS:${PN} += "libecpint1"
 
 inherit rpm

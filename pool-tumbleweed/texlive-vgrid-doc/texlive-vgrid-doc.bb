@@ -9,6 +9,7 @@ RPM_HASH = "bd8a901ec5a0a86debd80b2ded335a2f2e06cb9cdd1ec569a5f51b7ef5cefbb92357
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vgrid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

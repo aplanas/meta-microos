@@ -13,6 +13,7 @@ RPM_HASH = "a884b8aace7b5c874c87701374a01cdc54c4d8aa7717bd4a7e7605e92095e86b22af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xrootd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "monitoring-plugins-dbi-pgsql \
 monitoring-plugins-dbi-pgsql(aarch-64) \
 monitoring-plugins-dbi_backend \
 nagios-plugins-dbi-pgsql"
+
 RDEPENDS:${PN} += "libdbi-drivers-dbd-pgsql \
 monitoring-plugins-dbi"
 

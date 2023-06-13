@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-graphrbac \
 python3.10dist(azure-graphrbac) \
 python310-azure-graphrbac \
 python3dist(azure-graphrbac)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

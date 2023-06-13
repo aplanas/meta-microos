@@ -37,6 +37,7 @@ libwebdavsyncservice.so()(64bit) \
 metainfo() \
 metainfo(org.gnome.Gnote.appdata.xml) \
 mimehandler(x-scheme-handler/note)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

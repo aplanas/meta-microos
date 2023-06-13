@@ -11,6 +11,7 @@ RPM_HASH = "9692e0567f5a087c73871f6f72a7f8b843c830740504cd0c8d7738a4fe87ae1a0f62
 
 RPROVIDES:${PN} += "oce-DRAWEXE \
 oce-DRAWEXE(aarch-64)"
+
 RDEPENDS:${PN} += "libTKDraw.so.11()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"
 

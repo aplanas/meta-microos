@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-anyascii \
 python3.10dist(anyascii) \
 python310-anyascii \
 python3dist(anyascii)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

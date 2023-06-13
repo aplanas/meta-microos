@@ -9,6 +9,7 @@ RPM_HASH = "5a1c0ef72b32b031f2c7690a2f9623b7983a219407246f401bae2be5095e9b9be21c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-calendar"
+
 RDEPENDS:${PN} += "vim"
 
 inherit rpm

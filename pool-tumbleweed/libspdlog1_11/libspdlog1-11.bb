@@ -15,6 +15,7 @@ RPM_HASH = "477a002776f1ce62e4e04664bf2539fa959fa5cceb87fe9841168e4a45a3fe28c649
 RPROVIDES:${PN} += "libspdlog.so.1.11()(64bit) \
 libspdlog1_11 \
 libspdlog1_11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

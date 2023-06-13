@@ -12,6 +12,7 @@ RPM_HASH = "1fa82b728206e10064759cbf3440ba8dc68afb8cf62de1996d44a231d816987b771e
 RPROVIDES:${PN} += "libjbig2dec.so.0()(64bit) \
 libjbig2dec0 \
 libjbig2dec0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

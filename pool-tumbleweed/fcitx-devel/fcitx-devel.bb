@@ -28,6 +28,7 @@ rpm_macro(_fcitx_skindir) \
 rpm_macro(_fcitx_tabledir) \
 rpm_macro(fcitx_requires) \
 rpm_macro(fcitx_table_requires)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/pkg-config \

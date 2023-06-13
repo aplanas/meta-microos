@@ -14,6 +14,7 @@ commonj_apis \
 geronimo-commonj-1_1-apis \
 mvn(org.apache.geronimo.specs:geronimo-commonj_1.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-commonj_1.1_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem"

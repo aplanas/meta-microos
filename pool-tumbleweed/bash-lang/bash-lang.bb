@@ -49,6 +49,7 @@ locale(bash:uk) \
 locale(bash:vi) \
 locale(bash:zh_CN) \
 locale(bash:zh_TW)"
+
 RDEPENDS:${PN} += "bash"
 
 inherit rpm

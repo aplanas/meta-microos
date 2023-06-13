@@ -12,6 +12,7 @@ RPM_HASH = "c92209bfc1afed096c52808649dd1f73a9d72ebf10cd12dd9187bd9fa4c2625760cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "setroubleshoot-plugins"
+
 RDEPENDS:${PN} += "setroubleshoot-server"
 
 inherit rpm

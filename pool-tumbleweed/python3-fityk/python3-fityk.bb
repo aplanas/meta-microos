@@ -13,6 +13,7 @@ RPM_HASH = "315c095d92372d93db476bab40ae6241f92cab8b0fc9bbae367aa475b69794e8494d
 
 RPROVIDES:${PN} += "python3-fityk \
 python3-fityk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

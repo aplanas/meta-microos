@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-mono-devel_mono \
 patterns-devel-mono-devel_mono(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ metainfo(org.gnome.Terminal.Nautilus.metainfo.xml) \
 nautilus-extension-terminal \
 nautilus-extension-terminal(aarch-64) \
 nautilus-open-terminal"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

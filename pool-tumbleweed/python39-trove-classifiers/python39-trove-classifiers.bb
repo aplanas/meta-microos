@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(trove-classifiers) \
 python39-trove-classifiers \
 python3dist(trove-classifiers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

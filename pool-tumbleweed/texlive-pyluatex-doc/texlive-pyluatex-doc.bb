@@ -9,6 +9,7 @@ RPM_HASH = "e128eb39932e1a98f81691926df0e5f5c6e9440f4a96650821d8888e71f24d35e176
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pyluatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

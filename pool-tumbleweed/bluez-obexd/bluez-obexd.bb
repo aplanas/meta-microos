@@ -9,6 +9,7 @@ RPM_HASH = "4f25bbd910220b835e6d67a0f9f3a98b9ccb8e3fc08cd9d0507fb59b6a601a2ea724
 
 RPROVIDES:${PN} += "bluez-obexd \
 bluez-obexd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bluez \
 ld-linux-aarch64.so.1()(64bit) \

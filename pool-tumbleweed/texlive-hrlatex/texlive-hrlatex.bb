@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(fsbispit.cls) \
 tex(fsbmath.sty) \
 tex(hrlatex.sty) \
 texlive-hrlatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

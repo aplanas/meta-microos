@@ -11,6 +11,7 @@ RPM_HASH = "87b2bfaaf20831286b151b5133bb4c3f342ad0868ff128290012c077ab57938759fa
 
 RPROVIDES:${PN} += "execstack \
 execstack(aarch-64)"
+
 RDEPENDS:${PN} += "coreutils \
 findutils \
 gawk \

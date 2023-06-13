@@ -10,6 +10,7 @@ RPM_HASH = "421dd8f31a07ec844f48113949ece72077026723ee9f1846b95314cde83cb2ea885b
 
 RPROVIDES:${PN} += "qt6-webchannel-private-devel \
 qt6-webchannel-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WebChannel) \
 qt6-core-private-devel"
 

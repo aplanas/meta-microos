@@ -136,6 +136,7 @@ font(playfairdisplayblack) \
 font(plyfrdisplay) \
 font(plyfrdisplayblack) \
 texlive-playfair-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

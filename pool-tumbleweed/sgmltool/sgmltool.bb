@@ -33,6 +33,7 @@ perl(Text::EntityMapGroup) \
 sgml-tools \
 sgmltool \
 sgmltool(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfl.so.2()(64bit) \

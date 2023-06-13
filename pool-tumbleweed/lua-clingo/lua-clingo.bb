@@ -12,6 +12,7 @@ RPM_HASH = "472f40d8d63bf0dd18caacddf476c3cef21d167a5d9bce820c305d2d53f0925916de
 
 RPROVIDES:${PN} += "lua-clingo \
 lua-clingo(aarch-64)"
+
 RDEPENDS:${PN} += "clingo \
 libc.so.6(GLIBC_2.17)(64bit) \
 libclingo.so.4()(64bit) \

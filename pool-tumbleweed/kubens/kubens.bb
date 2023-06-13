@@ -15,6 +15,7 @@ RPM_HASH = "e602802d44b38995b558fa5b4e99a9be03778d237b5a207206b2973f5ee64b88e6e6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubens"
+
 RDEPENDS:${PN} += "/usr/bin/bash"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPM_HASH = "956adf02b9a443ad656925cbfd202ed6c65bfede81df4f3a651827799ee239efd552
 
 RPROVIDES:${PN} += "swig-examples \
 swig-examples(aarch-64)"
+
 RDEPENDS:${PN} += "swig"
 
 inherit rpm

@@ -18,6 +18,7 @@ tex(chess30.tfm) \
 tex(chessf10.tfm) \
 tex(chessfig10.tfm) \
 texlive-chess"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

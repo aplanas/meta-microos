@@ -65,6 +65,7 @@ locale(ksnakeduel:ug) \
 locale(ksnakeduel:uk) \
 locale(ksnakeduel:zh_CN) \
 locale(ksnakeduel:zh_TW)"
+
 RDEPENDS:${PN} += "ksnakeduel"
 
 inherit rpm

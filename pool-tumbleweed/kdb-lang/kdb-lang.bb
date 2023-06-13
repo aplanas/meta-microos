@@ -39,6 +39,7 @@ locale(kdb:tr) \
 locale(kdb:uk) \
 locale(kdb:zh_CN) \
 locale(kdb:zh_TW)"
+
 RDEPENDS:${PN} += "kdb"
 
 inherit rpm

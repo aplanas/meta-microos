@@ -10,6 +10,7 @@ RPM_HASH = "a42817a278c472f2ed0c5156f2e3321f668bd49e22af58462ab96da40b55ed38d301
 
 RPROVIDES:${PN} += "pocketsphinx \
 pocketsphinx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "e0ef9361323e5962fc38d1143c91d009e50eafe7d5c999265407ce634770d076fed4
 RPROVIDES:${PN} += "libs3-4 \
 libs3-4(aarch-64) \
 libs3.so.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

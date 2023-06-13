@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pypsexec) \
 python39-pypsexec \
 python3dist(pypsexec)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-smbprotocol"
 

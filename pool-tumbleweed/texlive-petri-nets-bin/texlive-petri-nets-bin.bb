@@ -9,6 +9,7 @@ RPM_HASH = "c8b62d72a34979e28958f3e4bab07386945c8f8b6bd96c0e27d1f04263dfc916f8d9
 
 RPROVIDES:${PN} += "texlive-petri-nets-bin \
 texlive-petri-nets-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-petri-nets"
 
 inherit rpm

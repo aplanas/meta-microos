@@ -9,6 +9,7 @@ RPM_HASH = "251c68ce336923c3124dfd37e8b2190c18abf2c1e632acb6e9e127baa3651607bffb
 
 RPROVIDES:${PN} += "wyrmgus \
 wyrmgus(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenGL.so.0()(64bit) \

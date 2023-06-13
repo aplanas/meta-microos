@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(yarl) \
 python311-yarl \
 python311-yarl(aarch-64) \
 python3dist(yarl)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

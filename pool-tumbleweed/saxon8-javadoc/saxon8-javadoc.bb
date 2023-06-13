@@ -9,6 +9,7 @@ RPM_HASH = "bf40e058bb5670391cae2b7efef06b6aa657f2262a2795597f703431d94b4d323d7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

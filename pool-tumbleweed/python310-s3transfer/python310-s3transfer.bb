@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-s3transfer \
 python3.10dist(s3transfer) \
 python310-s3transfer \
 python3dist(s3transfer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-botocore \
 python310-requests"

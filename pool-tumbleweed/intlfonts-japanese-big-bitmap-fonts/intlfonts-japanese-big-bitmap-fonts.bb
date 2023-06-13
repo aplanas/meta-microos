@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ifntjapb \
 intlfonts-japanese-big-bitmap-fonts \
 locale(xorg-x11:ja)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

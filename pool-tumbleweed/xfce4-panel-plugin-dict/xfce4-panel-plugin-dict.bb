@@ -10,6 +10,7 @@ RPM_HASH = "ab7676a9c4c05d6ed09df20e6e8b5e310c5a9ab3dfae62484e51d0fb059aae68a286
 RPROVIDES:${PN} += "libxfce4dict.so()(64bit) \
 xfce4-panel-plugin-dict \
 xfce4-panel-plugin-dict(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

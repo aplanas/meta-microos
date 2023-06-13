@@ -10,6 +10,7 @@ RPM_HASH = "027a8cd5d12cf5a50fb1e3e0980c3ae6ecc24038f60ede085044baa637f6f5a41d5f
 RPROVIDES:${PN} += "ghc-devel(monad-logger-0.3.39-6zcML8Hf5KyK4tRVcaUTsA) \
 ghc-monad-logger-devel \
 ghc-monad-logger-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

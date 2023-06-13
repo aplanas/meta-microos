@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(flatpak) \
 flatpak \
 flatpak(aarch-64) \
 xdg-app"
+
 RDEPENDS:${PN} += "/bin/sh \
 bubblewrap \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(goosempl) \
 python39-GooseMPL \
 python3dist(goosempl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-deprecation \

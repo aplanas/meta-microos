@@ -9,6 +9,7 @@ RPM_HASH = "67d2866ebacaa2a2ca6ddb4d2c19f7326543b600228a3af580b71ba42ea660381c02
 
 RPROVIDES:${PN} += "dtkgui \
 dtkgui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

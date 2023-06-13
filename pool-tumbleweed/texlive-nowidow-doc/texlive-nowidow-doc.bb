@@ -9,6 +9,7 @@ RPM_HASH = "acfe15e64c6b327ad4b707d49a491ae5510e28738e8a50f3ccbf780636ffbd887f9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nowidow-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

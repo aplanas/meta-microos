@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(maturin) \
 python39-maturin \
 python39-maturin(aarch-64) \
 python3dist(maturin)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "6a6a49bb93d056ced3530d2a089d37f0ef152b808bacf852d8225eafe1c369698856
 
 RPROVIDES:${PN} += "power-profiles-daemon \
 power-profiles-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

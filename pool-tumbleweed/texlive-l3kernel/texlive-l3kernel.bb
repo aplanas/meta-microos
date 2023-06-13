@@ -35,6 +35,7 @@ tex(l3str-enc-iso88597.def) \
 tex(l3str-enc-iso88598.def) \
 tex(l3str-enc-iso88599.def) \
 texlive-l3kernel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

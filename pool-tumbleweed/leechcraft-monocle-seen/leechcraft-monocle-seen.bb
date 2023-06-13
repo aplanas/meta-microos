@@ -15,6 +15,7 @@ leechcraft-monocle-seen(aarch-64) \
 leechcraft-monocle-subplugin \
 libleechcraft_monocle_seen.so()(64bit) \
 mimehandler(image/vnd.djvu)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

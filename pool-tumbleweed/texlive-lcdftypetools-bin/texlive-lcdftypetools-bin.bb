@@ -9,6 +9,7 @@ RPM_HASH = "60bc2f5937ad23bc4ec9a12ba6a5018ad56a9bde3983c1b60b4f3950504f8594410c
 
 RPROVIDES:${PN} += "texlive-lcdftypetools-bin \
 texlive-lcdftypetools-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

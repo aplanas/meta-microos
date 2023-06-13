@@ -14,6 +14,7 @@ RPM_HASH = "ea8253b50c84ae290c3ff74dd446f515722fcb535b7d5d4915f7e03a834a51c72565
 RPROVIDES:${PN} += "libSDL2_sound.so.2()(64bit) \
 libSDL2_sound2 \
 libSDL2_sound2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

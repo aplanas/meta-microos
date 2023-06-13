@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-libmsym \
 python3.10dist(libmsym) \
 python310-libmsym \
 python3dist(libmsym)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

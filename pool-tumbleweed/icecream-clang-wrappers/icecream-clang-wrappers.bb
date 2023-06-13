@@ -9,6 +9,7 @@ RPM_HASH = "44b31e97db4ab93816fa5baca1fc312c4b362aaa4d2d401d4e9e15522cfb648e14ab
 
 RPROVIDES:${PN} += "icecream-clang-wrappers \
 icecream-clang-wrappers(aarch-64)"
+
 RDEPENDS:${PN} += "clang \
 icecream"
 

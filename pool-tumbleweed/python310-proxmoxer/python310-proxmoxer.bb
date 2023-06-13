@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-proxmoxer \
 python3.10dist(proxmoxer) \
 python310-proxmoxer \
 python3dist(proxmoxer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

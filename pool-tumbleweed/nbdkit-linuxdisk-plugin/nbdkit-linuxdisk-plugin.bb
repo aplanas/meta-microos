@@ -9,6 +9,7 @@ RPM_HASH = "953432bd579c2fb3aa5f56053134c21cab2e0ebb8994cf401eb6679fe995833309df
 
 RPROVIDES:${PN} += "nbdkit-linuxdisk-plugin \
 nbdkit-linuxdisk-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "e2fsprogs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

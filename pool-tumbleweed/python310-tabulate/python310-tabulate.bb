@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-tabulate \
 python3.10dist(tabulate) \
 python310-tabulate \
 python3dist(tabulate)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

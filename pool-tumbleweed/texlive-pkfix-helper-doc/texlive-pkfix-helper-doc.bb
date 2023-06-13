@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pkfix-helper.1) \
 texlive-pkfix-helper-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

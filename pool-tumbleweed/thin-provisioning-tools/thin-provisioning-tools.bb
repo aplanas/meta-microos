@@ -9,6 +9,7 @@ RPM_HASH = "d3ccc3b025fab25a843f02dc22f85885ad9372fa423ace884fb76caa0cecfc62754f
 
 RPROVIDES:${PN} += "thin-provisioning-tools \
 thin-provisioning-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "f856e2d72edf3e972cb430c3d39f76ac30c346101813333b691c2a8d4edc36c2ea29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ntl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

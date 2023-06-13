@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(abraces.sty) \
 texlive-abraces"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

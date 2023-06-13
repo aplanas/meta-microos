@@ -9,6 +9,7 @@ RPM_HASH = "af8fe7d0e8825ba3681274989f25a94f03c4694f97425ab2937a71617400fc4a2c40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nunito-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

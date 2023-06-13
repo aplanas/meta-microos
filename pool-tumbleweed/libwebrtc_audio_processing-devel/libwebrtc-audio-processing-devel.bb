@@ -14,6 +14,7 @@ RPM_HASH = "f24c1df599296fdca7648797f42c2f1e4938474548b87ece7db330c05eeb928697f9
 RPROVIDES:${PN} += "libwebrtc_audio_processing-devel \
 libwebrtc_audio_processing-devel(aarch-64) \
 pkgconfig(webrtc-audio-processing)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwebrtc_audio_processing1"
 

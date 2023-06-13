@@ -9,6 +9,7 @@ RPM_HASH = "89628f16f441464fd6a2271a458a826859fb649062ea0e051262ab02ae29c5b56386
 
 RPROVIDES:${PN} += "golang-github-prometheus-promu \
 golang-github-prometheus-promu(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

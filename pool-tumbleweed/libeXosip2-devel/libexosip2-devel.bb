@@ -10,6 +10,7 @@ RPM_HASH = "f179d2e3c31c88ca9c28e5435c321ea7acad3500c8cbaabb04be631524f5e12fd605
 RPROVIDES:${PN} += "libeXosip2-15-devel \
 libeXosip2-devel \
 libeXosip2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libeXosip2-15 \
 libosip2-devel \

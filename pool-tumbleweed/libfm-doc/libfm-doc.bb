@@ -9,6 +9,7 @@ RPM_HASH = "d7dcba614da608a063c9cef155890ee666265c47ae43ee5c4e4a6d8ec17dcfc4633f
 
 RPROVIDES:${PN} += "libfm-doc \
 libfm-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libfm"
 
 inherit rpm

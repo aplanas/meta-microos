@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "fixmath \
 fixmath(aarch-64) \
 libfixmath.so()(64bit) \
 libfixmath.so(FIXMATH_2022.07.20)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

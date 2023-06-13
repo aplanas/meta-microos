@@ -392,6 +392,7 @@ libtinfow.so.5(NCURSES_TINFO_6.2.20200212)(64bit) \
 libtinfow.so.5(NCURSES_TINFO_6.2.20211010)(64bit) \
 libtinfow.so.5(NCURSES_TINFO_6.4.current)(64bit) \
 ncurses"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

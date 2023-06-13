@@ -110,6 +110,7 @@ locale(mate-applets:zh_HK) \
 locale(mate-applets:zh_TW) \
 mate-applets-lang \
 mate-applets-lang-all"
+
 RDEPENDS:${PN} += "mate-applets"
 
 inherit rpm

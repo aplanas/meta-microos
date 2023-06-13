@@ -130,6 +130,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(dictionarysymbols) \
 texlive-dictsym-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

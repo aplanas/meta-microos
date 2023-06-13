@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(juraabbrev.sty) \
 texlive-juraabbrev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

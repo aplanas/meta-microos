@@ -43,6 +43,7 @@ ocamlx(Bos_os_u) \
 ocamlx(Bos_pat) \
 ocamlx(Bos_setup) \
 ocamlx(Bos_top)"
+
 RDEPENDS:${PN} += "ocaml(Astring) \
 ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \

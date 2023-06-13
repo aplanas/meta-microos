@@ -11,6 +11,7 @@ RPM_HASH = "b30185705c80e43a4a6beef853f0a03a181f741e1eba2d46ce75eed205eeebc108ef
 RPROVIDES:${PN} += "libstopspamplugin.so()(64bit) \
 psi+-plugins-stopspamplugin \
 psi+-plugins-stopspamplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

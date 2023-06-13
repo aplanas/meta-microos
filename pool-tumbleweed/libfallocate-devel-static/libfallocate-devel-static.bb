@@ -10,6 +10,7 @@ RPM_HASH = "c25a21d23f7c8455d5d3d0774e6bfb0ddda37752e97d4bdb2235f570ad771f9bc62a
 
 RPROVIDES:${PN} += "libfallocate-devel-static \
 libfallocate-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libfallocate-devel"
 
 inherit rpm

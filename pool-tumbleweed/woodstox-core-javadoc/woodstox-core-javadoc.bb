@@ -9,6 +9,7 @@ RPM_HASH = "0eedbb70104d42176161c8be7acb40d8a0dd107744e959386b88d675edefa062fb9b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "woodstox-core-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

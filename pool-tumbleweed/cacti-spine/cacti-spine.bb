@@ -11,6 +11,7 @@ RPM_HASH = "f7e5511fb19259bca3e3842e3f5e5b5d2477361be5c8464628a551dffc1d7ac1ca43
 RPROVIDES:${PN} += "cacti-spine \
 cacti-spine(aarch-64) \
 config(cacti-spine)"
+
 RDEPENDS:${PN} += "cacti \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

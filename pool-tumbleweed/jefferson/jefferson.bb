@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jefferson \
 python3.10dist(jefferson) \
 python3dist(jefferson)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cstruct \

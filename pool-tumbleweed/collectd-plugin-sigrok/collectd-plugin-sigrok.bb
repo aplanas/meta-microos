@@ -10,6 +10,7 @@ RPM_HASH = "25b760f44447cec16079381a8694a9d62553a6832e5cdaa03e8383495907766540c8
 
 RPROVIDES:${PN} += "collectd-plugin-sigrok \
 collectd-plugin-sigrok(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

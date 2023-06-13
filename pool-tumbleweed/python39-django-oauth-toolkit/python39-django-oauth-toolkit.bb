@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-oauth-toolkit) \
 python39-django-oauth-toolkit \
 python3dist(django-oauth-toolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-jwcrypto \

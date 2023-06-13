@@ -12,6 +12,7 @@ openSUSE-release-appliance-openstack \
 openSUSE-release-appliance-openstack(aarch-64) \
 product_flavor() \
 product_flavor(openSUSE)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

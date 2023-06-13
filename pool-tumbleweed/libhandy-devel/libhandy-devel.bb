@@ -12,6 +12,7 @@ RPM_HASH = "8daec244f230022c8af373313c1a0f1c667a8e1c9178de0462d6ffb36442fdaa3cb4
 RPROVIDES:${PN} += "libhandy-devel \
 libhandy-devel(aarch-64) \
 pkgconfig(libhandy-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhandy-1-0 \
 pkgconfig(gtk+-3.0) \

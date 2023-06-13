@@ -13,6 +13,7 @@ ocaml-pp-devel \
 ocaml-pp-devel(aarch-64) \
 ocamlfind(pp) \
 ocamlx(Pp)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Buffer) \

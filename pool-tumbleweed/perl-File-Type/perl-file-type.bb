@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(File::Type) \
 perl(File::Type::Builder) \
 perl-File-Type \
 perl-File-Type(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

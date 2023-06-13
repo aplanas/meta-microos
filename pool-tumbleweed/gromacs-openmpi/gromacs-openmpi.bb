@@ -12,6 +12,7 @@ RPM_HASH = "693995b32d13cfab6f277f7c1a8d03ad01f80ae672fb5a77449add5e0922ea8d6b68
 
 RPROVIDES:${PN} += "gromacs-openmpi \
 gromacs-openmpi(aarch-64)"
+
 RDEPENDS:${PN} += "gromacs-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-json-logger \
 python3.10dist(python-json-logger) \
 python310-python-json-logger \
 python3dist(python-json-logger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setuptools"
 

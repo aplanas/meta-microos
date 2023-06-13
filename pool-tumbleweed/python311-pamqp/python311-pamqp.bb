@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pamqp) \
 python311-pamqp \
 python3dist(pamqp)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

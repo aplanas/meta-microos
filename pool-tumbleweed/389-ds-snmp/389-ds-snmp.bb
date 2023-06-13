@@ -10,6 +10,7 @@ RPM_HASH = "c998a7d7d1336e7d8e8bbebcab01193ed3bd79e8d49855ef0b8fd3930d26c2b7bd0e
 RPROVIDES:${PN} += "389-ds-snmp \
 389-ds-snmp(aarch-64) \
 config(389-ds-snmp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 389-ds \
 ld-linux-aarch64.so.1()(64bit) \

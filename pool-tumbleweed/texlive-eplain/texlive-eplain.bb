@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(arrow.tex) \
 tex(btxmac.tex) \
 tex(eplain.tex) \
 texlive-eplain"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

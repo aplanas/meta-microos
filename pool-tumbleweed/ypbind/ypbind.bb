@@ -15,6 +15,7 @@ RPM_HASH = "27454365e607bd194db392f9b5b34746640799b1f7307e06091a4806365cd54ec681
 RPROVIDES:${PN} += "config(ypbind) \
 ypbind \
 ypbind(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/grep \
 ld-linux-aarch64.so.1()(64bit) \

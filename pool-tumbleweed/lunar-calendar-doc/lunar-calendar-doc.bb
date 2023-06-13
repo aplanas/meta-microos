@@ -9,6 +9,7 @@ RPM_HASH = "689c66b80b6886f81de41c2539749cd2ecd266e1f1e7570577fc13e1cb2dbf847aa2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lunar-calendar-doc"
+
 RDEPENDS:${PN} += "lunar-calendar"
 
 inherit rpm

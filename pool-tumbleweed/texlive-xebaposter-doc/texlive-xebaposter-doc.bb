@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-xebaposter-doc:fa) \
 texlive-xebaposter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "84f2ca46db0a65ea6d8607a9d900b1712912a64d5fbf938d1d4e1ef68232f66bcf7d
 
 RPROVIDES:${PN} += "zathura-zsh-completion \
 zathura-zsh-completion(aarch-64)"
+
 RDEPENDS:${PN} += "zathura \
 zsh"
 

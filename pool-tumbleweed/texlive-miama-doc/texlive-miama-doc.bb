@@ -9,6 +9,7 @@ RPM_HASH = "e6c30e50b9ea673e648de7b6c105e56a04f6165e5074b394957c40e855f2975d7b53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-miama-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

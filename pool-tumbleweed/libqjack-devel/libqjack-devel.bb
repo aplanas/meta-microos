@@ -9,6 +9,7 @@ RPM_HASH = "6de28acd059041b703b74db9a18583fc5374ff9fce462504a4377225da21affb8316
 
 RPROVIDES:${PN} += "libqjack-devel \
 libqjack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "jack-devel \
 libqjack0 \
 pkgconfig(Qt5Core)"

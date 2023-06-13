@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(html5lib) \
 python311-html5lib \
 python3dist(html5lib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six \
 python311-webencodings"

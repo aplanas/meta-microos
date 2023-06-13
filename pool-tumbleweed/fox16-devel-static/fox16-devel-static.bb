@@ -13,6 +13,7 @@ RPM_HASH = "43f0d2e2e3662619fbb84a55b7e3d697dc558ae166e2234b616d10107392fc3df053
 RPROVIDES:${PN} += "fox16-devel-static \
 fox16-devel-static(aarch-64) \
 fox16-static"
+
 RDEPENDS:${PN} += "fox16-devel"
 
 inherit rpm

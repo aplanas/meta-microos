@@ -9,6 +9,7 @@ RPM_HASH = "bd790deabf186f79dddbee4383d96449a55e74235c8193c932ebdffff25846d01262
 
 RPROVIDES:${PN} += "shadowsocks-v2ray-plugin \
 shadowsocks-v2ray-plugin(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

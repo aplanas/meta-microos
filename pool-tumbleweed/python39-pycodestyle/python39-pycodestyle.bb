@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(pycodestyle) \
 python39-pep8 \
 python39-pycodestyle \
 python3dist(pycodestyle)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

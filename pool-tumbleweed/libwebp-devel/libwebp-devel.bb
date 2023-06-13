@@ -18,6 +18,7 @@ pkgconfig(libwebp) \
 pkgconfig(libwebpdecoder) \
 pkgconfig(libwebpdemux) \
 pkgconfig(libwebpmux)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsharpyuv0 \
 libwebp7 \

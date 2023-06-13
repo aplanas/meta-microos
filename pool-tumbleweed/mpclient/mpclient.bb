@@ -12,6 +12,7 @@ RPM_HASH = "5e20007967deb536078afae23ec2695a6a6674e4e2e733925df0697cb7ffafc9e7d6
 RPROVIDES:${PN} += "config(mpclient) \
 mpclient \
 mpclient(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

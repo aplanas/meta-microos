@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "typelib(CDesktopEnums) \
 typelib(CinnamonDesktop) \
 typelib-1_0-CinnamonDesktop-3_0 \
 typelib-1_0-CinnamonDesktop-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libcinnamon-desktop.so.4()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

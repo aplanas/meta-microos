@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(notespages.sty) \
 texlive-notespages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

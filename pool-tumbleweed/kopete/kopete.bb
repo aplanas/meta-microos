@@ -27,6 +27,7 @@ metainfo() \
 metainfo(org.kde.kopete.appdata.xml) \
 mimehandler(application/x-icq) \
 mimehandler(application/x-kopete-emoticons)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

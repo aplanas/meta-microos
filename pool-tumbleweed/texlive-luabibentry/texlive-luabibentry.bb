@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luabibentry.sty) \
 texlive-luabibentry"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

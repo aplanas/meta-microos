@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libpnetcdf-openmpi3 \
 libpnetcdf.so.4()(64bit) \
 libpnetcdf4-openmpi3 \
 libpnetcdf4-openmpi3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

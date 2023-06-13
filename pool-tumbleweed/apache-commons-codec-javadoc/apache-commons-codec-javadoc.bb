@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache-commons-codec-javadoc \
 commons-codec-javadoc \
 jakarta-commons-codec-javadoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 javapackages-filesystem"
 

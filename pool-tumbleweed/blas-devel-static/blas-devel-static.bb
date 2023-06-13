@@ -13,6 +13,7 @@ RPM_HASH = "e97a7d4ebd13781775506172a46033f92d188820e90d59d84a00c68e124dd26ba61d
 
 RPROVIDES:${PN} += "blas-devel-static \
 blas-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel"
 
 inherit rpm

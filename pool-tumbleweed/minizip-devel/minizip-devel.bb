@@ -11,6 +11,7 @@ RPM_HASH = "631ee5a210143a7c0ae39dfe0585d681ef3c90e20ce277e9ffb0ea732f9f3e515eb3
 RPROVIDES:${PN} += "minizip-devel \
 minizip-devel(aarch-64) \
 pkgconfig(minizip)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libminizip1 \
 pkgconfig \

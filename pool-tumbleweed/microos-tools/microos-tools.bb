@@ -10,6 +10,7 @@ RPM_HASH = "bb1fc77df16990bca977229d17edc363a1b6c0adfc40f92b22a65d4333d1ce9e736d
 RPROVIDES:${PN} += "config(microos-tools) \
 microos-tools \
 microos-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 read-only-root-fs"

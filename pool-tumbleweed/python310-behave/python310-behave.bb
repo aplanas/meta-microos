@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-behave \
 python3.10dist(behave) \
 python310-behave \
 python3dist(behave)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ RPM_HASH = "cfd0bb5818c7213b46d58a877f332d1898e155a85b51a12f6889f01888e1123c35e9
 
 RPROVIDES:${PN} += "pfstmo \
 pfstmo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

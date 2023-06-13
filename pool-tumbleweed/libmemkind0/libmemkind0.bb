@@ -21,6 +21,7 @@ RPM_HASH = "ecc4c6c96abafe0286bec9fe9acf7a406d191b633094ecf57a7689a5bb5ce7808fa6
 RPROVIDES:${PN} += "libmemkind.so.0()(64bit) \
 libmemkind0 \
 libmemkind0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

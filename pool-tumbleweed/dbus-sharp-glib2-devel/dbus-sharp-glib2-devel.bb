@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-glib2-devel \
 pkgconfig(dbus-sharp-glib-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-sharp-glib2 \
 pkgconfig(dbus-sharp-2.0)"

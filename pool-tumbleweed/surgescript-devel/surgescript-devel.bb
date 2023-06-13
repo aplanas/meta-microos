@@ -11,6 +11,7 @@ RPM_HASH = "fe71afc2e9ad6f62c967cbe105d7c63f9b5c030e5d193a12b05a8e3fcf96bcb2b0ff
 RPROVIDES:${PN} += "pkgconfig(surgescript) \
 surgescript-devel \
 surgescript-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsurgescript0_5_6"
 

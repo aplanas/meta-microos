@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(scontents-code.tex) \
 tex(scontents.sty) \
 tex(scontents.tex) \
 texlive-scontents"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

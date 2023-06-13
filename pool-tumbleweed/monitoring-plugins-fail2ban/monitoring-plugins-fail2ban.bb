@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-fail2ban \
 nagios-plugins-fail2ban"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

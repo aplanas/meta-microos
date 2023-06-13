@@ -14,6 +14,7 @@ RPM_HASH = "1bb98c98f8ee7d9427905fba033cace6e47728a83bf4a49d038dd02e3181e495edce
 RPROVIDES:${PN} += "libplplotqt.so.2()(64bit) \
 libplplotqt2 \
 libplplotqt2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

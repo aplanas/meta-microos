@@ -9,6 +9,7 @@ RPM_HASH = "f221efda8c9d707d0c8346545a07fd9b37c4e908d793e32ee1f6a5944774f3efd833
 
 RPROVIDES:${PN} += "texlive-fontinst-bin \
 texlive-fontinst-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-fontinst"
 
 inherit rpm

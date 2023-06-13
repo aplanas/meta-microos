@@ -23,6 +23,7 @@ RPM_HASH = "4bd9d0ed4b1801f628374f971870b2b1c512b2f2abcb055ae4c92579139de62238b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lensfun-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "b1f92fab68f9a92a42c5d27168f4e2f9ca4145930b38b270fe9b1aa98712b97e1f69
 RPROVIDES:${PN} += "libdtkwm.so.5()(64bit) \
 libdtkwm5 \
 libdtkwm5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "a8694af808e1bc013cd7da287ab04ad6810c21a1fd8222d4aff7ef09bbe3ae37edb5
 RPROVIDES:${PN} += "libyara-devel \
 libyara-devel(aarch-64) \
 pkgconfig(yara)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyara10 \
 pkgconfig(jansson)"

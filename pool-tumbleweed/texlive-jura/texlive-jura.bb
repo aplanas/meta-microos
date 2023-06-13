@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(alphanum.sty) \
 tex(jura.cls) \
 texlive-jura"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

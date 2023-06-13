@@ -12,6 +12,7 @@ RPM_HASH = "6408ef1fceef82666515c588775b00a4f5fb94e420f49216fd6dea2c684800bfde4a
 
 RPROVIDES:${PN} += "python39-pyarrow-devel \
 python39-pyarrow-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Cython \
 python39-pyarrow"

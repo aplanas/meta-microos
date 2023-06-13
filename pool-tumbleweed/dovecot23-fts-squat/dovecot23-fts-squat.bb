@@ -18,6 +18,7 @@ RPM_HASH = "23184393644f85d3f60eb74ddb9975672941883ac9fc54ac721f75a86b248ea72dcc
 RPROVIDES:${PN} += "dovecot23-fts-squat \
 dovecot23-fts-squat(aarch-64) \
 lib21_fts_squat_plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "dovecot23 \
 dovecot23-fts \
 ld-linux-aarch64.so.1()(64bit) \

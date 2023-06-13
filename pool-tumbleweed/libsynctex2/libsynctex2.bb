@@ -13,6 +13,7 @@ RPM_HASH = "7d3aea5ea268f8de2a35a68b89ffc3c5bdc80a34498e3b007b0baac6bea6c7856fc1
 RPROVIDES:${PN} += "libsynctex.so.2()(64bit) \
 libsynctex2 \
 libsynctex2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

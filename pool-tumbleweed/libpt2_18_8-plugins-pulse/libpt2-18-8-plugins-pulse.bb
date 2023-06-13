@@ -10,6 +10,7 @@ RPM_HASH = "9a14fbe2195eeb17d93a356ea29c000c8cdff27e784f38ce35c59e07de19efc5a1ab
 RPROVIDES:${PN} += "libpt2-audio-plugin \
 libpt2_18_8-plugins-pulse \
 libpt2_18_8-plugins-pulse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

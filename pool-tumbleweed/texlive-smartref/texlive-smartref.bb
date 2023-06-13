@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(byname.sty) \
 tex(smartref.sty) \
 texlive-smartref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

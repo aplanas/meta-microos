@@ -10,6 +10,7 @@ RPM_HASH = "06921adf682f934d4a762bf210142c551953091fb667b5cf2460d6a516d9367fc490
 RPROVIDES:${PN} += "gtksourceviewmm-devel \
 gtksourceviewmm-devel(aarch-64) \
 pkgconfig(gtksourceviewmm-4.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtksourceviewmm-4_0-0 \
 pkgconfig(glibmm-2.4) \

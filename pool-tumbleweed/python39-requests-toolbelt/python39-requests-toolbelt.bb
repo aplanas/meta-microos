@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-toolbelt) \
 python39-requests-toolbelt \
 python3dist(requests-toolbelt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

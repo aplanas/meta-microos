@@ -15,6 +15,7 @@ RPM_HASH = "a0c792be99db6f2a263320984e0f5053cd989b93900910c696467bf663b32841b234
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 glances"
 

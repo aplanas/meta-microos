@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(numerica-tables.sty) \
 texlive-numerica-tables"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

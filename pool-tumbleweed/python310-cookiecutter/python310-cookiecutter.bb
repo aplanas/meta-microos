@@ -17,6 +17,7 @@ python3-cookiecutter \
 python3.10dist(cookiecutter) \
 python310-cookiecutter \
 python3dist(cookiecutter)"
+
 RDEPENDS:${PN} += "(python310-Jinja2 >= 2.7 with python310-Jinja2 < 4) \
 (python310-click >= 7 with python310-click < 9) \
 /bin/sh \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(embedall.sty) \
 texlive-embedall"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

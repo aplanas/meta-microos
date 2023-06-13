@@ -12,6 +12,7 @@ RPM_HASH = "c9abebaf4c84ecaf4b61227a9a06cfeb16ec7b5833a6e4622201bfe016453aada983
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-seahorse"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

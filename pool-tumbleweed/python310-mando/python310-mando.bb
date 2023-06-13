@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mando \
 python3.10dist(mando) \
 python310-mando \
 python3dist(mando)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 
