@@ -12,6 +12,7 @@ RPM_HASH = "f74c4ee38328cd557cca15aa3dd7881f36a145da8f5909fc598971946141375a9d9d
 RPROVIDES:${PN} += "cmake(Qca-qt6) \
 qca-qt6-devel \
 qca-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Core) \
 cmake(Qt6Network) \
 ld-linux-aarch64.so.1()(64bit) \

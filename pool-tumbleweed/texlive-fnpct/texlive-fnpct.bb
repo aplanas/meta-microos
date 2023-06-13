@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(fnpct-2019-10-05.sty) \
 tex(fnpct.sty) \
 texlive-fnpct"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

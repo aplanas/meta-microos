@@ -10,6 +10,7 @@ RPM_HASH = "d04de296b0da86f36665ebfd448ae5f6c8fc86cdf3ec38cc081a659eb45594521f4a
 RPROVIDES:${PN} += "ghc-devel(th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT) \
 ghc-th-abstraction-devel \
 ghc-th-abstraction-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

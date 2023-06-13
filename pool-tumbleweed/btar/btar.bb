@@ -12,6 +12,7 @@ RPM_HASH = "ae4a324ad9a8d03274d6c25d4a4bfbe3a603c90b71114cf5cbc83a46fda7e1974ac4
 
 RPROVIDES:${PN} += "btar \
 btar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

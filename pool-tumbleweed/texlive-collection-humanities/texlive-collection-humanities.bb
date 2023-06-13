@@ -10,6 +10,7 @@ RPM_HASH = "05958c5a277f5f68f8561697d16576b572ad491292ccb8df12a737aa8de6670f2be9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-humanities"
+
 RDEPENDS:${PN} += "texlive-adtrees \
 texlive-bibleref \
 texlive-bibleref-lds \

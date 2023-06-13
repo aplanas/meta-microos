@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bytefield.sty) \
 texlive-bytefield"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

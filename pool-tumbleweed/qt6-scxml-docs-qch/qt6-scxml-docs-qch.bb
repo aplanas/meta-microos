@@ -9,6 +9,7 @@ RPM_HASH = "ed60a0eb896303007b4b68b1d69f3892fe76ac530ec8dd0b99569a080b0af29bc679
 
 RPROVIDES:${PN} += "qt6-scxml-docs-qch \
 qt6-scxml-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

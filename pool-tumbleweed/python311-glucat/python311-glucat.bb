@@ -13,6 +13,7 @@ RPM_HASH = "cadafe424b733757dc1ec30292e42688284c6711ef1f40acb4f79dd8dd4eafd0b0c4
 
 RPROVIDES:${PN} += "python311-glucat \
 python311-glucat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

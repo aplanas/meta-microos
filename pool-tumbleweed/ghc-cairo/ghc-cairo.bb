@@ -12,6 +12,7 @@ RPM_HASH = "80421551ebcc68dfc4c6676469ea0ab17e5cdc501bf944a5ad144db8ade3a78eddd2
 RPROVIDES:${PN} += "ghc-cairo \
 ghc-cairo(aarch-64) \
 libHScairo-0.13.8.2-84nOBKgVLz3788JDxxB5om-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

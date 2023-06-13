@@ -10,6 +10,7 @@ RPM_HASH = "8341b5a4e4626ac027dd6aed60e6f85e58191df6d8e13eb2f89733c77af12fd0caec
 RPROVIDES:${PN} += "ghc-bimap-prof \
 ghc-bimap-prof(aarch-64) \
 ghc-prof(bimap-0.5.0-3nKyJuRybYg2I5XOsBhwKE)"
+
 RDEPENDS:${PN} += "ghc-bimap-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

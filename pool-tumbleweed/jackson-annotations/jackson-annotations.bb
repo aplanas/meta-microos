@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-annotations \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \
 mvn(com.fasterxml.jackson.core:jackson-annotations:pom:) \
 osgi(com.fasterxml.jackson.core.jackson-annotations)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

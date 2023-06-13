@@ -9,6 +9,7 @@ RPM_HASH = "b0fd3043dab9551bb02f3261361da3471d84b89e09e96f687d73f3fc24fea0b2f0b5
 
 RPROVIDES:${PN} += "usrp-tools \
 usrp-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

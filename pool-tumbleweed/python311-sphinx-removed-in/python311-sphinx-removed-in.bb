@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-removed-in) \
 python311-sphinx-removed-in \
 python3dist(sphinx-removed-in)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx"
 

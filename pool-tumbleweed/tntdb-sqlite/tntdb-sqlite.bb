@@ -9,6 +9,7 @@ RPM_HASH = "4b8da10d971565e69a5ee682dcc257a12956a1fe274be8bd6a98ebe952575e18b418
 
 RPROVIDES:${PN} += "tntdb-sqlite \
 tntdb-sqlite(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

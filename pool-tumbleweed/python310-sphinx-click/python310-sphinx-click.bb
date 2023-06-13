@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinx-click \
 python3.10dist(sphinx-click) \
 python310-sphinx-click \
 python3dist(sphinx-click)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3.10dist(click) \
 python3.10dist(docutils) \

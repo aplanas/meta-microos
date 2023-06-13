@@ -10,6 +10,7 @@ RPM_HASH = "8f576e17a254ac5e35d3413bf569da9a4a95ef645b18a71073469598ac4493fcc320
 
 RPROVIDES:${PN} += "xpr \
 xpr(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

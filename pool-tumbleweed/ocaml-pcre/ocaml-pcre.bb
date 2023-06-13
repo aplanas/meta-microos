@@ -9,6 +9,7 @@ RPM_HASH = "0f19e31b595b3b566c8244923575a2babc3ee05043585f982fc8541a50ecd1188da1
 
 RPROVIDES:${PN} += "ocaml-pcre \
 ocaml-pcre(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libpcre.so.1()(64bit)"
 

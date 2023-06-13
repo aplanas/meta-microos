@@ -17,6 +17,7 @@ mvn(wsdl4j:wsdl4j) \
 mvn(wsdl4j:wsdl4j:pom:) \
 osgi(javax.wsdl) \
 wsdl4j"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

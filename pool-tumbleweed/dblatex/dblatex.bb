@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dblatex \
 python3.10dist(dblatex) \
 python3dist(dblatex)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 docbook_4 \
 python(abi) \

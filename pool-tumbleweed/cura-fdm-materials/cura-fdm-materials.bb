@@ -9,6 +9,7 @@ RPM_HASH = "c02f58220e5000df241e68ec1d8e201c7a424c83fd54b3717999bcf0ee60eb7ad893
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cura-fdm-materials"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

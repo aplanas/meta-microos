@@ -27,6 +27,7 @@ mimehandler(multipart/related) \
 mimehandler(text/html) \
 mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https)"
+
 RDEPENDS:${PN} += "epiphany-branding \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \

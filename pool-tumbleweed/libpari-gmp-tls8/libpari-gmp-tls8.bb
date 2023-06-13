@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libpari-gmp \
 libpari-gmp-tls.so.8()(64bit) \
 libpari-gmp-tls8 \
 libpari-gmp-tls8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

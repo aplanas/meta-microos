@@ -21,6 +21,7 @@ RPM_HASH = "35e905a7326af86ae5d4fd1f697c817c5c40bdce98961090e0ef81d36bd3027ef6a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-bufexplorer"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

@@ -19,6 +19,7 @@ maxima-xmaxima(aarch-64) \
 metainfo() \
 metainfo(net.sourceforge.maxima.xmaxima.appdata.xml) \
 xmaxima"
+
 RDEPENDS:${PN} += "/bin/sh \
 maxima \
 tk"

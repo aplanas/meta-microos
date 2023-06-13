@@ -9,6 +9,7 @@ RPM_HASH = "ade83a46d978df3332cf2e57a8d3c64ee37baa5cd1c66c98c2b90c962bb7650d8f1d
 
 RPROVIDES:${PN} += "tdfiglet \
 tdfiglet(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

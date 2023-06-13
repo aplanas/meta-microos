@@ -15,6 +15,7 @@ group(trusted) \
 group(users) \
 system-user-root \
 user(root)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

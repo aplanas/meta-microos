@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(laptop-mode-tools) \
 laptop-mode-tools"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

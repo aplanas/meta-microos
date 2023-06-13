@@ -13,6 +13,7 @@ RPM_HASH = "fbef46a166503bb77cbe2b4068777e6d5cea56b801b21d832e48a80e43ff35c176d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnucash-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

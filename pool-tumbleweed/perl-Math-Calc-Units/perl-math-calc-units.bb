@@ -33,6 +33,7 @@ perl(Math::Calc::Units::Rank) \
 perl(Parse::Yapp::Driver) \
 perl-Math-Calc-Units \
 perl-Math-Calc-Units(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-libusb1 \
 python3.10dist(libusb1) \
 python310-libusb1 \
 python3dist(libusb1)"
+
 RDEPENDS:${PN} += "libusb-1_0-0 \
 python(abi)"
 

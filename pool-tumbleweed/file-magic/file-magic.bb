@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(file-magic) \
 file-magic \
 libmagic-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

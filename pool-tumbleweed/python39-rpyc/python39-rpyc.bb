@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rpyc) \
 python39-rpyc \
 python3dist(rpyc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 /usr/bin/python3.9 \

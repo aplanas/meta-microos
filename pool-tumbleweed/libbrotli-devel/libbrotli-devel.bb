@@ -19,6 +19,7 @@ libbrotlienc-devel \
 pkgconfig(libbrotlicommon) \
 pkgconfig(libbrotlidec) \
 pkgconfig(libbrotlienc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbrotlicommon1 \
 libbrotlidec1 \

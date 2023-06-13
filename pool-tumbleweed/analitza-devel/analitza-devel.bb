@@ -11,6 +11,7 @@ RPM_HASH = "ecd385bd178c35d042bcc48f811a646f5e046debabe358c95c431d7844971a1a5d86
 RPROVIDES:${PN} += "analitza-devel \
 analitza-devel(aarch-64) \
 cmake(Analitza5)"
+
 RDEPENDS:${PN} += "libAnalitza8"
 
 inherit rpm

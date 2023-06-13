@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-traceback2 \
 python3.10dist(traceback2) \
 python310-traceback2 \
 python3dist(traceback2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-linecache2 \
 python310-pbr"

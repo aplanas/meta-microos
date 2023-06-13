@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyvmomi) \
 python311-pyvmomi \
 python3dist(pyvmomi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-six"

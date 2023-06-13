@@ -9,6 +9,7 @@ RPM_HASH = "09db69ca4ff0825c175e6175140671f3a8550af98249358a263cd079363ddf7ed753
 
 RPROVIDES:${PN} += "libqt5-qtnetworkauth-examples \
 libqt5-qtnetworkauth-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

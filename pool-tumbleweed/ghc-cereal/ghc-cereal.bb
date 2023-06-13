@@ -11,6 +11,7 @@ RPM_HASH = "d35b58d7eda2d4f7f67310b3561727b20d204c213e2d7fe68b9164506813e9257f9f
 RPROVIDES:${PN} += "ghc-cereal \
 ghc-cereal(aarch-64) \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

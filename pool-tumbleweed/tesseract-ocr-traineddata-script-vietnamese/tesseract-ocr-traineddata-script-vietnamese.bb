@@ -10,6 +10,7 @@ RPM_HASH = "5c5ae95819216f0c2653ab39efb91b4442c4a607b5de2ac13bc3ef52fa8e4a7ab255
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-vietnamese"
+
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

@@ -95,6 +95,7 @@ locale(gnome-menus:vi) \
 locale(gnome-menus:zh_CN) \
 locale(gnome-menus:zh_HK) \
 locale(gnome-menus:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-menus"
 
 inherit rpm

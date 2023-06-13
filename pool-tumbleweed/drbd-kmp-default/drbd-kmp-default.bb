@@ -16,6 +16,7 @@ drbd-kmp-default-k6.3.4_1 \
 kmod(drbd.ko) \
 kmod(drbd_transport_tcp.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

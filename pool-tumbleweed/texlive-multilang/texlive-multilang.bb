@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(multilang-sect.sty) \
 tex(multilang-tags.sty) \
 tex(multilang.sty) \
 texlive-multilang"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mlist.cfg) \
 tex(mlist.sty) \
 texlive-mlist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "b02b097d843e30b708b35988447dce0a9d5f5e0807440a8211e42fb04c9413fae969
 
 RPROVIDES:${PN} += "webkit-jsc-6.0 \
 webkit-jsc-6.0(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

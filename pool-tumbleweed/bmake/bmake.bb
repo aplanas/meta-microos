@@ -16,6 +16,7 @@ RPM_HASH = "d153a06ea5ba94f7fc03c5d38513a308de3b730e620131fef66e659363f752a3d11f
 
 RPROVIDES:${PN} += "bmake \
 bmake(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

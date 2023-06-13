@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pstool.sty) \
 texlive-pstool"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

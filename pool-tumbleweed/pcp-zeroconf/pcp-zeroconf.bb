@@ -14,6 +14,7 @@ RPM_HASH = "62b8affa7f15551313be31e7b0514b5fe10e6f18001ef385c3975b632f8ed2d52191
 RPROVIDES:${PN} += "config(pcp-zeroconf) \
 pcp-zeroconf \
 pcp-zeroconf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 pcp \
 pcp-doc \

@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "tex(listofitems.sty) \
 tex(listofitems.tex) \
 tex(listofitemsold.tex) \
 texlive-listofitems"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

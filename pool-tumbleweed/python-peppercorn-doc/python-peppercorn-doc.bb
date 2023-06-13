@@ -9,6 +9,7 @@ RPM_HASH = "6d4bf78873f548ef42222f8ac0a27dddbb9010ac659534e107740e495dfb2283ab7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-peppercorn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

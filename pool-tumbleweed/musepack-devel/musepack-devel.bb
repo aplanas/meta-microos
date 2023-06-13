@@ -9,6 +9,7 @@ RPM_HASH = "5f42e8c8575569d4cfc30dfeae0ebb7ef725e941e62f79ddedb369fd1b6eee066342
 
 RPROVIDES:${PN} += "musepack-devel \
 musepack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmpcdec6"
 
 inherit rpm

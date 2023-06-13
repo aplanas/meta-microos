@@ -10,6 +10,7 @@ RPM_HASH = "e50d99bb6d66d35dda1e0a9570e0bdb2ad0b3529210e966af3c8d253b459864c8c3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pangomm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-push-notifications) \
 python39-django-push-notifications \
 python3dist(django-push-notifications)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-pywebpush"

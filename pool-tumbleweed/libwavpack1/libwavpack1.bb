@@ -14,6 +14,7 @@ RPM_HASH = "33d6682a0552698287b3d6643b9ac21c34ff9d8c3d9d916694d2ecb961beca2d2b54
 RPROVIDES:${PN} += "libwavpack.so.1()(64bit) \
 libwavpack1 \
 libwavpack1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ librbd.so.1()(64bit) \
 librbd1 \
 librbd1(aarch-64) \
 librbd_tp.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

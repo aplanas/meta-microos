@@ -11,6 +11,7 @@ RPM_HASH = "f123cf8d4d5870107590eea248c96ade9733635ec10d7475c24063e7391a81d7e794
 RPROVIDES:${PN} += "libexo-2-0 \
 libexo-2-0(aarch-64) \
 libexo-2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 exo-data \
 ld-linux-aarch64.so.1()(64bit) \

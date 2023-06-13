@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-monotonic \
 python3.10dist(monotonic) \
 python310-monotonic \
 python3dist(monotonic)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

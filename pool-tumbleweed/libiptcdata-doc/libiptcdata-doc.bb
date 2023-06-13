@@ -13,6 +13,7 @@ RPM_HASH = "798d37d90988de3d4c07350f730de9df331f4b9652a4434bea3f895181e6fbe790e8
 
 RPROVIDES:${PN} += "libiptcdata-doc \
 libiptcdata-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

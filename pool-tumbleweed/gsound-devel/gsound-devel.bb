@@ -15,6 +15,7 @@ RPM_HASH = "0d8600c08da7cee3aeb3f2b4c500baecdee40702411c0a43a47ca5deeb25b8b4f473
 RPROVIDES:${PN} += "gsound-devel \
 gsound-devel(aarch-64) \
 pkgconfig(gsound)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgsound0 \
 pkgconfig(gio-2.0) \

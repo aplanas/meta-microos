@@ -28,6 +28,7 @@ metainfo(chocolate-doom.appdata.xml) \
 metainfo(chocolate-heretic.appdata.xml) \
 metainfo(chocolate-hexen.appdata.xml) \
 metainfo(chocolate-strife.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

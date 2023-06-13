@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-girder-client \
 python3.10dist(girder-client) \
 python310-girder-client \
 python3dist(girder-client)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

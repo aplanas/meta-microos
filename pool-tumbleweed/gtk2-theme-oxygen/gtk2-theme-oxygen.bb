@@ -17,6 +17,7 @@ RPM_HASH = "bbbcd2eb72ab7dd6ac55483ef16c9c2d080c6d392825caa4084a879571d7390e3940
 RPROVIDES:${PN} += "gtk2-theme-oxygen \
 gtk2-theme-oxygen(aarch-64) \
 oxygen-gtk2"
+
 RDEPENDS:${PN} += "gtk2-engine-oxygen \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

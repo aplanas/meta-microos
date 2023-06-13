@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-qpageview \
 python3.10dist(qpageview) \
 python310-qpageview \
 python3dist(qpageview)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-poppler-qt5 \
 python310-qt5"

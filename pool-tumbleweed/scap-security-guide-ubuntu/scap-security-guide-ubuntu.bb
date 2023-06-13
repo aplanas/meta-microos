@@ -16,6 +16,7 @@ RPM_HASH = "4017ed3dc729bae699e484f7ad92e9018a1be97371f260291ec4c8e58c1e67af08be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-ubuntu"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

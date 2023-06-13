@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(typogrify) \
 python311-typogrify \
 python3dist(typogrify)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-smartypants"
 

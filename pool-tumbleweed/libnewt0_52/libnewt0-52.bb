@@ -23,6 +23,7 @@ libnewt.so.0.52(NEWT_0.52.6)(64bit) \
 libnewt.so.0.52(NEWT_0.52.9)(64bit) \
 libnewt0_52 \
 libnewt0_52(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

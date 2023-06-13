@@ -11,6 +11,7 @@ RPM_HASH = "867ad0bbeeb523ec577777c05c6172e626dfdfc8541b37a1c90432bf1bc710f27f2c
 RPROVIDES:${PN} += "typelib(Jcat) \
 typelib-1_0-Jcat-1_0 \
 typelib-1_0-Jcat-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libjcat.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

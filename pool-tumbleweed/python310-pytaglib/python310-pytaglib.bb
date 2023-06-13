@@ -13,6 +13,7 @@ python3.10dist(pytaglib) \
 python310-pytaglib \
 python310-pytaglib(aarch-64) \
 python3dist(pytaglib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

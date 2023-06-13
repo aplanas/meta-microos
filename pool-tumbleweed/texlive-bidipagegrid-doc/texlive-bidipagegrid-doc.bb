@@ -9,6 +9,7 @@ RPM_HASH = "4bb3ae240709f039b303e40c4f6600f6dc20866bf0689357857dbfd84dbd91ee57e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidipagegrid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

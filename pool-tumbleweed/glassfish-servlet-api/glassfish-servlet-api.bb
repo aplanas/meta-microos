@@ -21,6 +21,7 @@ mvn(org.apache.geronimo.specs:geronimo-servlet_3.0_spec:pom:) \
 mvn(org.eclipse.jetty.orbit:javax.servlet) \
 mvn(org.eclipse.jetty.orbit:javax.servlet:pom:) \
 osgi(javax.servlet-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

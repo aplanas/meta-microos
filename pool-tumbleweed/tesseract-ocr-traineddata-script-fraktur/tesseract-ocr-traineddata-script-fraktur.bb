@@ -10,6 +10,7 @@ RPM_HASH = "a5b8796ce23cfe13ee326f7b45385de344bb1a5405ce710b3f65be63e7fdc430ed4c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-fraktur"
+
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

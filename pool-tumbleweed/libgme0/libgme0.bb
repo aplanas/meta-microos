@@ -20,6 +20,7 @@ RPM_HASH = "4672fbd5f8f4f14d1951fa9aa6d30a23aa9b676be00dc2f8c8870833d010fac0374c
 RPROVIDES:${PN} += "libgme.so.0()(64bit) \
 libgme0 \
 libgme0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

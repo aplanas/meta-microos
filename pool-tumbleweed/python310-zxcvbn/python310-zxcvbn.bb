@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-zxcvbn \
 python3.10dist(zxcvbn) \
 python310-zxcvbn \
 python3dist(zxcvbn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

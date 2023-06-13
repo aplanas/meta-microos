@@ -20,6 +20,7 @@ postfix(aarch-64) \
 postfix-lmdb \
 smtp_daemon \
 user(postfix)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ed \

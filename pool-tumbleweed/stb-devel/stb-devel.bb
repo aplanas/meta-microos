@@ -30,6 +30,7 @@ RPM_HASH = "ddea816979b5923897defebbc40cd8fc4fcc2f5080658f9b2eafd91b976b92059092
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stb-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

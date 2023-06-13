@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Z3) \
 pkgconfig(z3) \
 z3-devel \
 z3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libz3-4_12"
 

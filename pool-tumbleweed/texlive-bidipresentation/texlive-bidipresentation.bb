@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bidiprescolors.cfg) \
 tex(bidipresentation.cls) \
 texlive-bidipresentation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

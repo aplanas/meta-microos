@@ -11,6 +11,7 @@ RPM_HASH = "a630ffb7caf9dca2b370e7afaedf8ae8398ed344e4178fe2280052c1cedca7a04426
 RPROVIDES:${PN} += "libucm.so.0()(64bit) \
 libucm0 \
 libucm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "11a114561e797901068619e2f466b72c8389834a4a1af5d3199ea646ec7f3e88179d
 
 RPROVIDES:${PN} += "gtkglext-doc \
 gtkglext-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libgtkglext-x11-1_0-0"
 
 inherit rpm

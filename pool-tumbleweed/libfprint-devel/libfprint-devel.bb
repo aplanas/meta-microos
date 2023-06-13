@@ -12,6 +12,7 @@ RPM_HASH = "5a770ff851812bc0ff1218e5a43d8a0a0b46fac70979dcd8ce59a27bd7fd53b54fa8
 RPROVIDES:${PN} += "libfprint-devel \
 libfprint-devel(aarch-64) \
 pkgconfig(libfprint-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libfprint \

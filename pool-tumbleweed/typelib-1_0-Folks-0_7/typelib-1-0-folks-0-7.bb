@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "typelib(Folks) \
 typelib(FolksDummy) \
 typelib-1_0-Folks-0_7 \
 typelib-1_0-Folks-0_7(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(GLib) \
 typelib(GObject) \
 typelib(Gee) \

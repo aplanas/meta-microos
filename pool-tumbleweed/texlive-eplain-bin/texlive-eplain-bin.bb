@@ -9,6 +9,7 @@ RPM_HASH = "9c62e7ba8dd9b9d91124b708f6ef983c9407b8f5c858cfa4941a7368a2851896976d
 
 RPROVIDES:${PN} += "texlive-eplain-bin \
 texlive-eplain-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-eplain"
 
 inherit rpm

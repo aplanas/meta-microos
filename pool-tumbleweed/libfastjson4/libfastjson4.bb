@@ -13,6 +13,7 @@ RPM_HASH = "a2ff82eb896ddf9f124e798b8df063288eaa925c9921ebc0175901bf24e230d64661
 RPROVIDES:${PN} += "libfastjson.so.4()(64bit) \
 libfastjson4 \
 libfastjson4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

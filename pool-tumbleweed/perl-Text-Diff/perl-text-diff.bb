@@ -35,6 +35,7 @@ perl(Text::Diff::Base) \
 perl(Text::Diff::Config) \
 perl(Text::Diff::Table) \
 perl-Text-Diff"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Algorithm::Diff)"
 

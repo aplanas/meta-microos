@@ -9,6 +9,7 @@ RPM_HASH = "426dde8f4ab44aa6fcabce3708b5ace0b2538ea7ca05107af2cfe46c2b01330c0341
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-logmanager-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

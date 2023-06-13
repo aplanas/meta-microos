@@ -13,6 +13,7 @@ RPM_HASH = "94d7805c5410190bb13ea8935a063356a832b87be3d738e99cf53f9cb9fbcf3f91bb
 RPROVIDES:${PN} += "libAlembic.so.1.8()(64bit) \
 libAlembic1_8 \
 libAlembic1_8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

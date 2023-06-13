@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-openmpi2-hpc-devel \
 libscalapack2_2_1_0-gnu-openmpi2-hpc-devel \
 libscalapack2_2_1_0-gnu-openmpi2-hpc-devel(aarch-64) \
 scalapack_2_1_0-gnu-openmpi2-hpc-devel"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "poxml-lang \
 poxml-lang-all"
+
 RDEPENDS:${PN} += "poxml"
 
 inherit rpm

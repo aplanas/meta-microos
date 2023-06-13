@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(libertinus-otf.sty) \
 texlive-libertinus-otf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

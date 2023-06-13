@@ -13,6 +13,7 @@ RPM_HASH = "098358fb7582c49408ca768d2b71ac2304e9cbde5b47e3fb2532f60b55c3dfa32de0
 
 RPROVIDES:${PN} += "abcm2ps \
 abcm2ps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

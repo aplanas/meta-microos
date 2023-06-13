@@ -54,6 +54,7 @@ locale(hello:uk) \
 locale(hello:vi) \
 locale(hello:zh_CN) \
 locale(hello:zh_TW)"
+
 RDEPENDS:${PN} += "hello"
 
 inherit rpm

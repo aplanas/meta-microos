@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-audiomate \
 python3.10dist(audiomate) \
 python310-audiomate \
 python3dist(audiomate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PGet \
 python310-audioread \

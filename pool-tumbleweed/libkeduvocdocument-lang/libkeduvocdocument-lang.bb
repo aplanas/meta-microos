@@ -75,6 +75,7 @@ locale(libkeduvocdocument:uk) \
 locale(libkeduvocdocument:vi) \
 locale(libkeduvocdocument:zh_CN) \
 locale(libkeduvocdocument:zh_TW)"
+
 RDEPENDS:${PN} += "libkeduvocdocument"
 
 inherit rpm

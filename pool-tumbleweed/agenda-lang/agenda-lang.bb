@@ -45,6 +45,7 @@ locale(agenda:sv) \
 locale(agenda:tr) \
 locale(agenda:ug) \
 locale(agenda:zh_CN)"
+
 RDEPENDS:${PN} += "agenda"
 
 inherit rpm

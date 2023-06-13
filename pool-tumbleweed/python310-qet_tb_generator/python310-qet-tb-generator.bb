@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-qet_tb_generator \
 python3.10dist(qet-tb-generator) \
 python310-qet_tb_generator \
 python3dist(qet-tb-generator)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

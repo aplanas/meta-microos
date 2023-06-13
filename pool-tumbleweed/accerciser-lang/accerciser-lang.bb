@@ -82,6 +82,7 @@ locale(accerciser:vi) \
 locale(accerciser:zh_CN) \
 locale(accerciser:zh_HK) \
 locale(accerciser:zh_TW)"
+
 RDEPENDS:${PN} += "accerciser"
 
 inherit rpm

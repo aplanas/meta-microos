@@ -10,6 +10,7 @@ RPM_HASH = "a83f36fd6a46798855be2e641fc8357d71995e70471711f8aeaff424d316161f9df6
 RPROVIDES:${PN} += "libudisks2-0_bcache \
 libudisks2-0_bcache(aarch-64) \
 libudisks2_bcache.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblockdev-kbd \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libKEduVocDocument.so.5()(64bit) \
 libKEduVocDocument5 \
 libKEduVocDocument5(aarch-64) \
 libkeduvocdocument"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

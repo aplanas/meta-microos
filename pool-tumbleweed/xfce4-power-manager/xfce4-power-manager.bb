@@ -22,6 +22,7 @@ metainfo(xfce4-power-manager.appdata.xml) \
 xfce4-power-manager \
 xfce4-power-manager(aarch-64) \
 xfce4-power-manager-doc"
+
 RDEPENDS:${PN} += "/usr/bin/pkexec \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

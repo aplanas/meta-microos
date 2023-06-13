@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dj-inmemorystorage) \
 python311-django-dj-inmemorystorage \
 python3dist(dj-inmemorystorage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-six"

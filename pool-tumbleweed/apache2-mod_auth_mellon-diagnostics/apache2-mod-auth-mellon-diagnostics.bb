@@ -10,6 +10,7 @@ RPM_HASH = "9743144537be38e6463674741871db39ced2cde64cb92ef641ae83156f3274f630a2
 
 RPROVIDES:${PN} += "apache2-mod_auth_mellon-diagnostics \
 apache2-mod_auth_mellon-diagnostics(aarch-64)"
+
 RDEPENDS:${PN} += "apache2-mod_auth_mellon \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

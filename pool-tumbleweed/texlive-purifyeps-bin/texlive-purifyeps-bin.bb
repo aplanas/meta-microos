@@ -9,6 +9,7 @@ RPM_HASH = "298c0882124344bedbac7400c7353885388d71e8ae2f14eacd63848015b206b69078
 
 RPROVIDES:${PN} += "texlive-purifyeps-bin \
 texlive-purifyeps-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-purifyeps"
 
 inherit rpm

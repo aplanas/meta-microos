@@ -16,6 +16,7 @@ RPM_HASH = "30ec2528acc60bfd653b298cfb53c769e2b17640c4a483a7501da4ff079466501657
 
 RPROVIDES:${PN} += "voro++-devel \
 voro++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvoro++0"
 
 inherit rpm

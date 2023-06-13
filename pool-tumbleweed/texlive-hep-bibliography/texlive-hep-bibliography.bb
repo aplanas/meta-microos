@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hep-bibliography.sty) \
 texlive-hep-bibliography"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

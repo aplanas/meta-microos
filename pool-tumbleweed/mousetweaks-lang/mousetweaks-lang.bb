@@ -82,6 +82,7 @@ locale(mousetweaks:zh_HK) \
 locale(mousetweaks:zh_TW) \
 mousetweaks-lang \
 mousetweaks-lang-all"
+
 RDEPENDS:${PN} += "mousetweaks"
 
 inherit rpm

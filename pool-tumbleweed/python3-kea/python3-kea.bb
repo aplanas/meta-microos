@@ -9,6 +9,7 @@ RPM_HASH = "c178cbdfaebaf1c541e50bc9db0ffba42358236705f61fc6e4348f5a43e6fcbc85cc
 
 RPROVIDES:${PN} += "python3-kea \
 python3-kea(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ gedit-plugin-colorschemer(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/colorschemer.plugin \
 metainfo() \
 metainfo(gedit-colorschemer.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GLib) \
 typelib(GObject) \

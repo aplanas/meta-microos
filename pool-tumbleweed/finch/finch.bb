@@ -12,6 +12,7 @@ RPM_HASH = "681827b6093d87431a42ba819a44932000c8f3cb8ff0550b38d1c31ebfb6c78f747d
 
 RPROVIDES:${PN} += "finch \
 finch(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

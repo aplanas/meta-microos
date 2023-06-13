@@ -45,6 +45,7 @@ locale(deepin-pw-check:vi) \
 locale(deepin-pw-check:zh_CN) \
 locale(deepin-pw-check:zh_HK) \
 locale(deepin-pw-check:zh_TW)"
+
 RDEPENDS:${PN} += "deepin-pw-check"
 
 inherit rpm

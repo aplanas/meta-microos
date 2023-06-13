@@ -16,6 +16,7 @@ mvn(qdox:qdox) \
 mvn(qdox:qdox:pom:) \
 osgi(com.thoughtworks.qdox) \
 qdox"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

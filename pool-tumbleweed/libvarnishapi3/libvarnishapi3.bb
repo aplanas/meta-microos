@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "libvarnishapi.so.3()(64bit) \
 libvarnishapi.so.3(LIBVARNISHAPI_3.0)(64bit) \
 libvarnishapi3 \
 libvarnishapi3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "b2b6425a65b56060c145420668189b1dd4751d0db2e2ec2ef4034b0fdd7fcaa93776
 
 RPROVIDES:${PN} += "leveldb \
 leveldb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

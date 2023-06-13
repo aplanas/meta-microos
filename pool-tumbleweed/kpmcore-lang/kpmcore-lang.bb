@@ -63,6 +63,7 @@ locale(kpmcore:ug) \
 locale(kpmcore:uk) \
 locale(kpmcore:zh_CN) \
 locale(kpmcore:zh_TW)"
+
 RDEPENDS:${PN} += "kpmcore"
 
 inherit rpm

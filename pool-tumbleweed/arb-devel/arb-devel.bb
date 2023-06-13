@@ -15,6 +15,7 @@ RPM_HASH = "057370f89b62950b28adfa3a8a4993d8a081d76db12f3aff3863958fe6961dd390d1
 
 RPROVIDES:${PN} += "arb-devel \
 arb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libarb2"
 
 inherit rpm

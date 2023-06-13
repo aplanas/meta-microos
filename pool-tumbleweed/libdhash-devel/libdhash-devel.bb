@@ -11,6 +11,7 @@ RPM_HASH = "bb0d286dd72f004354b7af6e4f7715a32071bb3caf6391b7fa89a00aebf7cf38e763
 RPROVIDES:${PN} += "libdhash-devel \
 libdhash-devel(aarch-64) \
 pkgconfig(dhash)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdhash1"
 

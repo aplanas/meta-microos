@@ -13,6 +13,7 @@ RPM_HASH = "7e8b72f9dfed0c91809c76d509c7ee8fec5e2bf9f6260f7176ced74c528ac8e0373e
 RPROVIDES:${PN} += "libdwarf.so.0()(64bit) \
 libdwarf0 \
 libdwarf0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

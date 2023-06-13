@@ -23,6 +23,7 @@ RPM_HASH = "dc0d9e60d1759cc268e5be018e848086564dfc03f9fdc9c15bf7d475f1ada0dc160b
 RPROVIDES:${PN} += "libxspf.so.4()(64bit) \
 libxspf4 \
 libxspf4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "1193aab54fedbc5d544e150b09d117a16ce89b8bc954401655f382b41954d2dd4334
 RPROVIDES:${PN} += "libsss_ad.so()(64bit) \
 sssd-ad \
 sssd-ad(aarch-64)"
+
 RDEPENDS:${PN} += "adcli \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

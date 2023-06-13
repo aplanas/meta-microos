@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-twitter) \
 python311-python-twitter \
 python3dist(python-twitter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future \
 python311-requests \

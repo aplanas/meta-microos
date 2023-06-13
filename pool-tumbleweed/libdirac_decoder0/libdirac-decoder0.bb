@@ -19,6 +19,7 @@ RPM_HASH = "f7246d17bc642c606fc963f09a3791ee0a2014799592abd7c0e5ff46ef7039c954b5
 RPROVIDES:${PN} += "libdirac_decoder.so.0()(64bit) \
 libdirac_decoder0 \
 libdirac_decoder0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

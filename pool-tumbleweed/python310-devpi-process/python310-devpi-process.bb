@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-devpi-process \
 python3.10dist(devpi-process) \
 python310-devpi-process \
 python3dist(devpi-process)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-devpi-client \
 python310-devpi-server"

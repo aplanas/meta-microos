@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(hcloud) \
 python39-hcloud \
 python3dist(hcloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-future \
 python39-python-dateutil \

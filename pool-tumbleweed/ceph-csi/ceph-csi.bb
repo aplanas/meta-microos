@@ -13,6 +13,7 @@ RPM_HASH = "7f5af96e5fa7f58e44f0792737c72671d98b293c44ddc33abb9ad6fe3ece90efb4f9
 
 RPROVIDES:${PN} += "ceph-csi \
 ceph-csi(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 librados.so.2()(64bit) \
 librados.so.2(LIBRADOS_14.2.0)(64bit) \

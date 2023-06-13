@@ -11,6 +11,7 @@ RPM_HASH = "d742b6f230c7f6462552007f753afc4d7a9a25de83cfceb23fa9385017615f8d77d7
 RPROVIDES:${PN} += "ghc-pandoc-server \
 ghc-pandoc-server(aarch-64) \
 libHSpandoc-server-0.1-6D1bWRrxol13l7SXQDdSda-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so()(64bit) \
 libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so()(64bit) \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so()(64bit) \

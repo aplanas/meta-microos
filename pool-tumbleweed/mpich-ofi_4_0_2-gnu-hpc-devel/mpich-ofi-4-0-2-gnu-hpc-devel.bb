@@ -14,6 +14,7 @@ RPM_HASH = "c3532c1f5cbeb7f07edf29d5d4fedc2017e581f08e1a9bd3fcbb86e6cbfd718ec679
 
 RPROVIDES:${PN} += "mpich-ofi_4_0_2-gnu-hpc-devel \
 mpich-ofi_4_0_2-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

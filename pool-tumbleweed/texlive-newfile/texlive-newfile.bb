@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newfile.sty) \
 texlive-newfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

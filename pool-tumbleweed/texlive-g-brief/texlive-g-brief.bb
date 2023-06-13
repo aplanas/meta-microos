@@ -16,6 +16,7 @@ tex(g-brief.sty) \
 tex(g-brief2.cls) \
 tex(g-brief2.sty) \
 texlive-g-brief"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

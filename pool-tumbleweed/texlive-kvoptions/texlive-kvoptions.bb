@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(kvoptions-patch.sty) \
 tex(kvoptions.sty) \
 texlive-kvoptions"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

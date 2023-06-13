@@ -10,6 +10,7 @@ RPM_HASH = "6eb71493fe0f01333e3b8b7abab6355fe0484236e6b0f2b6f558a2aa2e667c5ee393
 RPROVIDES:${PN} += "ghc-devel(timezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME) \
 ghc-timezone-olson-devel \
 ghc-timezone-olson-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

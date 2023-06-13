@@ -11,6 +11,7 @@ RPM_HASH = "257d37e321f3695a4dd10ab2c57e76ec9e08145c57022ef5f27656fdfb6e97fe871c
 RPROVIDES:${PN} += "libgmime-3.0.so.0()(64bit) \
 libgmime-3_0-0 \
 libgmime-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

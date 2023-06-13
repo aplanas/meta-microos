@@ -28,6 +28,7 @@ mayavi(aarch-64) \
 python3-mayavi \
 python3.10dist(mayavi) \
 python3dist(mayavi)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Pygments \

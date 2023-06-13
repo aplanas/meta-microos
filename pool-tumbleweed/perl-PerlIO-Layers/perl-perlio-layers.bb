@@ -13,6 +13,7 @@ RPM_HASH = "8cb5f509b099d76afbd49ea5dbb0a94cca28af4c2cebe583defac4a7befc5b1a22e0
 RPROVIDES:${PN} += "perl(PerlIO::Layers) \
 perl-PerlIO-Layers \
 perl-PerlIO-Layers(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

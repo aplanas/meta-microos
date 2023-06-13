@@ -11,6 +11,7 @@ RPM_HASH = "c60d5b0b500a3a6e8d9455b49d9e07b81b4d6028b832c5048dbb267f95a864f31f67
 
 RPROVIDES:${PN} += "ladspa-super-60 \
 ladspa-super-60(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

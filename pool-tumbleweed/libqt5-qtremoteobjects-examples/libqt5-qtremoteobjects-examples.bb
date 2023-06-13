@@ -9,6 +9,7 @@ RPM_HASH = "e868316422e824f1622f575337ab099a42f60879780e5b49fe36a16ef59b7cd330ef
 
 RPROVIDES:${PN} += "libqt5-qtremoteobjects-examples \
 libqt5-qtremoteobjects-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

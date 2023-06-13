@@ -10,6 +10,7 @@ RPM_HASH = "abdce388d3fddd87da6a2dbccc2095a8730a17aa8dd78d0aa6c244e60471e8c6e214
 RPROVIDES:${PN} += "libperseus-sdr.so.0()(64bit) \
 libperseus-sdr0 \
 libperseus-sdr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

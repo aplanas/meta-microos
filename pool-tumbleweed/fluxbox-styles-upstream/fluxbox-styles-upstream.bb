@@ -14,6 +14,7 @@ RPM_HASH = "d38d7c004f5b0061898c09e825cc9f5a3a5e0498390a5ea5b3bc78adc181e6b966a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fluxbox-styles-upstream"
+
 RDEPENDS:${PN} += "fluxbox"
 
 inherit rpm

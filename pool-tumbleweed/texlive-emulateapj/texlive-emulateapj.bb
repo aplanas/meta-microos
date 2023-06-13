@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(emulateapj.cls) \
 texlive-emulateapj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

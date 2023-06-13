@@ -15,6 +15,7 @@ application(dropbox.desktop) \
 dropbox \
 dropbox-cli \
 dropbox-cli(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 python3-gpg \

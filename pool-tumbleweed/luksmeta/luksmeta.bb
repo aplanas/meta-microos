@@ -10,6 +10,7 @@ RPM_HASH = "5965f576e708e485ff636b96f77907c4fe9eae6bf8c54554af1b87aac292aa802b0c
 
 RPROVIDES:${PN} += "luksmeta \
 luksmeta(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

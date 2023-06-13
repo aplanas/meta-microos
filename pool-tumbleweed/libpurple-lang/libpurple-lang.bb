@@ -88,6 +88,7 @@ locale(libpurple:vi) \
 locale(libpurple:zh_CN) \
 locale(libpurple:zh_HK) \
 locale(libpurple:zh_TW)"
+
 RDEPENDS:${PN} += "libpurple"
 
 inherit rpm

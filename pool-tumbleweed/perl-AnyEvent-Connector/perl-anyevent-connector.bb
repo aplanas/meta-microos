@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(AnyEvent::Connector) \
 perl(AnyEvent::Connector::Proxy::http) \
 perl-AnyEvent-Connector"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent::Handle) \
 perl(AnyEvent::Socket) \

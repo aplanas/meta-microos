@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(ZXing) \
 pkgconfig(zxing) \
 zxing-cpp-devel \
 zxing-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libZXing3"
 

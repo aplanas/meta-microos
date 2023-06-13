@@ -12,6 +12,7 @@ RPM_HASH = "fff284169195cedcbd246dc23bb56672cc56468f2b8d89311624ec533c5e5c29dd39
 RPROVIDES:${PN} += "ghc-deriving-aeson \
 ghc-deriving-aeson(aarch-64) \
 libHSderiving-aeson-0.2.9-HkCtwpD3IaS9WeJeVKU34M-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

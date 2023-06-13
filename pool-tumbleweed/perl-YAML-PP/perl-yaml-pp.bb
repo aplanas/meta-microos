@@ -62,6 +62,7 @@ perl(YAML::PP::Type::MergeKey) \
 perl(YAML::PP::Writer) \
 perl(YAML::PP::Writer::File) \
 perl-YAML-PP"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Load)"

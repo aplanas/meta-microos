@@ -9,6 +9,7 @@ RPM_HASH = "9673496cd0e3af1f16ddfe0fedb820130250a251d8933bc48f58b0d1557a76629807
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embedall-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

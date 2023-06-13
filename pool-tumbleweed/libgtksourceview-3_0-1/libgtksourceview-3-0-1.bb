@@ -16,6 +16,7 @@ libgtksourceview-3.0.so.1()(64bit) \
 libgtksourceview-3_0-1 \
 libgtksourceview-3_0-1(aarch-64) \
 libgtksourceview3"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

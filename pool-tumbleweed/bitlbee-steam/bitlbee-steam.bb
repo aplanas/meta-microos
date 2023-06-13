@@ -9,6 +9,7 @@ RPM_HASH = "eb6dd7e1028be73bc73c79dff04e7142617b749990769132190cf60f5e8f2a0d9d00
 
 RPROVIDES:${PN} += "bitlbee-steam \
 bitlbee-steam(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

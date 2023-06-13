@@ -13,6 +13,7 @@ florence-lang-all \
 locale(florence:fr) \
 locale(florence:it) \
 locale(florence:ru)"
+
 RDEPENDS:${PN} += "florence"
 
 inherit rpm

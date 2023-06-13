@@ -9,6 +9,7 @@ RPM_HASH = "e5235447bc72e9ec668c35f764ce894f9e51f36a8cff3e7661cda79bc56f08c15d78
 
 RPROVIDES:${PN} += "alttab \
 alttab(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

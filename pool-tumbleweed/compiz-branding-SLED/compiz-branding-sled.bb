@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-SLE \
 compiz-branding-SLED \
 compiz-branding-SLED(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \
 /bin/sh \

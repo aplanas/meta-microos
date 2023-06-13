@@ -14,6 +14,7 @@ RPM_HASH = "b3f73b36feadbe1260a17fdf31a964bb5bd0a212201794c871890d6db7029dfbadb1
 RPROVIDES:${PN} += "libmjpegutils-2.2.so.0()(64bit) \
 libmjpegutils-2_2-0 \
 libmjpegutils-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "609365ae50b54970b97fa79cc3d4838c25f360f6669507d13a55ec64096d0ac4e645
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Ipopt-java"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

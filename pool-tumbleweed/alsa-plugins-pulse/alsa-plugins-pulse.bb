@@ -16,6 +16,7 @@ alsa-plugins-pulse(aarch-64) \
 libasound_module_conf_pulse.so()(64bit) \
 libasound_module_ctl_pulse.so()(64bit) \
 libasound_module_pcm_pulse.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

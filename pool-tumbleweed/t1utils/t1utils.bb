@@ -14,6 +14,7 @@ RPM_HASH = "1e73da3075f4adc08cc6eb7c2b57038395e3ba33976c4dc27a6c5d388dbd824728dc
 
 RPROVIDES:${PN} += "t1utils \
 t1utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

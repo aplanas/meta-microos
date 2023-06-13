@@ -19,6 +19,7 @@ tex(ggfsbaskervillerg6r.tfm) \
 tex(gpgfsbaskerville.enc) \
 tex(lgrgfsbaskerville.fd) \
 texlive-gfsbaskerville"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

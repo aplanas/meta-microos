@@ -13,6 +13,7 @@ RPM_HASH = "39d6e609a1113de041fadc5362b865ab02a8ae6bdb3f4bcc00c793f80d71b1e3fc33
 RPROVIDES:${PN} += "ghc-X11-xft \
 ghc-X11-xft(aarch-64) \
 libHSX11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "d789159ce6c84e99a29bf3748c0642b43aecf8c86689ab0a02973e8ecd9c42e92973
 RPROVIDES:${PN} += "cmake(HYPRE) \
 hypre-devel \
 hypre-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lapack-devel \
 libHYPRE2_20_0 \
 superlu-devel"

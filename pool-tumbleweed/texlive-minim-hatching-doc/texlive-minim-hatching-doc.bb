@@ -9,6 +9,7 @@ RPM_HASH = "ebc5ea80676db1b9851a155de5c756bea128eca569e5ef44c63f49e2fe7c664fc263
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-minim-hatching-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

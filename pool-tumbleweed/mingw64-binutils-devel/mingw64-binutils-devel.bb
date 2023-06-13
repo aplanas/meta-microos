@@ -14,6 +14,7 @@ mingw64(lib:ctf-nobfd) \
 mingw64(lib:iberty) \
 mingw64(lib:opcodes) \
 mingw64-binutils-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

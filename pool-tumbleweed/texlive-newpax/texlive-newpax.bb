@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newpax.sty) \
 texlive-newpax"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

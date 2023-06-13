@@ -9,6 +9,7 @@ RPM_HASH = "e7c1a5762d47a2eda73fbfea46a93fd88c060ef22028e8c125baabfbc5eb3bd4685b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-currvita-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

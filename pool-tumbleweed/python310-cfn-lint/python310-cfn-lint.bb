@@ -15,6 +15,7 @@ python3-cfn-lint \
 python3.10dist(cfn-lint) \
 python310-cfn-lint \
 python3dist(cfn-lint)"
+
 RDEPENDS:${PN} += "(python310-jsonschema > 3.0 with python310-jsonschema < 5) \
 /bin/sh \
 /usr/bin/python3.10 \

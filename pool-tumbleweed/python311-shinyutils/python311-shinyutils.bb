@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(shinyutils) \
 python311-shinyutils \
 python3dist(shinyutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-crayons \
 python311-matplotlib \

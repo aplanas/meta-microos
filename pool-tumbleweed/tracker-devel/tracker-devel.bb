@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pkgconfig(tracker-sparql-3.0) \
 pkgconfig(tracker-testutils-3.0) \
 tracker-devel \
 tracker-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libtracker-sparql-3_0-0 \

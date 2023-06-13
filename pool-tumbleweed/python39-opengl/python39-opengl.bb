@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(pyopengl) \
 python39-PyOpenGL \
 python39-opengl \
 python3dist(pyopengl)"
+
 RDEPENDS:${PN} += "Mesa-dri \
 python(abi)"
 

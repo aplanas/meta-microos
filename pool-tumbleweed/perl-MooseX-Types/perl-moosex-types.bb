@@ -41,6 +41,7 @@ perl(MooseX::Types::UndefinedType) \
 perl(MooseX::Types::Util) \
 perl(MooseX::Types::Wrapper) \
 perl-MooseX-Types"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \
 perl(Module::Runtime) \

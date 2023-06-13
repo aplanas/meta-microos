@@ -26,6 +26,7 @@ RPM_HASH = "f0e389e4ad05424e2782d66c08aabf5eb6f82f2165f8921e29bdd3cb4267e0b0b67a
 
 RPROVIDES:${PN} += "crane \
 crane(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

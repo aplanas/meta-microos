@@ -14,6 +14,7 @@ RPM_HASH = "cffabc22a9a305f48b17d48dc442e92ef64c4a09f5607651eeb596d4b972eace0c6a
 
 RPROVIDES:${PN} += "ipxe-bootimgs \
 ipxe-bootimgs(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

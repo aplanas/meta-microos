@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(interlingua.ldf) \
 texlive-babel-interlingua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "5f22367778446656192b482257b141237a0c53615062cd4f23ae37e1c7c392a03dcd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doublestroke-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

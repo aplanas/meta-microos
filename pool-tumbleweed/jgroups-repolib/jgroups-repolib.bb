@@ -11,6 +11,7 @@ RPM_HASH = "72b598b6ba105a12e32c9e72683e1ffeac6ac51f0ca4118765cfda01895635b16de8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgroups-repolib"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

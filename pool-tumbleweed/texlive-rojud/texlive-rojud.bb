@@ -18,6 +18,7 @@ tex(rojud.sty) \
 tex(rojud.tfm) \
 tex(turojud.fd) \
 texlive-rojud"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

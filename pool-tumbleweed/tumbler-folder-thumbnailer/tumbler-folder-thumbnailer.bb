@@ -9,6 +9,7 @@ RPM_HASH = "692fb68f997a32331d62da937efb6f6bb2f21885eb24a43d297091cd0c9872045c4f
 
 RPROVIDES:${PN} += "tumbler-folder-thumbnailer \
 tumbler-folder-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ImageMagick"
 

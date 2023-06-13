@@ -19,6 +19,7 @@ go1.9 \
 go1.9(aarch-64) \
 golang(API) \
 libstd.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcc \
 libc.so.6(GLIBC_2.34)(64bit) \

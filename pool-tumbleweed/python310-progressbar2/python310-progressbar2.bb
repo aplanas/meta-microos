@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-progressbar2 \
 python3.10dist(progressbar2) \
 python310-progressbar2 \
 python3dist(progressbar2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-utils"
 

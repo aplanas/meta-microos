@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(cmark) \
 cmark-devel \
 cmark-devel(aarch-64) \
 pkgconfig(libcmark)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmark \
 libcmark0_30_3"

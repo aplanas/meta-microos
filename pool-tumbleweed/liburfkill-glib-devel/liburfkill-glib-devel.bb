@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "liburfkill-glib-devel \
 liburfkill-glib-devel(aarch-64) \
 pkgconfig(urfkill-glib) \
 urfkill-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 liburfkill-glib0 \

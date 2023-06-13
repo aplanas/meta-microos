@@ -10,6 +10,7 @@ RPM_HASH = "0ea60449fff4bcca3fc2ad1583783b54e99e068f2a01987ab9a9853f17c2ad51bae5
 RPROVIDES:${PN} += "python3-lalpulsar \
 python310-lalpulsar \
 python310-lalpulsar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

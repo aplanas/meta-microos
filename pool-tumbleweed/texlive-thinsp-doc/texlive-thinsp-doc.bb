@@ -9,6 +9,7 @@ RPM_HASH = "fb95b7ef3ca106de5558d28d97a87ee66336dee3a551222dcae929aee7dec33aa3de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thinsp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

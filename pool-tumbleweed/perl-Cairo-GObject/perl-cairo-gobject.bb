@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "perl(Cairo::GObject) \
 perl(Cairo::GObject::Install::Files) \
 perl-Cairo-GObject \
 perl-Cairo-GObject(aarch-64)"
+
 RDEPENDS:${PN} += "libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "8b2c9ec0db0a6d4766f8c436732bdec8ee7347db6c0c412d840d037339a6439ea483
 
 RPROVIDES:${PN} += "weechat-perl \
 weechat-perl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

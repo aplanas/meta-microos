@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brp-trim-desktop \
 brp-trim-translations"
+
 RDEPENDS:${PN} += "/bin/bash \
 awk \
 libxslt-tools"

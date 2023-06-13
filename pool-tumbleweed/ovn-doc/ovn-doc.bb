@@ -9,6 +9,7 @@ RPM_HASH = "c828f51fdb5a6f59f0223ff44fae97da8d161b7479fcba51b1244c797723a7d40255
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ovn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "b8482ab424d99246799c7c3b6c3cd7751e0844925a62ffa1de2b26ebe9936c0fbaa2
 RPROVIDES:${PN} += "libfactory-4.3.1.p3.so()(64bit) \
 libfactory-4_3_1 \
 libfactory-4_3_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

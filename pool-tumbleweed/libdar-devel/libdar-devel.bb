@@ -18,6 +18,7 @@ RPM_HASH = "aa9fc72739b704dd479003c8899979007598b2a47059f681a6777f936abcb1b235f7
 RPROVIDES:${PN} += "libdar-devel \
 libdar-devel(aarch-64) \
 pkgconfig(libdar64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libdar64-6000 \

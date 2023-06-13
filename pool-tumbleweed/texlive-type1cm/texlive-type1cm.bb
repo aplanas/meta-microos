@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(type1cm.sty) \
 texlive-type1cm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

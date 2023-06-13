@@ -10,6 +10,7 @@ RPM_HASH = "07a09fe67eafb79585c9d780bde81793e5aac0f98e76fba3b90284ae2d07444e3313
 RPROVIDES:${PN} += "libKF5TextEditTextToSpeech.so.1()(64bit) \
 libKF5TextEditTextToSpeech1 \
 libKF5TextEditTextToSpeech1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

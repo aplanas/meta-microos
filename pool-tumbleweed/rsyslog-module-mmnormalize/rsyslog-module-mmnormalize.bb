@@ -12,6 +12,7 @@ RPM_HASH = "c3ecbd1343662ffadaf6bd6acbb92c8fa32417ddee59e04919f46cf89f541d210751
 
 RPROVIDES:${PN} += "rsyslog-module-mmnormalize \
 rsyslog-module-mmnormalize(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

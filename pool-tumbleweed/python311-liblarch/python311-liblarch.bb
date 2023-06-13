@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(liblarch) \
 python311-liblarch \
 python3dist(liblarch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-gobject"
 

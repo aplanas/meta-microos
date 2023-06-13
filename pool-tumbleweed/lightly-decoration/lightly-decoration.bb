@@ -11,6 +11,7 @@ RPM_HASH = "3a86a82e127f0257f8db68f1a60dc83a418f514c12bc2b149c0886b2f91be239772d
 
 RPROVIDES:${PN} += "lightly-decoration \
 lightly-decoration(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

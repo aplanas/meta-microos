@@ -14,6 +14,7 @@ application(xterm.desktop) \
 xorg-x11:/usr/X11R6/bin/xterm \
 xterm \
 xterm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

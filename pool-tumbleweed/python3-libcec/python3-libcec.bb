@@ -18,6 +18,7 @@ RPM_HASH = "b94e4fcf224e99bbbdf4d3eba2e94c75bbc529c57df8925d6bff338751dd71a74f62
 
 RPROVIDES:${PN} += "python3-libcec \
 python3-libcec(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

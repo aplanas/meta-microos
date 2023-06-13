@@ -13,6 +13,7 @@ RPM_HASH = "85992e646d2e3a77e531969aa1891de54fc48d7acdb23792705c56215a09a7d75f37
 
 RPROVIDES:${PN} += "alsa \
 alsa(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

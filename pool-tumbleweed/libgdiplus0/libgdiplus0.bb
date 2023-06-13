@@ -11,6 +11,7 @@ RPM_HASH = "f1195738aef8dc10568b79ec7ba64a15186c2fcab736e14be2c8402fa2ecfaa0975d
 RPROVIDES:${PN} += "libgdiplus.so.0()(64bit) \
 libgdiplus0 \
 libgdiplus0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

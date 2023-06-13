@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-rethinkdb \
 python3.10dist(rethinkdb) \
 python310-rethinkdb \
 python3dist(rethinkdb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

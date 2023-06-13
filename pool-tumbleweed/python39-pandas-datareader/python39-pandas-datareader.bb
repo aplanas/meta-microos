@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pandas-datareader) \
 python39-pandas-datareader \
 python3dist(pandas-datareader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-pandas \

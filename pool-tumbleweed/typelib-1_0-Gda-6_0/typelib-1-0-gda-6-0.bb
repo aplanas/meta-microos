@@ -16,6 +16,7 @@ RPM_HASH = "07fd6bada79a675092ef34ff3564e1621985f4d405393c95e4674f2fe471996d04c6
 RPROVIDES:${PN} += "typelib(Gda) \
 typelib-1_0-Gda-6_0 \
 typelib-1_0-Gda-6_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgda-6.0.so.6.0.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

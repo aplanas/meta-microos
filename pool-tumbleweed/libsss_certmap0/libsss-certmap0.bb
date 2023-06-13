@@ -13,6 +13,7 @@ libsss_certmap.so.0(SSS_CERTMAP_0.1)(64bit) \
 libsss_certmap.so.0(SSS_CERTMAP_0.2)(64bit) \
 libsss_certmap0 \
 libsss_certmap0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

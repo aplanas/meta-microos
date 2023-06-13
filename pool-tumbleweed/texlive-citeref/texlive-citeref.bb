@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(citeref.sty) \
 texlive-citeref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

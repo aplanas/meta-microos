@@ -12,6 +12,7 @@ RPM_HASH = "77a24089e6a4bd94ec41a8f782da4cb0ea56848571b79112f520a4d01e76861e5020
 RPROVIDES:${PN} += "libmate-panel-applet-4-1 \
 libmate-panel-applet-4-1(aarch-64) \
 libmate-panel-applet-4.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

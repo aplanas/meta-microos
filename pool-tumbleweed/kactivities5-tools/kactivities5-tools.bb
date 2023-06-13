@@ -9,6 +9,7 @@ RPM_HASH = "a9f6f0e5b5d0eaa59538eb59b3a9726361b6cdfbf99fd8743be18ba718e13dd4cfa5
 
 RPROVIDES:${PN} += "kactivities5-tools \
 kactivities5-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \

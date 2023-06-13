@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "mininet \
 mininet(aarch-64) \
 python3.10dist(mininet) \
 python3dist(mininet)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ethtool \
 iperf \

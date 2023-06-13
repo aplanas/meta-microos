@@ -13,6 +13,7 @@ RPM_HASH = "d53e1753be032a5174324192af01cc804c69884e5e3d7fea85dc1acb23a134426fea
 RPROVIDES:${PN} += "libXNVCtrl.so.0()(64bit) \
 libXNVCtrl0 \
 libXNVCtrl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libX11.so.6()(64bit) \
 libXext.so.6()(64bit) \

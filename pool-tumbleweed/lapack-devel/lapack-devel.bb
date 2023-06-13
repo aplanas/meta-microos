@@ -18,6 +18,7 @@ RPM_HASH = "0f5049db4be4641ea084583ae5388d1b14b110659482d9c0b31dfdf8dbc3ee48a5f5
 RPROVIDES:${PN} += "lapack \
 lapack-devel \
 lapack-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel \
 liblapack3"
 

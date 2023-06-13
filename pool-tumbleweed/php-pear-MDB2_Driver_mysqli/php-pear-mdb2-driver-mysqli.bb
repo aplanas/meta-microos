@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "php-pear(MDB2_Driver_mysqli) \
 php-pear-MDB2_Driver_mysqli \
 php5-pear-MDB2_Driver_mysqli \
 php7-pear-MDB2_Driver_mysqli"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-mysql \
 php-pear \

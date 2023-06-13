@@ -18,6 +18,7 @@ libnautyS0-2.8.6.so()(64bit) \
 libnautyS1-2.8.6.so()(64bit) \
 libnautyW0-2.8.6.so()(64bit) \
 libnautyW1-2.8.6.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

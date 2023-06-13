@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(elzcards.sty) \
 texlive-elzcards"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

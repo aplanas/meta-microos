@@ -10,6 +10,7 @@ RPM_HASH = "57ce4bdd1be21ffafc94d2c8b7f5fad4a68de00f979ef769da965c90cee9e7ed673e
 RPROVIDES:${PN} += "ghc-prof(psqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O) \
 ghc-psqueues-prof \
 ghc-psqueues-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-prof(ghc-prim-0.9.0) \

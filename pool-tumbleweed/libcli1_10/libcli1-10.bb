@@ -13,6 +13,7 @@ RPM_HASH = "b80c7e3a5e8356db7ee964f8d5555e3baefb81ef4bb612eabd448ef43645c0248984
 RPROVIDES:${PN} += "libcli.so.1.10()(64bit) \
 libcli1_10 \
 libcli1_10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

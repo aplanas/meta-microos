@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libcpugraph.so()(64bit) \
 xfce4-cpugraph-plugin \
 xfce4-cpugraph-plugin(aarch-64) \
 xfce4-panel-plugin-cpugraph"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

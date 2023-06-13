@@ -116,6 +116,7 @@ tex(ot1neohellenic.fd) \
 tex(t1neohellenic.fd) \
 tex(uneohellenicnums.fd) \
 texlive-gfsneohellenic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

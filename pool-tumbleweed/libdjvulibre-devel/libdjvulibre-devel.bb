@@ -13,6 +13,7 @@ RPM_HASH = "9c39f9a5a10b39a866723e131592ae05f730547a5895f339ac2896bac0bcb50d939d
 RPROVIDES:${PN} += "libdjvulibre-devel \
 libdjvulibre-devel(aarch-64) \
 pkgconfig(ddjvuapi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdjvulibre21"
 

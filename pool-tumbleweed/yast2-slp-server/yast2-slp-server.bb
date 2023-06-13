@@ -14,6 +14,7 @@ application(org.opensuse.yast.SLPServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.SLPServer.metainfo.xml) \
 yast2-slp-server"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-ruby-bindings"
 

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pony \
 python3.10dist(pony) \
 python310-pony \
 python3dist(pony)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310"
 

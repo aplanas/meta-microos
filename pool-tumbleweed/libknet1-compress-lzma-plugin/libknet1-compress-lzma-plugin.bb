@@ -9,6 +9,7 @@ RPM_HASH = "c29ea932cb9fa5df102a66148e234f7c8dd8acfb60eff9934fd000f430ef57ea4cf6
 
 RPROVIDES:${PN} += "libknet1-compress-lzma-plugin \
 libknet1-compress-lzma-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

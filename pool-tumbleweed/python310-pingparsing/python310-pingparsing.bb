@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pingparsing \
 python3.10dist(pingparsing) \
 python310-pingparsing \
 python3dist(pingparsing)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

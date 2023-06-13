@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libgraphblas-7_2_0 \
 libgraphblas.so.7()(64bit) \
 libgraphblas7 \
 libgraphblas7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

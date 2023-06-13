@@ -11,6 +11,7 @@ RPM_HASH = "217d9731e865c6f7d33de8f2fe09008216bd303f91e5632bf17e350b8ded1ae18f27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imb-gnu-mvapich2-hpc"
+
 RDEPENDS:${PN} += "/bin/sh \
 imb_2021_3-gnu-mvapich2-hpc"
 

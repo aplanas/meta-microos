@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(everyshi-2001-05-15.sty) \
 tex(everyshi.sty) \
 texlive-everyshi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

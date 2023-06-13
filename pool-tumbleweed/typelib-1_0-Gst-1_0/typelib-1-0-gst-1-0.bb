@@ -21,6 +21,7 @@ typelib(GstController) \
 typelib(GstNet) \
 typelib-1_0-Gst-1_0 \
 typelib-1_0-Gst-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstbase-1.0.so.0()(64bit) \
 libgstcheck-1.0.so.0()(64bit) \
 libgstcontroller-1.0.so.0()(64bit) \

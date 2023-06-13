@@ -66,6 +66,7 @@ tex(dt-ukraineb.def) \
 tex(dt-usorbian.def) \
 tex(dt-welsh.def) \
 texlive-datetime"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

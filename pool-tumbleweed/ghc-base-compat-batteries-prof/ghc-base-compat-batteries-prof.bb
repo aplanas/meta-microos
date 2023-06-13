@@ -10,6 +10,7 @@ RPM_HASH = "a92dd8c540884ee80b02dd877324655b681f6d69443614416020aef40c078c37e9f7
 RPROVIDES:${PN} += "ghc-base-compat-batteries-prof \
 ghc-base-compat-batteries-prof(aarch-64) \
 ghc-prof(base-compat-batteries-0.12.2-2nfbI7WkA2cAAItUqSu6Dy)"
+
 RDEPENDS:${PN} += "ghc-base-compat-batteries-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov) \

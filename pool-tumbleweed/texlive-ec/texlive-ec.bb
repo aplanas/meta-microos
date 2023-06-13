@@ -589,6 +589,7 @@ tex(tcvt2488.tfm) \
 tex(tcvt2986.tfm) \
 tex(tcvt3583.tfm) \
 texlive-ec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

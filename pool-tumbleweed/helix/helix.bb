@@ -27,6 +27,7 @@ mimehandler(text/x-moc) \
 mimehandler(text/x-pascal) \
 mimehandler(text/x-tcl) \
 mimehandler(text/x-tex)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

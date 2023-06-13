@@ -59,6 +59,7 @@ RPROVIDES:${PN} += "python3-zope.testing \
 python3.10dist(zope.testing) \
 python310-zope.testing \
 python3dist(zope.testing)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

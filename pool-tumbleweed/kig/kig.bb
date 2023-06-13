@@ -19,6 +19,7 @@ metainfo() \
 metainfo(org.kde.kig.appdata.xml) \
 mimehandler(application/x-kgeo) \
 mimehandler(application/x-kig)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

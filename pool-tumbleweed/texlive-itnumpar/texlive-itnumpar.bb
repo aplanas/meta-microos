@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(itnumpar.sty) \
 texlive-itnumpar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

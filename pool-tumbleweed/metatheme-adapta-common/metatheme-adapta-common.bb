@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adapta-gtk-theme \
 metatheme-adapta-common"
+
 RDEPENDS:${PN} += "google-roboto-fonts \
 noto-sans-fonts"
 

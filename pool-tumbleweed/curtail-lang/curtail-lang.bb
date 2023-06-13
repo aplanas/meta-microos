@@ -26,6 +26,7 @@ locale(curtail:ru) \
 locale(curtail:sk) \
 locale(curtail:sv) \
 locale(curtail:tr)"
+
 RDEPENDS:${PN} += "curtail"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "04d0a243b551e3668d831b0004c0e49b0103bc69e34ffb94f20d22d7cfb44fbaf9d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latex2html-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

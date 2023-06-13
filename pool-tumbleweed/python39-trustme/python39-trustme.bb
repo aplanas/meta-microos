@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(trustme) \
 python39-trustme \
 python3dist(trustme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-idna"

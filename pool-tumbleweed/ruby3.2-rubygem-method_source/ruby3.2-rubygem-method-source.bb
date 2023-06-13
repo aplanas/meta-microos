@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:method_source) \
 rubygem(ruby:3.2.0:method_source:1) \
 rubygem(ruby:3.2.0:method_source:1.0) \
 rubygem(ruby:3.2.0:method_source:1.0.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "3ffe106fd02860c8ec966f63902c08a89426d6d66569088d248009ca642cf59fd70e
 
 RPROVIDES:${PN} += "indi \
 indi(aarch-64)"
+
 RDEPENDS:${PN} += "indi-plugins \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

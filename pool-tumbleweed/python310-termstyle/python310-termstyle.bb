@@ -16,6 +16,7 @@ python3.10dist(termstyle) \
 python310-python-termstyle \
 python310-termstyle \
 python3dist(termstyle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

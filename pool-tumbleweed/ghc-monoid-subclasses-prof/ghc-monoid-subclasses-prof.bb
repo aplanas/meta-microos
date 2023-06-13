@@ -10,6 +10,7 @@ RPM_HASH = "b8787dea03b8ca51ff429c1ac3467c2da466126f7918319924127a35ac7540b54d47
 RPROVIDES:${PN} += "ghc-monoid-subclasses-prof \
 ghc-monoid-subclasses-prof(aarch-64) \
 ghc-prof(monoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR)"
+
 RDEPENDS:${PN} += "ghc-monoid-subclasses-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

@@ -11,6 +11,7 @@ RPM_HASH = "b46230bf86e4158822f6904e91c6722a9fab434492d65b897a145222f983a8b5b4e3
 RPROVIDES:${PN} += "libhistorykeeperplugin.so()(64bit) \
 psi+-plugins-historykeeperplugin \
 psi+-plugins-historykeeperplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

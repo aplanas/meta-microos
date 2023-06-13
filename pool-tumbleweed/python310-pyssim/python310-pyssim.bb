@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyssim \
 python3.10dist(pyssim) \
 python310-pyssim \
 python3dist(pyssim)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

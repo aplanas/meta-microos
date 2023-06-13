@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "config(vsftpd) \
 ftp-server \
 vsftpd \
 vsftpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(nobody) \
 ld-linux-aarch64.so.1()(64bit) \

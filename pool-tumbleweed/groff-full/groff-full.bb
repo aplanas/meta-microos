@@ -14,6 +14,7 @@ groff-full \
 groff-full(aarch-64) \
 jgroff \
 normal-groff"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(LibIcal) \
 libical-devel \
 libical-devel(aarch-64) \
 pkgconfig(libical)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libical3 \
 pkgconfig(icu-i18n)"

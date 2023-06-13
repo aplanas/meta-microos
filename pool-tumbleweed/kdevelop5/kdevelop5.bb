@@ -47,6 +47,7 @@ mimehandler(x-scheme-handler/svn) \
 mimehandler(x-scheme-handler/svn+ssh) \
 qt5qmlimport(org.kde.kdevplatform.1) \
 qt5qmlimport(org.kde.plasma.private.kdevelopsessions.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 clang16 \

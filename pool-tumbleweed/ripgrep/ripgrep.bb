@@ -12,6 +12,7 @@ RPM_HASH = "b9af5cde6272ea8365be470e7071c725dbe39fcb3e542f2e5e183bbbb7e9382b751c
 
 RPROVIDES:${PN} += "ripgrep \
 ripgrep(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

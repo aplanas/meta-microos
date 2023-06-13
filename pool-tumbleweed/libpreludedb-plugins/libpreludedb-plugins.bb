@@ -10,6 +10,7 @@ RPM_HASH = "79d3570837e3d89f41e3fd1bf992e7461340b4d60960c63ef726873e024e4b810286
 
 RPROVIDES:${PN} += "libpreludedb-plugins \
 libpreludedb-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

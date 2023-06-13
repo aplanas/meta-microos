@@ -17,6 +17,7 @@ RPM_HASH = "6fb5b3c2cb35cc1856e6523745a9580cdbf782a003332f471083675ef4dad428e1f2
 RPROVIDES:${PN} += "cross-rx-gcc12-bootstrap \
 cross-rx-gcc12-bootstrap(aarch-64) \
 rx-elf-gcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-rx-binutils \
 update-alternatives"

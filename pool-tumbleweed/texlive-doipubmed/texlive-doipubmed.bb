@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(doipubmed.sty) \
 texlive-doipubmed"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

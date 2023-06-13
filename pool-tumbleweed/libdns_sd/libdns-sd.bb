@@ -16,6 +16,7 @@ libdns_sd(aarch-64) \
 libdns_sd.so \
 libdns_sd.so.1()(64bit) \
 mDNSResponder-lib"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libavahi-client.so.3()(64bit) \
 libavahi-common.so.3()(64bit) \

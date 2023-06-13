@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(minim-math.tex) \
 texlive-minim-math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

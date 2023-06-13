@@ -13,6 +13,7 @@ gstreamer1(element-qmlgloverlay)()(64bit) \
 gstreamer1(element-qmlglsink)()(64bit) \
 gstreamer1(element-qmlglsrc)()(64bit) \
 libgstqmlgl.so()(64bit)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-good \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

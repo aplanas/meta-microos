@@ -9,6 +9,7 @@ RPM_HASH = "f33d8c382271ebb8c13304323eeb6e09cc586ab2ae6e123ceee4a721499ac1c47afe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-starfont-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

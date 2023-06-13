@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wmctrl) \
 python311-wmctrl \
 python3dist(wmctrl)"
+
 RDEPENDS:${PN} += "python(abi) \
 wmctrl \
 xorg-x11-server"

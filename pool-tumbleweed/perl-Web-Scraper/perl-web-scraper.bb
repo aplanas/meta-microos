@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(Web::Scraper) \
 perl(Web::Scraper::Filter) \
 perl(Web::Scraper::LibXML) \
 perl-Web-Scraper"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::Entities) \
 perl(HTML::Selector::XPath) \

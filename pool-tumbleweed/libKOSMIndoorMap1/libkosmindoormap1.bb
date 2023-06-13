@@ -10,6 +10,7 @@ RPM_HASH = "38f5507822dec49dc5a3b30940979c8d5dbe5213e23125a109fed0a4b65090484c7e
 RPROVIDES:${PN} += "libKOSMIndoorMap.so.1()(64bit) \
 libKOSMIndoorMap1 \
 libKOSMIndoorMap1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

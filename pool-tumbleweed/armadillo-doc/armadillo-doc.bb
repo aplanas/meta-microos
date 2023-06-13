@@ -13,6 +13,7 @@ RPM_HASH = "76abb0ac08fa89eacbed38b399971c6af2b89fea1d1593d2fa7c5fd5edbc0560124b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "armadillo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

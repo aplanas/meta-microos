@@ -10,6 +10,7 @@ RPM_HASH = "255749c9b1a0bc20b17ea2199b0e605b25bde10d21d833f7a07f9bcffbd622aa2850
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openwsman-ruby-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

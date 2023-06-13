@@ -10,6 +10,7 @@ RPM_HASH = "c6e29633de7e3f309d85375c4f0a5c312d72c1cadb5ac4adcaa016959fb384860cf5
 RPROVIDES:${PN} += "libvc.so.0()(64bit) \
 libvc0 \
 libvc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

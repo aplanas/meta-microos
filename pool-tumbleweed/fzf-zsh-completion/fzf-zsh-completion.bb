@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(fzf-zsh-completion) \
 fzf-zsh-completion"
+
 RDEPENDS:${PN} += "fzf \
 zsh"
 

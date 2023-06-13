@@ -13,6 +13,7 @@ python3.10dist(kivy) \
 python310-Kivy \
 python310-Kivy(aarch-64) \
 python3dist(kivy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

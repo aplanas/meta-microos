@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(gi-docgen) \
 python3-gi-docgen \
 python3.10dist(gi-docgen) \
 python3dist(gi-docgen)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

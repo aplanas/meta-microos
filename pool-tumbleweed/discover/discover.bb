@@ -23,6 +23,7 @@ mimehandler(application/vnd.flatpak.ref) \
 mimehandler(application/vnd.flatpak.repo) \
 mimehandler(application/x-rpm) \
 mimehandler(x-scheme-handler/appstream)"
+
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
 kuserfeedback-imports \

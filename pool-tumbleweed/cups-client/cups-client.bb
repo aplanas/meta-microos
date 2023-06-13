@@ -15,6 +15,7 @@ RPM_HASH = "c028b6981af9501910e6e3991545289a546182899e64b350c929a9c61044500e2142
 
 RPROVIDES:${PN} += "cups-client \
 cups-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavahi-client.so.3()(64bit) \

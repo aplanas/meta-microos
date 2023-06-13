@@ -15,6 +15,7 @@ RPM_HASH = "5afd67de2fd6c4ba696d92e9893e11195ec91527237470bc682d833be5581e0f536d
 RPROVIDES:${PN} += "librdf_storage_sqlite.so()(64bit) \
 redland \
 redland(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

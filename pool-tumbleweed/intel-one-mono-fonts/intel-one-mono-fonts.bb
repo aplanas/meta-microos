@@ -16,6 +16,7 @@ RPM_HASH = "ab5575a5a72006300574d12cc836ce5bb850ccfad4d9637cf73cb57d7743d9e142e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intel-one-mono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

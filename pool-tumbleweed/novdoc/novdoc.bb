@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(novdoc) \
 novdoc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "5d5efc0cfe8d4b3757324319f65dd9ee55293c250ad7f98cde70300905a48115c1d6
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-scsi \
 libvirt-daemon-driver-storage-scsi(aarch-64) \
 libvirt_storage_backend_scsi.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

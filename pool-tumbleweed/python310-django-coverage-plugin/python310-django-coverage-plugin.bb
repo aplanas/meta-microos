@@ -14,6 +14,7 @@ python3.10dist(django-coverage-plugin) \
 python310-django-coverage-plugin \
 python310-django_coverage_plugin \
 python3dist(django-coverage-plugin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-coverage"

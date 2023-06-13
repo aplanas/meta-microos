@@ -60,6 +60,7 @@ locale(grilo-plugins:uk) \
 locale(grilo-plugins:zh_CN) \
 locale(grilo-plugins:zh_HK) \
 locale(grilo-plugins:zh_TW)"
+
 RDEPENDS:${PN} += "grilo-plugins"
 
 inherit rpm

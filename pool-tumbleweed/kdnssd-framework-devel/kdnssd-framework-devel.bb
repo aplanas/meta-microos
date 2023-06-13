@@ -13,6 +13,7 @@ RPM_HASH = "a53d5c2d71a60b1c908f5db277b20e803adc859dd82059b28224739ffe82fc6a921f
 RPROVIDES:${PN} += "cmake(KF5DNSSD) \
 kdnssd-framework-devel \
 kdnssd-framework-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Network) \
 extra-cmake-modules \
 libKF5DNSSD5"

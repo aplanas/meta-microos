@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(xcffib) \
 python311-xcffib \
 python3dist(xcffib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cffi"
 

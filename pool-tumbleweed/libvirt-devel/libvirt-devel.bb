@@ -13,6 +13,7 @@ pkgconfig(libvirt) \
 pkgconfig(libvirt-admin) \
 pkgconfig(libvirt-lxc) \
 pkgconfig(libvirt-qemu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvirt-libs \
 pkg-config \

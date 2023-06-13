@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luatextra.sty) \
 texlive-luatextra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

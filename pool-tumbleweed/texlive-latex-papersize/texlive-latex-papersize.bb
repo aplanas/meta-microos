@@ -14,6 +14,7 @@ RPM_HASH = "52b6ed3f6b95acf4f09f52a4e4041b3f0b468b8bdcd2e583481e8077ccb1f7382f9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-papersize"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

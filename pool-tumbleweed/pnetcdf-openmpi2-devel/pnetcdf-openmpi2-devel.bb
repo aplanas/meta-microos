@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "parallel-netcdf-openmpi2-devel \
 pkgconfig(pnetcdf) \
 pnetcdf-openmpi2-devel \
 pnetcdf-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpnetcdf4-openmpi2 \
 openmpi2-devel \

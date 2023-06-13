@@ -10,6 +10,7 @@ RPM_HASH = "eb8f796c2c779034998c857f227fce159ffbfd67169bdbf471183ac80665d6ee3cc7
 RPROVIDES:${PN} += "breeze-gtk \
 metatheme-breeze-common \
 metatheme-breeze-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

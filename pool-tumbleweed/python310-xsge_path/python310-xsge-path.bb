@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-xsge_path \
 python3.10dist(xsge-path) \
 python310-xsge_path \
 python3dist(xsge-path)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sge-pygame"
 

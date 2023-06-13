@@ -14,6 +14,7 @@ RPM_HASH = "572a4ba5f058f7ad8d15033a896b51705e34014cf505e9fd7ff59a68d0455cac9d63
 RPROVIDES:${PN} += "cmake(ecpint) \
 libecpint-devel \
 libecpint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcerf-devel \
 libecpint1"
 

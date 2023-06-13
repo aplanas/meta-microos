@@ -10,6 +10,7 @@ RPM_HASH = "d06ac473a6e3fbc83bb64d6e6e54b2a12c44683207d4b534b6d4ec7990ede4c6454e
 
 RPROVIDES:${PN} += "python39-qtnetworkauth-qt5-devel \
 python39-qtnetworkauth-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-qt5-devel \
 python39-qtnetworkauth-qt5"

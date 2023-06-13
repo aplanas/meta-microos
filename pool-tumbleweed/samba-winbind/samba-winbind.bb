@@ -12,6 +12,7 @@ group(winbind) \
 samba-client:/usr/sbin/winbindd \
 samba-winbind \
 samba-winbind(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 coreutils \

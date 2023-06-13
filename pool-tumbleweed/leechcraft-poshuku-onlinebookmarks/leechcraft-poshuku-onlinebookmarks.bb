@@ -12,6 +12,7 @@ RPM_HASH = "799bf719fc91a6d57f0bffa5ed7b29912e4d33a2e715783f91a216e3f831f2ed6ac4
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks \
 leechcraft-poshuku-onlinebookmarks(aarch-64) \
 libleechcraft_poshuku_onlinebookmarks.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku \

@@ -15,6 +15,7 @@ RPM_HASH = "07bb8eb655a9519383791a1e9a3b5f11231e6bf701d03d2a1e2a447b68baa065725f
 RPROVIDES:${PN} += "libgig-tools \
 libgig-tools(aarch-64) \
 libgig6-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libakai.so.0()(64bit) \

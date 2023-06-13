@@ -19,6 +19,7 @@ tex(my-title.sty) \
 tex(ua-thesis.cls) \
 tex(ua-title.sty) \
 texlive-uaclasses"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

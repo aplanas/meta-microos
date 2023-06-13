@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "fmpp \
 mvn(net.sourceforge.fmpp:fmpp) \
 mvn(net.sourceforge.fmpp:fmpp:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.beanshell:bsh) \

@@ -15,6 +15,7 @@ tex(komacv-classic.sty) \
 tex(komacv-oldstyle.sty) \
 tex(komacv.cls) \
 texlive-komacv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

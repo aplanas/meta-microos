@@ -10,6 +10,7 @@ RPM_HASH = "e5383f3e68aa0212db2be29f38c0f045c79eb556078e4842803dbfaba2661d23b747
 RPROVIDES:${PN} += "typelib(GFBGraph) \
 typelib-1_0-GFBGraph-0_2 \
 typelib-1_0-GFBGraph-0_2(aarch-64)"
+
 RDEPENDS:${PN} += "libgfbgraph-0.2.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

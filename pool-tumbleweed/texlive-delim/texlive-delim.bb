@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(delim.sty) \
 texlive-delim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ python3.10dist(recommonmark) \
 python310-reCommonMark \
 python310-recommonmark \
 python3dist(recommonmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

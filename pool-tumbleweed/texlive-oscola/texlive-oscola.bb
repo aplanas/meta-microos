@@ -19,6 +19,7 @@ tex(english-oscola.lbx) \
 tex(oscola.bbx) \
 tex(oscola.cbx) \
 texlive-oscola"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

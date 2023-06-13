@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jeepney \
 python3.10dist(jeepney) \
 python310-jeepney \
 python3dist(jeepney)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

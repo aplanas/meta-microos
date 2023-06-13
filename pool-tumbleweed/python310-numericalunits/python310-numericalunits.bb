@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-numericalunits \
 python3.10dist(numericalunits) \
 python310-numericalunits \
 python3dist(numericalunits)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

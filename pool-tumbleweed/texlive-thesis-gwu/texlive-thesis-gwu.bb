@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thesis-gwu.cls) \
 texlive-thesis-gwu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

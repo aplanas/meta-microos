@@ -58,6 +58,7 @@ mimehandler(image/x-xbitmap) \
 mimehandler(image/x-xcf) \
 mimehandler(image/x-xpixmap) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

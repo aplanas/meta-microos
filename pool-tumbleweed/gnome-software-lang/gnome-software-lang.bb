@@ -74,6 +74,7 @@ locale(gnome-software:vi) \
 locale(gnome-software:zh_CN) \
 locale(gnome-software:zh_HK) \
 locale(gnome-software:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-software"
 
 inherit rpm

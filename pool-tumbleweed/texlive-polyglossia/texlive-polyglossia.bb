@@ -269,6 +269,7 @@ tex(thaidigits.map) \
 tex(xgreek-fixes.def) \
 tex(xpg-cyrillicnumbers.sty) \
 texlive-polyglossia"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfcprot.sty) \
 texlive-pdfcprot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

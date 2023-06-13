@@ -9,6 +9,7 @@ RPM_HASH = "49b32d96fe20e9a4281a26338c0e11aae052f7c000f3057eee2f56e8fa0209a3d299
 
 RPROVIDES:${PN} += "python311-libcaes \
 python311-libcaes(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

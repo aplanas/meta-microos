@@ -9,6 +9,7 @@ RPM_HASH = "b1eb9dd725669ae555bfd09e15a7cee32c02bbd6a60f128c0fdfb7c411c3607f0cba
 
 RPROVIDES:${PN} += "sampler \
 sampler(aarch-64)"
+
 RDEPENDS:${PN} += "libasound.so.2()(64bit) \
 libasound.so.2(ALSA_0.9)(64bit) \
 libasound.so.2(ALSA_0.9.0rc4)(64bit) \

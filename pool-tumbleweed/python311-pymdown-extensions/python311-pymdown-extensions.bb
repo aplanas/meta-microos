@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pymdown-extensions) \
 python311-pymdown-extensions \
 python3dist(pymdown-extensions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Markdown \
 python311-PyYAML"

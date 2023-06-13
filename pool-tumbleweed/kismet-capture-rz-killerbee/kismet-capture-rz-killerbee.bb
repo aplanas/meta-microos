@@ -12,6 +12,7 @@ RPM_HASH = "48c8fac1801023302e81a1cbbf9d89971946ac94c68eb6c65229236457ef146acc4b
 
 RPROVIDES:${PN} += "kismet-capture-rz-killerbee \
 kismet-capture-rz-killerbee(aarch-64)"
+
 RDEPENDS:${PN} += "kismet \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "8714c7f5001e5ec5b13d8ebfaf84e83f46d073a690ac113c6a7207c254ab54fc2f14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ngspice-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

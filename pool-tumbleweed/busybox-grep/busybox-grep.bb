@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/grep \
 busybox-grep"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

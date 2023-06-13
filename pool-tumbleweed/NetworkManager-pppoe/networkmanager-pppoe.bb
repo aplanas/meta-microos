@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "NetworkManager-pppoe \
 NetworkManager-pppoe(aarch-64) \
 libnm-device-plugin-adsl.so()(64bit) \
 libnm-ppp-plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

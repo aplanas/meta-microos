@@ -13,6 +13,7 @@ RPM_HASH = "79a799b6fc1014402f35c26702ef2f323e86bd55b7bc319434dca00a7cd6ebd2f3b5
 RPROVIDES:${PN} += "libpcap-devel \
 libpcap-devel(aarch-64) \
 pkgconfig(libpcap)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

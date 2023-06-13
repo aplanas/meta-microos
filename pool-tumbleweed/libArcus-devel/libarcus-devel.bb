@@ -11,6 +11,7 @@ RPM_HASH = "1c24eba3a304d2c22824c215bb4c65c4e05c6bb4b060c5911145b3ca52905c72805f
 RPROVIDES:${PN} += "cmake(Arcus) \
 libArcus-devel \
 libArcus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libArcus3 \
 protobuf-devel \
 python3-sip-devel"

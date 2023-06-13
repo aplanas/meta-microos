@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cooldict) \
 python39-cooldict \
 python3dist(cooldict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ana"
 

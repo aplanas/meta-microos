@@ -12,6 +12,7 @@ RPM_HASH = "02c99472c0a04cdcb85ba28f24fc8cc54112536c4ae1aaa7a9fa8b37ab2772cde6b1
 
 RPROVIDES:${PN} += "rtr-tools \
 rtr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

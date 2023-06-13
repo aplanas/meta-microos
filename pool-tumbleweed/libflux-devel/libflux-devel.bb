@@ -11,6 +11,7 @@ RPM_HASH = "8e7b4657d9fe63bd57e6988dc537604ecd811a258bdd443eb420748f96f7d3b4d302
 RPROVIDES:${PN} += "libflux-devel \
 libflux-devel(aarch-64) \
 pkgconfig(flux)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libc.so.6(GLIBC_2.34)(64bit) \
 libflux0_193_0 \

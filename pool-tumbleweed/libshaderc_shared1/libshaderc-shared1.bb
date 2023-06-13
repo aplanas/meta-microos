@@ -12,6 +12,7 @@ RPM_HASH = "debfd8ee10c0912f142d83fa031b48adfb9b2a5d96431f245a8ca12b96c51d86f582
 RPROVIDES:${PN} += "libshaderc_shared.so.1()(64bit) \
 libshaderc_shared1 \
 libshaderc_shared1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -128,6 +128,7 @@ rpm_macro(pnp4nagios_perfdata_logfile) \
 rpm_macro(pnp4nagios_perfdata_spooldir) \
 rpm_macro(pnp4nagios_sysconfdir) \
 rpm_macro(pnp4nagios_templatedir)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

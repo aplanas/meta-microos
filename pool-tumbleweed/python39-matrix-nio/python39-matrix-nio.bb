@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(matrix-nio) \
 python39-matrix-nio \
 python3dist(matrix-nio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Logbook \
 python39-aiofiles \

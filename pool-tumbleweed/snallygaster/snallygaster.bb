@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(snallygaster) \
 python3dist(snallygaster) \
 snallygaster"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-beautifulsoup4 \
 python3-dnspython \

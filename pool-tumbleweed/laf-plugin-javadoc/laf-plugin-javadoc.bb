@@ -13,6 +13,7 @@ RPM_HASH = "bd889b7fa730abfd33152210b9c6dbe96cc5b870ee94e78463a36eed03ae0f9b2a1f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "laf-plugin-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

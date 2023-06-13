@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible \
 python3.10dist(ansible) \
 python3dist(ansible)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ansible-core \
 python3-base"

@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(rfc3986-validator) \
 python39-rfc3986-validator \
 python39-rfc3986_validator \
 python3dist(rfc3986-validator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

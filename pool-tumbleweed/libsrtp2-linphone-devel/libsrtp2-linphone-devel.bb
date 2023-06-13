@@ -13,6 +13,7 @@ RPM_HASH = "795835efbe50fa9e7a8fa0a6e7bb69b2ca69f339b2a0678d332c7bee73b71940f4f6
 RPROVIDES:${PN} += "libsrtp2-linphone-devel \
 libsrtp2-linphone-devel(aarch-64) \
 pkgconfig(libsrtp2-linphone)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsrtp2-linphone1"
 

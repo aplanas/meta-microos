@@ -12,6 +12,7 @@ RPM_HASH = "9712d984880493af4a5b8dde544d5d3b3464bd420a498adc25185987de76ccaba94d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfactory-gftables"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

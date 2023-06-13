@@ -9,6 +9,7 @@ RPM_HASH = "fb458c166c92eaf931643a09af1555d86007650ddb238e875f3dc3e4b6c2fdaa1bd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clrstrip-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

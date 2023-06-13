@@ -10,6 +10,7 @@ RPM_HASH = "3fbc1d8d7b3862b1fcf00e15a023f149e02cecf6bdf18b4a11ba5d2f15fd766c77c5
 RPROVIDES:${PN} += "ghc-asn1-types-prof \
 ghc-asn1-types-prof(aarch-64) \
 ghc-prof(asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm)"
+
 RDEPENDS:${PN} += "ghc-asn1-types-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

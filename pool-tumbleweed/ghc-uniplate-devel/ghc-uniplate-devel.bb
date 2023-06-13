@@ -10,6 +10,7 @@ RPM_HASH = "a6511d82cd305d2e119506a96e95278dc8462498f246c6e216be718c3901cce8ace3
 RPROVIDES:${PN} += "ghc-devel(uniplate-1.6.13-3GboCmnxCZ4BmbYwVaL4sN) \
 ghc-uniplate-devel \
 ghc-uniplate-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

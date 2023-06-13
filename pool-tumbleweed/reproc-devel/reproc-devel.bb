@@ -15,6 +15,7 @@ pkgconfig(reproc) \
 pkgconfig(reproc++) \
 reproc-devel \
 reproc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libreproc++14 \
 libreproc14"

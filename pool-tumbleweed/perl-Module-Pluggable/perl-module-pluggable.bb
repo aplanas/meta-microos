@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "perl(Devel::InnerPackage) \
 perl(Module::Pluggable) \
 perl(Module::Pluggable::Object) \
 perl-Module-Pluggable"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

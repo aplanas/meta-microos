@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libcreg.so.1()(64bit) \
 libcreg.so.1(V_20210625)(64bit) \
 libcreg1 \
 libcreg1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "35054dc334a535ac466c8318fb76ae557d06a0e1f42a30e004c883f28b238f30f648
 
 RPROVIDES:${PN} += "sqtop \
 sqtop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "5dd4bbe88d07951c1a4040ac4424a916e0bcf7d78eb9ed7f78199c89e32114d8aed2
 
 RPROVIDES:${PN} += "texlive-epstopdf-bin \
 texlive-epstopdf-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-epstopdf"
 
 inherit rpm

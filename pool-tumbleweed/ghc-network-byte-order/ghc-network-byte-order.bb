@@ -10,6 +10,7 @@ RPM_HASH = "514f3e4e6ccb29fb639d1c9b28b7c685461dd684f595f13e985d17176f4656443bf2
 RPROVIDES:${PN} += "ghc-network-byte-order \
 ghc-network-byte-order(aarch-64) \
 libHSnetwork-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

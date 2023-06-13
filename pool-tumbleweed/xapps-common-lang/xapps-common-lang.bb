@@ -63,6 +63,7 @@ locale(xapps-common:zh_HK) \
 locale(xapps-common:zh_TW) \
 xapps-common-lang \
 xapps-common-lang-all"
+
 RDEPENDS:${PN} += "xapps-common"
 
 inherit rpm

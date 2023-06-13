@@ -14,6 +14,7 @@ RPM_HASH = "548d1150f996c3a2a98997e61ee530c1c1fda46b26d9f65be1e26595fc25bf4576eb
 RPROVIDES:${PN} += "libmirage.so.11()(64bit) \
 libmirage11 \
 libmirage11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

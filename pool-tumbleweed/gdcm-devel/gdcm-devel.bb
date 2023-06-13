@@ -11,6 +11,7 @@ RPM_HASH = "e9ded2a2b8ea1fa5648d37f364fb175551aff99c90505cad6b86c773d98cdbd91f75
 RPROVIDES:${PN} += "cmake(GDCM) \
 gdcm-devel \
 gdcm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gdcm-applications(aarch-64) \
 libgdcm3_0 \
 libsocketxx1_2"

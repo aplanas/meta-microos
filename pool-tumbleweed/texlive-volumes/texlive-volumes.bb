@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(nowtoaux.sty) \
 tex(volumes.sty) \
 texlive-volumes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

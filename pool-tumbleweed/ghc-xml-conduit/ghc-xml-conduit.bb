@@ -11,6 +11,7 @@ RPM_HASH = "6bbcd17f2b73a42f4e808cf894904eb54fb2ca4a2696541a3e3d26a8cdadc6de237e
 RPROVIDES:${PN} += "ghc-xml-conduit \
 ghc-xml-conduit(aarch-64) \
 libHSxml-conduit-1.9.1.2-EG4w0oWu477B6XYo8w0Zz4-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

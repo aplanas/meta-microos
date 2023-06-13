@@ -12,6 +12,7 @@ RPM_HASH = "c758913c1e9f679abfdd756662dd6cf219e28e7d70b98c8107da6e5d6100b0037803
 RPROVIDES:${PN} += "typelib(Gom) \
 typelib-1_0-Gom-1_0 \
 typelib-1_0-Gom-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgom-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

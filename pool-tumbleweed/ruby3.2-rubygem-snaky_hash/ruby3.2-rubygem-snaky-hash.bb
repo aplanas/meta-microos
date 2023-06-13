@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:snaky_hash:2) \
 rubygem(ruby:3.2.0:snaky_hash:2.0) \
 rubygem(ruby:3.2.0:snaky_hash:2.0.1) \
 rubygem(snaky_hash)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:hashie) \
 rubygem(ruby:3.2.0:version_gem) \

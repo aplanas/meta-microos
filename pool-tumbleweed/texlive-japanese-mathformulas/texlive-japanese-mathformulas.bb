@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(japanese-mathformulas.sty) \
 texlive-japanese-mathformulas"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

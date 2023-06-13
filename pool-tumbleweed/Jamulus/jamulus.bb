@@ -16,6 +16,7 @@ application() \
 application(Jamulus.desktop) \
 jamulus \
 llcon"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

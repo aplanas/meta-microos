@@ -17,6 +17,7 @@ RPM_HASH = "a8a2e73259901068018ac5e5b575b2b45ad465ea49e56d797d5529f76a673a75e2ba
 RPROVIDES:${PN} += "backupninja \
 backupninja(aarch-64) \
 config(backupninja)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 bash \

@@ -9,6 +9,7 @@ RPM_HASH = "146e2aecf76c6aaea0e6387c3711e89436d305f73ac395298d43114e83b969437278
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-photobook-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

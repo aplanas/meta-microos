@@ -16,6 +16,7 @@ RPM_HASH = "24f1a0d13834c0ca247fc69a689e13edc1780d1087fa75b3f9688487980561c3d6b5
 RPROVIDES:${PN} += "cmake(double-conversion) \
 double-conversion-devel \
 double-conversion-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdouble-conversion3"
 
 inherit rpm

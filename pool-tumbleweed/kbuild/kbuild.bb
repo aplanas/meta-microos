@@ -19,6 +19,7 @@ RPM_HASH = "2f973e9330bacb5ac377f3a871327d12b2f3c1ac48a7be0ab34bf60ea69bed465e1f
 
 RPROVIDES:${PN} += "kbuild \
 kbuild(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

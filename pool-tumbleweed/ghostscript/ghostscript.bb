@@ -39,6 +39,7 @@ gs_lib \
 libgs.so.9()(64bit) \
 libijs-0.35.so()(64bit) \
 pstoraster"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

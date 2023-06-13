@@ -10,6 +10,7 @@ RPM_HASH = "14e091b2fa41aaca31e74f3a37fab2fb610410f623ed026eccc8191b653a91995df4
 RPROVIDES:${PN} += "gulkan-devel \
 gulkan-devel(aarch-64) \
 pkgconfig(gulkan-0.15)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gulkan0_15-0 \
 pkgconfig(cairo) \

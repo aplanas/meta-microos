@@ -9,6 +9,7 @@ RPM_HASH = "4ad60a2f1c826862a57241534d9df77c450e77a0676e84b093f44827ea6b0c76c58d
 
 RPROVIDES:${PN} += "golang-github-boynux-squid_exporter \
 golang-github-boynux-squid_exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 shadow \

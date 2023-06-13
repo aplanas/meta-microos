@@ -10,6 +10,7 @@ RPM_HASH = "6c9b2d23a2a3b5c9c7ecf5f433f3a3183ebe085d741ebe1b22395b7e3fbaf48f99b9
 
 RPROVIDES:${PN} += "texlive-bin-devel \
 texlive-bin-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkpathsea6 \
 libptexenc1 \
 libsynctex2 \

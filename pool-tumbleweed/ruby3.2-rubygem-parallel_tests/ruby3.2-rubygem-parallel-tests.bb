@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:parallel_tests) \
 rubygem(ruby:3.2.0:parallel_tests:4) \
 rubygem(ruby:3.2.0:parallel_tests:4.0) \
 rubygem(ruby:3.2.0:parallel_tests:4.0.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

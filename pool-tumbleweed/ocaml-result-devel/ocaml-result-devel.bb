@@ -16,6 +16,7 @@ ocaml-result-devel \
 ocaml-result-devel(aarch-64) \
 ocamlfind(result) \
 ocamlx(Result)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Either) \

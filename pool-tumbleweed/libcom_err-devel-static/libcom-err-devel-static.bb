@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcom_err-devel-static \
 libcom_err-devel-static(aarch-64) \
 libcom_err-devel:/usr/lib64/libcom_err.a \
 libcom_err-devel:/usr/lib64/libss.a"
+
 RDEPENDS:${PN} += "libcom_err-devel"
 
 inherit rpm

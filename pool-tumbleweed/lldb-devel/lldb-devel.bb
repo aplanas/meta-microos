@@ -13,6 +13,7 @@ RPM_HASH = "27327f2ffecf63cf2246f821997d563ee45a3f018b75c94c82e5654bc6f96422d76c
 
 RPROVIDES:${PN} += "lldb-devel \
 lldb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lldb16-devel"
 
 inherit rpm

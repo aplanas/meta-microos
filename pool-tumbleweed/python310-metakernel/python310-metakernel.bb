@@ -17,6 +17,7 @@ python3.10dist(metakernel) \
 python310-jupyter_metakernel \
 python310-metakernel \
 python3dist(metakernel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipykernel \
 python310-jedi \

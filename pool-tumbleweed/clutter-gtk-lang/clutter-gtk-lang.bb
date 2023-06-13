@@ -13,6 +13,7 @@ clutter-gtk-lang-all \
 locale(clutter-gtk:ja) \
 locale(clutter-gtk:pl) \
 locale(clutter-gtk:zh_CN)"
+
 RDEPENDS:${PN} += "clutter-gtk"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(xdvi.1) \
 texlive-xdvi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

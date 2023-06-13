@@ -11,6 +11,7 @@ RPM_HASH = "cfd8a7ffdd41c1e6b01a69e3bda97f872970c47501851a4b243d50412ea131cded92
 RPROVIDES:${PN} += "cmake(KF5Kirigami2) \
 kirigami2-devel \
 kirigami2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami2 \
 libKF5Kirigami2-5"
 

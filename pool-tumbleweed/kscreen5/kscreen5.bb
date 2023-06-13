@@ -14,6 +14,7 @@ kscreen5 \
 kscreen5(aarch-64) \
 metainfo() \
 metainfo(org.kde.kscreen.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kded \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wheelchart.sty) \
 texlive-wheelchart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

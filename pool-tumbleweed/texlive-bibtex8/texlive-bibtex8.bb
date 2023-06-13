@@ -15,6 +15,7 @@ RPM_HASH = "c7f97d399caf53a15cdbb43629b0a9c35909044b87459dca3b0693607ec29ec2f163
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibtex8"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

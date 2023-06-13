@@ -18,6 +18,7 @@ tex(ppt-light-mono.tex) \
 tex(ppt-light.tex) \
 tex(ppt-slides.sty) \
 texlive-ppt-slides"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

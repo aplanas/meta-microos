@@ -10,6 +10,7 @@ RPM_HASH = "612d3ee7b890fd9d78789de4032d2b8cefcd0298fb776245e8f7c68af86138115936
 RPROVIDES:${PN} += "ghc-haddock-library-prof \
 ghc-haddock-library-prof(aarch-64) \
 ghc-prof(haddock-library-1.11.0-3IU1wl1Mct8946s210c9Hs)"
+
 RDEPENDS:${PN} += "ghc-haddock-library-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

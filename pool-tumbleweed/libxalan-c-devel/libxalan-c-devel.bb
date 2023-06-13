@@ -19,6 +19,7 @@ libXalan-c-devel \
 libxalan-c-devel \
 libxalan-c-devel(aarch-64) \
 pkgconfig(xalan-c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxalan-c112"
 

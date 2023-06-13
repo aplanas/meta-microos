@@ -10,6 +10,7 @@ RPM_HASH = "b636cb4eb4e45001f8bd4f29f0da9b1dd14c028d20f63bb2cda1abf1a84e0f3dd748
 RPROVIDES:${PN} += "libboost_mpi.so.1.82.0()(64bit) \
 libboost_mpi1_82_0 \
 libboost_mpi1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 libboost_serialization.so.1.82.0()(64bit) \

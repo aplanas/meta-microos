@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(qsharp.sty) \
 texlive-qsharp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

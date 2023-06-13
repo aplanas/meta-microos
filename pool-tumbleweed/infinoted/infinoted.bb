@@ -23,6 +23,7 @@ libinfinoted-plugin-note-text.so()(64bit) \
 libinfinoted-plugin-record.so()(64bit) \
 libinfinoted-plugin-traffic-logging.so()(64bit) \
 libinfinoted-plugin-transformation-protection.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

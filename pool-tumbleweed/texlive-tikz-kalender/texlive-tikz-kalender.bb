@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(tikz-kalender-translation.clo) \
 tex(tikz-kalender.cls) \
 texlive-tikz-kalender"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

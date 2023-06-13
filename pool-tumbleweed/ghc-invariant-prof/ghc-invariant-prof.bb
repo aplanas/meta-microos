@@ -10,6 +10,7 @@ RPM_HASH = "34aab095fac87bf12522ae694ce8a87fd2c101b93d6417e42b9e8fa19543804f31e2
 RPROVIDES:${PN} += "ghc-invariant-prof \
 ghc-invariant-prof(aarch-64) \
 ghc-prof(invariant-0.6.1-B19sct74tP6Cqvpbmm6WZv)"
+
 RDEPENDS:${PN} += "ghc-invariant-devel \
 ghc-prof(StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN) \
 ghc-prof(array-0.5.4.0) \

@@ -29,6 +29,7 @@ perl(Test::File::ShareDir::Object::Module) \
 perl(Test::File::ShareDir::TempDirObject) \
 perl(Test::File::ShareDir::Utils) \
 perl-Test-File-ShareDir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Tiny) \
 perl(File::Copy::Recursive) \

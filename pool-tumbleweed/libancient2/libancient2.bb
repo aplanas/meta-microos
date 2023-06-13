@@ -11,6 +11,7 @@ RPM_HASH = "43f3bc1a08266635461ff873d76abb1c983bc71880793d236b28acef5a5643961218
 RPROVIDES:${PN} += "libancient.so.2()(64bit) \
 libancient2 \
 libancient2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

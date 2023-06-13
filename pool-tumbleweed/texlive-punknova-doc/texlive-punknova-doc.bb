@@ -9,6 +9,7 @@ RPM_HASH = "f4f17a8e757cfa2d4d0149ac78280a8c0d279d5f4b9d518c75c246a0c3c1b8eaf695
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punknova-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

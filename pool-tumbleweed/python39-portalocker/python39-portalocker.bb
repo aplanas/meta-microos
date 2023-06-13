@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(portalocker) \
 python39-portalocker \
 python3dist(portalocker)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

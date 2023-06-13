@@ -11,6 +11,7 @@ RPM_HASH = "0acdd8241dd37e8befffca5ab537e4b5a24cbe5f0c6d5677d09159d0ee29afc716cb
 RPROVIDES:${PN} += "libgtkprpltwtr.so()(64bit) \
 pidgin-plugin-prpltwtr \
 pidgin-plugin-prpltwtr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

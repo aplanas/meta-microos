@@ -108,6 +108,7 @@ locale(mate-settings-daemon:zh_HK) \
 locale(mate-settings-daemon:zh_TW) \
 mate-settings-daemon-lang \
 mate-settings-daemon-lang-all"
+
 RDEPENDS:${PN} += "mate-settings-daemon"
 
 inherit rpm

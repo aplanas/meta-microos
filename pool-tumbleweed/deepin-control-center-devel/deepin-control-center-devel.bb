@@ -11,6 +11,7 @@ RPM_HASH = "39eaa4c875d5b8438fe86965012bc683058ee6703cd3ed8c4a58f5a84e5ded8dde52
 RPROVIDES:${PN} += "cmake(DdeControlCenter) \
 deepin-control-center-devel \
 deepin-control-center-devel(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-control-center"
 
 inherit rpm

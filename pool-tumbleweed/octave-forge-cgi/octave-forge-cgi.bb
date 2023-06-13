@@ -10,6 +10,7 @@ RPM_HASH = "c6ad59564392a953cafb91445123678c69e37ff8043458b79a542a02314017c5d4aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-cgi"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli"
 

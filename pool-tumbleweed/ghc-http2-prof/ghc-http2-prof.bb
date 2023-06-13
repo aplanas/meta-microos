@@ -10,6 +10,7 @@ RPM_HASH = "62f8ee5ede045314f9fba7c8fd88eba8a275f5e9e744e53645446ffd428d408e6708
 RPROVIDES:${PN} += "ghc-http2-prof \
 ghc-http2-prof(aarch-64) \
 ghc-prof(http2-3.0.3-g8K2coD7lK8bFd8vR2MQJ)"
+
 RDEPENDS:${PN} += "ghc-http2-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \

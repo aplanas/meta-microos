@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyfiglet \
 python3.10dist(pyfiglet) \
 python310-pyfiglet \
 python3dist(pyfiglet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-poetry \
 python3.10dist(poetry) \
 python310-poetry \
 python3dist(poetry)"
+
 RDEPENDS:${PN} += "(python310-requests-toolbelt >= 0.9.1 with python310-requests-toolbelt < 2) \
 (python310-tomlkit >= 0.11.4 with python310-tomlkit < 1.0) \
 /bin/sh \

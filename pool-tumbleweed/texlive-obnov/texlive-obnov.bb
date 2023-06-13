@@ -38,6 +38,7 @@ tex(obnsl12.tfm) \
 tex(obnsl17.tfm) \
 tex(obnsl7.tfm) \
 texlive-obnov"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

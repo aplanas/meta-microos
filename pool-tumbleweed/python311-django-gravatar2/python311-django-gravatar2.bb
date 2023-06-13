@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-gravatar2) \
 python311-django-gravatar2 \
 python3dist(django-gravatar2)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

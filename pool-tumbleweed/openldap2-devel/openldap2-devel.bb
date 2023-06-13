@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "openldap2-devel \
 openldap2-devel(aarch-64) \
 pkgconfig(lber) \
 pkgconfig(ldap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldap2 \
 pkgconfig(lber)"

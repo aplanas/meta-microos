@@ -93,6 +93,7 @@ locale(lightsoff:wa) \
 locale(lightsoff:zh_CN) \
 locale(lightsoff:zh_HK) \
 locale(lightsoff:zh_TW)"
+
 RDEPENDS:${PN} += "lightsoff"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(sankey-doc-preamble.sty) \
 tex(sankey.sty) \
 tex(tikzlibrarydubins.code.tex) \
 texlive-sankey"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

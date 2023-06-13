@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-dhcp_dns_server \
 patterns-server-dhcp_dns_server \
 patterns-server-dhcp_dns_server(aarch-64)"
+
 RDEPENDS:${PN} += "bind \
 dhcp-server \
 pattern()"

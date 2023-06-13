@@ -9,6 +9,7 @@ RPM_HASH = "fc4d2b7c40268bff831f77ae80835a02e9b0e5e38b2b0158d0688432d66b2fb083fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dynblocks-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

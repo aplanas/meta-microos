@@ -12,6 +12,7 @@ RPM_HASH = "725247649affac550c61aeaf9daea1db9aa34598b45ffb545a84020a2f9157499867
 RPROVIDES:${PN} += "liboslcomp.so.1.12()(64bit) \
 liboslcomp1_12 \
 liboslcomp1_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

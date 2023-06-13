@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(hotdoc) \
 python39-hotdoc \
 python39-hotdoc(aarch-64) \
 python3dist(hotdoc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 /usr/bin/sh \

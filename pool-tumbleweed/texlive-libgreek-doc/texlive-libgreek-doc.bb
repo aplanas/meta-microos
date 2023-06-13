@@ -9,6 +9,7 @@ RPM_HASH = "f0a54510f4c6b0c9bf305145752d07d10123867c8cf15d38c30688314c40a8746a73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libgreek-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(xfdesktop-branding-openSUSE) \
 xfce4-desktop-branding-openSUSE \
 xfdesktop-branding \
 xfdesktop-branding-openSUSE"
+
 RDEPENDS:${PN} += "desktop-data-openSUSE \
 wallpaper-branding"
 

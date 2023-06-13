@@ -21,6 +21,7 @@ python311-jupyter-client \
 python311-jupyter-client7 \
 python311-jupyter_client \
 python3dist(jupyter-client)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

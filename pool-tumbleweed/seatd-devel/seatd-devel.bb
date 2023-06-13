@@ -10,6 +10,7 @@ RPM_HASH = "7e2d19301baa1a80edcbccde4cd805b47c9704005c0685f88014b5a3c178891008cf
 RPROVIDES:${PN} += "pkgconfig(libseat) \
 seatd-devel \
 seatd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libseat1 \
 pkgconfig(libsystemd)"

@@ -9,6 +9,7 @@ RPM_HASH = "6fd36724dd2f92b2600b97db541b6e5bd50027fdcab142dc7f12545ce43440d6baa9
 
 RPROVIDES:${PN} += "ptscotch_6_1_0-gnu-mpich-hpc-devel-static \
 ptscotch_6_1_0-gnu-mpich-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "ptscotch_6_1_0-gnu-mpich-hpc-devel"
 
 inherit rpm

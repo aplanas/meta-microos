@@ -10,6 +10,7 @@ RPM_HASH = "e24eaf8d2c622ac03561b0e79b068fb95e63a9850816d6ac4fa9713fd27b4a196b50
 RPROVIDES:${PN} += "ghc-prof(spdx-1.0.0.3-JwdNfzEpnM57Bwmw6OiiTp) \
 ghc-spdx-prof \
 ghc-spdx-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(Cabal-3.8.1.0) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gincltex.sty) \
 texlive-gincltex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

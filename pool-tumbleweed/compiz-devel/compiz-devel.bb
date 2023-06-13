@@ -16,6 +16,7 @@ pkgconfig(compiz) \
 pkgconfig(compiz-cube) \
 pkgconfig(compiz-scale) \
 pkgconfig(libdecoration)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 compiz-plugins \
 libjpeg-devel \

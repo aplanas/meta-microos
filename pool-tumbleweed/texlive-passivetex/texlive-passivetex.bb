@@ -17,6 +17,7 @@ tex(teixmlslides.sty) \
 tex(ucharacters.sty) \
 tex(unicode.sty) \
 texlive-passivetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "af0905472a12e1d2810563138338140130072f5f672ecfc78d0099d6ccda69fd618a
 RPROVIDES:${PN} += "camsource-devel \
 camsource-devel(aarch-64) \
 camsource:/usr/include/camsource/image.h"
+
 RDEPENDS:${PN} += "camsource"
 
 inherit rpm

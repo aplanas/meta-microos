@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "gegl-0_4 \
 gegl-0_4(aarch-64) \
 libgegl-npd-0.4.so()(64bit) \
 libgegl-sc-0.4.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

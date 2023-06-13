@@ -10,6 +10,7 @@ RPM_HASH = "a8a7403de89528ef2742bd0b32b7d4c3b3cca1eab8a7faac099655fb2559683b00a2
 
 RPROVIDES:${PN} += "gl2ps-devel \
 gl2ps-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgl2ps1"
 
 inherit rpm

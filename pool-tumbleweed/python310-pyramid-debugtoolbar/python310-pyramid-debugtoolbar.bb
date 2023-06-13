@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyramid-debugtoolbar \
 python3.10dist(pyramid-debugtoolbar) \
 python310-pyramid-debugtoolbar \
 python3dist(pyramid-debugtoolbar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pygments \
 python310-pyramid \

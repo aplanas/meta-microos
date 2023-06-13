@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(combinedgraphics.sty) \
 texlive-combinedgraphics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

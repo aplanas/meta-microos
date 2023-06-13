@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-littleutils \
 python3.10dist(littleutils) \
 python310-littleutils \
 python3dist(littleutils)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

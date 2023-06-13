@@ -10,6 +10,7 @@ RPM_HASH = "c8777669c0939c8032cdba498ef365f120445419a3edfe61bee62e00c0a4685a27e3
 RPROVIDES:${PN} += "ghc-alsa-core-devel \
 ghc-alsa-core-devel(aarch-64) \
 ghc-devel(alsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-alsa-core \
 ghc-compiler \

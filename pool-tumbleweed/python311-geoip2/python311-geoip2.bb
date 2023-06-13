@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(geoip2) \
 python311-geoip2 \
 python3dist(geoip2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-maxminddb \
 python311-requests"

@@ -108,6 +108,7 @@ font(frcslc14) \
 font(frcslc6) \
 font(frcw10) \
 texlive-frcursive-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

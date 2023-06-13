@@ -16,6 +16,7 @@ pkgconfig(folks) \
 pkgconfig(folks-dummy) \
 pkgconfig(folks-eds) \
 pkgconfig(folks-telepathy)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfolks-eds26 \
 libfolks-telepathy26 \

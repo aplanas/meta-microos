@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-msrestazure \
 python3.10dist(msrestazure) \
 python310-msrestazure \
 python3dist(msrestazure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-adal \
 python310-msrest \

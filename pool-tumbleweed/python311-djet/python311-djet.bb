@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(djet) \
 python311-djet \
 python3dist(djet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-Pillow \

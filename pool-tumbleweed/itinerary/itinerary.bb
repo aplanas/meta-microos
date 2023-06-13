@@ -24,6 +24,7 @@ mimehandler(message/rfc822) \
 mimehandler(text/calendar) \
 mimehandler(text/html) \
 qt5qmlimport(org.kde.solidextras.1)"
+
 RDEPENDS:${PN} += "breeze5-icons \
 ki18n-imports \
 kirigami2 \

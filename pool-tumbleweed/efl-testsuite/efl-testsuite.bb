@@ -9,6 +9,7 @@ RPM_HASH = "01cdbec573d65d090c01e0b2796a743eceea98bcdb428d3b3321b6d4195c5281953b
 
 RPROVIDES:${PN} += "efl-testsuite \
 efl-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "libefreet1"
 
 inherit rpm

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:web-console:4) \
 rubygem(ruby:3.2.0:web-console:4.2) \
 rubygem(ruby:3.2.0:web-console:4.2.0) \
 rubygem(web-console)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionview) \
 rubygem(ruby:3.2.0:activemodel) \

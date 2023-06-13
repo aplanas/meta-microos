@@ -10,6 +10,7 @@ RPM_HASH = "df9e3da7c2cb1c9dade8f09663e0f40b20a3d90bdc7286e0996c500d2fff67aab9b9
 RPROVIDES:${PN} += "ghc-devel(time-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82) \
 ghc-time-compat-devel \
 ghc-time-compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

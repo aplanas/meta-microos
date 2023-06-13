@@ -14,6 +14,7 @@ RPM_HASH = "28c3a22e19e178e9bf0359eca9797b9af10cf3d055c1b3b3fd34c95c3f8156e96b3f
 RPROVIDES:${PN} += "typelib(GstCodecs) \
 typelib-1_0-GstCodecs-1_0 \
 typelib-1_0-GstCodecs-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstcodecs-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

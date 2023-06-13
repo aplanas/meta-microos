@@ -13,6 +13,7 @@ RPM_HASH = "14b6e01bc4e8c20a2958188a10996581cd3ac361d3900f02d36fc0c2ff83296ce1d0
 RPROVIDES:${PN} += "libmng-devel \
 libmng-devel(aarch-64) \
 pkgconfig(libmng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg-devel \
 liblcms2-devel \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(jsonschema-spec) \
 python39-jsonschema-spec \
 python39-jsonschema_spec \
 python3dist(jsonschema-spec)"
+
 RDEPENDS:${PN} += "(python39-jsonschema >= 4.0.0 with python39-jsonschema < 4.18) \
 python(abi) \
 python39-PyYAML \

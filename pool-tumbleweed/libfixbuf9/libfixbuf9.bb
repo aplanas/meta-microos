@@ -14,6 +14,7 @@ RPM_HASH = "5688ab81393af24d93334b25dbe197cb9a0f75c391b84723488d3d53e3e73232cfe8
 RPROVIDES:${PN} += "libfixbuf.so.9()(64bit) \
 libfixbuf9 \
 libfixbuf9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

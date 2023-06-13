@@ -10,6 +10,7 @@ RPM_HASH = "0b42bee1ae183b13776ea560cd846adcd0a212b2340f4f294593721599b91113fc18
 
 RPROVIDES:${PN} += "soapy-osmo-devel \
 soapy-osmo-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libSoapyOsmoSDR0"
 
 inherit rpm

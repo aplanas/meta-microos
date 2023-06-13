@@ -11,6 +11,7 @@ RPM_HASH = "b040a837d7cf2003a9acd95d3835b67e2e8cda4e286e7a542c00fcc2467bf194878a
 RPROVIDES:${PN} += "ghc-devel(transformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp) \
 ghc-transformers-base-devel \
 ghc-transformers-base-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

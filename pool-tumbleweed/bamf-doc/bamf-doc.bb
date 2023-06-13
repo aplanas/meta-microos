@@ -9,6 +9,7 @@ RPM_HASH = "f9fe74154c8fa11393eb125f4763eabe7c2d06da82163ecb353e60cdb09cfecf9992
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bamf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ RPM_HASH = "f98d0be375b640b8f066f12cbb5e75045068683e7d2622390af846c96e0dd1bb4db8
 RPROVIDES:${PN} += "libmbedtls.so.14()(64bit) \
 libmbedtls14 \
 libmbedtls14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

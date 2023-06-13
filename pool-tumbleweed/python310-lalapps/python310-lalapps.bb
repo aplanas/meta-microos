@@ -14,6 +14,7 @@ RPM_HASH = "ad55de83950846c42d0b8ea6d629c367c58c5c2e80cddbd262551ccceab6eddde953
 RPROVIDES:${PN} += "python3-lalapps \
 python310-lalapps \
 python310-lalapps(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5py \
 python310-lal \

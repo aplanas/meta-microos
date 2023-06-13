@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Class::C3::Adopt::NEXT) \
 perl-Class-C3-Adopt-NEXT"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(MRO::Compat)"

@@ -9,6 +9,7 @@ RPM_HASH = "e856f0c5a1bc0c7c3479b6e2f63d5dd23dc58905bb0ecb8ca6356c0a0dec2576b3a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tup-doc"
+
 RDEPENDS:${PN} += "tup"
 
 inherit rpm

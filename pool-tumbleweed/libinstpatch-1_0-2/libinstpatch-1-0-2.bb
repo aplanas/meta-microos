@@ -16,6 +16,7 @@ RPM_HASH = "bd164e1e32623684b9b88d60135f6f50a164af67a85eb04bc571a47674ac66d9dce8
 RPROVIDES:${PN} += "libinstpatch-1.0.so.2()(64bit) \
 libinstpatch-1_0-2 \
 libinstpatch-1_0-2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

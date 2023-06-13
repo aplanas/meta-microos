@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(morefloats.sty) \
 texlive-morefloats"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

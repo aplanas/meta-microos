@@ -27,6 +27,7 @@ perl(Parse::RecDescent::Token) \
 perl(Parse::RecDescent::UncondReject) \
 perl-Parse-RecDescent \
 perl-Parse-RecDescent(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

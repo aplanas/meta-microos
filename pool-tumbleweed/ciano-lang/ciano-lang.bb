@@ -19,6 +19,7 @@ locale(ciano:pt) \
 locale(ciano:pt_BR) \
 locale(ciano:tr) \
 locale(ciano:zh_CN)"
+
 RDEPENDS:${PN} += "ciano"
 
 inherit rpm

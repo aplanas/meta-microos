@@ -16,6 +16,7 @@ RPM_HASH = "0557cf44297119d5b4d173e51f28fe150aef8db74c910649b0746429cd5ae45bf22b
 
 RPROVIDES:${PN} += "elk-openmpi5 \
 elk-openmpi5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblas.so.3()(64bit) \

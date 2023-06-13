@@ -10,6 +10,7 @@ RPM_HASH = "79e653893213bc1aee16481c55809e6e73944d879752bb2fb464183a18fe9e0782b4
 RPROVIDES:${PN} += "libnjb.so.5()(64bit) \
 libnjb5 \
 libnjb5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

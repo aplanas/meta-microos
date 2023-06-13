@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "clang-devel \
 clang-devel(aarch-64) \
 clang-devel-static \
 llvm-clang-devel"
+
 RDEPENDS:${PN} += "clang16-devel"
 
 inherit rpm

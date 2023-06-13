@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(rt2860) \
 rt2860"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -179,6 +179,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(rupeetechfat) \
 texlive-tfrupee-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

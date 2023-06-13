@@ -13,6 +13,7 @@ RPM_HASH = "67bcf6f58b7baa39bbfcc1a7ace215c4721c5cf82d8793c564afb0ecd9e0253f7773
 
 RPROVIDES:${PN} += "mediastreamer2-doc \
 mediastreamer2-doc(aarch-64)"
+
 RDEPENDS:${PN} += "mediastreamer2"
 
 inherit rpm

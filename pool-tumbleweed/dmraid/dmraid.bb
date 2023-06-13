@@ -29,6 +29,7 @@ dmraid(aarch-64) \
 libdmraid-events-isw.so()(64bit) \
 libdmraid.so.1()(64bit) \
 libdmraid.so.1(Base)(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

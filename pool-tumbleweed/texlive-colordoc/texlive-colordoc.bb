@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colordoc.sty) \
 texlive-colordoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

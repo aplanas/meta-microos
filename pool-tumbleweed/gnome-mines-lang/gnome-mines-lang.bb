@@ -93,6 +93,7 @@ locale(gnome-mines:wa) \
 locale(gnome-mines:zh_CN) \
 locale(gnome-mines:zh_HK) \
 locale(gnome-mines:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-mines"
 
 inherit rpm

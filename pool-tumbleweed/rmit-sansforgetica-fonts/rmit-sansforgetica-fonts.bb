@@ -13,6 +13,7 @@ RPM_HASH = "4306f66e642ae419bc14e3eddb6df46604e9e415eb98023273d67bc6251a4d1de5c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rmit-sansforgetica-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "494d4fde5701f734d7400b00d2ec71a95a1274e8b1d71283a9549f05776118d86828
 RPROVIDES:${PN} += "typelib(GstApp) \
 typelib-1_0-GstApp-1_0 \
 typelib-1_0-GstApp-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstapp-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mujs-devel \
 mujs-devel(aarch-64) \
 mujs-static \
 pkgconfig(mujs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

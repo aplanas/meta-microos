@@ -20,6 +20,7 @@ locale(pulseeffects:sk) \
 locale(pulseeffects:sv) \
 pulseeffects-lang \
 pulseeffects-lang-all"
+
 RDEPENDS:${PN} += "pulseeffects"
 
 inherit rpm

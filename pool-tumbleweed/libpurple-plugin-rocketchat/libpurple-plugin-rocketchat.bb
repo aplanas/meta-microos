@@ -10,6 +10,7 @@ RPM_HASH = "cbf2daea00c91c4e3d6c39d4a122897ffd0aab9378e4db37b18f7db7e11000f6f569
 RPROVIDES:${PN} += "libpurple-plugin-rocketchat \
 libpurple-plugin-rocketchat(aarch-64) \
 librocketchat.so()(64bit)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

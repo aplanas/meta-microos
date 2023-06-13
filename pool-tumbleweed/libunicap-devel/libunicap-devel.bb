@@ -12,6 +12,7 @@ RPM_HASH = "1b1e86f181f98a0129330578a447e896fc47c59f0ad96a43ed2644a9d93a994f9101
 RPROVIDES:${PN} += "libunicap-devel \
 libunicap-devel(aarch-64) \
 pkgconfig(libunicap)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libunicap2"

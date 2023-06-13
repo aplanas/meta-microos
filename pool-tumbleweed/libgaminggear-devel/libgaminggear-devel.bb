@@ -12,6 +12,7 @@ RPM_HASH = "e37bded94f5e9046eadd30f8e102817f340c3077d38dcf9e9b14dfcf24f6ac7518b4
 RPROVIDES:${PN} += "libgaminggear-devel \
 libgaminggear-devel(aarch-64) \
 pkgconfig(gaminggear-0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgaminggear0 \
 libgaminggearfx0 \

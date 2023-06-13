@@ -31,6 +31,7 @@ mvn(org.python:jython) \
 mvn(org.python:jython-standalone) \
 mvn(org.python:jython-standalone:pom:) \
 mvn(org.python:jython:pom:)"
+
 RDEPENDS:${PN} += "jakarta-oro \
 java \
 java-headless \

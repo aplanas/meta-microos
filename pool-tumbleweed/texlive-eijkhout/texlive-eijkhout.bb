@@ -15,6 +15,7 @@ tex(CD_labeler_test.tex) \
 tex(DB_process.tex) \
 tex(repeat.tex) \
 texlive-eijkhout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

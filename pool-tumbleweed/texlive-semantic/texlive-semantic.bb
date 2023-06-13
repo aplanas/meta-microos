@@ -17,6 +17,7 @@ tex(semantic.sty) \
 tex(shrthand.sty) \
 tex(tdiagram.sty) \
 texlive-semantic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

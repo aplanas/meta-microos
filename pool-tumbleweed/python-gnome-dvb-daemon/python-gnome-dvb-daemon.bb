@@ -18,6 +18,7 @@ application(gnome-dvb-setup.desktop) \
 python-gnome-dvb-daemon \
 python-gnome-dvb-daemon(aarch-64) \
 python-gnomedvb"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 gnome-dvb-daemon \

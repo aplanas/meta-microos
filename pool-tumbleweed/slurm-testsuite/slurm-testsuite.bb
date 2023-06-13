@@ -18,6 +18,7 @@ RPM_HASH = "471188ca9509e4af843f8ee1eb9ce602b70cf3b3055cde6e5089d2e722c372ec6699
 RPROVIDES:${PN} += "config(slurm-testsuite) \
 slurm-testsuite \
 slurm-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bind-utils \

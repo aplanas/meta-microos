@@ -14,6 +14,7 @@ RPM_HASH = "fc7306786180f2453646d1da12a569d35dc5d8351c809c3fbb9e97521ba9ac5c772e
 RPROVIDES:${PN} += "cmake(KF5Archive) \
 karchive-devel \
 karchive-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5Archive5"

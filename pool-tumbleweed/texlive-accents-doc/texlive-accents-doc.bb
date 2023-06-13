@@ -9,6 +9,7 @@ RPM_HASH = "9fc6a5c165d50e97d83633c7998b8f0e3be452acd93f79f49c0a0d443cb266647283
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-accents-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libspice-client-gtk-3.0.so.5()(64bit) \
 libspice-client-gtk-3.0.so.5(SPICEGTK_1)(64bit) \
 libspice-client-gtk-3_0-5 \
 libspice-client-gtk-3_0-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

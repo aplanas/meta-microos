@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-azure-multiapi-storage \
 python3.10dist(azure-multiapi-storage) \
 python310-azure-multiapi-storage \
 python3dist(azure-multiapi-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

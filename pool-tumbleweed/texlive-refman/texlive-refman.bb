@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(pagepc.sty) \
 tex(refart.cls) \
 tex(refrep.cls) \
 texlive-refman"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

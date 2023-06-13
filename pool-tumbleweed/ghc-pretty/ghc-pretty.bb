@@ -10,6 +10,7 @@ RPM_HASH = "644afa81c7589cde7e43d47d3eb3cbe6914e8773938458e5624fc5cf52f57d3404ac
 RPROVIDES:${PN} += "ghc-pretty \
 ghc-pretty(aarch-64) \
 libHSpretty-1.1.3.6-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

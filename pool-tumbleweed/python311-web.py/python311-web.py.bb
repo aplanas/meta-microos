@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(web.py) \
 python311-web.py \
 python3dist(web.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cheroot"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ndjson \
 python3.10dist(ndjson) \
 python310-ndjson \
 python3dist(ndjson)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-osc-tiny \
 python3.10dist(osc-tiny) \
 python310-osc-tiny \
 python3dist(osc-tiny)"
+
 RDEPENDS:${PN} += "(python310-cached-property if python310-base < 3.8) \
 python(abi) \
 python310-PyYAML \

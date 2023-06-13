@@ -11,6 +11,7 @@ RPM_HASH = "9d5979acf1c3d3bad1bb21eff03bb96c75ca37267d63b89cd03f06d22ebafbf6d069
 
 RPROVIDES:${PN} += "universal-ctags \
 universal-ctags(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

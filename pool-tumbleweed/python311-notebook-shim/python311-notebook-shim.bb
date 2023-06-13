@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(notebook-shim) \
 python311-notebook-shim \
 python311-notebook_shim \
 python3dist(notebook-shim)"
+
 RDEPENDS:${PN} += "(python311-jupyter_server >= 1.8 with python311-jupyter_server < 3) \
 jupyter-notebook-shim \
 python(abi)"

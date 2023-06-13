@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(multibbl.sty) \
 texlive-multibbl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

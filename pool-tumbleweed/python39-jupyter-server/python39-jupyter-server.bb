@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyter-server) \
 python39-jupyter-server \
 python39-jupyter_server \
 python3dist(jupyter-server)"
+
 RDEPENDS:${PN} += "((python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0) or python39-jupyter-core >= 5.1) \
 /bin/sh \
 /usr/bin/python3.9 \

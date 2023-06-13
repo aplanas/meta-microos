@@ -9,6 +9,7 @@ RPM_HASH = "db36f09e0e0ff85ef043055ee5e61fd8114adedb9cedb8786a4e8c73252e9a6ae3d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dejavu-otf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

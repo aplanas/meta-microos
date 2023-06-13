@@ -9,6 +9,7 @@ RPM_HASH = "cc7167ede03370b68b0dfbad018b2f6da74096ee644e3b82d7b4586dd0fb87b8f725
 
 RPROVIDES:${PN} += "raspberrypi-rpiboot \
 raspberrypi-rpiboot(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libusb-1.0.so.0()(64bit)"

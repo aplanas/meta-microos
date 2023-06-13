@@ -30,6 +30,7 @@ libXvMC_r600 \
 libtxc_dxtn \
 s2tc \
 xorg-x11-Mesa"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa-dri \
 Mesa-gallium \

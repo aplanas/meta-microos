@@ -41,6 +41,7 @@ tex(fxthemecolor.sty) \
 tex(fxthemecolorsig.sty) \
 tex(fxthemesignature.sty) \
 texlive-fixme"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

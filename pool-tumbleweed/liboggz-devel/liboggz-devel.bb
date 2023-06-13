@@ -11,6 +11,7 @@ RPM_HASH = "987d24c70e787885cde2212b5003ae7d923306bfa20606b8f1aa2c5a33340d7c9e06
 RPROVIDES:${PN} += "liboggz-devel \
 liboggz-devel(aarch-64) \
 pkgconfig(oggz)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libogg-devel \
 liboggz2 \

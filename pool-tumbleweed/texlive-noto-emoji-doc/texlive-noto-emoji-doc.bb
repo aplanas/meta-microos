@@ -9,6 +9,7 @@ RPM_HASH = "f4425f35342eabaf2650eb288100503b0393033723f4642677bb1244088f2d570590
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-noto-emoji-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "70655a71f733d7c158a7bfcc6734eb4accd31812d78ba9e6d8cdfef1dc9bdf5ca4c1
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-docs-html \
 qt6-virtualkeyboard-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

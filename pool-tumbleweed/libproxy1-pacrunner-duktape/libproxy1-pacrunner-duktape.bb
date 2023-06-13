@@ -13,6 +13,7 @@ RPM_HASH = "909d9aee8df04a0fa30a3e5762564f7d4a2481ae9897ad37fd1da2265772a885de2a
 RPROVIDES:${PN} += "libproxy1-pacrunner \
 libproxy1-pacrunner-duktape \
 libproxy1-pacrunner-duktape(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

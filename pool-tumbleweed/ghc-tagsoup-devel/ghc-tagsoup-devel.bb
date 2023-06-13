@@ -10,6 +10,7 @@ RPM_HASH = "226d9f6a18db705ffeb4b294b6dd2c4786c6e3f04293fc54ae7bc0d1e580304b9947
 RPROVIDES:${PN} += "ghc-devel(tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn) \
 ghc-tagsoup-devel \
 ghc-tagsoup-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

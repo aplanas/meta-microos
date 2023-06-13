@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crossreftools.sty) \
 texlive-crossreftools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

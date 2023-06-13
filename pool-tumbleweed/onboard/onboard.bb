@@ -16,6 +16,7 @@ onboard \
 onboard(aarch-64) \
 python3.10dist(onboard) \
 python3dist(onboard)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dbus-1-python3 \
 gdk-pixbuf-loader-rsvg \

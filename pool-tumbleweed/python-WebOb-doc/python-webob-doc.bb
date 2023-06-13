@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-WebOb-doc \
 python310-WebOb-doc \
 python311-WebOb-doc \
 python39-WebOb-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

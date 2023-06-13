@@ -11,6 +11,7 @@ RPM_HASH = "bf63bc6f6430f797736d0a523b91c75887fee4ce45067e2b56991f2f019e81ac0e3b
 RPROVIDES:${PN} += "libraqm.so.0()(64bit) \
 libraqm0 \
 libraqm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

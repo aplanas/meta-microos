@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:gettext) \
 rubygem(ruby:3.2.0:gettext:3) \
 rubygem(ruby:3.2.0:gettext:3.4) \
 rubygem(ruby:3.2.0:gettext:3.4.3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

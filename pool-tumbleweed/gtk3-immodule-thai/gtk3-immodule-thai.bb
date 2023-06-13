@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtk3-immodule-thai \
 gtk3-immodule-thai(aarch-64) \
 locale(gtk3:lo) \
 locale(gtk3:th)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

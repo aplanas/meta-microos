@@ -12,6 +12,7 @@ RPM_HASH = "ffc13eb5ecbaff1d8758ee035b81a59ebe9b614fc30c5084dd7ff5b25d2817289bf8
 RPROVIDES:${PN} += "libip4tc.so.2()(64bit) \
 libip4tc2 \
 libip4tc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

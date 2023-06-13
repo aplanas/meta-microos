@@ -12,6 +12,7 @@ RPM_HASH = "e233b73a9a8754b3b79af3e2f8e449583ee95e393753d873aef24ed8c49e0858002b
 RPROVIDES:${PN} += "libprotoc-3.21.12.so()(64bit) \
 libprotoc3_21_12 \
 libprotoc3_21_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

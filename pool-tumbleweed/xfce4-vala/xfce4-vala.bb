@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(xfce4-vala) \
 xfce4-vala"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 vala"
 

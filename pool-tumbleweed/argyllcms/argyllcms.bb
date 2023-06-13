@@ -21,6 +21,7 @@ RPM_HASH = "4aa2d1a0ec396596dcdb2032d3e00656987b4cd67c8b213dd33b831dc6fe35265a73
 
 RPROVIDES:${PN} += "argyllcms \
 argyllcms(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

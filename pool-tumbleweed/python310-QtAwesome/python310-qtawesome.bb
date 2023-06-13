@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-QtAwesome \
 python3.10dist(qtawesome) \
 python310-QtAwesome \
 python3dist(qtawesome)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

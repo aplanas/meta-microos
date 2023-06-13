@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(2in1.sty) \
 texlive-twoinone"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "760f601fede841e709899eac293d2b5a4d3b0ac8471bc058948729288c52963e8fbb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_chrono-devel"
+
 RDEPENDS:${PN} += "libboost_chrono1_82_0-devel"
 
 inherit rpm

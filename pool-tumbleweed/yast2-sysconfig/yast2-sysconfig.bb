@@ -14,6 +14,7 @@ application(org.opensuse.yast.Sysconfig.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Sysconfig.metainfo.xml) \
 yast2-sysconfig"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 yast2 \

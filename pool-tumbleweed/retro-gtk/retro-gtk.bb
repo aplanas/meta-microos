@@ -10,6 +10,7 @@ RPM_HASH = "8ba58199318f8069fbebd8afbb9136a14e3371a976860110f5408e1f8b922e88f2bc
 
 RPROVIDES:${PN} += "retro-gtk \
 retro-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

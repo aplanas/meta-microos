@@ -9,6 +9,7 @@ RPM_HASH = "fa8f365a66544268018552bc3321ef89815ef8efec11a010b75e0bc8526b883827f9
 
 RPROVIDES:${PN} += "discover-backend-fwupd \
 discover-backend-fwupd(aarch-64)"
+
 RDEPENDS:${PN} += "discover \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

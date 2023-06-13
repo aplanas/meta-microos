@@ -12,6 +12,7 @@ RPM_HASH = "899f532302cd02cca672ca183be1659dabfb6a5ac8a9967abee91e38a9f4c25780b7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scrlttr2copy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

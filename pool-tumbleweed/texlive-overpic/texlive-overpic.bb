@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(overpic.sty) \
 texlive-overpic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

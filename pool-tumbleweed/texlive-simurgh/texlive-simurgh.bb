@@ -76,6 +76,7 @@ tex(simurgh-tools.sty) \
 tex(simurgh-unibidi.sty) \
 tex(simurgh.sty) \
 texlive-simurgh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

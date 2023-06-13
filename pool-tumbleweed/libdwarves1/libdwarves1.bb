@@ -21,6 +21,7 @@ libdwarves_emit.so.1()(64bit) \
 libdwarves_emit.so.1(DWARVES_1.25)(64bit) \
 libdwarves_reorganize.so.1()(64bit) \
 libdwarves_reorganize.so.1(DWARVES_1.25)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

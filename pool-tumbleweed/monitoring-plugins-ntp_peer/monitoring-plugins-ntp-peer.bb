@@ -14,6 +14,7 @@ RPM_HASH = "13c2c830646cf699a9510b5a0266497f3c55dae4a7a3992e3c8a8b2e3f57d6ffceab
 RPROVIDES:${PN} += "monitoring-plugins-ntp_peer \
 monitoring-plugins-ntp_peer(aarch-64) \
 nagios-plugins-ntp_peer"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

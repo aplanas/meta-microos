@@ -9,6 +9,7 @@ RPM_HASH = "516526bb81d838925e4910b0c03fc830e51e1dcc2583e65f54e52f8482a8d0855f91
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skaffold-fish-completion"
+
 RDEPENDS:${PN} += "skaffold"
 
 inherit rpm

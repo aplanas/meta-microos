@@ -9,6 +9,7 @@ RPM_HASH = "3f386348a02b4e4ec8b4509f9d541f779db5e28ae78c6a07f6a3178605ece3963c7d
 
 RPROVIDES:${PN} += "qt6-tools-helpgenerators \
 qt6-tools-helpgenerators(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

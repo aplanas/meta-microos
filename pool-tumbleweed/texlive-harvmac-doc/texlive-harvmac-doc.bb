@@ -9,6 +9,7 @@ RPM_HASH = "da1870acbf131fba52a1910adfc3d437a4cb6f673c8c660daab98ce9a9b6870791e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harvmac-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

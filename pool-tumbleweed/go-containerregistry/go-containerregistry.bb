@@ -9,6 +9,7 @@ RPM_HASH = "871eea4ec569ce480e4a56235b69b7c91b9e7af50f70558b5ff90c04ff5be5aeda20
 
 RPROVIDES:${PN} += "go-containerregistry \
 go-containerregistry(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

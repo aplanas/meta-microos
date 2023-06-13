@@ -11,6 +11,7 @@ RPM_HASH = "64646225976bd55731cee47dfb3c4c36f6ea2daeeb4acc7d557dfc330c3d8e41abc9
 RPROVIDES:${PN} += "openal-soft-tools \
 openal-soft-tools(aarch-64) \
 openal-soft:/usr/bin/openal-info"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

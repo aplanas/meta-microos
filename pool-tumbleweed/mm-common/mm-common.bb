@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mm-common \
 pkgconfig(mm-common-libstdc++) \
 pkgconfig(mm-common-util)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/pkg-config"

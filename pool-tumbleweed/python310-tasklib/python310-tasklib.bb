@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-tasklib \
 python3.10dist(tasklib) \
 python310-tasklib \
 python3dist(tasklib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytz \
 python310-tzlocal \

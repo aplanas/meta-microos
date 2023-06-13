@@ -23,6 +23,7 @@ tex(hhfixme.sty) \
 tex(hhsubfigure.sty) \
 tex(ptmxcomp.sty) \
 texlive-bgteubner"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ libjavamapscript \
 libjavamapscript(aarch-64) \
 libjavamapscript.so()(64bit) \
 mapserver-java"
+
 RDEPENDS:${PN} += "java \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

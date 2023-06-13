@@ -15,6 +15,7 @@ RPM_HASH = "e318c80e1b78ad48aada630983e898a0cfbdb16ebbd23c8f8dae5ff0588739f18160
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-short-math-guide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

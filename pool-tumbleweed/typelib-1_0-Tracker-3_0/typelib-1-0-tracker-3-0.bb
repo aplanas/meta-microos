@@ -14,6 +14,7 @@ RPM_HASH = "26dde279dee9dfa174d5b523e97eaa6ab27d9fbaa3f5dc8ac0c40b386997138b01cd
 RPROVIDES:${PN} += "typelib(Tracker) \
 typelib-1_0-Tracker-3_0 \
 typelib-1_0-Tracker-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libtracker-sparql-3.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

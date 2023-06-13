@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "grantlee5 \
 grantlee5(aarch-64) \
 libGrantlee_Templates.so.5()(64bit) \
 libGrantlee_TextDocument.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

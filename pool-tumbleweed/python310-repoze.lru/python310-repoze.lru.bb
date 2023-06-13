@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-repoze.lru \
 python3.10dist(repoze.lru) \
 python310-repoze.lru \
 python3dist(repoze.lru)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

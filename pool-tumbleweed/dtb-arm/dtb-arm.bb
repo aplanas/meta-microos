@@ -12,6 +12,7 @@ dtb-arm(aarch-64) \
 dtb-foundation-v8 \
 dtb-rtsm_ve-aemv8a \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

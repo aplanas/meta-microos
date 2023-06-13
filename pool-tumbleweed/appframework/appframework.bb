@@ -10,6 +10,7 @@ RPM_HASH = "5079ce6b48ee52397a86c5648e1f46786dbaba4d363a436a8f00a54c008593b69ca1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appframework"
+
 RDEPENDS:${PN} += "java \
 swing-layout"
 

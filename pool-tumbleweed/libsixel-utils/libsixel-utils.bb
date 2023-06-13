@@ -9,6 +9,7 @@ RPM_HASH = "81e67d74f628c07c0e3b9c98805644e6cad3f4212ab2dea769d6e6c69a8c66775bd2
 
 RPROVIDES:${PN} += "libsixel-utils \
 libsixel-utils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

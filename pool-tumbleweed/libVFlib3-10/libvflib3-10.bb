@@ -18,6 +18,7 @@ RPM_HASH = "729b28adfb4f02f906bfacc3576c840442e6dd0d30b05557f8423f990651a062c33f
 RPROVIDES:${PN} += "libVFlib3-10 \
 libVFlib3-10(aarch-64) \
 libVFlib3.so.10()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

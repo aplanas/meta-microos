@@ -10,6 +10,7 @@ RPM_HASH = "81fe7ef72921664d9151ea207db8b4f84ad65ccf8ccc845286fa702ab57c19f831c5
 RPROVIDES:${PN} += "perl(File::Map) \
 perl-File-Map \
 perl-File-Map(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

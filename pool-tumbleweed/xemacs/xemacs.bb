@@ -34,6 +34,7 @@ mimehandler(text/x-tcl) \
 mimehandler(text/x-tex) \
 xemacs \
 xemacs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ctags \
 efont-unicode \

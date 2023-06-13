@@ -10,6 +10,7 @@ RPM_HASH = "8dc9d6c97b25b0a90670954cbd62e37e119417b82ea5abd197ed4076d4abe39ef087
 RPROVIDES:${PN} += "ghc-concurrent-output-prof \
 ghc-concurrent-output-prof(aarch-64) \
 ghc-prof(concurrent-output-1.10.17-8XvoUl0e7ll2y9NMBdkV0e)"
+
 RDEPENDS:${PN} += "ghc-concurrent-output-devel \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \

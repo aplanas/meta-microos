@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyPEG2 \
 python3.10dist(pypeg2) \
 python310-pyPEG2 \
 python3dist(pypeg2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml"
 

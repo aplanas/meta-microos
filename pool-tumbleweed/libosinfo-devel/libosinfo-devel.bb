@@ -15,6 +15,7 @@ RPM_HASH = "89828c99d6162672cc6fb076ab0cc42b23dd5600cda230d7a0effadc6a3fb1fc2a97
 RPROVIDES:${PN} += "libosinfo-devel \
 libosinfo-devel(aarch-64) \
 pkgconfig(libosinfo-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosinfo-1_0-0 \
 pkgconfig(gobject-2.0) \

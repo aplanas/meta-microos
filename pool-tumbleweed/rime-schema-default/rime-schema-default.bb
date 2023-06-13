@@ -9,6 +9,7 @@ RPM_HASH = "7dc727aeb338007ab9cc4472191ee9ff09d9fbd8ae56d906b06d12ca222aa0d88924
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-default"
+
 RDEPENDS:${PN} += "rime-schema-bopomofo \
 rime-schema-cangjie \
 rime-schema-custom \

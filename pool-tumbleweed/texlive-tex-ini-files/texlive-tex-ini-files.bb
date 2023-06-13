@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "config(texlive-tex-ini-files) \
 tex(luatexconfig.tex) \
 tex(pdftexconfig.tex) \
 texlive-tex-ini-files"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

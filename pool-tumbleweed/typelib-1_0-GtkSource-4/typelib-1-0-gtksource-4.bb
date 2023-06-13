@@ -17,6 +17,7 @@ RPM_HASH = "5eea694da8ff51f5d5b20970e02f54011ced47ad19ab9e1387e74f93c496105d09ac
 RPROVIDES:${PN} += "typelib(GtkSource) \
 typelib-1_0-GtkSource-4 \
 typelib-1_0-GtkSource-4(aarch-64)"
+
 RDEPENDS:${PN} += "libgtksourceview-4.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

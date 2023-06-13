@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(torrentinfo) \
 python3dist(torrentinfo) \
 torrentinfo"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

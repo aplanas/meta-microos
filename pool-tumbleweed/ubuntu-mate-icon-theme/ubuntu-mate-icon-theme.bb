@@ -9,6 +9,7 @@ RPM_HASH = "816a55149ffb3df94f2a3e5401cc8c82b21ec8ed04b2d81cae1b36a3e62ba1023d79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-mate-icon-theme"
+
 RDEPENDS:${PN} += "humanity-icon-theme \
 ubuntu-mono-icon-theme"
 

@@ -15,6 +15,7 @@ RPM_HASH = "29494ba78cc43c8a086b923d91678ea1599ae87b4145a425db51d90e52ad2112375a
 RPROVIDES:${PN} += "libflxmlrpc.so.1()(64bit) \
 libflxmlrpc1 \
 libflxmlrpc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

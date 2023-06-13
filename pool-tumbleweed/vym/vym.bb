@@ -15,6 +15,7 @@ application(vym.desktop) \
 mimehandler(application/x-vym) \
 vym \
 vym(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby \

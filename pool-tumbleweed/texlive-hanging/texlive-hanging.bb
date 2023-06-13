@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hanging.sty) \
 texlive-hanging"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

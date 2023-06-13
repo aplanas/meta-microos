@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-json-logger) \
 python311-python-json-logger \
 python3dist(python-json-logger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools"
 

@@ -13,6 +13,7 @@ pkgconfig(Qt6Designer) \
 pkgconfig(Qt6UiPlugin) \
 qt6-designer-devel \
 qt6-designer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6OpenGLWidgets) \

@@ -19,6 +19,7 @@ RPM_HASH = "5558fa8232fed0f0a190991d54850d8f7bf9d0ceb791afbd0f1c6a0d3dc3db03b5a1
 RPROVIDES:${PN} += "perl(Digest::SHA1) \
 perl-Digest-SHA1 \
 perl-Digest-SHA1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

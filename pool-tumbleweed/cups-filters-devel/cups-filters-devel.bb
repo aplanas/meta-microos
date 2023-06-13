@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cups-filters-devel \
 cups-filters-devel(aarch-64) \
 pkgconfig(libcupsfilters) \
 pkgconfig(libfontembed)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cups-filters"
 

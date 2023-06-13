@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(testhyphens.sty) \
 texlive-testhyphens"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

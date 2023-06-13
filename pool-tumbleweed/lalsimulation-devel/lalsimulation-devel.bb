@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(lalsimulation-devel) \
 lalsimulation-devel \
 lalsimulation-devel(aarch-64) \
 pkgconfig(lalsimulation)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lalsimulation-data \
 ld-linux-aarch64.so.1()(64bit) \

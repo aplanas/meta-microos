@@ -14,6 +14,7 @@ RPM_HASH = "43fd6f38762be91291936a81b5038ba7d5636e9b8de6f0a1c7c9f3e0466825e03788
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-boxes \
 gnome-shell-search-provider-boxes(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-boxes \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \

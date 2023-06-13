@@ -11,6 +11,7 @@ RPM_HASH = "c89c2b3118c803a43d8ffbe3490dc9125f964bcdc908aced7aab8acb4b72122abf63
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpresage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "e24b105ee9e3158d58b725f28fb17a70aee9ee342c643d6c97c82036306c56646642
 
 RPROVIDES:${PN} += "curlie \
 curlie(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

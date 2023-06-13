@@ -9,6 +9,7 @@ RPM_HASH = "5645fd53aecf718fb69092d314f7e36754ba21786457c1050d76eefdf60d3cdfd5b0
 
 RPROVIDES:${PN} += "ninvaders \
 ninvaders(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

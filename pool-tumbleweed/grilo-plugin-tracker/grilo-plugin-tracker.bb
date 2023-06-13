@@ -11,6 +11,7 @@ RPM_HASH = "7bcde66d941931d1f7f1dc2c7997b339adf0dafa4d27458567918758c5ef51d5e33f
 RPROVIDES:${PN} += "grilo-plugin-tracker \
 grilo-plugin-tracker(aarch-64) \
 libgrltracker3.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

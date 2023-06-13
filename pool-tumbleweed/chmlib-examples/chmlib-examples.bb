@@ -10,6 +10,7 @@ RPM_HASH = "6a45b8fef364a1c0dd87b43a95293ff33c1dcdb97897a5b214af9e3ea803d4960a49
 
 RPROVIDES:${PN} += "chmlib-examples \
 chmlib-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "typelib(Soup) \
 typelib(SoupGNOME) \
 typelib-1_0-Soup-2_4 \
 typelib-1_0-Soup-2_4(aarch-64)"
+
 RDEPENDS:${PN} += "libsoup-2.4.so.1()(64bit) \
 libsoup-gnome-2.4.so.1()(64bit) \
 typelib(GLib) \

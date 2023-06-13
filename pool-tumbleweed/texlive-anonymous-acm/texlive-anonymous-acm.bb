@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(anonymous-acm.sty) \
 texlive-anonymous-acm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

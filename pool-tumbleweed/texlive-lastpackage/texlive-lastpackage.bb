@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lastpackage.sty) \
 texlive-lastpackage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

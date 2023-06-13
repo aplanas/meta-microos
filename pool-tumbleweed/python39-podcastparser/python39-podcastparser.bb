@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(podcastparser) \
 python39-podcastparser \
 python3dist(podcastparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-xml"
 

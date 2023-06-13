@@ -32,6 +32,7 @@ mimehandler(audio/x-s3m) \
 mimehandler(audio/x-scpls) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-xm)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libBlocksRuntime.so.1.3()(64bit) \

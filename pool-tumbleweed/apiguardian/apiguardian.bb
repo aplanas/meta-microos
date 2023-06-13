@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "apiguardian \
 mvn(org.apiguardian:apiguardian-api) \
 mvn(org.apiguardian:apiguardian-api:pom:) \
 osgi(org.apiguardian)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

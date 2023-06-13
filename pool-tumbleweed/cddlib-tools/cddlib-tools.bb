@@ -15,6 +15,7 @@ RPM_HASH = "cf4bfaba3df7c3a68ced29fe5c45fbc56a70f99116a5c09c13120ab1f8269bbd1db2
 RPROVIDES:${PN} += "cddlib-devel:/usr/bin/scdd \
 cddlib-tools \
 cddlib-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

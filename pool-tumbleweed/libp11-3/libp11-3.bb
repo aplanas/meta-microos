@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libp11-3 \
 libp11-3(aarch-64) \
 libp11.so.3()(64bit) \
 libp11.so.3(LIBP11_3)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

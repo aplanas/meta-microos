@@ -13,6 +13,7 @@ RPM_HASH = "440abb91651e35d3f88e92c16f4b4c1aec5f2499b269ede20a2f33561fc5a5042b2f
 
 RPROVIDES:${PN} += "grubby \
 grubby(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

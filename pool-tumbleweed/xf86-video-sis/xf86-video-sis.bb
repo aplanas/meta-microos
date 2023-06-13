@@ -13,6 +13,7 @@ RPM_HASH = "cc916cc7dbf84e1071464b601594d26f1ece879b10d172a0971a7e0ada4b24ea39e4
 
 RPROVIDES:${PN} += "xf86-video-sis \
 xf86-video-sis(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

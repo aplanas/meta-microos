@@ -14,6 +14,7 @@ python3.10dist(cheroot) \
 python310-Cheroot \
 python310-cheroot \
 python3dist(cheroot)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

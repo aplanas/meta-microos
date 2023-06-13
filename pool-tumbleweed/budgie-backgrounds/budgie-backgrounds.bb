@@ -9,6 +9,7 @@ RPM_HASH = "c4cfae96a45bfc222480cf8c87e264e3a060fc9b04cf59dcc20a1351fe75fcc3d43a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-backgrounds"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

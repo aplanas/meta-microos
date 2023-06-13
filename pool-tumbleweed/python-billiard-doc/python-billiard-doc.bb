@@ -13,6 +13,7 @@ python2-billiard \
 python310-billiard-doc \
 python311-billiard-doc \
 python39-billiard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

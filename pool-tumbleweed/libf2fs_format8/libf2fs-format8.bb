@@ -10,6 +10,7 @@ RPM_HASH = "fe3b99a8f97d0f15ead0b456a944a7dd08e8f386ca1586c120bed4d378a03965a695
 RPROVIDES:${PN} += "libf2fs_format.so.8()(64bit) \
 libf2fs_format8 \
 libf2fs_format8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ pattern-order() \
 patterns-openSUSE-xfce_basis \
 patterns-xfce-xfce_basis \
 patterns-xfce-xfce_basis(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 thunar \
 thunar-volman \

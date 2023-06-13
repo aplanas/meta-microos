@@ -91,6 +91,7 @@ font(quattrocento) \
 font(quattrocentosans) \
 font(quattrosans) \
 texlive-quattrocento-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

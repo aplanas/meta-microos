@@ -10,6 +10,7 @@ RPM_HASH = "48d1cf6dd0bbcf6695a044f0ed47155d45daf84cf576748e17ed705fa29474b7c699
 RPROVIDES:${PN} += "libboost_wave-devel-impl \
 libboost_wave1_82_0-devel \
 libboost_wave1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_chrono1_82_0-devel \
 libboost_date_time1_82_0-devel \
 libboost_filesystem1_82_0-devel \

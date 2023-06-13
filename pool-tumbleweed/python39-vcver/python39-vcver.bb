@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(vcver) \
 python39-vcver \
 python3dist(vcver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-packaging"
 

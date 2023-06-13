@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ajsonrpc \
 python3.10dist(ajsonrpc) \
 python310-ajsonrpc \
 python3dist(ajsonrpc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

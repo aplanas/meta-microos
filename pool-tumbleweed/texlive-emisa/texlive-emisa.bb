@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(emisa.bbx) \
 tex(emisa.cbx) \
 tex(emisa.cls) \
 texlive-emisa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

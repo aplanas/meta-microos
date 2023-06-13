@@ -10,6 +10,7 @@ RPM_HASH = "b9567f04a4dea01c129dd2cddd53ed2e38a4556828cf4e5ae12387e7dce9fa68def0
 RPROVIDES:${PN} += "libcppunit_subunit.so.0()(64bit) \
 libcppunit_subunit0 \
 libcppunit_subunit0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

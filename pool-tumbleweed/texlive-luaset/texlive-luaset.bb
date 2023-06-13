@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luaset.sty) \
 texlive-luaset"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

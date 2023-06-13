@@ -15,6 +15,7 @@ liblzma.so.5(XZ_5.2.2)(64bit) \
 liblzma.so.5(XZ_5.4)(64bit) \
 liblzma5 \
 liblzma5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

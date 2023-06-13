@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "XFree86 \
 xorg-x11"
+
 RDEPENDS:${PN} += "xorg-x11-essentials"
 
 inherit rpm

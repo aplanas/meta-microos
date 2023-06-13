@@ -27,6 +27,7 @@ RPM_HASH = "5aff394325655ee4101e348c183ea3c557104b65cffcddcefcaa15f03a89a1893d35
 
 RPROVIDES:${PN} += "texmath \
 texmath(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

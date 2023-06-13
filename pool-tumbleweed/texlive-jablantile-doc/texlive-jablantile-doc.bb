@@ -9,6 +9,7 @@ RPM_HASH = "28ad0d71d4f371120a1b4eea509b0fa4c400702911b95a0010a160d46147dfe206c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jablantile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

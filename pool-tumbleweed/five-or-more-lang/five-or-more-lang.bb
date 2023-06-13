@@ -93,6 +93,7 @@ locale(five-or-more:wa) \
 locale(five-or-more:zh_CN) \
 locale(five-or-more:zh_HK) \
 locale(five-or-more:zh_TW)"
+
 RDEPENDS:${PN} += "five-or-more"
 
 inherit rpm

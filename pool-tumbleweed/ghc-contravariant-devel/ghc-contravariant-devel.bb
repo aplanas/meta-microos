@@ -10,6 +10,7 @@ RPM_HASH = "728de225375873a651173a2313dc6ba1b64c403088914a7b2aa52823c99725abfa8a
 RPROVIDES:${PN} += "ghc-contravariant-devel \
 ghc-contravariant-devel(aarch-64) \
 ghc-devel(contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-contravariant \

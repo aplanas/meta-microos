@@ -9,6 +9,7 @@ RPM_HASH = "c129302259e1d46cb5b5d3c672726282a2e4be43789047426b0c930dbe86bf430a2a
 
 RPROVIDES:${PN} += "fcitx-pinyin \
 fcitx-pinyin(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

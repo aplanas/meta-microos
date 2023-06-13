@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-core \
 mvn(com.fasterxml.jackson.core:jackson-core) \
 mvn(com.fasterxml.jackson.core:jackson-core:pom:) \
 osgi(com.fasterxml.jackson.core.jackson-core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

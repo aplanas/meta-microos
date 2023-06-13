@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makebox.sty) \
 texlive-makebox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

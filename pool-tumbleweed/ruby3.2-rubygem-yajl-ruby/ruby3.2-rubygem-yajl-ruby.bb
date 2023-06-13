@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:yajl-ruby:1) \
 rubygem(ruby:3.2.0:yajl-ruby:1.4) \
 rubygem(ruby:3.2.0:yajl-ruby:1.4.3) \
 rubygem(yajl-ruby)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

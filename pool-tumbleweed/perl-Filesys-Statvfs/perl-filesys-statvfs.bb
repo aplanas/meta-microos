@@ -27,6 +27,7 @@ RPM_HASH = "8c3b13d543803579a9c1b71a5397a53e256ee424b9a93e7b85d4a29ef9feae38087c
 RPROVIDES:${PN} += "perl(Filesys::Statvfs) \
 perl-Filesys-Statvfs \
 perl-Filesys-Statvfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

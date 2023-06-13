@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pyluatex.sty) \
 texlive-pyluatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

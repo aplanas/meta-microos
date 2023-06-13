@@ -10,6 +10,7 @@ RPM_HASH = "ef9bc73b3d19b07aa04d6de1579db2b23f5c11c14d4c7100dbd92d8c794201e69610
 
 RPROVIDES:${PN} += "ttynvt \
 ttynvt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

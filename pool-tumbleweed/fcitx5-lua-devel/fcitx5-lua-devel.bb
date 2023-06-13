@@ -10,6 +10,7 @@ RPM_HASH = "830fdd22392e97c3d7f927ac4aa00c4e8e766779832a7f3393a71ac3dcf83a363084
 RPROVIDES:${PN} += "cmake(Fcitx5ModuleLuaAddonLoader) \
 fcitx5-lua-devel \
 fcitx5-lua-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx5-lua"
 
 inherit rpm

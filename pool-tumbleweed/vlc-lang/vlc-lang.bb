@@ -85,6 +85,7 @@ locale(vlc:zh_CN) \
 locale(vlc:zh_TW) \
 vlc-lang \
 vlc-lang-all"
+
 RDEPENDS:${PN} += "vlc-noX"
 
 inherit rpm

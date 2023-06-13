@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-PyKMIP \
 python3.10dist(pykmip) \
 python310-PyKMIP \
 python3dist(pykmip)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

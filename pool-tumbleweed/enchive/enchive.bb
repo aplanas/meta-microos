@@ -13,6 +13,7 @@ RPM_HASH = "ea0e4c2bb52f5afd9277dfcfcbfeb3aabed3387d04e7428d745bd93e50cf5f6395e6
 
 RPROVIDES:${PN} += "enchive \
 enchive(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

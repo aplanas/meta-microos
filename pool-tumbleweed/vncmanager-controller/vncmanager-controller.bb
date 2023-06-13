@@ -9,6 +9,7 @@ RPM_HASH = "4deec30999f40699d5e7c7e86f2fd4a5ff543f5737a2fa4ed8c527b9cdf5dd614b23
 
 RPROVIDES:${PN} += "vncmanager-controller \
 vncmanager-controller(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

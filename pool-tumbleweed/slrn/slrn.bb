@@ -12,6 +12,7 @@ RPM_HASH = "1019353aa699767a4e7649b19cba6e317bfd76967ee5551479a66fb3dc0077718d79
 RPROVIDES:${PN} += "config(slrn) \
 slrn \
 slrn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

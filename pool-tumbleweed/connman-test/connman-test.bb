@@ -9,6 +9,7 @@ RPM_HASH = "3a2101c1093ac809259db95615a95eb096dae166e8f50ea531f4f06d53a95624c10c
 
 RPROVIDES:${PN} += "connman-test \
 connman-test(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python \
 connman"
 

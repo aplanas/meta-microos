@@ -18,6 +18,7 @@ RPM_HASH = "7424c20b3f5f8b565a842a6a0606abafbd1e5cef3a83881bdff8d0bfbfb45d627c1b
 
 RPROVIDES:${PN} += "ocaml-dose \
 ocaml-dose(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "aacd5c8b71128998e89b64e677edaaf1430227ec8fc538c6adc666f16ee79bf8a671
 RPROVIDES:${PN} += "grail-devel \
 grail-devel(aarch-64) \
 pkgconfig(grail)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 grail \
 libgrail6"

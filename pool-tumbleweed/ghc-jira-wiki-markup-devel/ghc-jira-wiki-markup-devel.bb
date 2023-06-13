@@ -11,6 +11,7 @@ RPM_HASH = "4b823d55402a4f170888f16effe98e4d4cd8c78da8d8f9df42b6de7aa83a0fe71fbf
 RPROVIDES:${PN} += "ghc-devel(jira-wiki-markup-1.5.1-7ePG3tP2CY82wODfjMZ5nH) \
 ghc-jira-wiki-markup-devel \
 ghc-jira-wiki-markup-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

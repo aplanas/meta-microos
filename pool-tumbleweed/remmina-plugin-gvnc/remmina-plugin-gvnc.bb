@@ -10,6 +10,7 @@ RPM_HASH = "dff1b37c272de530ccc1a610696795a8f258e51f6a34c5463e0e49d36a62e6656939
 
 RPROVIDES:${PN} += "remmina-plugin-gvnc \
 remmina-plugin-gvnc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

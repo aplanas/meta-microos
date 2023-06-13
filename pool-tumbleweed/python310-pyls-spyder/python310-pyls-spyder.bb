@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyls-spyder \
 python3.10dist(pyls-spyder) \
 python310-pyls-spyder \
 python3dist(pyls-spyder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-lsp-server"
 

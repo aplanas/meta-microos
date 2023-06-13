@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Term::UI) \
 perl(Term::UI::History) \
 perl-Term-UI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Locale::Maketext::Simple) \
 perl(Log::Message::Simple) \

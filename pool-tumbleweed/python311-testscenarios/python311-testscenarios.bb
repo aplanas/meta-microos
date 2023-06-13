@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(testscenarios) \
 python311-testscenarios \
 python3dist(testscenarios)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pbr \
 python311-testtools"

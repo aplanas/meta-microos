@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-dns.pl \
 nagios-plugins-dns.pl"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Getopt::Long) \
 perl(IO::Select) \

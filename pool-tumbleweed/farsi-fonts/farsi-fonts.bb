@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "farsi-fonts \
 farsifonts \
 locale(fa) \
 scalable-font-fa"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

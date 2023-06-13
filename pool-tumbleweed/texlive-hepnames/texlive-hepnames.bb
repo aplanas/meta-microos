@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(hepnames.sty) \
 tex(hepnicenames.sty) \
 tex(heppennames.sty) \
 texlive-hepnames"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "0df5e167aa816d5522c6456b954fe985ff6492fdf4962293a789ca5270251209b656
 
 RPROVIDES:${PN} += "libmemcache-devel \
 libmemcache-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmemcache0"
 
 inherit rpm

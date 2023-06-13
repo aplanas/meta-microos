@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencv4-cascades-data \
 opencv:/usr/share/opencv4/lbpcascades/lbpcascade_silverware.xml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

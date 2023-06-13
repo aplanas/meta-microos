@@ -13,6 +13,7 @@ RPM_HASH = "e8ea0298ad768805a21063334e39e3805ed5dca1d40cedbd1f8689f35d0097faa7d4
 RPROVIDES:${PN} += "libptytty-devel \
 libptytty-devel(aarch-64) \
 pkgconfig(libptytty)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libptytty0"
 

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jackson-module-afterburner \
 mvn(com.fasterxml.jackson.module:jackson-module-afterburner) \
 mvn(com.fasterxml.jackson.module:jackson-module-afterburner:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-afterburner)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

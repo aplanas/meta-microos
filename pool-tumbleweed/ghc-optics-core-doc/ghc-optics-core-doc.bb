@@ -9,6 +9,7 @@ RPM_HASH = "7f9a33a9540fb0edb2c6420ae4d3a396da2fced583f0837c8d1b64230f92b00dc6b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-optics-core-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

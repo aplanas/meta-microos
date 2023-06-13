@@ -15,6 +15,7 @@ metainfo() \
 metainfo(org.opensuse.yast.AddOn.metainfo.xml) \
 metainfo(org.opensuse.yast.Vendor.metainfo.xml) \
 yast2-add-on"
+
 RDEPENDS:${PN} += "autoyast2-installation \
 yast2 \
 yast2-country \

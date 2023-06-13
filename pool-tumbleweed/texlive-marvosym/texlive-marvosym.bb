@@ -20,6 +20,7 @@ tex(marvosym.sty) \
 tex(umvs.fd) \
 tex(umvs.tfm) \
 texlive-marvosym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

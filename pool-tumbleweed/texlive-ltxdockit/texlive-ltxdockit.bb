@@ -21,6 +21,7 @@ tex(ltxdockit.cls) \
 tex(ltxdockit.def) \
 tex(ltxdockit.sty) \
 texlive-ltxdockit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

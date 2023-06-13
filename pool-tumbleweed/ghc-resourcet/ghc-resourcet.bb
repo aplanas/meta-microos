@@ -11,6 +11,7 @@ RPM_HASH = "31f2f333d28ca409efb5f6cd67e487031197262a168085677075c7c63de1971bf006
 RPROVIDES:${PN} += "ghc-resourcet \
 ghc-resourcet(aarch-64) \
 libHSresourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

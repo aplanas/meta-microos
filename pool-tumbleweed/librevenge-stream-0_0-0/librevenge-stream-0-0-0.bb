@@ -13,6 +13,7 @@ RPM_HASH = "2195b61f318b59987730506021a2f33039841d47f677f57bd4578a5c41d3c34a280a
 RPROVIDES:${PN} += "librevenge-stream-0.0.so.0()(64bit) \
 librevenge-stream-0_0-0 \
 librevenge-stream-0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

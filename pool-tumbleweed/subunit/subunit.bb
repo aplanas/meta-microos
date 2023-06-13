@@ -10,6 +10,7 @@ RPM_HASH = "0dedef3ba32114c5690268d8dcac348ada0d96c4425f916b802a2a76702ea21cdf48
 
 RPROVIDES:${PN} += "subunit \
 subunit(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

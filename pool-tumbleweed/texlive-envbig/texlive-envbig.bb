@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(envbig.sty) \
 texlive-envbig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

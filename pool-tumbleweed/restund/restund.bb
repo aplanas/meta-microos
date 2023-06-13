@@ -22,6 +22,7 @@ RPM_HASH = "e996c68e7520108ddbc606a63ad85d40bd14f5c0210bcab2d1b5e160f0159f9a5727
 RPROVIDES:${PN} += "config(restund) \
 restund \
 restund(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \

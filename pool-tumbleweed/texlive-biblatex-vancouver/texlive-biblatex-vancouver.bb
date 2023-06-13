@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(vancouver.bbx) \
 tex(vancouver.cbx) \
 texlive-biblatex-vancouver"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -68,6 +68,7 @@ locale(kbreakout:uk) \
 locale(kbreakout:wa) \
 locale(kbreakout:zh_CN) \
 locale(kbreakout:zh_TW)"
+
 RDEPENDS:${PN} += "kbreakout"
 
 inherit rpm

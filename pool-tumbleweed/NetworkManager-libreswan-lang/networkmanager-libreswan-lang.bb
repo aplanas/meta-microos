@@ -62,6 +62,7 @@ locale(NetworkManager-libreswan:vi) \
 locale(NetworkManager-libreswan:zh_CN) \
 locale(NetworkManager-libreswan:zh_HK) \
 locale(NetworkManager-libreswan:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-libreswan"
 
 inherit rpm

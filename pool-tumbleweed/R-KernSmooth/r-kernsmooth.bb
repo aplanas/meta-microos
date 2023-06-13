@@ -9,6 +9,7 @@ RPM_HASH = "f25ea212c8c319154acb434d4fb21508f9a383f12300ef8fabef9ab61c49b7975876
 
 RPROVIDES:${PN} += "R-KernSmooth \
 R-KernSmooth(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

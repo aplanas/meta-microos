@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "application() \
 application(syncthing-ui.desktop) \
 syncthing \
 syncthing(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mingw32(libstdc++-6.dll) \
 mingw32-libstdc++ \
 mingw32-libstdc++6 \
 mingw32-libstdc++6(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgcc_s_sjlj-1.dll) \
 mingw32(libwinpthread-1.dll)"
 

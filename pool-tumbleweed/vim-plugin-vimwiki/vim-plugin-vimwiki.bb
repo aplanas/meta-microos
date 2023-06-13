@@ -12,6 +12,7 @@ RPM_HASH = "c3a2e479965be3c83226472b4673f7c1afc6467489a2597a358cab644078974f839e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-vimwiki"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

@@ -10,6 +10,7 @@ RPM_HASH = "7ddf722fc4846c074cd03ba95fdf6417f10e47e9f9fdc79aa5691e60e13ad1826484
 RPROVIDES:${PN} += "libopenmpt_modplug.so.1()(64bit) \
 libopenmpt_modplug1 \
 libopenmpt_modplug1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

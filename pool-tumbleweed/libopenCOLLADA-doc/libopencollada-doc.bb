@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libopenCOLLADA-doc \
 openCOLLADA-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

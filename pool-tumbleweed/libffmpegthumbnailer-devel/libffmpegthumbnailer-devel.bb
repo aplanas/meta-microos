@@ -13,6 +13,7 @@ RPM_HASH = "f058d678b4f5e9c33c02d792931c9d308d141b87954c6102f469995c318fca009024
 RPROVIDES:${PN} += "libffmpegthumbnailer-devel \
 libffmpegthumbnailer-devel(aarch-64) \
 pkgconfig(libffmpegthumbnailer)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libffmpegthumbnailer4"
 

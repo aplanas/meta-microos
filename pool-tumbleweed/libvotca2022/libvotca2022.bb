@@ -21,6 +21,7 @@ libvotca_tools.so.2022()(64bit) \
 libvotca_tools2022 \
 libvotca_xtp.so.2022()(64bit) \
 libvotca_xtp2022"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

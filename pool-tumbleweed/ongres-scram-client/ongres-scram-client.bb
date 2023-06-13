@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.ongres.scram:client) \
 mvn(com.ongres.scram:client:pom:) \
 ongres-scram-client"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.ongres.scram:common)"

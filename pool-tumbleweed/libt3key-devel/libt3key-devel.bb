@@ -15,6 +15,7 @@ RPM_HASH = "9f8ffe0c55c2926fa39aa6b298b791fe5e1dc6c7581783e9c9e62517da37f82176a8
 RPROVIDES:${PN} += "libt3key-devel \
 libt3key-devel(aarch-64) \
 pkgconfig(libt3key)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libt3key1 \
 pkgconfig(libt3config) \

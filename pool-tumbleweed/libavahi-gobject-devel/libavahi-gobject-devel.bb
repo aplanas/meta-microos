@@ -11,6 +11,7 @@ RPM_HASH = "9987f321061bebd620b11f0cab476f469097d3d67c0d943c912bf427daaad85eb3ea
 RPROVIDES:${PN} += "libavahi-gobject-devel \
 libavahi-gobject-devel(aarch-64) \
 pkgconfig(avahi-gobject)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libavahi-devel \

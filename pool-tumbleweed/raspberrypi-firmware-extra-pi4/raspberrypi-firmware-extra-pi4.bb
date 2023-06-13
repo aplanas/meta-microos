@@ -10,6 +10,7 @@ RPM_HASH = "47b28b3c84ab5d52f122ccd9ceaf94e8c5e2181d97bc5257a5bd7528814eeb2ba2e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "raspberrypi-firmware-extra-pi4"
+
 RDEPENDS:${PN} += "/bin/sh \
 raspberrypi-firmware \
 util-linux"

@@ -11,6 +11,7 @@ RPM_HASH = "e3c8ff7004c9afd329191950c841ccafc41b5a0b77d7f5a27f21bb21619bacc1dc09
 RPROVIDES:${PN} += "typelib(XdpGtk4) \
 typelib-1_0-XdpGtk4-1_0 \
 typelib-1_0-XdpGtk4-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libportal-gtk4.so.1()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

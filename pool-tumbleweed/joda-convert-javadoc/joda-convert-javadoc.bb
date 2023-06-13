@@ -9,6 +9,7 @@ RPM_HASH = "965213b0199e38c3033ba0a83b9469407e67793679e39a2d9d6debcbe67f01bff8df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-convert-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

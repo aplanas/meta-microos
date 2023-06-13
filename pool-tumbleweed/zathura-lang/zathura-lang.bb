@@ -31,6 +31,7 @@ locale(zathura:tr) \
 locale(zathura:uk_UA) \
 zathura-lang \
 zathura-lang-all"
+
 RDEPENDS:${PN} += "zathura"
 
 inherit rpm

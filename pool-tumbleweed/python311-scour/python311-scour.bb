@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(scour) \
 python311-scour \
 python3dist(scour) \
 scour"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

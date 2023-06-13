@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sr-vorl.cls) \
 texlive-sr-vorl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

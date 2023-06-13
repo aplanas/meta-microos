@@ -21,6 +21,7 @@ application(mined.desktop) \
 mimehandler(text/plain) \
 xmined \
 xmined(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mined \
 xterm-bin"

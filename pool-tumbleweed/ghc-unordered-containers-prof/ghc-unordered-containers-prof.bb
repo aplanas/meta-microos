@@ -10,6 +10,7 @@ RPM_HASH = "40f584a950e2a6660e547b27357c73f5efa0d7af2d3ffdca097e1fbe343910ff72bf
 RPROVIDES:${PN} += "ghc-prof(unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E) \
 ghc-unordered-containers-prof \
 ghc-unordered-containers-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-prof(hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt) \

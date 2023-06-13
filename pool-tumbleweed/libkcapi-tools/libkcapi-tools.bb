@@ -9,6 +9,7 @@ RPM_HASH = "f13e62f380e137e9d094f162da72d78ca72db1d9b5cf2dee43e2a981904433f475e0
 
 RPROVIDES:${PN} += "libkcapi-tools \
 libkcapi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

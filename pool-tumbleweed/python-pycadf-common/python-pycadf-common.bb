@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(python-pycadf-common) \
 python-pycadf-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

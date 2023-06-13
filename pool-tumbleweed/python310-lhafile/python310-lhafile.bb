@@ -14,6 +14,7 @@ python3.10dist(lhafile) \
 python310-lhafile \
 python310-lhafile(aarch-64) \
 python3dist(lhafile)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

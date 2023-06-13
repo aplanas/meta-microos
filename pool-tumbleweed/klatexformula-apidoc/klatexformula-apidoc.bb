@@ -13,6 +13,7 @@ RPM_HASH = "947f091e32d91b0be01f15f960c5957d87025fa0feab709d4b2e6534c50389fd65e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klatexformula-apidoc"
+
 RDEPENDS:${PN} += "klatexformula"
 
 inherit rpm

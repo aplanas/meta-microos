@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mingw64(lib:pthread) \
 mingw64(lib:winpthread) \
 mingw64-unistd-pthread-devel \
 mingw64-winpthreads-devel"
+
 RDEPENDS:${PN} += "mingw64-libwinpthread1"
 
 inherit rpm

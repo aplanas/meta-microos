@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pip-shims \
 python3.10dist(pip-shims) \
 python310-pip-shims \
 python3dist(pip-shims)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pip \
 python310-setuptools \

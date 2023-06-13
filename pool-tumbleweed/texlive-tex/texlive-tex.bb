@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(initex.1) \
 man(tex.1) \
 texlive-tex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

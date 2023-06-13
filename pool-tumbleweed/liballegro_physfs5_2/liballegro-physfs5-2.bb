@@ -15,6 +15,7 @@ RPM_HASH = "056336fdacc82b41a37a234d0300972e2dda0c5196eddc7e06f1d0c225b6cc0bdc30
 RPROVIDES:${PN} += "liballegro_physfs.so.5.2()(64bit) \
 liballegro_physfs5_2 \
 liballegro_physfs5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

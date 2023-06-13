@@ -188,6 +188,7 @@ font(libertinusserif) \
 font(libertinusserifdisplay) \
 font(libertinusserifinitials) \
 texlive-libertinus-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

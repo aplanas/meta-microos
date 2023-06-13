@@ -12,6 +12,7 @@ RPM_HASH = "4dff315b7c99daeab1a7d353f42cb4e9e7efc36a513a7764228c2846ea1affe6f02b
 RPROVIDES:${PN} += "libatomicparsley.so.0()(64bit) \
 libatomicparsley0 \
 libatomicparsley0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

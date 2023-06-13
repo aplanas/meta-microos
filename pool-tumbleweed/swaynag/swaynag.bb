@@ -9,6 +9,7 @@ RPM_HASH = "4b17ee2100279b05eb78e69a68979fa61b1d2a5645499fe9ffaffc0345cec67aed88
 
 RPROVIDES:${PN} += "swaynag \
 swaynag(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

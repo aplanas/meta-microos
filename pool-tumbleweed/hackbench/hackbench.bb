@@ -10,6 +10,7 @@ RPM_HASH = "827aa29488a9e5e66ebf7bc9c21c713d2a36f57ea549d60ad80d25e3caa1d47b7a17
 
 RPROVIDES:${PN} += "hackbench \
 hackbench(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

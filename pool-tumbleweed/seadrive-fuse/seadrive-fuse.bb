@@ -10,6 +10,7 @@ RPM_HASH = "eff980cbcf9f992b3d61b3a3720cb42a65c278bab3ec656e34c7d9899524468c0a58
 
 RPROVIDES:${PN} += "seadrive-fuse \
 seadrive-fuse(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

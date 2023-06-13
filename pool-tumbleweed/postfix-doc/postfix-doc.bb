@@ -10,6 +10,7 @@ RPM_HASH = "86271a7533aea50e200b35d9c7f11eb04e88191eddbf828a2375de1f682fe0559e9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postfix-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

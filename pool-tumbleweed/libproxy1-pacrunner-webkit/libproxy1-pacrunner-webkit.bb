@@ -11,6 +11,7 @@ RPM_HASH = "2fee9f7a2f79864f4e7f7f2bd832920f4654970f32fba4b4ca9d83b9bf7d2fe69138
 RPROVIDES:${PN} += "libproxy1-pacrunner \
 libproxy1-pacrunner-webkit \
 libproxy1-pacrunner-webkit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

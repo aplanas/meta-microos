@@ -64,6 +64,7 @@ locale(killbots:ug) \
 locale(killbots:uk) \
 locale(killbots:zh_CN) \
 locale(killbots:zh_TW)"
+
 RDEPENDS:${PN} += "killbots"
 
 inherit rpm

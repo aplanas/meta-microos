@@ -14,6 +14,7 @@ RPM_HASH = "9a2335e8feed2e8af84fcbba1d6816dac4e2d9daf6b5bc1c20915176106dc5344edc
 RPROVIDES:${PN} += "glade-catalog-anjuta \
 glade-catalog-anjuta(aarch-64) \
 libgladeanjuta.so()(64bit)"
+
 RDEPENDS:${PN} += "anjuta \
 glade"
 

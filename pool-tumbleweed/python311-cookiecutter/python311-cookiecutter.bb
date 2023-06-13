@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cookiecutter) \
 python311-cookiecutter \
 python3dist(cookiecutter)"
+
 RDEPENDS:${PN} += "(python311-Jinja2 >= 2.7 with python311-Jinja2 < 4) \
 (python311-click >= 7 with python311-click < 9) \
 /bin/sh \

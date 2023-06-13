@@ -26,6 +26,7 @@ mimehandler(image/tiff) \
 mimehandler(image/x-dcraw) \
 python3.10dist(photini) \
 python3dist(photini)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 libgexiv2-2 \

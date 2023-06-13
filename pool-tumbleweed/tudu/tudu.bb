@@ -12,6 +12,7 @@ RPM_HASH = "aeccc31938feb20c618f30acf6a77948091f1227d73af28ff3018adbc0f51494d005
 RPROVIDES:${PN} += "config(tudu) \
 tudu \
 tudu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

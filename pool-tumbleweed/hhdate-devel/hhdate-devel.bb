@@ -10,6 +10,7 @@ RPM_HASH = "9413919b96b5c396607b2278b02b0834dbaa332b8af0f93a077f8e4dc0a20233785f
 RPROVIDES:${PN} += "cmake(date) \
 hhdate-devel \
 hhdate-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdate-tz3"
 
 inherit rpm

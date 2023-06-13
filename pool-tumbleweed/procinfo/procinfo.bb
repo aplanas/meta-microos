@@ -11,6 +11,7 @@ RPM_HASH = "1d798961f0a180de34d8177040733e403f93e5ca9425f52c6015ed58108a423392c6
 RPROVIDES:${PN} += "procinfo \
 procinfo(aarch-64) \
 ps:/usr/bin/lsdev"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

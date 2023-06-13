@@ -11,6 +11,7 @@ RPM_HASH = "06fe36750de20be4f8909c5ce8113e43003f36b75e1e3c7a7717894baba0e574dbca
 RPROVIDES:${PN} += "libhidapi-hidraw.so.0()(64bit) \
 libhidapi-hidraw0 \
 libhidapi-hidraw0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

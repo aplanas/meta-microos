@@ -11,6 +11,7 @@ RPM_HASH = "e15424c854a3e6c6bf53256f77499f1c4e292ce84827c56ebb216dc97fa56d887942
 
 RPROVIDES:${PN} += "libsuperlu-gnu-hpc \
 libsuperlu-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libsuperlu_6_0_0-gnu-hpc"
 

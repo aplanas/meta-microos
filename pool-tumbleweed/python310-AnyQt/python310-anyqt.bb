@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-AnyQt \
 python3.10dist(anyqt) \
 python310-AnyQt \
 python3dist(anyqt)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

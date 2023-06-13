@@ -130,6 +130,7 @@ font(ethbsb36) \
 font(ethbsb9) \
 font(ethbtt10) \
 texlive-ethiop-t1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

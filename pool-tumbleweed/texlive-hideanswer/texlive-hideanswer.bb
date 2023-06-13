@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hideanswer.sty) \
 texlive-hideanswer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

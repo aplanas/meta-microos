@@ -15,6 +15,7 @@ RPM_HASH = "873544537d39b0dee723eb259ba8104958a77db2d2f6f1e6e66d923a5d2f298a7c0a
 RPROVIDES:${PN} += "libOpenImageIO_Util.so.2.4()(64bit) \
 libOpenImageIO_Util2_4 \
 libOpenImageIO_Util2_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

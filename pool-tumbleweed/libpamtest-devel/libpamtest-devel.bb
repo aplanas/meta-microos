@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(pamtest) \
 libpamtest-devel \
 libpamtest-devel(aarch-64) \
 pkgconfig(libpamtest)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpamtest0 \
 pam_wrapper"

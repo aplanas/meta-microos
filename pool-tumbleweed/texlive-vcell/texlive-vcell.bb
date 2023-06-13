@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(vcell.sty) \
 texlive-vcell"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

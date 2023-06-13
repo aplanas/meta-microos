@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "german-pos-dict \
 mvn(de.danielnaber:german-pos-dict) \
 mvn(de.danielnaber:german-pos-dict:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.carrot2:morfologik-fsa) \

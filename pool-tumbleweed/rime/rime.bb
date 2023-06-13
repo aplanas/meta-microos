@@ -11,6 +11,7 @@ RPM_HASH = "9a42703921e45190b6766e8d8089be8a4312e6e1eaf02c89bd2777a36273bcfd9a80
 
 RPROVIDES:${PN} += "rime \
 rime(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libboost_filesystem.so.1.82.0()(64bit) \

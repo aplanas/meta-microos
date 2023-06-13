@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(compat-patcher-core) \
 python39-compat-patcher-core \
 python3dist(compat-patcher-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

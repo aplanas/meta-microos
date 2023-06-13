@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-expectations) \
 rubygem(ruby:3.2.0:rspec-expectations:3) \
 rubygem(ruby:3.2.0:rspec-expectations:3.5) \
 rubygem(ruby:3.2.0:rspec-expectations:3.5.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:diff-lcs) \
 rubygem(ruby:3.2.0:rspec-support:3.5)"

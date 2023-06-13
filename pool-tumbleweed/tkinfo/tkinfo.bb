@@ -17,6 +17,7 @@ RPM_HASH = "87cd1cf832779f167e1e06836c7b6046419a7b3533987854d46f952870d0dbc3c999
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkinfo"
+
 RDEPENDS:${PN} += "/usr/bin/wish"
 
 inherit rpm

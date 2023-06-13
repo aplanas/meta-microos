@@ -10,6 +10,7 @@ RPM_HASH = "d70372bb76a73f123f2e052326cb63f2eff396da2e4e30cf6ccde066c2f43386b243
 RPROVIDES:${PN} += "libpy2ag_slp.so.2()(64bit) \
 yast2-slp \
 yast2-slp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

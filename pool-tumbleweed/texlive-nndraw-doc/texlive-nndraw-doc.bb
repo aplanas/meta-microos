@@ -9,6 +9,7 @@ RPM_HASH = "be4b6f38f8388407aaedd235a6f1942a2c3de9625878e873b10fc8fb9f9c603f926b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nndraw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

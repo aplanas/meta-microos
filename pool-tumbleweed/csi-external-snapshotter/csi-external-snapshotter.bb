@@ -9,6 +9,7 @@ RPM_HASH = "d79622d7b215b6104e92bd6a025c2381169e5fd5d13a957b24c48346eb92c83e2647
 
 RPROVIDES:${PN} += "csi-external-snapshotter \
 csi-external-snapshotter(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

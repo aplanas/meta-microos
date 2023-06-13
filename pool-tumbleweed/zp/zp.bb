@@ -18,6 +18,7 @@ RPM_HASH = "8f7658d44cc0243b8ef99dfbd687f1c2ee0c7dac3a60c82304dee79256c06674232f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zp"
+
 RDEPENDS:${PN} += "zypper"
 
 inherit rpm

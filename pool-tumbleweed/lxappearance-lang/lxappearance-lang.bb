@@ -54,6 +54,7 @@ locale(lxappearance:zh_CN) \
 locale(lxappearance:zh_TW) \
 lxappearance-lang \
 lxappearance-lang-all"
+
 RDEPENDS:${PN} += "lxappearance"
 
 inherit rpm

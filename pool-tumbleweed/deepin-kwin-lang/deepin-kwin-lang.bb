@@ -91,6 +91,7 @@ locale(deepin-kwin:vi) \
 locale(deepin-kwin:wa) \
 locale(deepin-kwin:zh_CN) \
 locale(deepin-kwin:zh_TW)"
+
 RDEPENDS:${PN} += "deepin-kwin"
 
 inherit rpm

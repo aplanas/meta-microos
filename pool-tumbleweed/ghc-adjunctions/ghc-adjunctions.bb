@@ -10,6 +10,7 @@ RPM_HASH = "399b2c3d1bea0ecf8c561c7fe333fc1dcf6ac911f113d6591f3adbb9fa17adf6c731
 RPROVIDES:${PN} += "ghc-adjunctions \
 ghc-adjunctions(aarch-64) \
 libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

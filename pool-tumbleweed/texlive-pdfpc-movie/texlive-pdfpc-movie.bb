@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfpc-movie.sty) \
 texlive-pdfpc-movie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

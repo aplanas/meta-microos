@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-scheduler) \
 python39-azure-mgmt-scheduler \
 python3dist(azure-mgmt-scheduler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-nspkg \

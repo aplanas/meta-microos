@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::ShareDir::ProjectDistDir) \
 perl-File-ShareDir-ProjectDistDir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::ShareDir) \
 perl(Path::FindDev) \

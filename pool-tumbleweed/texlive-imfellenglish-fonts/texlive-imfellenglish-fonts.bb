@@ -111,6 +111,7 @@ font(imfellenglishsc) \
 font(imfellflowers1) \
 font(imfellflowers2) \
 texlive-imfellenglish-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

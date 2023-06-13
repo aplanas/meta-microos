@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:pt_PT) \
 myspell-dictionary \
 myspell-portuguese \
 myspell-pt_PT"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chapterfolder.sty) \
 texlive-chapterfolder"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

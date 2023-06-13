@@ -10,6 +10,7 @@ RPM_HASH = "1bfe46c1aa7f7e055a29794882b80aa04ffd1b9061f173c685ac0571f2f279b2c771
 RPROVIDES:${PN} += "weechat-aspell \
 weechat-spell \
 weechat-spell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ocgx.sty) \
 tex(tikzlibraryocgx.code.tex) \
 texlive-ocgx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

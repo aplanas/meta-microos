@@ -9,6 +9,7 @@ RPM_HASH = "2de0edb25042390b8c617ab3940bf506059c4ba31805a80816678bfe6696898fc426
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libyang-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

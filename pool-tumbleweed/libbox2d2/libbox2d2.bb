@@ -10,6 +10,7 @@ RPM_HASH = "acf46e975d87a645941d6a9cc7b421166bca8b4cf74bcedb53686b8a3dce96851a95
 RPROVIDES:${PN} += "libbox2d.so.2()(64bit) \
 libbox2d2 \
 libbox2d2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

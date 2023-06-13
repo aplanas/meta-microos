@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.eclipse.sisu:org.eclipse.sisu.inject) \
 mvn(org.eclipse.sisu:org.eclipse.sisu.inject:pom:) \
 sisu-inject"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.enterprise:cdi-api)"

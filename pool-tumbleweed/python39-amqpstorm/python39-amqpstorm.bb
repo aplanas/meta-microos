@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(amqpstorm) \
 python39-amqpstorm \
 python3dist(amqpstorm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pamqp \
 python39-requests"

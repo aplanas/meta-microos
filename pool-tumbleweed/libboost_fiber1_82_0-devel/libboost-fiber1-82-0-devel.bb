@@ -12,6 +12,7 @@ RPM_HASH = "fb863977382bb59685329379d7e98d8c486d890236f2bc8e121ae39d5bb6d2e612dd
 RPROVIDES:${PN} += "libboost_fiber-devel-impl \
 libboost_fiber1_82_0-devel \
 libboost_fiber1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_context1_82_0-devel \
 libboost_fiber1_82_0 \
 libboost_filesystem1_82_0-devel \

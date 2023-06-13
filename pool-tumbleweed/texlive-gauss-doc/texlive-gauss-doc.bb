@@ -9,6 +9,7 @@ RPM_HASH = "5b8e505579d8b23e99a4d73a2a860ceb82071705d2e66bc7a60a9ab970eb241c8dbf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gauss-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

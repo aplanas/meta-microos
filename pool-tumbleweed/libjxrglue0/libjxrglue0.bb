@@ -12,6 +12,7 @@ RPM_HASH = "bbde3058072f96f1d4de4c0cb2c7beaf83af7cb0e8ea6a0d68b33fa3ed07867c1c42
 RPROVIDES:${PN} += "libjxrglue.so.0()(64bit) \
 libjxrglue0 \
 libjxrglue0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

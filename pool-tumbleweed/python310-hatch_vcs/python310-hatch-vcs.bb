@@ -14,6 +14,7 @@ python3.10dist(hatch-vcs) \
 python310-hatch-vcs \
 python310-hatch_vcs \
 python3dist(hatch-vcs)"
+
 RDEPENDS:${PN} += "(python310-setuptools_scm >= 6.4.0) \
 python(abi) \
 python310-hatchling"

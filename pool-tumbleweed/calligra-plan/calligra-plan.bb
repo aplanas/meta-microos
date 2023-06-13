@@ -33,6 +33,7 @@ metainfo(org.kde.calligraplan.appdata.xml) \
 mimehandler(application/x-vnd.kde.kplato.work) \
 mimehandler(application/x-vnd.kde.plan) \
 mimehandler(application/x-vnd.kde.plan.work)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kcoreaddons \
 ld-linux-aarch64.so.1()(64bit) \

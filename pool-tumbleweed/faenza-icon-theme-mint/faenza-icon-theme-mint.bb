@@ -11,6 +11,7 @@ RPM_HASH = "168ad552f11595ea8f06b8405b94b4bfa8231d05fd14960784202cdbc2340e6aa258
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "faenza-icon-theme-mint"
+
 RDEPENDS:${PN} += "/bin/sh \
 faenza-icon-theme-dark"
 

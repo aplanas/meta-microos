@@ -11,6 +11,7 @@ RPM_HASH = "099c9646c44e0c47d39cde03015f3464b15a414dcf59690b09960bb2afaa0727fffa
 RPROVIDES:${PN} += "config(qemu-tools) \
 qemu-tools \
 qemu-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3 \

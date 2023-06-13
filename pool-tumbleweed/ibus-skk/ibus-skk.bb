@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(ibus-setup-skk.desktop) \
 ibus-skk \
 ibus-skk(aarch-64)"
+
 RDEPENDS:${PN} += "ibus \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

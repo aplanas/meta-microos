@@ -9,6 +9,7 @@ RPM_HASH = "3b4c65964b6cc83bc313526f387e9c68271d981be72480950b1c5360f4cf4341aa6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clipboard-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

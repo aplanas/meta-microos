@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mindflow.sty) \
 texlive-mindflow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

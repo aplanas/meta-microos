@@ -12,6 +12,7 @@ RPM_HASH = "6968fcee97db57b059585499174be5ec4e6d91101dab9608db07362534c266dcb467
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-koma-script-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

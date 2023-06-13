@@ -11,6 +11,7 @@ RPM_HASH = "6262a749349a71882fc9de3eaaaba30d614f05fc0b153739b462fb6719d2c9cacd45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_mpi-devel"
+
 RDEPENDS:${PN} += "libboost_mpi1_82_0-devel"
 
 inherit rpm

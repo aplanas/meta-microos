@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(yfonts.sty) \
 texlive-yfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

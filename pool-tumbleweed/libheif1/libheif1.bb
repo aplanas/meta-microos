@@ -17,6 +17,7 @@ RPM_HASH = "a8da3852d9b1523e7e1f2a300aafd5efefad101e8a621fff3e68f443ca1e9daafbd5
 RPROVIDES:${PN} += "libheif.so.1()(64bit) \
 libheif1 \
 libheif1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

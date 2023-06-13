@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cufflinks) \
 python39-cufflinks \
 python3dist(cufflinks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-colorlover \
 python39-numpy \

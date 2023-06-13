@@ -9,6 +9,7 @@ RPM_HASH = "614626a7a4a5ce23f93db8ba3fd68c59748d3e0cf189108f25e4244b3dc3cc09e36f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-psqueues-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

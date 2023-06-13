@@ -45,6 +45,7 @@ locale(freeciv:tr) \
 locale(freeciv:uk) \
 locale(freeciv:zh_CN) \
 locale(freeciv:zh_TW)"
+
 RDEPENDS:${PN} += "freeciv"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ot-tableau.sty) \
 texlive-ot-tableau"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

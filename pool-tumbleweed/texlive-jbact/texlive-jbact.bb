@@ -13,6 +13,7 @@ RPM_HASH = "d10138740bba2a8e569bd407253577c100194d1382ac389e08be62f6bd0e5a81b527
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jbact"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

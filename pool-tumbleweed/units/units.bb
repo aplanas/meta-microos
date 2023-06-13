@@ -14,6 +14,7 @@ RPM_HASH = "15adf47885fd75534ce054bc78c8dff85d13a9225c93e82795a6bfc1f73c7480b013
 
 RPROVIDES:${PN} += "units \
 units(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

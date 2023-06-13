@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-video-effects-devel \
 pkgconfig(gnome-video-effects)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-video-effects"
 

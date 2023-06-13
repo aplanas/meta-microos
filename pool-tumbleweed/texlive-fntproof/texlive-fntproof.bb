@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fntproof.tex) \
 texlive-fntproof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "trilinos-gnu-openmpi3-hpc \
 trilinos-gnu-openmpi3-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 trilinos_14_0_0-gnu-openmpi3-hpc-devel"
 

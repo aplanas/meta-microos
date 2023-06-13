@@ -11,6 +11,7 @@ RPM_HASH = "a4ae89a5d862de1b77d2aaeb0a693ac2a22ecac3b35668ef3ba52ea9603d4d8071b5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "local-npm-registry"
+
 RDEPENDS:${PN} += "npm-default"
 
 inherit rpm

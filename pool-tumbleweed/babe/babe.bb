@@ -63,6 +63,7 @@ mimehandler(audio/x-tta) \
 mimehandler(audio/x-vorbis+ogg) \
 mimehandler(audio/x-wav) \
 mimehandler(audio/x-wavpack)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5I18n.so.5()(64bit) \

@@ -103,6 +103,7 @@ pkgconfig(ethumb-client) \
 pkgconfig(ethumb_client) \
 pkgconfig(evas) \
 pkgconfig(evas-cxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 efl \
 gettext-devel \

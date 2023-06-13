@@ -12,6 +12,7 @@ RPM_HASH = "a917bb727dfc4c37b9ccbb98f86aced98a9f563f89c92b867c0b3a3976239bcfa16e
 RPROVIDES:${PN} += "asio-devel \
 asio-devel(aarch-64) \
 pkgconfig(asio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boost-devel \
 openssl-devel"

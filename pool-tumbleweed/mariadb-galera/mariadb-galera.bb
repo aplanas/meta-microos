@@ -11,6 +11,7 @@ RPM_HASH = "bd526e6b6b0ddffa97e3b6d67bdce0adf9a1699c63cfbe30f538161c9a8d7dc6875b
 RPROVIDES:${PN} += "config(mariadb-galera) \
 mariadb-galera \
 mariadb-galera(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 galera-4 \

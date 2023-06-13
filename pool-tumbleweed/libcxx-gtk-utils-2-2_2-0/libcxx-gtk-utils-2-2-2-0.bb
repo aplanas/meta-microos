@@ -13,6 +13,7 @@ RPM_HASH = "d4b3e8afc0778c6b804f5829624f09291b5adc165e7f0f5f80ac62e1d3a4b9748724
 RPROVIDES:${PN} += "libcxx-gtk-utils-2-2.2.so.0()(64bit) \
 libcxx-gtk-utils-2-2_2-0 \
 libcxx-gtk-utils-2-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

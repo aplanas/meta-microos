@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-library-3d \
 kicad-packages3D"
+
 RDEPENDS:${PN} += "kicad-footprints"
 
 inherit rpm

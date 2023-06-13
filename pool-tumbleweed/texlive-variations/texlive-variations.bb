@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(variations.sty) \
 tex(variations.tex) \
 texlive-variations"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

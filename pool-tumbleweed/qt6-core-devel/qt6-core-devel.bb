@@ -12,6 +12,7 @@ cmake(Qt6CoreTools) \
 pkgconfig(Qt6Core) \
 qt6-core-devel \
 qt6-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6Core6 \
 pkgconfig(Qt6Platform) \

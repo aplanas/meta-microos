@@ -12,6 +12,7 @@ RPM_HASH = "f2d488fe57ea08cacdcac4a898f69603deda76eed3298633347ae0edbac8c4148772
 RPROVIDES:${PN} += "libmesode.so.0()(64bit) \
 libmesode0 \
 libmesode0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

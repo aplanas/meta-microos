@@ -9,6 +9,7 @@ RPM_HASH = "ca11f97b0f1f07a7bf988ca935b5e5d85cc21522da8b1f8cb74930b379388787fbe7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-labyrinth-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

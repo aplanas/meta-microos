@@ -9,6 +9,7 @@ RPM_HASH = "bebf7badb7456da79f849be96986ba3ba806871687cb2b08939e83de34d4fef066a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nicefilelist-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -32,6 +32,7 @@ systemd-analyze \
 systemd-logger \
 systemd-sysvinit \
 sysvinit:/sbin/init"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

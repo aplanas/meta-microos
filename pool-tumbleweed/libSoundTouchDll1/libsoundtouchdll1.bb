@@ -12,6 +12,7 @@ RPM_HASH = "8d927aec5467bae1436cda18cd943775b4a2ad628a56a8241fee60fedc76c1bd0d00
 RPROVIDES:${PN} += "libSoundTouchDll.so.1()(64bit) \
 libSoundTouchDll1 \
 libSoundTouchDll1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

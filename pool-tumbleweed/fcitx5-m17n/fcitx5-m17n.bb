@@ -12,6 +12,7 @@ fcitx5-m17n \
 fcitx5-m17n(aarch-64) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.M17N.metainfo.xml)"
+
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

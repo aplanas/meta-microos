@@ -12,6 +12,7 @@ RPM_HASH = "70762ed7c32afd774a5e8708ea79e834a930382672032b0d006f0ee756a9d6c7ec50
 
 RPROVIDES:${PN} += "optee-client-devel \
 optee-client-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libckteec0 \
 libteec1"
 

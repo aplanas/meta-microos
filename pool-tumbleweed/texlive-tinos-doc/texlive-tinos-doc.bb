@@ -9,6 +9,7 @@ RPM_HASH = "ae68181f7f54011a35b1ba24b88695019702328f4f55c62d230a434c795cc4ee60ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tinos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

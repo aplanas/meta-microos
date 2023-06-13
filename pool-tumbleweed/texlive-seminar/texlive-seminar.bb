@@ -32,6 +32,7 @@ tex(tvz-code.sty) \
 tex(tvz-hax.sty) \
 tex(tvz-user.sty) \
 texlive-seminar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

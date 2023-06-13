@@ -29,6 +29,7 @@ rpm_macro(cpython3_soabi) \
 rpm_macro(have_python3) \
 rpm_macro(py3_compile) \
 rpm_macro(py3_soflags)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-haproxy) \
 monitoring-plugins-haproxy \
 nagios-plugins-haproxy"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Data::Dumper) \
 perl(File::Basename) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Mojolicious::Plugin::RenderFile) \
 perl-Mojolicious-Plugin-RenderFile"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Mojolicious)"
 

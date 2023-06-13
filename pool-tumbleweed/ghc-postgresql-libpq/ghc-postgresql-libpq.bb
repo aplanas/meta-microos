@@ -13,6 +13,7 @@ RPM_HASH = "09ed7946be663057948ef9c42aa9eb5d5e4070eff4e515ba70f60d1ab24d093842dc
 RPROVIDES:${PN} += "ghc-postgresql-libpq \
 ghc-postgresql-libpq(aarch-64) \
 libHSpostgresql-libpq-0.9.5.0-EniLDQI99PgI2VDyTYHGox-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

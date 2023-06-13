@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libosip2-devel \
 libosip2-devel(aarch-64) \
 libosip2:/usr/include/osip2/osip.h \
 pkgconfig(libosip2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libosip2-15"

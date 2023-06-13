@@ -10,6 +10,7 @@ RPM_HASH = "b2609425c9e5bccfbd12cff5ea75570c3b4bc99e48d4a1acc8d8d203308854a324aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-neutronclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

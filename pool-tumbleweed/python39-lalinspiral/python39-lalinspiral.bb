@@ -9,6 +9,7 @@ RPM_HASH = "0edbbfd6b057da58b12024be92e26b7b72d86fb20812afad9c0e873ea89757c17f04
 
 RPROVIDES:${PN} += "python39-lalinspiral \
 python39-lalinspiral(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Pod::AsciiDoctor) \
 perl-Pod-AsciiDoctor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Pod::Parser) \
 perl(parent)"

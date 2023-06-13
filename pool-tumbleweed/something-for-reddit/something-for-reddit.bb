@@ -13,6 +13,7 @@ application(reddit-is-gtk.desktop) \
 metainfo() \
 metainfo(reddit-is-gtk.appdata.xml) \
 something-for-reddit"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Markdown \

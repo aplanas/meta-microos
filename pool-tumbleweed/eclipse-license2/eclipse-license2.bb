@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "eclipse-license2 \
 mvn(org.eclipse.license:org.eclipse.license) \
 osgi(org.eclipse.license)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

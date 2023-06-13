@@ -14,6 +14,7 @@ RPM_HASH = "fa5b276b462a5008cf0f6de2516446f6642fd1df529a7ae769896c56244417a7bde4
 RPROVIDES:${PN} += "libwget.so.1()(64bit) \
 libwget1 \
 libwget1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ tex(pxjahyper-enc.sty) \
 tex(pxjahyper-uni.def) \
 tex(pxjahyper.sty) \
 texlive-pxjahyper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

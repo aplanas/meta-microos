@@ -10,6 +10,7 @@ RPM_HASH = "38b00ef1e005a2eb519a30c946b414143fdee4b59b389b9750e5b9cb2902878b4e01
 
 RPROVIDES:${PN} += "qt6-qmlworkerscript-private-devel \
 qt6-qmlworkerscript-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QmlWorkerScript) \
 qt6-core-private-devel \
 qt6-qml-private-devel"

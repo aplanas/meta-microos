@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(irman-common) \
 irman-common \
 irman-common(aarch-64) \
 libirman-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

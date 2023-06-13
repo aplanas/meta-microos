@@ -10,6 +10,7 @@ RPM_HASH = "7d5fe88598dc0483b818c54ea679e6aa4c20771faa697615b80be75ffe325f876b52
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ev"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 pagure \

@@ -68,6 +68,7 @@ perl(Class::MakeMethods::Utility::Inheritable) \
 perl(Class::MakeMethods::Utility::Ref) \
 perl(Class::MakeMethods::Utility::TextBuilder) \
 perl-Class-MakeMethods"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

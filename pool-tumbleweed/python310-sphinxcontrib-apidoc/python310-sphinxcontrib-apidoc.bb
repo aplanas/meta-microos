@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-apidoc \
 python3.10dist(sphinxcontrib-apidoc) \
 python310-sphinxcontrib-apidoc \
 python3dist(sphinxcontrib-apidoc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-pbr"

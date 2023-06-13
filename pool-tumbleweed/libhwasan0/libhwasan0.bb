@@ -11,6 +11,7 @@ RPM_HASH = "46423fb152cf526d6223852079d565f9d3365798bfee29a77a55b9dd5aedcde1e992
 RPROVIDES:${PN} += "libhwasan.so.0()(64bit) \
 libhwasan0 \
 libhwasan0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

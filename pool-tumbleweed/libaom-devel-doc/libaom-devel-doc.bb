@@ -10,6 +10,7 @@ RPM_HASH = "955fa981b53b1f0dfdb3dbd4dbdfd7880aa6d487df40e415a24abcfbb6c444392a64
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libaom-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "f69cf8f33c0ef4e0f57948ee702b929f59f56984148d66ec6b890f4361aa6f9943d0
 
 RPROVIDES:${PN} += "qore-stdlib \
 qore-stdlib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

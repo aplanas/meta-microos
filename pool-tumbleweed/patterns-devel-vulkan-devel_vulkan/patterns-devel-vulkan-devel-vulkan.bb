@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-vulkan-devel_vulkan \
 patterns-devel-vulkan-devel_vulkan(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

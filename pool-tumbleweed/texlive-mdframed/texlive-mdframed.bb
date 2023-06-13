@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ltxmdf.cls) \
 tex(mdframed.sty) \
 texlive-mdframed"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

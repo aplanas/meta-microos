@@ -11,6 +11,7 @@ RPM_HASH = "aa92829f82164e5d6dd33f1453f631eb5b20fd210973cd123ca52cdaf0fddc5c477e
 RPROVIDES:${PN} += "v2ray \
 v2ray-core \
 v2ray-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

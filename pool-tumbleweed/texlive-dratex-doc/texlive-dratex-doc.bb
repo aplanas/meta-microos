@@ -9,6 +9,7 @@ RPM_HASH = "cf07ee8ac14d3e9efe83152336946228f49038bb914ab266dffd06c8a0e4a6356251
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dratex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

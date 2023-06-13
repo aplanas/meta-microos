@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(tangle.1) \
 man(weave.1) \
 texlive-web"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

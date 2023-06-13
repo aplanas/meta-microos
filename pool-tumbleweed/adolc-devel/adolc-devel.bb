@@ -11,6 +11,7 @@ RPM_HASH = "c54c037829d6eadfa192a12c44ced97ec8ccf43e37bd9585a67b98ac9e87b120dd76
 RPROVIDES:${PN} += "adolc-devel \
 adolc-devel(aarch-64) \
 pkgconfig(adolc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libadolc2"
 

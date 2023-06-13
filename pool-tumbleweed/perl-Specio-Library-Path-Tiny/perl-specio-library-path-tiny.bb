@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Specio::Library::Path::Tiny) \
 perl-Specio-Library-Path-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Path::Tiny) \
 perl(Specio) \

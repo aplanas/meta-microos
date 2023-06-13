@@ -11,6 +11,7 @@ RPM_HASH = "bed3cab9459454b600664aa523ef57339e702eaf75f6b969f0239e8c11ef5f90e961
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dblatex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ python311-pylons-sphinx-themes \
 python311-pylons_sphinx_theme \
 python311-pylons_theme_support \
 python3dist(pylons-sphinx-themes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pygments"
 

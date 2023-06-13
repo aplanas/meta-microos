@@ -22,6 +22,7 @@ openssh-server \
 openssh-server(aarch-64) \
 openssh:/usr/sbin/sshd \
 user(sshd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

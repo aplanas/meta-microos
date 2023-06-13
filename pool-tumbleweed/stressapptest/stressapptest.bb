@@ -12,6 +12,7 @@ RPM_HASH = "315057e28046c64ed117bf84829f7e6593b2b5f3ec94e45139d070a8b2acd7a8f824
 
 RPROVIDES:${PN} += "stressapptest \
 stressapptest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

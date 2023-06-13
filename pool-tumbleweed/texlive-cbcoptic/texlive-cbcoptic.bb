@@ -20,6 +20,7 @@ tex(copto.tfm) \
 tex(lcopcoptic.fd) \
 tex(prnthyph.sty) \
 texlive-cbcoptic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rich) \
 python39-rich \
 python3dist(rich)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-markdown-it-py \
 python39-pygments"

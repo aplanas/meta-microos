@@ -12,6 +12,7 @@ ghc-transformers-devel \
 ghc-transformers-devel(aarch-64) \
 ghc-transformers-static \
 ghc-transformers-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-transformers(aarch-64)"

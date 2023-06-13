@@ -11,6 +11,7 @@ RPM_HASH = "f3e0356f5dfdf3c69e0180dbcbe3427421138a665e298f5118e15396f1bd91fc25cc
 RPROVIDES:${PN} += "libptytty.so.0()(64bit) \
 libptytty0 \
 libptytty0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

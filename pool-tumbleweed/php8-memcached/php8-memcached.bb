@@ -11,6 +11,7 @@ RPM_HASH = "66f697269468e8411be991594801b72d329c80e1774eaba96ebbe7c1edfdc7b8d284
 RPROVIDES:${PN} += "config(php8-memcached) \
 php8-memcached \
 php8-memcached(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

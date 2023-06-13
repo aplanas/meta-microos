@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(serbian-apostrophe.sty) \
 texlive-serbian-apostrophe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

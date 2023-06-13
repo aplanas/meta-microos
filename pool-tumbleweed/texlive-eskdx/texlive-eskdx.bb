@@ -40,6 +40,7 @@ tex(eskdtitlebase.sty) \
 tex(eskdtotal.sty) \
 tex(eskdukrainian.def) \
 texlive-eskdx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

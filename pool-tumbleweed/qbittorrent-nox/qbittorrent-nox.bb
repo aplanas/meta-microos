@@ -11,6 +11,7 @@ RPM_HASH = "0338bec9884d348d67767c865f6ff020375a76868d8f26df5d4d962081cf7518bcb6
 
 RPROVIDES:${PN} += "qbittorrent-nox \
 qbittorrent-nox(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

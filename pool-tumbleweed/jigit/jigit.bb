@@ -10,6 +10,7 @@ RPM_HASH = "3aa957bc204fb3da7170842bd0974544ede6fe99662c9349d9070632d09176267b0a
 
 RPROVIDES:${PN} += "jigit \
 jigit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

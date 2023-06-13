@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pypet \
 python3.10dist(pypet) \
 python310-pypet \
 python3dist(pypet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-pandas \

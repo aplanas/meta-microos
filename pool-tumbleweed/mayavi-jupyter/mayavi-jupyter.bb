@@ -13,6 +13,7 @@ RPM_HASH = "034fd36b4012bda68d016a830a87f7680a505a0cc8bcbc5cb781e862c211668f63e6
 
 RPROVIDES:${PN} += "mayavi-jupyter \
 mayavi-jupyter(aarch-64)"
+
 RDEPENDS:${PN} += "jupyter-ipyevents \
 jupyter-ipywidgets \
 jupyter-notebook \

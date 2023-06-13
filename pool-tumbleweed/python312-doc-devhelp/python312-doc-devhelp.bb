@@ -11,6 +11,7 @@ RPM_HASH = "32139856b8d91499d18ac60ac8e1b223e1558ce14e146b540d3734522cc4aa97af2f
 
 RPROVIDES:${PN} += "python312-doc-devhelp \
 python312-doc-devhelp(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

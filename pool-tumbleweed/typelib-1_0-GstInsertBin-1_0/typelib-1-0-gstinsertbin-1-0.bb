@@ -14,6 +14,7 @@ RPM_HASH = "7cf93551bd4617154a182c33941dbafb2ad3f0e10670a28d4eafeb14e4844b12dd61
 RPROVIDES:${PN} += "typelib(GstInsertBin) \
 typelib-1_0-GstInsertBin-1_0 \
 typelib-1_0-GstInsertBin-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstinsertbin-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

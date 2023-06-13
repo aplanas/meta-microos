@@ -20,6 +20,7 @@ locale(radeontop:tr) \
 locale(radeontop:zh_CN) \
 radeontop-lang \
 radeontop-lang-all"
+
 RDEPENDS:${PN} += "radeontop"
 
 inherit rpm

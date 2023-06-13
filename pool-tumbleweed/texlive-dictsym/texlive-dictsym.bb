@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(dictsym.map) \
 tex(dictsym.sty) \
 tex(dictsym.tfm) \
 texlive-dictsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

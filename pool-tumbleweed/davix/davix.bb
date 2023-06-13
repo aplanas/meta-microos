@@ -17,6 +17,7 @@ RPM_HASH = "10286a0e407f9589f5c905b849268d389a57e13d669b37dad1e7cee4b71bdd46f0f0
 
 RPROVIDES:${PN} += "davix \
 davix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

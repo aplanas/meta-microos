@@ -9,6 +9,7 @@ RPM_HASH = "4d467c7b492ba1782ec28a07c49e09056e4d0262fc7d4f5b886e3d7b01586a35ee30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bogofilter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

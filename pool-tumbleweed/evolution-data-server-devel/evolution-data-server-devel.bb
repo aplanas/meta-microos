@@ -23,6 +23,7 @@ pkgconfig(libedata-cal-2.0) \
 pkgconfig(libedataserver-1.2) \
 pkgconfig(libedataserverui-1.2) \
 pkgconfig(libedataserverui4-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 evolution-data-server \
 libcamel-1_2-64 \

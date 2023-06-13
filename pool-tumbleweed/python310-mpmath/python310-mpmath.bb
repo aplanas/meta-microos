@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-mpmath \
 python3.10dist(mpmath) \
 python310-mpmath \
 python3dist(mpmath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gmpy2"
 

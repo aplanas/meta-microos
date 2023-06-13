@@ -19,6 +19,7 @@ locale(gobby:it_IT) \
 locale(gobby:ja) \
 locale(gobby:pt_BR) \
 locale(gobby:zh_TW)"
+
 RDEPENDS:${PN} += "gobby"
 
 inherit rpm

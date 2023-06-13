@@ -10,6 +10,7 @@ RPM_HASH = "4810e060b73bd412f974d0d1f626c099bc813f36fc06a7af41bbd4f4ddd29f37e776
 
 RPROVIDES:${PN} += "golang-org-x-sys \
 golang-org-x-sys(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

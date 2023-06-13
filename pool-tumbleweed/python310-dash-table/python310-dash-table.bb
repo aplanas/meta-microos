@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-dash-table \
 python3.10dist(dash-table) \
 python310-dash-table \
 python3dist(dash-table)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

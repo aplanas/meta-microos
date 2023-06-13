@@ -16,6 +16,7 @@ perl(Test::Mock::HTTP::Response) \
 perl(Test::Mock::LWP) \
 perl(Test::Mock::LWP::UserAgent) \
 perl-Test-Mock-LWP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::MockObject)"
 

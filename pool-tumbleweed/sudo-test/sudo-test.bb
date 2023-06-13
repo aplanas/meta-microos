@@ -9,6 +9,7 @@ RPM_HASH = "e2dd87825d903d0b13956c36da3e5c3f65662bb0ba514068fb7478eec05cca0ca601
 
 RPROVIDES:${PN} += "sudo-test \
 sudo-test(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sudo"
 

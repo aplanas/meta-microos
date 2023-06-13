@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(retryrequests) \
 python311-retryrequests \
 python3dist(retryrequests)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-setuptools"

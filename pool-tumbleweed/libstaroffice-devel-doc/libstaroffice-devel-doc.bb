@@ -9,6 +9,7 @@ RPM_HASH = "d6dc25ae8b991355b0eff82a1a2bc2c69ced3fabbe7459987f2f75de61cb27854809
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstaroffice-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

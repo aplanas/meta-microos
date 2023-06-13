@@ -13,6 +13,7 @@ RPM_HASH = "f93373c0dd0deb1de0c9c1fedbc45e6de4ea9d7676fb979902f3c6088e5902f562d6
 RPROVIDES:${PN} += "libbraille-0.so.14()(64bit) \
 libbraille0-14 \
 libbraille0-14(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

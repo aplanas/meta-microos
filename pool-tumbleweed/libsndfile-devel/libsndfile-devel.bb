@@ -13,6 +13,7 @@ libsndd \
 libsndfile-devel \
 libsndfile-devel(aarch-64) \
 pkgconfig(sndfile)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libsndfile1 \

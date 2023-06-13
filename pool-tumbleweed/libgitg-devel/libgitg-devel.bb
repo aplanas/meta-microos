@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgitg-devel \
 libgitg-devel(aarch-64) \
 pkgconfig(libgitg-1.0) \
 pkgconfig(libgitg-ext-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgitg-1_0-0 \
 libgitg-ext-1_0-0 \

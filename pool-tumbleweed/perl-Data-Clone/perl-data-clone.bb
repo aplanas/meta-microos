@@ -19,6 +19,7 @@ RPM_HASH = "4892c99bd6a46cca9edb07e1124d1ca24c060e790fb9da2fe224e3c80507aba5e181
 RPROVIDES:${PN} += "perl(Data::Clone) \
 perl-Data-Clone \
 perl-Data-Clone(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

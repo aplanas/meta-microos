@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-incremental \
 python3.10dist(incremental) \
 python310-incremental \
 python3dist(incremental)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyramid-debugtoolbar) \
 python39-pyramid-debugtoolbar \
 python3dist(pyramid-debugtoolbar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pygments \
 python39-pyramid \

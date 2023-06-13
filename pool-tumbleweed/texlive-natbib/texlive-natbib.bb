@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bibentry.sty) \
 tex(natbib.sty) \
 texlive-natbib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

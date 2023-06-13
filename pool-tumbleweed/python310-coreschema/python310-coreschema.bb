@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-coreschema \
 python3.10dist(coreschema) \
 python310-coreschema \
 python3dist(coreschema)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2"
 

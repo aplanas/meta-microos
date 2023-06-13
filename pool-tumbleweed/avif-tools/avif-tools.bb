@@ -15,6 +15,7 @@ RPM_HASH = "e0b69dd4ca7dec5e4b389d90ad42268b96d26c78ddfe58b72f4dfe4c840a6a7a0b78
 RPROVIDES:${PN} += "avif-tools \
 avif-tools(aarch-64) \
 libavif-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavif.so.15()(64bit) \

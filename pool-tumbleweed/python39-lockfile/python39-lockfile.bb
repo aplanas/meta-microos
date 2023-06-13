@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(lockfile) \
 python39-lockfile \
 python3dist(lockfile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

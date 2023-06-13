@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-communication) \
 python39-azure-mgmt-communication \
 python3dist(azure-mgmt-communication)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.3.0 if python39-base < 3.8) \
 python(abi) \
 python39-azure-common \

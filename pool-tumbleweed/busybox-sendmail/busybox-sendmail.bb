@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sendmail \
 smtp_daemon"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

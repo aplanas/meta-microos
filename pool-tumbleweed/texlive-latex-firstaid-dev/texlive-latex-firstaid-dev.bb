@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "texdev(everysel-ltx.sty) \
 texdev(filehook-ltx.sty) \
 texlive-latex-firstaid-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

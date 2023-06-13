@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-logutils \
 python3.10dist(logutils) \
 python310-logutils \
 python3dist(logutils)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

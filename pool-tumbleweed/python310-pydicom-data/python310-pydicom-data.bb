@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pydicom-data \
 python3.10dist(pydicom-data) \
 python310-pydicom-data \
 python3dist(pydicom-data)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

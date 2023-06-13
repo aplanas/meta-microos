@@ -11,6 +11,7 @@ RPM_HASH = "46f1452842ff3a17caccad357e7d68043e6f30c58622bed553f658c88b1733af5d74
 
 RPROVIDES:${PN} += "libsigsegv-doc \
 libsigsegv-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

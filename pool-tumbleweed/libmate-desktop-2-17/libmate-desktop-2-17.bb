@@ -11,6 +11,7 @@ RPM_HASH = "ed01a2fc7a3f9e9e62046f598902a38d462b2b0371ba6b39bf8501e67611262bcbe1
 RPROVIDES:${PN} += "libmate-desktop-2-17 \
 libmate-desktop-2-17(aarch-64) \
 libmate-desktop-2.so.17()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

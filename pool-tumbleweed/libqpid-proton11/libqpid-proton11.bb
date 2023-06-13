@@ -12,6 +12,7 @@ RPM_HASH = "25ca591f7c4b0660312512e0d631f57bc45970f51ed914248ec2ffad498786b5c3d9
 RPROVIDES:${PN} += "libqpid-proton.so.11()(64bit) \
 libqpid-proton11 \
 libqpid-proton11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

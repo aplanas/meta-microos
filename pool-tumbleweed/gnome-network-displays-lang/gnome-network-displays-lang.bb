@@ -32,6 +32,7 @@ locale(gnome-network-displays:sv) \
 locale(gnome-network-displays:tr) \
 locale(gnome-network-displays:uk) \
 locale(gnome-network-displays:zh_CN)"
+
 RDEPENDS:${PN} += "gnome-network-displays"
 
 inherit rpm

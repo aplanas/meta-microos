@@ -9,6 +9,7 @@ RPM_HASH = "1cc6e5e41ecab7ed26a0ee005a722064378ad6d7225ea1df8ce4d533a470e31f333f
 
 RPROVIDES:${PN} += "rds-tools \
 rds-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

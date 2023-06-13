@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-language-luis \
 python3.10dist(azure-cognitiveservices-language-luis) \
 python310-azure-cognitiveservices-language-luis \
 python3dist(azure-cognitiveservices-language-luis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-language-nspkg \
 python310-azure-cognitiveservices-nspkg \

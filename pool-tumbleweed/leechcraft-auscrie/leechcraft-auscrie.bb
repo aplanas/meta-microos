@@ -12,6 +12,7 @@ RPM_HASH = "00ebdc615b2863d528212bc233f57850a39e8e7ade91e96fcf207a9b6446d9e57c09
 RPROVIDES:${PN} += "leechcraft-auscrie \
 leechcraft-auscrie(aarch-64) \
 libleechcraft_auscrie.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

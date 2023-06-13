@@ -12,6 +12,7 @@ RPM_HASH = "177d0b9ee40689f8933269f59180d48ccd0722c517e98c7ee1813ecda3476907a893
 RPROVIDES:${PN} += "libUTF.so.0.3()(64bit) \
 libUTF0_3 \
 libUTF0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

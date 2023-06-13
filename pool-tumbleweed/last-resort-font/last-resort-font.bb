@@ -15,6 +15,7 @@ RPM_HASH = "5db698de9453bd975a69cfd5d721d8c3743bfc0fe5c283204ff0b1ea11fcaaa911e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "last-resort-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

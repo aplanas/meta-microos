@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-writeongrid-doc:fr) \
 texlive-writeongrid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

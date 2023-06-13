@@ -18,6 +18,7 @@ application(org.guido-berhoerster.code.package-update-indicator.preferences.desk
 config(package-update-indicator) \
 package-update-indicator \
 package-update-indicator(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappindicator3.so.1()(64bit) \

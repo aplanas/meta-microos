@@ -10,6 +10,7 @@ RPM_HASH = "d378bd88b7457162a859d9982952f6d3e9e6ad19781f0cf0bad2f695ef1c11841512
 RPROVIDES:${PN} += "ghc-DAV-devel \
 ghc-DAV-devel(aarch-64) \
 ghc-devel(DAV-1.3.4-BEfrmFzzS9e2tvTvjzH1rH)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-DAV \
 ghc-compiler \

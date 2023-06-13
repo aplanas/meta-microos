@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "config(hsqldb) \
 hsqldb \
 mvn(org.hsqldb:hsqldb) \
 mvn(org.hsqldb:hsqldb:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java \
 java-headless \

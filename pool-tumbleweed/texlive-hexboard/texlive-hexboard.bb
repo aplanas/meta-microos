@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hexboard.sty) \
 texlive-hexboard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -26,6 +26,7 @@ python3.10dist(hatch-fancy-pypi-readme) \
 python310-hatch-fancy-pypi-readme \
 python310-hatch_fancy_pypi_readme \
 python3dist(hatch-fancy-pypi-readme)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

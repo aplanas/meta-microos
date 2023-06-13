@@ -10,6 +10,7 @@ RPM_HASH = "a22a6744a57e53e308a479dbcb4f1bda8ce6e53e32ba8595169226c831d095a8e14f
 
 RPROVIDES:${PN} += "smatch \
 smatch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 /usr/bin/python3 \

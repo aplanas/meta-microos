@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "PackageKit-branding \
 PackageKit-branding-upstream \
 config(PackageKit-branding-upstream)"
+
 RDEPENDS:${PN} += "PackageKit"
 
 inherit rpm

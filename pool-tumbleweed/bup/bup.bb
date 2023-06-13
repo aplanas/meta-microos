@@ -11,6 +11,7 @@ RPM_HASH = "21487b5ae25835b2740baa0d2cb8d0b347b6996545f38135bf81335a69ab9c9e70d1
 
 RPROVIDES:${PN} += "bup \
 bup(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 git-core \

@@ -9,6 +9,7 @@ RPM_HASH = "d2d8ec48460bf06701916c40a5e9847c8527fa292f8d613b8608943902e44718823c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-lens-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

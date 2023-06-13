@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-titlecase \
 python3.10dist(titlecase) \
 python310-titlecase \
 python3dist(titlecase)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

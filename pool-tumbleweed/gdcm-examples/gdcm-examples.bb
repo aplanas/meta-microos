@@ -9,6 +9,7 @@ RPM_HASH = "4c792bfcacea49d8bb36a8351f5531853a8ae463ea0ca5e21b8a56fda395273ae69f
 
 RPROVIDES:${PN} += "gdcm-examples \
 gdcm-examples(aarch-64)"
+
 RDEPENDS:${PN} += "libgdcm3_0"
 
 inherit rpm

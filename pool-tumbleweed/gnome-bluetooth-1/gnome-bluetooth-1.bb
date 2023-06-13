@@ -14,6 +14,7 @@ application(bluetooth-sendto.desktop) \
 gnome-bluetooth \
 gnome-bluetooth-1 \
 gnome-bluetooth-1(aarch-64)"
+
 RDEPENDS:${PN} += "bluez \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

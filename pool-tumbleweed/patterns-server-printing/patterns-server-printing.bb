@@ -17,6 +17,7 @@ pattern-visible() \
 patterns-openSUSE-print_server \
 patterns-server-printing \
 patterns-server-printing(aarch-64)"
+
 RDEPENDS:${PN} += "cups \
 pattern()"
 

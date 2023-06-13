@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt) \
 python311-azure-mgmt \
 python3dist(azure-mgmt)"
+
 RDEPENDS:${PN} += "python311-azure-mgmt-advisor \
 python311-azure-mgmt-agfood \
 python311-azure-mgmt-agrifood \

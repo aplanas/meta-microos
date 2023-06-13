@@ -18,6 +18,7 @@ RPM_HASH = "99f37e4c6f2eee831b5f03e6a859fd0066b5d32aaba7800aea1e8806653ec77cf9ef
 
 RPROVIDES:${PN} += "csvprintf \
 csvprintf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

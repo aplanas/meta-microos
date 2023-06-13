@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-latexcodec \
 python3.10dist(latexcodec) \
 python310-latexcodec \
 python3dist(latexcodec)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

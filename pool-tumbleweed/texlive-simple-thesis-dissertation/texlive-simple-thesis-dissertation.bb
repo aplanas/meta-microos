@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplethesisdissertation.cls) \
 texlive-simple-thesis-dissertation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

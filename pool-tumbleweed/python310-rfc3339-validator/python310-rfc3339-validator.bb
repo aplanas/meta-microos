@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-rfc3339-validator \
 python3.10dist(rfc3339-validator) \
 python310-rfc3339-validator \
 python3dist(rfc3339-validator)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

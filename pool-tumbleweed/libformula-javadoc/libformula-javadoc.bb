@@ -9,6 +9,7 @@ RPM_HASH = "d36e057dc356654397770d8b0cdd98b83e587fe67f49aa654415ae4f261f963e0eac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libformula-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

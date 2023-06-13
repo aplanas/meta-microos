@@ -13,6 +13,7 @@ RPM_HASH = "18a4b0d144c7f89dc5cdaeb03e312777efff3a310e9d3dab0b098e07f07228098375
 
 RPROVIDES:${PN} += "benzene \
 benzene(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

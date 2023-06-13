@@ -38,6 +38,7 @@ tex(a_uo326q.enc) \
 tex(a_voidup.enc) \
 tex(a_wkkjyg.enc) \
 texlive-stepgreek"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

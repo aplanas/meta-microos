@@ -11,6 +11,7 @@ RPM_HASH = "786f398f03d37745f7c714690f512b5eaacbfbeef1d12016845e1322331c091f20c7
 RPROVIDES:${PN} += "libproxy-kde \
 libproxy1-config-kde \
 libproxy1-config-kde(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore5 \

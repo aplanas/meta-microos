@@ -12,6 +12,7 @@ RPM_HASH = "3490cb8d513f01fb6bfeda26461ea1517212b44f889ace56f5dca033bd178d1e9fe0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unpack-install-jammer"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl-Compress-Raw-Lzma \

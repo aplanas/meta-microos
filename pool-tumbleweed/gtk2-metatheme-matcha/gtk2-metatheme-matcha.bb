@@ -11,6 +11,7 @@ RPM_HASH = "8f574b5c2f3aa7ffb7daa00a7f53873f5e5b877b9acea74a5aeddcdcb5d6b0a8d0b8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-matcha"
+
 RDEPENDS:${PN} += "gtk2 \
 gtk2-engine-murrine \
 metatheme-matcha-common"

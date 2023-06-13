@@ -10,6 +10,7 @@ RPM_HASH = "aaaa580b9e2b85ebd3217fd8050418cea403c0661558c01e2a992073affb7d27fe43
 
 RPROVIDES:${PN} += "akonadi-plugin-mime \
 akonadi-plugin-mime(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKPim5AkonadiCore.so.5()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(skyfield) \
 python39-skyfield \
 python3dist(skyfield)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-astropy \
 python39-beautifulsoup4 \

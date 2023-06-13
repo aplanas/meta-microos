@@ -27,6 +27,7 @@ mimehandler(x-scheme-handler/qute) \
 python3.10dist(qutebrowser) \
 python3dist(qutebrowser) \
 qutebrowser"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/node \

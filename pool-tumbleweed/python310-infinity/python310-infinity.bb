@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-infinity \
 python3.10dist(infinity) \
 python310-infinity \
 python3dist(infinity)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

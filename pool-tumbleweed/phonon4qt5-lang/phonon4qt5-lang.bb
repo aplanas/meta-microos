@@ -35,6 +35,7 @@ locale(phonon4qt5:uk) \
 locale(phonon4qt5:zh_CN) \
 phonon4qt5-lang \
 phonon4qt5-lang-all"
+
 RDEPENDS:${PN} += "phonon4qt5"
 
 inherit rpm

@@ -14,6 +14,7 @@ python3.10dist(async-timeout) \
 python310-async-timeout \
 python310-async_timeout \
 python3dist(async-timeout)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

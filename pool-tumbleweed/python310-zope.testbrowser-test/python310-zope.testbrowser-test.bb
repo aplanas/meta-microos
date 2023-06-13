@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zope.testbrowser-test \
 python310-zope.testbrowser-test"
+
 RDEPENDS:${PN} += "python310-WSGIProxy2 \
 python310-WebTest \
 python310-beautifulsoup4 \

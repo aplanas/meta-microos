@@ -12,6 +12,7 @@ RPM_HASH = "91931a0bfab0e0c7ce73aaebdfb379cf42f76685197ed910da1ea488d8d8f115e4e7
 RPROVIDES:${PN} += "config(sgrep) \
 sgrep \
 sgrep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

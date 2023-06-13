@@ -9,6 +9,7 @@ RPM_HASH = "8d65f5222b8b31c1ee51499c2e19ce3bf7d2e3b6f5e6b3e118e7875124e10ff516a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-theanodidot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

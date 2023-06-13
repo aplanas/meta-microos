@@ -93,6 +93,7 @@ locale(gnome-system-monitor:vi) \
 locale(gnome-system-monitor:zh_CN) \
 locale(gnome-system-monitor:zh_HK) \
 locale(gnome-system-monitor:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-system-monitor"
 
 inherit rpm

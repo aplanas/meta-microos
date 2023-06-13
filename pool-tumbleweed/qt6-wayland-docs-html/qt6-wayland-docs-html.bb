@@ -9,6 +9,7 @@ RPM_HASH = "52cd69200e10465ff99bd369c00de2028d927fcdf36f542873fb47c96bcda324f2a9
 
 RPROVIDES:${PN} += "qt6-wayland-docs-html \
 qt6-wayland-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

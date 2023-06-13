@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-man \
 python3.10dist(click-man) \
 python310-click-man \
 python3dist(click-man)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(libvlc) \
 pkgconfig(vlc-plugin) \
 vlc-devel \
 vlc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 vlc-jack \
 vlc-noX \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlCore) \
 pkgconfig(Qt6QmlCore) \
 qt6-qmlcore-devel \
 qt6-qmlcore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6QmlCore6 \

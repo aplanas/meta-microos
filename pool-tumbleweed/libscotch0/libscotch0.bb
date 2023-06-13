@@ -15,6 +15,7 @@ libscotch0(aarch-64) \
 libscotcherr.so.0()(64bit) \
 libscotcherrexit.so.0()(64bit) \
 libscotchmetis.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

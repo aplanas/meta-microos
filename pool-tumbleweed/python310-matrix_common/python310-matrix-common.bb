@@ -14,6 +14,7 @@ python3.10dist(matrix-common) \
 python310-matrix-common \
 python310-matrix_common \
 python3dist(matrix-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs"
 

@@ -9,6 +9,7 @@ RPM_HASH = "a53edaf3a7e4132cc799d6385c0af0171548e899b20df848eee5fb2886bb4b9b1a25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lite-xl-colors"
+
 RDEPENDS:${PN} += "lite-xl"
 
 inherit rpm

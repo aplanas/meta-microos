@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-portalocker \
 python3.10dist(portalocker) \
 python310-portalocker \
 python3dist(portalocker)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

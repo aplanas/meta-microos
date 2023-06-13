@@ -154,6 +154,7 @@ bundled(rust-crate:xml-rs) \
 bundled(rust-crate:yaml-rust) \
 metainfo() \
 metainfo(org.alacritty.Alacritty.appdata.xml)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libfontconfig.so.1()(64bit) \
 libfreetype.so.6()(64bit) \

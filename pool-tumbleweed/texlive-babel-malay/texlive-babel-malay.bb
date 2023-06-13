@@ -13,6 +13,7 @@ tex(malay.ldf) \
 tex(melayu.ldf) \
 tex(meyalu.ldf) \
 texlive-babel-malay"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

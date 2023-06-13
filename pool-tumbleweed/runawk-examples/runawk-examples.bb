@@ -9,6 +9,7 @@ RPM_HASH = "8f009474a9182ffd63dc031de17db66b051c300f8c705b7df6fcad5889415fbdeb68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "runawk-examples"
+
 RDEPENDS:${PN} += "runawk"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "1b9b7c7a145d5de428018b68377e09654da81fe639a8e5e8d3b3c328834304bdfcf4
 RPROVIDES:${PN} += "typelib(GUPnPDLNA) \
 typelib-1_0-GUPnPDLNA-2_0 \
 typelib-1_0-GUPnPDLNA-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgupnp-dlna-2.0.so.4()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

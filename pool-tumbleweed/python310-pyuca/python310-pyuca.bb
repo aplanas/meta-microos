@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyuca \
 python3.10dist(pyuca) \
 python310-pyuca \
 python3dist(pyuca)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "0fe33f3b8270d6d5067bc51efbf7431bf803a50ef851922f2cbbdc4eea4baa7fb3d7
 
 RPROVIDES:${PN} += "ptscotch-mvapich2-devel \
 ptscotch-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-fortran \
 libptscotch0-mvapich2 \
 mvapich2-devel \

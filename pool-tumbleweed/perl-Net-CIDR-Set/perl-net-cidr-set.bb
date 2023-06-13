@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "perl(Net::CIDR::Set) \
 perl(Net::CIDR::Set::IPv4) \
 perl(Net::CIDR::Set::IPv6) \
 perl-Net-CIDR-Set"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

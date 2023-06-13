@@ -9,6 +9,7 @@ RPM_HASH = "19f65947a98b0d2c9f99ae1327b569e3f7ab5f09ae1acd258760eeb1a830d22fc1b6
 
 RPROVIDES:${PN} += "erlang-sd_notify \
 erlang-sd_notify(aarch-64)"
+
 RDEPENDS:${PN} += "erlang"
 
 inherit rpm

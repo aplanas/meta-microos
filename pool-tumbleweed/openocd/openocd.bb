@@ -14,6 +14,7 @@ RPM_HASH = "99127c985051cc05aa4ad2b5520ad5c38a9cd3cb9c2fe4e2baf00edb7ff651d22b89
 
 RPROVIDES:${PN} += "openocd \
 openocd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "8eec57429e44e3028533962a26a40e1fe97b855581e10efcb4bb2fa4429feed9023e
 
 RPROVIDES:${PN} += "konkretcmpi-devel \
 konkretcmpi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cim-schema \
 cmake \
 libc.so.6(GLIBC_2.34)(64bit) \

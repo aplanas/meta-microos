@@ -9,6 +9,7 @@ RPM_HASH = "cbfaaf51b1982f63bf584c547b7fecd64e4f1aa20be6064669054901862bbc1fba78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-formular-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

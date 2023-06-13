@@ -14,6 +14,7 @@ application(chainsaw.desktop) \
 chainsaw \
 mvn(log4j:apache-chainsaw) \
 mvn(log4j:apache-chainsaw:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 apache-commons-logging \
 apache-commons-vfs2 \

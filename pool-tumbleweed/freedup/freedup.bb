@@ -16,6 +16,7 @@ RPM_HASH = "351d9aa7dc25465754983ef9f2d3c7308150e9472ec648157f743eec8e7a7f03848a
 
 RPROVIDES:${PN} += "freedup \
 freedup(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

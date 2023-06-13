@@ -10,6 +10,7 @@ RPM_HASH = "e4b2ef890a09f9a1ecd0de752c1161050a08bd0f3e0a4fe2bd672794b8a58069afef
 
 RPROVIDES:${PN} += "qt6-quick3d-private-devel \
 qt6-quick3d-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Quick3D) \
 qt6-core-private-devel \
 qt6-gui-private-devel \

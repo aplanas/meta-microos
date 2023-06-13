@@ -10,6 +10,7 @@ RPM_HASH = "6fbd0ebed9e4a4c2dd6cebabfc2d13f32592c4062f2e68ae665f786daf9cd4010c86
 RPROVIDES:${PN} += "ghc-devel(silently-1.2.5.3-HiTtkArMijI9DvRcUmgkYR) \
 ghc-silently-devel \
 ghc-silently-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

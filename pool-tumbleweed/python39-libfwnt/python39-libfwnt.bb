@@ -10,6 +10,7 @@ RPM_HASH = "e9df69040766a009b85b0222b79445e0fa7a848863d6dba12745026bff2d43a1f420
 
 RPROVIDES:${PN} += "python39-libfwnt \
 python39-libfwnt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

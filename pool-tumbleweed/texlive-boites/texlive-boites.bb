@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(boites.sty) \
 tex(boites_exemples.sty) \
 texlive-boites"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

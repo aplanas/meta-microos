@@ -14,6 +14,7 @@ python3.10dist(jupyterlab-widgets) \
 python310-jupyterlab-widgets \
 python310-jupyterlab_widgets \
 python3dist(jupyterlab-widgets)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-widgets \
 python(abi)"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(superlu) \
 pkgconfig(superlu) \
 superlu-devel \
 superlu-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsuperlu6"
 

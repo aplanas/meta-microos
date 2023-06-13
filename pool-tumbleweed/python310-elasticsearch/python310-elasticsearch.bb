@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-elasticsearch \
 python3.10dist(elasticsearch) \
 python310-elasticsearch \
 python3dist(elasticsearch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-elastic-transport"
 

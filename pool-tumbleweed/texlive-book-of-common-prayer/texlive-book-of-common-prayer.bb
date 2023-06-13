@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(book-of-common-prayer.sty) \
 texlive-book-of-common-prayer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

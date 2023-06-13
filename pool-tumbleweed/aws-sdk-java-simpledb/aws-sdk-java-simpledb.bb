@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-simpledb \
 mvn(com.amazonaws:aws-java-sdk-simpledb) \
 mvn(com.amazonaws:aws-java-sdk-simpledb:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.amazonaws:aws-java-sdk-core)"

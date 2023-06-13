@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-fish-completion \
 kubernetes1.27-client-fish-completion"
+
 RDEPENDS:${PN} += "kubernetes1.27-client"
 
 inherit rpm

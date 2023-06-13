@@ -32,6 +32,7 @@ mvn(bsf:bsf) \
 mvn(bsf:bsf:pom:) \
 mvn(org.apache.bsf:bsf) \
 mvn(org.apache.bsf:bsf:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

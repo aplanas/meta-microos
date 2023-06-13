@@ -16,6 +16,7 @@ tex(beamerouterthemesidebarwithminiframes.sty) \
 tex(beamerouterthemesplitwithminiframes.sty) \
 tex(beamerouterthemetwolines.sty) \
 texlive-beamerauxtheme"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

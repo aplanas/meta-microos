@@ -10,6 +10,7 @@ RPM_HASH = "e9d96afdf3514a0fd8919fec6fdcbe6261f8dea6c0e1b2f2095218b9df3d7e8c0f7d
 
 RPROVIDES:${PN} += "pcp-pmda-mailq \
 pcp-pmda-mailq(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

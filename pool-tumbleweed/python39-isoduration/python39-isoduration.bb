@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(isoduration) \
 python39-isoduration \
 python3dist(isoduration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-arrow"
 

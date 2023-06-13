@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "Coin4-devel \
 Coin4-devel(aarch-64) \
 cmake(coin) \
 pkgconfig(Coin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fontconfig-devel \
 freetype2-devel \

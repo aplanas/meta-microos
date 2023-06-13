@@ -10,6 +10,7 @@ RPM_HASH = "8ad8d28e30ef71b22cccc71ff9de368612ef2d10b53cead0ea924918ed8fb7430f97
 
 RPROVIDES:${PN} += "qt6-positioningquick-private-devel \
 qt6-positioningquick-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6PositioningQuick) \
 qt6-core-private-devel \
 qt6-qml-private-devel \

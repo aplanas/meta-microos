@@ -14,6 +14,7 @@ RPM_HASH = "831585a172b3b337dd42bc2407bf6ef49cca4cc4762f9d669c6264242ed1812012b7
 
 RPROVIDES:${PN} += "mccs \
 mccs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

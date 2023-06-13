@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(apalike.sty) \
 tex(apalike.tex) \
 texlive-bibtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

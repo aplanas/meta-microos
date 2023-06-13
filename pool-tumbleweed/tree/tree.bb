@@ -11,6 +11,7 @@ RPM_HASH = "967381b26570ef37b9f324a0b42ce7f9837983e35f137a1a47309066a45851c2a4b1
 
 RPROVIDES:${PN} += "tree \
 tree(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

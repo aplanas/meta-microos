@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libluksde.so.1()(64bit) \
 libluksde.so.1(V_20221103)(64bit) \
 libluksde1 \
 libluksde1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(speedtest-cli) \
 python3dist(speedtest-cli) \
 speedtest-cli"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-setuptools"

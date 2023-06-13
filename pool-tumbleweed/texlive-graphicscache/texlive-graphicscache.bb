@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphicscache.sty) \
 texlive-graphicscache"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

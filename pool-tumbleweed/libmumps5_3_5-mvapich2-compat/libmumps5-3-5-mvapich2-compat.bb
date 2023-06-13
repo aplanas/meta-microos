@@ -15,6 +15,7 @@ RPM_HASH = "e1bbc5738941f8dd0dfa755411dadb85f6072ea42c57a0eb40744ec4f8b58aace5bb
 
 RPROVIDES:${PN} += "libmumps5_3_5-mvapich2-compat \
 libmumps5_3_5-mvapich2-compat(aarch-64)"
+
 RDEPENDS:${PN} += "libmumps5_3_5"
 
 inherit rpm

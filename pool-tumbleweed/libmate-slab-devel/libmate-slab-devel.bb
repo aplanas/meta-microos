@@ -13,6 +13,7 @@ RPM_HASH = "af16d0d2ffb73860ca9f171b1f39d6fb72a9c5edb821a450fed53cad05c5ea8f5225
 RPROVIDES:${PN} += "libmate-slab-devel \
 libmate-slab-devel(aarch-64) \
 pkgconfig(mate-slab)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmate-slab0 \
 pkgconfig(gdk-3.0) \

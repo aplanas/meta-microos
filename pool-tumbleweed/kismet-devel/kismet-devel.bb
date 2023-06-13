@@ -14,6 +14,7 @@ RPM_HASH = "f2f8d79d9e2fb5bcc835e05b1d77774a846f3f7146dcaca6add13d1c18e50aecb5fd
 RPROVIDES:${PN} += "kismet-devel \
 kismet-devel(aarch-64) \
 pkgconfig(kismet)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 kismet"
 

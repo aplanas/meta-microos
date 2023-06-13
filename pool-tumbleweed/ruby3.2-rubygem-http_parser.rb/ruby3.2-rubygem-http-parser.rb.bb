@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:http_parser.rb) \
 rubygem(ruby:3.2.0:http_parser.rb:0) \
 rubygem(ruby:3.2.0:http_parser.rb:0.8) \
 rubygem(ruby:3.2.0:http_parser.rb:0.8.0)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

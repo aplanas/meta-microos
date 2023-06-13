@@ -11,6 +11,7 @@ RPM_HASH = "18bd7df3d5d898e135ffff737e5297d7eb1715bfb49760683b13158f037a51ac4f15
 
 RPROVIDES:${PN} += "pcp-pmda-infiniband \
 pcp-pmda-infiniband(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

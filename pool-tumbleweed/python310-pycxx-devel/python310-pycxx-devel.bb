@@ -17,6 +17,7 @@ python3-pycxx-devel \
 python310-CXX-devel \
 python310-cxx-devel \
 python310-pycxx-devel"
+
 RDEPENDS:${PN} += "python310-pycxx"
 
 inherit rpm

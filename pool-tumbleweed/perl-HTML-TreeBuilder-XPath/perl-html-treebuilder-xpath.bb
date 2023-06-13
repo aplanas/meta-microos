@@ -15,6 +15,7 @@ perl(HTML::TreeBuilder::XPath::Node) \
 perl(HTML::TreeBuilder::XPath::Root) \
 perl(HTML::TreeBuilder::XPath::TextNode) \
 perl-HTML-TreeBuilder-XPath"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTML::TreeBuilder) \
 perl(XML::XPathEngine)"

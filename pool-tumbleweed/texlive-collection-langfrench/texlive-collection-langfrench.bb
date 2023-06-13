@@ -9,6 +9,7 @@ RPM_HASH = "deec124f59de5014044782e368383402a5fc13d0dec8a17f22366aaa134a3ffa320b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langfrench"
+
 RDEPENDS:${PN} += "texlive-aeguill \
 texlive-annee-scolaire \
 texlive-apprendre-a-programmer-en-tex \

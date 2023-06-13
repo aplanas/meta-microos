@@ -13,6 +13,7 @@ RPM_HASH = "4028cfc151b81fb54428f71bddc65bab269ece229fcabfb33548365f57b44da7c02a
 RPROVIDES:${PN} += "libcaes-devel \
 libcaes-devel(aarch-64) \
 pkgconfig(libcaes)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcaes1"
 

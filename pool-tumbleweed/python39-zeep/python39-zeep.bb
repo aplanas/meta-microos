@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(zeep) \
 python39-zeep \
 python3dist(zeep)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-cached-property \

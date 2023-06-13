@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-python-subunit \
 python3.10dist(python-subunit) \
 python310-python-subunit \
 python3dist(python-subunit)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python310-extras \

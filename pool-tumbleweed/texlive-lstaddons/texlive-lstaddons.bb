@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(lstautogobble.sty) \
 tex(lstlinebgrd.sty) \
 texlive-lstaddons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

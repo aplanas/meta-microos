@@ -9,6 +9,7 @@ RPM_HASH = "37a0b9ec4abc9659872d2e23d9d963b2792107c13b3526beb458d19157725fd1e656
 
 RPROVIDES:${PN} += "cmus-plugin-sndio \
 cmus-plugin-sndio(aarch-64)"
+
 RDEPENDS:${PN} += "cmus \
 libsndio.so.7.1()(64bit)"
 

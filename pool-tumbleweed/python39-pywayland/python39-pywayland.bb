@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(pywayland) \
 python39-pywayland \
 python39-pywayland(aarch-64) \
 python3dist(pywayland)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

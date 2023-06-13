@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_fs.so.2()(64bit) \
 libbd_fs2 \
 libbd_fs2(aarch-64) \
 libblockdev-fs"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 device-mapper \
 ld-linux-aarch64.so.1()(64bit) \

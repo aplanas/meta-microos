@@ -11,6 +11,7 @@ RPM_HASH = "a322cfbf91f1f6e108df7022b0e2ac0ae947a12278d8bb8cba48cdb26eac71272141
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-info"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

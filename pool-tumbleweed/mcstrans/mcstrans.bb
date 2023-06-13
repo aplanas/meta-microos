@@ -21,6 +21,7 @@ RPM_HASH = "83334e4c0c30062718e5940c62b30fd31df4be296ca9c10828e685b450c74597b814
 RPROVIDES:${PN} += "mcstrans \
 mcstrans(aarch-64) \
 setransd"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 ld-linux-aarch64.so.1()(64bit) \

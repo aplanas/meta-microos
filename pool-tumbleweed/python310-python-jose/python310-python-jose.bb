@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-python-jose \
 python3.10dist(python-jose) \
 python310-python-jose \
 python3dist(python-jose)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ecdsa \
 python310-pyasn1 \

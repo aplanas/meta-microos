@@ -22,6 +22,7 @@ RPM_HASH = "66dc3047ca8f0317bd9ad0bfc3c2b34bec840a828775eeeee8fa2dbdddb45ad6989d
 RPROVIDES:${PN} += "libfallocate.so.0()(64bit) \
 libfallocate0 \
 libfallocate0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "ed25519-java \
 mvn(net.i2p.crypto:eddsa) \
 mvn(net.i2p.crypto:eddsa:pom:) \
 osgi(net.i2p.crypto.eddsa)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

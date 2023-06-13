@@ -16,6 +16,7 @@ pkgconfig(rdkafka) \
 pkgconfig(rdkafka++) \
 pkgconfig(rdkafka++-static) \
 pkgconfig(rdkafka-static)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librdkafka1 \
 pkgconfig(libcrypto) \

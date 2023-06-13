@@ -9,6 +9,7 @@ RPM_HASH = "5c0dde0ea0420654e27c1fedbf3f4d6d29d31f606e8c0820998f8a5a49f1a2428cf7
 
 RPROVIDES:${PN} += "papi-devel-static \
 papi-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "linux-kernel-headers \
 papi-devel"
 

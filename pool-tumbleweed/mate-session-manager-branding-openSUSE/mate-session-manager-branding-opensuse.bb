@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(mate-session-manager-branding-openSUSE) \
 mate-session-manager-branding \
 mate-session-manager-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 mate-icon-theme \
 mate-session-manager \

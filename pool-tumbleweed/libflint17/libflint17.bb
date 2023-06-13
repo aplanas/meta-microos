@@ -13,6 +13,7 @@ RPM_HASH = "2b99026e3f56a667d5b16afda3e6adb8fda88f5777b1eff50e4a9500bc920a2a56a7
 RPROVIDES:${PN} += "libflint.so.17()(64bit) \
 libflint17 \
 libflint17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

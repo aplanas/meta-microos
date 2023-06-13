@@ -9,6 +9,7 @@ RPM_HASH = "1a5d8a07caab72b3e9d04016e020399713b9f4535d4af9ef1a4830c716b6609fda18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-oracle"
+
 RDEPENDS:${PN} += "tuned"
 
 inherit rpm

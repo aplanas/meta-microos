@@ -538,6 +538,7 @@ ocamlx(X86_dsl) \
 ocamlx(X86_gas) \
 ocamlx(X86_masm) \
 ocamlx(X86_proc)"
+
 RDEPENDS:${PN} += "ocaml(Annot) \
 ocaml(Asttypes) \
 ocaml(Backend_intf) \

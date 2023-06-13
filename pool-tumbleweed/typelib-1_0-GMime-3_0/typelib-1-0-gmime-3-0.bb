@@ -11,6 +11,7 @@ RPM_HASH = "b3f5d20470958a3baf4bb2afed9e8a1527706ea1f2be8703068edb2eb9fa2f0b7383
 RPROVIDES:${PN} += "typelib(GMime) \
 typelib-1_0-GMime-3_0 \
 typelib-1_0-GMime-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgmime-3.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

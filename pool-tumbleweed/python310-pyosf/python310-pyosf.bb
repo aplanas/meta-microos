@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pyosf \
 python3.10dist(pyosf) \
 python310-pyosf \
 python3dist(pyosf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

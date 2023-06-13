@@ -9,6 +9,7 @@ RPM_HASH = "f49293dcbc174d444f8786706a64d54e5759f1011f4b284444d901cd71c182088912
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-theme-breeze"
+
 RDEPENDS:${PN} += "/bin/bash \
 breeze5-icons \
 yast2-branding"

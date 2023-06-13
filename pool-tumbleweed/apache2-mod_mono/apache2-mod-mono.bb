@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "apache2-mod_mono \
 apache2-mod_mono(aarch-64) \
 config(apache2-mod_mono) \
 mod_mono"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

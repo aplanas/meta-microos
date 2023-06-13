@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-py \
 python3.10dist(py) \
 python310-py \
 python3dist(py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-apipkg \
 python310-iniconfig"

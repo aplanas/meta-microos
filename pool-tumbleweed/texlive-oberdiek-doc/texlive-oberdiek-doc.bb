@@ -9,6 +9,7 @@ RPM_HASH = "b6af549e9aa7588797218c48feb13c329af8a1e42e3b46b00b211273bb8348fb2771
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oberdiek-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

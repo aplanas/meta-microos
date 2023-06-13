@@ -10,6 +10,7 @@ RPM_HASH = "5cd2d3782eab0a33f1fe54bc1f667a2b1f4e88fd6683faf199fc9c40998f48992a6b
 
 RPROVIDES:${PN} += "prctl \
 prctl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

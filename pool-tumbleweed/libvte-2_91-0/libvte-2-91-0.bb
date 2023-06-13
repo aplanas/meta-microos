@@ -15,6 +15,7 @@ libvte-2.91.so.0()(64bit) \
 libvte-2_91-0 \
 libvte-2_91-0(aarch-64) \
 vte"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libatomic-ops-devel \
 libatomic_ops-devel \
 libatomic_ops-devel(aarch-64) \
 pkgconfig(atomic_ops)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "9f28cd8eeca3fe3ece60e240ade9547d0158523bf1e05f59537ad1db0d12f3a98cd4
 RPROVIDES:${PN} += "ghc-pretty-show-prof \
 ghc-pretty-show-prof(aarch-64) \
 ghc-prof(pretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd)"
+
 RDEPENDS:${PN} += "ghc-pretty-show-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

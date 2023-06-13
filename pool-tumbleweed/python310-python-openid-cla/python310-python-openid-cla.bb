@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-openid-cla \
 python3.10dist(python-openid-cla) \
 python310-python-openid-cla \
 python3dist(python-openid-cla)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

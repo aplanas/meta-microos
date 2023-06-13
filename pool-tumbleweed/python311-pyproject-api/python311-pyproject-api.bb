@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyproject-api) \
 python311-pyproject-api \
 python3dist(pyproject-api)"
+
 RDEPENDS:${PN} += "(python311-importlib-metadata >= 6 if python3-base < 3.8) \
 (python311-tomli >= 2.0.1 if python3-base < 3.11) \
 python(abi) \

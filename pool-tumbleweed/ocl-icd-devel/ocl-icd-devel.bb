@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ocl-icd-devel \
 ocl-icd-devel(aarch-64) \
 pkgconfig(OpenCL) \
 pkgconfig(ocl-icd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOpenCL1 \
 opencl-headers \

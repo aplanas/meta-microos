@@ -21,6 +21,7 @@ perl(CLI::Osprey::Descriptive::Usage) \
 perl(CLI::Osprey::InlineSubcommand) \
 perl(CLI::Osprey::Role) \
 perl-CLI-Osprey"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long::Descriptive) \
 perl(Module::Runtime) \

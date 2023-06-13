@@ -14,6 +14,7 @@ RPM_HASH = "b2a777715fb7ea394fcd249441f73e67ca750a8e4c35787439812c0454d82fb1503d
 
 RPROVIDES:${PN} += "erlang-reltool \
 erlang-reltool(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 erlang-wx"
 

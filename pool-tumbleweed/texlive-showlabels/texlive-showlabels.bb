@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(showlabels.sty) \
 texlive-showlabels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

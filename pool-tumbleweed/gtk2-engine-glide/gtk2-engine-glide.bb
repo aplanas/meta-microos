@@ -11,6 +11,7 @@ RPM_HASH = "d4fed3087883c1583d141a631a06b51260255073215c8dff116ff04db552b8193828
 RPROVIDES:${PN} += "gtk2-engine-glide \
 gtk2-engine-glide(aarch-64) \
 libglide.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

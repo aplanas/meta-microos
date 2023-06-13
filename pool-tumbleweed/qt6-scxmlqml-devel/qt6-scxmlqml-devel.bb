@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6ScxmlQml) \
 pkgconfig(Qt6ScxmlQml) \
 qt6-scxmlqml-devel \
 qt6-scxmlqml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Scxml) \

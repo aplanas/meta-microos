@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Apache::LogFormat::Compiler) \
 perl-Apache-LogFormat-Compiler"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(POSIX::strftime::Compiler)"
 

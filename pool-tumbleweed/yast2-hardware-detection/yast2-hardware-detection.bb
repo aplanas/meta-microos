@@ -10,6 +10,7 @@ RPM_HASH = "b6fc6bf47ae1f7bc78692b9bd79e337f91f256de2167f323ebb9624fb3d198bbd7a2
 RPROVIDES:${PN} += "libpy2ag_hwprobe.so.2()(64bit) \
 yast2-hardware-detection \
 yast2-hardware-detection(aarch-64)"
+
 RDEPENDS:${PN} += "hwinfo \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

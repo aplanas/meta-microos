@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-furl \
 python3.10dist(furl) \
 python310-furl \
 python3dist(furl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-orderedmultidict \
 python310-six"

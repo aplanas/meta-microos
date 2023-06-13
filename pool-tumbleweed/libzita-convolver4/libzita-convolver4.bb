@@ -21,6 +21,7 @@ RPM_HASH = "81c3857a3d332e98485c99e63da101291bb80ea919224e3c02205dade94245e21bfd
 RPROVIDES:${PN} += "libzita-convolver.so.4()(64bit) \
 libzita-convolver4 \
 libzita-convolver4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

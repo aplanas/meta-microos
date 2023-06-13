@@ -9,6 +9,7 @@ RPM_HASH = "b79917a8fd2ecd791feb9d3683a0f0aef85f6eb67a05491dff0f718e656069faaa83
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamathalign-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

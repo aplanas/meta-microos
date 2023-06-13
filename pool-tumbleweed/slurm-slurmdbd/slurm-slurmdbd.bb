@@ -10,6 +10,7 @@ RPM_HASH = "9d1fe7aaff9843b48cc8a64309696f86dc5e7cbd40dc811d0bcdcbb10de0b8f59f9a
 RPROVIDES:${PN} += "config(slurm-slurmdbd) \
 slurm-slurmdbd \
 slurm-slurmdbd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "49e3786df837da42c369c620a6f992eea1fc000ae6f206d8afe86e65ed220981833a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realtranspose-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

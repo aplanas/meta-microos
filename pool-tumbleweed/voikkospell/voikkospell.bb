@@ -13,6 +13,7 @@ RPM_HASH = "6785872f05fa6bf041b36f7cae3091a3dc1238492d26e394c6dabaf1551aaef288da
 
 RPROVIDES:${PN} += "voikkospell \
 voikkospell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

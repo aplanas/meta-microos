@@ -29,6 +29,7 @@ RPM_HASH = "5ef27f928549733b95edbbef4738bc54732478fc9fd81b28336f846de097dc99b8a9
 RPROVIDES:${PN} += "python3-libfsapfs \
 python310-libfsapfs \
 python310-libfsapfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

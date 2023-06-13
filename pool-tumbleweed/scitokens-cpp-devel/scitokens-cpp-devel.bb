@@ -13,6 +13,7 @@ RPM_HASH = "880f177ccfd29af95ccc8e6eb0131c168f227afccdadb43a42144f3d31275f750d79
 
 RPROVIDES:${PN} += "scitokens-cpp-devel \
 scitokens-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libSciTokens0"
 
 inherit rpm

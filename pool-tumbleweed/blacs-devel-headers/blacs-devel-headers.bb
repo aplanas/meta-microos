@@ -9,6 +9,7 @@ RPM_HASH = "a30fd53329538836544647b2dab4a1cceb5d87444c070ed2baec9ad6e2012992c0e7
 
 RPROVIDES:${PN} += "blacs-devel-headers \
 blacs-devel-headers(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

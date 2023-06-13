@@ -13,6 +13,7 @@ RPM_HASH = "8237043fedfc1abb0e54de0a71827c2d6e05fef0d0babc9b0fb828889b11a70652eb
 RPROVIDES:${PN} += "libfsntfs-devel \
 libfsntfs-devel(aarch-64) \
 pkgconfig(libfsntfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsntfs1"

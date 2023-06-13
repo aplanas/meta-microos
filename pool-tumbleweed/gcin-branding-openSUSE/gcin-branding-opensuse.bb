@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcin-branding \
 gcin-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcin"
 

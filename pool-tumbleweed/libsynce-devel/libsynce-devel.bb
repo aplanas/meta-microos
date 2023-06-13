@@ -10,6 +10,7 @@ RPM_HASH = "edfbfcea34eb4112cb162a4f477da539dc91c47dd8d3352ac31fac03a71bb93ea062
 RPROVIDES:${PN} += "libsynce-devel \
 libsynce-devel(aarch-64) \
 pkgconfig(libsynce)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1-glib-devel \
 libsynce"

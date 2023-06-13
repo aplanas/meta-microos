@@ -28,6 +28,7 @@ RPM_HASH = "659debf52aeaaf7666c0db5fec42a858301490fbd5a094ca79c5f57d9d05e4a2440f
 RPROVIDES:${PN} += "ghc-filepattern \
 ghc-filepattern(aarch-64) \
 libHSfilepattern-0.1.3-CFBsL0RN2YG3tR2tZTKdgo-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

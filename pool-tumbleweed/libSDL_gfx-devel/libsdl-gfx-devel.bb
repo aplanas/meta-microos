@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "SDL_gfx-devel \
 libSDL_gfx-devel \
 libSDL_gfx-devel(aarch-64) \
 pkgconfig(SDL_gfx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL_gfx15 \
 pkgconfig(sdl)"

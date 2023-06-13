@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ccm \
 python3.10dist(ccsm) \
 python3dist(ccsm)"
+
 RDEPENDS:${PN} += "compiz \
 compizconfig-settings-manager-common \
 python(abi) \

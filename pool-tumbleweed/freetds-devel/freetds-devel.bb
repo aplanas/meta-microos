@@ -10,6 +10,7 @@ RPM_HASH = "edb901291db131e0a28f5654f938c8d3f2c54a944ea26bd97a96c5a7e6d7d374a4f8
 
 RPROVIDES:${PN} += "freetds-devel \
 freetds-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libct4 \
 libsybdb5 \
 libtdsodbc0"

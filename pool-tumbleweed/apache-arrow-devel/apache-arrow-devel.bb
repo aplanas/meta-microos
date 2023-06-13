@@ -29,6 +29,7 @@ pkgconfig(arrow-csv) \
 pkgconfig(arrow-dataset) \
 pkgconfig(arrow-filesystem) \
 pkgconfig(arrow-json)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libarrow1200 \
 libarrow_acero1200 \

@@ -15,6 +15,7 @@ RPM_HASH = "9484c30bc6025ca1aeac76f7808fdc77adc46cfba2891863961c5e62c471c6b9fdce
 RPROVIDES:${PN} += "typelib(GVncPulse) \
 typelib-1_0-GVncPulse-1_0 \
 typelib-1_0-GVncPulse-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgvncpulse-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

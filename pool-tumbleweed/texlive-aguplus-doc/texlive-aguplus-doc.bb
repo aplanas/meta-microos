@@ -9,6 +9,7 @@ RPM_HASH = "eb0f2f025d63545cb3edb604f4b1103b6c4fd8998c8d9c3722c87e77b87c9aa47173
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aguplus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

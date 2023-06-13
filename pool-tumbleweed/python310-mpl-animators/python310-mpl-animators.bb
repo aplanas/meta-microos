@@ -14,6 +14,7 @@ python3.10dist(mpl-animators) \
 python310-mpl-animators \
 python310-mpl_animators \
 python3dist(mpl-animators)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-communication-rooms) \
 python39-azure-communication-rooms \
 python3dist(azure-communication-rooms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-communication-nspkg \
 python39-azure-core \

@@ -35,6 +35,7 @@ suitesparse-common-devel \
 suitesparse-devel \
 suitesparse-devel(aarch-64) \
 umfpack-devel"
+
 RDEPENDS:${PN} += "gcc-c++ \
 libamd2 \
 libbtf1 \

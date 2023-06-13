@@ -35,6 +35,7 @@ libzypp(repovarexpand) \
 libzypp.so.1722()(64bit) \
 libzypp.so.1722(ZYPP_plain)(64bit) \
 yast2-packagemanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

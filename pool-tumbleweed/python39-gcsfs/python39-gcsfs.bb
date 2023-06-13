@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(gcsfs) \
 python39-gcsfs \
 python3dist(gcsfs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-decorator \

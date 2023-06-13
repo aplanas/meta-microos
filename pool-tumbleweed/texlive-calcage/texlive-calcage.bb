@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(calcage.sty) \
 texlive-calcage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -93,6 +93,7 @@ locale(swell-foop:zh_HK) \
 locale(swell-foop:zh_TW) \
 swell-foop-lang \
 swell-foop-lang-all"
+
 RDEPENDS:${PN} += "swell-foop"
 
 inherit rpm

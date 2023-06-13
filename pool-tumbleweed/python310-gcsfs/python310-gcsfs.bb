@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-gcsfs \
 python3.10dist(gcsfs) \
 python310-gcsfs \
 python3dist(gcsfs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-decorator \

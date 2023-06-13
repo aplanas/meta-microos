@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(expdlist.sty) \
 texlive-expdlist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lapdf.sty) \
 texlive-lapdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ RPM_HASH = "ef40e5b3bed117dc167cb2f761e35a2fb751180107e8717c3f8b519c550649513fac
 
 RPROVIDES:${PN} += "scim-sunpinyin \
 scim-sunpinyin(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

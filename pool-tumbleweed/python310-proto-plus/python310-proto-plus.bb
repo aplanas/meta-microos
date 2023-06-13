@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-proto-plus \
 python3.10dist(proto-plus) \
 python310-proto-plus \
 python3dist(proto-plus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-protobuf"
 

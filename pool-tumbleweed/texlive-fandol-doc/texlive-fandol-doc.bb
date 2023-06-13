@@ -9,6 +9,7 @@ RPM_HASH = "4b37191a15401dfbd3f1c3ac31644de52b54e7b958f3d00ac1f91d194a55072a6ab5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fandol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -39,6 +39,7 @@ locale(psmisc:zh_CN) \
 locale(psmisc:zh_TW) \
 psmisc-lang \
 psmisc-lang-all"
+
 RDEPENDS:${PN} += "psmisc"
 
 inherit rpm

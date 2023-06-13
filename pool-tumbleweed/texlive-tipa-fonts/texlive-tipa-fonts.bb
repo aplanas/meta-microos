@@ -167,6 +167,7 @@ font(tex\040xipxsi10) \
 font(tex\040xipxsl10) \
 font(tex\040xipxss10) \
 texlive-tipa-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

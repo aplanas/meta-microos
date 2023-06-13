@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_HN) \
 myspell-dictionary \
 myspell-es_HN \
 myspell-spanish-honduran"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

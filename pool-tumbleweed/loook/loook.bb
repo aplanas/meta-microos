@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(loook.desktop) \
 loook"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-base \
 python3-tk"

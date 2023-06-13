@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pandocfilters \
 python3.10dist(pandocfilters) \
 python310-pandocfilters \
 python3dist(pandocfilters)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

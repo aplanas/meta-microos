@@ -10,6 +10,7 @@ RPM_HASH = "2097b7516d1898842f8e3732ded1283f3023028ad9ad6fbfcd6131565370764306df
 RPROVIDES:${PN} += "ghc-devel(yesod-core-1.6.24.2-DExtrbWuaUvstmq3VZuwG) \
 ghc-yesod-core-devel \
 ghc-yesod-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

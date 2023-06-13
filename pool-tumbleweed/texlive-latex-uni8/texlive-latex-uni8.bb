@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uni8.sty) \
 texlive-latex-uni8"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

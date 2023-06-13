@@ -10,6 +10,7 @@ RPM_HASH = "1c12f1347d2026a3fb1581f11f304eb67e4cbcc6188b22d7e440b75e11c0ac0eed0b
 RPROVIDES:${PN} += "monitoring-plugins-ircd \
 monitoring-plugins-ircd(aarch-64) \
 nagios-plugins-ircd"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl \

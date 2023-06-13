@@ -15,6 +15,7 @@ libclang_rt.scudo-aarch64.so()(64bit) \
 libclang_rt.scudo_minimal-aarch64.so()(64bit) \
 libclang_rt.ubsan_minimal-aarch64.so()(64bit) \
 libclang_rt.ubsan_standalone-aarch64.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

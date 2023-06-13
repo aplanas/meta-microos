@@ -13,6 +13,7 @@ RPM_HASH = "2c58a3d5ff4656e668c30ef927590abf42cc50d6f384db3f87a6ac7cfb7387818cc5
 RPROVIDES:${PN} += "libOrthancWSI.so.1.1()(64bit) \
 orthanc-wsi \
 orthanc-wsi(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

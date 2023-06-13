@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pymetar \
 python3.10dist(pymetar) \
 python310-pymetar \
 python3dist(pymetar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(textmerg.sty) \
 texlive-textmerg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

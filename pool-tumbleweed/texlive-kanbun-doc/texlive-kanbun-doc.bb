@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ja) \
 locale(texlive-kanbun-doc:zh \
 texlive-kanbun-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

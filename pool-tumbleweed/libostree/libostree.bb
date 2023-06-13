@@ -15,6 +15,7 @@ RPM_HASH = "48c6b8007ce1de517e79afecb76c201de37580750278c8da87c8490a37b5f7b0be45
 RPROVIDES:${PN} += "libostree \
 libostree(aarch-64) \
 ostree"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

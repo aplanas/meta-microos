@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-doc-utils-devel \
 pkgconfig(gnome-doc-utils)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 docbook_4 \

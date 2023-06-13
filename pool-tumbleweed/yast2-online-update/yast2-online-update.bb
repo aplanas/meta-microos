@@ -20,6 +20,7 @@ y2t_online_update \
 yast2-config-online-update \
 yast2-online-update \
 yast2-trans-online-update"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-packager \
 yast2-pkg-bindings \

@@ -14,6 +14,7 @@ RPM_HASH = "1578f975214c49d5370c5cf0387f31b2c8da0bcb938003ac69a51eb4306da1291ec8
 RPROVIDES:${PN} += "libmnl-devel \
 libmnl-devel(aarch-64) \
 pkgconfig(libmnl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmnl0"
 

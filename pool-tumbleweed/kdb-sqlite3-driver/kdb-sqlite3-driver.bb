@@ -10,6 +10,7 @@ RPM_HASH = "0602406c44560cf71c660b7e809137b6fee312c01dddd8540420236b56cc34e79ed9
 RPROVIDES:${PN} += "calligra-kexi-sqlite3-driver \
 kdb-sqlite3-driver \
 kdb-sqlite3-driver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKDb3.so.4()(64bit) \

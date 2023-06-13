@@ -11,6 +11,7 @@ RPM_HASH = "d9b87d2cc1dd88b3f69dae3fac4d50b8172cd4ddefed5a273f0d9741fc6d3273214a
 RPROVIDES:${PN} += "libIccXML-devel \
 libIccXML-devel(aarch-64) \
 pkgconfig(iccxml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libIccXML2"
 

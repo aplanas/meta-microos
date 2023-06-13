@@ -19,6 +19,7 @@ RPM_HASH = "a824ecd152fe85ee79b0c67395cf0d02380f61ea97ac715a792cde267b645432989a
 
 RPROVIDES:${PN} += "container-diff \
 container-diff(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

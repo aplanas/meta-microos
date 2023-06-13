@@ -14,6 +14,7 @@ caja-extension-sendto-devel(aarch-64) \
 caja-sendto-devel \
 mate-file-manager-sendto-devel \
 pkgconfig(caja-sendto)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 caja-extension-sendto \
 caja-extension-sendto-pidgin \

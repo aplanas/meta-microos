@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-scales \
 python3.10dist(scales) \
 python310-scales \
 python3dist(scales)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

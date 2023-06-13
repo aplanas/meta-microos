@@ -10,6 +10,7 @@ RPM_HASH = "b0e460a8566ee10ba23eaba608fff4c5519c81f3cfdd70300594babb827aa506fc36
 
 RPROVIDES:${PN} += "pcapinfo \
 pcapinfo(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Net-Pcap"
 

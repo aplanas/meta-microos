@@ -11,6 +11,7 @@ RPM_HASH = "4ae0122f88fbaf44d7f872a81b9b520474fc54fcf562b29018562c0ed6eae6deda38
 RPROVIDES:${PN} += "libvirt-sandbox-devel \
 libvirt-sandbox-devel(aarch-64) \
 pkgconfig(libvirt-sandbox-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvirt-sandbox-1_0-5"
 

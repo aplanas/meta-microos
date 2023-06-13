@@ -10,6 +10,7 @@ RPM_HASH = "c1ca311ebf13ed5be4eb7c724b031eb3cd870337ff8ee45c478a5f456377c1b60428
 RPROVIDES:${PN} += "leechcraft-dbusmanager \
 leechcraft-dbusmanager(aarch-64) \
 libleechcraft_dbusmanager.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

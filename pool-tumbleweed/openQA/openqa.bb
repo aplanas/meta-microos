@@ -148,6 +148,7 @@ perl(OpenQA::WebSockets::Controller::Worker) \
 perl(OpenQA::WebSockets::Model::Status) \
 perl(OpenQA::WebSockets::Plugin::Helpers) \
 user(geekotest)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

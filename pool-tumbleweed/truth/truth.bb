@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "mvn(com.google.truth:truth) \
 mvn(com.google.truth:truth-parent:pom:) \
 mvn(com.google.truth:truth:pom:) \
 truth"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.auto.value:auto-value-annotations) \

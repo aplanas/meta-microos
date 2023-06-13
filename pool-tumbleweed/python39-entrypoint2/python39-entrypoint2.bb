@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(entrypoint2) \
 python39-entrypoint2 \
 python3dist(entrypoint2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-EasyProcess \
 python39-decorator \

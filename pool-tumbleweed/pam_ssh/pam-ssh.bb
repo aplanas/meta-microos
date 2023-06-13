@@ -12,6 +12,7 @@ RPM_HASH = "ecfcf5c1103b1da9e95f76e58bb285b8be6dcd30aa17457d90bc3e7b582157c77c3f
 
 RPROVIDES:${PN} += "pam_ssh \
 pam_ssh(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

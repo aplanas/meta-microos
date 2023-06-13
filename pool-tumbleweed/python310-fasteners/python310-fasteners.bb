@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-fasteners \
 python3.10dist(fasteners) \
 python310-fasteners \
 python3dist(fasteners)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-more-itertools \
 python310-six"

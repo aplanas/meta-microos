@@ -18,6 +18,7 @@ python310-mysql \
 python310-mysqlclient \
 python310-mysqlclient(aarch-64) \
 python3dist(mysqlclient)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

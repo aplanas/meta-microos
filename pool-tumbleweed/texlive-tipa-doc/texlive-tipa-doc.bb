@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tipa-doc:en) \
 texlive-tipa-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

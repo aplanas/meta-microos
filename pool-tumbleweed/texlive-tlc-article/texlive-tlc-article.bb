@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tlc-article.cls) \
 texlive-tlc-article"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(amsaddr.sty) \
 texlive-amsaddr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

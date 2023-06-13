@@ -9,6 +9,7 @@ RPM_HASH = "2f6bb2602f28259a9c288201816173948777965fcb0fd9e3f9548bff349690ef0414
 
 RPROVIDES:${PN} += "dapl-debug-utils \
 dapl-debug-utils(aarch-64)"
+
 RDEPENDS:${PN} += "dapl-debug \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ mvn(org.codehaus.plexus:plexus-cipher:pom:) \
 mvn(org.sonatype.plexus:plexus-cipher) \
 mvn(org.sonatype.plexus:plexus-cipher:pom:) \
 plexus-cipher"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.inject:javax.inject)"

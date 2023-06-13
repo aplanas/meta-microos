@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(prettytable) \
 python311-PrettyTable \
 python311-prettytable \
 python3dist(prettytable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-wcwidth"
 

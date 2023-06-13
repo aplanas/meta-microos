@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-nbclient \
 python3.10dist(nbclient) \
 python310-nbclient \
 python3dist(nbclient)"
+
 RDEPENDS:${PN} += "((python310-jupyter-core >= 4.12 with python310-jupyter-core < 5) or python310-jupyter-core >= 5.1) \
 /bin/sh \
 /usr/bin/python3.10 \

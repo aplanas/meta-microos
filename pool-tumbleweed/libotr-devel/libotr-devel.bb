@@ -10,6 +10,7 @@ RPM_HASH = "fb1aba15580cb403d822bf487aac8461a80f3d3d5083c08eddac197e2e9fa104b494
 RPROVIDES:${PN} += "libotr-devel \
 libotr-devel(aarch-64) \
 pkgconfig(libotr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgcrypt-devel \
 libotr5"

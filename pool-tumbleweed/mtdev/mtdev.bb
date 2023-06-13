@@ -9,6 +9,7 @@ RPM_HASH = "68b09c4277b4dceaa205963813f145304d4d0ad0dcb172f36772713b4581127b4ef5
 
 RPROVIDES:${PN} += "mtdev \
 mtdev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

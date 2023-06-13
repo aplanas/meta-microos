@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-Flask-Bootstrap \
 python3.10dist(flask-bootstrap) \
 python310-Flask-Bootstrap \
 python3dist(flask-bootstrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-dominate \

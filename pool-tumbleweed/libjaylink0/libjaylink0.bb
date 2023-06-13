@@ -10,6 +10,7 @@ RPM_HASH = "20141b25f47641f0a3eb991f57e8bc4e4be177f3d8b51cb610226012f75f2c632148
 RPROVIDES:${PN} += "libjaylink.so.0()(64bit) \
 libjaylink0 \
 libjaylink0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

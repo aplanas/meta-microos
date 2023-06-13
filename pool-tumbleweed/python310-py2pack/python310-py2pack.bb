@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-py2pack \
 python3.10dist(py2pack) \
 python310-py2pack \
 python3dist(py2pack)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

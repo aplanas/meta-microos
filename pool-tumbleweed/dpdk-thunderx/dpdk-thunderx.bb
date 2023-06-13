@@ -11,6 +11,7 @@ RPM_HASH = "2be128f2790009ccbe7a155bb948c10dae889847a53c1a4ab803352b18b0100dc7d6
 RPROVIDES:${PN} += "dpdk-any \
 dpdk-thunderx \
 dpdk-thunderx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

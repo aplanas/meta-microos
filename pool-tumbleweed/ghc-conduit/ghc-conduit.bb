@@ -20,6 +20,7 @@ RPM_HASH = "4b426bd3deee585f1b29bff69ef5823e3b33fdee782a471d5ce516a9291bec707d0c
 RPROVIDES:${PN} += "ghc-conduit \
 ghc-conduit(aarch-64) \
 libHSconduit-1.3.4.3-dAZVHPSYjL2zQ4RzAuWi2-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

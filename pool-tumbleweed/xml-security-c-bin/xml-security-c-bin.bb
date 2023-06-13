@@ -14,6 +14,7 @@ RPM_HASH = "5cffe161ce4ba229b7fac41dd9bf63405e9037bd38e18fda501c26b04515c960e7cb
 
 RPROVIDES:${PN} += "xml-security-c-bin \
 xml-security-c-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

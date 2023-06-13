@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Bootloader.metainfo.xml) \
 yast2-bootloader \
 yast2-bootloader(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sed \
 /bin/sh \

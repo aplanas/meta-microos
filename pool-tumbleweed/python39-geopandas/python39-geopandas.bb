@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(geopandas) \
 python39-geopandas \
 python3dist(geopandas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Fiona \
 python39-pandas \

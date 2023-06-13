@@ -11,6 +11,7 @@ RPM_HASH = "44fb0a46335aa628c4bef8bc48635526b4f30acd3f4307d931a82ac8e0d29477f4d5
 RPROVIDES:${PN} += "leechcraft-xproxy \
 leechcraft-xproxy(aarch-64) \
 libleechcraft_xproxy.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

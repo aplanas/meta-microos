@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(photobook.cls) \
 texlive-photobook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

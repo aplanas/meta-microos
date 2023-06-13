@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "benji \
 config(benji) \
 python3.10dist(benji) \
 python3dist(benji)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Cerberus \

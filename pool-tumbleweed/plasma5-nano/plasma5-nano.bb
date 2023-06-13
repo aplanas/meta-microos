@@ -13,6 +13,7 @@ metainfo(org.kde.plasma.nano.desktoptoolbox.appdata.xml) \
 plasma5-nano \
 plasma5-nano(aarch-64) \
 qt5qmlimport(org.kde.plasma.private.nanoshell.2)"
+
 RDEPENDS:${PN} += "kdeclarative-components \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

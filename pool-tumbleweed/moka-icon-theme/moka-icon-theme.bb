@@ -9,6 +9,7 @@ RPM_HASH = "7fffbb6e6d5f06456b4efe7504fbc5b8b8f018f209f8f88ffc334fed41d49441143e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moka-icon-theme"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

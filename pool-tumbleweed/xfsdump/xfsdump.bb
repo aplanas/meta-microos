@@ -23,6 +23,7 @@ RPM_HASH = "d27c8c84fba6818a4def56711a3a052f7626ea42106225801e05e46abdc8ea4a6488
 
 RPROVIDES:${PN} += "xfsdump \
 xfsdump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libattr.so.1()(64bit) \

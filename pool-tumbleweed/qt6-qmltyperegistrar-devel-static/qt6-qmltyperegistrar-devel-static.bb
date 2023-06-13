@@ -11,6 +11,7 @@ RPM_HASH = "58a46a98bb501a4ae109b26377758cd47abe60e2149f599bcaf2bb74fdeb5135d407
 RPROVIDES:${PN} += "cmake(Qt6QmlTypeRegistrarPrivate) \
 qt6-qmltyperegistrar-devel-static \
 qt6-qmltyperegistrar-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

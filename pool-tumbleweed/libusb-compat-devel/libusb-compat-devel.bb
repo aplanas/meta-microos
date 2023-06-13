@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libusb-compat-devel \
 libusb-compat-devel(aarch-64) \
 libusb-devel \
 pkgconfig(libusb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

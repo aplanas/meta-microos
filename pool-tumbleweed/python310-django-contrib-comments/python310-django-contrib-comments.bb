@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-django-contrib-comments \
 python3.10dist(django-contrib-comments) \
 python310-django-contrib-comments \
 python3dist(django-contrib-comments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

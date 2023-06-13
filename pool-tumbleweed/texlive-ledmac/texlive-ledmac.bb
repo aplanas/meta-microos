@@ -18,6 +18,7 @@ tex(ledarab.sty) \
 tex(ledmac.sty) \
 tex(ledpar.sty) \
 texlive-ledmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

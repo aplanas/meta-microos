@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cracklib-dict \
 cracklib-dict-full \
 cracklib-dict-full(aarch-64) \
 cracklib:/usr/share/cracklib/pw_dict.pwd"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

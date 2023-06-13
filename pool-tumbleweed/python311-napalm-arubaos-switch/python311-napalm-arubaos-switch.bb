@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(napalm-arubaos-switch) \
 python311-napalm-arubaos-switch \
 python3dist(napalm-arubaos-switch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-napalm \
 python311-netaddr \

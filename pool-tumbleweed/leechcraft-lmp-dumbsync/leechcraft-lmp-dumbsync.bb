@@ -11,6 +11,7 @@ RPM_HASH = "e1777705e97f42d0eb1440f097c20be4684d1c69f037f0b1c247f207029c7200a8fd
 RPROVIDES:${PN} += "leechcraft-lmp-dumbsync \
 leechcraft-lmp-dumbsync(aarch-64) \
 libleechcraft_lmp_dumbsync.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

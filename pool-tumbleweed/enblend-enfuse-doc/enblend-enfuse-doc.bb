@@ -9,6 +9,7 @@ RPM_HASH = "29777311f5c98fa8b4e58e412ff409519840394bff87d46332d64c331eed77bbe53d
 
 RPROVIDES:${PN} += "enblend-enfuse-doc \
 enblend-enfuse-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

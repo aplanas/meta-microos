@@ -9,6 +9,7 @@ RPM_HASH = "be64c83360c6952a1a89d9e28fe0f656d408fcad30ff4b06bf9d835364b4c1e635a3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-poke"
+
 RDEPENDS:${PN} += "emacs \
 poke"
 

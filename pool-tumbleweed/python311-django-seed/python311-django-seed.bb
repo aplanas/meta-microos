@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-seed) \
 python311-django-seed \
 python3dist(django-seed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-Faker"

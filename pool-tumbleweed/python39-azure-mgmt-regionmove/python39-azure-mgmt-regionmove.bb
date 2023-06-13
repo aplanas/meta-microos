@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-regionmove) \
 python39-azure-mgmt-regionmove \
 python3dist(azure-mgmt-regionmove)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-nspkg \

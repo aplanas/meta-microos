@@ -10,6 +10,7 @@ RPM_HASH = "e1031fe54b892520fa093605c1d3ad763568bdebfec564165680c202b38f3dd5a442
 RPROVIDES:${PN} += "ghc-csv-devel \
 ghc-csv-devel(aarch-64) \
 ghc-devel(csv-0.1.2-LKioaw43aTAAAKpIk04xxN)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-csv \

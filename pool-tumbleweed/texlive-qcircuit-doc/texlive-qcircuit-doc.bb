@@ -9,6 +9,7 @@ RPM_HASH = "16cb4a043293649f8ab6659bf0b593ea54ed88b79a60c7d3bb024ad55a0b5175a0e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qcircuit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

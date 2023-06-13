@@ -13,6 +13,7 @@ RPM_HASH = "63c153ab00b9b7f3b2b2d0eb7951f113467b44a93cd086ff1b2228dc65e0f41ff0e3
 RPROVIDES:${PN} += "ocli \
 ocli(aarch-64) \
 owntracks-cli-publisher"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

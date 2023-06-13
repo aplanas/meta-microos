@@ -336,6 +336,7 @@ postscriptdriver(hp;hp_pagewide_pro_577_mfp;) \
 postscriptdriver(hp;hp_pagewide_pro_750;) \
 postscriptdriver(hp;hp_pagewide_pro_mfp_772-777;) \
 postscriptdriver(hp;officejet_pro_8000_enterprise_a811a;)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/grep \
 /bin/sed \

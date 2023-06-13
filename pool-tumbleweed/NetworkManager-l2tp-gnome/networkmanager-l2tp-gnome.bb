@@ -14,6 +14,7 @@ libnm-gtk4-vpn-plugin-l2tp-editor.so()(64bit) \
 libnm-vpn-plugin-l2tp-editor.so()(64bit) \
 metainfo() \
 metainfo(network-manager-l2tp.metainfo.xml)"
+
 RDEPENDS:${PN} += "NetworkManager-l2tp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

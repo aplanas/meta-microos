@@ -124,6 +124,7 @@ mimehandler(image/x-xpixmap) \
 mimehandler(text/csv) \
 qt5qmlimport(org.krita.draganddrop.1) \
 qt5qmlimport(org.krita.sketch.1)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "4c574171af2f934a29a05586ed83fc8e02d35178b1d714c20fff0c0eb4b053a3f9f7
 RPROVIDES:${PN} += "ghc-devel(libyaml-0.1.2-HGo47aMnIYAKZUBwKE0axw) \
 ghc-libyaml-devel \
 ghc-libyaml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

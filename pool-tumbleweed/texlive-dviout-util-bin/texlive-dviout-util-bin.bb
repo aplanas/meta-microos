@@ -9,6 +9,7 @@ RPM_HASH = "5d98c1f1d1aa07a00e69339abfcc7c0caaf4c1e456ec0b99c80c8241c1365cc28801
 
 RPROVIDES:${PN} += "texlive-dviout-util-bin \
 texlive-dviout-util-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

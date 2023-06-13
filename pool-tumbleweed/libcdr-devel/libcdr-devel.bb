@@ -12,6 +12,7 @@ RPM_HASH = "652eb0d7c632491b44394b71f5cbd5e5fe043ff067729313e17bf577bdeb830308da
 RPROVIDES:${PN} += "libcdr-devel \
 libcdr-devel(aarch-64) \
 pkgconfig(libcdr-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcdr-0_1-1 \
 pkgconfig(icu-i18n) \

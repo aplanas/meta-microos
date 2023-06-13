@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(material-color-utilities-python) \
 python39-material-color-utilities-python \
 python3dist(material-color-utilities-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

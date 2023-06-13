@@ -9,6 +9,7 @@ RPM_HASH = "85418e593928efa4e9827cc85ba2682c8f84082cb42d980271c6d0a8210612ab3217
 
 RPROVIDES:${PN} += "python3-botan \
 python3-botan(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3"

@@ -105,6 +105,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(urwchanceryl) \
 texlive-zapfchan-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

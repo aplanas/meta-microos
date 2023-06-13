@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(combelow.sty) \
 texlive-combelow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

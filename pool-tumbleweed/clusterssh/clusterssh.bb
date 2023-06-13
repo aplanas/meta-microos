@@ -27,6 +27,7 @@ perl(App::ClusterSSH::L10N::en) \
 perl(App::ClusterSSH::Range) \
 perl(App::ClusterSSH::Window) \
 perl(App::ClusterSSH::Window::Tk)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Changes) \

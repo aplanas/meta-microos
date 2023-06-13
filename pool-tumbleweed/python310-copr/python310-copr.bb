@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-copr \
 python3.10dist(copr) \
 python310-copr \
 python3dist(copr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-marshmallow \
 python310-munch \

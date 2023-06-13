@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-scikit-build \
 python3.10dist(scikit-build) \
 python310-scikit-build \
 python3dist(scikit-build)"
+
 RDEPENDS:${PN} += "cmake \
 python(abi) \
 python310-distro \

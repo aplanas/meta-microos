@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-pytz-deprecation-shim \
 python3.10dist(pytz-deprecation-shim) \
 python310-pytz-deprecation-shim \
 python3dist(pytz-deprecation-shim)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

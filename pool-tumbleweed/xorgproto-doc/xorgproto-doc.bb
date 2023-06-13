@@ -9,6 +9,7 @@ RPM_HASH = "8ba1fc656af5ec113d1d572b03b20ab5350de71355eada09d75abebb2134f7a3cc87
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorgproto-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

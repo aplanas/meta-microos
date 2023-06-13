@@ -74,6 +74,7 @@ locale(dconf-editor:vi) \
 locale(dconf-editor:zh_CN) \
 locale(dconf-editor:zh_HK) \
 locale(dconf-editor:zh_TW)"
+
 RDEPENDS:${PN} += "dconf-editor"
 
 inherit rpm

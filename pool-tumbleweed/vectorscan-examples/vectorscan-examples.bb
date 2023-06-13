@@ -11,6 +11,7 @@ RPM_HASH = "6ba17d0891cd578de2b5c0217f9488bc30c2ccdc1e0c64bf4d74f4c59ec6f2951cf8
 
 RPROVIDES:${PN} += "vectorscan-examples \
 vectorscan-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

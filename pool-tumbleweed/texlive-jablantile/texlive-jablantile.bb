@@ -12,6 +12,7 @@ RPM_HASH = "8614fd79fa138c00f3891ce0559359958068cd949a21a9362748df23614014c42bb8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jablantile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

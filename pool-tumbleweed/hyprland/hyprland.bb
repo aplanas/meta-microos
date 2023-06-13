@@ -13,6 +13,7 @@ RPM_HASH = "ebd1acdb0a9589716ab939f50f89a2b61e39681354e6ba405f37a95b429ecffa9536
 
 RPROVIDES:${PN} += "hyprland \
 hyprland(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

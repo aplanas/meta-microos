@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lalinference-devel) \
 lalinference-devel \
 lalinference-devel(aarch-64) \
 pkgconfig(lalinference)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lalinference-data \
 liblalinference23 \

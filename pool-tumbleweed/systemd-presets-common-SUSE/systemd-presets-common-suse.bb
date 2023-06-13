@@ -9,6 +9,7 @@ RPM_HASH = "3a237ec15807e44cde93ff6842d4bfe27ae3f7d2a0a893bcf475dcaa12a3ded0ba45
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-presets-common-SUSE"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash \

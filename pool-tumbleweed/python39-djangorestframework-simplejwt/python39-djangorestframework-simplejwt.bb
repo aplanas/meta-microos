@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(djangorestframework-simplejwt) \
 python39-djangorestframework-simplejwt \
 python3dist(djangorestframework-simplejwt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-djangorestframework"

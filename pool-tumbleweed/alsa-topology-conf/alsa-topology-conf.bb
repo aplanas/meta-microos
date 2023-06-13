@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alsa-topology-conf \
 firmware(skl_hda_dsp_generic-tplg.bin)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

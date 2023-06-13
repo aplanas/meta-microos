@@ -9,6 +9,7 @@ RPM_HASH = "95147bb5f29f92cd4ad565773e8548be7b955900d90c304bc2727e7a892a8f8294cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linphone-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

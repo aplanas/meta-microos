@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanum-gothic-coding \
 nanum-gothic-coding-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

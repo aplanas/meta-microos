@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moarvm-devel \
 pkgconfig(moar)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 moarvm \
 pkgconfig(libffi) \

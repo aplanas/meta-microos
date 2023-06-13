@@ -10,6 +10,7 @@ RPM_HASH = "2531d3664c4b99c0efaba93bf5b9516d629c3fecdfef31bad2bcd9374adb7672614b
 
 RPROVIDES:${PN} += "qore-uuid-module-doc \
 qore-uuid-module-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

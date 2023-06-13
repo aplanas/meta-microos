@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3.9dist(netcdf4) \
 python39-netCDF4 \
 python39-netCDF4(aarch-64) \
 python3dist(netcdf4)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 hdf5 \

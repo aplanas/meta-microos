@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gobject-introspection-devel \
 gobject-introspection-devel(aarch-64) \
 pkgconfig(gobject-introspection-1.0) \
 pkgconfig(gobject-introspection-no-export-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gobject-introspection \
 libffi-devel \

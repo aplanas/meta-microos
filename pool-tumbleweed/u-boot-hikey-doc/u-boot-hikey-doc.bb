@@ -10,6 +10,7 @@ RPM_HASH = "ea84b0dcac71911c47cb375344bc8820b71be7ad75fe26e57b54ecc4cfc99bed1f77
 
 RPROVIDES:${PN} += "u-boot-hikey-doc \
 u-boot-hikey-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

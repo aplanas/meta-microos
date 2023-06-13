@@ -9,6 +9,7 @@ RPM_HASH = "303cabece939ebb57f072e287b356a66000c353f2d876079a6ff6cb3b2e98695474f
 
 RPROVIDES:${PN} += "xtrxll-tools \
 xtrxll-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

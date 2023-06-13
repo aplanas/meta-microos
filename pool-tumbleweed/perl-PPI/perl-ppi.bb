@@ -103,6 +103,7 @@ perl(PPI::Transform::UpdateCopyright) \
 perl(PPI::Util) \
 perl(PPI::XSAccessor) \
 perl-PPI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone) \
 perl(List::Util) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libbd_dm.so.2()(64bit) \
 libbd_dm2 \
 libbd_dm2(aarch-64) \
 libblockdev-dm"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 device-mapper \
 dmraid \

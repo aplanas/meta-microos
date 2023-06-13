@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(schemabloc.sty) \
 texlive-schemabloc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

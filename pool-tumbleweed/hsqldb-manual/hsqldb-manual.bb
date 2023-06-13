@@ -9,6 +9,7 @@ RPM_HASH = "ba200138c6fdeb0e232a4aa9d355afa09bf74b70834484986027e19b2d30026ad330
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hsqldb-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

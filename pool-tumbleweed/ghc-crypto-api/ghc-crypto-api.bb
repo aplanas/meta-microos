@@ -15,6 +15,7 @@ RPM_HASH = "3fda2a70a116b7ef75525698e5d1f4b14482af8ba696e117696d6062091bf755531c
 RPROVIDES:${PN} += "ghc-crypto-api \
 ghc-crypto-api(aarch-64) \
 libHScrypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

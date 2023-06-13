@@ -16,6 +16,7 @@ RPM_HASH = "3e55395d511c961a732793235338eaa35596962643b9a8816dcc8fb10fd0a1138b6c
 RPROVIDES:${PN} += "libzynaddsubfx_dssi.so()(64bit) \
 zynaddsubfx-dssi \
 zynaddsubfx-dssi(aarch-64)"
+
 RDEPENDS:${PN} += "dssi \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ distribution-registry(aarch-64) \
 docker-distribution-registry \
 group(registry) \
 user(registry)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/nologin \
 libc.so.6(GLIBC_2.34)(64bit) \

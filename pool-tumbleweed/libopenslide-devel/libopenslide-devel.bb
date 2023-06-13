@@ -11,6 +11,7 @@ RPM_HASH = "42ec9e7fa378b899d8996bb97455fc9bc1fa9a0c5abcc7e60453f141fa931c8a717e
 RPROVIDES:${PN} += "libopenslide-devel \
 libopenslide-devel(aarch-64) \
 pkgconfig(openslide)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenslide0"
 

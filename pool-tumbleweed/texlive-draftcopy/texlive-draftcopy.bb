@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(draftcopy.cfg) \
 tex(draftcopy.sty) \
 texlive-draftcopy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

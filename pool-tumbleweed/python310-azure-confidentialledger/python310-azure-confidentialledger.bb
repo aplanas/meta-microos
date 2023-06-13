@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-confidentialledger \
 python3.10dist(azure-confidentialledger) \
 python310-azure-confidentialledger \
 python3dist(azure-confidentialledger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

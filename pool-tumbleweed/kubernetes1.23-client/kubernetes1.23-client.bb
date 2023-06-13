@@ -10,6 +10,7 @@ RPM_HASH = "a5893981aa9b22d7c9b9ec0e0937701bfb38edc1d3692e4da6c8d397d6314e474440
 RPROVIDES:${PN} += "kubernetes-client-provider \
 kubernetes1.23-client \
 kubernetes1.23-client(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes-client-common \
 update-alternatives"
 

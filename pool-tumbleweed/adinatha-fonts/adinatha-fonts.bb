@@ -9,6 +9,7 @@ RPM_HASH = "da4764c83c20adef737d7d329ad8c24deb1db9c7a1cfb2657176e7f63b0c054e112f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adinatha-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

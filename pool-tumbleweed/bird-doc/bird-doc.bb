@@ -11,6 +11,7 @@ RPM_HASH = "85b82815b01a8c8904147fe32ef8e7411f71f2325be451bf7cdd33a4a2d9576526e8
 
 RPROVIDES:${PN} += "bird-doc \
 bird-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

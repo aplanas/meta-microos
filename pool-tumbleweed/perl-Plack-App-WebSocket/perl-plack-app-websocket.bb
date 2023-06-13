@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Plack::App::WebSocket) \
 perl(Plack::App::WebSocket::Connection) \
 perl-Plack-App-WebSocket"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \
 perl(AnyEvent::WebSocket::Server) \

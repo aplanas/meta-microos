@@ -13,6 +13,7 @@ RPM_HASH = "37a589517f4735ce4ea90ea6492baba88813e1bf270db1b95a1dbb701b128c92815b
 RPROVIDES:${PN} += "libdatrie-devel \
 libdatrie-devel(aarch-64) \
 pkgconfig(datrie-0.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

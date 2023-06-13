@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mkdocs-material \
 python3.10dist(mkdocs-material) \
 python310-mkdocs-material \
 python3dist(mkdocs-material)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Markdown \
 python310-colorama \

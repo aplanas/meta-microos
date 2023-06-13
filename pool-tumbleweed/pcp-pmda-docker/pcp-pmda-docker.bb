@@ -10,6 +10,7 @@ RPM_HASH = "c59fbec94609c3f802f574c15fd6de07e370e34c3a0891a98d1c18e7f154c607a58d
 
 RPROVIDES:${PN} += "pcp-pmda-docker \
 pcp-pmda-docker(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

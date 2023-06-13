@@ -9,6 +9,7 @@ RPM_HASH = "4f7d90978496ab4738116b75731c8b0edbb2e9bdefcbdd37ad5ace3776543b2a29d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-readarray-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

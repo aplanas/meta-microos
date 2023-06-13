@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-clikit \
 python3.10dist(clikit) \
 python310-clikit \
 python3dist(clikit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-crashtest \
 python310-pastel \

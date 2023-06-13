@@ -9,6 +9,7 @@ RPM_HASH = "d022412c65c146d27f4cb97d54d21864f1e95c70e42463dd13f6e11ca1038c8d0552
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alsa-ucm-conf"
+
 RDEPENDS:${PN} += "libasound2"
 
 inherit rpm

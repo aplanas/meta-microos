@@ -9,6 +9,7 @@ RPM_HASH = "bbfc0b5ed43de004577fadd6d4ded8f57fd11f3551098e84c91adce0f18c4ff9b463
 
 RPROVIDES:${PN} += "python311-numba-devel \
 python311-numba-devel(aarch-64)"
+
 RDEPENDS:${PN} += "(python311-numpy-devel >= 1.21 with python311-numpy-devel < 1.25) \
 python(abi) \
 python311-devel \

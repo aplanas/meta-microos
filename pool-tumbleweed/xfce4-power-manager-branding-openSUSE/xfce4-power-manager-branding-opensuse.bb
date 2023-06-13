@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-power-manager-branding-openSUSE) \
 xfce4-power-manager-branding \
 xfce4-power-manager-branding-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

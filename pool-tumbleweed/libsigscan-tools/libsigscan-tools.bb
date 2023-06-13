@@ -10,6 +10,7 @@ RPM_HASH = "6ef3aa7b1e9ed863e7a6b9d4ef43fd64c2fae3ada3f0e22c3587fe288c54c1161ecc
 RPROVIDES:${PN} += "config(libsigscan-tools) \
 libsigscan-tools \
 libsigscan-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

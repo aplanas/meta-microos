@@ -17,6 +17,7 @@ RPM_HASH = "7884ed96349fefa8922647ed659a63f0fdd011e642cfa008ede7edeed10e978a4410
 
 RPROVIDES:${PN} += "librep \
 librep(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \

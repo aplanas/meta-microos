@@ -16,6 +16,7 @@ RPM_HASH = "4bda9346df7c87c789980ee5f182907bd3ab1c11f25ea131cc9775b5acc7e376bff1
 RPROVIDES:${PN} += "perl(Config::Simple) \
 perl-Config-Simple \
 perl-Config-Simple(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AutoLoader)"
 

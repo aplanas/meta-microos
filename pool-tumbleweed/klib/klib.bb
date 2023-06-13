@@ -12,6 +12,7 @@ RPM_HASH = "2550555b6feadcce1a7a35a07de183028f70766ab083b75091ec90afdcc2cb9f8b86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klib"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "3126d40dd0da5a35edb200eab2baafc0f5fa719fe5b044ce0a1f7b0a883efd8f1e0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sesdev-qa"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

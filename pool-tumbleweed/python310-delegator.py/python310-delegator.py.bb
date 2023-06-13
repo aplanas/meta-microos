@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-delegator.py \
 python3.10dist(delegator.py) \
 python310-delegator.py \
 python3dist(delegator.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pexpect"
 

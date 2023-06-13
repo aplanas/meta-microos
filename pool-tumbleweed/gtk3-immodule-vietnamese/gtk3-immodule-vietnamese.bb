@@ -14,6 +14,7 @@ RPM_HASH = "324449988624b8a6daf6ed66b79bc0f186b170e6fcf4ce9d12412d4a17127a11ca97
 RPROVIDES:${PN} += "gtk3-immodule-vietnamese \
 gtk3-immodule-vietnamese(aarch-64) \
 locale(gtk3:vi)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-venn.sty) \
 texlive-pst-venn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

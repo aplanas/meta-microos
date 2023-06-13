@@ -14,6 +14,7 @@ RPM_HASH = "3a874e391c73b006e9dfce6428fa8e91530f0dd3399f2ccf1624a41c94bb737f344a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msmtp-doc"
+
 RDEPENDS:${PN} += "msmtp"
 
 inherit rpm

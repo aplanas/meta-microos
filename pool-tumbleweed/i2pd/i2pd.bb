@@ -14,6 +14,7 @@ RPM_HASH = "d2b82bc14b645ca8ca2636042cd994fe5fb5f1d0ceaa50b511298c9e6b6f1c386e67
 RPROVIDES:${PN} += "config(i2pd) \
 i2pd \
 i2pd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

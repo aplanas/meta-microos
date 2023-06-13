@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compleat-bash \
 config(compleat-bash)"
+
 RDEPENDS:${PN} += "compleat"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-flake8-deprecated \
 python3.10dist(flake8-deprecated) \
 python310-flake8-deprecated \
 python3dist(flake8-deprecated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8"
 

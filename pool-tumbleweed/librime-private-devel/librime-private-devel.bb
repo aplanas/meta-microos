@@ -9,6 +9,7 @@ RPM_HASH = "b7b1d4f2534150ccd0049438d4503deac05baaf672577d08eb2c632a2727287defc8
 
 RPROVIDES:${PN} += "librime-private-devel \
 librime-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librime-devel"
 
 inherit rpm

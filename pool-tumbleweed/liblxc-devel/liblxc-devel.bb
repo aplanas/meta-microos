@@ -10,6 +10,7 @@ RPM_HASH = "ca208744a989e3ed6ce27f90df3be0d2ef309e982fe643d0b080d771e4a5a8b1d67e
 RPROVIDES:${PN} += "liblxc-devel \
 liblxc-devel(aarch-64) \
 pkgconfig(lxc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblxc1 \
 pkgconfig(libcap) \

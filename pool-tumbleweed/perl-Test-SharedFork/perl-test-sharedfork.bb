@@ -17,6 +17,7 @@ perl(Test::SharedFork::Array) \
 perl(Test::SharedFork::Scalar) \
 perl(Test::SharedFork::Store) \
 perl-Test-SharedFork"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"
 

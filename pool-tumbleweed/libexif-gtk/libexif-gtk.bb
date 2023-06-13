@@ -10,6 +10,7 @@ RPM_HASH = "599f3f122509d15d4239f10ef3247cf8f3943cfb5f2b523ca6a8cf6415aeed55fe53
 
 RPROVIDES:${PN} += "libexif-gtk \
 libexif-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "libexif-gtk5"
 
 inherit rpm

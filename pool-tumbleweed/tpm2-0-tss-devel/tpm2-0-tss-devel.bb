@@ -23,6 +23,7 @@ pkgconfig(tss2-tcti-swtpm) \
 pkgconfig(tss2-tctildr) \
 tpm2-0-tss-devel \
 tpm2-0-tss-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libtss2-esys0 \

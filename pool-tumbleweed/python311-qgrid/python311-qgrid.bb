@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(qgrid) \
 python311-qgrid \
 python3dist(qgrid)"
+
 RDEPENDS:${PN} += "jupyter-qgrid \
 python(abi) \
 python311-ipywidgets \

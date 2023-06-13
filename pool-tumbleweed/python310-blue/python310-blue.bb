@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-blue \
 python3.10dist(blue) \
 python310-blue \
 python3dist(blue)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

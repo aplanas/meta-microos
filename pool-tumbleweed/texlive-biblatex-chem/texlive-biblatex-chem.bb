@@ -21,6 +21,7 @@ tex(chem-biochem.cbx) \
 tex(chem-rsc.bbx) \
 tex(chem-rsc.cbx) \
 texlive-biblatex-chem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

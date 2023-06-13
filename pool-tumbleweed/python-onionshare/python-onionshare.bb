@@ -24,6 +24,7 @@ python3.10dist(onionshare) \
 python3.10dist(onionshare-cli) \
 python3dist(onionshare) \
 python3dist(onionshare-cli)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-Flask \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uothesis.cls) \
 texlive-uothesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

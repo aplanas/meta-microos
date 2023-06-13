@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "/sbin/netconfig \
 config(sysconfig-netconfig) \
 sysconfig-netconfig \
 sysconfig-netconfig(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/gawk \
 /bin/logger \

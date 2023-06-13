@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "SDL_image-devel \
 libSDL_image-devel \
 libSDL_image-devel(aarch-64) \
 pkgconfig(SDL_image)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL_image-1_2-0 \
 pkgconfig(sdl)"

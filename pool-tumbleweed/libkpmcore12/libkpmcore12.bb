@@ -13,6 +13,7 @@ RPM_HASH = "f528d2ff0a8f6b1abd941666a3ac78c9099e8201afcf833ed739d042b88953dd1ac7
 RPROVIDES:${PN} += "libkpmcore.so.12()(64bit) \
 libkpmcore12 \
 libkpmcore12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kpmcore \
 ld-linux-aarch64.so.1()(64bit) \

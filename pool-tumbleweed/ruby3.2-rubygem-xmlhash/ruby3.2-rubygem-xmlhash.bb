@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:xmlhash:1) \
 rubygem(ruby:3.2.0:xmlhash:1.3) \
 rubygem(ruby:3.2.0:xmlhash:1.3.8) \
 rubygem(xmlhash)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libm.so.6()(64bit) \
 libruby3.2.so.3.2()(64bit) \

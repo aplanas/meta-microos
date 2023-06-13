@@ -10,6 +10,7 @@ RPM_HASH = "99f9454edf58878881e21e59778451e583d6ddc97ba70e8047e1a26adc560d5a16ec
 
 RPROVIDES:${PN} += "libucp-devel \
 libucp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libucp0"
 
 inherit rpm

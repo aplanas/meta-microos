@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ijsra.cls) \
 texlive-ijsra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

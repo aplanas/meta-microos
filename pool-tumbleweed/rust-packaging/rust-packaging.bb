@@ -17,6 +17,7 @@ rpm_macro(cargo_prep) \
 rpm_macro(cargo_registry) \
 rpm_macro(cargo_test) \
 rust-packaging"
+
 RDEPENDS:${PN} += "cargo \
 gawk \
 python3-rust2rpm \

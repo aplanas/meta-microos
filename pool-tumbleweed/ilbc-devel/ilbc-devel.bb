@@ -9,6 +9,7 @@ RPM_HASH = "ba587ed35049a2fff42a83045929318d5af40b4fa1c75e5a655ba6a77a039837afcb
 
 RPROVIDES:${PN} += "ilbc-devel \
 ilbc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libilbc0"
 
 inherit rpm

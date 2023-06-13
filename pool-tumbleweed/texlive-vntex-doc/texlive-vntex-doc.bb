@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-vntex-doc:en;vi) \
 texlive-vntex-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

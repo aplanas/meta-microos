@@ -15,6 +15,7 @@ cozy \
 metainfo() \
 metainfo(com.github.geigi.cozy.appdata.xml) \
 mimehandler(x-content/audio-player)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 granite \
 libhandy-1-0 \

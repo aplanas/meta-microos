@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancytabs.sty) \
 texlive-fancytabs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

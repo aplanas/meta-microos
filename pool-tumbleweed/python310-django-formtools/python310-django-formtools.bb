@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-formtools \
 python3.10dist(django-formtools) \
 python310-django-formtools \
 python3dist(django-formtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

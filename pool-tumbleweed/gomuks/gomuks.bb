@@ -11,6 +11,7 @@ RPM_HASH = "0b1e4a2dbc536ab359c94c70ad1bd97d0bdbbe794cbdd121c0dee3fbcfb513615db2
 
 RPROVIDES:${PN} += "gomuks \
 gomuks(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libolm.so.3()(64bit)"
 

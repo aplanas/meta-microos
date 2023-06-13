@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(man-pages:cs) \
 man-pages-cs"
+
 RDEPENDS:${PN} += "man-pages"
 
 inherit rpm

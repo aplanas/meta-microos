@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cmake(websocketpp) \
 pkgconfig(websocketpp) \
 websocketpp-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

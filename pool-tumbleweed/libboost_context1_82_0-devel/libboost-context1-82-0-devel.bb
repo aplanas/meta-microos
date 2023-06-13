@@ -11,6 +11,7 @@ RPM_HASH = "c05f74e12f8121265744224edd738da1fda5886c62a2650817d6bc74c2eb5c387e56
 RPROVIDES:${PN} += "libboost_context-devel-impl \
 libboost_context1_82_0-devel \
 libboost_context1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_context1_82_0 \
 libboost_headers1_82_0-devel \
 libstdc++-devel"

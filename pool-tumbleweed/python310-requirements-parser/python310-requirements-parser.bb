@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requirements-parser \
 python3.10dist(requirements-parser) \
 python310-requirements-parser \
 python3dist(requirements-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

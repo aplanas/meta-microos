@@ -16,6 +16,7 @@ RPM_HASH = "2bff71e0862765a4712cb3592ac4d9fb40c01f887af6589213ed97da95879784e7c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-debian"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

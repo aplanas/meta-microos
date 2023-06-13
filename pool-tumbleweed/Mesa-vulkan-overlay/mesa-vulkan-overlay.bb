@@ -10,6 +10,7 @@ RPM_HASH = "3498d3511d6748e4895fe49a374747b4b4c3ef72feb79a49520acc5f6a8de5849256
 RPROVIDES:${PN} += "Mesa-vulkan-overlay \
 Mesa-vulkan-overlay(aarch-64) \
 libVkLayer_MESA_overlay.so()(64bit)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

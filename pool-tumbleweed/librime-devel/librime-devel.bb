@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(Rime) \
 librime-devel \
 librime-devel(aarch-64) \
 pkgconfig(rime)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 rime"
 

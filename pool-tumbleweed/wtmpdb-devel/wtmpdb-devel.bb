@@ -11,6 +11,7 @@ RPM_HASH = "685a048b37f2adccac143a210f1eb4d460102901afabdda5afb67ba7a3d161a537cb
 RPROVIDES:${PN} += "pkgconfig(libwtmpdb) \
 wtmpdb-devel \
 wtmpdb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwtmpdb0"
 

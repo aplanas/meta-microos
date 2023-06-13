@@ -9,6 +9,7 @@ RPM_HASH = "2c114165af8631c1176c94e908afe4326bfb74c975d8426b445718d0c917c9e2bf26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-attoparsec-iso8601-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

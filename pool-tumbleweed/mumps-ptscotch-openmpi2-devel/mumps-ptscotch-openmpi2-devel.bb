@@ -14,6 +14,7 @@ RPM_HASH = "8d05e0b978a25dfc8a02a8c2ce145b32061dcd675320ea78514e863ad6b35040dff4
 
 RPROVIDES:${PN} += "mumps-ptscotch-openmpi2-devel \
 mumps-ptscotch-openmpi2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmumps-ptscotch5_3_5-openmpi2 \
 mumps-devel \
 mumps-scotch-devel \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-virtinst \
 virt-clone \
 virt-install"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-requests \
 virt-manager-common"

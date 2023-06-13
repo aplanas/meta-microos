@@ -19,6 +19,7 @@ libstoken.so.1(STOKEN_1.3)(64bit) \
 libstoken.so.1(STOKEN_PRIVATE)(64bit) \
 libstoken1 \
 libstoken1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(strands.sty) \
 texlive-strands"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

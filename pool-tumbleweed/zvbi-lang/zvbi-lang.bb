@@ -19,6 +19,7 @@ locale(zvbi:nl) \
 locale(zvbi:pl) \
 zvbi-lang \
 zvbi-lang-all"
+
 RDEPENDS:${PN} += "zvbi"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "5ff7777b8931147584eb96fa32179944ca3cbe983440fc71d071ad18ec4d8c721896
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

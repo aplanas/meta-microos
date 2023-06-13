@@ -13,6 +13,7 @@ RPM_HASH = "9a8bcd0c1c5156c94b4a692f88ff0ab4ce0a4792f2686fa81c18cc6ff5d6947856c1
 RPROVIDES:${PN} += "libgnuradio-funcube.so.3.10.0()(64bit) \
 libgnuradio-funcube3_10_0 \
 libgnuradio-funcube3_10_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

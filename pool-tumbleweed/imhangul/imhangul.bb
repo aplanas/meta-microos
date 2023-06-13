@@ -10,6 +10,7 @@ RPM_HASH = "18f4889fc6a60532f5b79a2b6fa44905b25db0a1c3836da97586059899437abf0389
 RPROVIDES:${PN} += "imhangul \
 imhangul(aarch-64) \
 locale(gtk3:ko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

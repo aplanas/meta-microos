@@ -13,6 +13,7 @@ RPM_HASH = "e24a1ca8392fa6894a3782e749fcd26f25aba3ffb0f043f3bfaf602d85e2366d85a4
 
 RPROVIDES:${PN} += "interceptty \
 interceptty(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

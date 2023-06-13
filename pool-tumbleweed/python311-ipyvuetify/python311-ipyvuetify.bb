@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ipyvuetify) \
 python311-ipyvuetify \
 python3dist(ipyvuetify)"
+
 RDEPENDS:${PN} += "(python311-ipyvue >= 1.7 with python311-ipyvue < 2) \
 python(abi)"
 

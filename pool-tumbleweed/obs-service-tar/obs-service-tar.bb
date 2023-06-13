@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-tar \
 obs-service-tar_scm:/usr/lib/obs/service/tar.service"
+
 RDEPENDS:${PN} += "obs-service-obs_scm-common"
 
 inherit rpm

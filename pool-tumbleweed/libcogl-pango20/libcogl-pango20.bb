@@ -11,6 +11,7 @@ RPM_HASH = "487d351910e347600a749b4baacbd6eedc648bd451c59c189240c46128fc5b363a4a
 RPROVIDES:${PN} += "libcogl-pango.so.20()(64bit) \
 libcogl-pango20 \
 libcogl-pango20(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

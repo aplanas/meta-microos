@@ -32,6 +32,7 @@ tex(txi-sr.tex) \
 tex(txi-tr.tex) \
 tex(txi-uk.tex) \
 texlive-texinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "ddf5b9368fda0c1fa81217294389944b9ee6ecb2062b90a2a5cc9c9a9ee0900fddcb
 RPROVIDES:${PN} += "libf2c.so.0()(64bit) \
 libf2c0 \
 libf2c0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

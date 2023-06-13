@@ -9,6 +9,7 @@ RPM_HASH = "a4fbf0185ebc18c2b49186ef688bdee1d8cc024d1a0c8f694f986d886dec0d9026f4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibmtss-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 user(tss)"
 

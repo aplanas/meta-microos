@@ -10,6 +10,7 @@ RPM_HASH = "159a8b34db4f4e70b363edf855eb13535007a444dd61a478df80580b01a12c12f5e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-slide-webdavclient-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "83a5900a764ef22d549242e2009aca63a56aef48f76c335e790e06f65602c8b6b86e
 
 RPROVIDES:${PN} += "telepathy-rakia-devel \
 telepathy-rakia-devel(aarch-64)"
+
 RDEPENDS:${PN} += "telepathy-rakia"
 
 inherit rpm

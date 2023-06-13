@@ -11,6 +11,7 @@ RPM_HASH = "c9e41389884fb8973b0f789307b2aade11d4bd040f65441f6627e73735f51b2aa892
 
 RPROVIDES:${PN} += "cross-xtensa-binutils \
 cross-xtensa-binutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "7bc55002d04c6b15605fe880fd8de7718b031c6b22493157210e8cbd0dc3532505a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltximg"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

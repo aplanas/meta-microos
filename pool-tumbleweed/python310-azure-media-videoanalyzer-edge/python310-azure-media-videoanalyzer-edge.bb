@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-azure-media-videoanalyzer-edge \
 python3.10dist(azure-media-videoanalyzer-edge) \
 python310-azure-media-videoanalyzer-edge \
 python3dist(azure-media-videoanalyzer-edge)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-media-nspkg \

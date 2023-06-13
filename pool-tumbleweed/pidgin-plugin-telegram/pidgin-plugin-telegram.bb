@@ -11,6 +11,7 @@ RPM_HASH = "81c1a57c0ee20a1e4997ecde89838db37fb8df7a58c6855fc5304b74756f8188ce82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-telegram"
+
 RDEPENDS:${PN} += "libpurple-plugin-telegram"
 
 inherit rpm

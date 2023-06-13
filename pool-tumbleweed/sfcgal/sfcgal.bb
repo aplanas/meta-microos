@@ -9,6 +9,7 @@ RPM_HASH = "27e79580acd1f53401f116549cf3bd363e728e697f6fd837cbd076a4576459f8c128
 
 RPROVIDES:${PN} += "sfcgal \
 sfcgal(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSFCGAL.so.1()(64bit) \

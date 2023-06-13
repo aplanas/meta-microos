@@ -192,6 +192,7 @@ npm \
 npm(npm) \
 npm18 \
 npm18(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

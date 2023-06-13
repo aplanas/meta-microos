@@ -56,6 +56,7 @@ tex(bbmtt12.tfm) \
 tex(bbmtt8.tfm) \
 tex(bbmtt9.tfm) \
 texlive-bbm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

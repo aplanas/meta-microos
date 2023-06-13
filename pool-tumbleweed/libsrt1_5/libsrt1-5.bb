@@ -11,6 +11,7 @@ RPM_HASH = "7a3507cc986305f83e28c16e4da5b74c668a02b104aafe85972ec62651f25efb793b
 RPROVIDES:${PN} += "libsrt.so.1.5()(64bit) \
 libsrt1_5 \
 libsrt1_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

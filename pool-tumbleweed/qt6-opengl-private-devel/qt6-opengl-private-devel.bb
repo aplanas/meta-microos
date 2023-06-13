@@ -10,6 +10,7 @@ RPM_HASH = "bf4dd4163009d6f402457765525c5a8f06ccdb81f7a322c2dbcd8e7db95315cd4f97
 
 RPROVIDES:${PN} += "qt6-opengl-private-devel \
 qt6-opengl-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6OpenGL) \
 qt6-core-private-devel \
 qt6-gui-private-devel"

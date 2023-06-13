@@ -12,6 +12,7 @@ RPM_HASH = "0ea8bd91192663a1fb778dc62cc165c2f41a4d8ee5567de51a5bcf6cc462b0915b9b
 
 RPROVIDES:${PN} += "tls \
 tls(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

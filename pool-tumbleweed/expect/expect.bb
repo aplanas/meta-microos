@@ -14,6 +14,7 @@ RPM_HASH = "6678dc3d4feb57b498b114f4939e9d1fba99bf0333c2b35230e24c6575050b7229c9
 RPROVIDES:${PN} += "expect \
 expect(aarch-64) \
 libexpect5.45.4.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

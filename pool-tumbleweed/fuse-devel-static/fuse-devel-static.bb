@@ -10,6 +10,7 @@ RPM_HASH = "50c6cb4bddd4c08288d7945430e8c0b204af6824765f8769786d733d33d27a366538
 RPROVIDES:${PN} += "fuse-devel-static \
 fuse-devel-static(aarch-64) \
 fuse-devel:/usr/lib64/libfuse.a"
+
 RDEPENDS:${PN} += "fuse-devel"
 
 inherit rpm

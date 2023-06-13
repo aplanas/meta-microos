@@ -9,6 +9,7 @@ RPM_HASH = "6a291e4d4953ad8f590d9ba0e947167f92edaa93fd38bd741e7d24af5fce14f4b232
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-parrun-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

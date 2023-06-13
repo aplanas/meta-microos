@@ -11,6 +11,7 @@ RPM_HASH = "ce17697cdf14e16c258bfa7cebc6c66b355abc010ce49c244fb37682565533aaa103
 RPROVIDES:${PN} += "pkgconfig(sysprof-4) \
 sysprof-devel \
 sysprof-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gio-unix-2.0) \

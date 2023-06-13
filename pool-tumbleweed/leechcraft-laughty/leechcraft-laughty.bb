@@ -10,6 +10,7 @@ RPM_HASH = "35e30d4378126e3cd288ed661163c7776d3e7a3a2f36d789766b2ca1ac06a95b12c9
 RPROVIDES:${PN} += "leechcraft-laughty \
 leechcraft-laughty(aarch-64) \
 libleechcraft_laughty.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

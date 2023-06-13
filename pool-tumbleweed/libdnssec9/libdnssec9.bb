@@ -15,6 +15,7 @@ RPM_HASH = "1a929d02984dfc554292f9d2ce9cded473b863314da2a861342d698d75fe41eb657f
 RPROVIDES:${PN} += "libdnssec.so.9()(64bit) \
 libdnssec9 \
 libdnssec9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aeguill.sty) \
 texlive-aeguill"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

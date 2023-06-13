@@ -10,6 +10,7 @@ RPM_HASH = "9ae759da4d1a6f7b603b37750a3229e45d027765df319d4c2200db060c6c07afc255
 
 RPROVIDES:${PN} += "libsuperlu_6_0_0-gnu-hpc \
 libsuperlu_6_0_0-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

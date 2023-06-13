@@ -16,6 +16,7 @@ krb5-plugin-kdb-ldap(aarch-64) \
 libkdb_ldap.so.1()(64bit) \
 libkdb_ldap.so.1(HIDDEN)(64bit) \
 libkdb_ldap.so.1(kdb_ldap_1_MIT)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 krb5-server \
 ld-linux-aarch64.so.1()(64bit) \

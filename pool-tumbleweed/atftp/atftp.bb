@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "atftp \
 atftp(aarch-64) \
 tftp(client) \
 tftp(server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

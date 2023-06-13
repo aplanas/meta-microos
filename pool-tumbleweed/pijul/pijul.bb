@@ -10,6 +10,7 @@ RPM_HASH = "58d078a16a932cd5b9d677297f049aa27440a446dcf5bcec182a3098950ee302b4d4
 
 RPROVIDES:${PN} += "pijul \
 pijul(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

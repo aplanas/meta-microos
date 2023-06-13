@@ -9,6 +9,7 @@ RPM_HASH = "8e43c9286e6e88b1c47264cd81a2a1b96914cabfc3ac5917f953f65d84337cc5af48
 
 RPROVIDES:${PN} += "omemo-utils \
 omemo-utils(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcurl.so.4()(64bit) \
 libgcrypt.so.20()(64bit) \

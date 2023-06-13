@@ -14,6 +14,7 @@ RPM_HASH = "22705cfdfbb7fa0bf49b2d126b1d53effebbd61471feb86c675f379c9d8f4450d795
 RPROVIDES:${PN} += "libnetfilter_conntrack.so.3()(64bit) \
 libnetfilter_conntrack3 \
 libnetfilter_conntrack3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

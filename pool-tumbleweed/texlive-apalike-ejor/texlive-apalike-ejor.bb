@@ -14,6 +14,7 @@ RPM_HASH = "a053d4f5194c69909f524af6d2cec1b202b5131e25e26467af1f816e5a83b07815ac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apalike-ejor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

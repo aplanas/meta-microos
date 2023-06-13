@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cssutils \
 python3.10dist(cssutils) \
 python310-cssutils \
 python3dist(cssutils)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

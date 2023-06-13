@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Devel::OverloadInfo) \
 perl-Devel-OverloadInfo"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MRO::Compat) \
 perl(Package::Stash) \

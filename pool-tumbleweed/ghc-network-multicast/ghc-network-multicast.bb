@@ -11,6 +11,7 @@ RPM_HASH = "cb8c17be316c912e6931ff56e8fb8732025512349a96b35ba714898afdb9ff9c523e
 RPROVIDES:${PN} += "ghc-network-multicast \
 ghc-network-multicast(aarch-64) \
 libHSnetwork-multicast-0.3.2-GrPQCwnsCBBDUXDpEy9gVm-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

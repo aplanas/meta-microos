@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translate-toolkit-devel \
 translate-toolkit-devel-doc"
+
 RDEPENDS:${PN} += "translate-toolkit \
 translate-toolkit-doc"
 

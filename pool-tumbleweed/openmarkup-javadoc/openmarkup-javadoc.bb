@@ -18,6 +18,7 @@ RPM_HASH = "e55e282f5173994ec3ae883ec5d8d150c7c2723166987ae804035f320106e672824c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmarkup-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

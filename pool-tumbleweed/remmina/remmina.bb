@@ -25,6 +25,7 @@ mimehandler(x-scheme-handler/vnc) \
 remmina \
 remmina(aarch-64) \
 remmina-plugins-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

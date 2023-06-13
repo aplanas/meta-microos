@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(cirq-core) \
 python38-cirq-core \
 python3dist(cirq-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python38-duet \
 python38-matplotlib \

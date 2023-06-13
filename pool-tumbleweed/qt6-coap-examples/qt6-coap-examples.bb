@@ -9,6 +9,7 @@ RPM_HASH = "abfa2461cbeda7bbbaed69fdd78dc5119755df171c9aac3e78fb919dd18e9646bdaa
 
 RPROVIDES:${PN} += "qt6-coap-examples \
 qt6-coap-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Coap.so.6()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-gnuplot-mode \
 gnuplot:/usr/share/emacs/site-lisp/gnuplot.el"
+
 RDEPENDS:${PN} += "emacs \
 gnuplot"
 

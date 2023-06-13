@@ -43,6 +43,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(PerlX::Maybe) \
 perl(Syntax::Feature::Maybe) \
 perl-PerlX-Maybe"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

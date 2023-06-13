@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-SimpleWebSocketServer \
 python3.10dist(simplewebsocketserver) \
 python310-SimpleWebSocketServer \
 python3dist(simplewebsocketserver)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

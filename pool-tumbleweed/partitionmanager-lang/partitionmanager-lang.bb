@@ -65,6 +65,7 @@ locale(partitionmanager:zh_CN) \
 locale(partitionmanager:zh_TW) \
 partitionmanager-lang \
 partitionmanager-lang-all"
+
 RDEPENDS:${PN} += "partitionmanager"
 
 inherit rpm

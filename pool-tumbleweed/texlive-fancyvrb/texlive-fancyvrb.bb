@@ -18,6 +18,7 @@ tex(fancyvrb.sty) \
 tex(hbaw.sty) \
 tex(hcolor.sty) \
 texlive-fancyvrb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

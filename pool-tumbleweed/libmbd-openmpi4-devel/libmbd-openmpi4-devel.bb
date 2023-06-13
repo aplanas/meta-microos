@@ -13,6 +13,7 @@ RPM_HASH = "29db4f00739c2887ac16d0c0fac183a05bc5f2652454f090fc35f63780136943ffe4
 
 RPROVIDES:${PN} += "libmbd-openmpi4-devel \
 libmbd-openmpi4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmbd-openmpi4 \
 scalapack-openmpi4-devel"
 

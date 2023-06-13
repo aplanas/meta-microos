@@ -14,6 +14,7 @@ RPM_HASH = "0a5156802172d0564756dc2935b1a4c331d001a6f3e4758feb581646ae6e7f14e926
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tapir"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

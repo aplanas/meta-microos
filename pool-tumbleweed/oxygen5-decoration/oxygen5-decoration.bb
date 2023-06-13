@@ -10,6 +10,7 @@ RPM_HASH = "7667d4a48b76d18dcedbb24533f126a46b1121e6982c4ca0a5c3f4f958252d6aef81
 RPROVIDES:${PN} += "oxygen-decoration5 \
 oxygen5-decoration \
 oxygen5-decoration(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

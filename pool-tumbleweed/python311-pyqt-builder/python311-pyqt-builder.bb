@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(pyqt-builder) \
 python311-PyQt-builder \
 python311-pyqt-builder \
 python3dist(pyqt-builder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

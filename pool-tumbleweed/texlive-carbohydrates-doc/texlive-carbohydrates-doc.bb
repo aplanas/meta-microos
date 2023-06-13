@@ -9,6 +9,7 @@ RPM_HASH = "f77fe60c6c847d49ee6874724c8c4e83b5892db93ab6409cf8980c0f26d014150857
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-carbohydrates-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

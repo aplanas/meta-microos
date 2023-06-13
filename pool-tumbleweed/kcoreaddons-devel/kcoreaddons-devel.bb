@@ -13,6 +13,7 @@ RPM_HASH = "c8961d5820f1eb9210d69037d6d966b28261ecce5d0b5ae2caa3423d191930001678
 RPROVIDES:${PN} += "cmake(KF5CoreAddons) \
 kcoreaddons-devel \
 kcoreaddons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 kcoreaddons \

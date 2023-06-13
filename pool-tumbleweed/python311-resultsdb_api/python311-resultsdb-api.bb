@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(resultsdb-api) \
 python311-resultsdb_api \
 python3dist(resultsdb-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-simplejson"

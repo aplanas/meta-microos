@@ -53,6 +53,7 @@ locale(tellico:zh_CN) \
 locale(tellico:zh_TW) \
 tellico-lang \
 tellico-lang-all"
+
 RDEPENDS:${PN} += "tellico"
 
 inherit rpm

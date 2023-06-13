@@ -70,6 +70,7 @@ libgrass_symb.8.2.so()(64bit) \
 libgrass_temporal.8.2.so()(64bit) \
 libgrass_vector.8.2.so()(64bit) \
 libgrass_vedit.8.2.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 libGL.so.1()(64bit) \

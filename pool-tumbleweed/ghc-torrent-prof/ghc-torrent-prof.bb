@@ -10,6 +10,7 @@ RPM_HASH = "22c1b8efcdda2e679ed21970da47ac41cd069e958180bbf743a5918f901845619395
 RPROVIDES:${PN} += "ghc-prof(torrent-10000.1.3-6s7CFs4CbkZ3Yp9HO0y2ZH) \
 ghc-torrent-prof \
 ghc-torrent-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w) \
 ghc-prof(binary-0.8.9.1) \

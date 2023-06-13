@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(answers.sty) \
 texlive-answers"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

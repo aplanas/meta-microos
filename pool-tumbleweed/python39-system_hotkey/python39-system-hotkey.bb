@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(system-hotkey) \
 python39-system_hotkey \
 python3dist(system-hotkey)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-xcffib \
 python39-xpybutil"

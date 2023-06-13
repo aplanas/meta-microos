@@ -10,6 +10,7 @@ RPM_HASH = "2c92678d465bdd46033259fe634bdf120dfa617975b8eae1fcb2bb92b2b9d1c10053
 RPROVIDES:${PN} += "libXISF-devel \
 libXISF-devel(aarch-64) \
 pkgconfig(libxisf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXISF0"
 

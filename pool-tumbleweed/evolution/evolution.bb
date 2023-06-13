@@ -60,6 +60,7 @@ mimehandler(x-scheme-handler/mailto) \
 mimehandler(x-scheme-handler/memo) \
 mimehandler(x-scheme-handler/task) \
 mimehandler(x-scheme-handler/webcal)"
+
 RDEPENDS:${PN} += "evolution-data-server \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

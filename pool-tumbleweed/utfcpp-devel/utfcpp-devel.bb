@@ -10,6 +10,7 @@ RPM_HASH = "95ba199d13577f5f7aa2e031c4461efa6c419845613da9174f6e9891462c9a5e8baa
 RPROVIDES:${PN} += "cmake(utf8cpp) \
 utfcpp-devel \
 utfcpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

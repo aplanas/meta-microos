@@ -9,6 +9,7 @@ RPM_HASH = "6a8ecb832c27fbefdbcb833af645bb9e21671c74b544c1ca4fd0c3db8153ce0a4934
 
 RPROVIDES:${PN} += "libknet1-crypto-plugins-all \
 libknet1-crypto-plugins-all(aarch-64)"
+
 RDEPENDS:${PN} += "libknet1-crypto-nss-plugin(aarch-64) \
 libknet1-crypto-openssl-plugin(aarch-64)"
 

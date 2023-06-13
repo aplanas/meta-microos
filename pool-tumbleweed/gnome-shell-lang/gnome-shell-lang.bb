@@ -86,6 +86,7 @@ locale(gnome-shell:vi) \
 locale(gnome-shell:zh_CN) \
 locale(gnome-shell:zh_HK) \
 locale(gnome-shell:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-shell"
 
 inherit rpm

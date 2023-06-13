@@ -18,6 +18,7 @@ perl(Menlo::Index::MetaDB) \
 perl(Menlo::Index::Mirror) \
 perl(Menlo::Util) \
 perl-Menlo"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::Common::Index) \
 perl(CPAN::DistnameInfo) \

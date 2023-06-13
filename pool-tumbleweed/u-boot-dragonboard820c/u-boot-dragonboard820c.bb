@@ -11,6 +11,7 @@ RPM_HASH = "4aa0390730e9ffef8e5cf89d7eb54e2f58114679204388ed617b88daee933604b3ec
 RPROVIDES:${PN} += "u-boot-dragonboard820c \
 u-boot-dragonboard820c(aarch-64) \
 u-boot-loader"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

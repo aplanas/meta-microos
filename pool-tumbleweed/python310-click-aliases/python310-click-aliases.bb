@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-click-aliases \
 python3.10dist(click-aliases) \
 python310-click-aliases \
 python3dist(click-aliases)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

@@ -16,6 +16,7 @@ mvn(com.google.code.findbugs:findbugs-ant) \
 mvn(com.google.code.findbugs:findbugs-ant:pom:) \
 mvn(net.sourceforge.findbugs:findbugs-ant) \
 mvn(net.sourceforge.findbugs:findbugs-ant:pom:)"
+
 RDEPENDS:${PN} += "ant \
 findbugs \
 java-headless \

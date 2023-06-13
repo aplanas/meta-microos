@@ -9,6 +9,7 @@ RPM_HASH = "d86ce7627b605d852fca635786800ccf77e7540c7d488f8387eda58f8250e781c3e9
 
 RPROVIDES:${PN} += "icmptunnel \
 icmptunnel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

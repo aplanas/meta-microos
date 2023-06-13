@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bangorcsthesis.cls) \
 texlive-bangorcsthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

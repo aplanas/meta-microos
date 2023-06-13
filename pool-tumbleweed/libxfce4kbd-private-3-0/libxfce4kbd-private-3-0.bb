@@ -10,6 +10,7 @@ RPM_HASH = "677d42bd2eebddb7a70e98bbb432c89c497ff2498ff1d42fc933a4509e7350db5e75
 RPROVIDES:${PN} += "libxfce4kbd-private-3-0 \
 libxfce4kbd-private-3-0(aarch-64) \
 libxfce4kbd-private-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "f50b6a195439de58be74c26ff63aedaa94c7d172fae60d479540e5dd68d2a7c27fea
 RPROVIDES:${PN} += "libappmenu-gtk3-parser-devel \
 libappmenu-gtk3-parser-devel(aarch-64) \
 pkgconfig(appmenu-gtk3-parser)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libappmenu-gtk-parser-devel \
 libappmenu-gtk3-parser0 \

@@ -13,6 +13,7 @@ RPM_HASH = "570cdd465ac1877c157868f57f7feeff815e45f625029f30eaf300ed2d0685b12c89
 RPROVIDES:${PN} += "libxtrxdsp-devel \
 libxtrxdsp-devel(aarch-64) \
 pkgconfig(libxtrxdsp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxtrxdsp0"
 

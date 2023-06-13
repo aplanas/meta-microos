@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pagecolor.sty) \
 texlive-pagecolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

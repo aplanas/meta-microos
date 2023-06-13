@@ -9,6 +9,7 @@ RPM_HASH = "547d71f44b32a29d999726f10f14779f67a50ff9953cd871721a00fbd5fdd506a324
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-foliono-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

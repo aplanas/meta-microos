@@ -10,6 +10,7 @@ RPM_HASH = "0d7fef27f9db444674800b37bb5c7209e72c75a07f447070d8a24a393d3ff508e27a
 RPROVIDES:${PN} += "ghc-silently \
 ghc-silently(aarch-64) \
 libHSsilently-1.2.5.3-HiTtkArMijI9DvRcUmgkYR-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

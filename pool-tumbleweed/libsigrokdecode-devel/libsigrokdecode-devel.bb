@@ -16,6 +16,7 @@ RPM_HASH = "b23b81783a357514efd335aaf6f17c3023c0a334978e633609eb17edff2e0908b2a5
 RPROVIDES:${PN} += "libsigrokdecode-devel \
 libsigrokdecode-devel(aarch-64) \
 pkgconfig(libsigrokdecode)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsigrokdecode4 \
 pkgconfig(glib-2.0) \

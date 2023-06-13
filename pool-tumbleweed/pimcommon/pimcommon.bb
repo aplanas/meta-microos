@@ -10,6 +10,7 @@ RPM_HASH = "6ac62f27e10387ec08c6f25e6650238f1e67d2622e1bed2970ab75545f6cdfdb0b14
 
 RPROVIDES:${PN} += "pimcommon \
 pimcommon(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

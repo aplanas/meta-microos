@@ -9,6 +9,7 @@ RPM_HASH = "73f114ce662495c35a30852001382f7caceffe26669a1ce06848c638aeacc701bb09
 
 RPROVIDES:${PN} += "efl-examples \
 efl-examples(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

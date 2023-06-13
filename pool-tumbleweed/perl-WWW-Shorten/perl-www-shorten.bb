@@ -23,6 +23,7 @@ perl(WWW::Shorten::UserAgent) \
 perl(WWW::Shorten::_dead) \
 perl(WWW::Shorten::generic) \
 perl-WWW-Shorten"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long) \

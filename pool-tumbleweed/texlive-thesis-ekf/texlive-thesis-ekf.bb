@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thesis-ekf.cls) \
 texlive-thesis-ekf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

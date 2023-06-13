@@ -18,6 +18,7 @@ perl(OLE::Storage_Lite::PPS::Dir) \
 perl(OLE::Storage_Lite::PPS::File) \
 perl(OLE::Storage_Lite::PPS::Root) \
 perl-OLE-Storage_Lite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

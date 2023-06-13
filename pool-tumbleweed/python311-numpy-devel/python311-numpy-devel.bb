@@ -9,6 +9,7 @@ RPM_HASH = "e4f67c1a73b3264db186cb26299c9fe0a0ee6197913c8b4f8ceef5a1042de4274a51
 
 RPROVIDES:${PN} += "python311-numpy-devel \
 python311-numpy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "blas-devel \
 cblas-devel \
 lapack-devel \

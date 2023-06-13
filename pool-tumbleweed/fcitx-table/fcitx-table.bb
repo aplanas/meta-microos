@@ -11,6 +11,7 @@ RPM_HASH = "f28af6c95f61e35f74cd208a534d61b8c54e474a2753c6a82ddc87668a7d0424a5c2
 
 RPROVIDES:${PN} += "fcitx-table \
 fcitx-table(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

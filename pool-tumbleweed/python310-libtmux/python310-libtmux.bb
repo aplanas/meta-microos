@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-libtmux \
 python3.10dist(libtmux) \
 python310-libtmux \
 python3dist(libtmux)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

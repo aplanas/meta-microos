@@ -78,6 +78,7 @@ locale(libKF5Holidays5:uk) \
 locale(libKF5Holidays5:wa) \
 locale(libKF5Holidays5:zh_CN) \
 locale(libKF5Holidays5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5Holidays5"
 
 inherit rpm

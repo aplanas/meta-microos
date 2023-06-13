@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-link-traits \
 python3.10dist(link-traits) \
 python310-link-traits \
 python3dist(link-traits)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-traits"
 

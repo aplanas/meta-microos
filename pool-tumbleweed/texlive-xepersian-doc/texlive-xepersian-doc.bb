@@ -9,6 +9,7 @@ RPM_HASH = "889b57c9b78afd32e3d90a6a98c9f2328deef0b2e263d266228c23acc86b051fee81
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xepersian-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

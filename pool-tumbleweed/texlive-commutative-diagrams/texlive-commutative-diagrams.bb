@@ -25,6 +25,7 @@ tex(tikzlibrarycommutative-diagrams.ozos.code.tex) \
 tex(tikzlibrarycommutative-diagrams.ramma.code.tex) \
 tex(tikzlibrarycommutative-diagrams.velos.code.tex) \
 texlive-commutative-diagrams"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

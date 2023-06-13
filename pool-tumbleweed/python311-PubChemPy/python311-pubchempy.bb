@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pubchempy) \
 python311-PubChemPy \
 python3dist(pubchempy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

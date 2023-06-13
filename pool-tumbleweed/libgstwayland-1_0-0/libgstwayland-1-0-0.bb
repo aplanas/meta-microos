@@ -14,6 +14,7 @@ RPM_HASH = "b1ebfe9015fa47d5b0e8d09e45e8fd108c644e0e1aa727f9fdd607f6fa3dd4555a3a
 RPROVIDES:${PN} += "libgstwayland-1.0.so.0()(64bit) \
 libgstwayland-1_0-0 \
 libgstwayland-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

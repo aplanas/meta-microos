@@ -20,6 +20,7 @@ metainfo() \
 metainfo(org.open_scap.scap_workbench.appdata.xml) \
 scap-workbench \
 scap-workbench(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

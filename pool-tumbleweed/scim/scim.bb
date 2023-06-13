@@ -32,6 +32,7 @@ rpm_macro(scim_gtk2_immodule_postun) \
 rpm_macro(scim_gtk2_immodule_requires) \
 scim \
 scim(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

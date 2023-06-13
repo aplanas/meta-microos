@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "opencv-qt5-devel \
 opencv3-devel \
 opencv3-devel(aarch-64) \
 pkgconfig(opencv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopencv3_4 \
 opencv3 \

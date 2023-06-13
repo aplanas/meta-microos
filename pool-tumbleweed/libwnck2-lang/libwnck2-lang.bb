@@ -91,6 +91,7 @@ locale(libwnck2:wa) \
 locale(libwnck2:zh_CN) \
 locale(libwnck2:zh_HK) \
 locale(libwnck2:zh_TW)"
+
 RDEPENDS:${PN} += "libwnck2"
 
 inherit rpm

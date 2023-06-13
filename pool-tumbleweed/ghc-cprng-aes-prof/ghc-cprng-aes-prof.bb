@@ -10,6 +10,7 @@ RPM_HASH = "1c84cfef5f5a637255bddf677b358c4be8aff91a5d494b3e20664a3262171912b69c
 RPROVIDES:${PN} += "ghc-cprng-aes-prof \
 ghc-cprng-aes-prof(aarch-64) \
 ghc-prof(cprng-aes-0.6.1-169qys47NiB5UR1VcEjGCA)"
+
 RDEPENDS:${PN} += "ghc-cprng-aes-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg) \

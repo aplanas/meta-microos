@@ -12,6 +12,7 @@ RPM_HASH = "44916fd6405f7e8360d91b60e4cc160e9a14d7606c604ff4bbe7a3ae7bee3e20cade
 
 RPROVIDES:${PN} += "genromfs \
 genromfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

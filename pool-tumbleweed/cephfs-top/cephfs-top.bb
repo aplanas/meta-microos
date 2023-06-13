@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cephfs-top \
 python3.10dist(cephfs-top) \
 python3dist(cephfs-top)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-rados"
 

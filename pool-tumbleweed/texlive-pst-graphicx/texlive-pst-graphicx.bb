@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-graphicx.tex) \
 texlive-pst-graphicx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

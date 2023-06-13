@@ -11,6 +11,7 @@ RPM_HASH = "8b395dda968182335d43a306b5e5a9ad578b96dd433c4f27bf6cdc43e4bdd5773282
 
 RPROVIDES:${PN} += "sudo-plugin-python \
 sudo-plugin-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

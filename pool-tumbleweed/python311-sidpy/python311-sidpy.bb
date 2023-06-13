@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sidpy) \
 python311-sidpy \
 python3dist(sidpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ase \
 python311-cytoolz \

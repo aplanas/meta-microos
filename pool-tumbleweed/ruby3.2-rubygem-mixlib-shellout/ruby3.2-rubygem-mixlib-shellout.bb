@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mixlib-shellout) \
 rubygem(ruby:3.2.0:mixlib-shellout:3) \
 rubygem(ruby:3.2.0:mixlib-shellout:3.2) \
 rubygem(ruby:3.2.0:mixlib-shellout:3.2.7)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:chef-utils)"
 

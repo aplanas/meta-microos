@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(createsudoku.sty) \
 tex(printsudoku.sty) \
 tex(solvesudoku.sty) \
 texlive-sudokubundle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

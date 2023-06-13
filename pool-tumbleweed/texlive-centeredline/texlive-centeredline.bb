@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(centeredline.sty) \
 texlive-centeredline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

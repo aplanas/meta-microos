@@ -9,6 +9,7 @@ RPM_HASH = "bbb383a07d1eb4b092ce7289ea04820fd2aeaa2530465305b863a1c7bb15d37d64ae
 
 RPROVIDES:${PN} += "texlive-musixtex-bin \
 texlive-musixtex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-m-tx-bin \
 texlive-musixtex \
 texlive-pmx-bin"

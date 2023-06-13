@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ceph-common \
 python3-ceph-common(aarch-64) \
 python3.10dist(ceph) \
 python3dist(ceph)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML"
 

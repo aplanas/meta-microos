@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(defcon) \
 python311-defcon \
 python3dist(defcon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-FontTools \
 python311-fs"

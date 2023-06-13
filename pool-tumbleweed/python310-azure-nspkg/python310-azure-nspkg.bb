@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-nspkg \
 python3.10dist(azure-nspkg) \
 python310-azure-nspkg \
 python3dist(azure-nspkg)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

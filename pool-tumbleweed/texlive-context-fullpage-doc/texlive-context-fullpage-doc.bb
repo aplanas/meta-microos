@@ -9,6 +9,7 @@ RPM_HASH = "2dfb93634bb4a5a0e2411cc7afc3bcc31a876799507f31ae1494291303658cab6b2d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-fullpage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "77aacadb159dd0db5fc56946865ebbde79ef821c49101518f3258f706e5a49f384d5
 
 RPROVIDES:${PN} += "inkscape-extensions-extra \
 inkscape-extensions-extra(aarch-64)"
+
 RDEPENDS:${PN} += "ghostscript \
 inkscape \
 python3-lxml \

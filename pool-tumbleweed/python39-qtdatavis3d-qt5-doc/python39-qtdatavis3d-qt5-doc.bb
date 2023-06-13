@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python310-qtdatavis3d-qt5-examples \
 python311-qtdatavis3d-qt5-examples \
 python39-qtdatavis3d-qt5-doc \
 python39-qtdatavis3d-qt5-examples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -98,6 +98,7 @@ locale(libmatemixer:wa) \
 locale(libmatemixer:zh_CN) \
 locale(libmatemixer:zh_HK) \
 locale(libmatemixer:zh_TW)"
+
 RDEPENDS:${PN} += "libmatemixer"
 
 inherit rpm

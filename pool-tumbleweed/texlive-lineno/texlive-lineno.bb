@@ -17,6 +17,7 @@ tex(fnlineno.sty) \
 tex(lineno.sty) \
 tex(vplref.sty) \
 texlive-lineno"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

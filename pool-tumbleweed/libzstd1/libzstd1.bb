@@ -13,6 +13,7 @@ RPM_HASH = "3385ed0efbb9ac77f7c873a37ae82021ca9378aaf05db9ea8efb3c9d2323e9a00fb0
 RPROVIDES:${PN} += "libzstd.so.1()(64bit) \
 libzstd1 \
 libzstd1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(hyperxmp-add-bytecount.1) \
 texlive-hyperxmp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

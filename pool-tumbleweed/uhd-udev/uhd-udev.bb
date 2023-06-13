@@ -14,6 +14,7 @@ RPM_HASH = "ce37c8ae13564ba18bbf337e1e5d86797f7983f936d689af8e431a58886bd950e236
 
 RPROVIDES:${PN} += "uhd-udev \
 uhd-udev(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

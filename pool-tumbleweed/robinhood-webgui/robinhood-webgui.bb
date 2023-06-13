@@ -11,6 +11,7 @@ RPM_HASH = "8eb9490e633e159bc8882b3570f5d8b3fb00e5ab5e5d2a4eae1ddbd92f9a5f858622
 RPROVIDES:${PN} += "config(robinhood-webgui) \
 robinhood-webgui \
 robinhood-webgui(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 mod_php_any \
 php \

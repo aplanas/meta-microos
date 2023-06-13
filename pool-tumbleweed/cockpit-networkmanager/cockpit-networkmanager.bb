@@ -9,6 +9,7 @@ RPM_HASH = "e3dd9c23f27eada5ede48dff0c5167d535440a449f89f911f18d0808cebc5c311f7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-networkmanager"
+
 RDEPENDS:${PN} += "NetworkManager \
 cockpit-bridge \
 cockpit-shell"

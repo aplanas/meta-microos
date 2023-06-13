@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-perl-devel_perl \
 patterns-devel-perl-devel_perl(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

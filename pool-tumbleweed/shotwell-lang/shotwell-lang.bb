@@ -76,6 +76,7 @@ locale(shotwell:zh_HK) \
 locale(shotwell:zh_TW) \
 shotwell-lang \
 shotwell-lang-all"
+
 RDEPENDS:${PN} += "shotwell"
 
 inherit rpm

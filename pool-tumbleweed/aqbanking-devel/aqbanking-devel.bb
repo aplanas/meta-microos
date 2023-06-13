@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "aqbanking-devel \
 aqbanking-devel(aarch-64) \
 cmake(aqbanking) \
 pkgconfig(aqbanking)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 aqbanking \

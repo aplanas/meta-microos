@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(assoccnt.sty) \
 texlive-assoccnt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

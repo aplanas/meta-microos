@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-powerbidedicated \
 python3.10dist(azure-mgmt-powerbidedicated) \
 python310-azure-mgmt-powerbidedicated \
 python3dist(azure-mgmt-powerbidedicated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

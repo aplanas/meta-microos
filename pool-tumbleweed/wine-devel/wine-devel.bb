@@ -10,6 +10,7 @@ RPM_HASH = "d5e073de5efe82900e0fd7f992d23634ba63afda15e86c1aba3d0653db5e81f9ddc6
 
 RPROVIDES:${PN} += "wine-devel \
 wine-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

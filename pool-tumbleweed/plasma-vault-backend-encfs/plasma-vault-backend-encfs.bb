@@ -10,6 +10,7 @@ RPM_HASH = "482e4be3f549cb2d0c882cece575e9bd5505d7b1ae6bc38f887fc8b3e84cb35d2fde
 RPROVIDES:${PN} += "plasma-vault-backend \
 plasma-vault-backend-encfs \
 plasma-vault-backend-encfs(aarch-64)"
+
 RDEPENDS:${PN} += "encfs \
 plasma-vault"
 

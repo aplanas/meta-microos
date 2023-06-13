@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "mvn(org.apache.velocity:velocity-engine-core) \
 mvn(org.apache.velocity:velocity-engine-core:pom:) \
 osgi(org.apache.velocity.engine-core) \
 velocity-engine-core"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

@@ -9,6 +9,7 @@ RPM_HASH = "15a96f81cc534cac3d57617e3654441c3d78b53524c0d15b0581950b6d918a375e52
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-iqbal-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

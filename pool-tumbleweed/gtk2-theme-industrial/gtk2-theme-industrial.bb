@@ -9,6 +9,7 @@ RPM_HASH = "f94244108709676e14775b8141d00227feb92b095ad35e2014c33dcf77e6a766e75a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-industrial"
+
 RDEPENDS:${PN} += "gtk2-engine-industrial"
 
 inherit rpm

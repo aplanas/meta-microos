@@ -9,6 +9,7 @@ RPM_HASH = "3ba177e6f1f6259b1b2f7781fa2bd025b7f874c34bdfdf9987858a5f40c860f621f7
 
 RPROVIDES:${PN} += "grass-devel \
 grass-devel(aarch-64)"
+
 RDEPENDS:${PN} += "grass"
 
 inherit rpm

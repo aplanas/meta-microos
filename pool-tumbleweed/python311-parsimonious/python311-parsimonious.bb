@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(parsimonious) \
 python311-parsimonious \
 python3dist(parsimonious)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-regex"
 

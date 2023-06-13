@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cloudscraper \
 python3.10dist(cloudscraper) \
 python310-cloudscraper \
 python3dist(cloudscraper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyparsing \
 python310-requests \

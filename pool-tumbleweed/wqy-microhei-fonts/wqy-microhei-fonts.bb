@@ -191,6 +191,7 @@ scalable-font-zh-SG \
 scalable-font-zh-TW \
 ttf-wqy-microhei \
 wqy-microhei-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

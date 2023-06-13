@@ -10,6 +10,7 @@ RPM_HASH = "3c8353ad6292ba2a6fc2257e896351e177fbe2afd6a6b97fc4811219d05817e475ae
 RPROVIDES:${PN} += "ghc-prof(wai-cors-0.2.7-CSepwpjFO1f9DnlkYc71mV) \
 ghc-wai-cors-prof \
 ghc-wai-cors-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-unicode-symbols-0.2.4.2-2uW4hd16ZmNBkWsH22htOC) \

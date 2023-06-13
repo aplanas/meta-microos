@@ -9,6 +9,7 @@ RPM_HASH = "97c68d8acc6b877185be6cd1f695dc50f3eb5a1a5d43eca9bc3ffab1b5bc6e913cc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stow-doc"
+
 RDEPENDS:${PN} += "stow"
 
 inherit rpm

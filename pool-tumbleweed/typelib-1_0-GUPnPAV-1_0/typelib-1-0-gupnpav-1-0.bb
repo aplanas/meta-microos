@@ -13,6 +13,7 @@ RPM_HASH = "31cc926c4cc4dfac0d01304518b0a53fc42687906b2c95edacaf4bd85a6994fd7906
 RPROVIDES:${PN} += "typelib(GUPnPAV) \
 typelib-1_0-GUPnPAV-1_0 \
 typelib-1_0-GUPnPAV-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgupnp-av-1.0.so.3()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

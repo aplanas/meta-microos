@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-TagStats \
 python3.10dist(tagstats) \
 python310-TagStats \
 python3dist(tagstats)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

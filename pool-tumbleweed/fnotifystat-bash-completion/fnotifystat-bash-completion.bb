@@ -9,6 +9,7 @@ RPM_HASH = "e9de345a1c5809a55be077e811d3fbad8d90218a56efbafb54847810cce01dae55b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fnotifystat-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 fnotifystat"
 

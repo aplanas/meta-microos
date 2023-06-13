@@ -11,6 +11,7 @@ RPM_HASH = "d2753dec091b6a0c2d14007137abca2ee4cf619d03491c2d3965f230265e24901284
 RPROVIDES:${PN} += "liblalmetaio.so.10()(64bit) \
 liblalmetaio10 \
 liblalmetaio10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

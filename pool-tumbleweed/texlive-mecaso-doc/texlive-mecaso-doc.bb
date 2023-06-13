@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-mecaso-doc:fr) \
 texlive-mecaso-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

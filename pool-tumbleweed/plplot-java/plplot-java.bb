@@ -14,6 +14,7 @@ RPM_HASH = "0242caa06d8358653c68da0137b6f77f3025987344f229de74eb0e586ef82125ad3d
 RPROVIDES:${PN} += "libplplotjavac_wrap.so()(64bit) \
 plplot-java \
 plplot-java(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 java \
 ld-linux-aarch64.so.1()(64bit) \

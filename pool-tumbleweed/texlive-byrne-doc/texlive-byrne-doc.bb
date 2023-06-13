@@ -9,6 +9,7 @@ RPM_HASH = "a8c078e174e37aeb53311f79b5504bc373b06ef2aa8a83089e44438a8c1af9bb94bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-byrne-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "bbb8c6fbb437664ef06156c37a807b401ce8e9b083f5b3c0fb8567d6c72b1f32a1f7
 RPROVIDES:${PN} += "typelib(LunarDate) \
 typelib-1_0-LunarDate-3_0 \
 typelib-1_0-LunarDate-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "liblunar-date-3.0.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

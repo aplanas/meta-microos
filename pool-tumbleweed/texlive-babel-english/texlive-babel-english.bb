@@ -20,6 +20,7 @@ tex(canadian.ldf) \
 tex(english.ldf) \
 tex(newzealand.ldf) \
 texlive-babel-english"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

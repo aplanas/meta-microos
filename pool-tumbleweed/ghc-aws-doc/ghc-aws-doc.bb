@@ -9,6 +9,7 @@ RPM_HASH = "11539475400af4322977b661f0dfbc07e2c2535056a1c09ebc46b874b1dd9d40e796
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-aws-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(subprocrunner) \
 python39-subprocrunner \
 python3dist(subprocrunner)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-loguru \
 python39-mbstrdecoder \

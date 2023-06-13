@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(highlightlatex.sty) \
 texlive-highlightlatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

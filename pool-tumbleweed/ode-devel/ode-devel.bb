@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libode-devel \
 ode-devel \
 ode-devel(aarch-64) \
 pkgconfig(ode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libode8"

@@ -9,6 +9,7 @@ RPM_HASH = "5d7825ee8b442234a5fcf67ae1a3a658cd1c842c2f22a124b5889a2387c4fd326593
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 curl \

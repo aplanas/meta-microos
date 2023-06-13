@@ -13,6 +13,7 @@ python3-google-api-python-client \
 python3.10dist(google-api-python-client) \
 python310-google-api-python-client \
 python3dist(google-api-python-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-google-auth \

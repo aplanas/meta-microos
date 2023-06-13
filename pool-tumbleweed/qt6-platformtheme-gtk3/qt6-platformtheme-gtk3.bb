@@ -18,6 +18,7 @@ libqgtk3.so(Qt_6.5)(64bit) \
 libqgtk3.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-platformtheme-gtk3 \
 qt6-platformtheme-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

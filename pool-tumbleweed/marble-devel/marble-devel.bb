@@ -12,6 +12,7 @@ cmake(Marble) \
 marble-devel \
 marble-devel(aarch-64) \
 marble5-devel"
+
 RDEPENDS:${PN} += "cmake(Qt5WebEngineWidgets) \
 cmake(Qt5Widgets) \
 cmake(Qt5Xml) \

@@ -158,6 +158,7 @@ bundled(rust-crate:yaml-rust) \
 bundled(rust-crate:zeroize) \
 hoard \
 hoard(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \
 libcrypto.so.3(OPENSSL_3.0.0)(64bit) \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pymemcache) \
 python39-pymemcache \
 python3dist(pymemcache)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

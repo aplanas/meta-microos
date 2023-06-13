@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pynamodb \
 python3.10dist(pynamodb) \
 python310-pynamodb \
 python3dist(pynamodb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-botocore \
 python310-python-dateutil"

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lstbayes.sty) \
 texlive-lstbayes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

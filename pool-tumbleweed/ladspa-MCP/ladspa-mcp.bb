@@ -11,6 +11,7 @@ RPM_HASH = "6d37c35d1413a10ca799e69236ff85cbaa9d7ef1468559c787e6752c76c948241ec6
 
 RPROVIDES:${PN} += "ladspa-MCP \
 ladspa-MCP(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

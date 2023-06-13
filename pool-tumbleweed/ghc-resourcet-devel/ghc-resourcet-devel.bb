@@ -10,6 +10,7 @@ RPM_HASH = "a37c92540224f92db69a843f7a64fccb19fbdf2172b3a0caa89f110f87b8e15294c8
 RPROVIDES:${PN} += "ghc-devel(resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv) \
 ghc-resourcet-devel \
 ghc-resourcet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

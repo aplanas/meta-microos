@@ -9,6 +9,7 @@ RPM_HASH = "656037ea5519b536b787789252447e7275770f8a23927ab633db5c903e61850c3ddb
 
 RPROVIDES:${PN} += "ruby3.2-devel-extra \
 ruby3.2-devel-extra(aarch-64)"
+
 RDEPENDS:${PN} += "ruby3.2-devel"
 
 inherit rpm

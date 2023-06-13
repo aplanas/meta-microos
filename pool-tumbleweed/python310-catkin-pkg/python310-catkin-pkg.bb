@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-catkin-pkg \
 python3.10dist(catkin-pkg) \
 python310-catkin-pkg \
 python3dist(catkin-pkg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

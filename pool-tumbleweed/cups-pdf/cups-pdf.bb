@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(cups-pdf) \
 cups-pdf \
 cups-pdf(aarch-64) \
 postscriptdriver(generic;cups-pdf_printer;)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cups-client \
 ld-linux-aarch64.so.1()(64bit) \

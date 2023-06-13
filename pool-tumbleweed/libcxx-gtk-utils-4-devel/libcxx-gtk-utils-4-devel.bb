@@ -13,6 +13,7 @@ RPM_HASH = "3d15f606414b6a97709c722188641ea53c9ccce3a1066891d80b6f33f0660860e2c1
 RPROVIDES:${PN} += "libcxx-gtk-utils-4-devel \
 libcxx-gtk-utils-4-devel(aarch-64) \
 pkgconfig(c++-gtk-utils-4-2.2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcxx-gtk-utils-4-2_2-0 \
 pkgconfig(glib-2.0) \

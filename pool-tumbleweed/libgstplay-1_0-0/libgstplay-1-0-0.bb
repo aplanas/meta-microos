@@ -14,6 +14,7 @@ RPM_HASH = "6bdd52187769b2dc424a6a4c8b4364abe38e890736694ca6147418cf0fea490048e1
 RPROVIDES:${PN} += "libgstplay-1.0.so.0()(64bit) \
 libgstplay-1_0-0 \
 libgstplay-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

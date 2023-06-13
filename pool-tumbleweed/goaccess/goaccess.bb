@@ -11,6 +11,7 @@ RPM_HASH = "606089e8fc35c85df6fb15ad7be9d216610d4a538d4e628006f5f55da08706fa02aa
 RPROVIDES:${PN} += "config(goaccess) \
 goaccess \
 goaccess(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

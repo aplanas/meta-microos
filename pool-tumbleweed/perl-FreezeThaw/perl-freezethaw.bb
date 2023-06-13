@@ -16,6 +16,7 @@ RPM_HASH = "d615d7bdb8197da4c48c064748fe1c7e91ed91c9f60689c8c103a28b4ff545c32c39
 RPROVIDES:${PN} += "perl(FreezeThaw) \
 perl-FreezeThaw \
 perl-FreezeThaw(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-setuptools-git \
 python3.10dist(setuptools-git) \
 python310-setuptools-git \
 python3dist(setuptools-git)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

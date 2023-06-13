@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "dnf-utils \
 yum-changelog \
 yum-utils"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dnf \
 dnf-plugins-core \

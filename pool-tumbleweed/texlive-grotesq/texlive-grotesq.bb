@@ -30,6 +30,7 @@ tex(ugqbo8r.tfm) \
 tex(ugqbo8t.tfm) \
 tex(ugqbo8t.vf) \
 texlive-grotesq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

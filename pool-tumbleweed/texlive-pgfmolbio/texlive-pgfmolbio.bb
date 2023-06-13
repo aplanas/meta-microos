@@ -15,6 +15,7 @@ tex(pgfmolbio.convert.tex) \
 tex(pgfmolbio.domains.tex) \
 tex(pgfmolbio.sty) \
 texlive-pgfmolbio"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

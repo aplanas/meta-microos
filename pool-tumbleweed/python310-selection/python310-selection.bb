@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-selection \
 python3.10dist(selection) \
 python310-selection \
 python3dist(selection)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-six \

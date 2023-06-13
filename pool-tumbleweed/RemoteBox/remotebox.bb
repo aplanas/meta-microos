@@ -19,6 +19,7 @@ application() \
 application(RemoteBox.desktop) \
 metainfo() \
 metainfo(RemoteBox.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 freerdp \
 perl-Gtk3 \

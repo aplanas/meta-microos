@@ -11,6 +11,7 @@ RPM_HASH = "9e520a8bbe18aa5d254bb8bc44b87caacf0e0128adef6998dc5faa76f27fe0645fa7
 
 RPROVIDES:${PN} += "libnetcdf-fortran-gnu-openmpi1-hpc \
 libnetcdf-fortran-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf-fortran_4_5_3-gnu-openmpi1-hpc"
 

@@ -11,6 +11,7 @@ RPM_HASH = "06c94a3c7aa20dbe71185d0d7285f2079ab7a86b55f3771207a9dd0d97d9ea4cb5f7
 RPROVIDES:${PN} += "libKPim5AkonadiContact.so.5()(64bit) \
 libKPim5AkonadiContact5 \
 libKPim5AkonadiContact5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 akonadi-contact \
 ld-linux-aarch64.so.1()(64bit) \

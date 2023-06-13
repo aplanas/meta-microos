@@ -13,6 +13,7 @@ mvn(org.apache.maven.plugin-testing:maven-test-tools) \
 mvn(org.apache.maven.plugin-testing:maven-test-tools:pom:) \
 mvn(org.apache.maven.shared:maven-test-tools) \
 mvn(org.apache.maven.shared:maven-test-tools:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.easymock:easymock)"

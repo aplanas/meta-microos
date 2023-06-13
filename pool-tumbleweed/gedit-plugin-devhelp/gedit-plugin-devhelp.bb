@@ -11,6 +11,7 @@ RPM_HASH = "bef6f97097965bb8b4c5f7b7136c45528604ca560c45a7cfc1db761ffb54b9ff1016
 
 RPROVIDES:${PN} += "gedit-plugin-devhelp \
 gedit-plugin-devhelp(aarch-64)"
+
 RDEPENDS:${PN} += "devhelp \
 gedit \
 typelib(GObject) \

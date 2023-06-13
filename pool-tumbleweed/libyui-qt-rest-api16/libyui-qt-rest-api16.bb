@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libyui-qt-rest-api \
 libyui-qt-rest-api.so.16()(64bit) \
 libyui-qt-rest-api16 \
 libyui-qt-rest-api16(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

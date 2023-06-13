@@ -15,6 +15,7 @@ RPM_HASH = "cc3374810aca94ed37cd68a8d7d96ea5d483b0e857f152e24fff5626877c5f9bd99e
 RPROVIDES:${PN} += "amtk-devel \
 amtk-devel(aarch-64) \
 pkgconfig(amtk-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libamtk-5-0 \
 pkgconfig(gio-2.0) \

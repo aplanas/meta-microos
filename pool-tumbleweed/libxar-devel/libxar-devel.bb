@@ -16,6 +16,7 @@ RPM_HASH = "5994c64a8d56acba83993aab6519878f1915a5e282f1c82ddd11d63a09d0707fccdc
 
 RPROVIDES:${PN} += "libxar-devel \
 libxar-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxar1"
 
 inherit rpm

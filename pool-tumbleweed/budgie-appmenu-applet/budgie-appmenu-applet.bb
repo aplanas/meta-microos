@@ -10,6 +10,7 @@ RPM_HASH = "344df38802a7e7bfd179c9882a35e64e9a37f1447cf663155878a580d1326cedd329
 RPROVIDES:${PN} += "budgie-appmenu-applet \
 budgie-appmenu-applet(aarch-64) \
 libappmenu-budgie.so()(64bit)"
+
 RDEPENDS:${PN} += "libbudgie-plugin.so.0()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgdk-3.so.0()(64bit) \

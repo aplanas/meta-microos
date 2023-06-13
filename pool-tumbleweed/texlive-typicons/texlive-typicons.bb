@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(typicons.sty) \
 texlive-typicons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

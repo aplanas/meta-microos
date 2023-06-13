@@ -18,6 +18,7 @@ RPM_HASH = "c915a88caae33e0550a0089b30077f495a7fe5a29a54ca3a363ba1eccc92259b1fdf
 RPROVIDES:${PN} += "perl(File::Basename::Object) \
 perl-File-Basename-Object \
 perl-File-Basename-Object(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

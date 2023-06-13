@@ -12,6 +12,7 @@ RPM_HASH = "86505a11e9ae89390bcdd71e6d3189d7999fb65ab51781b82ddd33c197b199c2e869
 RPROVIDES:${PN} += "libOgreProperty-devel \
 libOgreProperty-devel(aarch-64) \
 pkgconfig(OGRE-Property)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreProperty13_5 \
 pkgconfig(OGRE)"

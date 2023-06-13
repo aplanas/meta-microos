@@ -25,6 +25,7 @@ tex(bxjspandoc.sty) \
 tex(bxjsreport.cls) \
 tex(bxjsslide.cls) \
 texlive-bxjscls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

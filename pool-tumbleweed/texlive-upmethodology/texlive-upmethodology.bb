@@ -25,6 +25,7 @@ tex(upmethodology-spec.sty) \
 tex(upmethodology-task.sty) \
 tex(upmethodology-version.sty) \
 texlive-upmethodology"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

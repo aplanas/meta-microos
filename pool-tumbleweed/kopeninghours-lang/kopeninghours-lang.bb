@@ -40,6 +40,7 @@ locale(kopeninghours:tr) \
 locale(kopeninghours:uk) \
 locale(kopeninghours:zh_CN) \
 locale(kopeninghours:zh_TW)"
+
 RDEPENDS:${PN} += "kopeninghours"
 
 inherit rpm

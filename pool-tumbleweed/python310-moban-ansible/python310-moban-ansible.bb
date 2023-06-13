@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-moban-ansible \
 python3.10dist(moban-ansible) \
 python310-moban-ansible \
 python3dist(moban-ansible)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-moban"
 

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libpy3.9qt6.so()(64bit) \
 python39-PyQt6-devel \
 python39-PyQt6-devel(aarch-64) \
 python39-qt6-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 cmake(Qt6Bluetooth) \
 cmake(Qt6Designer) \

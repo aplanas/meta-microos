@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "caja-extension-gksu \
 caja-extension-gksu(aarch-64) \
 caja-gksu \
 libcaja-gksu.so()(64bit)"
+
 RDEPENDS:${PN} += "ImageMagick \
 caja \
 ld-linux-aarch64.so.1()(64bit) \

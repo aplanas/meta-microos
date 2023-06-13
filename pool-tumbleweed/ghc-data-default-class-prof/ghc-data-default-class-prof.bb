@@ -10,6 +10,7 @@ RPM_HASH = "cb50e63c803f08d8e9eaf0b6f44821609638d74f22516926d7047411f5dce2ce9dc5
 RPROVIDES:${PN} += "ghc-data-default-class-prof \
 ghc-data-default-class-prof(aarch-64) \
 ghc-prof(data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ)"
+
 RDEPENDS:${PN} += "ghc-data-default-class-devel \
 ghc-prof(base-4.17.1.0)"
 

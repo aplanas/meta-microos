@@ -16,6 +16,7 @@ RPM_HASH = "043f01b9ec5b407991e08980feb2f04e771863dc85c375665bc18ebd40f670c68ed0
 RPROVIDES:${PN} += "gcab-devel \
 gcab-devel(aarch-64) \
 pkgconfig(libgcab-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgcab-1_0-0 \
 pkgconfig(gio-2.0)"

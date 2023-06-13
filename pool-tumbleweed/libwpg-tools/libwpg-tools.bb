@@ -9,6 +9,7 @@ RPM_HASH = "3de6469472e83b00454c97417efd17b99ef74b63f1a35f03157e669b9a46eccca7b7
 
 RPROVIDES:${PN} += "libwpg-tools \
 libwpg-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

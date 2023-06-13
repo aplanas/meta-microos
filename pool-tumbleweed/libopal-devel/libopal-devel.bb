@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libopal-devel \
 libopal-devel(aarch-64) \
 opal-devel \
 pkgconfig(opal)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopal3_18_8 \
 pkgconfig(libsrtp2) \

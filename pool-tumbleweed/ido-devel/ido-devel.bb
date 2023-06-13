@@ -13,6 +13,7 @@ RPM_HASH = "cf1e932d42095cdce7d5b165ad64564a2a759b8b83e8724d27c07e48e7147eac1dde
 RPROVIDES:${PN} += "ido-devel \
 ido-devel(aarch-64) \
 pkgconfig(libido3-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libido3-0_1-0 \
 pkgconfig(gio-2.0) \

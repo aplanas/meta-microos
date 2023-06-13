@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-engineio \
 python3.10dist(python-engineio) \
 python310-python-engineio \
 python3dist(python-engineio)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

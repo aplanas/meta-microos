@@ -14,6 +14,7 @@ RPM_HASH = "96a95436653fc8ad3067b1b316023f3e71943fc39027e18c827658ab897ad72738ae
 
 RPROVIDES:${PN} += "espeak-ng \
 espeak-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

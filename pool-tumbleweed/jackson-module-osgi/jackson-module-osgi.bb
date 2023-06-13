@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jackson-module-osgi \
 mvn(com.fasterxml.jackson.module:jackson-module-osgi) \
 mvn(com.fasterxml.jackson.module:jackson-module-osgi:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-osgi)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-databind) \

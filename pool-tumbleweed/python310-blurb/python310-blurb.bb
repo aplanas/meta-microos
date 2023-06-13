@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-blurb \
 python3.10dist(blurb) \
 python310-blurb \
 python3dist(blurb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

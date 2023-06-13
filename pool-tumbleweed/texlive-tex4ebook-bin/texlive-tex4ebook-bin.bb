@@ -9,6 +9,7 @@ RPM_HASH = "f2b65d7c729820b0b8133c2668683a8d59b86836102283525a9a9faec49dbabb2268
 
 RPROVIDES:${PN} += "texlive-tex4ebook-bin \
 texlive-tex4ebook-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-tex4ebook"
 
 inherit rpm

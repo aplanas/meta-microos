@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-bashate \
 python3.10dist(bashate) \
 python310-bashate \
 python3dist(bashate)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

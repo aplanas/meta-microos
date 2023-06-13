@@ -13,6 +13,7 @@ RPM_HASH = "2786ff9b8f28a0932c00d4a1cabcdce27bd2d1ce0f87174ca5c31fe062920783b6b5
 RPROVIDES:${PN} += "libIccXML.so.2()(64bit) \
 libIccXML2 \
 libIccXML2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

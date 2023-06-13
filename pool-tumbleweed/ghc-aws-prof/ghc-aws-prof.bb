@@ -10,6 +10,7 @@ RPM_HASH = "e5668da39c2acb9137a52870ce477d994200724c571597847d174d9bd5b07b3ca778
 RPROVIDES:${PN} += "ghc-aws-prof \
 ghc-aws-prof(aarch-64) \
 ghc-prof(aws-0.23-3doj4K3gEsgA7HfIcBeC8x)"
+
 RDEPENDS:${PN} += "ghc-aws-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

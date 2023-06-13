@@ -16,6 +16,7 @@ perl(Net::HTTPServer::Request) \
 perl(Net::HTTPServer::Response) \
 perl(Net::HTTPServer::Session) \
 perl-Net-HTTPServer"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(URI)"
 

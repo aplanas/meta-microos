@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "azure-cli-core \
 python3.10dist(azure-cli-core) \
 python3dist(azure-cli-core)"
+
 RDEPENDS:${PN} += "azure-cli-nspkg \
 azure-cli-telemetry \
 python(abi) \

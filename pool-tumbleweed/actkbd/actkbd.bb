@@ -12,6 +12,7 @@ RPM_HASH = "151324968acf28d5911ae09fed01b89e1334e5964cb482832a9fc82e893909e90da5
 RPROVIDES:${PN} += "actkbd \
 actkbd(aarch-64) \
 config(actkbd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

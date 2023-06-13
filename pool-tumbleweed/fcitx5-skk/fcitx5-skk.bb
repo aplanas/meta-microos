@@ -13,6 +13,7 @@ fcitx5-skk(aarch-64) \
 libfcitx5-skk-config.so()(64bit) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.Skk.metainfo.xml)"
+
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

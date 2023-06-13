@@ -16,6 +16,7 @@ RPM_HASH = "548c989cd556acf87bb89b9c02ca1883badd66c6fa04143bd4a06c640437ddba79d5
 
 RPROVIDES:${PN} += "apache-arrow-dataset-devel-static \
 apache-arrow-dataset-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "apache-arrow-devel"
 
 inherit rpm

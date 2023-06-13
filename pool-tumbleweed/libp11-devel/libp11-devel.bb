@@ -18,6 +18,7 @@ RPM_HASH = "c959dae4b6a09924561b098b1b146b399448cd0b68067ec91832513c3d83bd49b008
 RPROVIDES:${PN} += "libp11-devel \
 libp11-devel(aarch-64) \
 pkgconfig(libp11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libp11-3 \
 openssl-devel"

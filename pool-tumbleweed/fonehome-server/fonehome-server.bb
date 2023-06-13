@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(fonehome-server) \
 fonehome-server"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 openssh \

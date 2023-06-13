@@ -13,6 +13,7 @@ RPM_HASH = "5c412adfa1a96d90a1bfaf59b21a597ad9a3a6101de8228a15daddc4545ce4c45719
 
 RPROVIDES:${PN} += "hdf5_1_12_2-gnu-mvapich2-hpc \
 hdf5_1_12_2-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

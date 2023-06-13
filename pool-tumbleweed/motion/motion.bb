@@ -15,6 +15,7 @@ RPM_HASH = "ce9eeda6ff9b2ef9e2a02abf37b5e46d793381ea631b51c07d7c08830e69d6035b04
 RPROVIDES:${PN} += "config(motion) \
 motion \
 motion(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

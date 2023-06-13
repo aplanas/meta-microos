@@ -14,6 +14,7 @@ libkmod.so.2(LIBKMOD_5)(64bit) \
 libkmod.so.2(LIBKMOD_6)(64bit) \
 libkmod2 \
 libkmod2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

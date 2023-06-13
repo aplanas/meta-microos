@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(textdistance) \
 python39-textdistance \
 python3dist(textdistance)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

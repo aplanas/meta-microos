@@ -11,6 +11,7 @@ RPM_HASH = "aeebac4741b182940d57a199f43159db01a3f89641ea3a32bf3275e0aabc7cff4051
 RPROVIDES:${PN} += "liblalburst.so.6()(64bit) \
 liblalburst6 \
 liblalburst6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

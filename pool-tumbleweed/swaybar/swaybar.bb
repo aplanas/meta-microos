@@ -9,6 +9,7 @@ RPM_HASH = "f9345e4292bfbe66980170350007d8f68ef02a32263f29b802580b605ec67615cf17
 
 RPROVIDES:${PN} += "swaybar \
 swaybar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

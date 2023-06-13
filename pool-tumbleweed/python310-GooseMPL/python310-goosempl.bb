@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-GooseMPL \
 python3.10dist(goosempl) \
 python310-GooseMPL \
 python3dist(goosempl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-deprecation \

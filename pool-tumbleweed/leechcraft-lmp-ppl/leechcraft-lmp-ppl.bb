@@ -10,6 +10,7 @@ RPM_HASH = "92cbe9be326a49b9df9e375669c66bc0845e0748d2891e22bbacdb6fb830fc88c4c6
 RPROVIDES:${PN} += "leechcraft-lmp-ppl \
 leechcraft-lmp-ppl(aarch-64) \
 libleechcraft_lmp_ppl.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-lmp \

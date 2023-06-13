@@ -9,6 +9,7 @@ RPM_HASH = "24b773b5b7e533644034e82e764156f7393b8556aa93b0dd3807214f6dcaec1ad7d2
 
 RPROVIDES:${PN} += "perseus-sdr-tools \
 perseus-sdr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

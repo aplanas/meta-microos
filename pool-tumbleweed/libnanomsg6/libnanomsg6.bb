@@ -11,6 +11,7 @@ RPM_HASH = "dbce78b87f98814a59d5d0ac8c63aa2816b1430e4bb6bba67de5bdadc3a495ee6925
 RPROVIDES:${PN} += "libnanomsg.so.6()(64bit) \
 libnanomsg6 \
 libnanomsg6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

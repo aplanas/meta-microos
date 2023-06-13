@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-registration) \
 python311-django-registration \
 python3dist(django-registration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-confusable-homoglyphs"

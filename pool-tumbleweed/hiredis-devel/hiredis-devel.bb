@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "hiredis-devel \
 hiredis-devel(aarch-64) \
 pkgconfig(hiredis) \
 pkgconfig(hiredis_ssl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhiredis1_1_0 \
 pkgconfig(hiredis)"

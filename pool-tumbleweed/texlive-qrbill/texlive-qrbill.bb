@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(epc.qrbill-cfg.tex) \
 tex(qrbill.sty) \
 tex(swiss.qrbill-cfg.tex) \
 texlive-qrbill"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

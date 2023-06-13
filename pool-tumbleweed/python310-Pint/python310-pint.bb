@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-Pint \
 python3.10dist(pint) \
 python310-Pint \
 python3dist(pint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/python3.10 \

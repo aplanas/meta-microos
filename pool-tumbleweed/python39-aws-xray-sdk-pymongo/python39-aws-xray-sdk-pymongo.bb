@@ -12,6 +12,7 @@ RPM_HASH = "cec0fb349e5090cb6ba41ca8da8f1363ac86e35518d1fb4d0e1677954d290b1b2fdf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-aws-xray-sdk-pymongo"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aws-xray-sdk \
 python39-pymongo"

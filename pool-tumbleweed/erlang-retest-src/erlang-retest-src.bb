@@ -9,6 +9,7 @@ RPM_HASH = "1b79ac0c08e01f504423a0315918701e68852890add9bc0be319be405efcac38b908
 
 RPROVIDES:${PN} += "erlang-retest-src \
 erlang-retest-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-retest"
 
 inherit rpm

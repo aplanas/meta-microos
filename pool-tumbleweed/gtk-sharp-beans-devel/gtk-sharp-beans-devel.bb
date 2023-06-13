@@ -10,6 +10,7 @@ RPM_HASH = "f476f0352b141aa978dba0870e15e80750c0ce85da0edafaf9d302f67d73ccfa67cf
 RPROVIDES:${PN} += "gtk-sharp-beans-devel \
 gtk-sharp-beans-devel(aarch-64) \
 pkgconfig(gtk-sharp-beans-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk-sharp-beans \
 pkgconfig(glib-sharp-2.0) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-XStatic-tv4 \
 python3.10dist(xstatic-tv4) \
 python310-XStatic-tv4 \
 python3dist(xstatic-tv4)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

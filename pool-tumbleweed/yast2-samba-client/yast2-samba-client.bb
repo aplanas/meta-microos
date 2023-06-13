@@ -19,6 +19,7 @@ perl(SambaNetJoin) \
 perl(SambaNmbLookup) \
 perl(SambaWinbind) \
 yast2-samba-client"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-XML-LibXML \
 yast2 \

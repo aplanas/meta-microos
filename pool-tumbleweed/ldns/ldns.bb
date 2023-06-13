@@ -14,6 +14,7 @@ RPM_HASH = "4a7e2140267c121ba5c5398826d346544a3a0737f354b04841a02851833fea2caea4
 
 RPROVIDES:${PN} += "ldns \
 ldns(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

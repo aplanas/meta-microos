@@ -15,6 +15,7 @@ rpm_macro(hpc_openmpi_init) \
 rpm_macro(hpc_openmpi_requires) \
 rpm_macro(hpc_openmpi_requires_devel) \
 rpm_macro(hpc_setup_openmpi)"
+
 RDEPENDS:${PN} += "openmpi_1_10_7-gnu-hpc-devel"
 
 inherit rpm

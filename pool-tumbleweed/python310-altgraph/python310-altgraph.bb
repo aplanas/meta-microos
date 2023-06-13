@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-altgraph \
 python3.10dist(altgraph) \
 python310-altgraph \
 python3dist(altgraph)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

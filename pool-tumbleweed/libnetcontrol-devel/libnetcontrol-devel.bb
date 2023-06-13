@@ -21,6 +21,7 @@ RPM_HASH = "1142fae576860948a36d9ecebfa0c924a78f9bdde47081517b84ede5507bbc189052
 RPROVIDES:${PN} += "libnetcontrol-devel \
 libnetcontrol-devel(aarch-64) \
 pkgconfig(netcontrol)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnetcontrol0"
 

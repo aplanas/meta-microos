@@ -17,6 +17,7 @@ python3.10dist(openapi-spec-validator) \
 python310-openapi-spec-validator \
 python310-openapi_spec_validator \
 python3dist(openapi-spec-validator)"
+
 RDEPENDS:${PN} += "(python310-jsonschema >= 4.0.0 with python310-jsonschema < 4.18) \
 /bin/sh \
 /usr/bin/python3.10 \

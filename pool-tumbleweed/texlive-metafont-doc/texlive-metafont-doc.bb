@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "man(inimf.1) \
 man(mf-nowin.1) \
 man(mf.1) \
 texlive-metafont-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

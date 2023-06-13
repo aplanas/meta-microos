@@ -14,6 +14,7 @@ perl(Math::BigInt) \
 perl(Math::BigInt::Calc) \
 perl(Math::BigInt::Lib) \
 perl-Math-BigInt"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp) \
 perl(Math::Complex)"

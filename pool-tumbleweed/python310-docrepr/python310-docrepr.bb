@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-docrepr \
 python3.10dist(docrepr) \
 python310-docrepr \
 python3dist(docrepr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-Sphinx \

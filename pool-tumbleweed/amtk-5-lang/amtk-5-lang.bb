@@ -39,6 +39,7 @@ locale(amtk-5:sv) \
 locale(amtk-5:tr) \
 locale(amtk-5:uk) \
 locale(amtk-5:zh_CN)"
+
 RDEPENDS:${PN} += "amtk-5"
 
 inherit rpm

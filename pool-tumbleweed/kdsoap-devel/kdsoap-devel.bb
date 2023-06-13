@@ -12,6 +12,7 @@ RPM_HASH = "a1d2d1ba405c8623b9cd1edbbbda6332d7efefe4a548936aed0265883d4571947618
 RPROVIDES:${PN} += "cmake(KDSoap) \
 kdsoap-devel \
 kdsoap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

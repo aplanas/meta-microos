@@ -14,6 +14,7 @@ RPM_HASH = "6dceb0dc2422b1d950af8cbc69883f0461cfaea810f49fd8adb35d0d061eb9249bdd
 RPROVIDES:${PN} += "libdrm_etnaviv.so.1()(64bit) \
 libdrm_etnaviv1 \
 libdrm_etnaviv1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

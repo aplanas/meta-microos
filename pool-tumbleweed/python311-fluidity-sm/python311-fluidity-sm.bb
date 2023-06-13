@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fluidity-sm) \
 python311-fluidity-sm \
 python3dist(fluidity-sm)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

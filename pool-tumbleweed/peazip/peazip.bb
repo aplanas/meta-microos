@@ -41,6 +41,7 @@ mimehandler(application/x-zip) \
 mimehandler(application/zip) \
 peazip \
 peazip(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libQt5Pas.so.1()(64bit) \
 libX11.so.6()(64bit) \

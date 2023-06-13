@@ -9,6 +9,7 @@ RPM_HASH = "9e373c3cefe71b457e7e0024f8a73b9338bf6c31b2c45604e706d0a0088e1d1481ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yambar-devel"
+
 RDEPENDS:${PN} += "yambar"
 
 inherit rpm

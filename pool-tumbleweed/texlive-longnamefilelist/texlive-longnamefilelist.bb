@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(longnamefilelist.sty) \
 texlive-longnamefilelist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

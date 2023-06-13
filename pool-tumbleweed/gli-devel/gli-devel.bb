@@ -20,6 +20,7 @@ RPM_HASH = "29d72d7005c18dc336d67d27eef12fbcafbb77a49b68f659f87f875c31b229d62150
 RPROVIDES:${PN} += "cmake(gli) \
 gli-devel \
 gli-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

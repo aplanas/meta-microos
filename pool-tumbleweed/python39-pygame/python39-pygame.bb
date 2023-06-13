@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(pygame) \
 python39-pygame \
 python39-pygame(aarch-64) \
 python3dist(pygame)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/python3.9 \
 fontconfig \

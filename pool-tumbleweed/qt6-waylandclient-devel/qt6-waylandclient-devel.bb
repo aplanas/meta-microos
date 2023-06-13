@@ -12,6 +12,7 @@ cmake(Qt6WaylandScannerTools) \
 pkgconfig(Qt6WaylandClient) \
 qt6-waylandclient-devel \
 qt6-waylandclient-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6WaylandGlobalPrivate) \

@@ -26,6 +26,7 @@ libmu_py.so.9()(64bit) \
 libmu_scm.so.9()(64bit) \
 libmu_sieve.so.9()(64bit) \
 libmuaux.so.9()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

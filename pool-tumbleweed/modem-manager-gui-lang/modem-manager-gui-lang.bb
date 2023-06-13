@@ -25,6 +25,7 @@ locale(modem-manager-gui:uk) \
 locale(modem-manager-gui:zh_CN) \
 modem-manager-gui-lang \
 modem-manager-gui-lang-all"
+
 RDEPENDS:${PN} += "modem-manager-gui"
 
 inherit rpm

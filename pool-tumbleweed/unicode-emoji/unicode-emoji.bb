@@ -11,6 +11,7 @@ RPM_HASH = "8b2c98eff031ff61d7c0a9a658ef43c342b2c5ad773e8a3ba34783235c15e286faab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unicode-emoji"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

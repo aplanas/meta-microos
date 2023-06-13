@@ -18,6 +18,7 @@ RPM_HASH = "6d6f14eaa5f7ed4f1f53539c528e3e61fb3f68f3304e6066e506222c926b2cb70f51
 
 RPROVIDES:${PN} += "azove \
 azove(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

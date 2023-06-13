@@ -12,6 +12,7 @@ RPM_HASH = "2ef4e7fd6c2a61c50636228afc74142b30d5e10d77f5e4c0df2359d157000038cc25
 RPROVIDES:${PN} += "libtsk.so.19()(64bit) \
 libtsk19 \
 libtsk19(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

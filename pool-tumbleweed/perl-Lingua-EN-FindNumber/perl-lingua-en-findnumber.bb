@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Lingua::EN::FindNumber) \
 perl-Lingua-EN-FindNumber"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Lingua::EN::Words2Nums)"
 

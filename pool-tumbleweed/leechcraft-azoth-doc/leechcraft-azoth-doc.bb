@@ -14,6 +14,7 @@ RPM_HASH = "ba8ca1e3518e9358a678dc37d7f993f51ed80df252af03e5dbc55ba65870b14b5145
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-azoth-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

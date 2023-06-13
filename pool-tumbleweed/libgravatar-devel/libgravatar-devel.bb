@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Gravatar) \
 cmake(KPim5Gravatar) \
 libgravatar-devel \
 libgravatar-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKPim5Gravatar5"
 
 inherit rpm

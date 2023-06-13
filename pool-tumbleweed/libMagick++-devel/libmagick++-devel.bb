@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "libMagick++-devel \
 libMagick++-devel(aarch-64) \
 pkgconfig(Magick++) \
 pkgconfig(Magick++-7.Q16HDRI)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libMagick++-7_Q16HDRI5 \

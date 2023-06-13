@@ -12,6 +12,7 @@ RPM_HASH = "cb0d49188a66f10949946ca63f2c47bb335d47435085e6d966caf6aa0d7e2d868305
 RPROVIDES:${PN} += "ghc-megaparsec \
 ghc-megaparsec(aarch-64) \
 libHSmegaparsec-9.3.0-9LuWCOgzW7qD3PYWTEm9Pv-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

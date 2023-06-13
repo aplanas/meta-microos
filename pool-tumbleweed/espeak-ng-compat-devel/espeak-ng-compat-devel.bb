@@ -10,6 +10,7 @@ RPM_HASH = "c9b8f7332d0a2c44dd023eca0d4711c47476b651721a56e828fb2cec3ddb61d96061
 
 RPROVIDES:${PN} += "espeak-ng-compat-devel \
 espeak-ng-compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "espeak-ng-compat \
 espeak-ng-devel \
 libespeak-ng1"

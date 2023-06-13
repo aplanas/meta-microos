@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyusid) \
 python39-pyUSID \
 python3dist(pyusid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Pillow \
 python39-cytoolz \

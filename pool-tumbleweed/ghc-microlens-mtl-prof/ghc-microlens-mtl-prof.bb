@@ -10,6 +10,7 @@ RPM_HASH = "a3c6e560fdb2f10aab56ef52db321d5ba9059a610b4bc7b0fbb72e23c8909b228ba1
 RPROVIDES:${PN} += "ghc-microlens-mtl-prof \
 ghc-microlens-mtl-prof(aarch-64) \
 ghc-prof(microlens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV)"
+
 RDEPENDS:${PN} += "ghc-microlens-mtl-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1) \

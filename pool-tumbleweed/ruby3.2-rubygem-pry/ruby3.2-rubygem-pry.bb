@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:pry) \
 rubygem(ruby:3.2.0:pry:0) \
 rubygem(ruby:3.2.0:pry:0.14) \
 rubygem(ruby:3.2.0:pry:0.14.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

@@ -9,6 +9,7 @@ RPM_HASH = "96bb70a60a1e61e9bfaf37740e0dafef41d9f3b74cb39723a6b0c0884f1fd78203e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slf4j-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

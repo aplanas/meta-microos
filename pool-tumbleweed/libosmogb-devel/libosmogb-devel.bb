@@ -13,6 +13,7 @@ RPM_HASH = "1df57a369d4ad5d3174dd5559f0a665902425c6d1e441d15339ab89b2585f0e81c5e
 RPROVIDES:${PN} += "libosmogb-devel \
 libosmogb-devel(aarch-64) \
 pkgconfig(libosmogb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmogb14 \

@@ -83,6 +83,7 @@ locale(mypaint:zh_HK) \
 locale(mypaint:zh_TW) \
 mypaint-lang \
 mypaint-lang-all"
+
 RDEPENDS:${PN} += "mypaint"
 
 inherit rpm

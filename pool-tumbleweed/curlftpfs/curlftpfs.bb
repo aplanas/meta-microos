@@ -22,6 +22,7 @@ RPM_HASH = "1243f0b53d80b87325c641bebccd498a2b7d2855c5791ea49346fd5b46c2b8dc41b9
 
 RPROVIDES:${PN} += "curlftpfs \
 curlftpfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

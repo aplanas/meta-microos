@@ -63,6 +63,7 @@ locale(kdiff3:ug) \
 locale(kdiff3:uk) \
 locale(kdiff3:zh_CN) \
 locale(kdiff3:zh_TW)"
+
 RDEPENDS:${PN} += "kdiff3"
 
 inherit rpm

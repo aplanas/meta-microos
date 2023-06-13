@@ -10,6 +10,7 @@ RPM_HASH = "7ab5fe14636e562d92f6dbf46cf4707651ab2893922d240fb96464c0cb471312519f
 RPROVIDES:${PN} += "libnma-gtk4-devel \
 libnma-gtk4-devel(aarch-64) \
 pkgconfig(libnma-gtk4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnma-devel \
 libnma-gtk4-0 \

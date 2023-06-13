@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "perl(Config::Grammar) \
 perl(Config::Grammar::Document) \
 perl(Config::Grammar::Dynamic) \
 perl-Config-Grammar"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

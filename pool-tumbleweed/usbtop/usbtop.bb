@@ -11,6 +11,7 @@ RPM_HASH = "f8e6a0f92d3a6cfce35d55a7da0790af8a46bfd2cde1f50573a88bbf967d47b9d6fa
 
 RPROVIDES:${PN} += "usbtop \
 usbtop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -15,6 +15,7 @@ python3.10dist(phonenumbers) \
 python310-phonenumbers \
 python310-phonenumberslite \
 python3dist(phonenumbers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

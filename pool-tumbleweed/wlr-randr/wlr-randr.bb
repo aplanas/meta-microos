@@ -9,6 +9,7 @@ RPM_HASH = "e10fa1c005955917422a0e884681c03ad1b96be7b9920a78d1fac2ec47ae36242fb8
 
 RPROVIDES:${PN} += "wlr-randr \
 wlr-randr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

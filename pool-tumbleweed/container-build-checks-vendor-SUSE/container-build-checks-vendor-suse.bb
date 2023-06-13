@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-checks-vendor \
 container-build-checks-vendor-SUSE"
+
 RDEPENDS:${PN} += "container-build-checks"
 
 inherit rpm

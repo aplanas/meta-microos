@@ -10,6 +10,7 @@ RPM_HASH = "fd57b761812bd429aee8924ebda8d816adcc851dacca8eee3e4769b69f8c3b406da1
 RPROVIDES:${PN} += "libnotmuch.so.5()(64bit) \
 libnotmuch5 \
 libnotmuch5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "6b1f7366dc8c1b04e3a8fb2261e68b7f77d9b8474bcbcdd50015a3e74ebcce943919
 
 RPROVIDES:${PN} += "mumps_5_3_5-gnu-mpich-hpc-examples \
 mumps_5_3_5-gnu-mpich-hpc-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

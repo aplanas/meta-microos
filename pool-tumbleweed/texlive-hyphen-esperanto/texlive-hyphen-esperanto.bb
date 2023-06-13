@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(hyph-eo.il3.tex) \
 tex(hyph-eo.tex) \
 tex(loadhyph-eo.tex) \
 texlive-hyphen-esperanto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

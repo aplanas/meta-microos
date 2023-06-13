@@ -9,6 +9,7 @@ RPM_HASH = "c20bd13f003a1854eb9de7278b2a07b505bc48735e8c8d00761bb83f72336e9afbe2
 
 RPROVIDES:${PN} += "sispmctl-devel \
 sispmctl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsispmctl0"
 
 inherit rpm

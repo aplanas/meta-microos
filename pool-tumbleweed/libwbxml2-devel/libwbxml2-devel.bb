@@ -13,6 +13,7 @@ RPM_HASH = "001271529c5b4aa9055e359303b3946022c3b9fe7a6a1e40098284a7914747147e69
 RPROVIDES:${PN} += "libwbxml2-devel \
 libwbxml2-devel(aarch-64) \
 pkgconfig(libwbxml2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libexpat-devel \

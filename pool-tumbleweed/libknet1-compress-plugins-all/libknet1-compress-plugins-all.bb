@@ -9,6 +9,7 @@ RPM_HASH = "43447f70964621664165a89402041eb09c1050d8b9a9576cda95573ff8735c51eed1
 
 RPROVIDES:${PN} += "libknet1-compress-plugins-all \
 libknet1-compress-plugins-all(aarch-64)"
+
 RDEPENDS:${PN} += "libknet1-compress-bzip2-plugin(aarch-64) \
 libknet1-compress-lz4-plugin(aarch-64) \
 libknet1-compress-lzma-plugin(aarch-64) \

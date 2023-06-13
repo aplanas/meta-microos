@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mailman3-fedmsg-plugin) \
 python311-mailman3-fedmsg-plugin \
 python3dist(mailman3-fedmsg-plugin)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

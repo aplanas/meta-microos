@@ -11,6 +11,7 @@ RPM_HASH = "6e8589b85243757ae8c8a279202be8c0d8c21a01b633ab5c899ba4c9aac6bceaaf00
 RPROVIDES:${PN} += "gtk2-engine-thinice \
 gtk2-engine-thinice(aarch-64) \
 libthinice.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

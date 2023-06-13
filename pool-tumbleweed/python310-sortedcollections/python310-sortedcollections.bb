@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-sortedcollections \
 python3.10dist(sortedcollections) \
 python310-sortedcollections \
 python3dist(sortedcollections)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-sortedcontainers"
 

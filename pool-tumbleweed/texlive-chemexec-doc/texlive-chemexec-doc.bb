@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-chemexec-doc:de;en) \
 texlive-chemexec-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

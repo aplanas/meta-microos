@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mkdocs-bootstrap \
 python3.10dist(mkdocs-bootstrap) \
 python310-mkdocs-bootstrap \
 python3dist(mkdocs-bootstrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mkdocs"
 

@@ -11,6 +11,7 @@ RPM_HASH = "7fefb8bbb99479211d5183c1e1119b88fde25e3a4e955989063d2c9c9c48b977972c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redfish-finder"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 NetworkManager \

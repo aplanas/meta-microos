@@ -9,6 +9,7 @@ RPM_HASH = "b936753acc14d64c344dcf7e45980ebbe18cfe9e32fcb6df2323c890fbc73fcc8332
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openpgl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

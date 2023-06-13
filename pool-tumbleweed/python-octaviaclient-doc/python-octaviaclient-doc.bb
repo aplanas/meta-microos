@@ -11,6 +11,7 @@ RPM_HASH = "66a2dd9578cc6c2a14c04e1e37f6970a411d2fc0b048b9d79eb785ff2b881de6c3ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-octaviaclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

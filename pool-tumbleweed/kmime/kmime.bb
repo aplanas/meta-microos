@@ -9,6 +9,7 @@ RPM_HASH = "98e648883ca86b2ed8c3e5bb594ffe322f34ddea3fd0852345a77df22368c07d21b0
 
 RPROVIDES:${PN} += "kmime \
 kmime(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

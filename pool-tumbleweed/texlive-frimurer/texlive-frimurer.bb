@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(frimurer.enc) \
 tex(frimurer.sty) \
 tex(frimurer.tfm) \
 texlive-frimurer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

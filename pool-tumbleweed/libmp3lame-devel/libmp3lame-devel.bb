@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libmp3lame-devel \
 libmp3lame-devel(aarch-64) \
 pkgconfig(lame) \
 pkgconfig(libmp3lame)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmp3lame0"
 

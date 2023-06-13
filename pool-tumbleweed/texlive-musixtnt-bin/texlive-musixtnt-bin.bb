@@ -9,6 +9,7 @@ RPM_HASH = "216e232aaeceb639526f132163cc949ca0abfb7a8d6fb94a08f7b27de6b4b58c0a0b
 
 RPROVIDES:${PN} += "texlive-musixtnt-bin \
 texlive-musixtnt-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

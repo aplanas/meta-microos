@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.10dist(unrar-wrapper) \
 python3dist(unrar-wrapper) \
 unrar \
 unrar_wrapper"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-setuptools \

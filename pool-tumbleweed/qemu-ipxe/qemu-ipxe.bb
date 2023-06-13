@@ -10,6 +10,7 @@ RPM_HASH = "f04698e5ef4d6a005fa8a45df2e03cffb7e356cce22fe4f97007350500ae99abd382
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ipxe"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

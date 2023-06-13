@@ -10,6 +10,7 @@ RPM_HASH = "78c6056717d7e5eb529a0b6e4c4ae61ca6b817692666018ceb70282a57eb530ffddb
 
 RPROVIDES:${PN} += "samba-ldb-ldap \
 samba-ldb-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

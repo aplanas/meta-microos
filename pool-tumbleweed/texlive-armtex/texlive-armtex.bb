@@ -39,6 +39,7 @@ tex(ot6cmr.fd) \
 tex(ot6cmss.fd) \
 tex(ot6enc.def) \
 texlive-armtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

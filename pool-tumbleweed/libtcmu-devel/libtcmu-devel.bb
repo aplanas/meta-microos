@@ -9,6 +9,7 @@ RPM_HASH = "7c009f6bb61608c3f64fc94a72f6fe2fbd08340c302a679fd3707721e3ed128e1ea2
 
 RPROVIDES:${PN} += "libtcmu-devel \
 libtcmu-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtcmu2 \
 tcmu-runner"
 

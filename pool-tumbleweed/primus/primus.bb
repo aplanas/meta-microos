@@ -16,6 +16,7 @@ RPM_HASH = "991079b89a4d46ad5c5228d00b2c93506fc9130f4ab33f05729fa5d7f5f65e1328e6
 RPROVIDES:${PN} += "libGL.so.1()(64bit) \
 primus \
 primus(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 bumblebee \
 ld-linux-aarch64.so.1()(64bit) \

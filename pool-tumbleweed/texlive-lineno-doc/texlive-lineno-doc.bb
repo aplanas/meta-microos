@@ -9,6 +9,7 @@ RPM_HASH = "bd06da67e4b0de9d315bd87ed9c090554342eff9a0c33081a4c85ded28fca2e27129
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lineno-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "b71194d94510cb9319b96ba9c17857be172031aebc819117422743c0ce7274b32f06
 
 RPROVIDES:${PN} += "connman-plugin-openvpn \
 connman-plugin-openvpn(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

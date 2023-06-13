@@ -12,6 +12,7 @@ RPM_HASH = "843cb81211257b9657edc192d7360f361af60f596e9d6b6dd3b598185e1b903dbd7c
 
 RPROVIDES:${PN} += "python3-libftdi1 \
 python3-libftdi1(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

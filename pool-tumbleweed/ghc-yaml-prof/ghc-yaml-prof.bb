@@ -10,6 +10,7 @@ RPM_HASH = "66dcce708fc8255071ce48f75ef9c47ca02eee57306c2cc3cf3200eddd818f2c234e
 RPROVIDES:${PN} += "ghc-prof(yaml-0.11.11.0-AM27xwJeGq9DNHRH5iLzHi) \
 ghc-yaml-prof \
 ghc-yaml-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \

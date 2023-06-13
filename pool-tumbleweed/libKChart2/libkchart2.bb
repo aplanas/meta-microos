@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libKChart.so.2()(64bit) \
 libKChart2 \
 libKChart2(aarch-64) \
 libkchart"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

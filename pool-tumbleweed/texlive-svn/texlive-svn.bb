@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(svn.sty) \
 texlive-svn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

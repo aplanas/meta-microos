@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "grub2-arm64-efi-extras \
 grub2-arm64-efi:/usr/share/grub2/arm64-efi/zfs.mod \
 grub2-arm64-efi:/usr/share/grub2/arm64-efi/zfscrypt.mod \
 grub2-arm64-efi:/usr/share/grub2/arm64-efi/zfsinfo.mod"
+
 RDEPENDS:${PN} += "grub2-arm64-efi"
 
 inherit rpm

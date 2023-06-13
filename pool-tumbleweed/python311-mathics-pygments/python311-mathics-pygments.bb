@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mathics-pygments) \
 python311-mathics-pygments \
 python3dist(mathics-pygments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Mathics-Scanner \
 python311-Pygments"

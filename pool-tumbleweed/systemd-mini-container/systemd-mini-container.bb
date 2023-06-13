@@ -20,6 +20,7 @@ systemd-container \
 systemd-mini-container \
 systemd-mini-container(aarch-64) \
 systemd:/usr/bin/systemd-nspawn"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/gpg \
 /usr/bin/tar \

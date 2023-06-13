@@ -15,6 +15,7 @@ ant-jakarta-oro \
 config(ant-apache-oro) \
 mvn(org.apache.ant:ant-apache-oro) \
 mvn(org.apache.ant:ant-apache-oro:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

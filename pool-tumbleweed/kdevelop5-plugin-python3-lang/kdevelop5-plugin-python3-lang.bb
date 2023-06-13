@@ -51,6 +51,7 @@ locale(kdevelop5-plugin-python3:ug) \
 locale(kdevelop5-plugin-python3:uk) \
 locale(kdevelop5-plugin-python3:zh_CN) \
 locale(kdevelop5-plugin-python3:zh_TW)"
+
 RDEPENDS:${PN} += "kdevelop5-plugin-python3"
 
 inherit rpm

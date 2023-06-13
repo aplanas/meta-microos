@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(coolthms.sty) \
 texlive-coolthms"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

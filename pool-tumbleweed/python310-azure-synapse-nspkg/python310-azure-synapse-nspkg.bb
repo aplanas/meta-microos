@@ -18,6 +18,7 @@ python3.10dist(azure-synapse-nspkg) \
 python310-azure-synapse \
 python310-azure-synapse-nspkg \
 python3dist(azure-synapse-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

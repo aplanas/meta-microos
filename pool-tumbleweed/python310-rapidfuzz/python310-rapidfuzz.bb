@@ -12,6 +12,7 @@ python3.10dist(rapidfuzz) \
 python310-rapidfuzz \
 python310-rapidfuzz(aarch-64) \
 python3dist(rapidfuzz)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

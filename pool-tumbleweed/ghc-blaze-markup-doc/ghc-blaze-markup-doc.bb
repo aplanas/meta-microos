@@ -9,6 +9,7 @@ RPM_HASH = "79d72453849d3fc0f19c4f3e861cb79487b287500cf2ecc9706162f645d0ffcfd859
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-blaze-markup-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "2ca459ec2c79109afd3680deaeb05e1364d2c4a5d5d11c6f0f0c5bb4f08a8e07b3f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-multiplesearch"
+
 RDEPENDS:${PN} += "/bin/sh \
 vim"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-cov-core \
 python3.10dist(cov-core) \
 python310-cov-core \
 python3dist(cov-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coverage"
 

@@ -14,6 +14,7 @@ RPM_HASH = "ec2a72b493769cf9517e8ee553d1521e4bfb09b9b85a17ae3e615d9f19db34e29f5b
 RPROVIDES:${PN} += "libcairo-script-interpreter.so.2()(64bit) \
 libcairo-script-interpreter2 \
 libcairo-script-interpreter2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

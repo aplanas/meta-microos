@@ -117,6 +117,7 @@ font(cinzelblack) \
 font(cinzeldecorative) \
 font(cinzeldecorativeblack) \
 texlive-cinzel-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

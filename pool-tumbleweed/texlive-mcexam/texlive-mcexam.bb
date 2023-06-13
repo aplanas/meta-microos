@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mcexam.sty) \
 texlive-mcexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

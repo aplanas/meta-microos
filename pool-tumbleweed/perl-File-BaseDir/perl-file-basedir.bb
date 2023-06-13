@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "perl(File::BaseDir) \
 perl(File::IconTheme) \
 perl(File::UserDirs) \
 perl-File-BaseDir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IPC::System::Simple)"
 

@@ -12,6 +12,7 @@ RPM_HASH = "cb4c3f0264f4584d043c938c16d3ab3483a52777c7a0c016ac26587a345ddd753a93
 
 RPROVIDES:${PN} += "libmariadb_plugins \
 libmariadb_plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

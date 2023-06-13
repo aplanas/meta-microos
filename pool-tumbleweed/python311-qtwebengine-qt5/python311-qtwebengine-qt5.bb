@@ -14,6 +14,7 @@ python311-PyQtWebEngine \
 python311-qtwebengine-qt5 \
 python311-qtwebengine-qt5(aarch-64) \
 python3dist(pyqtwebengine)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

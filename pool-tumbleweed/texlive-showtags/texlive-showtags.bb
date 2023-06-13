@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(showtags.sty) \
 texlive-showtags"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

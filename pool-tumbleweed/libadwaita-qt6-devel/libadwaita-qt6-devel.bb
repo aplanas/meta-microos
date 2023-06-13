@@ -11,6 +11,7 @@ RPM_HASH = "8cb7d167aa76deae9734d4412a3c8c7b5766e30582365a2efed70489620e12df46a4
 RPROVIDES:${PN} += "cmake(AdwaitaQt6) \
 libadwaita-qt6-devel \
 libadwaita-qt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Core) \
 cmake(Qt6Widgets) \
 libadwaitaqt6-1"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-screen-recorder-lang \
 deepin-screen-recorder-lang-all"
+
 RDEPENDS:${PN} += "deepin-screen-recorder"
 
 inherit rpm

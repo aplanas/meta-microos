@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex \
 tex(mgltex.sty)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 mathgl-tools \

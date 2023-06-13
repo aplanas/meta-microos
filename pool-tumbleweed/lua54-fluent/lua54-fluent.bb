@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-fluent \
 lua54-fluent"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-cldr \
 lua54-luaepnf \

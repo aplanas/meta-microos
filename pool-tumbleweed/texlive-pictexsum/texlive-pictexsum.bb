@@ -12,6 +12,7 @@ RPM_HASH = "fc534a5f480f3e4fd065c75a72ee69f2ae2b93e53a8e33233e3bc825ede04b78d16a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pictexsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

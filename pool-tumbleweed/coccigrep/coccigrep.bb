@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "coccigrep \
 python3.10dist(coccigrep) \
 python3dist(coccigrep)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 coccinelle \
 python(abi) \

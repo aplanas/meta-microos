@@ -77,6 +77,7 @@ locale(mailimporter:zh_CN) \
 locale(mailimporter:zh_TW) \
 mailimporter-lang \
 mailimporter-lang-all"
+
 RDEPENDS:${PN} += "mailimporter"
 
 inherit rpm

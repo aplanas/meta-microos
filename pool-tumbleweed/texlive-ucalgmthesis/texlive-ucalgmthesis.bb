@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ucalgmthesis.cls) \
 texlive-ucalgmthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "7120d7eea888f23879daed41fe293e08910182cb92fc68a2722b1182162978cd54dc
 
 RPROVIDES:${PN} += "budgie-desktop-doc \
 budgie-desktop-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

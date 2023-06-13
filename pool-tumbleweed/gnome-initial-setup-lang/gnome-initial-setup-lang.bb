@@ -80,6 +80,7 @@ locale(gnome-initial-setup:vi) \
 locale(gnome-initial-setup:zh_CN) \
 locale(gnome-initial-setup:zh_HK) \
 locale(gnome-initial-setup:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-initial-setup"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libbsd-devel \
 libbsd-devel(aarch-64) \
 pkgconfig(libbsd) \
 pkgconfig(libbsd-overlay)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libbsd0 \

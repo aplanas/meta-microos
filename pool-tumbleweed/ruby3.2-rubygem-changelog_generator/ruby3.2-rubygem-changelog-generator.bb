@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:changelog_generator) \
 rubygem(ruby:3.2.0:changelog_generator:0) \
 rubygem(ruby:3.2.0:changelog_generator:0.3) \
 rubygem(ruby:3.2.0:changelog_generator:0.3.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

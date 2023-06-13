@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fusesource-pom \
 mvn(org.fusesource:fusesource-pom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

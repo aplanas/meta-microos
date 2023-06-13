@@ -16,6 +16,7 @@ RPM_HASH = "113c07a35e2042338133e18358fe5f0d0b9add4e533f22c14fa29d959e775723cac6
 
 RPROVIDES:${PN} += "openspecfun-devel \
 openspecfun-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopenspecfun1"
 
 inherit rpm

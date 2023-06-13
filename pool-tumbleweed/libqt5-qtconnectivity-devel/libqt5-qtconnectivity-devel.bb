@@ -13,6 +13,7 @@ libqt5-qtconnectivity-devel \
 libqt5-qtconnectivity-devel(aarch-64) \
 pkgconfig(Qt5Bluetooth) \
 pkgconfig(Qt5Nfc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Bluetooth5 \
 libQt5Nfc5 \

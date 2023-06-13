@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(extract.sty) \
 texlive-extract"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -17,6 +17,7 @@ RPM_HASH = "0659a4ad3a07305321baec71dfbbfa13f1c92740f34a02ebaaa23b4e0ab4832dca2f
 RPROVIDES:${PN} += "libmonosgen-2.0.so.1()(64bit) \
 libmonosgen-2_0-1 \
 libmonosgen-2_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

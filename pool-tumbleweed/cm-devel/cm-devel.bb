@@ -13,6 +13,7 @@ RPM_HASH = "fc7ea1f517932acb398944c01bb537734e8ba2f69209605f385ec9e6bcb59ef7cec7
 
 RPROVIDES:${PN} += "cm-devel \
 cm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcm0 \
 mpc-devel \
 mpfrcx-devel \

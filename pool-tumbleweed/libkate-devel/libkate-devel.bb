@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "libkate-devel \
 libkate-devel(aarch-64) \
 pkgconfig(kate) \
 pkgconfig(oggkate)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libkate1 \

@@ -10,6 +10,7 @@ RPM_HASH = "873b0b4ad60d5f997ddcaa7864fbb8700d5d4322f300ce6d8c60554334db4a14fcb8
 
 RPROVIDES:${PN} += "kimap \
 kimap(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "60b974cb64918688394a0ffa399dc1d284887061bd441483d8bf3cdf0bcc2eb744d4
 
 RPROVIDES:${PN} += "libQt5Bodymovin-private-headers-devel \
 libQt5Bodymovin-private-headers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Bodymovin-devel"
 
 inherit rpm

@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:net-ssh) \
 rubygem(ruby:3.2.0:net-ssh:7) \
 rubygem(ruby:3.2.0:net-ssh:7.0) \
 rubygem(ruby:3.2.0:net-ssh:7.0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi)"
 

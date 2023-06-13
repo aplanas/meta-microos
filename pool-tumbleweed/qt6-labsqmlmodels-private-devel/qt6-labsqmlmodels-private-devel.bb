@@ -10,6 +10,7 @@ RPM_HASH = "6d39f08b0382275c6f9c43f981f47392cbadbbf0bce03cf81b98cc766fd220cf2ca1
 
 RPROVIDES:${PN} += "qt6-labsqmlmodels-private-devel \
 qt6-labsqmlmodels-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6LabsQmlModels)"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(devpi-common) \
 python39-devpi-common \
 python3dist(devpi-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-packaging \
 python39-py \

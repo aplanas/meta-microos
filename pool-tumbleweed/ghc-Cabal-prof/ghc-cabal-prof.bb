@@ -10,6 +10,7 @@ RPM_HASH = "99a686e744d1b69060a1fff7010612d242df517d00e4c1675fe359256bbe628aac17
 RPROVIDES:${PN} += "ghc-Cabal-prof \
 ghc-Cabal-prof(aarch-64) \
 ghc-prof(Cabal-3.8.1.0)"
+
 RDEPENDS:${PN} += "ghc-Cabal-devel(aarch-64) \
 ghc-prof(Cabal-syntax-3.8.1.0) \
 ghc-prof(array-0.5.4.0) \

@@ -11,6 +11,7 @@ RPM_HASH = "05ad1ec5115c6fab104001d8eb3d77b6d7e35cf4930a3c59cf3a26bc4d2b75d47c33
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mumps-gnu-mvapich2-hpc-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 mumps_5_3_5-gnu-mvapich2-hpc-examples"
 

@@ -16,6 +16,7 @@ python3.10dist(path) \
 python310-path \
 python310-path.py \
 python3dist(path)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

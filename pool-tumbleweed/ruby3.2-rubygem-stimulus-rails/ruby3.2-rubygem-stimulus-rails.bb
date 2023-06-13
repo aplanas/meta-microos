@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:stimulus-rails:1) \
 rubygem(ruby:3.2.0:stimulus-rails:1.2) \
 rubygem(ruby:3.2.0:stimulus-rails:1.2.1) \
 rubygem(stimulus-rails)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:railties)"
 

@@ -12,6 +12,7 @@ RPM_HASH = "21fcb8cc2a3c723ba6a43289833a4e0f1302e23434ae525617e74bc4b6ec3d2b2e8d
 RPROVIDES:${PN} += "courier-authlib-userdb \
 courier-authlib-userdb(aarch-64) \
 libauthuserdb.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

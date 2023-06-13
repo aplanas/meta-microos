@@ -9,6 +9,7 @@ RPM_HASH = "8d14f66ccc4041f0de4f8c245593edea8dc8cd3f9436428857455ee8011d44d349fe
 
 RPROVIDES:${PN} += "tntdb-postgresql \
 tntdb-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

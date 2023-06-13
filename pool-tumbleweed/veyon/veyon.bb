@@ -28,6 +28,7 @@ libldap-common.so()(64bit) \
 libveyon-core.so()(64bit) \
 veyon \
 veyon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkexec \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "1297827293e85d8f9c74e0808ccd806148cb5084f08a8879afab0353d5e102972b3f
 RPROVIDES:${PN} += "pkgconfig(tsk) \
 sleuthkit-devel \
 sleuthkit-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtsk19 \
 pkgconfig(libewf) \

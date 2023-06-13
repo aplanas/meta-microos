@@ -9,6 +9,7 @@ RPM_HASH = "08958fa36a9b17ebdc405f16178cc046b82d01d4fbdd4bf0b34d2e34f1cecca98dfc
 
 RPROVIDES:${PN} += "ocaml-bigarray-compat \
 ocaml-bigarray-compat(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

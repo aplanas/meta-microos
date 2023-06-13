@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fontwrap.sty) \
 texlive-fontwrap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "137c9d9905e25b9145f20d7f45917d7a59c5bdf8480a2844d051f0a66bdcf43fcc9e
 
 RPROVIDES:${PN} += "plplot-driver-ntk \
 plplot-driver-ntk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

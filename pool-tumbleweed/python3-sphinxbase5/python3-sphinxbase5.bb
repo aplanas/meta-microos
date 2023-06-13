@@ -12,6 +12,7 @@ RPM_HASH = "fbff93e259423856b7474d0869f6e4534d095e19a81253c88fdde54e7313fdec4f33
 
 RPROVIDES:${PN} += "python3-sphinxbase5 \
 python3-sphinxbase5(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

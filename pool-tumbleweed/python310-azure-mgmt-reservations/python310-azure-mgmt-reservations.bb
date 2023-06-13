@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-reservations \
 python3.10dist(azure-mgmt-reservations) \
 python310-azure-mgmt-reservations \
 python3dist(azure-mgmt-reservations)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

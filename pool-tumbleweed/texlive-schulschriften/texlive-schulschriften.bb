@@ -78,6 +78,7 @@ tex(wevasl14.tfm) \
 tex(wevaub14.tfm) \
 tex(wevaubsl14.tfm) \
 texlive-schulschriften"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

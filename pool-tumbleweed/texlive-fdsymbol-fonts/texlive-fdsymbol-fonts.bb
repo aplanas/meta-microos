@@ -17,6 +17,7 @@ font(fdsymbold) \
 font(fdsymbole) \
 font(fdsymbolf) \
 texlive-fdsymbol-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -12,6 +12,7 @@ RPM_HASH = "c832d2d9377321c0e523b20b250bd564bb227fe1b24caa862dc8cbcd8ea095970135
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "givaro-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

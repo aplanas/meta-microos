@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mensa-tex.cls) \
 texlive-mensa-tex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

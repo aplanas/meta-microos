@@ -15,6 +15,7 @@ RPM_HASH = "841ee86bbe5c3d183b10cdf97e458917334dfbd62b78d647a6e27ba44e2feeb0dc48
 RPROVIDES:${PN} += "libgmodule-2.0.so.0()(64bit) \
 libgmodule-2_0-0 \
 libgmodule-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

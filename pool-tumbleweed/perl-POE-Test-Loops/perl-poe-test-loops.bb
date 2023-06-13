@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(POE::Test::DondeEstan) \
 perl(POE::Test::Loops) \
 perl-POE-Test-Loops"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"

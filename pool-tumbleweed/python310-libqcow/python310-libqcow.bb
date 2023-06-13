@@ -12,6 +12,7 @@ RPM_HASH = "456e76259dd6d6c28779f2dfcff0c9a1b1c3b2525d4f58fc5b8d38ea4770f9d94709
 RPROVIDES:${PN} += "python3-libqcow \
 python310-libqcow \
 python310-libqcow(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

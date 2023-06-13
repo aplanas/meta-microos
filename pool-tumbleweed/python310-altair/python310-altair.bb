@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-altair \
 python3.10dist(altair) \
 python310-altair \
 python3dist(altair)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-entrypoints \

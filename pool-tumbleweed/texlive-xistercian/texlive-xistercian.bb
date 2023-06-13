@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xistercian.sty) \
 texlive-xistercian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -39,6 +39,7 @@ tex(Starburst.sty) \
 tex(Typocaps.sty) \
 tex(Zallman.sty) \
 texlive-cfr-initials"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

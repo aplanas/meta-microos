@@ -9,6 +9,7 @@ RPM_HASH = "eacdae856da756cc40a81cd12b4c06b338b0cb3e078a8fead13cfe76afc18438b123
 
 RPROVIDES:${PN} += "pdsh-genders \
 pdsh-genders(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

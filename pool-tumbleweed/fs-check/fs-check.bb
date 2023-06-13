@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(fs-check) \
 fs-check"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 mailx"
 

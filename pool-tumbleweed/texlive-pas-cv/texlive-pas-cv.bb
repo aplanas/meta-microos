@@ -30,6 +30,7 @@ tex(macro-uranus.tex) \
 tex(macro-venus.tex) \
 tex(pas-cv.sty) \
 texlive-pas-cv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

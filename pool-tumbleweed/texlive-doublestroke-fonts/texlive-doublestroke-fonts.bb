@@ -15,6 +15,7 @@ font(dsss10) \
 font(dsss12) \
 font(dsss8) \
 texlive-doublestroke-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

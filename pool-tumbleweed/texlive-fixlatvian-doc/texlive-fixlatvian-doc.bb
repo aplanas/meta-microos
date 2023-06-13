@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fixlatvian-doc:lv) \
 texlive-fixlatvian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

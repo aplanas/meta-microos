@@ -15,6 +15,7 @@ RPM_HASH = "4cdf50da7f56b1247aa0426d56a0ae17a603fa75d985eed04e94e5daf3c9d20f8f04
 
 RPROVIDES:${PN} += "bowtie2 \
 bowtie2(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(azure-storage) \
 python39-azure-sdk-storage \
 python39-azure-storage \
 python3dist(azure-storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-nspkg \

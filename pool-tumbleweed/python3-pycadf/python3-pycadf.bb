@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-pycadf \
 python3.10dist(pycadf) \
 python3dist(pycadf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python-pycadf-common \
 python3-debtcollector \

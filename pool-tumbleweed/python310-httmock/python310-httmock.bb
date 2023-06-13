@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-httmock \
 python3.10dist(httmock) \
 python310-httmock \
 python3dist(httmock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

@@ -16,6 +16,7 @@ RPM_HASH = "734fd0adffdbc805763da36c15c36339f2953638658fe983ecfcd345b99ef6e8532c
 RPROVIDES:${PN} += "libdmapsharing-4.0.so.3()(64bit) \
 libdmapsharing-4_0-3 \
 libdmapsharing-4_0-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

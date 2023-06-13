@@ -9,6 +9,7 @@ RPM_HASH = "1b1ca63264cd411775001ae6b1b45a1879e426638b1238d334213b0cb25eded78eab
 
 RPROVIDES:${PN} += "rkdeveloptool \
 rkdeveloptool(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

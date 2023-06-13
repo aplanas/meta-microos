@@ -11,6 +11,7 @@ RPM_HASH = "4fad410545cb50b549316fe4d61e147c9f0be2a1bdcc48f0ab8552339db9765d34b8
 RPROVIDES:${PN} += "libhtp-devel \
 libhtp-devel(aarch-64) \
 pkgconfig(htp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhtp2"
 

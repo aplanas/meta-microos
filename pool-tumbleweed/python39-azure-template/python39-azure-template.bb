@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-template) \
 python39-azure-template \
 python3dist(azure-template)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-core"
 

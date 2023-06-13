@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libsord-0-devel \
 pkgconfig(sord-0) \
 sord-devel \
 sord-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsord-0-0 \
 pkgconfig(serd-0)"

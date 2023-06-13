@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uspace.sty) \
 texlive-uspace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

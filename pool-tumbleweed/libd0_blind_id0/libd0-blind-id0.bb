@@ -10,6 +10,7 @@ RPM_HASH = "255a7e019e5f58c16e7129105913d4dfd57421111d77e1f112523cdce36a1a27fb8d
 RPROVIDES:${PN} += "libd0_blind_id.so.0()(64bit) \
 libd0_blind_id0 \
 libd0_blind_id0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

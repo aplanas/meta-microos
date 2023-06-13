@@ -14,6 +14,7 @@ RPM_HASH = "5d9de7b72f13e466d5547bd256549e6fc2a2fe9c77eca9d64c0e7bb06fdf45edb640
 RPROVIDES:${PN} += "libosmosim-devel \
 libosmosim-devel(aarch-64) \
 pkgconfig(libosmosim)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmosim2 \

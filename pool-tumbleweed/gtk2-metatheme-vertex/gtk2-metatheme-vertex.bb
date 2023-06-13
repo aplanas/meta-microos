@@ -13,6 +13,7 @@ RPM_HASH = "1292d1fd11506744c1b249023383156958d9df4e5b124b9c9bff489506fce2db8f96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-vertex"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 metatheme-vertex-common"
 

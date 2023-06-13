@@ -10,6 +10,7 @@ RPM_HASH = "42ce14f8d8aa90ae12505d875367449a80992527586025788614992e9d498c7ee6b8
 
 RPROVIDES:${PN} += "python39-matplotlib-cairo \
 python39-matplotlib-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cairo \
 python39-matplotlib"

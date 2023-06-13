@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(texdimens.sty) \
 tex(texdimens.tex) \
 texlive-texdimens"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

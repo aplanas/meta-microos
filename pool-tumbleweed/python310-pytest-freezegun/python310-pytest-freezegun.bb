@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-freezegun \
 python3.10dist(pytest-freezegun) \
 python310-pytest-freezegun \
 python3dist(pytest-freezegun)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-freezegun \
 python310-pytest"

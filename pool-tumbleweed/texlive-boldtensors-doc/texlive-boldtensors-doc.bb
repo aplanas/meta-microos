@@ -9,6 +9,7 @@ RPM_HASH = "2c41753eb64780a17328345aac2a5ca0b30010006aa44663f73e4d7c8762f860aed0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-boldtensors-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

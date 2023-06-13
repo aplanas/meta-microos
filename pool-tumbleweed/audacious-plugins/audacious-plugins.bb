@@ -9,6 +9,7 @@ RPM_HASH = "2500f6cf4dd0a586b1029d878a7c1526945eda84227bc3b5f65226f30830f672eb0f
 
 RPROVIDES:${PN} += "audacious-plugins \
 audacious-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libFLAC.so.12()(64bit) \

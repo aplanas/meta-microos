@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-base-x11_enhanced \
 patterns-base-x11_enhanced(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-locale \
 glibc-locale-base \
 pattern() \

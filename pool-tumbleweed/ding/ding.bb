@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(ding.desktop) \
 ding"
+
 RDEPENDS:${PN} += "/bin/sh \
 ding-dict-de_en \
 tcl \

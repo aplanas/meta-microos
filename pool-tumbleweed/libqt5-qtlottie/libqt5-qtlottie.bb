@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblottieqtplugin.so()(64bit) \
 libqt5-qtlottie \
 libqt5-qtlottie(aarch-64) \
 qt5qmlimport(Qt.labs.lottieqt.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Bodymovin.so.5()(64bit) \

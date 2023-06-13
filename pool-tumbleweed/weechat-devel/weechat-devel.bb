@@ -10,6 +10,7 @@ RPM_HASH = "3a455d5aa1b99808eaffa493957caa2343e3030ab038590849aad34faa0b5f15a35f
 RPROVIDES:${PN} += "pkgconfig(weechat) \
 weechat-devel \
 weechat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 weechat"
 

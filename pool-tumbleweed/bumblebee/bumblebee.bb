@@ -13,6 +13,7 @@ RPM_HASH = "e48f7fb2012d45ebf2ac6b11626fc493d68aca6a2b2a7107648b4cade3f08fa2108f
 RPROVIDES:${PN} += "bumblebee \
 bumblebee(aarch-64) \
 config(bumblebee)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 VirtualGL \

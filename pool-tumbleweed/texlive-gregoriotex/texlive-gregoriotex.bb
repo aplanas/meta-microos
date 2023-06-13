@@ -26,6 +26,7 @@ tex(gregoriotex-symbols.tex) \
 tex(gregoriotex.sty) \
 tex(gregoriotex.tex) \
 texlive-gregoriotex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

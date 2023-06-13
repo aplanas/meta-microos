@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-configobj \
 python3.10dist(configobj) \
 python310-configobj \
 python3dist(configobj)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

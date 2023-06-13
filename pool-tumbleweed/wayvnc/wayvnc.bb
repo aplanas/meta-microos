@@ -11,6 +11,7 @@ RPM_HASH = "e309d53fc8d53672e3ceeacf525486f59eefcc9236a3debb4b29a46013d61ccba69d
 
 RPROVIDES:${PN} += "wayvnc \
 wayvnc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaml.so.0()(64bit) \

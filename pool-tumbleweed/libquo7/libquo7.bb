@@ -14,6 +14,7 @@ RPM_HASH = "ee64000d21161f6b05ccfe1fc83e7980f84513bf2124e759a5b56d95aafeee7e8e06
 RPROVIDES:${PN} += "libquo.so.7()(64bit) \
 libquo7 \
 libquo7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

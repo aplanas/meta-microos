@@ -10,6 +10,7 @@ RPM_HASH = "11c35ab745f1075ead7b82b5077a3d63bd0e4c72183d628421797be2cbd1ec170600
 RPROVIDES:${PN} += "ghc-devel(mmorph-1.2.0-4Mt4o3YW9h63uaZAnM2RZC) \
 ghc-mmorph-devel \
 ghc-mmorph-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

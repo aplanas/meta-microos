@@ -31,6 +31,7 @@ tex(pkelch16.tfm) \
 tex(pkelch8.tfm) \
 tex(pkelch9.tfm) \
 texlive-bartel-chess-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

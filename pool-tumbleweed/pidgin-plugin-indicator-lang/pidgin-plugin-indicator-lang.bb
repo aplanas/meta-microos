@@ -15,6 +15,7 @@ locale(pidgin-plugin-indicator:ru) \
 locale(pidgin-plugin-indicator:zh_CN) \
 pidgin-plugin-indicator-lang \
 pidgin-plugin-indicator-lang-all"
+
 RDEPENDS:${PN} += "pidgin-plugin-indicator"
 
 inherit rpm

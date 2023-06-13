@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "leechcraft-blasq-subplugin \
 leechcraft-blasq-vangog \
 leechcraft-blasq-vangog(aarch-64) \
 libleechcraft_blasq_vangog.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-blasq \

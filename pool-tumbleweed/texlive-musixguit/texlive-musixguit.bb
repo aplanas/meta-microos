@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(musixguit.sty) \
 texlive-musixguit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

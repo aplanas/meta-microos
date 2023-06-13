@@ -14,6 +14,7 @@ RPM_HASH = "3be25086ec55c7c22aaf62342407c7cc4ebd4cdfd9f4ef391c7125dec667b6b0d5b2
 
 RPROVIDES:${PN} += "fplll \
 fplll(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

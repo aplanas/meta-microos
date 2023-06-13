@@ -10,6 +10,7 @@ RPM_HASH = "a7297c70840b649ca315b4d324181a29cc5d5b2b350c569ea4b269c635f3ef7318c3
 RPROVIDES:${PN} += "python3-libwrc \
 python310-libwrc \
 python310-libwrc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

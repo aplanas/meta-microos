@@ -15,6 +15,7 @@ fcitx-config-gtk3 \
 fcitx-config-gtk3(aarch-64) \
 fcitx-configtool \
 locale(libgnome:ko;zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "fcitx \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

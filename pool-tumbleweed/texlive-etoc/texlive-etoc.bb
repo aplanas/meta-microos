@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(etoc.sty) \
 texlive-etoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

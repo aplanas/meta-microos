@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tidyres.sty) \
 texlive-tidyres"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

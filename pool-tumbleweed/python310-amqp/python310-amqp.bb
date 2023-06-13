@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-amqp \
 python3.10dist(amqp) \
 python310-amqp \
 python3dist(amqp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-vine"
 

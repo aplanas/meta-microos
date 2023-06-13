@@ -29,6 +29,7 @@ tex(tsp.tex) \
 tex(tun.tex) \
 tex(verbatim-dek.tex) \
 texlive-gustlib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

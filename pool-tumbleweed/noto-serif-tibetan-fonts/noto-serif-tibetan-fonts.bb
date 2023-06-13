@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "noto-sans-tibetan \
 noto-sans-tibetan-fonts \
 noto-serif-tibetan \
 noto-serif-tibetan-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

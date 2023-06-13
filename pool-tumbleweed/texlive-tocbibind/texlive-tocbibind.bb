@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tocbibind.sty) \
 texlive-tocbibind"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

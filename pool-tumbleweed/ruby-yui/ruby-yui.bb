@@ -17,6 +17,7 @@ RPM_HASH = "92e66b623be48c536cc5692fa76edf2839a026a2f770a2c8f1332fd42fafdb31d5ab
 
 RPROVIDES:${PN} += "ruby-yui \
 ruby-yui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "26dee629032671c380c833cc7c59ddacc026ea92a03e1d0cd1f9eeba7e54ac0455d3
 
 RPROVIDES:${PN} += "ecore_imf-module-scim \
 ecore_imf-module-scim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

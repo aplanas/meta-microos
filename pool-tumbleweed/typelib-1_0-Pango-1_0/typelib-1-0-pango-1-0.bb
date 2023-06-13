@@ -21,6 +21,7 @@ typelib(PangoOT) \
 typelib(PangoXft) \
 typelib-1_0-Pango-1_0 \
 typelib-1_0-Pango-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libpango-1.0.so.0()(64bit) \
 libpangocairo-1.0.so.0()(64bit) \
 libpangoft2-1.0.so.0()(64bit) \

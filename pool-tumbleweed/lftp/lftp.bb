@@ -28,6 +28,7 @@ liblftp-jobs.so.0()(64bit) \
 liblftp-network.so()(64bit) \
 liblftp-pty.so()(64bit) \
 liblftp-tasks.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

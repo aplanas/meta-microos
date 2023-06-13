@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-QDarkStyle \
 python3.10dist(qdarkstyle) \
 python310-QDarkStyle \
 python3dist(qdarkstyle)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

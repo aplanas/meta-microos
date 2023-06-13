@@ -9,6 +9,7 @@ RPM_HASH = "3545f7e4bcf7e75cd0f1db03f5cf23c74d6fbeb4a366a138cdca094d2c5214aed243
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr3-java-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

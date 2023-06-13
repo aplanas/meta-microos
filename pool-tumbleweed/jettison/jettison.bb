@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "jettison \
 mvn(org.codehaus.jettison:jettison) \
 mvn(org.codehaus.jettison:jettison:pom:) \
 osgi(org.codehaus.jettison.jettison)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

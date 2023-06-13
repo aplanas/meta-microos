@@ -9,6 +9,7 @@ RPM_HASH = "25713e08961e97c353bc2f15907182fd4c518ac815e781ce5dad88892059bca467b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

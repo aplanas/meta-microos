@@ -9,6 +9,7 @@ RPM_HASH = "d0d129f1a1cab5cb44da735b51f01bd332eec949ab0363f697ec412ce352e5483f98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jemmy-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem \
 javapackages-tools \
 jemmy"

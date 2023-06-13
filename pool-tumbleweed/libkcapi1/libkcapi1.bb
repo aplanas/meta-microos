@@ -28,6 +28,7 @@ libkcapi.so.1(LIBKCAPI_1.3.1)(64bit) \
 libkcapi.so.1(LIBKCAPI_1.4.0)(64bit) \
 libkcapi1 \
 libkcapi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

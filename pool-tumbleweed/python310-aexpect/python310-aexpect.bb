@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-aexpect \
 python3.10dist(aexpect) \
 python310-aexpect \
 python3dist(aexpect)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

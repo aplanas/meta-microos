@@ -16,6 +16,7 @@ prewikka \
 prewikka-core \
 python3.10dist(prewikka) \
 python3dist(prewikka)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 prewikka-lang \
 python(abi) \

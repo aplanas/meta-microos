@@ -23,6 +23,7 @@ RPM_HASH = "93f53f7d728caba1a7b2f721b79bdfac0b322f7bf295692f9291a82e8dd8594ba710
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbenv"
+
 RDEPENDS:${PN} += "/bin/bash \
 procps"
 

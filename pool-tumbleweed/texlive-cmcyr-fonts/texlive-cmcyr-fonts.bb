@@ -66,6 +66,7 @@ font(cmcyr7) \
 font(cmcyr8) \
 font(cmcyr9) \
 texlive-cmcyr-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

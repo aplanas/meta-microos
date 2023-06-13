@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(tech.uom.lib:uom-lib-assertj) \
 mvn(tech.uom.lib:uom-lib-assertj:pom:) \
 uom-lib-assertj"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.measure:unit-api) \

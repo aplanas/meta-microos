@@ -11,6 +11,7 @@ RPM_HASH = "ca790359d743192c091f41e3c34b8ced2fe6c0a4e954bdb40537668149f6fa343108
 RPROVIDES:${PN} += "pkgconfig(sysprof-ui-5) \
 sysprof-ui-devel \
 sysprof-ui-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gtk4) \

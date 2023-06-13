@@ -10,6 +10,7 @@ RPM_HASH = "bedf5bf533d6054f4e311096a20c5ba68f70cdb0488a6b509a3a54d5576f0e0ddc3e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metallb-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

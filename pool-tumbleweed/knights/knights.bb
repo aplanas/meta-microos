@@ -17,6 +17,7 @@ knights \
 knights(aarch-64) \
 metainfo() \
 metainfo(org.kde.knights.appdata.xml)"
+
 RDEPENDS:${PN} += "gnuchess \
 libKF5Completion.so.5()(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

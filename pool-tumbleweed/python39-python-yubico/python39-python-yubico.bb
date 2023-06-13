@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(python-yubico) \
 python39-python-yubico \
 python39-yubico \
 python3dist(python-yubico)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-usb"
 

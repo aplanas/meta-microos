@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-azure-ai-ml \
 python3.10dist(azure-ai-ml) \
 python310-azure-ai-ml \
 python3dist(azure-ai-ml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyJWT \
 python310-PyYAML \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-roman \
 python3.10dist(roman) \
 python310-roman \
 python3dist(roman)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

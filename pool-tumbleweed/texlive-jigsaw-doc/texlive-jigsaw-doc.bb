@@ -9,6 +9,7 @@ RPM_HASH = "c822bcfee0534a90cc74992ce4e7708ecbdae410fa8dc55f3b66482e3c65a0705b5e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jigsaw-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

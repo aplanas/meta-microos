@@ -20,6 +20,7 @@ RPM_HASH = "e36d4a26bfeb269f1168bb2a307a19ad229834721e77db82a5836b19db32beae1b60
 
 RPROVIDES:${PN} += "pgloader \
 pgloader(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

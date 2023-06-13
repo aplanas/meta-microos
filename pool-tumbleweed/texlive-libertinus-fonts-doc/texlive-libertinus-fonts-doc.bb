@@ -9,6 +9,7 @@ RPM_HASH = "786a49209ed01d4614cceaec01328d2a4af5d44db1d4b1705a1e65fc338ec9483b02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-fonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

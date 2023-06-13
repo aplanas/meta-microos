@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-cligj \
 python3.10dist(cligj) \
 python310-cligj \
 python3dist(cligj)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-click"
 

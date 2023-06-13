@@ -31,6 +31,7 @@ locale(gpaste:tr) \
 locale(gpaste:vi) \
 locale(gpaste:zh_CN) \
 locale(gpaste:zh_Hant)"
+
 RDEPENDS:${PN} += "gpaste"
 
 inherit rpm

@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mathgl-tex \
 tex(mgltex.sty) \
 texlive-mgltex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

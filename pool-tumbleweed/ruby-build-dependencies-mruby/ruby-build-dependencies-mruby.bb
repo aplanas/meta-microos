@@ -9,6 +9,7 @@ RPM_HASH = "2552d05710d10960597bb0473e12b3f8f8e55a31ec5f9b4fe58d89ba025e7fd556b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-mruby"
+
 RDEPENDS:${PN} += "gcc \
 git"
 

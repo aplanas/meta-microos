@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiodns) \
 python39-aiodns \
 python3dist(aiodns)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pycares"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-branding \
 calamares-branding-upstream"
+
 RDEPENDS:${PN} += "qt5qmlimport(QtQuick.2)"
 
 inherit rpm

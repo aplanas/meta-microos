@@ -11,6 +11,7 @@ RPM_HASH = "22324afabc64fe5c254c6785014b736f2a3e4e5d188e65841368d8d12d59a93503b6
 RPROVIDES:${PN} += "libgxwmm.so.0()(64bit) \
 libgxwmm0 \
 libgxwmm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

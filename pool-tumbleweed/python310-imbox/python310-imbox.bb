@@ -12,6 +12,7 @@ python3.10dist(imbox) \
 python310-imbox \
 python310-imbox(aarch-64) \
 python3dist(imbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-chardet"
 

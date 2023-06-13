@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.functools) \
 python311-jaraco.functools \
 python3dist(jaraco.functools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jaraco.packaging \
 python311-more-itertools"

@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "python3-django-pglocks \
 python3.10dist(django-pglocks) \
 python310-django-pglocks \
 python3dist(django-pglocks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-psycopg2"

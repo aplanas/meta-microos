@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gio \
 libgio-2.0.so.0()(64bit) \
 libgio-2_0-0 \
 libgio-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 dbus-launch \

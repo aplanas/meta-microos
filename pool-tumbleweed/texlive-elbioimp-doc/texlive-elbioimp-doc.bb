@@ -9,6 +9,7 @@ RPM_HASH = "832818d6ae8fb12c7aa1f45978557a7beb561df798ccc3244ecdb15521386f123335
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elbioimp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "baf964ce4e6a73de9e23277c2ccefdd5b302c7271d163c3d6333b20ad68730db4f4b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audit-visualize"
+
 RDEPENDS:${PN} += "audit \
 gnuplot \
 graphviz"

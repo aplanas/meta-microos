@@ -16,6 +16,7 @@ config(collectd) \
 perl(Collectd) \
 perl(Collectd::Plugins::OpenVZ) \
 perl(Collectd::Unixsock)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

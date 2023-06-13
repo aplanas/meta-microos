@@ -12,6 +12,7 @@ evince-plugin-pdfdocument(aarch-64) \
 libpdfdocument.so()(64bit) \
 metainfo() \
 metainfo(evince-pdfdocument.metainfo.xml)"
+
 RDEPENDS:${PN} += "evince \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -64,6 +64,7 @@ locale(kde-print-manager:ug) \
 locale(kde-print-manager:uk) \
 locale(kde-print-manager:zh_CN) \
 locale(kde-print-manager:zh_TW)"
+
 RDEPENDS:${PN} += "kde-print-manager"
 
 inherit rpm

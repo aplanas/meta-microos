@@ -34,6 +34,7 @@ tex(ufrgscca-ptBR-core.def) \
 tex(ufrgscca-ptBR-forms.def) \
 tex(ufrgscca.cls) \
 texlive-ufrgscca"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

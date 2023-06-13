@@ -14,6 +14,7 @@ mailman3 \
 python3.9dist(mailman) \
 python39-mailman \
 python3dist(mailman)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 logrotate \

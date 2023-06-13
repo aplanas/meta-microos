@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(covdefaults) \
 python39-covdefaults \
 python3dist(covdefaults)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-coverage"
 

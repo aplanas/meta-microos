@@ -17,6 +17,7 @@ RPM_HASH = "b6c8c19eb11ade97e1c55c86b4abfb4401e0098f8ccf7b562fde1a2dc30c1a634679
 
 RPROVIDES:${PN} += "imake \
 imake(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

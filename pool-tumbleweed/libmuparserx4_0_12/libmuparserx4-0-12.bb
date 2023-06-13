@@ -11,6 +11,7 @@ RPM_HASH = "3ab82f30e8838a73f704a7968906479e2544ab5fc43ff8da58b812065cac748f42f1
 RPROVIDES:${PN} += "libmuparserx.so.4.0.12()(64bit) \
 libmuparserx4_0_12 \
 libmuparserx4_0_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

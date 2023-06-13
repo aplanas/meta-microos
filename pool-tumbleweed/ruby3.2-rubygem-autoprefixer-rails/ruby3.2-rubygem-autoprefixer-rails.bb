@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:autoprefixer-rails) \
 rubygem(ruby:3.2.0:autoprefixer-rails:10) \
 rubygem(ruby:3.2.0:autoprefixer-rails:10.4) \
 rubygem(ruby:3.2.0:autoprefixer-rails:10.4.7)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:execjs)"
 

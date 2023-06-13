@@ -9,6 +9,7 @@ RPM_HASH = "19ccbc75241e60ec7460641e5d701bccd6ad3f225a912b85710b0079eb9b55b861b5
 
 RPROVIDES:${PN} += "libime-dicts \
 libime-dicts(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

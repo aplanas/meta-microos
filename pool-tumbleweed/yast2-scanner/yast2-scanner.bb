@@ -22,6 +22,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Scanner.metainfo.xml) \
 yast2-scanner \
 yast2-scanner(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libX11.so.6()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

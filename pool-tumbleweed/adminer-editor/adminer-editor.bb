@@ -11,6 +11,7 @@ RPM_HASH = "878982bea306184152cb481ea08d5326b272417f0e1de85e56e82a2da05b77245435
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer-editor"
+
 RDEPENDS:${PN} += "adminer"
 
 inherit rpm

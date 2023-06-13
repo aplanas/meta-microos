@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.service \
 python3.10dist(oslo.service) \
 python3dist(oslo.service)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-Paste \
 python3-PasteDeploy \

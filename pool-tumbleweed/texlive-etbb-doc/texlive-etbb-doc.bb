@@ -9,6 +9,7 @@ RPM_HASH = "8176371b1d40c891d55c0122b0f891a88862d7dc50267544280c6212003dd08ba00a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etbb-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ python3.11dist(afdko) \
 python311-afdko \
 python311-afdko(aarch-64) \
 python3dist(afdko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 libc.so.6(GLIBC_2.34)(64bit) \

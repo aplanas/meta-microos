@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pecl \
 php8-pecl"
+
 RDEPENDS:${PN} += "/bin/sh \
 autoconf \
 automake \

@@ -9,6 +9,7 @@ RPM_HASH = "0cafd2c266951cc8a149ffffe0d1741394dcb4375d964f4b332060531a43b78f9dcb
 
 RPROVIDES:${PN} += "kldap \
 kldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5I18n.so.5()(64bit) \

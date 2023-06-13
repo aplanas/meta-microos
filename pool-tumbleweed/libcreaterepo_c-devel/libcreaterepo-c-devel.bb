@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "createrepo_c-devel \
 libcreaterepo_c-devel \
 libcreaterepo_c-devel(aarch-64) \
 pkgconfig(createrepo_c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcreaterepo_c0(aarch-64) \
 pkgconfig \

@@ -85,6 +85,7 @@ bundled(rust-crate:unicode-ident) \
 bundled(rust-crate:unicode-width) \
 bundled(rust-crate:version_check) \
 bundled(rust-crate:walkdir)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

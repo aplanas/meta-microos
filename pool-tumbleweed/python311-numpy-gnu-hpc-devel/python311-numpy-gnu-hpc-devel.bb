@@ -11,6 +11,7 @@ RPM_HASH = "938a86aaac870f6431115a6e96930e0842777069a972a264e4d652c5df84f1eaee6a
 
 RPROVIDES:${PN} += "python311-numpy-gnu-hpc-devel \
 python311-numpy-gnu-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-numpy_1_24_2-gnu-hpc-devel"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "a99a12e2f9cbfa107834ba7861a280499705ca256fbf0fac25d55545111b12e201f8
 
 RPROVIDES:${PN} += "deutex \
 deutex(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

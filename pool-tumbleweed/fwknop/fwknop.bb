@@ -10,6 +10,7 @@ RPM_HASH = "2539c48cea52f073ce852a608c413d7372a180e81c7063f2eac2446c9d795e1421f6
 
 RPROVIDES:${PN} += "fwknop \
 fwknop(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

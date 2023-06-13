@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(lcurse.desktop) \
 lcurse"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-beautifulsoup4 \

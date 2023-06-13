@@ -58,6 +58,7 @@ locale(ktp-contact-runner:uk) \
 locale(ktp-contact-runner:vi) \
 locale(ktp-contact-runner:zh_CN) \
 locale(ktp-contact-runner:zh_TW)"
+
 RDEPENDS:${PN} += "ktp-contact-runner"
 
 inherit rpm

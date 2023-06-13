@@ -16,6 +16,7 @@ libgtk-4.so.1()(64bit) \
 libmedia-gstreamer.so()(64bit) \
 libprintbackend-cups.so()(64bit) \
 libprintbackend-file.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 adwaita-icon-theme \
 gtk4-schema \

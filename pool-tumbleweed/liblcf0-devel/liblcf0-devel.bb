@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(liblcf) \
 liblcf0-devel \
 liblcf0-devel(aarch-64) \
 pkgconfig(liblcf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblcf0 \
 pkgconfig(expat) \

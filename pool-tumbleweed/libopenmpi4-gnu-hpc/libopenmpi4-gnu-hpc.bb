@@ -11,6 +11,7 @@ RPM_HASH = "ee675644e4e610a7b9310c8c3669e30164aa272ddeee1d47677d9369883209520954
 
 RPROVIDES:${PN} += "libopenmpi4-gnu-hpc \
 libopenmpi4-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "libopenmpi_4_1_4-gnu-hpc"
 
 inherit rpm

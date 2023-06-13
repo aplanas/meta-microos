@@ -24,6 +24,7 @@ mimehandler(text/x-zim-wiki) \
 python3.10dist(zim) \
 python3dist(zim) \
 zim"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject-Gdk \

@@ -12,6 +12,7 @@ RPM_HASH = "99c511b095fe6704ce2759632c595e4ba259afc21fc1de2e40700c1d066767b80099
 RPROVIDES:${PN} += "pkgconfig(vala-panel) \
 vala-panel-devel \
 vala-panel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gio-2.0) \
 pkgconfig(gio-unix-2.0) \

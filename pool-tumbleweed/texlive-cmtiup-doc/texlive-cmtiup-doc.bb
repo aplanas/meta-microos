@@ -9,6 +9,7 @@ RPM_HASH = "1d2f7708a2e788891dee84fdeeb54d1a06eef3795533b869791819e50d17c78cb711
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmtiup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

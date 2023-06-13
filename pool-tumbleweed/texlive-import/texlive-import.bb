@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(import.sty) \
 texlive-import"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

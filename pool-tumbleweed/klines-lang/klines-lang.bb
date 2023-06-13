@@ -79,6 +79,7 @@ locale(klines:ug) \
 locale(klines:uk) \
 locale(klines:zh_CN) \
 locale(klines:zh_TW)"
+
 RDEPENDS:${PN} += "klines"
 
 inherit rpm

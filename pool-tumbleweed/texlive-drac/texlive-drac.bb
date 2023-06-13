@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(drac.sty) \
 texlive-drac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

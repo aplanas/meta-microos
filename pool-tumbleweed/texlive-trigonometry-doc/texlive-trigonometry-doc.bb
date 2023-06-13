@@ -9,6 +9,7 @@ RPM_HASH = "695044187869c256b59b4fb3a387bd9bc5bb3babe6ea64a87c6a7fec14996ad7ed84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trigonometry-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

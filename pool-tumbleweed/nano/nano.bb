@@ -11,6 +11,7 @@ RPM_HASH = "c32c9494e151ba2d4fd9de594a88e5e1c2a34616087c4688c2293edc506cb4fba1c9
 RPROVIDES:${PN} += "config(nano) \
 nano \
 nano(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

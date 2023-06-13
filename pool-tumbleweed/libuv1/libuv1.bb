@@ -12,6 +12,7 @@ RPM_HASH = "11b3d803f645d1b615d97a1070be83650cd6f8f5f763504bf0b52613f1bfc4619f89
 RPROVIDES:${PN} += "libuv.so.1()(64bit) \
 libuv1 \
 libuv1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

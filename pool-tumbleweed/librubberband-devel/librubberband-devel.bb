@@ -11,6 +11,7 @@ RPM_HASH = "e5e8a8ae695cbdc00c9301e8cfba1296cbe0b6698165a36e2ed67fccd30410dd096e
 RPROVIDES:${PN} += "librubberband-devel \
 librubberband-devel(aarch-64) \
 pkgconfig(rubberband)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librubberband2 \
 pkgconfig \

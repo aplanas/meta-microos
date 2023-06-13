@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(zps.desktop) \
 zps \
 zps(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

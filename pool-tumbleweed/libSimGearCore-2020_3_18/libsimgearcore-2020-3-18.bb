@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libSimGearCore-2020_3_18 \
 libSimGearCore-2020_3_18(aarch-64) \
 libSimGearCore.so.2020.3.18()(64bit) \
 libSimGearScene.so.2020.3.18()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 OpenSceneGraph-plugins \
 ld-linux-aarch64.so.1()(64bit) \

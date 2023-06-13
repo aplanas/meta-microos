@@ -27,6 +27,7 @@ pkgconfig(libgensiomdns) \
 pkgconfig(libgensiomdnscpp) \
 pkgconfig(libgensioosh) \
 pkgconfig(libgensiooshcpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgensio4 \
 libgensiocpp4 \

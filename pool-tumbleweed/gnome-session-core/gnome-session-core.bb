@@ -11,6 +11,7 @@ RPM_HASH = "16dec0b01abfcce969041a48c4653878dfb7226d6d3969c99bfe5ed7486bba4f6a99
 
 RPROVIDES:${PN} += "gnome-session-core \
 gnome-session-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/dbus-launch \
 gsettings-desktop-schemas \

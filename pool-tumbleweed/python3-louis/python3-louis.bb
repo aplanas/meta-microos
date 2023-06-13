@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-louis \
 python3-louis(aarch-64) \
 python3.10dist(louis) \
 python3dist(louis)"
+
 RDEPENDS:${PN} += "liblouis20 \
 python(abi)"
 

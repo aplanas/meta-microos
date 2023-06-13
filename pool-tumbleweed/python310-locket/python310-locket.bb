@@ -27,6 +27,7 @@ RPROVIDES:${PN} += "python3-locket \
 python3.10dist(locket) \
 python310-locket \
 python3dist(locket)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

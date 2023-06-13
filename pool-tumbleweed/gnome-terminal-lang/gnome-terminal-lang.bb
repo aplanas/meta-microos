@@ -95,6 +95,7 @@ locale(gnome-terminal:wa) \
 locale(gnome-terminal:zh_CN) \
 locale(gnome-terminal:zh_HK) \
 locale(gnome-terminal:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-terminal"
 
 inherit rpm

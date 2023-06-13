@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-amqpstorm \
 python3.10dist(amqpstorm) \
 python310-amqpstorm \
 python3dist(amqpstorm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pamqp \
 python310-requests"

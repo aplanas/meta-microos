@@ -10,6 +10,7 @@ RPM_HASH = "3ac3a369bd13206064d26d20ec36a79b351e2a39d1b7c3fb6fcd1c0362541a728fe3
 RPROVIDES:${PN} += "libortp.so.15()(64bit) \
 libortp15 \
 libortp15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

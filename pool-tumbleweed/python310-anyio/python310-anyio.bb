@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-anyio \
 python3.10dist(anyio) \
 python310-anyio \
 python3dist(anyio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-idna \
 python310-sniffio"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "checkstyle \
 config(checkstyle) \
 mvn(com.puppycrawl.tools:checkstyle) \
 mvn(com.puppycrawl.tools:checkstyle:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 java-headless \

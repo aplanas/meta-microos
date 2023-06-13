@@ -63,6 +63,7 @@ locale(gspell:uk) \
 locale(gspell:vi) \
 locale(gspell:zh_CN) \
 locale(gspell:zh_TW)"
+
 RDEPENDS:${PN} += "gspell"
 
 inherit rpm

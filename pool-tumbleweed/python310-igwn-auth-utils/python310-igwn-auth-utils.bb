@@ -18,6 +18,7 @@ python3.10dist(igwn-auth-utils) \
 python310-igwn-auth-utils \
 python310-igwn-auth-utils-requests \
 python3dist(igwn-auth-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-requests \

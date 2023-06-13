@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-fido2 \
 python3.10dist(fido2) \
 python310-fido2 \
 python3dist(fido2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography"
 

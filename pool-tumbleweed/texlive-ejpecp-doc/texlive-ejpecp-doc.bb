@@ -9,6 +9,7 @@ RPM_HASH = "f21ba510764a87422f8966540c4d0ade494d6cdd3a7290a3d043b616b2f994fd9790
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ejpecp-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

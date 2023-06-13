@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(xfce4-kbdleds-plugin:ru) \
 locale(xfce4-kbdleds-plugin:uk) \
 xfce4-kbdleds-plugin-lang \
 xfce4-kbdleds-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-kbdleds-plugin"
 
 inherit rpm

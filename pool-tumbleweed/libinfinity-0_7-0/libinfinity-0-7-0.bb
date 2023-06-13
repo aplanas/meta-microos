@@ -18,6 +18,7 @@ libinfinity-0_7-0(aarch-64) \
 libinfinoted-plugin-manager-0.7.so.0()(64bit) \
 libinftext-0.7.so.0()(64bit) \
 libinftextgtk-0.7.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

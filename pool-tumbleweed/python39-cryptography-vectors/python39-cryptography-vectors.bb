@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cryptography-vectors) \
 python39-cryptography-vectors \
 python3dist(cryptography-vectors)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python(abi)"
 

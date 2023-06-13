@@ -9,6 +9,7 @@ RPM_HASH = "928cd5e0c9efb9c94f6128185ea1eef6f44c57cf62ab971447cc270dc6ff99753879
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dantelogo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

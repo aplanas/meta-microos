@@ -10,6 +10,7 @@ RPM_HASH = "fa1fcdabb4817fb01dba1489aaea1d3a8f677cd36d8969ce43c3fbc77e23f1a9412a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-3d-private-devel"
+
 RDEPENDS:${PN} += "qt6-3d-devel \
 qt6-3danimation-private-devel \
 qt6-3dcore-private-devel \

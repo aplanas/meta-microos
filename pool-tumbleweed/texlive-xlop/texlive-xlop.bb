@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xlop.sty) \
 tex(xlop.tex) \
 texlive-xlop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

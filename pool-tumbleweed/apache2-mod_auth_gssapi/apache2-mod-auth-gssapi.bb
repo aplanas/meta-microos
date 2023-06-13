@@ -11,6 +11,7 @@ RPM_HASH = "c911ca6a81eb0d2c46a092158c54685c282560de57edeb7cf4c3c7f6e18fde68f233
 
 RPROVIDES:${PN} += "apache2-mod_auth_gssapi \
 apache2-mod_auth_gssapi(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -40,6 +40,7 @@ locale(gtick:sv) \
 locale(gtick:uk) \
 locale(gtick:vi) \
 locale(gtick:zh_CN)"
+
 RDEPENDS:${PN} += "gtick"
 
 inherit rpm

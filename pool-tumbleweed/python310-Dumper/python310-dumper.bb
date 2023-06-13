@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Dumper \
 python3.10dist(dumper) \
 python310-Dumper \
 python3dist(dumper)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

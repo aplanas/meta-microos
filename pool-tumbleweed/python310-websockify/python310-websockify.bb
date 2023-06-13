@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-websockify \
 python3.10dist(websockify) \
 python310-websockify \
 python3dist(websockify)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

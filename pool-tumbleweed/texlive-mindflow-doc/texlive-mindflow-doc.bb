@@ -9,6 +9,7 @@ RPM_HASH = "c75ec8ea514a6f53d2a5ddbfba1cced014cb7f91b4d5dc1a5b5040c97f9bb9303a4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mindflow-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

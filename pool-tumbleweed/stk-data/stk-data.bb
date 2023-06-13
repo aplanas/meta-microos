@@ -9,6 +9,7 @@ RPM_HASH = "20d1d099fbea6c825edca42958a0e0fee1337b61fa1cc5795b35d8a69e74233ad79c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stk-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

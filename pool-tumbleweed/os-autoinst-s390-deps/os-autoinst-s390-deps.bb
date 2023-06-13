@@ -9,6 +9,7 @@ RPM_HASH = "dd0e90aa9fc1d9a24a7ce892ae595932de857893f6d881a3eadb7ebda9ab80817c86
 
 RPROVIDES:${PN} += "os-autoinst-s390-deps \
 os-autoinst-s390-deps(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/Xvnc \
 /usr/bin/xkbcomp \
 fonts-config \

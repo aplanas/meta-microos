@@ -17,6 +17,7 @@ perl(Set::Scalar::Valued) \
 perl(Set::Scalar::ValuedUniverse) \
 perl(Set::Scalar::Virtual) \
 perl-Set-Scalar"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

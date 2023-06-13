@@ -50,6 +50,7 @@ bundled(rust-crate:users) \
 config(greetd) \
 greetd \
 greetd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/getent \
 /usr/sbin/groupadd \

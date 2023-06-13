@@ -17,6 +17,7 @@ libqscintilla2_qt5-devel \
 libqscintilla_qt5-devel \
 qscintilla-qt5-devel \
 qscintilla-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqscintilla2-qt5-15 \
 pkgconfig(Qt5Core) \
 pkgconfig(Qt5PrintSupport) \

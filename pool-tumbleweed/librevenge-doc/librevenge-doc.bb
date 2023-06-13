@@ -9,6 +9,7 @@ RPM_HASH = "b1a26c96f8f28e03691e4d80ae20c5abff22300955054663838220528a5a8b17b394
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librevenge-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

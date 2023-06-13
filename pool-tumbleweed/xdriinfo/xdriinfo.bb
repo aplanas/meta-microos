@@ -10,6 +10,7 @@ RPM_HASH = "834fe353ea2d295da0524d40c75be6ada5ec31f7f114cc18fc4ff0b0878d4329dd24
 
 RPROVIDES:${PN} += "xdriinfo \
 xdriinfo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

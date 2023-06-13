@@ -9,6 +9,7 @@ RPM_HASH = "d0411b64e368db7931b3272121959df26d1b18fb3f3567a94b04bc9dc79817bcacb6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-expkv-bundle-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

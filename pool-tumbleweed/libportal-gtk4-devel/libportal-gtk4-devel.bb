@@ -11,6 +11,7 @@ RPM_HASH = "db4b0241755d17d340d31082774ed1fe2643cc0ab44f937459fe3ac12064934476aa
 RPROVIDES:${PN} += "libportal-gtk4-devel \
 libportal-gtk4-devel(aarch-64) \
 pkgconfig(libportal-gtk4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libportal-gtk4-1 \
 pkgconfig(gio-2.0) \

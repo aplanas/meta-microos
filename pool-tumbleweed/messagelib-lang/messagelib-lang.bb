@@ -78,6 +78,7 @@ locale(messagelib:zh_CN) \
 locale(messagelib:zh_TW) \
 messagelib-lang \
 messagelib-lang-all"
+
 RDEPENDS:${PN} += "messagelib"
 
 inherit rpm

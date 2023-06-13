@@ -18,6 +18,7 @@ RPM_HASH = "cdd36cb4720501e791498462df38182299fa72af551f0dc96e8adc3e19814288fb17
 RPROVIDES:${PN} += "libdmapsharing3-devel \
 libdmapsharing3-devel(aarch-64) \
 pkgconfig(libdmapsharing-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmapsharing-3_0-2 \
 pkgconfig(glib-2.0) \

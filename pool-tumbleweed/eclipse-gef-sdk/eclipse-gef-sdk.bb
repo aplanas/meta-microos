@@ -37,6 +37,7 @@ osgi(org.eclipse.zest.doc.isv) \
 osgi(org.eclipse.zest.layouts.source) \
 osgi(org.eclipse.zest.sdk) \
 osgi(org.eclipse.zest.source)"
+
 RDEPENDS:${PN} += "eclipse-gef \
 eclipse-pde \
 java-headless \

@@ -10,6 +10,7 @@ RPM_HASH = "2b3794a713f62054946b1be076992d2059236dfd52214624c929ed547ffd963fd8db
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvantum-manager-lang"
+
 RDEPENDS:${PN} += "kvantum-manager"
 
 inherit rpm

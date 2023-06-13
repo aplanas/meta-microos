@@ -17,6 +17,7 @@ RPM_HASH = "a50dc52cd1592f49094795cfe34cc8679902f602e0e3bafe68e75bc7b10b9fe820f7
 RPROVIDES:${PN} += "liblinphone++.so.10()(64bit) \
 liblinphone++10 \
 liblinphone++10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

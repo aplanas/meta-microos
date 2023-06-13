@@ -9,6 +9,7 @@ RPM_HASH = "a8b1628920145a0b984f8109f91a645ced39adb14794ac67e5a780ad541d1f9b9539
 
 RPROVIDES:${PN} += "qemu-audio-pa \
 qemu-audio-pa(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

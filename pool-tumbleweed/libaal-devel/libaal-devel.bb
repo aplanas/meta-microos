@@ -9,6 +9,7 @@ RPM_HASH = "5cbcb825cd3a955ce0ac47ab4d671c72e474c2464f8354745cf1c9e770b5f53b37eb
 
 RPROVIDES:${PN} += "libaal-devel \
 libaal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libaal-1_0-7 \
 libaal-minimal0"
 

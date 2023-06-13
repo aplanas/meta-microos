@@ -185,6 +185,7 @@ font(ibmplexserifsemibold) \
 font(ibmplexseriftext) \
 font(ibmplexserifthin) \
 texlive-plex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

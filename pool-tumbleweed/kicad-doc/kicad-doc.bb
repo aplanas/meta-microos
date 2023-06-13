@@ -12,6 +12,7 @@ RPM_HASH = "bd6ea0ca754d6ba10f6f2a8707f6b08cd44371f9fcf74d392b0e7ec4b663f0ea1f50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

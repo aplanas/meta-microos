@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(stealcaps.sty) \
 texlive-stealcaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

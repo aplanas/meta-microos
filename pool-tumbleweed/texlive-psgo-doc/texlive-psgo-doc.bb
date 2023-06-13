@@ -9,6 +9,7 @@ RPM_HASH = "354c70c69e6eb8d6787b29cdc06d46777a42a38bfb684ef6c8a1e2150cd79d047362
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psgo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "metainfo() \
 metainfo(vim-latex.metainfo.xml) \
 vim-plugin-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/perl \

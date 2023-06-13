@@ -11,6 +11,7 @@ RPM_HASH = "db153570e7c168ebf8c81e5597932163823175ecdc7c7ad9bfca36c1c52a4d400532
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf4-ipxe"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

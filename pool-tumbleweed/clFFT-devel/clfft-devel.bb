@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "clFFT-devel \
 clFFT-devel(aarch-64) \
 cmake(clFFT) \
 pkgconfig(clFFT)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libStatTimer2 \
 libclFFT2 \

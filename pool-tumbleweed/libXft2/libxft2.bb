@@ -12,6 +12,7 @@ RPM_HASH = "21f4fe3b5fb7bc40794c434cca00a017e5ceaed1397caadd955366e50831c4a1325d
 RPROVIDES:${PN} += "libXft.so.2()(64bit) \
 libXft2 \
 libXft2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

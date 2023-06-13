@@ -9,6 +9,7 @@ RPM_HASH = "d9ed749447355dbbbad761f265a4cc300515d4bfdab8e8935ca694248d2cb0e07bb3
 
 RPROVIDES:${PN} += "gnome-commander-devel \
 gnome-commander-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(betamax-matchers) \
 python311-betamax-matchers \
 python3dist(betamax-matchers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-betamax \
 python311-requests-toolbelt"

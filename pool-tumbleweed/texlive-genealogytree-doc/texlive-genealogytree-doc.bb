@@ -9,6 +9,7 @@ RPM_HASH = "dcc4dfa44b75c545fdc53814473c4f30d866c06caecc6b842cbd0d3236165f577919
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-genealogytree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

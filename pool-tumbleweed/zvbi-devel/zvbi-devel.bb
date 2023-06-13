@@ -12,6 +12,7 @@ RPM_HASH = "478a28e0e2576847f0cd88ee8429afadf44865e90ccba9e35c2817bf17b82c6f1f83
 RPROVIDES:${PN} += "pkgconfig(zvbi-0.2) \
 zvbi-devel \
 zvbi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libzvbi-chains0 \
 libzvbi0"

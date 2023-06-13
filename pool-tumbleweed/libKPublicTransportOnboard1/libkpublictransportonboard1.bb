@@ -13,6 +13,7 @@ RPM_HASH = "ceae199593da642a21a1a532834227f04b8e039a0c753a4c500a2b1b5be7a2226e48
 RPROVIDES:${PN} += "libKPublicTransportOnboard.so.1()(64bit) \
 libKPublicTransportOnboard1 \
 libKPublicTransportOnboard1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

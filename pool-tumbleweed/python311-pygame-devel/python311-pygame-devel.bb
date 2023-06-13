@@ -9,6 +9,7 @@ RPM_HASH = "59d44e048c8b53fb1456341413a0e2a501346ad9b5589945240526beaa1703693ece
 
 RPROVIDES:${PN} += "python311-pygame-devel \
 python311-pygame-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python311-pygame"
 
 inherit rpm

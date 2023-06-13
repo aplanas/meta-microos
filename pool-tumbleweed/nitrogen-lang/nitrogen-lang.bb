@@ -16,6 +16,7 @@ locale(nitrogen:ru) \
 locale(nitrogen:sr) \
 nitrogen-lang \
 nitrogen-lang-all"
+
 RDEPENDS:${PN} += "nitrogen"
 
 inherit rpm

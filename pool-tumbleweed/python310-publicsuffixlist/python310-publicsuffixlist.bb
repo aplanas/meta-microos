@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-publicsuffixlist \
 python3.10dist(publicsuffixlist) \
 python310-publicsuffixlist \
 python3dist(publicsuffixlist)"
+
 RDEPENDS:${PN} += "publicsuffix \
 python(abi)"
 

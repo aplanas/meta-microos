@@ -13,6 +13,7 @@ RPM_HASH = "79f99269bf69dd7472dc1d56d7f37f73a0758064d01f2875b755584b7d496af6339a
 
 RPROVIDES:${PN} += "hawknl-libs \
 hawknl-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

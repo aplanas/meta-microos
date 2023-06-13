@@ -30,6 +30,7 @@ locale(cryptsetup:sv) \
 locale(cryptsetup:uk) \
 locale(cryptsetup:vi) \
 locale(cryptsetup:zh_CN)"
+
 RDEPENDS:${PN} += "cryptsetup"
 
 inherit rpm

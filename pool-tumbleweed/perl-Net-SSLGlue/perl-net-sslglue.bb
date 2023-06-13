@@ -43,6 +43,7 @@ perl(Net::SSLGlue::SMTP::_SSLified) \
 perl(Net::SSLGlue::Socket) \
 perl(Net::SSLGlue::Socket::HANDLE) \
 perl-Net-SSLGlue"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::SSL)"
 

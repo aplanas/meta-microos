@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(yaffshiv) \
 python3dist(yaffshiv) \
 yaffshiv"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

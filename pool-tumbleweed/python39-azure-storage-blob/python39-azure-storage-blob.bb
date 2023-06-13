@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-storage-blob) \
 python39-azure-storage-blob \
 python3dist(azure-storage-blob)"
+
 RDEPENDS:${PN} += "(python39-typing_extensions >= 4.0.1 if python39-base < 3.11) \
 python(abi) \
 python39-azure-common \

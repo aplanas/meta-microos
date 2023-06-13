@@ -11,6 +11,7 @@ RPM_HASH = "4537d5dc05edff1d98fcd94db0cd0cbb00223fc60c6eba49c00b552a96268fb49984
 RPROVIDES:${PN} += "libvdehist.so.0()(64bit) \
 libvdehist0 \
 libvdehist0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

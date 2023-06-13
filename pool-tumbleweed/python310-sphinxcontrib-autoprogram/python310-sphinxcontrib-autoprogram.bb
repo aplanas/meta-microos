@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-autoprogram \
 python3.10dist(sphinxcontrib-autoprogram) \
 python310-sphinxcontrib-autoprogram \
 python3dist(sphinxcontrib-autoprogram)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

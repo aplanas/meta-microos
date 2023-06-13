@@ -20,6 +20,7 @@ RPM_HASH = "42c252f3b79c47f4ea932ec280e0d385b6e0252e0e7339d5698f64f6fab2aa5b1c99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checksec"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 binutils \
 file \

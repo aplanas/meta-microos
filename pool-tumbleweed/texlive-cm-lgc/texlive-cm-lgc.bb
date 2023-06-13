@@ -385,6 +385,7 @@ tex(ut1fcm.fd) \
 tex(ut1fcs.fd) \
 tex(ut1fct.fd) \
 texlive-cm-lgc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-wsproto \
 python3.10dist(wsproto) \
 python310-wsproto \
 python3dist(wsproto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h11"
 

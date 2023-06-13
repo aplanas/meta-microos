@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pytest-xprocess \
 python3.10dist(pytest-xprocess) \
 python310-pytest-xprocess \
 python3dist(pytest-xprocess)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-psutil \
 python310-py \

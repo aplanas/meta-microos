@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "SDL_sound \
 libSDL_sound-1.0.so.1()(64bit) \
 libSDL_sound-1_0-1 \
 libSDL_sound-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

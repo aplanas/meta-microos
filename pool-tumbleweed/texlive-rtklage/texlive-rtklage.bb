@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rtklage.cls) \
 texlive-rtklage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

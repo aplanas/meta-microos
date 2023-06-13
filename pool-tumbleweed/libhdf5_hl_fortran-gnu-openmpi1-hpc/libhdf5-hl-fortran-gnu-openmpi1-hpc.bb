@@ -11,6 +11,7 @@ RPM_HASH = "395bfcf2d33b2d4c09ffe4e6f645671fce4b0bfac141e6101ef4ca124ab0c96e6e93
 
 RPROVIDES:${PN} += "libhdf5_hl_fortran-gnu-openmpi1-hpc \
 libhdf5_hl_fortran-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "libhdf5hl_fortran_1_12_2-gnu-openmpi1-hpc"
 
 inherit rpm

@@ -83,6 +83,7 @@ locale(gimp:vi) \
 locale(gimp:zh_CN) \
 locale(gimp:zh_HK) \
 locale(gimp:zh_TW)"
+
 RDEPENDS:${PN} += "gimp"
 
 inherit rpm

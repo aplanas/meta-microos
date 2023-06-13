@@ -97,6 +97,7 @@ locale(evince:zh_HK) \
 locale(evince:zh_TW) \
 metainfo() \
 metainfo(evince-lang.metainfo.xml)"
+
 RDEPENDS:${PN} += "evince"
 
 inherit rpm

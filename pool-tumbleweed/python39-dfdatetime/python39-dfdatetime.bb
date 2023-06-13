@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dfdatetime) \
 python39-dfdatetime \
 python3dist(dfdatetime)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

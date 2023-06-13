@@ -10,6 +10,7 @@ RPM_HASH = "adae8b6b6d41e090abd63af376f2d6f3da2112cbe4c92e7a7cbdc748a20353f14704
 
 RPROVIDES:${PN} += "openldap2-back-perl \
 openldap2-back-perl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

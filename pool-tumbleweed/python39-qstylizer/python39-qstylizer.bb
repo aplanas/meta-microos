@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(qstylizer) \
 python39-qstylizer \
 python3dist(qstylizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-inflection \
 python39-tinycss2"

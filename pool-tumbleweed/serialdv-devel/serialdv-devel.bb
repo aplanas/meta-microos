@@ -13,6 +13,7 @@ RPM_HASH = "afcccada8901cf3efb5e385cc4da1261dac1dc387c0294143506058019705104cbe9
 
 RPROVIDES:${PN} += "serialdv-devel \
 serialdv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-kazoo \
 python3.10dist(kazoo) \
 python310-kazoo \
 python3dist(kazoo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

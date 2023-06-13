@@ -9,6 +9,7 @@ RPM_HASH = "6c4dd68fb0eefd822fe8c1bc108cff3f1c9faa855f20a6b5a1e45c8d247a3555ee43
 
 RPROVIDES:${PN} += "libstdc++-devel \
 libstdc++-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstdc++6-devel-gcc13"
 
 inherit rpm

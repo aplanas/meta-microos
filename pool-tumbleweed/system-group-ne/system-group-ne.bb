@@ -10,6 +10,7 @@ RPM_HASH = "b47d7a90d678f0fa58913da07b6e3f31844910795d379b71f7c20eb52121946ea3ec
 RPROVIDES:${PN} += "group(ne) \
 system-group-ne \
 system-group-ne(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

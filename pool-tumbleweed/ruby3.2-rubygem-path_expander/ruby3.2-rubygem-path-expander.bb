@@ -24,6 +24,7 @@ rubygem(ruby:3.2.0:path_expander) \
 rubygem(ruby:3.2.0:path_expander:1) \
 rubygem(ruby:3.2.0:path_expander:1.1) \
 rubygem(ruby:3.2.0:path_expander:1.1.1)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

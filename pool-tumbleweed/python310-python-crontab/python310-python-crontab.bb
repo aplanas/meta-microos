@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-crontab \
 python3.10dist(python-crontab) \
 python310-python-crontab \
 python3dist(python-crontab)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-dateutil"
 

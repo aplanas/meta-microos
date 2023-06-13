@@ -18,6 +18,7 @@ python3.10dist(prettytable) \
 python310-PrettyTable \
 python310-prettytable \
 python3dist(prettytable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wcwidth"
 

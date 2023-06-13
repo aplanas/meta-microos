@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-ghp-import \
 python3.10dist(ghp-import) \
 python310-ghp-import \
 python3dist(ghp-import)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

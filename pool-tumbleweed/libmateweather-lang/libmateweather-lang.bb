@@ -109,6 +109,7 @@ locale(libmateweather:wa) \
 locale(libmateweather:zh_CN) \
 locale(libmateweather:zh_HK) \
 locale(libmateweather:zh_TW)"
+
 RDEPENDS:${PN} += "libmateweather"
 
 inherit rpm

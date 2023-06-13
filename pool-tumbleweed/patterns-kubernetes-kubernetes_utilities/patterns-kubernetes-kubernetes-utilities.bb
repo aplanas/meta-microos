@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-containers-kubernetes-utilities \
 patterns-kubernetes-kubernetes_utilities \
 patterns-kubernetes-kubernetes_utilities(aarch-64)"
+
 RDEPENDS:${PN} += "helm \
 k9s \
 kail \

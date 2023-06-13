@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-vsts-cd-manager \
 python3.10dist(vsts-cd-manager) \
 python310-vsts-cd-manager \
 python3dist(vsts-cd-manager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msrest"
 

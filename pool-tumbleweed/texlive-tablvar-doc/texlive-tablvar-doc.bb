@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tablvar-doc:fr) \
 texlive-tablvar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

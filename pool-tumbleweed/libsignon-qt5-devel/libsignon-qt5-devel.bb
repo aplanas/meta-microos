@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(SignOnQt5) \
 libsignon-qt5-devel \
 libsignon-qt5-devel(aarch-64) \
 pkgconfig(libsignon-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsignon-qt5-1 \
 pkgconfig(Qt5Core)"

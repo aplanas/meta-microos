@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(DynaLoader) \
 perl(XSLoader) \
 perl-XSLoader \
 perl-XSLoader(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

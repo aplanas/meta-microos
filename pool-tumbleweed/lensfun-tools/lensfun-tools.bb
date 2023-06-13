@@ -10,6 +10,7 @@ RPM_HASH = "de8898f05f728f61753250b5981266ead5dfdfce684810bb39af678ea01de3571fb7
 
 RPROVIDES:${PN} += "lensfun-tools \
 lensfun-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 lensfun-data \

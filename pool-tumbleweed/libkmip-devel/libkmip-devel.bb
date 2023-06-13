@@ -14,6 +14,7 @@ RPM_HASH = "50d15dcb7950604009046a35859c3cde1e5d62d4ddb6bee969e000698483941ac85f
 
 RPROVIDES:${PN} += "libkmip-devel \
 libkmip-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkmip0"
 
 inherit rpm

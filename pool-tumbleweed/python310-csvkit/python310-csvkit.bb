@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-csvkit \
 python3.10dist(csvkit) \
 python310-csvkit \
 python3dist(csvkit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

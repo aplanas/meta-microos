@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp2 \
 mono(dbus-sharp)"
+
 RDEPENDS:${PN} += "mono(Mono.Posix) \
 mono(System) \
 mono(System.Core) \

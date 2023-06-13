@@ -24,6 +24,7 @@ locale(torbrowser-launcher:tr) \
 locale(torbrowser-launcher:zh_TW) \
 torbrowser-launcher-lang \
 torbrowser-launcher-lang-all"
+
 RDEPENDS:${PN} += "torbrowser-launcher"
 
 inherit rpm

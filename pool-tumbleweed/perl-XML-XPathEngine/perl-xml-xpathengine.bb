@@ -41,6 +41,7 @@ perl(XML::XPathEngine::Root) \
 perl(XML::XPathEngine::Step) \
 perl(XML::XPathEngine::Variable) \
 perl-XML-XPathEngine"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

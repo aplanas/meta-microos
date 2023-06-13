@@ -16,6 +16,7 @@ RPM_HASH = "0196d21e7fb0197f3850cbb53ddcefed2d5a177bf23b3cc097670b9b373a4b681035
 RPROVIDES:${PN} += "typelib(Gdaui) \
 typelib-1_0-Gdaui-6_0 \
 typelib-1_0-Gdaui-6_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgda-ui-6.0.so.6.0.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

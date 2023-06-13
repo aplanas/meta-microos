@@ -9,6 +9,7 @@ RPM_HASH = "0b03ef1d172b8454f1b01ee4766ed2a800cea76b934175088a8460f122bd757c9b94
 
 RPROVIDES:${PN} += "libpfm-devel-static \
 libpfm-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libpfm-devel"
 
 inherit rpm

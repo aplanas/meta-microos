@@ -80,6 +80,7 @@ mvn(org.languagetool:languagetool-server) \
 mvn(org.languagetool:languagetool-server:pom:) \
 mvn(org.languagetool:languagetool-standalone) \
 mvn(org.languagetool:languagetool-standalone:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(ch.qos.logback:logback-classic) \

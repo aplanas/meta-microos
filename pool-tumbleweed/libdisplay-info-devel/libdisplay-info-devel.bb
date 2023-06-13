@@ -13,6 +13,7 @@ RPM_HASH = "2d6a108d68ddc1a60b46ff9a53a1b796f1a9746ad787e9fb40c1b17166fef6185b24
 RPROVIDES:${PN} += "libdisplay-info-devel \
 libdisplay-info-devel(aarch-64) \
 pkgconfig(libdisplay-info)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

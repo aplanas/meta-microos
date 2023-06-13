@@ -17,6 +17,7 @@ caja-extension-atril \
 caja-extension-atril(aarch-64) \
 libatril-properties-page.so()(64bit) \
 mate-document-viewer-caja"
+
 RDEPENDS:${PN} += "atril \
 caja \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "2a5b54fbdb9da25a81e30c5a156e3848b646b1f1f9391953278aea85baf93fe4bc89
 
 RPROVIDES:${PN} += "libcephsqlite-devel \
 libcephsqlite-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcephsqlite \
 librados-devel \
 libradospp-devel \

@@ -10,6 +10,7 @@ RPM_HASH = "febd096eba32cced6e39991e788199ae1a31bea76b81024bbdc1549b3e8f86b0cff9
 
 RPROVIDES:${PN} += "utempter-devel \
 utempter-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libutempter0"
 
 inherit rpm

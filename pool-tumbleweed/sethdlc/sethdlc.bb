@@ -12,6 +12,7 @@ RPM_HASH = "cf4f946e0604f3ef201243ac3eaf337d9f70427a6be82e7a95751b3a5df300e69769
 
 RPROVIDES:${PN} += "sethdlc \
 sethdlc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-ZODB \
 python3.10dist(zodb) \
 python310-ZODB \
 python3dist(zodb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(TOPletter.cls) \
 texlive-topletter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

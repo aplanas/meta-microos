@@ -10,6 +10,7 @@ RPM_HASH = "026f9fbf432cc0cfbf01478d9f8f2f99ad98f35fe8916c693cf7a85328758464d42b
 
 RPROVIDES:${PN} += "python3-libaccounts \
 python3-libaccounts(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(GObject)"
 

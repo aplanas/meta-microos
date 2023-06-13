@@ -18,6 +18,7 @@ RPM_HASH = "bcbb7a571bdbbb971a17d3a43bdb49c4ac1d242239c9c77648ccbb7a94abf75b420c
 RPROVIDES:${PN} += "gnome-keyring-pam \
 gnome-keyring-pam(aarch-64) \
 pam_keyring"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-keyring \
 ld-linux-aarch64.so.1()(64bit) \

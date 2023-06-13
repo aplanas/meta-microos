@@ -10,6 +10,7 @@ RPM_HASH = "e733268758554e4c5465e3a414fe81e877e3949e8c3e132b783711494087aad54078
 RPROVIDES:${PN} += "libfrr_pb.so.0()(64bit) \
 libfrr_pb0 \
 libfrr_pb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libprotobuf-c.so.1()(64bit) \
 libprotobuf-c.so.1(LIBPROTOBUF_C_1.0.0)(64bit)"

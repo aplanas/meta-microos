@@ -13,6 +13,7 @@ RPM_HASH = "42b958cb164c1a930dc58e3030eaf9ac982b6cae88cef7ee5e10a5db3d5f5fee150b
 
 RPROVIDES:${PN} += "alts \
 alts(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libalternatives.so.1()(64bit) \

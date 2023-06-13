@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(py-espeak-ng) \
 python39-py-espeak-ng \
 python3dist(py-espeak-ng)"
+
 RDEPENDS:${PN} += "espeak-ng \
 python(abi)"
 

@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-deepin-deepin_multimedia \
 patterns-deepin-deepin_multimedia(aarch-64)"
+
 RDEPENDS:${PN} += "pattern() \
 vlc"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jneurosci.sty) \
 texlive-jneurosci"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

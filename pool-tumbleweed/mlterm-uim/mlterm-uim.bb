@@ -13,6 +13,7 @@ libim-uim.so()(64bit) \
 locale(uim:ja;ko;ar;he) \
 mlterm-uim \
 mlterm-uim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

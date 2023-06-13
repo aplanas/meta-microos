@@ -10,6 +10,7 @@ RPM_HASH = "f66321cfbd5f390cef09bf30e8cc39f92ebfc0558a7f6320349122addd48d9242cc8
 RPROVIDES:${PN} += "cmake(openpgl) \
 openpgl-devel \
 openpgl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopenpgl0"
 
 inherit rpm

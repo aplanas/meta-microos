@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(mn.def) \
 tex(mongolian.ldf) \
 tex(mongolian.sty) \
 texlive-mongolian-babel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

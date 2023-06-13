@@ -11,6 +11,7 @@ RPM_HASH = "e95bb3403233778c3b75ae469c76a12c04ed546760fb277866c7e2d09d40465cefbe
 RPROVIDES:${PN} += "leechcraft-pogooglue \
 leechcraft-pogooglue(aarch-64) \
 libleechcraft_pogooglue.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

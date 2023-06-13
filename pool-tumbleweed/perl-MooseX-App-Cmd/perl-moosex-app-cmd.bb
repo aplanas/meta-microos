@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::App::Cmd) \
 perl(MooseX::App::Cmd::Command) \
 perl-MooseX-App-Cmd"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(App::Cmd) \
 perl(App::Cmd::Command) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-jaxb-codemodel-annotation-compiler \
 mvn(org.glassfish.jaxb:codemodel-annotation-compiler) \
 mvn(org.glassfish.jaxb:codemodel-annotation-compiler:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.istack:istack-commons-tools) \

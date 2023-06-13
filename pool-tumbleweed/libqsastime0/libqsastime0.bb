@@ -13,6 +13,7 @@ RPM_HASH = "10a7b071b1ee30a580a3fec915d9eb97adf441b715d03a4b155eb4bc3f4fb65dee84
 RPROVIDES:${PN} += "libqsastime.so.0()(64bit) \
 libqsastime0 \
 libqsastime0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

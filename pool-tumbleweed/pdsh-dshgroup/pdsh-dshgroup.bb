@@ -9,6 +9,7 @@ RPM_HASH = "653af6a8bbc4367e99c98d4747cea88bf6de9e921ba28b8ebcb766fcbaf3f1203dc2
 
 RPROVIDES:${PN} += "pdsh-dshgroup \
 pdsh-dshgroup(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

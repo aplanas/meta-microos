@@ -9,6 +9,7 @@ RPM_HASH = "612a6708b410b1920767fd254dea176378f0bb09ba8df117b5554d1980d8e25581f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unitn-bimrep-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "6946219d6a5b7d1fdc4b6ce41fe5e4f691a352c0ccea1d75b25a2fa62df49cf1f64a
 RPROVIDES:${PN} += "libclutter-gst-3.0.so.0()(64bit) \
 libclutter-gst-3_0-0 \
 libclutter-gst-3_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

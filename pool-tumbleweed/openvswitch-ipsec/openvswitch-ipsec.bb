@@ -9,6 +9,7 @@ RPM_HASH = "1752023f1b69d9cb8734286a5924599893b733469a501a6b1002cd2e39580dad5e3c
 
 RPROVIDES:${PN} += "openvswitch-ipsec \
 openvswitch-ipsec(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 openvswitch \

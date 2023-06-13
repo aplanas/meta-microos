@@ -10,6 +10,7 @@ RPM_HASH = "b4104b39290854b2d02beb3b605046371746ed47a44702c80f4c7acdceca9fb9c333
 RPROVIDES:${PN} += "ghostscript-devel \
 ghostscript-devel(aarch-64) \
 pkgconfig(ijs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ghostscript"
 

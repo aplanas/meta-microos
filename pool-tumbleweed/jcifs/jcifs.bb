@@ -24,6 +24,7 @@ mvn(jcifs:jcifs:pom:) \
 mvn(org.samba.jcifs:jcifs) \
 mvn(org.samba.jcifs:jcifs:pom:) \
 osgi(jcifs)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.servlet:javax.servlet-api)"

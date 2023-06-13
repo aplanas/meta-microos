@@ -14,6 +14,7 @@ RPM_HASH = "3496d2487611833294dbe44a80c7018c92f095dea6ce28d908ae35e29f2247773809
 RPROVIDES:${PN} += "libdrm_intel.so.1()(64bit) \
 libdrm_intel1 \
 libdrm_intel1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

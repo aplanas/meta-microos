@@ -16,6 +16,7 @@ mono(policy.2.4.glib-sharp) \
 mono(policy.2.6.glib-sharp) \
 mono(policy.2.8.glib-sharp) \
 pkgconfig(glib-sharp-2.0)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

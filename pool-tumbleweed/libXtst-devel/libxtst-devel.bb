@@ -19,6 +19,7 @@ RPM_HASH = "f692dc67402d01986f9347d59a6f98dca2734cc170771bab2e4e7150e37416c6f2d0
 RPROVIDES:${PN} += "libXtst-devel \
 libXtst-devel(aarch-64) \
 pkgconfig(xtst)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXtst6 \
 pkgconfig(recordproto) \

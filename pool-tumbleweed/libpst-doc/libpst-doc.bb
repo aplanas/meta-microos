@@ -11,6 +11,7 @@ RPM_HASH = "33427ff561cee25f8496537d62a9a4220eae7fe035d7cadebb08c957d0d97b865256
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

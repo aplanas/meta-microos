@@ -9,6 +9,7 @@ RPM_HASH = "537e6f7196b0542755a0109b05c4ecc217515760c46b66a518aba04cf74eb87c1a56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langgerman"
+
 RDEPENDS:${PN} += "texlive-apalike-german \
 texlive-babel-german \
 texlive-bibleref-german \

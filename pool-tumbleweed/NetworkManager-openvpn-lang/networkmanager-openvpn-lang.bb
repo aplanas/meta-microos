@@ -69,6 +69,7 @@ locale(NetworkManager-openvpn:vi) \
 locale(NetworkManager-openvpn:zh_CN) \
 locale(NetworkManager-openvpn:zh_HK) \
 locale(NetworkManager-openvpn:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-openvpn"
 
 inherit rpm

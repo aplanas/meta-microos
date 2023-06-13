@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(german-socialscienceshuberlin.lbx) \
 tex(socialscienceshuberlin.bbx) \
 tex(socialscienceshuberlin.cbx) \
 texlive-biblatex-socialscienceshuberlin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

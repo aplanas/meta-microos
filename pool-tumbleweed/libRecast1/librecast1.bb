@@ -10,6 +10,7 @@ RPM_HASH = "8aa09d55e2957476f4a9a676d4033fc342f6593f694e7d4f32cbdbf5b111ba68daf1
 RPROVIDES:${PN} += "libRecast.so.1()(64bit) \
 libRecast1 \
 libRecast1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

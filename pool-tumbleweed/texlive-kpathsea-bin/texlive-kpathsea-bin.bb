@@ -9,6 +9,7 @@ RPM_HASH = "e128db8517010a5d6a55a620b39a79add5788eefcb216463b8fca78573831642587a
 
 RPROVIDES:${PN} += "texlive-kpathsea-bin \
 texlive-kpathsea-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(mktex) \
 ld-linux-aarch64.so.1()(64bit) \

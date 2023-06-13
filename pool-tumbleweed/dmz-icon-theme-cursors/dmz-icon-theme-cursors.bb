@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dmz-icon-theme-cursors \
 icon-theme-dmz-cursors"
+
 RDEPENDS:${PN} += "hicolor-icon-theme"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-gps3 \
 python3.10dist(gps3) \
 python310-gps3 \
 python3dist(gps3)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

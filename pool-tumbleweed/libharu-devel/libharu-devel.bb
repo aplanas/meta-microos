@@ -10,6 +10,7 @@ RPM_HASH = "622de983cf1e34ca061c93b410a8cc4e573ecf53ac38c0da05720054f037ee695573
 
 RPROVIDES:${PN} += "libharu-devel \
 libharu-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhpdf2_4_2 \
 libpng-devel \
 zlib-devel"

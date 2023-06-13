@@ -9,6 +9,7 @@ RPM_HASH = "660a79db03d3aca3b16fcd7f0cddf7af98da34b769277147b92bc12ef806aee58ca4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-opensuse-beat"
+
 RDEPENDS:${PN} += "/bin/sh \
 plymouth-scripts \
 plymouth-theme-script"

@@ -9,6 +9,7 @@ RPM_HASH = "4ca4dd7597d006d60f929ef401edbbf0183379ad931b6992d8c7e4f0b4472df31699
 
 RPROVIDES:${PN} += "texlive-afm2pl-bin \
 texlive-afm2pl-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

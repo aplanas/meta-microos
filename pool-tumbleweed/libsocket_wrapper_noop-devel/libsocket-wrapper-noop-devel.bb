@@ -13,6 +13,7 @@ cmake(socket_wrapper_noop) \
 libsocket_wrapper_noop-devel \
 libsocket_wrapper_noop-devel(aarch-64) \
 pkgconfig(socket_wrapper_noop)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsocket_wrapper_noop0"
 

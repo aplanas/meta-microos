@@ -9,6 +9,7 @@ RPM_HASH = "2c4fbffc8ddf87d37d47486ab7fc665d2333c183018ffb0207685581b88e3101306a
 
 RPROVIDES:${PN} += "bitlbee-discord \
 bitlbee-discord(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f48c1fd01d343a692c80e9e00cd936ebb6186acce5bc193411df2b14f93cc1ef7619
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bluez-zsh-completion"
+
 RDEPENDS:${PN} += "bluez \
 zsh"
 

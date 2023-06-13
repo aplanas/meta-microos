@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5WebChannel) \
 libqt5-qtwebchannel-devel \
 libqt5-qtwebchannel-devel(aarch-64) \
 pkgconfig(Qt5WebChannel)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5WebChannel5 \
 pkgconfig(Qt5Core) \

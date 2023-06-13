@@ -9,6 +9,7 @@ RPM_HASH = "eb12045dae826b0288d54de92f368ef46b5029e66399b65bef1f31b428f4a29e531d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

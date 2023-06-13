@@ -14,6 +14,7 @@ RPM_HASH = "23d0445dd3f4a83f0935c333c3290f6e28c3face263e118359e656bbb10f9592515a
 RPROVIDES:${PN} += "typelib(PeasGtk) \
 typelib-1_0-PeasGtk-1_0 \
 typelib-1_0-PeasGtk-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libpeas-gtk-1.0.so.0()(64bit) \
 typelib(Atk) \
 typelib(GIRepository) \

@@ -10,6 +10,7 @@ RPM_HASH = "15536a3ee06c64f3fe56cb9950f61571495ad9da3ab39f4b08a1333dfa605ba1d6ee
 
 RPROVIDES:${PN} += "pcp-pmda-sockets \
 pcp-pmda-sockets(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 iproute \
 ld-linux-aarch64.so.1()(64bit) \

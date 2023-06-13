@@ -11,6 +11,7 @@ RPM_HASH = "31f058a06db98cb184b303e7214f1ed09e3594ec7c3580589b866242b4fd50a69e4d
 RPROVIDES:${PN} += "libFS.so.6()(64bit) \
 libFS6 \
 libFS6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

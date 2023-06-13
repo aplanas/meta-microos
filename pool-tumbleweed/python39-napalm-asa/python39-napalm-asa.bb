@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(napalm-asa) \
 python39-napalm-asa \
 python3dist(napalm-asa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-napalm"
 

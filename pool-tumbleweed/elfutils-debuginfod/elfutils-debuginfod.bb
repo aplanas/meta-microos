@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "elfutils-debuginfod \
 elfutils-debuginfod(aarch-64) \
 group(debuginfod) \
 user(debuginfod)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -17,6 +17,7 @@ RPM_HASH = "a85f19fa9ea80eca18bcea16fe80b3ce7aefec589a316940b87fb78e62900e703400
 RPROVIDES:${PN} += "leechcraft-azoth-modnok \
 leechcraft-azoth-modnok(aarch-64) \
 libleechcraft_azoth_modnok.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "8e108ddac7a813accb7a4afbec89dde5f5da7631f9cb1c19dc2b9ba54b2bfc1bc879
 
 RPROVIDES:${PN} += "python311-libsmdev \
 python311-libsmdev(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

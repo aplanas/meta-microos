@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(onedash.sty) \
 tex(quoted.sty) \
 texlive-logical-markup-utils"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

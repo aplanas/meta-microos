@@ -38,6 +38,7 @@ locale(xdg-desktop-portal-gtk:zh_CN) \
 locale(xdg-desktop-portal-gtk:zh_TW) \
 xdg-desktop-portal-gtk-lang \
 xdg-desktop-portal-gtk-lang-all"
+
 RDEPENDS:${PN} += "xdg-desktop-portal-gtk"
 
 inherit rpm

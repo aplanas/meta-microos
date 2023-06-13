@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(savesym.sty) \
 texlive-savesym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "0cb6e7b6a35c0ee015f6d3fef38022d9274882fff24e4b68e1d0f54614df3022b382
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-nanopc-t4-rk3399 \
 u-boot-nanopc-t4-rk3399(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

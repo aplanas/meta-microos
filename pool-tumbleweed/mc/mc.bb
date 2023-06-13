@@ -22,6 +22,7 @@ application(mc.desktop) \
 config(mc) \
 mc \
 mc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

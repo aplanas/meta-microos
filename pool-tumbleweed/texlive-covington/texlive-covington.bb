@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(covington.sty) \
 texlive-covington"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

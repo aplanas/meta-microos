@@ -11,6 +11,7 @@ RPM_HASH = "68bbd5c11c43bd0f0e05662b9b919a77600b4ad6081fd2c999469db04d6de34a093c
 
 RPROVIDES:${PN} += "libhdf5_fortran-gnu-mvapich2-hpc \
 libhdf5_fortran-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "libhdf5_fortran_1_12_2-gnu-mvapich2-hpc"
 
 inherit rpm

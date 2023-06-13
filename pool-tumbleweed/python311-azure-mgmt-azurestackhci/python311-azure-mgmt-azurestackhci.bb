@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-azurestackhci) \
 python311-azure-mgmt-azurestackhci \
 python3dist(azure-mgmt-azurestackhci)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-appconf \
 python3.10dist(django-appconf) \
 python310-django-appconf \
 python3dist(django-appconf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

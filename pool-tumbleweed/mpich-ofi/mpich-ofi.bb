@@ -24,6 +24,7 @@ libmpifort.so.12()(64bit) \
 mpi \
 mpich-ofi \
 mpich-ofi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

@@ -201,6 +201,7 @@ npm \
 npm(npm) \
 npm20 \
 npm20(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

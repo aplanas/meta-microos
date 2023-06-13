@@ -10,6 +10,7 @@ RPM_HASH = "553b8e3fce43cb8e93736e1cd5f6e7cf80fec4cd13202618d23d0e7f083bf62f8834
 
 RPROVIDES:${PN} += "mate-session-manager-gschemas \
 mate-session-manager-gschemas(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

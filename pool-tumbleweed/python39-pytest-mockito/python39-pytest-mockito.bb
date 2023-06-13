@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-mockito) \
 python39-pytest-mockito \
 python3dist(pytest-mockito)"
+
 RDEPENDS:${PN} += "ca-certificates \
 python(abi) \
 python39 \

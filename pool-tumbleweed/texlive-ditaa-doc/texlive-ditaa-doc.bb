@@ -9,6 +9,7 @@ RPM_HASH = "e7eeb0c4b9ee36b9f7ede26349ea456f2c9704934b7d89c8b62d7e6bf534987e8173
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ditaa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

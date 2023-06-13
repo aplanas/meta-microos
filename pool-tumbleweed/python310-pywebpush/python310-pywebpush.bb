@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pywebpush \
 python3.10dist(pywebpush) \
 python310-pywebpush \
 python3dist(pywebpush)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

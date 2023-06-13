@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "aws-sdk-java-cognitosync \
 mvn(com.amazonaws:aws-java-sdk-cognitosync) \
 mvn(com.amazonaws:aws-java-sdk-cognitosync:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.amazonaws:aws-java-sdk-core)"

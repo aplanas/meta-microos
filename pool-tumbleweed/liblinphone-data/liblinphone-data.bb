@@ -16,6 +16,7 @@ RPM_HASH = "9bba5783e03f5c2a8ca08937caaa4b3eb8a7e52bcd03ecb8f3f097d7bd7acdbb06f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblinphone-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

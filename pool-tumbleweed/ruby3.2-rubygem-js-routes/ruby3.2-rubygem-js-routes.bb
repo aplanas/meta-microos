@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:js-routes) \
 rubygem(ruby:3.2.0:js-routes:2) \
 rubygem(ruby:3.2.0:js-routes:2.2) \
 rubygem(ruby:3.2.0:js-routes:2.2.5)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:railties)"
 

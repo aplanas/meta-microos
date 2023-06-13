@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(vapoursynth) \
 pkgconfig(vapoursynth-script) \
 vapoursynth-devel \
 vapoursynth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvapoursynth-62 \
 libvapoursynth-script0 \

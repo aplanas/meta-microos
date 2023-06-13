@@ -65,6 +65,7 @@ locale(ksirk:ug) \
 locale(ksirk:uk) \
 locale(ksirk:zh_CN) \
 locale(ksirk:zh_TW)"
+
 RDEPENDS:${PN} += "ksirk"
 
 inherit rpm

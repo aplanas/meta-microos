@@ -13,6 +13,7 @@ RPM_HASH = "cac9946137b80948218d03c2a7698980db20ca138118ee3cbceae6d2d6ce6fde399e
 RPROVIDES:${PN} += "config(squidGuard) \
 squidGuard \
 squidGuard(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 http_proxy \
 ld-linux-aarch64.so.1()(64bit) \

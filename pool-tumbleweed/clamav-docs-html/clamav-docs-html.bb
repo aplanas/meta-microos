@@ -9,6 +9,7 @@ RPM_HASH = "0486532f53fb4f8b73f241fdb38f79ece253c71d8fbcce366ee47d728132293f3bed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamav-docs-html"
+
 RDEPENDS:${PN} += "clamav"
 
 inherit rpm

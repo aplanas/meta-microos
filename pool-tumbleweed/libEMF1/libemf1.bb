@@ -17,6 +17,7 @@ RPM_HASH = "31fac9bf645447e01804a86a6bdb73ec1b84787eaffe3672479d34edf79ed4bba75b
 RPROVIDES:${PN} += "libEMF.so.1()(64bit) \
 libEMF1 \
 libEMF1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

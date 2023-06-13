@@ -25,6 +25,7 @@ firmware(rsi_91x.fw) \
 firmware(rt73.bin) \
 firmware(vntwusb.fw) \
 kernel-firmware-usb-network"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

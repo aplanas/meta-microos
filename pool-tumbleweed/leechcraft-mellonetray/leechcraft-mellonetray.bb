@@ -11,6 +11,7 @@ RPM_HASH = "ed667c286b7806863bbad2447a2986dd8c33c0244144ecdc8946a64f74f02acbea3c
 RPROVIDES:${PN} += "leechcraft-mellonetray \
 leechcraft-mellonetray(aarch-64) \
 libleechcraft_mellonetray.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

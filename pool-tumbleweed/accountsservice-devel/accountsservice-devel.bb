@@ -11,6 +11,7 @@ RPM_HASH = "1dea4a76a941341d25da30d13ba00fb4a635102b952877fe77eb0cdba88e13f6b748
 RPROVIDES:${PN} += "accountsservice-devel \
 accountsservice-devel(aarch-64) \
 pkgconfig(accountsservice)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaccountsservice0 \
 pkgconfig(gio-2.0) \

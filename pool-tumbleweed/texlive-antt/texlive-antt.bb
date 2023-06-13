@@ -446,6 +446,7 @@ tex(wncy-anttmi.tfm) \
 tex(wncy-anttr.tfm) \
 tex(wncy-anttri.tfm) \
 texlive-antt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

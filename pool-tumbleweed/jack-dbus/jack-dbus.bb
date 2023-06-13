@@ -10,6 +10,7 @@ RPM_HASH = "2757993d34986e32016f73a1e768190111ba95c37b6921bd6d77b81118d9a7e30e9d
 
 RPROVIDES:${PN} += "jack-dbus \
 jack-dbus(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 jack-daemon \
 ld-linux-aarch64.so.1()(64bit) \

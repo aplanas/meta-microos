@@ -14,6 +14,7 @@ deepin-system-monitor \
 deepin-system-monitor(aarch-64) \
 metainfo() \
 metainfo(deepin-system-monitor.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkexec \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "c7248e6901c8e0fad0fb836c6c4305237832d842782948fddf39a3894898d1d449ed
 RPROVIDES:${PN} += "libavc1394 \
 libavc1394-tools \
 libavc1394-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavc1394.so.0()(64bit) \

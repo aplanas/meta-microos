@@ -10,6 +10,7 @@ RPM_HASH = "e4c46d37094eb936c202ddd4538eae8a174bfbb464e7f12ccbfc850f837e9b4de29c
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint-prof \
 ghc-ansi-wl-pprint-prof(aarch-64) \
 ghc-prof(ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI)"
+
 RDEPENDS:${PN} += "ghc-ansi-wl-pprint-devel \
 ghc-prof(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \
 ghc-prof(base-4.17.1.0)"

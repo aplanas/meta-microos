@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "objectweb-anttask \
 owanttask"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

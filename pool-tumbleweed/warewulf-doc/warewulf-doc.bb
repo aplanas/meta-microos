@@ -16,6 +16,7 @@ RPM_HASH = "476a7a833e7686c61c3b739c765ed4167fdabde8c4ac9c0362b3a8c3730857ba4496
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -25,6 +25,7 @@ mvn(org.apache.httpcomponents:httpcore-nio:pom:) \
 mvn(org.apache.httpcomponents:httpcore:pom:) \
 osgi(org.apache.httpcomponents.httpcore) \
 osgi(org.apache.httpcomponents.httpcore-nio)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

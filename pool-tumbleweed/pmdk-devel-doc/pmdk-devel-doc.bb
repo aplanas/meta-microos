@@ -9,6 +9,7 @@ RPM_HASH = "d23d8d3040ed53f9ac3085cc3c7fdc1e5f2501e973301f6bb3037f5bf6d273f91053
 
 RPROVIDES:${PN} += "pmdk-devel-doc \
 pmdk-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

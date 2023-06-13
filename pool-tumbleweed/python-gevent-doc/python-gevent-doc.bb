@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-gevent-doc \
 python310-gevent-doc \
 python311-gevent-doc \
 python39-gevent-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

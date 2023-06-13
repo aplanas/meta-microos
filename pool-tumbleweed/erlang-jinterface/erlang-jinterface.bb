@@ -9,6 +9,7 @@ RPM_HASH = "fcc3f1b74eab8ff8648e6cbbe3fea5b6c9544a4c45a8fad8bd9f593a574b8e348d6e
 
 RPROVIDES:${PN} += "erlang-jinterface \
 erlang-jinterface(aarch-64)"
+
 RDEPENDS:${PN} += "erlang \
 java"
 

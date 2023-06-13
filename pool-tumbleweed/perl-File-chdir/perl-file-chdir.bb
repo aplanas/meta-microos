@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "perl(File::chdir) \
 perl(File::chdir::ARRAY) \
 perl(File::chdir::SCALAR) \
 perl-File-chdir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cwd) \
 perl(File::Spec::Functions)"

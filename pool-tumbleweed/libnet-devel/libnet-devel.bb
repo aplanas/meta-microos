@@ -11,6 +11,7 @@ RPM_HASH = "832e4ea4310ae55c1cc0bd0e8b0eba9539b7dcc02cdd025285da4bc35612e4cd19d7
 RPROVIDES:${PN} += "libnet-devel \
 libnet-devel(aarch-64) \
 pkgconfig(libnet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libnet9"

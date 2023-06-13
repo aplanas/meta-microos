@@ -16,6 +16,7 @@ RPM_HASH = "bf3e1693b4fded50e83b4ae96776872c7fbf39b0ac44b24af07e4a5d09e9ee59e248
 RPROVIDES:${PN} += "perl(NKF) \
 perl-NKF \
 perl-NKF(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

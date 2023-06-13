@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pynxos \
 python3.10dist(pynxos) \
 python310-pynxos \
 python3dist(pynxos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-requests \

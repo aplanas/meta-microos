@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jsonpickle) \
 python39-jsonpickle \
 python3dist(jsonpickle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

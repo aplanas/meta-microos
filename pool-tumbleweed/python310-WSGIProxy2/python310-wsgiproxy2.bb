@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-WSGIProxy2 \
 python3.10dist(wsgiproxy2) \
 python310-WSGIProxy2 \
 python3dist(wsgiproxy2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebOb \
 python310-requests \

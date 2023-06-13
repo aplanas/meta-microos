@@ -12,6 +12,7 @@ RPM_HASH = "138a004243ca76ea454bf2054935d618d16be2f95fd0b47df652a490faf37671adb5
 RPROVIDES:${PN} += "net6-devel \
 net6-devel(aarch-64) \
 pkgconfig(net6-1.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnutls-devel \
 libsigc++2-devel \

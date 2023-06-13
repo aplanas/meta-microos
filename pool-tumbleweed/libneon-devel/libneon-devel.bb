@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libneon-devel \
 libneon-devel(aarch-64) \
 neon-devel \
 pkgconfig(neon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3.11dist(cx-freeze) \
 python311-cx_Freeze \
 python311-cx_Freeze(aarch-64) \
 python3dist(cx-freeze)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.11 \

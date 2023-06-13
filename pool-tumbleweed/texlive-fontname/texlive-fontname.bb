@@ -34,6 +34,7 @@ tex(weight.map) \
 tex(width.map) \
 tex(yandy.map) \
 texlive-fontname"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

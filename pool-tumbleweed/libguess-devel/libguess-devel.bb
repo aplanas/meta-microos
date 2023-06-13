@@ -13,6 +13,7 @@ RPM_HASH = "8017715b693c7169d99fd726f1db6c4d1c830da79e585fd41ba2d2876565a34e5128
 RPROVIDES:${PN} += "libguess-devel \
 libguess-devel(aarch-64) \
 pkgconfig(libguess)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libguess1 \
 libmowgli2-devel \

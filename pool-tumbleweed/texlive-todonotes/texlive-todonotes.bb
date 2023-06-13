@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(todonotes.sty) \
 texlive-todonotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

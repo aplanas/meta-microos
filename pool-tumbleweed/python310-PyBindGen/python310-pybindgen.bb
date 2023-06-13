@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyBindGen \
 python3.10dist(pybindgen) \
 python310-PyBindGen \
 python3dist(pybindgen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

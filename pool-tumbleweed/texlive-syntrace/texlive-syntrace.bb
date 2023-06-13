@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(syntrace.sty) \
 texlive-syntrace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

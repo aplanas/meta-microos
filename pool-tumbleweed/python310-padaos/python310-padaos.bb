@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-padaos \
 python3.10dist(padaos) \
 python310-padaos \
 python3dist(padaos)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

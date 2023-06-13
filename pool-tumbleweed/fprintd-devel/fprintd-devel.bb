@@ -10,6 +10,7 @@ RPM_HASH = "04775d35cfc14260a80d4f6093eec5cd5c2ac5260e429af2c8d1a857189b8b5ede84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-devel"
+
 RDEPENDS:${PN} += "fprintd \
 gtk-doc"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liby2util-devel \
 pkgconfig(yast2-core) \
 yast2-core-devel \
 yast2-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 /usr/bin/pkg-config \

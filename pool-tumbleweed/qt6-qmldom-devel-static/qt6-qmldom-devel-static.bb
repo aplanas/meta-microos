@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlDomPrivate) \
 qt6-qmldom-devel-static \
 qt6-qmldom-devel-static(aarch-64) \
 qt6-qmldom-private-devel"
+
 RDEPENDS:${PN} += "cmake(Qt6QmlCompilerPrivate) \
 qt6-qml-private-devel"
 

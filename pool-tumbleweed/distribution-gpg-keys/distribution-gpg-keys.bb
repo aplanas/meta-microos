@@ -9,6 +9,7 @@ RPM_HASH = "9ae2d3ea058441035a195415a9b9ae2c2734d9e378b5dea3dd40ffd0304a0db5c7a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distribution-gpg-keys"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

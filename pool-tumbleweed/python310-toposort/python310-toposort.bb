@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-toposort \
 python3.10dist(toposort) \
 python310-toposort \
 python3dist(toposort)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

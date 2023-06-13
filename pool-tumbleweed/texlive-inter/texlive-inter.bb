@@ -1115,6 +1115,7 @@ tex(a_zasxrl.enc) \
 tex(a_zxuxr2.enc) \
 tex(inter.sty) \
 texlive-inter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

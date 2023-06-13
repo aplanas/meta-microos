@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-ckeditor) \
 python311-django-ckeditor \
 python3dist(django-ckeditor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow \
 python311-django-js-asset"

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qsynth-lang \
 qsynth-lang-all"
+
 RDEPENDS:${PN} += "qsynth"
 
 inherit rpm

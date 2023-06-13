@@ -13,6 +13,7 @@ python3.10dist(vispy) \
 python310-vispy \
 python310-vispy(aarch-64) \
 python3dist(vispy)"
+
 RDEPENDS:${PN} += "fontconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f824ac9a47cbd76669f7633d57728dad165c5e7bd87044d9b873aef2e389f7bcc5f9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-odsfile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

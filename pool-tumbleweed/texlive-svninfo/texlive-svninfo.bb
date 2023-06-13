@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(svninfo.cfg) \
 tex(svninfo.sty) \
 texlive-svninfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

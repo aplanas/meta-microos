@@ -9,6 +9,7 @@ RPM_HASH = "928f8d5370d04b18c5c835ab8032f714a4c1c12e4a283f002547a94f34ebcf855bb7
 
 RPROVIDES:${PN} += "kdeclarative-tools \
 kdeclarative-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "1385c3c65b6672f74a531fb7291345251e2e8d6a00b99d7793604d2442a40f7a58d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-QtPy-test"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-QtPy"
 

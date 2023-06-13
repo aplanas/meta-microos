@@ -9,6 +9,7 @@ RPM_HASH = "4c201a668cad9dd0f28a23caf6af7a64a577c64455c64d9d47016e2af056c5596353
 
 RPROVIDES:${PN} += "openbox-kde \
 openbox-kde(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 openbox"
 

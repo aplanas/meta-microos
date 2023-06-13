@@ -9,6 +9,7 @@ RPM_HASH = "9fa5ac1dbf5965b5d49edcd795d06b2139d9de22beff4ce752e9fbfd7a313f3dc9aa
 
 RPROVIDES:${PN} += "java-1_8_0-openjdk-src \
 java-1_8_0-openjdk-src(aarch-64)"
+
 RDEPENDS:${PN} += "java-1_8_0-openjdk"
 
 inherit rpm

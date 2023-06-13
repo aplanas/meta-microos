@@ -18,6 +18,7 @@ perl(L2hos::OS2) \
 perl(L2hos::Unix) \
 perl(L2hos::Win32) \
 perl(cfgcache)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ghostscript_any \
 latex2html-pngicons \

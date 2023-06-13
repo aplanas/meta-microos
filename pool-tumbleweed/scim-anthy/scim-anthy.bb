@@ -9,6 +9,7 @@ RPM_HASH = "1df4a6f6b96b3408af6e9dc168ad952d4bfd2a81cf7855e2525372ccfdfdaf9a6727
 
 RPROVIDES:${PN} += "scim-anthy \
 scim-anthy(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libanthy.so.0()(64bit) \

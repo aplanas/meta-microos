@@ -94,6 +94,7 @@ locale(libKF5WidgetsAddons5:wa) \
 locale(libKF5WidgetsAddons5:zh_CN) \
 locale(libKF5WidgetsAddons5:zh_HK) \
 locale(libKF5WidgetsAddons5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5WidgetsAddons5"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-jupyter-widgets-jupyterlab-manager \
 jupyter-jupyterlab-widgets \
 jupyter-jupyterlab_widgets"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-filesystem"
 
 inherit rpm

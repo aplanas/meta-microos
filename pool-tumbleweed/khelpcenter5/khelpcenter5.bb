@@ -17,6 +17,7 @@ mimehandler(x-scheme-handler/help) \
 mimehandler(x-scheme-handler/info) \
 mimehandler(x-scheme-handler/man) \
 suse_help_viewer"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 kdoctools \

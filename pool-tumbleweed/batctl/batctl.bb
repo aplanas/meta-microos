@@ -14,6 +14,7 @@ RPM_HASH = "4058dac627413d28b8129309dc5031cfe16d28027b18cf2f35860bf9258183159084
 
 RPROVIDES:${PN} += "batctl \
 batctl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

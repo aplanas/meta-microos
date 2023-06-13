@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(upzhkinsoku.sty) \
 texlive-upzhkinsoku"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

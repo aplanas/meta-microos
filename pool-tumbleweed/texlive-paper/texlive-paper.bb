@@ -17,6 +17,7 @@ tex(journal.sty) \
 tex(paper.cls) \
 tex(paper.sty) \
 texlive-paper"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(appendixnumberbeamer.sty) \
 texlive-appendixnumberbeamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -54,6 +54,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(URI::Fetch) \
 perl(URI::Fetch::Response) \
 perl-URI-Fetch"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::ErrorHandler) \
 perl(LWP::UserAgent) \

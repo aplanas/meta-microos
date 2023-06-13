@@ -9,6 +9,7 @@ RPM_HASH = "b2f6f11bde899f56e88e87e4ae98472da2dafa0073ae835c6c27363d409399f5eab9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scalebar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

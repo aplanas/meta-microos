@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "hi) \
 locale(texlive-ektype-tanka-doc:mr \
 texlive-ektype-tanka-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

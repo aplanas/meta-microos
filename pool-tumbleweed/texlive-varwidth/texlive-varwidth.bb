@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(varwidth.sty) \
 texlive-varwidth"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

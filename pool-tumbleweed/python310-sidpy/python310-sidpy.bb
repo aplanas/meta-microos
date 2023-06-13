@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sidpy \
 python3.10dist(sidpy) \
 python310-sidpy \
 python3dist(sidpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ase \
 python310-cytoolz \

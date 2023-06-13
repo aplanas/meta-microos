@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(inlinebib.sty) \
 tex(pageranges.sty) \
 texlive-inlinebib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

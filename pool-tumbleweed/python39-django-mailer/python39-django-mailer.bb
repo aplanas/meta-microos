@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-mailer) \
 python39-django-mailer \
 python3dist(django-mailer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-lockfile \

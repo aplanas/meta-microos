@@ -14,6 +14,7 @@ RPM_HASH = "969dcdf72f33b0b879245c3afcb119cbff4336a70cd4bc2b862668782d8bc2a0e0d6
 RPROVIDES:${PN} += "libSvtAv1Enc.so.1()(64bit) \
 libSvtAv1Enc1 \
 libSvtAv1Enc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

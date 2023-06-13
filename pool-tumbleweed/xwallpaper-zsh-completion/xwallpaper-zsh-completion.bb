@@ -9,6 +9,7 @@ RPM_HASH = "6346a45874e44712b93285bffbe8e1680b48636c7561663a896074bd32774201de3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xwallpaper-zsh-completion"
+
 RDEPENDS:${PN} += "xwallpaper"
 
 inherit rpm

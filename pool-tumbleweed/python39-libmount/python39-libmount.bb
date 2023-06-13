@@ -10,6 +10,7 @@ RPM_HASH = "54c6cf9b9914a36bc539702b0988117cfa40b5e8f84e04a32d8a45d5255bb58b7b96
 
 RPROVIDES:${PN} += "python39-libmount \
 python39-libmount(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

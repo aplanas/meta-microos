@@ -9,6 +9,7 @@ RPM_HASH = "c19ae236c1c3ba85ef58bcd6c1ceee9df258fe18ebfce09b390bec140c9b74039deb
 
 RPROVIDES:${PN} += "elixir-ex_doc \
 elixir-ex_doc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 elixir"
 

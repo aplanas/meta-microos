@@ -11,6 +11,7 @@ RPM_HASH = "6b5fa45854f5563af102a814d9b57916ffc39a31b81a6a8b12aa2368d21290393392
 RPROVIDES:${PN} += "libliftoff-devel \
 libliftoff-devel(aarch-64) \
 pkgconfig(libliftoff)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libliftoff0 \
 pkgconfig(libdrm)"

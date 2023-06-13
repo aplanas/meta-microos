@@ -12,6 +12,7 @@ RPM_HASH = "026841973376228418b287cf18b41dc51bbafbedc29cc1ab268b10898f934e0838a7
 
 RPROVIDES:${PN} += "adms \
 adms(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libadmsAdmstpath.so.0()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "a3c26a9a113c6ebf0cc9252667eb1045c9a812ecb880b93a4e58622093ab42df4bee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lt3graph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

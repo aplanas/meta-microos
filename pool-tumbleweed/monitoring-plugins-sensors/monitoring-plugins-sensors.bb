@@ -10,6 +10,7 @@ RPM_HASH = "9e69c61852abe01f683ec708bf9764e625da7966f164768b2ad537375d554691ea93
 RPROVIDES:${PN} += "monitoring-plugins-sensors \
 monitoring-plugins-sensors(aarch-64) \
 nagios-plugins-sensors"
+
 RDEPENDS:${PN} += "/bin/sh \
 grep \
 monitoring-plugins-common \

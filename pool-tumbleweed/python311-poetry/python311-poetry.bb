@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(poetry) \
 python311-poetry \
 python3dist(poetry)"
+
 RDEPENDS:${PN} += "(python311-requests-toolbelt >= 0.9.1 with python311-requests-toolbelt < 2) \
 (python311-tomlkit >= 0.11.4 with python311-tomlkit < 1.0) \
 /bin/sh \

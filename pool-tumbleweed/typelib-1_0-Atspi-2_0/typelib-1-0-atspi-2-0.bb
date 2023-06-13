@@ -14,6 +14,7 @@ RPM_HASH = "feaf61461f9a8a1ff29c05a39232cf0e47bc24855ae16306b407aacbba2a02bdce6a
 RPROVIDES:${PN} += "typelib(Atspi) \
 typelib-1_0-Atspi-2_0 \
 typelib-1_0-Atspi-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libatspi.so.0()(64bit) \
 typelib(DBus) \
 typelib(GLib) \

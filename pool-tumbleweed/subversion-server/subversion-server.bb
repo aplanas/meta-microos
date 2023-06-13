@@ -11,6 +11,7 @@ RPM_HASH = "169795b325cadebc5b547ff5e14eb35898e82c64b895a5a059cc1fd0c1a5dce662de
 RPROVIDES:${PN} += "config(subversion-server) \
 subversion-server \
 subversion-server(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 apache_mmn_20120211 \
 libapr-1.so.0()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "a65f5627266574ad8205c49a8a298c84c23e1eaf7767e4039f8585d28186e2b75963
 RPROVIDES:${PN} += "config(postgresql11-pgagent) \
 postgresql11-pgagent \
 postgresql11-pgagent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

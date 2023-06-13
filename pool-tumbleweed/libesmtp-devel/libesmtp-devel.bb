@@ -13,6 +13,7 @@ RPM_HASH = "b6b7470ce2f642a7c33250c3f71ca7cf98f3a720d4e01fac1a13da67729970c3d8a3
 RPROVIDES:${PN} += "libesmtp-devel \
 libesmtp-devel(aarch-64) \
 pkgconfig(libesmtp-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libesmtp6_2_0 \
 pkgconfig(openssl)"

@@ -12,6 +12,7 @@ RPM_HASH = "7db9657b0c562d7e75f78fa1ab00f03f456590b5fc98c30bca0a7df42d055464b5e4
 
 RPROVIDES:${PN} += "light-locker \
 light-locker(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

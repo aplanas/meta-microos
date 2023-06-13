@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Glymur \
 python3.10dist(glymur) \
 python310-Glymur \
 python3dist(glymur)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

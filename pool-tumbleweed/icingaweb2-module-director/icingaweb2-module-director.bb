@@ -9,6 +9,7 @@ RPM_HASH = "23084e9ba3baff0ed3610bd4f7f72c72fb99a3dbab89e5473cf72ab1cc817f4d65ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-director"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 icinga2 \

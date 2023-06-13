@@ -10,6 +10,7 @@ RPM_HASH = "e279292c3949e3318a7c05e916bf64037a7c1bb069ed602d19ad013da8a59c9fd06c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javazic"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

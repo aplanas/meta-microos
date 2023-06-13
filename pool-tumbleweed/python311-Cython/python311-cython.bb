@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(cython) \
 python311-Cython \
 python311-Cython(aarch-64) \
 python3dist(cython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

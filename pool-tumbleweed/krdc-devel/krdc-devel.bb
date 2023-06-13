@@ -9,6 +9,7 @@ RPM_HASH = "1a601b0a1d45603c3acbe242eb227365c59e8b7e6a4bb53e3eda59aa062f45d7d43b
 
 RPROVIDES:${PN} += "krdc-devel \
 krdc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "krdc"
 
 inherit rpm

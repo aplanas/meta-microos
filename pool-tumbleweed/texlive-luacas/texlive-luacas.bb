@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luacas.sty) \
 texlive-luacas"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

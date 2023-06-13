@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "GraphicsMagick-devel \
 GraphicsMagick-devel(aarch-64) \
 pkgconfig(GraphicsMagick) \
 pkgconfig(GraphicsMagickWand)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

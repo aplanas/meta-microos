@@ -83,6 +83,7 @@ font(pltypewriterslanted10) \
 font(pltypewritervarwd10) \
 font(plunslanted10) \
 texlive-pl-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

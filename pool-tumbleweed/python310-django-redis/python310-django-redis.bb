@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-redis \
 python3.10dist(django-redis) \
 python310-django-redis \
 python3dist(django-redis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-lz4 \

@@ -11,6 +11,7 @@ RPM_HASH = "584570446f5a7c039f5d519d2e19bd146fe68b6493dfbe5da12acacfef75c5288568
 RPROVIDES:${PN} += "libdaemon-devel \
 libdaemon-devel(aarch-64) \
 pkgconfig(libdaemon)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libdaemon0"

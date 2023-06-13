@@ -12,6 +12,7 @@ RPM_HASH = "741fe3d213cd08ed7b5cd75f66c0492ab3eab73678c12eaf1c6182f8728e70895b6b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-serial"
+
 RDEPENDS:${PN} += "python39-Twisted \
 python39-pyserial"
 

@@ -10,6 +10,7 @@ RPM_HASH = "cb63328f6f26fbd2168e04e91f5373f89c74f6d41b03451ad37e5af689275ba3f51e
 RPROVIDES:${PN} += "libwv-1.2.so.4()(64bit) \
 libwv-1_2-4 \
 libwv-1_2-4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

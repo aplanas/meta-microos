@@ -11,6 +11,7 @@ RPM_HASH = "a79d5a47f7ee0fcc34076cab8d44fd21fb2efb9e3523608d5cc903907cf2734ffb88
 
 RPROVIDES:${PN} += "godot-runner \
 godot-runner(aarch-64)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

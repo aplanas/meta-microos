@@ -9,6 +9,7 @@ RPM_HASH = "ab790993a2c68552b3b5826ab863c000e9d5cf247bdd4cfd9bc3a3d41016e0e45e24
 
 RPROVIDES:${PN} += "ldc-bash-completion \
 ldc-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 ldc"
 

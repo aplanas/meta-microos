@@ -10,6 +10,7 @@ RPM_HASH = "4c306873fa222473c94325d8b43d3aae4ba97cb29585b2585e1110ee38a68263eb4c
 
 RPROVIDES:${PN} += "aom-tools \
 aom-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaom.so.3()(64bit) \

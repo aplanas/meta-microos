@@ -11,6 +11,7 @@ RPM_HASH = "67fc1c89bb2f4772c05fab5225ed83352151a2cc8735140e53d73c6a72ea652a78ae
 
 RPROVIDES:${PN} += "libtrilinos-gnu-openmpi4-hpc \
 libtrilinos-gnu-openmpi4-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libtrilinos_14_0_0-gnu-openmpi4-hpc"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-mediator_lua \
 lua54-mediator_lua"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

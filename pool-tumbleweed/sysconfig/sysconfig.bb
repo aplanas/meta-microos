@@ -11,6 +11,7 @@ RPM_HASH = "69a02a387033c1034cc37ded3fd9a273624bf5a36badeb3729a2b33074d8b7f364ae
 RPROVIDES:${PN} += "config(sysconfig) \
 sysconfig \
 sysconfig(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /sbin/ldconfig \
 /usr/bin/chmod \

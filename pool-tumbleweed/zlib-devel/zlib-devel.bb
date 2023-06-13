@@ -23,6 +23,7 @@ RPM_HASH = "508421172c7b98086e8088e02476b1dc081a82c09997698336ce633c78024e98d87a
 RPROVIDES:${PN} += "pkgconfig(zlib) \
 zlib-devel \
 zlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libz1"

@@ -20,6 +20,7 @@ python3.10dist(cx-freeze) \
 python310-cx_Freeze \
 python310-cx_Freeze(aarch-64) \
 python3dist(cx-freeze)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

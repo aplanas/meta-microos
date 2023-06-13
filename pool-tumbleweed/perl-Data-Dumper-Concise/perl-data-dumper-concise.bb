@@ -32,6 +32,7 @@ RPROVIDES:${PN} += "perl(Data::Dumper::Concise) \
 perl(Data::Dumper::Concise::Sugar) \
 perl(Devel::Dwarn) \
 perl-Data-Dumper-Concise"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

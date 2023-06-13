@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-disser-doc:ru;en) \
 texlive-disser-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

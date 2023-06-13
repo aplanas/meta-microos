@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-oscar \
 python3.10dist(django-oscar) \
 python310-django-oscar \
 python3dist(django-oscar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-Django \

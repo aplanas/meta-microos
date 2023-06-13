@@ -13,6 +13,7 @@ RPM_HASH = "f6caaa3e92abf6c16896165336e63bf0bbfdff87554d9c1bcbd27744d2a25f095fc2
 RPROVIDES:${PN} += "libglib-testing-0-0 \
 libglib-testing-0-0(aarch-64) \
 libglib-testing-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

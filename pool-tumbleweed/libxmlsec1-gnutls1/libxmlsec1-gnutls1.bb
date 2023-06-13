@@ -11,6 +11,7 @@ RPM_HASH = "0e4b5191b72228e7b42200faaccb62c3c7aab2d473589a6570ec97b6cb8babe88857
 RPROVIDES:${PN} += "libxmlsec1-gnutls.so.1()(64bit) \
 libxmlsec1-gnutls1 \
 libxmlsec1-gnutls1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgnutls.so.30()(64bit) \

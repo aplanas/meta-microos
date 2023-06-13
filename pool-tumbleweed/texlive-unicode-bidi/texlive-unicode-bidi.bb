@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(unicode-bidi.sty) \
 texlive-unicode-bidi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

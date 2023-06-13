@@ -10,6 +10,7 @@ RPM_HASH = "eff3b7217792c2c1916087a8a5c7969dac331516106b6d4a5212353c1ac2d6ee2154
 
 RPROVIDES:${PN} += "freetds-doc \
 freetds-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

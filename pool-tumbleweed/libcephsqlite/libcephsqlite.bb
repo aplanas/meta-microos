@@ -11,6 +11,7 @@ RPM_HASH = "83f579d4835f1e99942944654c1271fa8ab969a6f75106d5b8115263eedf4674fe1b
 RPROVIDES:${PN} += "libcephsqlite \
 libcephsqlite(aarch-64) \
 libcephsqlite.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

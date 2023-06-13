@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-zeroconf-devel \
 pkgconfig(mono-zeroconf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono-zeroconf"
 

@@ -18,6 +18,7 @@ qt5qmlimport(org.kde.systemsettings.1) \
 systemsettings5 \
 systemsettings5(aarch-64) \
 systemsettings5-zsh-completion"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

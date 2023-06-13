@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pkgconfig(libusbredirhost) \
 pkgconfig(libusbredirparser-0.5) \
 usbredir-devel \
 usbredir-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusbredirhost1 \
 libusbredirparser1 \

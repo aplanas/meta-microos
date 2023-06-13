@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbi-devel-doc \
 libdbi-devel:/usr/share/doc/packages/libdbi/driver-guide.pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

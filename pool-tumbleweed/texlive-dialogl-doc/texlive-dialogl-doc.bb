@@ -9,6 +9,7 @@ RPM_HASH = "15bf3876a4df5cee345ccab7f3eac3c6db6b38b32c60f611896a94449f42edf4dbfe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dialogl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oxygen-icon-theme \
 oxygen5-icon-theme"
+
 RDEPENDS:${PN} += "hicolor-icon-theme"
 
 inherit rpm

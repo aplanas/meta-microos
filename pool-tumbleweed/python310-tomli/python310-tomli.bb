@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tomli \
 python3.10dist(tomli) \
 python310-tomli \
 python3dist(tomli)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-extras \
 mvn(org.glassfish.hk2:hk2-extras) \
 mvn(org.glassfish.hk2:hk2-extras:pom:) \
 osgi(org.glassfish.hk2.extras)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(aopalliance:aopalliance) \

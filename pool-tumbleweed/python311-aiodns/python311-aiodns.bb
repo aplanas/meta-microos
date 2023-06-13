@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiodns) \
 python311-aiodns \
 python3dist(aiodns)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pycares"
 

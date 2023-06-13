@@ -16,6 +16,7 @@ RPM_HASH = "e5b3c572132ec212493a6850be0f15de59243ff645d09078e3f052cacf2601a498b0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bdf2psf"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

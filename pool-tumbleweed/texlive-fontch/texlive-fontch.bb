@@ -27,6 +27,7 @@ tex(bsymbols.tex) \
 tex(fontch.tex) \
 tex(fontch_doc.tex) \
 texlive-fontch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

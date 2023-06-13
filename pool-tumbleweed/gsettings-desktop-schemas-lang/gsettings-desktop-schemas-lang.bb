@@ -65,6 +65,7 @@ locale(gsettings-desktop-schemas:vi) \
 locale(gsettings-desktop-schemas:zh_CN) \
 locale(gsettings-desktop-schemas:zh_HK) \
 locale(gsettings-desktop-schemas:zh_TW)"
+
 RDEPENDS:${PN} += "gsettings-desktop-schemas"
 
 inherit rpm

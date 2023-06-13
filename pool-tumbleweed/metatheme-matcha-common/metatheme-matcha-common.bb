@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "matcha-gtk-theme \
 metatheme-matcha-common"
+
 RDEPENDS:${PN} += "google-roboto-fonts \
 noto-sans-fonts"
 

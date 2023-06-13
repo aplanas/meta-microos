@@ -17,6 +17,7 @@ perl(Term::Table::LineBreak) \
 perl(Term::Table::Spacer) \
 perl(Term::Table::Util) \
 perl-Term-Table"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Importer)"
 

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "application() \
 application(fwbuilder.desktop) \
 fwbuilder \
 fwbuilder(aarch-64)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

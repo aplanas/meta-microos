@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-xerox \
 python3.10dist(xerox) \
 python310-xerox \
 python3dist(xerox)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -33,6 +33,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Carp::Always) \
 perl-Carp-Always"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

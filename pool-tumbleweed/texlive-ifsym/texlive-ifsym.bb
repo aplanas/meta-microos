@@ -34,6 +34,7 @@ tex(uifgeo.fd) \
 tex(uifsym.fd) \
 tex(uifwea.fd) \
 texlive-ifsym"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

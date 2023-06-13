@@ -27,6 +27,7 @@ tex(ntg12.clo) \
 tex(rapport1.cls) \
 tex(rapport3.cls) \
 texlive-ntgclass"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

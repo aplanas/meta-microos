@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-PyDispatcher \
 python3.10dist(pydispatcher) \
 python310-PyDispatcher \
 python3dist(pydispatcher)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

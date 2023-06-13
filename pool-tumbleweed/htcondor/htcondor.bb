@@ -20,6 +20,7 @@ libcondor_utils_9_0_16.so()(64bit) \
 libcondorapi.so()(64bit) \
 libgetpwnam.so()(64bit) \
 user(condor)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bash \

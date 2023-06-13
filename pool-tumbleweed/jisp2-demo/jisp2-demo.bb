@@ -10,6 +10,7 @@ RPM_HASH = "87539b8ea01745cb4451ce5fb7c9194d99b47f43a06ea179a905e1ab6ea6c37df486
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jisp2-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "d6400cdc1d08138e794b9ffd590df096ef68938fdfee1d116b0b365d0e67c24493a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabularborder-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

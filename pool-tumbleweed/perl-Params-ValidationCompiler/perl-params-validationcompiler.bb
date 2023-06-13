@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(Params::ValidationCompiler) \
 perl(Params::ValidationCompiler::Compiler) \
 perl(Params::ValidationCompiler::Exceptions) \
 perl-Params-ValidationCompiler"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Eval::Closure) \
 perl(Exception::Class) \

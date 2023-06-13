@@ -15,6 +15,7 @@ RPM_HASH = "59f8f905803940f412756eb39026d649da71becadc9bd464f169ab1edb48f7602c0e
 
 RPROVIDES:${PN} += "pngquant \
 pngquant(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

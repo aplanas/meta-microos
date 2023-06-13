@@ -12,6 +12,7 @@ application(kcm_bolt.desktop) \
 libkbolt.so()(64bit) \
 plasma5-thunderbolt \
 plasma5-thunderbolt(aarch-64)"
+
 RDEPENDS:${PN} += "bolt \
 kdeclarative-components \
 kded \

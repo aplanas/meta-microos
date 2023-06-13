@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mcmthesis.cls) \
 texlive-mcmthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -25,6 +25,7 @@ tex(projlib-text.sty) \
 tex(projlib-theorem.sty) \
 tex(projlib-titlepage.sty) \
 texlive-projlib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

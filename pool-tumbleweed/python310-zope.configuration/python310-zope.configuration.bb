@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-zope.configuration \
 python3.10dist(zope.configuration) \
 python310-zope.configuration \
 python3dist(zope.configuration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.i18nmessageid \
 python310-zope.interface \

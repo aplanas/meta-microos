@@ -20,6 +20,7 @@ php-pear(PEAR) \
 php-pear(Structures_Graph) \
 php-pear(XML_Util) \
 php8-pear"
+
 RDEPENDS:${PN} += "/bin/sh \
 php8-cli \
 php8-openssl \

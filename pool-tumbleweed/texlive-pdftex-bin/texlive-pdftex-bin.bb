@@ -9,6 +9,7 @@ RPM_HASH = "851efc337f23bd14095c4fd2dadefbea9d836e5b2b1b0911ec44265856554372dba3
 
 RPROVIDES:${PN} += "texlive-pdftex-bin \
 texlive-pdftex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

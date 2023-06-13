@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libumfpack-5_7_9 \
 libumfpack.so.5()(64bit) \
 libumfpack5 \
 libumfpack5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

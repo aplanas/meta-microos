@@ -13,6 +13,7 @@ python-pygame-doc(aarch-64) \
 python310-pygame-doc \
 python311-pygame-doc \
 python39-pygame-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

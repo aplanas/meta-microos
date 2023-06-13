@@ -12,6 +12,7 @@ RPM_HASH = "78234baafeb85e732af6f1c029046b2393b20026f7daee0de70505fd79a2a617fa8d
 RPROVIDES:${PN} += "osgi(gnu.io.rxtx) \
 rxtx-java \
 rxtx-java(aarch-64)"
+
 RDEPENDS:${PN} += "librxtx2"
 
 inherit rpm

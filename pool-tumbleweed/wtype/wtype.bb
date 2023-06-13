@@ -9,6 +9,7 @@ RPM_HASH = "00cb540f00869a5cb735aef7024ddfe461f7a892ad72bd97f74a56e99f1477c17a7e
 
 RPROVIDES:${PN} += "wtype \
 wtype(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -17,6 +17,7 @@ RPM_HASH = "b93dec8c62ea1b43758856c59859ce40efa8c61c148995829e822142ad41f822eca7
 
 RPROVIDES:${PN} += "qemu-headless \
 qemu-headless(aarch-64)"
+
 RDEPENDS:${PN} += "qemu \
 qemu-chardev-spice \
 qemu-hw-usb-redirect \

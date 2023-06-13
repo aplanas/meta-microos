@@ -10,6 +10,7 @@ RPM_HASH = "66e9f31ab6160f9cbb394ef01fc8d6a77d393546f026d0f97be1ee702406409d866f
 
 RPROVIDES:${PN} += "godot3-server \
 godot3-server(aarch-64)"
+
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

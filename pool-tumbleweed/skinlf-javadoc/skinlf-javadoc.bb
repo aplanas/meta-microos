@@ -17,6 +17,7 @@ RPM_HASH = "310bb7e5ab2370f4d48fed4c18671c65b205b4c9469fead460e2b9799b3f2b830ef0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skinlf-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

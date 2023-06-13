@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(VocalTract.sty) \
 texlive-vocaltract"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

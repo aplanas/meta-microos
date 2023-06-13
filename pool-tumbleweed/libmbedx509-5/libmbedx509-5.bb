@@ -12,6 +12,7 @@ RPM_HASH = "d91d2c93033b3c785bf1effddd024c07e08d1a3e1980a4646c637270932c3a308a19
 RPROVIDES:${PN} += "libmbedx509-5 \
 libmbedx509-5(aarch-64) \
 libmbedx509.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

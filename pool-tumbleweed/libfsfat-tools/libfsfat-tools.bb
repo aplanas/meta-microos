@@ -10,6 +10,7 @@ RPM_HASH = "31ccac13466061c9b27dbb000d8546ff8e432c08298125a002b901187652f47a1112
 
 RPROVIDES:${PN} += "libfsfat-tools \
 libfsfat-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ruamel.yaml) \
 python311-ruamel.yaml \
 python3dist(ruamel.yaml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ruamel.yaml.clib"
 

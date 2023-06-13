@@ -9,6 +9,7 @@ RPM_HASH = "21c275cc2288b5d691e8714086aadcda2384aff1af2a7f44e6b86891e78ba59466ed
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-padauk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

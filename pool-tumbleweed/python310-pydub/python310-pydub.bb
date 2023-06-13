@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pydub \
 python3.10dist(pydub) \
 python310-pydub \
 python3dist(pydub)"
+
 RDEPENDS:${PN} += "ffmpeg \
 python(abi)"
 

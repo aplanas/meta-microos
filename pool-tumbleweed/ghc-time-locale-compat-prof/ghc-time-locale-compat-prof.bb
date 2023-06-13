@@ -10,6 +10,7 @@ RPM_HASH = "4d7cf7cf2231cfc5186a3a708a6e90f65e078f463a8ffedcf010beb9f7b0c6d54167
 RPROVIDES:${PN} += "ghc-prof(time-locale-compat-0.1.1.5-4KOdffkWEDD5CJkcMekvXY) \
 ghc-time-locale-compat-prof \
 ghc-time-locale-compat-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(time-1.12.2) \
 ghc-time-locale-compat-devel"

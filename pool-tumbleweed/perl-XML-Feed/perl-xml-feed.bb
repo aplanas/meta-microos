@@ -39,6 +39,7 @@ perl(XML::Feed::Format::Atom) \
 perl(XML::Feed::Format::RSS) \
 perl(XML::Feed::Util) \
 perl-XML-Feed"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::ErrorHandler) \
 perl(DateTime) \

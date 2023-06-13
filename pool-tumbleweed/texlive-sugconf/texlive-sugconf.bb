@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sugconf.cls) \
 texlive-sugconf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

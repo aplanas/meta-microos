@@ -11,6 +11,7 @@ RPM_HASH = "3ada731b36e0c9558676fdd7ce0f1614f8d6c8e6ce305e5a841bac6f5b7b71c67346
 RPROVIDES:${PN} += "libraqm-devel \
 libraqm-devel(aarch-64) \
 pkgconfig(raqm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libraqm0 \
 pkgconfig(freetype2) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "group(www) \
 group(wwwrun) \
 system-user-wwwrun \
 user(wwwrun)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

@@ -36,6 +36,7 @@ libosinfo-1.0.so.0(LIBOSINFO_1.7.0)(64bit) \
 libosinfo-1.0.so.0(LIBOSINFO_1.8.0)(64bit) \
 libosinfo-1_0-0 \
 libosinfo-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hwdata \
 ld-linux-aarch64.so.1()(64bit) \

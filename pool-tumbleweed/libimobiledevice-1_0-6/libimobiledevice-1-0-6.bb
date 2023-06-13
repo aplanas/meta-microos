@@ -11,6 +11,7 @@ RPM_HASH = "7f10c88d0b75178aa2ee4195a4ac9687cc7713aed43fe3273bb0a4a41265fb2a9f7a
 RPROVIDES:${PN} += "libimobiledevice-1.0.so.6()(64bit) \
 libimobiledevice-1_0-6 \
 libimobiledevice-1_0-6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

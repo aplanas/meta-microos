@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-requests-unixsocket \
 python3.10dist(requests-unixsocket) \
 python310-requests-unixsocket \
 python3dist(requests-unixsocket)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python310-requests"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-fire \
 python3.10dist(fire) \
 python310-fire \
 python3dist(fire)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six \
 python310-termcolor"

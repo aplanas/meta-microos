@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ehhline.sty) \
 texlive-ehhline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

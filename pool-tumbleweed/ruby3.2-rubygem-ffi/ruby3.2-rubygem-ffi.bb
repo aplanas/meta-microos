@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:ffi) \
 rubygem(ruby:3.2.0:ffi:1) \
 rubygem(ruby:3.2.0:ffi:1.15) \
 rubygem(ruby:3.2.0:ffi:1.15.5)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

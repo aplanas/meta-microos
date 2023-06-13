@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(JeuxCartes.sty) \
 texlive-jeuxcartes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

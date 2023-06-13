@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipyleaflet) \
 python39-ipyleaflet \
 python3dist(ipyleaflet)"
+
 RDEPENDS:${PN} += "(python39-ipywidgets >= 7.6.0 with python39-ipywidgets < 9) \
 (python39-traittypes >= 0.2.1 with python39-traittypes < 3) \
 jupyter-ipyleaflet \

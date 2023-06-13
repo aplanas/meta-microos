@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-ldoc \
 lua54-ldoc"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libpt2-plugins-avc \
 libpt2-video-plugin \
 libpt2_18_8-plugins-avc \
 libpt2_18_8-plugins-avc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

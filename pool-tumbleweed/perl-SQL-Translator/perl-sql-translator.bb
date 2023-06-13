@@ -104,6 +104,7 @@ perl(SQL::Translator::Utils) \
 perl(SQL::Translator::Utils::Error) \
 perl(Test::SQL::Translator) \
 perl-SQL-Translator"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \

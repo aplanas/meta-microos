@@ -13,6 +13,7 @@ RPM_HASH = "bd34b79a8da43309a67ed1f55cc9911bbdc765f2ae1ca2502ac5755f7b4282eb8fcb
 
 RPROVIDES:${PN} += "rfb \
 rfb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

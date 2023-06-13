@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:be_BY) \
 myspell-be_BY \
 myspell-belarusian \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

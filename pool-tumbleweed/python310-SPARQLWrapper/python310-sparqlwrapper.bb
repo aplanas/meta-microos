@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-SPARQLWrapper \
 python3.10dist(sparqlwrapper) \
 python310-SPARQLWrapper \
 python3dist(sparqlwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-rdflib"
 

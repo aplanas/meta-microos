@@ -25,6 +25,7 @@ mvn(net.sf.cglib:cglib:pom:) \
 mvn(org.sonatype.sisu.inject:cglib) \
 mvn(org.sonatype.sisu.inject:cglib:pom:) \
 osgi(net.sf.cglib.core)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.ow2.asm:asm)"

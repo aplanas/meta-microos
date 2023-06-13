@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libjpeg-devel \
 libjpeg62-devel \
 libjpeg62-devel(aarch-64) \
 pkgconfig(libjpeg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg62"
 

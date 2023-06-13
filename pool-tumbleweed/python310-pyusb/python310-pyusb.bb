@@ -14,6 +14,7 @@ python3.10dist(pyusb) \
 python310-pyusb \
 python310-usb \
 python3dist(pyusb)"
+
 RDEPENDS:${PN} += "libusb-1_0-0 \
 python(abi)"
 

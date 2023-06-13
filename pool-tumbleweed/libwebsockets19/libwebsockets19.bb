@@ -20,6 +20,7 @@ RPM_HASH = "c831b5d537fc938d795e4c9420064a028a93f8333769bfb39163c6eefc674b6cc65b
 RPROVIDES:${PN} += "libwebsockets.so.19()(64bit) \
 libwebsockets19 \
 libwebsockets19(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "460dcbccd698048d22721f4f4e88c43f0b2596da74ea8baf972b59599285fbe38b8a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-moonscript"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.1 \
 lua51 \

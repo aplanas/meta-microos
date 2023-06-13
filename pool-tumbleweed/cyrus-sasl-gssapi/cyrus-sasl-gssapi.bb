@@ -12,6 +12,7 @@ RPM_HASH = "6355d41a796664873b421c8b2606b354856d1490faafcfced9b6b8e9a6e6b371fcd1
 RPROVIDES:${PN} += "cyrus-sasl-gssapi \
 cyrus-sasl-gssapi(aarch-64) \
 libgssapiv2.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

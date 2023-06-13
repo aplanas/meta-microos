@@ -62,6 +62,7 @@ locale(libgnome-games-support:tr) \
 locale(libgnome-games-support:uk) \
 locale(libgnome-games-support:zh_CN) \
 locale(libgnome-games-support:zh_TW)"
+
 RDEPENDS:${PN} += "libgnome-games-support"
 
 inherit rpm

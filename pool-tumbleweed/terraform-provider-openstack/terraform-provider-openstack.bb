@@ -9,6 +9,7 @@ RPM_HASH = "19bccd19fc333ab2f5a883ecb0f76261d54bef34375f07518c5cbeb4aabf8723d0e9
 
 RPROVIDES:${PN} += "terraform-provider-openstack \
 terraform-provider-openstack(aarch-64)"
+
 RDEPENDS:${PN} += "mkisofs \
 terraform"
 

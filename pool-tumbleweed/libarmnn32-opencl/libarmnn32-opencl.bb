@@ -16,6 +16,7 @@ RPM_HASH = "b5a7798fc499fb8b40c923ad706bac9518bbc6197ffaa5b1b04a7ce02369c8ec2b98
 RPROVIDES:${PN} += "libarmnn.so.32()(64bit) \
 libarmnn32-opencl \
 libarmnn32-opencl(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

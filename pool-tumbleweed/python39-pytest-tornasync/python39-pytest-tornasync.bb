@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-tornasync) \
 python39-pytest-tornasync \
 python3dist(pytest-tornasync)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-base \
 python39-pytest \

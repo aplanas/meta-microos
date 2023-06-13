@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcdatetime.so.1()(64bit) \
 libcdatetime.so.1(V_20230115)(64bit) \
 libcdatetime1 \
 libcdatetime1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

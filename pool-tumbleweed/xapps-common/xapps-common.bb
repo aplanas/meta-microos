@@ -13,6 +13,7 @@ RPM_HASH = "f1733c9e780baa030e26e9e1f4f905ac72da160686b326c772a89813171001641e36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xapps-common"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

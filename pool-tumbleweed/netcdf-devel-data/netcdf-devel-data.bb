@@ -17,6 +17,7 @@ netcdf-devel-data(aarch-64) \
 netcdf-rpm-macros \
 rpm_macro(_netcdf_sonum) \
 rpm_macro(_netcdf_version)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

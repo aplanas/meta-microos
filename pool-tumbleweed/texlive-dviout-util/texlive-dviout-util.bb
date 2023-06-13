@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(chkdvifont.1) \
 man(dvispc.1) \
 texlive-dviout-util"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

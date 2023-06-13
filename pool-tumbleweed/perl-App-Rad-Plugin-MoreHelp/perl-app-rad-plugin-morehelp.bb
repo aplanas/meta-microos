@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(App::Rad::Plugin::MoreHelp) \
 perl-App-Rad-Plugin-MoreHelp"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(App::Rad)"
 

@@ -15,6 +15,7 @@ RPM_HASH = "acf17d04f7480c009e906646ffc0aeca3f87d15f4232651e2dbdf1804a451d8ed412
 
 RPROVIDES:${PN} += "erlang-rebar3 \
 erlang-rebar3(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/escript \
 erlang \
 erlang-erlware_commons \

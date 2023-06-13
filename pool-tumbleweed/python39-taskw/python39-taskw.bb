@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(taskw) \
 python39-taskw \
 python3dist(taskw)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-kitchen \
 python39-python-dateutil \

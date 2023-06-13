@@ -21,6 +21,7 @@ tex(elpreswhitebluescheme.sty) \
 tex(elpreswhiteredscheme.sty) \
 tex(elpreswhitetealscheme.sty) \
 texlive-elpres"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

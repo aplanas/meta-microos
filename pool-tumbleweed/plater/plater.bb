@@ -14,6 +14,7 @@ application(plater.desktop) \
 metainfo() \
 metainfo(plater.appdata.xml) \
 plater"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 Printrun-common \
 python3-wxPython"

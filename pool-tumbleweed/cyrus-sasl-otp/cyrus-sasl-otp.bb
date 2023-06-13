@@ -12,6 +12,7 @@ RPM_HASH = "742ceb02a64214f460ddb544c720d85530e19f0f2cf2f1669d6c37a3a5cc17a90ca0
 RPROVIDES:${PN} += "cyrus-sasl-otp \
 cyrus-sasl-otp(aarch-64) \
 libotp.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

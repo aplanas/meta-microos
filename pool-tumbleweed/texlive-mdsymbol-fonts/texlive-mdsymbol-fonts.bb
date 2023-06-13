@@ -17,6 +17,7 @@ font(mdsymbold) \
 font(mdsymbole) \
 font(mdsymbolf) \
 texlive-mdsymbol-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

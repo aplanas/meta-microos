@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(etc-update) \
 etc-update"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash"
 

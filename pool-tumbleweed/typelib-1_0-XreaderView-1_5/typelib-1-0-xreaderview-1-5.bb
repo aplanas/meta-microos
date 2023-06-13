@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "typelib(XreaderView) \
 typelib-1_0-XreaderView-1_5 \
 typelib-1_0-XreaderView-1_5(aarch-64) \
 typelib-1_0-XreaderView-1_5_0"
+
 RDEPENDS:${PN} += "libxreaderview.so.3()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

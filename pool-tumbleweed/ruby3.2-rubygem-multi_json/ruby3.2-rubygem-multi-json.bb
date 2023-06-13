@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:multi_json) \
 rubygem(ruby:3.2.0:multi_json:1) \
 rubygem(ruby:3.2.0:multi_json:1.15) \
 rubygem(ruby:3.2.0:multi_json:1.15.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

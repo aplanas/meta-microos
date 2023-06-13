@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-pytest-xdist \
 python3.10dist(pytest-xdist) \
 python310-pytest-xdist \
 python3dist(pytest-xdist)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-execnet \
 python310-pytest"

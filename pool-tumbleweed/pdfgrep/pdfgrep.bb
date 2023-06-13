@@ -17,6 +17,7 @@ RPM_HASH = "4563495410bed75a51350a3431c00480a13549985d96e80bd8908f4bdf646ae7974b
 
 RPROVIDES:${PN} += "pdfgrep \
 pdfgrep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

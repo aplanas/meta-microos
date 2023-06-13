@@ -15,6 +15,7 @@ application(org.opensuse.yast.NFSServer.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.NFSServer.metainfo.xml) \
 yast2-nfs-server"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 yast2 \
 yast2-nfs-common \

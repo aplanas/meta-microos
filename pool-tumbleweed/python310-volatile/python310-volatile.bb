@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-volatile \
 python3.10dist(volatile) \
 python310-volatile \
 python3dist(volatile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

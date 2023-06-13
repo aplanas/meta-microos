@@ -10,6 +10,7 @@ RPM_HASH = "a3cafc520b0146b6c9c22182e3f126298220f190ea8e87730c4c40889e171855b9a5
 RPROVIDES:${PN} += "cri-o-kubeadm-criconfig \
 cri-o-kubeadm-criconfig(aarch-64) \
 kubernetes-kubeadm-criconfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

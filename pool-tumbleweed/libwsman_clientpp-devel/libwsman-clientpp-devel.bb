@@ -11,6 +11,7 @@ RPM_HASH = "47e78906e10916308b496ef40b7256ede888e98bebf0f3cd7dbb878d9a4cdfa5b043
 
 RPROVIDES:${PN} += "libwsman_clientpp-devel \
 libwsman_clientpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libwsman-devel \
 libwsman_clientpp1"
 

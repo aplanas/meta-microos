@@ -9,6 +9,7 @@ RPM_HASH = "4cb59f8d001e771028c8965c5b716e93ff50b18944497936cee6044884fa6bb107bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oscola-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

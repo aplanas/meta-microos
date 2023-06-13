@@ -18,6 +18,7 @@ pkgconfig(libpulse) \
 pkgconfig(libpulse-mainloop-glib) \
 pkgconfig(libpulse-simple) \
 pulseaudio-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpulse-mainloop-glib0 \
 libpulse0 \

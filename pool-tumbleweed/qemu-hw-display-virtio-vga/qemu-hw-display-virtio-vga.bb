@@ -9,6 +9,7 @@ RPM_HASH = "6a5f49dfbbee7a5a76d06ed3beaec891d46372a9b1191adc2f02b8d21008dc971443
 
 RPROVIDES:${PN} += "qemu-hw-display-virtio-vga \
 qemu-hw-display-virtio-vga(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

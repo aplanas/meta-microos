@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(ghostscript-fonts-grops) \
 ghostscript-fonts-grops \
 locale(groff:pl)"
+
 RDEPENDS:${PN} += "groff"
 
 inherit rpm

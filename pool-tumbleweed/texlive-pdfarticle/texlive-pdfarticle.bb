@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfArticle.cls) \
 texlive-pdfarticle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

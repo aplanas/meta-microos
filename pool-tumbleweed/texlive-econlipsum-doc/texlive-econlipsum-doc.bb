@@ -9,6 +9,7 @@ RPM_HASH = "0f732248b6683f96e78f7b048616cce213cc94fcda2d0d9d244a5e9cbd38ccced8a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econlipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

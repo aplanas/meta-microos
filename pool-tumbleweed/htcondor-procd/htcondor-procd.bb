@@ -10,6 +10,7 @@ RPM_HASH = "5963524c640d2bd34e80d917f007d77e98261a7dea9da6937be21cf636877cd175cb
 
 RPROVIDES:${PN} += "htcondor-procd \
 htcondor-procd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

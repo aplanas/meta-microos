@@ -9,6 +9,7 @@ RPM_HASH = "1b5974bf7fcf4e86895cc1286b971a59c4add84149bcc34d0b598a720304d0153244
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cormorantgaramond-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-smart-open \
 python3.10dist(smart-open) \
 python310-smart-open \
 python3dist(smart-open)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-core \

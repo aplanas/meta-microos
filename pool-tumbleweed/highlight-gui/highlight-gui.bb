@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(highlight.desktop) \
 highlight-gui \
 highlight-gui(aarch-64)"
+
 RDEPENDS:${PN} += "highlight-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

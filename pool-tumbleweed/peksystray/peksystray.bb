@@ -17,6 +17,7 @@ RPM_HASH = "02b3bc848bee737911604111d5f30bb2c88605a87d9c0c4b5eb8408b5c3d4f3a9c2b
 
 RPROVIDES:${PN} += "peksystray \
 peksystray(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

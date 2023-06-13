@@ -9,6 +9,7 @@ RPM_HASH = "fafe53178a51f7d3a84808177a914ebd47918225db2a8470d09fed8a617c392655a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subeqnarray-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

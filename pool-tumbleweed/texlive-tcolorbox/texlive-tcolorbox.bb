@@ -36,6 +36,7 @@ tex(tcbvignette.code.tex) \
 tex(tcbxparse.code.tex) \
 tex(tcolorbox.sty) \
 texlive-tcolorbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

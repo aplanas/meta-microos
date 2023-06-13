@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "javaewah \
 mvn(com.googlecode.javaewah:JavaEWAH) \
 mvn(com.googlecode.javaewah:JavaEWAH:pom:) \
 osgi(com.googlecode.javaewah.JavaEWAH)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -10,6 +10,7 @@ RPM_HASH = "e1085d01b9f0e0c30d81a109fab250056ff9707aa659bfeb7b83b3518967b0b50753
 RPROVIDES:${PN} += "ghc-prof(xmobar-0.46-EX7mQtJrJ088kSUMN9v7Od) \
 ghc-xmobar-prof \
 ghc-xmobar-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX) \
 ghc-prof(X11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq) \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

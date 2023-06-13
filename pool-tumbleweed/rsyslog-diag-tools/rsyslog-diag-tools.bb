@@ -13,6 +13,7 @@ RPM_HASH = "40633dfd067e16bb93ced39272bf9393557a3278cb5066cc362d83cffb1b99d929a9
 
 RPROVIDES:${PN} += "rsyslog-diag-tools \
 rsyslog-diag-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

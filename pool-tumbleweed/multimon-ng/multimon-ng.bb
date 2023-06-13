@@ -19,6 +19,7 @@ RPM_HASH = "e227e1c630a7e6e18fb3f9420b7b8eeabcc9f61164d10d90bad07c6e9cc2fccafaa6
 
 RPROVIDES:${PN} += "multimon-ng \
 multimon-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

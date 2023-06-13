@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(river-protocols) \
 river-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 river"
 

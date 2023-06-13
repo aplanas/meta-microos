@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cherokee.sty) \
 tex(cherokee.tfm) \
 texlive-cherokee"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

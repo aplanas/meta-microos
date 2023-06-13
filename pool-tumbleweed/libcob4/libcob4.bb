@@ -12,6 +12,7 @@ RPM_HASH = "49020a579073fd88354d167c60cc7ab02fea15c46af5042facb93fef2559e5e7e9af
 RPROVIDES:${PN} += "libcob.so.4()(64bit) \
 libcob4 \
 libcob4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

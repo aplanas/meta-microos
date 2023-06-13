@@ -75,6 +75,7 @@ locale(exaile:uk) \
 locale(exaile:vi) \
 locale(exaile:zh_CN) \
 locale(exaile:zh_TW)"
+
 RDEPENDS:${PN} += "exaile"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "6f979b4ef0c73cf221f7cfdc6efa15a782eb6b832c74e6f4b753bd06fdc447a32afd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "usb_modeswitch-data"
+
 RDEPENDS:${PN} += "usb_modeswitch"
 
 inherit rpm

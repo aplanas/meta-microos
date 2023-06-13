@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-autopage \
 python3.10dist(autopage) \
 python310-autopage \
 python3dist(autopage)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

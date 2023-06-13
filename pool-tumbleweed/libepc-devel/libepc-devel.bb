@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libepc-devel \
 libepc-devel(aarch-64) \
 pkgconfig(libepc-1.0) \
 pkgconfig(libepc-ui-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libepc-1_0-3 \
 pkgconfig(avahi-client) \

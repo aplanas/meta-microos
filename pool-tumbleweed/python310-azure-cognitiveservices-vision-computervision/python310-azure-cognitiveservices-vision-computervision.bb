@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-vision-computervision \
 python3.10dist(azure-cognitiveservices-vision-computervision) \
 python310-azure-cognitiveservices-vision-computervision \
 python3dist(azure-cognitiveservices-vision-computervision)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-cognitiveservices-vision-nspkg \

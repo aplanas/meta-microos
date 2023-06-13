@@ -9,6 +9,7 @@ RPM_HASH = "8a3bc11ebeec4e68e6795cf37ac9b2c93a9598e2d53c48cc56cde9b84311446e37cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luatruthtable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "3114f8b56fc6c2a60227c686148167663446acf845d584dfab957188b6703b03f962
 
 RPROVIDES:${PN} += "libtexpdf-devel \
 libtexpdf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libtexpdf0"
 

@@ -9,6 +9,7 @@ RPM_HASH = "193c739b5cc2c0c97fff29d289f48327cc6ff00d1e3715a1bcf30275cca72221be4a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swebib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

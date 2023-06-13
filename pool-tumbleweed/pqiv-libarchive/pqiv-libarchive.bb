@@ -9,6 +9,7 @@ RPM_HASH = "57480c3c62d35e704fd618dc2030fb15dda69ed45b871b125363a4cc4d88d56f607d
 
 RPROVIDES:${PN} += "pqiv-libarchive \
 pqiv-libarchive(aarch-64)"
+
 RDEPENDS:${PN} += "libarchive.so.13()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcairo.so.2()(64bit) \

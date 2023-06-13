@@ -11,6 +11,7 @@ RPM_HASH = "5b7e53ebdddcff1bb46536dbaf2ee8a5b962c74b214f11c2659775741488a6835804
 
 RPROVIDES:${PN} += "pam_cgfs \
 pam_cgfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

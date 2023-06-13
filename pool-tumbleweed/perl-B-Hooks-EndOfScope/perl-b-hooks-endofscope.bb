@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "perl(B::Hooks::EndOfScope) \
 perl(B::Hooks::EndOfScope::PP) \
 perl(B::Hooks::EndOfScope::XS) \
 perl-B-Hooks-EndOfScope"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Hash::Util::FieldHash) \
 perl(Module::Implementation) \

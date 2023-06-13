@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-viqr \
 locale(ibus:vi)"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

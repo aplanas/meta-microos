@@ -11,6 +11,7 @@ RPM_HASH = "f0723a65ed35d38ae86c6d6eb0b88dc9300b630a3287932650997f33b944ee9cb1ab
 
 RPROVIDES:${PN} += "libreoffice-librelogo \
 libreoffice-librelogo(aarch-64)"
+
 RDEPENDS:${PN} += "libreoffice-pyuno \
 libreoffice-writer"
 

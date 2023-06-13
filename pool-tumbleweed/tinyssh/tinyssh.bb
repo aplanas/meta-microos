@@ -15,6 +15,7 @@ RPM_HASH = "53e179939094be2831b3b0c0cb0b92de903ad871eff23b416f4e798f64c3e9233037
 
 RPROVIDES:${PN} += "tinyssh \
 tinyssh(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

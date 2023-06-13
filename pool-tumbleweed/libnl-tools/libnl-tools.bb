@@ -10,6 +10,7 @@ RPM_HASH = "2816f2fe3d74fc5f268beff831c21fe308f46c6c5b4e3ecc3cda0c53fb7465a76259
 
 RPROVIDES:${PN} += "libnl-tools \
 libnl-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

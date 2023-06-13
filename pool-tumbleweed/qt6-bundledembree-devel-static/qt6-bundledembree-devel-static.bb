@@ -11,6 +11,7 @@ RPM_HASH = "0c2b12afe87d78ff705f9c5e1c0262ea484f618b16572046229f41a5884e70f49e4e
 RPROVIDES:${PN} += "cmake(Qt6BundledEmbree) \
 qt6-bundledembree-devel-static \
 qt6-bundledembree-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "qt6-core-private-devel"
 
 inherit rpm

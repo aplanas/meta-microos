@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-astropy) \
 python39-pytest-astropy \
 python3dist(pytest-astropy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-hypothesis \

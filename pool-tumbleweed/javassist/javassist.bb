@@ -24,6 +24,7 @@ mvn(javassist:javassist:pom:) \
 mvn(org.javassist:javassist) \
 mvn(org.javassist:javassist:pom:) \
 osgi(javassist)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

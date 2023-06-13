@@ -16,6 +16,7 @@ RPM_HASH = "abefe653627a337b0fa734dd2ee3b66b0369a434a8dadd658b6695d53d8bfdd531b1
 RPROVIDES:${PN} += "libXxf86dga-devel \
 libXxf86dga-devel(aarch-64) \
 pkgconfig(xxf86dga)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXxf86dga1 \
 pkgconfig(x11) \

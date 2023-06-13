@@ -80,6 +80,7 @@ locale(kpat:uk) \
 locale(kpat:wa) \
 locale(kpat:zh_CN) \
 locale(kpat:zh_TW)"
+
 RDEPENDS:${PN} += "kpat"
 
 inherit rpm

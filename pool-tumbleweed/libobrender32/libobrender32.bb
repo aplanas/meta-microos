@@ -11,6 +11,7 @@ RPM_HASH = "cf57da3fcba9730433318c421ec10aeae0a8445dc091aa116b1304eaf754e477b0c0
 RPROVIDES:${PN} += "libobrender.so.32()(64bit) \
 libobrender32 \
 libobrender32(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "d470551fbd6d98c321c90c6ee1976b6e2226a970032f4df0c286cb62b1e06733b48e
 RPROVIDES:${PN} += "libgpiod.so.2()(64bit) \
 libgpiod2 \
 libgpiod2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

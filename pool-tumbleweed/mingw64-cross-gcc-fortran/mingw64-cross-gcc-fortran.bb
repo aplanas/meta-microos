@@ -9,6 +9,7 @@ RPM_HASH = "e2f726669508395b70a106d17346dcb12524ffd05f69f6264b40e86026ef26af8165
 
 RPROVIDES:${PN} += "mingw64-cross-gcc-fortran \
 mingw64-cross-gcc-fortran(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

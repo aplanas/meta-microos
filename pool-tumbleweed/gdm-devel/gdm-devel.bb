@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gdm-devel \
 gdm-devel(aarch-64) \
 pkgconfig(gdm) \
 pkgconfig(gdm-pam-extensions)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdm1 \
 pkgconfig(gio-2.0) \

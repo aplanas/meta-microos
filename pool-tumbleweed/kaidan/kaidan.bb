@@ -16,6 +16,7 @@ kaidan(aarch-64) \
 metainfo() \
 metainfo(im.kaidan.kaidan.appdata.xml) \
 mimehandler(x-scheme-handler/xmpp)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 kquickimageeditor-imports \

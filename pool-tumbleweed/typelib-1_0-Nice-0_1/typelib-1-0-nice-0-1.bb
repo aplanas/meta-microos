@@ -13,6 +13,7 @@ RPM_HASH = "2b76035cfb7b7aeae24f54048c15424f5f58cbe8edc37b995b29f026c4f19c2b50b7
 RPROVIDES:${PN} += "typelib(Nice) \
 typelib-1_0-Nice-0_1 \
 typelib-1_0-Nice-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libnice.so.10()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

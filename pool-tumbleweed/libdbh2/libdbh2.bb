@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "dbh \
 libdbh.so.2()(64bit) \
 libdbh2 \
 libdbh2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \

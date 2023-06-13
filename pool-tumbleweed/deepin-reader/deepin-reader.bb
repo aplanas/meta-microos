@@ -19,6 +19,7 @@ mimehandler(application/vnd.openxmlformats-officedocument.wordprocessingml.docum
 mimehandler(application/wps-office.docx) \
 mimehandler(image/vnd.djvu) \
 mimehandler(image/vnd.djvu+multipage)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

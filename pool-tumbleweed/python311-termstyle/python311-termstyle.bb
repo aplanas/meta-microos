@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(termstyle) \
 python311-python-termstyle \
 python311-termstyle \
 python3dist(termstyle)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

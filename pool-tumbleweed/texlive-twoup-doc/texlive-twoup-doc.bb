@@ -9,6 +9,7 @@ RPM_HASH = "cfe3447ea7421842a7bbf18501fe77f3d0b782acc242fc6e8de944973fee65bcd7b0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-twoup-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

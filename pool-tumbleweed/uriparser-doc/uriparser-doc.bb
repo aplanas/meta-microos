@@ -12,6 +12,7 @@ RPM_HASH = "7d649e80996bdda06e03502df700e3120e50c4fcecfbb0c87f19841b04625fb5b0e9
 
 RPROVIDES:${PN} += "uriparser-doc \
 uriparser-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "aa592318caeae7a19ee1e781e9eda0f140a07150d95735178ec3059648a16622b8f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-prettyprinter-ansi-terminal-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

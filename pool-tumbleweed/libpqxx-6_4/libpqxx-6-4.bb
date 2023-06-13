@@ -17,6 +17,7 @@ RPM_HASH = "311a0757cd41fad5e7bdbafda93f70dc4aacc2753cf1b0f39e1c394b85402105b679
 RPROVIDES:${PN} += "libpqxx-6.4.so()(64bit) \
 libpqxx-6_4 \
 libpqxx-6_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

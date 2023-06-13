@@ -10,6 +10,7 @@ RPM_HASH = "065fc357d47dc0f9f0af0c3b03a3813a59978f8f3eb6983e2a4b8b65e5bd22f4efa5
 
 RPROVIDES:${PN} += "python39-matplotlib-gtk4 \
 python39-matplotlib-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-matplotlib-gtk-common"

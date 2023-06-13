@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luacolor.sty) \
 texlive-luacolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

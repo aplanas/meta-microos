@@ -10,6 +10,7 @@ RPM_HASH = "9e07648b1bfb652a77f1b2a65d78f3ef256bcf0ae822adb0117dfc34394091e0fa94
 RPROVIDES:${PN} += "libtag-extras.so.1()(64bit) \
 libtag-extras1 \
 libtag-extras1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

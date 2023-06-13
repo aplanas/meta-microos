@@ -38,6 +38,7 @@ firmware(ipw2200-bss.fw) \
 firmware(ipw2200-ibss.fw) \
 firmware(ipw2200-sniffer.fw) \
 ipw-firmware"
+
 RDEPENDS:${PN} += "/bin/sh \
 grep \
 modutils"

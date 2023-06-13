@@ -15,6 +15,7 @@ RPM_HASH = "6c059b1d591a96041bb7bd17cf7da7c9bbf63d62f15a0213b31b87f169add41103d3
 
 RPROVIDES:${PN} += "mailutils-delivery \
 mailutils-delivery(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

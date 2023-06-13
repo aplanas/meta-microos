@@ -15,6 +15,7 @@ RPM_HASH = "8bfcd6b07104ed88293ea0b6154a6be2c80e19ba43af84dce59443fb7210fe57f1e2
 RPROVIDES:${PN} += "brltty-driver-brlapi \
 brltty-driver-brlapi(aarch-64) \
 libbrlttybba.so()(64bit)"
+
 RDEPENDS:${PN} += "brltty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

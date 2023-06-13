@@ -14,6 +14,7 @@ libKPipeWireDeclarative.so()(64bit) \
 libKPipeWireRecordDeclarative.so()(64bit) \
 qt5qmlimport(org.kde.pipewire.0) \
 qt5qmlimport(org.kde.pipewire.record.0)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKPipeWire.so.5()(64bit) \

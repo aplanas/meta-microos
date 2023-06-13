@@ -115,6 +115,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(magra) \
 texlive-magra-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

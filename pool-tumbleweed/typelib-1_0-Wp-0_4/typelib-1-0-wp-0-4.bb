@@ -16,6 +16,7 @@ RPM_HASH = "e643b27a2ab47283d008028b8261eee2f89dd576f68ccb9bc895252a72cff8cdc633
 RPROVIDES:${PN} += "typelib(Wp) \
 typelib-1_0-Wp-0_4 \
 typelib-1_0-Wp-0_4(aarch-64)"
+
 RDEPENDS:${PN} += "libwireplumber-0.4.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

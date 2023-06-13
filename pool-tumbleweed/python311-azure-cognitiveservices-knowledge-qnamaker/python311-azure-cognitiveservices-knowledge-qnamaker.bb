@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-cognitiveservices-knowledge-qnamaker) \
 python311-azure-cognitiveservices-knowledge-qnamaker \
 python3dist(azure-cognitiveservices-knowledge-qnamaker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-cognitiveservices-knowledge-nspkg \
 python311-azure-cognitiveservices-nspkg \

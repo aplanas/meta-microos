@@ -14,6 +14,7 @@ tex(beamerinnerthemehitszbeamer.sty) \
 tex(beamerouterthemehitszbeamer.sty) \
 tex(beamerthemehitszbeamer.sty) \
 texlive-hitszbeamer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

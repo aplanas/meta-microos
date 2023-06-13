@@ -11,6 +11,7 @@ RPM_HASH = "e1d72a095489ef74afb9f9897e3221039f66b82625ea182e8e8fee09c3b47c50c587
 
 RPROVIDES:${PN} += "libnetcdf-gnu-mvapich2-hpc \
 libnetcdf-gnu-mvapich2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libnetcdf_4_9_2-gnu-mvapich2-hpc"
 

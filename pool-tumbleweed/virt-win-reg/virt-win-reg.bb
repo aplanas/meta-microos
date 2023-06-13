@@ -10,6 +10,7 @@ RPM_HASH = "d4ddcf5e68179e0b0aa962e5ba9df5f9bed02d7421df68017e2968c92bef1f029b28
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-win-reg"
+
 RDEPENDS:${PN} += "/usr/bin/env"
 
 inherit rpm

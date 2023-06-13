@@ -15,6 +15,7 @@ RPM_HASH = "791f5b84f66c0ded8cbe597e05c3a34e053660022e2bb5e707d6a58116f6d67deb44
 RPROVIDES:${PN} += "libmimalloc.so.2()(64bit) \
 libmimalloc2 \
 libmimalloc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

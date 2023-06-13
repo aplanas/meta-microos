@@ -12,6 +12,7 @@ python3-genders \
 python3-genders(aarch-64) \
 python3.10dist(libgenders) \
 python3dist(libgenders)"
+
 RDEPENDS:${PN} += "genders \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-Pympler \
 python3.10dist(pympler) \
 python310-Pympler \
 python3dist(pympler)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tk"
 

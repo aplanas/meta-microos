@@ -25,6 +25,7 @@ RPM_HASH = "2873207381fc19d6bc7b3313b6d804276aad6aa23bec69e824b14295026c63192f6d
 RPROVIDES:${PN} += "cmake(toml11) \
 toml11-devel \
 toml11-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

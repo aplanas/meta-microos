@@ -36,6 +36,7 @@ RPM_HASH = "b088778d0a1b267b2954424068689beff0b29fb39dc881aaa16782d348b177a4fe6a
 RPROVIDES:${PN} += "ruby \
 ruby(aarch-64) \
 rubygems"
+
 RDEPENDS:${PN} += "ruby3.2"
 
 inherit rpm

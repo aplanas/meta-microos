@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(topiclongtable.sty) \
 texlive-topiclongtable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

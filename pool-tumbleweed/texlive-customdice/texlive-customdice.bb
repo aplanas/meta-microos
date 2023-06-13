@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(customdice.sty) \
 texlive-customdice"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

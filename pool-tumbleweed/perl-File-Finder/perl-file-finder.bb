@@ -98,6 +98,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(File::Finder) \
 perl(File::Finder::Steps) \
 perl-File-Finder"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More) \
 perl(Text::Glob)"

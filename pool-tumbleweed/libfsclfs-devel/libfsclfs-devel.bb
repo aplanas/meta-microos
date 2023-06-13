@@ -13,6 +13,7 @@ RPM_HASH = "44855a3737a36b86b7dde65aa85fdd1251b991be1262c391c0623bf6a65648f503c1
 RPROVIDES:${PN} += "libfsclfs-devel \
 libfsclfs-devel(aarch-64) \
 pkgconfig(libfsclfs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libfsclfs1"

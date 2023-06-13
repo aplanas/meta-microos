@@ -13,6 +13,7 @@ RPM_HASH = "93d8af5711e36e4aaed1910f4f90e00c4c5dd68610f208bd1910510d25a677f3401d
 
 RPROVIDES:${PN} += "rdesktop \
 rdesktop(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f500c0ccef66f3db0f0721f52127ca831e0e4c3c7b98f520af731828224bd95a578b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "widelands-data"
+
 RDEPENDS:${PN} += "widelands"
 
 inherit rpm

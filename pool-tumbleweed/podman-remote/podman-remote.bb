@@ -10,6 +10,7 @@ RPM_HASH = "4f2c042423fcc4253d6c664388165e68ce1c9eb6664958098fe8e33766b5f6c02125
 RPROVIDES:${PN} += "podman-remote \
 podman-remote(aarch-64) \
 podman:/usr/bin/podman-remote"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

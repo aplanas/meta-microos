@@ -10,6 +10,7 @@ RPM_HASH = "fe490eb84143d87f4926124a05b868cab716345fd8ebd20c08d0c490fc1cab23b634
 
 RPROVIDES:${PN} += "calendarsupport \
 calendarsupport(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

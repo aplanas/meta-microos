@@ -10,6 +10,7 @@ RPM_HASH = "b22c23270d97e387c844cd2d1775b368d0fdc04bf02270ff8d28136d1f10399355e9
 
 RPROVIDES:${PN} += "procmail \
 procmail(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sed \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

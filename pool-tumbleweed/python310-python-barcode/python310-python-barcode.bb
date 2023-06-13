@@ -14,6 +14,7 @@ python3.10dist(python-barcode) \
 python310-pyBarcode \
 python310-python-barcode \
 python3dist(python-barcode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 dejavu-fonts \

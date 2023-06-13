@@ -12,6 +12,7 @@ RPM_HASH = "7d04d9cc00e16b99d44526b2426e81809649f33d257d2f1dc1e2916d62a868f82c75
 RPROVIDES:${PN} += "nautilus-devel \
 nautilus-devel(aarch-64) \
 pkgconfig(libnautilus-extension-4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnautilus-extension4 \
 nautilus \

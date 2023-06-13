@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-py-multihash \
 python3.10dist(py-multihash) \
 python310-py-multihash \
 python3dist(py-multihash)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "2e7a1cc27d95a909b1471b0f384a2632a3772559a88e4da3b3ecae81bfcc0c715482
 
 RPROVIDES:${PN} += "R-spatial \
 R-spatial(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

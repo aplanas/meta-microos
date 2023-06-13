@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pandocfilters) \
 python39-pandocfilters \
 python3dist(pandocfilters)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

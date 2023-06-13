@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(rst.linker) \
 python39-rst.linker \
 python3dist(rst.linker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil"
 

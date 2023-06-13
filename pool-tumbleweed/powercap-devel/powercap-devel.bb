@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(Powercap) \
 pkgconfig(powercap) \
 powercap-devel \
 powercap-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 powercap"
 

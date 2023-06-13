@@ -13,6 +13,7 @@ RPM_HASH = "5e879fad2a8d312e7115e0488ba9d8af928c2ee72f53a58b38daf009d75475699f68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnote"
+
 RDEPENDS:${PN} += "gnome-shell \
 gnote"
 

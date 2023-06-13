@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixmetodonotes.sty) \
 texlive-fixmetodonotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "44a42d7dcdb7a526c1efa1c241ac68f744ee44c8df556e90238ae4c23467b0aeb484
 RPROVIDES:${PN} += "libcollection-devel \
 libcollection-devel(aarch-64) \
 pkgconfig(collection)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcollection4"
 

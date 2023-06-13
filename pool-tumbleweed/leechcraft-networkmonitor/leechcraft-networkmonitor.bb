@@ -13,6 +13,7 @@ RPM_HASH = "235e33de82bab607db6afc8fb84b16de7b0a038b977e5737e88c299ed9afc2df0171
 RPROVIDES:${PN} += "leechcraft-networkmonitor \
 leechcraft-networkmonitor(aarch-64) \
 libleechcraft_networkmonitor.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

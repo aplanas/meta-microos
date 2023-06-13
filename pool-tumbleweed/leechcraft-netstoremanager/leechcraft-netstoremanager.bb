@@ -19,6 +19,7 @@ RPM_HASH = "21934fb7380fe758ad6b91c3fead53ddbf0c9d35378247cd0e70bc2633764674d652
 RPROVIDES:${PN} += "leechcraft-netstoremanager \
 leechcraft-netstoremanager(aarch-64) \
 libleechcraft_netstoremanager.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

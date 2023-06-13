@@ -26,6 +26,7 @@ tex(ISO-Latin2.def) \
 tex(IndUni_Omega.def) \
 tex(Norman.def) \
 texlive-accfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libzlcore.so.0.99()(64bit) \
 libzltext.so.0.99()(64bit) \
 zlibrary0_99 \
 zlibrary0_99(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libbz2.so.1()(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

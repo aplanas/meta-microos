@@ -11,6 +11,7 @@ RPM_HASH = "94aa1cba0f98f9533182620434568bf12bd4f6c396b6c2cd6cddc70ba111cdd7d36c
 
 RPROVIDES:${PN} += "kbfs-tool \
 kbfs-tool(aarch-64)"
+
 RDEPENDS:${PN} += "keybase-client"
 
 inherit rpm

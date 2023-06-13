@@ -22,6 +22,7 @@ perl(Pod::HtmlPsPdf::Html) \
 perl(Pod::HtmlPsPdf::RunTime) \
 perl-Pod-HtmlPsPdf \
 perl-Pod-HtmlPsPdf(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 html2ps \
 perl(:MODULE_COMPAT_5.36.0)"

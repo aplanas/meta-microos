@@ -12,6 +12,7 @@ RPM_HASH = "09e98d799326fea087323dc6672b00d7d7cadfd819af44be82263509f7871336969f
 RPROVIDES:${PN} += "libKPim5MailImporterAkonadi.so.5()(64bit) \
 libKPim5MailImporterAkonadi5 \
 libKPim5MailImporterAkonadi5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

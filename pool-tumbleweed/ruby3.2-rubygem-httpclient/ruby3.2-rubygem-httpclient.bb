@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:httpclient) \
 rubygem(ruby:3.2.0:httpclient:2) \
 rubygem(ruby:3.2.0:httpclient:2.8) \
 rubygem(ruby:3.2.0:httpclient:2.8.3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

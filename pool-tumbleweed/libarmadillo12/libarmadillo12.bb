@@ -20,6 +20,7 @@ RPM_HASH = "61112f5ed21b2a1c1753d120dd2ebfec54f5c9e8226ff29976c167efa722305a9fe4
 RPROVIDES:${PN} += "libarmadillo.so.12()(64bit) \
 libarmadillo12 \
 libarmadillo12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libarpack.so.2()(64bit) \
 libblas.so.3()(64bit) \

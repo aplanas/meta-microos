@@ -19,6 +19,7 @@ RPM_HASH = "4d8c88ea34c1117526c9d0d9a988a874c762abf790d2c7bf548458c6a36c30521399
 RPROVIDES:${PN} += "libexec_weston.so.0()(64bit) \
 weston \
 weston(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

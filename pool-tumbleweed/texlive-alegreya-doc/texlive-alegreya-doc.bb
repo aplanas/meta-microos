@@ -9,6 +9,7 @@ RPM_HASH = "f52f30196d688a8aa1e5cee8a96cbbd0c8fd01fdf526b5513dbe230f84a235cb720d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alegreya-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

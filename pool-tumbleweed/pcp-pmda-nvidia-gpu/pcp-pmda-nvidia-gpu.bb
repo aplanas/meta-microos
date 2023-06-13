@@ -10,6 +10,7 @@ RPM_HASH = "1ba303bd255135b76b05e0ce6c0d4c5ff5d1a295d1d3f8b841372c05dd73724263d0
 
 RPROVIDES:${PN} += "pcp-pmda-nvidia-gpu \
 pcp-pmda-nvidia-gpu(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

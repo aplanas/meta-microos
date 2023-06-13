@@ -10,6 +10,7 @@ RPM_HASH = "88668a002f3e58c089351a79daa57040cdfd752c1e75e1e48d85898953cc684a6bb7
 RPROVIDES:${PN} += "ghc-devel(vty-5.38-E9MiSc6Hkm5LKREDrOQCil) \
 ghc-vty-devel \
 ghc-vty-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3) \

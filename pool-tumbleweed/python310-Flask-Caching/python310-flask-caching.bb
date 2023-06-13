@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Flask-Caching \
 python3.10dist(flask-caching) \
 python310-Flask-Caching \
 python3dist(flask-caching)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask"
 

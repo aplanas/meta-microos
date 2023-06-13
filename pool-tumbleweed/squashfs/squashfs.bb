@@ -10,6 +10,7 @@ RPM_HASH = "5c6d39eb6b8138f404c56cf33438c6a28eabef1100ebcb2e5f315f81851f21c5f954
 
 RPROVIDES:${PN} += "squashfs \
 squashfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

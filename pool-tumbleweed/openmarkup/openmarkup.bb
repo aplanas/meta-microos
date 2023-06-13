@@ -18,6 +18,7 @@ RPM_HASH = "eb032896687bf306dfbffd86d523aec2cd041962067e146de9bc302f6dfb76389ee8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmarkup"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

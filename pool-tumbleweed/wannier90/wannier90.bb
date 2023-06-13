@@ -11,6 +11,7 @@ RPM_HASH = "7b3d296fef20eed85d7a589053d00813c0f909a43c90ed28798bc609117ce89450d1
 
 RPROVIDES:${PN} += "wannier90 \
 wannier90(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libblas.so.3()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

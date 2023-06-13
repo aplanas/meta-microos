@@ -61,6 +61,7 @@ locale(pitivi:zh_HK) \
 locale(pitivi:zh_TW) \
 pitivi-lang \
 pitivi-lang-all"
+
 RDEPENDS:${PN} += "pitivi"
 
 inherit rpm

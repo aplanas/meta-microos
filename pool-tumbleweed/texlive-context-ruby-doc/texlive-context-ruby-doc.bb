@@ -9,6 +9,7 @@ RPM_HASH = "56791e143b7b52d8a72cfae716499fe7c6804a53725e2ae30bf92ed00e16ffa2f0c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-ruby-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

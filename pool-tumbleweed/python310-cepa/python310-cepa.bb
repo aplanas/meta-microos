@@ -17,6 +17,7 @@ python3.10dist(cepa) \
 python310-cepa \
 python310-stem \
 python3dist(cepa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

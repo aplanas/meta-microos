@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(grpc-google-iam-v1) \
 python39-grpc-google-iam-v1 \
 python3dist(grpc-google-iam-v1)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-googleapis-common-protos \
 python39-grpcio"

@@ -9,6 +9,7 @@ RPM_HASH = "87df80d8cf6dd7d4f21151c50dbafab8c0264634b5d169857c6cc7a953ad0c0d4078
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polytable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "aa97490ffe4c05441bb69f726891b39a139c0900ecb356be6603b063b1edd8f29371
 
 RPROVIDES:${PN} += "openQA-continuous-update \
 openQA-continuous-update(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 curl \

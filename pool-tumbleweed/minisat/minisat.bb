@@ -17,6 +17,7 @@ RPM_HASH = "85aeeb1e0f3f3c6b8bc4bc72ea7ae06e5a0818e19e70cc0fba4ddd1ec676f848c6f4
 
 RPROVIDES:${PN} += "minisat \
 minisat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

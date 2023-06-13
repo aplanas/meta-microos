@@ -9,6 +9,7 @@ RPM_HASH = "3e00b03accbad7a13842f5174b04f9de99854da09a9839759798b6d2249117c99f00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lccaps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

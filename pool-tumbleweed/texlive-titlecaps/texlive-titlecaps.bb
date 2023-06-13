@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(titlecaps.sty) \
 texlive-titlecaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

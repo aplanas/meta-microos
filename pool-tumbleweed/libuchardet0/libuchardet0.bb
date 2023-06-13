@@ -17,6 +17,7 @@ RPM_HASH = "168edfca1a157db35510f513c2af638922def738ac8c8be22f37109a612f4cc55266
 RPROVIDES:${PN} += "libuchardet.so.0()(64bit) \
 libuchardet0 \
 libuchardet0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

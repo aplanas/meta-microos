@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bitpattern.sty) \
 texlive-bitpattern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

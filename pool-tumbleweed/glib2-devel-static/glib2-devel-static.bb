@@ -13,6 +13,7 @@ RPM_HASH = "76e17075439e5dc8b82b51fb46c41a477529240acf2a903b27bb6361c1d2473a9067
 
 RPROVIDES:${PN} += "glib2-devel-static \
 glib2-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "glib2-devel"
 
 inherit rpm

@@ -79,6 +79,7 @@ locale(gnome-clocks:vi) \
 locale(gnome-clocks:zh_CN) \
 locale(gnome-clocks:zh_HK) \
 locale(gnome-clocks:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-clocks"
 
 inherit rpm

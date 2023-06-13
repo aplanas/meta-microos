@@ -10,6 +10,7 @@ RPM_HASH = "b7823c2c2a268c4ddf6e6c74aaa240c2b957ef38980c8807b2b1d6a3fe332730435a
 RPROVIDES:${PN} += "ghc-cairo-prof \
 ghc-cairo-prof(aarch-64) \
 ghc-prof(cairo-0.13.8.2-84nOBKgVLz3788JDxxB5om)"
+
 RDEPENDS:${PN} += "ghc-cairo-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

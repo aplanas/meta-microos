@@ -13,6 +13,7 @@ RPM_HASH = "25e2a8bbd38c4a1289bc25e3e14412ede1358282f13669a535d65fea9857b6f10403
 
 RPROVIDES:${PN} += "vte-tools-gtk4 \
 vte-tools-gtk4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

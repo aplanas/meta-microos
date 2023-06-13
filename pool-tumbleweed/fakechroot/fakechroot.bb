@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "config(fakechroot) \
 fakechroot \
 fakechroot(aarch-64) \
 libfakechroot.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

@@ -10,6 +10,7 @@ RPM_HASH = "ad96bdd77aa76cedab17a24a8d6986e8df3070519d309f939b71793922dda5467e15
 RPROVIDES:${PN} += "liballegro_main5_2-devel \
 liballegro_main5_2-devel(aarch-64) \
 pkgconfig(allegro_main-5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liballegro_main5_2 \
 pkgconfig(allegro-5)"

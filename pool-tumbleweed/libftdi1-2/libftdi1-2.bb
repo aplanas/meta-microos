@@ -11,6 +11,7 @@ RPM_HASH = "96f71d7ec670e24a2188f5026db34ae621d8776878e02f0dfde4faf8b5a4c2e23126
 RPROVIDES:${PN} += "libftdi1-2 \
 libftdi1-2(aarch-64) \
 libftdi1.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

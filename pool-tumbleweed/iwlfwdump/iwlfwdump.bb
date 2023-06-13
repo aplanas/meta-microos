@@ -9,6 +9,7 @@ RPM_HASH = "8bbe8ba0dc2b5650cc3667be1952a8495cd9e7f0029da706b7123d4ba52fee731c43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iwlfwdump"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

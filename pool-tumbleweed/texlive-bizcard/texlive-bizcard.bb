@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bizcard.sty) \
 texlive-bizcard"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -33,6 +33,7 @@ locale(4pane:vi) \
 locale(4pane:zh) \
 locale(4pane:zh_CN) \
 locale(4pane:zh_TW)"
+
 RDEPENDS:${PN} += "4pane"
 
 inherit rpm

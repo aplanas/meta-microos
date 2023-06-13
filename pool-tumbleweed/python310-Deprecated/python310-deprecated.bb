@@ -15,6 +15,7 @@ python3.10dist(deprecated) \
 python310-Deprecated \
 python310-deprecated \
 python3dist(deprecated)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wrapt"
 

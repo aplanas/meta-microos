@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libxkbcommon-x11-0 \
 libxkbcommon-x11-0(aarch-64) \
 libxkbcommon-x11.so.0()(64bit) \
 libxkbcommon-x11.so.0(V_0.5.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

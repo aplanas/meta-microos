@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pipreqs \
 python3.10dist(pipreqs) \
 python310-pipreqs \
 python3dist(pipreqs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

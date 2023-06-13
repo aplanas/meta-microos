@@ -15,6 +15,7 @@ RPM_HASH = "bdc43126b028b2e782b98a5ffd5f9c7e5369cf7e10ceae1d7d5cac800db39b3722a1
 
 RPROVIDES:${PN} += "soci-empty-devel \
 soci-empty-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoci_empty4_0 \
 soci-devel"
 

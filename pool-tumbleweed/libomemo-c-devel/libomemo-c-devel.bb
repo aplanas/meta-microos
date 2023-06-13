@@ -10,6 +10,7 @@ RPM_HASH = "0586127a4a8c63aeb9f4ec95ba4c9b6c8975dabfc832bc87da877905f7f325927db5
 RPROVIDES:${PN} += "libomemo-c-devel \
 libomemo-c-devel(aarch-64) \
 pkgconfig(libomemo-c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libomemo-c0"
 

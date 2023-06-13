@@ -19,6 +19,7 @@ python310-sip4-common \
 python39-sip4-common \
 rpm_macro(python_sip_api_ver) \
 rpm_macro(requires_python3_sip_api)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

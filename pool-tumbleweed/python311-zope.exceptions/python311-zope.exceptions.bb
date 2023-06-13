@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.exceptions) \
 python311-zope.exceptions \
 python3dist(zope.exceptions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.interface"
 

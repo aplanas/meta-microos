@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Js2Py \
 python3.10dist(js2py) \
 python310-Js2Py \
 python3dist(js2py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyjsparser \
 python310-six \

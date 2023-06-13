@@ -13,6 +13,7 @@ RPM_HASH = "67b0866bee16af30da8a11cd5a0da7e7c0130a16a1c55a64aac4063b10af7e40b2e4
 RPROVIDES:${PN} += "libASEKey.so()(64bit) \
 pcsc-asekey \
 pcsc-asekey(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "4149c8c8ecf6ea37e078b045933b33b580525ef831c4e8d562a2b9318bc1421248a0
 RPROVIDES:${PN} += "ghc-devel(unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E) \
 ghc-unordered-containers-devel \
 ghc-unordered-containers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

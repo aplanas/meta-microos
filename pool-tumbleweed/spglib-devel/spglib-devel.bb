@@ -10,6 +10,7 @@ RPM_HASH = "f9eb5c55c3b8a940de8a9c3dda9f60eddf0a255d7e16286994cbee190c8e13aa9dd4
 RPROVIDES:${PN} += "pkgconfig(spglib) \
 spglib-devel \
 spglib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsymspg1"
 

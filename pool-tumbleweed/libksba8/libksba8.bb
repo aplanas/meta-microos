@@ -14,6 +14,7 @@ libksba.so.8(KSBA_0.9)(64bit) \
 libksba.so.8(KSBA_PRIVATE_TESTS)(64bit) \
 libksba8 \
 libksba8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

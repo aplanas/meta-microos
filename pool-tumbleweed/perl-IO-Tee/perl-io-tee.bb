@@ -109,6 +109,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(IO::Tee) \
 perl-IO-Tee"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

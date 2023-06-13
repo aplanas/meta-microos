@@ -48,6 +48,7 @@ perl(Net::DBus::Test::MockMessage) \
 perl(Net::DBus::Test::MockObject) \
 perl-Net-DBus \
 perl-Net-DBus(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

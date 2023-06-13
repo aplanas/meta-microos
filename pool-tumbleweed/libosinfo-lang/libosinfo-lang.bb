@@ -29,6 +29,7 @@ locale(libosinfo:ru) \
 locale(libosinfo:si) \
 locale(libosinfo:tr) \
 locale(libosinfo:uk)"
+
 RDEPENDS:${PN} += "libosinfo"
 
 inherit rpm

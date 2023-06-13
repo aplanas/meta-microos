@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(magic-wormhole-transit-relay) \
 python311-magic-wormhole-transit-relay \
 python3dist(magic-wormhole-transit-relay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Twisted"
 

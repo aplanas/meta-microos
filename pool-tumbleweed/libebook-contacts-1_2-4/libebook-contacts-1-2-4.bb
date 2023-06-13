@@ -13,6 +13,7 @@ RPM_HASH = "76cf6c863d5db0967762fbffeb422dc3389c5362bfe36dbdcc11cd18d5006bb24f56
 RPROVIDES:${PN} += "libebook-contacts-1.2.so.4()(64bit) \
 libebook-contacts-1_2-4 \
 libebook-contacts-1_2-4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(boolexpr.sty) \
 texlive-boolexpr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

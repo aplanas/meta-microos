@@ -30,6 +30,7 @@ tex(uesstixbb.fd) \
 tex(uesstixcal.fd) \
 tex(uesstixfrak.fd) \
 texlive-esstix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

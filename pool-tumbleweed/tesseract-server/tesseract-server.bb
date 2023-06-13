@@ -9,6 +9,7 @@ RPM_HASH = "99314b57003984ce17f7e33b9bf1776b706a004dbbaaa1b41550d25267cefc2ac97d
 
 RPROVIDES:${PN} += "tesseract-server \
 tesseract-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

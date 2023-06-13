@@ -9,6 +9,7 @@ RPM_HASH = "9c8301ea15a4e58c7318907c6af272f14c635199b2ab74746c73a3555901f4bf40b7
 
 RPROVIDES:${PN} += "qt6-grpc-docs-html \
 qt6-grpc-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

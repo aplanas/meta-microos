@@ -17,6 +17,7 @@ mvn(commons-cli:commons-cli:pom:) \
 mvn(org.apache.commons:commons-cli) \
 mvn(org.apache.commons:commons-cli:pom:) \
 osgi(org.apache.commons.cli)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

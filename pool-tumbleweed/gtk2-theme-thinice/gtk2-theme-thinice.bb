@@ -9,6 +9,7 @@ RPM_HASH = "8f7e0ea32d79cb060ff730bf23877dab6cc18bc74174d6daa38cb2448eccc1547642
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-thinice"
+
 RDEPENDS:${PN} += "gtk2-engine-thinice"
 
 inherit rpm

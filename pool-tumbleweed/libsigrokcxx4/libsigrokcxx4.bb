@@ -12,6 +12,7 @@ RPM_HASH = "551d7828853c16c553fe61f8bff5bacf582362b0183518260db51351a7741a5da67a
 RPROVIDES:${PN} += "libsigrokcxx.so.4()(64bit) \
 libsigrokcxx4 \
 libsigrokcxx4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

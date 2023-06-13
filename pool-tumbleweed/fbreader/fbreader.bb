@@ -18,6 +18,7 @@ application(FBReader.desktop) \
 fbreader \
 fbreader(aarch-64) \
 mimehandler(application/x-fictionbook+xml)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libsqlite3.so.0()(64bit) \
 libstdc++.so.6()(64bit) \

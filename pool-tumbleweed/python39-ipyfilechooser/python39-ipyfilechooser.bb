@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipyfilechooser) \
 python39-ipyfilechooser \
 python3dist(ipyfilechooser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ipywidgets"
 

@@ -15,6 +15,7 @@ libnss_winbind.so.2()(64bit) \
 libnss_winbind.so.2(NSS_WINBIND_2)(64bit) \
 samba-winbind-libs \
 samba-winbind-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

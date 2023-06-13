@@ -12,6 +12,7 @@ RPM_HASH = "7f4fd263ca74c56dd7b8be7b7ba4a62ab6c694d88dfff7e2b74a3118f5efeb25de75
 RPROVIDES:${PN} += "perl(Crypt::MySQL) \
 perl-Crypt-MySQL \
 perl-Crypt-MySQL(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

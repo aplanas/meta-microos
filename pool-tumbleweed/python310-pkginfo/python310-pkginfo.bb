@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-pkginfo \
 python3.10dist(pkginfo) \
 python310-pkginfo \
 python3dist(pkginfo)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

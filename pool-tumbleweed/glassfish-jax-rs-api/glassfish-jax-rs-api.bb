@@ -14,6 +14,7 @@ mvn(jakarta.ws.rs:jakarta.ws.rs-api:pom:) \
 mvn(javax.ws.rs:javax.ws.rs-api) \
 mvn(javax.ws.rs:javax.ws.rs-api:pom:) \
 osgi(jakarta.ws.rs-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

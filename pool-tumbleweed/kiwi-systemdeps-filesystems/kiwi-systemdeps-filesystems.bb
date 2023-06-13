@@ -20,6 +20,7 @@ kiwi-image:kis \
 kiwi-image:pxe \
 kiwi-systemdeps-filesystems \
 kiwi-systemdeps-filesystems(aarch-64)"
+
 RDEPENDS:${PN} += "btrfsprogs \
 dosfstools \
 e2fsprogs \

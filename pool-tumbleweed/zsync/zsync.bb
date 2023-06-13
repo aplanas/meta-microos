@@ -15,6 +15,7 @@ RPM_HASH = "ab011a034fe72938e1659118f913706372bf173009ca5b6a5e66d39fbad4b0064155
 
 RPROVIDES:${PN} += "zsync \
 zsync(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

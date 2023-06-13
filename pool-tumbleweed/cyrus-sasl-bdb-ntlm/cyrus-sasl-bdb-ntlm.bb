@@ -11,6 +11,7 @@ RPM_HASH = "4c4668e3251e9341353e5df700298c898d358f99d887dc864ebac87de5cd240cbd34
 RPROVIDES:${PN} += "cyrus-sasl-bdb-ntlm \
 cyrus-sasl-bdb-ntlm(aarch-64) \
 libntlm.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl-bdb \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -52,6 +52,7 @@ perl(Test::Selenium::Remote::Role::DoesTesting) \
 perl(Test::Selenium::Remote::WebElement) \
 perl-Selenium-Remote-Driver \
 perl-Selenium-Remote-Driver(aarch-64)"
+
 RDEPENDS:${PN} += "lsof \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \

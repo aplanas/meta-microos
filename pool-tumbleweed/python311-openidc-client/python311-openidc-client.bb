@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(openidc-client) \
 python311-openidc-client \
 python3dist(openidc-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

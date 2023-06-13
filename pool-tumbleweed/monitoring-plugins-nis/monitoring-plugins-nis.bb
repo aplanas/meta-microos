@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-nis \
 nagios-plugins-nis"
+
 RDEPENDS:${PN} += "/bin/sh \
 yp-tools"
 

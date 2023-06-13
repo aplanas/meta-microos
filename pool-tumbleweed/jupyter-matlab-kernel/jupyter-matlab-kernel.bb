@@ -14,6 +14,7 @@ python3-jupyter_matlab_kernel \
 python3-matlab-kernel \
 python3.10dist(matlab-kernel) \
 python3dist(matlab-kernel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-ipython \
 python3-jupyter_client \

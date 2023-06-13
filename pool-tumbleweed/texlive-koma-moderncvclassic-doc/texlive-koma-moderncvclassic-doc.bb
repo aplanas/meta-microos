@@ -9,6 +9,7 @@ RPM_HASH = "0c67fa463c29fff6a2d9cc4b1be1a531cb149bf68635f093005cf5abe60a08866600
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-koma-moderncvclassic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

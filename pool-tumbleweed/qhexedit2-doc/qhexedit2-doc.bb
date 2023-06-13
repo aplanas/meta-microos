@@ -9,6 +9,7 @@ RPM_HASH = "da167cc38fde29d680ffc7676f1f32330e28dc1eebe01dec17f77e772ea76bab6331
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qhexedit2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

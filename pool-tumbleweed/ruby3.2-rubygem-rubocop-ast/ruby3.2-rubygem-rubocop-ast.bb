@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rubocop-ast) \
 rubygem(ruby:3.2.0:rubocop-ast:1) \
 rubygem(ruby:3.2.0:rubocop-ast:1.24) \
 rubygem(ruby:3.2.0:rubocop-ast:1.24.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:parser)"
 

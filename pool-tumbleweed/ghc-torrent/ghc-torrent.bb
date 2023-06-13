@@ -10,6 +10,7 @@ RPM_HASH = "dd7563715e608bce10fe31c5436a12dd9d43302f4ce41ded62fdd4bad18b8d765390
 RPROVIDES:${PN} += "ghc-torrent \
 ghc-torrent(aarch-64) \
 libHStorrent-10000.1.3-6s7CFs4CbkZ3Yp9HO0y2ZH-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-jaraco.stream-doc \
 python310-jaraco.stream-doc \
 python311-jaraco.stream-doc \
 python39-jaraco.stream-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

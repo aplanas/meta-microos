@@ -9,6 +9,7 @@ RPM_HASH = "fbb258c8b9e60f687fa5b3d08f115cb7829f88c6e9a791d030816caed348af3f4ea6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-formlett-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

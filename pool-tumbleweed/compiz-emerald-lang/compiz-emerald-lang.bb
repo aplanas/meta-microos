@@ -45,6 +45,7 @@ locale(compiz-emerald:tr) \
 locale(compiz-emerald:zh_CN) \
 locale(compiz-emerald:zh_HK) \
 locale(compiz-emerald:zh_TW)"
+
 RDEPENDS:${PN} += "compiz-emerald"
 
 inherit rpm

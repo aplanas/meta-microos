@@ -16,6 +16,7 @@ RPM_HASH = "ae80def3fd932a0d5af74a5e0e9aa873f1e8172af86fe5d8d33afea17e18b8af4701
 
 RPROVIDES:${PN} += "qemu-arm \
 qemu-arm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaio.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "6d3980f6f79fa5a6fb1bc53621c1b4f10b590cb13a9c2000007d24d9e02b6a1b6503
 
 RPROVIDES:${PN} += "Printrun \
 Printrun(aarch-64)"
+
 RDEPENDS:${PN} += "plater \
 pronsole \
 pronterface"

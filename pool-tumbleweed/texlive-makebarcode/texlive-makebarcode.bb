@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makebarcode.sty) \
 texlive-makebarcode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

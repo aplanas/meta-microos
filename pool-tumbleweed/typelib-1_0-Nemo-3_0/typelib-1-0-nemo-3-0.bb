@@ -12,6 +12,7 @@ RPM_HASH = "75782c07b9fce150cce5c56f305d03d470e4eee0887e2025c5377d8d8c735c4547d7
 RPROVIDES:${PN} += "typelib(Nemo) \
 typelib-1_0-Nemo-3_0 \
 typelib-1_0-Nemo-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libnemo-extension.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

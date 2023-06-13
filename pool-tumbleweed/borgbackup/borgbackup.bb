@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "borgbackup \
 borgbackup(aarch-64) \
 python3.10dist(borgbackup) \
 python3dist(borgbackup)"
+
 RDEPENDS:${PN} += "(python3-msgpack >= 0.5.6 with python3-msgpack <= 1.0.5) \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

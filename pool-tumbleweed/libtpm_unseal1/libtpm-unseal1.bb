@@ -17,6 +17,7 @@ RPM_HASH = "d77d34d0c1a5b144f41a177a56f51e36c8ddcdd77a5c7458d06e197dcfd229adb84f
 RPROVIDES:${PN} += "libtpm_unseal.so.1()(64bit) \
 libtpm_unseal1 \
 libtpm_unseal1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

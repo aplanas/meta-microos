@@ -22,6 +22,7 @@ converseen \
 converseen(aarch-64) \
 metainfo() \
 metainfo(converseen.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagick++-7.Q16HDRI.so.5()(64bit) \

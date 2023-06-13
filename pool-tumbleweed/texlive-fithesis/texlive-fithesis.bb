@@ -34,6 +34,7 @@ tex(fithesis2.cls) \
 tex(fithesis3.cls) \
 tex(fithesis4.cls) \
 texlive-fithesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

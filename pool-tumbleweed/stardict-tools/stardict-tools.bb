@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(stardict-editor.desktop) \
 stardict-tools \
 stardict-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

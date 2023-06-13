@@ -10,6 +10,7 @@ RPM_HASH = "013c652fde9c9ac4bceadc4d61e946a4352893f2b12964d8f23d748ab4cc6f407c8a
 RPROVIDES:${PN} += "ghc-prof(vector-th-unbox-0.2.2-8WH0ofCzoXcG1eDIxYKY6t) \
 ghc-vector-th-unbox-prof \
 ghc-vector-th-unbox-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(template-haskell-2.19.0.0) \
 ghc-prof(vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp) \

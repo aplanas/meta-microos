@@ -19,6 +19,7 @@ patterns-openSUSE-kde4_yast \
 patterns-openSUSE-kde_yast \
 patterns-openSUSE-sw_management_kde \
 patterns-openSUSE-sw_management_kde4"
+
 RDEPENDS:${PN} += "libyui-qt-pkg \
 yast2-control-center-qt"
 

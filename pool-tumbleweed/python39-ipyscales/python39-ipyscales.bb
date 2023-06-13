@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(ipyscales) \
 python39-ipyscales \
 python39-jupyter_ipyscales \
 python3dist(ipyscales)"
+
 RDEPENDS:${PN} += "jupyter-ipyscales \
 python(abi) \
 python39-ipywidgets \

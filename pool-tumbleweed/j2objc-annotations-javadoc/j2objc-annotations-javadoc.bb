@@ -9,6 +9,7 @@ RPM_HASH = "3f4d426539243140bd42a62d769d04fe031e7a5f1c56b880afce2c9e8e6395e03cc7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "j2objc-annotations-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

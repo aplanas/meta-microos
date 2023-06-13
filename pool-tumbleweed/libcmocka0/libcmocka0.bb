@@ -26,6 +26,7 @@ RPM_HASH = "ce3e934f29173da399a54d6f304adb9e78a0f0c2eb48e8ac9f6401c0c1fa59bab71b
 RPROVIDES:${PN} += "libcmocka.so.0()(64bit) \
 libcmocka0 \
 libcmocka0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

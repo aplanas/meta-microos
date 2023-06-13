@@ -13,6 +13,7 @@ libasyncaudio.so.1.6()(64bit) \
 libasynccore.so.1.6()(64bit) \
 libasynccpp.so.1.6()(64bit) \
 libasyncqt.so.1.6()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

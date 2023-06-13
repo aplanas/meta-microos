@@ -15,6 +15,7 @@ pattern-order() \
 patterns-openSUSE-xfce_laptop \
 patterns-xfce-xfce_laptop \
 patterns-xfce-xfce_laptop(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

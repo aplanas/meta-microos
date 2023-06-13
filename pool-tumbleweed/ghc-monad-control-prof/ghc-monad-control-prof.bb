@@ -10,6 +10,7 @@ RPM_HASH = "1c89b4a1491a1a325e858d469acd25598548ad6163292a1bfc3d125b0d64127b32c0
 RPROVIDES:${PN} += "ghc-monad-control-prof \
 ghc-monad-control-prof(aarch-64) \
 ghc-prof(monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX)"
+
 RDEPENDS:${PN} += "ghc-monad-control-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(stm-2.5.1.0) \

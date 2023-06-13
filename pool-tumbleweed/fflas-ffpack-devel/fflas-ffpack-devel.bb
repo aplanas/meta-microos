@@ -14,6 +14,7 @@ RPM_HASH = "998c68e7f14858674f3eba8062c80b1320af4a33f0ca1fb5071158db096d45e2e11c
 RPROVIDES:${PN} += "fflas-ffpack-devel \
 fflas-ffpack-devel(aarch-64) \
 pkgconfig(fflas-ffpack)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/pkg-config \
 pkgconfig(givaro)"

@@ -13,6 +13,7 @@ RPM_HASH = "c1d0086a84684ac70943c89d7ae658bed4c24ebfcc7dacdd3c236fb6613d25baafd6
 RPROVIDES:${PN} += "libOpenEXR-3_1-30 \
 libOpenEXR-3_1-30(aarch-64) \
 libOpenEXR-3_1.so.30()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

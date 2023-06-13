@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepass-plugin-HIBPOfflineCheck \
 mono(HIBPOfflineCheck)"
+
 RDEPENDS:${PN} += "keepass \
 mono(KeePass) \
 mono(System) \

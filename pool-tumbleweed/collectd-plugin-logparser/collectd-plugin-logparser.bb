@@ -9,6 +9,7 @@ RPM_HASH = "a820cdc943e294ec0e506c4873c37b6ab0b9eb9288065ab7eb87c081c534a12dc582
 
 RPROVIDES:${PN} += "collectd-plugin-logparser \
 collectd-plugin-logparser(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

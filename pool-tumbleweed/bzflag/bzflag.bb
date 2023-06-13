@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "application() \
 application(bzflag.desktop) \
 bzflag \
 bzflag(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

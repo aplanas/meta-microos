@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cymruwhois \
 python3.9dist(cymruwhois) \
 python39-cymruwhois \
 python3dist(cymruwhois)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfm-qt-lang \
 libfm-qt-lang-all"
+
 RDEPENDS:${PN} += "libfm-qt13"
 
 inherit rpm

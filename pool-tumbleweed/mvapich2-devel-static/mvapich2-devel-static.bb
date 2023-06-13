@@ -10,6 +10,7 @@ RPM_HASH = "eee51c0c113d1a12d61f6ce4ee274834fad91e0d74ed99e8105c389c7850ad9d4222
 
 RPROVIDES:${PN} += "mvapich2-devel-static \
 mvapich2-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "mvapich2-devel"
 
 inherit rpm

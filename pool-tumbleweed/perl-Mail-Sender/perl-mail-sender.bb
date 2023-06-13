@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "perl(Mail::Sender) \
 perl(Mail::Sender::CType::Ext) \
 perl(Mail::Sender::CType::Win32) \
 perl-Mail-Sender"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

@@ -47,6 +47,7 @@ locale(mlocate:zh_CN) \
 locale(mlocate:zh_TW) \
 mlocate-lang \
 mlocate-lang-all"
+
 RDEPENDS:${PN} += "mlocate"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Tnef) \
 cmake(KPim5Tnef) \
 ktnef-devel \
 ktnef-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 libKPim5Tnef5"
 

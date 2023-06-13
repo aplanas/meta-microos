@@ -17,6 +17,7 @@ tex(fsts8x.tfm) \
 tex(starfont.map) \
 tex(starfont.sty) \
 texlive-starfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "93f561c09f7ce7304952f407ca6f399b91590e33a69c2127747758c9cfc9139c8297
 RPROVIDES:${PN} += "pkgconfig(rnnoise) \
 rnnoise-devel \
 rnnoise-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librnnoise0"
 

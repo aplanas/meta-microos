@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ana \
 python3.10dist(ana) \
 python310-ana \
 python3dist(ana)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

@@ -56,6 +56,7 @@ tex(mt-ptm.cfg) \
 tex(mt-ugm.cfg) \
 tex(mt-zpeu.cfg) \
 texlive-microtype"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

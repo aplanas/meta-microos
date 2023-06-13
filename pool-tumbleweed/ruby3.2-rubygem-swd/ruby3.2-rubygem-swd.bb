@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:swd:2) \
 rubygem(ruby:3.2.0:swd:2.0) \
 rubygem(ruby:3.2.0:swd:2.0.2) \
 rubygem(swd)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activesupport) \
 rubygem(ruby:3.2.0:attr_required) \

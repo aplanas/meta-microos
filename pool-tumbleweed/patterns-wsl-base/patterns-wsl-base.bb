@@ -13,6 +13,7 @@ pattern-category() \
 pattern-icon() \
 pattern-visible() \
 patterns-wsl-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash"
 

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ini2toml-all \
 python310-ini2toml-all"
+
 RDEPENDS:${PN} += "(python310-configupdater >= 3.0.1 with python310-configupdater < 4) \
 (python310-importlib-metadata if python310-base < 3.8) \
 (python310-tomli-w >= 0.4.0 with python310-tomli-w < 2) \

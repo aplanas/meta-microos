@@ -12,6 +12,7 @@ python3.10dist(fabio) \
 python310-fabio \
 python310-fabio(aarch-64) \
 python3dist(fabio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

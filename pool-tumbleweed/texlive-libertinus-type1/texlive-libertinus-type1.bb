@@ -2012,6 +2012,7 @@ tex(lbts_zqzvht.enc) \
 tex(libertinus-type1.sty) \
 tex(libertinus.map) \
 texlive-libertinus-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

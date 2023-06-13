@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(warewulf-nhc) \
 warewulf-nhc"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash \

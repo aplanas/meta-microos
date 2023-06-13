@@ -9,6 +9,7 @@ RPM_HASH = "2feebf5394d4ddffda36e3a695ceb289762c6f231954321d9ec5e98875ea2458f988
 
 RPROVIDES:${PN} += "texlive-sty2dtx-bin \
 texlive-sty2dtx-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-sty2dtx"
 
 inherit rpm

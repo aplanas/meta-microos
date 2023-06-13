@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "application() \
 application(quasselclient.desktop) \
 quassel-base \
 quassel-base(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 quassel_ui"
 

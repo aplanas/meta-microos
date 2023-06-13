@@ -35,6 +35,7 @@ locale(eiciel:sv) \
 locale(eiciel:uk) \
 locale(eiciel:zh_CN) \
 locale(eiciel:zh_TW)"
+
 RDEPENDS:${PN} += "eiciel"
 
 inherit rpm

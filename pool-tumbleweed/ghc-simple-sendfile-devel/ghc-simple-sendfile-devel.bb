@@ -11,6 +11,7 @@ RPM_HASH = "393b328690e634bf89e3a659a7aaa18d99674030537c5bd431d5d449866f51ab8654
 RPROVIDES:${PN} += "ghc-devel(simple-sendfile-0.2.31-701wssQD34oFyvrTLOblUT) \
 ghc-simple-sendfile-devel \
 ghc-simple-sendfile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

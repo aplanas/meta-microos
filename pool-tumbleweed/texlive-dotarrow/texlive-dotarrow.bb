@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(DotArrow.sty) \
 texlive-dotarrow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

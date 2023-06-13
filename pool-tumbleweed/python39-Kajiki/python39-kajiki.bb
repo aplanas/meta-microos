@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(kajiki) \
 python39-Kajiki \
 python39-Kajiki(aarch-64) \
 python3dist(kajiki)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

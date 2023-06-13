@@ -12,6 +12,7 @@ RPM_HASH = "3e59bc9cf9409f36b95515ba51cd0b3d173a0a8237d33ecc3fd7c4f8144fce82d882
 RPROVIDES:${PN} += "libxcb-sync.so.1()(64bit) \
 libxcb-sync1 \
 libxcb-sync1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

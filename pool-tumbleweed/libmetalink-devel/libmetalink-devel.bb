@@ -12,6 +12,7 @@ RPM_HASH = "25455d848591cbbe450eb3c9849e6e546152037a1fd60dead3190fed2490c4b438b1
 RPROVIDES:${PN} += "libmetalink-devel \
 libmetalink-devel(aarch-64) \
 pkgconfig(libmetalink)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libmetalink3"

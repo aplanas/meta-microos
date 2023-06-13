@@ -9,6 +9,7 @@ RPM_HASH = "f66edb4150d13eacee830de59a3c5daa0020d85e884d70a2eb1a71a8159c518cebdd
 
 RPROVIDES:${PN} += "shells-cli \
 shells-cli(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

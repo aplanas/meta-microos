@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-time-travel \
 python3.10dist(time-travel) \
 python310-time-travel \
 python3dist(time-travel)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

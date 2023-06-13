@@ -25,6 +25,7 @@ osgi(org.powermock.powermock-module-junit4) \
 osgi(org.powermock.powermock-module-junit4-common) \
 osgi(org.powermock.powermock-module-junit4-rule) \
 powermock-junit4"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(junit:junit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-geopandas \
 python3.10dist(geopandas) \
 python310-geopandas \
 python3dist(geopandas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Fiona \
 python310-pandas \

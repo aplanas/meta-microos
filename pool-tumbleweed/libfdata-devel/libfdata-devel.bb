@@ -13,6 +13,7 @@ RPM_HASH = "ec82ad38044b802be07b59a73c34fd6f82b510d760100288cd5a9152e553477ed835
 RPROVIDES:${PN} += "libfdata-devel \
 libfdata-devel(aarch-64) \
 pkgconfig(libfdata)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfdata1"
 

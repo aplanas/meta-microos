@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wikipedia) \
 python39-wikipedia \
 python3dist(wikipedia)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-beautifulsoup4 \
 python39-requests"

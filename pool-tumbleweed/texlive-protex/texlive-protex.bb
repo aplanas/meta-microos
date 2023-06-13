@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(AlProTex.sty) \
 tex(ProTex.sty) \
 texlive-protex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

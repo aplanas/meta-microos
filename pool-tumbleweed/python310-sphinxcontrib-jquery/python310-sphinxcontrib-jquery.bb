@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-jquery \
 python3.10dist(sphinxcontrib-jquery) \
 python310-sphinxcontrib-jquery \
 python3dist(sphinxcontrib-jquery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx"
 

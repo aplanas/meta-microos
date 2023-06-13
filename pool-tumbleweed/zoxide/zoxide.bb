@@ -11,6 +11,7 @@ RPM_HASH = "f7e8c62afef100b1824ba76f90d361e8b1bd29f4e608c2a262f62035af1dcf60dbbb
 
 RPROVIDES:${PN} += "zoxide \
 zoxide(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "c933d61f6827379fda416accbd65d0077c6ba38e77a92872392f55e25c4bb88a9cc9
 RPROVIDES:${PN} += "cmake(KF5Completion) \
 kcompletion-devel \
 kcompletion-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

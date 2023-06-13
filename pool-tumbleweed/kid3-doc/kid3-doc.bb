@@ -9,6 +9,7 @@ RPM_HASH = "44097f8f6f1f6c12c70cfbfc5d8bd9a9d7403308ba6545ee56f421c364e10db1f133
 
 RPROVIDES:${PN} += "kid3-doc \
 kid3-doc(aarch-64)"
+
 RDEPENDS:${PN} += "kid3"
 
 inherit rpm

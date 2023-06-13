@@ -22,6 +22,7 @@ gstreamer1(urisink-rtspt)()(64bit) \
 gstreamer1(urisink-rtspu)()(64bit) \
 libgstrtspclientsink.so()(64bit) \
 pkgconfig(gstreamer-rtsp-server-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

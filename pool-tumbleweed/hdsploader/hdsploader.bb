@@ -10,6 +10,7 @@ RPM_HASH = "6e108a9849dd795ed5c76a8be316cb8983b673539394399609e5af49bb9de059f98b
 RPROVIDES:${PN} += "alsa-tools:/usr/bin/hdsploader \
 hdsploader \
 hdsploader(aarch-64)"
+
 RDEPENDS:${PN} += "alsa-firmware \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

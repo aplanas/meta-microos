@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(powerdot-tuliplab.sty) \
 texlive-powerdot-tuliplab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

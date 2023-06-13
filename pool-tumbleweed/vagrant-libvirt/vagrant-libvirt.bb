@@ -10,6 +10,7 @@ RPM_HASH = "f394f3944a0a16934da1e9a6e0f6c5ce5631e7dd86b10c2cf9253553c1c571b70827
 
 RPROVIDES:${PN} += "vagrant-libvirt \
 vagrant-libvirt(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libvirt \
 qemu-arm \

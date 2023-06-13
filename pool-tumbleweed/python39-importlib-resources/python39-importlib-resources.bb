@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(importlib-resources) \
 python39-importlib-resources \
 python39-importlib_resources \
 python3dist(importlib-resources)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-zipp"
 

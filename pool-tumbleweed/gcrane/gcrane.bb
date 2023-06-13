@@ -10,6 +10,7 @@ RPM_HASH = "5f2fefbe0129d81964fb57c71165d88d972c28d087b12afce97c3afde1f9e29dcfd9
 
 RPROVIDES:${PN} += "gcrane \
 gcrane(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

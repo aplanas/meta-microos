@@ -9,6 +9,7 @@ RPM_HASH = "e378287194aa377b9c266e5180a994ce63100dc6b63d2461383e80a7ff1d87dd1b0c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pymilter-common"
+
 RDEPENDS:${PN} += "/bin/sh \
 systemd"
 

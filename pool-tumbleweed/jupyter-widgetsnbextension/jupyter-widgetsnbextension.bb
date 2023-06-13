@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jupyter-jupyter-js-widgets \
 jupyter-jupyter-jupyter-widgets-notebook-manager \
 jupyter-widgetsnbextension"
+
 RDEPENDS:${PN} += "python3-widgetsnbextension"
 
 inherit rpm

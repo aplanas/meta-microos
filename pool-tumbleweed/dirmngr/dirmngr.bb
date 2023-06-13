@@ -14,6 +14,7 @@ RPM_HASH = "bf46423a5c7ef3a468c1097447e5629520d339a1ffbd46c501883be026c5a93f815b
 
 RPROVIDES:${PN} += "dirmngr \
 dirmngr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libassuan.so.0()(64bit) \

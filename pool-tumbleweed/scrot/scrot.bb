@@ -10,6 +10,7 @@ RPM_HASH = "8ae0e3f23bb7b74b33c090d297c16c441695b30bca3fc3cb7105351805e5b3d4ed52
 
 RPROVIDES:${PN} += "scrot \
 scrot(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libImlib2.so.1()(64bit) \

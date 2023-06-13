@@ -9,6 +9,7 @@ RPM_HASH = "5b3e489ee163ce97d8e19779c1297c5a2144321243c736fb41a0d9636e6c156a6812
 
 RPROVIDES:${PN} += "lua51-ldbus \
 lua51-ldbus(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libdbus-1.so.3()(64bit) \
 libdbus-1.so.3(LIBDBUS_1_3)(64bit) \

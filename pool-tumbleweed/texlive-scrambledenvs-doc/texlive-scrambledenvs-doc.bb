@@ -9,6 +9,7 @@ RPM_HASH = "b8af6ddf4e86a66ae3cf3497c9826ee33820b9c01cfce38ecfd7884984d31f285275
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scrambledenvs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

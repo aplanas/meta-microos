@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dcpic.sty) \
 tex(europroc.cls) \
 texlive-dcpic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

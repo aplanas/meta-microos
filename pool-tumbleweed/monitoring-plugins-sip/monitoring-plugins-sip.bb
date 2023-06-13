@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-sip \
 nagios-plugins-sip"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(IO::Socket::INET) \
 perl(Net::Domain) \

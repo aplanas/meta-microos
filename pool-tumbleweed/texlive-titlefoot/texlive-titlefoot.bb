@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(titlefoot.sty) \
 texlive-titlefoot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

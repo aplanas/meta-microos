@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hid-parser \
 python3.10dist(hid-parser) \
 python310-hid-parser \
 python3dist(hid-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

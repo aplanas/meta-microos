@@ -9,6 +9,7 @@ RPM_HASH = "43bd6578fbfe9feb885d884ddbe69f425c4ae72513046deea600bb36c4afd931a2af
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ieeeconf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

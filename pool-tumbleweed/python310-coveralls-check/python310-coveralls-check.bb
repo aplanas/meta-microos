@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-coveralls-check \
 python3.10dist(coveralls-check) \
 python310-coveralls-check \
 python3dist(coveralls-check)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

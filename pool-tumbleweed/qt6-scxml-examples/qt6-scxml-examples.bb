@@ -9,6 +9,7 @@ RPM_HASH = "a58757c2126b2b643863d64e8fedf3519d21f78f70c1b6c7eba2e85a43a9cdfbb307
 
 RPROVIDES:${PN} += "qt6-scxml-examples \
 qt6-scxml-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

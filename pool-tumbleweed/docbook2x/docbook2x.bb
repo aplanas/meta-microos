@@ -12,6 +12,7 @@ db2x \
 docbook2X \
 docbook2x \
 docbook2x(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/edit-xml-catalog \
 /usr/bin/perl \

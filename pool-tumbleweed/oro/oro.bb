@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "jakarta-oro \
 mvn(oro:oro) \
 mvn(oro:oro:pom:) \
 oro"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

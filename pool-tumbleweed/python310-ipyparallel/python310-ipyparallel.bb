@@ -16,6 +16,7 @@ python3.10dist(ipyparallel) \
 python310-ipyparallel \
 python310-jupyter_ipyparallel \
 python3dist(ipyparallel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

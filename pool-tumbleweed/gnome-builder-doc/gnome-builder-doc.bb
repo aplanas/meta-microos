@@ -10,6 +10,7 @@ RPM_HASH = "3b736f306989c97ceec368e3f432c4a7b5763216cbd2983945e554d943662d15fe60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-builder-doc"
+
 RDEPENDS:${PN} += "gnome-builder"
 
 inherit rpm

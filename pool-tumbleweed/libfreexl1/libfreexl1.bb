@@ -11,6 +11,7 @@ RPM_HASH = "e85eb90ee50abe86f1651cb02d4a827212b0452fdba7bb3408054372a99cbbad1e02
 RPROVIDES:${PN} += "libfreexl.so.1()(64bit) \
 libfreexl1 \
 libfreexl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

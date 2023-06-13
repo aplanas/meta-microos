@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:omniauth) \
 rubygem(ruby:3.2.0:omniauth:2) \
 rubygem(ruby:3.2.0:omniauth:2.1) \
 rubygem(ruby:3.2.0:omniauth:2.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:hashie) \
 rubygem(ruby:3.2.0:rack) \

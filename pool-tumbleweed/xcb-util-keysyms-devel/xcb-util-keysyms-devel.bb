@@ -15,6 +15,7 @@ RPM_HASH = "c3868ff61fe336f0a01d0e36b0932c6ea15b4b892127deab1a8e5a927a6720a4819c
 RPROVIDES:${PN} += "pkgconfig(xcb-keysyms) \
 xcb-util-keysyms-devel \
 xcb-util-keysyms-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-keysyms1 \
 pkgconfig(xcb)"

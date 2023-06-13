@@ -13,6 +13,7 @@ metainfo(xviewer-exif-display.metainfo.xml) \
 xviewer-plugin-exif-display \
 xviewer-plugin-exif-display(aarch-64) \
 xviewer-plugins:/usr/lib64/xviewer/plugins/exif-display.plugin"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

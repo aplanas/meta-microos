@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(matrix-common) \
 python311-matrix-common \
 python311-matrix_common \
 python3dist(matrix-common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-errorprone-type_annotations \
 mvn(com.google.errorprone:error_prone_type_annotations) \
 mvn(com.google.errorprone:error_prone_type_annotations:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

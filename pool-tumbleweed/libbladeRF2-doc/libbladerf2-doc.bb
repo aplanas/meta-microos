@@ -9,6 +9,7 @@ RPM_HASH = "59326555e79fc2a39708d3f2c6d6d4614cf35fe19d3bebf9cff9ab2309e21107c9b1
 
 RPROVIDES:${PN} += "libbladeRF2-doc \
 libbladeRF2-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

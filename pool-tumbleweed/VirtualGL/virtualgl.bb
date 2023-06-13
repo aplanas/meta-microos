@@ -31,6 +31,7 @@ libgefaker.so()(64bit) \
 libvglfaker-nodl.so()(64bit) \
 libvglfaker-opencl.so()(64bit) \
 libvglfaker.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

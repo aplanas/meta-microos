@@ -10,6 +10,7 @@ RPM_HASH = "b3b520c3690d7f8e1f1501c1a38a0e1c330c4aae967ba757e13c193ed6282c7b61ef
 
 RPROVIDES:${PN} += "rook-rookflex \
 rook-rookflex(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -38,6 +38,7 @@ locale(kbibtex:sv) \
 locale(kbibtex:tr) \
 locale(kbibtex:uk) \
 locale(kbibtex:zh_CN)"
+
 RDEPENDS:${PN} += "kbibtex"
 
 inherit rpm

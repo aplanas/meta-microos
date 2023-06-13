@@ -9,6 +9,7 @@ RPM_HASH = "261fd71952ef02fdaa2e9cdd575e7fe103316666656897c5fc094d09a9fbc62defe6
 
 RPROVIDES:${PN} += "openqa-mon \
 openqa-mon(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

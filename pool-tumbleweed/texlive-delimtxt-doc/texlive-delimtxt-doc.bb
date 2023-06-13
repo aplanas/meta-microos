@@ -9,6 +9,7 @@ RPM_HASH = "86ee2d31b95ae837b23d4bbb878bb4e59b3c01b280756ccaff07afa0856d3b7340e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-delimtxt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

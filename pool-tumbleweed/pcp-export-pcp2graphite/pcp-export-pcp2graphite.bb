@@ -10,6 +10,7 @@ RPM_HASH = "fee335efbfad4f4245f975fb63b64273b468373c69820b0709d368e6a72aefc0e607
 
 RPROVIDES:${PN} += "pcp-export-pcp2graphite \
 pcp-export-pcp2graphite(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-pcp"
 

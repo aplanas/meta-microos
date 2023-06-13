@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-phply \
 python3.10dist(phply) \
 python310-phply \
 python3dist(phply)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

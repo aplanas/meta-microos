@@ -10,6 +10,7 @@ RPM_HASH = "342b32f53d3d494dc71796974f8a98b1c4f17a551d97ba94b8a9a0a1a51842c29ee8
 RPROVIDES:${PN} += "apulse \
 apulse(aarch-64) \
 config(apulse)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

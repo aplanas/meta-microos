@@ -13,6 +13,7 @@ RPM_HASH = "a0dcfe29aa70ba32c1ae836b273ed5febb9a82d1ce967125a743a50c07122ae87790
 RPROVIDES:${PN} += "libretro-gtk-1-0 \
 libretro-gtk-1-0(aarch-64) \
 libretro-gtk-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

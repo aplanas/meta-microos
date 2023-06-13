@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-storagesync \
 python3.10dist(azure-mgmt-storagesync) \
 python310-azure-mgmt-storagesync \
 python3dist(azure-mgmt-storagesync)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

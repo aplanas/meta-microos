@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aioftp) \
 python39-aioftp \
 python3dist(aioftp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-siosocks"
 

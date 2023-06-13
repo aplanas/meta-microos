@@ -14,6 +14,7 @@ kio(aarch-64) \
 libKF5KIOFileWidgets.so.5()(64bit) \
 libKF5KIOGui.so.5()(64bit) \
 libKF5KIOWidgets.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kded \
 kio-core \

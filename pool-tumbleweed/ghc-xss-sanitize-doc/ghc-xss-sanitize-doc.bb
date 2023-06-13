@@ -9,6 +9,7 @@ RPM_HASH = "1f7a21715a35c1d606534695629b9bf92b33bfa394959ddce837fc192bc985b375df
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xss-sanitize-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

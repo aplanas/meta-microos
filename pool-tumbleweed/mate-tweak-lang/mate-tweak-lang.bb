@@ -119,6 +119,7 @@ locale(mate-tweak:zh_HK) \
 locale(mate-tweak:zh_TW) \
 mate-tweak-lang \
 mate-tweak-lang-all"
+
 RDEPENDS:${PN} += "mate-tweak"
 
 inherit rpm

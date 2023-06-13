@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-lamp_server \
 patterns-server-lamp_server \
 patterns-server-lamp_server(aarch-64)"
+
 RDEPENDS:${PN} += "apache2 \
 pattern()"
 

@@ -12,6 +12,7 @@ RPM_HASH = "9834102c7cb5226c418637e5ac9da875bbd53c82b7b4b7a31419d90d5128d5eaf05d
 RPROVIDES:${PN} += "devhelp-devel \
 devhelp-devel(aarch-64) \
 pkgconfig(libdevhelp-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 devhelp \
 pkgconfig(gio-2.0) \

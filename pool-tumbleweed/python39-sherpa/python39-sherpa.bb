@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.9dist(sherpa) \
 python39-sherpa \
 python39-sherpa(aarch-64) \
 python3dist(sherpa)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

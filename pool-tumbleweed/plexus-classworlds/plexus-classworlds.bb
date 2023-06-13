@@ -22,6 +22,7 @@ mvn(org.codehaus.plexus:plexus-classworlds) \
 mvn(org.codehaus.plexus:plexus-classworlds:pom:) \
 osgi(org.codehaus.plexus.classworlds) \
 plexus-classworlds"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

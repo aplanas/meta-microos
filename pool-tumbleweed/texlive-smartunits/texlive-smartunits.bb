@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(smartunits.sty) \
 texlive-smartunits"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "perl(Gtk3::SimpleList) \
 perl(Gtk3::SimpleList::TiedList) \
 perl(Gtk3::SimpleList::TiedRow) \
 perl-Gtk3-SimpleList"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Gtk3)"
 

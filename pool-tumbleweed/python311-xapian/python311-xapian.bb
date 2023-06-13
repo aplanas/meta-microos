@@ -13,6 +13,7 @@ RPM_HASH = "8c43de2fb39fcb4628d4f495b2e276866479eb2e5d8c6bb3656597ebbf5574e82581
 
 RPROVIDES:${PN} += "python311-xapian \
 python311-xapian(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

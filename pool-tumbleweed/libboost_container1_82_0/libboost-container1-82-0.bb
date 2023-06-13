@@ -10,6 +10,7 @@ RPM_HASH = "d8528365f529a485e76bb2c79674910299f31aaf2a4313b5f430a67615ca95f2ae03
 RPROVIDES:${PN} += "libboost_container.so.1.82.0()(64bit) \
 libboost_container1_82_0 \
 libboost_container1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 ld-linux-aarch64.so.1()(64bit) \

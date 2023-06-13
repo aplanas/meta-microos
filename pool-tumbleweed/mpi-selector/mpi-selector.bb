@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(mpi-selector) \
 mpi-selector"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"

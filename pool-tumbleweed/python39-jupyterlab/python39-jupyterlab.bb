@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyterlab) \
 python39-jupyter_jupyterlab \
 python39-jupyterlab \
 python3dist(jupyterlab)"
+
 RDEPENDS:${PN} += "(python39-jupyter-server-ydoc >= 0.8 with python39-jupyter-server-ydoc < 0.9) \
 (python39-jupyter-ydoc >= 0.2.3 with python39-jupyter-ydoc < 0.3) \
 (python39-jupyter_server >= 1.16 with python39-jupyter_server < 3) \

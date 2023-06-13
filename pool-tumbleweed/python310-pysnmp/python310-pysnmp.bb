@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pysnmp \
 python3.10dist(pysnmp) \
 python310-pysnmp \
 python3dist(pysnmp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyasn1 \
 python310-pycryptodome \

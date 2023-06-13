@@ -9,6 +9,7 @@ RPM_HASH = "ce00d9a9125711ebd59b04eb02c015810c7ff02e8bdb65cf918b193419de7f024f65
 
 RPROVIDES:${PN} += "libgravatar \
 libgravatar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

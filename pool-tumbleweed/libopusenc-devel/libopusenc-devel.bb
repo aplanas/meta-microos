@@ -10,6 +10,7 @@ RPM_HASH = "fe772cd002ec3685ca6b0cb11f15d434e6f1c9f0bf985bba41d95d0c8f93eea13868
 RPROVIDES:${PN} += "libopusenc-devel \
 libopusenc-devel(aarch-64) \
 pkgconfig(libopusenc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopusenc0 \
 pkgconfig(opus)"

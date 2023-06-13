@@ -9,6 +9,7 @@ RPM_HASH = "036a9c9e20fa3414121a6ba8388d3799400ca7d6e3578a90aabbe7c4bb41123ada40
 
 RPROVIDES:${PN} += "efivar \
 efivar(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libefisec.so.1()(64bit) \
 libefisec.so.1(LIBEFISEC_1.38)(64bit) \

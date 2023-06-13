@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Types::Path::Tiny) \
 perl-Types-Path-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Path::Tiny) \
 perl(Type::Library) \

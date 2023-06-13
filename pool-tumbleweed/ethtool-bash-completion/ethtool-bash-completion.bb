@@ -9,6 +9,7 @@ RPM_HASH = "45588043233828b7c1e053e7c01aaeac81afc4590a4a367cc57ab6fe5259515566e3
 
 RPROVIDES:${PN} += "ethtool-bash-completion \
 ethtool-bash-completion(aarch-64)"
+
 RDEPENDS:${PN} += "bash-completion \
 ethtool"
 

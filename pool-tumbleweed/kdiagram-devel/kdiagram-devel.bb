@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KChart) \
 cmake(KGantt) \
 kdiagram-devel \
 kdiagram-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5PrintSupport) \
 cmake(Qt5Svg) \

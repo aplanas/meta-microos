@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(String::ToIdentifier::EN) \
 perl(String::ToIdentifier::EN::Unicode) \
 perl-String-ToIdentifier-EN"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Lingua::EN::Inflect::Phrase) \
 perl(Text::Unidecode) \

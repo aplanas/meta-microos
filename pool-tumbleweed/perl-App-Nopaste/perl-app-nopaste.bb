@@ -38,6 +38,7 @@ perl(App::Nopaste::Service::SusePaste) \
 perl(App::Nopaste::Service::Ubuntu) \
 perl(App::Nopaste::Service::ssh) \
 perl-App-Nopaste"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Browser::Open) \

@@ -21,6 +21,7 @@ mvn(org.jdom:jdom2-contrib:pom:) \
 mvn(org.jdom:jdom2-junit) \
 mvn(org.jdom:jdom2-junit:pom:) \
 mvn(org.jdom:jdom2:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

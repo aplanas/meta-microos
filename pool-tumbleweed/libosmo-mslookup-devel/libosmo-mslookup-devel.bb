@@ -13,6 +13,7 @@ RPM_HASH = "e495b0cd605e67ad84b1d21b21450b88e32e6c687ece1c065c3a1899b4f85dbab227
 RPROVIDES:${PN} += "libosmo-mslookup-devel \
 libosmo-mslookup-devel(aarch-64) \
 pkgconfig(libosmo-mslookup)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmo-mslookup0"
 

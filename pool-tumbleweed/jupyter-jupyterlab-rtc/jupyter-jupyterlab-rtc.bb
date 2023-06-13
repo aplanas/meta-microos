@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-rtc \
 jupyter-server-ydoc"
+
 RDEPENDS:${PN} += "python3dist(jupyter-server-ydoc)"
 
 inherit rpm

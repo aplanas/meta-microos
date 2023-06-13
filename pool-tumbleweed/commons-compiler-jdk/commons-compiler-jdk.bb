@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "commons-compiler-jdk \
 mvn(org.codehaus.janino:commons-compiler-jdk) \
 mvn(org.codehaus.janino:commons-compiler-jdk:pom:) \
 osgi(org.codehaus.janino.commons-compiler-jdk)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.janino:commons-compiler) \

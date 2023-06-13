@@ -15,6 +15,7 @@ ispell-norsk \
 ispell-norsk(aarch-64) \
 ispell_dictionary \
 locale(ispell:nb;nn;no;se_NO)"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

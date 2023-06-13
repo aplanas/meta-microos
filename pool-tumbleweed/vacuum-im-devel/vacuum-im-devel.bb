@@ -9,6 +9,7 @@ RPM_HASH = "4253acdb41f73bc7ce0603509427fab12845dbfd46c13b0925734aaea1da38b3a675
 
 RPROVIDES:${PN} += "vacuum-im-devel \
 vacuum-im-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libvacuumutils37 \
 vacuum-im"
 

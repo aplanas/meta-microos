@@ -13,6 +13,7 @@ RPM_HASH = "02975ed2c29025d8c9e6f41a4c8cce14a4d415307ca91a1eeb49a9104eff42208d26
 RPROVIDES:${PN} += "openvswitch-dpdk-vtep \
 openvswitch-vtep \
 openvswitch-vtep(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

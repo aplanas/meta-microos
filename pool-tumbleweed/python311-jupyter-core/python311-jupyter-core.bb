@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-core) \
 python311-jupyter-core \
 python311-jupyter_core \
 python3dist(jupyter-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

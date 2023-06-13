@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-bleach \
 python3.10dist(bleach) \
 python310-bleach \
 python3dist(bleach)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-html5lib"
 

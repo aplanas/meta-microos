@@ -10,6 +10,7 @@ RPM_HASH = "6c931695281f200d1b00276d6535d363aff29458788a9b585847194888a1657c510c
 RPROVIDES:${PN} += "ghc-old-locale-prof \
 ghc-old-locale-prof(aarch-64) \
 ghc-prof(old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR)"
+
 RDEPENDS:${PN} += "ghc-old-locale-devel \
 ghc-prof(base-4.17.1.0)"
 

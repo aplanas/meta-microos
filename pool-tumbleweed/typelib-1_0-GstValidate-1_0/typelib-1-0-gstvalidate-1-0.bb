@@ -13,6 +13,7 @@ RPM_HASH = "e303e5a7c50bd428d1a3b3b9c953b5c0855527043d787c597635950ccdeb0e8494db
 RPROVIDES:${PN} += "typelib(GstValidate) \
 typelib-1_0-GstValidate-1_0 \
 typelib-1_0-GstValidate-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstvalidate-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

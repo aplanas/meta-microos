@@ -9,6 +9,7 @@ RPM_HASH = "1297be9529ece5f5ce8d2be2c574d1691b0f62832508b1491b627a985ff6e45c4f5c
 
 RPROVIDES:${PN} += "mathgl-cgi \
 mathgl-cgi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

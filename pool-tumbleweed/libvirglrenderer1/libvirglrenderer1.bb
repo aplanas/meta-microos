@@ -11,6 +11,7 @@ RPM_HASH = "f08539ec714060d5a3e941c9ff30236a4f00104be1fd3a6fae8916cf505a36e4d675
 RPROVIDES:${PN} += "libvirglrenderer.so.1()(64bit) \
 libvirglrenderer1 \
 libvirglrenderer1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

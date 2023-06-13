@@ -36,6 +36,7 @@ mimehandler(application/x-gerber-job) \
 mimehandler(application/x-kicad-pcb) \
 mimehandler(application/x-kicad-project) \
 mimehandler(application/x-kicad-schematic)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kicad-footprints \
 kicad-symbols \

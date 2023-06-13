@@ -11,6 +11,7 @@ RPM_HASH = "f59b29c7f2ce56af8e393326552446b215df9f1326d4a6c4a2d78ba1fb7ef1a4b758
 
 RPROVIDES:${PN} += "ladspa-blepvco \
 ladspa-blepvco(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libm.so.6()(64bit) \

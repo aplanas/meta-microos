@@ -11,6 +11,7 @@ RPM_HASH = "db52bda2b1e73299c57f33e0940b35a35005a0b0e236305f42c0834acfadd0658dbb
 RPROVIDES:${PN} += "libdnf-repo-config-zypp \
 libdnf-repo-config-zypp(aarch-64) \
 rpm-repos-openSUSE"
+
 RDEPENDS:${PN} += "(product(SUSE_SLE) or suse-release)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "2d44fdec6e8d9462ad484d93b9ff14672f2a566547091b0a06b086202d17228054a1
 RPROVIDES:${PN} += "libguess.so.1()(64bit) \
 libguess1 \
 libguess1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

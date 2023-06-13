@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(time-machine) \
 python39-time-machine \
 python39-time-machine(aarch-64) \
 python3dist(time-machine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil \
 timezone"

@@ -18,6 +18,7 @@ RPM_HASH = "3a68e8c35399ff628ddaa3bc95933f70b05870f89b0662be55da3b183c67e8de43b6
 RPROVIDES:${PN} += "config(dlt-daemon) \
 dlt-daemon \
 dlt-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hackthefootline.sty) \
 texlive-hackthefootline"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

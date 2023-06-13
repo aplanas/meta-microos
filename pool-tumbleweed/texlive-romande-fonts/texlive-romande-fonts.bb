@@ -89,6 +89,7 @@ font(romandeadfscriptstd) \
 font(romandeadfstd) \
 font(romandeadfstylestd) \
 texlive-romande-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

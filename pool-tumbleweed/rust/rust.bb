@@ -14,6 +14,7 @@ RPM_HASH = "421f3c927846512cf43e36b5cee53b9e86691a148fb80d1df11ee663f09fecf7a355
 
 RPROVIDES:${PN} += "rust \
 rust(aarch-64)"
+
 RDEPENDS:${PN} += "rust1.69"
 
 inherit rpm

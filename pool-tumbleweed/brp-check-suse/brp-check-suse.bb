@@ -10,6 +10,7 @@ RPM_HASH = "0252b1ad0c281944ce5593b94be0ccbb90712f28904adb03da4d3a3a12a6bba33a45
 
 RPROVIDES:${PN} += "brp-check-suse \
 brp-check-suse(aarch-64)"
+
 RDEPENDS:${PN} += "perl"
 
 inherit rpm

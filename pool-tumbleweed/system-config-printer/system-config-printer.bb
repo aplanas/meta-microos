@@ -14,6 +14,7 @@ metainfo() \
 metainfo(system-config-printer.appdata.xml) \
 system-config-printer \
 system-config-printer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 python3-cups \
 python3-pycurl \

@@ -15,6 +15,7 @@ mvn(org.slf4j:slf4j-reload4j:pom:) \
 osgi(slf4j.reload4j) \
 slf4j-log4j12 \
 slf4j-reload4j"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(ch.qos.reload4j:reload4j) \

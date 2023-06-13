@@ -13,6 +13,7 @@ RPM_HASH = "d971d38c72dd412be0f581108d2423e986126ab3a8510487ae4343ed5576c06e6bae
 
 RPROVIDES:${PN} += "libs3-devel \
 libs3-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libs3-4"
 
 inherit rpm

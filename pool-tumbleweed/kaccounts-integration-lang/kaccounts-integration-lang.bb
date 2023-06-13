@@ -54,6 +54,7 @@ locale(kaccounts-integration:tr) \
 locale(kaccounts-integration:uk) \
 locale(kaccounts-integration:zh_CN) \
 locale(kaccounts-integration:zh_TW)"
+
 RDEPENDS:${PN} += "kaccounts-integration"
 
 inherit rpm

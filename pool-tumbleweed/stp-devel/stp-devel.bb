@@ -10,6 +10,7 @@ RPM_HASH = "85eec351808c5fb50420dda9aba3bfd54c3d120043c8fdcff255b1aec5c9a8659db4
 RPROVIDES:${PN} += "cmake(STP) \
 stp-devel \
 stp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_program_options-devel \
 libstp2_3 \
 minisat-devel \

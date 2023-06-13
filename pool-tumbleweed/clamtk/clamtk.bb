@@ -29,6 +29,7 @@ perl(ClamTk::Shortcuts) \
 perl(ClamTk::Startup) \
 perl(ClamTk::Update) \
 perl(ClamTk::Whitelist)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 clamav \
 gnome-icon-theme \

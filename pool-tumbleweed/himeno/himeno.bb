@@ -11,6 +11,7 @@ RPM_HASH = "de9624cfdbf7b2762a775f649a2ac4556881d03476a89bc3485ad0aac5c2929504a6
 
 RPROVIDES:${PN} += "himeno \
 himeno(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

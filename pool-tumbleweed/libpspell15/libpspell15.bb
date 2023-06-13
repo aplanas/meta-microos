@@ -13,6 +13,7 @@ RPM_HASH = "bfe78a34c273b9940946bfc581348a51665848b9e7f3f325640169f1364534d1f7aa
 RPROVIDES:${PN} += "libpspell.so.15()(64bit) \
 libpspell15 \
 libpspell15(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

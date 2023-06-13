@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(apache-libcloud) \
 python39-apache-libcloud \
 python3dist(apache-libcloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-requests \

@@ -10,6 +10,7 @@ RPM_HASH = "9882c1e04d6a14b2da7271b38d98d0ebe5ceac2c88242a710f6b0eb5ee95f0a57e96
 
 RPROVIDES:${PN} += "openEMS-devel \
 openEMS-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnf2ff0 \
 libopenEMS0"
 

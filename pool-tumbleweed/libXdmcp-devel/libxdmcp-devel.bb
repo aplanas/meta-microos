@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "libXdmcp-devel \
 libXdmcp-devel(aarch-64) \
 pkgconfig(xdmcp) \
 xorg-x11-libXdmcp-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXdmcp6 \
 pkgconfig(xproto)"

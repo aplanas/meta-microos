@@ -12,6 +12,7 @@ RPM_HASH = "b9a80a46caca7b3f60198bb331ae6fe96918035d8afae0b8bae806d5bc7a8916e34e
 RPROVIDES:${PN} += "libvnc.so()(64bit) \
 xorg-x11-Xvnc-module \
 xorg-x11-Xvnc-module(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "82053338a496e858a36e5a3b5b0521358010cacd4b11ba7a246927ae304eb7c949b6
 RPROVIDES:${PN} += "libIrrlicht.so.1.8()(64bit) \
 libIrrlicht1_8 \
 libIrrlicht1_8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

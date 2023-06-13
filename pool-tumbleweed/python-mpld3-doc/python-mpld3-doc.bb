@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-mpld3-doc \
 python310-python-mpld3 \
 python311-python-mpld3 \
 python39-python-mpld3"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

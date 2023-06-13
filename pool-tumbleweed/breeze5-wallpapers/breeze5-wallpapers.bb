@@ -10,6 +10,7 @@ RPM_HASH = "22f3d2eeeecee9ee4d459b94f032283d3876ec2370b8b417e0340fc6ecd1f55e835b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-wallpapers"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

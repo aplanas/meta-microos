@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(lparse.sty) \
 tex(lparse.tex) \
 texlive-lparse"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

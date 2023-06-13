@@ -20,6 +20,7 @@ RPM_HASH = "930ea7c20174c400689e92fdc7b9c82c08f963ba71b6bce56b5a37574a5150303d9a
 
 RPROVIDES:${PN} += "heimdall \
 heimdall(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

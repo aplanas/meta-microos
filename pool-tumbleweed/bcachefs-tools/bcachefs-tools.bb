@@ -23,6 +23,7 @@ RPM_HASH = "bc692d205bc34d2efa63d810820ef91d559980adb69f95b400f9893127bf5c48ead3
 RPROVIDES:${PN} += "bcachefs-tools \
 bcachefs-tools(aarch-64) \
 libbcachefs.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

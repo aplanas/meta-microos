@@ -15,6 +15,7 @@ RPM_HASH = "c060fe2142e651e4adb24cb6f25fa531dfc5fbb1318c6714dfe8fe5cacab9ee3db9f
 
 RPROVIDES:${PN} += "maxima \
 maxima(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot \
 maxima_exec \

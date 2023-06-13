@@ -13,6 +13,7 @@ RPM_HASH = "6a44e373baf2e9d7a6cc0df20447be6a3562777e444558f8540d2416ecbdf381d820
 RPROVIDES:${PN} += "libidl-devel \
 libidl-devel(aarch-64) \
 pkgconfig(libIDL-2.0)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libIDL-2-0 \

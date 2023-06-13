@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathabx.map) \
 texlive-mathabx-type1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "6a3a9e3cd7451a5194f32ae47a2ce0e5f6af98da19546b5f1138a04bb2e067357059
 RPROVIDES:${PN} += "ghc-SafeSemaphore-prof \
 ghc-SafeSemaphore-prof(aarch-64) \
 ghc-prof(SafeSemaphore-0.10.1-4RgR0Mf1NXcDYTDfcuJnia)"
+
 RDEPENDS:${PN} += "ghc-SafeSemaphore-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

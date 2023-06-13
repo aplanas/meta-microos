@@ -12,6 +12,7 @@ RPM_HASH = "db67fac8927ad150c4b8fdf2366428be30752366a53e4599034d69498bd69b735c9e
 RPROVIDES:${PN} += "libdconf.so.1()(64bit) \
 libdconf1 \
 libdconf1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 dconf \
 ld-linux-aarch64.so.1()(64bit) \

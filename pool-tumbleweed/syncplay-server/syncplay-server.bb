@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(syncplay-server.desktop) \
 syncplay-server \
 syncplay-server(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-Twisted \
 syncplay-common"

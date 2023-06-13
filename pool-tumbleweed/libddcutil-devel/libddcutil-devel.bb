@@ -10,6 +10,7 @@ RPM_HASH = "15eeb2bd657739a1c53d741420ea81c34aae74f38f4f8afc943a08cda9ed158d7ba7
 RPROVIDES:${PN} += "libddcutil-devel \
 libddcutil-devel(aarch-64) \
 pkgconfig(ddcutil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libddcutil4"
 

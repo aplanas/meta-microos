@@ -9,6 +9,7 @@ RPM_HASH = "9683ea2f3fa3664feb827c849a8c548172d651284b501cf794255a8eda18ba2fef06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ledmac-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

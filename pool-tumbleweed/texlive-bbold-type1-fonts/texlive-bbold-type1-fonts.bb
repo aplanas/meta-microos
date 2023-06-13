@@ -32,6 +32,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(bbold) \
 texlive-bbold-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

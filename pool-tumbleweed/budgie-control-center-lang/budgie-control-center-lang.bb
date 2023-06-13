@@ -88,6 +88,7 @@ locale(budgie-control-center:vi) \
 locale(budgie-control-center:zh_CN) \
 locale(budgie-control-center:zh_HK) \
 locale(budgie-control-center:zh_TW)"
+
 RDEPENDS:${PN} += "budgie-control-center"
 
 inherit rpm

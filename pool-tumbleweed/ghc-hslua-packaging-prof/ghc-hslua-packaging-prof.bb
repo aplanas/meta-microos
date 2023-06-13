@@ -10,6 +10,7 @@ RPM_HASH = "35fd28c591979b8a31dafad790d01674ef6edd766172d1081f4b77b28453f7433689
 RPROVIDES:${PN} += "ghc-hslua-packaging-prof \
 ghc-hslua-packaging-prof(aarch-64) \
 ghc-prof(hslua-packaging-2.3.0-G1L5YnYzXF0JtyxtKuFgZ4)"
+
 RDEPENDS:${PN} += "ghc-hslua-packaging-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

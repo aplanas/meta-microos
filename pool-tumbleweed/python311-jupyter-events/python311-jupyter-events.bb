@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-events) \
 python311-jupyter-events \
 python311-jupyter_events \
 python3dist(jupyter-events)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \

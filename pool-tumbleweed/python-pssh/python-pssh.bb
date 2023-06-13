@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-pssh \
 python3.10dist(pssh) \
 python3dist(pssh)"
+
 RDEPENDS:${PN} += "openssh \
 python(abi) \
 rsync"

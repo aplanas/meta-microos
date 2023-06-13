@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(mathspic.1) \
 texlive-mathspic-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

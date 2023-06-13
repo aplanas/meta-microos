@@ -11,6 +11,7 @@ RPM_HASH = "a9d0d8447088cf4a3f49fd81f9e9fd1f000834c023a7c8fce44c810301a7abd70244
 RPROVIDES:${PN} += "libsolarus.so.1()(64bit) \
 libsolarus1 \
 libsolarus1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

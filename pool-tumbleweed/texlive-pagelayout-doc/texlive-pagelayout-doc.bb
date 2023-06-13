@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(pagelayoutapi.1) \
 man(textestvis.1) \
 texlive-pagelayout-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

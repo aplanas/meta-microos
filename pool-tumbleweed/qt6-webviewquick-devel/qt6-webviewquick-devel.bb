@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6WebViewQuick) \
 pkgconfig(Qt6WebViewQuick) \
 qt6-webviewquick-devel \
 qt6-webviewquick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6OpenGL) \
 cmake(Qt6QmlModels) \

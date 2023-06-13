@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytzdata \
 python3.10dist(pytzdata) \
 python310-pytzdata \
 python3dist(pytzdata)"
+
 RDEPENDS:${PN} += "python(abi) \
 timezone"
 

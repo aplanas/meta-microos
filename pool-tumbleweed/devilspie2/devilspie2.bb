@@ -14,6 +14,7 @@ RPM_HASH = "2868d5f22ade3beeda9a45c7f7b03abda88a8e9481104d6c1dae33deabc5c5dc2a2d
 
 RPROVIDES:${PN} += "devilspie2 \
 devilspie2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

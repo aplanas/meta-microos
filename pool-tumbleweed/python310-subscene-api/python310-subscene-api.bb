@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-subscene-api \
 python3.10dist(subscene-api) \
 python310-subscene-api \
 python3dist(subscene-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-beautifulsoup4"
 

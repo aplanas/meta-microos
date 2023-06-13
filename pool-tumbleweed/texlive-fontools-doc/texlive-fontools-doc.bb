@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "man(afm2afm.1) \
 man(autoinst.1) \
 man(ot2kpx.1) \
 texlive-fontools-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

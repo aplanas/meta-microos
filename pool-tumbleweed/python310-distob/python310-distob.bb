@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-distob \
 python3.10dist(distob) \
 python310-distob \
 python3dist(distob)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dill \
 python310-ipyparallel \

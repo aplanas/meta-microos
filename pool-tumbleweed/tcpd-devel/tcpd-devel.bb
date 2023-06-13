@@ -10,6 +10,7 @@ RPM_HASH = "9d8138706fd9b718c5d9f479fb8e41a74cd4c207c35ffc0ad72fdbbcb7f293fe63ee
 
 RPROVIDES:${PN} += "tcpd-devel \
 tcpd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libwrap0"
 

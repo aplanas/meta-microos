@@ -14,6 +14,7 @@ application(org.opensuse.yast.ADSI.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.ADSI.metainfo.xml) \
 yast2-adsi"
+
 RDEPENDS:${PN} += "krb5-client \
 python3-ldap \
 samba-client \

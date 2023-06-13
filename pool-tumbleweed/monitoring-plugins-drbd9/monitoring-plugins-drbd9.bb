@@ -18,6 +18,7 @@ RPM_HASH = "de5c277a8675412f82c9440f818fe3b5d38f5a0ed3382024b3ee342dc60532e8a222
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-drbd9"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Data::Dumper) \
 perl(Getopt::Std)"

@@ -9,6 +9,7 @@ RPM_HASH = "0c518763a519f8152c26875be5456e93b464b533c141be0a0abbff9db012057407a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-curves-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

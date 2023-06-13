@@ -18,6 +18,7 @@ RPM_HASH = "1cbc0768b26be1d632ebb9ea2006b7e72c8a13224fc405fead3a9b78b0e5bd526019
 
 RPROVIDES:${PN} += "openvpn-down-root-plugin \
 openvpn-down-root-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

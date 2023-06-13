@@ -33,6 +33,7 @@ perl(MLDBM::Serializer::Data::Dumper) \
 perl(MLDBM::Serializer::FreezeThaw) \
 perl(MLDBM::Serializer::Storable) \
 perl-MLDBM"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

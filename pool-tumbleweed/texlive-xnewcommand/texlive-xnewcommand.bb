@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xnewcommand.sty) \
 texlive-xnewcommand"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

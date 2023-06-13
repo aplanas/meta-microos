@@ -93,6 +93,7 @@ locale(gnome-robots:wa) \
 locale(gnome-robots:zh_CN) \
 locale(gnome-robots:zh_HK) \
 locale(gnome-robots:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-robots"
 
 inherit rpm

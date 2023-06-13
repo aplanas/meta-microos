@@ -12,6 +12,7 @@ RPM_HASH = "145609fa1792982998f9e9d63e093691d28f054ea934c755eb22ff6a62d4ee66b5ec
 
 RPROVIDES:${PN} += "qt6-connectivity-private-devel \
 qt6-connectivity-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Bluetooth) \
 cmake(Qt6Nfc) \
 qt6-core-private-devel"

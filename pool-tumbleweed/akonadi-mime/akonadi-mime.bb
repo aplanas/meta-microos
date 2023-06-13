@@ -10,6 +10,7 @@ RPM_HASH = "d88ab0a457ee9588d7dd4acaefaab16e359c0824cf54b7f5f56ecee33cb9f20a6803
 
 RPROVIDES:${PN} += "akonadi-mime \
 akonadi-mime(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

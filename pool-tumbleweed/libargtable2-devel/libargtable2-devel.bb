@@ -11,6 +11,7 @@ RPM_HASH = "49dd01f25d8491a5899ab792d85d87fc1fc47a2066d552cd98d6efba6c6786bce6ef
 RPROVIDES:${PN} += "libargtable2-devel \
 libargtable2-devel(aarch-64) \
 pkgconfig(argtable2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libargtable2-0"
 

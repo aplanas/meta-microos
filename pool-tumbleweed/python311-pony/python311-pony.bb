@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pony) \
 python311-pony \
 python3dist(pony)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311"
 

@@ -13,6 +13,7 @@ libpng16-16 \
 libpng16-16(aarch-64) \
 libpng16.so.16()(64bit) \
 libpng16.so.16(PNG16_0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "cc855f43d2c9c49033a63c63569994ef1850d8971c5d56d0de8167c4de117c1e132b
 
 RPROVIDES:${PN} += "4ti2 \
 4ti2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 lib4ti2gmp.so.0()(64bit) \
 lib4ti2int32.so.0()(64bit) \

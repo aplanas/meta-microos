@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-solarsystem.sty) \
 tex(pst-solarsystem.tex) \
 texlive-pst-solarsystem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

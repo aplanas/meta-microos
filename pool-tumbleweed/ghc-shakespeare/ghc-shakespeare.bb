@@ -24,6 +24,7 @@ RPM_HASH = "229d2b5c5b576d289b660b6ce93233597d1e687ebdee8a66dedbd0e854cf05584c57
 RPROVIDES:${PN} += "ghc-shakespeare \
 ghc-shakespeare(aarch-64) \
 libHSshakespeare-2.0.30-7fp9544x1BC4UOjjHLrTv0-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

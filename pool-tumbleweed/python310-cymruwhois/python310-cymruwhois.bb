@@ -14,6 +14,7 @@ python3-cymruwhois \
 python3.10dist(cymruwhois) \
 python310-cymruwhois \
 python3dist(cymruwhois)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

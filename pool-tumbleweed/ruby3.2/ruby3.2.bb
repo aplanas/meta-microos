@@ -476,6 +476,7 @@ rubygem(uri) \
 rubygem(weakref) \
 rubygem(yaml) \
 rubygem(zlib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

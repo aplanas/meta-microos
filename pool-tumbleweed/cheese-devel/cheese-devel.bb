@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cheese-devel \
 cheese-devel(aarch-64) \
 pkgconfig(cheese) \
 pkgconfig(cheese-gtk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcheese-gtk25 \
 libcheese8 \

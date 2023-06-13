@@ -10,6 +10,7 @@ RPM_HASH = "7830977810bf5aed5646cee5eff30a425e2467927b936a20cc54e94d5f03745eefbd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liboil-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

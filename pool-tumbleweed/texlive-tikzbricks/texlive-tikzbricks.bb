@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzbricks.sty) \
 texlive-tikzbricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

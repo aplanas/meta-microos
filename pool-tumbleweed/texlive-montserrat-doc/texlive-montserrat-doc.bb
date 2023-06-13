@@ -9,6 +9,7 @@ RPM_HASH = "cdb6fde13aa3b74049e63c2eb4644c3c4187a99841f452e17b7ce9c9b9f867971c50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-montserrat-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

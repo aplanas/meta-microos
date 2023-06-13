@@ -10,6 +10,7 @@ RPM_HASH = "e520a5ebc75ecfbd70b09658b3396271cee78f34840fe1e45255498e0af50a6fa6b7
 RPROVIDES:${PN} += "ghc-devel(http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6) \
 ghc-http-types-devel \
 ghc-http-types-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

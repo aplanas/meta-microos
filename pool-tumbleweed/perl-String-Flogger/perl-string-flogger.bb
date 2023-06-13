@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(String::Flogger) \
 perl-String-Flogger"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(JSON::MaybeXS) \
 perl(Params::Util) \

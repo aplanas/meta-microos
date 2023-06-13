@@ -13,6 +13,7 @@ RPM_HASH = "118eda0430bee8c2104c67b15177795fab55f3bbacb77e1585c76ebeea808d51fb7a
 
 RPROVIDES:${PN} += "libyajl-devel-static \
 libyajl-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libyajl-devel"
 
 inherit rpm

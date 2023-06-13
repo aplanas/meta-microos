@@ -264,6 +264,7 @@ perl(Amanda::Xfer::Xfer) \
 perl(Amanda::XferServer) \
 perl(Amanda::XferServerc) \
 perl(Amanda::Xferc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

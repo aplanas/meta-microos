@@ -13,6 +13,7 @@ RPM_HASH = "c4e0ed977b28fd4e7b47ef9744ad0f8acc1c11fd5d5d6771d4ff7f6e563c3170f937
 
 RPROVIDES:${PN} += "libsecprog-devel \
 libsecprog-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libsecprog0"
 

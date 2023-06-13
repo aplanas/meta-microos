@@ -78,6 +78,7 @@ locale(ktuberling:uk) \
 locale(ktuberling:wa) \
 locale(ktuberling:zh_CN) \
 locale(ktuberling:zh_TW)"
+
 RDEPENDS:${PN} += "ktuberling"
 
 inherit rpm

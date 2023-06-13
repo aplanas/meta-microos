@@ -10,6 +10,7 @@ RPM_HASH = "03980cb0a3ce18578b696b7b2ac4ec19d036fffbd871b4b86ac8e1ef7b10eed0b292
 RPROVIDES:${PN} += "libserd-0-0 \
 libserd-0-0(aarch-64) \
 libserd-0.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

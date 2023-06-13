@@ -10,6 +10,7 @@ RPM_HASH = "1333dee69c3aa15b92a1c051494df43f33ace70389b34bba20df4f66c3175f86b53d
 RPROVIDES:${PN} += "ghc-cryptonite-conduit-prof \
 ghc-cryptonite-conduit-prof(aarch-64) \
 ghc-prof(cryptonite-conduit-0.2.2-Ic5yZAN3MwnLmQgFse4azZ)"
+
 RDEPENDS:${PN} += "ghc-cryptonite-conduit-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

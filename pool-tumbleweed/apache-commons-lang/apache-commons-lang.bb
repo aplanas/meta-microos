@@ -24,6 +24,7 @@ jakarta-commons-lang \
 mvn(commons-lang:commons-lang) \
 mvn(commons-lang:commons-lang:pom:) \
 osgi(org.apache.commons.lang)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cirq-ionq) \
 python39-cirq-ionq \
 python3dist(cirq-ionq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cirq-core \
 python39-requests"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luaprogtable.sty) \
 texlive-luaprogtable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

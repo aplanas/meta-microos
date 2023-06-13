@@ -11,6 +11,7 @@ RPM_HASH = "4871fec9ddb370b1413317bd7c944b69c60b12a57fab02a8f4e5c1d33a6550b1aa90
 
 RPROVIDES:${PN} += "sersniff \
 sersniff(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

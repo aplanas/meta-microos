@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(defcon) \
 python39-defcon \
 python3dist(defcon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-FontTools \
 python39-fs"

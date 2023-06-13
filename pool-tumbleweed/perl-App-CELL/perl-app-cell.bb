@@ -24,6 +24,7 @@ perl(App::CELL::Test) \
 perl(App::CELL::Test::LogToFile) \
 perl(App::CELL::Util) \
 perl-App-CELL"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Date::Format) \
 perl(File::HomeDir) \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xbmc10.tfm) \
 texlive-etex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

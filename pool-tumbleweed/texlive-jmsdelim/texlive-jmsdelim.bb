@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jmsdelim.sty) \
 texlive-jmsdelim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

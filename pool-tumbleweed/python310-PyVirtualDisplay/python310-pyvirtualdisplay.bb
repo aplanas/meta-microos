@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyVirtualDisplay \
 python3.10dist(pyvirtualdisplay) \
 python310-PyVirtualDisplay \
 python3dist(pyvirtualdisplay)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-EasyProcess \
 xorg-x11-Xvfb"

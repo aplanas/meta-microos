@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(colorspace.sty) \
 texlive-colorspace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

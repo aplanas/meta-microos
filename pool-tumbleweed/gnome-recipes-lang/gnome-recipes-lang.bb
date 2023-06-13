@@ -29,6 +29,7 @@ locale(gnome-recipes:sk) \
 locale(gnome-recipes:sl) \
 locale(gnome-recipes:sr) \
 locale(gnome-recipes:sv)"
+
 RDEPENDS:${PN} += "gnome-recipes"
 
 inherit rpm

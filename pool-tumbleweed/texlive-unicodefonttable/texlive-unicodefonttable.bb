@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(unicodefont.tex) \
 tex(unicodefonttable.sty) \
 texlive-unicodefonttable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

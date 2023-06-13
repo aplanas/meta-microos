@@ -9,6 +9,7 @@ RPM_HASH = "90b5a84b9dac46a43e8c4d657bd6847bd201ce1f9701ccdbd355cb66243455a9fda5
 
 RPROVIDES:${PN} += "xlsatoms \
 xlsatoms(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

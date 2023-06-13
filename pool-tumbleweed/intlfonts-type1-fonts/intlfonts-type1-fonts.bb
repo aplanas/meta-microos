@@ -9,6 +9,7 @@ RPM_HASH = "b5e4996e2aa31f5067459d187e83cba70f15bfafda442fe9257f4629fc1fb8864bb2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intlfonts-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

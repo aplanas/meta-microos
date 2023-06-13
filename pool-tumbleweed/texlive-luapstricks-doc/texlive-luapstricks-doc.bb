@@ -9,6 +9,7 @@ RPM_HASH = "8bd8fd2c3b074a48f096a614d26d475ded49ee0be532cba06f145a95a82638368dc5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luapstricks-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

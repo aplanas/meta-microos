@@ -20,6 +20,7 @@ python3.10dist(zope.component) \
 python310-zope.component \
 python310-zope.component(aarch-64) \
 python3dist(zope.component)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.event \
 python310-zope.hookable \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-acitoolkit \
 python3.10dist(acitoolkit) \
 python310-acitoolkit \
 python3dist(acitoolkit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-graphviz \
 python310-jsonschema \

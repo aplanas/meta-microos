@@ -21,6 +21,7 @@ tex(language.def) \
 tex(language.us.def) \
 tex(zerohyph.tex) \
 texlive-hyphen-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

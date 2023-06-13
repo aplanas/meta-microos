@@ -12,6 +12,7 @@ RPM_HASH = "c92ae2092b4497653481e0221d407d5103e47f6c06efa1f88eff97c3f7356d23a19d
 RPROVIDES:${PN} += "libcerf.so.2()(64bit) \
 libcerf2 \
 libcerf2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \

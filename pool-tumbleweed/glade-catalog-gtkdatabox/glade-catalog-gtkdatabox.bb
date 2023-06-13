@@ -11,6 +11,7 @@ RPM_HASH = "9173a14afafe29ee6d9cdeae94f8a6360a71f3e727eb59a552c15405d66d0aacab97
 RPROVIDES:${PN} += "glade-catalog-gtkdatabox \
 glade-catalog-gtkdatabox(aarch-64) \
 libgladedatabox.so()(64bit)"
+
 RDEPENDS:${PN} += "libgladeui-2.so.13()(64bit) \
 libgobject-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \

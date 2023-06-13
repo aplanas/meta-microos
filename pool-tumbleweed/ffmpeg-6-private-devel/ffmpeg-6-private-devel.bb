@@ -17,6 +17,7 @@ RPM_HASH = "f2062cc4fde9ebf96ed2f2e0a7db5e6a5bab158390afb56f69e6ddba3315c2da7e5a
 RPROVIDES:${PN} += "ffmpeg-6-private-devel \
 ffmpeg-6-private-devel(aarch-64) \
 ffmpeg-private-devel"
+
 RDEPENDS:${PN} += "ffmpeg-6-libavcodec-devel \
 ffmpeg-6-libavformat-devel \
 ffmpeg-6-libavutil-devel"

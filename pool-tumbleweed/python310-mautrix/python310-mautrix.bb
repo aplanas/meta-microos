@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mautrix \
 python3.10dist(mautrix) \
 python310-mautrix \
 python3dist(mautrix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-attrs \

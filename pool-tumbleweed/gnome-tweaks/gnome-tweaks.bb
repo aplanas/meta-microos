@@ -15,6 +15,7 @@ gnome-tweak-tool \
 gnome-tweaks \
 metainfo() \
 metainfo(org.gnome.tweaks.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnome-settings-daemon \
 gnome-shell \

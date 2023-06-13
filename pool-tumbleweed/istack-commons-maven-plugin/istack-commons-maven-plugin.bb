@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "istack-commons-maven-plugin \
 mvn(com.sun.istack:istack-commons-maven-plugin) \
 mvn(com.sun.istack:istack-commons-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.codemodel:codemodel) \

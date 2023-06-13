@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(orange-widget-base) \
 python39-orange-widget-base \
 python3dist(orange-widget-base)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-AnyQt \
 python39-matplotlib \

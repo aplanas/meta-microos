@@ -20,6 +20,7 @@ RPM_HASH = "a12f1d38abd43e90d807ac927c4f936f129138d3ffd36b5733def91e27fa0fb55d13
 
 RPROVIDES:${PN} += "fastjet-devel \
 fastjet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 cgal-devel \
 libfastjet0"

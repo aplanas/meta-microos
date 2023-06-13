@@ -11,6 +11,7 @@ RPM_HASH = "0e1117d9f39d23896d01044c7f6199aba1c8c29bbf00b0bb39aa262eea669f92c032
 RPROVIDES:${PN} += "pax \
 spax \
 spax(aarch-64)"
+
 RDEPENDS:${PN} += "star"
 
 inherit rpm

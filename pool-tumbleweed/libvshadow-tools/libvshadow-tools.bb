@@ -11,6 +11,7 @@ RPM_HASH = "e0d84e4e1d779a150f2d7e94361803acbe979e44a043d003f015c2695d3214b667d5
 
 RPROVIDES:${PN} += "libvshadow-tools \
 libvshadow-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

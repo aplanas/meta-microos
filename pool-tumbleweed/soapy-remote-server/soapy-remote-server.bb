@@ -11,6 +11,7 @@ RPM_HASH = "484ae93392d21d7a262ac70ae164e3727006289206c66a869b66d4d7ac9bb65a59b5
 
 RPROVIDES:${PN} += "soapy-remote-server \
 soapy-remote-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "1dc8e681ea5bd1096ab92e0ac5fcbb40a5983e78e7ef0c4cbc425295bcdedd9646c2
 
 RPROVIDES:${PN} += "ocrad-devel \
 ocrad-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

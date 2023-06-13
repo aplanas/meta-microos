@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(re-assert) \
 python39-re-assert \
 python3dist(re-assert)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-regex"
 

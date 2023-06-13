@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "tex(gmdoc.sty) \
 tex(gmdocc.cls) \
 tex(gmoldcomm.sty) \
 texlive-gmdoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

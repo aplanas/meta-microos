@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "application() \
 application(org.freedesktop.impl.portal.desktop.lxqt.desktop) \
 xdg-desktop-portal-lxqt \
 xdg-desktop-portal-lxqt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WindowSystem.so.5()(64bit) \

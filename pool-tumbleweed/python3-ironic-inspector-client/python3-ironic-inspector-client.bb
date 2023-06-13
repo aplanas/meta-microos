@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ironic-inspector-client \
 python3.10dist(python-ironic-inspector-client) \
 python3dist(python-ironic-inspector-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-PyYAML \
 python3-keystoneauth1 \

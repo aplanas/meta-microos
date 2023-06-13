@@ -10,6 +10,7 @@ RPM_HASH = "b0d5bdb18ee2f3f9d9531062dfbebdbce46eb67d229359730dbf90dc74aa55d3e529
 RPROVIDES:${PN} += "mingw32(libatomic-1.dll) \
 mingw32-libatomic1 \
 mingw32-libatomic1(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libwinpthread-1.dll)"
 
 inherit rpm

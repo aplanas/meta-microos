@@ -17,6 +17,7 @@ lskat(aarch-64) \
 lskat5 \
 metainfo() \
 metainfo(org.kde.lskat.appdata.xml)"
+
 RDEPENDS:${PN} += "kdegames-carddecks-default \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "db9f564ec139fda63e49c32f0157441948ba120f66984ac71154bc6252770ba6ffd7
 RPROVIDES:${PN} += "google-authenticator-libpam \
 google-authenticator-libpam(aarch-64) \
 pam-google-authenticator"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

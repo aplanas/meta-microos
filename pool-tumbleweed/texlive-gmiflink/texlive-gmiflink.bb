@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gmiflink.sty) \
 texlive-gmiflink"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

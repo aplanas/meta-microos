@@ -10,6 +10,7 @@ RPM_HASH = "3c76c133ff510e4ca061a3bcc41df63d002360f4ca2789f32f5ffff3db247bebc61e
 RPROVIDES:${PN} += "libQCSXCAD.so.0()(64bit) \
 libQCSXCAD0 \
 libQCSXCAD0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libCSXCAD.so.0()(64bit) \
 libQt5Core.so.5()(64bit) \

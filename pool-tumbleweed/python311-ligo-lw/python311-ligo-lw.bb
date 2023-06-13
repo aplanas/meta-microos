@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(python-ligo-lw) \
 python311-ligo-lw \
 python311-ligo-lw(aarch-64) \
 python3dist(python-ligo-lw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

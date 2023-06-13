@@ -309,6 +309,7 @@ libupmc-veml6070.so.1()(64bit) \
 libupmc-water.so.1()(64bit) \
 libupmc-wfs.so.1()(64bit) \
 libupmc-yg1006.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cuisine.sty) \
 texlive-cuisine"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

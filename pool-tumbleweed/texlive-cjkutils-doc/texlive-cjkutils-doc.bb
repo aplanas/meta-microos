@@ -16,6 +16,7 @@ man(extconv.1) \
 man(hbf2gf.1) \
 man(sjisconv.1) \
 texlive-cjkutils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ python3.10dist(spyder-terminal) \
 python3dist(spyder-terminal) \
 spyder-terminal \
 spyder3-terminal"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python3-coloredlogs \

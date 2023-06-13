@@ -13,6 +13,7 @@ locale(mednafen:es) \
 locale(mednafen:ru) \
 mednafen-lang \
 mednafen-lang-all"
+
 RDEPENDS:${PN} += "mednafen"
 
 inherit rpm

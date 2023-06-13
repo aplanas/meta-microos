@@ -15,6 +15,7 @@ RPM_HASH = "60a562c439d2fcaa0d2ebe35ab2500ae5920e98bc5e815ce8b6bd34f89e759080665
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "habootstrap-formula"
+
 RDEPENDS:${PN} += "salt-formulas-configuration \
 salt-shaptools"
 

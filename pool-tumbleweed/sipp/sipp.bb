@@ -12,6 +12,7 @@ RPM_HASH = "6f779b1311742ca38f7c3f29118eb693cbb1b7494bbd34d4c1185a6b9ed000f6faa1
 
 RPROVIDES:${PN} += "sipp \
 sipp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

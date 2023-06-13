@@ -18,6 +18,7 @@ RPM_HASH = "421844863bc404b68dd6bc2f63c4eb5247f8a9ec726b5c8e31e1ca92da34d1a59838
 RPROVIDES:${PN} += "libusbgx-devel \
 libusbgx-devel(aarch-64) \
 pkgconfig(libusbgx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libusbgx2 \
 pkgconfig(libconfig)"

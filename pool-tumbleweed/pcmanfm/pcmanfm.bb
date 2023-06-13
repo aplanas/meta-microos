@@ -15,6 +15,7 @@ config(pcmanfm) \
 mimehandler(inode/directory) \
 pcmanfm \
 pcmanfm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gvfs \
 gvfs-backends \

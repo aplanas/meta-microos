@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-google-cloud-core \
 python3.10dist(google-cloud-core) \
 python310-google-cloud-core \
 python3dist(google-cloud-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-google-auth \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(spotcolor.sty) \
 tex(spotcolorhks.tex) \
 tex(spotcolorpantone.tex) \
 texlive-spotcolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

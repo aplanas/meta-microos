@@ -9,6 +9,7 @@ RPM_HASH = "6209beb539ab546edfe1249c1b57ebde1a25f57d58c0e156837db834db62cc02b417
 
 RPROVIDES:${PN} += "texlive-bibexport-bin \
 texlive-bibexport-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-bibexport"
 
 inherit rpm

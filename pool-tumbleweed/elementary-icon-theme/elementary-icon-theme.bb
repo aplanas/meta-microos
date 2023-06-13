@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "elementary-icon-theme \
 metainfo() \
 metainfo(io.elementary.icons.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

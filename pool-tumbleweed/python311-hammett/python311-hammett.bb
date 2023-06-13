@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(hammett) \
 python311-hammett \
 python3dist(hammett)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-astunparse \
 python311-colorama"

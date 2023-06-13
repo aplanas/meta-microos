@@ -12,6 +12,7 @@ RPM_HASH = "86b65bb4fc52ba4a4e71dbe40dfede4c0497d8e7b3ad51b79ff704f461a321fc55b1
 RPROVIDES:${PN} += "libprotobuf-3.21.12.so()(64bit) \
 libprotobuf3_21_12 \
 libprotobuf3_21_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

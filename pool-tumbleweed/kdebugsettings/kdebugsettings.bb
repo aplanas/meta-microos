@@ -16,6 +16,7 @@ kdebugsettings5 \
 libkdebugsettings.so.5()(64bit) \
 metainfo() \
 metainfo(org.kde.kdebugsettings.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

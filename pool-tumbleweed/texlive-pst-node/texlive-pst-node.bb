@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(pst-node.sty) \
 tex(pst-node.tex) \
 tex(pst-node97.tex) \
 texlive-pst-node"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

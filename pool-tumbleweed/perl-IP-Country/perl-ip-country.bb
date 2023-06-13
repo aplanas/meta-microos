@@ -26,6 +26,7 @@ perl(IP::Country::MaxMind) \
 perl(IP::Country::Medium) \
 perl(IP::Country::Slow) \
 perl-IP-Country"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Geography::Countries)"

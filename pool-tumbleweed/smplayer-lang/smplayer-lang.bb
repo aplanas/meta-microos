@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "smplayer-lang \
 smplayer-lang-all"
+
 RDEPENDS:${PN} += "smplayer"
 
 inherit rpm

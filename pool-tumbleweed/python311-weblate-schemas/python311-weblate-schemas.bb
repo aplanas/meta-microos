@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(weblate-schemas) \
 python311-weblate-schemas \
 python3dist(weblate-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonschema"
 

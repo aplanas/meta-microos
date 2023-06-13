@@ -10,6 +10,7 @@ RPM_HASH = "a3995befaa26b088ce1eb999e43155f9626c8c86ec0596ac47438368ca4507058987
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-glade"
+
 RDEPENDS:${PN} += "libreoffice"
 
 inherit rpm

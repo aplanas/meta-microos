@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-snuggs \
 python3.10dist(snuggs) \
 python310-snuggs \
 python3dist(snuggs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-pyparsing"

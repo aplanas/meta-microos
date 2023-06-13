@@ -9,6 +9,7 @@ RPM_HASH = "b5d5b0904abe957e0e203b3a70afc9fb95a09ff2d3c727781cf255ff4e2f99854cb3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docserv-config-apache2"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

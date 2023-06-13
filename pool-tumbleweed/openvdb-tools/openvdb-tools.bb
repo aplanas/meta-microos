@@ -10,6 +10,7 @@ RPM_HASH = "a83f1f88df454bfc6633380043a27b4677a117f0f2f1f53236d4ab30a13ce4515a8b
 
 RPROVIDES:${PN} += "openvdb-tools \
 openvdb-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

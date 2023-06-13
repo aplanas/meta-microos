@@ -28,6 +28,7 @@ mvn(biz.aQute.bnd:bnd) \
 mvn(biz.aQute.bnd:bnd:pom:) \
 mvn(biz.aQute:bnd) \
 mvn(biz.aQute:bnd:pom:)"
+
 RDEPENDS:${PN} += "/bin/bash \
 aqute-bndlib \
 java-headless \

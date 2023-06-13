@@ -9,6 +9,7 @@ RPM_HASH = "499b775660d342aaac860f1f9ec4cd3134966eb7fce67d023f422368dcf5fcb9ff8d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-calligra-type1-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

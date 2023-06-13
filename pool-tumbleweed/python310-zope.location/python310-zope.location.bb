@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-zope.location \
 python3.10dist(zope.location) \
 python310-zope.location \
 python3dist(zope.location)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.interface \
 python310-zope.proxy \

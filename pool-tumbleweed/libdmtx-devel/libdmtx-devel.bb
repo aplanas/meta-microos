@@ -12,6 +12,7 @@ RPM_HASH = "7778fd73728a9be38f01fb4d2897674041a7479d4f6e510435db4aa3cdc9f778f865
 RPROVIDES:${PN} += "libdmtx-devel \
 libdmtx-devel(aarch-64) \
 pkgconfig(libdmtx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmtx0"
 

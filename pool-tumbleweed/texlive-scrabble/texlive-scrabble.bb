@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(Scrabble.sty) \
 texlive-scrabble"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

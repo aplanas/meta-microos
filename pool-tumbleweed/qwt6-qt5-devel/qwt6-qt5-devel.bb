@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(Qt5Qwt6) \
 qwt-qt5-devel \
 qwt6-qt5-devel \
 qwt6-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 freetype2-devel \
 gcc-c++ \

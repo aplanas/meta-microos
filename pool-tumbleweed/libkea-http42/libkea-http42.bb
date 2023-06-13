@@ -13,6 +13,7 @@ RPM_HASH = "3705ddede484843dc957570b868eab8999c397c988803506cb30306faf986bd69d35
 RPROVIDES:${PN} += "libkea-http.so.42()(64bit) \
 libkea-http42 \
 libkea-http42(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

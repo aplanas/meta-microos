@@ -10,6 +10,7 @@ RPM_HASH = "0658ec9f29490c92df925d8578c111543f3ebd53971d7c091636d447bcfcd63f0dd2
 
 RPROVIDES:${PN} += "inotify-tools \
 inotify-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -66,6 +66,7 @@ mvn(org.openjfx:libprism_es2:pom:) \
 mvn(org.openjfx:libprism_sw:pom:) \
 openjfx \
 openjfx(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 ld-linux-aarch64.so.1()(64bit) \

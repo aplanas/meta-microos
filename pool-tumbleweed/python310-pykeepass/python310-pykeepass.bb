@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pykeepass \
 python3.10dist(pykeepass) \
 python310-pykeepass \
 python3dist(pykeepass)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-argon2-cffi \
 python310-construct \

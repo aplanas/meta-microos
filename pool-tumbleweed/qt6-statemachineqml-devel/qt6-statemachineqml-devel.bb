@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6StateMachineQml) \
 pkgconfig(Qt6StateMachineQml) \
 qt6-statemachineqml-devel \
 qt6-statemachineqml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6StateMachine) \

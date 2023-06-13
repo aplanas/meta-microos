@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pure-sasl \
 python3.10dist(pure-sasl) \
 python310-pure-sasl \
 python3dist(pure-sasl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-kerberos"
 

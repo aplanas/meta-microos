@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jumplines.sty) \
 texlive-jumplines"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

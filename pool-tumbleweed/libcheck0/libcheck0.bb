@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "check \
 libcheck.so.0()(64bit) \
 libcheck0 \
 libcheck0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

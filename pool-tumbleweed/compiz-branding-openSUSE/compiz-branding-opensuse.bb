@@ -13,6 +13,7 @@ RPM_HASH = "ca154e97f18fed49a56264b7c24d32b8029dc9cf8ad20c104edff4cb856f4ca16c0c
 RPROVIDES:${PN} += "compiz-branding \
 compiz-branding-openSUSE \
 compiz-branding-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/ln \
 /bin/rm \
 /bin/sh \

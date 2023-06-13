@@ -55,6 +55,7 @@ wine \
 wine-mp3 \
 wine-staging \
 wine-staging(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/perl \

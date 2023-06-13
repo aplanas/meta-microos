@@ -17,6 +17,7 @@ RPM_HASH = "34fa0cfa237215d6ac7bcee80a4d851e56edb6cdce42960316ea42a74477edaed289
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autonym-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

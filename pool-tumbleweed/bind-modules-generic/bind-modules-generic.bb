@@ -15,6 +15,7 @@ RPM_HASH = "11cf83bd082d96bd9d033015e80c424e455aca8c4bc7584c8bf6054f90eccc705cea
 
 RPROVIDES:${PN} += "bind-modules-generic \
 bind-modules-generic(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit)"

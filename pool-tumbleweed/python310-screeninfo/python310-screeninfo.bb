@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-screeninfo \
 python3.10dist(screeninfo) \
 python310-screeninfo \
 python3dist(screeninfo)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

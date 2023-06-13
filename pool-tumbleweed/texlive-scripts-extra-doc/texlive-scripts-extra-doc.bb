@@ -39,6 +39,7 @@ texlive-tetex-doc:/usr/share/man/man1/kpsetool.1.gz \
 texlive-tetex-doc:/usr/share/man/man1/kpsewhere.1.gz \
 texlive-tetex-doc:/usr/share/man/man1/kpsexpand.1.gz \
 texlive-tetex-doc:/usr/share/man/man1/texlinks.1.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

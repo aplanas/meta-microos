@@ -9,6 +9,7 @@ RPM_HASH = "f408477f889e4973027a36bfc5157ac7c81cf79cea31a2d228af510c50e643fb856b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pycadf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

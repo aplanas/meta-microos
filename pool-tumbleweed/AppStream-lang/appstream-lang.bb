@@ -52,6 +52,7 @@ locale(AppStream:tr) \
 locale(AppStream:uk) \
 locale(AppStream:zh_CN) \
 locale(AppStream:zh_TW)"
+
 RDEPENDS:${PN} += "AppStream"
 
 inherit rpm

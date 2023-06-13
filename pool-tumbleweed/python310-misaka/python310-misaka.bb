@@ -12,6 +12,7 @@ python3.10dist(misaka) \
 python310-misaka \
 python310-misaka(aarch-64) \
 python3dist(misaka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

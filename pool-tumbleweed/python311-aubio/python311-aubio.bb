@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(aubio) \
 python311-aubio \
 python311-aubio(aarch-64) \
 python3dist(aubio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

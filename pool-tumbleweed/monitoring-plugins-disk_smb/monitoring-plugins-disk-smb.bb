@@ -11,6 +11,7 @@ RPM_HASH = "c04e0fcb6da93c8625b6e7dad92a5afea2c6a7d0058a869c16b58aaaf425852956b6
 RPROVIDES:${PN} += "monitoring-plugins-disk_smb \
 monitoring-plugins-disk_smb(aarch-64) \
 nagios-plugins-disk_smb"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
 perl"

@@ -10,6 +10,7 @@ RPM_HASH = "64791855dc884356a5e6255d063231e7a316ad83ba3962a849e4fa945e410ee80a96
 RPROVIDES:${PN} += "gcin-anthy \
 gcin-anthy(aarch-64) \
 gcin-anthy-module"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gcin \
 libanthy.so.0()(64bit) \

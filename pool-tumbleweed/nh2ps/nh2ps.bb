@@ -16,6 +16,7 @@ RPM_HASH = "3ad624c7d68c8203de0887c3ac76d948bb8bbcf420e5a332350af5569f8c993d824c
 
 RPROVIDES:${PN} += "nh2ps \
 nh2ps(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "texlive-ps2eps-bin \
 texlive-ps2eps-bin(aarch-64) \
 texlive-pstools-bin:/usr/bin/bbox \
 texlive-pstools-bin:/usr/bin/ps2eps"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

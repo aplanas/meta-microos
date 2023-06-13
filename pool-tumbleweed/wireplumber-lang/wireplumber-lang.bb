@@ -63,6 +63,7 @@ locale(wireplumber:zh_CN) \
 locale(wireplumber:zh_TW) \
 wireplumber-lang \
 wireplumber-lang-all"
+
 RDEPENDS:${PN} += "wireplumber"
 
 inherit rpm

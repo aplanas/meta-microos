@@ -10,6 +10,7 @@ RPM_HASH = "3533f29d019df732fe58d024819e06e534e7ce473824228454a5db6546ea2c62d814
 RPROVIDES:${PN} += "libcairomm-1.16.so.1()(64bit) \
 libcairomm-1_16-1 \
 libcairomm-1_16-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

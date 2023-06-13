@@ -12,6 +12,7 @@ RPM_HASH = "5730d9e4754766ea72d3de92e867d3b44f870a2879dee217d9fecac49851283182d6
 RPROVIDES:${PN} += "cmake(LibreGraphAPI) \
 libregraphapi-devel \
 libregraphapi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libLibreGraphAPI1"
 
 inherit rpm

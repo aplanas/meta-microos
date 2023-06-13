@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "db-doc \
 db-utils-doc \
 db48-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

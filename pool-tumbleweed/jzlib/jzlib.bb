@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "jzlib \
 mvn(com.jcraft:jzlib) \
 mvn(com.jcraft:jzlib:pom:) \
 osgi(com.jcraft.jzlib)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

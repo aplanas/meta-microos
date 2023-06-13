@@ -14,6 +14,7 @@ RPM_HASH = "5914674921d145bd80c0c975b3264bf509e69e9f8710ba9a52a9e447b96d98b9dfc7
 
 RPROVIDES:${PN} += "metacity-tools \
 metacity-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

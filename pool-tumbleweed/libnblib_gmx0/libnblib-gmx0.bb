@@ -13,6 +13,7 @@ RPM_HASH = "a943ab1479f7453d1c3ac5543099c81815e6d1f1fdcda8aa12419293dabb19dd1150
 RPROVIDES:${PN} += "libnblib_gmx.so.0()(64bit) \
 libnblib_gmx0 \
 libnblib_gmx0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

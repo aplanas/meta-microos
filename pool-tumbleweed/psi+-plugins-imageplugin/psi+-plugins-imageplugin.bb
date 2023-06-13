@@ -10,6 +10,7 @@ RPM_HASH = "7ec5d626e232af0f86ca969fea54df277cee62c88a769c7bafb5cc7a0c94356608be
 RPROVIDES:${PN} += "libimageplugin.so()(64bit) \
 psi+-plugins-imageplugin \
 psi+-plugins-imageplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f58a295ffb1c4f60093e503df586c77af0fb4a07442ab2fd68d3fbbc2f1ea0e9bf68
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simpleoptics-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

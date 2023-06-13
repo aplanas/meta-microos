@@ -10,6 +10,7 @@ RPM_HASH = "ae2d9fbddd24609b9428824954363fbc3b68cae3c48bb90f79da25b63de893587a43
 
 RPROVIDES:${PN} += "libptscotch_6_1_0-gnu-openmpi2-hpc \
 libptscotch_6_1_0-gnu-openmpi2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

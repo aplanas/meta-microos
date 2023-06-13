@@ -14,6 +14,7 @@ RPM_HASH = "d45633ed3f7e2fc1295709bcfba3a17bf9122780ada4dea0ddab9d189f1dae7c7ce3
 RPROVIDES:${PN} += "librime.so.1()(64bit) \
 librime1 \
 librime1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

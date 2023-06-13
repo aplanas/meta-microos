@@ -16,6 +16,7 @@ RPM_HASH = "21399056fd3124033af2b4f98182ffa8ea1d59640e31c3c462cbbfef5eeba8bbacdb
 
 RPROVIDES:${PN} += "fsarchiver \
 fsarchiver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

@@ -48,6 +48,7 @@ perl(Pod::Elemental::Transformer::Nester) \
 perl(Pod::Elemental::Transformer::Pod5) \
 perl(Pod::Elemental::Types) \
 perl-Pod-Elemental"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(List::Util) \

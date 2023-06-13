@@ -11,6 +11,7 @@ RPM_HASH = "32203fa4c9504443dc2ef174b59e059f16d978e13143a40f84b026022d99f71f0ec2
 RPROVIDES:${PN} += "dbus-1-tools \
 dbus-1-tools(aarch-64) \
 dbus-1:/usr/bin/dbus-monitor"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

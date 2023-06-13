@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pysolr \
 python3.10dist(pysolr) \
 python310-pysolr \
 python3dist(pysolr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

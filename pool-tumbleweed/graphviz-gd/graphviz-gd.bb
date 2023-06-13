@@ -11,6 +11,7 @@ RPM_HASH = "187cf10bed346c408e86565d42f92b916ec1d15bc9083979901a7e113c211db50d2d
 RPROVIDES:${PN} += "graphviz-gd \
 graphviz-gd(aarch-64) \
 libgvplugin_gd.so.6()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \

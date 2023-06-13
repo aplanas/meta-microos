@@ -10,6 +10,7 @@ RPM_HASH = "10b3cbc2db994b3d8bac9601de6448c3e31982bfe1146cc3712ba6e4d40d1db02ef8
 RPROVIDES:${PN} += "libraylib.so.420()(64bit) \
 libraylib420 \
 libraylib420(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

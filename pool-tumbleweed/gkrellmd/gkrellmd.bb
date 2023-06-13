@@ -10,6 +10,7 @@ RPM_HASH = "975d64883cf681becfa4e7ac43d425e2bf39e616f85a5ab743b599dbe4eb15edcd01
 RPROVIDES:${PN} += "config(gkrellmd) \
 gkrellmd \
 gkrellmd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

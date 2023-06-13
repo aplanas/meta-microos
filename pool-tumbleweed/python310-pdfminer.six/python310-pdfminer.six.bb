@@ -18,6 +18,7 @@ python3.10dist(pdfminer.six) \
 python310-pdfminer.six \
 python310-pdfminer3k \
 python3dist(pdfminer.six)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

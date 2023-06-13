@@ -11,6 +11,7 @@ RPM_HASH = "22dcd8243c8890a31e03bdb030bfde0267a0a0b2fd8b133f6f2f0b652d8feec7e86f
 
 RPROVIDES:${PN} += "cross-pru-binutils \
 cross-pru-binutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

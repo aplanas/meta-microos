@@ -14,6 +14,7 @@ RPM_HASH = "d074106586532b1663f490e9d7154f002232ad737c82c738dacfe312940ee596a029
 RPROVIDES:${PN} += "cmake(Mbd) \
 libmbd-devel \
 libmbd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmbd"
 
 inherit rpm

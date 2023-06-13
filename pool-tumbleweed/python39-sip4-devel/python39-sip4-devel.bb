@@ -18,6 +18,7 @@ python39-sip-devel \
 python39-sip4-devel \
 python39-sip4-devel(aarch-64) \
 rpm_macro(requires_python39_sip_api)"
+
 RDEPENDS:${PN} += "/bin/sh \
 c++_compiler \
 ld-linux-aarch64.so.1()(64bit) \

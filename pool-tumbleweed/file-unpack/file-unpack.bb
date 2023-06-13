@@ -10,6 +10,7 @@ RPM_HASH = "7326f316946c3c583da49f74ab7501a612aa190c0ef66e714efdc8e27706147e0462
 
 RPROVIDES:${PN} += "file-unpack \
 file-unpack(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit) \
 perl(File::Unpack)"

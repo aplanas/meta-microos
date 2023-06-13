@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-WSME \
 python3.10dist(wsme) \
 python310-WSME \
 python3dist(wsme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebOb \
 python310-netaddr \

@@ -14,6 +14,7 @@ metainfo() \
 metainfo(com.uploadedlobster.peek.appdata.xml) \
 peek \
 peek(aarch-64)"
+
 RDEPENDS:${PN} += "ImageMagick \
 ffmpeg \
 ld-linux-aarch64.so.1()(64bit) \

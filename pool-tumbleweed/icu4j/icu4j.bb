@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "icu4j \
 mvn(com.ibm.icu:icu4j) \
 mvn(com.ibm.icu:icu4j:pom:) \
 osgi(com.ibm.icu)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

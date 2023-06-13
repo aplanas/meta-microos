@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(fmt) \
 fmt-devel \
 fmt-devel(aarch-64) \
 pkgconfig(fmt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfmt9"
 

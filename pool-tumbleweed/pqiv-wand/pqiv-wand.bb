@@ -9,6 +9,7 @@ RPM_HASH = "35db78b78b10bff14c405f56602a11de3c1bedddb90521091e55cd0df01ff401e8df
 
 RPROVIDES:${PN} += "pqiv-wand \
 pqiv-wand(aarch-64)"
+
 RDEPENDS:${PN} += "libMagickWand-7.Q16HDRI.so.10()(64bit) \
 libMagickWand-7.Q16HDRI.so.10(VERS_10.0)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

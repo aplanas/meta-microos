@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gradstudentresume.cls) \
 texlive-gradstudentresume"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

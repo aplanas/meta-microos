@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libparted-fs-resize.so.0()(64bit) \
 libparted-fs-resize.so.0(LIBPARTED_FS_RESIZE_0.0.0)(64bit) \
 libparted-fs-resize0 \
 libparted-fs-resize0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

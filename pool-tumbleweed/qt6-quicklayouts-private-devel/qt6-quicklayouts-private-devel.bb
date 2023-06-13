@@ -10,6 +10,7 @@ RPM_HASH = "900d6d0bf642db9558d64f47e51b4bb1ee0f256bf630be9a517b1c340d47b5241b80
 
 RPROVIDES:${PN} += "qt6-quicklayouts-private-devel \
 qt6-quicklayouts-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6QuickLayouts)"
 
 inherit rpm

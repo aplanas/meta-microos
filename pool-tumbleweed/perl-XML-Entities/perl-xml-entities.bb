@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "perl(XML::Entities) \
 perl(XML::Entities::Data) \
 perl-XML-Entities \
 perl-XML-Entities(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

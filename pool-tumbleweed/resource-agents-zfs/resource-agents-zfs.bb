@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "resource-agents-zfs \
 resource-agents-zfs(aarch-64) \
 resource-agents:/usr/lib/ocf/resource.d/heartbeat/ZFS \
 resource-agents:/usr/share/man/man7/ocf_heartbeat_ZFS.*"
+
 RDEPENDS:${PN} += "/bin/sh \
 resource-agents"
 

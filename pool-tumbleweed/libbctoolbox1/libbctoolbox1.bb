@@ -13,6 +13,7 @@ RPM_HASH = "eb3f953e6a7670fa6e2cd962b10f78905b4e1858bf36282b06269e1b305510319b90
 RPROVIDES:${PN} += "libbctoolbox.so.1()(64bit) \
 libbctoolbox1 \
 libbctoolbox1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

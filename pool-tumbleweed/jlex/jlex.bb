@@ -9,6 +9,7 @@ RPM_HASH = "9a918996c13e151236a83c62e037258279abd85f7f6cc40802c136fd645674ce8c3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlex"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(vsts-cd-manager) \
 python39-vsts-cd-manager \
 python3dist(vsts-cd-manager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-msrest"
 

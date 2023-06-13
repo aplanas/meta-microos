@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libusbredirhost.so.1()(64bit) \
 libusbredirhost.so.1(USBREDIRHOST_0.8.0)(64bit) \
 libusbredirhost1 \
 libusbredirhost1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

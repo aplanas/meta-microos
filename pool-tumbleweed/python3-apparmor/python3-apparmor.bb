@@ -14,6 +14,7 @@ python3.10dist(apparmor) \
 python3.10dist(libapparmor) \
 python3dist(apparmor) \
 python3dist(libapparmor)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapparmor.so.1()(64bit) \

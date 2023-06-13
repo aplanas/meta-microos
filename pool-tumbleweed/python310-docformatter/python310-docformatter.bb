@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-docformatter \
 python3.10dist(docformatter) \
 python310-docformatter \
 python3dist(docformatter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

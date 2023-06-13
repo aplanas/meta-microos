@@ -17,6 +17,7 @@ RPM_HASH = "4d5f766e7f717b550d54301d86c694fb0920cc2b3ece2e1e670d80bd934d3bf6bff7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "berkeleydb"
+
 RDEPENDS:${PN} += "j2ee-connector \
 java"
 

@@ -11,6 +11,7 @@ RPM_HASH = "7c15b4395db6440f62efe0dc42aaecad5769f77d192bae92d28d94ab185bb36f2749
 
 RPROVIDES:${PN} += "patchelf \
 patchelf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "3920293f6dd1e99f8eb338a8c45cb2454435539f29133a4b1b9fd42fc201afe69e33
 
 RPROVIDES:${PN} += "delayacct-utils-rebuild \
 delayacct-utils-rebuild(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-source"
 
 inherit rpm

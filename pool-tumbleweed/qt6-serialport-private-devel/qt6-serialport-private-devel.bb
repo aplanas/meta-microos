@@ -10,6 +10,7 @@ RPM_HASH = "ea20c11f7e25dca77ff99d1bb262b127b0fa54a8a5a9d2d7b2282aa59617d8d521db
 
 RPROVIDES:${PN} += "qt6-serialport-private-devel \
 qt6-serialport-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6SerialPort) \
 qt6-core-private-devel"
 

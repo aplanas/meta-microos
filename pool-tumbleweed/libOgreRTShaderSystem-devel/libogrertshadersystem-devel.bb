@@ -13,6 +13,7 @@ RPM_HASH = "d563246b2af32a01b9a8b838a084a18bbd26d4873f42a9e6aadfe68ab8512405a24d
 RPROVIDES:${PN} += "libOgreRTShaderSystem-devel \
 libOgreRTShaderSystem-devel(aarch-64) \
 pkgconfig(OGRE-RTShaderSystem)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgreRTShaderSystem13_5 \
 pkgconfig(OGRE)"

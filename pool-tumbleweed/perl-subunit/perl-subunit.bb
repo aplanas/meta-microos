@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Subunit) \
 perl(Subunit::Diff) \
 perl-subunit"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-base"
 

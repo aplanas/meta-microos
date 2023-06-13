@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyaes) \
 python39-pyaes \
 python3dist(pyaes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pycryptodome"
 

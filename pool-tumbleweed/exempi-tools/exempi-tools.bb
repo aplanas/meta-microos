@@ -12,6 +12,7 @@ RPM_HASH = "6c76f9be64bd85289ab4265ab8ba8617bee3b0c13d5d2b5f8c4ee32805bf5a56e2cd
 
 RPROVIDES:${PN} += "exempi-tools \
 exempi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

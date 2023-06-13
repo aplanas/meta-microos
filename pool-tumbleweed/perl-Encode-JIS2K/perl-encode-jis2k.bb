@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(Encode::JIS2K) \
 perl(Encode::JIS2K::2022JP3) \
 perl-Encode-JIS2K \
 perl-Encode-JIS2K(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/enc2xs \
 libc.so.6(GLIBC_2.17)(64bit) \

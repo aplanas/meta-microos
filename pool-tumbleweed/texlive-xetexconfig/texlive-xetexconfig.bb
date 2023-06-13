@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crop.cfg) \
 texlive-xetexconfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

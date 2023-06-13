@@ -11,6 +11,7 @@ RPM_HASH = "cd11bc46e586e8a18c0f0672d2e3bebecedce34318004eb88f8c620d22c5c9707537
 RPROVIDES:${PN} += "typelib(RygelServer) \
 typelib-1_0-RygelServer-2_8 \
 typelib-1_0-RygelServer-2_8(aarch-64)"
+
 RDEPENDS:${PN} += "typelib(GLib) \
 typelib(GObject) \
 typelib(GSSDP) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(model-bakery) \
 python39-model-bakery \
 python3dist(model-bakery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

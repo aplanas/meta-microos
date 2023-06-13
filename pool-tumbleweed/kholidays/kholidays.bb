@@ -9,6 +9,7 @@ RPM_HASH = "db5fb7b898efdfc632b946f53d1f13477110e674943471439b0576471085a26eff12
 
 RPROVIDES:${PN} += "kholidays \
 kholidays(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

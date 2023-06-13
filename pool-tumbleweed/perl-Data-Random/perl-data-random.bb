@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Data::Random) \
 perl(Data::Random::WordList) \
 perl-Data-Random"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Time::Piece)"
 

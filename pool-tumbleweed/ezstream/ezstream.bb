@@ -18,6 +18,7 @@ RPM_HASH = "a7fb30897e29b717d9721093c97e42aea5a2227d2a59620583858bf901e77a1a4c4a
 
 RPROVIDES:${PN} += "ezstream \
 ezstream(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

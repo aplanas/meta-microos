@@ -10,6 +10,7 @@ RPM_HASH = "dbfbf9fad87f3bf8a68a583bf1000c7c490ecda3dc1043ad7f8007843144fdec6908
 RPROVIDES:${PN} += "libKF5KMahjongglib.so.5()(64bit) \
 libKF5KMahjongglib5 \
 libKF5KMahjongglib5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

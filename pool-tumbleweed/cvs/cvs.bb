@@ -12,6 +12,7 @@ RPM_HASH = "83db48684104faa683ef6f8b81417d4cc7b605bfdec0cee9ca2f3fb4d9f15ed51da4
 RPROVIDES:${PN} += "config(cvs) \
 cvs \
 cvs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/mktemp \
 /bin/sh \
 /usr/bin/csh \

@@ -12,6 +12,7 @@ RPM_HASH = "a71e39c3d9a355e4f2acc348cb2478915ff3cc280f408d18199ff1e9d832ed8aa920
 RPROVIDES:${PN} += "liboslnoise.so.1.12()(64bit) \
 liboslnoise1_12 \
 liboslnoise1_12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

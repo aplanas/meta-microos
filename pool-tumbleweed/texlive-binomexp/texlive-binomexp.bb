@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(binomexp.sty) \
 texlive-binomexp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-shodan \
 python3.10dist(shodan) \
 python310-shodan \
 python3dist(shodan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -11,6 +11,7 @@ RPM_HASH = "a5bac42634480b960e1d7cab617535a802a3387690b857def01a8fc9dc57fed34fe5
 
 RPROVIDES:${PN} += "mailimporter \
 mailimporter(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

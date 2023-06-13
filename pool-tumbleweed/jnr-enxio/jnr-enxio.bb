@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jnr-enxio \
 mvn(com.github.jnr:jnr-enxio) \
 mvn(com.github.jnr:jnr-enxio:pom:) \
 osgi(com.github.jnr.enxio)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jnr-constants) \

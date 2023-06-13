@@ -11,6 +11,7 @@ RPM_HASH = "484c137cc9d88ac6cee5e19068136d82b0044f4dd3017986535b307036e66bbe63f3
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-pkinit \
 krb5-plugin-preauth-pkinit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.25)(64bit) \

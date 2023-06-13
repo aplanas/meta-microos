@@ -11,6 +11,7 @@ RPM_HASH = "c75513fcedaf2c0d70c169f292b67cde3649600732914e8e2d2fe77e231512400963
 RPROVIDES:${PN} += "npm \
 npm-default \
 npm-default(aarch-64)"
+
 RDEPENDS:${PN} += "nodejs-default \
 npm20"
 

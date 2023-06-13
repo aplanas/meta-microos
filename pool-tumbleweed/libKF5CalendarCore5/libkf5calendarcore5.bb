@@ -12,6 +12,7 @@ RPM_HASH = "2ab8f614894f9c69ef59ca35617488f88672aaab644325c6c49b12e4b332be01c954
 RPROVIDES:${PN} += "libKF5CalendarCore.so.5()(64bit) \
 libKF5CalendarCore5 \
 libKF5CalendarCore5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(icewm-config-upstream) \
 icewm-config-upstream \
 icewm-configuration-files"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8a504c8994a8ac73705a141e396cdfb428b4a35afb50c23046bab24172690af9b7d0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-magyar-noenc.ldf) \
 tex(glossaries-magyar-utf8.ldf) \
 tex(glossaries-magyar.ldf) \
 texlive-glossaries-magyar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

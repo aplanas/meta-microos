@@ -15,6 +15,7 @@ RPM_HASH = "0574dddff0e129355f9ffe01a730baab6a856a7c9d7de0e17b0addb070da70fc4c34
 
 RPROVIDES:${PN} += "nghttp2 \
 nghttp2(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

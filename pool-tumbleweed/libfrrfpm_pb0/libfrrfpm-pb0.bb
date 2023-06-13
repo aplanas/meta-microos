@@ -11,6 +11,7 @@ RPM_HASH = "721a50494ddadebeb59fb8196e727546e9d7b566829b9540d90f300533cfc2bdc926
 RPROVIDES:${PN} += "libfrrfpm_pb.so.0()(64bit) \
 libfrrfpm_pb0 \
 libfrrfpm_pb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

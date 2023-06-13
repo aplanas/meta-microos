@@ -9,6 +9,7 @@ RPM_HASH = "c0e9d1bc9778e9dcb83b9872290b61185c5e640a67038365b70bcbb196300fb7b252
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mslapa-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

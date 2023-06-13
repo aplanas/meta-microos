@@ -21,6 +21,7 @@ mdbtools-devel \
 mdbtools-devel(aarch-64) \
 pkgconfig(libmdb) \
 pkgconfig(libmdbsql)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 flex \
 glib2-devel \

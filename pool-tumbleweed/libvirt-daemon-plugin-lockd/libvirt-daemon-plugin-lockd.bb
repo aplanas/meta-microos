@@ -10,6 +10,7 @@ RPM_HASH = "e22e5706274227d2c616ab93ca5562e4dc2e2a27aaccc3a52121a49cd20a3767c434
 
 RPROVIDES:${PN} += "libvirt-daemon-plugin-lockd \
 libvirt-daemon-plugin-lockd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

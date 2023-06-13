@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:oauth2) \
 rubygem(ruby:3.2.0:oauth2:2) \
 rubygem(ruby:3.2.0:oauth2:2.0) \
 rubygem(ruby:3.2.0:oauth2:2.0.9)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:faraday) \
 rubygem(ruby:3.2.0:jwt) \

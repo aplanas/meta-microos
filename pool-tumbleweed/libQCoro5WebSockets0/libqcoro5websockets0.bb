@@ -12,6 +12,7 @@ RPM_HASH = "2f66f05b289463544089d3854b50f0a94ea1f3269c64542882bd3e7c750d4d41558b
 RPROVIDES:${PN} += "libQCoro5WebSockets.so.0()(64bit) \
 libQCoro5WebSockets0 \
 libQCoro5WebSockets0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

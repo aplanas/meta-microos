@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(aiohttp) \
 python39-aiohttp \
 python39-aiohttp(aarch-64) \
 python3dist(aiohttp)"
+
 RDEPENDS:${PN} += "(python39-async_timeout >= 4.0 with python39-async_timeout < 5) \
 (python39-asynctest = 0.13.0 if python39-base < 3.8) \
 (python39-charset-normalizer >= 2.0 with python39-charset-normalizer < 4) \

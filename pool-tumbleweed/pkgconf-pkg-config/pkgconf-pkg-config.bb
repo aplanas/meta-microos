@@ -16,6 +16,7 @@ pkgconf-pkg-config(aarch-64) \
 pkgconfig \
 pkgconfig(aarch-64) \
 pkgconfig(pkg-config)"
+
 RDEPENDS:${PN} += "/bin/sh \
 pkgconf(aarch-64) \
 pkgconf-m4"

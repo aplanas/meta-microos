@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libvcdinfo.so.0()(64bit) \
 libvcdinfo.so.0(VCDINFO_0)(64bit) \
 libvcdinfo0 \
 libvcdinfo0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

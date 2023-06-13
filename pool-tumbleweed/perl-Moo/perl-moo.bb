@@ -38,6 +38,7 @@ perl(Moo::_Utils) \
 perl(Moo::sification) \
 perl(oo) \
 perl-Moo"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Method::Modifiers) \
 perl(Role::Tiny) \

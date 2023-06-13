@@ -10,6 +10,7 @@ RPM_HASH = "a44f8bd543e38ae5a29673b33ab0f09b8a6d467e6256ee5fa03061cd1d6b70a92e9d
 RPROVIDES:${PN} += "liblash.so.1()(64bit) \
 liblash1 \
 liblash1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

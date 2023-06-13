@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cclicenses.sty) \
 texlive-cclicenses"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

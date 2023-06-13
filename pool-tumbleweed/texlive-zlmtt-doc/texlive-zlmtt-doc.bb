@@ -9,6 +9,7 @@ RPM_HASH = "53dab59dfc47ed0c7278999c85e5b85dc985710f5887b66805915d0fdbf30a51dee0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zlmtt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

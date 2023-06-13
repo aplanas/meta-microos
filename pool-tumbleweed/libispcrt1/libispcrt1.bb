@@ -11,6 +11,7 @@ RPM_HASH = "4bffc496f6a9e0a188d0e54f3ac9d96d3eaa12a27fdc242a8f201c995b2171ab7a27
 RPROVIDES:${PN} += "libispcrt.so.1()(64bit) \
 libispcrt1 \
 libispcrt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

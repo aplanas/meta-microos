@@ -15,6 +15,7 @@ RPM_HASH = "64993c6c42fca2993ce0b8851ca928b3ff451eaa5640de641c89520d5d15eb3d6847
 RPROVIDES:${PN} += "libgdbm_compat.so.4()(64bit) \
 libgdbm_compat4 \
 libgdbm_compat4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

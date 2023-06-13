@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(msgpack) \
 libmsgpack-devel \
 msgpack-cxx-devel \
 msgpack-cxx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers-devel \
 msgpack-c-devel"
 

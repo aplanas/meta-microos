@@ -18,6 +18,7 @@ RPM_HASH = "29be90152b8a4b278fb6283b17b57418b9f8ad459a7a9ca93ff5e98af276c720be02
 RPROVIDES:${PN} += "givaro-devel \
 givaro-devel(aarch-64) \
 pkgconfig(givaro)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libgivaro9"

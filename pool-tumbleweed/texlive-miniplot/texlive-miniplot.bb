@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(miniplot.sty) \
 texlive-miniplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

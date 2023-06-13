@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-Cycler \
 python3.10dist(cycler) \
 python310-Cycler \
 python3dist(cycler)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

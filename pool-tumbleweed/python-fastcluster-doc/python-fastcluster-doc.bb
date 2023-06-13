@@ -12,6 +12,7 @@ python-fastcluster-doc(aarch-64) \
 python310-fastcluster-doc \
 python311-fastcluster-doc \
 python39-fastcluster-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

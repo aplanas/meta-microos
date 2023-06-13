@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dynamic-wallpapers-11x \
 openSUSE-dynamic-wallpapers-old"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

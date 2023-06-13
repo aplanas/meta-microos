@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(rarfile) \
 python311-rarfile \
 python3dist(rarfile)"
+
 RDEPENDS:${PN} += "bsdtar \
 python(abi)"
 

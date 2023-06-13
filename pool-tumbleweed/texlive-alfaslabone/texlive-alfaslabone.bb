@@ -44,6 +44,7 @@ tex(a_taosrr.enc) \
 tex(a_vqpkf5.enc) \
 tex(alfaslabone.sty) \
 texlive-alfaslabone"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

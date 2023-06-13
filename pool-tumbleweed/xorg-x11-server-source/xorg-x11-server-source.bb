@@ -9,6 +9,7 @@ RPM_HASH = "6241cadf23d182658b0938ad05eeb187e011617693c6d06d6677cdcd76bbcafabe96
 
 RPROVIDES:${PN} += "xorg-x11-server-source \
 xorg-x11-server-source(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

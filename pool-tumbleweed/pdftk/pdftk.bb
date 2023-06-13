@@ -28,6 +28,7 @@ RPM_HASH = "b1fa9267513584bd78a0a06e02eb6a06629739a7f98754807c0845c09fb590923ed2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdftk"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-lang3 \
 bouncycastle \

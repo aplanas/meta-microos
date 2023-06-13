@@ -11,6 +11,7 @@ RPM_HASH = "e570f202c36719b8828af3f9bcd2b3998810c9c90404ebadb201bf8e17a458ba09f0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-hpc-examples"
+
 RDEPENDS:${PN} += "/bin/sh \
 ocr_1_0_1-gnu-hpc-examples"
 

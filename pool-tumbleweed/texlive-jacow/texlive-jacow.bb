@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jacow.cls) \
 texlive-jacow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

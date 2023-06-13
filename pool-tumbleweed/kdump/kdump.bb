@@ -24,6 +24,7 @@ RPM_HASH = "36183fb14281b31341156e54f1881a9871475d4ab4ef03bfea1224c41e230406459b
 RPROVIDES:${PN} += "kdump \
 kdump(aarch-64) \
 kexec-tools:/etc/init.d/kdump"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

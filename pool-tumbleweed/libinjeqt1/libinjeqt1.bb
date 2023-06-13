@@ -11,6 +11,7 @@ RPM_HASH = "4a0f1cc8e438de41399d626bda2b39ff2fca2c49f54ee5928d16fbc0cbb0f6c5a893
 RPROVIDES:${PN} += "libinjeqt.so.1()(64bit) \
 libinjeqt1 \
 libinjeqt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

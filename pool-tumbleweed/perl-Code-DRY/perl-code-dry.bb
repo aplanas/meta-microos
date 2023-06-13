@@ -12,6 +12,7 @@ RPM_HASH = "bec6fe8cb5c9fe76933defe6d51ced03b6885c645f979bf15fe898d12e04e5c038d0
 RPROVIDES:${PN} += "perl(Code::DRY) \
 perl-Code-DRY \
 perl-Code-DRY(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

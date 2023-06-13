@@ -10,6 +10,7 @@ RPM_HASH = "f50d72359a0fb0a406c3bb8263dfe4fe93636532dabb7140285ea0e4ee23f9e2c160
 
 RPROVIDES:${PN} += "libmupen64plus-devel \
 libmupen64plus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmupen64plus2"
 
 inherit rpm

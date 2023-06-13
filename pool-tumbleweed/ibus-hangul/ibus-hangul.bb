@@ -15,6 +15,7 @@ ibus-hangul(aarch-64) \
 locale(ibus:ko) \
 metainfo() \
 metainfo(org.freedesktop.ibus.engine.hangul.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ibus \
 ld-linux-aarch64.so.1()(64bit) \

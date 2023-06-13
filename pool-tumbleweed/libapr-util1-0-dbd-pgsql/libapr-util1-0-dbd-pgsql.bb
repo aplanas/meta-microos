@@ -9,6 +9,7 @@ RPM_HASH = "55f8e0b19bc195a9532022f6e1dc07c0f3c6bd0c35261d5e092daff0ddbe4be28909
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-pgsql \
 libapr-util1-0-dbd-pgsql(aarch-64)"
+
 RDEPENDS:${PN} += "libapr-util1-0 \
 libc.so.6(GLIBC_2.17)(64bit) \
 libpq.so.5()(64bit)"

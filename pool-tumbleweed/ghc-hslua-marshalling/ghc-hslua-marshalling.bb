@@ -13,6 +13,7 @@ RPM_HASH = "b36cc8452823f604db6c7a5ae076be35a6b574cbfe4003c83afb66406850527b3a66
 RPROVIDES:${PN} += "ghc-hslua-marshalling \
 ghc-hslua-marshalling(aarch-64) \
 libHShslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "385fe5f8e34603f01f1ffea23d812ba0e6d3210f127881914d4e9a641e7e03eda4d6
 
 RPROVIDES:${PN} += "tmate \
 tmate(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(timetable.tex) \
 texlive-timetable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "04e213b53a87f61bb5e505c88ac536dbf8a610f11117ce59a2809f276b1513cce77e
 RPROVIDES:${PN} += "libax25io.so.0()(64bit) \
 libax25io0 \
 libax25io0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "fa0017d9c795b5eea38b69b219fc073501aae636d529a57f8175134bbb4cabab1fbe
 RPROVIDES:${PN} += "mozilla-nspr-devel \
 mozilla-nspr-devel(aarch-64) \
 pkgconfig(nspr)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 mozilla-nspr"

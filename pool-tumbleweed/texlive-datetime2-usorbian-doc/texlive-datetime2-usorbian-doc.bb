@@ -9,6 +9,7 @@ RPM_HASH = "711118b71f9e76f88b6378347b1018471afabc97f1f60a4f7f506efa1331e6fbb6a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-usorbian-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

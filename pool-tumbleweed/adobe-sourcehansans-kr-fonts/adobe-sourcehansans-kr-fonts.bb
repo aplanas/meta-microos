@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "adobe-sourcehansans-kr-fonts \
 locale(kr) \
 scalable-font-kr"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

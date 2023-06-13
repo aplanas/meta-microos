@@ -10,6 +10,7 @@ RPM_HASH = "b2fe971f602c8871a7741d339f1e6762e7e0aafaba9717583c9003d6ce5e6dc1a701
 RPROVIDES:${PN} += "ghc-JuicyPixels-prof \
 ghc-JuicyPixels-prof(aarch-64) \
 ghc-prof(JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS)"
+
 RDEPENDS:${PN} += "ghc-JuicyPixels-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

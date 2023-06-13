@@ -343,6 +343,7 @@ firmware(intel/sof/sof-tgl-h.ri) \
 firmware(intel/sof/sof-tgl.ldc) \
 firmware(intel/sof/sof-tgl.ri) \
 sof-firmware"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

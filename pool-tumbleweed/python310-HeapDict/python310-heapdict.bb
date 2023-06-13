@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-HeapDict \
 python3.10dist(heapdict) \
 python310-HeapDict \
 python3dist(heapdict)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

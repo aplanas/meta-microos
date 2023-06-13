@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "otter-browser-lang \
 otter-browser-lang-all"
+
 RDEPENDS:${PN} += "otter-browser"
 
 inherit rpm

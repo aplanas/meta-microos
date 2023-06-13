@@ -18,6 +18,7 @@ RPM_HASH = "c090deb185b4918b29a0618f7f7acda992e90c0e725d113820b0d4450fe8aa999e9d
 
 RPROVIDES:${PN} += "openbabel \
 openbabel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

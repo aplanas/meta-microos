@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6Quick3DEffects) \
 pkgconfig(Qt6Quick3DEffects) \
 qt6-quick3deffects-devel \
 qt6-quick3deffects-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6Quick3DEffects6 \

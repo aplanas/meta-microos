@@ -11,6 +11,7 @@ RPM_HASH = "e267ef0543f21c80ff02643a9b30edab3fc0289ee81b7ac0d240a732d38c76a665ad
 RPROVIDES:${PN} += "libpy2lang_python3.so.0()(64bit) \
 yast2-python3-bindings \
 yast2-python3-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

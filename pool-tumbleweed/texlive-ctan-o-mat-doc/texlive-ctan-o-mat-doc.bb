@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(ctan-o-mat.1) \
 texlive-ctan-o-mat-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(protonvpn-nm-lib) \
 python311-protonvpn-nm-lib \
 python3dist(protonvpn-nm-lib)"
+
 RDEPENDS:${PN} += "NetworkManager-openvpn \
 dbus-1-x11 \
 python(abi) \

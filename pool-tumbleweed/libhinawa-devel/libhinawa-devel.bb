@@ -11,6 +11,7 @@ RPM_HASH = "8857d254a5f8764d592a3fd11c01307ff73282ee82900466843124b7644c07278413
 RPROVIDES:${PN} += "libhinawa-devel \
 libhinawa-devel(aarch-64) \
 pkgconfig(hinawa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libhinawa2 \
 pkgconfig(gobject-2.0)"

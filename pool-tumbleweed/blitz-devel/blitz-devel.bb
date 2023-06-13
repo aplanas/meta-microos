@@ -14,6 +14,7 @@ RPM_HASH = "41940fc3f68fbc3b03113464d987938c7671eba2893b2b3cd41ca8bb4f43db1cd1bf
 RPROVIDES:${PN} += "blitz-devel \
 blitz-devel(aarch-64) \
 pkgconfig(blitz)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libblitz0"
 

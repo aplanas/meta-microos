@@ -11,6 +11,7 @@ RPM_HASH = "c22e8b1facc4d228c4116fdd4607a8b64b8cc14a04ef4118ae1eede284c627c61624
 
 RPROVIDES:${PN} += "coin-or-Clp \
 coin-or-Clp(aarch-64)"
+
 RDEPENDS:${PN} += "libClp.so.1()(64bit) \
 libClpSolver.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

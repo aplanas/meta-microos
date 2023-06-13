@@ -13,6 +13,7 @@ gnonograms-lang-all \
 locale(gnonograms:fr) \
 locale(gnonograms:nl) \
 locale(gnonograms:pt)"
+
 RDEPENDS:${PN} += "gnonograms"
 
 inherit rpm

@@ -13,6 +13,7 @@ application(xfce4-color-settings.desktop) \
 xfce4-color-settings \
 xfce4-settings-color \
 xfce4-settings-color(aarch-64)"
+
 RDEPENDS:${PN} += "colord \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

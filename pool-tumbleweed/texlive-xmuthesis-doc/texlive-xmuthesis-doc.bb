@@ -9,6 +9,7 @@ RPM_HASH = "7830abc16cd8929ced724dc12ab9274e3f44ecc84831d8529bcc47783ac38b1927ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xmuthesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

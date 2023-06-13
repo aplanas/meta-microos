@@ -9,6 +9,7 @@ RPM_HASH = "932c3f4df86253f7a53fbbf964350df7af283d3ec8d374d9ae24981ef1b4b2bcded0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvpygmentex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

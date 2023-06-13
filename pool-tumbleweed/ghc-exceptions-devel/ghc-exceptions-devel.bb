@@ -12,6 +12,7 @@ ghc-exceptions-devel \
 ghc-exceptions-devel(aarch-64) \
 ghc-exceptions-static \
 ghc-exceptions-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(mtl-2.2.2) \

@@ -37,6 +37,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(chardet) \
 python39-chardet \
 python3dist(chardet)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 alts \

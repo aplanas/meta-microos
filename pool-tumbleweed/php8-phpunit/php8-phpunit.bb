@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "php-phpunit \
 php8-phpunit \
 rpm_macro(php_cs_fixer_rules)"
+
 RDEPENDS:${PN} += "php-dom \
 php-json \
 php-phar \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(galois.sty) \
 texlive-galois"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

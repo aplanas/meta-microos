@@ -13,6 +13,7 @@ RPM_HASH = "dd6b5d1231afe8173bf859d04596b403c99f63367928ad02930e5cff28780bef72ab
 RPROVIDES:${PN} += "libcsirocsa.so.0()(64bit) \
 libcsirocsa0 \
 libcsirocsa0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

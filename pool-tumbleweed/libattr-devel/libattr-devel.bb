@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "attr-devel \
 libattr-devel \
 libattr-devel(aarch-64) \
 pkgconfig(libattr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libattr1"

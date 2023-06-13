@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "podman-compose \
 python3.9dist(podman-compose) \
 python39-podman-compose \
 python3dist(podman-compose)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 podman \

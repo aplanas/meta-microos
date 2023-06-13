@@ -10,6 +10,7 @@ RPM_HASH = "484995e4cea8d82be7c3ad9a24daa351d6e67732f71a30cddeeeca813fd279ac1a17
 
 RPROVIDES:${PN} += "qt6-network-private-devel \
 qt6-network-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Network) \
 libopenssl-3-devel \
 qt6-core-private-devel"

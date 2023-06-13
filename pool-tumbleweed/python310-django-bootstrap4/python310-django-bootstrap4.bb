@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-bootstrap4 \
 python3.10dist(django-bootstrap4) \
 python310-django-bootstrap4 \
 python3dist(django-bootstrap4)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-beautifulsoup4"

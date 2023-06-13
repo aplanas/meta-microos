@@ -232,6 +232,7 @@ tex(zut_ysltpx.enc) \
 tex(zut_zk7stm.enc) \
 tex(zut_zl5g24.enc) \
 texlive-heuristica"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

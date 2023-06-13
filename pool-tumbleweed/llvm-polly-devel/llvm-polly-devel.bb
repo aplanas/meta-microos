@@ -13,6 +13,7 @@ RPM_HASH = "d344f9cf33d2b98fa1899c57e0031979c7e9725ab5f676ff4836aa2c8e6fefafc8a2
 
 RPROVIDES:${PN} += "llvm-polly-devel \
 llvm-polly-devel(aarch-64)"
+
 RDEPENDS:${PN} += "llvm-polly \
 llvm16-polly-devel"
 

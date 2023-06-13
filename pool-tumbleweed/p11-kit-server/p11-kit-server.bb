@@ -10,6 +10,7 @@ RPM_HASH = "8a3bde3b966c9d852a1956a3bb56f50ed7675c5bc37bba1065b8563be70aaa28247f
 
 RPROVIDES:${PN} += "p11-kit-server \
 p11-kit-server(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

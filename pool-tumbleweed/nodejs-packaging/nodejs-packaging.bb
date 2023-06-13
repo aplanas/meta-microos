@@ -26,6 +26,7 @@ rpm_macro(nodejs_sitearch) \
 rpm_macro(nodejs_sitelib) \
 rpm_macro(nodejs_symlink_deps) \
 rpm_macro(nodejs_version)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby \
 gcc-c++ \

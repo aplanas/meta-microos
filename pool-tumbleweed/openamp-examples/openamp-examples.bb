@@ -9,6 +9,7 @@ RPM_HASH = "da4c80dd135ddd398f2546f847dfb1571e2962890de9460a8fc25066189046ef1b3f
 
 RPROVIDES:${PN} += "openamp-examples \
 openamp-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

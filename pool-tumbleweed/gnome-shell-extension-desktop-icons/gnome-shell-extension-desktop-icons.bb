@@ -12,6 +12,7 @@ RPM_HASH = "e4c8c03608ea494e6e055e065fc8fe6e50c5ee547a52c9a545d0b74179ec864df2ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-desktop-icons"
+
 RDEPENDS:${PN} += "/usr/bin/gjs \
 gnome-shell \
 nautilus \

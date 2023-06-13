@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(technionThesis.cls) \
 tex(technionThesisSetup.sty) \
 texlive-technion-thesis-template"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

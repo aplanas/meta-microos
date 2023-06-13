@@ -11,6 +11,7 @@ RPM_HASH = "8fbdac3ec448216dbb1774b2d3b47681ee6819664126a2eb99c4ea65a53f049359cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-databases"
+
 RDEPENDS:${PN} += "gnubg"
 
 inherit rpm

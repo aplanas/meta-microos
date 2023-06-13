@@ -14,6 +14,7 @@ RPM_HASH = "91f8583a1a276cdf1c519a361fdc11565d1f815a65fdf767ae0574f4f543eef130ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-monocle-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

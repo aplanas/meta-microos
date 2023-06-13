@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-voice-note-lang \
 deepin-voice-note-lang-all"
+
 RDEPENDS:${PN} += "deepin-voice-note"
 
 inherit rpm

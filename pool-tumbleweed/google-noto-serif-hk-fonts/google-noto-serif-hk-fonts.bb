@@ -15,6 +15,7 @@ locale(zh_HK;zh_MO) \
 noto-serif-hk-fonts \
 scalable-font-zh-HK \
 scalable-font-zh-MO"
+
 RDEPENDS:${PN} += "google-noto-serif-hk-bold-fonts \
 google-noto-serif-hk-regular-fonts"
 

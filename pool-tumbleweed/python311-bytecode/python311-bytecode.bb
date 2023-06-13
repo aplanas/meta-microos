@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(bytecode) \
 python311-bytecode \
 python3dist(bytecode)"
+
 RDEPENDS:${PN} += "(python311-typing-extensions if python311-base < 3.10) \
 python(abi)"
 

@@ -25,6 +25,7 @@ tex(pkgloader-recommended.sty) \
 tex(pkgloader-true.sty) \
 tex(pkgloader.sty) \
 texlive-pkgloader"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

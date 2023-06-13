@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cockpit \
 cockpit(aarch-64) \
 metainfo() \
 metainfo(cockpit.appdata.xml)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 cockpit-system \
 cockpit-ws"

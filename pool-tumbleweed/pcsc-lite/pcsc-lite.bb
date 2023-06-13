@@ -21,6 +21,7 @@ group(scard) \
 pcsc-lite \
 pcsc-lite(aarch-64) \
 user(scard)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

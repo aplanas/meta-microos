@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(aiounittest) \
 python311-aiounittest \
 python3dist(aiounittest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-wrapt"
 

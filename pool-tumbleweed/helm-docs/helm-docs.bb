@@ -11,6 +11,7 @@ RPM_HASH = "78e6fddfb8b65355f481e9b47e19e32e5c08d749c85a0fde98db6bbf22447f97b20f
 
 RPROVIDES:${PN} += "helm-docs \
 helm-docs(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

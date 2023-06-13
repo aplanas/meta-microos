@@ -16,6 +16,7 @@ libmsgpackc-devel \
 msgpack-c-devel \
 msgpack-c-devel(aarch-64) \
 pkgconfig(msgpack)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmsgpackc2"
 

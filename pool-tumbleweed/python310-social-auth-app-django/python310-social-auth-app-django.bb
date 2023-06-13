@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-social-auth-app-django \
 python3.10dist(social-auth-app-django) \
 python310-social-auth-app-django \
 python3dist(social-auth-app-django)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-python-jose \

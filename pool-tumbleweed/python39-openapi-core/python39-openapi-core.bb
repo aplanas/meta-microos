@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(openapi-core) \
 python39-openapi-core \
 python3dist(openapi-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Werkzeug \
 python39-isodate \

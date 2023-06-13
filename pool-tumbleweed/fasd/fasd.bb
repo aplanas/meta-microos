@@ -16,6 +16,7 @@ RPM_HASH = "0531a505250cbc7a3bbb2dd35c03d70cb4d0989090336348532745a7ab28309d964c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fasd"
+
 RDEPENDS:${PN} += "/usr/bin/env"
 
 inherit rpm

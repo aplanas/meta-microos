@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist(flit-core) \
 python39-flit-core"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

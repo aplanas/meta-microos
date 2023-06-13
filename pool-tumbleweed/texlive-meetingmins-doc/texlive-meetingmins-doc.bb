@@ -9,6 +9,7 @@ RPM_HASH = "49628fa462572ebe2becc4187187fe879742f50aef29c8314747c8205d7ff8555b7c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-meetingmins-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

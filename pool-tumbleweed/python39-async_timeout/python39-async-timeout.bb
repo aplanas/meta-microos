@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(async-timeout) \
 python39-async-timeout \
 python39-async_timeout \
 python3dist(async-timeout)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

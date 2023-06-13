@@ -9,6 +9,7 @@ RPM_HASH = "2bacd4785cc2581493a61bb16660469a70c1812ec21e1cd4a37fa67920fc651d6c04
 
 RPROVIDES:${PN} += "libabw-tools \
 libabw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabw-0.1.so.1()(64bit) \

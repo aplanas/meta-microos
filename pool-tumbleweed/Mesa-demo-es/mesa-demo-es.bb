@@ -12,6 +12,7 @@ Mesa-demo-es(aarch-64) \
 Mesa-demo:/usr/lib64/mesa-demos/egl/opengles2/es2_info \
 Mesa-demo:/usr/lib64/mesa-demos/egl/opengles2/es2gears_x11 \
 Mesa-demo:/usr/lib64/mesa-demos/egl/opengles2/es2tri"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

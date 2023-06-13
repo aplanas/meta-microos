@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python-rdflib-doc \
 python310-rdflib-doc \
 python311-rdflib-doc \
 python39-rdflib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

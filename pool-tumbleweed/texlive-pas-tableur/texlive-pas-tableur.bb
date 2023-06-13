@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pas-tableur.sty) \
 texlive-pas-tableur"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "af04eb8842d3ce297fb5b000c6418ed4e9dc7efe06e78c0e779935e6c3c5ccb38b71
 
 RPROVIDES:${PN} += "python39-mpi4py-devel \
 python39-mpi4py-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-devel \
 python39-mpi4py \
 python39-mpi4py-common-devel"

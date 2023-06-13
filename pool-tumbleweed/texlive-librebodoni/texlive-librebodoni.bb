@@ -129,6 +129,7 @@ tex(lbd_rpuqof.enc) \
 tex(lbd_yeotsr.enc) \
 tex(lbd_zpaflu.enc) \
 texlive-librebodoni"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

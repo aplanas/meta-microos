@@ -10,6 +10,7 @@ RPM_HASH = "e26fd5ff960f9c69a14f99349524cbd0dd5b2234dab2e121c624ce4c2721087cfcf9
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-mvapich2-hpc-devel \
 mpiP_3_5-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 mvapich2-gnu-hpc-devel"
 

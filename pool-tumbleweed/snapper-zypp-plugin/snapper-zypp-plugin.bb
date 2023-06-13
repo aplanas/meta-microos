@@ -10,6 +10,7 @@ RPM_HASH = "7e898bb3005f0bc750e528f5c08cd3122b635f4d605fb1c1719a336d4ea066974c77
 
 RPROVIDES:${PN} += "snapper-zypp-plugin \
 snapper-zypp-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

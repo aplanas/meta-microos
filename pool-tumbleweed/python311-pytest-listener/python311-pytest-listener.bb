@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-listener) \
 python311-pytest-listener \
 python3dist(pytest-listener)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest-server-fixtures"
 

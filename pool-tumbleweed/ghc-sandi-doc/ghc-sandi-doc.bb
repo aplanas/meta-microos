@@ -9,6 +9,7 @@ RPM_HASH = "d94c9ce9f0b4a095a77d6ce744cda9d5b51adc2eee4acac591da043b3fe0f5da4a26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-sandi-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

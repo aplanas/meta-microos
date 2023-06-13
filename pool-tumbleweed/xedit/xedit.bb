@@ -9,6 +9,7 @@ RPM_HASH = "b248bdfae33f9cf4e29beb6024ec22d5605d06a700bb9c325c105845f095a0707927
 
 RPROVIDES:${PN} += "xedit \
 xedit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

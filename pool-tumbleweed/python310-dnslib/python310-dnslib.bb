@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dnslib \
 python3.10dist(dnslib) \
 python310-dnslib \
 python3dist(dnslib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

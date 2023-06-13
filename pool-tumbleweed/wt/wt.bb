@@ -20,6 +20,7 @@ libwthttp.so.4.8.1()(64bit) \
 libwttest.so.4.8.1()(64bit) \
 wt \
 wt(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 FastCGI \
 ld-linux-aarch64.so.1()(64bit) \

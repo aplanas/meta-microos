@@ -14,6 +14,7 @@ RPM_HASH = "344724c7a75e85e4b08e1d70305c999e1ec79cd7233a089bd326ea7a1b8510361f2e
 
 RPROVIDES:${PN} += "wayland-utils \
 wayland-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

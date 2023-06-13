@@ -17,6 +17,7 @@ pkgconfig(libqpid-proton-cpp) \
 pkgconfig(libqpid-proton-proactor) \
 qpid-proton-devel \
 qpid-proton-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqpid-proton-core10 \
 libqpid-proton-cpp12 \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dtfabric \
 python3.10dist(dtfabric) \
 python310-dtfabric \
 python3dist(dtfabric)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

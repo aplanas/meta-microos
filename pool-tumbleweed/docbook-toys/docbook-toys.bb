@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(docbook-toys) \
 docbook-tools \
 docbook-toys"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 docbook-dsssl-stylesheets \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "typelib(Libxfce4util) \
 typelib-1_0-Libxfce4util-1_0 \
 typelib-1_0-Libxfce4util-1_0(aarch-64) \
 typelib-1_0-libxfce4util-1_0"
+
 RDEPENDS:${PN} += "libxfce4util.so.7()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

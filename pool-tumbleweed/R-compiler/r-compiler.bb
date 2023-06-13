@@ -9,6 +9,7 @@ RPM_HASH = "cd7956356b61ef697cf4f40c25d7ab5ac4313270e6c5119a08fc7beb37fc6a73e21b
 
 RPROVIDES:${PN} += "R-compiler \
 R-compiler(aarch-64)"
+
 RDEPENDS:${PN} += "R-base"
 
 inherit rpm

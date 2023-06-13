@@ -13,6 +13,7 @@ RPM_HASH = "070b64bdffa34cedcdd99c58d2fd9a99acca76dc9fc8407cffb6aeba9d8fbbfe78a4
 RPROVIDES:${PN} += "libarb.so.2()(64bit) \
 libarb2 \
 libarb2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

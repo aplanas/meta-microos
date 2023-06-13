@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pydata-sphinx-theme \
 python3.10dist(pydata-sphinx-theme) \
 python310-pydata-sphinx-theme \
 python3dist(pydata-sphinx-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-beautifulsoup4 \

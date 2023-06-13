@@ -12,6 +12,7 @@ RPM_HASH = "4ea7a4a7703ea03c14b909e63b793863164104e517ccab81ab3cedcee51b38c08567
 RPROVIDES:${PN} += "cmake(KDED) \
 kded-devel \
 kded-devel(aarch-64)"
+
 RDEPENDS:${PN} += "extra-cmake-modules \
 kded"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cockpit-machines \
 metainfo() \
 metainfo(org.cockpit-project.machines.metainfo.xml)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 libvirt-client \
 libvirt-daemon-qemu \

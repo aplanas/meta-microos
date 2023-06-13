@@ -14,6 +14,7 @@ RPM_HASH = "9d4f92ddd21894b90466191e8b3a1e684e872b9399242cfedfb6ad41567d3914efe6
 
 RPROVIDES:${PN} += "eiskaltdcpp-cli \
 eiskaltdcpp-cli(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 eiskaltdcpp-common \
 perl(JSON::RPC)"

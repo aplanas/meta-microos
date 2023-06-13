@@ -11,6 +11,7 @@ RPM_HASH = "a824738ceadee3107ffde80ad74cddb6eb8201e5d0d61666cc02b0e9f257287104f1
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-odroid-n2 \
 u-boot-odroid-n2(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

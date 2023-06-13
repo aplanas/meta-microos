@@ -9,6 +9,7 @@ RPM_HASH = "c5ccf105e9f86d4cb7a345c95c2c2458975c43276e18680fe52819314b0326923a58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-blur-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

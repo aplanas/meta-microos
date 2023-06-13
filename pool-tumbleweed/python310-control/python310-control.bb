@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-control \
 python3.10dist(control) \
 python310-control \
 python3dist(control)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

@@ -9,6 +9,7 @@ RPM_HASH = "450767e70df861faf8037cc2a21937fccb02e3a780b20749fde6252c094c63b70695
 
 RPROVIDES:${PN} += "lensfun-doc \
 lensfun-doc(aarch-64)"
+
 RDEPENDS:${PN} += "lensfun-data"
 
 inherit rpm

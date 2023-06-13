@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(background.sty) \
 texlive-background"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -25,6 +25,7 @@ perl(File::HomeDir::Test) \
 perl(File::HomeDir::Unix) \
 perl(File::HomeDir::Windows) \
 perl-File-HomeDir"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Path) \
 perl(File::Temp) \

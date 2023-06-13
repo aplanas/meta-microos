@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libplist++-2_0-devel \
 libplist++-2_0-devel(aarch-64) \
 libplist++-devel \
 pkgconfig(libplist++-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libplist++-2_0-3 \
 pkgconfig(libplist-2.0)"

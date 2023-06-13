@@ -15,6 +15,7 @@ RPM_HASH = "e5c13c3bc2c9d7dfe77163c5cb7a2e42bc9776c3b000054e8f470b361d8f5b825c46
 RPROVIDES:${PN} += "typelib(OSTree) \
 typelib-1_0-OSTree-1_0 \
 typelib-1_0-OSTree-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libostree-1.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -9,6 +9,7 @@ RPM_HASH = "d28554fa70969b7697a6f4b5e93da779748af4661786c73d61a9068c58822f7c0393
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libglade2-doc"
+
 RDEPENDS:${PN} += "libglade-2_0-0"
 
 inherit rpm

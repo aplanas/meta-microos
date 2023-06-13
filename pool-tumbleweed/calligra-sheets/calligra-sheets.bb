@@ -23,6 +23,7 @@ mimehandler(application/vnd.openxmlformats-officedocument.spreadsheetml.template
 mimehandler(application/x-kspread) \
 mimehandler(application/x-quattropro) \
 mimehandler(text/csv)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

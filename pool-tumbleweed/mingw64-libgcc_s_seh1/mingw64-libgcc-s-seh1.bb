@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "mingw64(libgcc_s_seh-1.dll) \
 mingw64-libgcc \
 mingw64-libgcc_s_seh1 \
 mingw64-libgcc_s_seh1(aarch-64)"
+
 RDEPENDS:${PN} += "mingw64(libwinpthread-1.dll)"
 
 inherit rpm

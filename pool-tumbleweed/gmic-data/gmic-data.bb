@@ -9,6 +9,7 @@ RPM_HASH = "50ef448e49877846c0dcca6a8492dd61654f673048bcb681da0aa4d6b7c56f872703
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmic-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

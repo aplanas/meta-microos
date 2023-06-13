@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gradient-text.sty) \
 texlive-gradient-text"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

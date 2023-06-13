@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(tablor-xetex.sty) \
 tex(tablor.cfg) \
 tex(tablor.sty) \
 texlive-tablor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

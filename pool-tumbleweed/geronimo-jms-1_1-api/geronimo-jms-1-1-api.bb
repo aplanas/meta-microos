@@ -17,6 +17,7 @@ mvn(javax.jms:jms) \
 mvn(javax.jms:jms:pom:) \
 mvn(org.apache.geronimo.specs:geronimo-jms_1.1_spec) \
 mvn(org.apache.geronimo.specs:geronimo-jms_1.1_spec:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

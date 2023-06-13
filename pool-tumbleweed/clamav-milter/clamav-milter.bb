@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "clamav-milter \
 clamav-milter(aarch-64) \
 clamav:/usr/sbin/clamav-milter \
 config(clamav-milter)"
+
 RDEPENDS:${PN} += "/bin/sh \
 clamav \
 ld-linux-aarch64.so.1()(64bit) \

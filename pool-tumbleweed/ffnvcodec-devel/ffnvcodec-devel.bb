@@ -11,6 +11,7 @@ RPM_HASH = "460bef35fc74142696a98cbc653a007e65178d3677c6806df261f2657786a62c5de9
 RPROVIDES:${PN} += "ffnvcodec-devel \
 ffnvcodec-devel(aarch-64) \
 pkgconfig(ffnvcodec)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

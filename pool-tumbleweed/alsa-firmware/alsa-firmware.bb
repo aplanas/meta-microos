@@ -103,6 +103,7 @@ firmware(vx/x1_1_vp4.xlx) \
 firmware(vx/x1_1_vx2.xlx) \
 firmware(vx/x1_1_vxp.xlx) \
 firmware(vx/x1_2_v22.xlx)"
+
 RDEPENDS:${PN} += "alsa"
 
 inherit rpm

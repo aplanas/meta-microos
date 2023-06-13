@@ -12,6 +12,7 @@ RPM_HASH = "6d782d89861118150af5cee7747047e58f9295bc1730e165ccd140defd17a1207854
 RPROVIDES:${PN} += "libwpe-1.0.so.1()(64bit) \
 libwpe-1_0-1 \
 libwpe-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

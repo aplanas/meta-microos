@@ -10,6 +10,7 @@ RPM_HASH = "b591562626910373d123274c26557f8c5a9bff2c4f94f4e28c3a69ec05fa149de4f7
 RPROVIDES:${PN} += "ghc-devel(sandi-0.5-G6Jka3yQQG77V9ypm6cnaU) \
 ghc-sandi-devel \
 ghc-sandi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

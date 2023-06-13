@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pylatex) \
 python311-PyLaTeX \
 python3dist(pylatex)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ordered-set \
 texlive-latex"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(retry-decorator) \
 python311-retry_decorator \
 python3dist(retry-decorator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

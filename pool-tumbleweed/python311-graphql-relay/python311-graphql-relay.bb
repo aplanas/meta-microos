@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(graphql-relay) \
 python311-graphql-relay \
 python3dist(graphql-relay)"
+
 RDEPENDS:${PN} += "(python311-graphql-core >= 3.2) \
 python(abi) \
 python311-promise"

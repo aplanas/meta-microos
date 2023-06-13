@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-PyPDF3 \
 python3.10dist(pypdf3) \
 python310-PyPDF3 \
 python3dist(pypdf3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tqdm"
 

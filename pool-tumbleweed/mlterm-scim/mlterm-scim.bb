@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libim-scim.so()(64bit) \
 locale(scim:ja;ko;ar;he) \
 mlterm-scim \
 mlterm-scim(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

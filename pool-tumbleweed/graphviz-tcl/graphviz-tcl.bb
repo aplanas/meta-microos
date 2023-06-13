@@ -15,6 +15,7 @@ libgv_tcl.so()(64bit) \
 libtcldot.so.0()(64bit) \
 libtcldot_builtin.so.0()(64bit) \
 libtclplan.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 graphviz \
 ld-linux-aarch64.so.1()(64bit) \

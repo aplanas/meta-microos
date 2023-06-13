@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jnr-unixsocket \
 mvn(com.github.jnr:jnr-unixsocket) \
 mvn(com.github.jnr:jnr-unixsocket:pom:) \
 osgi(com.github.jnr.unixsocket)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.github.jnr:jnr-constants) \

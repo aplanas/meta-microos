@@ -12,6 +12,7 @@ aerc(aarch-64) \
 application() \
 application(aerc.desktop) \
 mimehandler(x-scheme-handler/mailto)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 /usr/bin/python3 \

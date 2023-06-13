@@ -147,6 +147,7 @@ font(shobhika) \
 font(shobhikabold) \
 font(shobhikaregular) \
 texlive-shobhika-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

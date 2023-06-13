@@ -58,6 +58,7 @@ locale(pan:zh_CN) \
 locale(pan:zh_TW) \
 pan-lang \
 pan-lang-all"
+
 RDEPENDS:${PN} += "pan"
 
 inherit rpm

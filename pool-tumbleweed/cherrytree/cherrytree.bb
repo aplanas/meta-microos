@@ -19,6 +19,7 @@ mimehandler(application/cherrytree-ctb) \
 mimehandler(application/cherrytree-ctd) \
 mimehandler(application/cherrytree-ctx) \
 mimehandler(application/cherrytree-ctz)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatkmm-1.6.so.1()(64bit) \

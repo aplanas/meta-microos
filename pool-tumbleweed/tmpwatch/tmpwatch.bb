@@ -18,6 +18,7 @@ RPM_HASH = "6d09c8a1ef3c54ccf9942ee575c3b31c1cdfed791ccc0f217c724f6970615b46fb83
 RPROVIDES:${PN} += "config(tmpwatch) \
 tmpwatch \
 tmpwatch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cron \
 ld-linux-aarch64.so.1()(64bit) \

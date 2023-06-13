@@ -9,6 +9,7 @@ RPM_HASH = "787c7ffde6df26f69a818a8ae8adf9b3078b9c4c9d9274735800a2ac9f0b8957bd6a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greenpoint-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

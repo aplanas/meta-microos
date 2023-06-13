@@ -13,6 +13,7 @@ RPM_HASH = "17d2b6625e06533191eeca06fe5c8831d0961e83721fddbe371ef67e268b2abba66c
 
 RPROVIDES:${PN} += "haxe \
 haxe(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

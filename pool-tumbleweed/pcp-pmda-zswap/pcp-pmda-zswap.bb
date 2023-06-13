@@ -10,6 +10,7 @@ RPM_HASH = "b6b80f20ccbdd500ba3784612274df181b3b89b04c05af97e2d5e5c1859d3e4430b0
 
 RPROVIDES:${PN} += "pcp-pmda-zswap \
 pcp-pmda-zswap(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

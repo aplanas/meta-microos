@@ -9,6 +9,7 @@ RPM_HASH = "c370867f0477b95da1a445333dfd3864bc89a653d1420ea7c90f6ce7ad0e6bbdd249
 
 RPROVIDES:${PN} += "filezilla-devel \
 filezilla-devel(aarch-64)"
+
 RDEPENDS:${PN} += "filezilla"
 
 inherit rpm

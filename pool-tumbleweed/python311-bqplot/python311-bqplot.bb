@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(bqplot) \
 python311-bqplot \
 python311-jupyter_bqplot \
 python3dist(bqplot)"
+
 RDEPENDS:${PN} += "jupyter-bqplot-notebook \
 python(abi) \
 python311-ipywidgets \

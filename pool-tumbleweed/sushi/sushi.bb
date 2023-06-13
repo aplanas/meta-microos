@@ -13,6 +13,7 @@ metainfo(org.gnome.NautilusPreviewer.appdata.xml) \
 sushi \
 sushi(aarch-64) \
 typelib(Sushi)"
+
 RDEPENDS:${PN} += "(typelib(LOKDocView) if libreoffice) \
 /usr/bin/gjs \
 ld-linux-aarch64.so.1()(64bit) \

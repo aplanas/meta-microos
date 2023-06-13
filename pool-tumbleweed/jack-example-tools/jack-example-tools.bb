@@ -18,6 +18,7 @@ RPM_HASH = "8f02ead8e4d2a6acfe1aded73f5dcdb00028b83354b0abc71198e64571edadb7ae45
 RPROVIDES:${PN} += "jack-example-tools \
 jack-example-tools(aarch-64) \
 jack:/usr/bin/jack_connect"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

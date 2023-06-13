@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-server-terminals) \
 python311-jupyter-server-terminals \
 python311-jupyter_server_terminals \
 python3dist(jupyter-server-terminals)"
+
 RDEPENDS:${PN} += "jupyter-server-terminals \
 python(abi) \
 python311-terminado"

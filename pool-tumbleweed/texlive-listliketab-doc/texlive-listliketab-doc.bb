@@ -9,6 +9,7 @@ RPM_HASH = "31f09169fe4996e0b7d8d23efb266395ea9d24e7e31975bf352c7969f97a362a4893
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listliketab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

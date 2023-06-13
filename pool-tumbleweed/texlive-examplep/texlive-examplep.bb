@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "tex(codep.sty) \
 tex(examplep.sty) \
 tex(verbfwr.sty) \
 texlive-examplep"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

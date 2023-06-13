@@ -15,6 +15,7 @@ python310-bcrypt \
 python310-bcrypt(aarch-64) \
 python310-py-bcrypt \
 python3dist(bcrypt)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

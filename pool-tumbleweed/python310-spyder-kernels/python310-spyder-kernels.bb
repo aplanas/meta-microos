@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-spyder-kernels \
 python3.10dist(spyder-kernels) \
 python310-spyder-kernels \
 python3dist(spyder-kernels)"
+
 RDEPENDS:${PN} += "(python310-ipykernel >= 6.16.1 with python310-ipykernel < 7) \
 (python310-ipython >= 7.31.1 with python310-ipython < 9) \
 (python310-jupyter_client >= 7.4.9 with python310-jupyter_client < 9) \

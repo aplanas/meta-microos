@@ -510,6 +510,7 @@ libgstzxing.so()(64bit) \
 metainfo() \
 metainfo(gstreamer-plugins-bad.appdata.xml) \
 patched_subset"
+
 RDEPENDS:${PN} += "glib2-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

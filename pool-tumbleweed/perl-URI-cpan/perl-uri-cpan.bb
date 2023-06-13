@@ -15,6 +15,7 @@ perl(URI::cpan::distfile) \
 perl(URI::cpan::module) \
 perl(URI::cpan::package) \
 perl-URI-cpan"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CPAN::DistnameInfo) \
 perl(URI) \

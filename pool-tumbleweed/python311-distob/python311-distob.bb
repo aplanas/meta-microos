@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(distob) \
 python311-distob \
 python3dist(distob)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-dill \
 python311-ipyparallel \

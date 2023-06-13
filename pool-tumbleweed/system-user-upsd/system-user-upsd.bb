@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(upsd) \
 system-user-upsd \
 user(upsd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(daemon) \
 sysuser-shadow"

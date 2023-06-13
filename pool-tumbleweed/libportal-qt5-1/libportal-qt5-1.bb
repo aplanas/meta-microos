@@ -11,6 +11,7 @@ RPM_HASH = "45852ca02e5c8d4c3202405e26694317427d28adceff1025fdf0ae429b5853f1c941
 RPROVIDES:${PN} += "libportal-qt5-1 \
 libportal-qt5-1(aarch-64) \
 libportal-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

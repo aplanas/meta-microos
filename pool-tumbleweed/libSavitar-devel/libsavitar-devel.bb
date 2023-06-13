@@ -10,6 +10,7 @@ RPM_HASH = "a6fa6e1d7d0e8bf2d6118ee5ac4e0d6379b6d359f326fd53267d13ebf8a15c81fa1d
 RPROVIDES:${PN} += "cmake(Savitar) \
 libSavitar-devel \
 libSavitar-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libSavitar0 \
 python3-sip-devel"
 

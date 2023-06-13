@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(pyviz-comms) \
 python39-pyviz-comms \
 python39-pyviz_comms \
 python3dist(pyviz-comms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-param"
 

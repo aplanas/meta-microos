@@ -10,6 +10,7 @@ RPM_HASH = "7b50dd566fc7aa0923138fd74e8bee6ea71432425a02677c3df5a19ef30182803841
 RPROVIDES:${PN} += "google-compute-engine-init \
 google-guest-agent \
 google-guest-agent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 google-guest-configs"
 

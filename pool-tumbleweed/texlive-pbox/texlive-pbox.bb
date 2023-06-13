@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pbox.sty) \
 texlive-pbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

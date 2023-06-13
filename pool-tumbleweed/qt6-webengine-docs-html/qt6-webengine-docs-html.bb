@@ -9,6 +9,7 @@ RPM_HASH = "8ead2a5a74515a7e2a8cbb9c4880dab208db04d3b65c912cbe63f38762116c93bf66
 
 RPROVIDES:${PN} += "qt6-webengine-docs-html \
 qt6-webengine-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

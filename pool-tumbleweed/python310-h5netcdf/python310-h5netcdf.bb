@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-h5netcdf \
 python3.10dist(h5netcdf) \
 python310-h5netcdf \
 python3dist(h5netcdf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5py"
 

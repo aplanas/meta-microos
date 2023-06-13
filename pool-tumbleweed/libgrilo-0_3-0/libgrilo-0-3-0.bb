@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "grilo \
 libgrilo-0.3.so.0()(64bit) \
 libgrilo-0_3-0 \
 libgrilo-0_3-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

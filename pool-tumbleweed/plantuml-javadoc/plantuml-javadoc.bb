@@ -9,6 +9,7 @@ RPM_HASH = "9fb1469b3d05703bae79f62841d23b5e9e3278e767a7c6d9f869e0546d02a8caa6c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plantuml-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

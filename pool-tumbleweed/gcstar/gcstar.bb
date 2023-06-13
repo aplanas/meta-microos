@@ -1266,6 +1266,7 @@ perl(GCUserFiltersDialog) \
 perl(GCUtils) \
 perl(GCWarningDialog) \
 perl(GCWidgets)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl \

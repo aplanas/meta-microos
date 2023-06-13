@@ -9,6 +9,7 @@ RPM_HASH = "499b60413d9838f23622c746c450fc04c6babe0ecd4b8e315dd47cb63f13bb7ac6da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-nvidia-optimus-manager"
+
 RDEPENDS:${PN} += "bumblebee-status"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "b3ff320d13c1ab44589f5d17381f6970665a2c09d9b48c852bc3597d6f429f13b0f6
 RPROVIDES:${PN} += "qt6-location-examples \
 qt6-positioning-examples \
 qt6-positioning-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

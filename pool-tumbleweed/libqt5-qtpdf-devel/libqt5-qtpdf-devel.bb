@@ -13,6 +13,7 @@ libqt5-qtpdf-devel \
 libqt5-qtpdf-devel(aarch-64) \
 pkgconfig(Qt5Pdf) \
 pkgconfig(Qt5PdfWidgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Pdf5 \
 libQt5PdfWidgets5 \

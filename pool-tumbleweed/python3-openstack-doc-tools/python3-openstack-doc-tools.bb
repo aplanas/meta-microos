@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-openstack-doc-tools \
 python3.10dist(openstack-doc-tools) \
 python3dist(openstack-doc-tools)"
+
 RDEPENDS:${PN} += "/bin/bash \
 python(abi) \
 python3-PyYAML \

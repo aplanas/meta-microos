@@ -34,6 +34,7 @@ locale(heaptrack:sv) \
 locale(heaptrack:tr) \
 locale(heaptrack:uk) \
 locale(heaptrack:zh_CN)"
+
 RDEPENDS:${PN} += "heaptrack"
 
 inherit rpm

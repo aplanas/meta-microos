@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(TeXB1.enc) \
 tex(b1cmr.fd) \
 tex(b1enc.def) \
 texlive-b1encoding"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

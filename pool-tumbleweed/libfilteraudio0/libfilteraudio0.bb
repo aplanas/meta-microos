@@ -12,6 +12,7 @@ RPM_HASH = "57aa2c0a045a3dfd33feb454264e3dc942c3140c33c70350ab0b3c7139f48437aec3
 RPROVIDES:${PN} += "libfilteraudio.so.0()(64bit) \
 libfilteraudio0 \
 libfilteraudio0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

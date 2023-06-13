@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cyr.sty) \
 texlive-fundus-cyr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

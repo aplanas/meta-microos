@@ -13,6 +13,7 @@ RPM_HASH = "ec350d979d482d709141dcb35043f999d02282cdf5c7a0a8e19536e52d34e3bbee69
 RPROVIDES:${PN} += "libvterm.so.0()(64bit) \
 libvterm0 \
 libvterm0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "ee0bc5e79e6582e42832e64e3ff3034750e964337cfb16c9525b0196858316f94cd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blkarray-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "88f88c24c79309a2c147d734f321e6663d7a497d6824618b854079815520beda2d0d
 RPROVIDES:${PN} += "criu-devel \
 criu-devel(aarch-64) \
 pkgconfig(criu)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcompel1 \

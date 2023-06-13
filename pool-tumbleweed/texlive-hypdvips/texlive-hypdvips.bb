@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hypdvips.sty) \
 texlive-hypdvips"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

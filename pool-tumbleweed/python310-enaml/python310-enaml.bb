@@ -18,6 +18,7 @@ python3.10dist(enaml) \
 python310-enaml \
 python310-enaml(aarch-64) \
 python3dist(enaml)"
+
 RDEPENDS:${PN} += "(python310-qt5 or python310-PyQt6 >= 6.3.1 or python3-pyside2 or python3-pyside6 >= 6.2.3) \
 /bin/sh \
 /usr/bin/python3.10 \

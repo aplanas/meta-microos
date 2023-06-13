@@ -10,6 +10,7 @@ RPM_HASH = "8ff11ad77d0f70d7576969732aa004e38b133a34dd7d36630343d3cc99c16ce83a22
 RPROVIDES:${PN} += "ghc-asn1-parse-prof \
 ghc-asn1-parse-prof(aarch-64) \
 ghc-prof(asn1-parse-0.9.5-EPDirjvv9Ch16KeQVAexUV)"
+
 RDEPENDS:${PN} += "ghc-asn1-parse-devel \
 ghc-prof(asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk) \
 ghc-prof(asn1-types-0.3.4-GYlFjiH4jmgJII5TgUQfXm) \

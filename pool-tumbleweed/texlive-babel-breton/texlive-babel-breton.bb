@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(breton.ldf) \
 texlive-babel-breton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

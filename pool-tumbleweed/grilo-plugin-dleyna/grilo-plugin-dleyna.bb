@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "grilo-plugin-dleyna \
 grilo-plugin-dleyna(aarch-64) \
 grilo-plugin-upnp \
 libgrldleyna.so()(64bit)"
+
 RDEPENDS:${PN} += "dbus(com.intel.dleyna-server) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

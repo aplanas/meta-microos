@@ -13,6 +13,7 @@ cloud-init(aarch-64) \
 config(cloud-init) \
 python3.10dist(cloud-init) \
 python3dist(cloud-init)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

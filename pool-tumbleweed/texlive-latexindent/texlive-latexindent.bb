@@ -51,6 +51,7 @@ perl(LatexIndent::Verbatim) \
 perl(LatexIndent::Version) \
 perl(LatexIndent::Wrap) \
 texlive-latexindent"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

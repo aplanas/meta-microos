@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-cryst-doc:de) \
 texlive-cryst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

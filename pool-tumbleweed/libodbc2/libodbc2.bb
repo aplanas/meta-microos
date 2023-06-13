@@ -13,6 +13,7 @@ libodbc2 \
 libodbc2(aarch-64) \
 libodbccr.so.2()(64bit) \
 libodbcinst.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

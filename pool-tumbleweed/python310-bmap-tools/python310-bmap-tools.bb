@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-bmap-tools \
 python3.10dist(bmap-tools) \
 python310-bmap-tools \
 python3dist(bmap-tools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

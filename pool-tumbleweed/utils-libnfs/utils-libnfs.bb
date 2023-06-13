@@ -11,6 +11,7 @@ RPM_HASH = "fb50f499103d945cbc495b73a1958de3c2cb6d5315812b536ca3294978f9f707f7b7
 RPROVIDES:${PN} += "libnfs \
 utils-libnfs \
 utils-libnfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

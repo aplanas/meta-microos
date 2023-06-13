@@ -9,6 +9,7 @@ RPM_HASH = "7865a1f3ef462851c45a981c7255042cf0c073c8371b49ebac15471012586e961fdc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-figput-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

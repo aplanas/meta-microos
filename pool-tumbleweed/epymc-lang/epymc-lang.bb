@@ -14,6 +14,7 @@ locale(epymc:de) \
 locale(epymc:fi) \
 locale(epymc:it) \
 locale(epymc:ru)"
+
 RDEPENDS:${PN} += "epymc"
 
 inherit rpm

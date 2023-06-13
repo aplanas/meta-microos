@@ -13,6 +13,7 @@ RPM_HASH = "c0c149d414d2c31eb63b7d456253b3cf87684f219fc0ade9b5b3285138cb7704892e
 
 RPROVIDES:${PN} += "pango-tools \
 pango-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

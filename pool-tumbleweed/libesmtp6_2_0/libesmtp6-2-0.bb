@@ -14,6 +14,7 @@ RPM_HASH = "5c6fc330300d1ab8e55f28eb05193a337bed926b13b47c023b0c353a49b7160ebf11
 RPROVIDES:${PN} += "libesmtp.so.6.2.0()(64bit) \
 libesmtp6_2_0 \
 libesmtp6_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

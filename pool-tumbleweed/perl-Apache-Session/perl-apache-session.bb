@@ -59,6 +59,7 @@ perl(Apache::Session::Store::Postgres) \
 perl(Apache::Session::Store::Sybase) \
 perl(Apache::Session::Sybase) \
 perl-Apache-Session"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

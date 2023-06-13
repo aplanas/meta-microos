@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(swimgraf.cfg) \
 tex(swimgraf.sty) \
 texlive-swimgraf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

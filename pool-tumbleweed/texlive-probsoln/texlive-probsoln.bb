@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(probsoln.sty) \
 texlive-probsoln"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

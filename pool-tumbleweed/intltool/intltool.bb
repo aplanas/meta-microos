@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intltool \
 xml-i18n-tools"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 gettext-tools \

@@ -18,6 +18,7 @@ libcantor_config.so()(64bit) \
 metainfo() \
 metainfo(org.kde.cantor.appdata.xml) \
 mimehandler(application/x-cantor)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

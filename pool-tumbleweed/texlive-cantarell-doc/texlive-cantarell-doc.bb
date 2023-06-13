@@ -9,6 +9,7 @@ RPM_HASH = "263ff7d5195e69ba6acd14c39172a4a5947f569d83a0db525bc3487394c904102da7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cantarell-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

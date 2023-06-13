@@ -15,6 +15,7 @@ pkgconfig(compiz-animation) \
 pkgconfig(compiz-focuspoll) \
 pkgconfig(compiz-mousepoll) \
 pkgconfig(compiz-text)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 compiz-plugins-main \
 pkgconfig(bcop) \

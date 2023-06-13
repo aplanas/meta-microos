@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibrarypenrose.code.tex) \
 texlive-penrose"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

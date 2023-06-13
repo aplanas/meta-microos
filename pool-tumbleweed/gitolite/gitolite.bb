@@ -39,6 +39,7 @@ perl(Gitolite::Triggers::TProxy) \
 perl(Gitolite::Triggers::Writable) \
 perl(SugarBox) \
 perl(Tsh)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

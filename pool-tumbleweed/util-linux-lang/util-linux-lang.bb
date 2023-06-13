@@ -37,6 +37,7 @@ locale(util-linux:zh_CN) \
 locale(util-linux:zh_TW) \
 util-linux-lang \
 util-linux-lang-all"
+
 RDEPENDS:${PN} += "util-linux"
 
 inherit rpm

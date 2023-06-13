@@ -11,6 +11,7 @@ RPM_HASH = "355e381082230c4fc30fc1bcc2e218fa0fc55d82b04394cd0d7c442d057c2b130fed
 RPROVIDES:${PN} += "ghc-http-conduit \
 ghc-http-conduit(aarch-64) \
 libHShttp-conduit-2.3.8-9gcbWW2UjPVHQDceZSAOIR-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

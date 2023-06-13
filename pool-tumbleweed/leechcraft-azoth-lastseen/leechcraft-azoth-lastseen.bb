@@ -12,6 +12,7 @@ RPM_HASH = "5bf1bdc71d24906a789c8c662ab8e0f2fdb6ad23af3e60fd298471a452679c3d6109
 RPROVIDES:${PN} += "leechcraft-azoth-lastseen \
 leechcraft-azoth-lastseen(aarch-64) \
 libleechcraft_azoth_lastseen.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

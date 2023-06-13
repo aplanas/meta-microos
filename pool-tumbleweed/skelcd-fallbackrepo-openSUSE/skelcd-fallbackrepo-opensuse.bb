@@ -11,6 +11,7 @@ RPM_HASH = "aa76d0f15dceb77aa3166a73682d1a5cc3f0a6e8f6ffe2077f6936ebe257ac827cf2
 RPROVIDES:${PN} += "skelcd-fallbackrepo \
 skelcd-fallbackrepo-openSUSE \
 skelcd-fallbackrepo-openSUSE(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

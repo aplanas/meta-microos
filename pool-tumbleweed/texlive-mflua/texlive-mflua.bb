@@ -10,6 +10,7 @@ RPM_HASH = "75741400bdff716c82e122f328351defe2d86f3ce875529748979f8a181f1c34fddf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mflua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

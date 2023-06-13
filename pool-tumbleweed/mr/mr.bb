@@ -25,6 +25,7 @@ RPM_HASH = "c4798cefa4baffb1bee0948e757801519dbd2504e22c38fab560486d105e573e0959
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mr"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl"
 

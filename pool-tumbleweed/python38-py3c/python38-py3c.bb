@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(py3c) \
 python38-py3c \
 python3dist(py3c)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "d04b807ce4dd3cd7d2830c46a0d30be705378804c73fb41d916dc14496400de80ed0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librvngabw-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

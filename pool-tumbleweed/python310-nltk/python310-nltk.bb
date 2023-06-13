@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-nltk \
 python3.10dist(nltk) \
 python310-nltk \
 python3dist(nltk)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

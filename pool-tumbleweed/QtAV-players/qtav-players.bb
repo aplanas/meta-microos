@@ -80,6 +80,7 @@ mimehandler(video/x-ms-wvxvideo) \
 mimehandler(video/x-msvideo) \
 mimehandler(video/x-ogm+ogg) \
 mimehandler(video/x-theora)"
+
 RDEPENDS:${PN} += "/bin/sh \
 QtAV-qml \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_hotspot) \
 mvn(io.prometheus:simpleclient_hotspot:pom:) \
 osgi(io.prometheus.simpleclient_hotspot) \
 prometheus-simpleclient-java-hotspot"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(io.prometheus:simpleclient)"

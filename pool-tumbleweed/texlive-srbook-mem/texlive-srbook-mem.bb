@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(srbook-mem.sty) \
 texlive-srbook-mem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

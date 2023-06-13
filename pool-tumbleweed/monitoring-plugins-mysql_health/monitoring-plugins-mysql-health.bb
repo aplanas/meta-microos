@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-mysql_health \
 nagios-plugins-mysql_health"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 mysql-client"
 

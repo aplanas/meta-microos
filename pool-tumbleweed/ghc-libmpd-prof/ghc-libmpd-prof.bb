@@ -10,6 +10,7 @@ RPM_HASH = "8debc2df70bfed5558d3ba7826155cd09db1ae8edfe87b72d82b4c6e5bee34fd5cb7
 RPROVIDES:${PN} += "ghc-libmpd-prof \
 ghc-libmpd-prof(aarch-64) \
 ghc-prof(libmpd-0.10.0.0-LD6WRi8pb0r8mm5YrtyxA5)"
+
 RDEPENDS:${PN} += "ghc-libmpd-devel \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \

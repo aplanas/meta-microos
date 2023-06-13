@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mate-menu \
 python3.10dist(mate-menu) \
 python3dist(mate-menu)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 glib2-tools \
 gvfs \

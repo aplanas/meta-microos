@@ -11,6 +11,7 @@ RPM_HASH = "32b6c37f7d6154dd554c5e3e0f9c5664e7ec99405114718f44179bef5ff0e7ff9b11
 RPROVIDES:${PN} += "ghc-devel(safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD) \
 ghc-safe-exceptions-devel \
 ghc-safe-exceptions-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

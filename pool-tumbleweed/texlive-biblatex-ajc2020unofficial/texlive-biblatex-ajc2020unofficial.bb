@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(ajc2020unofficial.bbx) \
 tex(ajc2020unofficial.cbx) \
 texlive-biblatex-ajc2020unofficial"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

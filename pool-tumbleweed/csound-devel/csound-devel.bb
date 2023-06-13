@@ -9,6 +9,7 @@ RPM_HASH = "3a9c2d7dba9a64c0092da4ad5b53e01cb1e77916152ad4b973417f589495423c9cd6
 
 RPROVIDES:${PN} += "csound-devel \
 csound-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcsnd6-6_0 \
 libcsound64-6_0"
 

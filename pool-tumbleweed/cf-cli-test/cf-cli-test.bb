@@ -9,6 +9,7 @@ RPM_HASH = "259fd9264a121dc2336be9d41744af0be68ce1c89402bb0dc5990e1cf2870c4ec091
 
 RPROVIDES:${PN} += "cf-cli-test \
 cf-cli-test(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

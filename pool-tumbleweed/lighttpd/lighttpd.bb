@@ -17,6 +17,7 @@ http_daemon \
 httpd \
 lighttpd \
 lighttpd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

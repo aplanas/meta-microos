@@ -16,6 +16,7 @@ libqt5-qtmultimedia-devel \
 libqt5-qtmultimedia-devel(aarch-64) \
 pkgconfig(Qt5Multimedia) \
 pkgconfig(Qt5MultimediaWidgets)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Multimedia5 \
 libpulse-devel \

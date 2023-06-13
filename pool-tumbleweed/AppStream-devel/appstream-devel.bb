@@ -14,6 +14,7 @@ RPM_HASH = "6eac4887f3248b35f3b8e2edacc37129e4f68a1873bf869040d0be58c08cecad0675
 RPROVIDES:${PN} += "AppStream-devel \
 AppStream-devel(aarch-64) \
 pkgconfig(appstream)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 AppStream \
 libappstream4 \

@@ -9,6 +9,7 @@ RPM_HASH = "cefda741c468b6cb0694bf15ae3ff0206e7dd7a17cbe6810f71d2b6377d2abf8a66c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-degrade-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(textpathmp.sty) \
 texlive-textpath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

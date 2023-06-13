@@ -47,6 +47,7 @@ font(fandolhei) \
 font(fandolkai) \
 font(fandolsong) \
 texlive-fandol-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -16,6 +16,7 @@ RPM_HASH = "47e90f702294a2244321202616ebebd6f2e336e90ef90371d0786d52fe5259bf2f6d
 RPROVIDES:${PN} += "libmpfi.so.0()(64bit) \
 libmpfi0 \
 libmpfi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

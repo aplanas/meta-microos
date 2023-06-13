@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "glabels-devel \
 glabels-devel(aarch-64) \
 pkgconfig(libglabels-3.0) \
 pkgconfig(libglbarcode-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glabels \
 pkgconfig(cairo) \

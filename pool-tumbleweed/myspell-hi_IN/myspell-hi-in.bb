@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:hi_IN) \
 myspell-dictionary \
 myspell-hi_IN \
 myspell-hindi"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

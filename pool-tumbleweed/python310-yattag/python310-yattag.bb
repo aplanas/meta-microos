@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-yattag \
 python3.10dist(yattag) \
 python310-yattag \
 python3dist(yattag)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1af7a9288713e31e33c4dc841c3a87512b742ab7844e567be3302c03b6d1e25dd6aa
 
 RPROVIDES:${PN} += "vagrant-libvirt-doc \
 vagrant-libvirt-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

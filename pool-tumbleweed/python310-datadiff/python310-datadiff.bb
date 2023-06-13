@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-datadiff \
 python3.10dist(datadiff) \
 python310-datadiff \
 python3dist(datadiff)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(counttexruns.sty) \
 texlive-counttexruns"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

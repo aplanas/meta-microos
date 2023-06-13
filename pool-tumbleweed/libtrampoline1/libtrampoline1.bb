@@ -13,6 +13,7 @@ RPM_HASH = "e3870ff7514740662590cd320b64bff373fca27199473bacab8ad96dccdc20880517
 RPROVIDES:${PN} += "libtrampoline.so.1()(64bit) \
 libtrampoline1 \
 libtrampoline1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit)"
 

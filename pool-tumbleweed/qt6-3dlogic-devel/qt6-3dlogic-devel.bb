@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DLogic) \
 pkgconfig(Qt63DLogic) \
 qt6-3dlogic-devel \
 qt6-3dlogic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 libQt63DLogic6 \

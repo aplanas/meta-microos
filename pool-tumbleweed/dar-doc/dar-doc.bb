@@ -9,6 +9,7 @@ RPM_HASH = "97685963c633064fe2cf499258b60afd978d15e0711f6315f20f05747d115aaee0c1
 
 RPROVIDES:${PN} += "dar-doc \
 dar-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

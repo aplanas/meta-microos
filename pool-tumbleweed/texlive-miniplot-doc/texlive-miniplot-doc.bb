@@ -9,6 +9,7 @@ RPM_HASH = "7c0039c1a61eb8ae16e7a189cc514850172242e7f9db93901da726997def3df1cce9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-miniplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

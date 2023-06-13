@@ -10,6 +10,7 @@ RPM_HASH = "5c3fab1a583046a57c6597b62805b3959e90124b3bdebf32eea0d3b488b01f974d6e
 
 RPROVIDES:${PN} += "glade-catalog-libgda \
 glade-catalog-libgda(aarch-64)"
+
 RDEPENDS:${PN} += "glade \
 libgda-6_0"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "librlog-devel \
 librlog-devel(aarch-64) \
 pkgconfig(librlog) \
 rlog-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librlog5 \
 libstdc++-devel"

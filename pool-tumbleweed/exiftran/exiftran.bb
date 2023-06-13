@@ -14,6 +14,7 @@ RPM_HASH = "d0aaf8fd732019b60be2eab612133a207ef674d17279b36f33c9c7d29b6832e71404
 
 RPROVIDES:${PN} += "exiftran \
 exiftran(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libexif.so.12()(64bit) \
 libjpeg.so.8()(64bit) \

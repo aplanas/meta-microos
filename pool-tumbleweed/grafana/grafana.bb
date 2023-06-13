@@ -13,6 +13,7 @@ RPM_HASH = "8c0e9d95c3588a3eba8ad275b0410609ce794343d70192a65ab6fae4154fd35529b2
 RPROVIDES:${PN} += "config(grafana) \
 grafana \
 grafana(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/mkdir \

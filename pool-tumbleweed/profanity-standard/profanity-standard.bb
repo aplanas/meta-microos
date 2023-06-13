@@ -16,6 +16,7 @@ RPM_HASH = "a66ba066ef6b8afa3851818bd44bca9cb992beea0b19903751c8b57bb8575f885593
 RPROVIDES:${PN} += "profanity-binary \
 profanity-standard \
 profanity-standard(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

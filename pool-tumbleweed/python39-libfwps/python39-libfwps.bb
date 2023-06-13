@@ -11,6 +11,7 @@ RPM_HASH = "8bf9dc6d20b79d28eddbd46c95a734688426595fb74c3deb3b62d7f8f8ad88d6adeb
 
 RPROVIDES:${PN} += "python39-libfwps \
 python39-libfwps(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

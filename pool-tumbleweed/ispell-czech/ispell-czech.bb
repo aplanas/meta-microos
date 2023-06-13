@@ -15,6 +15,7 @@ ispell-czech \
 ispell-czech(aarch-64) \
 ispell_dictionary \
 locale(ispell:cs;sk)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

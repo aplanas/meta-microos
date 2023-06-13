@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "metainfo() \
 metainfo(io.elementary.stylesheet.appdata.xml) \
 metatheme-elementary-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

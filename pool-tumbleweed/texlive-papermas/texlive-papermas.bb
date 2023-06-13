@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(papermas.sty) \
 texlive-papermas"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

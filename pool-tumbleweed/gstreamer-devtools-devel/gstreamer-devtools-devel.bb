@@ -19,6 +19,7 @@ libgstvalidategtk.so()(64bit) \
 libgstvalidatessim.so()(64bit) \
 libgstvalidatetracer.so()(64bit) \
 pkgconfig(gstreamer-validate-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gstreamer-devtools \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "816402a059f5bf2d998f830389e79d6ee43c2125d1732560bd2f6419e5a4aec5c521
 RPROVIDES:${PN} += "libfreeimage.so.3()(64bit) \
 libfreeimage3 \
 libfreeimage3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

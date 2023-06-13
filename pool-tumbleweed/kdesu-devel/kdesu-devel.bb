@@ -13,6 +13,7 @@ RPM_HASH = "289b5531f6638aa12074ba04b620efc8b392a377724a24ce485deb031bc17d5d5564
 RPROVIDES:${PN} += "cmake(KF5Su) \
 kdesu-devel \
 kdesu-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Pty) \
 cmake(KF5Service) \
 extra-cmake-modules \

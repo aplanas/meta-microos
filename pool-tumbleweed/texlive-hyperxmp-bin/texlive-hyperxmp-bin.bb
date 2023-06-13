@@ -9,6 +9,7 @@ RPM_HASH = "1b5f84ccf35b3e2c6b4d749ba38c472877e0acde6190caa1d71e7b351761398d0b4d
 
 RPROVIDES:${PN} += "texlive-hyperxmp-bin \
 texlive-hyperxmp-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-hyperxmp"
 
 inherit rpm

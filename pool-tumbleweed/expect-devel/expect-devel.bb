@@ -14,6 +14,7 @@ RPM_HASH = "09b4b0fea837b1d13c0494d61493c90ad555e0f4bc46b199ae9d24f4b637782322b2
 
 RPROVIDES:${PN} += "expect-devel \
 expect-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -67,6 +67,7 @@ locale(libktorrent:ug) \
 locale(libktorrent:uk) \
 locale(libktorrent:zh_CN) \
 locale(libktorrent:zh_TW)"
+
 RDEPENDS:${PN} += "libktorrent"
 
 inherit rpm

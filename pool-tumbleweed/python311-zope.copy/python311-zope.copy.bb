@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.copy) \
 python311-zope.copy \
 python3dist(zope.copy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.interface"
 

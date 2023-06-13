@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(outcome) \
 python39-outcome \
 python3dist(outcome)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs"
 

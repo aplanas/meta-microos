@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(circledtext.sty) \
 texlive-circledtext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

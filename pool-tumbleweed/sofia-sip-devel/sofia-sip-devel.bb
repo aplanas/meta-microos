@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "pkgconfig(sofia-sip-ua) \
 pkgconfig(sofia-sip-ua-glib) \
 sofia-sip-devel \
 sofia-sip-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/pkg-config \
 glib2-devel \

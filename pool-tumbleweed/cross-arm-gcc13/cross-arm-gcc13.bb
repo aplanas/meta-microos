@@ -12,6 +12,7 @@ RPM_HASH = "f0eeaf07cbee97d9bf84c27c697cf03da95c13a97fc3732702d98c0d152b2a216b37
 
 RPROVIDES:${PN} += "cross-arm-gcc13 \
 cross-arm-gcc13(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-arm-binutils \
 libstdc++6-devel-gcc13 \

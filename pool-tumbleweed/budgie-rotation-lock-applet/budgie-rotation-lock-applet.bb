@@ -9,6 +9,7 @@ RPM_HASH = "c223de586b4c21c79cd197db96859ef3a08ac2747016dbeea3189cc326f377342f77
 
 RPROVIDES:${PN} += "budgie-rotation-lock-applet \
 budgie-rotation-lock-applet(aarch-64)"
+
 RDEPENDS:${PN} += "python3-gobject-Gdk \
 typelib(Budgie) \
 typelib(GObject) \

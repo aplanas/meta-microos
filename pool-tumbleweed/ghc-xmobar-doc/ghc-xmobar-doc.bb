@@ -9,6 +9,7 @@ RPM_HASH = "be82b61b40d1b0f574c27e32a02e526494f827a6be161f9059a7e81a2c5a3feb4a01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xmobar-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

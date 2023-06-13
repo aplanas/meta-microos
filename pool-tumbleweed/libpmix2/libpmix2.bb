@@ -10,6 +10,7 @@ RPM_HASH = "c3bb57c8c1b06bcaac658cc01262780d065e3c1bc71695e3fc8f83d1e07b2155b134
 RPROVIDES:${PN} += "libpmix.so.2()(64bit) \
 libpmix2 \
 libpmix2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

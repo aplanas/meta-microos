@@ -17,6 +17,7 @@ application(kajaani-kombat-fullscreen.desktop) \
 application(kajaani-kombat.desktop) \
 kajaani-kombat \
 kajaani-kombat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

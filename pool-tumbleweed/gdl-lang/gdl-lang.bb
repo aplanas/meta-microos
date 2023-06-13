@@ -80,6 +80,7 @@ locale(gdl:vi) \
 locale(gdl:zh_CN) \
 locale(gdl:zh_HK) \
 locale(gdl:zh_TW)"
+
 RDEPENDS:${PN} += "gdl"
 
 inherit rpm

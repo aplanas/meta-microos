@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "file:/usr/lib64/libmagic.so.1 \
 libmagic.so.1()(64bit) \
 libmagic1 \
 libmagic1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 file-magic \
 ld-linux-aarch64.so.1()(64bit) \

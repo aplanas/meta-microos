@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-repoze.who \
 python3.10dist(repoze.who) \
 python310-repoze.who \
 python3dist(repoze.who)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-WebOb \
 python310-zope.interface"

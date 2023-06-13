@@ -10,6 +10,7 @@ RPM_HASH = "aff130370d2de73411cdb1787f7ccb03b5a1927ffce60171b905aef7585bd236aeb6
 
 RPROVIDES:${PN} += "rados-objclass-devel \
 rados-objclass-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libradospp-devel"
 
 inherit rpm

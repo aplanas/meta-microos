@@ -10,6 +10,7 @@ RPM_HASH = "f93292603d3da5654f72695a0fb3abafef3a948b9383badd5f5977feac5c578f5b23
 
 RPROVIDES:${PN} += "hwinfo \
 hwinfo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

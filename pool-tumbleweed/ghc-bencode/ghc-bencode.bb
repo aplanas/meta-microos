@@ -12,6 +12,7 @@ RPM_HASH = "2ccf223dfeb81d0f11cffc68ee0609bb9948c3124370109ca59c450fa935ed60cdbc
 RPROVIDES:${PN} += "ghc-bencode \
 ghc-bencode(aarch-64) \
 libHSbencode-0.6.1.1-GM7FbH3LNxfAWaUPR0lH5w-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

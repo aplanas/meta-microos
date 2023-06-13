@@ -10,6 +10,7 @@ RPM_HASH = "9ff7e74da87782338169457f1fdf33e73b99bfb1015a389c5f74c15439be1ab6a3e6
 
 RPROVIDES:${PN} += "libvirt-daemon-lxc \
 libvirt-daemon-lxc(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-daemon-driver-interface \
 libvirt-daemon-driver-lxc \
 libvirt-daemon-driver-network \

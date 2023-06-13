@@ -10,6 +10,7 @@ RPM_HASH = "aa6496ab0320182a6f2b25e2ba2315151b20b7f3f6e7d70b3cfc137f273572e84a54
 RPROVIDES:${PN} += "ghc-monad-logger \
 ghc-monad-logger(aarch-64) \
 libHSmonad-logger-0.3.39-6zcML8Hf5KyK4tRVcaUTsA-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

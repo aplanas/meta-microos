@@ -10,6 +10,7 @@ RPM_HASH = "1197a732a05a797ba39393b15aab482b47a59e0884b8fb8b6d3d5830811a0894cfb8
 RPROVIDES:${PN} += "pkgconfig(xmlsec1-gnutls) \
 xmlsec1-gnutls-devel \
 xmlsec1-gnutls-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnutls-devel \
 libgcrypt-devel \

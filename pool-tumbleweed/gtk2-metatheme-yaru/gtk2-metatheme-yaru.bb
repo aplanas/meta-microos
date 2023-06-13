@@ -9,6 +9,7 @@ RPM_HASH = "6971d348ceae65da01d795be4a1dbc853440a0b08ae9f48d9db8f3cdf045ee9a173a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-yaru"
+
 RDEPENDS:${PN} += "gtk2-engine-murrine \
 gtk2-theming-engine-adwaita \
 metatheme-yaru-common"

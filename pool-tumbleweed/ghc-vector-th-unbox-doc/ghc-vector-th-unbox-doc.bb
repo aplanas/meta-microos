@@ -9,6 +9,7 @@ RPM_HASH = "143958c9d8b17e05fcb524cbbb8bccccfc07313dcc3593cbcc6d03fe9ba520e4f7a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vector-th-unbox-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

@@ -74,6 +74,7 @@ locale(NetworkManager:wa) \
 locale(NetworkManager:zh_CN) \
 locale(NetworkManager:zh_HK) \
 locale(NetworkManager:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager"
 
 inherit rpm

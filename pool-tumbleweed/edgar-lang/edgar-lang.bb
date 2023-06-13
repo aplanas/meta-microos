@@ -42,6 +42,7 @@ locale(edgar:tr) \
 locale(edgar:uk) \
 locale(edgar:vi) \
 locale(edgar:zh_CN)"
+
 RDEPENDS:${PN} += "edgar"
 
 inherit rpm

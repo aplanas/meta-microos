@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(monitoring-plugins-cups) \
 monitoring-plugins-cups \
 monitoring-plugins-cups(aarch-64) \
 nagios-plugins-cups"
+
 RDEPENDS:${PN} += "/bin/bash \
 cups-client"
 

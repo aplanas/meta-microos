@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-spectra.sty) \
 tex(pst-spectra.tex) \
 texlive-pst-spectra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

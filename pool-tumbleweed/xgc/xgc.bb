@@ -10,6 +10,7 @@ RPM_HASH = "d1d3f6df0fbd276dfab9bbc74d5ef44a840b71169f38743f0206a57e23745845fae2
 
 RPROVIDES:${PN} += "xgc \
 xgc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

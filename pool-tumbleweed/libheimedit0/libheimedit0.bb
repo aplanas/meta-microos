@@ -12,6 +12,7 @@ RPM_HASH = "e2b74a6e928c551f9a9d911d28c95648faa138c41d858c76913b3bebaae7c096eca2
 RPROVIDES:${PN} += "libheimedit.so.0()(64bit) \
 libheimedit0 \
 libheimedit0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

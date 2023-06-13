@@ -13,6 +13,7 @@ RPM_HASH = "16534ebfbd88d836f474f9dc5f317f57f5421090c3845f442e39f33ac108194132c3
 RPROVIDES:${PN} += "libfusn-devel \
 libfusn-devel(aarch-64) \
 pkgconfig(libfusn)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfusn1"
 

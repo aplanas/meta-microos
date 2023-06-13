@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sapthesis.cls) \
 texlive-sapthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "4d1830fc5defb36811204d133befe591b4f7dc3b8918a316b36c3f7368530c2e99fc
 RPROVIDES:${PN} += "ghc-devel(regex-tdfa-1.3.2-CiIqW6NRXBXL0jfv03YXoU) \
 ghc-regex-tdfa-devel \
 ghc-regex-tdfa-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

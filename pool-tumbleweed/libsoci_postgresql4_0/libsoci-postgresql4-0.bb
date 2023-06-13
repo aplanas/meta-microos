@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libsoci4_0-backend \
 libsoci_postgresql.so.4.0()(64bit) \
 libsoci_postgresql4_0 \
 libsoci_postgresql4_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

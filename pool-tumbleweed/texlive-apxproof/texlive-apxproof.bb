@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(apxproof.sty) \
 texlive-apxproof"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

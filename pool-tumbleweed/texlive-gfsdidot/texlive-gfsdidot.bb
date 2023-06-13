@@ -185,6 +185,7 @@ tex(ts1-gfsdidotui.vf) \
 tex(ts1udidot.fd) \
 tex(uudidotnums.fd) \
 texlive-gfsdidot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

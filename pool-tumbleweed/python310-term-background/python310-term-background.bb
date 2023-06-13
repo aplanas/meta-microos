@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-term-background \
 python3.10dist(term-background) \
 python310-term-background \
 python3dist(term-background)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

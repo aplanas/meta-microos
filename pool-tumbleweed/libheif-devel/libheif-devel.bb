@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(libheif) \
 libheif-devel \
 libheif-devel(aarch-64) \
 pkgconfig(libheif)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libheif1 \
 pkgconfig(aom) \

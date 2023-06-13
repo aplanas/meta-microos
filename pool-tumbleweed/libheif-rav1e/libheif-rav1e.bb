@@ -11,6 +11,7 @@ RPM_HASH = "6fda2f199f924bbbecd2c0377b351878db01d42858fcaf12e124299045ebd217318f
 RPROVIDES:${PN} += "libheif-rav1e \
 libheif-rav1e(aarch-64) \
 libheif-rav1e.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

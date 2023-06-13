@@ -9,6 +9,7 @@ RPM_HASH = "79088e5377fea829b8db48043de98d4bd83fdd793b6e59f47cdaadba9d70ec08b76c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cyklop-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

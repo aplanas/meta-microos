@@ -23,6 +23,7 @@ librecad(aarch-64) \
 libsameprop.so()(64bit) \
 libsample.so()(64bit) \
 mimehandler(image/vnd.dxf)"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

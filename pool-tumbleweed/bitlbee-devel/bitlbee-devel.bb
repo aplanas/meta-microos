@@ -14,6 +14,7 @@ RPM_HASH = "5b4bb41e31f938787ede62bd66b56a94e019706d218ba61e7d9711ea39a133f3a96f
 RPROVIDES:${PN} += "bitlbee-devel \
 bitlbee-devel(aarch-64) \
 pkgconfig(bitlbee)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bitlbee \
 pkgconfig(glib-2.0)"

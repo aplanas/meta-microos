@@ -17,6 +17,7 @@ RPM_HASH = "e2f3cfd16998b1a6632c0d47be611e0738fcc2ef0914b8fea55a457e04d0a5f830df
 RPROVIDES:${PN} += "librocksdb.so.8()(64bit) \
 librocksdb8 \
 librocksdb8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

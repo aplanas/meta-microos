@@ -12,6 +12,7 @@ RPM_HASH = "e3a7d55f7bc15c974e7af2c40f2f7887d697453d0c65a5e9c9d0725f5c6cbfb8a637
 
 RPROVIDES:${PN} += "virt-sandbox \
 virt-sandbox(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

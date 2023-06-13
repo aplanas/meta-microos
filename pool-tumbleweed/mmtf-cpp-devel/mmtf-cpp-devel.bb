@@ -10,6 +10,7 @@ RPM_HASH = "b6eba2a258e0effb15cd10c4082bd15b1fc6f59755545d1c340e199b4d12db8d83d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mmtf-cpp-devel"
+
 RDEPENDS:${PN} += "msgpack-cxx-devel"
 
 inherit rpm

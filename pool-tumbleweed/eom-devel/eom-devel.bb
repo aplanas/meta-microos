@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "eom-devel \
 eom-devel(aarch-64) \
 mate-image-viewer-devel \
 pkgconfig(eom)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 eom \
 pkgconfig(gio-2.0) \

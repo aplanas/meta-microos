@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Pod::Coverage::Moose) \
 perl-Pod-Coverage-Moose"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(Moose) \

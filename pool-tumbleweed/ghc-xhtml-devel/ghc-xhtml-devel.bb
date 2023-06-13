@@ -12,6 +12,7 @@ ghc-xhtml-devel \
 ghc-xhtml-devel(aarch-64) \
 ghc-xhtml-static \
 ghc-xhtml-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-xhtml(aarch-64)"

@@ -9,6 +9,7 @@ RPM_HASH = "3e9d5027168a025d354209995b3ace18b8c49352a9c00436751272ea8914ae1eeb43
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "os-autoinst-distri-opensuse-deps"
+
 RDEPENDS:${PN} += "perl(Carp) \
 perl(Class::Accessor::Fast) \
 perl(Code::DRY) \

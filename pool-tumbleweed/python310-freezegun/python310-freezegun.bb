@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-freezegun \
 python3.10dist(freezegun) \
 python310-freezegun \
 python3dist(freezegun)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-python-dateutil"

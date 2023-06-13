@@ -20,6 +20,7 @@ RPM_HASH = "47d7d3750007d71d843b441c1287fd89b63407b4158e93d3b4460ddda39694268810
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-diagnostics"
+
 RDEPENDS:${PN} += "(python39-bokeh >= 2.4.2 with python39-bokeh < 3) \
 python(abi) \
 python39-Jinja2 \

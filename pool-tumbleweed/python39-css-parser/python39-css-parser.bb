@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(css-parser) \
 python39-css-parser \
 python3dist(css-parser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-chardet"
 

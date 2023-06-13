@@ -9,6 +9,7 @@ RPM_HASH = "503e4a17152a2ee7697ba35fe1ab0d1786a5f73449aa2c7199b10916525d52a95c98
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-vietnamese-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

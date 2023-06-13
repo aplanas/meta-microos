@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-fritzconnection \
 python3.10dist(fritzconnection) \
 python3dist(fritzconnection)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-lxml \

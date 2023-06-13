@@ -36,6 +36,7 @@ tex(nfssfox.tex) \
 tex(testfox.tex) \
 tex(testkern.tex) \
 texlive-lh"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

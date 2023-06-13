@@ -14,6 +14,7 @@ mvn(org.apache.maven.resolver:maven-resolver-named-locks:pom:) \
 mvn(org.eclipse.aether:aether-named-locks) \
 mvn(org.eclipse.aether:aether-named-locks:pom:) \
 osgi(org.apache.maven.resolver.named.locks)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.slf4j:slf4j-api)"

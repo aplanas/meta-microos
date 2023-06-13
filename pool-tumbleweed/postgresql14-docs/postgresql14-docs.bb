@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-docs-implementation \
 postgresql14-docs"
+
 RDEPENDS:${PN} += "postgresql-docs-noarch"
 
 inherit rpm

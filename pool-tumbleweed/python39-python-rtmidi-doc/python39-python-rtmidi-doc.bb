@@ -9,6 +9,7 @@ RPM_HASH = "d94ef1b801c9ef44c86c461fa755f219920fc05ffecd37e8e0c43061fbcf2ab2588a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-python-rtmidi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

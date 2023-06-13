@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(ctanify.1) \
 texlive-ctanify-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

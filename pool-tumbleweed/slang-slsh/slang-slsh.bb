@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(slang-slsh) \
 slang \
 slang-slsh \
 slang-slsh(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

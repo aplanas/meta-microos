@@ -9,6 +9,7 @@ RPM_HASH = "616f13d98e338022d303ccba71f9a1e06b7e33401103c29b1fd9d15dbc1110d79d20
 
 RPROVIDES:${PN} += "dialog-devel \
 dialog-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 libdialog15"
 

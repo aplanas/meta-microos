@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt53DQuickExtras) \
 libQt53DQuickExtras-devel \
 libQt53DQuickExtras-devel(aarch-64) \
 pkgconfig(Qt53DQuickExtras)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickExtras5 \
 pkgconfig(Qt53DCore) \

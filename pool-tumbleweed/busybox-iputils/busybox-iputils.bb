@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/bin/ping \
 busybox-iputils"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

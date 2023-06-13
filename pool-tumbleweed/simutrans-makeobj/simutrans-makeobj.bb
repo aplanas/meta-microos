@@ -10,6 +10,7 @@ RPM_HASH = "417ef666b58ee52d148f941851c06e0291498a24100dbdc4c17940a5c89bc1ed42ba
 
 RPROVIDES:${PN} += "simutrans-makeobj \
 simutrans-makeobj(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

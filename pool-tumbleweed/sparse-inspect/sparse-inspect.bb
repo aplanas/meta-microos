@@ -9,6 +9,7 @@ RPM_HASH = "578a33341d384e7ede13ef84dcfbe90159a97358e8cc848741b49cac7bb88f1f008d
 
 RPROVIDES:${PN} += "sparse-inspect \
 sparse-inspect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

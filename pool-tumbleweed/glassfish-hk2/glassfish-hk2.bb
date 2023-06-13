@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "glassfish-hk2 \
 mvn(org.glassfish.hk2:hk2-bom:pom:) \
 mvn(org.glassfish.hk2:hk2-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.felix:maven-bundle-plugin) \

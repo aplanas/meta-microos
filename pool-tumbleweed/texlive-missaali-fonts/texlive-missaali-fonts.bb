@@ -35,6 +35,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(missaali) \
 texlive-missaali-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

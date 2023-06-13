@@ -88,6 +88,7 @@ firmware(netronome/nic_AMDA0099-0001_1x10_1x25.nffw) \
 firmware(netronome/nic_AMDA0099-0001_2x10.nffw) \
 firmware(netronome/nic_AMDA0099-0001_2x25.nffw) \
 kernel-firmware-nfp"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

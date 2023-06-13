@@ -12,6 +12,7 @@ eog-plugin-export-to-folder(aarch-64) \
 eog-plugins:/usr/lib64/eog/plugins/export-to-folder.plugin \
 metainfo() \
 metainfo(eog-export-to-folder.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 typelib(Eog) \
 typelib(GLib) \

@@ -9,6 +9,7 @@ RPM_HASH = "9b54f74fe6b6b2804e032a52cd61831eaa9d3c0954ac5a3626cf45f281c43aa3260a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gitslave-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

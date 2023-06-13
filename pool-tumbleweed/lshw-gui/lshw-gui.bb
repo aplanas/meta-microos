@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "application() \
 application(lshw.desktop) \
 lshw-gui \
 lshw-gui(aarch-64)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

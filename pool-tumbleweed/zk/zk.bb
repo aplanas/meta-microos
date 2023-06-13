@@ -10,6 +10,7 @@ RPM_HASH = "847513b02cb644454ea649736d6992d83f42c5dc6acebca3ddb0343f4d7f45741c72
 
 RPROVIDES:${PN} += "zk \
 zk(aarch-64)"
+
 RDEPENDS:${PN} += "fzf \
 libc.so.6(GLIBC_2.34)(64bit) \
 libicui18n.so.73()(64bit) \

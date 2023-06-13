@@ -13,6 +13,7 @@ libreoffice-help-hi-IN \
 libreoffice-l10n-hi \
 libreoffice-l10n-hi-IN \
 locale(libreoffice:hi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \

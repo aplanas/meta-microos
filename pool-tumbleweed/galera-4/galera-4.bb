@@ -20,6 +20,7 @@ galera-4 \
 galera-4(aarch-64) \
 group(garb) \
 user(garb)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

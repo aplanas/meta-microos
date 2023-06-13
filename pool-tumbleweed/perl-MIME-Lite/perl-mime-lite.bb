@@ -28,6 +28,7 @@ perl(MIME::Lite::IO_Scalar) \
 perl(MIME::Lite::IO_ScalarArray) \
 perl(MIME::Lite::SMTP) \
 perl-MIME-Lite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Email::Date::Format) \
 perl(MIME::Types) \

@@ -20,6 +20,7 @@ RPM_HASH = "35b905ddb2bc420bb7cddf4e15de7f26153dea11c36c316a592fd48c444aeeea7caf
 
 RPROVIDES:${PN} += "jpnevulator \
 jpnevulator(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

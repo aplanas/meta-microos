@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(ldap3) \
 python311-ldap3 \
 python3dist(ldap3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pyasn1"
 

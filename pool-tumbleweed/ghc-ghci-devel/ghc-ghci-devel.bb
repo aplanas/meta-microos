@@ -12,6 +12,7 @@ ghc-ghci-devel \
 ghc-ghci-devel(aarch-64) \
 ghc-ghci-static \
 ghc-ghci-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(array-0.5.4.0) \
 ghc-devel(base-4.17.1.0) \

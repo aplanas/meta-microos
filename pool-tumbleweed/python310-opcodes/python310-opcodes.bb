@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-opcodes \
 python3.10dist(opcodes) \
 python310-opcodes \
 python3dist(opcodes)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

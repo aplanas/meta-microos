@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-base-microdnf \
 patterns-microos-base-microdnf(aarch-64)"
+
 RDEPENDS:${PN} += "(libdnf-repo-config-zypp or rpm-repos-openSUSE) \
 libdnf-plugin-txnupd \
 microdnf \

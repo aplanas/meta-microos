@@ -10,6 +10,7 @@ RPM_HASH = "5400cbfc993bc7ee1c3642656e1c7a274a04edf166bda4a626da8bb84d828fab6e76
 
 RPROVIDES:${PN} += "xfsprogs-scrub \
 xfsprogs-scrub(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

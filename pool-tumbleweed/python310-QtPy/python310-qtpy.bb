@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-QtPy \
 python3.10dist(qtpy) \
 python310-QtPy \
 python3dist(qtpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

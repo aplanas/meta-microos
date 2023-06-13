@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(teubner.sty) \
 tex(teubnertx.sty) \
 texlive-teubner"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ ibus-libzhuyin(aarch-64) \
 locale(ibus:zh_TW;zh_HK) \
 metainfo() \
 metainfo(libzhuyin.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "989196a9f4d75468ead9c87e07b2faecebbcf9daf4f368e08e7aa0c59041b8e62dfa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 fzf"
 

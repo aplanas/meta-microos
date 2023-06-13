@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pst-dbicons.sty) \
 texlive-pst-dbicons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

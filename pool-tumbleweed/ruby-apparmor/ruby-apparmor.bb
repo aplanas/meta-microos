@@ -11,6 +11,7 @@ RPM_HASH = "f02587b0763dac6c337ed3f2845b192df084e8bf7594be218f7a36badec646725230
 RPROVIDES:${PN} += "ruby-apparmor \
 ruby-apparmor(aarch-64) \
 ruby-libapparmor"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libapparmor.so.1()(64bit) \

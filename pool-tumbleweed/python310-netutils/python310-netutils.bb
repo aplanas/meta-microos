@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-netutils \
 python3.10dist(netutils) \
 python310-netutils \
 python3dist(netutils)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

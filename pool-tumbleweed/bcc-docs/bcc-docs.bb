@@ -9,6 +9,7 @@ RPM_HASH = "86ed5319922bb30c29fc9f80f6d95df939f8e4cfbc11cdfb733e6eb5c93ec2e0b84a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcc-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

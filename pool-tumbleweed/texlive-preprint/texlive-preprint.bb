@@ -19,6 +19,7 @@ tex(figcaps.sty) \
 tex(fullpage.sty) \
 tex(sublabel.sty) \
 texlive-preprint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

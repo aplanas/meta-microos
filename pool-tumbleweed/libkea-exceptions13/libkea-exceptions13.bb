@@ -10,6 +10,7 @@ RPM_HASH = "b5c30fa2c2a06cfa837d880420756990cf57a17f7819cfaa6d59932cce093b25364d
 RPROVIDES:${PN} += "libkea-exceptions.so.13()(64bit) \
 libkea-exceptions13 \
 libkea-exceptions13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

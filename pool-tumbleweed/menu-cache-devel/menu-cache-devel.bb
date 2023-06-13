@@ -10,6 +10,7 @@ RPM_HASH = "55be6e79450e81caa80e04eb41af1ad421caa13ad4a6737ce8505e2c341c60f55212
 RPROVIDES:${PN} += "menu-cache-devel \
 menu-cache-devel(aarch-64) \
 pkgconfig(libmenu-cache)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmenu-cache3 \
 menu-cache \

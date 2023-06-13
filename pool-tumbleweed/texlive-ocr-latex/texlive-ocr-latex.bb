@@ -18,6 +18,7 @@ tex(ot1ocrbns.fd) \
 tex(ot1ocrbo.fd) \
 tex(ot1ocrbs.fd) \
 texlive-ocr-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ python3-cfgdiff \
 python3.10dist(cfgdiff) \
 python310-cfgdiff \
 python3dist(cfgdiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

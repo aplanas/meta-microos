@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-ai-language-conversations) \
 python311-azure-ai-language-conversations \
 python3dist(azure-ai-language-conversations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-ai-language-nspkg \
 python311-azure-ai-nspkg \

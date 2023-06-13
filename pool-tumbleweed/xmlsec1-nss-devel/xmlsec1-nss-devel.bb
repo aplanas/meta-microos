@@ -10,6 +10,7 @@ RPM_HASH = "09c19dd9addc35392e885b877652d7aa25eac23e0048994d09e5610d0fa4246bfa15
 RPROVIDES:${PN} += "pkgconfig(xmlsec1-nss) \
 xmlsec1-nss-devel \
 xmlsec1-nss-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxmlsec1-nss1 \
 mozilla-nspr-devel \

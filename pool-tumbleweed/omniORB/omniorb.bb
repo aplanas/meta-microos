@@ -12,6 +12,7 @@ RPM_HASH = "50f107b39960bfd2e7402f7f463742281f5570d28c55779582f885eb672c02d38058
 
 RPROVIDES:${PN} += "omniORB \
 omniORB(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

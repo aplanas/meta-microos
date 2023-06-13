@@ -10,6 +10,7 @@ RPM_HASH = "3b36edd9b3a9fe2c2f2c1e8baf7eda61701617e89c48308e93f4ed1ead4ca5b230fd
 
 RPROVIDES:${PN} += "gnome-session \
 gnome-session(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnome-session-core \

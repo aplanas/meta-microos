@@ -14,6 +14,7 @@ RPM_HASH = "6c713204a133f53de64a6a1c68bab0172384ea8d5f6fe7b4f857c4c39c5eb5d857a1
 RPROVIDES:${PN} += "libwget-devel \
 libwget-devel(aarch-64) \
 pkgconfig(libwget)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

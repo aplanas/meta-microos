@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libsignon-extension.so.1()(64bit) \
 libsignon-plugins-common.so.1()(64bit) \
 signond-libs \
 signond-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

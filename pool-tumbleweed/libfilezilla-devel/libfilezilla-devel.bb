@@ -10,6 +10,7 @@ RPM_HASH = "5c573788a59977c9ea9f09ec5296c165df1ebd305a4a13a3cebb6a069275b92ab330
 RPROVIDES:${PN} += "libfilezilla-devel \
 libfilezilla-devel(aarch-64) \
 pkgconfig(libfilezilla)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfilezilla36 \
 pkgconfig(gnutls) \

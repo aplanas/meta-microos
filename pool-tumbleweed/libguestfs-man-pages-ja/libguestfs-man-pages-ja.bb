@@ -10,6 +10,7 @@ RPM_HASH = "d5ab52f28601c9e9ac7118ce20e4b2fad548008d59c3a890dd076535fe4afd0bc9e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-man-pages-ja"
+
 RDEPENDS:${PN} += "libguestfs"
 
 inherit rpm

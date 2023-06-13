@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(pdfminer.six) \
 python39-pdfminer.six \
 python39-pdfminer3k \
 python3dist(pdfminer.six)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

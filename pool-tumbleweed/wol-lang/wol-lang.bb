@@ -15,6 +15,7 @@ locale(wol:it) \
 locale(wol:sv) \
 wol-lang \
 wol-lang-all"
+
 RDEPENDS:${PN} += "wol"
 
 inherit rpm

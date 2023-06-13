@@ -11,6 +11,7 @@ RPM_HASH = "2792299af15330dc5b680f1fe47d56052fbad1770dc8188adeb1f5ebd33d4be58157
 RPROVIDES:${PN} += "ghc-devel(timezone-series-0.1.13-52HOboQTQ6c9WNazbzYdiK) \
 ghc-timezone-series-devel \
 ghc-timezone-series-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

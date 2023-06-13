@@ -17,6 +17,7 @@ mvn(commons-el:commons-el:pom:) \
 mvn(org.apache.commons:commons-el) \
 mvn(org.apache.commons:commons-el:pom:) \
 osgi(org.apache.commons.el)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

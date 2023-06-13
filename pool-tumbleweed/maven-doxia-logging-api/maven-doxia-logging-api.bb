@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-doxia-logging-api \
 mvn(org.apache.maven.doxia:doxia-logging-api) \
 mvn(org.apache.maven.doxia:doxia-logging-api:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-container-default)"

@@ -9,6 +9,7 @@ RPM_HASH = "65c721c78f1b64ca78418984044c95185142de4478d7ae31223b0dabb82be1a5d2dd
 
 RPROVIDES:${PN} += "libpmemobj-cpp-devel-doc \
 libpmemobj-cpp-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

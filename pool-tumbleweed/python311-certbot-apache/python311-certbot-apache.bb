@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(certbot-apache) \
 python311-certbot-apache \
 python3dist(certbot-apache)"
+
 RDEPENDS:${PN} += "apache2 \
 augeas-lenses \
 python(abi) \

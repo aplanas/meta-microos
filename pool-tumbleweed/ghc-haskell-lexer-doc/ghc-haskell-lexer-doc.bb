@@ -9,6 +9,7 @@ RPM_HASH = "9010457af011863bb1043991788d42c7effc31234008b904f949cc1674c0be6ddd3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haskell-lexer-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

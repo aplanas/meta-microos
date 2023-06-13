@@ -22,6 +22,7 @@ perl(IPC::Run3::ProfLogger) \
 perl(IPC::Run3::ProfPP) \
 perl(IPC::Run3::ProfReporter) \
 perl-IPC-Run3"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

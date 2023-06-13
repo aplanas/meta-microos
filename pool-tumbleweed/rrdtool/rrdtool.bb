@@ -15,6 +15,7 @@ RPM_HASH = "779fa40123dc506e8add6ae6ed42a87fbf08d7749f9935d905b033c72b9503695cf7
 
 RPROVIDES:${PN} += "rrdtool \
 rrdtool(aarch-64)"
+
 RDEPENDS:${PN} += "dejavu \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

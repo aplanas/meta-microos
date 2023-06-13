@@ -13,6 +13,7 @@ RPM_HASH = "dd20cafad26a006fe2515a1843b081dc8ffa7b30f7eba7ac9a0907626bc71d298c95
 
 RPROVIDES:${PN} += "libmbd-mvapich2-devel \
 libmbd-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmbd-mvapich2 \
 scalapack-mvapich2-devel"
 

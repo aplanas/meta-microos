@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libnetcdf4:/usr/lib64/libnetcdf_c++.so.4 \
 libnetcdf_c++.so.4()(64bit) \
 libnetcdf_c++4 \
 libnetcdf_c++4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

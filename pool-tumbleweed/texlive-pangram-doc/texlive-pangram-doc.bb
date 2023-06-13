@@ -9,6 +9,7 @@ RPM_HASH = "6df23d7e62dcbb6f1aeee813a2c144307e42e8e1478c23e337b401583e10a7055221
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pangram-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

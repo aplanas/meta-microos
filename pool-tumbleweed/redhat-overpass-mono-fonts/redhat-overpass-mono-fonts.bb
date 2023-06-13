@@ -11,6 +11,7 @@ RPM_HASH = "0991070846ddd08dda02c244b6d19a6a2b41c8ea6f34306a78f5676c6b8a8d136bcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redhat-overpass-mono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

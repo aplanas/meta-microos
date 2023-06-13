@@ -93,6 +93,7 @@ locale(granite:zh) \
 locale(granite:zh_CN) \
 locale(granite:zh_HK) \
 locale(granite:zh_TW)"
+
 RDEPENDS:${PN} += "granite"
 
 inherit rpm

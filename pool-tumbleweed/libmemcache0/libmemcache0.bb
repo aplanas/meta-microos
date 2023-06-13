@@ -13,6 +13,7 @@ RPM_HASH = "d38740afc53d008ae9d87cfa6039e970421827ba2022692f492f67e7e300022b6ed1
 RPROVIDES:${PN} += "libmemcache.so.0()(64bit) \
 libmemcache0 \
 libmemcache0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

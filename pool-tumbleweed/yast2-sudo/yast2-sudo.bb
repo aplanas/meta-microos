@@ -14,6 +14,7 @@ application(org.opensuse.yast.Sudo.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Sudo.metainfo.xml) \
 yast2-sudo"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 yast2 \
 yast2-ruby-bindings \

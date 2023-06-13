@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libopencore-amr-devel \
 libopencore-amr-devel(aarch-64) \
 pkgconfig(opencore-amrnb) \
 pkgconfig(opencore-amrwb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopencore-amrnb0 \
 libopencore-amrwb0"

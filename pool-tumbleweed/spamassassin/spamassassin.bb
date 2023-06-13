@@ -16,6 +16,7 @@ RPM_HASH = "bad243062711b04b632932f550cb3c4457cd9022be106dbfc5f5a7dfb3a0e41cabfa
 
 RPROVIDES:${PN} += "spamassassin \
 spamassassin(aarch-64)"
+
 RDEPENDS:${PN} += "(curl >= 7.2.14 or wget >= 1.8.2) \
 /bin/bash \
 /bin/sh \

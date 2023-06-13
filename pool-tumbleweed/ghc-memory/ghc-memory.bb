@@ -23,6 +23,7 @@ RPM_HASH = "3cfd3f5ebac6346e9a46d9e07c9321ee04b215524a5715212e5ffbd380c4a918104d
 RPROVIDES:${PN} += "ghc-memory \
 ghc-memory(aarch-64) \
 libHSmemory-0.18.0-2DG6nqjfLMK4MSR77XYQqL-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

@@ -56,6 +56,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Test::LWP::UserAgent) \
 perl-Test-LWP-UserAgent"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Date) \
 perl(HTTP::Request) \

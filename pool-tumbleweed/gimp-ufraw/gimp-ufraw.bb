@@ -15,6 +15,7 @@ gimp-ufraw \
 gimp-ufraw(aarch-64) \
 rawphoto \
 ufraw-gimp"
+
 RDEPENDS:${PN} += "gimp(abi) \
 gimp(api) \
 libbz2.so.1()(64bit) \

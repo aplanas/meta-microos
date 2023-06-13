@@ -9,6 +9,7 @@ RPM_HASH = "d6883379f0b14539388388c3b03ffdb8b67fe9da81d522e4c9fa9d37b349d558c752
 
 RPROVIDES:${PN} += "texlive-ltximg-bin \
 texlive-ltximg-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ltximg"
 
 inherit rpm

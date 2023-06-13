@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "jaxen \
 jaxen-bootstrap \
 mvn(jaxen:jaxen) \
 mvn(jaxen:jaxen:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(dom4j:dom4j) \

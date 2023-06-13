@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "apache2-doc \
 apache2-manual \
 config(apache2-manual)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

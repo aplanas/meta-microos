@@ -57,6 +57,7 @@ mimehandler(audio/x-wav) \
 mimehandler(audio/x-wavpack) \
 mimehandler(audio/x-xm) \
 mimehandler(inode/directory)"
+
 RDEPENDS:${PN} += "kid3-core \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

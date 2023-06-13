@@ -10,6 +10,7 @@ RPM_HASH = "614512a9020938c7a7b9d93fff26f55263af8f76935d98fb2c7c19a1837e9c5dd383
 RPROVIDES:${PN} += "libGIMPACTUtils.so.3.17()(64bit) \
 libGIMPACTUtils3_17 \
 libGIMPACTUtils3_17(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

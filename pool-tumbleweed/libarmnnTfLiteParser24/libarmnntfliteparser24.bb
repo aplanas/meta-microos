@@ -16,6 +16,7 @@ RPM_HASH = "9e55d194634a077982045d958e4c309c2fd4f4c80721d285996aaed6e118e02cf205
 RPROVIDES:${PN} += "libarmnnTfLiteParser.so.24()(64bit) \
 libarmnnTfLiteParser24 \
 libarmnnTfLiteParser24(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

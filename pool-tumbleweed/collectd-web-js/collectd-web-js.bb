@@ -27,6 +27,7 @@ perl(Collectd::Graph::Type::PsCputime) \
 perl(Collectd::Graph::Type::TableSize) \
 perl(Collectd::Graph::Type::Wirkleistung) \
 perl(Collectd::Graph::TypeLoader)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 perl \

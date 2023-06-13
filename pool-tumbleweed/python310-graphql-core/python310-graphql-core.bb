@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-graphql-core \
 python3.10dist(graphql-core) \
 python310-graphql-core \
 python3dist(graphql-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

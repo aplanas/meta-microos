@@ -11,6 +11,7 @@ RPM_HASH = "3ef98d38ecac62edb2739853b14094e6f2d11ddf63c60889af9d19de729c0e0f0d96
 RPROVIDES:${PN} += "libgen.so()(64bit) \
 lua51-luaposix \
 lua51-luaposix(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.33)(64bit) \
 libcrypt.so.1()(64bit) \
 libcrypt.so.1(XCRYPT_2.0)(64bit) \

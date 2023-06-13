@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(rpds-py) \
 python311-rpds-py \
 python311-rpds-py(aarch-64) \
 python3dist(rpds-py)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

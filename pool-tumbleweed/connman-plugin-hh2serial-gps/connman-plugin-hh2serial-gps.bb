@@ -9,6 +9,7 @@ RPM_HASH = "38b63269dd85df146658bf5ae4170f0936dcd293280a9c5debb0cc85e35c4def6212
 
 RPROVIDES:${PN} += "connman-plugin-hh2serial-gps \
 connman-plugin-hh2serial-gps(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 libc.so.6(GLIBC_2.17)(64bit)"
 

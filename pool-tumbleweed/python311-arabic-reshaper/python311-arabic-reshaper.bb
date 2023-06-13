@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(arabic-reshaper) \
 python311-arabic-reshaper \
 python3dist(arabic-reshaper)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future"
 

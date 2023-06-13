@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(aubio) \
 python39-aubio \
 python39-aubio(aarch-64) \
 python3dist(aubio)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

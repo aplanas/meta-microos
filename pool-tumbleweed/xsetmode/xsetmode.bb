@@ -10,6 +10,7 @@ RPM_HASH = "d3eb3220b20bdc90b3534762850cdbece09c49c0821211008d18726eaa337aebe7ee
 
 RPROVIDES:${PN} += "xsetmode \
 xsetmode(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

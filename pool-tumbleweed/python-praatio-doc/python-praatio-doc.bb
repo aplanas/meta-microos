@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-praatio-doc \
 python310-praatio-doc \
 python311-praatio-doc \
 python39-praatio-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

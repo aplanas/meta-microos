@@ -12,6 +12,7 @@ application(org.kde.drkonqi.coredump.gui.desktop) \
 application(org.kde.drkonqi.desktop) \
 drkonqi5 \
 drkonqi5(aarch-64)"
+
 RDEPENDS:${PN} += "(kdeclarative-components if kirigami2) \
 (kitemmodels-imports if kirigami2) \
 (syntax-highlighting-imports if kirigami2) \

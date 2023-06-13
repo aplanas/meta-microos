@@ -13,6 +13,7 @@ RPM_HASH = "d22d0634edf3cbae97f7a6c6656b8e33f491be128a1ef39bf6f664c39f99444943a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-lpeg_patterns"
+
 RDEPENDS:${PN} += "lua53 \
 lua53-lpeg"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(boldtensors.sty) \
 texlive-boldtensors"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

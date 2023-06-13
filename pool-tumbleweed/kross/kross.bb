@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "kross \
 kross(aarch-64) \
 libKF5KrossCore.so.5()(64bit) \
 libKF5KrossUi.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

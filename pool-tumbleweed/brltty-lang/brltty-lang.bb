@@ -16,6 +16,7 @@ locale(brltty:fr) \
 locale(brltty:it) \
 locale(brltty:ru) \
 locale(brltty:zh)"
+
 RDEPENDS:${PN} += "brltty"
 
 inherit rpm

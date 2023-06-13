@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Delorean \
 python3.10dist(delorean) \
 python310-Delorean \
 python3dist(delorean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-humanize \

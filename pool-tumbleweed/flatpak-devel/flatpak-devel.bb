@@ -12,6 +12,7 @@ RPM_HASH = "791c02d2f15cf50ea3f43c1dc8307d7f97398728b2773e2e6ce3d4d996ef9d5a2fd7
 RPROVIDES:${PN} += "flatpak-devel \
 flatpak-devel(aarch-64) \
 pkgconfig(flatpak)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 flatpak \

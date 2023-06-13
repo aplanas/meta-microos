@@ -93,6 +93,7 @@ locale(go-for-it:zh) \
 locale(go-for-it:zh_CN) \
 locale(go-for-it:zh_HK) \
 locale(go-for-it:zh_TW)"
+
 RDEPENDS:${PN} += "go-for-it"
 
 inherit rpm

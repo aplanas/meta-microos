@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-stripe \
 python3.10dist(stripe) \
 python310-stripe \
 python3dist(stripe)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

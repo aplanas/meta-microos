@@ -12,6 +12,7 @@ RPM_HASH = "b0dbc42bda5f2fcfe2e169b8d83e487ff82bb40798f4b5218ef129134637fd90576f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-gtk-doc"
+
 RDEPENDS:${PN} += "python-gtk"
 
 inherit rpm

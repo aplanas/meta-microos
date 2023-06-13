@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(Spreadsheet::XLSX) \
 perl(Spreadsheet::XLSX::Fmt2007) \
 perl(Spreadsheet::XLSX::Utility2007) \
 perl-Spreadsheet-XLSX"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(Spreadsheet::ParseExcel)"

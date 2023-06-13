@@ -14,6 +14,7 @@ pkgconfig(winpr-tools2) \
 pkgconfig(winpr2) \
 winpr-devel \
 winpr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libwinpr2-2 \

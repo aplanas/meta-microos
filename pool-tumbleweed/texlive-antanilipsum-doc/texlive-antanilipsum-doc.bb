@@ -9,6 +9,7 @@ RPM_HASH = "8187452ca44e762aa3cb9d2839a1da1f0981b93c8f1852213763fc8327bf3d907a9d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-antanilipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

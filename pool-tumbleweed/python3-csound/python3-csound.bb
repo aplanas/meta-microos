@@ -9,6 +9,7 @@ RPM_HASH = "42f3c83c327968f418a61372168b2f19b45264b445cba3d71460ce529fc2eb5dc72a
 
 RPROVIDES:${PN} += "python3-csound \
 python3-csound(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

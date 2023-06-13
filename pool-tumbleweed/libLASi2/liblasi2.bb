@@ -18,6 +18,7 @@ RPM_HASH = "58812e22dc3bbe33d36448168b0df10e70e1aaaa5936c1923b6e498749b8a56885e8
 RPROVIDES:${PN} += "libLASi.so.2()(64bit) \
 libLASi2 \
 libLASi2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

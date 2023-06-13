@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-mirror.sty) \
 tex(pst-mirror.tex) \
 texlive-pst-mirror"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

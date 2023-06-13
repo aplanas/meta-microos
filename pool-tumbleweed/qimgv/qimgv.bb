@@ -19,6 +19,7 @@ mimehandler(image/webp) \
 mimehandler(video/webm) \
 qimgv \
 qimgv(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \

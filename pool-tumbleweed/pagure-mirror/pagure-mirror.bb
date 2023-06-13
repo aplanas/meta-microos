@@ -10,6 +10,7 @@ RPM_HASH = "f2d161ecfbe96411c9e821d20baa3489891cdf60cc0049a1cdece52c7f93288315a4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-mirror"
+
 RDEPENDS:${PN} += "/bin/sh \
 pagure \
 systemd"

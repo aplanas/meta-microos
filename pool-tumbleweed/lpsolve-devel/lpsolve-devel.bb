@@ -9,6 +9,7 @@ RPM_HASH = "ab6ac160f8c8f443e0c4b57f8f738ba0a3de9b6f608f533e6f02d6e6d3e1a366ccaf
 
 RPROVIDES:${PN} += "lpsolve-devel \
 lpsolve-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblpsolve55-0"
 
 inherit rpm

@@ -15,6 +15,7 @@ cmake(gromacs) \
 gromacs-devel \
 gromacs-devel(aarch-64) \
 pkgconfig(libgromacs)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gromacs \
 libgmxapi0 \

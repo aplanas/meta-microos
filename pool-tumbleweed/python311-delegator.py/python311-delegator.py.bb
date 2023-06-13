@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(delegator.py) \
 python311-delegator.py \
 python3dist(delegator.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pexpect"
 

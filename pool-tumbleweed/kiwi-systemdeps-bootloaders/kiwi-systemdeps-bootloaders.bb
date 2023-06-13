@@ -10,6 +10,7 @@ RPM_HASH = "5ad512b2fb291783abd7c87f88051f0999d9280388c3d3ed740067ee92946816058c
 
 RPROVIDES:${PN} += "kiwi-systemdeps-bootloaders \
 kiwi-systemdeps-bootloaders(aarch-64)"
+
 RDEPENDS:${PN} += "grub2 \
 kiwi-systemdeps-core \
 u-boot-tools"

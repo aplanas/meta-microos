@@ -9,6 +9,7 @@ RPM_HASH = "6d389f5b297bb1c823bf0e0672e9c493f6964b717d7e9e907d876dfd07441dfdf564
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mtpaint-handbook"
+
 RDEPENDS:${PN} += "mtpaint"
 
 inherit rpm

@@ -18,6 +18,7 @@ tex(udesoftec-bst.sty) \
 tex(udesoftec-extra.sty) \
 tex(udesoftec.cls) \
 texlive-udesoftec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

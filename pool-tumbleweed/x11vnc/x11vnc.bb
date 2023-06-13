@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "application() \
 application(x11vnc.desktop) \
 x11vnc \
 x11vnc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 iproute2 \

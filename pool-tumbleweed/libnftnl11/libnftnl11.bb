@@ -18,6 +18,7 @@ libnftnl.so.11(LIBNFTNL_16)(64bit) \
 libnftnl.so.11(LIBNFTNL_17)(64bit) \
 libnftnl11 \
 libnftnl11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

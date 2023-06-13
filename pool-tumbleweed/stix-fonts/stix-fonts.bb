@@ -146,6 +146,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(stixgeneral) \
 stix-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

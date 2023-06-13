@@ -23,6 +23,7 @@ pkgconfig(MagickCore) \
 pkgconfig(MagickCore-7.Q16HDRI) \
 pkgconfig(MagickWand) \
 pkgconfig(MagickWand-7.Q16HDRI)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ImageMagick \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-requests-kerberos \
 python3.10dist(requests-kerberos) \
 python310-requests-kerberos \
 python3dist(requests-kerberos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyspnego \
 python310-requests"

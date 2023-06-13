@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikzlibraryoptics.code.tex) \
 texlive-tikz-optics"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "afa5ddf8fb8ce02101f513f767e40f611c47c647d8338e94dca4e5810362d720ed28
 
 RPROVIDES:${PN} += "pcapdump \
 pcapdump(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl-Net-Pcap"
 

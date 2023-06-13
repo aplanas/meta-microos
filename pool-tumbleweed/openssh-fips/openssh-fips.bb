@@ -10,6 +10,7 @@ RPM_HASH = "b103b5b2dcec65eb17db3562bce5ce46ed004a4a348ea0f877afd8be2ad4e2af989c
 
 RPROVIDES:${PN} += "openssh-fips \
 openssh-fips(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 openssh-common"
 

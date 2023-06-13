@@ -9,6 +9,7 @@ RPM_HASH = "b036ff252fc97a09d630726cf9a5fcfda2e0358d2e5963cc8fefec146e396ba8de7a
 
 RPROVIDES:${PN} += "libkipi-data \
 libkipi-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

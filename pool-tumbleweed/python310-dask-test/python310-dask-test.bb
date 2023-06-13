@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask-test \
 python310-dask-test"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dask-complete"
 

@@ -11,6 +11,7 @@ RPM_HASH = "8e884fcc2d9744411929e18af33f73e8858bc3a8caf77d24bf4e7097701af648a1fb
 
 RPROVIDES:${PN} += "python3-xcb-proto-devel \
 python3-xcb-proto-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

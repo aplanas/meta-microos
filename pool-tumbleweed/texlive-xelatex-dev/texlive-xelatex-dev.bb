@@ -9,6 +9,7 @@ RPM_HASH = "0f5c236a5b139998cb057daee11a23f41c1e731855a52c1bf0495bc18bb3048f950a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xelatex-dev"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

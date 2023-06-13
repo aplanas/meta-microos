@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "flawfinder \
 python3.10dist(flawfinder) \
 python3dist(flawfinder)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3"

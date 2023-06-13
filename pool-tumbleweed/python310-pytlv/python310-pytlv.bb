@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytlv \
 python3.10dist(pytlv) \
 python310-pytlv \
 python3dist(pytlv)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

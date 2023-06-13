@@ -9,6 +9,7 @@ RPM_HASH = "f97104a8a0af513e01d7266b893c63448fb51191cd90e05946a49fe8210bcca4a28b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-wai-app-static-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

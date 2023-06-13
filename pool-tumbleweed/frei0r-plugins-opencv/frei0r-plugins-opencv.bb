@@ -11,6 +11,7 @@ RPM_HASH = "a46f3d138474290fbc64c1f34d911c5aedb7fb4b2c8b71e51ff67d2805fbccfab9b8
 
 RPROVIDES:${PN} += "frei0r-plugins-opencv \
 frei0r-plugins-opencv(aarch-64)"
+
 RDEPENDS:${PN} += "frei0r-plugins \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

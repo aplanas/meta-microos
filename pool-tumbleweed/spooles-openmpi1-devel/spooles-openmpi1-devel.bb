@@ -9,6 +9,7 @@ RPM_HASH = "66c4e915df3691bbf7f32d74dbe835a2c29738c2ed50153ef039d95b15451f27315b
 
 RPROVIDES:${PN} += "spooles-openmpi1-devel \
 spooles-openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libspooles2_2-openmpi1"
 
 inherit rpm

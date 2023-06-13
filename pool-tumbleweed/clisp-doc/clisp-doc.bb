@@ -26,6 +26,7 @@ RPM_HASH = "0c651c44d49c5cdac8beb046217cb9110eb8aa845c758cf6e1a0cf94733a93a45012
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clisp-doc"
+
 RDEPENDS:${PN} += "clisp"
 
 inherit rpm

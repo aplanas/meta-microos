@@ -13,6 +13,7 @@ RPM_HASH = "8ad28b5e8a55c5c1d6002697c9379802a0294d9b14baadf227d379e3875df5019539
 RPROVIDES:${PN} += "ghc-tasty-rerun \
 ghc-tasty-rerun(aarch-64) \
 libHStasty-rerun-1.1.18-901DN5WLpsB5zohVN159Pf-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so()(64bit) \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so()(64bit) \
 libHSansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI-ghc9.4.5.so()(64bit) \

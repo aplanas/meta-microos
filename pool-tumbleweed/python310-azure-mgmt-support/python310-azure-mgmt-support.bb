@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-support \
 python3.10dist(azure-mgmt-support) \
 python310-azure-mgmt-support \
 python3dist(azure-mgmt-support)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

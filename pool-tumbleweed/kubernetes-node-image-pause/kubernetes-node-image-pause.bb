@@ -10,6 +10,7 @@ RPM_HASH = "6c7d548a5d13498f57d733711e7493a73b083419781bddde4c577bec0a835f828760
 
 RPROVIDES:${PN} += "kubernetes-node-image-pause \
 kubernetes-node-image-pause(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

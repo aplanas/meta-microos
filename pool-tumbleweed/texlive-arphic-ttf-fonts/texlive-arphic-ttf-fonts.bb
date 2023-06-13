@@ -47,6 +47,7 @@ font(文鼎ｐｌ简中楷) \
 font(文鼎ｐｌ简报宋) \
 font(文鼎ｐｌ細上海宋) \
 texlive-arphic-ttf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

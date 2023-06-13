@@ -22,6 +22,7 @@ mimehandler(text/plain) \
 mimehandler(text/x-ass) \
 mimehandler(text/x-microdvd) \
 mimehandler(text/x-ssa)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

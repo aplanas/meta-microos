@@ -12,6 +12,7 @@ python3.10dist(cu2qu) \
 python310-cu2qu \
 python310-cu2qu(aarch-64) \
 python3dist(cu2qu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

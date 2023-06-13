@@ -9,6 +9,7 @@ RPM_HASH = "52c50bc42bae6c873d486c037029c901aa9a955addab28ee7943b53b045eb0c98aaf
 
 RPROVIDES:${PN} += "xtrx-tools \
 xtrx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

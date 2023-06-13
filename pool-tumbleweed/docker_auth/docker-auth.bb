@@ -11,6 +11,7 @@ RPM_HASH = "0997c152eccfff5bd55f5cd7d803bdbe03678829943096e5401ef5fd79be015ce511
 
 RPROVIDES:${PN} += "docker_auth \
 docker_auth(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

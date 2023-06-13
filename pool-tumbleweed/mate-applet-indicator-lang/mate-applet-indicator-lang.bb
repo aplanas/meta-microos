@@ -110,6 +110,7 @@ locale(mate-applet-indicator:zh_HK) \
 locale(mate-applet-indicator:zh_TW) \
 mate-applet-indicator-lang \
 mate-applet-indicator-lang-all"
+
 RDEPENDS:${PN} += "mate-applet-indicator"
 
 inherit rpm

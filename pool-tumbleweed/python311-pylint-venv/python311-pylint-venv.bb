@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(pylint-venv) \
 python311-pylint-venv \
 python311-pylint_venv \
 python3dist(pylint-venv)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

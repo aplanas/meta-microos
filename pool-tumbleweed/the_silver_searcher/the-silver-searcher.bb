@@ -9,6 +9,7 @@ RPM_HASH = "cce0a04d54837af886f6c8973b5be9d6dc5e40280d333c2d109338290fa8a4417c9e
 
 RPROVIDES:${PN} += "the_silver_searcher \
 the_silver_searcher(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

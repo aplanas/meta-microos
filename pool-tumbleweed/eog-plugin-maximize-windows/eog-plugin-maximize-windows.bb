@@ -12,6 +12,7 @@ eog-plugin-maximize-windows(aarch-64) \
 eog-plugins:/usr/lib64/eog/plugins/maximize-windows.plugin \
 metainfo() \
 metainfo(eog-maximize-windows.appdata.xml)"
+
 RDEPENDS:${PN} += "eog-plugins-data \
 typelib(Eog) \
 typelib(GObject)"

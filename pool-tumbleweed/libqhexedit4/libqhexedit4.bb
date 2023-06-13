@@ -10,6 +10,7 @@ RPM_HASH = "6c3a0a9ccc3c207c58d8374ae2a6723bca6b964db0b8990421e0aef7d188a7e52142
 RPROVIDES:${PN} += "libqhexedit.so.4()(64bit) \
 libqhexedit4 \
 libqhexedit4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

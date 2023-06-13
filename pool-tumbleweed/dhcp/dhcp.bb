@@ -11,6 +11,7 @@ RPM_HASH = "96d8ad68838699fbd7f4a198b11eb403dcaa876e69a5461d58bff269a8c6afa8a7d3
 
 RPROVIDES:${PN} += "dhcp \
 dhcp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit)"

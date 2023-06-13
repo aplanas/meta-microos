@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-lesscpy \
 python3.10dist(lesscpy) \
 python310-lesscpy \
 python3dist(lesscpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

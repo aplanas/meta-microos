@@ -17,6 +17,7 @@ python3.10dist(irc) \
 python310-irc \
 python310-irclib \
 python3dist(irc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-importlib-metadata \
 python310-jaraco.collections \

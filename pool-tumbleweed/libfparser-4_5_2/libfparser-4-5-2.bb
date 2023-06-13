@@ -15,6 +15,7 @@ RPM_HASH = "5383a4f3e34b506683e0d0e3379cc61c7fee252eed45c8209e9ad4f26c812042f97b
 RPROVIDES:${PN} += "libfparser-4.5.2.so()(64bit) \
 libfparser-4_5_2 \
 libfparser-4_5_2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

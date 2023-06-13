@@ -9,6 +9,7 @@ RPM_HASH = "ebbc022336be80714889db3a02ec6c8d6fb15f4053e601cdf182b5eecd7bf46c1738
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atuin-bash-completion"
+
 RDEPENDS:${PN} += "atuin"
 
 inherit rpm

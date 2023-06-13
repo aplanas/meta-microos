@@ -23,6 +23,7 @@ RPM_HASH = "a4579e3c69b8d0ffbb4e962131d61ae0f3eee3b80c050a8b43841192e11f756a51ab
 
 RPROVIDES:${PN} += "sparse \
 sparse(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

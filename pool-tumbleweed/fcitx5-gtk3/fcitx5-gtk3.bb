@@ -10,6 +10,7 @@ RPM_HASH = "b3849304f86d260f2c058175289ff1a17e15dc83886ebb3e24363687dfbb06165174
 RPROVIDES:${PN} += "fcitx-gtk3 \
 fcitx5-gtk3 \
 fcitx5-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

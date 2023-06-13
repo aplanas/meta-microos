@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(agate) \
 python311-agate \
 python3dist(agate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Babel \
 python311-isodate \

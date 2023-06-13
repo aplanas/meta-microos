@@ -11,6 +11,7 @@ RPM_HASH = "61ed0b764f0e01d464a277c3288dcdb96e1e3c796eeb8c044d6f0f8c045d3deb0584
 
 RPROVIDES:${PN} += "erlang-observer \
 erlang-observer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 erlang \
 erlang-wx"

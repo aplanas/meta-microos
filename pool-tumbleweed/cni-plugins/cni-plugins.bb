@@ -18,6 +18,7 @@ RPM_HASH = "719b134e3ab080d74f74d89cc8b604372d7202693522fa0ccea59d46a023634737df
 
 RPROVIDES:${PN} += "cni-plugins \
 cni-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

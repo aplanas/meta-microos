@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:actionpack:7) \
 rubygem(ruby:3.2.0:actionpack:7.0) \
 rubygem(ruby:3.2.0:actionpack:7.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionview) \
 rubygem(ruby:3.2.0:activesupport) \

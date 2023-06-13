@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "hal-flash \
 libhal.so.1()(64bit) \
 libhal1 \
 libhal1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

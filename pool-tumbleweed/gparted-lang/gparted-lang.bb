@@ -74,6 +74,7 @@ locale(gparted:vi) \
 locale(gparted:zh_CN) \
 locale(gparted:zh_HK) \
 locale(gparted:zh_TW)"
+
 RDEPENDS:${PN} += "gparted"
 
 inherit rpm

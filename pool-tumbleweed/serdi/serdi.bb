@@ -9,6 +9,7 @@ RPM_HASH = "26a942c3fed4effc64bc5162df026c58fe308884889332458a082c2e046dacc12557
 
 RPROVIDES:${PN} += "serdi \
 serdi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

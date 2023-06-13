@@ -29,6 +29,7 @@ libgstreamermediaplugin.so(Qt_6.5)(64bit) \
 libgstreamermediaplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-multimedia \
 qt6-multimedia(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libEGL.so.1()(64bit) \

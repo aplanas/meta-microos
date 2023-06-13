@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(harvmac.tex) \
 texlive-harvmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ tex(texdraw.tex) \
 tex(txdps.tex) \
 tex(txdtools.tex) \
 texlive-texdraw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

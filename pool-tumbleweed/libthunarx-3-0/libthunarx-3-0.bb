@@ -10,6 +10,7 @@ RPM_HASH = "20c837899700188af9452fdfd6cf4d6fba9a19059c92db48da5d6f65e52d1cdfe077
 RPROVIDES:${PN} += "libthunarx-3-0 \
 libthunarx-3-0(aarch-64) \
 libthunarx-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "4da74efea0e68f9dce21fdb8abfbce3bde2c3b9f8db67c87570faf5e2b1d0b68668f
 RPROVIDES:${PN} += "libedataserverui4-1.0.so.0()(64bit) \
 libedataserverui4-1_0-0 \
 libedataserverui4-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

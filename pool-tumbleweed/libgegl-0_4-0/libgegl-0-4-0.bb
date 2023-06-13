@@ -13,6 +13,7 @@ RPM_HASH = "17a3c175791d94f8ca265c5fffb1a2b24502f6f43b33c82d59aca912523d59e126b8
 RPROVIDES:${PN} += "libgegl-0.4.so.0()(64bit) \
 libgegl-0_4-0 \
 libgegl-0_4-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gegl-0_4 \
 ld-linux-aarch64.so.1()(64bit) \

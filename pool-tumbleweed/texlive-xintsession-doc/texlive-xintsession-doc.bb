@@ -9,6 +9,7 @@ RPM_HASH = "c57634f3c0226209b61ed2214fea18a6e49041880f32d47a8610bac7cfa38b7b2c79
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xintsession-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

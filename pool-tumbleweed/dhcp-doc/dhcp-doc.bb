@@ -10,6 +10,7 @@ RPM_HASH = "0120dc8ed0e8184cb91bfce197fbf7e854a43bcdd25d891f5feba77d614d0c2041df
 
 RPROVIDES:${PN} += "dhcp-doc \
 dhcp-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

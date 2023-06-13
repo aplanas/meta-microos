@@ -14,6 +14,7 @@ pkgconfig(protobuf) \
 pkgconfig(protobuf-lite) \
 protobuf-devel \
 protobuf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gcc-c++ \
 ld-linux-aarch64.so.1()(64bit) \

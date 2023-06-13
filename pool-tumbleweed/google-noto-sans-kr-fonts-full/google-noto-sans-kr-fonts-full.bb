@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-sans-kr-fonts-full \
 noto-sans-kr-fonts-full"
+
 RDEPENDS:${PN} += "google-noto-sans-kr-black-fonts \
 google-noto-sans-kr-demilight-fonts \
 google-noto-sans-kr-fonts \

@@ -12,6 +12,7 @@ RPM_HASH = "8ad80f1ffab27d5a972f80821517f9dec6200c53d56411981b1e6a6ae5b5fbffa5a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyghmi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

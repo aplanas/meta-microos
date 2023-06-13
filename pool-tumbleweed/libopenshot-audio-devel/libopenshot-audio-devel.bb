@@ -13,6 +13,7 @@ RPM_HASH = "7fd0275833c5a6937630eceb8f06cc43a80266d706d26f6e03aa13a7f6068740d33f
 RPROVIDES:${PN} += "cmake(OpenShotAudio) \
 libopenshot-audio-devel \
 libopenshot-audio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

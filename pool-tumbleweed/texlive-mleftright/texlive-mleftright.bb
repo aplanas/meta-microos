@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mleftright.sty) \
 texlive-mleftright"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

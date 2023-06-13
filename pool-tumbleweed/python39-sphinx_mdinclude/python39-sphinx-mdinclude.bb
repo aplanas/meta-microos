@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinx-mdinclude) \
 python39-sphinx_mdinclude \
 python3dist(sphinx-mdinclude)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

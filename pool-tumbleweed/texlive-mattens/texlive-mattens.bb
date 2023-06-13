@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mattens.sty) \
 texlive-mattens"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

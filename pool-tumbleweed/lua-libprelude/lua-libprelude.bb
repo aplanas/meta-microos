@@ -9,6 +9,7 @@ RPM_HASH = "81e5a8f7150d6548de31231fc791a4411e599e92d4504299a534584f7efa5ae2ed59
 
 RPROVIDES:${PN} += "lua-libprelude \
 lua-libprelude(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

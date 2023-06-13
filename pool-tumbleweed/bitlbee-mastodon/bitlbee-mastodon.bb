@@ -15,6 +15,7 @@ RPM_HASH = "de49a94a9387bec0a36be3926cd81356ff1c9d6c98914f306d9aec81dd626c98bb20
 
 RPROVIDES:${PN} += "bitlbee-mastodon \
 bitlbee-mastodon(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

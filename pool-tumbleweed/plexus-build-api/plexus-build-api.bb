@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.sonatype.plexus:plexus-build-api) \
 mvn(org.sonatype.plexus:plexus-build-api:pom:) \
 plexus-build-api"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-utils)"

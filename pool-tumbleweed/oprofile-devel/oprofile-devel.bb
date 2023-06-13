@@ -14,6 +14,7 @@ RPM_HASH = "2b4bbb69534b6638be1a56bd318a03bfeab31b8ccfc04cb78db80f6d984b19aeb206
 
 RPROVIDES:${PN} += "oprofile-devel \
 oprofile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "binutils-devel \
 libopagent1"
 

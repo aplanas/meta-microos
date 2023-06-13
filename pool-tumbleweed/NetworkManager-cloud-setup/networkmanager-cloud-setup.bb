@@ -11,6 +11,7 @@ RPM_HASH = "013b4cec312a80ecb63af7d54d79b8eac0d6662399231b1106b4441ce3e49f024392
 
 RPROVIDES:${PN} += "NetworkManager-cloud-setup \
 NetworkManager-cloud-setup(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \

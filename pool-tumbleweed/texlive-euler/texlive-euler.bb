@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(euler.sty) \
 texlive-euler"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "2dc54df8b6147d5bb7d052212778aa8dc22e1c3294b7c3af3e79d2451eda1d0f0ccb
 RPROVIDES:${PN} += "libirman-devel \
 libirman-devel(aarch-64) \
 pkgconfig(libirman)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libirman0"
 

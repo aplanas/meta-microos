@@ -56,6 +56,7 @@ locale(paprefs:zh_CN) \
 locale(paprefs:zh_TW) \
 paprefs-lang \
 paprefs-lang-all"
+
 RDEPENDS:${PN} += "paprefs"
 
 inherit rpm

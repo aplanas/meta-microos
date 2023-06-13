@@ -9,6 +9,7 @@ RPM_HASH = "23a077f8ecce37b559ba9a91adfc0e6becaccdf7ba5c4c81a45e0ec03e5b7d20d962
 
 RPROVIDES:${PN} += "ocaml-ocamlgraph \
 ocaml-ocamlgraph(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

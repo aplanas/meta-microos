@@ -13,6 +13,7 @@ RPM_HASH = "a2a83ce0187d498b052680259fbfc21780b97dd98f140cceae4ecfe482e0ec0d163a
 RPROVIDES:${PN} += "libmolsketch1 \
 molsketch-devel \
 molsketch-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libqt5-qttools"
 
 inherit rpm

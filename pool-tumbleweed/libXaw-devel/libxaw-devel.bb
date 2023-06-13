@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libXaw-devel \
 libXaw-devel(aarch-64) \
 pkgconfig(xaw6) \
 pkgconfig(xaw7)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXaw6 \
 libXaw7 \

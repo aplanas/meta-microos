@@ -16,6 +16,7 @@ RPM_HASH = "3284b7742b02cbd30ef1785ed565c950fa073d120008c6c524fe61a30c2606d4e393
 RPROVIDES:${PN} += "ripe-whois-tools \
 whois \
 whois(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

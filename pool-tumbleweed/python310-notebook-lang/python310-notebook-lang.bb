@@ -16,6 +16,7 @@ python3-notebook-lang-all \
 python310-jupyter_notebook-lang \
 python310-notebook-lang \
 python310-notebook-lang-all"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-notebook"
 

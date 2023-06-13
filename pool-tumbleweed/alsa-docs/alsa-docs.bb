@@ -10,6 +10,7 @@ RPM_HASH = "462cb90637f3bc6405b80b18c51efe98dea608dc92b10917e962afe30021bd02b98d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alsa-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

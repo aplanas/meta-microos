@@ -11,6 +11,7 @@ RPM_HASH = "d5b89904d9731a9e09fc71619ef70c64d35bb4313e29378e8fce26c00f785e7a8024
 RPROVIDES:${PN} += "libfsm-0.14.7.so()(64bit) \
 libfsm-0_14_7 \
 libfsm-0_14_7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

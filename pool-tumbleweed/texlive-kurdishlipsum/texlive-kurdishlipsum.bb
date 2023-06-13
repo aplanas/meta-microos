@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kurdishlipsum.sty) \
 texlive-kurdishlipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-worker \
 perl(Kanku::Daemon::Worker)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 kanku-common \

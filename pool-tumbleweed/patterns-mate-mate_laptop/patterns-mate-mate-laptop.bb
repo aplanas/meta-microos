@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-mate-mate_laptop \
 patterns-mate-mate_laptop(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-sushy \
 python3.10dist(sushy) \
 python3dist(sushy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-pbr \
 python3-python-dateutil \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ispell-bulgarian \
 ispell_dictionary \
 locale(ispell:bg)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

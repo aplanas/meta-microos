@@ -17,6 +17,7 @@ RPM_HASH = "b22329ec1b7b401b743f3f54362fe3f32c14f7f05c47e1a2d3dbfdbe674baf4a83ad
 
 RPROVIDES:${PN} += "isync \
 isync(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -63,6 +63,7 @@ locale(xfce4-whiskermenu-plugin:zh_TW) \
 xfce4-panel-plugin-whiskermenu-lang \
 xfce4-whiskermenu-plugin-lang \
 xfce4-whiskermenu-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-whiskermenu-plugin"
 
 inherit rpm

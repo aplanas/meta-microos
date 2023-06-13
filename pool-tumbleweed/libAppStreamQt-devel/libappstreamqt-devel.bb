@@ -12,6 +12,7 @@ RPM_HASH = "12e324995e6ce6f9a4be8ba0d964ebd4c72a4e823e9dc35fa603768090da2f533a98
 RPROVIDES:${PN} += "cmake(AppStreamQt) \
 libAppStreamQt-devel \
 libAppStreamQt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libAppStreamQt2 \
 libappstream4"
 

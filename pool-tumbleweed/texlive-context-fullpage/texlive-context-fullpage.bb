@@ -10,6 +10,7 @@ RPM_HASH = "132156dbbdfe297637d10ae77489cb3cd80e535c6dad85df52b94dd8f96c07711c92
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-fullpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

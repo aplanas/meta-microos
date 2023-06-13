@@ -11,6 +11,7 @@ RPM_HASH = "1974ecc8a7949b5f53d141ad655474f1a00818e76cf3de278f180d9e67a80f2cdd50
 RPROVIDES:${PN} += "liblxqt \
 liblxqt(aarch-64) \
 liblxqt-qt5"
+
 RDEPENDS:${PN} += "/usr/bin/pkexec \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

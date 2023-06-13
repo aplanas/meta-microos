@@ -10,6 +10,7 @@ RPM_HASH = "67f78ce363f54b1fddaf7aa9c1c929c60a6b68e7c95e81f974c29e177eca24405fcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-thai"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

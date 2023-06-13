@@ -56,6 +56,7 @@ tex(ls2libertinust1mathex.fd) \
 tex(ls2libertinust1mathsym.fd) \
 tex(ot1libertinust1mathsf.fd) \
 texlive-libertinust1math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

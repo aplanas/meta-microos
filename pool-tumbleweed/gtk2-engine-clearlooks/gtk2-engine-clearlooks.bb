@@ -11,6 +11,7 @@ RPM_HASH = "6cdec5b9f19a371086f9de9b540d0a745a79876c08748e1df4ebe6fa499a0d838946
 RPROVIDES:${PN} += "gtk2-engine-clearlooks \
 gtk2-engine-clearlooks(aarch-64) \
 libclearlooks.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

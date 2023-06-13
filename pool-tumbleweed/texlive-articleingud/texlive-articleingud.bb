@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(articleingud.cls) \
 texlive-articleingud"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

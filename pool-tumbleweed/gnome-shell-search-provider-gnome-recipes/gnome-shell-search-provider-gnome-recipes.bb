@@ -17,6 +17,7 @@ RPM_HASH = "629395c9d45f10436b6f3e82bade703b752229879c83a1fab5be5d50c560be502765
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-recipes \
 gnome-shell-search-provider-gnome-recipes(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-recipes \
 gnome-shell"
 

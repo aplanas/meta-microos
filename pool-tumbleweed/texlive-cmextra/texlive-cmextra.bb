@@ -34,6 +34,7 @@ tex(gen10.tfm) \
 tex(gen8.tfm) \
 tex(gen9.tfm) \
 texlive-cmextra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

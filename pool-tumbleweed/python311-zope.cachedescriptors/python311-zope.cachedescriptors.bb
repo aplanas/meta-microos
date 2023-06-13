@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.cachedescriptors) \
 python311-zope.cachedescriptors \
 python3dist(zope.cachedescriptors)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

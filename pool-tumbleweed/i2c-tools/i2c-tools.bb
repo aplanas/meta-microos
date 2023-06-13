@@ -11,6 +11,7 @@ RPM_HASH = "978df760f1f0cccc2c6066b62106a74e7da4d1b94d486673908c648753482b0434cb
 
 RPROVIDES:${PN} += "i2c-tools \
 i2c-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

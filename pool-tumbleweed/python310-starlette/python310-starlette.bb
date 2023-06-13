@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-starlette \
 python3.10dist(starlette) \
 python310-starlette \
 python3dist(starlette)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 3.10.0 if python310-base < 3.10) \
 python(abi) \
 python310-anyio"

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "maven-native \
 mvn(org.codehaus.mojo.natives:maven-native-api) \
 mvn(org.codehaus.mojo.natives:maven-native-api:pom:) \
 mvn(org.codehaus.mojo.natives:maven-native:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-container-default) \

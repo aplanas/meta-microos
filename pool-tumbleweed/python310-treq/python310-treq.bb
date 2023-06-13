@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-treq \
 python3.10dist(treq) \
 python310-treq \
 python3dist(treq)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted-tls \
 python310-attrs \

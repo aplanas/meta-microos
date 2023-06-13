@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:rails) \
 rubygem(ruby:3.2.0:rails:7) \
 rubygem(ruby:3.2.0:rails:7.0) \
 rubygem(ruby:3.2.0:rails:7.0.4)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actioncable) \
 rubygem(ruby:3.2.0:actionmailbox) \

@@ -19,6 +19,7 @@ gnuradio(aarch-64) \
 metainfo() \
 metainfo(org.gnuradio.grc.metainfo.xml) \
 mimehandler(application/gnuradio-grc)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

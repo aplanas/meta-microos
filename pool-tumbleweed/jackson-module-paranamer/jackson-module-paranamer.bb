@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "jackson-module-paranamer \
 mvn(com.fasterxml.jackson.module:jackson-module-paranamer) \
 mvn(com.fasterxml.jackson.module:jackson-module-paranamer:pom:) \
 osgi(com.fasterxml.jackson.module.jackson-module-paranamer)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-databind) \

@@ -14,6 +14,7 @@ RPM_HASH = "c7f8bcfa986fa5cb3b3dc08db1526989c1db209e257086c168047505310cd60ae110
 RPROVIDES:${PN} += "libdc1394-25 \
 libdc1394-25(aarch-64) \
 libdc1394.so.25()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

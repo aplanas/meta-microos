@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(petiteannonce.cls) \
 texlive-petiteannonce"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(mucfontsize10pt.clo) \
 tex(mucproc.cls) \
 texlive-mucproc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

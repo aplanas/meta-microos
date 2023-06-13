@@ -9,6 +9,7 @@ RPM_HASH = "e3b3ddb4fac17846b4a3535e069038fd1130b254287820494dc64e5c32a9de841647
 
 RPROVIDES:${PN} += "texlive-metapost-bin \
 texlive-metapost-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

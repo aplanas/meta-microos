@@ -11,6 +11,7 @@ RPM_HASH = "dd1e37ef211e40ea34a601fec153cb33741c6c56cdd6b6d65f5ae4ef1cda78da7c7b
 RPROVIDES:${PN} += "libvo-amrwbenc-devel \
 libvo-amrwbenc-devel(aarch-64) \
 pkgconfig(vo-amrwbenc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvo-amrwbenc0"
 

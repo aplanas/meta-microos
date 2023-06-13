@@ -10,6 +10,7 @@ RPM_HASH = "ef3e42304775e1ec850d0acdde6cb52168a15bf778a3995792e963ebb3324a75a43d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meslo-lg-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

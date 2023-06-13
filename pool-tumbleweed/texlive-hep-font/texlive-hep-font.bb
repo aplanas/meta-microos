@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hep-font.sty) \
 texlive-hep-font"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

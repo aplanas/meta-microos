@@ -14,6 +14,7 @@ RPM_HASH = "7048ee974ee637ad06930aa9b5819321af08dc9c50010a2e932a5a81eda9cba7f084
 RPROVIDES:${PN} += "apache2-mod_security2 \
 apache2-mod_security2(aarch-64) \
 config(apache2-mod_security2)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 apache_mmn_20120211 \

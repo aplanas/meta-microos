@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "akonadi-mime-devel \
 akonadi-mime-devel(aarch-64) \
 cmake(KF5AkonadiMime) \
 cmake(KPim5AkonadiMime)"
+
 RDEPENDS:${PN} += "cmake(KPim5Akonadi) \
 libKPim5AkonadiMime5"
 

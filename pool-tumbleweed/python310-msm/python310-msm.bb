@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-msm \
 python3.10dist(msm) \
 python310-msm \
 python3dist(msm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 patch \

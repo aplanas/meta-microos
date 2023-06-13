@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-lazy-fixture) \
 python39-pytest-lazy-fixture \
 python3dist(pytest-lazy-fixture)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pytest"
 

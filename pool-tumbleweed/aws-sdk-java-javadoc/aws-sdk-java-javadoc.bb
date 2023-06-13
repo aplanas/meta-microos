@@ -9,6 +9,7 @@ RPM_HASH = "1858b781896c90d12aa233886770ece0d4d40447747b591adc3d834d7a7d015c9ad3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

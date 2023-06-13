@@ -9,6 +9,7 @@ RPM_HASH = "a81dbaaf45ec4f08986698890a4c80a7871146897df7aa165a01aaab2523b30b79f3
 
 RPROVIDES:${PN} += "pigz \
 pigz(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.29)(64bit) \

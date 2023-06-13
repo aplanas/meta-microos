@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(axohelp.1) \
 texlive-axodraw2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

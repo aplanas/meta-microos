@@ -53,6 +53,7 @@ locale(coreutils:uk) \
 locale(coreutils:vi) \
 locale(coreutils:zh_CN) \
 locale(coreutils:zh_TW)"
+
 RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

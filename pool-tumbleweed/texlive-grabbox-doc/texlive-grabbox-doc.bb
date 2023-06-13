@@ -9,6 +9,7 @@ RPM_HASH = "6ef3264e49585ddb5f9972c94ebe71a69c904f995af9f0265556756e1bb25510240c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grabbox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

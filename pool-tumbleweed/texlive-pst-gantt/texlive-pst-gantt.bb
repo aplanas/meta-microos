@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-gantt.sty) \
 tex(pst-gantt.tex) \
 texlive-pst-gantt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

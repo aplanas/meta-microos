@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-intersect.sty) \
 tex(pst-intersect.tex) \
 texlive-pst-intersect"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

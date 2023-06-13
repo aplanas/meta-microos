@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(euro.sty) \
 texlive-euro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

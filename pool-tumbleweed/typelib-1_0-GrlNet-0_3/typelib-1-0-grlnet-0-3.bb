@@ -14,6 +14,7 @@ RPM_HASH = "8de31dd1b9604b23619968775a543d1365d251d743f1f7aab3d171d09e42eda7aa2e
 RPROVIDES:${PN} += "typelib(GrlNet) \
 typelib-1_0-GrlNet-0_3 \
 typelib-1_0-GrlNet-0_3(aarch-64)"
+
 RDEPENDS:${PN} += "libgrlnet-0.3.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

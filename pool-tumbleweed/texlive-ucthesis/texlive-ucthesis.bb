@@ -16,6 +16,7 @@ tex(uct11.clo) \
 tex(uct12.clo) \
 tex(ucthesis.cls) \
 texlive-ucthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "92a289a0cc0f0b053f34c1654686605f327add90214c9fcf95cf6b08fc31923c8087
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-zsh-completion"
+
 RDEPENDS:${PN} += "nova"
 
 inherit rpm

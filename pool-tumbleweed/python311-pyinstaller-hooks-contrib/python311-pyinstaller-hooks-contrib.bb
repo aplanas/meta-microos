@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyinstaller-hooks-contrib) \
 python311-pyinstaller-hooks-contrib \
 python3dist(pyinstaller-hooks-contrib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

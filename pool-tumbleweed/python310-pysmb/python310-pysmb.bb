@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pysmb \
 python3.10dist(pysmb) \
 python310-pysmb \
 python3dist(pysmb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyasn1"
 

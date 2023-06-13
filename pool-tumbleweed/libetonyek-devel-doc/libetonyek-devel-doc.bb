@@ -9,6 +9,7 @@ RPM_HASH = "f8b4cbd2dd963f01b1d3af5f373644736264df656956e2cc400818719ec00c322f26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libetonyek-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

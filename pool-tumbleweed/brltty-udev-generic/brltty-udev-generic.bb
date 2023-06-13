@@ -11,6 +11,7 @@ RPM_HASH = "93ad50fa6877badc7d3dc4923ed5f102c65b40d0f0c81c9776dab5b5a9f902e4396d
 
 RPROVIDES:${PN} += "brltty-udev-generic \
 brltty-udev-generic(aarch-64)"
+
 RDEPENDS:${PN} += "brltty"
 
 inherit rpm

@@ -17,6 +17,7 @@ metainfo() \
 metainfo(fusion-icon.appdata.xml) \
 python3.10dist(fusion-icon) \
 python3dist(fusion-icon)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 Mesa-demo-x \

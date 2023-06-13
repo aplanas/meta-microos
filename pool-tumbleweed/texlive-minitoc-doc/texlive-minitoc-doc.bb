@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-minitoc-doc:en) \
 texlive-minitoc-doc"
+
 RDEPENDS:${PN} += "/bin/csh \
 /bin/sh"
 

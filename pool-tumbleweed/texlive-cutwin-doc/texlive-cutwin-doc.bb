@@ -9,6 +9,7 @@ RPM_HASH = "6610cd19660985829221b7c60b9aeb4cc34697481271d1b02f71233ba4e972b0d4d5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cutwin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

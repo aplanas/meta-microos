@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "config(rpmlint) \
 python3.10dist(rpmlint) \
 python3dist(rpmlint) \
 rpmlint"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 appstream-glib \
 bash \

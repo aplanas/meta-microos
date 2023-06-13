@@ -15,6 +15,7 @@ rpm_macro(update_bootloader_refresh_post) \
 rpm_macro(update_bootloader_reinit_post) \
 rpm_macro(update_bootloader_requires) \
 update-bootloader-rpm-macros"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

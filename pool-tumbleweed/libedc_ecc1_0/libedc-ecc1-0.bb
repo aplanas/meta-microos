@@ -13,6 +13,7 @@ libedc_ecc.so.1.0(SCHILY_1.0)(64bit) \
 libedc_ecc.so.1.0(SCHILY_1.1)(64bit) \
 libedc_ecc1_0 \
 libedc_ecc1_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

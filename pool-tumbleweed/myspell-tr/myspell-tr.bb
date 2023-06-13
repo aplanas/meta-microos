@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(libreoffice:tr) \
 locale(seamonkey-spellchecker:tr) \
 myspell-dictionary \
 myspell-tr"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-tr_TR"
 

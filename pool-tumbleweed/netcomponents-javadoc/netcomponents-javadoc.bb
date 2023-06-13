@@ -22,6 +22,7 @@ RPM_HASH = "220eb3ce547acee79882d8d6717f8d50f9e75ff824fe296213eeeb1f12aee8206f24
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcomponents-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

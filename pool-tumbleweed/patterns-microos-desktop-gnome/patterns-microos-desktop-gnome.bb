@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-desktop-gnome \
 patterns-microos-desktop-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "(power-profiles-daemon or tlp) \
 NetworkManager-openconnect-gnome \
 NetworkManager-openvpn-gnome \

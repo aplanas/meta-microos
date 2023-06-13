@@ -10,6 +10,7 @@ RPM_HASH = "53b467b0ac9801734a551d1940e3e6dc1e1648a2f0dcf90254e12b913d2601778f3b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freecell-solver-presets"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

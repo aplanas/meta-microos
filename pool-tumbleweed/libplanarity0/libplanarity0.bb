@@ -11,6 +11,7 @@ RPM_HASH = "8583350d4e04c92d423d14c29f39e0f14c7e660e6eef5d8d989c3c5605c7f0451d8b
 RPROVIDES:${PN} += "libplanarity.so.0()(64bit) \
 libplanarity0 \
 libplanarity0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "dtb-cavium \
 dtb-cavium(aarch-64) \
 dtb-thunder-88xx \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

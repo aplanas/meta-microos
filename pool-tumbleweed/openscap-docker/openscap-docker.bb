@@ -9,6 +9,7 @@ RPM_HASH = "2d8e17dade0bedc20b0b90be8d3e6b4961d2045e77df01da37ad6732854bcfb2724b
 
 RPROVIDES:${PN} += "openscap-docker \
 openscap-docker(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

@@ -10,6 +10,7 @@ RPM_HASH = "7b03dec0780edf9ba7f1c4d0d9c5b394f943dbc54cad6a463db6e8e9505eef42b66b
 RPROVIDES:${PN} += "config(lxqt-runner) \
 lxqt-runner \
 lxqt-runner(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5WindowSystem.so.5()(64bit) \

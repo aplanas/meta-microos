@@ -13,6 +13,7 @@ RPM_HASH = "f87b4b1fdf6a1cc63c30796ba0454bcc8646f6c626d49019cd010cdd248566c4e4cc
 RPROVIDES:${PN} += "terminfo-screen \
 terminfo-screen(aarch-64) \
 terminfo:/usr/share/terminfo/s/screen.konsole"
+
 RDEPENDS:${PN} += "terminfo-base"
 
 inherit rpm

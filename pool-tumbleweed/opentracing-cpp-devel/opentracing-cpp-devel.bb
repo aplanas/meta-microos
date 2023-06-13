@@ -10,6 +10,7 @@ RPM_HASH = "88fd4c3c81f62bf6150bd95988b1660537a1df13bc556caef3ac9d2211aa7fe51bd0
 
 RPROVIDES:${PN} += "opentracing-cpp-devel \
 opentracing-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopentracing-cpp1"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(dblfnote.sty) \
 tex(fnpos.sty) \
 tex(pfnote.sty) \
 texlive-yafoot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

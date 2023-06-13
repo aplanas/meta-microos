@@ -16,6 +16,7 @@ RPM_HASH = "4df7d654d48331240513a6df821a4159d30a65f3e809b6c511ed68f8170d4101ac59
 RPROVIDES:${PN} += "jsoncpp-devel \
 jsoncpp-devel(aarch-64) \
 pkgconfig(jsoncpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjsoncpp25"
 

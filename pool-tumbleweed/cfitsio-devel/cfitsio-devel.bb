@@ -11,6 +11,7 @@ RPM_HASH = "ee65b0a6603a39f787a401028410526b56949638345f33034f25847343dcb9f95d16
 RPROVIDES:${PN} += "cfitsio-devel \
 cfitsio-devel(aarch-64) \
 pkgconfig(cfitsio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcfitsio10"
 

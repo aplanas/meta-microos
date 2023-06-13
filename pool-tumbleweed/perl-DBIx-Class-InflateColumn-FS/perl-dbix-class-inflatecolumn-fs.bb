@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(DBIx::Class::InflateColumn::FS) \
 perl(DBIx::Class::InflateColumn::FS::ResultSet) \
 perl-DBIx-Class-InflateColumn-FS"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBD::SQLite) \
 perl(DBICx::TestDatabase) \

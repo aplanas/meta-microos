@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-auth \
 python3.10dist(google-auth) \
 python310-google-auth \
 python3dist(google-auth)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cachetools \
 python310-cryptography \

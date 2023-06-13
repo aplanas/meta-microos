@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-rss2email \
 python3.10dist(rss2email) \
 python310-rss2email \
 python3dist(rss2email)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

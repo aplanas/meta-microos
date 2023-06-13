@@ -10,6 +10,7 @@ RPM_HASH = "b977047866bb6d4e1a9c92eaebe23b322d4a9a0eb967f214f79e30d2ddb504d00aae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foot-themes"
+
 RDEPENDS:${PN} += "foot"
 
 inherit rpm

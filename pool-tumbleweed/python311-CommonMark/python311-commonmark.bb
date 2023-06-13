@@ -14,6 +14,7 @@ python3.11dist(commonmark) \
 python311-CommonMark \
 python311-commonmark \
 python3dist(commonmark)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

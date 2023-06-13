@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "gpsd-devel \
 gpsd-devel(aarch-64) \
 pkgconfig(Qgpsmm) \
 pkgconfig(libgps)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 /usr/bin/python3 \

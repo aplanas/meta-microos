@@ -9,6 +9,7 @@ RPM_HASH = "81d22960fb43df4e3a254c1cb9ff5cba4e58c0c573fe0945b319d48f5f9a8741ef50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gtrlib-largetrees-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

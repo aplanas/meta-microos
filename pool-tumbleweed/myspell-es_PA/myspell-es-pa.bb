@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:es_PA) \
 myspell-dictionary \
 myspell-es_PA \
 myspell-spanish-panamanian"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-es"
 

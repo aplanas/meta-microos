@@ -9,6 +9,7 @@ RPM_HASH = "914bcc987bbe9f91912ac50f850ae846e978542ab3a380910e83a0bc028780947987
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfonts-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

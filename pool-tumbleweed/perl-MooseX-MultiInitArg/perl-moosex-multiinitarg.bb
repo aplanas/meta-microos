@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "perl(MooseX::MultiInitArg) \
 perl(MooseX::MultiInitArg::Attribute) \
 perl(MooseX::MultiInitArg::Trait) \
 perl-MooseX-MultiInitArg"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose)"
 

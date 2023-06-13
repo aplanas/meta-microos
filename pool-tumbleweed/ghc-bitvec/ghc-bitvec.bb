@@ -35,6 +35,7 @@ RPM_HASH = "c90f80d00cf4cc47c61bb1f4e16246718f3d32b98d426df833c9f732e56edbd24a53
 RPROVIDES:${PN} += "ghc-bitvec \
 ghc-bitvec(aarch-64) \
 libHSbitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "python3-thespian \
 python3.10dist(thespian) \
 python310-thespian \
 python3dist(thespian)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-setproctitle"
 

@@ -10,6 +10,7 @@ RPM_HASH = "72d1a531bc6f61cd28d87f3cb01a8c397965d3b5ceecf9be35299899ab03bbd43ac6
 
 RPROVIDES:${PN} += "budgie-countdown-applet \
 budgie-countdown-applet(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-gobject-Gdk \
 python3-psutil \

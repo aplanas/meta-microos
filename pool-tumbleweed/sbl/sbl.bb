@@ -21,6 +21,7 @@ libsbl-pwrbrl.so.2()(64bit) \
 libsbl-tieman.so.2()(64bit) \
 sbl \
 sbl(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

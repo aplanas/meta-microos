@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-requests-debug-toolbar \
 python3.10dist(django-requests-debug-toolbar) \
 python310-django-requests-debug-toolbar \
 python3dist(django-requests-debug-toolbar)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

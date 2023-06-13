@@ -10,6 +10,7 @@ RPM_HASH = "8e5b028ef1b4140c4a191a6b2fda5cb383d22ed7be15f779234ec8650a8d2309a2b7
 
 RPROVIDES:${PN} += "modsecurity \
 modsecurity(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

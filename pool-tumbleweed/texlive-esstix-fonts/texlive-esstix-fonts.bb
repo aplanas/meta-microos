@@ -48,6 +48,7 @@ font(esstix-three) \
 font(esstix-twelve) \
 font(esstix-two) \
 texlive-esstix-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jemmy \
 mvn(org.netbeans:jemmy) \
 mvn(org.netbeans:jemmy:pom:)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

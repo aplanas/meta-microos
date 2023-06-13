@@ -9,6 +9,7 @@ RPM_HASH = "4afe7ed7f86a5dce6a30291fbb2a549c4fb3d75636cb6bf07d7924c545fc1a2c9cc8
 
 RPROVIDES:${PN} += "fcitx5-lua-migration-reminder \
 fcitx5-lua-migration-reminder(aarch-64)"
+
 RDEPENDS:${PN} += "fcitx5-configtool \
 fcitx5-lua \
 lua54-lgi"

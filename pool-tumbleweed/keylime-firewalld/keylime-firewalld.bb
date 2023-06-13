@@ -9,6 +9,7 @@ RPM_HASH = "1ac95ed4771fd7a1ff8c183dcd116cde763ef78b6ac6b9de9ffc0f51522a34779d88
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-firewalld"
+
 RDEPENDS:${PN} += "/bin/sh \
 python3-keylime"
 

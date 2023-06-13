@@ -21,6 +21,7 @@ libslang.so.2(SLANG2.2.3)(64bit) \
 libslang.so.2(SLANG2.3.0)(64bit) \
 libslang2 \
 libslang2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

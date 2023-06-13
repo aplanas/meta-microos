@@ -12,6 +12,7 @@ RPM_HASH = "cb5e9c5115b384c1ec9e580fc0e50862a9e0072e7bc74fe7132043a1968a107d7d7b
 RPROVIDES:${PN} += "config(udp2raw-tunnel) \
 udp2raw-tunnel \
 udp2raw-tunnel(aarch-64)"
+
 RDEPENDS:${PN} += "iptables \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

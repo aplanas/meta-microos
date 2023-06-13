@@ -13,6 +13,7 @@ RPM_HASH = "020e09fb254a23c438c83ff6888c413355fe6337fb776a0e896c754fc41752fb7280
 RPROVIDES:${PN} += "ghc-math-functions \
 ghc-math-functions(aarch-64) \
 libHSmath-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so()(64bit) \

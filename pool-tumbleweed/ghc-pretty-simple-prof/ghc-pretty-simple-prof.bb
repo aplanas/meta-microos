@@ -10,6 +10,7 @@ RPM_HASH = "d4662859bfea2cf83915ca6444e7b5da8bca094a230258b64e446fa426cf2b6febad
 RPROVIDES:${PN} += "ghc-pretty-simple-prof \
 ghc-pretty-simple-prof(aarch-64) \
 ghc-prof(pretty-simple-4.1.2.0-LfjX2FlO3KCJ7V5IZrf6zY)"
+
 RDEPENDS:${PN} += "ghc-pretty-simple-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

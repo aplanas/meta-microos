@@ -13,6 +13,7 @@ RPM_HASH = "22cad6f258927b23cee2a5f7ff56cf055d597095a8c13cee04856ba71b71e50b8ba1
 RPROVIDES:${PN} += "cmake(Zopfli) \
 libzopfli-devel \
 libzopfli-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzopfli1 \
 libzopflipng1"
 

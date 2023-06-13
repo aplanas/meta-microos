@@ -28,6 +28,7 @@ libssl.so.10(OPENSSL_1.0.1)(64bit) \
 libssl.so.10(OPENSSL_1.0.1_EC)(64bit) \
 libssl.so.10(OPENSSL_1.0.2)(64bit) \
 libssl.so.10(libssl.so.10)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

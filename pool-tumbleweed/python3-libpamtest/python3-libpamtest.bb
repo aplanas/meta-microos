@@ -11,6 +11,7 @@ RPM_HASH = "538c595af7686293d16f4384b3f52b4ac04a9ca05bf88ab2e131338fdbdab875a730
 
 RPROVIDES:${PN} += "python3-libpamtest \
 python3-libpamtest(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

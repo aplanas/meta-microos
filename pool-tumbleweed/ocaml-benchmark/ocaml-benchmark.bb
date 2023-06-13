@@ -10,6 +10,7 @@ RPM_HASH = "4914466947d3a01f84566e508e17858c3e7da8cea2ebd9124019d8ada42c6d1f09ad
 
 RPROVIDES:${PN} += "ocaml-benchmark \
 ocaml-benchmark(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

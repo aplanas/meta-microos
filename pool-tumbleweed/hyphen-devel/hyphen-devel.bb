@@ -11,6 +11,7 @@ RPM_HASH = "78ea683c62ab0885ab263787a029a2cff448577b63f3072860476b713cf7b10dc470
 
 RPROVIDES:${PN} += "hyphen-devel \
 hyphen-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libhyphen0"
 

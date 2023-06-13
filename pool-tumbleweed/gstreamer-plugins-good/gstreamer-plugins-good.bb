@@ -475,6 +475,7 @@ libgstxingmux.so()(64bit) \
 libgsty4menc.so()(64bit) \
 metainfo() \
 metainfo(gstreamer-plugins-good.appdata.xml)"
+
 RDEPENDS:${PN} += "gstreamer \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1()(64bit) \

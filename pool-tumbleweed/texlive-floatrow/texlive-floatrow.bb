@@ -21,6 +21,7 @@ tex(fr-longtable.sty) \
 tex(fr-subfig.sty) \
 tex(listpen.sty) \
 texlive-floatrow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

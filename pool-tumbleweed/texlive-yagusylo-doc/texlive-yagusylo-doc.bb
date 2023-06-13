@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-yagusylo-doc:fr;en) \
 texlive-yagusylo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

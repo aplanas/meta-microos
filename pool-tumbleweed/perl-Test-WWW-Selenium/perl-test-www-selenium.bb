@@ -24,6 +24,7 @@ perl(Test::WWW::Selenium) \
 perl(WWW::Selenium) \
 perl(WWW::Selenium::Util) \
 perl-Test-WWW-Selenium"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Headers) \
 perl(HTTP::Request) \

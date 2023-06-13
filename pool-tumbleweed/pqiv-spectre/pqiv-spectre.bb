@@ -9,6 +9,7 @@ RPM_HASH = "958f0af03edc4e0f8ec8522a3f4fc26aa3c1cc1e683038efb5c5a3e91ace5973473b
 
 RPROVIDES:${PN} += "pqiv-spectre \
 pqiv-spectre(aarch-64)"
+
 RDEPENDS:${PN} += "libcairo.so.2()(64bit) \
 libglib-2.0.so.0()(64bit) \
 libgtk-3.so.0()(64bit) \

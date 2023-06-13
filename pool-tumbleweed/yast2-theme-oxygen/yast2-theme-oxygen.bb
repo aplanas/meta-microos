@@ -9,6 +9,7 @@ RPM_HASH = "36fbf6437b8af4da20255e480e4d2da3d4dde9293e285b697eeba9a3ebb108755cb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-theme-oxygen"
+
 RDEPENDS:${PN} += "oxygen5-icon-theme \
 yast2-branding"
 

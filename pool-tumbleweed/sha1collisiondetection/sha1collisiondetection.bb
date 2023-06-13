@@ -12,6 +12,7 @@ RPM_HASH = "28e1c27ea25ddc00b31291ed88a0162d28367124e7d03dfcecc9180fe050bf646657
 
 RPROVIDES:${PN} += "sha1collisiondetection \
 sha1collisiondetection(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(endofproofwd.sty) \
 texlive-endofproofwd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "c6037523b1e3090686b62815cfe97c52bf824c48d4a76d5455b602be1d2ac51e13da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-natbib-fr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

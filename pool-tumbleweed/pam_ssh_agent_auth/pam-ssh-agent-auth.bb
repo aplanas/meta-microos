@@ -13,6 +13,7 @@ RPM_HASH = "f06acfe386ceb7734f78ff4c79596eacee7fb5d8d33a7b4f99e628c09c5b88d958ee
 
 RPROVIDES:${PN} += "pam_ssh_agent_auth \
 pam_ssh_agent_auth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

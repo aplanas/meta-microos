@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-java-devel_java \
 patterns-devel-java-devel_java(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

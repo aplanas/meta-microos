@@ -13,6 +13,7 @@ RPM_HASH = "dc65587d3a3e720f367443a160dad2fe0b55c8fa9cc420954905d53e565ec85685e8
 RPROVIDES:${PN} += "libayatana-ido3-0.4.so.0()(64bit) \
 libayatana-ido3-0_4-0 \
 libayatana-ido3-0_4-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

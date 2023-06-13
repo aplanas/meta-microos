@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-orbital \
 python3.10dist(azure-mgmt-orbital) \
 python310-azure-mgmt-orbital \
 python3dist(azure-mgmt-orbital)"
+
 RDEPENDS:${PN} += "(python310-typing_extensions >= 4.3.0 if python310-base < 3.8) \
 python(abi) \
 python310-azure-common \

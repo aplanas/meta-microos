@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(gcdemu.desktop) \
 gcdemu"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 cdemu-daemon \

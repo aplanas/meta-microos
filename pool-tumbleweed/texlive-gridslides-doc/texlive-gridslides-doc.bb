@@ -9,6 +9,7 @@ RPM_HASH = "3b58b4c94eef4f1a24bf66ba38a6b1aabcaf0dac7f869eb2bf61dc6f40ea1e54b9a2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gridslides-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

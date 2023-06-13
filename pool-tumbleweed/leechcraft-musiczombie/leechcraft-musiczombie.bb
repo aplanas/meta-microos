@@ -10,6 +10,7 @@ RPM_HASH = "ddff9da4c1f8188087b478fa347903e8baf5697403c8c90328647a4d0be46609a516
 RPROVIDES:${PN} += "leechcraft-musiczombie \
 leechcraft-musiczombie(aarch-64) \
 libleechcraft_musiczombie.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

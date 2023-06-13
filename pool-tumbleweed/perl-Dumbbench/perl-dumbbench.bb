@@ -39,6 +39,7 @@ perl(Dumbbench::Instance::PerlSub) \
 perl(Dumbbench::Result) \
 perl(Dumbbench::Stats) \
 perl-Dumbbench"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \

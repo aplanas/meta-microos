@@ -12,6 +12,7 @@ RPM_HASH = "c870dfda60a7b79c9fb5a595c179d9b700858c3840d1d7fffd8973bd6dfbdf8226cd
 RPROVIDES:${PN} += "libboost_coroutine-devel-impl \
 libboost_coroutine1_82_0-devel \
 libboost_coroutine1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_chrono1_82_0-devel \
 libboost_context1_82_0-devel \
 libboost_coroutine1_82_0 \

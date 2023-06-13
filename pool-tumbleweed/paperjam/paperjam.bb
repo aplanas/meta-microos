@@ -11,6 +11,7 @@ RPM_HASH = "c797d7274b43a20f85173504eeec3f07da0bca235d856e69aa6118732bc8f3a1bc7f
 
 RPROVIDES:${PN} += "paperjam \
 paperjam(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

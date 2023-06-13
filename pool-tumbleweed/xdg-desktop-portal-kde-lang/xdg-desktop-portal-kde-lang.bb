@@ -56,6 +56,7 @@ locale(xdg-desktop-portal-kde:zh_CN) \
 locale(xdg-desktop-portal-kde:zh_TW) \
 xdg-desktop-portal-kde-lang \
 xdg-desktop-portal-kde-lang-all"
+
 RDEPENDS:${PN} += "xdg-desktop-portal-kde"
 
 inherit rpm

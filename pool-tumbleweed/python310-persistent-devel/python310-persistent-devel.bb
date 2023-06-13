@@ -10,6 +10,7 @@ RPM_HASH = "8357790295dc6e9a7457fbd90e21522860dd09f04be0b5905fb855379b56151ce4a1
 RPROVIDES:${PN} += "python3-persistent-devel \
 python310-persistent-devel \
 python310-persistent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-devel \
 python310-persistent"
 

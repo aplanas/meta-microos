@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mecaso.sty) \
 texlive-mecaso"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "06191a7076e79dcf3e54f58c03f9a1710bf8609caaf47ed5a16157e1b40f0ae1abcb
 
 RPROVIDES:${PN} += "Botan \
 Botan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbotan-2.so.19()(64bit) \

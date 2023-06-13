@@ -11,6 +11,7 @@ RPM_HASH = "13e3429328907ad196170d73097d5ecbf3feada9b8d1a0e2856f075a9fe23f4c367f
 
 RPROVIDES:${PN} += "jasper \
 jasper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLU.so.1()(64bit) \

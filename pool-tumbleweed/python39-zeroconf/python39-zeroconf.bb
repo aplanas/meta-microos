@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(zeroconf) \
 python39-zeroconf \
 python39-zeroconf(aarch-64) \
 python3dist(zeroconf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-async_timeout \
 python39-ifaddr"

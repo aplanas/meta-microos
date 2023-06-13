@@ -10,6 +10,7 @@ RPM_HASH = "a3ec68bdeaa9e0090b68a6476a0402826e164f9a10dcdee9226cdf526cd7870885e7
 RPROVIDES:${PN} += "kde4-mediainfo \
 kf5-mediainfo \
 kf5-mediainfo(aarch-64)"
+
 RDEPENDS:${PN} += "mediainfo-gui"
 
 inherit rpm

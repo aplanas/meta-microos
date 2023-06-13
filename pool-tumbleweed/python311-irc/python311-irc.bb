@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(irc) \
 python311-irc \
 python311-irclib \
 python3dist(irc)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-importlib-metadata \
 python311-jaraco.collections \

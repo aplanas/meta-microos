@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sqlparse \
 python3.10dist(sqlparse) \
 python310-sqlparse \
 python3dist(sqlparse)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

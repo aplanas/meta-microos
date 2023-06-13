@@ -11,6 +11,7 @@ RPM_HASH = "f2aa91a0e45aa9c44091ec73979c88f7e8a3575d69418a35356b862a2379cd00b533
 RPROVIDES:${PN} += "libxmlsec1-openssl.so.1()(64bit) \
 libxmlsec1-openssl1 \
 libxmlsec1-openssl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcrypto.so.3()(64bit) \

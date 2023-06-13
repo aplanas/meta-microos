@@ -29,6 +29,7 @@ libjanus_videoroom.so.0()(64bit) \
 libjanus_voicemail.so.0()(64bit) \
 libjanus_websockets.so.0()(64bit) \
 libjanus_wsevh.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

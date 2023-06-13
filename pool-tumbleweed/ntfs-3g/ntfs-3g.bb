@@ -12,6 +12,7 @@ RPM_HASH = "2e3e720c01355d8a5459cca8f3fa14062e1b636acc4f033d529a6e92a7390822c77c
 RPROVIDES:${PN} += "ntfs-3g \
 ntfs-3g(aarch-64) \
 ntfsprogs-fuse"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

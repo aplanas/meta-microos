@@ -96,6 +96,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Convert::TNEF) \
 perl(Convert::TNEF::Data) \
 perl-Convert-TNEF"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Wrap) \
 perl(MIME::Body)"

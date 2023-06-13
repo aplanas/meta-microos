@@ -9,6 +9,7 @@ RPM_HASH = "9c8d4ee232c07dea65fbce9696109bf012f943887cddba4bb0d7eedeab58742c45af
 
 RPROVIDES:${PN} += "emf2svg-conv \
 emf2svg-conv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

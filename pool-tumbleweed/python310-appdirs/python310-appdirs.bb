@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-appdirs \
 python3.10dist(appdirs) \
 python310-appdirs \
 python3dist(appdirs)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "58ccd4a3656e6500efab3b352f32ac4da1a68dc59669da0ff2c79bdd7dbedbbc68d3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-hpc-doc"
+
 RDEPENDS:${PN} += "ocr_1_0_1-gnu-hpc-doc"
 
 inherit rpm

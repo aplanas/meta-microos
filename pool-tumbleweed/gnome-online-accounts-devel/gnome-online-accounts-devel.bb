@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gnome-online-accounts-devel \
 gnome-online-accounts-devel(aarch-64) \
 pkgconfig(goa-1.0) \
 pkgconfig(goa-backend-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgoa-1_0-0 \
 libgoa-backend-1_0-1 \

@@ -12,6 +12,7 @@ RPM_HASH = "7047cffee9415c74fea526cf7127aff2cb0a57da9b11d75bc136cc7b2aafd6f3e91f
 
 RPROVIDES:${PN} += "sendmail-devel \
 sendmail-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmilter1_0"
 
 inherit rpm

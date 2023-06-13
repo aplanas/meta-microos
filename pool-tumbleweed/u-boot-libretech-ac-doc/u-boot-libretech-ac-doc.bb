@@ -10,6 +10,7 @@ RPM_HASH = "f455a135758b3470e34aedb578341ba4d5a868d0a125bb6d4381b46324259eb280d5
 
 RPROVIDES:${PN} += "u-boot-libretech-ac-doc \
 u-boot-libretech-ac-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

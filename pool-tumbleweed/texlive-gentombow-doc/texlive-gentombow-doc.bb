@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-gentombow-doc:ja) \
 texlive-gentombow-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

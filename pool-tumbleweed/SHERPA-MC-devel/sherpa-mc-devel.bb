@@ -18,6 +18,7 @@ RPM_HASH = "e5b13f75757358f9039fe85f67511c2d2eae2a1347ba72c18bb2039e569f8dbb70d8
 
 RPROVIDES:${PN} += "SHERPA-MC-devel \
 SHERPA-MC-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

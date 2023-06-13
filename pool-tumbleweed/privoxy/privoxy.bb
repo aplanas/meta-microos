@@ -12,6 +12,7 @@ RPM_HASH = "3005541b41db70242bbf0271e2cb48c30fdb683ead2dbcc6029719ae7dbb6af424a9
 RPROVIDES:${PN} += "config(privoxy) \
 privoxy \
 privoxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \

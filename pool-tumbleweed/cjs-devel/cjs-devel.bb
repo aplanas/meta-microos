@@ -13,6 +13,7 @@ RPM_HASH = "2a4be5a4c7acd552f45e4aa0f842ed6ec1fe1e0d8eb09cf417acf2245f8cb90d4a1c
 RPROVIDES:${PN} += "cjs-devel \
 cjs-devel(aarch-64) \
 pkgconfig(cjs-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cjs \
 libcjs0 \

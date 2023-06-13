@@ -66,6 +66,7 @@ locale(lxpanel:zh_HK) \
 locale(lxpanel:zh_TW) \
 lxpanel-lang \
 lxpanel-lang-all"
+
 RDEPENDS:${PN} += "lxpanel"
 
 inherit rpm

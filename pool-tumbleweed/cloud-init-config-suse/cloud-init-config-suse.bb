@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cloud-init-config \
 cloud-init-config-suse \
 cloud-init-config-suse(aarch-64) \
 config(cloud-init-config-suse)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

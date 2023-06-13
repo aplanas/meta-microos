@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cgal-devel \
 cgal-devel(aarch-64) \
 cmake(CGAL) \
 libcgal-devel"
+
 RDEPENDS:${PN} += "/bin/bash \
 blas \
 cmake \

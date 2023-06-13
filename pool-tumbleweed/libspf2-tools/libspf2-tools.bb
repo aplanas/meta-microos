@@ -10,6 +10,7 @@ RPM_HASH = "1e657d3d52c58bb7d4400b345f93b5bb5889056ae6c473fe78717706baf331486b5a
 RPROVIDES:${PN} += "libspf2-tools \
 libspf2-tools(aarch-64) \
 spf2"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

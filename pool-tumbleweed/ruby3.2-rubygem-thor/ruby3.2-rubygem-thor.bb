@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:thor:1) \
 rubygem(ruby:3.2.0:thor:1.2) \
 rubygem(ruby:3.2.0:thor:1.2.1) \
 rubygem(thor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-physt \
 python3.10dist(physt) \
 python310-physt \
 python3dist(physt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-pandas"

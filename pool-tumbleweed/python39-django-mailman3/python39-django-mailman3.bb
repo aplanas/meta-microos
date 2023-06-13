@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-mailman3) \
 python39-django-mailman3 \
 python3dist(django-mailman3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-django-allauth \

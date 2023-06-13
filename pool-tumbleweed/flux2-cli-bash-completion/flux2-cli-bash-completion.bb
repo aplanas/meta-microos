@@ -9,6 +9,7 @@ RPM_HASH = "88a53d30db4c18f1b399d27e043a033b3f37029039afd51160ed3ca013ec3e5167a5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flux2-cli-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 flux2-cli"
 

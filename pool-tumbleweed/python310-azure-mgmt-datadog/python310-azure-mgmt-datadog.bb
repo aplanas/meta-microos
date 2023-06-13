@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-datadog \
 python3.10dist(azure-mgmt-datadog) \
 python310-azure-mgmt-datadog \
 python3dist(azure-mgmt-datadog)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

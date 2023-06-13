@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3.11dist(werkzeug) \
 python311-Werkzeug \
 python311-Werkzeug-doc \
 python3dist(werkzeug)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-MarkupSafe"
 

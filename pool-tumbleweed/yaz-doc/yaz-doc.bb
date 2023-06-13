@@ -12,6 +12,7 @@ RPM_HASH = "7bb7f96b85f5dc4d8befda10e59529bc746ca5208e75c63f2bf194a17f9ed33c5c29
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yaz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

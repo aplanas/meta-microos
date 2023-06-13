@@ -15,6 +15,7 @@ RPM_HASH = "b02dd411ba6a0304edae2c07cfa05b8aeb1a96d4cc39f48cd86d8985440ee5b08879
 
 RPROVIDES:${PN} += "audiofile-doc \
 audiofile-doc(aarch-64)"
+
 RDEPENDS:${PN} += "audiofile"
 
 inherit rpm

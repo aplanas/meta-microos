@@ -11,6 +11,7 @@ RPM_HASH = "26fc72958f972c670f594233c3d5217a0354313e35465f1e7121a11e31bbd0d841ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "laf-plugin"
+
 RDEPENDS:${PN} += "java \
 jpackage-utils"
 

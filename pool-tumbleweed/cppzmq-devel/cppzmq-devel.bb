@@ -10,6 +10,7 @@ RPM_HASH = "ae38cde23710c3357504341e2e25bd14ffb07f94d6ff0d4a15a15138de10d3be81fa
 RPROVIDES:${PN} += "cmake(cppzmq) \
 cppzmq-devel \
 cppzmq-devel(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(libzmq)"
 
 inherit rpm

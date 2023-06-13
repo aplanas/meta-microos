@@ -12,6 +12,7 @@ RPM_HASH = "edaf82a1469df37295a7d9162887f94a80fd96407678bd092e431ba73581f05bb4eb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-minibufexpl"
+
 RDEPENDS:${PN} += "vim"
 
 inherit rpm

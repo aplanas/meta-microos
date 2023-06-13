@@ -9,6 +9,7 @@ RPM_HASH = "9ade5d45a669bf6b1e0bb303ed12a23043ebcae4874fd488038530fb928dc897964a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-geo-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

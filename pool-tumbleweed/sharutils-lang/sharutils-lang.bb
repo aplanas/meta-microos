@@ -38,6 +38,7 @@ locale(sharutils:zh_CN) \
 locale(sharutils:zh_TW) \
 sharutils-lang \
 sharutils-lang-all"
+
 RDEPENDS:${PN} += "sharutils"
 
 inherit rpm

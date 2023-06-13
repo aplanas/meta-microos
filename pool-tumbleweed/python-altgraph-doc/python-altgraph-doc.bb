@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python-altgraph-doc \
 python310-altgraph-doc \
 python311-altgraph-doc \
 python39-altgraph-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

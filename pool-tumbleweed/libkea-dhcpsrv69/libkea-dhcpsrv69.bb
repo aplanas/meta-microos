@@ -13,6 +13,7 @@ RPM_HASH = "d2861aa9b3d9328c9f4b7838a2021d6b32c9b76c879bc7e0d41233e27da1e0191f72
 RPROVIDES:${PN} += "libkea-dhcpsrv.so.69()(64bit) \
 libkea-dhcpsrv69 \
 libkea-dhcpsrv69(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

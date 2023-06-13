@@ -20,6 +20,7 @@ RPM_HASH = "3826ac0209e6ffd4f5b374533f6095e8dc3958ef79d03e561bb6021742de92fb9557
 
 RPROVIDES:${PN} += "wireguard-tools \
 wireguard-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

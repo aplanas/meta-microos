@@ -13,6 +13,7 @@ RPM_HASH = "ae3c2745b4659b0985a1cf51d54c995912052cf86120488b061cdd25a83b49028e46
 RPROVIDES:${PN} += "ayatana-ido-devel \
 ayatana-ido-devel(aarch-64) \
 pkgconfig(libayatana-ido3-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libayatana-ido3-0_4-0 \
 pkgconfig(glib-2.0) \

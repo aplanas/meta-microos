@@ -10,6 +10,7 @@ RPM_HASH = "8033574b60f39eb5533fb291e255cf300a79249c84c88f84165b75e0ac13c3fa8154
 
 RPROVIDES:${PN} += "gdcm-applications \
 gdcm-applications(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

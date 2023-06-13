@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Scrapy \
 python3.10dist(scrapy) \
 python310-Scrapy \
 python3dist(scrapy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

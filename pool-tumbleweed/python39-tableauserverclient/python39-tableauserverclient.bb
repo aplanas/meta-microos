@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tableauserverclient) \
 python39-tableauserverclient \
 python3dist(tableauserverclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

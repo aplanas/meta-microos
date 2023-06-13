@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xcookybooky.cfg) \
 tex(xcookybooky.sty) \
 texlive-xcookybooky"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

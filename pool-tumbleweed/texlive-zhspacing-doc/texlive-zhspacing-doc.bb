@@ -9,6 +9,7 @@ RPM_HASH = "0cf7dd79521d3206d6ca17a01d23472121cabd21c32c3ac3f661f1cd80524ff5bc7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zhspacing-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

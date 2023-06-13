@@ -22,6 +22,7 @@ python3-jupyter \
 python3.10dist(jupyter) \
 python310-jupyter \
 python3dist(jupyter)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipykernel \
 python310-ipywidgets \

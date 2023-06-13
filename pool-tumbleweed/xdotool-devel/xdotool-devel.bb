@@ -14,6 +14,7 @@ RPM_HASH = "752491c62d5318a73d739ff764cf0e8a5fc0e5af180a9691c587b4a82abb611222f3
 RPROVIDES:${PN} += "pkgconfig(libxdo) \
 xdotool-devel \
 xdotool-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 pkgconfig(x11) \

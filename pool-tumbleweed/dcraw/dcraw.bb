@@ -9,6 +9,7 @@ RPM_HASH = "768faa3967a4056e11a2a958dbdcae52cd443b5805a90e614dd4a2344bd7f9578d1b
 
 RPROVIDES:${PN} += "dcraw \
 dcraw(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

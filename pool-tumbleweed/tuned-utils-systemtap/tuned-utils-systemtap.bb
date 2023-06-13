@@ -13,6 +13,7 @@ RPM_HASH = "af2b8d1f9f776f31abc3ecc41d02e2d1886877e21c1f8aa452f66b501226f59b4e31
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils-systemtap"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/stap \
 systemtap \

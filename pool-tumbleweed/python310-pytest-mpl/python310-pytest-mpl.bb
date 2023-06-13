@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-mpl \
 python3.10dist(pytest-mpl) \
 python310-pytest-mpl \
 python3dist(pytest-mpl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-matplotlib \

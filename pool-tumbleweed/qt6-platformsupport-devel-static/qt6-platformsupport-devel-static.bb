@@ -12,6 +12,7 @@ cmake(Qt6FbSupportPrivate) \
 cmake(Qt6InputSupportPrivate) \
 qt6-platformsupport-devel-static \
 qt6-platformsupport-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(atspi-2) \
 pkgconfig(egl) \
 pkgconfig(fontconfig) \

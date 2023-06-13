@@ -10,6 +10,7 @@ RPM_HASH = "38e931e36562709c8caa0253e5ba2939136e24d22c845f129ed1f82568016301db20
 
 RPROVIDES:${PN} += "squidGuard-doc \
 squidGuard-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

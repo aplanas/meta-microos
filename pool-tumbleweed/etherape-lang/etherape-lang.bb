@@ -18,6 +18,7 @@ locale(etherape:nl) \
 locale(etherape:ru) \
 locale(etherape:sv) \
 locale(etherape:tr)"
+
 RDEPENDS:${PN} += "etherape"
 
 inherit rpm

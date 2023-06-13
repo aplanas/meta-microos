@@ -16,6 +16,7 @@ RPM_HASH = "d1998e533ede778f7259d499609446726491de9d992825a009be0978dff92db0a3a7
 RPROVIDES:${PN} += "dbh-devel \
 dbh-devel(aarch-64) \
 pkgconfig(dbh2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbh2"
 

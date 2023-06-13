@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(crmsh) \
 crmsh \
 python3.10dist(crmsh) \
 python3dist(crmsh)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/python3.10 \

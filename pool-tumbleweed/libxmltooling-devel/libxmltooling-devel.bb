@@ -18,6 +18,7 @@ libxmltooling-devel(aarch-64) \
 pkgconfig(xmltooling) \
 pkgconfig(xmltooling-lite) \
 xmltooling-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 curl-devel \
 libboost_headers-devel \

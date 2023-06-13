@@ -15,6 +15,7 @@ perl(OpenQA::Client::Archive) \
 perl(OpenQA::Client::Handler) \
 perl(OpenQA::Client::Upload) \
 perl(OpenQA::UserAgent)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 curl \

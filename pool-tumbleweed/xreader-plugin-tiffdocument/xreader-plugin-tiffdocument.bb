@@ -10,6 +10,7 @@ RPM_HASH = "ef447f678e42f697c94709717f91d33c84591c22651f742cd6a4075dbbd2baa2aeef
 RPROVIDES:${PN} += "libtiffdocument.so()(64bit) \
 xreader-plugin-tiffdocument \
 xreader-plugin-tiffdocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

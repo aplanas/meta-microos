@@ -22,6 +22,7 @@ tex(ot1whi15.tfm) \
 tex(ot1whi20.tfm) \
 tex(othello.sty) \
 texlive-othello"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

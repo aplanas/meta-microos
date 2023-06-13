@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-nmap \
 python3.10dist(python-nmap) \
 python310-python-nmap \
 python3dist(python-nmap)"
+
 RDEPENDS:${PN} += "nmap \
 python(abi)"
 

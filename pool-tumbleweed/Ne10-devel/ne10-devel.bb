@@ -14,6 +14,7 @@ RPM_HASH = "326f327e7523875afa8f67a0a4999363c3d9157dda88b083ba1c8652912a7a99e797
 
 RPROVIDES:${PN} += "Ne10-devel \
 Ne10-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libNE10-10 \
 libNE10_test10"
 

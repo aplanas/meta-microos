@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcorebindingsplugin.so()(64bit) \
 libkdegames-qt5-imports \
 libkdegames-qt5-imports(aarch-64) \
 qt5qmlimport(org.kde.games.core.0)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5KDEGames.so.7()(64bit) \

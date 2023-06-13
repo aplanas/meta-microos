@@ -15,6 +15,7 @@ RPM_HASH = "14d1ae0627c8e8df57f282008b741ed0547b2ab48d7f25c528c818ef9e2bfed12f92
 RPROVIDES:${PN} += "config(sword) \
 sword \
 sword(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

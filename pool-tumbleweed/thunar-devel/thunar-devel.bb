@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(thunarx-3) \
 thunar-devel \
 thunar-devel(aarch-64) \
 thunar-devel-doc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libthunarx-3-0 \
 pkgconfig(gio-2.0) \

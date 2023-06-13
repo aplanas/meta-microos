@@ -18,6 +18,7 @@ libqca-nss.so()(64bit) \
 libqca-pkcs11.so()(64bit) \
 qca-qt6-plugins \
 qca-qt6-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

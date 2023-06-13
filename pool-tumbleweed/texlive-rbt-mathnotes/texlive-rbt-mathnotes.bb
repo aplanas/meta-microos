@@ -18,6 +18,7 @@ tex(rbt-mathnotes-util.sty) \
 tex(rbt-mathnotes.cls) \
 tex(rbt-mathnotes.sty) \
 texlive-rbt-mathnotes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

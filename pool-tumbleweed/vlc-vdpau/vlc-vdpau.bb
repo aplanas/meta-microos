@@ -18,6 +18,7 @@ libvdpau_sharpen_plugin.so()(64bit) \
 libvlc_vdpau.so.0()(64bit) \
 vlc-vdpau \
 vlc-vdpau(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

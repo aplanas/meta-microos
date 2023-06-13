@@ -9,6 +9,7 @@ RPM_HASH = "df1e06a5787d37e5bf9548e142ad94ea9053b7446c6f7f5c8fe02edf08d41b3ad484
 
 RPROVIDES:${PN} += "mingw64-cross-cpp-bootstrap \
 mingw64-cross-cpp-bootstrap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

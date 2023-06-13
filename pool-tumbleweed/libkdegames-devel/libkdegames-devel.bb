@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5KDEGames) \
 libkdegames-devel \
 libkdegames-devel(aarch-64) \
 libkdegames-kf5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5Completion) \
 cmake(KF5Config) \
 cmake(KF5ConfigWidgets) \

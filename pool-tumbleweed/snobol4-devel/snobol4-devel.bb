@@ -9,6 +9,7 @@ RPM_HASH = "2ac5fe2dcab64b1cf7f0a7311de89a41f2dd507901c3f8367efb60c9855a7c99d111
 
 RPROVIDES:${PN} += "snobol4-devel \
 snobol4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "snobol4(aarch-64)"
 
 inherit rpm

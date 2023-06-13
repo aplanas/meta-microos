@@ -11,6 +11,7 @@ RPM_HASH = "fba8eb332554352f83ada4ff3bf4d8518fe972690e53274cd62b96bef09bb1706107
 RPROVIDES:${PN} += "cmake(Grantlee5) \
 grantlee5-devel \
 grantlee5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake \
 cmake(Qt5Core) \
 cmake(Qt5Gui) \

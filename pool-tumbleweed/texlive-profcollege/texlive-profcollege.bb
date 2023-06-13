@@ -224,6 +224,7 @@ tex(PfCzambie.dat) \
 tex(PfCzimbabwe.dat) \
 tex(ProfCollege.sty) \
 texlive-profcollege"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

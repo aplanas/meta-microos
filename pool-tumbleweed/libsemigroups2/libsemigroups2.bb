@@ -16,6 +16,7 @@ RPM_HASH = "9b0d9d65a40bf95c51fd37d98ba923258c8994de60dd86148e8ae4b5a3988f9d78a6
 RPROVIDES:${PN} += "libsemigroups.so.2()(64bit) \
 libsemigroups2 \
 libsemigroups2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

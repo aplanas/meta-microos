@@ -33,6 +33,7 @@ locale(desktopfolder:ru) \
 locale(desktopfolder:tr) \
 locale(desktopfolder:uk) \
 locale(desktopfolder:zh_CN)"
+
 RDEPENDS:${PN} += "desktopfolder"
 
 inherit rpm

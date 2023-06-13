@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libbenchmark.so.1()(64bit) \
 libbenchmark1 \
 libbenchmark1(aarch-64) \
 libbenchmark_main.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

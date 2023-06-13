@@ -16,6 +16,7 @@ RPM_HASH = "410b9bf75b081c96456385b0651d59286c17b67006d8bbf309a871d14339a8841a11
 RPROVIDES:${PN} += "parallel-netcdf-openmpi2-devel-static \
 pnetcdf-openmpi2-devel-static \
 pnetcdf-openmpi2-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "pnetcdf-openmpi2-devel"
 
 inherit rpm

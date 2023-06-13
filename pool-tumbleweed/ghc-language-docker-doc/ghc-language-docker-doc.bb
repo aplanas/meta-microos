@@ -9,6 +9,7 @@ RPM_HASH = "c1a267e03a31309a131bb7d3f45ecc75d10835b07f84113733707ac99e7aeb8f7fad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-language-docker-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

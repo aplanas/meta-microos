@@ -10,6 +10,7 @@ RPM_HASH = "d99c857b6822fa72b56d81eff75ad77147a93e4bbda8bc281f1fc32e05154e72d59a
 RPROVIDES:${PN} += "gio-sharp \
 gio-sharp(aarch-64) \
 mono(gio-sharp)"
+
 RDEPENDS:${PN} += "glib-sharp2 \
 glib2 \
 mono(System) \

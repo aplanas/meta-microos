@@ -57,6 +57,7 @@ font(rpxmi) \
 font(rpxr) \
 font(rpxsc) \
 texlive-pxfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

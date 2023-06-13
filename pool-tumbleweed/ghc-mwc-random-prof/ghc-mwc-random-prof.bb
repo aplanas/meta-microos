@@ -10,6 +10,7 @@ RPM_HASH = "ce2d98c2ececa425a4e3bb60c04c4313096caaaea588ac8cfd4df536a486aeb1fe0a
 RPROVIDES:${PN} += "ghc-mwc-random-prof \
 ghc-mwc-random-prof(aarch-64) \
 ghc-prof(mwc-random-0.15.0.2-ABcRZBX2kH9CBf1bhFwgAP)"
+
 RDEPENDS:${PN} += "ghc-mwc-random-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(math-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk) \

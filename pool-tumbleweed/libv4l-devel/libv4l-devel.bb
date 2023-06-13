@@ -14,6 +14,7 @@ pkgconfig(libv4l1) \
 pkgconfig(libv4l2) \
 pkgconfig(libv4l2rds) \
 pkgconfig(libv4lconvert)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libv4l1-0 \
 libv4l2-0 \

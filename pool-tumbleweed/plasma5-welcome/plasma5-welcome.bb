@@ -14,6 +14,7 @@ metainfo(org.kde.plasma-welcome.appdata.xml) \
 plasma5-welcome \
 plasma5-welcome(aarch-64) \
 qt5qmlimport(org.kde.plasma.welcome.1)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -48,6 +48,7 @@ mimehandler(text/x-seq) \
 mimehandler(video/ser) \
 siril \
 siril(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.59()(64bit) \

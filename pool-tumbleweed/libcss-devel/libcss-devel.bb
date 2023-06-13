@@ -11,6 +11,7 @@ RPM_HASH = "90a65dc3932e7cbea780612cc16e1909531cd351522d22f74e511368673849cbd874
 RPROVIDES:${PN} += "libcss-devel \
 libcss-devel(aarch-64) \
 pkgconfig(libcss)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcss0 \
 pkgconfig(libparserutils) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "ansible-core \
 config(ansible-core) \
 python3.10dist(ansible-core) \
 python3dist(ansible-core)"
+
 RDEPENDS:${PN} += "(python3-resolvelib >= 0.5.3 with python3-resolvelib < 1.1.0) \
 /usr/bin/python3 \
 python(abi) \

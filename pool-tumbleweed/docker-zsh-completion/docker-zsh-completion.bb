@@ -9,6 +9,7 @@ RPM_HASH = "0033befa31eb31cd63b516c8d00e16b712ce2c1e4e444a3612952083774dba396eb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-zsh-completion"
+
 RDEPENDS:${PN} += "docker \
 zsh"
 

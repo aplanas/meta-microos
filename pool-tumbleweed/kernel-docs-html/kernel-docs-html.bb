@@ -13,6 +13,7 @@ RPM_HASH = "1158be3d6168aff204f476a065da3f8ef40f12d8a75be9a261391840afff48955384
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-docs-html"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

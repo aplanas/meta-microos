@@ -11,6 +11,7 @@ RPM_HASH = "d8751913518edee5c8c8634c9d8e81a71131f8a0e1c2f73aa23d92188c5ba0b3c3a9
 
 RPROVIDES:${PN} += "qore-mysql-module-doc \
 qore-mysql-module-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

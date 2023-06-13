@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinx-autodoc-typehints) \
 python39-sphinx-autodoc-typehints \
 python3dist(sphinx-autodoc-typehints)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

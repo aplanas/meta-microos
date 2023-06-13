@@ -10,6 +10,7 @@ RPM_HASH = "fab5a0144d1f757b95be9fdce52360a25b8f363f08bfe09d89e374ce3200cd877032
 RPROVIDES:${PN} += "libharfbuzz.so.0()(64bit) \
 libharfbuzz0 \
 libharfbuzz0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

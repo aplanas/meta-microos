@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "evolution-plugin-spamassassin \
 evolution-plugin-spamassassin(aarch-64) \
 metainfo() \
 metainfo(org.gnome.Evolution-spamassassin.metainfo.xml)"
+
 RDEPENDS:${PN} += "evolution \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

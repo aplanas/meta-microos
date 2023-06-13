@@ -13,6 +13,7 @@ libutempter.so.0(UTEMPTER_1.1)(64bit) \
 libutempter0 \
 libutempter0(aarch-64) \
 utempter"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 group(utmp) \

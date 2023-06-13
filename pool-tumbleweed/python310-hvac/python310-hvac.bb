@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hvac \
 python3.10dist(hvac) \
 python310-hvac \
 python3dist(hvac)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyhcl \
 python310-requests"

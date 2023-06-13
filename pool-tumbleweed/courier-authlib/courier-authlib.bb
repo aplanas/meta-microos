@@ -17,6 +17,7 @@ libcourierauth.so.0()(64bit) \
 libcourierauthcommon.so.0()(64bit) \
 libcourierauthsasl.so.0()(64bit) \
 libcourierauthsaslclient.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/expect \

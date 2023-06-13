@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ucharcat.sty) \
 texlive-ucharcat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

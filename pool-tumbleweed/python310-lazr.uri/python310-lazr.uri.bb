@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-lazr.uri \
 python3.10dist(lazr.uri) \
 python310-lazr.uri \
 python3dist(lazr.uri)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

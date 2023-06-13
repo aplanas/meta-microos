@@ -15,6 +15,7 @@ RPM_HASH = "dd2a5ebaaf839b0c43dcffbdade4cedc04029f05622234f46a5d503665b711115c0f
 RPROVIDES:${PN} += "liballegro_dialog.so.5.2()(64bit) \
 liballegro_dialog5_2 \
 liballegro_dialog5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

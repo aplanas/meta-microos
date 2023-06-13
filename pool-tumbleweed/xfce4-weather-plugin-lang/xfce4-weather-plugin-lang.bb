@@ -59,6 +59,7 @@ locale(xfce4-weather-plugin:zh_TW) \
 xfce4-panel-plugin-weather-lang \
 xfce4-weather-plugin-lang \
 xfce4-weather-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-weather-plugin"
 
 inherit rpm

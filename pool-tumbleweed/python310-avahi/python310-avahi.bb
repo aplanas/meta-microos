@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "avahi-python \
 python3-avahi \
 python310-avahi \
 python310-avahi(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 avahi \

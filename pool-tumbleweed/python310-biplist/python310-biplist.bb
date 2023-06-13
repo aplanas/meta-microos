@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-biplist \
 python3.10dist(biplist) \
 python310-biplist \
 python3dist(biplist)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -19,6 +19,7 @@ tex(ascmac.map) \
 tex(ascmac.sty) \
 tex(tascmac.sty) \
 texlive-ascmac"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

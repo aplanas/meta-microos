@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-twython \
 python3.10dist(twython) \
 python310-twython \
 python3dist(twython)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-requests-oauthlib"

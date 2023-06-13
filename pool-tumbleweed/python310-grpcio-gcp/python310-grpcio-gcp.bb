@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-grpcio-gcp \
 python3.10dist(grpcio-gcp) \
 python310-grpcio-gcp \
 python3dist(grpcio-gcp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-grpcio"
 

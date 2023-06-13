@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-vlc) \
 python311-python-vlc \
 python3dist(python-vlc)"
+
 RDEPENDS:${PN} += "libvlc5 \
 python(abi)"
 

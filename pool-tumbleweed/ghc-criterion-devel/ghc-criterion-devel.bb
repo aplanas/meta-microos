@@ -10,6 +10,7 @@ RPM_HASH = "612224ee18dabaadc2e6263c7f019b9b630b5fb7f565acfda83b7d162e6d2de356ce
 RPROVIDES:${PN} += "ghc-criterion-devel \
 ghc-criterion-devel(aarch-64) \
 ghc-devel(criterion-1.6.0.0-DRzDBgvFHz63cqdMc7T97x)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-criterion \

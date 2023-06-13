@@ -17,6 +17,7 @@ rubygem(ruby:3.2.0:yard:0) \
 rubygem(ruby:3.2.0:yard:0.9) \
 rubygem(ruby:3.2.0:yard:0.9.28) \
 rubygem(yard)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

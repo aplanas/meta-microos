@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libavdevice.so.58.13()(64bit) \
 libavdevice.so.58.13(LIBAVDEVICE_58)(64bit) \
 libavdevice58_13 \
 libavdevice58_13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

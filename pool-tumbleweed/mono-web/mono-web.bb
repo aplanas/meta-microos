@@ -43,6 +43,7 @@ mono-web(aarch-64) \
 mono-web-forms \
 mono-web-services \
 pkgconfig(aspnetwebstack)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 mono(ICSharpCode.SharpZipLib) \

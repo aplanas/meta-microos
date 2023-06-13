@@ -11,6 +11,7 @@ RPM_HASH = "ef8a41fc97c5cc5afbffc7482268edffc2ca947160145e11c3d559750362d30b86c8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xonotic-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

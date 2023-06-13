@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-devel \
 emacs-el"
+
 RDEPENDS:${PN} += "emacs"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "55bdf003be1ff11e78432b6c3a7735870b762a8c41fbda91e317326cc219f99c4022
 
 RPROVIDES:${PN} += "fdo-client-devel \
 fdo-client-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopenssl-1_1-devel"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-httpbin \
 python3.10dist(httpbin) \
 python310-httpbin \
 python3dist(httpbin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Brotli \
 python310-Flask \

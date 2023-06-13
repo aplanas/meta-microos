@@ -125,6 +125,7 @@ font(comicneueangularlight) \
 font(comicneueangularlightitalic) \
 font(comicneuelight) \
 texlive-comicneue-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

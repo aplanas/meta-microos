@@ -11,6 +11,7 @@ RPM_HASH = "a811a1a371c5bf6cac13c06ddde6a5f5752bc223f48a4d8778c14b67209e13202f38
 RPROVIDES:${PN} += "geany-devel \
 geany-devel(aarch-64) \
 pkgconfig(geany)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 geany \
 gtk3-devel \

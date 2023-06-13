@@ -59,6 +59,7 @@ RPM_HASH = "e8522f9c06d1407f57aa0d2ba2416700a9a0b654bcd98fd6d01f36df8e79cc033281
 
 RPROVIDES:${PN} += "bash-loadables \
 bash-loadables(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit)"

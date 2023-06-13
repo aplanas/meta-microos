@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "leechcraft-deadlyrics \
 leechcraft-deadlyrics(aarch-64) \
 leechcraft-lyricsprovider \
 libleechcraft_deadlyrics.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

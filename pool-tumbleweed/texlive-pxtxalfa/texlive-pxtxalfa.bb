@@ -40,6 +40,7 @@ tex(upx-ds.fd) \
 tex(utx-cal.fd) \
 tex(utx-of.fd) \
 texlive-pxtxalfa"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

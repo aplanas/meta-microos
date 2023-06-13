@@ -10,6 +10,7 @@ RPM_HASH = "552ba978ca5bb596f1261854e624e83b272d8aed39dbf95a74cceef3c91b5ac790c5
 RPROVIDES:${PN} += "ghc-StateVar-devel \
 ghc-StateVar-devel(aarch-64) \
 ghc-devel(StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-StateVar \
 ghc-compiler \

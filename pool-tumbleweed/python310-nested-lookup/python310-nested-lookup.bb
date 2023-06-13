@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-nested-lookup \
 python3.10dist(nested-lookup) \
 python310-nested-lookup \
 python3dist(nested-lookup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

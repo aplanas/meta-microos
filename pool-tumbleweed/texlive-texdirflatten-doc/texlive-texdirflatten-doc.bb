@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texdirflatten.1) \
 texlive-texdirflatten-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

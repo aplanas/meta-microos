@@ -9,6 +9,7 @@ RPM_HASH = "fc17d40c8136a486587b06274b69c731cd0eb1b2e1120d4c13cf90755580b23966ad
 
 RPROVIDES:${PN} += "scim-tables \
 scim-tables(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

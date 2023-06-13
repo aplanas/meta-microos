@@ -11,6 +11,7 @@ RPM_HASH = "45b89a262d5bc6eedc45452a6702f89965543d3de1d8c568c568aa40cc8cadb30a66
 RPROVIDES:${PN} += "cmake(KF5JsEmbed) \
 kjsembed-devel \
 kjsembed-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5I18n) \
 cmake(KF5JS) \
 extra-cmake-modules \

@@ -15,6 +15,7 @@ RPM_HASH = "512c2d2425aa6993043b30ca60a88be95cc3c6f595a544b01bfe2f349c7f588c5fac
 RPROVIDES:${PN} += "librcd-devel \
 librcd-devel(aarch-64) \
 pkgconfig(librcd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librcd0"
 

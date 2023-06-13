@@ -9,6 +9,7 @@ RPM_HASH = "d9b133d23c530403604203cf99047907995331e0ecbaad428d8fc19dba5cd595e5dc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-powerdot-fuberlin-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "36534a437cb57bb7ae6ea204a67c4e108bbe4a971c215e450591423ea02f2123fda6
 RPROVIDES:${PN} += "cyrus-sasl-scram \
 cyrus-sasl-scram(aarch-64) \
 libscram.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

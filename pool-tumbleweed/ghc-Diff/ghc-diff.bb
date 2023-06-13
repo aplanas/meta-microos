@@ -11,6 +11,7 @@ RPM_HASH = "58c03cdf17cb0dcd7b8bfbeeb89e8eb978a05a002494245c9a673379526e5ba96de9
 RPROVIDES:${PN} += "ghc-Diff \
 ghc-Diff(aarch-64) \
 libHSDiff-0.4.1-CiDqeLEcsRQOQjfgZOPVP-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

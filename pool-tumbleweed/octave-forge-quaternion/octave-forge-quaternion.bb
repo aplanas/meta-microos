@@ -10,6 +10,7 @@ RPM_HASH = "ba9539ee76568590d0f4cdfd67e52b9207de2a4f77aa6a79b8216e0e04953ff3a9f9
 
 RPROVIDES:${PN} += "octave-forge-quaternion \
 octave-forge-quaternion(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

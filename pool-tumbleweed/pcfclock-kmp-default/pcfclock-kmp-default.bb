@@ -19,6 +19,7 @@ pcfclock-kmp \
 pcfclock-kmp-default \
 pcfclock-kmp-default(aarch-64) \
 pcfclock-kmp-default-k6.3.4_1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

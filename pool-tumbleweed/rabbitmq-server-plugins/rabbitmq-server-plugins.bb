@@ -12,6 +12,7 @@ RPM_HASH = "0ab1399f185898da2e7aeb00fdaae01bc9d6679016d74d5068b19dfa8a2382378ffc
 
 RPROVIDES:${PN} += "rabbitmq-server-plugins \
 rabbitmq-server-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "rabbitmq-server"
 
 inherit rpm

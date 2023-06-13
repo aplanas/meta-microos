@@ -11,6 +11,7 @@ RPM_HASH = "3ae789f4f4969fa6794a051a3d453c9b19a7f40aca85ad527797ff7a90d23ad47848
 RPROVIDES:${PN} += "config(udisks2) \
 udisks2 \
 udisks2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cryptsetup \
 dbus-1 \

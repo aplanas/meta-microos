@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "gimp-2.0-plugins-python \
 gimp-plugins-python \
 gimp-plugins-python(aarch-64) \
 gimp:/usr/lib64/gimp/2.0/plug-ins/pyconsole.py"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 gimp \
 ld-linux-aarch64.so.1()(64bit) \

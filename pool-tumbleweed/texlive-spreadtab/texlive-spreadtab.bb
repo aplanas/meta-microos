@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spreadtab.sty) \
 texlive-spreadtab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

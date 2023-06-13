@@ -61,6 +61,7 @@ libostree-1.so.1(LIBOSTREE_2022.4)(64bit) \
 libostree-1.so.1(LIBOSTREE_2022.5)(64bit) \
 libostree-1.so.1(LIBOSTREE_2022.7)(64bit) \
 libostree-1.so.1(LIBOSTREE_2023.1)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "c460c07af2127c97ce15241fd9309c3965448b900065088a9096f42a62f2e0815732
 RPROVIDES:${PN} += "librist-devel \
 librist-devel(aarch-64) \
 pkgconfig(librist)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librist4"
 

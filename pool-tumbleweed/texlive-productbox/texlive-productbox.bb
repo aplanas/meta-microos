@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(productbox.sty) \
 texlive-productbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

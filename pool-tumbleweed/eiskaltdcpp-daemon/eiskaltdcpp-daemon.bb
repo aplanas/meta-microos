@@ -18,6 +18,7 @@ RPM_HASH = "2239e738eb12ba8b7208769907afafe1afc962f861113ef94415adc308517d2e50f3
 
 RPROVIDES:${PN} += "eiskaltdcpp-daemon \
 eiskaltdcpp-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "eiskaltdcpp-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

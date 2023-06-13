@@ -20,6 +20,7 @@ python3.10dist(pyqt-builder) \
 python310-PyQt-builder \
 python310-pyqt-builder \
 python3dist(pyqt-builder)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

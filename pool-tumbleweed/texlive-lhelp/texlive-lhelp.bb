@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lhelp.sty) \
 texlive-lhelp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

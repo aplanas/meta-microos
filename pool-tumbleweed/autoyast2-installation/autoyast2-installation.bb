@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast2-installation \
 yast2-trans-autoinst"
+
 RDEPENDS:${PN} += "/bin/sh \
 yast2 \
 yast2-bootloader \

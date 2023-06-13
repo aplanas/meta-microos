@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fontparts) \
 python311-fontParts \
 python3dist(fontparts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-FontTools \
 python311-booleanOperations \

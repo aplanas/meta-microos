@@ -16,6 +16,7 @@ cobbler-nsupdate \
 config(cobbler) \
 python3.10dist(cobbler) \
 python3dist(cobbler)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/service \

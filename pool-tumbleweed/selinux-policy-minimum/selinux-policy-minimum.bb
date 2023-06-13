@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(selinux-policy-minimum) \
 selinux-policy-base \
 selinux-policy-minimum"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 coreutils \

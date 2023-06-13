@@ -18,6 +18,7 @@ libsfml-system.so.2.5()(64bit) \
 libsfml-window.so.2.5()(64bit) \
 libsfml2-2_5 \
 libsfml2-2_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

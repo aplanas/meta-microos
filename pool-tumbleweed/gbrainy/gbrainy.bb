@@ -30,6 +30,7 @@ metainfo(gbrainy.appdata.xml) \
 mono(gbrainy) \
 mono(gbrainy.Core) \
 mono(gbrainy.Games)"
+
 RDEPENDS:${PN} += "/bin/bash \
 mono(Mono.CSharp) \
 mono(Mono.Posix) \

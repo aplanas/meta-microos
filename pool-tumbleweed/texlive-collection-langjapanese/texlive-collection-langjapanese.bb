@@ -10,6 +10,7 @@ RPM_HASH = "d93df140404826caebbdd5acd7eeafbca42882a6e69de0a57b0483893c816357ab3d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langjapanese"
+
 RDEPENDS:${PN} += "texlive-ascmac \
 texlive-asternote \
 texlive-babel-japanese \

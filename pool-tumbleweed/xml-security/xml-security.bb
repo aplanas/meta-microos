@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "mvn(org.apache.santuario:xmlsec) \
 mvn(org.apache.santuario:xmlsec:pom:) \
 osgi(org.apache.santuario.xmlsec) \
 xml-security"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.woodstox:woodstox-core) \

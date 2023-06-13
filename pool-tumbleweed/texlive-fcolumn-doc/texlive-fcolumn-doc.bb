@@ -9,6 +9,7 @@ RPM_HASH = "d3f2f048c34721775e64e85b5f18871ea08297014f6bd573baa76e2be78bf3bb25ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fcolumn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

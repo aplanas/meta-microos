@@ -11,6 +11,7 @@ RPM_HASH = "9bb524c5b7015046f98545d59a06c8a223d124445b6a99654bf471ce060def59a9e6
 RPROVIDES:${PN} += "ghc-devel(vector-binary-instances-0.2.5.2-KcST7aCBDJmuBtN6ufmU8) \
 ghc-vector-binary-instances-devel \
 ghc-vector-binary-instances-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

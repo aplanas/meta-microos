@@ -10,6 +10,7 @@ RPM_HASH = "8755af1ccb301180b18a80d8937a95c290d8a504cb0d8e1bc92f5cc822120ba52501
 
 RPROVIDES:${PN} += "scalapack-mvapich2-test \
 scalapack-mvapich2-test(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblas.so.3()(64bit) \

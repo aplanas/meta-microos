@@ -9,6 +9,7 @@ RPM_HASH = "4f90e7d8824a7881746436b30f61f80405e7aeac14110c2aaf7fcfbdfb1849f830b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yquant-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

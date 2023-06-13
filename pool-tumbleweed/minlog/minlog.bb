@@ -30,6 +30,7 @@ mvn(com.googlecode:minlog) \
 mvn(com.googlecode:minlog::tests:) \
 mvn(com.googlecode:minlog:pom:) \
 osgi(com.esotericsoftware.minlog)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

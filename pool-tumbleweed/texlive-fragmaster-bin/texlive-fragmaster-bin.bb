@@ -9,6 +9,7 @@ RPM_HASH = "e1e06e547b39c362e115966f0c76562c0640769056077eee61cf1761ef93a879bbdc
 
 RPROVIDES:${PN} += "texlive-fragmaster-bin \
 texlive-fragmaster-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-fragmaster"
 
 inherit rpm

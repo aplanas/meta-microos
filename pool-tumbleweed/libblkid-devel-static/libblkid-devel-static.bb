@@ -10,6 +10,7 @@ RPM_HASH = "7b931eaf06f317801e6c9e44d17b3ed5dbc5eb2dc1fdab514aa3d6c269c9a4668bbc
 
 RPROVIDES:${PN} += "libblkid-devel-static \
 libblkid-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libblkid-devel"
 
 inherit rpm

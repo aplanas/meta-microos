@@ -10,6 +10,7 @@ RPM_HASH = "3efc423cc0859c4ef5205dc925672efcc3d3740e059dcdb9b15f8a78e5018aeaf201
 
 RPROVIDES:${PN} += "python3-libsignon-glib \
 python3-libsignon-glib(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 typelib(GObject)"
 

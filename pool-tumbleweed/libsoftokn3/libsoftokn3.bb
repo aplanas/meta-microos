@@ -20,6 +20,7 @@ libsoftokn3(aarch-64) \
 libsoftokn3.so()(64bit) \
 libsoftokn3.so(NSS_3.4)(64bit) \
 libsoftokn3.so(NSS_3.52)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

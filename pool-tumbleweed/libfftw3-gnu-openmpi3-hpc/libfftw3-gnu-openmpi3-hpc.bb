@@ -11,6 +11,7 @@ RPM_HASH = "ffbabef72eecc490efa00429a02df99a811647a7f6a85a3d161b0c4e8a61cc4b3285
 
 RPROVIDES:${PN} += "libfftw3-gnu-openmpi3-hpc \
 libfftw3-gnu-openmpi3-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "libfftw3_3_3_10-gnu-openmpi3-hpc"
 
 inherit rpm

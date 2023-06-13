@@ -14,6 +14,7 @@ RPM_HASH = "c3ef4ed01d26de17598fb1bf7a2c30efc652e8ce35ac8d70d4c66d17f75906ad2535
 
 RPROVIDES:${PN} += "iperf-devel \
 iperf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libiperf0 \
 pkgconfig(uuid)"
 

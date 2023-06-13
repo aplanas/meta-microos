@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-duet \
 python3.10dist(duet) \
 python310-duet \
 python3dist(duet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-typing_extensions"
 

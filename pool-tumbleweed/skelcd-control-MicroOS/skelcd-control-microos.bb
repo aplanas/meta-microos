@@ -10,6 +10,7 @@ RPM_HASH = "8f61721c710730c207b1df43d274158559ffd62371f61be43f843f38e6500d135352
 RPROVIDES:${PN} += "product_control \
 skelcd-control-MicroOS \
 skelcd-control-MicroOS(aarch-64)"
+
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
 rubygem(ruby:3.2.0:byebug) \

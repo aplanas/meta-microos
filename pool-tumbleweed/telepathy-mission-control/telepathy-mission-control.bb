@@ -14,6 +14,7 @@ RPM_HASH = "a69d0ace9ee879b4ef927c1739a075686f4f47ee46f1dd7cd966c7fe7b3678872618
 
 RPROVIDES:${PN} += "telepathy-mission-control \
 telepathy-mission-control(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

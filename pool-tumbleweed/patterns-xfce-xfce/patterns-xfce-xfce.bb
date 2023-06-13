@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-openSUSE-xfce \
 patterns-xfce-xfce \
 patterns-xfce-xfce(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

@@ -53,6 +53,7 @@ firmware(ti_5052.fw) \
 firmware(whiteheat.fw) \
 firmware(whiteheat_loader.fw) \
 kernel-firmware-serial"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

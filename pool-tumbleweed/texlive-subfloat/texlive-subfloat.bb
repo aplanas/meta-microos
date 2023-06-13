@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(subfloat.sty) \
 texlive-subfloat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

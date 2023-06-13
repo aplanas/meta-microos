@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(xskak-keys.sty) \
 tex(xskak-nagdef.sty) \
 tex(xskak.sty) \
 texlive-xskak"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "e1e32dac25ff994ac82385a622409d6ff8e0483b9267859a85b68f7cb2f00b994213
 
 RPROVIDES:${PN} += "telegram-theme-adapta \
 telegram-theme-adapta(aarch-64)"
+
 RDEPENDS:${PN} += "metatheme-adapta-common \
 telegram-desktop"
 

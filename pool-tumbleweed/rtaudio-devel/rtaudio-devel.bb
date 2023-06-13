@@ -13,6 +13,7 @@ RPM_HASH = "886fe14af9e8360b5148f6d1461d18e6432a9088b70268112adcbfc949e3ecf6b3f7
 RPROVIDES:${PN} += "pkgconfig(rtaudio) \
 rtaudio-devel \
 rtaudio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librtaudio6 \
 pkgconfig(alsa) \

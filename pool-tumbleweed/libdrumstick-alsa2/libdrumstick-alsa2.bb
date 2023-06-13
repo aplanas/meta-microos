@@ -12,6 +12,7 @@ RPM_HASH = "71178ac48131961d0fe58dee5958afee7e55a818b9ab406a0b19b7564656c3965436
 RPROVIDES:${PN} += "libdrumstick-alsa.so.2()(64bit) \
 libdrumstick-alsa2 \
 libdrumstick-alsa2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

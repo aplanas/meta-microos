@@ -10,6 +10,7 @@ RPM_HASH = "6a0efcec9268984977412f51af50e8cfe5ca2f1e7a1a381b3dc79b524c5c7558eb3d
 
 RPROVIDES:${PN} += "qt6-sensors-private-devel \
 qt6-sensors-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Sensors)"
 
 inherit rpm

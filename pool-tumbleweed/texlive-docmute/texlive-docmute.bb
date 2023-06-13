@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(docmute.sty) \
 texlive-docmute"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

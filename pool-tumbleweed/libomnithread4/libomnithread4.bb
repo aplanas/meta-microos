@@ -10,6 +10,7 @@ RPM_HASH = "f89232c067c9ad3fbb8485303e5cb048db9b6ffdc3d02df0cf9d2e7c05c728afb246
 RPROVIDES:${PN} += "libomnithread.so.4()(64bit) \
 libomnithread4 \
 libomnithread4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

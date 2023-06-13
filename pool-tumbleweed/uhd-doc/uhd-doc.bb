@@ -9,6 +9,7 @@ RPM_HASH = "ceddf443caea4b023427ea4148b2bdaec06f2b5b180f31357d6fa2fa38b8b2c540f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uhd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

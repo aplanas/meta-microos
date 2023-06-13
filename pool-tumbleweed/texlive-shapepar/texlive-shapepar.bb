@@ -27,6 +27,7 @@ tex(dropshape.def) \
 tex(shapepar.sty) \
 tex(triangleshapes.def) \
 texlive-shapepar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

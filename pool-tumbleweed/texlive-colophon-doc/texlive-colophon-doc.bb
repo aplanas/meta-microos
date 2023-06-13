@@ -9,6 +9,7 @@ RPM_HASH = "e764d3e54fe7d34a5974d2fb3e8f7823781017a0095575ee8bc8d7bd754642327cec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colophon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

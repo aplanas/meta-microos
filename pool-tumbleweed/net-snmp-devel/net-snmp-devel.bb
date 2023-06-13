@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "net-snmp-devel \
 net-snmp-devel(aarch-64) \
 pkgconfig(netsnmp) \
 pkgconfig(netsnmp-agent)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/pkg-config \

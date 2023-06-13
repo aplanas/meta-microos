@@ -21,6 +21,7 @@ perl(Log::Message::Config) \
 perl(Log::Message::Handlers) \
 perl(Log::Message::Item) \
 perl-Log-Message"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Locale::Maketext::Simple) \
 perl(Module::Load) \

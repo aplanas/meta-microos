@@ -10,6 +10,7 @@ RPM_HASH = "0136e6ca964545571257e719d0f2aad82ba1d2f2a8769f10e0ea92ce8a77716abcb3
 RPROVIDES:${PN} += "libpath_utils-devel \
 libpath_utils-devel(aarch-64) \
 pkgconfig(path_utils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpath_utils1"
 

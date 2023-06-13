@@ -30,6 +30,7 @@ RPROVIDES:${PN} += "ghc-pandoc \
 ghc-pandoc(aarch-64) \
 libHSpandoc-3.1.2-4COa82weJXB97OkqjDlb3I-ghc9.4.5.so()(64bit) \
 libHSpandoc-3.1.2-H0ogU2eolzfu1WzsdvpBp-xml-light-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so()(64bit) \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so()(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "fac6e3f5cc5bc65c3e624f96314e38232c58c6cf2d95dd956b0fa0df296d6271bc5c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-azure-agent-test"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 openssl \
 python(abi) \

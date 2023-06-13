@@ -14,6 +14,7 @@ libnsl.so.3(LIBNSL_2.0)(64bit) \
 libnsl.so.3(LIBNSL_PRIVATE)(64bit) \
 libnsl3 \
 libnsl3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

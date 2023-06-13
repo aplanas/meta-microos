@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(currvita.sty) \
 texlive-currvita"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-prometheus-alerts \
 config(ceph-prometheus-alerts)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

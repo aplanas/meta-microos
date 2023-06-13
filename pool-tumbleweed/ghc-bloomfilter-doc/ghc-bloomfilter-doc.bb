@@ -9,6 +9,7 @@ RPM_HASH = "e652468e70f644303a8bb70d9721cc39ff73b722f4a9906533146c328b59ac290b7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bloomfilter-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

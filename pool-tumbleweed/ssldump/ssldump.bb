@@ -14,6 +14,7 @@ RPM_HASH = "02a0f8fc418730050f52d1e0964375290a09e4f7bc865eb13afa0ebbbe997df041b4
 
 RPROVIDES:${PN} += "ssldump \
 ssldump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

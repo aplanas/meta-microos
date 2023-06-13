@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(philex.sty) \
 texlive-philex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(ctanbib.1) \
 texlive-ctanbib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

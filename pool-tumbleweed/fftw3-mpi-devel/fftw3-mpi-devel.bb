@@ -11,6 +11,7 @@ RPM_HASH = "a1bdbc0dfaeba307bceb1a4dd54ab96d662a98c6f720035e0d8d870e61febd3468fa
 
 RPROVIDES:${PN} += "fftw3-mpi-devel \
 fftw3-mpi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fftw3-devel \
 glibc-devel \
 libfftw3_mpi3 \

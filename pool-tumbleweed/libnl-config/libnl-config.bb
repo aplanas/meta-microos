@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libnl-config) \
 libnl-config"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

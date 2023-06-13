@@ -12,6 +12,7 @@ RPM_HASH = "7a5d5628792a2061ae3d91a23f23b7171e6a84799514ca9084b0a2946f43d886e788
 RPROVIDES:${PN} += "cmake(KF5Emoticons) \
 kemoticons-devel \
 kemoticons-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 cmake(KF5Service) \
 cmake(Qt5Gui) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mkdocs-material-extensions \
 python3.10dist(mkdocs-material-extensions) \
 python310-mkdocs-material-extensions \
 python3dist(mkdocs-material-extensions)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

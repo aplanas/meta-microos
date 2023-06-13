@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jboss-modules \
 mvn(org.jboss.modules:jboss-modules) \
 mvn(org.jboss.modules:jboss-modules:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

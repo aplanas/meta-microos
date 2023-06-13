@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-nwc_health \
 nagios-plugins-nwc_health"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(File::Slurp) \
 perl(JSON) \

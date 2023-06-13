@@ -9,6 +9,7 @@ RPM_HASH = "b761ae26942cf4880ab492645b08cab6403eef47fba9acbc7ccd7af3973142848692
 
 RPROVIDES:${PN} += "pulseaudio-zsh-completion \
 pulseaudio-zsh-completion(aarch-64)"
+
 RDEPENDS:${PN} += "pulseaudio-utils \
 zsh"
 

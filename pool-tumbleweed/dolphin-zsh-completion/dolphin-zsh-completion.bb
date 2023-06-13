@@ -9,6 +9,7 @@ RPM_HASH = "8015cd6be874f9e88c9a8b64a495368e5c66abbf6790ab517d1454ac0ffd1325360c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dolphin-zsh-completion"
+
 RDEPENDS:${PN} += "dolphin"
 
 inherit rpm

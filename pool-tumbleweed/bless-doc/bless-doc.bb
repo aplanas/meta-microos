@@ -11,6 +11,7 @@ RPM_HASH = "5fd90a0ffc2db222049d9d3ac77a9715b0c09c4fbf48802e8e1313ed048bf02f88a3
 
 RPROVIDES:${PN} += "bless-doc \
 bless-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

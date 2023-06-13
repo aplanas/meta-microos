@@ -13,6 +13,7 @@ RPM_HASH = "b7f4443de9d6da4117660bf35fbe41fb7c034c0f467526a3bce2c85c7dab3b012819
 RPROVIDES:${PN} += "libssh2-devel \
 libssh2-devel(aarch-64) \
 pkgconfig(libssh2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libssh2-1 \

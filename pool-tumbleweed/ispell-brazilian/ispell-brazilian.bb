@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ispell-brazilian \
 ispell-brazilian(aarch-64) \
 ispell_dictionary \
 locale(ispell:pt_BR)"
+
 RDEPENDS:${PN} += "/usr/bin/awk"
 
 inherit rpm

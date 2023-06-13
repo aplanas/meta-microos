@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-editables \
 python3.10dist(editables) \
 python310-editables \
 python3dist(editables)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

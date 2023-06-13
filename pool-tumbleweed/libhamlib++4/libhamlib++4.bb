@@ -12,6 +12,7 @@ RPM_HASH = "361e1509ebe1488d6d2953ae39fd426e18f8c473417e173ee705aab5dd6f6cdc71f8
 RPROVIDES:${PN} += "libhamlib++.so.4()(64bit) \
 libhamlib++4 \
 libhamlib++4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

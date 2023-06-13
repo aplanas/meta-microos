@@ -14,6 +14,7 @@ pkgconfig(libofproto) \
 pkgconfig(libopenvswitch) \
 pkgconfig(libovsdb) \
 pkgconfig(libsflow)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 libopenvswitch-3_1-0 \

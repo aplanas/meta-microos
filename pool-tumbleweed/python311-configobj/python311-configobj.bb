@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(configobj) \
 python311-configobj \
 python3dist(configobj)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-six"
 

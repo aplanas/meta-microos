@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-codemod \
 python3.10dist(django-codemod) \
 python310-django-codemod \
 python3dist(django-codemod)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(fontinst.1) \
 texlive-fontinst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

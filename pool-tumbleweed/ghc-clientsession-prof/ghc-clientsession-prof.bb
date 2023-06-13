@@ -10,6 +10,7 @@ RPM_HASH = "cd791bb344759f47a8e35d71d9f6d2e449765f5062b61a6b3f274429fec4f9f45127
 RPROVIDES:${PN} += "ghc-clientsession-prof \
 ghc-clientsession-prof(aarch-64) \
 ghc-prof(clientsession-0.9.1.2-Jnvj5vMN6iR9xGMf6HxcGE)"
+
 RDEPENDS:${PN} += "ghc-clientsession-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh) \

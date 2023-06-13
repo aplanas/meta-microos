@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-htmlmin) \
 python311-Flask-HTMLmin \
 python3dist(flask-htmlmin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-cssmin \

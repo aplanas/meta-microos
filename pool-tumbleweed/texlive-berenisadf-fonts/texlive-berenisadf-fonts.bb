@@ -122,6 +122,7 @@ font(:lang=zu) \
 font(berenisadfpro) \
 font(berenisadfprosc) \
 texlive-berenisadf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -75,6 +75,7 @@ RPM_HASH = "2a270cd932736f26c6dd361db12afc2ecd43592d3cb268adab445d8ba3a22d10237c
 RPROVIDES:${PN} += "perl(Locale::gettext) \
 perl-gettext \
 perl-gettext(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

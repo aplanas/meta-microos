@@ -26,6 +26,7 @@ RPM_HASH = "fd7b2890fe75e853a03717962f9e9bb670d5a4dabdaa065e1a750acb6a46b75680eb
 RPROVIDES:${PN} += "libgsl.so.27()(64bit) \
 libgsl27 \
 libgsl27(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

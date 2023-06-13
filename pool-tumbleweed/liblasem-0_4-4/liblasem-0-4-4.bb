@@ -11,6 +11,7 @@ RPM_HASH = "5cd38b52763500d84697e7d416c8d7a519f6af36c9fd7ed8286d2e760b839a0b007f
 RPROVIDES:${PN} += "liblasem-0.4.so.4()(64bit) \
 liblasem-0_4-4 \
 liblasem-0_4-4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

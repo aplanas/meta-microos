@@ -14,6 +14,7 @@ RPM_HASH = "48e116683948c956821d337f22c9c604a9b2e458c8f5419729047780800da89b1c08
 
 RPROVIDES:${PN} += "logrotate \
 logrotate(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/xz \
 ld-linux-aarch64.so.1()(64bit) \

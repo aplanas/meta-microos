@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "evieproto-devel \
 evieproto-devel(aarch-64) \
 pkgconfig(evieproto) \
 xorg-x11-proto-devel:/usr/lib64/pkgconfig/evieproto.pc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

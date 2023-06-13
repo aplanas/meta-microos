@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-colormap \
 python3.10dist(colormap) \
 python310-colormap \
 python3dist(colormap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-easydev \
 python310-matplotlib"

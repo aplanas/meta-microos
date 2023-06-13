@@ -12,6 +12,7 @@ RPM_HASH = "80097bf0339c3d1ca0ff0570398e5c4fde0b64713a6b1ab269f4411be99e03140249
 RPROVIDES:${PN} += "libout123-0 \
 libout123-0(aarch-64) \
 libout123.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(newcomputermodern.sty) \
 texlive-newcomputermodern"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

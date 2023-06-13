@@ -16,6 +16,7 @@ RPM_HASH = "882fb3be8994d8d8e460c38e2dc7bd854d93b2b29b893cf9b74abc9176be70eae34b
 RPROVIDES:${PN} += "mono(Mono.Data.Sqlite) \
 mono-data-sqlite \
 mono-data-sqlite(aarch-64)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Data) \
 mono(System.Transactions) \

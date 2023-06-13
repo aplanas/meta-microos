@@ -10,6 +10,7 @@ RPM_HASH = "967bc64d6cd6c5b86cb0c422ea30f83f4871f4fa4bcc70632ade347340045a29a4ef
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compiz-manager"
+
 RDEPENDS:${PN} += "/bin/bash \
 compiz \
 util-linux"

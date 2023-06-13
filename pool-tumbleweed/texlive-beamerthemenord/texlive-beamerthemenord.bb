@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(beamercolorthemeNord.sty) \
 tex(beamerfontthemeNord.sty) \
 tex(beamerthemeNord.sty) \
 texlive-beamerthemenord"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

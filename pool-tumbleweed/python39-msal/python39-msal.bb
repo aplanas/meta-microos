@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(msal) \
 python39-msal \
 python3dist(msal)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyJWT \
 python39-cryptography \

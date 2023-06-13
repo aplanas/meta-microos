@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-dotmap \
 python3.10dist(dotmap) \
 python310-dotmap \
 python3dist(dotmap)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

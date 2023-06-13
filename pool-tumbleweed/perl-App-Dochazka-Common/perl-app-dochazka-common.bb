@@ -24,6 +24,7 @@ perl(App::Dochazka::Common::Model::Schedintvls) \
 perl(App::Dochazka::Common::Model::Schedule) \
 perl(App::Dochazka::Common::Model::Tempintvl) \
 perl-App-Dochazka-Common"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Params::Validate) \
 perl(Test::Deep::NoTest) \

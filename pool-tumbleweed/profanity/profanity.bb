@@ -11,6 +11,7 @@ RPM_HASH = "db81f3a97e9caf00c46820732917ac104fdb71b48b6ee3e78d0b776cf032f90d527a
 RPROVIDES:${PN} += "libprofanity.so.0()(64bit) \
 profanity \
 profanity(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libstrophe0 \
 profanity-binary"

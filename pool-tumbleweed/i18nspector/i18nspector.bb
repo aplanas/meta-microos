@@ -15,6 +15,7 @@ RPM_HASH = "c1fd64eeed860d4f56cd33e9c44e643772ee832c85109aa27e649c2a2b817f3f3e73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "i18nspector"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-polib \
 python3-rply"

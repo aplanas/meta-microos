@@ -14,6 +14,7 @@ perl(HTML::FormatRTF) \
 perl(HTML::FormatText) \
 perl(HTML::Formatter) \
 perl-HTML-Format"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Font::Metrics::Courier) \
 perl(Font::Metrics::CourierBold) \

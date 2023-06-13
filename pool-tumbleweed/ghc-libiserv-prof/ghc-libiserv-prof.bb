@@ -10,6 +10,7 @@ RPM_HASH = "3045f4e286f54a3ce95d20a27eac23648ce5720a84709230371f71fa44932d893855
 RPROVIDES:${PN} += "ghc-libiserv-prof \
 ghc-libiserv-prof(aarch-64) \
 ghc-prof(libiserv-9.4.5)"
+
 RDEPENDS:${PN} += "ghc-libiserv-devel(aarch-64) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(binary-0.8.9.1) \

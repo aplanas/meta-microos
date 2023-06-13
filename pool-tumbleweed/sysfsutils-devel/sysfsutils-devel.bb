@@ -15,6 +15,7 @@ RPM_HASH = "d56a5d5a1578997ccdfa0e3951f7c03f12d9ca4610a2c5cbe636e8f9b8d376fa52bc
 RPROVIDES:${PN} += "pkgconfig(libsysfs) \
 sysfsutils-devel \
 sysfsutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsysfs2"
 

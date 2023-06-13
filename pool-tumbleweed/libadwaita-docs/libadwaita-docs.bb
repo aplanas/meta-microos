@@ -10,6 +10,7 @@ RPM_HASH = "0f0c78702b2d6e27d4c50a4dc4ec3e5ec49110261f151ba36e182be2b998f3ff6438
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libadwaita-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

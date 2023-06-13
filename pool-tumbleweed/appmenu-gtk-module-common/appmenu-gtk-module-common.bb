@@ -9,6 +9,7 @@ RPM_HASH = "f1b25da63d3aa5b0a8216e3e39755eb3e19cd910378e135a6c43db58083d780f3c95
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appmenu-gtk-module-common"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

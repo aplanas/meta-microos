@@ -13,6 +13,7 @@ RPM_HASH = "350396140a40526b08f4c2737d669a3ababa2d62e3ef264187d769a749b42030d18a
 RPROVIDES:${PN} += "net-tools \
 net-tools(aarch-64) \
 net_tool"
+
 RDEPENDS:${PN} += "hostname \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

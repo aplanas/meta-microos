@@ -16,6 +16,7 @@ python3.10dist(lazy-loader) \
 python310-lazy-loader \
 python310-lazy_loader \
 python3dist(lazy-loader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

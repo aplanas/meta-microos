@@ -17,6 +17,7 @@ pkgconfig(OpenIPMIposix) \
 pkgconfig(OpenIPMIpthread) \
 pkgconfig(OpenIPMIui) \
 pkgconfig(OpenIPMIutils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libOpenIPMI0 \

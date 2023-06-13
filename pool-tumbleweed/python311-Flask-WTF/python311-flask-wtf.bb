@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-wtf) \
 python311-Flask-WTF \
 python3dist(flask-wtf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-WTForms \

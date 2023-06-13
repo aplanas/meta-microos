@@ -55,6 +55,7 @@ locale(grantlee-editor:ug) \
 locale(grantlee-editor:uk) \
 locale(grantlee-editor:zh_CN) \
 locale(grantlee-editor:zh_TW)"
+
 RDEPENDS:${PN} += "grantlee-editor"
 
 inherit rpm

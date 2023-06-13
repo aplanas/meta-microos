@@ -9,6 +9,7 @@ RPM_HASH = "ddbeabfc5db2b45d587c5904983fc12007628053d08910824c327690b2266374b17f
 
 RPROVIDES:${PN} += "texlive-lollipop-bin \
 texlive-lollipop-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-lollipop"
 
 inherit rpm

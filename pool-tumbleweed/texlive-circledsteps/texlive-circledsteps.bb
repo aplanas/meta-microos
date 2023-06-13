@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(circledsteps.sty) \
 texlive-circledsteps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

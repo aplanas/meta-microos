@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bxenclose.sty) \
 texlive-bxenclose"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

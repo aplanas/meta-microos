@@ -10,6 +10,7 @@ RPM_HASH = "fe8d29b233ae9880bf0b15ec9d92626e619b698824aa20789f335df57f9b3e7e5361
 
 RPROVIDES:${PN} += "python3-capng \
 python3-capng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "b267b0107010317e373ee81f77b495cdf0e666800e0330138335033a5167d514984b
 RPROVIDES:${PN} += "python3-gobject-cairo \
 python310-gobject-cairo \
 python310-gobject-cairo(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

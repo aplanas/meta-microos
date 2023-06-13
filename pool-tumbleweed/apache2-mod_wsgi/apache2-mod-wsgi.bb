@@ -17,6 +17,7 @@ apache2-mod_wsgi-python3 \
 mod_wsgi \
 python3.10dist(mod-wsgi) \
 python3dist(mod-wsgi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 apache2 \

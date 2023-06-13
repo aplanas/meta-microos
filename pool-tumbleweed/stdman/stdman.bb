@@ -13,6 +13,7 @@ RPM_HASH = "103024e424490b3dc0e855903721f744aa23dc5b0210ad3fc3c3b222f6f95e55490a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stdman"
+
 RDEPENDS:${PN} += "man"
 
 inherit rpm

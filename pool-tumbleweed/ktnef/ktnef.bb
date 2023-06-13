@@ -13,6 +13,7 @@ ktnef \
 ktnef(aarch-64) \
 ktnef5 \
 mimehandler(application/ms-tnef)"
+
 RDEPENDS:${PN} += "kdepim-runtime \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

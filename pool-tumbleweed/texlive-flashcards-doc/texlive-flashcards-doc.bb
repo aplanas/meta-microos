@@ -9,6 +9,7 @@ RPM_HASH = "40e67f832ab20a9df009bf093c638e54d760dbfe9f68a729ad03475492150229b6cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flashcards-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

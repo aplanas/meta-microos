@@ -18,6 +18,7 @@ RPM_HASH = "b108dbc4730d0703adc11452a6c28afc04d024364f25ae4eaae2e797447c98fcb51f
 
 RPROVIDES:${PN} += "llvm-polly \
 llvm-polly(aarch-64)"
+
 RDEPENDS:${PN} += "llvm16-polly"
 
 inherit rpm

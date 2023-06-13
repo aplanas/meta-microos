@@ -9,6 +9,7 @@ RPM_HASH = "098a7aa06ff51a1633960a613afc49c986d7dd2c8130836dd9bbdde88585ca62cd71
 
 RPROVIDES:${PN} += "python3-gr-iqbal \
 python3-gr-iqbal(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

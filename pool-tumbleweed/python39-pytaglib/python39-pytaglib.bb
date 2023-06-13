@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(pytaglib) \
 python39-pytaglib \
 python39-pytaglib(aarch-64) \
 python3dist(pytaglib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

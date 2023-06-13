@@ -9,6 +9,7 @@ RPM_HASH = "cf2037439452d51ef7ed71007d73637b2179638a0ae868c55e78eeb575b9169dee7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-movie15-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

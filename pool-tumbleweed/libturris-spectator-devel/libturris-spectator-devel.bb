@@ -10,6 +10,7 @@ RPM_HASH = "4fb9894cb374b892ec4429da14384bddcc808eb1748d8dd17f96df9b58ef71a46798
 
 RPROVIDES:${PN} += "libturris-spectator-devel \
 libturris-spectator-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libturris-spectator0"
 
 inherit rpm

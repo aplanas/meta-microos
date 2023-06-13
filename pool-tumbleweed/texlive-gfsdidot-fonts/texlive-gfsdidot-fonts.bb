@@ -126,6 +126,7 @@ font(gfsdidot) \
 font(gfsdidotrg) \
 font(gfsolga) \
 texlive-gfsdidot-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -45,6 +45,7 @@ locale(easytag:tr) \
 locale(easytag:uk) \
 locale(easytag:zh_CN) \
 locale(easytag:zh_TW)"
+
 RDEPENDS:${PN} += "easytag"
 
 inherit rpm

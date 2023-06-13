@@ -11,6 +11,7 @@ RPM_HASH = "c2674799c71f55022ae9d24194fb9274e8ee6bc98706867d78bd2234cfbd5338b009
 RPROVIDES:${PN} += "libpolyclipping-devel \
 libpolyclipping-devel(aarch-64) \
 pkgconfig(polyclipping)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpolyclipping22"
 

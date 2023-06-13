@@ -10,6 +10,7 @@ RPM_HASH = "dc647ca11ad2f0cb60f46c55305ad6d74ec9cb8d3ef8136f3f7a1a089f5ddcf26863
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wesnoth-data"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 wesnoth-fslayout"

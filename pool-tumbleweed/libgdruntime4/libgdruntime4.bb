@@ -10,6 +10,7 @@ RPM_HASH = "0981bf490ae812edc030358f310206a60ec0ee283af96a1063068a88672531141847
 RPROVIDES:${PN} += "libgdruntime.so.4()(64bit) \
 libgdruntime4 \
 libgdruntime4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

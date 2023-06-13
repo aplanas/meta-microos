@@ -12,6 +12,7 @@ RPM_HASH = "9b4364822cf1bdd80be1122116eb09006a66b422d522d855d62fbfb839a51da4b5fa
 RPROVIDES:${PN} += "libcotp.so.2()(64bit) \
 libcotp2 \
 libcotp2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

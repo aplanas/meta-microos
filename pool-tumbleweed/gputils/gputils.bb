@@ -13,6 +13,7 @@ RPM_HASH = "2bf74cda43109c9b5b52bd386d91df6311f6a830be527646cdf798e9191d9cc12991
 
 RPROVIDES:${PN} += "gputils \
 gputils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

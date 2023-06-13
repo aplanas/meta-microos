@@ -15,6 +15,7 @@ RPM_HASH = "8e75c457d57c69e316c26c794ea3ff52dfdc5a332365325302a73c4098a9f6e6c1fc
 RPROVIDES:${PN} += "libasn1c-devel \
 libasn1c-devel(aarch-64) \
 pkgconfig(libasn1c)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libasn1c1 \
 pkgconfig(talloc)"

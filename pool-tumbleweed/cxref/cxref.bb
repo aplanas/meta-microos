@@ -55,6 +55,7 @@ RPM_HASH = "380fdac00aa91068ae0038cf67c512569fab3e19f6fac3aacffb9a02184d500d555b
 
 RPROVIDES:${PN} += "cxref \
 cxref(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

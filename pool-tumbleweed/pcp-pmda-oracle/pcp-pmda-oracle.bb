@@ -11,6 +11,7 @@ RPM_HASH = "6995d763bbff5562bc960d89b09732ee472ceb28c228353ce841b787acaa6a1be55d
 RPROVIDES:${PN} += "config(pcp-pmda-oracle) \
 pcp-pmda-oracle \
 pcp-pmda-oracle(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 perl(DBI) \

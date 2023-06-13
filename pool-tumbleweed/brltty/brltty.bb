@@ -62,6 +62,7 @@ libbrlttyxlx.so()(64bit) \
 libbrlttyxsc.so()(64bit) \
 metainfo() \
 metainfo(org.a11y.brltty.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

@@ -16,6 +16,7 @@ RPM_HASH = "f774bd33c51c545717552fbfb79f8f91791724f0b34f6c0e256946991db2b2aa5f52
 RPROVIDES:${PN} += "libraw1394-devel \
 libraw1394-devel(aarch-64) \
 pkgconfig(libraw1394)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libraw1394-11"

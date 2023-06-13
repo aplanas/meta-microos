@@ -9,6 +9,7 @@ RPM_HASH = "70f590fb4a5ec1efc3046af35bc74eebd36ffdb0ba6a021ee85fa460691bb6fccb4c
 
 RPROVIDES:${PN} += "qt6-datavis3d-examples \
 qt6-datavis3d-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

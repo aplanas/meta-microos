@@ -9,6 +9,7 @@ RPM_HASH = "7a0e4b4f0b5c422a96c3f0f07a3189c80e720de7f0d8cc5fe1a9a026903ddbfbce84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-adwaita"
+
 RDEPENDS:${PN} += "cantarell-fonts \
 metatheme-adwaita-common"
 

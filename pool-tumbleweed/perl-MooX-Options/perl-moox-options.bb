@@ -19,6 +19,7 @@ perl(MooX::Options::Descriptive) \
 perl(MooX::Options::Descriptive::Usage) \
 perl(MooX::Options::Role) \
 perl-MooX-Options"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long) \
 perl(Getopt::Long::Descriptive) \

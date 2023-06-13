@@ -18,6 +18,7 @@ RPM_HASH = "f2275a8939e3dce549e393cdf5b18118208b92a4ecb254d7cd6d5212b075fb0d6972
 
 RPROVIDES:${PN} += "spice-vdagent \
 spice-vdagent(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

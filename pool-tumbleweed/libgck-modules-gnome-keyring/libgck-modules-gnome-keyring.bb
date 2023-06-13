@@ -13,6 +13,7 @@ RPM_HASH = "aabe2cf35b7b046dba423dfc6d37b8f652253f262e25a0e43819efc728972e77e9c1
 
 RPROVIDES:${PN} += "libgck-modules-gnome-keyring \
 libgck-modules-gnome-keyring(aarch-64)"
+
 RDEPENDS:${PN} += "gck \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

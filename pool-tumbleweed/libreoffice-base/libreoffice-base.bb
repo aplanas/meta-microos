@@ -24,6 +24,7 @@ metainfo() \
 metainfo(libreoffice-base.appdata.xml) \
 mimehandler(application/vnd.oasis.opendocument.base) \
 mimehandler(application/vnd.sun.xml.base)"
+
 RDEPENDS:${PN} += "/bin/sh \
 jre-64 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:fog-json) \
 rubygem(ruby:3.2.0:fog-json:1) \
 rubygem(ruby:3.2.0:fog-json:1.2) \
 rubygem(ruby:3.2.0:fog-json:1.2.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:fog-core) \
 rubygem(ruby:3.2.0:multi_json:1)"

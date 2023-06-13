@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dfwinreg) \
 python39-dfwinreg \
 python3dist(dfwinreg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-libcreg \
 python39-libregf"

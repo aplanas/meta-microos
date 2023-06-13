@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-rdflib \
 python3.10dist(rdflib) \
 python310-rdflib \
 python3dist(rdflib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

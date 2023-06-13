@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(jslectureplanner.sty) \
 tex(jsmembertable.sty) \
 texlive-jslectureplanner"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

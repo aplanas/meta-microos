@@ -9,6 +9,7 @@ RPM_HASH = "54ed843bc18fd3035a733c2a0c4ebdc3e476dfe03f9efb5f8fefec822bf20cb1b28c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scala-maven-plugin-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

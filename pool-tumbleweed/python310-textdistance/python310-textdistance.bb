@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-textdistance \
 python3.10dist(textdistance) \
 python310-textdistance \
 python3dist(textdistance)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

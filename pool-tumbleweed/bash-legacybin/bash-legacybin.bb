@@ -9,6 +9,7 @@ RPM_HASH = "c30b407f4039750be436ba19e22287c587905ce4b1072038a3647df11690452d3af1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-legacybin"
+
 RDEPENDS:${PN} += "bash \
 this-is-only-for-build-envs"
 

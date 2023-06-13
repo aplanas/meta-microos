@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(sffdumb.sty) \
 tex(sffms.cls) \
 tex(sffsmart.sty) \
 texlive-sffms"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

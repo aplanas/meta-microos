@@ -13,6 +13,7 @@ application(lightdm-gtk-greeter-settings.desktop) \
 lightdm-gtk-greeter-settings \
 python3.10dist(lightdm-gtk-greeter-settings) \
 python3dist(lightdm-gtk-greeter-settings)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 lightdm-gtk-greeter \

@@ -9,6 +9,7 @@ RPM_HASH = "9b0bfc5dc088af6b98dc58cc8307cf09280b3c4e8066c01c4d1c54cbaf9890d55849
 
 RPROVIDES:${PN} += "kubic-pause \
 kubic-pause(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

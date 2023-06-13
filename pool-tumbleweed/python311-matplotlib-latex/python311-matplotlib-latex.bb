@@ -10,6 +10,7 @@ RPM_HASH = "d32e82973f28700dcab3c619f75d2ebff342863d98001d63754b4f7c898bb80c922b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-matplotlib-latex"
+
 RDEPENDS:${PN} += "python311-matplotlib \
 tex(avant.sty) \
 tex(chancery.sty) \

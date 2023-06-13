@@ -187,6 +187,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(tinos) \
 texlive-tinos-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

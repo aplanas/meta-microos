@@ -13,6 +13,7 @@ RPM_HASH = "216316f8e13419268cea82cab4b64343c260926b49e691e3b914b269f407b0bc5b10
 RPROVIDES:${PN} += "fltk \
 fltk-devel \
 fltk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

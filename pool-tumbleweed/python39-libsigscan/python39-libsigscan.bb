@@ -11,6 +11,7 @@ RPM_HASH = "8e5e5846f52c0cca1b6c5ec82fc9f1d054599951464d820128b8df991d12b73382f4
 
 RPROVIDES:${PN} += "python39-libsigscan \
 python39-libsigscan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "b97b5ffa88f35bd66daf9d81883e444297f7d2e39273fa5496ceb63b47a2287873a2
 RPROVIDES:${PN} += "libtimelineDecoderJson.so.32()(64bit) \
 libtimelineDecoderJson32-opencl \
 libtimelineDecoderJson32-opencl(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jdeparser \
 mvn(org.jboss.jdeparser:jdeparser) \
 mvn(org.jboss.jdeparser:jdeparser:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

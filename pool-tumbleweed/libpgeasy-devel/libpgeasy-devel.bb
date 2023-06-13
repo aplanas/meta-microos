@@ -12,6 +12,7 @@ RPM_HASH = "4c607eb8ec2f192c93a0c5c10c6a3958548b9e194dbf81c004f74023c233700f61d4
 
 RPROVIDES:${PN} += "libpgeasy-devel \
 libpgeasy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libpgeasy3"
 
 inherit rpm

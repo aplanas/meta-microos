@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-base-url \
 python3.10dist(pytest-base-url) \
 python310-pytest-base-url \
 python3dist(pytest-base-url)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-requests"

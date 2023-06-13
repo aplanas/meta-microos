@@ -10,6 +10,7 @@ RPM_HASH = "f2b71f119ff154f133e02de4e73604aedde6166abdd2c5ad39b7295b7a64de5c6617
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-v2v-man-pages-ja"
+
 RDEPENDS:${PN} += "virt-v2v"
 
 inherit rpm

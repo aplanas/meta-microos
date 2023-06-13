@@ -9,6 +9,7 @@ RPM_HASH = "3b6df658cf1336e9710db777d04523f8adea1cdabd5b5b26422a209d233b09b08246
 
 RPROVIDES:${PN} += "libsmartcols-devel-static \
 libsmartcols-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libsmartcols-devel"
 
 inherit rpm

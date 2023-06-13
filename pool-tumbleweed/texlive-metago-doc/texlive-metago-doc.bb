@@ -9,6 +9,7 @@ RPM_HASH = "4ba174ba6812e1f6b9389686922c105912b6309d12997b6ecdd67e4e745d1661575d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metago-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

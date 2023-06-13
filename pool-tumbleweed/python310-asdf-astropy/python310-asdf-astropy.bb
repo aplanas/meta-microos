@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-asdf-astropy \
 python3.10dist(asdf-astropy) \
 python310-asdf-astropy \
 python3dist(asdf-astropy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-asdf \
 python310-asdf-coordinates-schemas \

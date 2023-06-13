@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jinja2-fsloader) \
 python39-jinja2-fsloader \
 python3dist(jinja2-fsloader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-fs"

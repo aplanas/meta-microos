@@ -10,6 +10,7 @@ RPM_HASH = "48979088172cf884a6b3ed7e32258da646760075f1d1475d2f9d0b349047c59306a9
 
 RPROVIDES:${PN} += "ocaml-ptmap \
 ocaml-ptmap(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

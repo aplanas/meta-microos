@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "matrix-quaternion-lang \
 matrix-quaternion-lang-all"
+
 RDEPENDS:${PN} += "matrix-quaternion"
 
 inherit rpm

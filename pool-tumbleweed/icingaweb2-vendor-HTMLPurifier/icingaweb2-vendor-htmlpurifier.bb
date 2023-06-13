@@ -9,6 +9,7 @@ RPM_HASH = "8326a5daedc2a3c747fd74d6ebcec460ebdd2e0c7efd4a331a2063bbe4adb332886a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-vendor-HTMLPurifier"
+
 RDEPENDS:${PN} += "icingaweb2-common \
 php"
 

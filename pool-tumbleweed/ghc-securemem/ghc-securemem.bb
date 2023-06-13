@@ -11,6 +11,7 @@ RPM_HASH = "dfc443e806534d94d7e338e0208a46d88ce64c8ab3a987a92d695a8efad81d47b860
 RPROVIDES:${PN} += "ghc-securemem \
 ghc-securemem(aarch-64) \
 libHSsecuremem-0.1.10-BbcWu3otOS6JQaPW3JfszZ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbasement-0.0.15-6OmKTVi2kFpCWMoKDlsO4S-ghc9.4.5.so()(64bit) \

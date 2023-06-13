@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python-logutils-doc \
 python310-logutils-doc \
 python311-logutils-doc \
 python39-logutils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

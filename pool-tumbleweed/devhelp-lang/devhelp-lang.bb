@@ -88,6 +88,7 @@ locale(devhelp:vi) \
 locale(devhelp:zh_CN) \
 locale(devhelp:zh_HK) \
 locale(devhelp:zh_TW)"
+
 RDEPENDS:${PN} += "devhelp"
 
 inherit rpm

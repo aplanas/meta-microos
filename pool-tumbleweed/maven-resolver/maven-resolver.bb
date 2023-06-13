@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-resolver \
 mvn(org.apache.maven.resolver:maven-resolver:pom:) \
 mvn(org.eclipse.aether:aether:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

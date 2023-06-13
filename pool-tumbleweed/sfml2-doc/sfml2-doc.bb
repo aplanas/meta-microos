@@ -12,6 +12,7 @@ RPM_HASH = "2f30088c30a2706c3d13ecfabfdc6b09d1149dd08830d4195c0236e95b1c7c63b3ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sfml2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

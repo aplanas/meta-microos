@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-distroinfo \
 python3.10dist(distroinfo) \
 python310-distroinfo \
 python3dist(distroinfo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-pbr \

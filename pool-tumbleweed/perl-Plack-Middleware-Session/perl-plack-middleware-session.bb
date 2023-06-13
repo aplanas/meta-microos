@@ -30,6 +30,7 @@ perl(Plack::Session::Store::DBI) \
 perl(Plack::Session::Store::File) \
 perl(Plack::Session::Store::Null) \
 perl-Plack-Middleware-Session"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cookie::Baker) \
 perl(Digest::HMAC_SHA1) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libsundials_sunnonlin3_3_0-openmpi1 \
 libsundials_sunnonlin3_3_0-openmpi1(aarch-64) \
 libsundials_sunnonlinsolfixedpoint.so.3.3.0()(64bit) \
 libsundials_sunnonlinsolnewton.so.3.3.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

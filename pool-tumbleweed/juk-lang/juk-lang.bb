@@ -78,6 +78,7 @@ locale(juk:ug) \
 locale(juk:uk) \
 locale(juk:zh_CN) \
 locale(juk:zh_TW)"
+
 RDEPENDS:${PN} += "juk"
 
 inherit rpm

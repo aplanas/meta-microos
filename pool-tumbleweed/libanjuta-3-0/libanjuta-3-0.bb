@@ -11,6 +11,7 @@ RPM_HASH = "972ab7f0ba8895d91206e57c209165833752bae1a328a7f922de553fbb8f6e4edb99
 RPROVIDES:${PN} += "libanjuta-3-0 \
 libanjuta-3-0(aarch-64) \
 libanjuta-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

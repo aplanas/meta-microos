@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pkgconfig) \
 python39-pkgconfig \
 python3dist(pkgconfig)"
+
 RDEPENDS:${PN} += "pkgconfig \
 python(abi)"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Fcitx5GClient) \
 libFcitx5GClient-devel \
 libFcitx5GClient-devel(aarch-64) \
 pkgconfig(Fcitx5GClient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libFcitx5GClient2 \
 pkgconfig(gio-2.0) \

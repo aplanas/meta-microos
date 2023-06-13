@@ -11,6 +11,7 @@ RPM_HASH = "cf3fc58650e70bba0cd7529c93fab20e8fba34563ddd6d37e382af3ea6c67059e994
 
 RPROVIDES:${PN} += "ocaml-qcheck \
 ocaml-qcheck(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

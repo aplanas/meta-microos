@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(onedown.sty) \
 texlive-onedown"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

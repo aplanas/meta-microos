@@ -17,6 +17,7 @@ tex(hyph-mn-cyrl.tex) \
 tex(loadhyph-mn-cyrl-x-lmc.tex) \
 tex(loadhyph-mn-cyrl.tex) \
 texlive-hyphen-mongolian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

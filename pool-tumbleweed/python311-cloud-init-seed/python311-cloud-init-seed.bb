@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cloud-init-seed) \
 python311-cloud-init-seed \
 python3dist(cloud-init-seed)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 mkisofs \

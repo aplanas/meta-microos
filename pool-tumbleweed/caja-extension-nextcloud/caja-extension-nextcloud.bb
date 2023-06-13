@@ -10,6 +10,7 @@ RPM_HASH = "25ccb5f8501ef3cabda248b2bec8e4eab83e6093f2a60dcdab1452012a2b8fec46bb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-nextcloud"
+
 RDEPENDS:${PN} += "caja \
 nextcloud-desktop \
 python-caja \

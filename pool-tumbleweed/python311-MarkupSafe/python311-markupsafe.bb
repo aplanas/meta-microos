@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(markupsafe) \
 python311-MarkupSafe \
 python311-MarkupSafe(aarch-64) \
 python3dist(markupsafe)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 python(abi) \
 python311-base"

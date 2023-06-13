@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-xvfb) \
 python311-pytest-xvfb \
 python3dist(pytest-xvfb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyVirtualDisplay \
 python311-pytest \

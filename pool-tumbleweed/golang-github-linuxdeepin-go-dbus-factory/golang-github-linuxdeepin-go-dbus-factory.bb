@@ -9,6 +9,7 @@ RPM_HASH = "46027900bf53c2aaad0bfe7c28049f85182eff03acad5872c9ef3dcff77e32c59e58
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-go-dbus-factory"
+
 RDEPENDS:${PN} += "golang-github-linuxdeepin-go-x11-client"
 
 inherit rpm

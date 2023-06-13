@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-easywatch \
 python3.10dist(easywatch) \
 python310-easywatch \
 python3dist(easywatch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-watchdog"
 

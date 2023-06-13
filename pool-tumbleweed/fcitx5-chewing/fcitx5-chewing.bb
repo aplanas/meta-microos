@@ -13,6 +13,7 @@ fcitx5-chewing(aarch-64) \
 libchewing.so()(64bit) \
 metainfo() \
 metainfo(org.fcitx.Fcitx5.Addon.Chewing.metainfo.xml)"
+
 RDEPENDS:${PN} += "chewing-data \
 chewing-utils \
 fcitx5 \

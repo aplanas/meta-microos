@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6WebChannel) \
 pkgconfig(Qt6WebChannel) \
 qt6-webchannel-devel \
 qt6-webchannel-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 libQt6WebChannel6 \

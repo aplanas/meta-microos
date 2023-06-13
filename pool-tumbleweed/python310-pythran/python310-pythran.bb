@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pythran \
 python3.10dist(pythran) \
 python310-pythran \
 python3dist(pythran)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 boost-devel \

@@ -14,6 +14,7 @@ perl(BSKiwiXML) \
 perl(BSProductXML) \
 perl(BSUtil) \
 perl(BSXML)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 perl(XML::Structured) \

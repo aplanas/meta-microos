@@ -10,6 +10,7 @@ RPM_HASH = "3b27c2168436d5a4e6150a20d3194fe921fc161a1ad5f43997ed5ec0db54d798f8c6
 RPROVIDES:${PN} += "ghc-devel(ghc-lib-parser-9.4.4.20221225-IYLH4ajMYTmJphnJAgaapb) \
 ghc-ghc-lib-parser-devel \
 ghc-ghc-lib-parser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

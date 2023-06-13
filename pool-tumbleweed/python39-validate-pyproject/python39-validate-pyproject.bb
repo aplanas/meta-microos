@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(validate-pyproject) \
 python39-validate-pyproject \
 python39-validate_pyproject \
 python3dist(validate-pyproject)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -120,6 +120,7 @@ font(ibarrarealnova-semibold) \
 font(ibarrarealnova-semibolditalic) \
 font(ibarrarealnovasemibold) \
 texlive-ibarra-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

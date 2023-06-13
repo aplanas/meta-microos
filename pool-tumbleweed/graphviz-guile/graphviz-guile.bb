@@ -11,6 +11,7 @@ RPM_HASH = "558223938083bf39e5c339eba8ad268a571dbc43d2891234dc7d097eef2915bd7d54
 RPROVIDES:${PN} += "graphviz-guile \
 graphviz-guile(aarch-64) \
 libgv_guile.so()(64bit)"
+
 RDEPENDS:${PN} += "graphviz \
 guile \
 ld-linux-aarch64.so.1()(64bit) \

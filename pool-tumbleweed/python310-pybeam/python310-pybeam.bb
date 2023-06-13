@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pybeam \
 python3.10dist(pybeam) \
 python310-pybeam \
 python3dist(pybeam)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-construct \
 python310-six"

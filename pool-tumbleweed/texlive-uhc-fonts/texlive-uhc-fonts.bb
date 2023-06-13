@@ -47,6 +47,7 @@ font(umj36) \
 font(umj37) \
 font(umj38) \
 texlive-uhc-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

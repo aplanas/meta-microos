@@ -9,6 +9,7 @@ RPM_HASH = "367eaebbb2f49b1154bba90b3b54440e8d7d47abd31cab51b255e3b3ae0bff559e4f
 
 RPROVIDES:${PN} += "ogre-devel \
 ogre-devel(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(OGRE) \
 pkgconfig(OGRE-Bites) \
 pkgconfig(OGRE-MeshLodGenerator) \

@@ -11,6 +11,7 @@ RPM_HASH = "d0dba9cc3c1904dd7ded11623ec279e510069058047ae86a92491cf4d7b894d45abd
 RPROVIDES:${PN} += "libexif-gtk-devel \
 libexif-gtk-devel(aarch-64) \
 pkgconfig(libexif-gtk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-devel \
 libexif-devel \

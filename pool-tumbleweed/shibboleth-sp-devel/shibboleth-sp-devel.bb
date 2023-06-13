@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "pkgconfig(shibsp) \
 pkgconfig(shibsp-lite) \
 shibboleth-sp-devel \
 shibboleth-sp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblog4shib-devel \
 libsaml-devel \

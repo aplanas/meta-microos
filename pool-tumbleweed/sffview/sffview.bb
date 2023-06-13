@@ -13,6 +13,7 @@ RPM_HASH = "e2c817feb92d12bd4dd7f03e2bdcf7286728ea7bddc8f74aed4aa65cf6f5f0bc6f32
 
 RPROVIDES:${PN} += "sffview \
 sffview(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

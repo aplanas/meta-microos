@@ -12,6 +12,7 @@ ktoblzcheck-devel \
 ktoblzcheck-devel(aarch-64) \
 libktoblzcheck1-devel \
 pkgconfig(ktoblzcheck)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libktoblzcheck1"
 

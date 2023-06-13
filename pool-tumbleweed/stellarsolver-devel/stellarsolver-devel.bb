@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(StellarSolver) \
 pkgconfig(stellarsolver) \
 stellarsolver-devel \
 stellarsolver-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstellarsolver2"
 

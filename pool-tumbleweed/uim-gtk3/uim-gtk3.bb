@@ -9,6 +9,7 @@ RPM_HASH = "95ab7958a68aa054fa22cc207a5aa02bc6517395f7732e8f7c81cb24a1eaa81658d5
 
 RPROVIDES:${PN} += "uim-gtk3 \
 uim-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

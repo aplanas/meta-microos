@@ -12,6 +12,7 @@ RPM_HASH = "4ee6129168fa8ee7dfb132036d8b204a3961c4d7afbfd6a3225c37d60dcee9a8c49e
 
 RPROVIDES:${PN} += "update-test-retracted \
 update-test-retracted(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(inversepath.sty) \
 texlive-inversepath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "e85ed6f6aa229c9e16e2a3a25e20377f7aec3d51be16e028e31091e818288652aea9
 RPROVIDES:${PN} += "ghc-devel(parsec-numbers-0.1.0-EpxP3vMK5SifJrb3FqKTJ) \
 ghc-parsec-numbers-devel \
 ghc-parsec-numbers-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

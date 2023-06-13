@@ -14,6 +14,7 @@ libwicked-0-6 \
 libwicked-0.6.72.so()(64bit) \
 wicked \
 wicked(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-slip \
 python3.10dist(slip) \
 python310-slip \
 python3dist(slip)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

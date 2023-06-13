@@ -10,6 +10,7 @@ RPM_HASH = "ac5a627158a289e6fe67df76393344f82d341215a1e4898a8d79e1ecd6d6184cf030
 RPROVIDES:${PN} += "libtoxcore.so.2()(64bit) \
 libtoxcore2 \
 libtoxcore2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libopus.so.0()(64bit) \

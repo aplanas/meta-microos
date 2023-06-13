@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-parse_type \
 python3.10dist(parse-type) \
 python310-parse_type \
 python3dist(parse-type)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-parse \
 python310-six"

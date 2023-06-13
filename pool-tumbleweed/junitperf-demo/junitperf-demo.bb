@@ -11,6 +11,7 @@ RPM_HASH = "88b8138d94b7efe5f3a1445cb58f9b57c6b2f146dd0d5c2f2c5c29cc06897e45509e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junitperf-demo"
+
 RDEPENDS:${PN} += "junitperf"
 
 inherit rpm

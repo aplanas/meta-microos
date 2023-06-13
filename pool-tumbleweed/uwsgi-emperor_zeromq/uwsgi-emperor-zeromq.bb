@@ -12,6 +12,7 @@ RPM_HASH = "c97fed1f59b5584b4098e3bb61e580bfd1afca90c81447b6eff3c11063d6acc433a3
 
 RPROVIDES:${PN} += "uwsgi-emperor_zeromq \
 uwsgi-emperor_zeromq(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

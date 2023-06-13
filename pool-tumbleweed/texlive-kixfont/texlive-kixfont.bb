@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kix.tfm) \
 texlive-kixfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

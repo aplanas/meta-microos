@@ -10,6 +10,7 @@ RPM_HASH = "06fda299ae1f752dba9cfc758fa40729b1aff7fddc06929c9344fbb0857bc37bf3ea
 RPROVIDES:${PN} += "ghc-terminal-size \
 ghc-terminal-size(aarch-64) \
 libHSterminal-size-0.3.4-1tPFLsRvnmSGNryq4PMCAd-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

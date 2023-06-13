@@ -10,6 +10,7 @@ RPM_HASH = "3181c4d5605596a7da73a2322930dc55c6cd569673e265d2fdb4e7b8d07f075e3ef8
 RPROVIDES:${PN} += "libdeepin-pdfium.so.1()(64bit) \
 libdeepin-pdfium1 \
 libdeepin-pdfium1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

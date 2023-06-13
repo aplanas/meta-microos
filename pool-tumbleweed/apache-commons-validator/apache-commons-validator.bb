@@ -21,6 +21,7 @@ mvn(commons-validator:commons-validator) \
 mvn(commons-validator:commons-validator:pom:) \
 mvn(org.apache.commons:commons-validator) \
 mvn(org.apache.commons:commons-validator:pom:)"
+
 RDEPENDS:${PN} += "commons-beanutils \
 commons-collections \
 commons-digester \

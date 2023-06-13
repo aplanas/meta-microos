@@ -11,6 +11,7 @@ RPM_HASH = "f2b03df8448d51fc210cbc45011cc260b1e6ad134ea9cd49d9061eb05ab3c887b866
 
 RPROVIDES:${PN} += "openmpi3-gnu-hpc \
 openmpi3-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 openmpi_3_1_6-gnu-hpc"
 

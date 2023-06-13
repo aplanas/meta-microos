@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(libgarcon-branding-upstream) \
 libgarcon-branding \
 libgarcon-branding-upstream"
+
 RDEPENDS:${PN} += "libxfce4ui-tools"
 
 inherit rpm

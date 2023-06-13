@@ -9,6 +9,7 @@ RPM_HASH = "a7b3abd27e4ccde5dc41cf5f2bb6398930060e4bcf67a38aa4fdd6f8c62c75c76ffd
 
 RPROVIDES:${PN} += "libtraceevent1-plugins \
 libtraceevent1-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

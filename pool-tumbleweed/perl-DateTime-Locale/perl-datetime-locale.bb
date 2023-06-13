@@ -20,6 +20,7 @@ perl(DateTime::Locale::Data) \
 perl(DateTime::Locale::FromData) \
 perl(DateTime::Locale::Util) \
 perl-DateTime-Locale"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Dist::CheckConflicts) \
 perl(File::ShareDir) \

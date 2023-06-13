@@ -9,6 +9,7 @@ RPM_HASH = "df0b3d20a1aa81f160084520ab1be4bd451ef7035ea812379b8f7d54b4ff529feaca
 
 RPROVIDES:${PN} += "texlive-pagelayout-bin \
 texlive-pagelayout-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pagelayout"
 
 inherit rpm

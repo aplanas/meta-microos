@@ -14,6 +14,7 @@ application() \
 application(hwmixvolume.desktop) \
 hwmixvolume \
 hwmixvolume(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python \
 pyalsa \

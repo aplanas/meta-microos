@@ -9,6 +9,7 @@ RPM_HASH = "ed4f34ff27fd5a6151e1f57948abf4ab80161480e8bf6b9b602e88abef741636404d
 
 RPROVIDES:${PN} += "kubernetes-scheduler-minus1 \
 kubernetes-scheduler-minus1(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes1.26-scheduler"
 
 inherit rpm

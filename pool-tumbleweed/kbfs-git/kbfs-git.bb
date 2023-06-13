@@ -12,6 +12,7 @@ RPM_HASH = "f9ce366866f271f51c50d429f256d982b1d9cf5445fd7d7c4332869da1f39bcfe16f
 
 RPROVIDES:${PN} += "kbfs-git \
 kbfs-git(aarch-64)"
+
 RDEPENDS:${PN} += "kbfs \
 keybase-client"
 

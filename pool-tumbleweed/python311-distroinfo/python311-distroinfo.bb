@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(distroinfo) \
 python311-distroinfo \
 python3dist(distroinfo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-pbr \

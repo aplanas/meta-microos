@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ecclesiastic.sty) \
 texlive-ecclesiastic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

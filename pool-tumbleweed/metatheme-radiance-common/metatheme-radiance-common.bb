@@ -11,6 +11,7 @@ RPM_HASH = "dbc942e834dc47bf0d247277c81cf697bd81c96761bf1b45e2384f6006d3f7057b07
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-radiance-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

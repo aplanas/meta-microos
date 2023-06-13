@@ -9,6 +9,7 @@ RPM_HASH = "0f4dc62c8b3879d90fd64d2d75e4a9d59ad6dabb1d5fc715cdd3b5a1c25066d993a7
 
 RPROVIDES:${PN} += "maeparser-devel \
 maeparser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers-devel \
 libmaeparser1"
 

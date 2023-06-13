@@ -17,6 +17,7 @@ RPM_HASH = "730305504932f5a5525159f4a016d68a1b1698c8666016a152d902bd0e3d5234a216
 RPROVIDES:${PN} += "typelib(LibvirtGLib) \
 typelib-1_0-LibvirtGLib-1_0 \
 typelib-1_0-LibvirtGLib-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-glib-1.0.so.0()(64bit) \
 typelib(GLib)"
 

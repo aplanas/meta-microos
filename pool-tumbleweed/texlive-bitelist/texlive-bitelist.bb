@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(bitedemo.tex) \
 tex(bitelist.sty) \
 texlive-bitelist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

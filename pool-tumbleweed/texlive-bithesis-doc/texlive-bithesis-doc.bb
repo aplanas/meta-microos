@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-bithesis-doc:zh) \
 texlive-bithesis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

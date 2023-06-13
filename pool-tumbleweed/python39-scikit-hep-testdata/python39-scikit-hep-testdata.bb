@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(scikit-hep-testdata) \
 python39-scikit-hep-testdata \
 python3dist(scikit-hep-testdata)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(httpsig-cffi) \
 python39-httpsig_cffi \
 python3dist(httpsig-cffi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography \
 python39-requests \

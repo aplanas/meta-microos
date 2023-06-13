@@ -24,6 +24,7 @@ tex(amsproc.cls) \
 tex(amsthm.sty) \
 tex(upref.sty) \
 texlive-amscls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

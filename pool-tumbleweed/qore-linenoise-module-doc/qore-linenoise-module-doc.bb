@@ -10,6 +10,7 @@ RPM_HASH = "6917c85a3c5b37f167aadf90ced93678425d3a377ecaf6a3ad7f49a41febd7ff8591
 
 RPROVIDES:${PN} += "qore-linenoise-module-doc \
 qore-linenoise-module-doc(aarch-64)"
+
 RDEPENDS:${PN} += "qore-linenoise-module"
 
 inherit rpm

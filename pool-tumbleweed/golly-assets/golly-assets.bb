@@ -9,6 +9,7 @@ RPM_HASH = "5bbf94b5c47dd061d74469663f5c0bdd71b318f144745be5416a4627f60c2d75f033
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golly-assets"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

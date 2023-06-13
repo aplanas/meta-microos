@@ -13,6 +13,7 @@ RPM_HASH = "b187776581fd45b5aaf8628f9b0c34c16881a23d1fd5b556d18f4774cfa647a33575
 RPROVIDES:${PN} += "typelib(Mbim) \
 typelib-1_0-Mbim-1_0 \
 typelib-1_0-Mbim-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libmbim-glib.so.4()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

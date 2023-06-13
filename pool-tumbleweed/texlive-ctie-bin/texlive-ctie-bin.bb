@@ -9,6 +9,7 @@ RPM_HASH = "efa7e52851a4ef1793a77be8143342a1d5d099cd1449c477b8e4ce6de3ca156bcc4e
 
 RPROVIDES:${PN} += "texlive-ctie-bin \
 texlive-ctie-bin(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libkpathsea.so.6()(64bit) \
 texlive-ctie"

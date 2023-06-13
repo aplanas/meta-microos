@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "ispell-finnish \
 ispell-finnish(aarch-64) \
 ispell_dictionary \
 locale(ispell:fi)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

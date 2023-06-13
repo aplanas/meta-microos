@@ -9,6 +9,7 @@ RPM_HASH = "aa8756c79e0cd87e4cd82cd3e700e8abd2db39d29c434caedf36a3745b4edc0ca828
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-docs-webapp"
+
 RDEPENDS:${PN} += "/bin/sh \
 tomcat"
 

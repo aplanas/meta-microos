@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libschroedinger-devel \
 pkgconfig(schroedinger-1.0) \
 schroedinger-devel \
 schroedinger-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 libschroedinger-1_0-0 \

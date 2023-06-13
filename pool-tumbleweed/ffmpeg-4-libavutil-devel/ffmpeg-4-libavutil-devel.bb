@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "ffmpeg-4-libavutil-devel \
 ffmpeg-4-libavutil-devel(aarch-64) \
 libavutil-devel \
 pkgconfig(libavutil)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libavutil56_70"
 

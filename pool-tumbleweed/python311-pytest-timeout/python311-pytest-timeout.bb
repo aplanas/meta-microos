@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-timeout) \
 python311-pytest-timeout \
 python3dist(pytest-timeout)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

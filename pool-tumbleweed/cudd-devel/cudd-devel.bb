@@ -14,6 +14,7 @@ RPM_HASH = "1704bbc1b746c8987a3a22bcb8dbfcdf303eec2558f2d620437ea1f95a9d08ce2efb
 
 RPROVIDES:${PN} += "cudd-devel \
 cudd-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcudd-3_0_0-0"
 
 inherit rpm

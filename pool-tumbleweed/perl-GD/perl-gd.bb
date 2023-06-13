@@ -18,6 +18,7 @@ perl(GD::Polyline) \
 perl(GD::Simple) \
 perl-GD \
 perl-GD(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 gd \
 ld-linux-aarch64.so.1()(64bit) \

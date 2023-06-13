@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-redis-lock) \
 python311-python-redis-lock \
 python3dist(python-redis-lock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-redis"
 

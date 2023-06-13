@@ -20,6 +20,7 @@ nss-mymachines \
 systemd-container \
 systemd-container(aarch-64) \
 systemd:/usr/bin/systemd-nspawn"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/gpg \

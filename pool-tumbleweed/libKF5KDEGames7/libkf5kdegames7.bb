@@ -12,6 +12,7 @@ libKF5KDEGames7 \
 libKF5KDEGames7(aarch-64) \
 libKF5KDEGamesPrivate.so.7()(64bit) \
 libkf5kdegames6"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

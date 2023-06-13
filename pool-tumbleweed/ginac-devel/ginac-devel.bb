@@ -16,6 +16,7 @@ ginac-devel \
 ginac-devel(aarch-64) \
 libginac-devel \
 pkgconfig(ginac)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cln-devel \
 libginac11 \

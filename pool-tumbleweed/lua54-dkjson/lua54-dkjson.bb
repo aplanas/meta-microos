@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-dkjson \
 lua54-dkjson"
+
 RDEPENDS:${PN} += "lua54 \
 lua54-lpeg"
 

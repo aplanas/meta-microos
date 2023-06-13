@@ -11,6 +11,7 @@ RPM_HASH = "64c7444ae3c8cc523167b5841e89c0a7b980c06543229c7cb1b0855475e978733eef
 RPROVIDES:${PN} += "libKPim5Gravatar.so.5()(64bit) \
 libKPim5Gravatar5 \
 libKPim5Gravatar5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

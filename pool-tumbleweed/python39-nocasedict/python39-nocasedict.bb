@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nocasedict) \
 python39-nocasedict \
 python3dist(nocasedict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-six"
 

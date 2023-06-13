@@ -11,6 +11,7 @@ RPM_HASH = "6550d1d4cab1ec1f13f229f0cd9dc12b8580426797988e98d30fb575d9362c100a2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-demo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

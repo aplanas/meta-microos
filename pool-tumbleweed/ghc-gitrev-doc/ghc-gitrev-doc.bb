@@ -9,6 +9,7 @@ RPM_HASH = "93fb2330ecf32e9302d330ae61ebe1cb3578319111b68ff9f62b69a441686d479f17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gitrev-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

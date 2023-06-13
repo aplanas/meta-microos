@@ -9,6 +9,7 @@ RPM_HASH = "451cf0ccca8cdedd05ba8a63d3edc075a76f6b791eddc645b44809e8c47a21841aa1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textglos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6c52fee11ad5a1a4108606be82437fb0f7018c434d19a7785adca2aa1eded0283585
 RPROVIDES:${PN} += "libebtc.so.0()(64bit) \
 libebtc0 \
 libebtc0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

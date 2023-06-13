@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "fontcacheproto-devel \
 fontcacheproto-devel(aarch-64) \
 pkgconfig(fontcacheproto) \
 xorg-x11-proto-devel:/usr/lib64/pkgconfig/fontcacheproto.pc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

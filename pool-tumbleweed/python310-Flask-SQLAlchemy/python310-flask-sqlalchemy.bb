@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-Flask-SQLAlchemy \
 python3.10dist(flask-sqlalchemy) \
 python310-Flask-SQLAlchemy \
 python3dist(flask-sqlalchemy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Flask \
 python310-SQLAlchemy"

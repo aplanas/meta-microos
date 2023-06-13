@@ -12,6 +12,7 @@ RPM_HASH = "1a1cc022cf3478b865c77d0aea54353044bb8e2053075b7be5973c364d9c2fe40198
 RPROVIDES:${PN} += "libglog.so.0()(64bit) \
 libglog0 \
 libglog0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

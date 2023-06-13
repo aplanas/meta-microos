@@ -11,6 +11,7 @@ RPM_HASH = "d2cf2d56bd4dfebce3b3cf3fb3a13808c0d848259f2ff827c2c599a244b57b57a4dd
 RPROVIDES:${PN} += "ghc-path-pieces \
 ghc-path-pieces(aarch-64) \
 libHSpath-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(antanilipsum.sty) \
 texlive-antanilipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

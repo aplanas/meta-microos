@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python-SQLAlchemy-doc \
 python310-SQLAlchemy-doc \
 python311-SQLAlchemy-doc \
 python39-SQLAlchemy-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "0920b5661d63b7ecee33b28cea0bcd2d0582f24d5da6373a6534eca000c5d3ace8a1
 RPROVIDES:${PN} += "typelib(Gucharmap) \
 typelib-1_0-Gucharmap-2_90 \
 typelib-1_0-Gucharmap-2_90(aarch-64)"
+
 RDEPENDS:${PN} += "libgucharmap_2_90.so.7()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

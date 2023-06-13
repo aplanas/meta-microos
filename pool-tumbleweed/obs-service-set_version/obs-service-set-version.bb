@@ -12,6 +12,7 @@ RPM_HASH = "15f24cc62a683cc13b30fb3e2e890d8c774f6a3de03c94267e88dbd187c7ebdc5839
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-set_version"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-base"
 

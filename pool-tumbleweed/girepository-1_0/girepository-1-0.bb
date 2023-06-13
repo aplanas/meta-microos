@@ -28,6 +28,7 @@ typelib(xfixes) \
 typelib(xft) \
 typelib(xlib) \
 typelib(xrandr)"
+
 RDEPENDS:${PN} += "libgirepository-1_0-1"
 
 inherit rpm

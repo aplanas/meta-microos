@@ -19,6 +19,7 @@ RPM_HASH = "24743091c3248ce86db13c1e4d101a5cc2f8fdc77bf488266e1ea4cc5ebe9e33b96a
 
 RPROVIDES:${PN} += "vde2-slirp \
 vde2-slirp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

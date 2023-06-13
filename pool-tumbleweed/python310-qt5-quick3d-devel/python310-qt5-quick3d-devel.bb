@@ -13,6 +13,7 @@ RPM_HASH = "ff8790f81f0ff0d322c3c793c693de7bf7a84bda3f34500dc72f0fec1439d44bf094
 RPROVIDES:${PN} += "python3-qt5-quick3d-devel \
 python310-qt5-quick3d-devel \
 python310-qt5-quick3d-devel(aarch-64)"
+
 RDEPENDS:${PN} += "pkgconfig(Qt5Quick3D) \
 python(abi) \
 python310-qt5-devel"

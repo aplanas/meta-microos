@@ -9,6 +9,7 @@ RPM_HASH = "cbf91d7ed5913e2ffeb0bf4115a2565ca62b2065270598d88e2ea279cc8b04c83254
 
 RPROVIDES:${PN} += "fifechan-devel \
 fifechan-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfifechan0_1_5 \
 libfifechan_opengl0_1_5 \
 libfifechan_sdl0_1_5"

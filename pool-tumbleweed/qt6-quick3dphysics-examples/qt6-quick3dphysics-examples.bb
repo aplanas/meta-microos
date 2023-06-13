@@ -9,6 +9,7 @@ RPM_HASH = "9072e937d3a88c91f20f269d950e4534604d6a190a12fe4b39b3ce06235a47140c1f
 
 RPROVIDES:${PN} += "qt6-quick3dphysics-examples \
 qt6-quick3dphysics-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

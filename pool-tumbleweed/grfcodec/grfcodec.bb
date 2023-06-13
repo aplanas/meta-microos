@@ -15,6 +15,7 @@ RPM_HASH = "f9e3ad3014ff6a9c44d352a5450ac1672b24e46b081de5fe606e34951dca257a7042
 RPROVIDES:${PN} += "grfcodec \
 grfcodec(aarch-64) \
 nforenum"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

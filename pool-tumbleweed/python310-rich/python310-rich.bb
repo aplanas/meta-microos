@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-rich \
 python3.10dist(rich) \
 python310-rich \
 python3dist(rich)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-markdown-it-py \
 python310-pygments"

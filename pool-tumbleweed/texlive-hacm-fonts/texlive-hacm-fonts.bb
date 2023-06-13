@@ -95,6 +95,7 @@ font(lantia) \
 font(nalnia) \
 font(olivia) \
 texlive-hacm-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

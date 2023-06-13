@@ -20,6 +20,7 @@ tex(NumericPlots_legend.tex) \
 tex(NumericPlots_macros.tex) \
 tex(NumericPlots_styles.tex) \
 texlive-numericplots"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

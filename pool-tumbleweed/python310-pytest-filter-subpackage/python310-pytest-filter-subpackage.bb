@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pytest-filter-subpackage \
 python3.10dist(pytest-filter-subpackage) \
 python310-pytest-filter-subpackage \
 python3dist(pytest-filter-subpackage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

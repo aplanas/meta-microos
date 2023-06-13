@@ -10,6 +10,7 @@ RPM_HASH = "4844274e87ed01ab548367a3e7709327c200bc16f5d81161833086379acde16c43e1
 
 RPROVIDES:${PN} += "qmlpluginexports-qt6 \
 qmlpluginexports-qt6(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "8d1d7bc0e12d9d8ea96583c4bb2cd92691733bbad562e13ce9f5022aeb5eba87bc7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-termcal-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

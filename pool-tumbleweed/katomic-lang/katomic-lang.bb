@@ -82,6 +82,7 @@ locale(katomic:uk) \
 locale(katomic:vi) \
 locale(katomic:zh_CN) \
 locale(katomic:zh_TW)"
+
 RDEPENDS:${PN} += "katomic"
 
 inherit rpm

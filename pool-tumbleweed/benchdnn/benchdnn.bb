@@ -15,6 +15,7 @@ RPM_HASH = "e35ee24aa9f41ad186ce6f7f64f4af10ce03aa5b80f06b542dd06c1c93ce75eba6b2
 
 RPROVIDES:${PN} += "benchdnn \
 benchdnn(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

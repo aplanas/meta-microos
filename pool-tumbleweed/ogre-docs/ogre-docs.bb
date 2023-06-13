@@ -16,6 +16,7 @@ RPM_HASH = "c5a91dff0c36fa7d7db61c1d8dc2bbee71ca053905762fda6312815cdb17ec4a259e
 
 RPROVIDES:${PN} += "ogre-docs \
 ogre-docs(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

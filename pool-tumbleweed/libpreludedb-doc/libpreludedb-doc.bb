@@ -9,6 +9,7 @@ RPM_HASH = "c627f5b916bf99aaba09531e66a06fe16d5bea13ab8a2a8d77e8294e9625debed1a0
 
 RPROVIDES:${PN} += "libpreludedb-doc \
 libpreludedb-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

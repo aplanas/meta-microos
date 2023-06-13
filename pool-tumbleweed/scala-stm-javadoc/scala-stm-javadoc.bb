@@ -9,6 +9,7 @@ RPM_HASH = "bb32e9976dd0cef98da2cceffbdfc03f97384c51cd6d7e7c0e92eec4cbf5b03620b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scala-stm-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

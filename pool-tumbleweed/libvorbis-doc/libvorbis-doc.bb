@@ -10,6 +10,7 @@ RPM_HASH = "1084886d4fa1d0fb98b73b90b7cb4b8d72c83447076d11dc82cc777c5ea323323561
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvorbis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

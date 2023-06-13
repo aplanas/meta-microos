@@ -707,6 +707,7 @@ tex(a_ze7hit.enc) \
 tex(a_zkzzwq.enc) \
 tex(domitian.sty) \
 texlive-domitian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

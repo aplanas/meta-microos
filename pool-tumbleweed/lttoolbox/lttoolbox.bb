@@ -16,6 +16,7 @@ RPM_HASH = "b6b1afbcbe01599c024a575a10099e6fb25401a5a1e8de50d8dc1784f73b674c021f
 
 RPROVIDES:${PN} += "lttoolbox \
 lttoolbox(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

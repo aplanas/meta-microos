@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:simplecov_json_formatter:0) \
 rubygem(ruby:3.2.0:simplecov_json_formatter:0.1) \
 rubygem(ruby:3.2.0:simplecov_json_formatter:0.1.4) \
 rubygem(simplecov_json_formatter)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

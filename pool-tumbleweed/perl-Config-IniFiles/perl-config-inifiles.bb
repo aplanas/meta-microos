@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Config::IniFiles) \
 perl(Config::IniFiles::_section) \
 perl-Config-IniFiles"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Scalar) \
 perl(List::Util)"

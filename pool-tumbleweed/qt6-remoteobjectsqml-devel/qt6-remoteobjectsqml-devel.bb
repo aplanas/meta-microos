@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6RemoteObjectsQml) \
 pkgconfig(Qt6RemoteObjectsQml) \
 qt6-remoteobjectsqml-devel \
 qt6-remoteobjectsqml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Qml) \

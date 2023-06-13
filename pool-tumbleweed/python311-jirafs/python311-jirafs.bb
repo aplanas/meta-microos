@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jirafs) \
 python311-jirafs \
 python3dist(jirafs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 git-core \

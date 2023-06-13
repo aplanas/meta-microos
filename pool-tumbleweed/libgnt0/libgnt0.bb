@@ -11,6 +11,7 @@ RPM_HASH = "7eaa279a3d6809a8b015a7ee80c38a524d1bf51053435d7e636c3f85dd08db6334b4
 RPROVIDES:${PN} += "libgnt.so.0()(64bit) \
 libgnt0 \
 libgnt0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kvdefinekeys.sty) \
 texlive-kvdefinekeys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "200eb10be175601f9aadcf2921c291882608f5a8882fc510cfe954aa431d9c5e9a55
 RPROVIDES:${PN} += "libdep.so()(64bit) \
 mingw64-cross-binutils \
 mingw64-cross-binutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

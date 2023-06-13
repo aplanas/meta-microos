@@ -23,6 +23,7 @@ python39-jupyterlab-macros-devel \
 rpm_macro(_jupyter_lab_dir) \
 rpm_macro(_jupyter_labextensions_dir) \
 rpm_macro(_jupyter_labextensions_dir3)"
+
 RDEPENDS:${PN} += "jupyter-jupyter_core-filesystem"
 
 inherit rpm

@@ -21,6 +21,7 @@ RPM_HASH = "5203fce9e30da1f1972a0dc47bebb4732fe31a3861a1a9bb3f0999d0abab6e1daecd
 
 RPROVIDES:${PN} += "normaliz \
 normaliz(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

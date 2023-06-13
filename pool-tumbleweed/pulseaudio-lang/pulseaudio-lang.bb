@@ -61,6 +61,7 @@ locale(pulseaudio:zh_CN) \
 locale(pulseaudio:zh_TW) \
 pulseaudio-lang \
 pulseaudio-lang-all"
+
 RDEPENDS:${PN} += "pulseaudio"
 
 inherit rpm

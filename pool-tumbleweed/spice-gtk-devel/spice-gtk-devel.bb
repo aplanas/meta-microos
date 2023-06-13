@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(spice-client-glib-2.0) \
 pkgconfig(spice-client-gtk-3.0) \
 spice-gtk-devel \
 spice-gtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspice-client-glib-2_0-8 \
 libspice-client-gtk-3_0-5 \

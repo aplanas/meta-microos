@@ -14,6 +14,7 @@ libgcrypt.so.20(GCRYPT_1.6)(64bit) \
 libgcrypt20 \
 libgcrypt20(aarch-64) \
 libgcrypt20-hmac"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

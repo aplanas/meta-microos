@@ -9,6 +9,7 @@ RPM_HASH = "b08b7a49af3aa5c75b19a59445fa83aa134930ff9657397062163886a4bf19453f22
 
 RPROVIDES:${PN} += "grommunio-index \
 grommunio-index(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

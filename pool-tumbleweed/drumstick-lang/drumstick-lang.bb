@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drumstick-lang \
 drumstick-lang-all"
+
 RDEPENDS:${PN} += "drumstick"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(rapidfuzz) \
 python311-rapidfuzz \
 python311-rapidfuzz(aarch-64) \
 python3dist(rapidfuzz)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

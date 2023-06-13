@@ -16,6 +16,7 @@ group(libstoragemgmt) \
 libstoragemgmt \
 libstoragemgmt(aarch-64) \
 user(libstoragemgmt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

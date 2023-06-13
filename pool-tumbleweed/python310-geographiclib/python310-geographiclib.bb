@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-geographiclib \
 python3.10dist(geographiclib) \
 python310-geographiclib \
 python3dist(geographiclib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

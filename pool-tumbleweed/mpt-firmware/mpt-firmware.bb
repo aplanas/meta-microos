@@ -18,6 +18,7 @@ RPM_HASH = "6efedea95ad4b9dd95e3eea109170dfab628d648db1df034662556b85ff24f15deab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpt-firmware"
+
 RDEPENDS:${PN} += "modutils"
 
 inherit rpm

@@ -23,6 +23,7 @@ RPM_HASH = "73cd02f184345956dbe042a67cfc2f0c68b11a7f66b9346f81f4824d6668ee93c0cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guilt"
+
 RDEPENDS:${PN} += "/bin/sh \
 git"
 

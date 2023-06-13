@@ -9,6 +9,7 @@ RPM_HASH = "4f7d5e618105de6f0e28d642d15295e2fefc0df3a15d342db671a9cc8b53b638ffab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-brightness"
+
 RDEPENDS:${PN} += "bumblebee-status"
 
 inherit rpm

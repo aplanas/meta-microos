@@ -17,6 +17,7 @@ pkgconfig(mono-addins) \
 pkgconfig(mono-addins-gui) \
 pkgconfig(mono-addins-msbuild) \
 pkgconfig(mono-addins-setup)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono-addins \
 pkgconfig(mono-addins)"

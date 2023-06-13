@@ -13,6 +13,7 @@ RPM_HASH = "61fb2d69c39e9ad7d9392a46056ae3c9200319ac8fcb3c6c958e3d8d1a02d213001c
 RPROVIDES:${PN} += "libluksde-devel \
 libluksde-devel(aarch-64) \
 pkgconfig(libluksde)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libluksde1"

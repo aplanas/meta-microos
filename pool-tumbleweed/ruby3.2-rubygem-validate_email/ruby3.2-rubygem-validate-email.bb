@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:validate_email:0) \
 rubygem(ruby:3.2.0:validate_email:0.1) \
 rubygem(ruby:3.2.0:validate_email:0.1.6) \
 rubygem(validate_email)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activemodel) \
 rubygem(ruby:3.2.0:mail)"

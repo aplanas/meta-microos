@@ -13,6 +13,7 @@ mvn(com.google.protobuf:protobuf-java:pom:) \
 mvn(com.google.protobuf:protobuf-parent:pom:) \
 protobuf-java \
 protobuf-java(aarch-64)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem"

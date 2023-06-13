@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-tetragonos-doc:zh) \
 texlive-tetragonos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

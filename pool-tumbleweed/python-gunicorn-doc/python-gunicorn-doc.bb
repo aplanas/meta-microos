@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python-gunicorn-doc \
 python310-gunicorn-doc \
 python311-gunicorn-doc \
 python39-gunicorn-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

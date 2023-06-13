@@ -10,6 +10,7 @@ RPM_HASH = "b9c6c024a74eb289bad8c26ecdf05fc840feb8da7ac7386319c9a378609a6474970f
 RPROVIDES:${PN} += "ghc-prof(th-compat-0.1.4-Bzk38miPOyTJh1KMkOoOkv) \
 ghc-th-compat-prof \
 ghc-th-compat-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(template-haskell-2.19.0.0) \
 ghc-th-compat-devel"

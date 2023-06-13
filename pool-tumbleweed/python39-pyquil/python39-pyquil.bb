@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyquil) \
 python39-pyquil \
 python3dist(pyquil)"
+
 RDEPENDS:${PN} += "(python39-importlib-metadata >= 3.7.3 if python39-base < 3.8) \
 (python39-qcs-api-client >= 0.21 with python39-qcs-api-client < 0.22.0) \
 python(abi) \

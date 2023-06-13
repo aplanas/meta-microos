@@ -12,6 +12,7 @@ RPM_HASH = "4d69f88fa9bffa4677e21eed2bc8e9cd5a5763d6b4796a3adcff00e5a3846947ff72
 
 RPROVIDES:${PN} += "jupyter-cadabra2-kernel \
 jupyter-cadabra2-kernel(aarch-64)"
+
 RDEPENDS:${PN} += "cadabra2 \
 jupyter-notebook \
 python(abi)"

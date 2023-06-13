@@ -12,6 +12,7 @@ RPM_HASH = "c581dde91ea491515b4fdbbd52b052974e7fec4bdd22a11820034530a2c07bfa27fc
 
 RPROVIDES:${PN} += "pcre-devel-static \
 pcre-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "pcre-devel"
 
 inherit rpm

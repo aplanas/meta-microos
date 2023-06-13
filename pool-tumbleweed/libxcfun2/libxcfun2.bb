@@ -11,6 +11,7 @@ RPM_HASH = "2cc67d024eeefa67c6d2df6c97c0599ebcaf4182190c4c6bbd0c4343979b4c608ed0
 RPROVIDES:${PN} += "libxcfun.so.2()(64bit) \
 libxcfun2 \
 libxcfun2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "golang(github.com/sgreben/tj/cmd/tj) \
 golang(github.com/sgreben/tj/pkg/color) \
 tj \
 tj(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

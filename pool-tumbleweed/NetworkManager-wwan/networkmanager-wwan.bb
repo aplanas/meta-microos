@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "NetworkManager-wwan \
 NetworkManager-wwan(aarch-64) \
 libnm-device-plugin-wwan.so()(64bit) \
 libnm-wwan.so()(64bit)"
+
 RDEPENDS:${PN} += "ModemManager \
 NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \

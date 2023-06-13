@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(xplayer-plparser) \
 pkgconfig(xplayer-plparser-mini) \
 xplayer-plparser-devel \
 xplayer-plparser-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxplayer-plparser-mini18 \
 libxplayer-plparser18 \

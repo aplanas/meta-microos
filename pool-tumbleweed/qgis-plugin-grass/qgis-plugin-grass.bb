@@ -13,6 +13,7 @@ libprovider_grassraster8.so()(64bit) \
 libqgisgrass8.so.3.30.2()(64bit) \
 qgis-plugin-grass \
 qgis-plugin-grass(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 grass \
 grass-doc \

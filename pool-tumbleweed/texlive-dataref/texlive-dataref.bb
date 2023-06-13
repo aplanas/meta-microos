@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dataref.sty) \
 texlive-dataref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

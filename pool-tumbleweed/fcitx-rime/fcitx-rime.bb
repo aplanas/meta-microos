@@ -13,6 +13,7 @@ RPM_HASH = "30657bbcb36f9398d99cc044f4d8be7281eecbfbd9139fbf4999ec917a14629f67c7
 
 RPROVIDES:${PN} += "fcitx-rime \
 fcitx-rime(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libc.so.6(GLIBC_2.17)(64bit) \

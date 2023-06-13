@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer-database-support \
 adminer-mysql"
+
 RDEPENDS:${PN} += "adminer \
 php-mysql"
 

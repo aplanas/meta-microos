@@ -12,6 +12,7 @@ RPM_HASH = "c200efc322db4691a32b2667d12b3fdde1112443036f76df6200336ba432a1d9f919
 
 RPROVIDES:${PN} += "black-hole-solver \
 black-hole-solver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblack_hole_solver.so.1()(64bit) \

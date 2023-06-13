@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(uamqp) \
 python311-uamqp \
 python311-uamqp(aarch-64) \
 python3dist(uamqp)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

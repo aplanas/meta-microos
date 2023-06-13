@@ -10,6 +10,7 @@ RPM_HASH = "2d7df69ac652f1e9b395031058cb0c4788065e0856f065ed43941ed3847c5a2c5241
 RPROVIDES:${PN} += "ghc-cookie-devel \
 ghc-cookie-devel(aarch-64) \
 ghc-devel(cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-cookie \

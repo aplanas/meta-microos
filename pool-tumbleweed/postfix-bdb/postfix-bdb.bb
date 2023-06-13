@@ -19,6 +19,7 @@ postfix-bdb \
 postfix-bdb(aarch-64) \
 smtp_daemon \
 user(postfix)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

@@ -9,6 +9,7 @@ RPM_HASH = "a8fbf4b263c23c01f355afd09df05cc1c3452cf28924e0f24d9d4b3eb3655c72d673
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-varisize-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

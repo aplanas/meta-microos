@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pycdlib) \
 python39-pycdlib \
 python3dist(pycdlib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 mkisofs \

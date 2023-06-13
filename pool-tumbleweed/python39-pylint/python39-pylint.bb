@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pylint) \
 python39-pylint \
 python3dist(pylint)"
+
 RDEPENDS:${PN} += "(python39-astroid >= 2.15.4 with python39-astroid < 2.17.0~dev0) \
 (python39-isort >= 4.2.5 with python39-isort < 6) \
 (python39-mccabe >= 0.6 with python39-mccabe < 0.8) \

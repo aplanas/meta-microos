@@ -17,6 +17,7 @@ tex(dingbat.tfm) \
 tex(uark.fd) \
 tex(udingbat.fd) \
 texlive-dingbat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

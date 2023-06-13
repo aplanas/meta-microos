@@ -9,6 +9,7 @@ RPM_HASH = "ece5f285aec5840c5fdd8ae35af928b3edec38248a5d4df44d2dfb2491f837260e7b
 
 RPROVIDES:${PN} += "texlive-multibibliography-bin \
 texlive-multibibliography-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-multibibliography"
 
 inherit rpm

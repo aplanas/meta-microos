@@ -9,6 +9,7 @@ RPM_HASH = "89358fa37136791f252ca4c6a0c0c5282aab15ca50b9b5ff4590b1fb44e25cfe0c4d
 
 RPROVIDES:${PN} += "qt6-mqtt-docs-html \
 qt6-mqtt-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

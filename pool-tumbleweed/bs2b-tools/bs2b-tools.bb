@@ -10,6 +10,7 @@ RPM_HASH = "554cebe3e06e60e3f191c5b738e4329757bfd22fde0e313f4114415c959e77830030
 
 RPROVIDES:${PN} += "bs2b-tools \
 bs2b-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbs2b.so.0()(64bit) \

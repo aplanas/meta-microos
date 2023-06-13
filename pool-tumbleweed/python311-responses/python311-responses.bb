@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(responses) \
 python311-responses \
 python3dist(responses)"
+
 RDEPENDS:${PN} += "(python311-requests >= 2.22.0 with python311-requests < 3) \
 python(abi) \
 python311-PyYAML \

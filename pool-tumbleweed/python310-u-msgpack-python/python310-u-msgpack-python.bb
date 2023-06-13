@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-u-msgpack-python \
 python3.10dist(u-msgpack-python) \
 python310-u-msgpack-python \
 python3dist(u-msgpack-python)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

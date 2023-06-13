@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pressrelease-symbols.sty) \
 tex(pressrelease.cls) \
 texlive-pressrelease"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

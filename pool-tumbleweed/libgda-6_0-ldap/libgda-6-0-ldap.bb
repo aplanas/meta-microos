@@ -13,6 +13,7 @@ RPM_HASH = "28e24f3d0b0c281df78eabc4fb02121d07515695d2dc09cade66360332d65ff704bb
 RPROVIDES:${PN} += "libgda-6_0-ldap \
 libgda-6_0-ldap(aarch-64) \
 libgda-ldap-6.0.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

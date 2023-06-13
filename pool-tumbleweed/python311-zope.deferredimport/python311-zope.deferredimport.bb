@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(zope.deferredimport) \
 python311-zope.deferredimport \
 python3dist(zope.deferredimport)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-zope.proxy"
 

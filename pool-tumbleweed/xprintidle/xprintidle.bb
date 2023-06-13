@@ -10,6 +10,7 @@ RPM_HASH = "e9d77c6dfc303b7473b79f119a9ade25b3f9301d1abbe6d89196862e76527ff86560
 
 RPROVIDES:${PN} += "xprintidle \
 xprintidle(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

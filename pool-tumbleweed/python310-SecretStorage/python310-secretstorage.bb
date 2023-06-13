@@ -28,6 +28,7 @@ RPROVIDES:${PN} += "python3-SecretStorage \
 python3.10dist(secretstorage) \
 python310-SecretStorage \
 python3dist(secretstorage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cryptography \
 python310-jeepney"

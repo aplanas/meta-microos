@@ -10,6 +10,7 @@ RPM_HASH = "2481a10598792c698c29f001b0b1aa68f4bc00e4464257257917734f188971db8fd3
 RPROVIDES:${PN} += "libbirthdayreminderplugin.so()(64bit) \
 psi+-plugins-birthdayreminderplugin \
 psi+-plugins-birthdayreminderplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-panel-branding \
 mate-panel-branding-upstream"
+
 RDEPENDS:${PN} += "mate-panel"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-makerobust-doc:en) \
 texlive-makerobust-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

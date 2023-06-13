@@ -14,6 +14,7 @@ RPM_HASH = "078ddba6a9db47e9a110448f239856ff309d8642cebbfdb5d187daab15a6c8122135
 RPROVIDES:${PN} += "libyelp.so.0()(64bit) \
 libyelp0 \
 libyelp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(wsgiproxy2) \
 python39-WSGIProxy2 \
 python3dist(wsgiproxy2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WebOb \
 python39-requests \

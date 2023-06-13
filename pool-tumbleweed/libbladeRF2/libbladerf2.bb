@@ -10,6 +10,7 @@ RPM_HASH = "652370beeca7b082fc98fdcdcf8a0b4274cbbbfc6e556e6f5b20b586d40169f86b33
 RPROVIDES:${PN} += "libbladeRF.so.2()(64bit) \
 libbladeRF2 \
 libbladeRF2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bladeRF-udev \
 ld-linux-aarch64.so.1()(64bit) \

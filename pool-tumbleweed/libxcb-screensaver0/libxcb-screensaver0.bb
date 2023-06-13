@@ -18,6 +18,7 @@ RPM_HASH = "8c6391cddaf5b34af7197e19ffc73e58259013c4a03e215e121f42205ce288911bdd
 RPROVIDES:${PN} += "libxcb-screensaver.so.0()(64bit) \
 libxcb-screensaver0 \
 libxcb-screensaver0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "89dad594ffc43ec13e6e68d9c80977da7df40e6086e62aca5e18789e42a70f89c7e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsf-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

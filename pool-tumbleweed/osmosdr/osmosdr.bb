@@ -9,6 +9,7 @@ RPM_HASH = "878ef2ebcbe38d494cdc5ba855dd3fb8397b29eb8aa3869b33f55f8806bc97352556
 
 RPROVIDES:${PN} += "osmosdr \
 osmosdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

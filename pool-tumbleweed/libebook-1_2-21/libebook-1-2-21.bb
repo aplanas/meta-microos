@@ -13,6 +13,7 @@ RPM_HASH = "f2f746d93b35372253d917140e66ac3c9c95b85d27dc302c6d87b48699f75ed740ef
 RPROVIDES:${PN} += "libebook-1.2.so.21()(64bit) \
 libebook-1_2-21 \
 libebook-1_2-21(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

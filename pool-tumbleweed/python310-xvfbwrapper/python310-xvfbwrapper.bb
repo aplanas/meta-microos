@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-xvfbwrapper \
 python3.10dist(xvfbwrapper) \
 python310-xvfbwrapper \
 python3dist(xvfbwrapper)"
+
 RDEPENDS:${PN} += "python(abi) \
 xorg-x11-Xvfb"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(greektex.sty) \
 texlive-greektex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

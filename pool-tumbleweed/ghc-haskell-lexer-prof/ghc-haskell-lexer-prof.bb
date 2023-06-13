@@ -10,6 +10,7 @@ RPM_HASH = "9a3b82a765f08e72039f0c413661c5b1909ab98a62d73785e10830fa9167cf611186
 RPROVIDES:${PN} += "ghc-haskell-lexer-prof \
 ghc-haskell-lexer-prof(aarch-64) \
 ghc-prof(haskell-lexer-1.1.1-FBBQnuYVuwZ6NRUVHfUjFR)"
+
 RDEPENDS:${PN} += "ghc-haskell-lexer-devel \
 ghc-prof(base-4.17.1.0)"
 

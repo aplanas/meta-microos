@@ -9,6 +9,7 @@ RPM_HASH = "98395b3152be3ea1c0afb4d7fa6aebe363a11c257c974ec7b1ec60104fa4060afb0e
 
 RPROVIDES:${PN} += "pdsh-slurm \
 pdsh-slurm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "5719384914125448a8b1b8fcbe0296f88d89ee55765698a33879775ff72c97348c21
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-byo-twemojis-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

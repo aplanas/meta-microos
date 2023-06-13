@@ -9,6 +9,7 @@ RPM_HASH = "efd4b7166dbdcaddeba52b6cb9de74f35960d490fde240669585b42bbc3b61cace54
 
 RPROVIDES:${PN} += "gcc-obj-c++ \
 gcc-obj-c++(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-objc \
 gcc13-obj-c++"
 

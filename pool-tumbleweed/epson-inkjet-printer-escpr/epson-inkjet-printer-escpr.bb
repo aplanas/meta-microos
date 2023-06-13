@@ -619,6 +619,7 @@ postscriptdriver(epson;xp-860_series;) \
 postscriptdriver(epson;xp-900_series;) \
 postscriptdriver(epson;xp-950_series;) \
 postscriptdriver(epson;xp-960_series;)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cups \
 ld-linux-aarch64.so.1()(64bit) \

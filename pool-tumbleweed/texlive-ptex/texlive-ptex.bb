@@ -19,6 +19,7 @@ man(ptex.1) \
 man(ptftopl.1) \
 texlive-ptex \
 texlive-ptex-doc:/usr/share/man/man1/makejvf.1.gz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

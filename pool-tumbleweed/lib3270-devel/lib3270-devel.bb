@@ -10,6 +10,7 @@ RPM_HASH = "69b25e1eb663ff09a5a15d0212b27bff1132ed18e6a781c0b39bdf80f813903d52a1
 RPROVIDES:${PN} += "lib3270-devel \
 lib3270-devel(aarch-64) \
 pkgconfig(lib3270)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lib3270-5_4"
 

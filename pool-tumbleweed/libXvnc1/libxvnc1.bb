@@ -10,6 +10,7 @@ RPM_HASH = "5f48ef300a80633991161259298cd204f4e38a9a4a8107b53d4a3f95ed0f6cf5f422
 RPROVIDES:${PN} += "libXvnc.so.1()(64bit) \
 libXvnc1 \
 libXvnc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

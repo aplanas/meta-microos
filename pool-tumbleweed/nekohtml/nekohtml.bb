@@ -25,6 +25,7 @@ mvn(net.sourceforge.nekohtml:nekohtml-xni) \
 mvn(net.sourceforge.nekohtml:nekohtml:pom:) \
 nekohtml \
 osgi(org.cyberneko.html)"
+
 RDEPENDS:${PN} += "/bin/bash \
 bcel \
 java-headless \

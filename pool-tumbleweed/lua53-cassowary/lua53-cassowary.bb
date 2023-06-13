@@ -11,6 +11,7 @@ RPM_HASH = "967c9f80594f22592188cf3e99cd42e5c6e3b3e7b61f5c0a546a69a8df5837fca35b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-cassowary"
+
 RDEPENDS:${PN} += "lua53 \
 lua53-penlight"
 

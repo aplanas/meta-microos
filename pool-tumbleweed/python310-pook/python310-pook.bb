@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pook \
 python3.10dist(pook) \
 python310-pook \
 python3dist(pook)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-furl \

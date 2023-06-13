@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libgwengui-qt4-0 \
 libgwengui-qt5-79 \
 libgwengui-qt5-79(aarch-64) \
 libgwengui-qt5.so.79()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

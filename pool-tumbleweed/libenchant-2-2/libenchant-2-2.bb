@@ -11,6 +11,7 @@ RPM_HASH = "f375a195556c813768df3b33bea248ab3f51ae12bd617001180753a906ffe10b5038
 RPROVIDES:${PN} += "libenchant-2-2 \
 libenchant-2-2(aarch-64) \
 libenchant-2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 enchant-2-backend \
 enchant-data \

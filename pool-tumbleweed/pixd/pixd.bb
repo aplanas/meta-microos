@@ -11,6 +11,7 @@ RPM_HASH = "c5e76063a36989bd9eaef558608403b1be8b06d848d781c00bbe37e3d4e97ec9e972
 
 RPROVIDES:${PN} += "pixd \
 pixd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

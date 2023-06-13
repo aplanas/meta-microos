@@ -26,6 +26,7 @@ freeglut-devel \
 freeglut-devel(aarch-64) \
 mesaglut-devel \
 pkgconfig(glut)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglut3 \
 pkgconfig(gl) \

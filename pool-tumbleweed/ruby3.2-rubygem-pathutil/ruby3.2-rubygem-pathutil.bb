@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:pathutil) \
 rubygem(ruby:3.2.0:pathutil:0) \
 rubygem(ruby:3.2.0:pathutil:0.16) \
 rubygem(ruby:3.2.0:pathutil:0.16.2)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:forwardable-extended:2)"
 

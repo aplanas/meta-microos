@@ -13,6 +13,7 @@ RPM_HASH = "9750af526df72716bf4f252818c5dd6c1d82cd94574b83b055f7510ccff21ff6a5e1
 RPROVIDES:${PN} += "libebur128-devel \
 libebur128-devel(aarch-64) \
 pkgconfig(libebur128)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libebur128-1"
 

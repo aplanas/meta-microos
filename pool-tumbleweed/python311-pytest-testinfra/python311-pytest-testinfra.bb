@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(pytest-testinfra) \
 python311-pytest-testinfra \
 python311-testinfra \
 python3dist(pytest-testinfra)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

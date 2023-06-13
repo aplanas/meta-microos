@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jsch-agent-proxy-connector-factory \
 mvn(com.jcraft:jsch.agentproxy.connector-factory) \
 mvn(com.jcraft:jsch.agentproxy.connector-factory:pom:) \
 osgi(com.jcraft.jsch.agentproxy.connector-factory)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jsch.agentproxy.core) \

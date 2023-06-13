@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "git-pw \
 python3.11dist(git-pw) \
 python311-git-pw \
 python3dist(git-pw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 git-core \

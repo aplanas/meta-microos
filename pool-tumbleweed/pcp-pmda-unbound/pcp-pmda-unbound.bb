@@ -10,6 +10,7 @@ RPM_HASH = "9e184de3d2703d6dba2876fde7a9d497a8c5699da4b3ae087a6d57b55072d82788b8
 
 RPROVIDES:${PN} += "pcp-pmda-unbound \
 pcp-pmda-unbound(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

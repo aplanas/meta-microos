@@ -11,6 +11,7 @@ RPM_HASH = "d73211a25f7bdb69c91310c9ab8109fcae027fbcee73714e825f06330ab9c12c100d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "belcard-data"
+
 RDEPENDS:${PN} += "libbelcard1"
 
 inherit rpm

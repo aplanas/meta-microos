@@ -9,6 +9,7 @@ RPM_HASH = "77ee799ef25ae30a0361affb8c88949bcefe5a1d8907d0b0dfb3302b37e8fb10887e
 
 RPROVIDES:${PN} += "scotch-devel \
 scotch-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc-fortran \
 libscotch0"
 

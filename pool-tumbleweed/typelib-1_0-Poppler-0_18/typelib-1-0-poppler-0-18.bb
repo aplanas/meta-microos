@@ -13,6 +13,7 @@ RPM_HASH = "3b5b24aa0353dd86a3e60ae48767d444e91856e06c09a0658d3563135ecd3f97862d
 RPROVIDES:${PN} += "typelib(Poppler) \
 typelib-1_0-Poppler-0_18 \
 typelib-1_0-Poppler-0_18(aarch-64)"
+
 RDEPENDS:${PN} += "libpoppler-glib.so.8()(64bit) \
 libpoppler.so.128()(64bit) \
 typelib(GLib) \

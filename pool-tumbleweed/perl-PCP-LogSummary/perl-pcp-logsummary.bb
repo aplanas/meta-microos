@@ -15,6 +15,7 @@ RPM_HASH = "de9c6ef62be59bd2fd7a4cc8631015fb8a4df7c4150089f047f4940898292117081d
 RPROVIDES:${PN} += "perl(PCP::LogSummary) \
 perl-PCP-LogSummary \
 perl-PCP-LogSummary(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libpcp3 \
 perl(:MODULE_COMPAT_5.36.0)"

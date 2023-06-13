@@ -11,6 +11,7 @@ RPM_HASH = "733a79a9f9f9aca6e15bb1bd5aa6044a5679762bf8a3d12c30bbbcb3c3aac4119a9d
 RPROVIDES:${PN} += "pkgconfig(sword) \
 sword-devel \
 sword-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsword-1_8_1 \
 pkgconfig(libcurl)"

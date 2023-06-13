@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-documentdb \
 python3.10dist(azure-mgmt-documentdb) \
 python310-azure-mgmt-documentdb \
 python3dist(azure-mgmt-documentdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-nspkg \

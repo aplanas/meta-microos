@@ -87,6 +87,7 @@ libfwupdplugin.so(LIBFWUPDPLUGIN_1.8.9)(64bit) \
 libfwupdutil.so()(64bit) \
 metainfo() \
 metainfo(org.freedesktop.fwupd.metainfo.xml)"
+
 RDEPENDS:${PN} += "(fwupd-efi if shim) \
 /bin/sh \
 /usr/bin/python3 \

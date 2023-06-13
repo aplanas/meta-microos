@@ -16,6 +16,7 @@ RPM_HASH = "a4fddfb2e6f96c2ceab1e317a699e0b15ea8ad9bf42def75c8afec8ee1101a2ace6d
 RPROVIDES:${PN} += "ghc-isocline \
 ghc-isocline(aarch-64) \
 libHSisocline-1.0.9-7x8dFWbXh69GJxYhigSqXG-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

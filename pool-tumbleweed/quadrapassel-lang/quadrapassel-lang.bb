@@ -93,6 +93,7 @@ locale(quadrapassel:zh_HK) \
 locale(quadrapassel:zh_TW) \
 quadrapassel-lang \
 quadrapassel-lang-all"
+
 RDEPENDS:${PN} += "quadrapassel"
 
 inherit rpm

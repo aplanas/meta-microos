@@ -13,6 +13,7 @@ RPM_HASH = "9914ea97d1485db999d24d495038d56d8d32c294518e4daae41bf333791d86855f77
 RPROVIDES:${PN} += "openldap2-back-meta \
 openldap2-back-meta(aarch-64) \
 openldap2:/usr/share/man/man5/slapd-meta.5.gz"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-hypothesis \
 python3.10dist(hypothesis) \
 python310-hypothesis \
 python3dist(hypothesis)"
+
 RDEPENDS:${PN} += "(python310-exceptiongroup >= 1.0.0 if python310-base < 3.11) \
 (python310-sortedcontainers >= 2.1.0 with python310-sortedcontainers < 3.0) \
 /bin/sh \

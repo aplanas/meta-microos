@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "ImageMagick-config-7-SUSE \
 ImageMagick-config-7-SUSE(aarch-64) \
 config(ImageMagick-config-7-SUSE) \
 imagick-config-7"
+
 RDEPENDS:${PN} += "/bin/sh \
 update-alternatives"
 

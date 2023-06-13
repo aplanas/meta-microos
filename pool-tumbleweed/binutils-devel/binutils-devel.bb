@@ -12,6 +12,7 @@ RPM_HASH = "101c833dc4def85bd9d9d75fb4aa03d5e8aaafd93fb9d36d7db30b5aa3639f6d209a
 RPROVIDES:${PN} += "binutils-devel \
 binutils-devel(aarch-64) \
 binutils:/usr/include/bfd.h"
+
 RDEPENDS:${PN} += "binutils \
 zlib-devel"
 

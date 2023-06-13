@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zxjafont.sty) \
 texlive-zxjafont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

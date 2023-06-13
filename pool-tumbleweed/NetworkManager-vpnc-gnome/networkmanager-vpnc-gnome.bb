@@ -14,6 +14,7 @@ libnm-gtk4-vpn-plugin-vpnc-editor.so()(64bit) \
 libnm-vpn-plugin-vpnc-editor.so()(64bit) \
 metainfo() \
 metainfo(network-manager-vpnc.metainfo.xml)"
+
 RDEPENDS:${PN} += "NetworkManager-vpnc \
 gnome-keyring \
 ld-linux-aarch64.so.1()(64bit) \

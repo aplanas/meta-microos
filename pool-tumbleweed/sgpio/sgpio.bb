@@ -13,6 +13,7 @@ RPM_HASH = "1ca33d9e3fc2a3dff9599f4913de70cefa3205822285fb14e9fe9b57bddac3f75010
 
 RPROVIDES:${PN} += "sgpio \
 sgpio(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

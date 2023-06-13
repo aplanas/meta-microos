@@ -10,6 +10,7 @@ RPM_HASH = "d029888ac0cef22157bc8b8c676e3b75931c11ff31582aa6201631360f0e016e8e7c
 RPROVIDES:${PN} += "libdolphinvcs.so.5()(64bit) \
 libdolphinvcs5 \
 libdolphinvcs5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPAPGothic_Italic \
 ipa-pgothic-italic-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

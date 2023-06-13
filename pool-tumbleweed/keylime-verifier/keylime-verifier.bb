@@ -9,6 +9,7 @@ RPM_HASH = "f479c88d73416c8ea40d4dca28b2e35f706fd93cae5e873f0e259d1f1eef68021087
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-verifier"
+
 RDEPENDS:${PN} += "/bin/sh \
 keylime-config \
 keylime-logrotate \

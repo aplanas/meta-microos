@@ -9,6 +9,7 @@ RPM_HASH = "e2b183302654cd4af4eb586c0d27cc62fc4763977012d151f42e17629857c0865022
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-websocket-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

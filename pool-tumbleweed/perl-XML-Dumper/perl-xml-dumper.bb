@@ -21,6 +21,7 @@ RPM_HASH = "79ee0d37cc058b842c379b2fdbcd29a2eac830c296cfd8e31013c7d3b2f13400ecfb
 RPROVIDES:${PN} += "perl(XML::Dumper) \
 perl-XML-Dumper \
 perl-XML-Dumper(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-XML-Parser"
 

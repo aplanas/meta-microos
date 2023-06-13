@@ -12,6 +12,7 @@ RPM_HASH = "afb846b1d91fc8f208eb68cf7935b5f4d77e8115cc81f2433a86a2f3f4fdb884aa9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-deepin-desktop-schemas"
+
 RDEPENDS:${PN} += "golang-github-linuxdeepin-go-lib"
 
 inherit rpm

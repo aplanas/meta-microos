@@ -10,6 +10,7 @@ RPM_HASH = "0fd8188d261a5b822767be57f735bccc2313f323147b0b66bb658ba0c931c9589e04
 RPROVIDES:${PN} += "ghc-data-default-instances-containers-prof \
 ghc-data-default-instances-containers-prof(aarch-64) \
 ghc-prof(data-default-instances-containers-0.0.1-GsTPO88BTeU5gVKxrRffFz)"
+
 RDEPENDS:${PN} += "ghc-data-default-instances-containers-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

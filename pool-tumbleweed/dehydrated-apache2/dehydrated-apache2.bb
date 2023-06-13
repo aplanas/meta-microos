@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(dehydrated-apache2) \
 dehydrated-apache2 \
 letsencrypt.sh-apache2"
+
 RDEPENDS:${PN} += "apache2 \
 dehydrated"
 

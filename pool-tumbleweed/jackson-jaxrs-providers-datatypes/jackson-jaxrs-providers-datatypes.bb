@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jackson-jaxrs-providers-datatypes \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-jaxrs) \
 mvn(com.fasterxml.jackson.datatype:jackson-datatype-jaxrs:pom:) \
 osgi(com.fasterxml.jackson.datatype.jackson-datatype-jaxrs)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

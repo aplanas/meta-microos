@@ -11,6 +11,7 @@ RPM_HASH = "a9b22609cd748752ccfa1fba10db172eb5638bdfa0aba38e4f415471dc55686b7344
 RPROVIDES:${PN} += "libhackrf.so.0()(64bit) \
 libhackrf0 \
 libhackrf0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hackrf-udev \
 ld-linux-aarch64.so.1()(64bit) \

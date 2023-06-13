@@ -99,6 +99,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(baskervaldx) \
 texlive-baskervaldx-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

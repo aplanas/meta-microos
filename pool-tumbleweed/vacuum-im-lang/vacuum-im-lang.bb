@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vacuum-im-lang \
 vacuum-im-lang-all"
+
 RDEPENDS:${PN} += "vacuum-im"
 
 inherit rpm

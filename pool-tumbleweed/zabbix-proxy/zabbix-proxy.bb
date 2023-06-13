@@ -10,6 +10,7 @@ RPM_HASH = "39f9943b7cc5dcac9d13c60f423b44657a2fddce42f0b3f21feac272889a118eff9e
 RPROVIDES:${PN} += "config(zabbix-proxy) \
 zabbix-proxy \
 zabbix-proxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

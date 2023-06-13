@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "chrony-pool \
 chrony-pool-nonempty \
 chrony-pool-suse \
 config(chrony-pool-suse)"
+
 RDEPENDS:${PN} += "chrony"
 
 inherit rpm

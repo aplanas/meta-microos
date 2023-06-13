@@ -10,6 +10,7 @@ RPM_HASH = "0643b46b7379a6f91c3701c84218e1075df852678e9e42b4db38d6bdf57c84611d85
 RPROVIDES:${PN} += "cross-epiphany-gcc12 \
 cross-epiphany-gcc12(aarch-64) \
 epiphany-elf-gcc"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-epiphany-binutils \
 libstdc++6-devel-gcc12 \

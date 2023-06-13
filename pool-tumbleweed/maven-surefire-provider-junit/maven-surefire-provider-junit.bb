@@ -21,6 +21,7 @@ mvn(org.apache.maven.surefire:surefire-junit4) \
 mvn(org.apache.maven.surefire:surefire-junit47) \
 mvn(org.apache.maven.surefire:surefire-junit47:pom:) \
 mvn(org.apache.maven.surefire:surefire-junit4:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

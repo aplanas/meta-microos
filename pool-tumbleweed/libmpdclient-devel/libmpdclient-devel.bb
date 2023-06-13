@@ -12,6 +12,7 @@ RPM_HASH = "719091de0bd65097fbf7abb6cc62424c45373280a54fcd009093ce65d8493fbe35f4
 RPROVIDES:${PN} += "libmpdclient-devel \
 libmpdclient-devel(aarch-64) \
 pkgconfig(libmpdclient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpdclient2"
 

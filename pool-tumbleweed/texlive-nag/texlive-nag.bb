@@ -18,6 +18,7 @@ tex(nag-l2tabu.cfg) \
 tex(nag-orthodox.cfg) \
 tex(nag.sty) \
 texlive-nag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

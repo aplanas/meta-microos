@@ -120,6 +120,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(caladea) \
 texlive-caladea-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

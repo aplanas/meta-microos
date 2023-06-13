@@ -13,6 +13,7 @@ cmake(KPim5CalendarUtils) \
 kcalutils-devel \
 kcalutils-devel(aarch-64) \
 kcalutils5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5CalendarCore) \
 cmake(KF5CoreAddons) \
 cmake(KF5KDELibs4Support) \

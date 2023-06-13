@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-pysnmp-doc \
 python310-pysnmp-doc \
 python311-pysnmp-doc \
 python39-pysnmp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

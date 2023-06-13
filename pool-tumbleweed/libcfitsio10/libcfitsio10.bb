@@ -15,6 +15,7 @@ RPM_HASH = "07c6aa41bc0e3c0e9dc2b6e4b77ff52fb6a58f87cb57184035aff671bbe137e16e0f
 RPROVIDES:${PN} += "libcfitsio.so.10()(64bit) \
 libcfitsio10 \
 libcfitsio10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xltabular.sty) \
 texlive-xltabular"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

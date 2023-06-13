@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pymisp \
 python3.10dist(pymisp) \
 python310-pymisp \
 python3dist(pymisp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Deprecated \
 python310-jsonschema \

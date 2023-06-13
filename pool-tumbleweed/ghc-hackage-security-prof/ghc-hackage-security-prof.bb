@@ -10,6 +10,7 @@ RPM_HASH = "dd17d2dcdd20549326204fd8ee6ea15b5ec5352b6633af948600e1088714bc1d7543
 RPROVIDES:${PN} += "ghc-hackage-security-prof \
 ghc-hackage-security-prof(aarch-64) \
 ghc-prof(hackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq)"
+
 RDEPENDS:${PN} += "ghc-hackage-security-devel \
 ghc-prof(Cabal-syntax-3.8.1.0) \
 ghc-prof(base-4.17.1.0) \

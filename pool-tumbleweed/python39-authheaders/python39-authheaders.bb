@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(authheaders) \
 python39-authheaders \
 python3dist(authheaders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-authres \
 python39-dkimpy \

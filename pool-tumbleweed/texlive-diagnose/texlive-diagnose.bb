@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(diagnose.sty) \
 texlive-diagnose"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

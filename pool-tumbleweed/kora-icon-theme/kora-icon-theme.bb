@@ -17,6 +17,7 @@ RPM_HASH = "25f0b1a724bb339627b9592fcfea6ee3d964824b70ea3451f0dc2f4e31518dca2e25
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kora-icon-theme"
+
 RDEPENDS:${PN} += "gtk3-tools"
 
 inherit rpm

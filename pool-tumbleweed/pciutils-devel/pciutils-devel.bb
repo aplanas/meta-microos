@@ -11,6 +11,7 @@ RPM_HASH = "c320115a0202ecc869dffe2e8b7303430601336e902215edf061257b4c218d523abf
 RPROVIDES:${PN} += "pciutils-devel \
 pciutils-devel(aarch-64) \
 pkgconfig(libpci)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpci3"
 

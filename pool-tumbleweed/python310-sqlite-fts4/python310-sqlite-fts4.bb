@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-sqlite-fts4 \
 python3.10dist(sqlite-fts4) \
 python310-sqlite-fts4 \
 python3dist(sqlite-fts4)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

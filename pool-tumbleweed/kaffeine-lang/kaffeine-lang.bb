@@ -65,6 +65,7 @@ locale(kaffeine:ug) \
 locale(kaffeine:uk) \
 locale(kaffeine:zh_CN) \
 locale(kaffeine:zh_TW)"
+
 RDEPENDS:${PN} += "kaffeine"
 
 inherit rpm

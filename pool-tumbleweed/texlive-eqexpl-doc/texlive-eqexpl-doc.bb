@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-eqexpl-doc:ru) \
 texlive-eqexpl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

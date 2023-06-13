@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn(org.sonatype.oss:oss-parent:pom:) \
 sonatype-oss-parent"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

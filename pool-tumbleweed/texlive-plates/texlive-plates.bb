@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(endplate.sty) \
 tex(plates.sty) \
 texlive-plates"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

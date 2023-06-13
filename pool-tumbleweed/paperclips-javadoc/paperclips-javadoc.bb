@@ -24,6 +24,7 @@ RPM_HASH = "a73fda65764052ede189dc127d73ffbdd00709682b3c55fb96d44ceaed27e6a8b2ab
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paperclips-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

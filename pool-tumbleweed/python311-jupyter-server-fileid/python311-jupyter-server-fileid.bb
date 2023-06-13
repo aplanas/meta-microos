@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-server-fileid) \
 python311-jupyter-server-fileid \
 python311-jupyter_server_fileid \
 python3dist(jupyter-server-fileid)"
+
 RDEPENDS:${PN} += "(python311-jupyter-server >= 1.15 with python311-jupyter-server < 3) \
 /bin/sh \
 /usr/bin/python3.11 \

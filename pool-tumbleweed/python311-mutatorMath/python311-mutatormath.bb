@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mutatormath) \
 python311-mutatorMath \
 python3dist(mutatormath)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-FontTools \
 python311-defcon \

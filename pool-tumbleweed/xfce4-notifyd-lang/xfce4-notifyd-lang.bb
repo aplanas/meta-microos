@@ -61,6 +61,7 @@ locale(xfce4-notifyd:zh_CN) \
 locale(xfce4-notifyd:zh_TW) \
 xfce4-notifyd-lang \
 xfce4-notifyd-lang-all"
+
 RDEPENDS:${PN} += "xfce4-notifyd"
 
 inherit rpm

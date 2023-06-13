@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(azure-synapse-managedprivateendpoints) \
 python311-azure-synapse \
 python311-azure-synapse-managedprivateendpoints \
 python3dist(azure-synapse-managedprivateendpoints)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-core \

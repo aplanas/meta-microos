@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rtkinenc.sty) \
 texlive-rtkinenc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

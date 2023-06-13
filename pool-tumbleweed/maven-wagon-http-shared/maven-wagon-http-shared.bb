@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-wagon-http-shared \
 mvn(org.apache.maven.wagon:wagon-http-shared) \
 mvn(org.apache.maven.wagon:wagon-http-shared:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-io:commons-io) \

@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "libsliplu-1_0_2 \
 libsliplu.so.1()(64bit) \
 libsliplu1 \
 libsliplu1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

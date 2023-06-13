@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(musuos.cls) \
 texlive-musuos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

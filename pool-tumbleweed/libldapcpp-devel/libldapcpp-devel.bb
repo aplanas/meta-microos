@@ -10,6 +10,7 @@ RPM_HASH = "3f6cefa37b6576babf8afa87bfe29a562d943f8af8d6a666272243d040f174d5b42d
 
 RPROVIDES:${PN} += "libldapcpp-devel \
 libldapcpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libldapcpp0 \
 openldap2-devel"
 

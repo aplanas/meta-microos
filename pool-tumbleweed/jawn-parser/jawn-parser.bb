@@ -16,6 +16,7 @@ mvn(org.spire-math:jawn-parser_2.10) \
 mvn(org.spire-math:jawn-parser_2.10:pom:) \
 mvn(org.typelevel:jawn-parser_2.10) \
 mvn(org.typelevel:jawn-parser_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library)"

@@ -10,6 +10,7 @@ RPM_HASH = "03fc090bf10c908985dbf8da1a4315f684d4c244069f2eeb983cdfd01fd1fa3ddb1c
 
 RPROVIDES:${PN} += "flatpak-builder \
 flatpak-builder(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bzip2 \
 /usr/bin/eu-strip \
 /usr/bin/git \

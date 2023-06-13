@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(docker) \
 python39-docker \
 python39-docker-py \
 python3dist(docker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-docker-pycreds \
 python39-paramiko \

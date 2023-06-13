@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tweepy) \
 python311-tweepy \
 python3dist(tweepy)"
+
 RDEPENDS:${PN} += "(python3.11dist(oauthlib) < 4 with python3.11dist(oauthlib) >= 3.2) \
 (python3.11dist(requests) < 3 with python3.11dist(requests) >= 2.27) \
 (python3.11dist(requests-oauthlib) < 2 with python3.11dist(requests-oauthlib) >= 1.2) \

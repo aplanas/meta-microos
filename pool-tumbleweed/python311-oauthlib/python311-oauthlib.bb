@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(oauthlib) \
 python311-oauthlib \
 python3dist(oauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyJWT \
 python311-blinker \

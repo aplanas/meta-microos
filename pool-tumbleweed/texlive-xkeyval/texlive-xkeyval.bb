@@ -24,6 +24,7 @@ tex(xkvtxhdr.tex) \
 tex(xkvutils.tex) \
 tex(xkvview.sty) \
 texlive-xkeyval"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

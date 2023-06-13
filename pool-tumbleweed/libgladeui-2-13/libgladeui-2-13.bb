@@ -11,6 +11,7 @@ RPM_HASH = "5c37c1f14c055a29bb1c8955502faf8235b13fa8b0593be064578fbd89fa2e9a6a8d
 RPROVIDES:${PN} += "libgladeui-2-13 \
 libgladeui-2-13(aarch-64) \
 libgladeui-2.so.13()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

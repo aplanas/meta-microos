@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(basicarith.sty) \
 texlive-basicarith"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

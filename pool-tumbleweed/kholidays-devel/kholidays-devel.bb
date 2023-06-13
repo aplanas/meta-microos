@@ -11,6 +11,7 @@ RPM_HASH = "d7f0eb823179c03e9d10acca558e03999545087606d7293c69cc932e44ed2f137404
 RPROVIDES:${PN} += "cmake(KF5Holidays) \
 kholidays-devel \
 kholidays-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 libKF5Holidays5"
 

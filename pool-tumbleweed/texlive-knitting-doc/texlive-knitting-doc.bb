@@ -9,6 +9,7 @@ RPM_HASH = "a7e30c83cde6b5f196c960b7c80465516c375fa1a3183f20d83f1b115b8d62b48e47
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knitting-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

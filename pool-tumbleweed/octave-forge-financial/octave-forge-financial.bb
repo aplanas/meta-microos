@@ -10,6 +10,7 @@ RPM_HASH = "39263dffa336b4e86d060a3dc72acc8e74a76542faac0104b67d5897a976b17133c3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-financial"
+
 RDEPENDS:${PN} += "/bin/sh \
 octave-cli \
 octave-forge-io"

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-zipstream \
 python3.10dist(zipstream) \
 python310-zipstream \
 python3dist(zipstream)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

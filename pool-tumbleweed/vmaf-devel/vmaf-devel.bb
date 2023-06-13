@@ -12,6 +12,7 @@ RPM_HASH = "246c1615ded843a1cec5d4d39a2d011a6bf957d3f490107bde3453819e8be5413509
 RPROVIDES:${PN} += "pkgconfig(libvmaf) \
 vmaf-devel \
 vmaf-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

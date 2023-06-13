@@ -10,6 +10,7 @@ RPM_HASH = "35052c5dc1e76dd414c8c78b0000386604e6edea9c1130151f5f7899cdc55aeda55f
 RPROVIDES:${PN} += "liblasso.so.3()(64bit) \
 liblasso3 \
 liblasso3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

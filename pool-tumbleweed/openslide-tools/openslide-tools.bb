@@ -9,6 +9,7 @@ RPM_HASH = "c3a3e84e5d4bf36ce3180608887d53ef17ec3755e37d3e7423766a38f8f3de6928cd
 
 RPROVIDES:${PN} += "openslide-tools \
 openslide-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

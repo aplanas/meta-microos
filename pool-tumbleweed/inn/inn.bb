@@ -15,6 +15,7 @@ nntp_daemon \
 perl(INN::Config) \
 perl(INN::Utils::Shlock) \
 perl(innreport_inn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 group(news) \

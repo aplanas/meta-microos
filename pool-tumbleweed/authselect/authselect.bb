@@ -15,6 +15,7 @@ RPM_HASH = "1c51ffd7ac8183f1407ffa34347395442c31b453f24fa6929d70705986464f7a76d1
 
 RPROVIDES:${PN} += "authselect \
 authselect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libauthselect.so.3()(64bit) \

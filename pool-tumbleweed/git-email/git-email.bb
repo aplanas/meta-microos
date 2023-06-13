@@ -9,6 +9,7 @@ RPM_HASH = "ceb08dfc249c8df94d8b955e423c0f0b408b316912379ac0aad2cf7018ed2d194815
 
 RPROVIDES:${PN} += "git-email \
 git-email(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 git-core \
 perl-Authen-SASL \

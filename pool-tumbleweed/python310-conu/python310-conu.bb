@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-conu \
 python3.10dist(conu) \
 python310-conu \
 python3dist(conu)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-docker \
 python310-flexmock \

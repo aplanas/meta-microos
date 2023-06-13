@@ -35,6 +35,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(phpPgAdmin) \
 phpPgAdmin"
+
 RDEPENDS:${PN} += "php \
 php-pgsql"
 

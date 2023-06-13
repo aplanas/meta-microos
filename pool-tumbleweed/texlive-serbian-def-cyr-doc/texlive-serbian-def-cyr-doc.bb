@@ -9,6 +9,7 @@ RPM_HASH = "98840dfc3e1243496100dc4e6b6495f8b5a4da41d781b9fffb8e6a7e0233f68da72e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-serbian-def-cyr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

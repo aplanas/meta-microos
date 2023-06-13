@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(subunit-shell) \
 subunit-shell"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

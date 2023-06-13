@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libredwg.so.0()(64bit) \
 libredwg.so.0(V_0.12.5)(64bit) \
 libredwg0 \
 libredwg0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

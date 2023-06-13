@@ -9,6 +9,7 @@ RPM_HASH = "6c1790d21f7cb11db0fccc6d3fe5621283443fe5068b12d3e792a0666d9b82de2748
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-nfs-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

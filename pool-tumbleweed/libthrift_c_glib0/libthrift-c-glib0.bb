@@ -10,6 +10,7 @@ RPM_HASH = "68c94bc193acd816eec88e577b676b1759906f49b435cabe936e6b151dd2aa9e4927
 RPROVIDES:${PN} += "libthrift_c_glib.so.0()(64bit) \
 libthrift_c_glib0 \
 libthrift_c_glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

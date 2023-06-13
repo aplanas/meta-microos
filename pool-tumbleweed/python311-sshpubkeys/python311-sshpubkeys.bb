@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sshpubkeys) \
 python311-sshpubkeys \
 python3dist(sshpubkeys)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-cryptography \
 python311-ecdsa"

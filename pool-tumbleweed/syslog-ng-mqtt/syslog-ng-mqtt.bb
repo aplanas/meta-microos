@@ -9,6 +9,7 @@ RPM_HASH = "70c471a0be91e008c7514e5d899b7944c0f6a8ccbbd8686ca5df449f9aa623b90aef
 
 RPROVIDES:${PN} += "syslog-ng-mqtt \
 syslog-ng-mqtt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

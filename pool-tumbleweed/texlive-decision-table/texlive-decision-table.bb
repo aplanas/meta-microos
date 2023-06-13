@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(decision-table.sty) \
 texlive-decision-table"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-distribute \
 python2-setuptools"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python2 \
 python2 \

@@ -9,6 +9,7 @@ RPM_HASH = "52c7b0aa0920d980668dfc858f720ced8df31a30cd0e47434a94c9ff70208a2f6ff0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-devel-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

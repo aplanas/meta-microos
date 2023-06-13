@@ -17,6 +17,7 @@ libmnl.so.0(LIBMNL_1.1)(64bit) \
 libmnl.so.0(LIBMNL_1.2)(64bit) \
 libmnl0 \
 libmnl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

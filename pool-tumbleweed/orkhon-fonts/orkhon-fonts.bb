@@ -9,6 +9,7 @@ RPM_HASH = "6e92c3c1710345b3f696872b1d9b96f1ec50e81bb8b8ece378caca58eae89710ef17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orkhon-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

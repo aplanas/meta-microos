@@ -14,6 +14,7 @@ libyui-ncurses16 \
 libyui-ncurses16(aarch-64) \
 yast2-ncurses \
 yui_backend"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glibc-locale-base \
 ld-linux-aarch64.so.1()(64bit) \

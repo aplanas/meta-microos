@@ -15,6 +15,7 @@ RPM_HASH = "30163e306079e113845e3ba01466ebdf5588600f700beee05312eaeff13e0fd9dff5
 RPROVIDES:${PN} += "liballegro_memfile.so.5.2()(64bit) \
 liballegro_memfile5_2 \
 liballegro_memfile5_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 liballegro.so.5.2()(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

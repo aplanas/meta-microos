@@ -86,6 +86,7 @@ tex(tngani_full.tfm) \
 tex(tngani_full.vf) \
 tex(unicodeparmaite.cfg) \
 texlive-tengwarscript"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-threevis \
 python3.10dist(threevis) \
 python310-threevis \
 python3dist(threevis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-openmesh \

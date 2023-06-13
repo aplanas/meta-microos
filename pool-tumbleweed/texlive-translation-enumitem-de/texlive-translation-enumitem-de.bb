@@ -9,6 +9,7 @@ RPM_HASH = "c1d52070a8a03f8c99349eaaa3bd1013c6cdc498537eb6bb36c13343b59c8e803335
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-enumitem-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

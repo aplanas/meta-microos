@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(hu-berlin-base.sty) \
 tex(hu-berlin-bundle-style.sty) \
 tex(hu-berlin-letter.cls) \
 texlive-hu-berlin-bundle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

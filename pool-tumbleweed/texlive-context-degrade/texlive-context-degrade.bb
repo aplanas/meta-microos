@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-degrade.tex) \
 texlive-context-degrade"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

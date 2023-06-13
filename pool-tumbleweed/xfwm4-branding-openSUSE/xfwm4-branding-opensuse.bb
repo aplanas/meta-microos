@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfwm4-branding-openSUSE) \
 xfwm4-branding \
 xfwm4-branding-openSUSE"
+
 RDEPENDS:${PN} += "noto-sans-fonts"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "01547568ef29f802bcc35951e799dee629d9cefd49b5b14863ed91adbbe9e7638409
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-bash-completion"
+
 RDEPENDS:${PN} += "lxc"
 
 inherit rpm

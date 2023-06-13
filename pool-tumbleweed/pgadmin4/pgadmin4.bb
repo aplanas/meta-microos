@@ -22,6 +22,7 @@ config(pgadmin4) \
 mimehandler(text/html) \
 pgadmin4 \
 pgadmin4(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \
 libQt5Gui.so.5()(64bit) \

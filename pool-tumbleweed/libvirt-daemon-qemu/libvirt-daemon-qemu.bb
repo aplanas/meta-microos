@@ -10,6 +10,7 @@ RPM_HASH = "cf477a0dcbd17c779c18a8d3d55d589ed3991d049854ba6f152c9cd6a324ff3e3a72
 
 RPROVIDES:${PN} += "libvirt-daemon-qemu \
 libvirt-daemon-qemu(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-daemon-driver-interface \
 libvirt-daemon-driver-network \
 libvirt-daemon-driver-nodedev \

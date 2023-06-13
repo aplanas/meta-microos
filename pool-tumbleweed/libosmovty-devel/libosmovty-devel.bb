@@ -14,6 +14,7 @@ RPM_HASH = "bfec05ed69ff28005126c6c25c36aff9b537a1a3de2d55e574e643b63aa634ba732c
 RPROVIDES:${PN} += "libosmovty-devel \
 libosmovty-devel(aarch-64) \
 pkgconfig(libosmovty)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
 libosmovty9 \

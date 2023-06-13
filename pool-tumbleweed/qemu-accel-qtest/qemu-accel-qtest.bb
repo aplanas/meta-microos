@@ -12,6 +12,7 @@ RPM_HASH = "60629b0016fc6c8d28808e19d889a838c48077397ad9ad2529e859befcca24bee131
 
 RPROVIDES:${PN} += "qemu-accel-qtest \
 qemu-accel-qtest(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

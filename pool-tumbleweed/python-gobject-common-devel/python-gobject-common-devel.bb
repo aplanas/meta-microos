@@ -14,6 +14,7 @@ python-gobject-common-devel(aarch-64) \
 python310-gobject-common-devel \
 python311-gobject-common-devel \
 python39-gobject-common-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
 gobject-introspection-devel \

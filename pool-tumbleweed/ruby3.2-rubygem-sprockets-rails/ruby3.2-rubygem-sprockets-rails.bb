@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:sprockets-rails:3) \
 rubygem(ruby:3.2.0:sprockets-rails:3.4) \
 rubygem(ruby:3.2.0:sprockets-rails:3.4.2) \
 rubygem(sprockets-rails)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:actionpack) \
 rubygem(ruby:3.2.0:activesupport) \

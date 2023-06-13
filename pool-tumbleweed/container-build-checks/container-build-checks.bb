@@ -10,6 +10,7 @@ RPM_HASH = "1e467cadf047f87a61f36d3f4c93044f68a780bbcc692f6f04e9a6a73b43080046ff
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-checks"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 container-build-checks-vendor"
 

@@ -9,6 +9,7 @@ RPM_HASH = "6148cb323a037857145a635bdfacb636a5bf95ed9ca7f6051eb20f87f7c0212d7997
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mybatis-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

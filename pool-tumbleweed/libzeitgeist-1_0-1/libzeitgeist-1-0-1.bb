@@ -11,6 +11,7 @@ RPM_HASH = "d750195ddd2ad1dfc2b31bd9b4e0c78bf365d440d072bf34af7f427010db12770c45
 RPROVIDES:${PN} += "libzeitgeist-1.0.so.1()(64bit) \
 libzeitgeist-1_0-1 \
 libzeitgeist-1_0-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

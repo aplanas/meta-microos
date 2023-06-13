@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(hyph-ro.ec.tex) \
 tex(hyph-ro.tex) \
 tex(loadhyph-ro.tex) \
 texlive-hyphen-romanian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

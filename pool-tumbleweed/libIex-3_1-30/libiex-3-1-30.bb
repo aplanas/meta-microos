@@ -13,6 +13,7 @@ RPM_HASH = "c2c87465579c0f936f4b12a86bafab17702ec176c3e1aa4ddfd8f125eaaf29510a56
 RPROVIDES:${PN} += "libIex-3_1-30 \
 libIex-3_1-30(aarch-64) \
 libIex-3_1.so.30()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

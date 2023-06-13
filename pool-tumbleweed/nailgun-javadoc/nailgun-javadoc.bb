@@ -9,6 +9,7 @@ RPM_HASH = "3e2d394c10ef3044f5eb410a03d4daa1b2dfea674f9b89d19e69febb2228e1985890
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nailgun-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

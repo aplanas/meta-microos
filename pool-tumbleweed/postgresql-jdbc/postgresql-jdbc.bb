@@ -15,6 +15,7 @@ mvn(org.postgresql:postgresql:pom:) \
 mvn(postgresql:postgresql) \
 mvn(postgresql:postgresql:pom:) \
 postgresql-jdbc"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.ongres.scram:client)"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pook) \
 python311-pook \
 python3dist(pook)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aiohttp \
 python311-furl \

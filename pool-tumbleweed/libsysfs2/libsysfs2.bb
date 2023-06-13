@@ -13,6 +13,7 @@ RPM_HASH = "763fb0c3f8e912b1c9397c7482edd266dfdda680f32cf55b1c780a9738d1f02a44ea
 RPROVIDES:${PN} += "libsysfs.so.2()(64bit) \
 libsysfs2 \
 libsysfs2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

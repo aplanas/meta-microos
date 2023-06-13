@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt63DQuickExtras) \
 pkgconfig(Qt63DQuickExtras) \
 qt6-3dquickextras-devel \
 qt6-3dquickextras-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt63DCore) \
 cmake(Qt63DExtras) \

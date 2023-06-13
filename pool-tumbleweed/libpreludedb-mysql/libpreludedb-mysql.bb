@@ -9,6 +9,7 @@ RPM_HASH = "7bbdbd4f6c97811e078ea240c6afb8f9156fc8c538fc5c742cae1a6a6832af85526f
 
 RPROVIDES:${PN} += "libpreludedb-mysql \
 libpreludedb-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "642af6cb64e85e8a2aeeddd9903a3c7b382770c77ac65b0a41392240dd5a2b34da37
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "SoQt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

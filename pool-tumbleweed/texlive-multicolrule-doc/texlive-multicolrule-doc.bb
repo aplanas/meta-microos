@@ -9,6 +9,7 @@ RPM_HASH = "df86aef1502269ed84d1e09c28b4f65988c2600f60b0e4d18109ff341cb8d5bad25d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multicolrule-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

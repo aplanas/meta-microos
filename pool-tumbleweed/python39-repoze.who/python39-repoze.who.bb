@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(repoze.who) \
 python39-repoze.who \
 python3dist(repoze.who)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WebOb \
 python39-zope.interface"

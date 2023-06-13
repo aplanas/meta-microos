@@ -10,6 +10,7 @@ RPM_HASH = "f9adb680c492dd1f157652ab2190f444f37707e7f40260b0c2f917dcfda406030791
 
 RPROVIDES:${PN} += "libmodi-tools \
 libmodi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

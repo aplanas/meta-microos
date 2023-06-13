@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-addict \
 python3.10dist(addict) \
 python310-addict \
 python3dist(addict)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

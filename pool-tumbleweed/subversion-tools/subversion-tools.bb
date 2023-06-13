@@ -10,6 +10,7 @@ RPM_HASH = "8f844e418f845677be0ef2109bac9078b8e08ac335426e2fbe6bef637ca34b2b0ae9
 
 RPROVIDES:${PN} += "subversion-tools \
 subversion-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

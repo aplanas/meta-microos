@@ -15,6 +15,7 @@ libsndfile.so.1()(64bit) \
 libsndfile.so.1(libsndfile.so.1.0)(64bit) \
 libsndfile1 \
 libsndfile1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

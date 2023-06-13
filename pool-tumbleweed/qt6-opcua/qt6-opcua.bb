@@ -19,6 +19,7 @@ libopen62541_backend.so(Qt_6.5)(64bit) \
 libopen62541_backend.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-opcua \
 qt6-opcua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

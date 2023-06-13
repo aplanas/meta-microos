@@ -15,6 +15,7 @@ RPM_HASH = "6ce3a29ad519b134a29e64b4bea8a8bda112542aef75301bc6438de2904a8e77bd65
 
 RPROVIDES:${PN} += "clap-lsp-plugins \
 clap-lsp-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(frontespizio.sty) \
 texlive-frontespizio"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

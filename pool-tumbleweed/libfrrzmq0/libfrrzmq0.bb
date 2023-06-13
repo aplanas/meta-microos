@@ -10,6 +10,7 @@ RPM_HASH = "afbdce18b40d55ac3bcd3d72cca0f51be7ac73ed4ee6d58f2659462ad6b6e0a193e8
 RPROVIDES:${PN} += "libfrrzmq.so.0()(64bit) \
 libfrrzmq0 \
 libfrrzmq0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libzmq.so.5()(64bit)"

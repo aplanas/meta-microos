@@ -10,6 +10,7 @@ RPM_HASH = "cea664f5137f4b9516eb724ee2c3aaf2ef00ccdbcd9c702faf4ed5ea68a1fcead555
 
 RPROVIDES:${PN} += "giflib-devel \
 giflib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgif7"
 
 inherit rpm

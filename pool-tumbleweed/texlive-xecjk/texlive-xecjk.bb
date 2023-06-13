@@ -22,6 +22,7 @@ tex(xeCJKfntef.sty) \
 tex(xunicode-addon.sty) \
 tex(xunicode-extra.def) \
 texlive-xecjk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

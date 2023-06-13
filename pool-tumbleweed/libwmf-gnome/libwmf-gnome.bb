@@ -11,6 +11,7 @@ RPM_HASH = "f4b4ef485c7f6cc55d8a71ce7be427ef4a8462532ae7b62bacfb6e6dd7eda5460dda
 
 RPROVIDES:${PN} += "libwmf-gnome \
 libwmf-gnome(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-lualatex-math-doc:en) \
 texlive-lualatex-math-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

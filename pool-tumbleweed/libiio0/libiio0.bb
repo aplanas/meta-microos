@@ -10,6 +10,7 @@ RPM_HASH = "50b2c10345dd371cb2f99e94125a9992b5c13db05fe7d8f8c391455b0d71edbdd35e
 RPROVIDES:${PN} += "libiio.so.0()(64bit) \
 libiio0 \
 libiio0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(texmate.sty) \
 texlive-texmate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

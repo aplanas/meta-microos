@@ -11,6 +11,7 @@ RPM_HASH = "a2cc46cb4d1a754e4b19686231d4772cc1a683231656867eed3cd0a8a0eea7268a10
 RPROVIDES:${PN} += "typelib(XdpGtk3) \
 typelib-1_0-XdpGtk3-1_0 \
 typelib-1_0-XdpGtk3-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libportal-gtk3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

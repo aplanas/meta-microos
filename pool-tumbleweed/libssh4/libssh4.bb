@@ -21,6 +21,7 @@ libssh.so.4(LIBSSH_4_8_1)(64bit) \
 libssh.so.4(LIBSSH_4_9_0)(64bit) \
 libssh4 \
 libssh4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

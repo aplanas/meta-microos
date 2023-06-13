@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pymysql) \
 python39-PyMySQL \
 python3dist(pymysql)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cryptography"
 

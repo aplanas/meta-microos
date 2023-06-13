@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tocloft.sty) \
 texlive-tocloft"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

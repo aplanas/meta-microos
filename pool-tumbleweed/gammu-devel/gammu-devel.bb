@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "gammu-devel \
 gammu-devel(aarch-64) \
 pkgconfig(gammu) \
 pkgconfig(gammu-smsd)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGammu8 \
 libgsmsd8 \

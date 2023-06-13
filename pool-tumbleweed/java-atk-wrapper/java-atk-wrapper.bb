@@ -17,6 +17,7 @@ RPM_HASH = "2c531a1b3603cd1545006daa2b30c308706adc2f1302ec2f49fa66e0d3f65376061f
 RPROVIDES:${PN} += "java-atk-wrapper \
 java-atk-wrapper(aarch-64) \
 libatk-wrapper.so()(64bit)"
+
 RDEPENDS:${PN} += "java \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

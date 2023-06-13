@@ -9,6 +9,7 @@ RPM_HASH = "2052bad73f50165bffb6a669abbc59df196c33d83b81ac1afc321d431afa45e75e30
 
 RPROVIDES:${PN} += "texlive-velthuis-bin \
 texlive-velthuis-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "164d084fd1dfb65a7276fe06b0d1506cb41376005dde7518f7f67d2076e1c893e15a
 
 RPROVIDES:${PN} += "helix-runtime \
 helix-runtime(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libstdc++.so.6()(64bit) \
 libstdc++.so.6(CXXABI_1.3.9)(64bit) \

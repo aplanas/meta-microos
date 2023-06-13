@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "LibVNCServer-devel \
 LibVNCServer-devel(aarch-64) \
 pkgconfig(libvncclient) \
 pkgconfig(libvncserver)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnutls-devel \
 libvncclient1 \

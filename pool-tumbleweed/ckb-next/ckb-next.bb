@@ -15,6 +15,7 @@ application(ckb-next.desktop) \
 ckb \
 ckb-next \
 ckb-next(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 bash \

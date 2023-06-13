@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(signchart.sty) \
 texlive-signchart"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

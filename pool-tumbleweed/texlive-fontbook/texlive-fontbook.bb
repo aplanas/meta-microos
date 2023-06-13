@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fontbook.sty) \
 texlive-fontbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

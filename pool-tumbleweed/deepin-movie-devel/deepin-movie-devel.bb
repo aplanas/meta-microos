@@ -11,6 +11,7 @@ RPM_HASH = "11de092cd28f88bf0ec3f58248623adcf9f8afff54be4b4c8931517c421e5885b759
 RPROVIDES:${PN} += "deepin-movie-devel \
 deepin-movie-devel(aarch-64) \
 pkgconfig(libdmr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdmr0_1 \
 pkgconfig(Qt5Concurrent) \

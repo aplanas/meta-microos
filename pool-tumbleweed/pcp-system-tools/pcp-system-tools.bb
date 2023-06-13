@@ -11,6 +11,7 @@ RPM_HASH = "1097f6fc37bf28c00c02e419e9a8d86e89377b17d445c9c3107afcb42128d4bc8e59
 RPROVIDES:${PN} += "config(pcp-system-tools) \
 pcp-system-tools \
 pcp-system-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jflex-maven-plugin \
 mvn(de.jflex:jflex-maven-plugin) \
 mvn(de.jflex:jflex-maven-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

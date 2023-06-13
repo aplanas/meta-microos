@@ -70,6 +70,7 @@ locale(bijiben:vi) \
 locale(bijiben:zh_CN) \
 locale(bijiben:zh_HK) \
 locale(bijiben:zh_TW)"
+
 RDEPENDS:${PN} += "bijiben"
 
 inherit rpm

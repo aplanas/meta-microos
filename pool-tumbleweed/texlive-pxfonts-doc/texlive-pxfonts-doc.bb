@@ -9,6 +9,7 @@ RPM_HASH = "0fd23892778b0f0a66e0e0249528d25c2b4a8286cfe75c34cada549035aeb71b222c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxfonts-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

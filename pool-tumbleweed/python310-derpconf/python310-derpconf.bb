@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-derpconf \
 python3.10dist(derpconf) \
 python310-derpconf \
 python3dist(derpconf)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

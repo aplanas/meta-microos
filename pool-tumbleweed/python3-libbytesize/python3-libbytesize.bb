@@ -10,6 +10,7 @@ RPM_HASH = "c4a6b1a572a81b5319a02ade5d6c2b6b3acffbb62bb1d6ad54d61be6bbbd0d3d8368
 
 RPROVIDES:${PN} += "python3-libbytesize \
 python3-libbytesize(aarch-64)"
+
 RDEPENDS:${PN} += "libbytesize1 \
 python(abi) \
 python3-six"

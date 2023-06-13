@@ -10,6 +10,7 @@ RPM_HASH = "2f60698ef521945116b1c3190012f96e9d51c7df36ae5d17a26e6bce0f417e637b65
 RPROVIDES:${PN} += "ior \
 ior(aarch-64) \
 mdtest"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

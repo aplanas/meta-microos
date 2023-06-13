@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "cmake(RocksDB) \
 pkgconfig(rocksdb) \
 rocksdb-devel \
 rocksdb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librocksdb8"
 

@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-textwrap3 \
 python3.10dist(textwrap3) \
 python310-textwrap3 \
 python3dist(textwrap3)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

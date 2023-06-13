@@ -81,6 +81,7 @@ locale(libKPim5CalendarSupport5:uk) \
 locale(libKPim5CalendarSupport5:wa) \
 locale(libKPim5CalendarSupport5:zh_CN) \
 locale(libKPim5CalendarSupport5:zh_TW)"
+
 RDEPENDS:${PN} += "libKPim5CalendarSupport5"
 
 inherit rpm

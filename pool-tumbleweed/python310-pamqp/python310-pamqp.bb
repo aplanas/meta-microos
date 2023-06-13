@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-pamqp \
 python3.10dist(pamqp) \
 python310-pamqp \
 python3dist(pamqp)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

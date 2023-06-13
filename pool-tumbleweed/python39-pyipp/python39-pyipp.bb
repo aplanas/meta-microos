@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyipp) \
 python39-pyipp \
 python3dist(pyipp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aiohttp \
 python39-deepmerge \

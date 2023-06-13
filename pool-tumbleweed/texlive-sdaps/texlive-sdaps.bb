@@ -26,6 +26,7 @@ tex(sdapscode128.tex) \
 tex(sdapslayout.sty) \
 tex(sdapspdf.sty) \
 texlive-sdaps"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

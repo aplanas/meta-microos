@@ -15,6 +15,7 @@ RPM_HASH = "3e8d9c11ad3ecd0d44c1ae4aba508702c4e8d432de1fd25b189c16f8626c338be500
 RPROVIDES:${PN} += "libGeneratedSaxParser.so.0.3()(64bit) \
 libGeneratedSaxParser0_3 \
 libGeneratedSaxParser0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "0cd9b3c911b06170ef9abb4c60127e37c746a75d1e3c385de7ab3b7014602874ff3c
 RPROVIDES:${PN} += "libicns.so.1()(64bit) \
 libicns1 \
 libicns1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

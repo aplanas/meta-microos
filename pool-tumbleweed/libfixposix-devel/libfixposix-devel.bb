@@ -13,6 +13,7 @@ RPM_HASH = "37bf5a4edbef3be45ecd2d4c2d677babea8e809e36e9ed39f2f0af103bb93fa3b6bc
 RPROVIDES:${PN} += "libfixposix-devel \
 libfixposix-devel(aarch-64) \
 pkgconfig(libfixposix)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfixposix4"
 

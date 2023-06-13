@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mkdocs-material-extensions) \
 python39-mkdocs-material-extensions \
 python3dist(mkdocs-material-extensions)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

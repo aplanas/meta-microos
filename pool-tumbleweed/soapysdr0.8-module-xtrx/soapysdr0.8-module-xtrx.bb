@@ -11,6 +11,7 @@ RPM_HASH = "db3b9d61487b2b93ee9139a02affd0dea951f646c0f70152d72273e023984c6814e6
 RPROVIDES:${PN} += "libXTRXSupport.so()(64bit) \
 soapysdr0.8-module-xtrx \
 soapysdr0.8-module-xtrx(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapySDR.so.0.8()(64bit) \

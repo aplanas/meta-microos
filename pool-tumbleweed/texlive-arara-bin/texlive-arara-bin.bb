@@ -9,6 +9,7 @@ RPM_HASH = "8d9f468975c793ed0f4d1764d5eaa30cfcc60421228170699131b00bbf0e66e1b9a5
 
 RPROVIDES:${PN} += "texlive-arara-bin \
 texlive-arara-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-arara"
 
 inherit rpm

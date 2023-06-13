@@ -12,6 +12,7 @@ RPM_HASH = "afa72ae88283041352c0f831a4e887885fa1c46625d6c4536395530f98755ad3082b
 
 RPROVIDES:${PN} += "sunpinyin-data \
 sunpinyin-data(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

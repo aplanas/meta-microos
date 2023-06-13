@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(GS1.sty) \
 tex(rule-D.sty) \
 texlive-gs1"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

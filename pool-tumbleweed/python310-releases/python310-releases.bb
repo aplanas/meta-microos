@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "python3-releases \
 python3.10dist(releases) \
 python310-releases \
 python3dist(releases)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-semantic_version"

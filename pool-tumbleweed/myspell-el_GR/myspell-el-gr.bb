@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:el_GR) \
 myspell-dictionary \
 myspell-el_GR \
 myspell-greek"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "7de734f7a36d68bc6c90cdc0d9c0aa13fc8b088f92690f27945d84dfa5f7e41a45d2
 RPROVIDES:${PN} += "geis-devel \
 geis-devel(aarch-64) \
 pkgconfig(libgeis)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgeis1"
 

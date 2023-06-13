@@ -10,6 +10,7 @@ RPM_HASH = "b3db61851abe0d742e46243f3d473330c6a57884fbbfe97f0e23cc8e9c782b93859c
 
 RPROVIDES:${PN} += "ladspa-swh-plugins \
 ladspa-swh-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

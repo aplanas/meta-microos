@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(conditionals.sty) \
 tex(songbook.sty) \
 texlive-songbook"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -24,6 +24,7 @@ tex(tikzlibrarytrackschematic.topology.code.tex) \
 tex(tikzlibrarytrackschematic.trafficcontrol.code.tex) \
 tex(tikzlibrarytrackschematic.vehicles.code.tex) \
 texlive-tikz-trackschematic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

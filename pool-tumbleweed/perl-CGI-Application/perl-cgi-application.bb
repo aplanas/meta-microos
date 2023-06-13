@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(CGI::Application) \
 perl(CGI::Application::Mailform) \
 perl-CGI-Application"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI) \
 perl(Class::ISA) \

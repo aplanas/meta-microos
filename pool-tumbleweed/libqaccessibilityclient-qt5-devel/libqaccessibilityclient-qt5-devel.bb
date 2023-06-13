@@ -15,6 +15,7 @@ RPM_HASH = "5f4f765ee794a5966bf9b09b2a748d41cb67f73dc281e8763461a1ed73fc5c72fcfd
 RPROVIDES:${PN} += "cmake(QAccessibilityClient) \
 libqaccessibilityclient-qt5-devel \
 libqaccessibilityclient-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "2ea237fd42e4393312d64ba4cfe88c9c73fde52e5c96e6fd0492572d72d291640984
 RPROVIDES:${PN} += "ghc-sandi \
 ghc-sandi(aarch-64) \
 libHSsandi-0.5-G6Jka3yQQG77V9ypm6cnaU-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

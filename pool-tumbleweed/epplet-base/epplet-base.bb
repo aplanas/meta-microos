@@ -13,6 +13,7 @@ RPM_HASH = "eca9229ae18277ad48559bb49614d574fe0f86af2f16ee25e689bc25c50e3c38fb24
 RPROVIDES:${PN} += "epplet-base \
 epplet-base(aarch-64) \
 libepplet.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

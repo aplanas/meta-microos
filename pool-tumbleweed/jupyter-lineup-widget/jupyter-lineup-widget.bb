@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(jupyter-lineup-widget) \
 jupyter-lineup-widget"
+
 RDEPENDS:${PN} += "jupyter-ipywidgets \
 jupyter-notebook \
 python3-lineup-widget"

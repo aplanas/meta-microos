@@ -10,6 +10,7 @@ RPM_HASH = "e1ee9c8dac89ca7782c97714b1a1831dae9dcb5a862ae533f1accce7516a0995cc3f
 RPROVIDES:${PN} += "lib4store.so.0()(64bit) \
 lib4store0 \
 lib4store0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

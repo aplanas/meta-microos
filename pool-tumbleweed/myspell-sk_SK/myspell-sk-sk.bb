@@ -14,6 +14,7 @@ locale(seamonkey-spellchecker:sk_SK) \
 myspell-dictionary \
 myspell-sk_SK \
 myspell-slovak"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

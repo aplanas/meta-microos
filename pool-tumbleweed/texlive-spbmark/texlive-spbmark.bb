@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(spbmark.sty) \
 texlive-spbmark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "b773a9fa8250dcc64c2406da0e4adab53349d74f699d69455c5e4dcfad575338395f
 RPROVIDES:${PN} += "libpmemobj-devel \
 libpmemobj-devel(aarch-64) \
 pkgconfig(libpmemobj)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

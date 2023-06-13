@@ -10,6 +10,7 @@ RPM_HASH = "606f88182329d6fe7e42132d6f0705cc7462623ce6bbfbb763f8d3290078e820ca8a
 
 RPROVIDES:${PN} += "arkade \
 arkade(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "ff45b610eb1374aa7d91a982b165b82b8e1620659594b9454f8659c32ced42013c24
 RPROVIDES:${PN} += "libgnuradio-iqbalance.so.3.9.0()(64bit) \
 libgnuradio-iqbalance3_9_0 \
 libgnuradio-iqbalance3_9_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

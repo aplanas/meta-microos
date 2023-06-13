@@ -18,6 +18,7 @@ libgpgme-devel \
 libgpgme-devel(aarch-64) \
 pkgconfig(gpgme) \
 pkgconfig(gpgme-glib)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

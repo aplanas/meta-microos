@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-shaptools \
 python3.10dist(shaptools) \
 python310-shaptools \
 python3dist(shaptools)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

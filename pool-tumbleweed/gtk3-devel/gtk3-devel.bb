@@ -29,6 +29,7 @@ pkgconfig(gtk+-x11-3.0) \
 rpm_macro(gtk3_immodule_post) \
 rpm_macro(gtk3_immodule_postun) \
 rpm_macro(gtk3_immodule_requires)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gettext-its-gtk3 \
 ld-linux-aarch64.so.1()(64bit) \

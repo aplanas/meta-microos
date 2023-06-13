@@ -12,6 +12,7 @@ RPM_HASH = "787ba1a12db7d6a6b1f77caf593065119ba567c34462358ac3910f0beeb17d20552c
 
 RPROVIDES:${PN} += "libredwg-tools \
 libredwg-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

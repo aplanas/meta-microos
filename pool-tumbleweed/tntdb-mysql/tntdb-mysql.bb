@@ -9,6 +9,7 @@ RPM_HASH = "849873e199dcd02481c8e1b9a690a8ae68f2e09b1cb67d2cb7ee2721b5a0bb6343f4
 
 RPROVIDES:${PN} += "tntdb-mysql \
 tntdb-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

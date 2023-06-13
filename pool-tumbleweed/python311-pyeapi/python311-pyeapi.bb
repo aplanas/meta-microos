@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyeapi) \
 python311-pyeapi \
 python3dist(pyeapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-netaddr"
 

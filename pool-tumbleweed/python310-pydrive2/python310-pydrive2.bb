@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pydrive2 \
 python3.10dist(pydrive2) \
 python310-pydrive2 \
 python3dist(pydrive2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-filelock \

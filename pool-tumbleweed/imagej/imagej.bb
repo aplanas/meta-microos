@@ -29,6 +29,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(imagej.desktop) \
 imagej"
+
 RDEPENDS:${PN} += "/bin/sh \
 java"
 

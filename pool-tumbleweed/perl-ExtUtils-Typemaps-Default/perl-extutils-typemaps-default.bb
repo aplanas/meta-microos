@@ -29,6 +29,7 @@ perl(ExtUtils::Typemaps::STL::List) \
 perl(ExtUtils::Typemaps::STL::String) \
 perl(ExtUtils::Typemaps::STL::Vector) \
 perl-ExtUtils-Typemaps-Default"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(ExtUtils::Typemaps)"
 

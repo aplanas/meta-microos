@@ -11,6 +11,7 @@ RPM_HASH = "d6b2363ad2e93dbfef7712e8f6b856a80a230f871fce1b2ba252234b25184b45233d
 RPROVIDES:${PN} += "blosc2-devel \
 blosc2-devel(aarch-64) \
 pkgconfig(blosc2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libblosc2-2"
 

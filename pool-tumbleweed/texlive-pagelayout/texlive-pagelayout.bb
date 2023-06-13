@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pagelayout.cls) \
 texlive-pagelayout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

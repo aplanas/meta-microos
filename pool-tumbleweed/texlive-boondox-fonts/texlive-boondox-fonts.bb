@@ -35,6 +35,7 @@ font(boondoxdoublestruck) \
 font(boondoxfraktur) \
 font(boondoxuprscr) \
 texlive-boondox-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

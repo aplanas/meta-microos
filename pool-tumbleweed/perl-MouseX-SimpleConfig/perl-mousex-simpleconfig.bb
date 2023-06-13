@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(MouseX::SimpleConfig) \
 perl-MouseX-SimpleConfig"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::Any) \
 perl(Mouse) \

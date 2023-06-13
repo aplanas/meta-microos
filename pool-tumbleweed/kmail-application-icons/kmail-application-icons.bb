@@ -9,6 +9,7 @@ RPM_HASH = "32c4d560a4ce294d17475de56ca0f2c4106132a17a40faa083ae603476dce6b3647e
 
 RPROVIDES:${PN} += "kmail-application-icons \
 kmail-application-icons(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "05bee6af8c99893acbaec447ddd93135fde060ff918aa19186b618d0a3f0be25f8dc
 RPROVIDES:${PN} += "ghc-data-fix-devel \
 ghc-data-fix-devel(aarch-64) \
 ghc-devel(data-fix-0.3.2-LdyR2jsAdh33KJZuVTGWPw)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-data-fix \

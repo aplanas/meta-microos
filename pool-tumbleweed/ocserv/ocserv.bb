@@ -27,6 +27,7 @@ RPM_HASH = "ae17cd0b46498d3c980655d8b4392cb6159e0e8fc403469085b110ac28d024d0f0a1
 RPROVIDES:${PN} += "config(ocserv) \
 ocserv \
 ocserv(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 gnutls \

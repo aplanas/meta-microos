@@ -14,6 +14,7 @@ RPM_HASH = "f1b8c39b9cdcafe132fbfc55f8ed2e4374bece40981d0a694357a432ee3ad489ed02
 
 RPROVIDES:${PN} += "libgtop-doc \
 libgtop-doc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/install-info \
 libgtop-2_0-11"

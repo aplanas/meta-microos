@@ -11,6 +11,7 @@ RPM_HASH = "f6751cf6b8fead751ee3519dea54ede99f278fa78931155eecc6cddaa9a4672e1e26
 RPROVIDES:${PN} += "pkgconfig(tomoe-gtk) \
 tomoe-gtk-devel \
 tomoe-gtk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gucharmap-devel \
 pkgconfig(gtk+-2.0) \

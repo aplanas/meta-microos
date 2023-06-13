@@ -9,6 +9,7 @@ RPM_HASH = "a2366e6e7d55303113cb35d17f6d31a455d361997152d7fc5872401beec6c109bcc2
 
 RPROVIDES:${PN} += "spice-gtk \
 spice-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

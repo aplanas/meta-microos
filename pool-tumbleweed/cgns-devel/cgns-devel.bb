@@ -10,6 +10,7 @@ RPM_HASH = "ae8326483a97ee663d432233b6d8108f994f5874f164728a49e56424f8b873e1126a
 RPROVIDES:${PN} += "cgns-devel \
 cgns-devel(aarch-64) \
 libcgns-devel"
+
 RDEPENDS:${PN} += "libcgns4_3"
 
 inherit rpm

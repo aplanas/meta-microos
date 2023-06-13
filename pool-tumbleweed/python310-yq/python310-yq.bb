@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-yq \
 python3.10dist(yq) \
 python310-yq \
 python3dist(yq)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 jq \

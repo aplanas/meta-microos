@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-hk2-class-model \
 mvn(org.glassfish.hk2:class-model) \
 mvn(org.glassfish.hk2:class-model:pom:) \
 osgi(org.glassfish.hk2.class-model)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.ow2.asm:asm-all)"

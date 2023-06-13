@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(JSON::MaybeXS) \
 perl-JSON-MaybeXS"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cpanel::JSON::XS) \
 perl(JSON::PP)"

@@ -21,6 +21,7 @@ qt6-webview-imports(aarch-64) \
 qt6qmlimport(QtWebView.1) \
 qt6qmlimport(QtWebView.2) \
 qt6qmlimport(QtWebView.6)"
+
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
 libQt6Core.so.6(Qt_6.5)(64bit) \

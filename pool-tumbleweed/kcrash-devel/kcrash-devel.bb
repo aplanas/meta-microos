@@ -11,6 +11,7 @@ RPM_HASH = "ad51def68fe58b4226fffe86a722baf269ae198fc44b11d49a391d302416505a572e
 RPROVIDES:${PN} += "cmake(KF5Crash) \
 kcrash-devel \
 kcrash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 extra-cmake-modules \
 libKF5Crash5"

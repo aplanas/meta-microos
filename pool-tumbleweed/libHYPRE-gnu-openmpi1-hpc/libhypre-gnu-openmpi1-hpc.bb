@@ -11,6 +11,7 @@ RPM_HASH = "08d35a364e108ca76b0147ddce2165123421d149fbded00e8a8e305298bd3ff8e6fa
 
 RPROVIDES:${PN} += "libHYPRE-gnu-openmpi1-hpc \
 libHYPRE-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libHYPRE_2_20_0-gnu-openmpi1-hpc"
 

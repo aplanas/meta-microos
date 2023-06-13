@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jaraco.context) \
 python39-jaraco.context \
 python3dist(jaraco.context)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

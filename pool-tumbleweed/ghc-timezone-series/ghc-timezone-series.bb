@@ -14,6 +14,7 @@ RPM_HASH = "692209ecebef4aaa0e4b026ea0e98a230516772c714ec5f4ca96973822f846d582d7
 RPROVIDES:${PN} += "ghc-timezone-series \
 ghc-timezone-series(aarch-64) \
 libHStimezone-series-0.1.13-52HOboQTQ6c9WNazbzYdiK-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

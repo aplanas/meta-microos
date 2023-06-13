@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ypy-websocket) \
 python39-ypy-websocket \
 python3dist(ypy-websocket)"
+
 RDEPENDS:${PN} += "(python39-aiosqlite >= 0.17.0 with python39-aiosqlite < 1) \
 (python39-y-py >= 0.5.3 with python39-y-py < 0.6.0) \
 python(abi) \

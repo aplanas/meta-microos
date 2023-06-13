@@ -13,6 +13,7 @@ RPM_HASH = "d1a8bf0726d3bef112e4af7e9f984602f6ee27cb79e97a914b224fde43c7e341c175
 RPROVIDES:${PN} += "coin-or-CoinUtils-devel \
 coin-or-CoinUtils-devel(aarch-64) \
 pkgconfig(coinutils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libCoinUtils3"
 

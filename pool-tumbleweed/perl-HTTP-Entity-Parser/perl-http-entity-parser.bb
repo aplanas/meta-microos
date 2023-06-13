@@ -18,6 +18,7 @@ perl(HTTP::Entity::Parser::MultiPart) \
 perl(HTTP::Entity::Parser::OctetStream) \
 perl(HTTP::Entity::Parser::UrlEncoded) \
 perl-HTTP-Entity-Parser"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::MultiPartParser) \
 perl(Hash::MultiValue) \

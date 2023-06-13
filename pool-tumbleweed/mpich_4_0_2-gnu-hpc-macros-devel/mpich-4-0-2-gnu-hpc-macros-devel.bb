@@ -15,6 +15,7 @@ rpm_macro(hpc_mpich_init) \
 rpm_macro(hpc_mpich_requires) \
 rpm_macro(hpc_mpich_requires_devel) \
 rpm_macro(hpc_setup_mpich)"
+
 RDEPENDS:${PN} += "mpich_4_0_2-gnu-hpc-devel"
 
 inherit rpm

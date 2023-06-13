@@ -14,6 +14,7 @@ RPM_HASH = "97d8c423824746f62c0c603dafdfbe7e7ec6907d38b4ca0afbe673e8e6e7a4e26010
 RPROVIDES:${PN} += "coredns \
 coredns(aarch-64) \
 dns_daemon"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

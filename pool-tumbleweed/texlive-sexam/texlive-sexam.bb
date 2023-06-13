@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(bacex.sty) \
 tex(sexam.sty) \
 tex(wexam.sty) \
 texlive-sexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

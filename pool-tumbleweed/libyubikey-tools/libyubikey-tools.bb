@@ -10,6 +10,7 @@ RPM_HASH = "5295601038c5d669376f8248571eb0eb3783244faf14a48cf9111eee1a33834f77a6
 
 RPROVIDES:${PN} += "libyubikey-tools \
 libyubikey-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

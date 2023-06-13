@@ -38,6 +38,7 @@ osgi(org.eclipse.xsd.edit) \
 osgi(org.eclipse.xsd.editor) \
 osgi(org.eclipse.xsd.mapping) \
 osgi(org.eclipse.xsd.mapping.editor)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.emf.ant) \

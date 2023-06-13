@@ -33,6 +33,7 @@ perl(Config::MVP::Reader::Hash) \
 perl(Config::MVP::Section) \
 perl(Config::MVP::Sequence) \
 perl-Config-MVP"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(Module::Pluggable::Object) \

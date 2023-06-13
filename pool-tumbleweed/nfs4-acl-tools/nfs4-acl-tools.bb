@@ -11,6 +11,7 @@ RPM_HASH = "dc2d5d8db576c3ba4c751f553717a64c49d61882fdf867736ffe8dfacada0aa5e5c2
 
 RPROVIDES:${PN} += "nfs4-acl-tools \
 nfs4-acl-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

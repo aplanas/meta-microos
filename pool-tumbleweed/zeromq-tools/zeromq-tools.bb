@@ -14,6 +14,7 @@ RPM_HASH = "b1c1a844016236996f53dd124c9576dd26176a42085985fe0bf42edf10643ed0b5d2
 
 RPROVIDES:${PN} += "zeromq-tools \
 zeromq-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

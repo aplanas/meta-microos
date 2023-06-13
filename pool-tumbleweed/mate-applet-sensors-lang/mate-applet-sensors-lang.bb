@@ -111,6 +111,7 @@ locale(mate-applet-sensors:zh_HK) \
 locale(mate-applet-sensors:zh_TW) \
 mate-applet-sensors-lang \
 mate-applet-sensors-lang-all"
+
 RDEPENDS:${PN} += "mate-applet-sensors"
 
 inherit rpm

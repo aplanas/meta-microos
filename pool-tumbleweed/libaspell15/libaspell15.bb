@@ -13,6 +13,7 @@ RPM_HASH = "14f3c9f13ad77693587d8a2f55c2e444896154d71303098f788b6e6670594365dde0
 RPROVIDES:${PN} += "libaspell.so.15()(64bit) \
 libaspell15 \
 libaspell15(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

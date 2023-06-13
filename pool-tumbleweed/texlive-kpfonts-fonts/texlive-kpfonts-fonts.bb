@@ -123,6 +123,7 @@ font(tt-kp) \
 font(tt-kp-comp) \
 font(tt-kp-exp) \
 texlive-kpfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

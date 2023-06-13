@@ -15,6 +15,7 @@ ocfs2-tools-devel(aarch-64) \
 pkgconfig(o2cb) \
 pkgconfig(o2dlm) \
 pkgconfig(ocfs2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcom_err \
 libcom_err-devel \

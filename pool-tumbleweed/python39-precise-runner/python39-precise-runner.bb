@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(precise-runner) \
 python39-precise-runner \
 python3dist(precise-runner)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyAudio"
 

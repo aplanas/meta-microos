@@ -12,6 +12,7 @@ RPM_HASH = "7acdcf1b21b96dadd0e056f4586bf3f1365fb9027ac6ba17c1e7611fad61bb8c1c5c
 
 RPROVIDES:${PN} += "disorderfs \
 disorderfs(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfuse.so.2()(64bit) \

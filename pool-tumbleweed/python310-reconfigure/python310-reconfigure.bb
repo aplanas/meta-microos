@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-reconfigure \
 python3.10dist(reconfigure) \
 python310-reconfigure \
 python3dist(reconfigure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-chardet"
 

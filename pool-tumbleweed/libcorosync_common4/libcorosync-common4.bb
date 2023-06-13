@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libcorosync4 \
 libcorosync_common.so.4()(64bit) \
 libcorosync_common4 \
 libcorosync_common4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

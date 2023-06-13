@@ -186,6 +186,7 @@ font(:lang=zu) \
 font(bdxsfm) \
 font(libertinust1math) \
 texlive-libertinust1math-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

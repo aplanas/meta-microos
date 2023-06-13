@@ -13,6 +13,7 @@ RPM_HASH = "49be12aa2a65391827ead6d68bd8e61f827928f1cf9d84d76b40b3c5d8aa1e13ce18
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javahelp2-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

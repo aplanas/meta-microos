@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(snotez.sty) \
 texlive-snotez"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

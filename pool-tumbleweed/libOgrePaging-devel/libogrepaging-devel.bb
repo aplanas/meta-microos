@@ -18,6 +18,7 @@ RPM_HASH = "10531bb52974bad7ffd43b6a367963b8be145bd938abeed93849b65543dba0137786
 RPROVIDES:${PN} += "libOgrePaging-devel \
 libOgrePaging-devel(aarch-64) \
 pkgconfig(OGRE-Paging)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libOgrePaging13_5 \
 pkgconfig(OGRE)"

@@ -12,6 +12,7 @@ libref_array.so.1(REF_ARRAY_0.1.1)(64bit) \
 libref_array.so.1(REF_ARRAY_0.1.4)(64bit) \
 libref_array1 \
 libref_array1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

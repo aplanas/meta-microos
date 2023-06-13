@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(texlive-xdvi) \
 texlive-xdvi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

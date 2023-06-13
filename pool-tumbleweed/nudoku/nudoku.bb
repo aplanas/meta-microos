@@ -9,6 +9,7 @@ RPM_HASH = "92db352b429bc7d0335bdf74c8e7286993dc7939b81f44ff9d8e9667197b78b2ca01
 
 RPROVIDES:${PN} += "nudoku \
 nudoku(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

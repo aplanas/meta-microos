@@ -33,6 +33,7 @@ RPM_HASH = "7c3feef04ebf07b36d0c7b9e5dec327c4df0fa05bf6d520486e98e4cdf0503ea154a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-commons-launcher"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

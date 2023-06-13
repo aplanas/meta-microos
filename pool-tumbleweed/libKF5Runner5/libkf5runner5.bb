@@ -12,6 +12,7 @@ libKF5Runner5 \
 libKF5Runner5(aarch-64) \
 librunnermodelplugin.so()(64bit) \
 qt5qmlimport(org.kde.runnermodel.2)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

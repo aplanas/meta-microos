@@ -10,6 +10,7 @@ RPM_HASH = "97dfa5160064b6edaf6e99f02b1fa0eb4b4056735a01eaa1a5c1e499c0d70079573d
 RPROVIDES:${PN} += "libvulkan_freedreno \
 libvulkan_freedreno(aarch-64) \
 libvulkan_freedreno.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11-xcb.so.1()(64bit) \

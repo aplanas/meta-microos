@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-eventlet \
 python3.10dist(eventlet) \
 python310-eventlet \
 python3dist(eventlet)"
+
 RDEPENDS:${PN} += "libnss_usrfiles2 \
 netcfg \
 python(abi) \

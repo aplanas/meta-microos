@@ -13,6 +13,7 @@ RPM_HASH = "ceaddb2e525447fad71780efeb8cfcf7d87dad499c67632a78712348c8afd142167a
 
 RPROVIDES:${PN} += "libyuv-tools \
 libyuv-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "b268574160201b78dd534ed89488acbca88641d84126e501f766b832fc362486328e
 RPROVIDES:${PN} += "libboost_regex-devel-impl \
 libboost_regex1_82_0-devel \
 libboost_regex1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel \
 libboost_regex1_82_0 \
 libicu-devel"

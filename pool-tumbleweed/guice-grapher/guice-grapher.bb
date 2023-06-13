@@ -15,6 +15,7 @@ mvn(com.google.inject.extensions:guice-grapher:pom:) \
 mvn(org.sonatype.sisu.inject:guice-grapher) \
 mvn(org.sonatype.sisu.inject:guice-grapher:pom:) \
 osgi(com.google.inject.grapher)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.inject.extensions:guice-assistedinject)"

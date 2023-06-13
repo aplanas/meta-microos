@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(occitan.ldf) \
 texlive-babel-occitan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

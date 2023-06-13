@@ -75,6 +75,7 @@ locale(system-config-printer-common:zh_CN) \
 locale(system-config-printer-common:zh_TW) \
 system-config-printer-common-lang \
 system-config-printer-common-lang-all"
+
 RDEPENDS:${PN} += "system-config-printer-common"
 
 inherit rpm

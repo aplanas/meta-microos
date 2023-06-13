@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \
 tuxpaint-stamps-clothes"
+
 RDEPENDS:${PN} += "tuxpaint-stamps"
 
 inherit rpm

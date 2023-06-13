@@ -118,6 +118,7 @@ font(ssmsbm7) \
 font(ssmsbm8) \
 font(ssmsbm9) \
 texlive-sansmathfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

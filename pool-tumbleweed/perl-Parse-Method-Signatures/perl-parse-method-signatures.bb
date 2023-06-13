@@ -23,6 +23,7 @@ perl(Parse::Method::Signatures::Sig) \
 perl(Parse::Method::Signatures::TypeConstraint) \
 perl(Parse::Method::Signatures::Types) \
 perl-Parse-Method-Signatures"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Load) \
 perl(List::MoreUtils) \

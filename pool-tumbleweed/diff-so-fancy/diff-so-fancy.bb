@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diff-so-fancy \
 perl(DiffHighlight)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"
 

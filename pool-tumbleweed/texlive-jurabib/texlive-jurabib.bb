@@ -35,6 +35,7 @@ tex(nojbbib.ldf) \
 tex(ptjbbib.ldf) \
 tex(spjbbib.ldf) \
 texlive-jurabib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

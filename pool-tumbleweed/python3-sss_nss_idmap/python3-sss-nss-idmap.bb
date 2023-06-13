@@ -10,6 +10,7 @@ RPM_HASH = "0777cb56861a57492f642e2d6b8dfc53d69de7a5daf5d120089db5090814e5f2bfaf
 
 RPROVIDES:${PN} += "python3-sss_nss_idmap \
 python3-sss_nss_idmap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

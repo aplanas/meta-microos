@@ -22,6 +22,7 @@ RPM_HASH = "5af0bf10ac1654a03a8d6dff0641e3a66a316d4f8b6f064af91b81037e39771b6397
 RPROVIDES:${PN} += "ncurses-utils \
 ncurses-utils(aarch-64) \
 ncurses:/usr/bin/tput"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

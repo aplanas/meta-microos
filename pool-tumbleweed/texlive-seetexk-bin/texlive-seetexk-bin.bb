@@ -9,6 +9,7 @@ RPM_HASH = "1b54f37ffa5c4cac3fe495ca591401bfd299b16c68ac5218fba146e2a9e9789bf2d9
 
 RPROVIDES:${PN} += "texlive-seetexk-bin \
 texlive-seetexk-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/csh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

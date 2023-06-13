@@ -10,6 +10,7 @@ RPM_HASH = "0af1539f822107685c1a7e26310b9a4aa548a912be313e20339fab5dee900f9b793e
 RPROVIDES:${PN} += "ktp-filetransfer-handler \
 ktp-filetransfer-handler(aarch-64) \
 ktp-filetransfer-handler5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5ConfigCore.so.5()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(emojicite.sty) \
 texlive-emojicite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

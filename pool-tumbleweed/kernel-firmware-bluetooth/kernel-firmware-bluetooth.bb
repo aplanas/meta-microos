@@ -175,6 +175,7 @@ firmware(rtl_bt/rtl8852bu_fw.bin) \
 firmware(rtl_bt/rtl8852cu_config.bin) \
 firmware(rtl_bt/rtl8852cu_fw.bin) \
 kernel-firmware-bluetooth"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

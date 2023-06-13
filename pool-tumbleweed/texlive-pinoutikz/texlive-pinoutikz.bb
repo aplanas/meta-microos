@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pinoutikz.sty) \
 texlive-pinoutikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

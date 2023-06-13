@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(hyph-nl.ec.tex) \
 tex(hyph-nl.tex) \
 tex(loadhyph-nl.tex) \
 texlive-hyphen-dutch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

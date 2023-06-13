@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(simplebayes) \
 python39-simplebayes \
 python3dist(simplebayes)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

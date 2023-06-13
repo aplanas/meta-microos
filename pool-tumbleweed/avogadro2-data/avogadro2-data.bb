@@ -11,6 +11,7 @@ RPM_HASH = "fc15755267c5c3d69a2ace6c3ca0014dc3d645d2e490141f67051591dc5a26792749
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avogadro2-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

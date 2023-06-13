@@ -9,6 +9,7 @@ RPM_HASH = "21bddba1f1acfbcb6e572276833eaf20b26aab9926d5fac4ce88b771999186de8c3a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sageep-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

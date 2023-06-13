@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eukdate.sty) \
 texlive-eukdate"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

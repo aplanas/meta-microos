@@ -13,6 +13,7 @@ RPM_HASH = "98a2fa8482defd12f5fec327134cd88a078dd5d326d975bc52fd14a984169cdbeef8
 RPROVIDES:${PN} += "lzo-devel-static \
 lzo-devel-static(aarch-64) \
 lzo-devel:/usr/lib64/liblzo.a"
+
 RDEPENDS:${PN} += "lzo-devel"
 
 inherit rpm

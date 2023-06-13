@@ -9,6 +9,7 @@ RPM_HASH = "d35c226bf79bf02ef4da4700eba4860583bf93d95ebf7a60dbeeef452e5504301cfe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qsymbols-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

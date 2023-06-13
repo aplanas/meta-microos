@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hvindex.sty) \
 texlive-hvindex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

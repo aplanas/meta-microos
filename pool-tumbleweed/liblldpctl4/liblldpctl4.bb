@@ -20,6 +20,7 @@ liblldpctl.so.4(LIBLLDPCTL_4.8)(64bit) \
 liblldpctl.so.4(LIBLLDPCTL_4.9)(64bit) \
 liblldpctl4 \
 liblldpctl4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

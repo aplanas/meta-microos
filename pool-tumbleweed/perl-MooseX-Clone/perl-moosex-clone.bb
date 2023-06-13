@@ -23,6 +23,7 @@ perl(MooseX::Clone::Meta::Attribute::Trait::Copy) \
 perl(MooseX::Clone::Meta::Attribute::Trait::NoClone) \
 perl(MooseX::Clone::Meta::Attribute::Trait::StorableClone) \
 perl-MooseX-Clone"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Visitor) \
 perl(Data::Visitor::Callback) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Mime) \
 cmake(KPim5Mime) \
 kmime-devel \
 kmime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Codecs) \
 libKPim5Mime5"
 

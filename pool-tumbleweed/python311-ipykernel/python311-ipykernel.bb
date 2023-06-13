@@ -21,6 +21,7 @@ python39-ipykernel-doc \
 python39-jupyter-ipykernel-doc \
 python39-jupyter_ipykernel-doc \
 python3dist(ipykernel)"
+
 RDEPENDS:${PN} += "(python311-jupyter-core >= 5.1 or (python311-jupyter-core >= 4.12 with python311-jupyter-core < 5.0)) \
 jupyter-jupyter-client \
 python(abi) \

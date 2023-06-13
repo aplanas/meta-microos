@@ -10,6 +10,7 @@ RPM_HASH = "818c28056654fec4f5d525bb0b61f378829a1163a78e7846817bc8c06b082ddcd28e
 RPROVIDES:${PN} += "libboost_date_time.so.1.82.0()(64bit) \
 libboost_date_time1_82_0 \
 libboost_date_time1_82_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0"
 

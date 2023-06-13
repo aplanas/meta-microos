@@ -15,6 +15,7 @@ libpinyin-devel(aarch-64) \
 libzhuyin-devel \
 pkgconfig(libpinyin) \
 pkgconfig(libzhuyin)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpinyin-tools \
 libpinyin15 \

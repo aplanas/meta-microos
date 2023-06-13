@@ -10,6 +10,7 @@ RPM_HASH = "d954d8dc33c1269c2a5979b7bf6cd67633c3703c7c6fd65f14f9a478da2c1ede52d9
 RPROVIDES:${PN} += "libKPim5AkonadiCalendar.so.5()(64bit) \
 libKPim5AkonadiCalendar5 \
 libKPim5AkonadiCalendar5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

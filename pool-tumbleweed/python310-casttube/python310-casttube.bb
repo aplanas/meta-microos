@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-casttube \
 python3.10dist(casttube) \
 python310-casttube \
 python3dist(casttube)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

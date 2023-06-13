@@ -20,6 +20,7 @@ RPM_HASH = "71646df802e6d6b3a675dd02abe33444c609d6a8f57a0679fef7d7a14c8c81976303
 RPROVIDES:${PN} += "OpenEXR \
 openexr \
 openexr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIex-3_1.so.30()(64bit) \

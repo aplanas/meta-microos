@@ -10,6 +10,7 @@ RPM_HASH = "71ea99edcd4e33efef386f630e025d7bd8ae09f61200f241ef022b531445719e61ae
 RPROVIDES:${PN} += "ghc-devel(hledger-1.28-CMg9iFZMqqfKMlM8sLwqzB) \
 ghc-hledger-devel \
 ghc-hledger-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX) \

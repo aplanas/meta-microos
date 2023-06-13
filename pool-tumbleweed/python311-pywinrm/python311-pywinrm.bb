@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pywinrm) \
 python311-pywinrm \
 python3dist(pywinrm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-requests_ntlm \

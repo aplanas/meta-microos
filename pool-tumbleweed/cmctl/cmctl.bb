@@ -10,6 +10,7 @@ RPM_HASH = "aa8a76f697a2e7dbd7672b6ea0f4a30e380e0f8426f30599806169fddd5e195468bb
 
 RPROVIDES:${PN} += "cmctl \
 cmctl(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

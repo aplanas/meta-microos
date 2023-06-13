@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-delegator \
 python3.10dist(delegator) \
 python310-delegator \
 python3dist(delegator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -20,6 +20,7 @@ boomaga \
 boomaga(aarch-64) \
 mimehandler(application/x-boomaga-boo) \
 postscriptdriver(generic;boomaga_printer;)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/sbin/lpadmin \
 ghostscript \

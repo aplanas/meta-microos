@@ -19,6 +19,7 @@ python310-wxPython \
 python310-wxPython(aarch-64) \
 python310-wxWidgets \
 python3dist(wxpython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

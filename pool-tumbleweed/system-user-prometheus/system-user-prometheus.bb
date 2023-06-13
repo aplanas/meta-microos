@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(prometheus) \
 system-user-prometheus \
 user(prometheus)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

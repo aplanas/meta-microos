@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "git-deps \
 python3.10dist(git-deps) \
 python3dist(git-deps)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 npm \

@@ -20,6 +20,7 @@ RPM_HASH = "901af4fbd00887b277ce638ce2ef1d05ac577c500855981f7ce900fa25b5a21cc722
 
 RPROVIDES:${PN} += "scamper \
 scamper(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.36)(64bit) \

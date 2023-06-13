@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(thinsp.sty) \
 texlive-thinsp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

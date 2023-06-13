@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(lightdm-gtk-greeter-branding-openSUSE) \
 lightdm-gtk-greeter-branding \
 lightdm-gtk-greeter-branding-openSUSE"
+
 RDEPENDS:${PN} += "gtk3-metatheme-greybird-geeko \
 lightdm-gtk-greeter \
 wallpaper-branding"

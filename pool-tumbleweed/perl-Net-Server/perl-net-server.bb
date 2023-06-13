@@ -59,6 +59,7 @@ perl(Net::Server::Single) \
 perl(Net::Server::Thread) \
 perl(Net::Server::TiedHandle) \
 perl-Net-Server"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

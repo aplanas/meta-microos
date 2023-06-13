@@ -16,6 +16,7 @@ RPM_HASH = "65f358d04107a93ad9a0f525c393aa4a3c851c4cf5f8c8cceb738ca7cf907acea809
 RPROVIDES:${PN} += "libxcb-ewmh.so.2()(64bit) \
 libxcb-ewmh2 \
 libxcb-ewmh2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

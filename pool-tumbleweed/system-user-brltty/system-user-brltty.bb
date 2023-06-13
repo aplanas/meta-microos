@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "group(brlapi) \
 group(brltty) \
 system-user-brltty \
 user(brltty)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(audio) \
 group(dialout) \

@@ -81,6 +81,7 @@ locale(glade:vi) \
 locale(glade:zh_CN) \
 locale(glade:zh_HK) \
 locale(glade:zh_TW)"
+
 RDEPENDS:${PN} += "glade"
 
 inherit rpm

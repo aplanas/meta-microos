@@ -10,6 +10,7 @@ RPM_HASH = "46ef6da3f34c788c737264e9373b590a10c0971d9aed9fd49faa69c08992a575ec6f
 RPROVIDES:${PN} += "libgom-1.0.so.0()(64bit) \
 libgom-1_0-0 \
 libgom-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

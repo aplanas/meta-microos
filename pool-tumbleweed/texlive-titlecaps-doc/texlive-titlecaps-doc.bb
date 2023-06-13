@@ -9,6 +9,7 @@ RPM_HASH = "03b43f9664307e186b23b8ff38434873a9379a58f22df422ff4f321e20740947c2ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-titlecaps-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

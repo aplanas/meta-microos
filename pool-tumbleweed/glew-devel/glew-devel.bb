@@ -14,6 +14,7 @@ RPM_HASH = "99657a8586be220ac1a1d941031c711e8562becca6c074275227fa2a297441162faa
 RPROVIDES:${PN} += "glew-devel \
 glew-devel(aarch-64) \
 pkgconfig(glew)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGLEW2_2 \
 pkgconfig(egl) \

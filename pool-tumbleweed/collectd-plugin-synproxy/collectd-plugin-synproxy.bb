@@ -9,6 +9,7 @@ RPM_HASH = "71f225c42fe58a10b9a99db9c94093615e4d4f28e89fe1fc822c6219121059394ff2
 
 RPROVIDES:${PN} += "collectd-plugin-synproxy \
 collectd-plugin-synproxy(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

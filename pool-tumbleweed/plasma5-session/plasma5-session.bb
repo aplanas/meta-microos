@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdebase4-session \
 plasma5-session"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/cut \
 /usr/bin/grep \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(asyncssh) \
 python39-asyncssh \
 python3dist(asyncssh)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-bcrypt \
 python39-cryptography \

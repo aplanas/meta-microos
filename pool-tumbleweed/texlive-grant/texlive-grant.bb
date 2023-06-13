@@ -24,6 +24,7 @@ tex(grant-nsf.cls) \
 tex(grant-onr.cls) \
 tex(grant.cls) \
 texlive-grant"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

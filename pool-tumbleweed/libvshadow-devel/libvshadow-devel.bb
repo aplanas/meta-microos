@@ -16,6 +16,7 @@ RPM_HASH = "c0d3a910974df1ab18833485f0536239e95c8dda87f1592666a0a91c10fd13f47a62
 RPROVIDES:${PN} += "libvshadow-devel \
 libvshadow-devel(aarch-64) \
 pkgconfig(libvshadow)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvshadow1"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(referencing) \
 python39-referencing \
 python3dist(referencing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-rpds-py"

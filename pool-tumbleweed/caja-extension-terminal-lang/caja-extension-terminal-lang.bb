@@ -29,6 +29,7 @@ locale(caja-extension-terminal:ro) \
 locale(caja-extension-terminal:ru) \
 locale(caja-extension-terminal:sv) \
 locale(caja-extension-terminal:tr)"
+
 RDEPENDS:${PN} += "caja-extension-terminal"
 
 inherit rpm

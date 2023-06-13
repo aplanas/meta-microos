@@ -14,6 +14,7 @@ singularity \
 singularity-ce \
 singularity-ce(aarch-64) \
 singularity-ce-runtime"
+
 RDEPENDS:${PN} += "/bin/sh \
 cryptsetup \
 ld-linux-aarch64.so.1()(64bit) \

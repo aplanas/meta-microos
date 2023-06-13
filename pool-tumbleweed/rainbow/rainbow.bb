@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(rainbow) \
 python3dist(rainbow) \
 rainbow"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

@@ -9,6 +9,7 @@ RPM_HASH = "acbff15d3a397521a7286d209af163c847a08368f4ad07fcc7eea74a81f70f93e514
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamesh-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

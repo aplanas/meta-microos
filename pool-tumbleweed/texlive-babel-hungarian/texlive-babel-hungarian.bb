@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(magyar.ldf) \
 texlive-babel-hungarian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

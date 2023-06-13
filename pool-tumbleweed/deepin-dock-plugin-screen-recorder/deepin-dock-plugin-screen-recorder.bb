@@ -10,6 +10,7 @@ RPM_HASH = "d937679676f1ce26a60e3e52fa51d07c7863efe82a7fb802fa5f00c1d929c9623710
 RPROVIDES:${PN} += "deepin-dock-plugin-screen-recorder \
 deepin-dock-plugin-screen-recorder(aarch-64) \
 libdeepin-screen-recorder-plugin.so()(64bit)"
+
 RDEPENDS:${PN} += "deepin-dock \
 deepin-screen-recorder \
 ld-linux-aarch64.so.1()(64bit) \

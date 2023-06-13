@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ipa-ex-gothic-fonts \
 locale(ja) \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

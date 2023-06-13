@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libbd_kbd.so.2()(64bit) \
 libbd_kbd2 \
 libbd_kbd2(aarch-64) \
 libblockdev-kbd"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 bcache-tools \
 ld-linux-aarch64.so.1()(64bit) \

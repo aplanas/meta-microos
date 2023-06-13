@@ -25,6 +25,7 @@ libmatthew-java \
 libunix-java.so()(64bit) \
 matthewlib-java \
 matthewlib-java(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 java \
 javapackages-tools \

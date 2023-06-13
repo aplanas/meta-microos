@@ -10,6 +10,7 @@ RPM_HASH = "54f6b0ff0de07022a7757ed9b9e2ec6881a2ea86b50617d69fa9c47e286cd7073e5f
 
 RPROVIDES:${PN} += "ethtool \
 ethtool(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

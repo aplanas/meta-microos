@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(resphilosophica.cls) \
 texlive-resphilosophica"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

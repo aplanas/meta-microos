@@ -14,6 +14,7 @@ RPM_HASH = "f591c6124394d9b6a0896f8a60ecffa9047d6309344e02b6dd242cf21ee466cf44be
 RPROVIDES:${PN} += "typelib(EBook) \
 typelib-1_0-EBook-1_2 \
 typelib-1_0-EBook-1_2(aarch-64)"
+
 RDEPENDS:${PN} += "libcamel-1.2.so.64()(64bit) \
 libebook-1.2.so.21()(64bit) \
 libebook-contacts-1.2.so.4()(64bit) \

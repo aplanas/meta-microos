@@ -15,6 +15,7 @@ RPM_HASH = "f42f9e73846043447b45d9d432d2a70cc5164a464d7af24a44e59bc9928dfc6544c9
 RPROVIDES:${PN} += "config(ppp) \
 ppp \
 ppp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(dialout) \
 libatm.so.1()(64bit) \

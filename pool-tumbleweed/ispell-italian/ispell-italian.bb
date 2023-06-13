@@ -15,6 +15,7 @@ ispell-italian \
 ispell-italian(aarch-64) \
 ispell_dictionary \
 locale(ispell:it)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "d3a08ba44b6bed10da610e627920d9896d031b1a642294ed6a8b3fa199bf5d723d66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libressl-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

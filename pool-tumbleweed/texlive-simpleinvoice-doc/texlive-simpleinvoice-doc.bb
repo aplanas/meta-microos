@@ -9,6 +9,7 @@ RPM_HASH = "0bc12f6905fadaf02c2ef51989b1fda5ae1aa6e7175019bc3e6e0c74be4bfa9e0315
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simpleinvoice-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

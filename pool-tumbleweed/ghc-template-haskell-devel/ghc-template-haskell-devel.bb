@@ -12,6 +12,7 @@ ghc-template-haskell-devel \
 ghc-template-haskell-devel(aarch-64) \
 ghc-template-haskell-static \
 ghc-template-haskell-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(ghc-boot-th-9.4.5) \

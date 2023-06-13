@@ -11,6 +11,7 @@ RPM_HASH = "2149d7a7891125000946fac9097c91a8cd7c84efa9eeacd7f64f197ec5ceb5a53f74
 RPROVIDES:${PN} += "ghc-devel(microlens-platform-0.4.3.3-9nLg9j7jRAiHEY5VUSmG6h) \
 ghc-microlens-platform-devel \
 ghc-microlens-platform-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

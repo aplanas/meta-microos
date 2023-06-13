@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pyicumessageformat \
 python3.10dist(pyicumessageformat) \
 python310-pyicumessageformat \
 python3dist(pyicumessageformat)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

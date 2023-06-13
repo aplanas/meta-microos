@@ -10,6 +10,7 @@ RPM_HASH = "4141aa9ef4807cb51028a01456dde5765317b5c1c6cea422759702d6724ec4d2523d
 RPROVIDES:${PN} += "perl(File::Next) \
 perl-File-Next \
 perl-File-Next(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Temp) \
 perl(Test::More)"

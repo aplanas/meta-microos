@@ -10,6 +10,7 @@ RPM_HASH = "0ab1c26a5ab77418444f36361a141a888003824978b3a359556529055fc3e9b268b4
 RPROVIDES:${PN} += "libc4core.so.0.1.11()(64bit) \
 libc4core0_1_11 \
 libc4core0_1_11(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

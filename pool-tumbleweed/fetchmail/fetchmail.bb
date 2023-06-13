@@ -21,6 +21,7 @@ fetchmail \
 fetchmail(aarch-64) \
 group(fetchmail) \
 user(fetchmail)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

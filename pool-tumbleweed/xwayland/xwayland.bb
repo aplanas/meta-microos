@@ -12,6 +12,7 @@ application(org.freedesktop.Xwayland.desktop) \
 xorg-x11-server-wayland \
 xwayland \
 xwayland(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \

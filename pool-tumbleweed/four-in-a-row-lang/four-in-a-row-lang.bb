@@ -93,6 +93,7 @@ locale(four-in-a-row:wa) \
 locale(four-in-a-row:zh_CN) \
 locale(four-in-a-row:zh_HK) \
 locale(four-in-a-row:zh_TW)"
+
 RDEPENDS:${PN} += "four-in-a-row"
 
 inherit rpm

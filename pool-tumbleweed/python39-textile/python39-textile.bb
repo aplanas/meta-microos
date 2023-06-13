@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(textile) \
 python39-textile \
 python39-textile(aarch-64) \
 python3dist(textile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

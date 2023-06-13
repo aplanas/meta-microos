@@ -13,6 +13,7 @@ graphviz-perl(aarch-64) \
 libgv_perl.so()(64bit) \
 perl(gv) \
 perl(gvc)"
+
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

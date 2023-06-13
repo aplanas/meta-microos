@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydantic) \
 python39-pydantic \
 python3dist(pydantic)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-typing_extensions"
 

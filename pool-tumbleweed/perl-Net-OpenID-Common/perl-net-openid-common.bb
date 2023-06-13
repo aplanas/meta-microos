@@ -24,6 +24,7 @@ perl(Net::OpenID::Yadis) \
 perl(Net::OpenID::Yadis::Service) \
 perl(OpenID::util) \
 perl-Net-OpenID-Common"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Crypt::DH::GMP) \
 perl(HTML::Parser) \

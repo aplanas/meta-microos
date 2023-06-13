@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(br-lex.cls) \
 texlive-br-lex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

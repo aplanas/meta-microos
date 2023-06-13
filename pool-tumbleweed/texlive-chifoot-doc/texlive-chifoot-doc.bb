@@ -9,6 +9,7 @@ RPM_HASH = "5ad2e4226a6c321da233e0634cb9fdefdda12f37febf4201ed23c21f01823c594f26
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chifoot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

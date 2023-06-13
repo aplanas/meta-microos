@@ -11,6 +11,7 @@ RPM_HASH = "f4778195b5f5566be371bcfb8a19cf0c143ad21e18cb6163ba6f425530b9a7b1e747
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-gnu-mpich-hpc-devel"
+
 RDEPENDS:${PN} += "pnetcdf_1_12_3-gnu-mpich-hpc-devel"
 
 inherit rpm

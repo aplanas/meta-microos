@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "pkgconfig(printproto) \
 printproto-devel \
 printproto-devel(aarch-64) \
 xorg-x11-proto-devel:/usr/lib64/pkgconfig/printproto.pc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(xau)"
 

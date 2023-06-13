@@ -10,6 +10,7 @@ RPM_HASH = "7c8cabf91dec5447d3e25b3709d475e9748643ce0dee315f61a96c62588e4a1528a5
 RPROVIDES:${PN} += "leechcraft-devmon \
 leechcraft-devmon(aarch-64) \
 libleechcraft_devmon.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

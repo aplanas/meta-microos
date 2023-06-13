@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "gnome-bluetooth-devel \
 gnome-bluetooth-devel(aarch-64) \
 pkgconfig(gnome-bluetooth-3.0) \
 pkgconfig(gnome-bluetooth-ui-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-bluetooth \
 libgnome-bluetooth-3_0-13 \

@@ -21,6 +21,7 @@ python3.10dist(configshell-fb) \
 python310-configshell \
 python310-configshell-fb \
 python3dist(configshell-fb)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python(abi) \
 python310-pyparsing \

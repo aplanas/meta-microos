@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:safe_yaml:1) \
 rubygem(ruby:3.2.0:safe_yaml:1.0) \
 rubygem(ruby:3.2.0:safe_yaml:1.0.5) \
 rubygem(safe_yaml)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

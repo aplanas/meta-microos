@@ -10,6 +10,7 @@ RPM_HASH = "c0b3eef5d389d7230bad8f69e4e7689084600fca50a3756fd95d91f83d0094a18a97
 
 RPROVIDES:${PN} += "qt6-spatialaudio-private-devel \
 qt6-spatialaudio-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6SpatialAudio)"
 
 inherit rpm

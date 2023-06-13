@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(sway-branding-upstream) \
 sway-branding \
 sway-branding-upstream"
+
 RDEPENDS:${PN} += "sway"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(acro-examples.sty) \
 tex(acro.sty) \
 tex(acro2.sty) \
 texlive-acro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

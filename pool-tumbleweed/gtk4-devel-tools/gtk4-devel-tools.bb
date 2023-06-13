@@ -23,6 +23,7 @@ metainfo(org.gtk.IconBrowser4.appdata.xml) \
 metainfo(org.gtk.PrintEditor4.appdata.xml) \
 metainfo(org.gtk.WidgetFactory4.appdata.xml) \
 metainfo(org.gtk.gtk4.NodeEditor.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "451fbd89970cde91a9b84aa28f4ad3fce84cb19127d00b2815a05284174f0b7f6da7
 RPROVIDES:${PN} += "perl(Sys::LoadAvg) \
 perl-Sys-LoadAvg \
 perl-Sys-LoadAvg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

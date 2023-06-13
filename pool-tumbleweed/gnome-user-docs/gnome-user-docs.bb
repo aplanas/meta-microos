@@ -9,6 +9,7 @@ RPM_HASH = "530925d6b4cffc244e4bba68dbab16cb3e4e25d56ab1a4be256e56dc512bda669fc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-user-docs"
+
 RDEPENDS:${PN} += "yelp"
 
 inherit rpm

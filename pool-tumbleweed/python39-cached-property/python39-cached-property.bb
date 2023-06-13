@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cached-property) \
 python39-cached-property \
 python3dist(cached-property)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

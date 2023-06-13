@@ -54,6 +54,7 @@ mimehandler(image/x-tif) \
 mimehandler(inode/directory) \
 rawtherapee \
 rawtherapee(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 ld-linux-aarch64.so.1()(64bit) \

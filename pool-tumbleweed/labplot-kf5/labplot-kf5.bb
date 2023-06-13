@@ -23,6 +23,7 @@ metainfo(org.kde.labplot2.appdata.xml) \
 mimehandler(application/x-LabPlot-gzip) \
 mimehandler(application/x-LabPlot-xz) \
 mimehandler(application/x-labplot2)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Archive.so.5()(64bit) \

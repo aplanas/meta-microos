@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pacemaker-schemas \
 pkgconfig(pacemaker-schemas)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

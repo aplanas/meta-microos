@@ -12,6 +12,7 @@ RPM_HASH = "2e86d9478e5355b5dfdd17f0da787f26e3c315207454d466a78fb4df16791191d374
 RPROVIDES:${PN} += "libmgl-wx.so.8()(64bit) \
 libmgl-wx8 \
 libmgl-wx8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

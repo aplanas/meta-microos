@@ -16,6 +16,7 @@ pattern-visible() \
 patterns-kde-kde \
 patterns-openSUSE-kde \
 patterns-openSUSE-kde4"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

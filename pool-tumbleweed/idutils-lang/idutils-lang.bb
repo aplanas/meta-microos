@@ -27,6 +27,7 @@ locale(idutils:sv) \
 locale(idutils:tr) \
 locale(idutils:vi) \
 locale(idutils:zh_CN)"
+
 RDEPENDS:${PN} += "idutils"
 
 inherit rpm

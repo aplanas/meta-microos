@@ -12,6 +12,7 @@ RPM_HASH = "00bef36738f7ce6e8cdacac675c9a3925416147da4523aff458d06f954fe627608b6
 RPROVIDES:${PN} += "cmake(qtxdg-tools) \
 qtxdg-tools \
 qtxdg-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

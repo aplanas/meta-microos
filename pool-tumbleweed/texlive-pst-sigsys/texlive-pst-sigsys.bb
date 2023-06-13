@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-sigsys.sty) \
 tex(pst-sigsys.tex) \
 texlive-pst-sigsys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

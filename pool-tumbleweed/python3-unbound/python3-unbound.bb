@@ -12,6 +12,7 @@ RPM_HASH = "5a8a538ec8a1c5c765fd31c43d71e2488ee11c30cc0974e39566171bdad55d3757b2
 RPROVIDES:${PN} += "python3-unbound \
 python3-unbound(aarch-64) \
 unbound-python"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.28)(64bit) \

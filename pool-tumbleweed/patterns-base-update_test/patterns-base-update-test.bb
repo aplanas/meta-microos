@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-update_test \
 patterns-base-update_test(aarch-64) \
 patterns-openSUSE-update_test"
+
 RDEPENDS:${PN} += "update-test-affects-package-manager \
 update-test-interactive \
 update-test-optional \

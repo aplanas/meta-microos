@@ -10,6 +10,7 @@ RPM_HASH = "60effb559f559432d14c86c74b22be1b89841b19e88acf311bd3309c4fbb54d920c7
 RPROVIDES:${PN} += "libusermood.so()(64bit) \
 vacuum-im-plugins-usermood \
 vacuum-im-plugins-usermood(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

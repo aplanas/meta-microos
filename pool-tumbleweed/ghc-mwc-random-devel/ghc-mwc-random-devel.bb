@@ -10,6 +10,7 @@ RPM_HASH = "6a388c80699876e3e034b8a3ac1be6e5c246829a9db4418ef9a7fcc41ad3df9d68d7
 RPROVIDES:${PN} += "ghc-devel(mwc-random-0.15.0.2-ABcRZBX2kH9CBf1bhFwgAP) \
 ghc-mwc-random-devel \
 ghc-mwc-random-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

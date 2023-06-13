@@ -89,6 +89,7 @@ locale(cheese:vi) \
 locale(cheese:zh_CN) \
 locale(cheese:zh_HK) \
 locale(cheese:zh_TW)"
+
 RDEPENDS:${PN} += "cheese"
 
 inherit rpm

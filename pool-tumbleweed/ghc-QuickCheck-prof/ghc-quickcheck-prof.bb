@@ -10,6 +10,7 @@ RPM_HASH = "0f5ce54ab2420e316c567409c02b2777491e75ecc23dfa80289d0c93108c3f3b123e
 RPROVIDES:${PN} += "ghc-QuickCheck-prof \
 ghc-QuickCheck-prof(aarch-64) \
 ghc-prof(QuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6)"
+
 RDEPENDS:${PN} += "ghc-QuickCheck-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

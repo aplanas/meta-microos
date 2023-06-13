@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-shodan-doc \
 python310-shodan-doc \
 python311-shodan-doc \
 python39-shodan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

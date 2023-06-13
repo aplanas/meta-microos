@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(web.py) \
 python39-web.py \
 python3dist(web.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cheroot"
 

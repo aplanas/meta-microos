@@ -11,6 +11,7 @@ RPM_HASH = "a803fad4577e8a83f3668ff697d4e27c59bc73e477a80c1f6826854f7f4dbaef4d1a
 RPROVIDES:${PN} += "libipa_hbac-devel \
 libipa_hbac-devel(aarch-64) \
 pkgconfig(ipa_hbac)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libipa_hbac0"
 

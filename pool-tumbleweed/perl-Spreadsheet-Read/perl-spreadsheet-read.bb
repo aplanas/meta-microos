@@ -26,6 +26,7 @@ perl(Spreadsheet::Read::Sheet) \
 perl(Z10::Just::For::Testing) \
 perl(Z20::Just::For::Testing) \
 perl-Spreadsheet-Read"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Peek) \
 perl(File::Temp) \

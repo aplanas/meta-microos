@@ -9,6 +9,7 @@ RPM_HASH = "eb6e3c12f28fbc1034223edd497b5329308098dd41d9aba00a29bde3888e4af772b4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mathpunctspace-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

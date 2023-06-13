@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qpid-proton \
 qpid-proton-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

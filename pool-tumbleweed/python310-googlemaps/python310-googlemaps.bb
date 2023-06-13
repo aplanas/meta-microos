@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-googlemaps \
 python3.10dist(googlemaps) \
 python310-googlemaps \
 python3dist(googlemaps)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

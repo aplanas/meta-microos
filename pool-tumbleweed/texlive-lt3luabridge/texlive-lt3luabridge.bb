@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(lt3luabridge.sty) \
 tex(lt3luabridge.tex) \
 tex(t-lt3luabridge.tex) \
 texlive-lt3luabridge"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

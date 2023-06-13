@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sqlite-fts4) \
 python39-sqlite-fts4 \
 python3dist(sqlite-fts4)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

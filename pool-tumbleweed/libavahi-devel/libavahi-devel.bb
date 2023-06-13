@@ -14,6 +14,7 @@ libavahi-devel(aarch-64) \
 pkgconfig(avahi-client) \
 pkgconfig(avahi-core) \
 pkgconfig(avahi-libevent)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1-devel \
 glibc-devel \

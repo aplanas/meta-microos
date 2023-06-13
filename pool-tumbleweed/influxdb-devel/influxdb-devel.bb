@@ -9,6 +9,7 @@ RPM_HASH = "8bee99767051b8ba8f92b3746063159736f78be8bb077564c5464d16d7339a261710
 
 RPROVIDES:${PN} += "influxdb-devel \
 influxdb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "go"
 
 inherit rpm

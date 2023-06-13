@@ -22,6 +22,7 @@ tex(gobble-user.tex) \
 tex(gobble.sty) \
 tex(gobble.tex) \
 texlive-gobble"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

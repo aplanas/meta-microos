@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-notifyd-branding-upstream) \
 xfce4-notifyd-branding \
 xfce4-notifyd-branding-upstream"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

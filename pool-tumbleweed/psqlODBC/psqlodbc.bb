@@ -14,6 +14,7 @@ pg_odbc \
 postgresql-odbc \
 psqlODBC \
 psqlODBC(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/odbcinst \
 ld-linux-aarch64.so.1()(64bit) \

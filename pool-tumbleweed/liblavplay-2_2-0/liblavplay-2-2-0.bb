@@ -14,6 +14,7 @@ RPM_HASH = "86f9ce57ec1b6af61bfb17ee6dfa9eda3d42f6c62f9ded20505315e3cff853cfedb0
 RPROVIDES:${PN} += "liblavplay-2.2.so.0()(64bit) \
 liblavplay-2_2-0 \
 liblavplay-2_2-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

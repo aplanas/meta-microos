@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(vistir) \
 python39-vistir \
 python3dist(vistir)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-colorama"
 

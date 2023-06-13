@@ -10,6 +10,7 @@ RPM_HASH = "971393cc398546ca8524dbb617c126824b2083aa24f3262369089214783044e281bb
 RPROVIDES:${PN} += "ghc-devel(hourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3) \
 ghc-hourglass-devel \
 ghc-hourglass-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

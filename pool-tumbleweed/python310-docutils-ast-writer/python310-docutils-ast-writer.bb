@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-docutils-ast-writer \
 python3.10dist(docutils-ast-writer) \
 python310-docutils-ast-writer \
 python3dist(docutils-ast-writer)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

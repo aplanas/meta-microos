@@ -10,6 +10,7 @@ RPM_HASH = "5227933558aa111a56eee215a1f7d7626ba366a8b1de1c07c74008691b67832a3afb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-yubikey"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-python-yubico"
 

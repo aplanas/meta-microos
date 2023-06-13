@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Module::Build::WithXSpp) \
 perl-Module-Build-WithXSpp"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(ExtUtils::CBuilder) \
 perl(ExtUtils::CppGuess) \

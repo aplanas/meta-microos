@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-jdcal \
 python3.10dist(jdcal) \
 python310-jdcal \
 python3dist(jdcal)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

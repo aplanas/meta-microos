@@ -10,6 +10,7 @@ RPM_HASH = "c6501050c411ad888e33adfa6cc5b9ea55983c0b3376409c46a745c270bfe47f14ed
 
 RPROVIDES:${PN} += "pcp-import-sar2pcp \
 pcp-import-sar2pcp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl-PCP-LogImport \
 sysstat"

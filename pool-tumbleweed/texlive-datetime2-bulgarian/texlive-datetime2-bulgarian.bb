@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(datetime2-bulgarian-ascii.ldf) \
 tex(datetime2-bulgarian-utf8.ldf) \
 tex(datetime2-bulgarian.ldf) \
 texlive-datetime2-bulgarian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

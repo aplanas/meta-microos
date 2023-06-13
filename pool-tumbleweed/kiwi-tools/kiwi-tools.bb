@@ -12,6 +12,7 @@ RPM_HASH = "75038a26ed9d64bf5f3fba016a223a58a6e29a7d19bb3707e7fc4645c79a208cec0c
 
 RPROVIDES:${PN} += "kiwi-tools \
 kiwi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

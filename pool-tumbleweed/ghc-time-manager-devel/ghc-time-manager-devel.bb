@@ -10,6 +10,7 @@ RPM_HASH = "99239a522be4a24c357ecd715c75f58462aca4b02ec12aaeea5f12c78b090fe931ae
 RPROVIDES:${PN} += "ghc-devel(time-manager-0.0.0-49hD2RcPrUEG8anOiBePCj) \
 ghc-time-manager-devel \
 ghc-time-manager-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ) \

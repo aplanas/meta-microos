@@ -14,6 +14,7 @@ RPM_HASH = "78f44c930f3da88942b4aeec842cffb1b079f32b7ab972f5461cafcdc140640c09eb
 RPROVIDES:${PN} += "libgtpnl-devel \
 libgtpnl-devel(aarch-64) \
 pkgconfig(libgtpnl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtpnl0"
 

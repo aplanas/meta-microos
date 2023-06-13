@@ -9,6 +9,7 @@ RPM_HASH = "c0fff7f3320c6b0d3e45f6bf402f6757c06ffba18e3d65e551ac0155c54ba1aa1300
 
 RPROVIDES:${PN} += "broadvoice32-devel \
 broadvoice32-devel(aarch-64)"
+
 RDEPENDS:${PN} += "broadvoice32"
 
 inherit rpm

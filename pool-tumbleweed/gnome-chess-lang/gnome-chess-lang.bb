@@ -93,6 +93,7 @@ locale(gnome-chess:wa) \
 locale(gnome-chess:zh_CN) \
 locale(gnome-chess:zh_HK) \
 locale(gnome-chess:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-chess"
 
 inherit rpm

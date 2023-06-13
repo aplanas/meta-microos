@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-multi_key_dict \
 python3.10dist(multi-key-dict) \
 python310-multi_key_dict \
 python3dist(multi-key-dict)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

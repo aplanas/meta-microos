@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(planets.sty) \
 texlive-tikz-planets"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

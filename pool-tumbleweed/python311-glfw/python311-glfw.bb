@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(glfw) \
 python311-glfw \
 python3dist(glfw)"
+
 RDEPENDS:${PN} += "libglfw3 \
 python(abi)"
 

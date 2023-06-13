@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-msgpack-numpy \
 python3.10dist(msgpack-numpy) \
 python310-msgpack-numpy \
 python3dist(msgpack-numpy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-msgpack \
 python310-numpy"

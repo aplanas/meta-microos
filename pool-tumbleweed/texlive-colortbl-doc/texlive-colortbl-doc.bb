@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-colortbl-doc:de;en) \
 texlive-colortbl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "071ab9b2256893e03ad28193ca588987cb8613e8be57ea76e0f1d5441796c41dab29
 
 RPROVIDES:${PN} += "texlive-pygmentex-bin \
 texlive-pygmentex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-pygmentex"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "1814dbf34cfc507253aa9d7d8bcf4ce3153f093e5963b7382f958757e6896a799ad6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcesans3-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

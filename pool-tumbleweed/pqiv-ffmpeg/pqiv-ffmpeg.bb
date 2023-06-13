@@ -9,6 +9,7 @@ RPM_HASH = "a70f66afe4e4d0dd4d021a2f168c0764c68eef3ef5893354c2007bd2a8913bc57b92
 
 RPROVIDES:${PN} += "pqiv-ffmpeg \
 pqiv-ffmpeg(aarch-64)"
+
 RDEPENDS:${PN} += "libavcodec.so.60()(64bit) \
 libavcodec.so.60(LIBAVCODEC_60.3_SUSE)(64bit) \
 libavformat.so.60()(64bit) \

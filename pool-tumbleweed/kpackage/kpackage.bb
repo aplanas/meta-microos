@@ -10,6 +10,7 @@ RPM_HASH = "b5280a811696f27e4fc4e6a7f235549fcae8b702044c5fa5d86e7737e46abf994531
 RPROVIDES:${PN} += "kpackage \
 kpackage(aarch-64) \
 libKF5Package.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

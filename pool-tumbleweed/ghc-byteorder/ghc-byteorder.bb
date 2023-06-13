@@ -10,6 +10,7 @@ RPM_HASH = "3fb16bca438352b756f48f60454234a991caa65eee74b64594b424088b3f9bfa29c7
 RPROVIDES:${PN} += "ghc-byteorder \
 ghc-byteorder(aarch-64) \
 libHSbyteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

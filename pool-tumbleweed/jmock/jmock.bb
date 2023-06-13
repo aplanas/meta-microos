@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jmock \
 mvn(jmock:jmock) \
 mvn(jmock:jmock:pom:)"
+
 RDEPENDS:${PN} += "cglib \
 java-headless \
 javapackages-filesystem \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libXfixes-devel \
 libXfixes-devel(aarch-64) \
 pkgconfig(xfixes) \
 xorg-x11-libXfixes-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXfixes3 \
 pkgconfig(fixesproto) \

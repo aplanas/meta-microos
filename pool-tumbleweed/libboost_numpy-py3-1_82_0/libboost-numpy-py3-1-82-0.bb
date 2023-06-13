@@ -11,6 +11,7 @@ RPM_HASH = "ccc8a67ed29f109037a7bc09fa05fd27e5575ed9fc62d809c26ae8ab32a70707e836
 RPROVIDES:${PN} += "libboost_numpy-py3-1_82_0 \
 libboost_numpy-py3-1_82_0(aarch-64) \
 libboost_numpy-py3.so.1.82.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 boost-license1_82_0 \
 libboost_python-py3.so.1.82.0()(64bit) \

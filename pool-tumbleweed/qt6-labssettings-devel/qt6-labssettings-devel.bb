@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsSettings) \
 pkgconfig(Qt6LabsSettings) \
 qt6-labssettings-devel \
 qt6-labssettings-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 cmake(Qt6Qml) \

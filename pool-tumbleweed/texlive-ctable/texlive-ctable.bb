@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ctable.sty) \
 texlive-ctable"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

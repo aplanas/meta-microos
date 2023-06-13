@@ -10,6 +10,7 @@ RPM_HASH = "470249c12890c82ff3fe7576100dd0304dc76ffb23a3d0ae688febe0619585c023fa
 RPROVIDES:${PN} += "typelib(SpiceClientGLib) \
 typelib-1_0-SpiceClientGlib-2_0 \
 typelib-1_0-SpiceClientGlib-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libspice-client-glib-2.0.so.8()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

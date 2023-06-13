@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jupyter-server-mathjax \
 python3.10dist(jupyter-server-mathjax) \
 python310-jupyter-server-mathjax \
 python3dist(jupyter-server-mathjax)"
+
 RDEPENDS:${PN} += "jupyter-server-mathjax \
 python(abi) \
 python310-jupyter_server"

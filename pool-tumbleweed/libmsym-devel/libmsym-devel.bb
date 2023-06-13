@@ -11,6 +11,7 @@ RPM_HASH = "562c028633d27fc135a3495fe4b1996104e59dc47586c883e62e6cdec3398c1075c3
 RPROVIDES:${PN} += "cmake(libmsym) \
 libmsym-devel \
 libmsym-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmsym0_2"
 
 inherit rpm

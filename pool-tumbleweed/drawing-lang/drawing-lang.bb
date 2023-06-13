@@ -35,6 +35,7 @@ locale(drawing:sv) \
 locale(drawing:tr) \
 locale(drawing:zh_CN) \
 locale(drawing:zh_TW)"
+
 RDEPENDS:${PN} += "drawing"
 
 inherit rpm

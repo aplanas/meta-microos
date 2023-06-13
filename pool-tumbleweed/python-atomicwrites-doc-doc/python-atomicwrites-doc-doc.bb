@@ -18,6 +18,7 @@ RPM_HASH = "4b4c209b4b96ac6094889145705bf4203e08a82214483c56f270f742f2f0fd5729ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-atomicwrites-doc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

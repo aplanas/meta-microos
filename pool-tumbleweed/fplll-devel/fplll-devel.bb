@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "fplll-devel \
 fplll-devel(aarch-64) \
 libfplll-devel \
 pkgconfig(fplll)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfplll8"
 

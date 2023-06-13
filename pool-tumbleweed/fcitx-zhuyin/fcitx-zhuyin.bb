@@ -13,6 +13,7 @@ RPM_HASH = "b0cb7d0546005d8aad0d654120ad79211db6a7e625173bbc88943caa7a26db3fd14b
 RPROVIDES:${PN} += "fcitx-zhuyin \
 fcitx-zhuyin(aarch-64) \
 locale(fcitx:zh_TW;zh_HK)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libzhuyin.so.15()(64bit) \

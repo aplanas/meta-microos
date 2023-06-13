@@ -11,6 +11,7 @@ RPM_HASH = "c9d9afa2124434e1b46cef601c02063bafa40f5f419e7dafd4c65e9ba138252eae0e
 RPROVIDES:${PN} += "libixion-devel \
 libixion-devel(aarch-64) \
 pkgconfig(libixion-0.17)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libixion-0_17-0"
 

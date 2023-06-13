@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(to-be-determined.sty) \
 texlive-to-be-determined"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(deepmerge) \
 python311-deepmerge \
 python3dist(deepmerge)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

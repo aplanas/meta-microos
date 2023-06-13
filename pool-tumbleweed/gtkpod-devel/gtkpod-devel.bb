@@ -16,6 +16,7 @@ RPM_HASH = "b11eb62ade96727f3ae4364edea6ff13718bf1db900c76094c676aca9aedf127a172
 RPROVIDES:${PN} += "gtkpod-devel \
 gtkpod-devel(aarch-64) \
 pkgconfig(libgtkpod-1.1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libatomicparsley0 \
 libgtkpod1 \

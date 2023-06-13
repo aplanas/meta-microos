@@ -9,6 +9,7 @@ RPM_HASH = "09d76636a4eaa0329166678d16f8be37d18555b78be4fa43d24ab5561a81f9f586ce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-koma-script-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pychart) \
 python311-PyChart \
 python3dist(pychart)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "1fb9b3a3be1c2768ea01b3faec541231a928bdd0e5a5f55d463c272decacf360e8ec
 
 RPROVIDES:${PN} += "notmuch-devel \
 notmuch-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnotmuch5"
 
 inherit rpm

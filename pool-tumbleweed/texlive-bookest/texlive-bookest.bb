@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bookest.cls) \
 texlive-bookest"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

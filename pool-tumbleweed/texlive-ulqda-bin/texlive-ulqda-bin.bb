@@ -9,6 +9,7 @@ RPM_HASH = "10184bedacb7359fc39acaf720945651ba547dddd2b2fa7404e11da65df8076538ec
 
 RPROVIDES:${PN} += "texlive-ulqda-bin \
 texlive-ulqda-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-ulqda"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "db9fa13c38dc72bd0a8c421ec8e4eda9051837ce8f7def08eae3698a1e4f9b22d5f6
 
 RPROVIDES:${PN} += "simple-obfs \
 simple-obfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

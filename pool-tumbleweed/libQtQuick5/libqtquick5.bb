@@ -157,6 +157,7 @@ libqtquick2plugin.so()(64bit) \
 libsharedimageplugin.so()(64bit) \
 libwindowplugin.so()(64bit) \
 libworkerscriptplugin.so()(64bit)"
+
 RDEPENDS:${PN} += "(qml-autoreqprov if rpm-build) \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

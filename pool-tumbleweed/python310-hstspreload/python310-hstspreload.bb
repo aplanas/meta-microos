@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hstspreload \
 python3.10dist(hstspreload) \
 python310-hstspreload \
 python3dist(hstspreload)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "8c1dc21c24aafcd7ed957ff52f13834394babd57579f4e7e9e62979dab04040ae527
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-key-theme-ctrluftw"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

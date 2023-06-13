@@ -20,6 +20,7 @@ tex(qurantext-urvi.translation.def) \
 tex(qurantext-urvii.translation.def) \
 tex(qurantext-urviii.translation.def) \
 texlive-quran-ur"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

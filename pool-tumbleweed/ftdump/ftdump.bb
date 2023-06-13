@@ -10,6 +10,7 @@ RPM_HASH = "5bd094b71fb6929e20ed1f343385d4881e456eb2bb0f1f0b57f7812aace7b669dc55
 
 RPROVIDES:${PN} += "ftdump \
 ftdump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

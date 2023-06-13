@@ -66,6 +66,7 @@ locale(calligra-plan:uk) \
 locale(calligra-plan:wa) \
 locale(calligra-plan:zh_CN) \
 locale(calligra-plan:zh_TW)"
+
 RDEPENDS:${PN} += "calligra-plan"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "38c150a213a2fae377183b3f1bfc3fbb2c4eb6651640a50199f89c1607151e6db62a
 RPROVIDES:${PN} += "libconfuse.so.2()(64bit) \
 libconfuse2 \
 libconfuse2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

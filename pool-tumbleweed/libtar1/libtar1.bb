@@ -13,6 +13,7 @@ RPM_HASH = "c32f814e0a600565388b3b8201d418e9141a5b9b5016cf3a0a5d48c2b5f42f3880fa
 RPROVIDES:${PN} += "libtar.so.1()(64bit) \
 libtar1 \
 libtar1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

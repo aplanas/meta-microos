@@ -30,6 +30,7 @@ RPM_HASH = "6fe8f0e85bb6252722e1b76b49de04164dbd578814d8092807f649f84e05c8b24a75
 RPROVIDES:${PN} += "ghc-commonmark \
 ghc-commonmark(aarch-64) \
 libHScommonmark-0.2.2-3PrTrnYGJolB2uRqWVubZz-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

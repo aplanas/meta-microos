@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcompris-qt-lang \
 gcompris-qt-lang-all"
+
 RDEPENDS:${PN} += "gcompris-qt"
 
 inherit rpm

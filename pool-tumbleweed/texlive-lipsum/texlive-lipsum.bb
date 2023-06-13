@@ -15,6 +15,7 @@ tex(lipsum-cs.ltd.tex) \
 tex(lipsum.ltd.tex) \
 tex(lipsum.sty) \
 texlive-lipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

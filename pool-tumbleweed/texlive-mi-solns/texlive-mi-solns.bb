@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mi-solns.sty) \
 texlive-mi-solns"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

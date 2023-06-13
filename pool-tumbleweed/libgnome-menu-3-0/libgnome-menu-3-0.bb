@@ -13,6 +13,7 @@ RPM_HASH = "1deaca44f15a062a55a86ba9c547939f0d8b04893fb24284971d40c473c3b6766b12
 RPROVIDES:${PN} += "libgnome-menu-3-0 \
 libgnome-menu-3-0(aarch-64) \
 libgnome-menu-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnome-menus \
 ld-linux-aarch64.so.1()(64bit) \

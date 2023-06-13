@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-MechanicalSoup \
 python3.10dist(mechanicalsoup) \
 python310-MechanicalSoup \
 python3dist(mechanicalsoup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-beautifulsoup4 \
 python310-lxml \

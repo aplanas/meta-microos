@@ -10,6 +10,7 @@ RPM_HASH = "bcac50607bffd5351a381d25d827a2d1a989b5b5236547c163b7ae4024026cf58deb
 RPROVIDES:${PN} += "dtb-nvidia \
 dtb-nvidia(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

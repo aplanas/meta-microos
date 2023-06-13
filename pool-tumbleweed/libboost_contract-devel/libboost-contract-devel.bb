@@ -12,6 +12,7 @@ RPM_HASH = "9cefcec8bdb4da857f7152994e41a55eb2dfe5cc8c13197b8066ce7159036e13a549
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libboost_contract-devel"
+
 RDEPENDS:${PN} += "libboost_contract1_82_0-devel"
 
 inherit rpm

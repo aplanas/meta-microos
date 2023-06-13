@@ -12,6 +12,7 @@ RPM_HASH = "80875cf090d3dd43c95454ebab511b06a8f668523bd60821d9708c6a0c3a2f081f14
 
 RPROVIDES:${PN} += "pps-tools-devel \
 pps-tools-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

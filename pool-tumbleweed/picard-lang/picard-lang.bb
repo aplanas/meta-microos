@@ -72,6 +72,7 @@ locale(picard:zh_CN) \
 locale(picard:zh_TW) \
 picard-lang \
 picard-lang-all"
+
 RDEPENDS:${PN} += "picard"
 
 inherit rpm

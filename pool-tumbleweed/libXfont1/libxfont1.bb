@@ -16,6 +16,7 @@ RPM_HASH = "dc07a53d3acec463e14854309b7f0bc72689b10087ccd02755e2027a02de954c1adc
 RPROVIDES:${PN} += "libXfont.so.1()(64bit) \
 libXfont1 \
 libXfont1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "f504b1ec6f758b2185843358d5087cd426cca67b6813daf1e8eb5b2090d382ca6057
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-tdg"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

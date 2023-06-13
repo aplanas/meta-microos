@@ -10,6 +10,7 @@ RPM_HASH = "4a47848734e2db2e3950b384b96612266069bf6b48dbf66330d6e5eb7560864be248
 RPROVIDES:${PN} += "libcpluffxx.so.0()(64bit) \
 libcpluffxx0 \
 libcpluffxx0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

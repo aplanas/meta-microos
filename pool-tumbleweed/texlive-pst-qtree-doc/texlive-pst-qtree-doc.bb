@@ -9,6 +9,7 @@ RPM_HASH = "89e4384799996ab036d72289c830aadd0dd9b9400f40412fd7b1b112ddc08b013042
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-qtree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

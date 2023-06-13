@@ -9,6 +9,7 @@ RPM_HASH = "953bf3d393ab1f6ca5c12d27c5f9bf24fcde93829168160da0eb0b445d05c10a67e3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertine-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

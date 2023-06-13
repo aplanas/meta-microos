@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "en) \
 locale(texlive-circledtext-doc:zh \
 texlive-circledtext-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(qpageview) \
 python311-qpageview \
 python3dist(qpageview)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-poppler-qt5 \
 python311-qt5"

@@ -10,6 +10,7 @@ RPM_HASH = "e3637ec992f3618f4f5f481a2ae283ccc25d53d26d9ae86076c87b733751184b903c
 RPROVIDES:${PN} += "libzinnia.so.0()(64bit) \
 libzinnia0 \
 libzinnia0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.33)(64bit) \
 libgcc_s.so.1()(64bit) \

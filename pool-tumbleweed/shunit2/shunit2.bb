@@ -12,6 +12,7 @@ RPM_HASH = "4fc4f413bdcf23a5ef62fc8b07be3e89e3e93c7eccf24a8f1f810adb794a06c12dae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shunit2"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

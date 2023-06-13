@@ -208,6 +208,7 @@ mimehandler(image/x-portable-pixmap) \
 mimehandler(image/x-sony-arw) \
 mimehandler(image/x-sony-sr2) \
 mimehandler(image/x-sony-srf)"
+
 RDEPENDS:${PN} += "/bin/bash \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \

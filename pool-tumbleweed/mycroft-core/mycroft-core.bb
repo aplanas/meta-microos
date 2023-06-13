@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(mycroft-core) \
 mycroft-core \
 python3.10dist(mycroft-core) \
 python3dist(mycroft-core)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 curl \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "libSM.so.6()(64bit) \
 libSM6 \
 libSM6(aarch-64) \
 xorg-x11-libSM"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

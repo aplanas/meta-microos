@@ -10,6 +10,7 @@ RPM_HASH = "93f4f0e73428a98763a511ce3983a36eec7db8259c0052f35e9d877d4cf689896ed3
 RPROVIDES:${PN} += "libpoke.so.0()(64bit) \
 libpoke0 \
 libpoke0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

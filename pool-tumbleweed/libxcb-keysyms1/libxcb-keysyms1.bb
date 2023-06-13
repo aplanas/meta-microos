@@ -16,6 +16,7 @@ RPM_HASH = "51227c01da84c08609fcd73ec588e57a42e7b0cf7699dd439b744229c720eb148f75
 RPROVIDES:${PN} += "libxcb-keysyms.so.1()(64bit) \
 libxcb-keysyms1 \
 libxcb-keysyms1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libxcb.so.1()(64bit)"

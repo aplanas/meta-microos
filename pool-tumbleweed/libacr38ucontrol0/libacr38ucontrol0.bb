@@ -14,6 +14,7 @@ RPM_HASH = "97853e47d580e47aa03b2fd5919cbfa4d58662df0946e13ea4eece49eda2d3aa1b68
 RPROVIDES:${PN} += "libacr38ucontrol.so.0()(64bit) \
 libacr38ucontrol0 \
 libacr38ucontrol0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

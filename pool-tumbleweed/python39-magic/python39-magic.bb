@@ -13,6 +13,7 @@ python39-file-magic \
 python39-magic \
 python39-magic(aarch-64) \
 python3dist(file-magic)"
+
 RDEPENDS:${PN} += "libmagic1 \
 python(abi)"
 

@@ -17,6 +17,7 @@ python310-msgpack \
 python310-msgpack(aarch-64) \
 python310-msgpack-python \
 python3dist(msgpack)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

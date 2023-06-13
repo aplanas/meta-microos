@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(texapi.tex) \
 texlive-texapi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

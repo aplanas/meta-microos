@@ -73,6 +73,7 @@ tex(thost_xf32t5.enc) \
 tex(thost_xgfkyc.enc) \
 tex(thost_zj2gif.enc) \
 texlive-theanooldstyle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libopenraw.so.9()(64bit) \
 libopenraw9 \
 libopenraw9(aarch-64) \
 libopenrawgnome.so.9()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

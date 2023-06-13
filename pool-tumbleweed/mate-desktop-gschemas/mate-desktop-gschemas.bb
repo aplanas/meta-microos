@@ -11,6 +11,7 @@ RPM_HASH = "938734c64559fc92fc4eae155f43351ba2d64a57416774bad860f1de6d912dbc5855
 RPROVIDES:${PN} += "mate-desktop-gschemas \
 mate-desktop-gschemas(aarch-64) \
 mate-desktop-gsettings-schemas"
+
 RDEPENDS:${PN} += "mate-desktop-gschemas-branding"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "436df6af8c152a77180e78da0aa7192aea97b923ee31213421c106d2fe6ea05c8a81
 RPROVIDES:${PN} += "libopencv_gapi.so.407()(64bit) \
 libopencv_gapi407 \
 libopencv_gapi407(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "7934757f746c5d43d97217d0ef580c2c19cb0076cbf71ffabed26337a853c92ae1a0
 RPROVIDES:${PN} += "libgxps.so.2()(64bit) \
 libgxps2 \
 libgxps2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

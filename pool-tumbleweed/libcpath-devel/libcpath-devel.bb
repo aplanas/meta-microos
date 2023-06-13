@@ -13,6 +13,7 @@ RPM_HASH = "83cbb0141e9e2d1cd0ff0548467fdac6f33a6c593971e036d9ff68b58776beaaae8b
 RPROVIDES:${PN} += "libcpath-devel \
 libcpath-devel(aarch-64) \
 pkgconfig(libcpath)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcpath1"
 

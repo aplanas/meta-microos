@@ -11,6 +11,7 @@ RPM_HASH = "63c7694ab607cdd8c09d801ec6c59c944e657a0a47003fe5b5ae6eb7ddac8aab4cad
 
 RPROVIDES:${PN} += "apfel-doc \
 apfel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

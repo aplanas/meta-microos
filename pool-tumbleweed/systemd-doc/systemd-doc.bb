@@ -9,6 +9,7 @@ RPM_HASH = "e766d8e4f00464b276efc14d839f98cd26c61dc6b9f10e6c03b85ca65666c023df34
 
 RPROVIDES:${PN} += "systemd-doc \
 systemd-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

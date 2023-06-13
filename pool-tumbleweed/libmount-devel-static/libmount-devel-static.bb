@@ -9,6 +9,7 @@ RPM_HASH = "1d9e0870446f8053c20def411fa3a3b2dff70598bbc526891aa145ac56956657f4af
 
 RPROVIDES:${PN} += "libmount-devel-static \
 libmount-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libmount-devel"
 
 inherit rpm

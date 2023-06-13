@@ -13,6 +13,7 @@ RPM_HASH = "2efe5af7e024cc44f36863bead4559115eccd5e568699befc591f78593591cc091ad
 RPROVIDES:${PN} += "libpocketsphinx.so.1()(64bit) \
 libpocketsphinx1 \
 libpocketsphinx1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

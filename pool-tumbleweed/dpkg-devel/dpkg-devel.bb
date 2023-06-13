@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "deb-devel \
 dpkg-devel \
 dpkg-devel(aarch-64) \
 pkgconfig(libdpkg)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dpkg \
 libmd-devel"

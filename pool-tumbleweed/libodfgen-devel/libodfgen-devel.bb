@@ -11,6 +11,7 @@ RPM_HASH = "9fbb7abd298cb4c534a32306771686fdb5b0b777bcd1e3b96b51e0151972bba23d29
 RPROVIDES:${PN} += "libodfgen-devel \
 libodfgen-devel(aarch-64) \
 pkgconfig(libodfgen-0.1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libodfgen-0_1-1 \
 libstdc++-devel \

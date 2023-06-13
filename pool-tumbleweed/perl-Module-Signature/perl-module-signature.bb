@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Module::Signature) \
 perl-Module-Signature"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 gpg \
 perl(:MODULE_COMPAT_5.36.0)"

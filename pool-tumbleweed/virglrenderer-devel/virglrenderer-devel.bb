@@ -13,6 +13,7 @@ RPM_HASH = "a140b3731f08c4196356999d6404ffd626cacd5f9d364686b9f34bfd3639c5ec3d1c
 RPROVIDES:${PN} += "pkgconfig(virglrenderer) \
 virglrenderer-devel \
 virglrenderer-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvirglrenderer1"
 

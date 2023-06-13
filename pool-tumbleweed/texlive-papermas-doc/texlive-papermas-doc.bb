@@ -9,6 +9,7 @@ RPM_HASH = "7638252eebb0a3b4151dd36bf3d98fe03cee0ac9304db0a28b66e8ae76960ead0bc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-papermas-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

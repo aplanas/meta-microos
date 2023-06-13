@@ -66,6 +66,7 @@ locale(kigo:ug) \
 locale(kigo:uk) \
 locale(kigo:zh_CN) \
 locale(kigo:zh_TW)"
+
 RDEPENDS:${PN} += "kigo"
 
 inherit rpm

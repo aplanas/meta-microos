@@ -10,6 +10,7 @@ RPM_HASH = "543c65f58831ee699b117eb20e7fb7e54796232817f3d0a78f4ff0f1be7216bf7c08
 RPROVIDES:${PN} += "ghc-hashtables-prof \
 ghc-hashtables-prof(aarch-64) \
 ghc-prof(hashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p)"
+
 RDEPENDS:${PN} += "ghc-hashtables-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(ghc-prim-0.9.0) \

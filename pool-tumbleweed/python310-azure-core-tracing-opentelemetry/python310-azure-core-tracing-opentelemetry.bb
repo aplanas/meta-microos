@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-azure-core-tracing-opentelemetry \
 python3.10dist(azure-core-tracing-opentelemetry) \
 python310-azure-core-tracing-opentelemetry \
 python3dist(azure-core-tracing-opentelemetry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

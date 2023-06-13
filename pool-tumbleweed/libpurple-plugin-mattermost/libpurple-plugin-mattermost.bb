@@ -15,6 +15,7 @@ RPM_HASH = "2751ac3b00cec9207ee787b8d5a1f3b4e676fc244836c0f00f2c6f8d04ce30600bc9
 RPROVIDES:${PN} += "libmattermost.so()(64bit) \
 libpurple-plugin-mattermost \
 libpurple-plugin-mattermost(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

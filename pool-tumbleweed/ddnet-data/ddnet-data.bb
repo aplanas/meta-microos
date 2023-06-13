@@ -9,6 +9,7 @@ RPM_HASH = "b6c2e5879c817bb367b94b89cf3ffde0b5c2fa8527f2e1fad2c2711dedcf017aac02
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ddnet-data"
+
 RDEPENDS:${PN} += "ddnet"
 
 inherit rpm

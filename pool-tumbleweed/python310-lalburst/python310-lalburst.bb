@@ -10,6 +10,7 @@ RPM_HASH = "cdc195b47f25138fb8ee986102574e8e367d01737ef37e7c37e86516ca404b550a5a
 RPROVIDES:${PN} += "python3-lalburst \
 python310-lalburst \
 python310-lalburst(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

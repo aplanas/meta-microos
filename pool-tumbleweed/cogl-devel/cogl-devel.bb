@@ -19,6 +19,7 @@ pkgconfig(cogl-pango-1.0) \
 pkgconfig(cogl-pango-2.0-experimental) \
 pkgconfig(cogl-path-1.0) \
 pkgconfig(cogl-path-2.0-experimental)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-devel \
 libcogl-gles2-20 \

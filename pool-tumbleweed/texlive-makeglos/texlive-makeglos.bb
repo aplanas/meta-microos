@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makeglos.sty) \
 texlive-makeglos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

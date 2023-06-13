@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(a4wide.sty) \
 texlive-a4wide"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

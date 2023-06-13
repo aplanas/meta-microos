@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font(powerlinesymbols) \
 powerline-fonts"
+
 RDEPENDS:${PN} += "fontconfig"
 
 inherit rpm

@@ -12,6 +12,7 @@ nml(aarch-64) \
 nmlc \
 python3.10dist(nml) \
 python3dist(nml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

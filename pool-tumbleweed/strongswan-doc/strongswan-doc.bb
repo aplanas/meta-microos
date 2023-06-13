@@ -11,6 +11,7 @@ RPM_HASH = "6c542c5918b34b6b8a23ce19e235c80e9a003fb1919086d88972dce4997925c35134
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "strongswan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

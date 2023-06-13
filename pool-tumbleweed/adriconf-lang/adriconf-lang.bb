@@ -16,6 +16,7 @@ locale(adriconf:lv) \
 locale(adriconf:pl) \
 locale(adriconf:pt_BR) \
 locale(adriconf:zh_CN)"
+
 RDEPENDS:${PN} += "adriconf"
 
 inherit rpm

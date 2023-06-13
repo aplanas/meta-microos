@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(gitlog.bbx) \
 tex(gitlog.sty) \
 texlive-gitlog"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

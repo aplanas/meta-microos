@@ -9,6 +9,7 @@ RPM_HASH = "cb2a7d756e1f7447749ef8bab72b29868bb4b1809b4b7191f7013782d836b4e73e4a
 
 RPROVIDES:${PN} += "nano-icinga2 \
 nano-icinga2(aarch-64)"
+
 RDEPENDS:${PN} += "nano"
 
 inherit rpm

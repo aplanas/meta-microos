@@ -29,6 +29,7 @@ RPROVIDES:${PN} += "python3-azure-eventhub \
 python3.10dist(azure-eventhub) \
 python310-azure-eventhub \
 python3dist(azure-eventhub)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

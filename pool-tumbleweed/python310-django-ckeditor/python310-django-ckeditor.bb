@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-ckeditor \
 python3.10dist(django-ckeditor) \
 python310-django-ckeditor \
 python3dist(django-ckeditor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-django-js-asset"

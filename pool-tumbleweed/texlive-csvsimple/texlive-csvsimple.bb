@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(csvsimple-l3.sty) \
 tex(csvsimple-legacy.sty) \
 tex(csvsimple.sty) \
 texlive-csvsimple"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

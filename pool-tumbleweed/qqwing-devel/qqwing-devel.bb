@@ -16,6 +16,7 @@ RPM_HASH = "a78a7f0fd2baffa2d2544086bbccfb60637265c37d18bc23370a35486e691e849013
 RPROVIDES:${PN} += "pkgconfig(qqwing) \
 qqwing-devel \
 qqwing-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqqwing2"
 

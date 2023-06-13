@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libta0 \
 libta_lib.so.0()(64bit) \
 libta_lib0 \
 libta_lib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

@@ -17,6 +17,7 @@ tex(random.tfm) \
 tex(snfont.tfm) \
 tex(xepsf.tex) \
 texlive-knuth-local"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

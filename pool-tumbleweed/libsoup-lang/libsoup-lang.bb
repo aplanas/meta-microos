@@ -74,6 +74,7 @@ locale(libsoup:vi) \
 locale(libsoup:zh_CN) \
 locale(libsoup:zh_HK) \
 locale(libsoup:zh_TW)"
+
 RDEPENDS:${PN} += "libsoup"
 
 inherit rpm

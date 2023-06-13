@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(openmesh) \
 python311-openmesh \
 python311-openmesh(aarch-64) \
 python3dist(openmesh)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

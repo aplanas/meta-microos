@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(texments.sty) \
 texlive-texments"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

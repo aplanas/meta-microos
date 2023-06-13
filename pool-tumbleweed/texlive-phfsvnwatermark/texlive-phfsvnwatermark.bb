@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phfsvnwatermark.sty) \
 texlive-phfsvnwatermark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

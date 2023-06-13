@@ -10,6 +10,7 @@ RPM_HASH = "d1fbbc6ffa2eb521bc8c34d8539c8fd060368ff6428d67367f275abad88518511b24
 RPROVIDES:${PN} += "libhyphen.so.0()(64bit) \
 libhyphen0 \
 libhyphen0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

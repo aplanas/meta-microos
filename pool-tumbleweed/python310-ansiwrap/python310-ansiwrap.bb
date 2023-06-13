@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-ansiwrap \
 python3.10dist(ansiwrap) \
 python310-ansiwrap \
 python3dist(ansiwrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-textwrap3"
 

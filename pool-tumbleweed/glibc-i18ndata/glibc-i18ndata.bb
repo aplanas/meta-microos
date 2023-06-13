@@ -12,6 +12,7 @@ RPM_HASH = "f811db30574faa198e05386c87877969bf52ba256e31952f938e0bbc22939b054682
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-i18ndata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

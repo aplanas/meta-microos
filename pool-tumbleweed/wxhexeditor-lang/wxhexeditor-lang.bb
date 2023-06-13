@@ -22,6 +22,7 @@ locale(wxhexeditor:tr) \
 locale(wxhexeditor:zh_CN) \
 wxhexeditor-lang \
 wxhexeditor-lang-all"
+
 RDEPENDS:${PN} += "wxhexeditor"
 
 inherit rpm

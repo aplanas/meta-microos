@@ -14,6 +14,7 @@ system-user-grommunio \
 system-user-groweb \
 user(grommunio) \
 user(groweb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

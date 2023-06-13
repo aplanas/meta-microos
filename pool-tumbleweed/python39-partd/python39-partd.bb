@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(partd) \
 python39-partd \
 python3dist(partd)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-locket \
 python39-toolz"

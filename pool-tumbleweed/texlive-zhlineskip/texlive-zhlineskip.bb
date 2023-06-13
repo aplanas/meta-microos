@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zhlineskip.sty) \
 texlive-zhlineskip"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

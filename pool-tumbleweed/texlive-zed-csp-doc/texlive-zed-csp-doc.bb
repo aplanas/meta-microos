@@ -9,6 +9,7 @@ RPM_HASH = "249a874f9b21d5c88c1427364027b222398d955c8562ddee8d961488471bbaab3c0d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zed-csp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

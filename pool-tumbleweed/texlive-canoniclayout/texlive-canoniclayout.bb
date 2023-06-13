@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(canoniclayout.sty) \
 texlive-canoniclayout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

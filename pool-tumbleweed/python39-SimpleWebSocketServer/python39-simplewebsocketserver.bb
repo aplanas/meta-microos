@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(simplewebsocketserver) \
 python39-SimpleWebSocketServer \
 python3dist(simplewebsocketserver)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

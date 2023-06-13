@@ -10,6 +10,7 @@ RPM_HASH = "96e54b03693052ed44a743301a2c25f36843f6414a1f6d16caf58ab0551e3e23113f
 RPROVIDES:${PN} += "libxtrx_lms7002m.so.0.0.0-SUSE()(64bit) \
 libxtrx_lms7002m0_0_0-SUSE \
 libxtrx_lms7002m0_0_0-SUSE(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

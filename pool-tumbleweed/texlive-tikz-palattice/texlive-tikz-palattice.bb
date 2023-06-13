@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tikz-palattice.sty) \
 texlive-tikz-palattice"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

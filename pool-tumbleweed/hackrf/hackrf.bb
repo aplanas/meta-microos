@@ -10,6 +10,7 @@ RPM_HASH = "92e0cad19e52dae23e7a0d63a4a58d26c9b86aef8be67e5593b27674f492361fb50d
 
 RPROVIDES:${PN} += "hackrf \
 hackrf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

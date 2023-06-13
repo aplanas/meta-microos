@@ -15,6 +15,7 @@ ant-jakarta-regexp \
 config(ant-apache-regexp) \
 mvn(org.apache.ant:ant-apache-regexp) \
 mvn(org.apache.ant:ant-apache-regexp:pom:)"
+
 RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \

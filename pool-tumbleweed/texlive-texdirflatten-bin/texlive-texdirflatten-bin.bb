@@ -9,6 +9,7 @@ RPM_HASH = "abb664270f23cbfe16c7ebb3b243602f794c5c4c862149b615938ac460043eb56361
 
 RPROVIDES:${PN} += "texlive-texdirflatten-bin \
 texlive-texdirflatten-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texdirflatten"
 
 inherit rpm

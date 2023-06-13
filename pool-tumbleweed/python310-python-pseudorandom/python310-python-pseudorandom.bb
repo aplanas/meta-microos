@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-python-pseudorandom \
 python3.10dist(python-pseudorandom) \
 python310-python-pseudorandom \
 python3dist(python-pseudorandom)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-python-datamatrix"
 

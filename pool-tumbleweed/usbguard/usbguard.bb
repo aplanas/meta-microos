@@ -12,6 +12,7 @@ RPM_HASH = "54fbca408dbebae38825b492c0192d674c3017d36a4772a6a0bfd7bf069b5275dbe6
 RPROVIDES:${PN} += "config(usbguard) \
 usbguard \
 usbguard(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

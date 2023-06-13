@@ -9,6 +9,7 @@ RPM_HASH = "c5b489ea8b352876429b315be64032b0cbaef1406c933b07d7abba2ebce43a84f90c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-showdim-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

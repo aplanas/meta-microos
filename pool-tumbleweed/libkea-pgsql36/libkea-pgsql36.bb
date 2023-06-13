@@ -10,6 +10,7 @@ RPM_HASH = "c91936dcc8a1afbd8883cbebaad6a23818f7ab0e62ceb7595b5d356e664f14ffe399
 RPROVIDES:${PN} += "libkea-pgsql.so.36()(64bit) \
 libkea-pgsql36 \
 libkea-pgsql36(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

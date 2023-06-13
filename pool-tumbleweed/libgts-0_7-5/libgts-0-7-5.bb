@@ -10,6 +10,7 @@ RPM_HASH = "caa7f1c3c16613cee434d4a44af77dc2aa1a084c47fe2a094614efd596a792e7fa6d
 RPROVIDES:${PN} += "libgts-0.7.so.5()(64bit) \
 libgts-0_7-5 \
 libgts-0_7-5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

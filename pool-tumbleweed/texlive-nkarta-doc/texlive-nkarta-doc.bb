@@ -9,6 +9,7 @@ RPM_HASH = "c4daccb4fd06bde5cb95922e666b09e868af5682b45939e57decb3715fe05e25b438
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nkarta-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

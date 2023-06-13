@@ -12,6 +12,7 @@ RPM_HASH = "b1f433625e40ba09ab6a8e4555c8ae4295b79e56d77540a520e4ad3b64accadc399b
 
 RPROVIDES:${PN} += "libcli-devel \
 libcli-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcli1_10"
 
 inherit rpm

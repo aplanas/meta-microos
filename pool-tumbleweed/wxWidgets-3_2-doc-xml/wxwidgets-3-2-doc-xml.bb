@@ -15,6 +15,7 @@ RPM_HASH = "63d6869154cfcd5ea1258a947280d6f8acda1c59abd8492e258a2a978da99b02de7b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxWidgets-3_2-doc-xml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

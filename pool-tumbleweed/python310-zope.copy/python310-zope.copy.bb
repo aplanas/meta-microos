@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-zope.copy \
 python3.10dist(zope.copy) \
 python310-zope.copy \
 python3dist(zope.copy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-zope.interface"
 

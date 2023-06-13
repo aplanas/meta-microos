@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-javapackages \
 python3.10dist(javapackages) \
 python310-javapackages \
 python3dist(javapackages)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-lxml \
 python310-xml"

@@ -60,6 +60,7 @@ locale(libpwquality:uk) \
 locale(libpwquality:vi) \
 locale(libpwquality:zh_CN) \
 locale(libpwquality:zh_TW)"
+
 RDEPENDS:${PN} += "libpwquality"
 
 inherit rpm

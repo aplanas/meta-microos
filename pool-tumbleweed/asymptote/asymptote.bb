@@ -12,6 +12,7 @@ RPM_HASH = "d863cbc143e902a89caded9a006078bc45848577d14ad53d523dbe59ade949fe9a41
 
 RPROVIDES:${PN} += "asymptote \
 asymptote(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

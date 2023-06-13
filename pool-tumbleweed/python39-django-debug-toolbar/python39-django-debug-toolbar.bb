@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-debug-toolbar) \
 python39-django-debug-toolbar \
 python3dist(django-debug-toolbar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-django-jinja \

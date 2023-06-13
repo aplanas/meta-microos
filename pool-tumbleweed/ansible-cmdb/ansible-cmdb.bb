@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-cmdb \
 python3.10dist(ansible-cmdb) \
 python3dist(ansible-cmdb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

@@ -13,6 +13,7 @@ RPM_HASH = "55fed8f7a97f5a94e778700ade6cd28a43821bcc0362204de0651cbd075dc067210f
 RPROVIDES:${PN} += "libgda-6_0-doc \
 libgda-6_0-doc(aarch-64) \
 libgda-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

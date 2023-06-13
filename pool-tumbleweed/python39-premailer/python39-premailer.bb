@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(premailer) \
 python39-premailer \
 python3dist(premailer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cachetools \
 python39-cssselect \

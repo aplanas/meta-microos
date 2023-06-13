@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(you-get) \
 python3dist(you-get) \
 you-get"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
 python(abi)"

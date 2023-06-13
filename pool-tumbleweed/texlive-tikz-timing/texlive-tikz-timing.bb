@@ -26,6 +26,7 @@ tex(tikz-timing-nicetabs.sty) \
 tex(tikz-timing-overlays.sty) \
 tex(tikz-timing.sty) \
 texlive-tikz-timing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

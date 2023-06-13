@@ -18,6 +18,7 @@ RPM_HASH = "cc29f8b46fe7bec6f279d9aff1f1699dc5b7eec0997ea723e3ea24b6cecf84475785
 RPROVIDES:${PN} += "libgensiocpp.so.4()(64bit) \
 libgensiocpp4 \
 libgensiocpp4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

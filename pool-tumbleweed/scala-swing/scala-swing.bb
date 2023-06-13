@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.scala-lang:scala-swing) \
 mvn(org.scala-lang:scala-swing:pom:) \
 scala-swing"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

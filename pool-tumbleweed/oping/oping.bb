@@ -11,6 +11,7 @@ RPM_HASH = "cca2e62391ea7841a99115e091b5399c2d4bc440844dde0ed7cee2e14e33ee861cea
 
 RPROVIDES:${PN} += "oping \
 oping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

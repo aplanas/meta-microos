@@ -12,6 +12,7 @@ RPM_HASH = "7df7bffdd6afd1173417bae92a94bd341b186e9cf1a72af4c29d51fe995bfd417e29
 RPROVIDES:${PN} += "filter_audio-devel \
 filter_audio-devel(aarch-64) \
 pkgconfig(filteraudio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfilteraudio0"
 

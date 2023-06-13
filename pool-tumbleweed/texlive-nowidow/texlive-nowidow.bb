@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nowidow.sty) \
 texlive-nowidow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

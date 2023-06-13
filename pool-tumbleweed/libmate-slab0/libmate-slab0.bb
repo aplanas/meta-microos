@@ -11,6 +11,7 @@ RPM_HASH = "7fc6fd68d0e59044e41e54343a7506970b20d05cc488b83e5a6ccc5f0027627ad1d4
 RPROVIDES:${PN} += "libmate-slab.so.0()(64bit) \
 libmate-slab0 \
 libmate-slab0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

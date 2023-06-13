@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(uncertainties) \
 python311-uncertainties \
 python3dist(uncertainties)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-curlylint \
 python3.10dist(curlylint) \
 python310-curlylint \
 python3dist(curlylint)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

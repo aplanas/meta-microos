@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-lens.sty) \
 tex(pst-lens.tex) \
 texlive-pst-lens"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

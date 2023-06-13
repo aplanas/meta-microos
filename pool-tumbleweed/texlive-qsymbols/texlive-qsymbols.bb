@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(qsymbols.sty) \
 texlive-qsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

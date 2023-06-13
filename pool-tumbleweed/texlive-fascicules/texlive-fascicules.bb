@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fascicules.sty) \
 texlive-fascicules"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

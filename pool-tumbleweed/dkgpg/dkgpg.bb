@@ -29,6 +29,7 @@ RPM_HASH = "16900b4eadd4e3ed23495ba929b1061ce145087f22a4de1cdf9b1c3d39050023355d
 
 RPROVIDES:${PN} += "dkgpg \
 dkgpg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libTMCG.so.18()(64bit) \

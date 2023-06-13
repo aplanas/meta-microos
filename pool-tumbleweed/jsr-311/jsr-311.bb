@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jsr-311 \
 mvn(javax.ws.rs:jsr311-api) \
 mvn(javax.ws.rs:jsr311-api:pom:) \
 osgi(javax.ws.rs.jsr311-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

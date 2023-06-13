@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(kiss-headers) \
 python311-kiss-headers \
 python311-kiss-headers(aarch-64) \
 python3dist(kiss-headers)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

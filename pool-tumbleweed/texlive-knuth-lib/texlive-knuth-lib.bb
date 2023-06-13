@@ -24,6 +24,7 @@ tex(testfont.tex) \
 tex(webmac.tex) \
 texlive-knuth-lib \
 texlive-misc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

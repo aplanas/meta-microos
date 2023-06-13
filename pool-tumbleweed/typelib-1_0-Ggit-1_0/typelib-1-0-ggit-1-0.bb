@@ -10,6 +10,7 @@ RPM_HASH = "6a359e9a98efad7c9243e3b39c4ede78de4c5e705cfe446744a7eb495862cb867764
 RPROVIDES:${PN} += "typelib(Ggit) \
 typelib-1_0-Ggit-1_0 \
 typelib-1_0-Ggit-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgit2-glib-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

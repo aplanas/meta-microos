@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(javapackages) \
 python39-javapackages \
 python3dist(javapackages)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-lxml \
 python39-xml"

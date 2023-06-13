@@ -9,6 +9,7 @@ RPM_HASH = "062d1a004c3a4bbd28d486c9ba78d58a2c1c0b9820382530982ad9b98f44223ae6b7
 
 RPROVIDES:${PN} += "python-nss-doc \
 python-nss-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

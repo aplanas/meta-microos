@@ -9,6 +9,7 @@ RPM_HASH = "93740c9537ae0b80108a91b353d1056f7d5109ce4161cd1490fe07de42ef865bfcf0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pfdicons-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "1fd11af82b2fdb12d6cb9bbdb3525aa8bd5173f895b324107ed95d24858ac9f1d37e
 RPROVIDES:${PN} += "cantor-devel \
 cantor-devel(aarch-64) \
 cmake(Cantor)"
+
 RDEPENDS:${PN} += "cmake(KF5Archive) \
 cmake(KF5Completion) \
 cmake(KF5Config) \

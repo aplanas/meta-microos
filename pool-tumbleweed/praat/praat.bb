@@ -20,6 +20,7 @@ mimehandler(text/praat-pitch) \
 mimehandler(text/praat-textgrid) \
 praat \
 praat(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

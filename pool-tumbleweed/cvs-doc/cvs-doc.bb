@@ -11,6 +11,7 @@ RPM_HASH = "df5051efddbedf795bd9f5a7f8017d7ef25ae86c2cfd555ffd46564344f5c27ea15b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cvs-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

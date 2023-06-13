@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-registration \
 python3.10dist(django-registration) \
 python310-django-registration \
 python3dist(django-registration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-confusable-homoglyphs"

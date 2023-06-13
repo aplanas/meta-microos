@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(shared-python-startup) \
 shared-python-startup"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

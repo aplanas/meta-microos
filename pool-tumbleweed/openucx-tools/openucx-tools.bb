@@ -10,6 +10,7 @@ RPM_HASH = "dc60dc4be6d7564c94c8346920578d010540b7b1a2e84c9b49785f1ac6d99da7c733
 RPROVIDES:${PN} += "openucx-tools \
 openucx-tools(aarch-64) \
 pkgconfig(ucx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "kdeedu-data \
 libkdeedu4-data \
 libkeduvocdocument-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

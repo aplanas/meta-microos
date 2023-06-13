@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-fragmaster-doc:en;de) \
 texlive-fragmaster-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

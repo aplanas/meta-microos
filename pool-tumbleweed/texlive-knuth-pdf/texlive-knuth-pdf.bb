@@ -21,6 +21,7 @@ RPM_HASH = "c83ce9ef1dbe68fa140359047d6f5703ad5c3ad4309a0f1fdbafc0be17f47b68d845
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-pdf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

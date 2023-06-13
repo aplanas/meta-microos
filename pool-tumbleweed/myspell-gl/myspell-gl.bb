@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:gl) \
 myspell-dictionary \
 myspell-galician \
 myspell-gl"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

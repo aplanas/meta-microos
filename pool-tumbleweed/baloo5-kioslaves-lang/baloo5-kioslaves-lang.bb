@@ -60,6 +60,7 @@ locale(baloo5-kioslaves:tr) \
 locale(baloo5-kioslaves:uk) \
 locale(baloo5-kioslaves:zh_CN) \
 locale(baloo5-kioslaves:zh_TW)"
+
 RDEPENDS:${PN} += "baloo5-kioslaves"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "263b8c55bc84cabf7691745149398a71647c8e930bca0423cd412b16623129015f87
 RPROVIDES:${PN} += "libftxf-devel \
 libftxf-devel(aarch-64) \
 pkgconfig(libftxf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libftxf1"
 

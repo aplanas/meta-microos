@@ -16,6 +16,7 @@ RPM_HASH = "53121c0613c444056761250ea403f53f647ecced244d7e04eaa92bc87c747c6d3d3a
 RPROVIDES:${PN} += "libpskc-devel \
 libpskc-devel(aarch-64) \
 pkgconfig(libpskc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libpskc0"

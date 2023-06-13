@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-ieejtran-doc:ja) \
 texlive-ieejtran-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

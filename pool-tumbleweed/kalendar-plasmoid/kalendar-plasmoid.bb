@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "kalendar-plasmoid \
 kalendar-plasmoid(aarch-64) \
 metainfo() \
 metainfo(org.kde.kalendar.contact.appdata.xml)"
+
 RDEPENDS:${PN} += "kalendar \
 qt5qmlimport(QtGraphicalEffects.1) \
 qt5qmlimport(QtQml.2) \

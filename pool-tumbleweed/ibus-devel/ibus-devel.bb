@@ -11,6 +11,7 @@ RPM_HASH = "2df8293573fe0ac64186819c88a86de2c8e28431701cb987a5d3309c86a463b98d00
 RPROVIDES:${PN} += "ibus-devel \
 ibus-devel(aarch-64) \
 pkgconfig(ibus-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1-devel \
 glib2-devel \

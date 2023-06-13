@@ -52,6 +52,7 @@ locale(xfce4-calculator-plugin:zh_TW) \
 xfce4-calculator-plugin-lang \
 xfce4-calculator-plugin-lang-all \
 xfce4-panel-plugin-calculator-lang"
+
 RDEPENDS:${PN} += "xfce4-calculator-plugin"
 
 inherit rpm

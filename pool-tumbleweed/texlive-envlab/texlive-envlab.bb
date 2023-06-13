@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(envlab.cfg) \
 tex(envlab.sty) \
 texlive-envlab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

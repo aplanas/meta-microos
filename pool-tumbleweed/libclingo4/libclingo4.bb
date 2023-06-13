@@ -11,6 +11,7 @@ RPM_HASH = "6349b7f4e88493bf10e14bf800ba3ca57af751641bea09dc1cfb0e2952030ef123bf
 RPROVIDES:${PN} += "libclingo.so.4()(64bit) \
 libclingo4 \
 libclingo4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

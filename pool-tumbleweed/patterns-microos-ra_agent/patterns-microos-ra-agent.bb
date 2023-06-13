@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-ra_agent \
 patterns-microos-ra_agent(aarch-64)"
+
 RDEPENDS:${PN} += "dmidecode \
 pattern() \
 rust-keylime"

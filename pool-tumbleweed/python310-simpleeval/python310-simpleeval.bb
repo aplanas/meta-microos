@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-simpleeval \
 python3.10dist(simpleeval) \
 python310-simpleeval \
 python3dist(simpleeval)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

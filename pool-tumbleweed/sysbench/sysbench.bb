@@ -11,6 +11,7 @@ RPM_HASH = "beea854feef6eac4c0bd9c4bc9fa05db17ae1edb390b01c04de939c5a2078cfc8fc9
 
 RPROVIDES:${PN} += "sysbench \
 sysbench(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

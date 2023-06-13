@@ -19,6 +19,7 @@ python3.10dist(widgetsnbextension) \
 python310-jupyter_widgetsnbextension \
 python310-widgetsnbextension \
 python3dist(widgetsnbextension)"
+
 RDEPENDS:${PN} += "jupyter-widgetsnbextension \
 python(abi)"
 

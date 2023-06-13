@@ -9,6 +9,7 @@ RPM_HASH = "0053ef5ef906aeb87adaac2da5607b5431ec8f7dff9cfe68812f770e8b5e7de2ba0b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lkproof-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

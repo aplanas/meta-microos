@@ -10,6 +10,7 @@ RPM_HASH = "2ad132cdaf8dcfc844514987ddc3f00c02c825f260956bd307d4ccc983cbdba7bc58
 RPROVIDES:${PN} += "libhdhomerun-devel \
 libhdhomerun-devel(aarch-64) \
 libhdhomerun:/usr/include/libhdhomerun/hdhomerun.h"
+
 RDEPENDS:${PN} += "libhdhomerun2"
 
 inherit rpm

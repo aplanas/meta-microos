@@ -14,6 +14,7 @@ RPM_HASH = "486b2a0d73ecfb78e03f049788bebda78fde3e250f423fd539dc8765c07cb53ed94e
 RPROVIDES:${PN} += "pkgconfig(rpm) \
 rpm-devel \
 rpm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(libzstd) \
 pkgconfig(popt) \

@@ -13,6 +13,7 @@ RPM_HASH = "afdefcc51d52fe0f2f749a944177fd81ab7c57f21644a29c61f3e7ec0c29fb5f7e14
 
 RPROVIDES:${PN} += "xf86-video-ati \
 xf86-video-ati(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

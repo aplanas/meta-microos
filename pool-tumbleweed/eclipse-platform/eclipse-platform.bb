@@ -157,6 +157,7 @@ osgi(org.eclipse.ui.workbench) \
 osgi(org.eclipse.ui.workbench.texteditor) \
 osgi(org.eclipse.update.configurator) \
 osgi(org.eclipse.urischeme)"
+
 RDEPENDS:${PN} += "ant \
 ant-antlr \
 ant-apache-bcel \

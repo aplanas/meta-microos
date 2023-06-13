@@ -12,6 +12,7 @@ RPM_HASH = "11f2451a51543d31af6a4ffd2c716d0b8ca065f1aacfbb9c0a421776419d3e2af8ef
 RPROVIDES:${PN} += "libgaminggearfx.so.0()(64bit) \
 libgaminggearfx0 \
 libgaminggearfx0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

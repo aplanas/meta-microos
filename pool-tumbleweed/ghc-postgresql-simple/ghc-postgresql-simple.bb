@@ -10,6 +10,7 @@ RPM_HASH = "4c9e23f5f91dbed331b2426099af5bd4dfef4da661bed97ac2323468b1d6f3694016
 RPROVIDES:${PN} += "ghc-postgresql-simple \
 ghc-postgresql-simple(aarch-64) \
 libHSpostgresql-simple-0.6.5-4SdcA6z79O7Dp0GdOYFMox-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \

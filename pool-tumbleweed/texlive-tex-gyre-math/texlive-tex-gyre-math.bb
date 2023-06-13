@@ -16,6 +16,7 @@ RPM_HASH = "892d2be1913d44a28cd56a96f8fc92e33bc4cd8083a88b2f783dab421f8eaf5c14f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-gyre-math"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

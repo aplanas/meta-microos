@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-fileid \
 jupyter_server_fileid"
+
 RDEPENDS:${PN} += "python3dist(jupyter-server-fileid)"
 
 inherit rpm

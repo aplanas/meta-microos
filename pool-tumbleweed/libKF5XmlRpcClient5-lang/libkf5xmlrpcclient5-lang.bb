@@ -69,6 +69,7 @@ locale(libKF5XmlRpcClient5:ug) \
 locale(libKF5XmlRpcClient5:uk) \
 locale(libKF5XmlRpcClient5:zh_CN) \
 locale(libKF5XmlRpcClient5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5XmlRpcClient5"
 
 inherit rpm

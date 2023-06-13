@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-OSMPythonTools \
 python3.10dist(osmpythontools) \
 python310-OSMPythonTools \
 python3dist(osmpythontools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-beautifulsoup4 \
 python310-geojson \

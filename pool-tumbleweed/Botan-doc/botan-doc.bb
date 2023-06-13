@@ -9,6 +9,7 @@ RPM_HASH = "7e6bb353bd8819e8a5d24c37ee16288f73d5dc57229b0c353cfd082fcec95c5158c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Botan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

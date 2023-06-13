@@ -10,6 +10,7 @@ RPM_HASH = "16641e635b4b5e649004d5afc81c3f1c6aba7b7cfe908046e7ab03d856cc6705677c
 
 RPROVIDES:${PN} += "bcmatroska2-devel \
 bcmatroska2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbcmatroska2-0"
 
 inherit rpm

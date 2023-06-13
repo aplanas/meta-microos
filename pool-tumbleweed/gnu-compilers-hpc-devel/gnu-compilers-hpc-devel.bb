@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-compilers-hpc-devel \
 gnu13-compilers-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 gcc \
 gcc-c++ \

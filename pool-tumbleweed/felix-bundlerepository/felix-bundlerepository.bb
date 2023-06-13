@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "felix-bundlerepository \
 mvn(org.apache.felix:org.apache.felix.bundlerepository) \
 mvn(org.apache.felix:org.apache.felix.bundlerepository:pom:) \
 osgi(org.apache.felix.bundlerepository)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.sf.kxml:kxml2) \

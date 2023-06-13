@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cron-descriptor) \
 python39-cron-descriptor \
 python3dist(cron-descriptor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

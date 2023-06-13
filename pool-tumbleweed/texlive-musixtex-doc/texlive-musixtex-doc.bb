@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(musixflx.1) \
 man(musixtex.1) \
 texlive-musixtex-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

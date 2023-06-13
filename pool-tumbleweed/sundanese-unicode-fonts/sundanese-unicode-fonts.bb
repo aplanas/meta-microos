@@ -9,6 +9,7 @@ RPM_HASH = "bf6317f6564d4f3f25865592f74933348354c9da1177f4f022ec701448f54b405aae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sundanese-unicode-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

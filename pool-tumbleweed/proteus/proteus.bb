@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "proteus \
 python3.10dist(proteus) \
 python3dist(proteus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-dateutil \
 trytond"

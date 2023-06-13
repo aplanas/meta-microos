@@ -9,6 +9,7 @@ RPM_HASH = "fc4788c89ff7bfa6ee2c3e0b4e19e2d84b9a149ef9daee01667c5826453bf9ce3fe9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-counttexruns-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

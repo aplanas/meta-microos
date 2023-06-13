@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-manuel-doc \
 python310-manuel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

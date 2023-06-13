@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-allpairspy \
 python3.10dist(allpairspy) \
 python310-allpairspy \
 python3dist(allpairspy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

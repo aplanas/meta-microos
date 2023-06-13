@@ -10,6 +10,7 @@ RPM_HASH = "439ba2d2b02f18afab176d8c8969a257a3ebdf9915a2256abf7f136148666050d2d0
 
 RPROVIDES:${PN} += "qemu-vhost-user-gpu \
 qemu-vhost-user-gpu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

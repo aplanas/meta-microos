@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libetpan \
 libetpan.so.20()(64bit) \
 libetpan20 \
 libetpan20(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

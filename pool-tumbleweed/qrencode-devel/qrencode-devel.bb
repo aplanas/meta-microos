@@ -15,6 +15,7 @@ RPM_HASH = "00b19287f49c6e3c7aeb4a6b2fa614f87aa7d5604561f3b692af56d237b484643ce8
 RPROVIDES:${PN} += "pkgconfig(libqrencode) \
 qrencode-devel \
 qrencode-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqrencode4"
 

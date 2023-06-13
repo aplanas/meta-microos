@@ -13,6 +13,7 @@ RPM_HASH = "9975b38dc2dcd3ca3a6c96613ae3e1a98ab1d37707dc692476908868dffc3cde4cba
 
 RPROVIDES:${PN} += "hardening-check \
 hardening-check(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl"
 

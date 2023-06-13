@@ -10,6 +10,7 @@ RPM_HASH = "a5e1653a41ba07378cf3f08a535cdea194fd80506e06c219e419361b04681c847a96
 
 RPROVIDES:${PN} += "raspberrypi-tools-armstubs \
 raspberrypi-tools-armstubs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "f852f0d712a7116cf0e395a4a4b4b90dd5eb7719c23f919da4f06c58ea6cbe5d1080
 
 RPROVIDES:${PN} += "acl \
 acl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

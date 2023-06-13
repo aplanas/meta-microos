@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libhidapi-devel \
 libhidapi-devel(aarch-64) \
 pkgconfig(hidapi-hidraw) \
 pkgconfig(hidapi-libusb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libhidapi-hidraw0 \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tornado \
 python310-tornado"
+
 RDEPENDS:${PN} += "python310-tornado6"
 
 inherit rpm

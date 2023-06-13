@@ -74,6 +74,7 @@ locale(parley:zh_CN) \
 locale(parley:zh_TW) \
 parley-lang \
 parley-lang-all"
+
 RDEPENDS:${PN} += "parley"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "7aba0142af8281d9024d400123b0acf8ff7e5f1fb12800e03d7f70c9750fb5796024
 RPROVIDES:${PN} += "ktp-contact-runner \
 ktp-contact-runner(aarch-64) \
 ktp-contact-runner5"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

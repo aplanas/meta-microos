@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyzo) \
 python39-pyzo \
 python3dist(pyzo)"
+
 RDEPENDS:${PN} += "hicolor-icon-theme \
 python(abi) \
 python39-qt5 \

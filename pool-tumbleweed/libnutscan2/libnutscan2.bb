@@ -13,6 +13,7 @@ RPM_HASH = "840d8b3a5112853db3f48c813cc5a810a3a68a0f90232676d068637ecd6b6b44a070
 RPROVIDES:${PN} += "libnutscan.so.2()(64bit) \
 libnutscan2 \
 libnutscan2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -21,6 +21,7 @@ perl(HTTP::Body::UrlEncoded) \
 perl(HTTP::Body::XForms) \
 perl(HTTP::Body::XFormsMultipart) \
 perl-HTTP-Body"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Headers) \
 perl(IO::File)"

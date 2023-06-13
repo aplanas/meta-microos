@@ -9,6 +9,7 @@ RPM_HASH = "8ead8919795068a8df028528ff300239619c1d257f9d11fa3b90ea1926bcafe3c1d2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-droid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

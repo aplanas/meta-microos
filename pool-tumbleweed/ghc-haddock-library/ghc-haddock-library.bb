@@ -14,6 +14,7 @@ RPM_HASH = "c419a69bf451ba7b4b06c2df94e5b8b40193a6b2cdb1a1e3fa3bb7cf1958ade30528
 RPROVIDES:${PN} += "ghc-haddock-library \
 ghc-haddock-library(aarch-64) \
 libHShaddock-library-1.11.0-3IU1wl1Mct8946s210c9Hs-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "e8cacf1670b391cd44904242a8b8568fe5f2bc57aafb529ef237d1968cca109f085e
 RPROVIDES:${PN} += "typelib(BraseroBurn) \
 typelib-1_0-BraseroBurn-3_2_0 \
 typelib-1_0-BraseroBurn-3_2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libbrasero-burn3.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

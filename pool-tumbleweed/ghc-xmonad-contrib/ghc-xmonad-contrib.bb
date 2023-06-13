@@ -21,6 +21,7 @@ RPM_HASH = "6d5f18a3b130b59e98965e8878882fce54407f39992314085f8dca9f0f9ded0673db
 RPROVIDES:${PN} += "ghc-xmonad-contrib \
 ghc-xmonad-contrib(aarch-64) \
 libHSxmonad-contrib-0.17.1-4q9MntM3g8MH8PR7JoUT1u-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so()(64bit) \
 libHSX11-xft-0.3.4-OhtRmEXzW0LH0wgHeCCWq-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

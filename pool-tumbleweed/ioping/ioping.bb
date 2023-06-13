@@ -10,6 +10,7 @@ RPM_HASH = "4949455a480f9e615ace99144ee99e8b6df52600e2801f13a83d52214d5e7fbfa046
 
 RPROVIDES:${PN} += "ioping \
 ioping(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

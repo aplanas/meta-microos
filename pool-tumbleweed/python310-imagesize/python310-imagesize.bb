@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-imagesize \
 python3.10dist(imagesize) \
 python310-imagesize \
 python3dist(imagesize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

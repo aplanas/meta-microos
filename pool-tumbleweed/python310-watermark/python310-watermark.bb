@@ -16,6 +16,7 @@ python3.10dist(watermark) \
 python310-jupyter_watermark \
 python310-watermark \
 python3dist(watermark)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipython"
 

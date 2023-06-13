@@ -16,6 +16,7 @@ junit4-demo \
 mvn(junit:junit) \
 mvn(junit:junit:pom:) \
 osgi(org.junit)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.hamcrest:hamcrest-core)"

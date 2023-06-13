@@ -47,6 +47,7 @@ tex(rlantia.tfm) \
 tex(rnalnia.tfm) \
 tex(rolivia.tfm) \
 texlive-hacm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "a7a1356c38dd1638aa6561992f308462a42b66ee1d655a001ceb9ea4dd508a7b91ca
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wadalab-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

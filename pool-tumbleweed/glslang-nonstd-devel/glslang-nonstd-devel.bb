@@ -14,6 +14,7 @@ RPM_HASH = "733a4004a9ccc0f0569d33149ebdfced7b77f27145f18e0344831f8707d21f80e614
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glslang-nonstd-devel"
+
 RDEPENDS:${PN} += "libglslang12"
 
 inherit rpm

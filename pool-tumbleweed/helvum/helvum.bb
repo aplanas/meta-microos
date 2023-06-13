@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(org.pipewire.Helvum.desktop) \
 helvum \
 helvum(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \

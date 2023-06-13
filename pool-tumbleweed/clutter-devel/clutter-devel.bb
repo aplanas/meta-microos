@@ -21,6 +21,7 @@ pkgconfig(clutter-glx-1.0) \
 pkgconfig(clutter-wayland-1.0) \
 pkgconfig(clutter-wayland-compositor-1.0) \
 pkgconfig(clutter-x11-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libclutter-1_0-0 \
 pkgconfig(atk) \

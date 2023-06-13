@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bearwear.sty) \
 texlive-bearwear"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

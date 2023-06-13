@@ -35,6 +35,7 @@ pkgconfig(xenvchan) \
 pkgconfig(xlutil) \
 xen-devel \
 xen-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuuid-devel \
 pkgconfig(xencall) \

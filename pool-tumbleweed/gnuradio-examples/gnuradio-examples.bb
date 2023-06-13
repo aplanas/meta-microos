@@ -15,6 +15,7 @@ RPM_HASH = "3d1bb74f8e3d5472e34af34762f65694bf33fa5d6667e9e863d458485bb2c72c3e7e
 
 RPROVIDES:${PN} += "gnuradio-examples \
 gnuradio-examples(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 gnuradio \
 ld-linux-aarch64.so.1()(64bit) \

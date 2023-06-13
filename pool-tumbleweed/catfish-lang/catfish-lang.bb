@@ -57,6 +57,7 @@ locale(catfish:tr) \
 locale(catfish:uk) \
 locale(catfish:zh_CN) \
 locale(catfish:zh_TW)"
+
 RDEPENDS:${PN} += "catfish"
 
 inherit rpm

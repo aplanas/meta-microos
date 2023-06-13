@@ -12,6 +12,7 @@ RPM_HASH = "3535938b4ade85191c108885e0eab7f8055ccee857e5d44830c134cfa0f72e3115d7
 
 RPROVIDES:${PN} += "cross-s390x-gcc13 \
 cross-s390x-gcc13(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-s390x-binutils \
 libstdc++6-devel-gcc13 \

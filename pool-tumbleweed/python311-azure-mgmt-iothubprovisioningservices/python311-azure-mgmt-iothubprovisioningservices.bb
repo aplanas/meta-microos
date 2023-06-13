@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-iothubprovisioningservices) \
 python311-azure-mgmt-iothubprovisioningservices \
 python3dist(azure-mgmt-iothubprovisioningservices)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-core \

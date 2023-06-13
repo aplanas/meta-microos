@@ -17,6 +17,7 @@ tex(datetime2-irish-ascii.ldf) \
 tex(datetime2-irish-utf8.ldf) \
 tex(datetime2-irish.ldf) \
 texlive-datetime2-irish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

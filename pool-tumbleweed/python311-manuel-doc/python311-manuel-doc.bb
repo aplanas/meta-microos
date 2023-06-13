@@ -9,6 +9,7 @@ RPM_HASH = "c5a085ebe4fb5f628a3e0e260e94b8c7a8572f4a57e0bc49062dc81471c0255021b0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-manuel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

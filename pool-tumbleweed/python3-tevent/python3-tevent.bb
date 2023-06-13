@@ -9,6 +9,7 @@ RPM_HASH = "7904929b9fe2d4eae4bfd39ac8817808f856230b5e46b6f0369c5e5fd6f9d03ffed5
 
 RPROVIDES:${PN} += "python3-tevent \
 python3-tevent(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ leechcraft-monocle-pdf(aarch-64) \
 leechcraft-monocle-subplugin \
 libleechcraft_monocle_pdf.so()(64bit) \
 mimehandler(application/x-pdf)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

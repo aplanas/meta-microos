@@ -18,6 +18,7 @@ tex(pmhanguljamo-frkim.sty) \
 tex(pmhanguljamo-rrk.sty) \
 tex(pmhanguljamo.sty) \
 texlive-pmhanguljamo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

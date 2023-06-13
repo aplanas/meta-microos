@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(casttube) \
 python39-casttube \
 python3dist(casttube)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9795fb03fa05c119f6474b2ce62c2e17888d6452e66c921c666cf0fe060354d021a9
 
 RPROVIDES:${PN} += "texlive-uplatex-bin \
 texlive-uplatex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-uplatex"
 
 inherit rpm

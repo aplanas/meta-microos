@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-threadpoolctl \
 python3.10dist(threadpoolctl) \
 python310-threadpoolctl \
 python3dist(threadpoolctl)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

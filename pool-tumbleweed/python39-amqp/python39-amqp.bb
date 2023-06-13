@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(amqp) \
 python39-amqp \
 python3dist(amqp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-vine"
 

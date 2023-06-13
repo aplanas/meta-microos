@@ -14,6 +14,7 @@ RPM_HASH = "bff55d1f319f1b36d9fd7c814eb99ffc350cc88f28ef694b3594b3de1edd2da866c3
 RPROVIDES:${PN} += "libdbus-c++-glib-devel \
 libdbus-c++-glib-devel(aarch-64) \
 pkgconfig(dbus-c++-glib-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbus-c++-glib-1-1 \
 pkgconfig(dbus-c++-1)"

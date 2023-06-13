@@ -12,6 +12,7 @@ RPM_HASH = "587d3fb05266bb3dff3da997f77a2eeeaddd05a9c9b9b3d55b9c27804bbeef8b2125
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengost-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

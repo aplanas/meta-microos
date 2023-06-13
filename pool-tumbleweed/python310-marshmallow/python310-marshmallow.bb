@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-marshmallow \
 python3.10dist(marshmallow) \
 python310-marshmallow \
 python3dist(marshmallow)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

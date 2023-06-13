@@ -10,6 +10,7 @@ RPM_HASH = "85725d42f83b84b93a3117be77349e2cccde0f49f206b6c332f26c2ac28f85a4854a
 
 RPROVIDES:${PN} += "a2jmidid \
 a2jmidid(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

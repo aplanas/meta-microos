@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eledform.sty) \
 texlive-eledform"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

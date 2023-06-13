@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(tinyrecord) \
 python39-tinyrecord \
 python3dist(tinyrecord)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-tinydb"
 

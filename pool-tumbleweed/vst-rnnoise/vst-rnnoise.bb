@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "librnnoise_mono.so()(64bit) \
 librnnoise_stereo.so()(64bit) \
 vst-rnnoise \
 vst-rnnoise(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

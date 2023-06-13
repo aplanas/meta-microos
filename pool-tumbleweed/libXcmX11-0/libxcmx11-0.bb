@@ -12,6 +12,7 @@ RPM_HASH = "d703f16ae7c92c3b6c701cec06f79a92fea7393849936253e8daa8cc69a5ed7d966b
 RPROVIDES:${PN} += "libXcmX11-0 \
 libXcmX11-0(aarch-64) \
 libXcmX11.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

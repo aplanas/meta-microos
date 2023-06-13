@@ -153,6 +153,7 @@ tex(andk-tlf-ts1--base.tfm) \
 tex(andk-tlf-ts1.tfm) \
 tex(andk-tlf-ts1.vf) \
 texlive-andika"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

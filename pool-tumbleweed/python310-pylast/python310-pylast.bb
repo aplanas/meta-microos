@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-pylast \
 python3.10dist(pylast) \
 python310-pylast \
 python3dist(pylast)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

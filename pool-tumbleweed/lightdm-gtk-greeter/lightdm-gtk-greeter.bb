@@ -12,6 +12,7 @@ RPM_HASH = "2d799f64559623fb9d541284d01afa119e9133d28bc02e15764430562534756b5003
 RPROVIDES:${PN} += "lightdm-greeter \
 lightdm-gtk-greeter \
 lightdm-gtk-greeter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ RPM_HASH = "ebfbfadecee2f803b8174579832f1feb0a012cc9976312371649a1592f9d382253b4
 RPROVIDES:${PN} += "libcorrect-devel \
 libcorrect-devel(aarch-64) \
 pkgconfig(libcorrect)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcorrect0_0_0"
 

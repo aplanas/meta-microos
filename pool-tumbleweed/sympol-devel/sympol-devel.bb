@@ -10,6 +10,7 @@ RPM_HASH = "5de09e857dd5b493761dae12eb7442aafaa1fa0030573e835572f251fb400c792e32
 
 RPROVIDES:${PN} += "sympol-devel \
 sympol-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsympol0_1 \
 permlib-devel"
 

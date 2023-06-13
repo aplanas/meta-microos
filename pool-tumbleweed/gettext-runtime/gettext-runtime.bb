@@ -18,6 +18,7 @@ gettext-runtime(aarch-64) \
 libasprintf.so.0()(64bit) \
 libgettextlib-0.21.1.so()(64bit) \
 libgettextsrc-0.21.1.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

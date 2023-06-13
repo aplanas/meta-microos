@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.sun.xsom:xsom) \
 mvn(com.sun.xsom:xsom:pom:) \
 xsom"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(relaxngDatatype:relaxngDatatype)"

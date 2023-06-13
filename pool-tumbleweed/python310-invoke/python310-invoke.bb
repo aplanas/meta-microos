@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-invoke \
 python3.10dist(invoke) \
 python310-invoke \
 python3dist(invoke)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

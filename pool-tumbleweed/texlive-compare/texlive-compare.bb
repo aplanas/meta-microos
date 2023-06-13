@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(compare.tex) \
 texlive-compare"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-openidc-client \
 python3.10dist(openidc-client) \
 python310-openidc-client \
 python3dist(openidc-client)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

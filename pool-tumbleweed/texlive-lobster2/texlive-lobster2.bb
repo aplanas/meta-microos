@@ -83,6 +83,7 @@ tex(lbstr_bucufw.enc) \
 tex(lbstr_pvoz5h.enc) \
 tex(lbstr_t7yaon.enc) \
 texlive-lobster2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

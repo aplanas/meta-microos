@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qterminal-lang \
 qterminal-lang-all"
+
 RDEPENDS:${PN} += "qterminal"
 
 inherit rpm

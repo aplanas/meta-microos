@@ -15,6 +15,7 @@ RPM_HASH = "a5bdd32460fd100098833bce3bf48976913da18a04c0b0e1629d3747bebe4d777caa
 RPROVIDES:${PN} += "libmopac7-1 \
 libmopac7-1(aarch-64) \
 libmopac7.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

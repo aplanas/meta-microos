@@ -9,6 +9,7 @@ RPM_HASH = "ff08f1c6816b83579b7164496fbf6370656554295f731bfd2330ee0dc27b0e337efa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thaienum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "c6039325d2cb2ccbc8efcbcedc2f9723650fe8dd8e30ba425933fe69af0aa64eede5
 RPROVIDES:${PN} += "libgeotiff.so.5()(64bit) \
 libgeotiff5 \
 libgeotiff5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libproj.so.25()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "3abd8fb1aab014c38a9dbbec6aa2e973cefdaed674e2cdd9efee5b4070b88b452e2b
 
 RPROVIDES:${PN} += "irqbalance \
 irqbalance(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

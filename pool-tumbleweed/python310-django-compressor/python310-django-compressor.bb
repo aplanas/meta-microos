@@ -16,6 +16,7 @@ python3.10dist(django-compressor) \
 python310-django-compressor \
 python310-django_compressor \
 python3dist(django-compressor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Jinja2 \

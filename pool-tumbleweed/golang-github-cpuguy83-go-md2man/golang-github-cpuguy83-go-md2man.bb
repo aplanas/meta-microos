@@ -9,6 +9,7 @@ RPM_HASH = "54af1836dc181a4561348ff7d951bf488384a7778836dc91e2e01ba36ccd3d480b1e
 
 RPROVIDES:${PN} += "golang-github-cpuguy83-go-md2man \
 golang-github-cpuguy83-go-md2man(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -36,6 +36,7 @@ perl(HTML::ElementTable::HeaderElement) \
 perl(HTML::ElementTable::RowElement) \
 perl(HTML::ElementTable::RowGlob) \
 perl-HTML-Element-Extended"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Data::Dumper) \
 perl(HTML::Element)"

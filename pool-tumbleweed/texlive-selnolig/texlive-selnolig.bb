@@ -31,6 +31,7 @@ tex(selnolig-german-hyphex.sty) \
 tex(selnolig-german-patterns.sty) \
 tex(selnolig.sty) \
 texlive-selnolig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

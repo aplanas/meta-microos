@@ -11,6 +11,7 @@ RPM_HASH = "e161caa8083e5139c265f2e86034db712585d663d7cf183fdf5b03cae05bff5a7228
 RPROVIDES:${PN} += "libsocket_wrapper_noop.so.0()(64bit) \
 libsocket_wrapper_noop0 \
 libsocket_wrapper_noop0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig"
 
 inherit rpm

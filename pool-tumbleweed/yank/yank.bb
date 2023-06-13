@@ -12,6 +12,7 @@ RPM_HASH = "911d78516e92dc5cc2ee00594fb0a0f66d92596c1946954220c2776db39e61f78e58
 
 RPROVIDES:${PN} += "yank \
 yank(aarch-64)"
+
 RDEPENDS:${PN} += "bash \
 libc.so.6(GLIBC_2.34)(64bit)"
 

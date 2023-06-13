@@ -17,6 +17,7 @@ RPM_HASH = "299b193835e6655bbe84b3fb7c29f0fe2f0ad6d7d5eec4464ad6d2a6eb9192a77319
 
 RPROVIDES:${PN} += "nqp \
 nqp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

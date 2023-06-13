@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-ua-parser \
 python3.10dist(ua-parser) \
 python310-ua-parser \
 python3dist(ua-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

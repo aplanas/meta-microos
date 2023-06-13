@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyparallel \
 python3.10dist(pyparallel) \
 python310-pyparallel \
 python3dist(pyparallel)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

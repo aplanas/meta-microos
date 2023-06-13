@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(smart-eqn.sty) \
 texlive-smart-eqn"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

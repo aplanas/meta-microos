@@ -10,6 +10,7 @@ RPM_HASH = "4f81b159ee103cfc303b797a0bb06a3c6abe70f50bde480b23463392af06d527b9c3
 
 RPROVIDES:${PN} += "libcircllhist-devel \
 libcircllhist-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcircllhist0_0_1"
 
 inherit rpm

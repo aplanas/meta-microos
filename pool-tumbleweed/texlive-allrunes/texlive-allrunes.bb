@@ -20,6 +20,7 @@ tex(arm.fd) \
 tex(arn.fd) \
 tex(art.fd) \
 texlive-allrunes"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

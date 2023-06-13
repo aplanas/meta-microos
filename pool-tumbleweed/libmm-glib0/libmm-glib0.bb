@@ -12,6 +12,7 @@ RPM_HASH = "8c11de9cd12e17703be951877e640db26e8a300dd12b49adca7e8629942246b889f1
 RPROVIDES:${PN} += "libmm-glib.so.0()(64bit) \
 libmm-glib0 \
 libmm-glib0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

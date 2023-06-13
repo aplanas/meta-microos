@@ -10,6 +10,7 @@ RPM_HASH = "e4d62017fd8bce0898d231f52905b7714b07cc25702b6802b7a3b0729e77788a3c8c
 RPROVIDES:${PN} += "ghc-dbus-prof \
 ghc-dbus-prof(aarch-64) \
 ghc-prof(dbus-1.2.28-27GbkRPSCRwKgi0yxoNYFh)"
+
 RDEPENDS:${PN} += "ghc-dbus-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

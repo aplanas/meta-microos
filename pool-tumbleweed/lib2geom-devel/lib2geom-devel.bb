@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(2Geom) \
 lib2geom-devel \
 lib2geom-devel(aarch-64) \
 pkgconfig(2geom)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lib2geom1_2_0"
 

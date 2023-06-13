@@ -11,6 +11,7 @@ RPM_HASH = "c75d5dd7be36fafcf2e43595f678a57fdb351a8ac4bec38e715585b6d5008d24c590
 RPROVIDES:${PN} += "libpolys-devel \
 libpolys-devel(aarch-64) \
 pkgconfig(libpolys)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSingular-devel \
 libpolys-4_3_1 \

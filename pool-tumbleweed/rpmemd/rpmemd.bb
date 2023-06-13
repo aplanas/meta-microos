@@ -10,6 +10,7 @@ RPM_HASH = "3d0e017241d9fce5cc7c2795991a75e70abd96cf4875ce8b752b7107cb00dca033d3
 
 RPROVIDES:${PN} += "rpmemd \
 rpmemd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -33,6 +33,7 @@ libQt5PrintSupport.so.5(Qt_5.9)(64bit) \
 libQt5PrintSupport5 \
 libQt5PrintSupport5(aarch-64) \
 libcupsprintersupport.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

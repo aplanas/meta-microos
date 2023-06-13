@@ -11,6 +11,7 @@ RPM_HASH = "3628e4757dea0130713726f1a41eb04b318641bf285986a7cb647f51d7fa4341fe62
 RPROVIDES:${PN} += "ghc-resource-pool \
 ghc-resource-pool(aarch-64) \
 libHSresource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "0261255e4ea9fe6e1c2b3048e33de86485b0b3a4cedd0d5b2b296d48327e68a34fe5
 
 RPROVIDES:${PN} += "bpftrace \
 bpftrace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLLVM.so.15()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "9db4008dfb13454673ccc6e399969291dfdc37cc27b235f55fabea5dfc1f2ed4bdc2
 
 RPROVIDES:${PN} += "octave-forge-mapping \
 octave-forge-mapping(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

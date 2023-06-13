@@ -60,6 +60,7 @@ tex(farsidigits.map) \
 tex(fixlamalif.map) \
 tex(mirrorpunct.map) \
 texlive-arabxetex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "76fb113295d579e5cb9108ba265f2a398175457c7290049ec6e250428643ee39a25b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-orientation-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

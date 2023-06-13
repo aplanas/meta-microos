@@ -69,6 +69,7 @@ locale(ktorrent:ug) \
 locale(ktorrent:uk) \
 locale(ktorrent:zh_CN) \
 locale(ktorrent:zh_TW)"
+
 RDEPENDS:${PN} += "ktorrent"
 
 inherit rpm

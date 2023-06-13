@@ -9,6 +9,7 @@ RPM_HASH = "5b9cf1e30b8dbd833ce9c257b4b5eaff5a6756da5dfb509fb7f2893234d22b8550c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hwemoji-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

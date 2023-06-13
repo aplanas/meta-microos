@@ -18,6 +18,7 @@ capnet-assist(aarch-64) \
 elementary-capnet-assist \
 metainfo() \
 metainfo(io.elementary.capnet-assist.appdata.xml)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "bfe3733f254673437ed5766aeca0682c60a86ae0472f02895bf7cbc38b8ff0260386
 
 RPROVIDES:${PN} += "hawknl-devel \
 hawknl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "hawknl-libs"
 
 inherit rpm

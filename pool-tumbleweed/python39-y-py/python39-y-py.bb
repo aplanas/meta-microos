@@ -19,6 +19,7 @@ python39-y-py \
 python39-y-py(aarch-64) \
 python39-y_py \
 python3dist(y-py)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \
 libgcc_s.so.1(GCC_3.0)(64bit) \

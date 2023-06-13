@@ -61,6 +61,7 @@ locale(thunar-volman:zh_HK) \
 locale(thunar-volman:zh_TW) \
 thunar-volman-lang \
 thunar-volman-lang-all"
+
 RDEPENDS:${PN} += "thunar-volman"
 
 inherit rpm

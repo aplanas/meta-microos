@@ -40,6 +40,7 @@ libtasklistapplet.so()(64bit) \
 libtrayapplet.so()(64bit) \
 libuserindicator.so()(64bit) \
 libworkspacesapplet.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 NetworkManager-applet \
 budgie-control-center \

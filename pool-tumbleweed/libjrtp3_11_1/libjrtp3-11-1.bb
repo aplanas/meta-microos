@@ -11,6 +11,7 @@ RPM_HASH = "156be511994b720dec05eb6fd9d0737a5a33d2ed18eebee86e6328628618114ad0e3
 RPROVIDES:${PN} += "libjrtp.so.3.11.1()(64bit) \
 libjrtp3_11_1 \
 libjrtp3_11_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

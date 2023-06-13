@@ -11,6 +11,7 @@ RPM_HASH = "600d4bde0483bd06c3edbace115445b9e6094425729b9c4e0af011d3f1c0e02ffc34
 RPROVIDES:${PN} += "ghc-old-locale \
 ghc-old-locale(aarch-64) \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

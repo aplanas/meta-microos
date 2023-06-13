@@ -13,6 +13,7 @@ RPM_HASH = "9de2df62dcf1c1c6c1a21aed0c0340e07d352e887c9a82d3214c8d99c827b6c4f82f
 RPROVIDES:${PN} += "liblightgrep-devel \
 liblightgrep-devel(aarch-64) \
 pkgconfig(lightgrep)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblightgrep0 \
 pkgconfig(icu-uc)"

@@ -12,6 +12,7 @@ RPM_HASH = "96ffa0bf913aede5a903eaf0addf3c4af449eea031126ca59452e001efd578f4960c
 
 RPROVIDES:${PN} += "uwsgi-emperor_pg \
 uwsgi-emperor_pg(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libpq.so.5()(64bit) \
 uwsgi"

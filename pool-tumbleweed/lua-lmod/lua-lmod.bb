@@ -25,6 +25,7 @@ modules \
 rpm_macro(lua_lmod_admin_modulesdir) \
 rpm_macro(lua_lmod_moduledeps) \
 rpm_macro(lua_lmod_modulesdir)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/lua5.4 \

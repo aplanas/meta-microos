@@ -9,6 +9,7 @@ RPM_HASH = "864796673636f5bc829d63f16cdfc4fb908dd29a63455f3634283e35bef97f9fe2fb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cjk-gs-integrate-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

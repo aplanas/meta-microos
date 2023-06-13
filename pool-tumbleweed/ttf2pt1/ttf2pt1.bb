@@ -12,6 +12,7 @@ RPM_HASH = "0feb2b3e10199910297f0d922d0f4d6b841efc6466c785d9f485009ed8fdca806447
 RPROVIDES:${PN} += "config(ttf2pt1) \
 ttf2pt1 \
 ttf2pt1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

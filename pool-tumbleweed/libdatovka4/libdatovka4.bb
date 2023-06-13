@@ -12,6 +12,7 @@ RPM_HASH = "e6620930e399df946308bc8a9c20f5724914ae7f507485195071d18c782d2dd81c45
 RPROVIDES:${PN} += "libdatovka.so.4()(64bit) \
 libdatovka4 \
 libdatovka4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "b162244db489b04a919fab516d4a424859969cf44c7d99173d9c5b4c685f0765ef53
 
 RPROVIDES:${PN} += "libdnf-plugin-txnupd \
 libdnf-plugin-txnupd(aarch-64)"
+
 RDEPENDS:${PN} += "(PackageKit-backend-dnf if PackageKit) \
 (microdnf or PackageKit) \
 dnf-data \

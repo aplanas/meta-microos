@@ -14,6 +14,7 @@ RPM_HASH = "f69344a3e7bed654c7acfe6a79e219b28e96db649d1c84d34bb327c34baeb9879844
 
 RPROVIDES:${PN} += "extundelete \
 extundelete(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

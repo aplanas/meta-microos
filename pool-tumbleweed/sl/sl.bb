@@ -10,6 +10,7 @@ RPM_HASH = "8e348033611631073b64a4b9b485d0d149f848f624feae3a8ec2a7d20922e74247ba
 
 RPROVIDES:${PN} += "sl \
 sl(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libncurses.so.6()(64bit) \
 libncurses.so.6(NCURSEST6_5.7.20081102)(64bit) \

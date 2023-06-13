@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono(NDesk.DBus.GLib) \
 ndesk-dbus-glib"
+
 RDEPENDS:${PN} += "mono(NDesk.DBus) \
 mono(mscorlib) \
 ndesk-dbus"

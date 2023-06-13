@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flickrnet \
 mono(FlickrNet)"
+
 RDEPENDS:${PN} += "mono(System) \
 mono(System.Configuration) \
 mono(System.Drawing) \

@@ -103,6 +103,7 @@ font(tex\040hclassic) \
 font(xnsh14) \
 font(xnsh14bf) \
 texlive-arabtex-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

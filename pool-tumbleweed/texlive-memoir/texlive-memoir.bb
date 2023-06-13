@@ -34,6 +34,7 @@ tex(mem9.clo) \
 tex(memhfixc.sty) \
 tex(memoir.cls) \
 texlive-memoir"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

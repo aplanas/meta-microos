@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-util-ajax \
 mvn(org.eclipse.jetty:jetty-util-ajax) \
 mvn(org.eclipse.jetty:jetty-util-ajax:pom:) \
 osgi(org.eclipse.jetty.util.ajax)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.eclipse.jetty:jetty-util)"

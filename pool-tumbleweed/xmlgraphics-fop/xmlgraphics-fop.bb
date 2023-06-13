@@ -18,6 +18,7 @@ fop \
 mvn(org.apache.xmlgraphics:fop) \
 mvn(org.apache.xmlgraphics:fop:pom:) \
 xmlgraphics-fop"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

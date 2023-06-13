@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "config(xl2tpd) \
 l2tpd \
 xl2tpd \
 xl2tpd(aarch-64)"
+
 RDEPENDS:${PN} += "(kmod(l2tp_ppp.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

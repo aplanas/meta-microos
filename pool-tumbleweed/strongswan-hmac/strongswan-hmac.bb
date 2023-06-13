@@ -14,6 +14,7 @@ RPM_HASH = "080d7ba9f5f0d1a8d6de534a12b287ca8b8f07f698099a1afc3b3b5017dddc67c506
 RPROVIDES:${PN} += "config(strongswan-hmac) \
 strongswan-hmac \
 strongswan-hmac(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 fipscheck \
 strongswan-ipsec \

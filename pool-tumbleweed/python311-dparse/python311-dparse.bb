@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dparse) \
 python311-dparse \
 python3dist(dparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML \
 python311-packaging"

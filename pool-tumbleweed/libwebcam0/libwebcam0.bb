@@ -12,6 +12,7 @@ RPM_HASH = "b92fd10f9ad2159bf44d323e11fbe95ef87ce5b61095b164b7b523ed3e7eb5393776
 RPROVIDES:${PN} += "libwebcam.so.0()(64bit) \
 libwebcam0 \
 libwebcam0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "86dc1b8af8cc2c818e0a78ea0887f2a0d2f21fcc2c8add9ae3b7c4be2cdaa2292840
 RPROVIDES:${PN} += "libterminalwidget5-0 \
 libterminalwidget5-0(aarch-64) \
 libterminalwidget5.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

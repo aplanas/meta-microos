@@ -16,6 +16,7 @@ libXaw3d-devel(aarch-64) \
 pkgconfig(xaw3d) \
 xaw3d-devel \
 xaw3d:/usr/include/X11/Xaw3d/Xaw3dP.h"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXaw3d6 \
 libXaw3d7 \

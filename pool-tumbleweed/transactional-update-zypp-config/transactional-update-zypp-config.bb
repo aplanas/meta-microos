@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(transactional-update-zypp-config) \
 transactional-update-zypp-config"
+
 RDEPENDS:${PN} += "transactional-update"
 
 inherit rpm

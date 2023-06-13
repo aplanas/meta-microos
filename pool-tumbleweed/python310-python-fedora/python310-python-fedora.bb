@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-fedora \
 python3.10dist(python-fedora) \
 python310-python-fedora \
 python3dist(python-fedora)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-beautifulsoup4 \
 python310-kitchen \

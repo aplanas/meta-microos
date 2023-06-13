@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ipywebrtc) \
 python39-ipywebrtc \
 python3dist(ipywebrtc)"
+
 RDEPENDS:${PN} += "jupyter-ipywebrtc \
 python(abi) \
 python39-ipywidgets"

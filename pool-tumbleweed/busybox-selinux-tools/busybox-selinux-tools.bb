@@ -9,6 +9,7 @@ RPM_HASH = "f93e4fba322e7cf46f1b7da1ab2842d9d75f35aab137cda190a16096cf00913b9b2c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-selinux-tools"
+
 RDEPENDS:${PN} += "busybox"
 
 inherit rpm

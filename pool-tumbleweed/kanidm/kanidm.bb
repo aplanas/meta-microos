@@ -10,6 +10,7 @@ RPM_HASH = "adf71370fd6a9b8f81cdf16f27f4eb893a7e4e81d4f7ed9c78f0b3127ab53b91d08a
 
 RPROVIDES:${PN} += "kanidm \
 kanidm(aarch-64)"
+
 RDEPENDS:${PN} += "kanidm-clients \
 kanidm-unixd-clients"
 

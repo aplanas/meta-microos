@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(zref-vario.sty) \
 texlive-zref-vario"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

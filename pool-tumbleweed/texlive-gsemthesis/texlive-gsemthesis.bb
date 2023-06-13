@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gsemthesis.cls) \
 texlive-gsemthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

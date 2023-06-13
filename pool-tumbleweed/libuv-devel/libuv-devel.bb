@@ -14,6 +14,7 @@ RPM_HASH = "d41459c34ca309fb5e8b8774b9ae3609fdd47304327ea6d2fbb5ab2a05895a8b038e
 RPROVIDES:${PN} += "libuv-devel \
 libuv-devel(aarch-64) \
 pkgconfig(libuv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libuv1"
 

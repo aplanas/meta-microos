@@ -15,6 +15,7 @@ RPM_HASH = "f347b57f8bdddd7d4f3a9ddd58f75cd1673a2f81a2af0bea8f07ef9d2e8a3df7c1dc
 RPROVIDES:${PN} += "cmake(Ceres) \
 libceres-devel \
 libceres-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glog-devel \
 libceres3"
 

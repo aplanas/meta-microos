@@ -9,6 +9,7 @@ RPM_HASH = "9f6be0bba46f8b039e8d0f5d2b42dc1112801a97ae1fc4001644bce9e228c75e4e0c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-edit-distance-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

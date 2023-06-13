@@ -9,6 +9,7 @@ RPM_HASH = "f96ede01e1cfcfecd91d49d5b5cb4ef8652167888647e83b73bd4164541e88209c24
 
 RPROVIDES:${PN} += "texlive-latexindent-bin \
 texlive-latexindent-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-latexindent"
 
 inherit rpm

@@ -62,6 +62,7 @@ perl(KIWIXMLValidator) \
 product-builder \
 product-builder(aarch-64) \
 system-packages:kiwi-product"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 build \

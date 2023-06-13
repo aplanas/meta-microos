@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "leechcraft-blasq-rappor \
 leechcraft-blasq-rappor(aarch-64) \
 leechcraft-blasq-subplugin \
 libleechcraft_blasq_rappor.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-blasq \

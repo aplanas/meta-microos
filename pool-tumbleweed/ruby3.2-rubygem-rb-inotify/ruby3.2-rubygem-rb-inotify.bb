@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rb-inotify) \
 rubygem(ruby:3.2.0:rb-inotify:0) \
 rubygem(ruby:3.2.0:rb-inotify:0.10) \
 rubygem(ruby:3.2.0:rb-inotify:0.10.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ffi:1)"
 

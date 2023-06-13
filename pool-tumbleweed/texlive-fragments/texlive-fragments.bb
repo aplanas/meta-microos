@@ -18,6 +18,7 @@ tex(overrightarrow.sty) \
 tex(removefr.tex) \
 tex(subscript.sty) \
 texlive-fragments"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

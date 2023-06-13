@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-stomp.py \
 python3.10dist(stomp-py) \
 python310-stomp.py \
 python3dist(stomp-py)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

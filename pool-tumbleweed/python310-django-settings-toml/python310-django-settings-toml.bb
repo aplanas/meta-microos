@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-settings-toml \
 python3.10dist(django-settings-toml) \
 python310-django-settings-toml \
 python3dist(django-settings-toml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-toml"
 

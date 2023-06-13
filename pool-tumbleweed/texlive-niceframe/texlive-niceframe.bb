@@ -15,6 +15,7 @@ tex(niceframe.sty) \
 tex(umranda.tfm) \
 tex(umrandb.tfm) \
 texlive-niceframe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

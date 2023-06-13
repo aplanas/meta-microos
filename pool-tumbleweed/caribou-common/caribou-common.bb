@@ -12,6 +12,7 @@ RPM_HASH = "7fcc687cff24dc798806ee0acdd62ae0899af08b67973027d40a84b66d35a10aeada
 
 RPROVIDES:${PN} += "caribou-common \
 caribou-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-gssapi) \
 python39-requests-gssapi \
 python3dist(requests-gssapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-gssapi \
 python39-requests"

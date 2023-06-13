@@ -9,6 +9,7 @@ RPM_HASH = "c13fcf50f8110ca96bffe4f1e4435756ca713c1f6648c747728cf6741948b0318b67
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-binomexp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pyquery \
 python3.10dist(pyquery) \
 python310-pyquery \
 python3dist(pyquery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cssselect \
 python310-lxml"

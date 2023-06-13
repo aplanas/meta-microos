@@ -10,6 +10,7 @@ RPM_HASH = "e96fb5b77c2d961cd4aa757418c56d4e6b068e6323b70e75a4d2b2efc46e953cf620
 RPROVIDES:${PN} += "typelib(SpiceClientGtk) \
 typelib-1_0-SpiceClientGtk-3_0 \
 typelib-1_0-SpiceClientGtk-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libspice-client-gtk-3.0.so.5()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

@@ -9,6 +9,7 @@ RPM_HASH = "c55b0e7c32d3b89526e41b3e0aab49dbcde52e6b05090bf09535633a6824991df2f8
 
 RPROVIDES:${PN} += "irqbalance-ui \
 irqbalance-ui(aarch-64)"
+
 RDEPENDS:${PN} += "irqbalance \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

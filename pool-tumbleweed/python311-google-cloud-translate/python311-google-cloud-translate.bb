@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(google-cloud-translate) \
 python311-google-cloud-translate \
 python3dist(google-cloud-translate)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-google-api-core \
 python311-google-cloud-core \

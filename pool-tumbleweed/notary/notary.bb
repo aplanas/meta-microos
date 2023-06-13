@@ -11,6 +11,7 @@ RPM_HASH = "9ca42a69d61ee4c9891527bcb4080dde3393aa11132d8b0890c64a3de0fdc0e548f2
 RPROVIDES:${PN} += "config(notary) \
 notary \
 notary(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env"
 
 inherit rpm

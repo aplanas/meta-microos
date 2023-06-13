@@ -17,6 +17,7 @@ RPM_HASH = "addd321aa2e2a5e33ff1b85426d6002be0d5b7a4d1dc69b20644e9de2b59367774d8
 RPROVIDES:${PN} += "libtowitoko.so.2()(64bit) \
 libtowitoko2 \
 libtowitoko2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

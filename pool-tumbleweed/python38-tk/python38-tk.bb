@@ -9,6 +9,7 @@ RPM_HASH = "17762c873a9728e28fb5aabe851ce8981612051fb091bee662a569c448895044f433
 
 RPROVIDES:${PN} += "python38-tk \
 python38-tk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

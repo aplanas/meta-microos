@@ -10,6 +10,7 @@ RPM_HASH = "83a91ba2da05c7a87952f0dd5c7d2d62da3639e6ea3bdd70f1871f737414b7414e52
 RPROVIDES:${PN} += "libjabber_http_file_upload.so()(64bit) \
 libpurple-plugin-xmpp-http-upload \
 libpurple-plugin-xmpp-http-upload(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libgio-2.0.so.0()(64bit) \
 libglib-2.0.so.0()(64bit) \

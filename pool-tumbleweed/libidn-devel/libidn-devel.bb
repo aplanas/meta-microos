@@ -20,6 +20,7 @@ RPM_HASH = "1e5b4b877797575729869425b2afcdd8572749c6af55d8f6dab5d94bc0c7503d3f14
 RPROVIDES:${PN} += "libidn-devel \
 libidn-devel(aarch-64) \
 pkgconfig(libidn)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libidn12"

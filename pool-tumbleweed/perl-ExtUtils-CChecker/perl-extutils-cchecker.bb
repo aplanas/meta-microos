@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(ExtUtils::CChecker) \
 perl-ExtUtils-CChecker"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(ExtUtils::CBuilder)"
 

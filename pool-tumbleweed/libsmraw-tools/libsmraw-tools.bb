@@ -10,6 +10,7 @@ RPM_HASH = "8fb38b627a7610c4ca8816399b69793b55d5549b0fe35f5ed472f7d729b43c301e6f
 
 RPROVIDES:${PN} += "libsmraw-tools \
 libsmraw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

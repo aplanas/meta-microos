@@ -17,6 +17,7 @@ RPM_HASH = "9a847591cf2d7fbb0a4ba3feb601217dae7eea9df8d007c059982e90886be5d47289
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meson-vim"
+
 RDEPENDS:${PN} += "vim"
 
 inherit rpm

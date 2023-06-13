@@ -36,6 +36,7 @@ RPROVIDES:${PN} += "libblacs2_2_1_0-gnu-openmpi2-hpc \
 libscalapack2_2_1_0-gnu-openmpi2-hpc \
 libscalapack2_2_1_0-gnu-openmpi2-hpc(aarch-64) \
 scalapack_2_1_0-gnu-openmpi2-hpc"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

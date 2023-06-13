@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pythonwhois \
 python3.10dist(pythonwhois) \
 python310-pythonwhois \
 python3dist(pythonwhois)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -15,6 +15,7 @@ tex(macro-solides.tex) \
 tex(macro-styles.tex) \
 tex(pas-cours.sty) \
 texlive-pas-cours"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

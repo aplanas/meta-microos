@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "OpenCASCADE-devel \
 cmake(OpenCASCADE) \
 occt-devel \
 occt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libTKExpress.so.7.7()(64bit) \

@@ -17,6 +17,7 @@ mvn(org.eclipse.jetty.orbit:javax.el:pom:) \
 osgi(org.apache.tomcat-el-api) \
 tomcat-el-3.0-api \
 tomcat-el-3_0-api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

@@ -10,6 +10,7 @@ RPM_HASH = "4051d05b6141b5cae0caf70f4b42c1c2c8f9479bcb2874c02f7329bb0ce40877194e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libspf2-apidocs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

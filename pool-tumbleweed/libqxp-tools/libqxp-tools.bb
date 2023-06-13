@@ -10,6 +10,7 @@ RPM_HASH = "87c7ac4f6629ed4b5d3b11c691a231932c3e70da44d0f6ae8d100a352610c40217fd
 
 RPROVIDES:${PN} += "libqxp-tools \
 libqxp-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

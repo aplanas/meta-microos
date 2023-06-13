@@ -10,6 +10,7 @@ RPM_HASH = "072c1c8704ad2997c0663db9796409c9228a27e8fe3f52384b299215adcf5ee07797
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-eolie"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 eolie \
 gnome-shell"

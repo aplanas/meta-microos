@@ -12,6 +12,7 @@ RPM_HASH = "e3f465345bf01aa7d31233b19d2f9902ab1ffba7357ce393994c297d24b191b20da3
 RPROVIDES:${PN} += "libwayland-egl.so.1()(64bit) \
 libwayland-egl1 \
 libwayland-egl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

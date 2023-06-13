@@ -10,6 +10,7 @@ RPM_HASH = "64760dec0e75223577ccc8ae3ce9b1d25ed2c7a76e5f30a0e779db26d34c146fcdf8
 
 RPROVIDES:${PN} += "tcd \
 tcd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(leading.sty) \
 texlive-leading"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPM_HASH = "f9c1a3af2b6b9a393974110d65e01056a7391096c7f3a2be6d8f77b04ef1c287728f
 
 RPROVIDES:${PN} += "bind-modules-mysql \
 bind-modules-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

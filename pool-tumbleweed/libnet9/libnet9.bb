@@ -16,6 +16,7 @@ RPM_HASH = "abbc28d9f841e44883f3771000c36bb0f4d87e89c78f11584ce9524836e800a44dc5
 RPROVIDES:${PN} += "libnet.so.9()(64bit) \
 libnet9 \
 libnet9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

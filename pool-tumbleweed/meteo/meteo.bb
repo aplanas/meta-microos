@@ -15,6 +15,7 @@ metainfo(com.gitlab.bitseater.meteo.appdata.xml) \
 meteo \
 meteo(aarch-64) \
 weather"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libappindicator3.so.1()(64bit) \

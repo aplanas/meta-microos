@@ -10,6 +10,7 @@ RPM_HASH = "c7fbc5dac6b4ef455fa4ab187947939d93fcc41850397e1e893e42f1a413f4db83c6
 RPROVIDES:${PN} += "ghc-data-default-instances-containers \
 ghc-data-default-instances-containers(aarch-64) \
 libHSdata-default-instances-containers-0.0.1-GsTPO88BTeU5gVKxrRffFz-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

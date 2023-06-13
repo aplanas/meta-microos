@@ -15,6 +15,7 @@ RPM_HASH = "052013374846682922bf143b5c68043add52c1d28efb298b139cfedf2894e66baefc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex2e-help-texinfo-spanish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

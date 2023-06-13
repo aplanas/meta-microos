@@ -13,6 +13,7 @@ RPM_HASH = "829435763e706d481664d6b31a6b005716b5bdf360f057e5dca91ea058177bd97b44
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "weave-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

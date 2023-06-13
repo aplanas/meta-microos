@@ -10,6 +10,7 @@ RPM_HASH = "1f1a70921181c782ff93f48a66fb11048ba775761faac213bee184902b4e1203ac90
 RPROVIDES:${PN} += "NetworkManager-bluetooth \
 NetworkManager-bluetooth(aarch-64) \
 libnm-device-plugin-bluetooth.so()(64bit)"
+
 RDEPENDS:${PN} += "NetworkManager \
 NetworkManager-wwan \
 ld-linux-aarch64.so.1()(64bit) \

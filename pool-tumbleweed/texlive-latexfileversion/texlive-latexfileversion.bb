@@ -13,6 +13,7 @@ RPM_HASH = "7f6fc6ab0c66f52977ab5934464e9cc7dcdea31ae4a80277998f72beba9c8be64517
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexfileversion"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

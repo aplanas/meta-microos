@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(io.prometheus:simpleclient_pushgateway) \
 mvn(io.prometheus:simpleclient_pushgateway:pom:) \
 osgi(io.prometheus.simpleclient_pushgateway) \
 prometheus-simpleclient-java-pushgateway"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(io.prometheus:simpleclient) \

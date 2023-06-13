@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-json_tricks \
 python3.10dist(json-tricks) \
 python310-json_tricks \
 python3dist(json-tricks)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

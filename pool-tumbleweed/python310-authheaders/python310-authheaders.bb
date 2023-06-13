@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-authheaders \
 python3.10dist(authheaders) \
 python310-authheaders \
 python3dist(authheaders)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-authres \
 python310-dkimpy \

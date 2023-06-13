@@ -10,6 +10,7 @@ RPM_HASH = "b705adb3c31bf69cea65be671e3ecbc40ee98582abfd9e1091b33c36507a096c3ca5
 RPROVIDES:${PN} += "ghc-prof(x509-system-1.6.7-BOgSBhUS7jg4riLu2Dt4H7) \
 ghc-x509-system-prof \
 ghc-x509-system-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \
 ghc-prof(containers-0.6.7) \

@@ -11,6 +11,7 @@ RPM_HASH = "20bde22c8e1a416e041d77c9baf005530a2710f9f2b07081db9ce3bb53efb6b83c4c
 
 RPROVIDES:${PN} += "aircrack-ng \
 aircrack-ng(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ethtool \

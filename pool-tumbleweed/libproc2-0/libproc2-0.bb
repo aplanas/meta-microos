@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libproc2-0 \
 libproc2-0(aarch-64) \
 libproc2.so.0()(64bit) \
 libproc2.so.0(LIBPROC_2)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

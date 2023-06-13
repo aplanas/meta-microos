@@ -14,6 +14,7 @@ RPM_HASH = "c54ff685c841cefc61561c5500fe8fc5dd031999896c704f177f4bbb93c253eb2a45
 RPROVIDES:${PN} += "libgstcodecparsers-1.0.so.0()(64bit) \
 libgstcodecparsers-1_0-0 \
 libgstcodecparsers-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

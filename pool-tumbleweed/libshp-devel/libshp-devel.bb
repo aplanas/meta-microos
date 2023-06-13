@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libshp-devel \
 libshp-devel(aarch-64) \
 pkgconfig(shapelib) \
 shapelib-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libshp2"
 

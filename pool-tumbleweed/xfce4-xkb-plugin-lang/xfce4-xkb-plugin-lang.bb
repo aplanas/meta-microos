@@ -59,6 +59,7 @@ locale(xfce4-xkb-plugin:zh_TW) \
 xfce4-panel-plugin-xkb-lang \
 xfce4-xkb-plugin-lang \
 xfce4-xkb-plugin-lang-all"
+
 RDEPENDS:${PN} += "xfce4-xkb-plugin"
 
 inherit rpm

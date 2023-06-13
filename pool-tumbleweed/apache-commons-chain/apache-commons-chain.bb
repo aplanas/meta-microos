@@ -28,6 +28,7 @@ mvn(commons-chain:commons-chain) \
 mvn(commons-chain:commons-chain:pom:) \
 mvn(org.apache.commons:commons-chain) \
 mvn(org.apache.commons:commons-chain:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-beanutils:commons-beanutils) \

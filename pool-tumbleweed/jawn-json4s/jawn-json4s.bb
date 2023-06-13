@@ -18,6 +18,7 @@ mvn(org.spire-math:json4s-support_2.10) \
 mvn(org.spire-math:json4s-support_2.10:pom:) \
 mvn(org.typelevel:jawn-json4s_2.10) \
 mvn(org.typelevel:jawn-json4s_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.json4s:json4s-ast_2.10) \

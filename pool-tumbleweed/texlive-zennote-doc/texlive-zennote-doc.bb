@@ -9,6 +9,7 @@ RPM_HASH = "4fd5d540591447b16b9c4eac37eb3cdf7a69adc9a96d2d7ce29b020207f24d2d057d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zennote-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(claves.bbx) \
 texlive-biblatex-claves"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "422522efc3a61e821107f915b20b5e3ec5c440ef8360640bb587ca115ed12196090f
 
 RPROVIDES:${PN} += "libbeecrypt-devel \
 libbeecrypt-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libbeecrypt6"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-PubChemPy \
 python3.10dist(pubchempy) \
 python310-PubChemPy \
 python3dist(pubchempy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

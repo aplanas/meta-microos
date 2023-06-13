@@ -9,6 +9,7 @@ RPM_HASH = "2eee5052c12c60d0973ac59301443db6f90df9ae3691b0fce9c179d3eaf6b41f299f
 
 RPROVIDES:${PN} += "rubygem-libguestfs \
 rubygem-libguestfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

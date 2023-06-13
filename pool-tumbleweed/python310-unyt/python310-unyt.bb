@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-unyt \
 python3.10dist(unyt) \
 python310-unyt \
 python3dist(unyt)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-packaging \

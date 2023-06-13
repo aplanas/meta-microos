@@ -20,6 +20,7 @@ tex(gporsonrg6r.tfm) \
 tex(lgrporson.fd) \
 tex(porsonel.enc) \
 texlive-gfsporson"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "69868c77fa0f461ce41c4a67ca5f6ef980f774e93a095956677a1a1be6b854ae3102
 
 RPROVIDES:${PN} += "python-notmuch-doc \
 python-notmuch-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

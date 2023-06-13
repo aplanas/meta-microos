@@ -91,6 +91,7 @@ locale(plasma5-workspace:zh_CN) \
 locale(plasma5-workspace:zh_TW) \
 plasma5-workspace-lang \
 plasma5-workspace-lang-all"
+
 RDEPENDS:${PN} += "plasma5-workspace"
 
 inherit rpm

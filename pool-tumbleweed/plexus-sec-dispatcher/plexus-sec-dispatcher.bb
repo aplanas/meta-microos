@@ -13,6 +13,7 @@ mvn(org.codehaus.plexus:plexus-sec-dispatcher:pom:) \
 mvn(org.sonatype.plexus:plexus-sec-dispatcher) \
 mvn(org.sonatype.plexus:plexus-sec-dispatcher:pom:) \
 plexus-sec-dispatcher"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.inject:javax.inject) \

@@ -14,6 +14,7 @@ python-nautilus-common-devel(aarch-64) \
 python310-nautilus-common-devel \
 python311-nautilus-common-devel \
 python39-nautilus-common-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 python3-nautilus-devel"
 

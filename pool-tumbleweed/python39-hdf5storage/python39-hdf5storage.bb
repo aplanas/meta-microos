@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(hdf5storage) \
 python39-hdf5storage \
 python39-hdf5storage(aarch-64) \
 python3dist(hdf5storage)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-h5py \
 python39-numpy"

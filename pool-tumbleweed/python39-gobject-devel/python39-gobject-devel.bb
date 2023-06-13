@@ -10,6 +10,7 @@ RPM_HASH = "78fd33c000d6eabe54602fdcf6d466ce3f37bfe09778f96c417c92ec383107f24f20
 
 RPROVIDES:${PN} += "python39-gobject-devel \
 python39-gobject-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-devel \
 python39-gobject \
 python39-gobject-Gdk \

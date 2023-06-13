@@ -9,6 +9,7 @@ RPM_HASH = "8ba4555c981f609293620622c0b2a76c46f81f9ab36a3daaf459825be3f3a6887e6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-pdfbox-javadoc"
+
 RDEPENDS:${PN} += "apache-pdfbox \
 javapackages-filesystem"
 

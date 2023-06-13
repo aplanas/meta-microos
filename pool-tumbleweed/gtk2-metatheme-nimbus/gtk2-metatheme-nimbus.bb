@@ -10,6 +10,7 @@ RPM_HASH = "5c13dff6081496d2f6d1fb087d7f74d27a7edc5080b85fbc77a110a604c66fa2ff3c
 
 RPROVIDES:${PN} += "gtk2-metatheme-nimbus \
 gtk2-metatheme-nimbus(aarch-64)"
+
 RDEPENDS:${PN} += "gtk2-engine-nimbus \
 nimbus-icon-theme"
 

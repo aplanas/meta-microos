@@ -10,6 +10,7 @@ RPM_HASH = "96e45154fee6dbefdcf95ab1a27d2039228174a5d340a7e5e77025a3543cab1c0dc6
 RPROVIDES:${PN} += "cmake(KF5KWeatherCore) \
 kweathercore-devel \
 kweathercore-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKF5KWeatherCore5"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "6d702fa38ead9c020959fba174ed6aee442775b1461656b45b2b0c4f6d0345e5e4ef
 RPROVIDES:${PN} += "mupen64plus-plugin-rsp \
 mupen64plus-plugin-rsp-hle \
 mupen64plus-plugin-rsp-hle(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

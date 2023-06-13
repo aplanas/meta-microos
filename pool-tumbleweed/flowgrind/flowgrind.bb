@@ -11,6 +11,7 @@ RPM_HASH = "e373b6809a4bf136fd43af788bf3de148c533e8e4caa99d720c4fa73650f4bbeb9b4
 
 RPROVIDES:${PN} += "flowgrind \
 flowgrind(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

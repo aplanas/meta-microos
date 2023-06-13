@@ -14,6 +14,7 @@ RPM_HASH = "e2a01ced454f0c93de0feebf4c68e9c3c74a79313056fee2ad0f6cfb8e484e3f34c7
 RPROVIDES:${PN} += "config(cups-config) \
 cups-config \
 cups-config(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(lp) \
 user(lp)"

@@ -28,6 +28,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-debug-toolbar) \
 python311-django-debug-toolbar \
 python3dist(django-debug-toolbar)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-django-jinja \

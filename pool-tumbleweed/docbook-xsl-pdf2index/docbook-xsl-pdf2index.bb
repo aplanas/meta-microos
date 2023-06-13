@@ -10,6 +10,7 @@ RPM_HASH = "b5e742ec14ef468dbd5e92119fc4415531cf3d76fa3f374e5d8717e9eb15778f6f90
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-xsl-pdf2index"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ImageMagick \
 perl"

@@ -26,6 +26,7 @@ RPM_HASH = "fad73933505c3259fa4c521113573a1277da7ee4f363bb39e214ff3589d283dd61de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hxtools-scripts"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 hxtools \

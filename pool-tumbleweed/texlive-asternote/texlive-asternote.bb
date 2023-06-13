@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(asternote.sty) \
 texlive-asternote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

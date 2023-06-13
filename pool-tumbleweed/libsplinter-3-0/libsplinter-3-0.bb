@@ -22,6 +22,7 @@ RPM_HASH = "f8cea8b885e776a66ae1d4a1e3f8453fc64c89046c54e9a5f98cf884e98288f7f482
 RPROVIDES:${PN} += "libsplinter-3-0 \
 libsplinter-3-0(aarch-64) \
 libsplinter-3-0.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

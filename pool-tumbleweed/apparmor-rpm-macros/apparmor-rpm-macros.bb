@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-rpm-macros \
 rpm_macro(apparmor_reload)"
+
 RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

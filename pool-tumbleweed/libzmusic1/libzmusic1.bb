@@ -11,6 +11,7 @@ RPM_HASH = "e999fbb25ef7d8a37da96c723e92391633316090142c325353bd546ab0e189351ac3
 RPROVIDES:${PN} += "libzmusic.so.1()(64bit) \
 libzmusic1 \
 libzmusic1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

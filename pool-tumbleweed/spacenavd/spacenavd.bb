@@ -13,6 +13,7 @@ RPM_HASH = "d59d4f09bd7e35bbb401b6f53dd07a68ba0921f6bdd20e281225d23e1cf140c7e561
 RPROVIDES:${PN} += "config(spacenavd) \
 spacenavd \
 spacenavd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

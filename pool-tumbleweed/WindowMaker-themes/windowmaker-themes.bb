@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WindowMaker-themes \
 wmthemes"
+
 RDEPENDS:${PN} += "WindowMaker"
 
 inherit rpm

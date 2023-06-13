@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "mvn(com.univocity:univocity-parsers) \
 mvn(com.univocity:univocity-parsers:pom:) \
 osgi(com.univocity.parsers) \
 univocity-parsers"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

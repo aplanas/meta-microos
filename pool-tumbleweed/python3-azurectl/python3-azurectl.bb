@@ -15,6 +15,7 @@ python-azurectl \
 python3-azurectl \
 python3.10dist(azurectl) \
 python3dist(azurectl)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 man \
 openssl \

@@ -80,6 +80,7 @@ locale(kdnssd:vi) \
 locale(kdnssd:zh_CN) \
 locale(kdnssd:zh_HK) \
 locale(kdnssd:zh_TW)"
+
 RDEPENDS:${PN} += "kdnssd"
 
 inherit rpm

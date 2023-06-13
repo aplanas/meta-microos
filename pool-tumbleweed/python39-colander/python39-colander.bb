@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(colander) \
 python39-colander \
 python3dist(colander)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-iso8601 \
 python39-translationstring"

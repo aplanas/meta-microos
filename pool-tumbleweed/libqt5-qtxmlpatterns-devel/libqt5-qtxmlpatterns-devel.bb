@@ -12,6 +12,7 @@ libQt5XmlPatterns-devel \
 libqt5-qtxmlpatterns-devel \
 libqt5-qtxmlpatterns-devel(aarch-64) \
 pkgconfig(Qt5XmlPatterns)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5XmlPatterns5 \
 pkgconfig(Qt5Core) \

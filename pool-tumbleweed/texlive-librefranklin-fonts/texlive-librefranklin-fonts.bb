@@ -151,6 +151,7 @@ font(librefranklinmedium) \
 font(librefranklinsemibold) \
 font(librefranklinthin) \
 texlive-librefranklin-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

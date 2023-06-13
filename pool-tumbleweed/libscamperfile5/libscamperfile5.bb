@@ -17,6 +17,7 @@ RPM_HASH = "01879dd41193676c4bc827dc1cdbed5785a5a61d0ef3ab42626e5d5c01a27e18eab7
 RPROVIDES:${PN} += "libscamperfile.so.5()(64bit) \
 libscamperfile5 \
 libscamperfile5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

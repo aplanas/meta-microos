@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mrcfile \
 python3.10dist(mrcfile) \
 python310-mrcfile \
 python3dist(mrcfile)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

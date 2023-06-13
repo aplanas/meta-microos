@@ -9,6 +9,7 @@ RPM_HASH = "e913dd13bd6b338acbf66d28a0c49f18d02b9dab08ebc73ff45d3d683a0f75ea42da
 
 RPROVIDES:${PN} += "bubblewrap-zsh-completion \
 bubblewrap-zsh-completion(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

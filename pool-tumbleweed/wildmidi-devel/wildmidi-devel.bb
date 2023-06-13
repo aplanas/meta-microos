@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(WildMidi) \
 pkgconfig(wildmidi) \
 wildmidi-devel \
 wildmidi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libWildMidi2"
 

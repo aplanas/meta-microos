@@ -11,6 +11,7 @@ RPM_HASH = "291aa3b61f8d8d332231d6a3fb7d3d55a807bf6921ca30e1d801eee57dfe65ee655b
 RPROVIDES:${PN} += "cockpit-test-assets \
 cockpit-tests \
 cockpit-tests(aarch-64)"
+
 RDEPENDS:${PN} += "cockpit-bridge \
 cockpit-system \
 ld-linux-aarch64.so.1()(64bit) \

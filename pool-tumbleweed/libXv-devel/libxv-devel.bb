@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "libXv-devel \
 libXv-devel(aarch-64) \
 pkgconfig(xv) \
 xorg-x11-libXv-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXv1 \
 pkgconfig(videoproto) \

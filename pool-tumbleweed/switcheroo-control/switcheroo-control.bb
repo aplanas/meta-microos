@@ -9,6 +9,7 @@ RPM_HASH = "abaee271f06021052a1f77aa7b2259678a91c38da712020ad214d333395287a8eb4f
 
 RPROVIDES:${PN} += "switcheroo-control \
 switcheroo-control(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

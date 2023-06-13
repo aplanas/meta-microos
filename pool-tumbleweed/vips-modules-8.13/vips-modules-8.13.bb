@@ -9,6 +9,7 @@ RPM_HASH = "9467a385a724b327f751a9b6968bbc8f2faf28271fad768fe4b390de1a97f0bcac7b
 
 RPROVIDES:${PN} += "vips-modules-8.13 \
 vips-modules-8.13(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libMagickCore-7.Q16HDRI.so.10()(64bit) \

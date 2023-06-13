@@ -9,6 +9,7 @@ RPM_HASH = "86dbdeb340f1e07a5ded333b046f184e982c67429d98e7fb99a1b2568915a3fe493f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saja-cascadia-code-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

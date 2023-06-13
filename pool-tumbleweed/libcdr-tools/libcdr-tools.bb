@@ -9,6 +9,7 @@ RPM_HASH = "b4e7c02ff11e0da65246a93524d940f2e03d4da15a79c3b99b0c9192a7e64fb52100
 
 RPROVIDES:${PN} += "libcdr-tools \
 libcdr-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

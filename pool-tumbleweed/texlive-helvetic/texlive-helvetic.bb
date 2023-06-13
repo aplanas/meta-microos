@@ -246,6 +246,7 @@ tex(uhvro8t.vf) \
 tex(uhvro8tn.tfm) \
 tex(uhvro8tn.vf) \
 texlive-helvetic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "c74e3485fda7cd8a6a8f028046904266bc78216545c80c1552eef4610ab96b218227
 RPROVIDES:${PN} += "libMathMLSolver.so.0.3()(64bit) \
 libMathMLSolver0_3 \
 libMathMLSolver0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

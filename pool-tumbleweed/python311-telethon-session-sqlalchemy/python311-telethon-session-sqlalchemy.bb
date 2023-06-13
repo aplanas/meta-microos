@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(telethon-session-sqlalchemy) \
 python311-telethon-session-sqlalchemy \
 python3dist(telethon-session-sqlalchemy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-SQLAlchemy"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flufl.i18n \
 python3.10dist(flufl.i18n) \
 python310-flufl.i18n \
 python3dist(flufl.i18n)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-atpublic"
 

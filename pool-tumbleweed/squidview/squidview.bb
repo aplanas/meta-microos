@@ -18,6 +18,7 @@ RPM_HASH = "bdb922fd7536a1f36664831e027c117f406d4e05b40da0743516193c7f8b818a588c
 
 RPROVIDES:${PN} += "squidview \
 squidview(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

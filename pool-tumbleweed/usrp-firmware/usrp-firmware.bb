@@ -9,6 +9,7 @@ RPM_HASH = "cf3a49d43a370b1dae5d0e8a3d20a16c9d0ee8ec441ef7015e4021abfb0acacb80c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "usrp-firmware"
+
 RDEPENDS:${PN} += "usrp-tools"
 
 inherit rpm

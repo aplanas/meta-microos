@@ -11,6 +11,7 @@ RPM_HASH = "0baf22c08ba6b71f5766db56444daf598fb1d6d2fff8773751d59e5b35bb009f1b01
 RPROVIDES:${PN} += "ghc-case-insensitive-devel \
 ghc-case-insensitive-devel(aarch-64) \
 ghc-devel(case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-case-insensitive \
 ghc-compiler \

@@ -32,6 +32,7 @@ qt6qmlimport(QtWebEngine.2) \
 qt6qmlimport(QtWebEngine.6) \
 qt6qmlimport(QtWebEngine.ControlsDelegates.1) \
 qt6qmlimport(QtWebEngine.ControlsDelegates.6)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "31937665eb1bcc6f39966a1c73a16dc539c614de10c17a2b21acaa6fadfffac1fe88
 
 RPROVIDES:${PN} += "libtracefs-tools \
 libtracefs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

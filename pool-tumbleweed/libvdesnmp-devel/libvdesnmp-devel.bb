@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libvdesnmp-devel \
 libvdesnmp-devel(aarch-64) \
 libvdesnmp0-devel \
 pkgconfig(vdesnmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvdesnmp0 \
 vde2"

@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-subunit) \
 python311-python-subunit \
 python3dist(python-subunit)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python311-extras \

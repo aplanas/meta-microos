@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cookingsymbols.sty) \
 tex(cookingsymbols.tfm) \
 texlive-cookingsymbols"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

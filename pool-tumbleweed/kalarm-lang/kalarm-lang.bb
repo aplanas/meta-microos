@@ -78,6 +78,7 @@ locale(kalarm:uk) \
 locale(kalarm:wa) \
 locale(kalarm:zh_CN) \
 locale(kalarm:zh_TW)"
+
 RDEPENDS:${PN} += "kalarm"
 
 inherit rpm

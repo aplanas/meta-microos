@@ -10,6 +10,7 @@ RPM_HASH = "ae2c41c32305f71421515a725fb1c91dbf9063bc55ec46ef58492084913681476094
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fonts-churchslavonic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

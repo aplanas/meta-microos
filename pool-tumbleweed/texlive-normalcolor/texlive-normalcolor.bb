@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(normalcolor.sty) \
 texlive-normalcolor"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

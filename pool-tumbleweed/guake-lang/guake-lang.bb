@@ -36,6 +36,7 @@ locale(guake:tr) \
 locale(guake:uk) \
 locale(guake:zh_CN) \
 locale(guake:zh_TW)"
+
 RDEPENDS:${PN} += "guake"
 
 inherit rpm

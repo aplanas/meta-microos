@@ -198,6 +198,7 @@ group(keylime) \
 rust-keylime \
 rust-keylime(aarch-64) \
 user(keylime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libarchive.so.13()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

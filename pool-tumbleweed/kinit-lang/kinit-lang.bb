@@ -94,6 +94,7 @@ locale(kinit:wa) \
 locale(kinit:zh_CN) \
 locale(kinit:zh_HK) \
 locale(kinit:zh_TW)"
+
 RDEPENDS:${PN} += "kinit"
 
 inherit rpm

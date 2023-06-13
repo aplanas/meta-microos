@@ -59,6 +59,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Parallel::ForkManager) \
 perl(Parallel::ForkManager::Child) \
 perl-Parallel-ForkManager"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moo) \
 perl(Moo::Role)"

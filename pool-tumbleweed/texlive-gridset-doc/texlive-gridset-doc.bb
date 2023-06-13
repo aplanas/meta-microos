@@ -9,6 +9,7 @@ RPM_HASH = "3118936a7be0d06aaa1f38330da0616167e7a17fbb66eeacc372a7bc39fcb8c1e1ba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gridset-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

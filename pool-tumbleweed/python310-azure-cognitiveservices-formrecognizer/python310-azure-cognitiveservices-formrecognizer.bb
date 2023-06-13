@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-formrecognizer \
 python3.10dist(azure-cognitiveservices-formrecognizer) \
 python310-azure-cognitiveservices-formrecognizer \
 python3dist(azure-cognitiveservices-formrecognizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-cognitiveservices-nspkg \
 python310-azure-common \

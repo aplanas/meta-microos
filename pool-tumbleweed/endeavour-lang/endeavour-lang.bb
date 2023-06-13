@@ -63,6 +63,7 @@ locale(endeavour:uk) \
 locale(endeavour:vi) \
 locale(endeavour:zh_CN) \
 locale(endeavour:zh_TW)"
+
 RDEPENDS:${PN} += "endeavour"
 
 inherit rpm

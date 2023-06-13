@@ -10,6 +10,7 @@ RPM_HASH = "6dfe5ea481ae968ed5d6f36c9f92b13f3108cdc8256615a7159f959b0dcb010daeef
 RPROVIDES:${PN} += "ghc-devel(easy-file-0.2.3-Bwh7vXkS9r2GpL1fsuKjo4) \
 ghc-easy-file-devel \
 ghc-easy-file-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

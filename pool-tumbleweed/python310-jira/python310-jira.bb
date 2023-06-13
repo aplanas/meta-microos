@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jira \
 python3.10dist(jira) \
 python310-jira \
 python3dist(jira)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

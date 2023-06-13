@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hamnosys.sty) \
 texlive-hamnosys"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "18410f4f14450513ab4699223a75af1ffba700e6f9c7377a95d86ed93b77f1b4baeb
 
 RPROVIDES:${PN} += "u-boot-rpi3-doc \
 u-boot-rpi3-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

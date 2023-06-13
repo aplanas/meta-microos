@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "geoclue2-devel \
 geoclue2-devel(aarch-64) \
 pkgconfig(geoclue-2.0) \
 pkgconfig(libgeoclue-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 geoclue2 \
 pkgconfig(gio-2.0) \

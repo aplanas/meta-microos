@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flabels.sty) \
 texlive-flabels"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

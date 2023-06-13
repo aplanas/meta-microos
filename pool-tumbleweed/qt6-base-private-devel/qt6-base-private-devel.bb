@@ -10,6 +10,7 @@ RPM_HASH = "91c95b7be0e2ed1850568dedd53aa121f1840ecee07746fbab0be77898ad14d6e95e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-base-private-devel"
+
 RDEPENDS:${PN} += "qt6-base-devel \
 qt6-core-private-devel \
 qt6-dbus-private-devel \

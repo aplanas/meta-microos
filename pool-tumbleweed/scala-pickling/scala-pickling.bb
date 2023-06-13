@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "mvn(org.scala-lang.modules:scala-pickling_2.10) \
 mvn(org.scala-lang.modules:scala-pickling_2.10:pom:) \
 scala-pickling \
 scala-pickling(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-compiler) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(shadowtext.sty) \
 texlive-shadowtext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

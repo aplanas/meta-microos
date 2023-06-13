@@ -10,6 +10,7 @@ RPM_HASH = "42d2a4fa17538971b454ca54611282c917b69e149fb8699462fe384fac5415bdf239
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-e-X-Icons"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

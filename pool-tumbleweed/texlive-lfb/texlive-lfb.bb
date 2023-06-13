@@ -33,6 +33,7 @@ tex(lfbb7.tfm) \
 tex(lfbb8.tfm) \
 tex(lfbb9.tfm) \
 texlive-lfb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

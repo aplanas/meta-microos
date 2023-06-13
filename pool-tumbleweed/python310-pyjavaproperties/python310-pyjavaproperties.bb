@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyjavaproperties \
 python3.10dist(pyjavaproperties) \
 python310-pyjavaproperties \
 python3dist(pyjavaproperties)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base"
 

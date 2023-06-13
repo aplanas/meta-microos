@@ -19,6 +19,7 @@ RPM_HASH = "0ff39d35896df3af1d17316c22450b95335f31f66a0e9b1ed6aeeb97d0f003993b40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yarn"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/node \
 nodejs \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-liblarch \
 python3.10dist(liblarch) \
 python310-liblarch \
 python3dist(liblarch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gobject"
 

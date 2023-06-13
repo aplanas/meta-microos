@@ -11,6 +11,7 @@ RPM_HASH = "cf40bc622535422d3f7dd19a8c4e37acdcf4fe7001614f4b74e4fd1a96908a1033ca
 RPROVIDES:${PN} += "libopenmpt-modplug-devel \
 libopenmpt-modplug-devel(aarch-64) \
 pkgconfig(libopenmpt_modplug)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenmpt_modplug1 \
 pkgconfig(libopenmpt)"

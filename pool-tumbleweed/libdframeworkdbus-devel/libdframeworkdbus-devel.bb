@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(DFrameworkdbus) \
 libdframeworkdbus-devel \
 libdframeworkdbus-devel(aarch-64) \
 pkgconfig(dframeworkdbus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdframeworkdbus2"
 

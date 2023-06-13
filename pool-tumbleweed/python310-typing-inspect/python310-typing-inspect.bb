@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-typing-inspect \
 python3.10dist(typing-inspect) \
 python310-typing-inspect \
 python3dist(typing-inspect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-mypy_extensions \
 python310-typing_extensions"

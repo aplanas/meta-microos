@@ -60,6 +60,7 @@ tex(x.tex) \
 tex(xr.sty) \
 tex(xspace.sty) \
 texlive-tools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python-polib-doc \
 python310-polib-doc \
 python311-polib-doc \
 python39-polib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

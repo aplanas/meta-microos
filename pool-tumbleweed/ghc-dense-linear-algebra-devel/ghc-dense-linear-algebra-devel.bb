@@ -11,6 +11,7 @@ RPM_HASH = "c2677834b6992faa9024dd25dbe547785218d84b92efe2acb15b922beda4364473a3
 RPROVIDES:${PN} += "ghc-dense-linear-algebra-devel \
 ghc-dense-linear-algebra-devel(aarch-64) \
 ghc-devel(dense-linear-algebra-0.1.0.0-2PBc2PrDutT32RQREBxCzn)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-dense-linear-algebra \

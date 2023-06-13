@@ -28,6 +28,7 @@ tex(fsptalos.sty) \
 tex(fsptimesot.sty) \
 tex(fspxcharter.sty) \
 texlive-fontsetup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

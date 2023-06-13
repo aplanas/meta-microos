@@ -13,6 +13,7 @@ RPM_HASH = "5f9ccc0b1ec520fab208b14734b803b7b3857dfe66277169e9ef01fadca7a1269a4f
 RPROVIDES:${PN} += "ghc-microstache \
 ghc-microstache(aarch-64) \
 libHSmicrostache-1.0.2.3-AHAKnK06lT6DHccapktUKL-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

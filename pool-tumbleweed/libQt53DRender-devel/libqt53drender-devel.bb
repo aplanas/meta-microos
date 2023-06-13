@@ -12,6 +12,7 @@ libQt53DRender-devel \
 libQt53DRender-devel(aarch-64) \
 libQt53DRenderer-devel \
 pkgconfig(Qt53DRender)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt53DQuickScene2D5 \
 libQt53DRender5 \

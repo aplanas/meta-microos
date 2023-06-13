@@ -43,6 +43,7 @@ locale(transmageddon:uk) \
 locale(transmageddon:zh_CN) \
 transmageddon-lang \
 transmageddon-lang-all"
+
 RDEPENDS:${PN} += "transmageddon"
 
 inherit rpm

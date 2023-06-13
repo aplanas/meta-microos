@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(construct) \
 python39-construct \
 python3dist(construct)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-arrow"
 

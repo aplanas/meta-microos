@@ -16,6 +16,7 @@ RPM_HASH = "2ccd6c03e76dea443b37051a237d22bf7a8460e63582ffe6026bee56f14590122be6
 RPROVIDES:${PN} += "glade-catalog-evolution \
 glade-catalog-evolution(aarch-64) \
 libgladeevolution.so()(64bit)"
+
 RDEPENDS:${PN} += "evolution \
 glade"
 

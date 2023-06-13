@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-autoupgrade-ng \
 python3.10dist(autoupgrade-ng) \
 python310-autoupgrade-ng \
 python3dist(autoupgrade-ng)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pip"
 

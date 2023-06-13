@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig(verilator) \
 verilator-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 verilator"
 

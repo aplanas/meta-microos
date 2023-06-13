@@ -23,6 +23,7 @@ libgsoapssl++-2.8.127.so()(64bit) \
 libgsoapssl++-2.8.127.so(GSOAPSSLXX)(64bit) \
 libgsoapssl-2.8.127.so()(64bit) \
 libgsoapssl-2.8.127.so(GSOAPSSL)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

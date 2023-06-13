@@ -9,6 +9,7 @@ RPM_HASH = "7e9205ac4814316610f897b68a994557f313a8bf3f1f1007d7b65828ae8a449c5893
 
 RPROVIDES:${PN} += "libXiterm-devel \
 libXiterm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libXiterm1"
 
 inherit rpm

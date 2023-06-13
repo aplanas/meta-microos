@@ -15,6 +15,7 @@ RPM_HASH = "f693da93ba65b1c2bfe9c31f74cdfb4f7d17dc604ab2c5c68387ea5ed7ef1c6f28b2
 
 RPROVIDES:${PN} += "newt \
 newt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

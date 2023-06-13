@@ -30,6 +30,7 @@ tex(phy-qtext.legacy.sty) \
 tex(phy-xmat.sty) \
 tex(physics2.sty) \
 texlive-physics2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPM_HASH = "cbd1485e77139fc5a6ea0f51764f44d356c4ec5611445e14412169955f19294a8132
 
 RPROVIDES:${PN} += "vst-lsp-plugins \
 vst-lsp-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

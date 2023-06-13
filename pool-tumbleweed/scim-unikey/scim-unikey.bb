@@ -12,6 +12,7 @@ RPM_HASH = "90ea309a8c6acac1b666b1f585476556ecb634b32547b9ce7df1d9bac52476850fb9
 RPROVIDES:${PN} += "libunikey-scim.so.1()(64bit) \
 scim-unikey \
 scim-unikey(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

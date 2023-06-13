@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libpciaccess-devel \
 libpciaccess-devel(aarch-64) \
 libpciaccess0-devel \
 pkgconfig(pciaccess)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpciaccess0"
 

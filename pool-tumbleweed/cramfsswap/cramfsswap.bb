@@ -16,6 +16,7 @@ RPM_HASH = "ab42fd3063e7a23905d12788a877e89623a446450d11097d0ac33758b92cbbb27515
 
 RPROVIDES:${PN} += "cramfsswap \
 cramfsswap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

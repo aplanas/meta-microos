@@ -10,6 +10,7 @@ RPM_HASH = "f2adfe4fbc089e5d185ac286a38137818f9279d45d869947c5c06ded35a8d4988360
 
 RPROVIDES:${PN} += "frei0r-plugins \
 frei0r-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

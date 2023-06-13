@@ -11,6 +11,7 @@ RPM_HASH = "7b56666e86c9432ede8c287f10482a7809f456feff56f83c6c386d564a74911cafd5
 RPROVIDES:${PN} += "libluksmeta-devel \
 libluksmeta-devel(aarch-64) \
 pkgconfig(luksmeta)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libluksmeta0 \
 pkgconfig(libcryptsetup)"

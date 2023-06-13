@@ -14,6 +14,7 @@ RPM_HASH = "0b5a6e574c588afb3d339f196e8fe3617cedbddd154556b7977c4e68d55b94069396
 
 RPROVIDES:${PN} += "dhcpd-pools \
 dhcpd-pools(aarch-64)"
+
 RDEPENDS:${PN} += "dhcp-server \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

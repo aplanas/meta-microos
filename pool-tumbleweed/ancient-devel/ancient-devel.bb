@@ -11,6 +11,7 @@ RPM_HASH = "f78cd1c60983083385dc57d8c8cbbb2ebef95c6de888abec8ce8ff48a49a5499c3fb
 RPROVIDES:${PN} += "ancient-devel \
 ancient-devel(aarch-64) \
 pkgconfig(libancient)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libancient2"
 

@@ -11,6 +11,7 @@ RPM_HASH = "7b012388267d52c6b0b9cd03d4c5a3ebc0a9d9d2923ea0cf38208c358583cc924ab2
 RPROVIDES:${PN} += "aaa_base-extras \
 aaa_base-extras(aarch-64) \
 aaa_base:/etc/DIR_COLORS"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/find \
 aaa_base \

@@ -18,6 +18,7 @@ RPM_HASH = "bdd7001f3f2c7c3e250782cba8baa836e9065945db29068f17ac2140b31c6aa5b7a7
 RPROVIDES:${PN} += "plplot \
 plplot-common \
 plplot-common(aarch-64)"
+
 RDEPENDS:${PN} += "libm.so.6()(64bit) \
 libm.so.6(GLIBC_2.17)(64bit) \
 libplplot.so.17()(64bit)"

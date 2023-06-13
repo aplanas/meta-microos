@@ -672,6 +672,7 @@ tex(ts1-antpri8.tfm) \
 tex(ts1antp.fd) \
 tex(ts1antpl.fd) \
 texlive-poltawski"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

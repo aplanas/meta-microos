@@ -13,6 +13,7 @@ RPM_HASH = "5c447bc3d0bd1004fa13808364774d3ccd29f2c1c875268de1b7c75b8757f359d740
 
 RPROVIDES:${PN} += "xmodmap \
 xmodmap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "03acbbacb31318bb4245e8e23df13898b0b2f6b4a57382d7a2f93687d3010544a0a2
 
 RPROVIDES:${PN} += "scap-workbench-doc \
 scap-workbench-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

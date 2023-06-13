@@ -9,6 +9,7 @@ RPM_HASH = "bfc1008821e634bbca7f07003b3d744c4d1a827a628cb695593f4e2dfd9a93155b2b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cgal-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

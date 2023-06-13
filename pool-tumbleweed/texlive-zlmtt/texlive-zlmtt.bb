@@ -29,6 +29,7 @@ tex(ts1zlmtt.fd) \
 tex(ts1zlmvtt.fd) \
 tex(zlmtt.sty) \
 texlive-zlmtt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

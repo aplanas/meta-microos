@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(cpyparsing) \
 python39-cPyparsing \
 python39-cPyparsing(aarch-64) \
 python3dist(cpyparsing)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

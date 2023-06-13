@@ -19,6 +19,7 @@ tex(german-archaeologie.lbx) \
 tex(italian-archaeologie.lbx) \
 tex(spanish-archaeologie.lbx) \
 texlive-archaeologie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(active-conf.cls) \
 texlive-active-conf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

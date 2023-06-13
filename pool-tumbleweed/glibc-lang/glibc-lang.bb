@@ -47,6 +47,7 @@ locale(glibc:uk) \
 locale(glibc:vi) \
 locale(glibc:zh_CN) \
 locale(glibc:zh_TW)"
+
 RDEPENDS:${PN} += "glibc"
 
 inherit rpm

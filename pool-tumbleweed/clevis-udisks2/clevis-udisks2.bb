@@ -9,6 +9,7 @@ RPM_HASH = "cd07b201617c786990b84995b5e265d6e077c8877169353a79fd86106e6cb7bafc28
 
 RPROVIDES:${PN} += "clevis-udisks2 \
 clevis-udisks2(aarch-64)"
+
 RDEPENDS:${PN} += "clevis-luks \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

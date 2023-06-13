@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-folium \
 python3.10dist(folium) \
 python310-folium \
 python3dist(folium)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-branca \

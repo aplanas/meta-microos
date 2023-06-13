@@ -10,6 +10,7 @@ RPM_HASH = "177cab448bcd60579c77855de3474939b132525b5bca38a7520ac7617175eb8344d6
 RPROVIDES:${PN} += "cmake(libminizinc) \
 libminizinc-devel \
 libminizinc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "minizinc"
 
 inherit rpm

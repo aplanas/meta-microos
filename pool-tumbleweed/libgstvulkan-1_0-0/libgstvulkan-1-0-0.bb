@@ -14,6 +14,7 @@ RPM_HASH = "594e162d95c2cbe024272800a43c9edd9e9be8c214fd9b7c24dae13081063fcc1863
 RPROVIDES:${PN} += "libgstvulkan-1.0.so.0()(64bit) \
 libgstvulkan-1_0-0 \
 libgstvulkan-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

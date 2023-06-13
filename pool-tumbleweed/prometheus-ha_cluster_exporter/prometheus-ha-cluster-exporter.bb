@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "ha_cluster_exporter \
 prometheus(ha_cluster_exporter) \
 prometheus-ha_cluster_exporter \
 prometheus-ha_cluster_exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -58,6 +58,7 @@ perl(Path::Class::Dir) \
 perl(Path::Class::Entity) \
 perl(Path::Class::File) \
 perl-Path-Class"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Spec) \
 perl(Perl::OSType) \

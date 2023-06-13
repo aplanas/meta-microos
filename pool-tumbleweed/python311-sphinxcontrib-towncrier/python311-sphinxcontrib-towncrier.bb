@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-towncrier) \
 python311-sphinxcontrib-towncrier \
 python3dist(sphinxcontrib-towncrier)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx \
 python311-towncrier"

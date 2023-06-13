@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(selinux-policy-mls) \
 selinux-policy-base \
 selinux-policy-mls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 policycoreutils \

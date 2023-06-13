@@ -545,6 +545,7 @@ tex(mntsprt_wk34ig.enc) \
 tex(mntsprt_y4xqha.enc) \
 tex(mntsprt_zt2pqo.enc) \
 texlive-mintspirit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

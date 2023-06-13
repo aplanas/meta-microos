@@ -10,6 +10,7 @@ RPM_HASH = "54cbed2442bcbe5063cc3b8758683c4df629d6eba6eea06778452cf4465481292678
 RPROVIDES:${PN} += "ghc-ShellCheck-devel \
 ghc-ShellCheck-devel(aarch-64) \
 ghc-devel(ShellCheck-0.9.0-DdkSsqjqnem8sl1ZfVxG9G)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-ShellCheck \
 ghc-compiler \

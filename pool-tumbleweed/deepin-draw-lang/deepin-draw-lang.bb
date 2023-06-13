@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-draw-lang \
 deepin-draw-lang-all"
+
 RDEPENDS:${PN} += "deepin-draw"
 
 inherit rpm

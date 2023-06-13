@@ -15,6 +15,7 @@ RPM_HASH = "848be69786a312f7e538b460464fee3c905f4bcd3b71d176f17ac82e701e6c1d7615
 
 RPROVIDES:${PN} += "dtc \
 dtc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

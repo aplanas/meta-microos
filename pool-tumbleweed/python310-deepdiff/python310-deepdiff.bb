@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-deepdiff \
 python3.10dist(deepdiff) \
 python310-deepdiff \
 python3dist(deepdiff)"
+
 RDEPENDS:${PN} += "(python310-ordered-set >= 4.1.0 with python310-ordered-set < 4.2) \
 /bin/sh \
 /usr/bin/python3.10 \

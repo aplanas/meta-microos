@@ -13,6 +13,7 @@ mvn(org.apache.xmlgraphics:batik-slideshow) \
 mvn(org.apache.xmlgraphics:batik-slideshow:pom:) \
 osgi(org.apache.batik.slideshow) \
 xmlgraphics-batik-slideshow"
+
 RDEPENDS:${PN} += "/bin/bash \
 java-headless \
 javapackages-filesystem \

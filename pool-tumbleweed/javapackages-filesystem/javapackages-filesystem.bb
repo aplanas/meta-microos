@@ -24,6 +24,7 @@ rpm_macro(_jvmlibdir) \
 rpm_macro(_jvmprivdir) \
 rpm_macro(_jvmsysconfdir) \
 rpm_macro(_mavenpomdir)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-o2sclpy \
 python3.10dist(o2sclpy) \
 python310-o2sclpy \
 python3dist(o2sclpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 o2scl-devel \

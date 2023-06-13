@@ -18,6 +18,7 @@ rpm_macro(erlang_app_name) \
 rpm_macro(erlang_app_vsn) \
 rpm_macro(erlang_dir) \
 rpm_macro(erlang_libdir)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 erlang-epmd \

@@ -11,6 +11,7 @@ RPM_HASH = "c61cab2df08f55ffd1221923b7d71d244211ba29339acf2039019c37d86e9468f67e
 RPROVIDES:${PN} += "lightdm-greeter \
 lightdm-slick-greeter \
 lightdm-slick-greeter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

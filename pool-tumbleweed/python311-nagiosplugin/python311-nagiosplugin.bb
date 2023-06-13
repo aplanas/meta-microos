@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(nagiosplugin) \
 python311-nagiosplugin \
 python3dist(nagiosplugin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-setuptools"
 

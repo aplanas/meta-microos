@@ -13,6 +13,7 @@ libpt2-devel \
 pkgconfig(ptlib) \
 ptlib-devel \
 ptlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpt2_18_8"
 

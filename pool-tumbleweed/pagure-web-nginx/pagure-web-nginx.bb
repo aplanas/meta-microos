@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(pagure-web-nginx) \
 pagure-web-nginx"
+
 RDEPENDS:${PN} += "/bin/sh \
 nginx \
 pagure \

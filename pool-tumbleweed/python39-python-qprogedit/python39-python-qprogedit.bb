@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-qprogedit) \
 python39-python-qprogedit \
 python3dist(python-qprogedit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-QtPy \
 python39-qscintilla-qt5"

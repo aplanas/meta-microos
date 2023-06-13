@@ -14,6 +14,7 @@ RPM_HASH = "751f650db59f04c7f98433ffd4410c4b64102e3769be86d491fc18034fe7af4181d7
 
 RPROVIDES:${PN} += "python311-LHAPDF \
 python311-LHAPDF(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLHAPDF-6.5.4.so()(64bit) \

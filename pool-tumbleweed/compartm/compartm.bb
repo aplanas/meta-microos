@@ -18,6 +18,7 @@ RPM_HASH = "29106bfc0fc69eb9cf1ab23892297703e77e51d1e68b8674316caf8197bf6b4e0ede
 
 RPROVIDES:${PN} += "compartm \
 compartm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

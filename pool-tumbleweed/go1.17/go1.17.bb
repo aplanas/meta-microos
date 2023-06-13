@@ -18,6 +18,7 @@ go-devel-static \
 go1.17 \
 go1.17(aarch-64) \
 golang(API)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

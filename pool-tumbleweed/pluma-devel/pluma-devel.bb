@@ -14,6 +14,7 @@ RPM_HASH = "a1daccbb51f9f6ecd4f69140b18fa16665f12bae0124f7b04fa978dac8ced551c7b1
 RPROVIDES:${PN} += "pkgconfig(pluma) \
 pluma-devel \
 pluma-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gtksourceview-3.0) \
 pkgconfig(gtksourceview-4) \

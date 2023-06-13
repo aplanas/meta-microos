@@ -13,6 +13,7 @@ pkgconfig(scim-gtkutils) \
 pkgconfig(scim-x11utils) \
 scim-devel \
 scim-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(gtk+-3.0) \
 pkgconfig(scim) \

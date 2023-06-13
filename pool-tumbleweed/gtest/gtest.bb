@@ -22,6 +22,7 @@ libgtest.so.1.12.1()(64bit) \
 libgtest_main.so.1.12.1()(64bit) \
 pkgconfig(gtest) \
 pkgconfig(gtest_main)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

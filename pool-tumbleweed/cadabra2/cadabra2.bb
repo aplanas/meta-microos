@@ -29,6 +29,7 @@ RPM_HASH = "f8d6954bd0688e939bc044d3efef358c2a92de7b8c5870e1c76c2c694e73b8a745af
 
 RPROVIDES:${PN} += "cadabra2 \
 cadabra2(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

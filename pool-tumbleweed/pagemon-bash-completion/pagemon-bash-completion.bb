@@ -9,6 +9,7 @@ RPM_HASH = "5fd7f6632bcb298f6daf4fabdad1b04ba6e961fc91bf68b573989ce8482d8018bca9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagemon-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 pagemon"
 

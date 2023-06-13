@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(lxmenu-data) \
 lxmenu-data"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils"
 

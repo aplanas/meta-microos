@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(brandeis-thesis.cls) \
 texlive-brandeis-thesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.11dist(aiohttp) \
 python311-aiohttp \
 python311-aiohttp(aarch-64) \
 python3dist(aiohttp)"
+
 RDEPENDS:${PN} += "(python311-async_timeout >= 4.0 with python311-async_timeout < 5) \
 (python311-asynctest = 0.13.0 if python311-base < 3.8) \
 (python311-charset-normalizer >= 2.0 with python311-charset-normalizer < 4) \

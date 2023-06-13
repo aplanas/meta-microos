@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fusepy) \
 python311-fusepy \
 python3dist(fusepy)"
+
 RDEPENDS:${PN} += "libfuse2 \
 python(abi)"
 

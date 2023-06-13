@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lua-visual-debug.sty) \
 texlive-lua-visual-debug"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

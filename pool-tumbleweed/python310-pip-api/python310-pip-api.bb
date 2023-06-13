@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pip-api \
 python3.10dist(pip-api) \
 python310-pip-api \
 python3dist(pip-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pip"
 

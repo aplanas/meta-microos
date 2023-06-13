@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(synttree.sty) \
 texlive-synttree"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

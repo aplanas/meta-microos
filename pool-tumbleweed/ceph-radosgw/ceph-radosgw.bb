@@ -13,6 +13,7 @@ RPM_HASH = "4c7a034baf26727e176d416a780fc517dff2edb5bc458954e1e674e21c0c83260a7d
 RPROVIDES:${PN} += "ceph-radosgw \
 ceph-radosgw(aarch-64) \
 libradosgw.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/awk \
 /usr/bin/env \

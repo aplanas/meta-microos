@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "python3-stestr \
 python3.10dist(stestr) \
 python310-stestr \
 python3dist(stestr)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python(abi) \
 python3-cliff \

@@ -12,6 +12,7 @@ RPM_HASH = "bafb7fe879225ffa12ccda1260da13feb92d2f97636c417a40897755434bed5eb2a6
 RPROVIDES:${PN} += "libmetalink.so.3()(64bit) \
 libmetalink3 \
 libmetalink3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

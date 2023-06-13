@@ -17,6 +17,7 @@ application(unknown-horizons.desktop) \
 metainfo() \
 metainfo(unknown-horizons.appdata.xml) \
 unknown-horizons"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 hicolor-icon-theme \
 python(abi) \

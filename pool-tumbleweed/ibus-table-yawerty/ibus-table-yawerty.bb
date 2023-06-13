@@ -10,6 +10,7 @@ RPM_HASH = "3a69abe6972dfdd868d837ed87206bd0bef22ba58759b76ace2f3ee3a075af59b932
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-yawerty"
+
 RDEPENDS:${PN} += "ibus-table"
 
 inherit rpm

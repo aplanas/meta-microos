@@ -16,6 +16,7 @@ RPM_HASH = "f92dfee437662c6682f0a7bd5014add4af5e75065338a166a270099bebe76e4a2753
 
 RPROVIDES:${PN} += "vpx-tools \
 vpx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

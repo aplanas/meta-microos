@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-media-nspkg \
 python3.10dist(azure-media-nspkg) \
 python310-azure-media-nspkg \
 python3dist(azure-media-nspkg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-nspkg"
 

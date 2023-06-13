@@ -73,6 +73,7 @@ locale(NetworkManager-l2tp:vi) \
 locale(NetworkManager-l2tp:zh_CN) \
 locale(NetworkManager-l2tp:zh_HK) \
 locale(NetworkManager-l2tp:zh_TW)"
+
 RDEPENDS:${PN} += "NetworkManager-l2tp"
 
 inherit rpm

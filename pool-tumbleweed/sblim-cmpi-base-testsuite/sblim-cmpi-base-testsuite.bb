@@ -9,6 +9,7 @@ RPM_HASH = "5a533047748015e645c59fdaf854455320268ee6ca360ab4606856136f7744fce5a2
 
 RPROVIDES:${PN} += "sblim-cmpi-base-testsuite \
 sblim-cmpi-base-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

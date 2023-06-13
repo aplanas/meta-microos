@@ -11,6 +11,7 @@ RPM_HASH = "73f677ff10a87282159109a7e56209e7ae6343417033968d8517fd6145fc07a15839
 RPROVIDES:${PN} += "libqb-devel \
 libqb-devel(aarch-64) \
 pkgconfig(libqb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqb100"
 

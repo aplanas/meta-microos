@@ -28,6 +28,7 @@ RPM_HASH = "3d8cf3393111a414d4f73e3e3f6126cc1344d054dafe8e2ed12ccfe7eeceb57e82af
 RPROVIDES:${PN} += "config(tcmu-runner) \
 tcmu-runner \
 tcmu-runner(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

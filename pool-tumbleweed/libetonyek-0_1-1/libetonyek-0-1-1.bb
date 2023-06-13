@@ -11,6 +11,7 @@ RPM_HASH = "00c0e3698b624e84666506336a5d064f06003c3bee1b69fd69aa3addaa3c43cefe9b
 RPROVIDES:${PN} += "libetonyek-0.1.so.1()(64bit) \
 libetonyek-0_1-1 \
 libetonyek-0_1-1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

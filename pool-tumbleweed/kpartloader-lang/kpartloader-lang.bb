@@ -57,6 +57,7 @@ locale(kpartloader:ug) \
 locale(kpartloader:uk) \
 locale(kpartloader:zh_CN) \
 locale(kpartloader:zh_TW)"
+
 RDEPENDS:${PN} += "kpartloader"
 
 inherit rpm

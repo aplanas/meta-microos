@@ -10,6 +10,7 @@ RPM_HASH = "88f260e0a5287cd2064380d616aec19f83868ca069505a4b8cdbe1e56a79ea30d98e
 
 RPROVIDES:${PN} += "pfstools-octave \
 pfstools-octave(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/octave \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

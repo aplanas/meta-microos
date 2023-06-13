@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(econlipsum.sty) \
 texlive-econlipsum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

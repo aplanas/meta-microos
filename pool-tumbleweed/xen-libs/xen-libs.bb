@@ -69,6 +69,7 @@ libxlutil.so.4.17()(64bit) \
 libxlutil.so.4.17(VERS_4.17.0)(64bit) \
 xen-libs \
 xen-libs(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

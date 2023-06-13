@@ -11,6 +11,7 @@ RPM_HASH = "776218feffe7f7d4cac6b367c9f28d712a7ff4ed5acb534055a603bd68f4d84a988d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-phags-pa-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

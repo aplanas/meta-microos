@@ -11,6 +11,7 @@ RPM_HASH = "9978326d45fb69380420e53e76bba9c0559da0bde027b0aac0b0d656f1ca0aa44a9b
 RPROVIDES:${PN} += "ibus-mozc-candidate-window \
 ibus-mozc-candidate-window(aarch-64) \
 locale(ibus:ja)"
+
 RDEPENDS:${PN} += "ibus-mozc \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

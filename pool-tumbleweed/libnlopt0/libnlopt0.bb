@@ -13,6 +13,7 @@ RPM_HASH = "c1329656e3d72182dd646263b736cc8d0deee157058212dc7696edb1e682db42644f
 RPROVIDES:${PN} += "libnlopt.so.0()(64bit) \
 libnlopt0 \
 libnlopt0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

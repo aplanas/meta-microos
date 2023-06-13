@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5KMahjongglib) \
 libkmahjongg-devel \
 libkmahjongg-devel(aarch-64) \
 libkmahjongg-kf5-devel"
+
 RDEPENDS:${PN} += "libKF5KMahjongglib5"
 
 inherit rpm

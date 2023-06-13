@@ -13,6 +13,7 @@ ocaml-cairo-devel \
 ocaml-cairo-devel(aarch-64) \
 ocamlfind(cairo2) \
 ocamlx(Cairo)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libcairo.so.2()(64bit) \
 libfontconfig.so.1()(64bit) \

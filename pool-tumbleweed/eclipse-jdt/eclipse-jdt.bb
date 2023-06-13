@@ -59,6 +59,7 @@ osgi(org.eclipse.jdt.junit4.runtime) \
 osgi(org.eclipse.jdt.junit5.runtime) \
 osgi(org.eclipse.jdt.launching) \
 osgi(org.eclipse.jdt.ui)"
+
 RDEPENDS:${PN} += "eclipse-platform \
 java-headless \
 javapackages-filesystem \

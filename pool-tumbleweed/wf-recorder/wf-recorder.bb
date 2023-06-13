@@ -10,6 +10,7 @@ RPM_HASH = "4a394ae8b80842ac42d2f23d3a4350b1ee85c720cca83bf126100eeefc3b067e1557
 
 RPROVIDES:${PN} += "wf-recorder \
 wf-recorder(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libavcodec.so.60()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "cad408cd8512fc3634cdf591fe955daa5319696a2786a396e9c5b0c03c467f82f2d0
 RPROVIDES:${PN} += "cmake(dlpack) \
 dlpack-devel \
 dlpack-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

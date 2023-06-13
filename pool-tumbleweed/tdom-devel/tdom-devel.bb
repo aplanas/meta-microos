@@ -9,6 +9,7 @@ RPM_HASH = "38029e7dc7f0302e34c19dd86238fd8727d949ac044b42011279adf25974adc42153
 
 RPROVIDES:${PN} += "tdom-devel \
 tdom-devel(aarch-64)"
+
 RDEPENDS:${PN} += "tcl-devel \
 tdom"
 

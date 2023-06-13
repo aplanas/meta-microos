@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-serif-sc-fonts-full \
 noto-serif-sc-fonts-full"
+
 RDEPENDS:${PN} += "google-noto-serif-sc-black-fonts \
 google-noto-serif-sc-extralight-fonts \
 google-noto-serif-sc-fonts \

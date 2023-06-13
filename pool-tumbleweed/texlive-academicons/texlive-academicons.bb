@@ -31,6 +31,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(academicons.sty) \
 tex(tuacademicons.fd) \
 texlive-academicons"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

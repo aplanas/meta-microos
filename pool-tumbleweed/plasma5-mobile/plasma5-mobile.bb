@@ -53,6 +53,7 @@ qt5qmlimport(org.kde.plasma.quicksetting.powermenu.1) \
 qt5qmlimport(org.kde.plasma.quicksetting.record.1) \
 qt5qmlimport(org.kde.plasma.quicksetting.screenrotation.1) \
 qt5qmlimport(org.kde.plasma.quicksetting.screenshot.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bluez-qt-imports \
 kactivities5-imports \

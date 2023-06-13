@@ -59,6 +59,7 @@ locale(mousepad:zh_CN) \
 locale(mousepad:zh_TW) \
 mousepad-lang \
 mousepad-lang-all"
+
 RDEPENDS:${PN} += "mousepad"
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2-ant \
 config(apache-commons-vfs2-ant)"
+
 RDEPENDS:${PN} += "apache-commons-vfs2"
 
 inherit rpm

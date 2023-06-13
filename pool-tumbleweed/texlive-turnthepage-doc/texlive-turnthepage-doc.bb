@@ -9,6 +9,7 @@ RPM_HASH = "efd746eaa994d8fe6a0e3be635c68093e7cf74df08cbf851f1352a679aa6875a46e0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-turnthepage-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "9988fa4e03d77399a5a7adc13ccce05959b1c5e58b43bb57f4f8e6aaacdea3b1f905
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gr-iqbal-grc"
+
 RDEPENDS:${PN} += "libgnuradio-iqbalance3_9_0"
 
 inherit rpm

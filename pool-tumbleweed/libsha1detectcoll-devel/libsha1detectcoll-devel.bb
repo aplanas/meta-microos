@@ -12,6 +12,7 @@ RPM_HASH = "faec6cc26599d156a2083fb8d26561db325ae145d49dc8d7fbc326ea90b839672b0c
 
 RPROVIDES:${PN} += "libsha1detectcoll-devel \
 libsha1detectcoll-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsha1detectcoll1"
 
 inherit rpm

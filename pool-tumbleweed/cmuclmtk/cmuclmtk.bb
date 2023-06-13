@@ -15,6 +15,7 @@ RPM_HASH = "16a0d1d7fc2024d68ae3c3a2327a001b82a9303301b9d6f06adc79af93f1488ce9b5
 
 RPROVIDES:${PN} += "cmuclmtk \
 cmuclmtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

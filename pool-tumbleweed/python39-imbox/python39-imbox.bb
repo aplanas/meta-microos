@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(imbox) \
 python39-imbox \
 python39-imbox(aarch-64) \
 python3dist(imbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-chardet"
 

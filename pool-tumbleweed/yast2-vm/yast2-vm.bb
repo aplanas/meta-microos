@@ -15,6 +15,7 @@ metainfo(org.opensuse.yast.RelocationServer.metainfo.xml) \
 metainfo(org.opensuse.yast.VirtualizationConfig.metainfo.xml) \
 yast2-vm \
 yast2-vm(aarch-64)"
+
 RDEPENDS:${PN} += "yast2 \
 yast2-bootloader \
 yast2-network \

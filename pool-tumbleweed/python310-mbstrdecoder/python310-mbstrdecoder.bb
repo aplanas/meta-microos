@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mbstrdecoder \
 python3.10dist(mbstrdecoder) \
 python310-mbstrdecoder \
 python3dist(mbstrdecoder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Faker \
 python310-chardet"

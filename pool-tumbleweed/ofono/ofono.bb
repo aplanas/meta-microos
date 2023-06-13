@@ -15,6 +15,7 @@ RPM_HASH = "796dabbe8aef4ee00b03deaeb3a658fee1a7a30a74d331efaa23c7f88a7459dca724
 RPROVIDES:${PN} += "config(ofono) \
 ofono \
 ofono(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

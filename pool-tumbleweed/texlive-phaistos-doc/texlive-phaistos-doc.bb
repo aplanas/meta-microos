@@ -9,6 +9,7 @@ RPM_HASH = "64013059026c670d2d25827baa6d901c9947ae67d885a26903d8cd9387de32b386f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phaistos-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

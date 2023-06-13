@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cosmos \
 python3.10dist(azure-cosmos) \
 python310-azure-cosmos \
 python3dist(azure-cosmos)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg"

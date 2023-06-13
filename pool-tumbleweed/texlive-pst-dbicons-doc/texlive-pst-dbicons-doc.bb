@@ -9,6 +9,7 @@ RPM_HASH = "e0d9a066c5a7532828b8c510081cd7d6ddc75acf93711b954516a0cb7eb82c20553c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-dbicons-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

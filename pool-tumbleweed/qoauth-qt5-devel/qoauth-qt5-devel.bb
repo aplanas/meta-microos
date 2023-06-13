@@ -13,6 +13,7 @@ RPM_HASH = "80f063ac7ff8d649935b18c8a011b2a558d7b6c921cbacdcbbe4bcbae1781652a1f5
 RPROVIDES:${PN} += "pkgconfig(qoauth) \
 qoauth-qt5-devel \
 qoauth-qt5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqoauth2 \
 pkgconfig(Qt5Core) \

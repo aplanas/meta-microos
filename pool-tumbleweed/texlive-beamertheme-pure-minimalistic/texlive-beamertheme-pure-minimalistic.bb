@@ -19,6 +19,7 @@ tex(beamerinnerthemepureminimalistic.sty) \
 tex(beamerouterthemepureminimalistic.sty) \
 tex(beamerthemepureminimalistic.sty) \
 texlive-beamertheme-pure-minimalistic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

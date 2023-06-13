@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(logilab-common) \
 python311-logilab-common \
 python3dist(logilab-common)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

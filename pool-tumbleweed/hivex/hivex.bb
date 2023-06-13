@@ -11,6 +11,7 @@ RPM_HASH = "28a913443e3afc862e6a26a7e6b421932192bd03fa200520568a0533f7570f29de21
 
 RPROVIDES:${PN} += "hivex \
 hivex(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

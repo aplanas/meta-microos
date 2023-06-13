@@ -9,6 +9,7 @@ RPM_HASH = "8cc736cf51c575b2a08aa05807e4ac34b6e9be0a0681f9aa7b5490e1d5cf8ca5539b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harnon-cv-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

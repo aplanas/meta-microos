@@ -11,6 +11,7 @@ RPM_HASH = "fd23617729997476d6d3e2b6800fc524e21284e0215f178fd59683d262ea8cd3378a
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-pine64plus \
 u-boot-pine64plus(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

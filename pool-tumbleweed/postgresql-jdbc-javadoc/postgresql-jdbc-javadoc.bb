@@ -9,6 +9,7 @@ RPM_HASH = "eed7347e6b01adbc261fe9d339e24fe9d5acf1abc441d067a86d52017ec2ac3f4a5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-jdbc-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

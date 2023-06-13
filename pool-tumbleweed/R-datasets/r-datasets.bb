@@ -9,6 +9,7 @@ RPM_HASH = "231d740cf056b991cc82b94c04fc685e2b630820236a4e4c11dc310cb571aaae0614
 
 RPROVIDES:${PN} += "R-datasets \
 R-datasets(aarch-64)"
+
 RDEPENDS:${PN} += "R-base"
 
 inherit rpm

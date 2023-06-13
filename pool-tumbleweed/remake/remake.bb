@@ -11,6 +11,7 @@ RPM_HASH = "ddcfc361a63c663a89972fe24b2b41f2f497939e7a39bd959d7481c4ca8ee661e80d
 
 RPROVIDES:${PN} += "remake \
 remake(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ RPM_HASH = "36bf3620cad4d6f3ecfb1580d4ac28926854e30fbd7f449105ad7a95c6ac03252cd3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-zram-service"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 systemd"

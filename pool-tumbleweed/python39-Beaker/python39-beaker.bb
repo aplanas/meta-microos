@@ -39,6 +39,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(beaker) \
 python39-Beaker \
 python3dist(beaker)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dbm \
 python39-pylibmc \

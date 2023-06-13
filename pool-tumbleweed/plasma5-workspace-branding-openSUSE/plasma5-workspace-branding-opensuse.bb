@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plasma5-workspace-branding \
 plasma5-workspace-branding-openSUSE"
+
 RDEPENDS:${PN} += "plasma5-defaults-openSUSE \
 plasma5-workspace \
 wallpaper-branding-openSUSE"

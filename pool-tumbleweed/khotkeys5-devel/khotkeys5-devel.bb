@@ -10,6 +10,7 @@ RPM_HASH = "176fa27c81d9611eb7fe3b8e4311874def5e36e2ab16ee5815587f32c9eebb2a825a
 RPROVIDES:${PN} += "cmake(KHotKeysDBusInterface) \
 khotkeys5-devel \
 khotkeys5-devel(aarch-64)"
+
 RDEPENDS:${PN} += "khotkeys5"
 
 inherit rpm

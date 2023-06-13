@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(XML::Filter::BufferText) \
 perl-XML-Filter-BufferText"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(XML::SAX) \
 perl(XML::SAX::Base)"

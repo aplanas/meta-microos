@@ -10,6 +10,7 @@ RPM_HASH = "04f7f69f61bf4c9735ad1e904c986e6967eafac07bc47a1cde4eee9587181899dee3
 RPROVIDES:${PN} += "ghc-optics-core-prof \
 ghc-optics-core-prof(aarch-64) \
 ghc-prof(optics-core-0.4.1-Awni0JkjGzeFZo6HXDNwcT)"
+
 RDEPENDS:${PN} += "ghc-optics-core-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

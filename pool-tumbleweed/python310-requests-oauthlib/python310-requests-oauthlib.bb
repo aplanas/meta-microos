@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-requests-oauthlib \
 python3.10dist(requests-oauthlib) \
 python310-requests-oauthlib \
 python3dist(requests-oauthlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-oauthlib \
 python310-requests"

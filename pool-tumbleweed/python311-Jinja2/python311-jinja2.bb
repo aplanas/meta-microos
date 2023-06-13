@@ -14,6 +14,7 @@ python311-Jinja2 \
 python311-Jinja2(aarch-64) \
 python311-jinja2 \
 python3dist(jinja2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-MarkupSafe"
 

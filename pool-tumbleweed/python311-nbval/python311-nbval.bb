@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3.11dist(nbval) \
 python311-jupyter_nbval \
 python311-nbval \
 python3dist(nbval)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-coverage \
 python311-ipykernel \

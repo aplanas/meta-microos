@@ -90,6 +90,7 @@ perl(URI::urn) \
 perl(URI::urn::isbn) \
 perl(URI::urn::oid) \
 perl-URI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

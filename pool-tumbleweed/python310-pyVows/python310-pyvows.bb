@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyVows \
 python3.10dist(pyvows) \
 python310-pyVows \
 python3dist(pyvows)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

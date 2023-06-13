@@ -79,6 +79,7 @@ locale(kreversi:ug) \
 locale(kreversi:uk) \
 locale(kreversi:zh_CN) \
 locale(kreversi:zh_TW)"
+
 RDEPENDS:${PN} += "kreversi"
 
 inherit rpm

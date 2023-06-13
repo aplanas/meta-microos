@@ -174,6 +174,7 @@ tex(wrapfig-xetex-bidi.def) \
 tex(xcolor-xetex-bidi.def) \
 tex(xltxtra-xetex-bidi.def) \
 texlive-bidi"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

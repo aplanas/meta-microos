@@ -12,6 +12,7 @@ python3-ovs \
 python3-ovs(aarch-64) \
 python3.10dist(ovs) \
 python3dist(ovs)"
+
 RDEPENDS:${PN} += "libopenvswitch-3_1-0 \
 python(abi) \
 python3 \

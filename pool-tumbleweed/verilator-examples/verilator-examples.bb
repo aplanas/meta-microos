@@ -11,6 +11,7 @@ RPM_HASH = "3fe410d01a1cbe240358727b46e1e6169f25bdd1f3b3f58df46ecc7563a4e90d288d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "verilator-examples"
+
 RDEPENDS:${PN} += "verilator"
 
 inherit rpm

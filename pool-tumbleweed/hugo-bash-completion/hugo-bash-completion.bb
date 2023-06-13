@@ -9,6 +9,7 @@ RPM_HASH = "8c72b19fb070f0ae6aae711ae350a9d03ad5504a0a3dbffafe6b987531c1adad86b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hugo-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

@@ -76,6 +76,7 @@ locale(kleopatra:ug) \
 locale(kleopatra:uk) \
 locale(kleopatra:zh_CN) \
 locale(kleopatra:zh_TW)"
+
 RDEPENDS:${PN} += "kleopatra"
 
 inherit rpm

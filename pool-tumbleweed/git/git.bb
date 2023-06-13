@@ -17,6 +17,7 @@ RPM_HASH = "8a3606b585e17ebf266454ceb0e98f26eb9cac55fd07b0380218f8780c9bc2e27c6a
 
 RPROVIDES:${PN} += "git \
 git(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 perl-Git"
 

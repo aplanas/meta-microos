@@ -12,6 +12,7 @@ RPM_HASH = "03bb8178792c5f59ccee8245974a30754dc6a5964abb46faedd9f1a3b5962b921beb
 
 RPROVIDES:${PN} += "talloc-man \
 talloc-man(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ tex(pgflibraryvectorian.code.tex) \
 tex(pgfornament.sty) \
 tex(tikzrput.sty) \
 texlive-pgfornament"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

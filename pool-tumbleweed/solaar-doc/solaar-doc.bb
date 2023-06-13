@@ -14,6 +14,7 @@ RPM_HASH = "b7a8309825ed47c580c98797cf2e3c69966e0768c79ee2f23d1b5b74179d39538155
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solaar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(basque.ldf) \
 texlive-babel-basque"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

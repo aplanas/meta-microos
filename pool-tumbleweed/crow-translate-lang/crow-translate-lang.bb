@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crow-translate-lang \
 crow-translate-lang-all"
+
 RDEPENDS:${PN} += "crow-translate"
 
 inherit rpm

@@ -15,6 +15,7 @@ ispell-swedish(aarch-64) \
 ispell_dictionary \
 iswedish \
 locale(ispell:sv)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

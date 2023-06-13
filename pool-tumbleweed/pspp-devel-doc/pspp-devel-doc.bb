@@ -12,6 +12,7 @@ RPM_HASH = "b0cb4685e02a9be034b68d577daf3de738ca6bc022eb5cf36eafb05ef6606ec37873
 
 RPROVIDES:${PN} += "pspp-devel-doc \
 pspp-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

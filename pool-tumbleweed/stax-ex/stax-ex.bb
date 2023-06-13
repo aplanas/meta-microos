@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "mvn(org.jvnet.staxex:stax-ex) \
 mvn(org.jvnet.staxex:stax-ex:pom:) \
 osgi(org.jvnet.staxex.stax-ex) \
 stax-ex"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.activation:activation)"

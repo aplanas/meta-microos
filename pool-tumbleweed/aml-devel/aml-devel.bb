@@ -10,6 +10,7 @@ RPM_HASH = "c9b08231e4d11e055ad7ed643b392b9cdbad1fc715a0c7d10131bb2a05a9fec2ef9b
 RPROVIDES:${PN} += "aml-devel \
 aml-devel(aarch-64) \
 pkgconfig(aml)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaml0"
 

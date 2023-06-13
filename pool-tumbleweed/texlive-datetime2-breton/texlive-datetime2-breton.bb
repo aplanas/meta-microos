@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(datetime2-breton-ascii.ldf) \
 tex(datetime2-breton-utf8.ldf) \
 tex(datetime2-breton.ldf) \
 texlive-datetime2-breton"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

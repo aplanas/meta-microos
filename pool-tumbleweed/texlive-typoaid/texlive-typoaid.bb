@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(typoaid.sty) \
 texlive-typoaid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

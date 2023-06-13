@@ -13,6 +13,7 @@ RPM_HASH = "477b9314df68baba0f65df37f264486f665951ca05ad5548dda5951331622cf9ca3b
 RPROVIDES:${PN} += "libgodbcbackend.so()(64bit) \
 pdns-backend-godbc \
 pdns-backend-godbc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

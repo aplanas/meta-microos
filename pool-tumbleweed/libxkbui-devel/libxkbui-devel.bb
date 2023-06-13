@@ -14,6 +14,7 @@ RPM_HASH = "8c9a68fd569530d54c52a4843479de05453c84ec7fa4bbc6635f92522b5832132113
 RPROVIDES:${PN} += "libxkbui-devel \
 libxkbui-devel(aarch-64) \
 pkgconfig(xkbui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxkbui1 \
 pkgconfig(kbproto) \

@@ -93,6 +93,7 @@ locale(gnome-keyring:vi) \
 locale(gnome-keyring:zh_CN) \
 locale(gnome-keyring:zh_HK) \
 locale(gnome-keyring:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-keyring"
 
 inherit rpm

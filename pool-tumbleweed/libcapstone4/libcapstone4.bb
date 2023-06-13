@@ -10,6 +10,7 @@ RPM_HASH = "9f83f3be59b0ce030ccf55d022d8dd14b73633728822279ff5824000073fe6794c56
 RPROVIDES:${PN} += "libcapstone.so.4()(64bit) \
 libcapstone4 \
 libcapstone4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

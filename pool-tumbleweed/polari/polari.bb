@@ -17,6 +17,7 @@ mimehandler(x-scheme-handler/irc) \
 polari \
 polari(aarch-64) \
 typelib(Polari)"
+
 RDEPENDS:${PN} += "gjs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

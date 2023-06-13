@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "dotconf \
 dotconf-devel \
 dotconf-devel(aarch-64) \
 pkgconfig(dotconf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdotconf0"
 

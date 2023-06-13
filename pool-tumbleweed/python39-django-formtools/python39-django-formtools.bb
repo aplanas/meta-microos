@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-formtools) \
 python39-django-formtools \
 python3dist(django-formtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django"
 

@@ -27,6 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(lmfit) \
 python311-lmfit \
 python3dist(lmfit)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-asteval \
 python311-numpy \

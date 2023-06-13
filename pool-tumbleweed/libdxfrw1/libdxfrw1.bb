@@ -11,6 +11,7 @@ RPM_HASH = "81b90a348ba9faf9d28757d7c3660a355a6dbed4804b8a3705f7c6d929e734460874
 RPROVIDES:${PN} += "libdxfrw.so.1()(64bit) \
 libdxfrw1 \
 libdxfrw1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

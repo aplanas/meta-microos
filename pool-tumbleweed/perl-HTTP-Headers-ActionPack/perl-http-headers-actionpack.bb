@@ -39,6 +39,7 @@ perl(HTTP::Headers::ActionPack::PriorityList) \
 perl(HTTP::Headers::ActionPack::Util) \
 perl(HTTP::Headers::ActionPack::WWWAuthenticate) \
 perl-HTTP-Headers-ActionPack"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Date) \
 perl(HTTP::Headers::Util) \

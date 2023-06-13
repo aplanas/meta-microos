@@ -13,6 +13,7 @@ libsfcUtil.so.0(SFCUTIL_1.0)(64bit) \
 libsfcUtil.so.0(SFCUTIL_1.1)(64bit) \
 libsfcUtil0 \
 libsfcUtil0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

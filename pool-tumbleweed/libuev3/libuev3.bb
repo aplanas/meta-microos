@@ -15,6 +15,7 @@ RPM_HASH = "bbe6a0c4118e5e0ed89e337c126f5b3ad0c2eb36ef0a88e69ec8bb6d2b2fd7eda2e8
 RPROVIDES:${PN} += "libuev.so.3()(64bit) \
 libuev3 \
 libuev3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

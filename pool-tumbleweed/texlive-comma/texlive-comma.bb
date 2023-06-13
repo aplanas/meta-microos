@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(comma.sty) \
 texlive-comma"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "fb34688f5b807ad268572c2744924e78df282bba6b18a1e16ac491003c1107878fb5
 
 RPROVIDES:${PN} += "freeradius-client-devel \
 freeradius-client-devel(aarch-64)"
+
 RDEPENDS:${PN} += "freeradius-client-libs \
 glibc-devel"
 

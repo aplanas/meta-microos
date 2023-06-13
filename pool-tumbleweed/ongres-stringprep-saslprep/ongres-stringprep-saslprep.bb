@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.ongres.stringprep:saslprep) \
 mvn(com.ongres.stringprep:saslprep:pom:) \
 ongres-stringprep-saslprep"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.ongres.stringprep:stringprep)"

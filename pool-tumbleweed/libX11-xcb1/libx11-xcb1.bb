@@ -17,6 +17,7 @@ RPM_HASH = "02b4aeeee8035f50e699e82e9d6558349682172ebd1f65d88aec29885a0d204e0467
 RPROVIDES:${PN} += "libX11-xcb.so.1()(64bit) \
 libX11-xcb1 \
 libX11-xcb1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libX11-data"
 

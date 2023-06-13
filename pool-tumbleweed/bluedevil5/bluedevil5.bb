@@ -18,6 +18,7 @@ metainfo() \
 metainfo(org.kde.plasma.bluetooth.appdata.xml) \
 mimehandler(application/vnd.kde.bluedevil-sendfile) \
 qt5qmlimport(org.kde.plasma.private.bluetooth.1)"
+
 RDEPENDS:${PN} += "bluez \
 bluez-qt-imports \
 bluez-qt-udev \

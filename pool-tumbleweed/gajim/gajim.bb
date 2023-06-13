@@ -36,6 +36,7 @@ metainfo(org.gajim.Gajim.appdata.xml) \
 mimehandler(x-scheme-handler/xmpp) \
 python3.10dist(gajim) \
 python3dist(gajim)"
+
 RDEPENDS:${PN} += "(python3.10dist(nbxmpp) < 5 with python3.10dist(nbxmpp) >= 4.2.2) \
 /usr/bin/python3.10 \
 ca-certificates-mozilla \

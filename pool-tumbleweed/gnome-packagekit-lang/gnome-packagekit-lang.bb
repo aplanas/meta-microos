@@ -83,6 +83,7 @@ locale(gnome-packagekit:vi) \
 locale(gnome-packagekit:zh_CN) \
 locale(gnome-packagekit:zh_HK) \
 locale(gnome-packagekit:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-packagekit"
 
 inherit rpm

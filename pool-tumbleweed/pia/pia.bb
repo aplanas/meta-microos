@@ -11,6 +11,7 @@ RPM_HASH = "650e300f2e463e688bac36e7c23f046170be39593797c2ae08d36d19f425a705112f
 
 RPROVIDES:${PN} += "pia \
 pia(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

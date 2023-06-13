@@ -9,6 +9,7 @@ RPM_HASH = "c186cc44f0f9d846bb2de3310a7de566ee3d87ff05b0ac96d2d1fc0d7ca211cd0984
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-adcommon-python"
+
 RDEPENDS:${PN} += "krb5-client \
 python(abi) \
 python3-keyring \

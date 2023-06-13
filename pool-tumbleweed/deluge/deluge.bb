@@ -19,6 +19,7 @@ mimehandler(application/x-bittorrent) \
 mimehandler(x-scheme-handler/magnet) \
 python3.10dist(deluge) \
 python3dist(deluge)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

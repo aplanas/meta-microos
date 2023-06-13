@@ -13,6 +13,7 @@ gedit-plugins:/usr/lib64/gedit/plugins/wordcompletion.plugin \
 libwordcompletion.so()(64bit) \
 metainfo() \
 metainfo(gedit-wordcompletion.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

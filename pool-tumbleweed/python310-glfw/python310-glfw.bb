@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-glfw \
 python3.10dist(glfw) \
 python310-glfw \
 python3dist(glfw)"
+
 RDEPENDS:${PN} += "libglfw3 \
 python(abi)"
 

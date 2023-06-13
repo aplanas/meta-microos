@@ -10,6 +10,7 @@ RPM_HASH = "48a91ed020d1a14d63a8504a098fefc32df2320778b553c246be8aee70b204ae587c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "courier-prime-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

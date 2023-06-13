@@ -10,6 +10,7 @@ RPM_HASH = "97a6147d3cd61af068f60baee5f93b097f490791c9c95951b85b16f4a7e2e78bf466
 
 RPROVIDES:${PN} += "owncloud-client-caja \
 owncloud-client-caja(aarch-64)"
+
 RDEPENDS:${PN} += "nemo \
 owncloud-client(aarch-64) \
 python-caja"

@@ -10,6 +10,7 @@ RPM_HASH = "5e5473e7985f52541f988bd8bbd56b1bc2bfaefb9e320d7148bab7a20e7569daea45
 RPROVIDES:${PN} += "ghc-libmpd \
 ghc-libmpd(aarch-64) \
 libHSlibmpd-0.10.0.0-LD6WRi8pb0r8mm5YrtyxA5-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-JfIUPSNLtNQH9xUGOplWef-attoparsec-internal-ghc9.4.5.so()(64bit) \

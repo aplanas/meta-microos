@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:axiom-types) \
 rubygem(ruby:3.2.0:axiom-types:0) \
 rubygem(ruby:3.2.0:axiom-types:0.1) \
 rubygem(ruby:3.2.0:axiom-types:0.1.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:descendants_tracker:0.0) \
 rubygem(ruby:3.2.0:ice_nine:0.11) \

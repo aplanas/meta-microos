@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-LTTL \
 python3.10dist(lttl) \
 python310-LTTL \
 python3dist(lttl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future \
 python310-numpy \

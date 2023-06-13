@@ -18,6 +18,7 @@ mvn(org.glassfish.hk2:hk2-junitrunner) \
 mvn(org.glassfish.hk2:hk2-junitrunner:pom:) \
 mvn(org.glassfish.hk2:hk2-testing:pom:) \
 osgi(org.glassfish.hk2.junitrunner)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.inject:javax.inject) \

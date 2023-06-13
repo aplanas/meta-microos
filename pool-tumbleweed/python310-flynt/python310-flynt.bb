@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flynt \
 python3.10dist(flynt) \
 python310-flynt \
 python3dist(flynt)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

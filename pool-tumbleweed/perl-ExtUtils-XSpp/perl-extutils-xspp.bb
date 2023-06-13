@@ -56,6 +56,7 @@ perl(ExtUtils::XSpp::Typemap::wrapper) \
 perl-ExtUtils-XSpp \
 perl-ExtUtils-XSpp(aarch-64) \
 xspp"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 gcc-c++ \
 perl(:MODULE_COMPAT_5.36.0) \

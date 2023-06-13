@@ -10,6 +10,7 @@ RPM_HASH = "957a6924e359e20229775b4ac1cfab4ae9b9deb7b75191281f7d3b2992caf07fb990
 
 RPROVIDES:${PN} += "wmutils \
 wmutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

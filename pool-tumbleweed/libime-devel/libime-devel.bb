@@ -12,6 +12,7 @@ cmake(LibIMEPinyin) \
 cmake(LibIMETable) \
 libime-devel \
 libime-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libIMECore0 \
 libIMEPinyin0 \
 libIMETable0"

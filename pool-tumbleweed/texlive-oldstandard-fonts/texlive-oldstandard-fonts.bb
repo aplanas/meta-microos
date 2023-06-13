@@ -150,6 +150,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(oldstandard) \
 texlive-oldstandard-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

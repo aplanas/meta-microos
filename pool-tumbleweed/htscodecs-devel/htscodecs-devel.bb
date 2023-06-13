@@ -9,6 +9,7 @@ RPM_HASH = "1edcb4b2d5cc161d178b74da89c3cd865ddd649f8125c6fa2f993e0f9765c5a52cf0
 
 RPROVIDES:${PN} += "htscodecs-devel \
 htscodecs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libhtscodecs2"
 
 inherit rpm

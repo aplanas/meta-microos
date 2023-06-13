@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lgrmath.sty) \
 texlive-lgrmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "6701deb81ce61e8640c6f0728b358728eee97c6dff2e2e51cf4e882157c26a2f2f89
 RPROVIDES:${PN} += "ghc-devel(lucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w) \
 ghc-lucid-devel \
 ghc-lucid-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

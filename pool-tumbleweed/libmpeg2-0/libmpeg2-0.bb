@@ -10,6 +10,7 @@ RPM_HASH = "b6fe5e312000ce75124f7d72d2eb8984a0af4c9ef68ac9c3e9d4ef76d12591ccc73e
 RPROVIDES:${PN} += "libmpeg2-0 \
 libmpeg2-0(aarch-64) \
 libmpeg2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

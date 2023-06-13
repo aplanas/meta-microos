@@ -10,6 +10,7 @@ RPM_HASH = "3ac67e031b1674fac0ed2ce384d941ef635d04751c0b0cdaec9870c67f5c9fc21a37
 RPROVIDES:${PN} += "ktp-icons \
 ktp-icons(aarch-64) \
 ktp-icons5"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

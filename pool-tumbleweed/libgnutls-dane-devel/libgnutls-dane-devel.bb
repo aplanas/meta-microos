@@ -10,6 +10,7 @@ RPM_HASH = "46cc6e89fc8a32631622528738eb18dd60accec9114dc21c01aacb02e950b6682ace
 RPROVIDES:${PN} += "libgnutls-dane-devel \
 libgnutls-dane-devel(aarch-64) \
 pkgconfig(gnutls-dane)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgnutls-dane0 \
 pkgconfig(gnutls)"

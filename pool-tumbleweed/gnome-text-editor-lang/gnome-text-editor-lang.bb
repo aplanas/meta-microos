@@ -55,6 +55,7 @@ locale(gnome-text-editor:uk) \
 locale(gnome-text-editor:vi) \
 locale(gnome-text-editor:zh_CN) \
 locale(gnome-text-editor:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-text-editor"
 
 inherit rpm

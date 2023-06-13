@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathfam256.sty) \
 texlive-mathfam256"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

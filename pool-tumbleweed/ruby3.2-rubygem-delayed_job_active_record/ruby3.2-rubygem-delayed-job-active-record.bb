@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:delayed_job_active_record) \
 rubygem(ruby:3.2.0:delayed_job_active_record:4) \
 rubygem(ruby:3.2.0:delayed_job_active_record:4.1) \
 rubygem(ruby:3.2.0:delayed_job_active_record:4.1.7)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:activerecord) \
 rubygem(ruby:3.2.0:delayed_job)"

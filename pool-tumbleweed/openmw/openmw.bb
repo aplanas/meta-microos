@@ -41,6 +41,7 @@ metainfo() \
 metainfo(openmw.appdata.xml) \
 openmw \
 openmw(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 OpenSceneGraph-plugins \
 desktop-file-utils \

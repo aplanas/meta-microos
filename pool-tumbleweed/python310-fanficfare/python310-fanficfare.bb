@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-fanficfare \
 python3.10dist(fanficfare) \
 python310-fanficfare \
 python3dist(fanficfare)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

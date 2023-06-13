@@ -16,6 +16,7 @@ mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https) \
 vimb \
 vimb(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libgdk-3.so.0()(64bit) \
 libgio-2.0.so.0()(64bit) \

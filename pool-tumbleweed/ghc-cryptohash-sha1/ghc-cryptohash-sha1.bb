@@ -25,6 +25,7 @@ RPM_HASH = "0c53d2658a0e007908b795a74f65943e9c30d9a9ab9d947f910380f647855bac6bbc
 RPROVIDES:${PN} += "ghc-cryptohash-sha1 \
 ghc-cryptohash-sha1(aarch-64) \
 libHScryptohash-sha1-0.11.101.0-5MfQC56IvYq9IpSDMpmdHb-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

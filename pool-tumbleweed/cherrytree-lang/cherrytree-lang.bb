@@ -36,6 +36,7 @@ locale(cherrytree:tr) \
 locale(cherrytree:uk) \
 locale(cherrytree:zh_CN) \
 locale(cherrytree:zh_TW)"
+
 RDEPENDS:${PN} += "cherrytree"
 
 inherit rpm

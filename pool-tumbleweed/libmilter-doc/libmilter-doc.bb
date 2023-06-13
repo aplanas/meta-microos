@@ -16,6 +16,7 @@ RPM_HASH = "21969133adf066665796108dfc22037cd84bda598658554fae1fbdc35a984118dd80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmilter-doc"
+
 RDEPENDS:${PN} += "libmilter1_0"
 
 inherit rpm

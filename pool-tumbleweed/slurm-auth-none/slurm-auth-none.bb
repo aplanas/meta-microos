@@ -9,6 +9,7 @@ RPM_HASH = "12f0b29fe0d5b29893992a54997e31cb47363f0c0f53696a516b4fc5a3d49644f36b
 
 RPROVIDES:${PN} += "slurm-auth-none \
 slurm-auth-none(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

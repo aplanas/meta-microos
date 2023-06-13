@@ -74,6 +74,7 @@ perl(ExtUtils::testlib) \
 perl(MM) \
 perl(MY) \
 perl-ExtUtils-MakeMaker"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

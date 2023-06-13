@@ -13,6 +13,7 @@ metainfo() \
 metainfo(org.opensuse.yast.Printer.metainfo.xml) \
 yast2-printer \
 yast2-printer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/mktemp \
 /usr/bin/sed \

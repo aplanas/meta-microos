@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-serbian-noenc.ldf) \
 tex(glossaries-serbian-utf8.ldf) \
 tex(glossaries-serbian.ldf) \
 texlive-glossaries-serbian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

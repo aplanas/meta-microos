@@ -13,6 +13,7 @@ RPM_HASH = "e6e8340dd741b90c8af4f8248151ba6ade2e4561317a8267fcb568d8d813a43bf93a
 
 RPROVIDES:${PN} += "dvbstream \
 dvbstream(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

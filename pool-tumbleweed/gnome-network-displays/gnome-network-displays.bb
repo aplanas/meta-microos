@@ -18,6 +18,7 @@ gnome-network-displays \
 gnome-network-displays(aarch-64) \
 metainfo() \
 metainfo(org.gnome.NetworkDisplays.appdata.xml)"
+
 RDEPENDS:${PN} += "gstreamer-plugin-pipewire \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

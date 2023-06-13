@@ -11,6 +11,7 @@ RPM_HASH = "30e767b7b683ea8c5896d7d9b738954cbf6a5f7a328988abc572e292c2382687f236
 RPROVIDES:${PN} += "libqpdfview_djvu.so()(64bit) \
 qpdfview-plugin-djvu \
 qpdfview-plugin-djvu(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

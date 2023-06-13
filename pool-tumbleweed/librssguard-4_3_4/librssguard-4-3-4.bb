@@ -10,6 +10,7 @@ RPM_HASH = "a8170c1d6c124c2336f9bd3d237b8f8ecb57c2c424eaff5fa72b8856b74339cf8bfe
 RPROVIDES:${PN} += "librssguard-4.3.4.so()(64bit) \
 librssguard-4_3_4 \
 librssguard-4_3_4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

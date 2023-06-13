@@ -16,6 +16,7 @@ RPM_HASH = "493f8a51a39cb3bf9b6ac2171f1be21d76c85fdfa8847eccc91b3d2d948597762f02
 RPROVIDES:${PN} += "installhint(reboot-needed) \
 xen \
 xen(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

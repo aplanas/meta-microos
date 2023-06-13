@@ -94,6 +94,7 @@ locale(kservice:wa) \
 locale(kservice:zh_CN) \
 locale(kservice:zh_HK) \
 locale(kservice:zh_TW)"
+
 RDEPENDS:${PN} += "kservice"
 
 inherit rpm

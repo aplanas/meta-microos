@@ -59,6 +59,7 @@ libxslt_filter.so()(64bit) \
 metainfo() \
 metainfo(dia.appdata.xml) \
 mimehandler(application/x-dia-diagram)"
+
 RDEPENDS:${PN} += "ghostscript-fonts-std \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

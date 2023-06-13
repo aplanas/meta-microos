@@ -11,6 +11,7 @@ RPM_HASH = "97300e5a3793ce10c8e15f0365f18856235d6d5cd71fad3a29a25d4917c99c311cf1
 RPROVIDES:${PN} += "python3-gst \
 python310-gst \
 python310-gst(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

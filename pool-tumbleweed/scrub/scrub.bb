@@ -16,6 +16,7 @@ RPM_HASH = "ae9dcf1edda4a878184a5441dd7ca1e8d8a095d7eab8dd660276b8f99ed7553ded77
 
 RPROVIDES:${PN} += "scrub \
 scrub(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

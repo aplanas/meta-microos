@@ -17,6 +17,7 @@ RPM_HASH = "600a8ff2fcc3c6184ac5040116b3ee141d708faec3dc6c5d74e714441e8323188961
 RPROVIDES:${PN} += "libnfc-devel \
 libnfc-devel(aarch-64) \
 pkgconfig(libnfc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfc6 \
 pkgconfig(libusb)"

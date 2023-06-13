@@ -14,6 +14,7 @@ RPM_HASH = "fed0d74a2b9efe46fee2688af14df5f1cd5783251958470d251073707317e6f0dded
 RPROVIDES:${PN} += "libvsgpt-devel \
 libvsgpt-devel(aarch-64) \
 pkgconfig(libvsgpt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libvsgpt1"

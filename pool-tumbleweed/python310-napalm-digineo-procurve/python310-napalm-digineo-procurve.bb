@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-napalm-digineo-procurve \
 python3.10dist(napalm-digineo-procurve) \
 python310-napalm-digineo-procurve \
 python3dist(napalm-digineo-procurve)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-napalm"
 

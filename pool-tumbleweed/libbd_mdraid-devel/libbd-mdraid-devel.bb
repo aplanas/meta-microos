@@ -11,6 +11,7 @@ RPM_HASH = "4902dc2b41ede4fa94ed8e2b32460b94c2b97cd899586b7c0f23f579aafc936417ef
 RPROVIDES:${PN} += "libbd_mdraid-devel \
 libbd_mdraid-devel(aarch-64) \
 libblockdev-mdraid-devel"
+
 RDEPENDS:${PN} += "glib2-devel \
 libbd_mdraid2 \
 libbd_utils-devel"

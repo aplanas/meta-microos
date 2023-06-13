@@ -15,6 +15,7 @@ RPM_HASH = "522f55c6df75da11f4017f851d153340107aaacdcc45e4f514cdf290fd183728e89e
 
 RPROVIDES:${PN} += "wxEDID \
 wxEDID(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

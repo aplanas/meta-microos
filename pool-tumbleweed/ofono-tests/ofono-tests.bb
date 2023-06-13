@@ -10,6 +10,7 @@ RPM_HASH = "c8dae89c5f8311af24a79dbd50d87c25e6fdced997236ce8af874b03424da526fa54
 RPROVIDES:${PN} += "ofono-test \
 ofono-tests \
 ofono-tests(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ofono"
 

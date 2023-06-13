@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "mono(NDesk.DBus) \
 ndesk-dbus \
 ndesk-dbus-devel \
 pkgconfig(ndesk-dbus-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 mono(System) \
 mono(System.Xml) \

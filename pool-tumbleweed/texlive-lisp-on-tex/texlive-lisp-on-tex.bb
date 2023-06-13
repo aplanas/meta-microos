@@ -22,6 +22,7 @@ tex(lisp-simple-alloc.sty) \
 tex(lisp-string.sty) \
 tex(lisp-util.sty) \
 texlive-lisp-on-tex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

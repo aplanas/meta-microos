@@ -13,6 +13,7 @@ application(org.opensuse.yast.NTPClient.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.NTPClient.metainfo.xml) \
 yast2-ntp-client"
+
 RDEPENDS:${PN} += "/bin/sh \
 augeas-lenses \
 rubygem(ruby:3.2.0:cfa) \

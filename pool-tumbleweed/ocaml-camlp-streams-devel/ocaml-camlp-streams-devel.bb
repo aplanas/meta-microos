@@ -15,6 +15,7 @@ ocaml-camlp-streams-devel(aarch-64) \
 ocamlfind(camlp-streams) \
 ocamlx(Genlex) \
 ocamlx(Stream)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Genlex) \

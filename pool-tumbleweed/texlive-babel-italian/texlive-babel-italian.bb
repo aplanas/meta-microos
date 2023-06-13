@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(italian.ldf) \
 texlive-babel-italian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

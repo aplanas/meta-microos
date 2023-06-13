@@ -129,6 +129,7 @@ font(pxsys) \
 font(texgyrepagellax) \
 font(zplx) \
 texlive-newpx-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

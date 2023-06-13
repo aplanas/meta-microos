@@ -11,6 +11,7 @@ RPM_HASH = "01b97d89f0711d503b2b17c0591ddcf8d8478bdaf59262029aa4412489a98b803eeb
 
 RPROVIDES:${PN} += "boost_1_82_0-gnu-openmpi2-hpc-devel \
 boost_1_82_0-gnu-openmpi2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "boost_1_82_0-gnu-openmpi2-hpc \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

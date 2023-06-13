@@ -10,6 +10,7 @@ RPM_HASH = "6febf847b33722704e06d39bd2c4fce1e05440cb830eeb1d989ccfc6854d76db647a
 
 RPROVIDES:${PN} += "ftvalid \
 ftvalid(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

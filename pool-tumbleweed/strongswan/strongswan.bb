@@ -37,6 +37,7 @@ RPM_HASH = "7eefc6307a37a9cf490b7578a349b2c67a47b78e795a18fc5f11ba942a77dce9689a
 
 RPROVIDES:${PN} += "strongswan \
 strongswan(aarch-64)"
+
 RDEPENDS:${PN} += "strongswan-ipsec \
 systemd"
 

@@ -110,6 +110,7 @@ locale(mate-power-manager:zh_HK) \
 locale(mate-power-manager:zh_TW) \
 mate-power-manager-lang \
 mate-power-manager-lang-all"
+
 RDEPENDS:${PN} += "mate-power-manager"
 
 inherit rpm

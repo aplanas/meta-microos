@@ -13,6 +13,7 @@ RPM_HASH = "42561e6917f0954584d4c6e97e106c999697052a46dad8cf4367f1eaaeeda64bf9f0
 
 RPROVIDES:${PN} += "w_scan \
 w_scan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

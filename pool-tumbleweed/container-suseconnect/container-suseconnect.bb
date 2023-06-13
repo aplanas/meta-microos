@@ -10,6 +10,7 @@ RPM_HASH = "a84bacfe743ee8534887dcc1dc737e4e2499dbe53f6da3a1afc538d857c69f27de11
 
 RPROVIDES:${PN} += "container-suseconnect \
 container-suseconnect(aarch-64)"
+
 RDEPENDS:${PN} += "libzypp"
 
 inherit rpm

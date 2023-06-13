@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gmp-devel \
 gmp-devel(aarch-64) \
 pkgconfig(gmp) \
 pkgconfig(gmpxx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libgmp10 \

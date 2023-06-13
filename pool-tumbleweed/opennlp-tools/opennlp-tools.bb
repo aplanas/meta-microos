@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(org.apache.opennlp:opennlp-tools) \
 mvn(org.apache.opennlp:opennlp-tools:pom:) \
 opennlp-tools \
 osgi(org.apache.opennlp.tools)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(net.sf.jwordnet:jwnl) \

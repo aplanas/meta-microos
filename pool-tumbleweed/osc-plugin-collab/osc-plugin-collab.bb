@@ -11,6 +11,7 @@ RPM_HASH = "b4320db5e28e1970ff8ae97bf70fb8b64d1b9bae2df3621e8b159b8d41f106909a2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc-plugin-collab"
+
 RDEPENDS:${PN} += "osc"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "0322029df39915da7f8db9f9f63ede57b592ad27d89149cd7422cd12dee2f23dfd7a
 RPROVIDES:${PN} += "cmake(nanopb) \
 nanopb-devel \
 nanopb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 libprotobuf-nanopb0 \

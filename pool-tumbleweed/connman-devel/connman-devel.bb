@@ -10,6 +10,7 @@ RPM_HASH = "4296f248077c94e8e856140e1f3b2fb5fca44a7aec180db9f72f253554f4463d6907
 RPROVIDES:${PN} += "connman-devel \
 connman-devel(aarch-64) \
 pkgconfig(connman)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 connman \
 pkgconfig(dbus-1) \

@@ -14,6 +14,7 @@ RPM_HASH = "27bcec14940f68c9826a82c9763a608cb3495c06723c0de9edf5dba694034037a75d
 RPROVIDES:${PN} += "libpnglite.so.0()(64bit) \
 libpnglite0 \
 libpnglite0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

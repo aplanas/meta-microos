@@ -10,6 +10,7 @@ RPM_HASH = "a14b527caed5a8f5afd6605608ef9f52eefe4260569239452aa6a434c6f621e4c5c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-yuyo-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

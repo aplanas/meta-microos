@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libsonnetquickplugin.so()(64bit) \
 qt5qmlimport(org.kde.sonnet.1) \
 sonnet-imports \
 sonnet-imports(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5SonnetCore.so.5()(64bit) \

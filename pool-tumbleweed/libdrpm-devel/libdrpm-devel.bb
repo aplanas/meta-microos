@@ -12,6 +12,7 @@ drpm-devel(aarch-64) \
 libdrpm-devel \
 libdrpm-devel(aarch-64) \
 pkgconfig(drpm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdrpm0(aarch-64)"
 

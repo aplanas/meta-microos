@@ -10,6 +10,7 @@ RPM_HASH = "f68976403c7d96507cb6cb321de1c23f26e7fe9217ccac1d1802d3b8e77bd198f54d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iso-country-flags-png"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

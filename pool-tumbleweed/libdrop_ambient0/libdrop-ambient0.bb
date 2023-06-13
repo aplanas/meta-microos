@@ -12,6 +12,7 @@ RPM_HASH = "3afad98be9d16fc689bb0d5b6758dc3676786e819ccc2429e4f254bb6260d5aba47c
 RPROVIDES:${PN} += "libdrop_ambient.so.0()(64bit) \
 libdrop_ambient0 \
 libdrop_ambient0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libcap-ng0"

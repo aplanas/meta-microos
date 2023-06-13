@@ -19,6 +19,7 @@ RPM_HASH = "db2bb6b21d03ab1797ea512fc87d749149d8473b728e40ecb3b68ec610262313a542
 RPROVIDES:${PN} += "liboggkate.so.1()(64bit) \
 liboggkate1 \
 liboggkate1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

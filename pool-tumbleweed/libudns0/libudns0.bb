@@ -11,6 +11,7 @@ RPM_HASH = "23cc54668719def991c4f1ff0ae026ad11b7dac65dc3914950eea38d777262a42e82
 RPROVIDES:${PN} += "libudns.so.0()(64bit) \
 libudns0 \
 libudns0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit)"
 

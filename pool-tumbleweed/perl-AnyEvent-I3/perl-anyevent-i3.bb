@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(AnyEvent::I3) \
 perl-AnyEvent-I3"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(AnyEvent) \
 perl(AnyEvent::Handle) \

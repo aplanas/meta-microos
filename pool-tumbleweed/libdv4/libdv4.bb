@@ -14,6 +14,7 @@ RPM_HASH = "ad9630adba3d80bf105dbf98682f9356f5ac951403cf7110d7aed02546bf2604e000
 RPROVIDES:${PN} += "libdv.so.4()(64bit) \
 libdv4 \
 libdv4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

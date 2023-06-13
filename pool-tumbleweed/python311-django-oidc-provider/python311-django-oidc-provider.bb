@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-oidc-provider) \
 python311-django-oidc-provider \
 python3dist(django-oidc-provider)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django \
 python311-pyjwkest"

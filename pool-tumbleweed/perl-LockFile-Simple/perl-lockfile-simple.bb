@@ -21,6 +21,7 @@ perl(LockFile::Manager) \
 perl(LockFile::Simple) \
 perl-LockFile-Simple \
 perl-LockFile-Simple(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

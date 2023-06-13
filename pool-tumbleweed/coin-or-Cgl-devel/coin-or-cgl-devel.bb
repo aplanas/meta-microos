@@ -12,6 +12,7 @@ RPM_HASH = "ab63a05c4420cafc9efed1ca2bbae7513f3fe10127e0989a5a2f69306f69b9b6f757
 RPROVIDES:${PN} += "coin-or-Cgl-devel \
 coin-or-Cgl-devel(aarch-64) \
 pkgconfig(cgl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libCgl1 \
 pkgconfig(clp) \

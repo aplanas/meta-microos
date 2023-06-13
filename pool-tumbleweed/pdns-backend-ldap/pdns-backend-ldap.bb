@@ -13,6 +13,7 @@ RPM_HASH = "ae1cb7ffc7baece3ec8021c5bbd3ad8b26b12441411913536765a727f5d0e711f11f
 RPROVIDES:${PN} += "libldapbackend.so()(64bit) \
 pdns-backend-ldap \
 pdns-backend-ldap(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -32,6 +32,7 @@ locale(entangle:tr) \
 locale(entangle:uk) \
 locale(entangle:zh_CN) \
 locale(entangle:zh_TW)"
+
 RDEPENDS:${PN} += "entangle"
 
 inherit rpm

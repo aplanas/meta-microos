@@ -10,6 +10,7 @@ RPM_HASH = "37943b57cc3cefc5ef9e45658dbe844df42d6a955388d3e1c27d9fa55114ac91d792
 
 RPROVIDES:${PN} += "PackageKit-gstreamer-plugin \
 PackageKit-gstreamer-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

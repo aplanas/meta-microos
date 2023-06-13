@@ -15,6 +15,7 @@ RPM_HASH = "1b5c2fc6bc3f3335dcc5304a1e0569acb422e79b286f353bf8d8bc7ed92a181c1f3b
 
 RPROVIDES:${PN} += "update-test-affects-package-manager \
 update-test-affects-package-manager(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

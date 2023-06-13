@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-bootstrap3) \
 python311-django-bootstrap3 \
 python3dist(django-bootstrap3)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

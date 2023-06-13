@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(pst-char.sty) \
 tex(pst-text.sty) \
 tex(pst-text.tex) \
 texlive-pst-text"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

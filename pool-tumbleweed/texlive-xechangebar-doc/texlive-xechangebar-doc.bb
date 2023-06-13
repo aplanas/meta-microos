@@ -9,6 +9,7 @@ RPM_HASH = "fa51c7f248a42b82a35c536979cb3a86ea49c3882d41d14aea80b7275a6dd3956735
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xechangebar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

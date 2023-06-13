@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-coxpcall \
 lua54-coxpcall"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

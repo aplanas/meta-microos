@@ -15,6 +15,7 @@ libflann1_9 \
 libflann1_9(aarch-64) \
 libflann_cpp.so.1.9()(64bit) \
 libflann_cpp1_9"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

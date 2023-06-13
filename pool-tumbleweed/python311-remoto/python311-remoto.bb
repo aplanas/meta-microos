@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(remoto) \
 python311-remoto \
 python3dist(remoto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-execnet"
 

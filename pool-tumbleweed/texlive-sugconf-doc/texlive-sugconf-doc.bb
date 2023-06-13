@@ -9,6 +9,7 @@ RPM_HASH = "a49f903f36f9d14e0b4a380b861c464a3a2dca942bfd87c336060a4512df7373b92b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sugconf-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

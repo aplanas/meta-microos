@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(apa6e.cls) \
 texlive-apa6e"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

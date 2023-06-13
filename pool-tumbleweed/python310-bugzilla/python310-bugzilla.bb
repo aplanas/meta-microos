@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-bugzilla \
 python3.10dist(python-bugzilla) \
 python310-bugzilla \
 python3dist(python-bugzilla)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

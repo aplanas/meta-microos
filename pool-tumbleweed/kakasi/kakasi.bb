@@ -21,6 +21,7 @@ RPM_HASH = "815637a92f46e6fa6a0e72a4e3550f2aa72411a2309ca9dbb4ec8818bd29178526bd
 RPROVIDES:${PN} += "kakasi \
 kakasi(aarch-64) \
 libkakasi.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 kakasi-dict \

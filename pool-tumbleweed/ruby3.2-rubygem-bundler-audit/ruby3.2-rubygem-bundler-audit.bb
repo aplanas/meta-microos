@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:bundler-audit) \
 rubygem(ruby:3.2.0:bundler-audit:0) \
 rubygem(ruby:3.2.0:bundler-audit:0.9) \
 rubygem(ruby:3.2.0:bundler-audit:0.9.1)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi) \

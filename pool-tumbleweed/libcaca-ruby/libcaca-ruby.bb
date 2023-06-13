@@ -9,6 +9,7 @@ RPM_HASH = "a4949951c20dcf5a9be983f92e0c651a6eeeb1c5b71c143376524521c3a0663885f8
 
 RPROVIDES:${PN} += "libcaca-ruby \
 libcaca-ruby(aarch-64)"
+
 RDEPENDS:${PN} += "libcaca \
 libcaca.so.0()(64bit) \
 libruby3.2.so.3.2()(64bit) \

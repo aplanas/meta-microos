@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(frenchmath.sty) \
 texlive-frenchmath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

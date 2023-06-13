@@ -12,6 +12,7 @@ RPM_HASH = "d58b4f28fff2788eb24bdcf411c6e60ce3d7c8c366bbb463130dc60bc825da6b3f24
 RPROVIDES:${PN} += "build-key \
 openSUSE-build-key \
 openSUSE-build-key(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

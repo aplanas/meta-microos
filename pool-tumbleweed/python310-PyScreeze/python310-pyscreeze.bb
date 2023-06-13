@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-PyScreeze \
 python3.10dist(pyscreeze) \
 python310-PyScreeze \
 python3dist(pyscreeze)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow"
 

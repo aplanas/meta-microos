@@ -11,6 +11,7 @@ RPM_HASH = "737577ea04b5e20611d438005c492913f220b32c298f3dfb3a6c28ed74c7e11dbcbd
 
 RPROVIDES:${PN} += "petsc-devel \
 petsc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 /usr/bin/sh \

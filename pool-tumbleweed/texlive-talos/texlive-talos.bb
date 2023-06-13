@@ -12,6 +12,7 @@ RPM_HASH = "426ffdd42a2047e1c6a503e87cd2412608bf69d0887b1b98b9aec43eb9a8f3ce9fdb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-talos"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "c280db0000d3cde1244ea951e0362e2b9104bfd7a9c528b2870b1c69b7bd14e06507
 RPROVIDES:${PN} += "db-java-devel \
 libdb_java-4_8-devel \
 libdb_java-4_8-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libdb_java-4_8"
 

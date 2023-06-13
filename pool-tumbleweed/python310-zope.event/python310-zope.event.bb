@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-zope.event \
 python3.10dist(zope.event) \
 python310-zope.event \
 python3dist(zope.event)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -15,6 +15,7 @@ libopenbabel-devel \
 openbabel-devel \
 openbabel-devel(aarch-64) \
 pkgconfig(openbabel-3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopenbabel7 \
 pkgconfig(zlib)"

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libtukit-devel \
 libtukit-devel(aarch-64) \
 pkgconfig(tukit) \
 tukit-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtukit4 \
 pkgconfig(libeconf) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-xypic-doc:en) \
 texlive-xypic-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

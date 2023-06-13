@@ -16,6 +16,7 @@ RPM_HASH = "6206a27ec5d5f3c5414fd5c35785a40c39f9ef12c45e2aa3be58282dd3dd0002db25
 RPROVIDES:${PN} += "libvmmalloc.so.1()(64bit) \
 libvmmalloc1 \
 libvmmalloc1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

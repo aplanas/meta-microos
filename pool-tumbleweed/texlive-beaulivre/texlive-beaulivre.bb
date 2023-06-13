@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(beaulivre.cls) \
 texlive-beaulivre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

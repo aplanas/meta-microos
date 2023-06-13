@@ -9,6 +9,7 @@ RPM_HASH = "4d5fc878b52c04828002ab57dc4a2ae95d6ed35120021b32f57bb6b5bee720d933c7
 
 RPROVIDES:${PN} += "texlive-perltex-bin \
 texlive-perltex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-perltex"
 
 inherit rpm

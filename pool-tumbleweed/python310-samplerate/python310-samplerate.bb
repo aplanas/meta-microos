@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-samplerate \
 python3.10dist(samplerate) \
 python310-samplerate \
 python3dist(samplerate)"
+
 RDEPENDS:${PN} += "libsamplerate \
 python(abi) \
 python310-cffi \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(mimalloc) \
 mimalloc-devel \
 mimalloc-devel(aarch-64) \
 pkgconfig(mimalloc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmimalloc2"
 

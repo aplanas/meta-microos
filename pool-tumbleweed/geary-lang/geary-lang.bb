@@ -59,6 +59,7 @@ locale(geary:uk) \
 locale(geary:vi) \
 locale(geary:zh_CN) \
 locale(geary:zh_TW)"
+
 RDEPENDS:${PN} += "geary"
 
 inherit rpm

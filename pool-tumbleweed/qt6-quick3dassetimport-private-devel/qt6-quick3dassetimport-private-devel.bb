@@ -10,6 +10,7 @@ RPM_HASH = "c14a8fb1598d416f80fd01e7e5a55f4be78b2430579fa4aea4527d6d233eeb290560
 
 RPROVIDES:${PN} += "qt6-quick3dassetimport-private-devel \
 qt6-quick3dassetimport-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Quick3DAssetImport) \
 qt6-core-private-devel \
 qt6-quick3dutils-private-devel"

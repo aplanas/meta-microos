@@ -10,6 +10,7 @@ RPM_HASH = "4ff692342e851c485aec8915ba99a0fd4333e4bfb28f88daf3107cd40a48edead81c
 
 RPROVIDES:${PN} += "u-boot-rock-pi-4-rk3399-doc \
 u-boot-rock-pi-4-rk3399-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

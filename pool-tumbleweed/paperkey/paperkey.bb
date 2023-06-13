@@ -12,6 +12,7 @@ RPM_HASH = "e3ec582396df2b7c91d58b739923be93c462f262d9ee39808d327628f13893dac2c6
 
 RPROVIDES:${PN} += "paperkey \
 paperkey(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

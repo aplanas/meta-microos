@@ -10,6 +10,7 @@ RPM_HASH = "c246916bada645e76c6cf8667c76fed6afbb0bed5b1bb2aacca90bda88d87895904e
 
 RPROVIDES:${PN} += "slurm-lua \
 slurm-lua(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

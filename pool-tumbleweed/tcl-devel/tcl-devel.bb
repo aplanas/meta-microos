@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "itcl-devel \
 pkgconfig(tcl) \
 tcl-devel \
 tcl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(zlib) \
 tcl"

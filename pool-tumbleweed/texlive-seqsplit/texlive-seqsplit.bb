@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(seqsplit.sty) \
 texlive-seqsplit"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -22,6 +22,7 @@ python3.10dist(rfc3986-validator) \
 python310-rfc3986-validator \
 python310-rfc3986_validator \
 python3dist(rfc3986-validator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

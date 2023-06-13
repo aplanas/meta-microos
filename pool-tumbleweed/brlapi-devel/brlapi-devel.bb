@@ -19,6 +19,7 @@ RPM_HASH = "69ba91e07b8c9ddcfd89121fb667b16e408560268dd22ea0b87d238781d116465639
 RPROVIDES:${PN} += "brlapi-devel \
 brlapi-devel(aarch-64) \
 pkgconfig(brltty)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbrlapi0_8"
 

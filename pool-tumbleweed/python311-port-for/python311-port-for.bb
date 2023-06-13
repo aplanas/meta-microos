@@ -41,6 +41,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(port-for) \
 python311-port-for \
 python3dist(port-for)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

@@ -15,6 +15,7 @@ RPM_HASH = "461e8adbbaa137e78f1686f6a6cb22b51132083c12402d0bb18b6164f72ddcaa054d
 RPROVIDES:${PN} += "config(gtk3-immodule-multipress) \
 gtk3-immodule-multipress \
 gtk3-immodule-multipress(aarch-64)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

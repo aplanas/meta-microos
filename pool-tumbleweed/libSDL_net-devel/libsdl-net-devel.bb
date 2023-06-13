@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "SDL_net-devel \
 libSDL_net-devel \
 libSDL_net-devel(aarch-64) \
 pkgconfig(SDL_net)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL_net-1_2-0 \
 pkgconfig(sdl)"

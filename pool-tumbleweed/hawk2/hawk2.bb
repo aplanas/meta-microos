@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "ha-cluster-webui \
 hawk \
 hawk2 \
 hawk2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

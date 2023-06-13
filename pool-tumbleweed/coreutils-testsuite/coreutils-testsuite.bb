@@ -20,6 +20,7 @@ RPM_HASH = "8ac467a16b3f6b6c6097b75d1e41a2b77e51efb78395bb23c790cf84df8574e5b981
 
 RPROVIDES:${PN} += "coreutils-testsuite \
 coreutils-testsuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

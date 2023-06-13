@@ -19,6 +19,7 @@ RPM_HASH = "4b531ee2d69174c7e95276ef53540d326ff69191c0200cc8d44fb2f0293cb27c1c78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanify"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

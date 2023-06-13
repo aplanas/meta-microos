@@ -18,6 +18,7 @@ mimehandler(application/x-font-ttf) \
 mimehandler(font/otf) \
 mimehandler(font/ttc) \
 mimehandler(font/ttf)"
+
 RDEPENDS:${PN} += "font-manager-common \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

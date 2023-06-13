@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-oletools \
 python3.10dist(oletools) \
 python310-oletools \
 python3dist(oletools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

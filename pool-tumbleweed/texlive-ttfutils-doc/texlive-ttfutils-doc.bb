@@ -13,6 +13,7 @@ man(ttf2pk.1) \
 man(ttf2tfm.1) \
 man(ttfdump.1) \
 texlive-ttfutils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

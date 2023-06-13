@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(skills.sty) \
 texlive-skills"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -28,6 +28,7 @@ ocamlx(Xml_light_dtd_check) \
 ocamlx(Xml_light_errors) \
 ocamlx(Xml_light_utils) \
 ocamlx(Xml_parser)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(Stdlib) \
 ocaml(Stdlib__Buffer) \

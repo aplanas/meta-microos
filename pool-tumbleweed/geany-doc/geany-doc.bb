@@ -9,6 +9,7 @@ RPM_HASH = "4ba5c565a90c015e2dc0d19c446f5d86c0b93532ff1e11ef17477a750d293b701c05
 
 RPROVIDES:${PN} += "geany-doc \
 geany-doc(aarch-64)"
+
 RDEPENDS:${PN} += "geany"
 
 inherit rpm

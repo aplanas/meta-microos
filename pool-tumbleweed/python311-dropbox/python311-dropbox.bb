@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dropbox) \
 python311-dropbox \
 python3dist(dropbox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests \
 python311-six"

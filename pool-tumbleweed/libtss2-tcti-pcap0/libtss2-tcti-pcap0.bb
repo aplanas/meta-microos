@@ -12,6 +12,7 @@ RPM_HASH = "b54273b7a5008c8a453f9e185592c109cedb1e16496d41e5b49981cd114e8270cebf
 RPROVIDES:${PN} += "libtss2-tcti-pcap.so.0()(64bit) \
 libtss2-tcti-pcap0 \
 libtss2-tcti-pcap0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

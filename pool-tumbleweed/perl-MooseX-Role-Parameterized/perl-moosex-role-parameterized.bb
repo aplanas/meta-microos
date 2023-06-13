@@ -37,6 +37,7 @@ perl(MooseX::Role::Parameterized::Meta::Trait::Parameterizable) \
 perl(MooseX::Role::Parameterized::Meta::Trait::Parameterized) \
 perl(MooseX::Role::Parameterized::Parameters) \
 perl-MooseX-Role-Parameterized"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Runtime) \
 perl(Moose) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-unittest2pytest \
 python3.10dist(unittest2pytest) \
 python310-unittest2pytest \
 python3dist(unittest2pytest)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

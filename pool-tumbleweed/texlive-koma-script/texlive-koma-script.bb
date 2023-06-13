@@ -201,6 +201,7 @@ tex(typearea-experts-en.tex) \
 tex(typearea.sty) \
 tex(variables-tikz.tex) \
 texlive-koma-script"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

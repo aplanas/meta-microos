@@ -14,6 +14,7 @@ RPM_HASH = "613e29995bbcc53ba24a55541f400ff246f5ee61793003ce5d9db99717f12cf299ba
 RPROVIDES:${PN} += "config(rsyslog-module-mysql) \
 rsyslog-module-mysql \
 rsyslog-module-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

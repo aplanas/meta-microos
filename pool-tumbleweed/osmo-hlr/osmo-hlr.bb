@@ -18,6 +18,7 @@ RPM_HASH = "60af5b514ce6b2f866d285a69c32a6d493edc04a22cb2f0cabe7525693372890248a
 RPROVIDES:${PN} += "config(osmo-hlr) \
 osmo-hlr \
 osmo-hlr(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

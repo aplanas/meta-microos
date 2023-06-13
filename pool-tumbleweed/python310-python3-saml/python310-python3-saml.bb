@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-python3-saml \
 python3.10dist(python3-saml) \
 python310-python3-saml \
 python3dist(python3-saml)"
+
 RDEPENDS:${PN} += "libxmlsec1-openssl1 \
 python(abi) \
 python310-isodate \

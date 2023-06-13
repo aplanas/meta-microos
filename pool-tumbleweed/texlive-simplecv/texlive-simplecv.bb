@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplecv.cls) \
 texlive-simplecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

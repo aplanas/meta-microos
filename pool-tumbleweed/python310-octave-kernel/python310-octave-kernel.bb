@@ -16,6 +16,7 @@ python3.10dist(octave-kernel) \
 python310-jupyter_octave_kernel \
 python310-octave-kernel \
 python3dist(octave-kernel)"
+
 RDEPENDS:${PN} += "jupyter-octave-kernel \
 python(abi) \
 python310-ipykernel \

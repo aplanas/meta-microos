@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinx-feature-classification) \
 python311-sphinx-feature-classification \
 python3dist(sphinx-feature-classification)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-docutils \
 python311-pbr"

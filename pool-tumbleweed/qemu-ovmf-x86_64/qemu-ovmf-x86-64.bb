@@ -13,6 +13,7 @@ RPM_HASH = "d548dcb0b2bd47409a124e0ce457e634b32ab6fecb53225961ffd67278a871924fcf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ovmf-x86_64"
+
 RDEPENDS:${PN} += "qemu"
 
 inherit rpm

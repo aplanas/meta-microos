@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(asyalign.sty) \
 tex(asyfig.sty) \
 tex(asyprocess.sty) \
 texlive-asyfig"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "7b6d6350f5f57601fb2f4f00b5b970b2455e0a1161e66841e022f03b7f66109733b6
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-poplar \
 u-boot-poplar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

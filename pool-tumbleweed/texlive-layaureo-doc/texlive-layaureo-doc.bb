@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-layaureo-doc:it) \
 texlive-layaureo-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

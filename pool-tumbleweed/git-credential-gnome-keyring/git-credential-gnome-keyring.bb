@@ -9,6 +9,7 @@ RPM_HASH = "33dbae2dfcf834b210c77c74276a653cad435461525ef72c98757fbe048abaa48d7d
 
 RPROVIDES:${PN} += "git-credential-gnome-keyring \
 git-credential-gnome-keyring(aarch-64)"
+
 RDEPENDS:${PN} += "git-core \
 gnome-keyring \
 ld-linux-aarch64.so.1()(64bit) \

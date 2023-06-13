@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gmverb.sty) \
 texlive-gmverb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

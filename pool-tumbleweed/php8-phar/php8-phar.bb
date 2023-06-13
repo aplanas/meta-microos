@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "config(php8-phar) \
 php-phar \
 php8-phar \
 php8-phar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

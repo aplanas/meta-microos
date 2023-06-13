@@ -11,6 +11,7 @@ RPM_HASH = "26415d47b11c1b4a4dd2695b28b66bbb990b7eeed3e86c46d482d96506360817a4e0
 
 RPROVIDES:${PN} += "giac \
 giac(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

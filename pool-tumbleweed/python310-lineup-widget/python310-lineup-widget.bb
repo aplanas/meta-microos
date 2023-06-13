@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-lineup-widget \
 python3.10dist(lineup-widget) \
 python310-lineup-widget \
 python3dist(lineup-widget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-ipywidgets \
 python310-notebook \

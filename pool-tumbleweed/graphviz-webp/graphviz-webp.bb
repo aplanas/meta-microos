@@ -10,6 +10,7 @@ RPM_HASH = "cca459e733470ea82d80d437f108f08b205ca233080675f275d44780ebd937700d7b
 RPROVIDES:${PN} += "graphviz-webp \
 graphviz-webp(aarch-64) \
 libgvplugin_webp.so.6()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 graphviz \
 graphviz-gnome \

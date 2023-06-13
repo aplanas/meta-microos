@@ -96,6 +96,7 @@ locale(baobab:wa) \
 locale(baobab:zh_CN) \
 locale(baobab:zh_HK) \
 locale(baobab:zh_TW)"
+
 RDEPENDS:${PN} += "baobab"
 
 inherit rpm

@@ -769,6 +769,7 @@ tex(gkaiu9f.tfm) \
 tex(gkaiufe.tfm) \
 tex(gkaiuff.tfm) \
 texlive-arphic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-smpplib \
 python3.10dist(smpplib) \
 python310-smpplib \
 python3dist(smpplib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

@@ -14,6 +14,7 @@ RPM_HASH = "08eabb4babe0a17e5070137adbd55133e0753710fc9f0a88aab3e4a4dd68f73b9212
 RPROVIDES:${PN} += "hashdeep \
 hashdeep(aarch-64) \
 md5deep"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "37e8fed40a455c44a9982ea96d31e8f26c9cd40aff2646c087acbb3326b58b815092
 RPROVIDES:${PN} += "libeiciel-nautilus.so()(64bit) \
 nautilus-eiciel \
 nautilus-eiciel(aarch-64)"
+
 RDEPENDS:${PN} += "eiciel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

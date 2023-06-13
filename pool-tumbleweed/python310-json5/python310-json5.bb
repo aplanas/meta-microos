@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-json5 \
 python3.10dist(json5) \
 python310-json5 \
 python3dist(json5)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

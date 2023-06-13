@@ -60,6 +60,7 @@ libmm-shared-sierra.so()(64bit) \
 libmm-shared-telit.so()(64bit) \
 libmm-shared-xmm.so()(64bit) \
 org.freedesktop.ModemManager"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "d40eb07187bb6f0983e75b2df41113bf79ccfe425a4b266e6f3fba765a30364407bb
 RPROVIDES:${PN} += "libyui-devel \
 libyui-devel(aarch-64) \
 pkgconfig(libyui)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boost-devel \
 glibc-devel \

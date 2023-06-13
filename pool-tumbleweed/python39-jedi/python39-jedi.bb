@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(jedi) \
 python39-jedi \
 python3dist(jedi)"
+
 RDEPENDS:${PN} += "(python39-parso >= 0.8.0 with python39-parso < 0.9) \
 python(abi)"
 

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "leechcraft-sysnotify \
 leechcraft-sysnotify(aarch-64) \
 leechcraft-visualnotifications \
 libleechcraft_sysnotify.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

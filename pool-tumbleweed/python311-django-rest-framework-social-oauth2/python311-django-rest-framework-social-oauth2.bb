@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-rest-framework-social-oauth2) \
 python311-django-rest-framework-social-oauth2 \
 python3dist(django-rest-framework-social-oauth2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-django-braces \
 python311-django-oauth-toolkit \

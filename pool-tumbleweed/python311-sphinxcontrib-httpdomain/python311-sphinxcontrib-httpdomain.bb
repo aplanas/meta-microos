@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sphinxcontrib-httpdomain) \
 python311-sphinxcontrib-httpdomain \
 python3dist(sphinxcontrib-httpdomain)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx \
 python311-six"

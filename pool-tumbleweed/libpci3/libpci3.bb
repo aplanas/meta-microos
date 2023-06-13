@@ -19,6 +19,7 @@ libpci.so.3(LIBPCI_3.7)(64bit) \
 libpci.so.3(LIBPCI_3.8)(64bit) \
 libpci3 \
 libpci3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

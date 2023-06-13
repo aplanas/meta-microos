@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(footnoterange.sty) \
 texlive-footnoterange"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

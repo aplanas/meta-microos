@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-zc.customdoctests \
 python3.10dist(zc.customdoctests) \
 python310-zc.customdoctests \
 python3dist(zc.customdoctests)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

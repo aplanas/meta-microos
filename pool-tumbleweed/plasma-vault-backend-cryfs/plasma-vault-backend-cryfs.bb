@@ -10,6 +10,7 @@ RPM_HASH = "34c8c972128275dae1385d2c40b0b5af7d979c80a50ee3b8580cc4491b2443527c79
 RPROVIDES:${PN} += "plasma-vault-backend \
 plasma-vault-backend-cryfs \
 plasma-vault-backend-cryfs(aarch-64)"
+
 RDEPENDS:${PN} += "cryfs \
 plasma-vault"
 

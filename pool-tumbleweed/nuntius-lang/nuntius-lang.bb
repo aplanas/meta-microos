@@ -14,6 +14,7 @@ locale(nuntius:pl) \
 locale(nuntius:sk) \
 nuntius-lang \
 nuntius-lang-all"
+
 RDEPENDS:${PN} += "nuntius"
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aspectlib) \
 python39-aspectlib \
 python3dist(aspectlib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-fields"
 

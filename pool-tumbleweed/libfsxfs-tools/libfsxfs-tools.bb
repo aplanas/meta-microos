@@ -10,6 +10,7 @@ RPM_HASH = "80fbfcf177793ac7c73784a9e0f478400ba3a559c1b010546c792f6914ef3fc13f3c
 
 RPROVIDES:${PN} += "libfsxfs-tools \
 libfsxfs-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

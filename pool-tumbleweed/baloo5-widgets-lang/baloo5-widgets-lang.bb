@@ -63,6 +63,7 @@ locale(baloo5-widgets:ug) \
 locale(baloo5-widgets:uk) \
 locale(baloo5-widgets:zh_CN) \
 locale(baloo5-widgets:zh_TW)"
+
 RDEPENDS:${PN} += "baloo5-widgets"
 
 inherit rpm

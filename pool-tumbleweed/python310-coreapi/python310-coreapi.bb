@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-coreapi \
 python3.10dist(coreapi) \
 python310-coreapi \
 python3dist(coreapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-coreschema \
 python310-itypes \

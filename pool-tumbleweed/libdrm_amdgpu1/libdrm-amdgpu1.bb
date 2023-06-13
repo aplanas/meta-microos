@@ -14,6 +14,7 @@ RPM_HASH = "fa14bc14968cf7846335de385e4ad3b06ae4e1d177b8be6f7976e4f10ebe1b8f6a09
 RPROVIDES:${PN} += "libdrm_amdgpu.so.1()(64bit) \
 libdrm_amdgpu1 \
 libdrm_amdgpu1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "python3-portend \
 python3.10dist(portend) \
 python310-portend \
 python3dist(portend)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tempora"
 

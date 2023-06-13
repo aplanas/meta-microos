@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-healthcareapis) \
 python39-azure-mgmt-healthcareapis \
 python3dist(azure-mgmt-healthcareapis)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

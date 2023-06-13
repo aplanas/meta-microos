@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(randbild.sty) \
 texlive-randbild"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

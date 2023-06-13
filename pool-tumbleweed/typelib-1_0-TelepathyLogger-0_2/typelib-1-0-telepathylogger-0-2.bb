@@ -19,6 +19,7 @@ RPM_HASH = "c23b6d00e159c0cd26df8595191f303f0681013e7e04279ab7a5e8364f074ab774d2
 RPROVIDES:${PN} += "typelib(TelepathyLogger) \
 typelib-1_0-TelepathyLogger-0_2 \
 typelib-1_0-TelepathyLogger-0_2(aarch-64)"
+
 RDEPENDS:${PN} += "libtelepathy-logger.so.3()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

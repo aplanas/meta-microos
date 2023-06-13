@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(collref.sty) \
 texlive-collref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

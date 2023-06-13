@@ -11,6 +11,7 @@ RPM_HASH = "ab9347e7670ede7aaf2450bddc5dccb94dd0e40cf72a3d86c94a0cb9c9a025eec11d
 RPROVIDES:${PN} += "libtranscript.so.1()(64bit) \
 libtranscript1 \
 libtranscript1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

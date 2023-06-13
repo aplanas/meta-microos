@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-mgmt-confidentialledger) \
 python39-azure-mgmt-confidentialledger \
 python3dist(azure-mgmt-confidentialledger)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-common \
 python39-azure-mgmt-core \

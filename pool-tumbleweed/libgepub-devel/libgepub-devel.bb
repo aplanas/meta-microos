@@ -10,6 +10,7 @@ RPM_HASH = "3ced4e5ab128c24fb01fffa23b8c770043cfe28e22a66c00eb9333f35aa37678f963
 RPROVIDES:${PN} += "libgepub-devel \
 libgepub-devel(aarch-64) \
 pkgconfig(libgepub-0.7)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgepub-0_7-0 \
 pkgconfig(gio-2.0) \

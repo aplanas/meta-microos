@@ -14,6 +14,7 @@ RPM_HASH = "72036eaf63b561908c9892f21dc92b82c8407591bc2d7994345a135c2bd1980fe250
 
 RPROVIDES:${PN} += "xautomation \
 xautomation(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

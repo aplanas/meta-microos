@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(elastic-transport) \
 python39-elastic-transport \
 python3dist(elastic-transport)"
+
 RDEPENDS:${PN} += "(python39-urllib3 >= 1.26.2) \
 python(abi) \
 python39-certifi"

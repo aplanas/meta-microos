@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(geometry.sty) \
 texlive-geometry"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

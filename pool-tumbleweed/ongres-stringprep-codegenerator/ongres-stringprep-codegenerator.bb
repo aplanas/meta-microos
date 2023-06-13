@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(com.ongres.stringprep:codegenerator) \
 mvn(com.ongres.stringprep:codegenerator:pom:) \
 ongres-stringprep-codegenerator"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.velocity:velocity)"

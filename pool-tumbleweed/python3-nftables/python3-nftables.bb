@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3-nftables \
 python3-nftables(aarch-64) \
 python3.10dist(nftables) \
 python3dist(nftables)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

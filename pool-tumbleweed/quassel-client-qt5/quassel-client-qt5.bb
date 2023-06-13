@@ -15,6 +15,7 @@ RPM_HASH = "b44031e1eef0cc9eedc0ac5a9e5a2a9b516b0dbbc9c6408b2525f76ed7b5da612c91
 RPROVIDES:${PN} += "quassel-client-qt5 \
 quassel-client-qt5(aarch-64) \
 quassel_ui"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

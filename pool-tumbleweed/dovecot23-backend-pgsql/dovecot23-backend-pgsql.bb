@@ -20,6 +20,7 @@ dovecot23-backend-pgsql \
 dovecot23-backend-pgsql(aarch-64) \
 dovecot_sql_backend \
 libdriver_pgsql.so()(64bit)"
+
 RDEPENDS:${PN} += "dovecot23 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

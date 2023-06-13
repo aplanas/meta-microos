@@ -12,6 +12,7 @@ RPM_HASH = "0e2de561ce86792efd57ae9869f2e414d936655875a0241ed5eb0ae61945bbaf959b
 RPROVIDES:${PN} += "libdvbpsi.so.10()(64bit) \
 libdvbpsi10 \
 libdvbpsi10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -88,6 +88,7 @@ locale(libksysguard5:vi) \
 locale(libksysguard5:wa) \
 locale(libksysguard5:zh_CN) \
 locale(libksysguard5:zh_TW)"
+
 RDEPENDS:${PN} += "libksysguard5"
 
 inherit rpm

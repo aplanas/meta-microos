@@ -9,6 +9,7 @@ RPM_HASH = "fd18cf888be41633d14b7c7ab5631a07d3b23616c4714a159777895179d872dcb384
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iops"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

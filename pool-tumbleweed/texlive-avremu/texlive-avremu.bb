@@ -20,6 +20,7 @@ tex(avr.numbers.tex) \
 tex(avr.testsuite.tex) \
 tex(avremu.sty) \
 texlive-avremu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "memory-constraints \
 rpm_macro(limit_build)"
+
 RDEPENDS:${PN} += "/usr/bin/awk \
 coreutils"
 

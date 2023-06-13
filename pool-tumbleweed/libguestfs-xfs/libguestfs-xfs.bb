@@ -10,6 +10,7 @@ RPM_HASH = "77e969c2848852de363e63830fee10a357175fc5ba9b1f7c5b51ac1db75b745aa4cc
 
 RPROVIDES:${PN} += "libguestfs-xfs \
 libguestfs-xfs(aarch-64)"
+
 RDEPENDS:${PN} += "libguestfs"
 
 inherit rpm

@@ -20,6 +20,7 @@ kongress \
 kongress(aarch-64) \
 metainfo() \
 metainfo(org.kde.kongress.appdata.xml)"
+
 RDEPENDS:${PN} += "kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

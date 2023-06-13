@@ -11,6 +11,7 @@ RPM_HASH = "b0046972df4104d0e6a2668c803815f4db2b2c4789ea3c448c05a4b62bd153995d68
 
 RPROVIDES:${PN} += "ext3grep \
 ext3grep(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

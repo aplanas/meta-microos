@@ -42,6 +42,7 @@ RPM_HASH = "e31743e6b86ca0ce485cb04ce772e95c9530be2f41549af01593322945c8f899e4b8
 
 RPROVIDES:${PN} += "signing-party \
 signing-party(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 /usr/bin/python3 \

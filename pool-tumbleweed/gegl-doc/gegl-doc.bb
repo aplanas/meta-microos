@@ -12,6 +12,7 @@ RPM_HASH = "80f8402205587f540555b0b1e935a355aa1fcce60fc3994bc81507f94077257413a8
 
 RPROVIDES:${PN} += "gegl-doc \
 gegl-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

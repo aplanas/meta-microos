@@ -12,6 +12,7 @@ RPM_HASH = "62b8c0be24797ce08ea7a941de42dfb389fce1245a215d1256be1a27e09a126a26e3
 
 RPROVIDES:${PN} += "libtar-devel \
 libtar-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtar"
 
 inherit rpm

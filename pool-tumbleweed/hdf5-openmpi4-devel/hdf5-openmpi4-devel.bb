@@ -13,6 +13,7 @@ RPM_HASH = "ccad5c97eb398187bbe6837b68789e0b38a95499be9923ae45c14cf5cb09ed44a20e
 
 RPROVIDES:${PN} += "hdf5-openmpi4-devel \
 hdf5-openmpi4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hdf5-devel-data \
 hdf5-openmpi4 \

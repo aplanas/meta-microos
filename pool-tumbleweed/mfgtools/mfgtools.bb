@@ -9,6 +9,7 @@ RPM_HASH = "5f83c409871aa0109b2b8bfd156f3b8d0c95a407ce477a3a5ec9a50d70d31373b26f
 
 RPROVIDES:${PN} += "mfgtools \
 mfgtools(aarch-64)"
+
 RDEPENDS:${PN} += "libbz2.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

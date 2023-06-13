@@ -11,6 +11,7 @@ RPM_HASH = "dff6fcd572819399895fc8ed3eccf7da13d19cffe4d5e42d665fa4cd8dfda9de0f54
 RPROVIDES:${PN} += "libimobiledevice-glue-devel \
 libimobiledevice-glue-devel(aarch-64) \
 pkgconfig(libimobiledevice-glue-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libimobiledevice-glue-1_0-0 \
 pkgconfig(libplist-2.0)"

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(datetime2-galician-ascii.ldf) \
 tex(datetime2-galician-utf8.ldf) \
 tex(datetime2-galician.ldf) \
 texlive-datetime2-galician"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

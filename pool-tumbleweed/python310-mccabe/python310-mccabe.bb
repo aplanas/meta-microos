@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mccabe \
 python3.10dist(mccabe) \
 python310-mccabe \
 python3dist(mccabe)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

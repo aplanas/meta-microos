@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(re) \
 pkgconfig(libre) \
 re-devel \
 re-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libre12"
 

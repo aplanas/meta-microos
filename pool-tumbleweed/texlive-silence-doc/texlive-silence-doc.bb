@@ -9,6 +9,7 @@ RPM_HASH = "183b78a1fdd46344c3412a3b6e999d251dfc353e091ea109cc78dd2276ed72ba3e7f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-silence-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

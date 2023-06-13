@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "bundled(patternfly) \
 openscap-report \
 python3.10dist(openscap-report) \
 python3dist(openscap-report)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python(abi) \

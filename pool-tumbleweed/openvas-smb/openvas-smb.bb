@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "openvas-smb \
 openvas-smb(aarch-64) \
 winexe \
 wmic"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasn1.so.8()(64bit) \

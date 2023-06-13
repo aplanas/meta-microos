@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(xalan:xsltc) \
 mvn(xalan:xsltc:pom:) \
 xalan-j2-xsltc"
+
 RDEPENDS:${PN} += "bcel \
 java-headless \
 java_cup \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pgflibrarybbox.code.tex) \
 texlive-tikz-bbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

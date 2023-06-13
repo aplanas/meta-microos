@@ -22,6 +22,7 @@ perl(Mojo::Pg::PubSub) \
 perl(Mojo::Pg::Results) \
 perl(Mojo::Pg::Transaction) \
 perl-Mojo-Pg"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBD::Pg) \
 perl(Mojolicious) \

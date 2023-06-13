@@ -12,6 +12,7 @@ RPM_HASH = "e2c8f90cacf2f6ef2667c52ddceae18713c943bde20113261a7d0a9bb21005d3619b
 
 RPROVIDES:${PN} += "med-tools \
 med-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/wish \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

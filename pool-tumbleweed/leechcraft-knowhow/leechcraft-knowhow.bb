@@ -11,6 +11,7 @@ RPM_HASH = "46593b7db02373a8d246b5c4962c0e02e5581d33638114fa8d68c3ec43dccc0ae1f9
 RPROVIDES:${PN} += "leechcraft-knowhow \
 leechcraft-knowhow(aarch-64) \
 libleechcraft_knowhow.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft \

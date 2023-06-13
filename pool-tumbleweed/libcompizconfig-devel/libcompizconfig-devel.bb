@@ -12,6 +12,7 @@ RPM_HASH = "715d175dd9fddaf399331478147428cceddddb96aca104632574c9a17f1bdf42191d
 RPROVIDES:${PN} += "libcompizconfig-devel \
 libcompizconfig-devel(aarch-64) \
 pkgconfig(libcompizconfig)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcompizconfig \
 pkgconfig \

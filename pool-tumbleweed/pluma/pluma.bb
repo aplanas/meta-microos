@@ -30,6 +30,7 @@ metainfo(pluma.appdata.xml) \
 mimehandler(text/plain) \
 pluma \
 pluma(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

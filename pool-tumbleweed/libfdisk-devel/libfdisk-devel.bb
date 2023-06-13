@@ -11,6 +11,7 @@ RPM_HASH = "d0b256e88d2e9a2527c9edd7090ba4c8b0ee894d9f16c0afa14c802f7c8fde09d52b
 RPROVIDES:${PN} += "libfdisk-devel \
 libfdisk-devel(aarch-64) \
 pkgconfig(fdisk)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfdisk1 \
 pkgconfig(blkid) \

@@ -10,6 +10,7 @@ RPM_HASH = "95e59745ea667ff26ae95e3555ff7a98ee691f55e03951d7920e2842bf41ce3cbeb7
 RPROVIDES:${PN} += "libSingular-devel \
 libSingular-devel(aarch-64) \
 pkgconfig(Singular)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSingular-4_3_1 \
 mpfr-devel \

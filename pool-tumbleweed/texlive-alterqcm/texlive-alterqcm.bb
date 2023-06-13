@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(alterqcm.sty) \
 texlive-alterqcm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

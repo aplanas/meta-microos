@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Modern::Perl) \
 perl(odern::Perl) \
 perl-Modern-Perl"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(feature) \
 perl(mro)"

@@ -46,6 +46,7 @@ locale(cpu-x:tr) \
 locale(cpu-x:uk) \
 locale(cpu-x:zh) \
 locale(cpu-x:zh_Hant)"
+
 RDEPENDS:${PN} += "cpu-x"
 
 inherit rpm

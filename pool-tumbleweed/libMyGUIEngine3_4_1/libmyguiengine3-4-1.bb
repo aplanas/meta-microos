@@ -13,6 +13,7 @@ RPM_HASH = "7efd19759b8512f96eb8757fd67c4e8825b398cbc35d314729a0bcf1283ff25fe2ac
 RPROVIDES:${PN} += "libMyGUIEngine.so.3.4.1()(64bit) \
 libMyGUIEngine3_4_1 \
 libMyGUIEngine3_4_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

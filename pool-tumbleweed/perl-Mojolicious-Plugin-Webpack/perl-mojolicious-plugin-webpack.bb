@@ -25,6 +25,7 @@ perl(Mojo::Alien::webpack) \
 perl(Mojolicious::Command::Author::webpack) \
 perl(Mojolicious::Plugin::Webpack) \
 perl-Mojolicious-Plugin-Webpack"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::chdir) \
 perl(Mojolicious)"

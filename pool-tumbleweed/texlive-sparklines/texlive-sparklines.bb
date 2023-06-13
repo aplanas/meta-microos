@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sparklines.sty) \
 texlive-sparklines"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

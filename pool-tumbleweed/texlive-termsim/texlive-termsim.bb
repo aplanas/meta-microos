@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(termsim.sty) \
 texlive-termsim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

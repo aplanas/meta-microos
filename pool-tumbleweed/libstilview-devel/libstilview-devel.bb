@@ -11,6 +11,7 @@ RPM_HASH = "20730f64e77525aadfb62d8a408bd810831df479b31d4d863071af857e78905469dd
 RPROVIDES:${PN} += "libstilview-devel \
 libstilview-devel(aarch-64) \
 pkgconfig(libstilview)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstilview0"
 

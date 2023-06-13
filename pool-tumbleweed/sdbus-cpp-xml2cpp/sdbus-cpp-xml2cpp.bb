@@ -10,6 +10,7 @@ RPM_HASH = "d83f3f557de58b15c8593767dd9f07ba09ea4f9eca9ab9f369895831d0e5e928214b
 
 RPROVIDES:${PN} += "sdbus-cpp-xml2cpp \
 sdbus-cpp-xml2cpp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

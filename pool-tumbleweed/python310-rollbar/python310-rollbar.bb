@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-rollbar \
 python3.10dist(rollbar) \
 python310-rollbar \
 python3dist(rollbar)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

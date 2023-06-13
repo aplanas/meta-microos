@@ -9,6 +9,7 @@ RPM_HASH = "606aa31372be07e5318c0aa6aff9cb63409139fad770c9b09b0f027f801e22aa2837
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "backward-cpp-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

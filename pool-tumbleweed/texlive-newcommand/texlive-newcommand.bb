@@ -12,6 +12,7 @@ RPM_HASH = "2e2d8b450442547e12c139087cd87ded530c812a1bd462b7f238f981b69c04f8ccba
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newcommand"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

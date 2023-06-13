@@ -12,6 +12,7 @@ pattern-icon() \
 pattern-order() \
 patterns-leechcraft-leechcraft_media \
 patterns-leechcraft-leechcraft_media(aarch-64)"
+
 RDEPENDS:${PN} += "leechcraft-lmp \
 pattern()"
 

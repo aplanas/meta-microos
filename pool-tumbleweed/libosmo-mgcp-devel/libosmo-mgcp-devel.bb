@@ -12,6 +12,7 @@ RPM_HASH = "11b85ce9eabdad8ddb99769c6400f25b8fa78dce24dbb556073fe255262ef5784df1
 
 RPROVIDES:${PN} += "libosmo-mgcp-devel \
 libosmo-mgcp-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

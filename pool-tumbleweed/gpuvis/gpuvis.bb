@@ -9,6 +9,7 @@ RPM_HASH = "e8bdeb265bd17fa668dc9b399680d1e00471737ea1c5129c6ebd3f2647fc55854349
 
 RPROVIDES:${PN} += "gpuvis \
 gpuvis(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

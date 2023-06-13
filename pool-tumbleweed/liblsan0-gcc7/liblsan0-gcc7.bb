@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liblsan.so.0()(64bit) \
 liblsan0 \
 liblsan0-gcc7 \
 liblsan0-gcc7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

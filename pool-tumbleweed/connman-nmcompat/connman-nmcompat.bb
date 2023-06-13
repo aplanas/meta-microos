@@ -9,6 +9,7 @@ RPM_HASH = "0a60536a0cc8cbb2801f07ec5dbcf9a1492911bfc20381d3d27bf7fe1bfbdc391f85
 
 RPROVIDES:${PN} += "connman-nmcompat \
 connman-nmcompat(aarch-64)"
+
 RDEPENDS:${PN} += "connman"
 
 inherit rpm

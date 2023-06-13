@@ -21,6 +21,7 @@ python39-jupyter-client \
 python39-jupyter-client7 \
 python39-jupyter_client \
 python3dist(jupyter-client)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

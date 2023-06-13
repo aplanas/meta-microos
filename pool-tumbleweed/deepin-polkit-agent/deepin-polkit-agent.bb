@@ -9,6 +9,7 @@ RPM_HASH = "f57cde2ec413e748f03b6167e3846105b63dcdce0f7240784c37deeb0faaca7f5b9b
 
 RPROVIDES:${PN} += "deepin-polkit-agent \
 deepin-polkit-agent(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

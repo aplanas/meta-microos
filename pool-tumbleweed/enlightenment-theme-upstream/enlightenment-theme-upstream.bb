@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-dft \
 enlightenment-theme-upstream \
 enlightenment-theme-upstream(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

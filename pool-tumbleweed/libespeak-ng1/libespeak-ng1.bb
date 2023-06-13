@@ -11,6 +11,7 @@ RPM_HASH = "5098cf753d3fc103bc97ca1650c3f4ecd74c8c644ba19c5f5c72f49778ea0d347ea0
 RPROVIDES:${PN} += "libespeak-ng.so.1()(64bit) \
 libespeak-ng1 \
 libespeak-ng1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

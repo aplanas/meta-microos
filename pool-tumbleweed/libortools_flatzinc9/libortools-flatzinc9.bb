@@ -10,6 +10,7 @@ RPM_HASH = "a0e53e96467bfc86de55c2feae372e68a49b685e885f5408da87701190d9fe94030c
 RPROVIDES:${PN} += "libortools_flatzinc.so.9()(64bit) \
 libortools_flatzinc9 \
 libortools_flatzinc9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

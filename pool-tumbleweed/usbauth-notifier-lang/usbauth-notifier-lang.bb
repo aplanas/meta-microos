@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "locale(usbauth-notifier:de) \
 locale(usbauth-notifier:zh_TW) \
 usbauth-notifier-lang \
 usbauth-notifier-lang-all"
+
 RDEPENDS:${PN} += "usbauth-notifier"
 
 inherit rpm

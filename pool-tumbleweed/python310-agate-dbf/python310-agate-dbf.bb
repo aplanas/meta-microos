@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-agate-dbf \
 python3.10dist(agate-dbf) \
 python310-agate-dbf \
 python3dist(agate-dbf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-agate \
 python310-dbfread"

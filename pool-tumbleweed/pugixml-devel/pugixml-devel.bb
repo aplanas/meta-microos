@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(pugixml) \
 pkgconfig(pugixml) \
 pugixml-devel \
 pugixml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpugixml1"
 

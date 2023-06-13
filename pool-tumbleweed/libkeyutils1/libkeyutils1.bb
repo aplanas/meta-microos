@@ -22,6 +22,7 @@ libkeyutils.so.1(KEYUTILS_1.8)(64bit) \
 libkeyutils.so.1(KEYUTILS_1.9)(64bit) \
 libkeyutils1 \
 libkeyutils1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

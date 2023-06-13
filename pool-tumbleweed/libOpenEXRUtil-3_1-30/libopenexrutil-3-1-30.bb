@@ -13,6 +13,7 @@ RPM_HASH = "80b75f81142ced0e471bda456101566cbb47b7c011f4ebdec0af0c726570fab39d64
 RPROVIDES:${PN} += "libOpenEXRUtil-3_1-30 \
 libOpenEXRUtil-3_1-30(aarch-64) \
 libOpenEXRUtil-3_1.so.30()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

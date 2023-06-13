@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "mvn(tech.uom.lib:uom-lib-common) \
 mvn(tech.uom.lib:uom-lib-common:pom:) \
 osgi(tech.uom.lib.uom-lib-common) \
 uom-lib-common"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.measure:unit-api)"

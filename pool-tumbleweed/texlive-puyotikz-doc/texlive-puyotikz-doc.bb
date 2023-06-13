@@ -9,6 +9,7 @@ RPM_HASH = "5c1d3929ecd75a14d3de405d193f897f785cf8481112f4cbffb828843a111b03ff82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-puyotikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

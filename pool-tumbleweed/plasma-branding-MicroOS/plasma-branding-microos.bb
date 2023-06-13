@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(plasma-branding-MicroOS) \
 plasma-branding-MicroOS"
+
 RDEPENDS:${PN} += "/bin/sh \
 flatpak \
 kdialog \

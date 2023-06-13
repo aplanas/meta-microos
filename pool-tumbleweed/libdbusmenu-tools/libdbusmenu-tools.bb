@@ -9,6 +9,7 @@ RPM_HASH = "882c42d3b1113b22b29a43fdbca9e94114f48f6cd39589cba8d3c69cbeda2570a7e7
 
 RPROVIDES:${PN} += "libdbusmenu-tools \
 libdbusmenu-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

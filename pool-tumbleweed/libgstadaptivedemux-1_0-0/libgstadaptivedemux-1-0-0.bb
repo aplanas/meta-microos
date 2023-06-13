@@ -14,6 +14,7 @@ RPM_HASH = "56d60fd266f6047972d23016a3027722d04df285366274b42d17437bd4a9c6ab0aa2
 RPROVIDES:${PN} += "libgstadaptivedemux-1.0.so.0()(64bit) \
 libgstadaptivedemux-1_0-0 \
 libgstadaptivedemux-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "pkgconfig(telepathy-logger-0.2) \
 pkgconfig(tpl-extensions) \
 telepathy-logger-devel \
 telepathy-logger-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtelepathy-logger3 \
 libtpl-extensions3 \

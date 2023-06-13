@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(adtrees.sty) \
 texlive-adtrees"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

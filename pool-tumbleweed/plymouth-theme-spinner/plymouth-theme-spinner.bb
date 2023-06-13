@@ -10,6 +10,7 @@ RPM_HASH = "46a18ee70aee325785c3e7e68da52ee22e3b4c2cad35aa436bd498c646ce418e701c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-spinner"
+
 RDEPENDS:${PN} += "plymouth-plugin-two-step \
 plymouth-scripts"
 

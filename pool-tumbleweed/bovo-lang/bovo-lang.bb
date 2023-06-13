@@ -69,6 +69,7 @@ locale(bovo:ug) \
 locale(bovo:uk) \
 locale(bovo:zh_CN) \
 locale(bovo:zh_TW)"
+
 RDEPENDS:${PN} += "bovo"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "ce814b7e19d48b4b7db08565d13f57e5b7c13524ea869083b3babe5ca68512c8958d
 
 RPROVIDES:${PN} += "bamf-daemon \
 bamf-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

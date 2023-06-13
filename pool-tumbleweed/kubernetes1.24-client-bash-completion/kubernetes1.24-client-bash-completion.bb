@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubernetes-client-bash-completion \
 kubernetes1.24-client-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 kubernetes1.24-client"
 

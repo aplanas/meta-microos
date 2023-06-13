@@ -12,6 +12,7 @@ RPM_HASH = "c78edfac2e5d22dbc75c1e020b54725d523012c155528672d586bf47e3a53a844955
 
 RPROVIDES:${PN} += "ocfs2-tools-devel-static \
 ocfs2-tools-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libcom_err \
 libcom_err-devel \
 ocfs2-tools"

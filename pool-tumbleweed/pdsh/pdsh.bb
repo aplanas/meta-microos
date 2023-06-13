@@ -11,6 +11,7 @@ RPM_HASH = "9ee0c610c65c42c138a4f2bf7e1fbbf4029077b37a1a735135beac401d71e39ee921
 
 RPROVIDES:${PN} += "pdsh \
 pdsh(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

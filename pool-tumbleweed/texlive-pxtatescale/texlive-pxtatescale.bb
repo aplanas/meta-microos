@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pxtatescale.sty) \
 texlive-pxtatescale"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

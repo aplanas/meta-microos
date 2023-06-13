@@ -9,6 +9,7 @@ RPM_HASH = "257160a0936cab0484ebdad0d41af716cf07834afd4ce35d27d3b75165dd5e7d9ae9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xml-hamlet-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

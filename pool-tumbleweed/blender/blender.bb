@@ -30,6 +30,7 @@ blender-35 \
 metainfo() \
 metainfo(blender.appdata.xml) \
 mimehandler(application/x-blender)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3 \
 /usr/bin/python3.10 \

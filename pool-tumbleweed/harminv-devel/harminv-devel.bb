@@ -17,6 +17,7 @@ RPM_HASH = "214e7cd30fec8c1f98d2e25f072b8ac4d21a775d2afa7f79211af41b8580a85827c2
 RPROVIDES:${PN} += "harminv-devel \
 harminv-devel(aarch-64) \
 pkgconfig(harminv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libharminv3"
 

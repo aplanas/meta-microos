@@ -10,6 +10,7 @@ RPM_HASH = "246737de4bd5bc01f6aefe0da5c24fa53d4154f7895cf677c34e22033828770ea251
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shorewall-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

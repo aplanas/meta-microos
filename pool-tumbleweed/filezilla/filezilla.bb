@@ -30,6 +30,7 @@ libfzclient-commonui-private-3.64.0.so()(64bit) \
 libfzclient-private-3.64.0.so()(64bit) \
 metainfo() \
 metainfo(filezilla.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

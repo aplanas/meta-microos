@@ -10,6 +10,7 @@ RPM_HASH = "e19fd1b9e185b4865fa775a1d8f108c0ee367212efefc4b7772e7ac4d93816337921
 
 RPROVIDES:${PN} += "fastlzlib-devel \
 fastlzlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfastlz1"
 
 inherit rpm

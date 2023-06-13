@@ -10,6 +10,7 @@ RPM_HASH = "0a0203c968ad535f902d2440a60b20f3a3d6fdf46d76d13646ae4e5ad1672b86dcca
 RPROVIDES:${PN} += "ghc-devel(text-zipper-0.12-HAxIdT2NfEj1pbIOe2MIin) \
 ghc-text-zipper-devel \
 ghc-text-zipper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

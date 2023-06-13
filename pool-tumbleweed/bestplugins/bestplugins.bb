@@ -9,6 +9,7 @@ RPM_HASH = "342f0b74370f09a51ac10594eece2d340a451b3a08dc088507f6c13d86564a22ae13
 
 RPROVIDES:${PN} += "bestplugins \
 bestplugins(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -16,6 +16,7 @@ python3.10dist(whipper) \
 python3dist(whipper) \
 whipper \
 whipper(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cd-paranoia \
 cdrdao \

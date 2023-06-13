@@ -13,6 +13,7 @@ RPM_HASH = "a0524ea3985c5b6bd3193ac8e129095af468bffa20c80a7abae46147ebc3e6f214bc
 RPROVIDES:${PN} += "libcjs.so.0()(64bit) \
 libcjs0 \
 libcjs0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

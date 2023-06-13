@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(finance-enums) \
 python39-finance_enums \
 python3dist(finance-enums)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pandas"
 

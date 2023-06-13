@@ -9,6 +9,7 @@ RPM_HASH = "a80ed30e9596c4cc4defe9fd6b1273f5c7830d8a6173d01ec5b6bcdab1ea1cf225e9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tapir-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

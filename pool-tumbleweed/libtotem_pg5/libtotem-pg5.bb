@@ -12,6 +12,7 @@ RPM_HASH = "d1849f96faf518e4a7df6e5c83b7832dead8461ea4feb13a765730c004d0584da20c
 RPROVIDES:${PN} += "libtotem_pg.so.5()(64bit) \
 libtotem_pg5 \
 libtotem_pg5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

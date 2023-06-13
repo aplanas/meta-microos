@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-bind9 \
 nagios-plugins-bind9"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 bind-utils \
 perl(Getopt::Long) \

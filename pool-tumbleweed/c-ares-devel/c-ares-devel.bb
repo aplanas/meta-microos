@@ -17,6 +17,7 @@ c-ares-devel(aarch-64) \
 cmake(c-ares) \
 libcares-devel \
 pkgconfig(libcares)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libcares2"

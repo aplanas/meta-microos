@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tabpy \
 python3.10dist(tabpy) \
 python310-tabpy \
 python3dist(tabpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

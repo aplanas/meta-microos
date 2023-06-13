@@ -9,6 +9,7 @@ RPM_HASH = "c20d43c4f5c725c1d37017027f502ee1a7c23c79f11d58884574273fe0dd402ab168
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tzplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

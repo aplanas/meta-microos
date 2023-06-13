@@ -53,6 +53,7 @@ locale(kdevelop5-plugin-php:ug) \
 locale(kdevelop5-plugin-php:uk) \
 locale(kdevelop5-plugin-php:zh_CN) \
 locale(kdevelop5-plugin-php:zh_TW)"
+
 RDEPENDS:${PN} += "kdevelop5-plugin-php"
 
 inherit rpm

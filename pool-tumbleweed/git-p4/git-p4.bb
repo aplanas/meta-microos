@@ -10,6 +10,7 @@ RPM_HASH = "8df40dbf343975d34911830d45f4d379ab87c609298ce31c788fee1bd9104063ca04
 
 RPROVIDES:${PN} += "git-p4 \
 git-p4(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 git-core"
 

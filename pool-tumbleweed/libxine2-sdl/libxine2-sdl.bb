@@ -15,6 +15,7 @@ RPM_HASH = "ba727386d86edec82c54e11615c7db39f71f2341f7c8448ac830a0c65773f497e3a2
 
 RPROVIDES:${PN} += "libxine2-sdl \
 libxine2-sdl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL-1.2.so.0()(64bit) \

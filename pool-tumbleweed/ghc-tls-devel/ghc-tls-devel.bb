@@ -10,6 +10,7 @@ RPM_HASH = "4154d0d2b302b6e14aecc9b4290bbd2648cc17e141fbb8ceab1efbff57437f4b63c4
 RPROVIDES:${PN} += "ghc-devel(tls-1.6.0-48osxqPawrs8SblkErmTaM) \
 ghc-tls-devel \
 ghc-tls-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(asn1-encoding-0.9.6-Hputs8NTOGr9EmEd7QDXHk) \

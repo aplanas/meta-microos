@@ -10,6 +10,7 @@ RPM_HASH = "c90ade46ffecd8d0eab742dd7ac0000ca9ddb7ea2e8b00d44b8691cfb5655c51bf40
 
 RPROVIDES:${PN} += "kubernetes-kubeadm \
 kubernetes-kubeadm(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes1.26-kubelet \
 kubernetes1.27-kubeadm \
 kubernetes1.27-kubelet"

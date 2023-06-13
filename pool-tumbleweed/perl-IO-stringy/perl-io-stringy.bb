@@ -28,6 +28,7 @@ perl(IO::Stringy) \
 perl(IO::Wrap) \
 perl(IO::WrapTie) \
 perl-IO-stringy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(parent)"
 

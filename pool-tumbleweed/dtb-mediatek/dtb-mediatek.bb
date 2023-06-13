@@ -10,6 +10,7 @@ RPM_HASH = "ac022ece360d1426c9fdd69cbbab4c1871b826a37398b1fd72b5b8ecea7c9325ca35
 RPROVIDES:${PN} += "dtb-mediatek \
 dtb-mediatek(aarch-64) \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

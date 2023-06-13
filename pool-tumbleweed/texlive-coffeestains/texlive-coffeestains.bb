@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(coffeestains.sty) \
 texlive-coffeestains"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

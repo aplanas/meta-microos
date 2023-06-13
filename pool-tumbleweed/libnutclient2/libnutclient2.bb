@@ -13,6 +13,7 @@ RPM_HASH = "7ef04d648fc7ef73d7a143474f37193458472f8fdab37165cd4bbae680665fa037b1
 RPROVIDES:${PN} += "libnutclient.so.2()(64bit) \
 libnutclient2 \
 libnutclient2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

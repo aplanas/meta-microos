@@ -87,6 +87,7 @@ osgi(org.eclipse.emf.mapping.ecore2ecore.editor) \
 osgi(org.eclipse.emf.mapping.ecore2xml) \
 osgi(org.eclipse.emf.mapping.ecore2xml.ui) \
 osgi(org.eclipse.emf.mapping.ui)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 osgi(org.eclipse.emf.common) \

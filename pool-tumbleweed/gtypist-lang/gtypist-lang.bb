@@ -25,6 +25,7 @@ locale(gtypist:ru) \
 locale(gtypist:tr) \
 locale(gtypist:zh_CN) \
 locale(gtypist:zh_TW)"
+
 RDEPENDS:${PN} += "gtypist"
 
 inherit rpm

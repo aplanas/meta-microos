@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(random.tex) \
 texlive-random"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

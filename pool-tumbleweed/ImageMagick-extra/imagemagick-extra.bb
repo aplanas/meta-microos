@@ -20,6 +20,7 @@ RPM_HASH = "b071a37f75eb0f4c5f0062bb8cc430a1f4188a1df1612d50c174a21d2869479b06e5
 
 RPROVIDES:${PN} += "ImageMagick-extra \
 ImageMagick-extra(aarch-64)"
+
 RDEPENDS:${PN} += "ImageMagick \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "30f0ea5e711aa01ae72559c4262f08880cda85a955541be5b26e5f2d1c22be8dcea1
 RPROVIDES:${PN} += "ghc-devel(wai-cors-0.2.7-CSepwpjFO1f9DnlkYc71mV) \
 ghc-wai-cors-devel \
 ghc-wai-cors-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

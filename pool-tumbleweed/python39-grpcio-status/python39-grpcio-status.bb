@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(grpcio-status) \
 python39-grpcio-status \
 python39-grpcio-status(aarch-64) \
 python3dist(grpcio-status)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-googleapis-common-protos \
 python39-grpcio \

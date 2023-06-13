@@ -29,6 +29,7 @@ perl(Config::Any::Perl) \
 perl(Config::Any::XML) \
 perl(Config::Any::YAML) \
 perl-Config-Any"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Pluggable::Object)"
 

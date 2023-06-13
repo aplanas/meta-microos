@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "bibview \
 bibview(aarch-64) \
 bibvw15 \
 config(bibview)"
+
 RDEPENDS:${PN} += "libX11.so.6()(64bit) \
 libXaw3d.so.8()(64bit) \
 libXt.so.6()(64bit) \

@@ -161,6 +161,7 @@ perl(Dist::Zilla::Util) \
 perl(Dist::Zilla::Util::AuthorDeps) \
 perl(Test::DZil) \
 perl-Dist-Zilla"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(App::Cmd::Command::version) \

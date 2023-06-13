@@ -13,6 +13,7 @@ RPM_HASH = "db17c8387f36aa98b82862d4a6cb1425e09de515af536acafeed81c00fcc360f2a48
 
 RPROVIDES:${PN} += "netcdf-openmpi4-devel \
 netcdf-openmpi4-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 hdf5-openmpi4-devel \
 libcurl-devel \

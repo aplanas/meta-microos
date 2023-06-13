@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-subgrab \
 python3.10dist(subgrab) \
 python310-subgrab \
 python3dist(subgrab)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

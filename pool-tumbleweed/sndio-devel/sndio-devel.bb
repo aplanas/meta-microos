@@ -10,6 +10,7 @@ RPM_HASH = "d551e04f2002b74ced23654246279095ea0f336f6869c8c999f7a216680132ac93e9
 
 RPROVIDES:${PN} += "sndio-devel \
 sndio-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsndio7_1"
 
 inherit rpm

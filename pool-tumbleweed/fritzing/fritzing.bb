@@ -24,6 +24,7 @@ mimehandler(application/x-fritzing-fzm) \
 mimehandler(application/x-fritzing-fzp) \
 mimehandler(application/x-fritzing-fzpz) \
 mimehandler(application/x-fritzing-fzz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 desktop-file-utils \
 fritzing-parts \

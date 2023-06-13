@@ -10,6 +10,7 @@ RPM_HASH = "907d9149430fde1f4c7d33f68aa3b5dbd4e13058e7836b3c8a306d8feef1b3563994
 RPROVIDES:${PN} += "libdbusmenu-jsonloader-devel \
 libdbusmenu-jsonloader-devel(aarch-64) \
 pkgconfig(dbusmenu-jsonloader-0.4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbusmenu-jsonloader4 \
 pkgconfig(dbus-glib-1) \

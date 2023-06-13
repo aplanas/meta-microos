@@ -15,6 +15,7 @@ application(compiz.desktop) \
 compiz \
 compiz(aarch-64) \
 windowmanager"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 compiz-branding \

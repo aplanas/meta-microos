@@ -10,6 +10,7 @@ RPM_HASH = "897363b8253a2097a6916e30d687753cd7c8317c5f9a9b73e591cf1fd026669ce96a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-linuxdeepin-deepin-daemon"
+
 RDEPENDS:${PN} += "golang-github-linuxdeepin-dde-api \
 golang-github-linuxdeepin-go-dbus-factory"
 

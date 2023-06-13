@@ -16,6 +16,7 @@ tex(nrc1.sty) \
 tex(nrc2.cls) \
 tex(nrc2.sty) \
 texlive-nrc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

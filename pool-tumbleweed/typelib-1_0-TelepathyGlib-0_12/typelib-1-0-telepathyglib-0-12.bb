@@ -14,6 +14,7 @@ RPM_HASH = "088dd1fa3e316ffb40d74094bdf4ffc13dbef5ab243644601453135a0758a03edd2e
 RPROVIDES:${PN} += "typelib(TelepathyGLib) \
 typelib-1_0-TelepathyGlib-0_12 \
 typelib-1_0-TelepathyGlib-0_12(aarch-64)"
+
 RDEPENDS:${PN} += "libtelepathy-glib.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

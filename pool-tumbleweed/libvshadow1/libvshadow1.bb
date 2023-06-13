@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libvshadow.so.1()(64bit) \
 libvshadow.so.1(V_20221030)(64bit) \
 libvshadow1 \
 libvshadow1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

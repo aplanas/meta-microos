@@ -11,6 +11,7 @@ RPM_HASH = "17308e70731fbf70476b67762dd826032e8db1b21f9ebf24b47e08aa88f2329b7dab
 RPROVIDES:${PN} += "config(corosync-qnetd) \
 corosync-qnetd \
 corosync-qnetd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/sbin/useradd \

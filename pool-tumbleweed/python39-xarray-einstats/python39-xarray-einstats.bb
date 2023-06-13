@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xarray-einstats) \
 python39-xarray-einstats \
 python3dist(xarray-einstats)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-scipy \

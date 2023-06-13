@@ -15,6 +15,7 @@ RPM_HASH = "90950a02b15f04d1e600b931a736bd5a7b1ddfe6c08087db60572330dafbccc7de4b
 RPROVIDES:${PN} += "perl(Authen::DecHpwd) \
 perl-Authen-DecHpwd \
 perl-Authen-DecHpwd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

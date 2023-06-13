@@ -74,6 +74,7 @@ locale(libkleo:ug) \
 locale(libkleo:uk) \
 locale(libkleo:zh_CN) \
 locale(libkleo:zh_TW)"
+
 RDEPENDS:${PN} += "libkleo"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "778358876fd8180b7d9826b9c403bf43d1a0ee786df6dfb0b76a1bf29030b0f9254f
 RPROVIDES:${PN} += "libaom-devel \
 libaom-devel(aarch-64) \
 pkgconfig(aom)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaom3"
 

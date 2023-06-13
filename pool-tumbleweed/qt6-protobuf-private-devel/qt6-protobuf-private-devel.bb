@@ -10,6 +10,7 @@ RPM_HASH = "d010dfd132045151a9195033d6a872e1831e79c774a81a4aac7a1c009d80e1547f33
 
 RPROVIDES:${PN} += "qt6-protobuf-private-devel \
 qt6-protobuf-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Protobuf)"
 
 inherit rpm

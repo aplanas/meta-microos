@@ -133,6 +133,7 @@ mimehandler(video/x-ogm) \
 mimehandler(video/x-ogm+ogg) \
 mimehandler(video/x-theora) \
 mimehandler(video/x-theora+ogg)"
+
 RDEPENDS:${PN} += "breeze5-icons \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

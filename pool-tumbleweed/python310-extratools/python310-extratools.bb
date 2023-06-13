@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-extratools \
 python3.10dist(extratools) \
 python310-extratools \
 python3dist(extratools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

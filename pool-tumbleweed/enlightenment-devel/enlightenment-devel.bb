@@ -12,6 +12,7 @@ enlightenment-devel \
 enlightenment-devel(aarch-64) \
 pkgconfig(enlightenment) \
 pkgconfig(everything)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 efl-devel \
 elementary-devel \

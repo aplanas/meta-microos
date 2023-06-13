@@ -13,6 +13,7 @@ RPM_HASH = "4672f1cfd22c22c493683daf0976bcab4e60485767128828141ea1f9245c93b4506d
 RPROVIDES:${PN} += "typelib(XApp) \
 typelib-1_0-XApp-1_0 \
 typelib-1_0-XApp-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libxapp.so.1()(64bit) \
 python(abi) \
 typelib(Atk) \

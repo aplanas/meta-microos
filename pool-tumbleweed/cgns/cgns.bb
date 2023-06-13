@@ -11,6 +11,7 @@ RPM_HASH = "fb7f802633e25044c402fdba9aa944b28c4e22a4923111e3a8b895fe49622985c3be
 
 RPROVIDES:${PN} += "cgns \
 cgns(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-seqdiag \
 python3.10dist(seqdiag) \
 python310-seqdiag \
 python3dist(seqdiag)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

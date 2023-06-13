@@ -22,6 +22,7 @@ RPM_HASH = "cdf3fc3b3198cc9d49ae0e8084328d36b3a9f6e89df71cbf4d6e5b8c445ffa474bec
 
 RPROVIDES:${PN} += "openmpi1-devel \
 openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

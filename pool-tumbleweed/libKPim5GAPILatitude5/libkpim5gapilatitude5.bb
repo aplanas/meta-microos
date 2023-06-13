@@ -11,6 +11,7 @@ RPM_HASH = "6227ce192f23685e73fdd17c582f0ce9cf9115d721b8ac5c4eb15e3d9c2cdbe794d6
 RPROVIDES:${PN} += "libKPim5GAPILatitude.so.5()(64bit) \
 libKPim5GAPILatitude5 \
 libKPim5GAPILatitude5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

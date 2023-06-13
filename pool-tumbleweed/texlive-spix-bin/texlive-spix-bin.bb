@@ -9,6 +9,7 @@ RPM_HASH = "36e25446a6421257c6cfaa979ae68bd7c70ef6859bf858804b21a879c41bd9fe829d
 
 RPROVIDES:${PN} += "texlive-spix-bin \
 texlive-spix-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-spix"
 
 inherit rpm

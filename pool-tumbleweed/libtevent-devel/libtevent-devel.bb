@@ -19,6 +19,7 @@ RPM_HASH = "8d03b220edd8ab3e79381c5df0d12c01c7fc82187ab0c870d83ca59e7514219686cc
 RPROVIDES:${PN} += "libtevent-devel \
 libtevent-devel(aarch-64) \
 pkgconfig(tevent)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtalloc-devel \
 libtevent0 \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mla.cls) \
 texlive-mlacls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

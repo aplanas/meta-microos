@@ -11,6 +11,7 @@ RPM_HASH = "548d7fb195cd54a05abec4f09aa9fb3395ca920ca41bc68a56014771a6affe882378
 RPROVIDES:${PN} += "pkgconfig(spandsp) \
 spandsp-devel \
 spandsp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjpeg-devel \
 libspandsp3 \

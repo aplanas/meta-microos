@@ -10,6 +10,7 @@ RPM_HASH = "f0ec8dee2cea97c5bed221cdec6e3d4e5d579968169021dda4521dfdd1229e956c56
 RPROVIDES:${PN} += "NetworkManager-sstp-frontend \
 plasma-nm5-sstp \
 plasma-nm5-sstp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5CoreAddons.so.5()(64bit) \

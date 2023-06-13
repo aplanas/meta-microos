@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(libsass) \
 python39-libsass \
 python39-libsass(aarch-64) \
 python3dist(libsass)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

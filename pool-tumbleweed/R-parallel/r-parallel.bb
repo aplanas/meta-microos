@@ -9,6 +9,7 @@ RPM_HASH = "f23cce9535b8f2d8c6443d65d78b6c11408c01f541d93fc50e796c26639f3d799da4
 
 RPROVIDES:${PN} += "R-parallel \
 R-parallel(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

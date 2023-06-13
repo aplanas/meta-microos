@@ -17,6 +17,7 @@ RPM_HASH = "852594791ee1af400d8f6ddb6fb13413c5cdab3141acb46d0bd26d8badee26c8a567
 
 RPROVIDES:${PN} += "megatools \
 megatools(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 curl \
 fuse \

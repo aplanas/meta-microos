@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chemformula.sty) \
 texlive-chemformula"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

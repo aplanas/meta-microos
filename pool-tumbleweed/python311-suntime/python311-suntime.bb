@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(suntime) \
 python311-suntime \
 python3dist(suntime)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-python-dateutil"
 

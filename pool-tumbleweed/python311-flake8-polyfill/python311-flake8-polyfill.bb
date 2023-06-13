@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flake8-polyfill) \
 python311-flake8-polyfill \
 python3dist(flake8-polyfill)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-flake8"
 

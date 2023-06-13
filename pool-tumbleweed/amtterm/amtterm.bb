@@ -21,6 +21,7 @@ RPM_HASH = "490cba78a767f7c58c447996c18d00738905ed7ef59f9e7aa934646c93524d4ee25e
 
 RPROVIDES:${PN} += "amtterm \
 amtterm(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcrypto.so.3()(64bit) \

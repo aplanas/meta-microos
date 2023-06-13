@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(llncsconf.sty) \
 texlive-llncsconf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

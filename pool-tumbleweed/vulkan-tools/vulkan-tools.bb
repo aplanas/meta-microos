@@ -14,6 +14,7 @@ RPM_HASH = "0bf36a02919db2aee4525ecedb6e8ffd76617c564159d722d6170e244fb9db92df66
 RPROVIDES:${PN} += "vulkan \
 vulkan-tools \
 vulkan-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

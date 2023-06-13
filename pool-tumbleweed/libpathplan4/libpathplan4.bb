@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgraphviz6:/usr/lib64/libpathplan.so.4 \
 libpathplan.so.4()(64bit) \
 libpathplan4 \
 libpathplan4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

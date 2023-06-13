@@ -11,6 +11,7 @@ RPM_HASH = "250d38cd901db51716f19f54885836be6b5ce393319c5715bdfe39cb93d2e22dcc00
 
 RPROVIDES:${PN} += "rbac-manager \
 rbac-manager(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

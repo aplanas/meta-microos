@@ -10,6 +10,7 @@ RPM_HASH = "d7628fb33acf5faef5d0e677ae1c765d5e7757292ce8c8f8a20a99ee57ca5861893d
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-photos \
 gnome-shell-search-provider-gnome-photos(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-photos"
 
 inherit rpm

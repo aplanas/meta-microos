@@ -75,6 +75,7 @@ locale(lightdm-gtk-greeter:vi) \
 locale(lightdm-gtk-greeter:zh_CN) \
 locale(lightdm-gtk-greeter:zh_HK) \
 locale(lightdm-gtk-greeter:zh_TW)"
+
 RDEPENDS:${PN} += "lightdm-gtk-greeter"
 
 inherit rpm

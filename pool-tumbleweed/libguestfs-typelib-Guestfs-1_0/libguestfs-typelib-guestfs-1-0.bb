@@ -10,6 +10,7 @@ RPM_HASH = "50407d3e951f6c7aeb84c5474c24ca6133b6d228bd4bb5543fc40dffe86c83dfc902
 RPROVIDES:${PN} += "libguestfs-typelib-Guestfs-1_0 \
 libguestfs-typelib-Guestfs-1_0(aarch-64) \
 typelib(Guestfs)"
+
 RDEPENDS:${PN} += "libguestfs-gobject-1.0.so.0()(64bit) \
 libguestfs.so.0()(64bit) \
 typelib(GLib) \

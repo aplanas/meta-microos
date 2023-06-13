@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jupyter-latex-envs) \
 python311-jupyter_latex_envs \
 python3dist(jupyter-latex-envs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-ipython \
 python311-jupyter_core \

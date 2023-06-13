@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-lxde-lxde \
 patterns-lxde-lxde(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

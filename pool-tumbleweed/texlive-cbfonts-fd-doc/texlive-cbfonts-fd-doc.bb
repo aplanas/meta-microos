@@ -9,6 +9,7 @@ RPM_HASH = "7735eba72523bb97bcbeffb82ebd30c23adb7b90d5890c9fec0604294783cc121c99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cbfonts-fd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

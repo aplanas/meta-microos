@@ -9,6 +9,7 @@ RPM_HASH = "31b0b969c213a0676ee9644a713d34d8edf36e5bbcdcf5c4214e5ba2012e1c417e1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-catchfilebetweentags-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

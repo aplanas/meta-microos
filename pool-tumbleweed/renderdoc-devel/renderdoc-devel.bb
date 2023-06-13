@@ -10,6 +10,7 @@ RPM_HASH = "b7eaaf5011fa5c6d26ca4b04a20c0403f080cc3ab26bf9c72e3588f65a813221652f
 
 RPROVIDES:${PN} += "renderdoc-devel \
 renderdoc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "renderdoc"
 
 inherit rpm

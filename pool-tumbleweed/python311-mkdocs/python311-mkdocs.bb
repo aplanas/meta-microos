@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mkdocs) \
 python311-mkdocs \
 python3dist(mkdocs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 fontawesome-fonts \

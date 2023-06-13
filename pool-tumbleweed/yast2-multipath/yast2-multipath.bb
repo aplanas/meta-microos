@@ -18,6 +18,7 @@ application(org.opensuse.yast.Multipath.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Multipath.metainfo.xml) \
 yast2-multipath"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 yast2 \
 yast2-ruby-bindings \

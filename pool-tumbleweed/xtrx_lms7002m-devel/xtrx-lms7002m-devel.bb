@@ -12,6 +12,7 @@ RPM_HASH = "c462119aafaa0c4385af428356a5df8d0b95dbe450f98e45645534c32b1d53bcc332
 
 RPROVIDES:${PN} += "xtrx_lms7002m-devel \
 xtrx_lms7002m-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libxtrx_lms7002m0_0_0-SUSE"
 
 inherit rpm

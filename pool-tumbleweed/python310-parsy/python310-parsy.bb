@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-parsy \
 python3.10dist(parsy) \
 python310-parsy \
 python3dist(parsy)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

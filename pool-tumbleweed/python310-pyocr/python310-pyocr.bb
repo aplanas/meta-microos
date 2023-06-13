@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pyocr \
 python3.10dist(pyocr) \
 python310-pyocr \
 python3dist(pyocr)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow"
 

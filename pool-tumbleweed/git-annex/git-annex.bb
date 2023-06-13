@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "application() \
 application(git-annex.desktop) \
 git-annex \
 git-annex(aarch-64)"
+
 RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

@@ -20,6 +20,7 @@ RPM_HASH = "8ddeee3f309f0e47654bb172f8c4b48034bff29a67db41ceb57c39c008440de6b956
 
 RPROVIDES:${PN} += "qpress \
 qpress(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "bnd-maven-plugin \
 mvn(biz.aQute.bnd:bnd-maven-plugin) \
 mvn(biz.aQute.bnd:bnd-maven-plugin:pom:) \
 mvn(biz.aQute.bnd:bnd-plugin-parent:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(biz.aQute.bnd:biz.aQute.bndlib) \

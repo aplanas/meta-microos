@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Plack::Middleware::LogErrors) \
 perl-Plack-Middleware-LogErrors"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Plack::Middleware) \
 perl(Plack::Util::Accessor) \

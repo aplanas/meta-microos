@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-PySDL2 \
 python3.10dist(pysdl2) \
 python310-PySDL2 \
 python3dist(pysdl2)"
+
 RDEPENDS:${PN} += "SDL2 \
 SDL2_gfx \
 SDL2_image \

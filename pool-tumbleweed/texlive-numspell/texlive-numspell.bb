@@ -19,6 +19,7 @@ tex(numspell-latin.sty) \
 tex(numspell-magyar.sty) \
 tex(numspell.sty) \
 texlive-numspell"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

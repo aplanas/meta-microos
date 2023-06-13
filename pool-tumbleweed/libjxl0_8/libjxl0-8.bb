@@ -14,6 +14,7 @@ libjxl0_8 \
 libjxl0_8(aarch-64) \
 libjxl_threads.so.0.8()(64bit) \
 libjxl_threads.so.0.8(JXL_0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

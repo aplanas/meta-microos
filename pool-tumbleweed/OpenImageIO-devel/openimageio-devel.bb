@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "OpenImageIO-devel \
 OpenImageIO-devel(aarch-64) \
 cmake(OpenImageIO) \
 pkgconfig(OpenImageIO)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fmt-devel \
 libOpenImageIO2_4 \

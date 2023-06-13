@@ -14,6 +14,7 @@ tex(fgdo8z.tfm) \
 tex(fgdr8z.tfm) \
 tex(garuda-c90.map) \
 texlive-garuda-c90"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cmake(UnitTest++) \
 pkgconfig(UnitTest++) \
 unittest-cpp-devel \
 unittest-cpp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libUnitTest++-2_0_0"
 

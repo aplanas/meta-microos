@@ -11,6 +11,7 @@ RPM_HASH = "4e7d7318966cf39899c08e1bd01b00a6485d956c9b2e3acb91cf702f63529473e053
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage \
 libvirt-daemon-driver-storage(aarch-64)"
+
 RDEPENDS:${PN} += "libvirt-daemon-driver-storage-core \
 libvirt-daemon-driver-storage-disk \
 libvirt-daemon-driver-storage-iscsi \

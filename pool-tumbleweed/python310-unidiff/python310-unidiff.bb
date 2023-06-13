@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-unidiff \
 python3.10dist(unidiff) \
 python310-unidiff \
 python3dist(unidiff)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

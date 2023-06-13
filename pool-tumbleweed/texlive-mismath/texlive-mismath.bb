@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mismath.sty) \
 texlive-mismath"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

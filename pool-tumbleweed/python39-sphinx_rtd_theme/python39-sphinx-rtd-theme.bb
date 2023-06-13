@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinx-rtd-theme) \
 python39-sphinx_rtd_theme \
 python3dist(sphinx-rtd-theme)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx \
 python39-docutils \

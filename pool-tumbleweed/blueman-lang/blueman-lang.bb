@@ -66,6 +66,7 @@ locale(blueman:vi) \
 locale(blueman:zh_CN) \
 locale(blueman:zh_HK) \
 locale(blueman:zh_TW)"
+
 RDEPENDS:${PN} += "blueman"
 
 inherit rpm

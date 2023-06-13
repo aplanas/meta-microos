@@ -14,6 +14,7 @@ RPM_HASH = "f3a80736fc2637f2434154c693db06ed5eef9d67d698444afd218b04e3fa5bd67922
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "multus-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

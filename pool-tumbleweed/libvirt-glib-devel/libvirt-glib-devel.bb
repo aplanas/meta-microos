@@ -19,6 +19,7 @@ libvirt-glib-devel(aarch-64) \
 pkgconfig(libvirt-gconfig-1.0) \
 pkgconfig(libvirt-glib-1.0) \
 pkgconfig(libvirt-gobject-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvirt-glib-1_0-0 \
 pkgconfig(gio-2.0) \

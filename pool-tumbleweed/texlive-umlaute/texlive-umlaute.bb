@@ -19,6 +19,7 @@ tex(pc850.def) \
 tex(roman8.def) \
 tex(umlaute.sty) \
 texlive-umlaute"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

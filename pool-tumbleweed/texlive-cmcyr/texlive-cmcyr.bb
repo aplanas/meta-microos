@@ -546,6 +546,7 @@ tex(ycmtt9.vf) \
 tex(ycmu10.tfm) \
 tex(ycmu10.vf) \
 texlive-cmcyr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

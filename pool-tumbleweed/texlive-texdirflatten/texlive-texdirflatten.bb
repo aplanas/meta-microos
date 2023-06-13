@@ -13,6 +13,7 @@ RPM_HASH = "dab5647f6d3550fe7a5602b651ca6a441221c4abc641f19ec079002387e8d7de3d9f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdirflatten"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

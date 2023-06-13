@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kjs-devel-lang \
 kjs-devel-lang-all"
+
 RDEPENDS:${PN} += "kjs-devel"
 
 inherit rpm

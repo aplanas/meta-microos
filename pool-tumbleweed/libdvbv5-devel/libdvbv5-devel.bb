@@ -11,6 +11,7 @@ RPM_HASH = "2ddf32ced7aa3bac20137244eeab739be61b8769160c551050e2baa7c3fd1078ad27
 RPROVIDES:${PN} += "libdvbv5-devel \
 libdvbv5-devel(aarch-64) \
 pkgconfig(libdvbv5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdvbv5-0 \
 pkgconfig(libudev)"

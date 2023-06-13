@@ -10,6 +10,7 @@ RPM_HASH = "9e27c7edf1b92c6552caa6a6bc18a12d2eefbf15d21213039b735bfcc9fa136cf933
 RPROVIDES:${PN} += "fribidi-devel \
 fribidi-devel(aarch-64) \
 pkgconfig(fribidi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfribidi0"
 

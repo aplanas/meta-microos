@@ -10,6 +10,7 @@ RPM_HASH = "05b9ce29c14573e849764022a1c47ba7c480d7b03162674cb9256707219fd28e51f3
 RPROVIDES:${PN} += "libreoffice-gtk3 \
 libreoffice-gtk3(aarch-64) \
 libvclplug_gtk3lo.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

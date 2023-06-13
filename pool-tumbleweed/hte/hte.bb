@@ -10,6 +10,7 @@ RPM_HASH = "30a4b94dd3d527eb4c9f93aa4a78be268e95a7728b07bb2f1dfd1de9b304228b4c13
 
 RPROVIDES:${PN} += "hte \
 hte(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

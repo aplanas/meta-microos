@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(snuggs) \
 python39-snuggs \
 python3dist(snuggs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-pyparsing"

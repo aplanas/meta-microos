@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-kmatch \
 python3.10dist(kmatch) \
 python310-kmatch \
 python3dist(kmatch)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

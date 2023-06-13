@@ -10,6 +10,7 @@ RPM_HASH = "86ea49f4f7fd03a4a37275fd25cdbc77f24e3a0c7d36c24cc5c5ebb0d938bcee85aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-weather"
+
 RDEPENDS:${PN} += "gnome-weather"
 
 inherit rpm

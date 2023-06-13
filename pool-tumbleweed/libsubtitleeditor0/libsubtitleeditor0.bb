@@ -10,6 +10,7 @@ RPM_HASH = "af64ddf708063b6c79036c63056bd9244fc5a56333afee9bcccec5b9ed407da80d82
 RPROVIDES:${PN} += "libsubtitleeditor.so.0()(64bit) \
 libsubtitleeditor0 \
 libsubtitleeditor0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

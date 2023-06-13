@@ -250,6 +250,7 @@ tex(lnpr_xv6zbl.enc) \
 tex(lnpr_y6ghoo.enc) \
 tex(lnpr_ydj4q2.enc) \
 texlive-linguisticspro"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

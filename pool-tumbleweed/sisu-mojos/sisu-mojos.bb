@@ -14,6 +14,7 @@ mvn(org.eclipse.sisu:sisu-maven-plugin:pom:) \
 mvn(org.sonatype.plugins:sisu-maven-plugin) \
 mvn(org.sonatype.plugins:sisu-maven-plugin:pom:) \
 sisu-mojos"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-common-artifact-filters) \

@@ -10,6 +10,7 @@ RPM_HASH = "e274d6ac33d8439c639800a7a8d14cab4b298aef2b2e737e8e6d8af2142839baa726
 
 RPROVIDES:${PN} += "libtty-devel \
 libtty-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtty1"
 
 inherit rpm

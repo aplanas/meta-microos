@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-isort \
 python3.10dist(pytest-isort) \
 python310-pytest-isort \
 python3dist(pytest-isort)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-isort \
 python310-pytest"

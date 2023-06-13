@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(verbatimbox.sty) \
 texlive-verbatimbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "8b3f58d4ec2c9d8173cef06944a322a176bd727322edf6cfa488729ed5d3a5028041
 RPROVIDES:${PN} += "libsocketcan-devel \
 libsocketcan-devel(aarch-64) \
 pkgconfig(libsocketcan)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsocketcan2"
 

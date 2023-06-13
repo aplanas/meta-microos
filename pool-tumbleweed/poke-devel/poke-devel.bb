@@ -10,6 +10,7 @@ RPM_HASH = "51d10f874bd7fc48cc620877a9a383fd0fab3fc3adf131989d64bb06b7df93780d08
 RPROVIDES:${PN} += "pkgconfig(poke) \
 poke-devel \
 poke-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpoke0"
 

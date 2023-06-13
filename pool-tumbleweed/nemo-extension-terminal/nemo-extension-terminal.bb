@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "nemo-extension-terminal \
 nemo-terminal \
 python3.10dist(nemo-terminal) \
 python3dist(nemo-terminal)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 nemo \
 python(abi) \

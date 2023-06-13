@@ -9,6 +9,7 @@ RPM_HASH = "3d7ce3cc5281b034f4795e45a28a26d471829740848837253bd2ec9051920c1d3343
 
 RPROVIDES:${PN} += "libredfish-devel \
 libredfish-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libredfish1"
 
 inherit rpm

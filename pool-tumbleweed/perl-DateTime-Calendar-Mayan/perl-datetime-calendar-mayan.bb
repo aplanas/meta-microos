@@ -16,6 +16,7 @@ RPM_HASH = "0f20d4c07b553ef8a43fe9e583dc6a98728f876e394cc6ac152f8583ee0f716a9f45
 RPROVIDES:${PN} += "perl(DateTime::Calendar::Mayan) \
 perl-DateTime-Calendar-Mayan \
 perl-DateTime-Calendar-Mayan(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(Params::Validate)"

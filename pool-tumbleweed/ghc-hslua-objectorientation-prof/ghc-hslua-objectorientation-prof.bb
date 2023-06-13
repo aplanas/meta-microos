@@ -10,6 +10,7 @@ RPM_HASH = "48ed8be2378b67712f2688d0ff66613ef8f9e719562f05c834d2e0e4b018047f1768
 RPROVIDES:${PN} += "ghc-hslua-objectorientation-prof \
 ghc-hslua-objectorientation-prof(aarch-64) \
 ghc-prof(hslua-objectorientation-2.3.0-7bmusH4WO3b1DlNe7DJ9Sl)"
+
 RDEPENDS:${PN} += "ghc-hslua-objectorientation-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

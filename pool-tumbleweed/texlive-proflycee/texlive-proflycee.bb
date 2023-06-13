@@ -19,6 +19,7 @@ tex(proflycee-tools-minted.tex) \
 tex(proflycee-tools-piton.tex) \
 tex(proflycee-tools-pythontex.tex) \
 texlive-proflycee"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -13,6 +13,7 @@ RPM_HASH = "600446545eab5938165c0c4450f3c9ac6e226a129c9088dc0c92e6a67576ae5b8f7e
 RPROVIDES:${PN} += "libmetacity.so.3()(64bit) \
 libmetacity3 \
 libmetacity3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

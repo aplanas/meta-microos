@@ -13,6 +13,7 @@ RPM_HASH = "7502a4dad2fc323109846223d00955a84692f4989f4e426828a02fe8fa29385f2cad
 RPROVIDES:${PN} += "libossim.so.1()(64bit) \
 libossim1 \
 libossim1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

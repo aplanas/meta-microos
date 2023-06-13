@@ -22,6 +22,7 @@ mvn(org.bouncycastle:bcutil-jdk18) \
 mvn(org.bouncycastle:bcutil-jdk18:pom:) \
 mvn(org.bouncycastle:bcutil-jdk18on) \
 mvn(org.bouncycastle:bcutil-jdk18on:pom:)"
+
 RDEPENDS:${PN} += "bouncycastle \
 java-headless \
 javapackages-filesystem \

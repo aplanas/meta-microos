@@ -10,6 +10,7 @@ RPM_HASH = "dc61ad2228d2644884bbc43520c387a96a50f8295e578c064cc4e6bb4ffc94b01e23
 RPROVIDES:${PN} += "pkgconfig(wofi) \
 wofi-devel \
 wofi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(wayland-client) \
 wofi"

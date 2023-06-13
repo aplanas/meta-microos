@@ -11,6 +11,7 @@ RPM_HASH = "a0470b3212179dc7d3e3166ac34f14e1b946ec16621296c6e5cce7f9d70508b198ae
 
 RPROVIDES:${PN} += "tcmu-runner-handler-glusterfs \
 tcmu-runner-handler-glusterfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

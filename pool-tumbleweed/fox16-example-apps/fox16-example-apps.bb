@@ -25,6 +25,7 @@ fox16-example-apps \
 fox16-example-apps(aarch-64) \
 mimehandler(text/english) \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "libFOX-1.6.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

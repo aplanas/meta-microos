@@ -34,6 +34,7 @@ RPM_HASH = "a43cd6394eac407b5f5c8d53f880c93269514f4f58e3391f32c0eee6e5126f2f8217
 RPROVIDES:${PN} += "ghc-safe \
 ghc-safe(aarch-64) \
 libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

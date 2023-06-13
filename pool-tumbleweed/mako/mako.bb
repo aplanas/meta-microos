@@ -9,6 +9,7 @@ RPM_HASH = "f2c8cc464f13907d55e7ebc59b5020d117c04f7ef1be4735601b7ce016a6b6f6126e
 
 RPROVIDES:${PN} += "mako \
 mako(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

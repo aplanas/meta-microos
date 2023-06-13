@@ -25,6 +25,7 @@ RPM_HASH = "b17c7ad6f8f5a0f42920e7c8b875c7e04cabe4d8660d1572a8fd704d652bd1b68795
 RPROVIDES:${PN} += "perl(Devel::LexAlias) \
 perl-Devel-LexAlias \
 perl-Devel-LexAlias(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::Caller)"

@@ -106,6 +106,7 @@ font(:lang=zu) \
 font(inconsolatan) \
 font(inconsolatazi4) \
 texlive-inconsolata-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

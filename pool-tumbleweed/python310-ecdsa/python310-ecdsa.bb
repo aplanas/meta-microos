@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-ecdsa \
 python3.10dist(ecdsa) \
 python310-ecdsa \
 python3dist(ecdsa)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

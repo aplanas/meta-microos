@@ -89,6 +89,7 @@ locale(sound-juicer:zh_HK) \
 locale(sound-juicer:zh_TW) \
 sound-juicer-lang \
 sound-juicer-lang-all"
+
 RDEPENDS:${PN} += "sound-juicer"
 
 inherit rpm

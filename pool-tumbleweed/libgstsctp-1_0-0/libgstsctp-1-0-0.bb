@@ -14,6 +14,7 @@ RPM_HASH = "10f8bc240a06ca9b72d221ab320c1a27ef3486af3d5d5f2a560a963ee1180eec3b19
 RPROVIDES:${PN} += "libgstsctp-1.0.so.0()(64bit) \
 libgstsctp-1_0-0 \
 libgstsctp-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libglib-2.0.so.0()(64bit) \
 libgstreamer-1.0.so.0()(64bit)"

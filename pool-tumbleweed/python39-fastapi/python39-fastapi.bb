@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(fastapi) \
 python39-fastapi \
 python3dist(fastapi)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-pydantic \
 python39-starlette"

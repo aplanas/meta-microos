@@ -9,6 +9,7 @@ RPM_HASH = "8eb725e75f30d8d95bd9d7d29df9daaa77491727f193cfe642bf2bd534b7a232659b
 
 RPROVIDES:${PN} += "qemu-audio-spice \
 qemu-audio-spice(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -215,6 +215,7 @@ font(montserratmedium) \
 font(montserratsemibold) \
 font(montserratthin) \
 texlive-montserrat-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

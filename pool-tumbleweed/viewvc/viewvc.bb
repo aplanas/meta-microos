@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "config(viewvc) \
 subversion-viewcvs \
 viewcvs \
 viewvc"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 subversion-python"
 

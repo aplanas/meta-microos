@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(mathml-dtd) \
 mathml-dtd"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/edit-xml-catalog \
 /usr/bin/sgml-register-catalog \

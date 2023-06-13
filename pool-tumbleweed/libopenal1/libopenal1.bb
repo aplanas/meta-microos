@@ -18,6 +18,7 @@ RPM_HASH = "3f693e2cf4dfa1f91119985d1d7a416259fb8d1593454294b5bb711af0f9f77809d9
 RPROVIDES:${PN} += "libopenal.so.1()(64bit) \
 libopenal1 \
 libopenal1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

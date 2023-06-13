@@ -10,6 +10,7 @@ RPM_HASH = "c189123cfc87a0ec43f3d596dc2c8d588de4cb5eb3f5ba87439117a34ff132e09a23
 RPROVIDES:${PN} += "ghc-devel(xml-hamlet-0.5.0.2-IdxjO6rnbTj7Ym5G4XopFP) \
 ghc-xml-hamlet-devel \
 ghc-xml-hamlet-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

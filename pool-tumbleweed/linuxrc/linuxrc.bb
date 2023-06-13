@@ -9,6 +9,7 @@ RPM_HASH = "3904099166ccace5816284001bbd6aa45b560a4472767eca7d5951a7ce053a79ee7f
 
 RPROVIDES:${PN} += "linuxrc \
 linuxrc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

@@ -23,6 +23,7 @@ java-plugin \
 mimehandler(application/x-java-jnlp-file) \
 mimehandler(x-scheme-handler/jnlp) \
 mimehandler(x-scheme-handler/jnlps)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 java \

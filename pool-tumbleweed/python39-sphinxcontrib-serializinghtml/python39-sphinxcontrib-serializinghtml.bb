@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sphinxcontrib-serializinghtml) \
 python39-sphinxcontrib-serializinghtml \
 python3dist(sphinxcontrib-serializinghtml)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Sphinx"
 

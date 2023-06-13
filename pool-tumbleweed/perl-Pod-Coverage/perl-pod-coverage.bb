@@ -39,6 +39,7 @@ perl(Pod::Coverage::ExportOnly) \
 perl(Pod::Coverage::Extractor) \
 perl(Pod::Coverage::Overloader) \
 perl-Pod-Coverage"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Devel::Symdump) \

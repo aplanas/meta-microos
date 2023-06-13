@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-surefire-provider-junit5 \
 mvn(org.apache.maven.surefire:surefire-junit-platform) \
 mvn(org.apache.maven.surefire:surefire-junit-platform:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.surefire:common-java5) \

@@ -13,6 +13,7 @@ RPM_HASH = "c5cd7dc4a826030bf8f9cc3f141728a097fe7b0d3616600a2225ca940bb3762332fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tei-xsl-stylesheets"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

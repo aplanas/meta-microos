@@ -10,6 +10,7 @@ RPM_HASH = "b7709730a76ec0cf9b98b48574a96080aaf8651399b6a43d07ebd89884ba42167b76
 RPROVIDES:${PN} += "libmwaw-0.3.so.3()(64bit) \
 libmwaw-0_3-3 \
 libmwaw-0_3-3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

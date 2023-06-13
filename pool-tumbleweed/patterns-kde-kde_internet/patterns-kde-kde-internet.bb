@@ -16,6 +16,7 @@ pattern-order() \
 patterns-kde-kde_internet \
 patterns-openSUSE-kde4_internet \
 patterns-openSUSE-kde_internet"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

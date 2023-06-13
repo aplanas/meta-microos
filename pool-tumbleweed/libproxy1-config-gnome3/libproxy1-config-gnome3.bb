@@ -12,6 +12,7 @@ RPM_HASH = "e02498ca85c593776e37ae574ea27b99557317f2a4d9f14fa393f37a1c88ab57cfb2
 RPROVIDES:${PN} += "libproxy-gnome \
 libproxy1-config-gnome3 \
 libproxy1-config-gnome3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f04b8bf9a5afb5901f20a77812334a77e4456abe9d607fbb64852c74c2dad8a69629
 
 RPROVIDES:${PN} += "xcursorgen \
 xcursorgen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

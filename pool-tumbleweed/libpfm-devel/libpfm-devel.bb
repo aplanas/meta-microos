@@ -9,6 +9,7 @@ RPM_HASH = "8aab1199f8709bae3fa44b17eb51395a53bcdf5276035350124fd7c43908a2d4be24
 
 RPROVIDES:${PN} += "libpfm-devel \
 libpfm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

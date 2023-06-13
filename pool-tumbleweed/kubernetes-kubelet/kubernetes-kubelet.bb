@@ -10,6 +10,7 @@ RPM_HASH = "1d0977e64fd7a8ead2fe69aeead569df0800833585122bf90aa21bef60cc1381d694
 
 RPROVIDES:${PN} += "kubernetes-kubelet \
 kubernetes-kubelet(aarch-64)"
+
 RDEPENDS:${PN} += "kubernetes1.27-kubelet"
 
 inherit rpm

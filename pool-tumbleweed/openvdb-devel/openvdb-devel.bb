@@ -11,6 +11,7 @@ RPM_HASH = "4398f2959cad90a16eca2016e8ffa0693c9259cc1e64468fc4189117a9b99676fb8c
 
 RPROVIDES:${PN} += "openvdb-devel \
 openvdb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libopenvdb9_0"
 
 inherit rpm

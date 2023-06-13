@@ -10,6 +10,7 @@ RPM_HASH = "8e866d7e39ef086c5f01c92e6cbdc72791ae97ea2b858f94deae0ac4af0f721f8d7b
 RPROVIDES:${PN} += "libstrophe-devel \
 libstrophe-devel(aarch-64) \
 pkgconfig(libstrophe)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstrophe0 \
 pkgconfig(libxml-2.0) \

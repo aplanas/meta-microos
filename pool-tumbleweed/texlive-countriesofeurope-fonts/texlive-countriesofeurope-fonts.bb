@@ -33,6 +33,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(countriesofeurope) \
 texlive-countriesofeurope-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

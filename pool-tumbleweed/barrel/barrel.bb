@@ -10,6 +10,7 @@ RPM_HASH = "a81baebda7182b2061a97bebb3896582d3d670af6141ab4e06d13d38f3265e2cde6a
 RPROVIDES:${PN} += "barrel \
 barrel(aarch-64) \
 config(barrel)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

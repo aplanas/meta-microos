@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-csscompressor \
 python3.10dist(csscompressor) \
 python310-csscompressor \
 python3dist(csscompressor)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "df0251e4117412dfd747c169d344f021ee459219b2ad44ab3a33e271f42d220025e7
 
 RPROVIDES:${PN} += "jemalloc \
 jemalloc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 libjemalloc2"

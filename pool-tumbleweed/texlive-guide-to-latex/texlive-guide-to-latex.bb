@@ -9,6 +9,7 @@ RPM_HASH = "0930f03a23271dec80c08cfe814c667d90ad3e480556c59dd1683f558e555a866f86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-guide-to-latex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

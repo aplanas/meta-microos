@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(sesstime.sty) \
 texlive-sesstime"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

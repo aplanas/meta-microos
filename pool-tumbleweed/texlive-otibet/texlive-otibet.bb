@@ -14,6 +14,7 @@ tex(otibet.tex) \
 tex(t1tib.fd) \
 tex(tibetan.tfm) \
 texlive-otibet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

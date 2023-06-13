@@ -91,6 +91,7 @@ locale(konqueror:wa) \
 locale(konqueror:zh_CN) \
 locale(konqueror:zh_HK) \
 locale(konqueror:zh_TW)"
+
 RDEPENDS:${PN} += "konqueror"
 
 inherit rpm

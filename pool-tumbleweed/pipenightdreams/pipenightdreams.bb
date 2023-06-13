@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "application() \
 application(pipenightdreams.desktop) \
 pipenightdreams \
 pipenightdreams(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

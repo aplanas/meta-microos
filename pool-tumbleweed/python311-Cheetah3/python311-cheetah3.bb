@@ -20,6 +20,7 @@ python311-Cheetah3 \
 python311-Cheetah3(aarch-64) \
 python311-cheetah \
 python3dist(cheetah3)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1()(64bit) \

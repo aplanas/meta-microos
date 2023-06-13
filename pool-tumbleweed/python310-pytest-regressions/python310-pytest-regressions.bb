@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-regressions \
 python3.10dist(pytest-regressions) \
 python310-pytest-regressions \
 python3dist(pytest-regressions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-pytest \

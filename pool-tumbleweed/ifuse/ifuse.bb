@@ -12,6 +12,7 @@ RPM_HASH = "29edd2bfc68bc1dc0ae4ee573a6d15971883726d8d3d849e8ca804d5ff79f3d0735b
 
 RPROVIDES:${PN} += "ifuse \
 ifuse(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

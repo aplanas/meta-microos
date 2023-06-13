@@ -23,6 +23,7 @@ RPM_HASH = "77f7a3cde86d28a3918748fb8dd39f54336675426be9fbebba12d6877c8f713127f6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-logging \
 batik \

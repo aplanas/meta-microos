@@ -13,6 +13,7 @@ RPM_HASH = "2ff05dea6a5a54d3dcf8e7e1307d43b132c0733545a2b4a321dd639cb34c8971dc4f
 RPROVIDES:${PN} += "libcaribou.so.0()(64bit) \
 libcaribou0 \
 libcaribou0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 caribou-common \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "4ca1044663afac4869f3bd7499e94cb6e5314e7e95c91196d9dff77269f616319496
 RPROVIDES:${PN} += "cmake(LibKEduVocDocument) \
 libkeduvocdocument-devel \
 libkeduvocdocument-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKEduVocDocument5"
 
 inherit rpm

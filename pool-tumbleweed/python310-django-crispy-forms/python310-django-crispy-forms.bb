@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-django-crispy-forms \
 python3.10dist(django-crispy-forms) \
 python310-django-crispy-forms \
 python3dist(django-crispy-forms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

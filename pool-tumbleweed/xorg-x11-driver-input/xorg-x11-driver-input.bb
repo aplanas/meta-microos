@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-driver-input \
 xorg-x11-driver-input-devel"
+
 RDEPENDS:${PN} += "xf86-input-evdev \
 xf86-input-libinput \
 xf86-input-void \

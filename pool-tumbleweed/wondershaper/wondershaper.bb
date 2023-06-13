@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(wondershaper) \
 wondershaper"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 iproute2"

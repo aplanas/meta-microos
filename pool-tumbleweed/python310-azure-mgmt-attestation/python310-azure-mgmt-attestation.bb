@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-attestation \
 python3.10dist(azure-mgmt-attestation) \
 python310-azure-mgmt-attestation \
 python3dist(azure-mgmt-attestation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

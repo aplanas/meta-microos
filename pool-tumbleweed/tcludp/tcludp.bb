@@ -12,6 +12,7 @@ RPM_HASH = "7555a2c2484bf4d3966451c6b06138a4701102d0024961b5067935c163cff52f914a
 RPROVIDES:${PN} += "libudp1.0.11.so()(64bit) \
 tcludp \
 tcludp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit)"

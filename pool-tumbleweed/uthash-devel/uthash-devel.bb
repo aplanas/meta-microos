@@ -10,6 +10,7 @@ RPM_HASH = "4388a58442ae79e1cd08d14ca0df0299c82bca1fbda33529144985aa3560f55bbe17
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uthash-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

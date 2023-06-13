@@ -14,6 +14,7 @@ metainfo() \
 metainfo(org.kde.qmlkonsole.appdata.xml) \
 qmlkonsole \
 qmlkonsole(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1()(64bit) \

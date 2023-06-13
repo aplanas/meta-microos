@@ -11,6 +11,7 @@ RPM_HASH = "59ac9ed7ceb058a69e8c36384b19f3756b51609727ca7c5dc33d3ae47b4cb705bc46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu_6_0_0-gnu-hpc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

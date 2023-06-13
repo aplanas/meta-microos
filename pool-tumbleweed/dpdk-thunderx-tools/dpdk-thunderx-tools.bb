@@ -10,6 +10,7 @@ RPM_HASH = "cb2b2f188051460ec8920e08e0e94fe63c04adf4a54e49e6eba998b4dec4a3a0dc52
 RPROVIDES:${PN} += "dpdk-any-tools \
 dpdk-thunderx-tools \
 dpdk-thunderx-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dpdk-thunderx \
 findutils \

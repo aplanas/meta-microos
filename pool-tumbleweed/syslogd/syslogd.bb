@@ -17,6 +17,7 @@ syslog \
 syslogd \
 syslogd(aarch-64) \
 sysvinit(syslog)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/mkdir \

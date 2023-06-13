@@ -10,6 +10,7 @@ RPM_HASH = "649704a398165230096035ec30eb725cc20b34c00ae5a967e5f180c18c9f198d24c4
 RPROVIDES:${PN} += "mtdev-devel \
 mtdev-devel(aarch-64) \
 pkgconfig(mtdev)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libmtdev1"

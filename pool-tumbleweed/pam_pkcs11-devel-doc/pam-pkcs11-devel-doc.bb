@@ -12,6 +12,7 @@ RPM_HASH = "60ff886f4a6764621088cfb13bcf29da610f99d7c6ed8da1eb477ae6805f12cc7762
 
 RPROVIDES:${PN} += "pam_pkcs11-devel-doc \
 pam_pkcs11-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

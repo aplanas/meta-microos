@@ -11,6 +11,7 @@ RPM_HASH = "2af77b76194f70e6f608e5ef3e2f87355776ccb54733cbdb29e42182a3c847667ab8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spice-html5"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

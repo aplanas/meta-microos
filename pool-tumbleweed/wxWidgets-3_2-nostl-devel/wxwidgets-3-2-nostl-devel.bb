@@ -21,6 +21,7 @@ RPM_HASH = "349711a52338dfec31624d09ab1699033d2f2c1377c07e1c28ed69f1666c6e827321
 RPROVIDES:${PN} += "wxWidgets-3_2-nostl-devel \
 wxWidgets-3_2-nostl-devel(aarch-64) \
 wxWidgets-any-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

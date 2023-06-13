@@ -15,6 +15,7 @@ RPM_HASH = "77beadb4688aacc6e8ff745f40c7bb021910cefdb863030e9b54df8c7efbd3bedd57
 RPROVIDES:${PN} += "ghc-semialign \
 ghc-semialign(aarch-64) \
 libHSsemialign-1.2.0.1-LDzKW6eKwIG6WFTA9nak5m-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

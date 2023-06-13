@@ -47,6 +47,7 @@ RPROVIDES:${PN} += "python3-Unidecode \
 python3.10dist(unidecode) \
 python310-Unidecode \
 python3dist(unidecode)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

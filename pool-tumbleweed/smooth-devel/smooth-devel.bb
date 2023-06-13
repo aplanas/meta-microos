@@ -10,6 +10,7 @@ RPM_HASH = "c78dc3440cd83f44969404b0f5a9e60c07ba905ff3dd81ae9be573b8209f8601fcb4
 
 RPROVIDES:${PN} += "smooth-devel \
 smooth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsmooth-0_9-0 \
 pkgconfig(x11)"
 

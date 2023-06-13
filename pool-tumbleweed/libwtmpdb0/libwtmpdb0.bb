@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libwtmpdb.so.0()(64bit) \
 libwtmpdb.so.0(LIBWTMPDB_0.1)(64bit) \
 libwtmpdb0 \
 libwtmpdb0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

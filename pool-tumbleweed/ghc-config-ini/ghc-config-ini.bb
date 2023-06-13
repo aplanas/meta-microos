@@ -15,6 +15,7 @@ RPM_HASH = "334175207dc7081a7f488325c96c131975de043e0b6bba9c87019a66dc63fa0ddcbd
 RPROVIDES:${PN} += "ghc-config-ini \
 ghc-config-ini(aarch-64) \
 libHSconfig-ini-0.2.5.0-RR92dYVdpi9XWpA99EDX9-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

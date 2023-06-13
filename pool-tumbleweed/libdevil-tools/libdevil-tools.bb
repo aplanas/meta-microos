@@ -10,6 +10,7 @@ RPM_HASH = "e46ce4c66fdbb95fca555a0ff75b6b69215ccf7b7777edd615639887af344f9973ef
 
 RPROVIDES:${PN} += "libdevil-tools \
 libdevil-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libIL.so.1()(64bit) \

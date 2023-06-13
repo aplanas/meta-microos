@@ -15,6 +15,7 @@ RPM_HASH = "83ef97ce27842cf9f28df9be01d2daee297d097bda02a8d008158a9fa9915f44fb13
 RPROVIDES:${PN} += "cmake(QGpgmeQt6) \
 libqgpgmeqt6-devel \
 libqgpgmeqt6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libgpgme-devel \
 libgpgmepp-devel \
 libqgpgmeqt6-15"

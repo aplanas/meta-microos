@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "pkgconfig(plplot-tcl) \
 pkgconfig(plplot-tcl_Main) \
 plplot-tcltk-devel \
 plplot-tcltk-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/pkg-config \

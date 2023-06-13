@@ -23,6 +23,7 @@ python3.10dist(dask) \
 python310-dask \
 python310-dask-multiprocessing \
 python3dist(dask)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -27,6 +27,7 @@ RPM_HASH = "63fc325cb8cbadb94aa293779c0f0c99edbdce2f5ee91aaa5a7e88ad3eb6eafca87d
 RPROVIDES:${PN} += "perl(Math::Geometry::Voronoi) \
 perl-Math-Geometry-Voronoi \
 perl-Math-Geometry-Voronoi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

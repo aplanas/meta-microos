@@ -23,6 +23,7 @@ tex(remreset.sty) \
 tex(scalefnt.sty) \
 tex(slashed.sty) \
 texlive-carlisle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

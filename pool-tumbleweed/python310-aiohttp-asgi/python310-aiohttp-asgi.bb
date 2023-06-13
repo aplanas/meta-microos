@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-aiohttp-asgi \
 python3.10dist(aiohttp-asgi) \
 python310-aiohttp-asgi \
 python3dist(aiohttp-asgi)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

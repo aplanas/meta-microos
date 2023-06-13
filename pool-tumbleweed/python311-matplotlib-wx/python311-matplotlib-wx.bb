@@ -10,6 +10,7 @@ RPM_HASH = "62794e3f12bdc79dae089bfa572dab7803985505ac64ec9d83c1935039aab4558df0
 
 RPROVIDES:${PN} += "python311-matplotlib-wx \
 python311-matplotlib-wx(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-matplotlib \
 python311-wxPython"

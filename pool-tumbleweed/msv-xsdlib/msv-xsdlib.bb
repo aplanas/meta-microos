@@ -14,6 +14,7 @@ mvn(com.sun.msv.datatype.xsd:xsdlib:pom:) \
 mvn(net.java.dev.msv:xsdlib) \
 mvn(net.java.dev.msv:xsdlib:pom:) \
 osgi(net.java.dev.msv.xsdlib)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(relaxngDatatype:relaxngDatatype) \

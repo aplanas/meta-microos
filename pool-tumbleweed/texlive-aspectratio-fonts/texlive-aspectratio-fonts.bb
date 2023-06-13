@@ -27,6 +27,7 @@ font(arssbi10) \
 font(arssi10) \
 font(artti10) \
 texlive-aspectratio-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -24,6 +24,7 @@ libfuse.so.2(FUSE_2.9)(64bit) \
 libfuse.so.2(FUSE_2.9.1)(64bit) \
 libfuse2 \
 libfuse2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

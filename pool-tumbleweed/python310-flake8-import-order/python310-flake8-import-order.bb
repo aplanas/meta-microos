@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flake8-import-order \
 python3.10dist(flake8-import-order) \
 python310-flake8-import-order \
 python3dist(flake8-import-order)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-flake8 \
 python310-pycodestyle"

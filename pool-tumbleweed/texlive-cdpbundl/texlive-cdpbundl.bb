@@ -28,6 +28,7 @@ tex(epson-stylus-740.def) \
 tex(hp-laserjet-4500.def) \
 tex(letteracdp.cls) \
 texlive-cdpbundl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

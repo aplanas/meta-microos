@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-schemabloc-doc:fr) \
 texlive-schemabloc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-extendedlocation \
 python3.10dist(azure-mgmt-extendedlocation) \
 python310-azure-mgmt-extendedlocation \
 python3dist(azure-mgmt-extendedlocation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

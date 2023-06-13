@@ -28,6 +28,7 @@ liblangtag-ext-ldml-u.so()(64bit) \
 liblangtag.so.1()(64bit) \
 liblangtag1 \
 liblangtag1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libxml2.so.2()(64bit) \

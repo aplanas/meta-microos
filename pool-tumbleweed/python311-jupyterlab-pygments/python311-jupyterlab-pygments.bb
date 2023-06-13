@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jupyterlab-pygments) \
 python311-jupyterlab-pygments \
 python3dist(jupyterlab-pygments)"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab-pygments \
 python(abi) \
 python311-pygments"

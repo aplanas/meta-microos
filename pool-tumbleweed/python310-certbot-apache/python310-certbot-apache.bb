@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-certbot-apache \
 python3.10dist(certbot-apache) \
 python310-certbot-apache \
 python3dist(certbot-apache)"
+
 RDEPENDS:${PN} += "apache2 \
 augeas-lenses \
 python(abi) \

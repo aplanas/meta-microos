@@ -12,6 +12,7 @@ RPM_HASH = "db97ad191e5e3bc4778d9305a5d92f9278a22eb7104076605e33f4a1ec8444894c3a
 RPROVIDES:${PN} += "libcpupower.so.0()(64bit) \
 libcpupower0 \
 libcpupower0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(assignment.cls) \
 texlive-assignment"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

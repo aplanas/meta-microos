@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(luahbtex.1) \
 texlive-luahbtex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

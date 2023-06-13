@@ -10,6 +10,7 @@ RPM_HASH = "3e95a762ca2547b2069bb3008c75fd5a5c524a52cfb71378b066dca3b9c1555bbfc2
 
 RPROVIDES:${PN} += "yasm-devel \
 yasm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "yasm"
 
 inherit rpm

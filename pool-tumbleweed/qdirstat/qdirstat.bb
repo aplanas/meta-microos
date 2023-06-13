@@ -63,6 +63,7 @@ mimehandler(inode/directory) \
 mimehandler(inode/mount-point) \
 qdirstat \
 qdirstat(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

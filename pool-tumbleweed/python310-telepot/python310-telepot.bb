@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-telepot \
 python3.10dist(telepot) \
 python310-telepot \
 python3dist(telepot)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-aiohttp \
 python310-urllib3"

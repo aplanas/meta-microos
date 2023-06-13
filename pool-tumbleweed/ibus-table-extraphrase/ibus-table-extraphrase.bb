@@ -11,6 +11,7 @@ RPM_HASH = "f4ec33a543ee02e0b99d2a9c0593a36e26118494ec56a32cd617497e5b6034bd2a53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-extraphrase"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

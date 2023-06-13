@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-codebox-doc:zh) \
 texlive-codebox-doc"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/python3"
 

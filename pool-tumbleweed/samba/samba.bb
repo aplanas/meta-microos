@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "config(samba) \
 group(ntadmin) \
 samba \
 samba(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/grep \

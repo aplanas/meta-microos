@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-pymemcache \
 python3.10dist(pymemcache) \
 python310-pymemcache \
 python3dist(pymemcache)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

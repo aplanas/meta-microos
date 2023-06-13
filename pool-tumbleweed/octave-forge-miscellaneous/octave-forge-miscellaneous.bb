@@ -10,6 +10,7 @@ RPM_HASH = "0e8c9edf2ad917a7184b4646250da37efa55a97dbc45eedd86537201e7fd761434d6
 
 RPROVIDES:${PN} += "octave-forge-miscellaneous \
 octave-forge-miscellaneous(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

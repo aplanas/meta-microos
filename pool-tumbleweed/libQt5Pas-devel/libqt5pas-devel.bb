@@ -9,6 +9,7 @@ RPM_HASH = "56320dc3e7d335a607861520b3015a4833ab7ac6ebd69dc4119452f2ba90f47ea439
 
 RPROVIDES:${PN} += "libQt5Pas-devel \
 libQt5Pas-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQt5Pas1"
 
 inherit rpm

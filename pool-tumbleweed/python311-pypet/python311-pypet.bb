@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pypet) \
 python311-pypet \
 python3dist(pypet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-pandas \

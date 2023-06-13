@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-HTTPolice \
 python3.10dist(httpolice) \
 python310-HTTPolice \
 python3dist(httpolice)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

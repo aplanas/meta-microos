@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libmozjs-78-0 \
 libmozjs-78-0(aarch-64) \
 libmozjs-78.so.0()(64bit) \
 libmozjs-78.so.0(mozjs_78)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ rpm_macro(hpc_mvapich2_init) \
 rpm_macro(hpc_mvapich2_requires) \
 rpm_macro(hpc_mvapich2_requires_devel) \
 rpm_macro(hpc_setup_mvapich2)"
+
 RDEPENDS:${PN} += "mvapich2_2_3_7-gnu-hpc-devel"
 
 inherit rpm

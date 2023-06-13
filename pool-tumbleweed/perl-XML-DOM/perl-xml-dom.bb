@@ -80,6 +80,7 @@ perl(XML::Handler::BuildDOM) \
 perl(XML::Parser::Dom) \
 perl(XML::XQL::Node) \
 perl-XML-DOM"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(LWP::UserAgent) \
 perl(XML::Parser) \

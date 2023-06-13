@@ -11,6 +11,7 @@ RPM_HASH = "1a816a469e076a1ebc910251f9936dc07ad992e5c4ace77c56880393ab8ad3e8155c
 RPROVIDES:${PN} += "libsuil_x11_in_gtk3.so()(64bit) \
 suil-plugin-x11-in-gtk3 \
 suil-plugin-x11-in-gtk3(aarch-64)"
+
 RDEPENDS:${PN} += "gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

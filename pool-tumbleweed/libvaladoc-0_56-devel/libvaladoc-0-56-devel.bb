@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libvaladoc-0_56-devel \
 libvaladoc-0_56-devel(aarch-64) \
 libvaladoc-devel \
 pkgconfig(valadoc-0.56)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvaladoc-0_56-0 \
 pkgconfig(gmodule-2.0) \

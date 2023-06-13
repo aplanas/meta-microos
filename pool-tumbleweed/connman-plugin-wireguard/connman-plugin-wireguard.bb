@@ -9,6 +9,7 @@ RPM_HASH = "e4bf44eb012aa55820f218ee12505820b2088c1ce285768ce65a23801f4c17e7e343
 
 RPROVIDES:${PN} += "connman-plugin-wireguard \
 connman-plugin-wireguard(aarch-64)"
+
 RDEPENDS:${PN} += "connman \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

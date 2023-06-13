@@ -9,6 +9,7 @@ RPM_HASH = "fbb17663ad76773ae3a85e37a0da73621affac7f0c51d85189fb3968c9066e83a29b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-errata-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xebaposter.cls) \
 texlive-xebaposter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

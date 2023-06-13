@@ -9,6 +9,7 @@ RPM_HASH = "61359b70edcdda297baa99eb28eba9a76c0eddc65fb78bb168434b2d7f2eabfe557e
 
 RPROVIDES:${PN} += "R-recommended-packages \
 R-recommended-packages(aarch-64)"
+
 RDEPENDS:${PN} += "R-KernSmooth \
 R-MASS \
 R-Matrix \

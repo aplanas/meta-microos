@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "istack-commons-runtime \
 mvn(com.sun.istack:istack-commons-runtime) \
 mvn(com.sun.istack:istack-commons-runtime:pom:) \
 osgi(com.sun.istack.commons-runtime)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.activation:javax.activation-api)"

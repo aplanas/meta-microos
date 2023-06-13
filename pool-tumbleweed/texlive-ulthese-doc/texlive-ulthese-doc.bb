@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-ulthese-doc:fr) \
 texlive-ulthese-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

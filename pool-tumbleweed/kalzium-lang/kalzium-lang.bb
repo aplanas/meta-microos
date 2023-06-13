@@ -77,6 +77,7 @@ locale(kalzium:ug) \
 locale(kalzium:uk) \
 locale(kalzium:zh_CN) \
 locale(kalzium:zh_TW)"
+
 RDEPENDS:${PN} += "kalzium"
 
 inherit rpm

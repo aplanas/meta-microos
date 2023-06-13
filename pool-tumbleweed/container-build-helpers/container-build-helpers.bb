@@ -11,6 +11,7 @@ RPM_HASH = "235b882b9d77d40660631392677c9e6b409caadfb5c52c624f32e9fe5ecb50222e7d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-helpers"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

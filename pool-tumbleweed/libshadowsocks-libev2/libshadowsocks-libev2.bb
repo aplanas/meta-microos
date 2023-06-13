@@ -13,6 +13,7 @@ RPM_HASH = "4500b7635231bda7cf98a2dab70cf3eb66be71ab034e90d363562b69d931a25596e0
 RPROVIDES:${PN} += "libshadowsocks-libev.so.2()(64bit) \
 libshadowsocks-libev2 \
 libshadowsocks-libev2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

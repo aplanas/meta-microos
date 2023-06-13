@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8-isort) \
 python39-flake8-isort \
 python3dist(flake8-isort)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-flake8 \
 python39-isort \

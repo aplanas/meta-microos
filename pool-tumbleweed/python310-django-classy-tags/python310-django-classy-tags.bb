@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-django-classy-tags \
 python3.10dist(django-classy-tags) \
 python310-django-classy-tags \
 python3dist(django-classy-tags)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

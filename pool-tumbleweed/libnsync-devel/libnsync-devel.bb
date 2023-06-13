@@ -14,6 +14,7 @@ RPM_HASH = "d2fda9d92a92a088411c78e262e05441fba7b404906530eef39b90fd3959e89b7d39
 
 RPROVIDES:${PN} += "libnsync-devel \
 libnsync-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libnsync1 \
 libnsync_cpp1"
 

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdftricks.sty) \
 texlive-pdftricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

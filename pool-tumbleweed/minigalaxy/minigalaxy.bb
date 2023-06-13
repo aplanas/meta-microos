@@ -15,6 +15,7 @@ metainfo(io.github.sharkwouter.Minigalaxy.metainfo.xml) \
 minigalaxy \
 python3.10dist(minigalaxy) \
 python3dist(minigalaxy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-gobject \

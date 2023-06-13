@@ -13,6 +13,7 @@ RPM_HASH = "29c35dc9f948bc818618b26549c6a98655c1c44d6b34acd401c5d62a1e69c1f9e0ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Rivet-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

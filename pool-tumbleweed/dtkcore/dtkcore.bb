@@ -13,6 +13,7 @@ RPM_HASH = "e4bc70402ef90f3b3865d08d02251b558735287dca88673a831c5cf34139a93eedb1
 
 RPROVIDES:${PN} += "dtkcore \
 dtkcore(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

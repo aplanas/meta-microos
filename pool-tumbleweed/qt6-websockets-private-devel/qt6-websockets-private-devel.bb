@@ -10,6 +10,7 @@ RPM_HASH = "2e40399c68686e39ddccebd46509fec0d96afe3d07937a78ecd56de9989a1cdd0f65
 
 RPROVIDES:${PN} += "qt6-websockets-private-devel \
 qt6-websockets-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6WebSockets) \
 qt6-core-private-devel"
 

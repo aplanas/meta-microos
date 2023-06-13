@@ -15,6 +15,7 @@ RPM_HASH = "0fdef58db6d517db82be81205c5fae596df6089754f6b235b1a73dd8e4e8f2d82124
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-optexcount"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

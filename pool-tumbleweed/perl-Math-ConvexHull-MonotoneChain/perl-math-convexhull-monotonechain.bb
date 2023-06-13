@@ -16,6 +16,7 @@ RPM_HASH = "bd7a0de16095a5d343faa8ea70c51c23b7327cca137a7d0c4111fecb45217164258a
 RPROVIDES:${PN} += "perl(Math::ConvexHull::MonotoneChain) \
 perl-Math-ConvexHull-MonotoneChain \
 perl-Math-ConvexHull-MonotoneChain(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Test::More)"

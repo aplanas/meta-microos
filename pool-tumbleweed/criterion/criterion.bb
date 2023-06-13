@@ -19,6 +19,7 @@ RPM_HASH = "360d9f3c261b22411fb9a6accd10b5f718cf24e7ee994b525ba013dfa1be56b1803e
 
 RPROVIDES:${PN} += "criterion \
 criterion(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

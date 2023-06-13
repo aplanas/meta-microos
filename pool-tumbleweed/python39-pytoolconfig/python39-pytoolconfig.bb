@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytoolconfig) \
 python39-pytoolconfig \
 python3dist(pytoolconfig)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-packaging \
 python39-tomli"

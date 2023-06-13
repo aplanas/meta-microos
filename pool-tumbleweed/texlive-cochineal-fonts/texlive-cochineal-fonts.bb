@@ -150,6 +150,7 @@ font(:lang=zu) \
 font(coch) \
 font(cochineal) \
 texlive-cochineal-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

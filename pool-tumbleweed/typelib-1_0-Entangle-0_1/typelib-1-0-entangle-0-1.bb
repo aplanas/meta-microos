@@ -15,6 +15,7 @@ RPM_HASH = "59621f5cbcd07fa5b2e8ee3b145601bb093503891e6d8519aa9adbf87d2dc4980923
 RPROVIDES:${PN} += "typelib(Entangle) \
 typelib-1_0-Entangle-0_1 \
 typelib-1_0-Entangle-0_1(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

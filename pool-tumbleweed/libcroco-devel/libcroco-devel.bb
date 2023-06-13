@@ -11,6 +11,7 @@ RPM_HASH = "54cbf241cd7e25565a927209e6062015042316ae3c8e198c597cc9ff0681ab6983db
 RPROVIDES:${PN} += "libcroco-devel \
 libcroco-devel(aarch-64) \
 pkgconfig(libcroco-0.6)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libcroco \

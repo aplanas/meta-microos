@@ -99,6 +99,7 @@ tex(lbskvl_wpcz7d.enc) \
 tex(lbskvl_yeotsr.enc) \
 tex(librebaskerville.sty) \
 texlive-librebaskerville"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

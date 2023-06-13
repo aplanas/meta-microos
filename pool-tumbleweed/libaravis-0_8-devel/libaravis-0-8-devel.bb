@@ -10,6 +10,7 @@ RPM_HASH = "9931069518c60aa29a51d177725478cba2cbeffbcd2ccb8b6b806c93704e01fdf162
 RPROVIDES:${PN} += "libaravis-0_8-devel \
 libaravis-0_8-devel(aarch-64) \
 pkgconfig(aravis-0.8)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libaravis-0_8-0 \
 pkgconfig(gio-2.0) \

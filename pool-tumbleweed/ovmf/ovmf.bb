@@ -10,6 +10,7 @@ RPM_HASH = "69b6e09a6e6cd414336b1ea2609f41af7d3e394665967a992d5a70fcc273b8ed9aa1
 
 RPROVIDES:${PN} += "ovmf \
 ovmf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

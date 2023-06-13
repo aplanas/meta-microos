@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.11dist(ipdb) \
 python311-ipdb \
 python311-jupyter_ipdb \
 python3dist(ipdb)"
+
 RDEPENDS:${PN} += "(python311-ipython >= 7.16.3 if python311-base < 3.7) \
 (python311-ipython >= 7.31.1 if python311-base >= 3.7) \
 (python311-tomli if python311-base < 3.11) \

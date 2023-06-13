@@ -9,6 +9,7 @@ RPM_HASH = "cb206524d1329d4c459d880e834c4a710b4e066df8edc565a3869130e8846fcea5dd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfmarginpar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

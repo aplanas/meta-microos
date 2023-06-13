@@ -12,6 +12,7 @@ RPM_HASH = "77fd996cf3d370456d4cc2d54e2b3a9bd37812159135da8d402256c4b4e0689e5754
 RPROVIDES:${PN} += "libass.so.9()(64bit) \
 libass9 \
 libass9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

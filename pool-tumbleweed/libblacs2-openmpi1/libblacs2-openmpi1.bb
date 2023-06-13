@@ -17,6 +17,7 @@ RPM_HASH = "807b39f4df614b78ecabca9115b923d62b8b3fbef1be13a089a7549829c8b8f5e15d
 RPROVIDES:${PN} += "libblacs.so.2.1.0()(64bit) \
 libblacs2-openmpi1 \
 libblacs2-openmpi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

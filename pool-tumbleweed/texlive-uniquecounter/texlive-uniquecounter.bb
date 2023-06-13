@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(uniquecounter.sty) \
 texlive-uniquecounter"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

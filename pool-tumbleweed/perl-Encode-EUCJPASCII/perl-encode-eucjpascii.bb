@@ -22,6 +22,7 @@ RPM_HASH = "65488a8000bd26e3a52d410206688a9f5b0ae6658bfb964fe2b1d8abd57409dce1f4
 RPROVIDES:${PN} += "perl(Encode::EUCJPASCII) \
 perl-Encode-EUCJPASCII \
 perl-Encode-EUCJPASCII(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 perl(:MODULE_COMPAT_5.36.0)"
 

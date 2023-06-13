@@ -12,6 +12,7 @@ RPM_HASH = "c68d7a50015ee83eb46a9c1290abc0ef04854b55fdeb6a2da6e2a58305f97a20b970
 RPROVIDES:${PN} += "loudmouth-devel \
 loudmouth-devel(aarch-64) \
 pkgconfig(loudmouth-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libloudmouth-1-0 \
 pkgconfig(glib-2.0)"

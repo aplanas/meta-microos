@@ -10,6 +10,7 @@ RPM_HASH = "45a6468044f4596d95f34d56e3fcfdaa4be058c2f71019fdc4a80cacd8480c822d5c
 
 RPROVIDES:${PN} += "python3-lasso \
 python3-lasso(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

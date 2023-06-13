@@ -81,6 +81,7 @@ locale(kmail:uk) \
 locale(kmail:wa) \
 locale(kmail:zh_CN) \
 locale(kmail:zh_TW)"
+
 RDEPENDS:${PN} += "kmail"
 
 inherit rpm

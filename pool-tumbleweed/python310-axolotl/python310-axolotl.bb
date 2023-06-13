@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-axolotl \
 python3.10dist(python-axolotl) \
 python310-axolotl \
 python3dist(python-axolotl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-axolotl-curve25519 \
 python310-cryptography \

@@ -25,6 +25,7 @@ mvn(org.bouncycastle:bcpkix-jdk18:pom:) \
 mvn(org.bouncycastle:bcpkix-jdk18on) \
 mvn(org.bouncycastle:bcpkix-jdk18on:pom:) \
 osgi(bcpkix)"
+
 RDEPENDS:${PN} += "bouncycastle \
 bouncycastle-util \
 java-headless \

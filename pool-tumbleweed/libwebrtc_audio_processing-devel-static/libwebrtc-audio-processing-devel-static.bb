@@ -13,6 +13,7 @@ RPM_HASH = "64fb9b51825e26d20a9cffcc22e6461801443aadabd511d1793b4e8d1e3805dd48ef
 
 RPROVIDES:${PN} += "libwebrtc_audio_processing-devel-static \
 libwebrtc_audio_processing-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libwebrtc_audio_processing-devel"
 
 inherit rpm

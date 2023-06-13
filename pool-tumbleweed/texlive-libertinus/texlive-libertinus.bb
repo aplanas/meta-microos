@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(libertinus.sty) \
 texlive-libertinus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "5228c3a8aa56d622dde5118fdb0987e1d955adf03d7be5f8bc82173b7c4ba8b7d353
 RPROVIDES:${PN} += "libgle.so.3()(64bit) \
 libgle3 \
 libgle3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

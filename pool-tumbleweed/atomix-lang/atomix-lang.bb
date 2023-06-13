@@ -76,6 +76,7 @@ locale(atomix:wa) \
 locale(atomix:zh_CN) \
 locale(atomix:zh_HK) \
 locale(atomix:zh_TW)"
+
 RDEPENDS:${PN} += "atomix"
 
 inherit rpm

@@ -20,6 +20,7 @@ metainfo(org.kde.ktorrent.appdata.xml) \
 mimehandler(application/x-bittorrent) \
 mimehandler(application/x-torrent) \
 mimehandler(x-scheme-handler/magnet)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

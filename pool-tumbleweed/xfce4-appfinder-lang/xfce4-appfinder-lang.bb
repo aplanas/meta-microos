@@ -66,6 +66,7 @@ locale(xfce4-appfinder:zh_HK) \
 locale(xfce4-appfinder:zh_TW) \
 xfce4-appfinder-lang \
 xfce4-appfinder-lang-all"
+
 RDEPENDS:${PN} += "xfce4-appfinder"
 
 inherit rpm

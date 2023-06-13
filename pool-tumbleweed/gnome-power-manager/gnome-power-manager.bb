@@ -15,6 +15,7 @@ gnome-power-manager \
 gnome-power-manager(aarch-64) \
 metainfo() \
 metainfo(org.gnome.PowerStats.appdata.xml)"
+
 RDEPENDS:${PN} += "gnome-session-core \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

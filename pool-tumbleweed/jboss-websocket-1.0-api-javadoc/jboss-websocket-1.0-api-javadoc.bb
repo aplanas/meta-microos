@@ -9,6 +9,7 @@ RPM_HASH = "f37798a0b2591e23cebf4c873210f98cb205d7151f613cd8fe6ec64e57e7faac3206
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-websocket-1.0-api-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

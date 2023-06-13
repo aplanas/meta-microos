@@ -10,6 +10,7 @@ RPM_HASH = "9825363addad8dbff479f10c018b7c5244311cda40371a98346d95b90164838c296b
 RPROVIDES:${PN} += "libnpupnp.so.9()(64bit) \
 libnpupnp9 \
 libnpupnp9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

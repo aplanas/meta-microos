@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(phpPgAdmin-apache) \
 phpPgAdmin-apache"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache2 \
 mod_php_any \

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(cssselect) \
 python311-cssselect \
 python3dist(cssselect)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

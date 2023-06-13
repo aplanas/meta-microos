@@ -44,6 +44,7 @@ tex(example-image.tex) \
 tex(example-movie.tex) \
 tex(mwe.sty) \
 texlive-mwe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

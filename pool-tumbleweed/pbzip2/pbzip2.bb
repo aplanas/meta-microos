@@ -11,6 +11,7 @@ RPM_HASH = "6fb71d56d4c196e1b4573564d0f97f2496f6fe6d1446f645b62a53da2193b0c94b44
 
 RPROVIDES:${PN} += "pbzip2 \
 pbzip2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbz2.so.1()(64bit) \

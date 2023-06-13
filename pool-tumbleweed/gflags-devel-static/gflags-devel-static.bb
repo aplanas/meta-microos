@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(gflags) \
 gflags-devel-static \
 gflags-devel-static(aarch-64) \
 pkgconfig(gflags_static)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

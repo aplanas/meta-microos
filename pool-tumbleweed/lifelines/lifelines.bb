@@ -12,6 +12,7 @@ RPM_HASH = "d00bfbe721a74bf57266d8882cfbacc7979ea938d627a3bde0f25fb534c4ef2b8e3d
 RPROVIDES:${PN} += "config(lifelines) \
 lifelines \
 lifelines(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

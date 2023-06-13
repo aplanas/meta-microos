@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(texlive-gfscomplutum-fonts) \
 font(:lang=el) \
 font(gfscomplutum) \
 texlive-gfscomplutum-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

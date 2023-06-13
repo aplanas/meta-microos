@@ -11,6 +11,7 @@ RPM_HASH = "7019f9b01238b2dd94a3f8c4889536a0ce1dd22df5d928292bdaa20b366dd6ca02d3
 RPROVIDES:${PN} += "libspiro.so.1()(64bit) \
 libspiro1 \
 libspiro1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

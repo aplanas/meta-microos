@@ -10,6 +10,7 @@ RPM_HASH = "1b59ff702273bb8002fa240b8fe46145aecdacead16a3618f9c5f3b1b3c55e978b54
 RPROVIDES:${PN} += "ghc-call-stack-prof \
 ghc-call-stack-prof(aarch-64) \
 ghc-prof(call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk)"
+
 RDEPENDS:${PN} += "ghc-call-stack-devel \
 ghc-prof(base-4.17.1.0)"
 

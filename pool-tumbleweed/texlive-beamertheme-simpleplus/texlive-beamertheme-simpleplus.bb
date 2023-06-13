@@ -15,6 +15,7 @@ tex(beamerfontthemeSimplePlus.sty) \
 tex(beamerinnerthemeSimplePlus.sty) \
 tex(beamerthemeSimplePlus.sty) \
 texlive-beamertheme-simpleplus"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

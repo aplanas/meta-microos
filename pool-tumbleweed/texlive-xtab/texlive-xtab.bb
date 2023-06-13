@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xtab.sty) \
 texlive-xtab"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

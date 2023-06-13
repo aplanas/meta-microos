@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-azure-ai-language-nspkg \
 python3.10dist(azure-ai-language-nspkg) \
 python310-azure-ai-language-nspkg \
 python3dist(azure-ai-language-nspkg)"
+
 RDEPENDS:${PN} += "python310-azure-ai-nspkg \
 python310-azure-nspkg"
 

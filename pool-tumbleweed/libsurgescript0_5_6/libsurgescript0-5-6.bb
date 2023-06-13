@@ -11,6 +11,7 @@ RPM_HASH = "6a464889658da4f7df3b119fb830a5bda601c82d4b7329ff6b5e76e240cdba3ab987
 RPROVIDES:${PN} += "libsurgescript.so.0.5.6()(64bit) \
 libsurgescript0_5_6 \
 libsurgescript0_5_6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

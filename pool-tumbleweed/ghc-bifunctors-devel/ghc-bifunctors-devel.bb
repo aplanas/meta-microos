@@ -10,6 +10,7 @@ RPM_HASH = "e64056308caa2e6f9363e8f4a906cd8e3d4239565562838b51a4c22ae02d1f8616ba
 RPROVIDES:${PN} += "ghc-bifunctors-devel \
 ghc-bifunctors-devel(aarch-64) \
 ghc-devel(bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-bifunctors \
 ghc-compiler \

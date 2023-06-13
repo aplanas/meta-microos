@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-baremetalinfrastructure \
 python3.10dist(azure-mgmt-baremetalinfrastructure) \
 python310-azure-mgmt-baremetalinfrastructure \
 python3dist(azure-mgmt-baremetalinfrastructure)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

@@ -251,6 +251,7 @@ font(musejazztext) \
 font(musescoreicon) \
 font(petalumatext) \
 musescore-fonts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "8ef6b1d2a9921624131e26b00d1d723f598d53f645e778b04415ccad9ec8e1f47e04
 RPROVIDES:${PN} += "libfsalnull.so()(64bit) \
 nfs-ganesha-nullfs \
 nfs-ganesha-nullfs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

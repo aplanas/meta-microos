@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(oscrypto) \
 python39-oscrypto \
 python3dist(oscrypto)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-asn1crypto"
 

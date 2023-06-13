@@ -12,6 +12,7 @@ RPM_HASH = "0a82dfe2d276e9a65fa31e5e69c9c7117944c619fe2d02caa5941d79288f4e6ae61e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libical-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

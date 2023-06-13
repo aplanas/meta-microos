@@ -12,6 +12,7 @@ RPM_HASH = "ad4e977ed85ec48aaa7b875689b5302a36324f28b63135faa23216a5e722c2228666
 RPROVIDES:${PN} += "fftw3 \
 libfftw3_3_3_10-gnu-mpich-hpc \
 libfftw3_3_3_10-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

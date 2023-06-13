@@ -17,6 +17,7 @@ libudev.so.1(LIBUDEV_215)(64bit) \
 libudev.so.1(LIBUDEV_247)(64bit) \
 libudev1 \
 libudev1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

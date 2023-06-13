@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(build) \
 python39-build \
 python3dist(build)"
+
 RDEPENDS:${PN} += "(python39-importlib-metadata >= 0.22 if python39-base < 3.8) \
 (python39-tomli >= 1.1.0 if python39-base < 3.11) \
 /bin/sh \

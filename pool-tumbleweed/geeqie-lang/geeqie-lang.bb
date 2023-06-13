@@ -47,6 +47,7 @@ locale(geeqie:uk) \
 locale(geeqie:vi) \
 locale(geeqie:zh_CN) \
 locale(geeqie:zh_TW)"
+
 RDEPENDS:${PN} += "geeqie"
 
 inherit rpm

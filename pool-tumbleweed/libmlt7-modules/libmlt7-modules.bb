@@ -39,6 +39,7 @@ libmltvorbis.so()(64bit) \
 libmltxine.so()(64bit) \
 libmltxml.so()(64bit) \
 mlt(7)(avformat)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLX.so.0()(64bit) \

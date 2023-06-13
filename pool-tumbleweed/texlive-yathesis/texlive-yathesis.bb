@@ -26,6 +26,7 @@ RPROVIDES:${PN} += "tex(yathesis-demo.sty) \
 tex(yathesis-translations.tex) \
 tex(yathesis.cls) \
 texlive-yathesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "ab84332c140cb455b04e83b9222cc37e39767e99f47ca329f95eb01884d893f950b1
 
 RPROVIDES:${PN} += "libEMF-devel \
 libEMF-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libEMF1"
 

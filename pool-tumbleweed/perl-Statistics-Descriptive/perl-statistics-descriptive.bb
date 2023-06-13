@@ -29,6 +29,7 @@ perl(Statistics::Descriptive::Smoother::Exponential) \
 perl(Statistics::Descriptive::Smoother::Weightedexponential) \
 perl(Statistics::Descriptive::Sparse) \
 perl-Statistics-Descriptive"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::MoreUtils) \
 perl(parent)"

@@ -10,6 +10,7 @@ RPM_HASH = "8cfbeeb2708d6350420a358417e2e3672403424af8510dc1ee0e72b746d0f603a74f
 RPROVIDES:${PN} += "ghc-Decimal-prof \
 ghc-Decimal-prof(aarch-64) \
 ghc-prof(Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX)"
+
 RDEPENDS:${PN} += "ghc-Decimal-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0)"

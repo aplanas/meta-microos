@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(ski.desktop) \
 ski"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3 \
 python3-curses \

@@ -10,6 +10,7 @@ RPM_HASH = "23581d423194eefb9dc2500248e4591c8163e82fbf19e31143d1cee642f0bc33b49f
 
 RPROVIDES:${PN} += "gspell \
 gspell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

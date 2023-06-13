@@ -62,6 +62,7 @@ tex(uetha.fd) \
 tex(uethb.fd) \
 tex(uetho.fd) \
 texlive-ethiop"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "4bf6c029cc55c2b6975efc93442e9965fc821e3be49a4bd8c0c44cf52c77ce7293ac
 
 RPROVIDES:${PN} += "erlang-retest \
 erlang-retest(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 erlang"
 

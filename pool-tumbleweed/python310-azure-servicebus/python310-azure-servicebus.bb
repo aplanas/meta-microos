@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-servicebus \
 python3.10dist(azure-servicebus) \
 python310-azure-servicebus \
 python3dist(azure-servicebus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

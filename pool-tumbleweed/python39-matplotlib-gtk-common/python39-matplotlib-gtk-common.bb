@@ -10,6 +10,7 @@ RPM_HASH = "95f70620ae473017b9844f5f4fa543a6da2b3b653aa40d6c72af4f9b3f653a21977c
 
 RPROVIDES:${PN} += "python39-matplotlib-gtk-common \
 python39-matplotlib-gtk-common(aarch-64)"
+
 RDEPENDS:${PN} += "gdk-pixbuf-loader-rsvg \
 python(abi) \
 python39-gobject-Gdk \

@@ -11,6 +11,7 @@ RPM_HASH = "c70942508cbd821205d4c745d411a55d2cf11cc5ff87850748d4448802d3646fb95b
 RPROVIDES:${PN} += "cmake(KPublicTransport) \
 kpublictransport-devel \
 kpublictransport-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Gui) \
 extra-cmake-modules \
 libKPublicTransport1 \

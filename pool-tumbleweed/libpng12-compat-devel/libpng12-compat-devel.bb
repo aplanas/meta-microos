@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libpng-devel \
 libpng12-compat-devel \
 libpng12-compat-devel(aarch-64) \
 pkgconfig(libpng)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpng12-devel"
 

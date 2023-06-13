@@ -81,6 +81,7 @@ locale(kmines:uk) \
 locale(kmines:wa) \
 locale(kmines:zh_CN) \
 locale(kmines:zh_TW)"
+
 RDEPENDS:${PN} += "kmines"
 
 inherit rpm

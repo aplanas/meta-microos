@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles \
 openicc-data"
+
 RDEPENDS:${PN} += "icc-profiles-basiccolor-printing2009-coat2 \
 icc-profiles-mini"
 

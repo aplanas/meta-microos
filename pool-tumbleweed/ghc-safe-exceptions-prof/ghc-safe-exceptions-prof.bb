@@ -10,6 +10,7 @@ RPM_HASH = "820261e37cf116c8be562036bbafb341ab43f560417519caa9f7cafd199f30f44899
 RPROVIDES:${PN} += "ghc-prof(safe-exceptions-0.1.7.3-4ydW60ruqZ4IdMpKf3b6BD) \
 ghc-safe-exceptions-prof \
 ghc-safe-exceptions-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0) \
 ghc-prof(exceptions-0.10.5) \

@@ -9,6 +9,7 @@ RPM_HASH = "1ccb71d829dc45939aa13ca53d86683f8e01732bb5a387f46aef1b719042f5ab8e28
 
 RPROVIDES:${PN} += "texlive-axodraw2-bin \
 texlive-axodraw2-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

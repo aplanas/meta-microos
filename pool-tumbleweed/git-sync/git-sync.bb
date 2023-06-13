@@ -10,6 +10,7 @@ RPM_HASH = "35a774c78076f4e3117f589099a7cddaaa82d044e227520197bcaf94f902ac4742c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-sync"
+
 RDEPENDS:${PN} += "/bin/bash \
 git-core"
 

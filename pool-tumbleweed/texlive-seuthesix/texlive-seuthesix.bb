@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(seuthesix.cfg) \
 tex(seuthesix.cls) \
 texlive-seuthesix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

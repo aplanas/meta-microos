@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(xmltodict) \
 python39-xmltodict \
 python3dist(xmltodict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-xml"
 

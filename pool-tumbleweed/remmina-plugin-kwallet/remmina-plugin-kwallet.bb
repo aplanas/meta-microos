@@ -9,6 +9,7 @@ RPM_HASH = "9db5e02df7d18a8530a0719980cd3e82b8090c5ce3ff57f528194a3b04ce2c37fdef
 
 RPROVIDES:${PN} += "remmina-plugin-kwallet \
 remmina-plugin-kwallet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Wallet.so.5()(64bit) \

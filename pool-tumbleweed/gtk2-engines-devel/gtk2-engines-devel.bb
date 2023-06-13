@@ -10,6 +10,7 @@ RPM_HASH = "c133796eea0e5a5ea9bb66e43e1a9b61d79cf9620b5e454330d483ac4b55ebac588f
 RPROVIDES:${PN} += "gtk2-engines-devel \
 gtk2-engines-devel(aarch-64) \
 pkgconfig(gtk-engines-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gtk2-engines \
 pkgconfig(gtk+-2.0)"

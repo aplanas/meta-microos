@@ -15,6 +15,7 @@ RPM_HASH = "cc4b38f8c1769adf635146804ce3799c67fdcfd6428f7e14e13cee618631ffd61ec3
 RPROVIDES:${PN} += "Mesa-libGL-devel \
 Mesa-libGL-devel(aarch-64) \
 pkgconfig(gl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-KHR-devel \
 Mesa-libGL1 \

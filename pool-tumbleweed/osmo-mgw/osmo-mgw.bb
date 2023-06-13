@@ -10,6 +10,7 @@ RPM_HASH = "cd2176d40b95b4c5c3fe34a2bad3e273421cd7cb42f7dd7fdae421d27ddf940255ef
 RPROVIDES:${PN} += "config(osmo-mgw) \
 osmo-mgw \
 osmo-mgw(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

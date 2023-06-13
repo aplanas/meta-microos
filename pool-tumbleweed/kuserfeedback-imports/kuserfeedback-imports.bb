@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "kuserfeedback-imports \
 kuserfeedback-imports(aarch-64) \
 libKUserFeedbackQml.so()(64bit) \
 qt5qmlimport(org.kde.userfeedback.1)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKUserFeedbackCore.so.1()(64bit) \

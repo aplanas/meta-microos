@@ -13,6 +13,7 @@ RPM_HASH = "c44a6f8e67ab2619dff18886ab601e680079ccaaf814deacb76883e7e1c50f5f96ee
 
 RPROVIDES:${PN} += "enlightenment-x-Flat-icon-theme \
 enlightenment-x-Flat-icon-theme(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

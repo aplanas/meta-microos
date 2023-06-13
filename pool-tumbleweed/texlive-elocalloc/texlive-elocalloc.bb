@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(elocalloc.sty) \
 texlive-elocalloc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "joda-convert \
 mvn(org.joda:joda-convert) \
 mvn(org.joda:joda-convert:pom:) \
 osgi(org.joda.convert)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

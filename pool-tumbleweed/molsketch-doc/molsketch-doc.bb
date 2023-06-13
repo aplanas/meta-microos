@@ -11,6 +11,7 @@ RPM_HASH = "aa60778eb4d148fae051d0bc3f21ede05dc9a593cd0ff88f8539fe9c8087aec5c7d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molsketch-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

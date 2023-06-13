@@ -12,6 +12,7 @@ RPM_HASH = "f56d65f876a8ce3e0cb528142e5d6fa9d433571d0afb40b2522492cdd324a62353d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gitslave"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 git-core \
 perl"

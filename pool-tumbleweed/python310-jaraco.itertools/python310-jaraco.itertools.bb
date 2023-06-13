@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jaraco.itertools \
 python3.10dist(jaraco.itertools) \
 python310-jaraco.itertools \
 python3dist(jaraco.itertools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-inflect \
 python310-more-itertools"

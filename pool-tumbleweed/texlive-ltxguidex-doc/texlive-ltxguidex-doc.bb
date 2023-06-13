@@ -9,6 +9,7 @@ RPM_HASH = "abdd6e0a30ecae2a0fd5eaab76232de17ef3e9e046e13506d738d9d946971e7ae443
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltxguidex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

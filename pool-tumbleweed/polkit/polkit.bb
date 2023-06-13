@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "group(polkitd) \
 polkit \
 polkit(aarch-64) \
 user(polkitd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 dbus-1 \
 ld-linux-aarch64.so.1()(64bit) \

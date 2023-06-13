@@ -10,6 +10,7 @@ RPM_HASH = "44b630d068cc1b0c1c4670dc7b6d8d09977db34d507903ca22fe9dca04b6d43bd47c
 
 RPROVIDES:${PN} += "libmimetic-devel \
 libmimetic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmimetic0"
 
 inherit rpm

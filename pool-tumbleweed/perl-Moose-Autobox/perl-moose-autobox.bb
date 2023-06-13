@@ -27,6 +27,7 @@ perl(Moose::Autobox::String) \
 perl(Moose::Autobox::Undef) \
 perl(Moose::Autobox::Value) \
 perl-Moose-Autobox"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::MoreUtils) \
 perl(Moose) \

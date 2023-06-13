@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Path::FindDev) \
 perl(Path::FindDev::Object) \
 perl-Path-FindDev"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Tiny) \
 perl(Path::IsDev) \

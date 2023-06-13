@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-initvm \
 build-initvm-aarch64"
+
 RDEPENDS:${PN} += "build"
 
 inherit rpm

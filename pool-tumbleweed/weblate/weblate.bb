@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(weblate) \
 weblate"
+
 RDEPENDS:${PN} += "((apache2 and apache2-mod_wsgi) or (nginx and uwsgi)) \
 /bin/bash \
 /bin/sh \

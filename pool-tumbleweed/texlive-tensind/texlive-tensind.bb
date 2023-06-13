@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tensind.sty) \
 texlive-tensind"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

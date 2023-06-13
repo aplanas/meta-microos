@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "tex(hiltxpage.tex) \
 tex(hiplainpage.tex) \
 tex(ifhint.tex) \
 texlive-hitex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

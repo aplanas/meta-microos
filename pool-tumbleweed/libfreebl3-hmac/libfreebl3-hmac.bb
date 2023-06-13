@@ -10,6 +10,7 @@ RPM_HASH = "830875b2179b36c2b0980019477bb80c1ed0e289b963919270974678490d6a69f4bf
 
 RPROVIDES:${PN} += "libfreebl3-hmac \
 libfreebl3-hmac(aarch-64)"
+
 RDEPENDS:${PN} += "libfreebl3"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-readthedocs-sphinx-ext \
 python3.10dist(readthedocs-sphinx-ext) \
 python310-readthedocs-sphinx-ext \
 python3dist(readthedocs-sphinx-ext)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-requests"

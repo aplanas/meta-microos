@@ -11,6 +11,7 @@ RPM_HASH = "e20dbf37a176c3a56e6568e5235f9c18efbbc4fc555e298455b414cda6fe7be944c5
 
 RPROVIDES:${PN} += "datefudge \
 datefudge(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

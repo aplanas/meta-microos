@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jupyter-telemetry) \
 python311-jupyter-telemetry \
 python3dist(jupyter-telemetry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonschema \
 python311-python-json-logger \

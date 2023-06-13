@@ -16,6 +16,7 @@ kcalcore5-devel \
 kcalendarcore-devel \
 kcalendarcore-devel(aarch-64) \
 pkgconfig(KF5CalendarCore)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(LibIcal) \
 libKF5CalendarCore5 \

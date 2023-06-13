@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:gd_GB) \
 myspell-dictionary \
 myspell-gaelic \
 myspell-gd_GB"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

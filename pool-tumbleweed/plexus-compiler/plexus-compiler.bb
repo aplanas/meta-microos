@@ -19,6 +19,7 @@ mvn(org.codehaus.plexus:plexus-compiler-javac:pom:) \
 mvn(org.codehaus.plexus:plexus-compiler-manager) \
 mvn(org.codehaus.plexus:plexus-compiler-manager:pom:) \
 plexus-compiler"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-component-annotations) \

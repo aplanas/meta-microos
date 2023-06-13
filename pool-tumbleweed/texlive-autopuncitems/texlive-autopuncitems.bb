@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(autopuncitems.sty) \
 texlive-autopuncitems"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

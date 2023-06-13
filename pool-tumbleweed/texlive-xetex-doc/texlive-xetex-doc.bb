@@ -13,6 +13,7 @@ man(xelatex.1) \
 man(xetex-unsafe.1) \
 man(xetex.1) \
 texlive-xetex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

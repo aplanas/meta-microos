@@ -11,6 +11,7 @@ RPM_HASH = "f7e3b52fdb53e52ebb593be3ff508554f867929b833e74da812765032c1b8f0698ed
 RPROVIDES:${PN} += "bash:/usr/lib64/libreadline.a \
 readline6-devel \
 readline6-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libreadline6 \
 ncurses-devel"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "metainfo() \
 metainfo(org.kde.plasma.vault.appdata.xml) \
 plasma-vault \
 plasma-vault(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5Activities.so.5()(64bit) \

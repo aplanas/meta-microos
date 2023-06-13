@@ -93,6 +93,7 @@ locale(gnome-mahjongg:wa) \
 locale(gnome-mahjongg:zh_CN) \
 locale(gnome-mahjongg:zh_HK) \
 locale(gnome-mahjongg:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-mahjongg"
 
 inherit rpm

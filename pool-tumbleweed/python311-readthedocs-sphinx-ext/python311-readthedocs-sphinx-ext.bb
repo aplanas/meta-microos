@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(readthedocs-sphinx-ext) \
 python311-readthedocs-sphinx-ext \
 python3dist(readthedocs-sphinx-ext)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Sphinx \
 python311-requests"

@@ -9,6 +9,7 @@ RPM_HASH = "8a0217873f9fb24d7ab22f1cc46a0acdbde5ce3cfe0ff32340629aef67486e74fd1d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tomcat-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

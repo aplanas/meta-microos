@@ -9,6 +9,7 @@ RPM_HASH = "b503ef4a9f55f4a97e271baab6a0995695c9ff4ee8ff94c9e4a0354f70de98bec349
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-smartstatus"
+
 RDEPENDS:${PN} += "bumblebee-status \
 smartmontools"
 

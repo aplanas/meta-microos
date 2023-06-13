@@ -19,6 +19,7 @@ RPM_HASH = "5edd174e98a8123bbde0500d7f670b1134345db5f6369225769a118ea3a340f97129
 RPROVIDES:${PN} += "typelib(WebKit2) \
 typelib-1_0-WebKit2-4_0 \
 typelib-1_0-WebKit2-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libjavascriptcoregtk-4.0.so.18()(64bit) \
 libwebkit2gtk-4.0.so.37()(64bit) \
 typelib(Atk) \

@@ -12,6 +12,7 @@ RPM_HASH = "53673748afdb34f43f877dd9de0ee20ca99c4e57689d7d9bb851e917e012d263cbb0
 RPROVIDES:${PN} += "libeconf-devel \
 libeconf-devel(aarch-64) \
 pkgconfig(libeconf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libeconf0"
 

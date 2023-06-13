@@ -10,6 +10,7 @@ RPM_HASH = "c4d0b0104cf97527a529817b9fe88ecfd4c3e06731ff6254416d0da0a27fadad4a8c
 
 RPROVIDES:${PN} += "glade-catalog-v3270 \
 glade-catalog-v3270(aarch-64)"
+
 RDEPENDS:${PN} += "glade"
 
 inherit rpm

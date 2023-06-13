@@ -59,6 +59,7 @@ locale(audacity:uk) \
 locale(audacity:vi) \
 locale(audacity:zh_CN) \
 locale(audacity:zh_TW)"
+
 RDEPENDS:${PN} += "audacity"
 
 inherit rpm

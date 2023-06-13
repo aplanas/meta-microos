@@ -49,6 +49,7 @@ locale(plasma5-bigscreen:zh_CN) \
 locale(plasma5-bigscreen:zh_TW) \
 plasma5-bigscreen-lang \
 plasma5-bigscreen-lang-all"
+
 RDEPENDS:${PN} += "plasma5-bigscreen"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(fasteners) \
 python311-fasteners \
 python3dist(fasteners)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-more-itertools \
 python311-six"

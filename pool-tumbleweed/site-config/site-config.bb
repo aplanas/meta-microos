@@ -10,6 +10,7 @@ RPM_HASH = "1ce6eda502dd2186641ad6fad01298e69213317cfd7814a1a2b58086f95d301232f2
 
 RPROVIDES:${PN} += "site-config \
 site-config(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

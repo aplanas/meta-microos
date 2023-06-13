@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Menlo::CLI::Compat) \
 perl(Menlo::Legacy) \
 perl-Menlo-Legacy"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Menlo) \
 perl(version)"

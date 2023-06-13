@@ -9,6 +9,7 @@ RPM_HASH = "db13fe8cc8768dd307ba14467ee2c4f38fdd10ca23d5a8f01985689ed5445762f137
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-truthtable-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

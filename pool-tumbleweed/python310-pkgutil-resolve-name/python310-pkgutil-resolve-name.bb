@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pkgutil-resolve-name \
 python3.10dist(pkgutil-resolve-name) \
 python310-pkgutil-resolve-name \
 python3dist(pkgutil-resolve-name)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

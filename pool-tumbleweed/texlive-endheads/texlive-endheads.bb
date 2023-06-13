@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(endheads.sty) \
 texlive-endheads"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

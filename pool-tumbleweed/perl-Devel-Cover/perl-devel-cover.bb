@@ -105,6 +105,7 @@ perl(Devel::Cover::Util) \
 perl(Devel::Cover::Web) \
 perl-Devel-Cover \
 perl-Devel-Cover(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

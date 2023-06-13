@@ -92,6 +92,7 @@ locale(konsole-part:vi) \
 locale(konsole-part:wa) \
 locale(konsole-part:zh_CN) \
 locale(konsole-part:zh_TW)"
+
 RDEPENDS:${PN} += "konsole-part"
 
 inherit rpm

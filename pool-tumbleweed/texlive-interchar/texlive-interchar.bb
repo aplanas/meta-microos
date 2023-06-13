@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(interchar.sty) \
 texlive-interchar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

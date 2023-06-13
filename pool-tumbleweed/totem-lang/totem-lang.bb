@@ -94,6 +94,7 @@ locale(totem:zh_HK) \
 locale(totem:zh_TW) \
 totem-lang \
 totem-lang-all"
+
 RDEPENDS:${PN} += "totem"
 
 inherit rpm

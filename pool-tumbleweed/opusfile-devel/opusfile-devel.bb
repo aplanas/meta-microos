@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "opusfile-devel \
 opusfile-devel(aarch-64) \
 pkgconfig(opusfile) \
 pkgconfig(opusurl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libopusfile0 \
 pkgconfig \

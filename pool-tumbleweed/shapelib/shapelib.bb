@@ -13,6 +13,7 @@ RPM_HASH = "8ebdd46001f21b8ff59a56e69efc7c4854bcf3386d90eb50c4185dc1ac78665bd1b9
 
 RPROVIDES:${PN} += "shapelib \
 shapelib(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

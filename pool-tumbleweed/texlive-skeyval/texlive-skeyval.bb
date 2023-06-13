@@ -23,6 +23,7 @@ tex(skeyval-testpkg.sty) \
 tex(skeyval-view.sty) \
 tex(skeyval.sty) \
 texlive-skeyval"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "89fbb0d903c8a92fb7fed70aaa534ecdc3da6bc43ff3b10ef1d2dae7ef8ea886c4eb
 RPROVIDES:${PN} += "ghc-yaml \
 ghc-yaml(aarch-64) \
 libHSyaml-0.11.11.0-AM27xwJeGq9DNHRH5iLzHi-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

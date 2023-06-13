@@ -11,6 +11,7 @@ RPM_HASH = "fd48ce60e721518b5c5b4ef8ccddd9350071ba7e694b4c8b52ffeddfb7d4ad7131de
 RPROVIDES:${PN} += "ooRexx-devel \
 ooRexx-devel(aarch-64) \
 pkgconfig(ooRexx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 glibc-devel \

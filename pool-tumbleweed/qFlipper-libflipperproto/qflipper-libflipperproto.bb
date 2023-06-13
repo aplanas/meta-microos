@@ -10,6 +10,7 @@ RPM_HASH = "6cc3967810ecd002f1e9c62d78f7115e2dff4b7fd2b962b84513c6ffb2672e46fd58
 RPROVIDES:${PN} += "libflipperproto0.so()(64bit) \
 qFlipper-libflipperproto \
 qFlipper-libflipperproto(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

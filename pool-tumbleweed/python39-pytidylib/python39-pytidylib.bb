@@ -32,6 +32,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytidylib) \
 python39-pytidylib \
 python3dist(pytidylib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "9ef490196c840c6076dc6707f21877ca2e7dca7decf56da9741c0cb0f66073b0fcc1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sourceserifpro-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

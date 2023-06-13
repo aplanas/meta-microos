@@ -13,6 +13,7 @@ RPM_HASH = "5b01488ed680bb12781b98f9e5008034e3396a53b5060afbe4da32cef1569d2cd272
 RPROVIDES:${PN} += "libblitz.so.0()(64bit) \
 libblitz0 \
 libblitz0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libstdc++.so.6()(64bit) \

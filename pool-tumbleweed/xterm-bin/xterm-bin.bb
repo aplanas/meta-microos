@@ -135,6 +135,7 @@ font(:lang=zu) \
 font(miscfixedwide) \
 xterm-bin \
 xterm-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

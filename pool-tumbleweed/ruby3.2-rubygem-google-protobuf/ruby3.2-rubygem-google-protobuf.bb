@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:google-protobuf) \
 rubygem(ruby:3.2.0:google-protobuf:3) \
 rubygem(ruby:3.2.0:google-protobuf:3.23) \
 rubygem(ruby:3.2.0:google-protobuf:3.23.1)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

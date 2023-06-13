@@ -9,6 +9,7 @@ RPM_HASH = "2b42780ec12640ff759b97a9fc692454d054955f78b4725908fd2f5267ccdf87fadd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eom-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

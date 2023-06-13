@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "perl(MLDBM::Sync) \
 perl(MLDBM::Sync::SDBM_File) \
 perl-MLDBM-Sync \
 perl-MLDBM-Sync(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-MLDBM \
 perl-Tie-Cache"

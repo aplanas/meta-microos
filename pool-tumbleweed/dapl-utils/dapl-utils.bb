@@ -9,6 +9,7 @@ RPM_HASH = "374f32ebfdc0667fd9d6d0a2f15ea23909ba3edf4f24a44f83a8e5e4e0226c9088de
 
 RPROVIDES:${PN} += "dapl-utils \
 dapl-utils(aarch-64)"
+
 RDEPENDS:${PN} += "dapl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

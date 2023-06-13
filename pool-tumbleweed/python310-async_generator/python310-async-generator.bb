@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-async_generator \
 python3.10dist(async-generator) \
 python310-async_generator \
 python3dist(async-generator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

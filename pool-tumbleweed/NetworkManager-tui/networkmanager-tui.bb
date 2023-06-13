@@ -11,6 +11,7 @@ RPM_HASH = "458192b2b280514a566fcc1d5abfa209bd2ad0182b9aa0b150bea472df16793f1887
 
 RPROVIDES:${PN} += "NetworkManager-tui \
 NetworkManager-tui(aarch-64)"
+
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

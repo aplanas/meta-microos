@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(history) \
 pkgconfig(readline) \
 readline-devel \
 readline-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libreadline8 \
 ncurses-devel \

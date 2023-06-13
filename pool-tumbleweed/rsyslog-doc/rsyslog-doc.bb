@@ -12,6 +12,7 @@ RPM_HASH = "7bc94d1be0145239d75c9e04b0ae7e74e5c15de10db64583f208c4e87105698cddc8
 
 RPROVIDES:${PN} += "rsyslog-doc \
 rsyslog-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

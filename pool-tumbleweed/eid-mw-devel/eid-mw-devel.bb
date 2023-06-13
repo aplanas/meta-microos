@@ -13,6 +13,7 @@ RPM_HASH = "e4e3648388b67de0906b1f603ce2a7639247b4ce24a4474da1848c544bf63f841053
 RPROVIDES:${PN} += "eid-mw-devel \
 eid-mw-devel(aarch-64) \
 pkgconfig(libbeidpkcs11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 eid-mw"
 

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt5Sql) \
 libQt5Sql-devel \
 libQt5Sql-devel(aarch-64) \
 pkgconfig(Qt5Sql)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Core-devel \
 libQt5Sql5 \

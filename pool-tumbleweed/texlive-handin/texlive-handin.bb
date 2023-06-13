@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(handin.sty) \
 texlive-handin"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

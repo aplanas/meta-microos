@@ -16,6 +16,7 @@ perl(MooseX::Meta::Method::Transactional::Application::ToInstance) \
 perl(MooseX::Meta::Method::Transactional::Meta::Role) \
 perl(MooseX::TransactionalMethods) \
 perl-MooseX-TransactionalMethods"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Sub::Name) \

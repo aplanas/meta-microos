@@ -10,6 +10,7 @@ RPM_HASH = "76973dfbf3fb0f661a6124233d9571dab670b46936d0fdfaf6ebde16e064257e0daa
 
 RPROVIDES:${PN} += "pidgin-plugin-advanced-sound-notification \
 pidgin-plugin-advanced-sound-notification(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

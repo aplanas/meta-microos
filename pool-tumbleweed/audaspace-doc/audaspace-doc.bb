@@ -10,6 +10,7 @@ RPM_HASH = "dedc4f3f35e69efadfe9c1355234e51b1e61e197d598773c99a1009db488f4acd847
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audaspace-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

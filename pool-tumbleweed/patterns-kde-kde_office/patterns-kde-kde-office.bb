@@ -16,6 +16,7 @@ pattern-order() \
 patterns-kde-kde_office \
 patterns-openSUSE-kde4_office \
 patterns-openSUSE-kde_office"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

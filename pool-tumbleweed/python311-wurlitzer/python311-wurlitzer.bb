@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(wurlitzer) \
 python311-wurlitzer \
 python3dist(wurlitzer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -25,6 +25,7 @@ mimehandler(image/svg+xml-compressed) \
 mimehandler(image/x-eps) \
 mimehandler(image/x-wmf) \
 mimehandler(image/x-xfig)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 calligra \
 ld-linux-aarch64.so.1()(64bit) \

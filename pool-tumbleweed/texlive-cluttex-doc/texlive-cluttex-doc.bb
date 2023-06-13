@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-cluttex-doc:ja;en) \
 texlive-cluttex-doc"
+
 RDEPENDS:${PN} += "/usr/bin/texlua"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "eefbbc89b03d0db2f71ef3841e1797fb24f0cc8fb9740c53540a97fa913e05435351
 
 RPROVIDES:${PN} += "pcp-pmda-gpsd \
 pcp-pmda-gpsd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl-PCP-PMDA"
 

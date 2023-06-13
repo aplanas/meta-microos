@@ -16,6 +16,7 @@ RPM_HASH = "182a4054bbcdfe799a3c7c3e9a332cb2c91a4508ca5d380771f9773a459a1b343bdf
 
 RPROVIDES:${PN} += "pianobar \
 pianobar(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libao.so.4()(64bit) \

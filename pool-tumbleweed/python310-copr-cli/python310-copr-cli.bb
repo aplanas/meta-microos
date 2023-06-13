@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-copr-cli \
 python3.10dist(copr-cli) \
 python310-copr-cli \
 python3dist(copr-cli)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ RPM_HASH = "e1427bfc5f5ca9be802aaab1b8157949b9a3e763b88bd800bf30abb041a4236c613c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lalsimulation-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

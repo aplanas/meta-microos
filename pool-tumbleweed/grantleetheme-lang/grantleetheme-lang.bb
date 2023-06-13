@@ -56,6 +56,7 @@ locale(grantleetheme:ug) \
 locale(grantleetheme:uk) \
 locale(grantleetheme:zh_CN) \
 locale(grantleetheme:zh_TW)"
+
 RDEPENDS:${PN} += "grantleetheme"
 
 inherit rpm

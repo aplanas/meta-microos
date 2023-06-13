@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-qsessions \
 python3.10dist(django-qsessions) \
 python310-django-qsessions \
 python3dist(django-qsessions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-ipware \

@@ -9,6 +9,7 @@ RPM_HASH = "b0650e1986c23af033eb758735c1324f4f242c42bc8a3e75ace80e2f5e54b5c10cbf
 
 RPROVIDES:${PN} += "stl-thumb-devel \
 stl-thumb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libstl-thumb"
 
 inherit rpm

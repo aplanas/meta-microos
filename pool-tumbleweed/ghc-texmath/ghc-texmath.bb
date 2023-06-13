@@ -10,6 +10,7 @@ RPM_HASH = "4ea3d4411f18e599a8e4e252a4f3a9eb23fff80c07e1d8c909f368a6a9344941155f
 RPROVIDES:${PN} += "ghc-texmath \
 ghc-texmath(aarch-64) \
 libHStexmath-0.12.7.1-7OWYB1fHEsHAa3KAfzQAEj-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \
 libHSQuickCheck-2.14.2-Ifslnzw9cpLJMSBGXVUlx6-ghc9.4.5.so()(64bit) \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \

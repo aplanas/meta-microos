@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lexref.sty) \
 texlive-lexref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

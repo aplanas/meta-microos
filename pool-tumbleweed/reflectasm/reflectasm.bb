@@ -20,6 +20,7 @@ mvn(com.esotericsoftware:reflectasm) \
 mvn(com.esotericsoftware:reflectasm:pom:) \
 osgi(com.esotericsoftware.reflectasm) \
 reflectasm"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.ow2.asm:asm)"

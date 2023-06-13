@@ -11,6 +11,7 @@ RPM_HASH = "03e6979b224ee1285c0cc6b3115345ce80fe1c7df6c484d84853a1e36dd3269aec68
 RPROVIDES:${PN} += "typelib(Adw) \
 typelib-1_0-Adw-1 \
 typelib-1_0-Adw-1(aarch-64)"
+
 RDEPENDS:${PN} += "libadwaita-1.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

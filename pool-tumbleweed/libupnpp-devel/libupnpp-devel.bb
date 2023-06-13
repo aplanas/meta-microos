@@ -11,6 +11,7 @@ RPM_HASH = "5f23f21c461790411feca0a6cac70a37d2703db6cda535c06004b5c72dbfc356f933
 RPROVIDES:${PN} += "libupnpp-devel \
 libupnpp-devel(aarch-64) \
 pkgconfig(libupnpp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libupnpp12 \
 pkgconfig(libcurl)"

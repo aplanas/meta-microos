@@ -9,6 +9,7 @@ RPM_HASH = "94a4a8ab8e4c2db9cac6381338db08374bdcee204f31f2d79bba935c7ed3bbc160d8
 
 RPROVIDES:${PN} += "qt6-charts-docs-html \
 qt6-charts-docs-html(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

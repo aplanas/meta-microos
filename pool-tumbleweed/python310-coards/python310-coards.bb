@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-coards \
 python3.10dist(coards) \
 python310-coards \
 python3dist(coards)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "f64e784d782251cf4bfc055001705e4d330dec3982dd563d9871e0f05a9c1bdb40ff
 
 RPROVIDES:${PN} += "postgresql14-plr-doc \
 postgresql14-plr-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

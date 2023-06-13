@@ -14,6 +14,7 @@ RPM_HASH = "d53f7fa8fd39736ebd8870e4cc6938ac7d2b03a33ff5841d543cb71686945d618ae6
 RPROVIDES:${PN} += "libiptcdata-devel \
 libiptcdata-devel(aarch-64) \
 pkgconfig(libiptcdata)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiptcdata"
 

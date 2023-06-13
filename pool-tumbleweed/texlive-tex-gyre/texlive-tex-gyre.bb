@@ -715,6 +715,7 @@ tex(ts1qpl.fd) \
 tex(ts1qtm.fd) \
 tex(ts1qzc.fd) \
 texlive-tex-gyre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

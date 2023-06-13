@@ -93,6 +93,7 @@ bundled(rust-crate:version-compare) \
 bundled(rust-crate:version_check) \
 sway-marker \
 sway-marker(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libcairo-gobject.so.2()(64bit) \
 libcairo.so.2()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-hitszbeamer-doc:zh) \
 texlive-hitszbeamer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

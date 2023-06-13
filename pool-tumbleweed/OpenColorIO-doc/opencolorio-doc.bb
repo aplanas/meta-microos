@@ -9,6 +9,7 @@ RPM_HASH = "caf8d5543840916ff25ec2f44b35d2a56b30c42e9a9aba149288849622a7922fbc60
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenColorIO-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

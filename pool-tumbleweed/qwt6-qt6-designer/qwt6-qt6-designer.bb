@@ -11,6 +11,7 @@ RPM_HASH = "ccc94bf0cc2d076edea91306a8c94d022ea4f8216fb0b105f6957fa311800cd58401
 RPROVIDES:${PN} += "libqwt_designer_plugin.so()(64bit) \
 qwt6-qt6-designer \
 qwt6-qt6-designer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

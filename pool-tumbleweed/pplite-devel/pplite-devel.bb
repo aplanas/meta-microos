@@ -14,6 +14,7 @@ RPM_HASH = "2e49a47f74344516f2c0e97fe3895a1d523a61f3c74a02721d8af86af0b3d51f6d49
 
 RPROVIDES:${PN} += "pplite-devel \
 pplite-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

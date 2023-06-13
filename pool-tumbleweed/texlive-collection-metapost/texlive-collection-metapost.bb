@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metapost) \
 texlive-collection-metapost"
+
 RDEPENDS:${PN} += "texlive-automata \
 texlive-bbcard \
 texlive-blockdraw_mp \

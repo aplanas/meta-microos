@@ -14,6 +14,7 @@ RPM_HASH = "5eab9356c61000fb3d2e72f0dc12827fbcda6ce6cc522b838677325c58735e112f49
 RPROVIDES:${PN} += "libgstphotography-1.0.so.0()(64bit) \
 libgstphotography-1_0-0 \
 libgstphotography-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

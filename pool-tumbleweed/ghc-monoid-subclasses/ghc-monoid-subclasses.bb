@@ -11,6 +11,7 @@ RPM_HASH = "9127830e76deef18886f43905d2bf2e706a429fe5e45ab720633ceac192396fde2d5
 RPROVIDES:${PN} += "ghc-monoid-subclasses \
 ghc-monoid-subclasses(aarch-64) \
 libHSmonoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

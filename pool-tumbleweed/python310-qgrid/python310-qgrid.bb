@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-qgrid \
 python3.10dist(qgrid) \
 python310-qgrid \
 python3dist(qgrid)"
+
 RDEPENDS:${PN} += "jupyter-qgrid \
 python(abi) \
 python310-ipywidgets \

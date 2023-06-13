@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit-manual \
 junit4-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

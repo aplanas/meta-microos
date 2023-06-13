@@ -11,6 +11,7 @@ RPM_HASH = "49a6fa73365203d4b280228a9c641acd38ad4ce4381110b8c4cd9e013bd8a4d8e84d
 
 RPROVIDES:${PN} += "erlang-wx-src \
 erlang-wx-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-wx"
 
 inherit rpm

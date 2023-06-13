@@ -11,6 +11,7 @@ RPM_HASH = "4f1480e96020f5d7af4936a913f97dbfead6c53800f70778ee1647f1561fafc673e5
 RPROVIDES:${PN} += "libcurl.so.4()(64bit) \
 libcurl4 \
 libcurl4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

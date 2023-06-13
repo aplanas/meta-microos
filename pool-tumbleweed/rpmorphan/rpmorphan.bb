@@ -16,6 +16,7 @@ perl(Tk::HButton) \
 perl(Tk::MLColumn) \
 perl(Tk::MListbox) \
 rpmorphan"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 rpm"
 

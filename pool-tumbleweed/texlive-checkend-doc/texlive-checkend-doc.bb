@@ -9,6 +9,7 @@ RPM_HASH = "e56ff33ef84d3d33a44543acacfb9d8b48b1ecdb7ded5b3e7bfe99f8571dbcad7285
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-checkend-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

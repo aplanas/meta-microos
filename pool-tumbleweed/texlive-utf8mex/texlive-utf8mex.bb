@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(utf8-pl.tex) \
 tex(utf8plsq.tex) \
 texlive-utf8mex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

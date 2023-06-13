@@ -9,6 +9,7 @@ RPM_HASH = "1e4b939bf01ac7280ca27a879e2b441d4df2ff75989f2ac84adea3d300a2557edaca
 
 RPROVIDES:${PN} += "lirc-tools-gui \
 lirc-tools-gui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

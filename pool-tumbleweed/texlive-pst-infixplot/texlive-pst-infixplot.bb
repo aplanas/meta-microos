@@ -18,6 +18,7 @@ tex(infix-RPN.tex) \
 tex(pst-infixplot.sty) \
 tex(pst-infixplot.tex) \
 texlive-pst-infixplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

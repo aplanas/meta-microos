@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(oct2py) \
 python311-oct2py \
 python3dist(oct2py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-octave-kernel \

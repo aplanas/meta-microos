@@ -16,6 +16,7 @@ perl(App::CLI::Command::Help) \
 perl(App::CLI::Command::Version) \
 perl(App::CLI::Helper) \
 perl-App-CLI"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \
 perl(Class::Load) \

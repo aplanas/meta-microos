@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(luamathalign.sty) \
 texlive-luamathalign"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

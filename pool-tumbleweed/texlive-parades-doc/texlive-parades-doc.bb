@@ -9,6 +9,7 @@ RPM_HASH = "00138b0e5f18b3b8fb5640b5829531424953c5dad7c84c10f18c9c7cbb31eed7c425
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-parades-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

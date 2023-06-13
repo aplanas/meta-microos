@@ -9,6 +9,7 @@ RPM_HASH = "182b4daa7cd31ffd8f862f84f68e8cb85553c8694013564dc65a4a4c7c355f237303
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wallpaper-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

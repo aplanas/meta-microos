@@ -10,6 +10,7 @@ RPM_HASH = "c24a81cec89401c6d1338d3c60aca103e6e775fd3d20b060f6ec73e28201728b7351
 
 RPROVIDES:${PN} += "bumblebee-status-module-deadbeef \
 bumblebee-status-module-deadbeef(aarch-64)"
+
 RDEPENDS:${PN} += "bumblebee-status \
 deadbeef"
 

@@ -10,6 +10,7 @@ RPM_HASH = "b763c834b4d0a0b1fd4369256072f2c354fadf9bc4f227157a888aaebe147db95245
 RPROVIDES:${PN} += "gudev-sharp \
 gudev-sharp(aarch-64) \
 mono(gudev-sharp)"
+
 RDEPENDS:${PN} += "gtk-sharp2 \
 libgudev-1_0-0 \
 mono(glib-sharp) \

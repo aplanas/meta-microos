@@ -10,6 +10,7 @@ RPM_HASH = "b668a03fa0d15ee2ea96c4b16627330d3d7ebe392b7a48d5ffbbac5d337c4637bf58
 RPROVIDES:${PN} += "c++_compiler \
 gcc-c++ \
 gcc-c++(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 gcc13-c++"
 

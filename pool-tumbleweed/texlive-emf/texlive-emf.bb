@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(emf.sty) \
 texlive-emf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

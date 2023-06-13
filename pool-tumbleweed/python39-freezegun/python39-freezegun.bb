@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(freezegun) \
 python39-freezegun \
 python3dist(freezegun)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39 \
 python39-python-dateutil"

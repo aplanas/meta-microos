@@ -172,6 +172,7 @@ tex(ruby.sty) \
 tex(standard.enc) \
 tex(thaicjk.ldf) \
 texlive-cjk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

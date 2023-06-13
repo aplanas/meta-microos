@@ -22,6 +22,7 @@ locale(plasma-applet-weather-widget:zh_CN) \
 locale(plasma-applet-weather-widget:zh_TW) \
 plasma-applet-weather-widget-lang \
 plasma-applet-weather-widget-lang-all"
+
 RDEPENDS:${PN} += "plasma-applet-weather-widget"
 
 inherit rpm

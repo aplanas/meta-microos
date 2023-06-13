@@ -47,6 +47,7 @@ tex(cms-swedish.lbx) \
 tex(cmsdocs.sty) \
 tex(cmsendnotes.sty) \
 texlive-biblatex-chicago"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

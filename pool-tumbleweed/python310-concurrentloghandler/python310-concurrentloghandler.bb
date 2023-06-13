@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-concurrentloghandler \
 python3.10dist(concurrent-log-handler) \
 python310-concurrentloghandler \
 python3dist(concurrent-log-handler)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

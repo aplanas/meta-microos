@@ -10,6 +10,7 @@ RPM_HASH = "a0d89736122b04be7ecbc35459ed945ea906779a86467fd42eeca2c15c8827ac7c62
 RPROVIDES:${PN} += "liblsp-r3d-glx-lib-1.0.11.so()(64bit) \
 lsp-plugins-common \
 lsp-plugins-common(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

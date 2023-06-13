@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mathpunctspace.sty) \
 texlive-mathpunctspace"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

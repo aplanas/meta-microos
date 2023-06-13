@@ -16,6 +16,7 @@ RPM_HASH = "03beab559699eae189953f558de29d4d4c68927192a27658488d035dcd5352004821
 RPROVIDES:${PN} += "ghc-unicode-data \
 ghc-unicode-data(aarch-64) \
 libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

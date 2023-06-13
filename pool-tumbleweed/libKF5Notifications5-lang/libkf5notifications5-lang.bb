@@ -94,6 +94,7 @@ locale(libKF5Notifications5:wa) \
 locale(libKF5Notifications5:zh_CN) \
 locale(libKF5Notifications5:zh_HK) \
 locale(libKF5Notifications5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5Notifications5"
 
 inherit rpm

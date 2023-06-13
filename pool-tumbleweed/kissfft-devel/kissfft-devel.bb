@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "cmake(kissfft) \
 kissfft-devel \
 kissfft-devel(aarch-64) \
 pkgconfig(kissfft-float)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libkissfft-float131"
 

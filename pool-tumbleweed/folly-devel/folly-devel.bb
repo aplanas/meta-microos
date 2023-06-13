@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(folly) \
 folly-devel \
 folly-devel(aarch-64) \
 pkgconfig(libfolly)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfolly-v2023_05_01_00"
 

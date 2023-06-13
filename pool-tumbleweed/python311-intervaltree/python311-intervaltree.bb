@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(intervaltree) \
 python311-intervaltree \
 python3dist(intervaltree)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-sortedcontainers"
 

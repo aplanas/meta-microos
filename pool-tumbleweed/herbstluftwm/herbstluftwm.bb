@@ -9,6 +9,7 @@ RPM_HASH = "eccaeb5e1629ca5bff5a77e6f05fe96fe355dcab95bb650bcbb5167dce79127df9d7
 
 RPROVIDES:${PN} += "herbstluftwm \
 herbstluftwm(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

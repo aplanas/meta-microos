@@ -21,6 +21,7 @@ rpm_macro(R_rpmver) \
 rpm_macro(R_test) \
 rpm_macro(R_unpack) \
 rpm_macro(R_version)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 R-base"
 

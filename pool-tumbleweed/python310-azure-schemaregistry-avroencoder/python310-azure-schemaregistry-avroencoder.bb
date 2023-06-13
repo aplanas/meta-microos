@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-schemaregistry-avroencoder \
 python3.10dist(azure-schemaregistry-avroencoder) \
 python310-azure-schemaregistry-avroencoder \
 python3dist(azure-schemaregistry-avroencoder)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-avro \
 python310-azure-nspkg \

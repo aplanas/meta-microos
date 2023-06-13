@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "felix-gogo-runtime \
 mvn(org.apache.felix:org.apache.felix.gogo.runtime) \
 mvn(org.apache.felix:org.apache.felix.gogo.runtime:pom:) \
 osgi(org.apache.felix.gogo.runtime)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

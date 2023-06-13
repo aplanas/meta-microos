@@ -13,6 +13,7 @@ RPM_HASH = "bc736a817d5c372eb1fd8fcbd35533991e4af3d9982ab7c3616fd9a1312b159b506a
 
 RPROVIDES:${PN} += "tcpreplay \
 tcpreplay(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

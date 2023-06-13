@@ -15,6 +15,7 @@ RPM_HASH = "786519e87ef1e9a1bc0bed5ea2f75efa1f2a3f6823e46a22cb5593ea01b4f9b6dc02
 RPROVIDES:${PN} += "librocsgraphtheory.so.0()(64bit) \
 librocsgraphtheory0 \
 librocsgraphtheory0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

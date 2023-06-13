@@ -10,6 +10,7 @@ RPM_HASH = "f71baa71321eba07fb7cf56ff34d7a92137e894d1b43ea70ea86d63665634cc1aea4
 
 RPROVIDES:${PN} += "sblim-sfcCommon-devel \
 sblim-sfcCommon-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsfcUtil0 \
 pkgconf-pkg-config \
 sblim-cmpi-devel"

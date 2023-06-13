@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.apache.opennlp:opennlp-uima) \
 mvn(org.apache.opennlp:opennlp-uima:pom:) \
 opennlp-uima"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.opennlp:opennlp-tools)"

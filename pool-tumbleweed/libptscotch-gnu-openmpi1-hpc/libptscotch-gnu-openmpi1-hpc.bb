@@ -11,6 +11,7 @@ RPM_HASH = "859ce218f6746c9d51631e36527083f49f5833126c4a43dcca5ebe85b3a53af07837
 
 RPROVIDES:${PN} += "libptscotch-gnu-openmpi1-hpc \
 libptscotch-gnu-openmpi1-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libptscotch_6_1_0-gnu-openmpi1-hpc"
 

@@ -13,6 +13,7 @@ RPM_HASH = "9d6f7170904adbae8ad4ba3337571e8a59120dc5fe7e0abc16570bc0d7e2158fd426
 RPROVIDES:${PN} += "libfoma-hfst.so.0()(64bit) \
 libfoma-hfst0 \
 libfoma-hfst0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

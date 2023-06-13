@@ -27,6 +27,7 @@ firmware(bnx2x/bnx2x-e2-7.13.11.0.fw) \
 firmware(bnx2x/bnx2x-e2-7.13.15.0.fw) \
 firmware(bnx2x/bnx2x-e2-7.13.21.0.fw) \
 kernel-firmware-bnx2"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

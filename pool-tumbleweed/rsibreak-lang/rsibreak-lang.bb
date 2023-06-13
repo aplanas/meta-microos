@@ -58,6 +58,7 @@ locale(rsibreak:zh_CN) \
 locale(rsibreak:zh_TW) \
 rsibreak-lang \
 rsibreak-lang-all"
+
 RDEPENDS:${PN} += "rsibreak"
 
 inherit rpm

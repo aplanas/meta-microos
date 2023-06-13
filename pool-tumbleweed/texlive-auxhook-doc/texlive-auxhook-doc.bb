@@ -9,6 +9,7 @@ RPM_HASH = "2f41f44e91b7f41c0c79617a8550d54215fe380d64a40eba1fa205d1c79a12bfc587
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-auxhook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

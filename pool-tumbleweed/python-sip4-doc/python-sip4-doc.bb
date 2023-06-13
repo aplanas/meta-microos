@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python-sip4-doc \
 python310-sip4-doc \
 python39-sip4-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

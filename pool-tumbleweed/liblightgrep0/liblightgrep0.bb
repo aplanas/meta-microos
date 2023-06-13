@@ -16,6 +16,7 @@ RPM_HASH = "adf8316f29a2a058644b73b6d5eb318f7ccba91322da8763dee89611da60ca28c7f6
 RPROVIDES:${PN} += "liblightgrep.so.0()(64bit) \
 liblightgrep0 \
 liblightgrep0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

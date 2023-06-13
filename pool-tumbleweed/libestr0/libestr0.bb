@@ -11,6 +11,7 @@ RPM_HASH = "71e2f33903e36ffe3653cdc37338bbf8e59f4b9e6b14fcab24473fa8c73e221bed95
 RPROVIDES:${PN} += "libestr.so.0()(64bit) \
 libestr0 \
 libestr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

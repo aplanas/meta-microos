@@ -9,6 +9,7 @@ RPM_HASH = "dabb0679ead5e3267400272b9fb5734399b4fe98fc295ff4819344016de7bd3c2183
 
 RPROVIDES:${PN} += "krunvm \
 krunvm(aarch-64)"
+
 RDEPENDS:${PN} += "buildah \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

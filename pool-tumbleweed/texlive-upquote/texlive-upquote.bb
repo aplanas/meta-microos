@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(upquote.sty) \
 texlive-upquote"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

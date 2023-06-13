@@ -16,6 +16,7 @@ RPM_HASH = "6e98d3eb644412a13784177728334d8c72fb97f24b5165893253d7b13b4467c7b459
 
 RPROVIDES:${PN} += "apache-parquet-devel-static \
 apache-parquet-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "apache-parquet-devel"
 
 inherit rpm

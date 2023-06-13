@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "glassfish-transaction-api \
 mvn(javax.transaction:javax.transaction-api) \
 mvn(javax.transaction:javax.transaction-api:pom:) \
 osgi(javax.transaction-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

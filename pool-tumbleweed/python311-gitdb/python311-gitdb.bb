@@ -12,6 +12,7 @@ python311-gitdb \
 python311-gitdb(aarch-64) \
 python311-gitdb2 \
 python3dist(gitdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-smmap"
 

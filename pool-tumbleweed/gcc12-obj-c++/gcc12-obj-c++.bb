@@ -11,6 +11,7 @@ RPM_HASH = "4728a8b02c27e57494d6023c3a650ccad002f67d6547811bef584d4d858bff5c8927
 
 RPROVIDES:${PN} += "gcc12-obj-c++ \
 gcc12-obj-c++(aarch-64)"
+
 RDEPENDS:${PN} += "gcc12-c++ \
 gcc12-objc \
 libc.so.6(GLIBC_2.36)(64bit) \

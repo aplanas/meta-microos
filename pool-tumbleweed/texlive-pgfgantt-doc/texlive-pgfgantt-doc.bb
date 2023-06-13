@@ -9,6 +9,7 @@ RPM_HASH = "c30cf04d80b4bf5e1e1ac452a370cd31df4ea5caf26f9c77ab38201927b544e17ed0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfgantt-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

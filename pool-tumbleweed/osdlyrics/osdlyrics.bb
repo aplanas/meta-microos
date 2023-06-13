@@ -17,6 +17,7 @@ metainfo() \
 metainfo(osdlyrics.appdata.xml) \
 osdlyrics \
 osdlyrics(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
 ld-linux-aarch64.so.1()(64bit) \

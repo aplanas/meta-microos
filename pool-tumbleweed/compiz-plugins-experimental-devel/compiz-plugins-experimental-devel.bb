@@ -13,6 +13,7 @@ RPM_HASH = "682ea18dd369f74c657c77518984e5287d5517feac82ff30757c0dd8eaae48e56c1a
 
 RPROVIDES:${PN} += "compiz-plugins-experimental-devel \
 compiz-plugins-experimental-devel(aarch-64)"
+
 RDEPENDS:${PN} += "compiz-plugins-experimental \
 pkgconfig(bcop) \
 pkgconfig(compiz) \

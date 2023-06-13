@@ -22,6 +22,7 @@ perl(PatchReader::NarrowPatch) \
 perl(PatchReader::PatchInfoGrabber) \
 perl(PatchReader::Raw) \
 perl-PatchReader"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cwd) \
 perl(File::Temp)"

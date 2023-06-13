@@ -11,6 +11,7 @@ RPM_HASH = "3c0c6b3a93c1c3abb325e49f3cedc466ffea6257fb717beb813682de9317036ea5e1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxtut"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

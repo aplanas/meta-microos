@@ -9,6 +9,7 @@ RPM_HASH = "7b30ebf73b1e07e185b3657ed3d5f07fa2be17a9aaa919c70e74a6aa813da7c6db46
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eledform-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -25,6 +25,7 @@ RPM_HASH = "0302de7d8c124308c99cd7fe13fb7cbcb45768ab57ada002475dc5fcafd1b3011ae1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-dataframe"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dask \
 python39-dask-array \

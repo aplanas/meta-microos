@@ -10,6 +10,7 @@ RPM_HASH = "03c763868cca36bfd968fdc76f995796e6bc4400f8e45fd7fa33735da78d34323908
 
 RPROVIDES:${PN} += "harfbuzz-tools \
 harfbuzz-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

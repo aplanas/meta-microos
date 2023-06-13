@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-methodtools \
 python3.10dist(methodtools) \
 python310-methodtools \
 python3dist(methodtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-wirerope"
 

@@ -22,6 +22,7 @@ mvn(org.eclipse.cbi.maven.plugins:eclipse-jarsigner-plugin:pom:) \
 mvn(org.eclipse.cbi.maven.plugins:maven-plugin-parent:pom:) \
 mvn(org.eclipse.cbi:cbi-common) \
 mvn(org.eclipse.cbi:cbi-common:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-annotations) \

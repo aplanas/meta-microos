@@ -17,6 +17,7 @@ libgsasl.so.7(LIBGSASL_1.10)(64bit) \
 libgsasl.so.7(LIBGSASL_1.4)(64bit) \
 libgsasl7 \
 libgsasl7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

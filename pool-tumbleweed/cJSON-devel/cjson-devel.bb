@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cJSON-devel \
 cJSON-devel(aarch-64) \
 cmake(cJSON) \
 pkgconfig(libcjson)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcjson1"
 

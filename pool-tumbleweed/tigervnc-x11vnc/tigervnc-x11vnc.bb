@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tigervnc-x11vnc \
 x11vnc"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 xorg-x11-Xvnc"
 

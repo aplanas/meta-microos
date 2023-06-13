@@ -16,6 +16,7 @@ RPM_HASH = "40409b04aff9012540a7b2e0c8573a8e969e4ad85113972dc5e10fc63ff429599d00
 
 RPROVIDES:${PN} += "rasdaemon \
 rasdaemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

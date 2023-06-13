@@ -16,6 +16,7 @@ application(openlp.desktop) \
 mimehandler(application/x-openlp-service) \
 python3.10dist(openlp) \
 python3dist(openlp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 hicolor-icon-theme \

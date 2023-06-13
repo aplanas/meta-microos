@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5Sane) \
 libksane-devel \
 libksane-devel(aarch-64) \
 libksane-kf5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5Wallet) \
 cmake(KF5WidgetsAddons) \
 cmake(Qt5Widgets) \

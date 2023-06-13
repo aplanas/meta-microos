@@ -20,6 +20,7 @@ RPM_HASH = "0e507287072046c181d5079d8d6a6fd53299731a79f459f51a00ff4d8818a594cc55
 RPROVIDES:${PN} += "libpipewire-0.3.so.0()(64bit) \
 libpipewire-0_3-0 \
 libpipewire-0_3-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

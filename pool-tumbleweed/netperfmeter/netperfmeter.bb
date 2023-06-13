@@ -14,6 +14,7 @@ RPM_HASH = "83341d775b06896ddf165c8b0f4b9d183522d7bc3fe666c9e7adab85adb9fc7b8ad0
 
 RPROVIDES:${PN} += "netperfmeter \
 netperfmeter(aarch-64)"
+
 RDEPENDS:${PN} += "libbz2.so.1()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

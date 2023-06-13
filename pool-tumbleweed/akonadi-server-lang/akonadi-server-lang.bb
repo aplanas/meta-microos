@@ -67,6 +67,7 @@ locale(akonadi-server:ug) \
 locale(akonadi-server:uk) \
 locale(akonadi-server:zh_CN) \
 locale(akonadi-server:zh_TW)"
+
 RDEPENDS:${PN} += "akonadi-server"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "64fc51d47ff5a31d664cdf634989112fe6411313f3262c5bfb2d7c3554218028c7aa
 
 RPROVIDES:${PN} += "lastpass-cli \
 lastpass-cli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

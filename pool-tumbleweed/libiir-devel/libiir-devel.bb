@@ -17,6 +17,7 @@ RPM_HASH = "375f9ac0a50b7295e3b952b768513fd3ec36d9de2f947807849111ec0e146427a6f1
 RPROVIDES:${PN} += "libiir-devel \
 libiir-devel(aarch-64) \
 pkgconfig(iir)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libiir1"
 

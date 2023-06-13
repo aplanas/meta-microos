@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "tex(autoaligne-fr.tex) \
 tex(autoaligne.sty) \
 tex(autoaligne.tex) \
 texlive-autoaligne"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

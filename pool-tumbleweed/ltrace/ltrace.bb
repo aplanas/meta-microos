@@ -18,6 +18,7 @@ RPM_HASH = "052b1428e3c5b3b4672449c60f33490a2bf48c9b895872965271daf6a63aab3c027b
 
 RPROVIDES:${PN} += "ltrace \
 ltrace(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

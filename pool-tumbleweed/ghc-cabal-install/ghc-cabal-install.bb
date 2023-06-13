@@ -10,6 +10,7 @@ RPM_HASH = "40afc057434351f4189aae222fe508c624afa389d5c01dd6131cc4bcacca7075126f
 RPROVIDES:${PN} += "ghc-cabal-install \
 ghc-cabal-install(aarch-64) \
 libHScabal-install-3.8.1.0-5UcdOch820LBdlzybhXr39-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSHTTP-4000.4.1-BsHtin5O4EoLpElKRODQk3-ghc9.4.5.so()(64bit) \

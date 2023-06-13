@@ -12,6 +12,7 @@ RPM_HASH = "1e4f4633aff968a2bf91cb1a24be24694f2a320de4ba59598ea84805843c0e74b5c2
 RPROVIDES:${PN} += "libbluray-devel \
 libbluray-devel(aarch-64) \
 pkgconfig(libbluray)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbluray2"
 

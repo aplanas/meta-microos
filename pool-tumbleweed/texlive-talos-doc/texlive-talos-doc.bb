@@ -9,6 +9,7 @@ RPM_HASH = "1ee510284d7b8d4aec5c3bcca0dcdca72908379f439b13f72c783891d06e76a470cd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-talos-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

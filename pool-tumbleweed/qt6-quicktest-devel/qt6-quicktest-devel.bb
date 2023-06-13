@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QuickTest) \
 pkgconfig(Qt6QuickTest) \
 qt6-quicktest-devel \
 qt6-quicktest-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Quick) \

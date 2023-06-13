@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(returntogrid.sty) \
 texlive-returntogrid"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

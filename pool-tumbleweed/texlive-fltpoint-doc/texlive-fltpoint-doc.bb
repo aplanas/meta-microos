@@ -9,6 +9,7 @@ RPM_HASH = "59bcbbeab5768e9fb1fc720e9571a5a9a96f4062143604d5b1f7050d950211de7233
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fltpoint-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

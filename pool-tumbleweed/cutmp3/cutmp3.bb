@@ -13,6 +13,7 @@ RPM_HASH = "434669d64abf8a2653e345209f5b8dfebc9fe51b3ad71cb483308ed9ce4130d0abda
 
 RPROVIDES:${PN} += "cutmp3 \
 cutmp3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

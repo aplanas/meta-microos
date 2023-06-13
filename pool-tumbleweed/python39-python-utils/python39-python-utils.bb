@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-utils) \
 python39-python-utils \
 python3dist(python-utils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-loguru"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bpchem.sty) \
 texlive-bpchem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

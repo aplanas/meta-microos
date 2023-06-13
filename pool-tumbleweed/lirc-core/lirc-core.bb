@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(lirc-core) \
 lirc \
 lirc-core \
 lirc-core(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/python3 \

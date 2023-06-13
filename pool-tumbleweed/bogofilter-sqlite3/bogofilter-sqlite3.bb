@@ -10,6 +10,7 @@ RPM_HASH = "5eeaf219e99c8742aab58d8c525386b4f1c2a3d20335de7b0db85da53c23eed1a491
 RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-sqlite3 \
 bogofilter-sqlite3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 bogofilter-common \
 ld-linux-aarch64.so.1()(64bit) \

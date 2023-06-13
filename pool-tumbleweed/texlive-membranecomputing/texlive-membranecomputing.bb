@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(membranecomputing.sty) \
 texlive-membranecomputing"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

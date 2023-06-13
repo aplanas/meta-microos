@@ -15,6 +15,7 @@ RPM_HASH = "bb20512eec50f6d0df158ba849dccae4b529582c234c2687c68cb2ebacd7bcfcdb9a
 
 RPROVIDES:${PN} += "editorconfig \
 editorconfig(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

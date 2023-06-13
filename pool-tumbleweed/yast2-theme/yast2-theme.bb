@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(yast2-theme) \
 yast2-branding \
 yast2-theme \
 yast2_theme"
+
 RDEPENDS:${PN} += "/bin/sh \
 google-poppins-fonts \
 hicolor-icon-theme \

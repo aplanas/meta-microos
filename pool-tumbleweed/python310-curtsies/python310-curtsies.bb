@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-curtsies \
 python3.10dist(curtsies) \
 python310-curtsies \
 python3dist(curtsies)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-blessed \
 python310-cwcwidth"

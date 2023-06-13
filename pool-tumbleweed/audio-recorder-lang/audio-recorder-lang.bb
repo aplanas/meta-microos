@@ -43,6 +43,7 @@ locale(audio-recorder:uk) \
 locale(audio-recorder:vi) \
 locale(audio-recorder:zh_CN) \
 locale(audio-recorder:zh_TW)"
+
 RDEPENDS:${PN} += "audio-recorder"
 
 inherit rpm

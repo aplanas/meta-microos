@@ -14,6 +14,7 @@ RPM_HASH = "be43ae724231480ed83d45075626a050e097e7ffe9d15308feb1a4137164e0f34c1b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlogfilter"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

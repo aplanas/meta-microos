@@ -9,6 +9,7 @@ RPM_HASH = "e1d01dc4f4c7657f71ea29e5e8922e01993c8ede18e250dfdc8a788a17a61938cfc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shapepar-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

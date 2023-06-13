@@ -14,6 +14,7 @@ RPM_HASH = "6382b7202c0f6fb62e1915afa77bd91176acab71848cac5d093c3571688a0ebe7640
 RPROVIDES:${PN} += "typelib(CudaGst) \
 typelib-1_0-CudaGst-1_0 \
 typelib-1_0-CudaGst-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstcuda-1.0.so.0()(64bit)"
 
 inherit rpm

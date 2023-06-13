@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mautrix) \
 python311-mautrix \
 python3dist(mautrix)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-aiohttp \
 python311-attrs \

@@ -19,6 +19,7 @@ tex(trajan.sty) \
 tex(trjnr10.tfm) \
 tex(trjnsl10.tfm) \
 texlive-trajan"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ RPM_HASH = "f9bf3b41cc01157b5aa72d894b6fa4cc72735ba397ec8602440a623a0a57d7f76b4c
 
 RPROVIDES:${PN} += "apache-parquet-utils \
 apache-parquet-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

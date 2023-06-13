@@ -9,6 +9,7 @@ RPM_HASH = "63c179d4df756bf4f2bf6f303c5be77ec60880a04e906f295b123b0fb4c94ffa10c6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "QMPlay2-devel"
+
 RDEPENDS:${PN} += "QMPlay2"
 
 inherit rpm

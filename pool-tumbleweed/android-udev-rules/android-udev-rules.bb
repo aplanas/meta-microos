@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "android-tools-udev \
 android-udev-rules \
 group(adbusers)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

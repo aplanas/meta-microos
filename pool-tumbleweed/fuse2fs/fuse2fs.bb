@@ -11,6 +11,7 @@ RPM_HASH = "c2dffd3fad3626a69179b6fa48a93a8ee042d83b126c8b7e0e46cc4ff0ff3192db9e
 
 RPROVIDES:${PN} += "fuse2fs \
 fuse2fs(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

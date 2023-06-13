@@ -66,6 +66,7 @@ locale(kscreenlocker:uk) \
 locale(kscreenlocker:wa) \
 locale(kscreenlocker:zh_CN) \
 locale(kscreenlocker:zh_TW)"
+
 RDEPENDS:${PN} += "kscreenlocker"
 
 inherit rpm

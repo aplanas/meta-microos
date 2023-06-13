@@ -13,6 +13,7 @@ RPM_HASH = "f976fd50dee3700109105d500a7330321c3b2868404638b2ac96d74ff4bf2f539365
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-test"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

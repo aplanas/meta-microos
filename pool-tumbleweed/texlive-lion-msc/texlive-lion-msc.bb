@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lion-msc.cls) \
 texlive-lion-msc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

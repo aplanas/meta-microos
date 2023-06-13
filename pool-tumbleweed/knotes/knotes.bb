@@ -16,6 +16,7 @@ libknotesprivate.so.5()(64bit) \
 libnotesharedprivate.so.5()(64bit) \
 metainfo() \
 metainfo(org.kde.knotes.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

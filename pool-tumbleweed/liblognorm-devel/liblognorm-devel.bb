@@ -30,6 +30,7 @@ RPM_HASH = "60bba3b994443b5d8e5768781aecdd4515ed3d2c70b37034caffdb8ed2616746f35b
 RPROVIDES:${PN} += "liblognorm-devel \
 liblognorm-devel(aarch-64) \
 pkgconfig(lognorm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblognorm5 \
 pkgconfig(libfastjson)"

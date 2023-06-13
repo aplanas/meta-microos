@@ -13,6 +13,7 @@ RPM_HASH = "848b09b789a0a110f38def800be18695e2e3e0003c5fe6b42a1c68284d40a5599835
 
 RPROVIDES:${PN} += "reptyr \
 reptyr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

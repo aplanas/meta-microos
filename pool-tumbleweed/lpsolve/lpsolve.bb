@@ -11,6 +11,7 @@ RPM_HASH = "dadc23f8db012aecd06b8f64007f541772f0aee3219259cc9f9c94a4201f26a95e8d
 
 RPROVIDES:${PN} += "lpsolve \
 lpsolve(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

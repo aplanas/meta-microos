@@ -15,6 +15,7 @@ RPM_HASH = "1f9a7f957efde2d9fbf7eebf86e1145bc2f4067da4c10f5d3af22ddb9fa2b6d7b73d
 RPROVIDES:${PN} += "libltc-devel \
 libltc-devel(aarch-64) \
 pkgconfig(ltc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libltc11"
 

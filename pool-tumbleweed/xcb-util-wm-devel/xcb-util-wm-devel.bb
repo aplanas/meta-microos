@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "pkgconfig(xcb-ewmh) \
 pkgconfig(xcb-icccm) \
 xcb-util-wm-devel \
 xcb-util-wm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-ewmh2 \
 libxcb-icccm4 \

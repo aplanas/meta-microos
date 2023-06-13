@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-fake-factory \
 python3.9dist(faker) \
 python39-Faker \
 python3dist(faker)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

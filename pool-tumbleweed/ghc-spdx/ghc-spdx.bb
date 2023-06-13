@@ -10,6 +10,7 @@ RPM_HASH = "fd930992f38fb9860697311f8cee1b488a961fd5a0aec8d0546b6466355176fdcefc
 RPROVIDES:${PN} += "ghc-spdx \
 ghc-spdx(aarch-64) \
 libHSspdx-1.0.0.3-JwdNfzEpnM57Bwmw6OiiTp-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

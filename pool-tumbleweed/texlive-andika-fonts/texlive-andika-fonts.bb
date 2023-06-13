@@ -183,6 +183,7 @@ font(:lang=zu) \
 font(andika) \
 font(andk) \
 texlive-andika-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

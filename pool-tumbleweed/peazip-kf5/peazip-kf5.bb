@@ -10,6 +10,7 @@ RPM_HASH = "2312897acf484806e44069ebba72182e25284a9ff4ed758b41fcd48f876eca5d6643
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "peazip-kf5"
+
 RDEPENDS:${PN} += "peazip"
 
 inherit rpm

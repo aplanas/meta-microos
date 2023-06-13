@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-servermanager) \
 python311-azure-mgmt-servermanager \
 python3dist(azure-mgmt-servermanager)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-nspkg \

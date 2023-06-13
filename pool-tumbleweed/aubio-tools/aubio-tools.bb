@@ -9,6 +9,7 @@ RPM_HASH = "4d076470340b34292f8fd414603bd4139bd7ee07976b76157afc35a1201a2da3dae7
 
 RPROVIDES:${PN} += "aubio-tools \
 aubio-tools(aarch-64)"
+
 RDEPENDS:${PN} += "libaubio.so.5()(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \
 libjack.so.0()(64bit)"

@@ -13,6 +13,7 @@ RPM_HASH = "d5fefdc870214c8903a05928c60e8161fe5df73df0072a267dfe85992f6528f97850
 RPROVIDES:${PN} += "libinsane_gobject.so.1()(64bit) \
 libinsane_gobject1 \
 libinsane_gobject1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

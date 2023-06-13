@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "language-detector \
 mvn(com.optimaize.languagedetector:language-detector) \
 mvn(com.optimaize.languagedetector:language-detector:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.guava:guava) \

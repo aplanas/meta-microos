@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(libax25-common) \
 libax25-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "14b09f8de3fb6b185d2cb99d3026d826366ebb53ceb5d6a2dc594d3769a2b8d91f99
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-gdb-pretty-printers"
+
 RDEPENDS:${PN} += "gdb \
 libreoffice \
 python3-six"

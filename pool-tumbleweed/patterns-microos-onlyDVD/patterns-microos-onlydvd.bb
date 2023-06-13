@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-microos-onlyDVD \
 patterns-microos-onlyDVD(aarch-64)"
+
 RDEPENDS:${PN} += "ModemManager \
 NetworkManager-wwan \
 apparmor-utils \

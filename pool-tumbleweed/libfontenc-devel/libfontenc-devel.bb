@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libfontenc-devel \
 libfontenc-devel(aarch-64) \
 pkgconfig(fontenc) \
 xorg-x11-libfontenc-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfontenc1"
 

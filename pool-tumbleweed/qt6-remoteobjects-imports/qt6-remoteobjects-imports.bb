@@ -18,6 +18,7 @@ libdeclarative_remoteobjectsplugin.so(Qt_6.5)(64bit) \
 libdeclarative_remoteobjectsplugin.so(Qt_6.5.1_PRIVATE_API)(64bit) \
 qt6-remoteobjects-imports \
 qt6-remoteobjects-imports(aarch-64)"
+
 RDEPENDS:${PN} += "libQt6Core.so.6()(64bit) \
 libQt6Core.so.6(Qt_6)(64bit) \
 libQt6Core.so.6(Qt_6.5)(64bit) \

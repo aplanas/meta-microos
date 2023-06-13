@@ -10,6 +10,7 @@ RPM_HASH = "e091deb60a9fcaae1e72bcede82e549de492be26d6da93cc1e41588a1e44ce76c838
 
 RPROVIDES:${PN} += "qt6-test-private-devel \
 qt6-test-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Test) \
 qt6-core-private-devel"
 

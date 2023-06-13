@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "tex(dspblocks.sty) \
 tex(dspfunctions.sty) \
 tex(dsptricks.sty) \
 texlive-dsptricks"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

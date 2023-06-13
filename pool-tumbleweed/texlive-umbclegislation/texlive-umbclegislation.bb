@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(legislation.cls) \
 texlive-umbclegislation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

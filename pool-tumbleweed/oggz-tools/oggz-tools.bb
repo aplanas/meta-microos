@@ -13,6 +13,7 @@ RPM_HASH = "207f2ad0576b8627c700cf1dfe68f7bfb36bb4e1752c507831478440040b57579cb5
 
 RPROVIDES:${PN} += "oggz-tools \
 oggz-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

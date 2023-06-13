@@ -9,6 +9,7 @@ RPM_HASH = "5fcdcc5c8b1c9adb2c1a6cf7b8db8daa31e2969aad38e2419c8f78a2a724c4f774b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makebarcode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

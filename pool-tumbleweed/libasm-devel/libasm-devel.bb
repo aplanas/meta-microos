@@ -10,6 +10,7 @@ RPM_HASH = "8cc8d5a93a4180e97b804ab8f535fd10be2f7d90ea08d27f11e757989c1fb301527b
 
 RPROVIDES:${PN} += "libasm-devel \
 libasm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 libasm1"
 

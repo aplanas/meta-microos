@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pydoe2) \
 python39-pyDOE2 \
 python3dist(pydoe2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-scipy"

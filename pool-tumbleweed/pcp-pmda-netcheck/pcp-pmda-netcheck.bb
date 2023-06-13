@@ -10,6 +10,7 @@ RPM_HASH = "05a8a87f99a7e733d46e8e7bfb1d1152c3268c034007091ab8d560e2a10089c5a3a5
 
 RPROVIDES:${PN} += "pcp-pmda-netcheck \
 pcp-pmda-netcheck(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

@@ -51,6 +51,7 @@ locale(kdav:tr) \
 locale(kdav:uk) \
 locale(kdav:zh_CN) \
 locale(kdav:zh_TW)"
+
 RDEPENDS:${PN} += "kdav"
 
 inherit rpm

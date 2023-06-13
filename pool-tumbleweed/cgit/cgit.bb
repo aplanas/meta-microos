@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "bundled(git) \
 cgit \
 cgit(aarch-64) \
 config(cgit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \

@@ -16,6 +16,7 @@ tex(SkakNew-Figurine.tfm) \
 tex(SkakNew-FigurineBold.tfm) \
 tex(SkakNew.map) \
 texlive-skaknew"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

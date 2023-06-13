@@ -12,6 +12,7 @@ RPM_HASH = "3916c76b2b1b90be61f57806ffad0786fd0db0f861c3a26895d60df595dc930f223a
 
 RPROVIDES:${PN} += "libgav1-tools \
 libgav1-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libabsl_strings.so.2301.0.0()(64bit) \

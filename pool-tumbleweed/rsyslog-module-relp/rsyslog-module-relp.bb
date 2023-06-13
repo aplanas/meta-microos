@@ -12,6 +12,7 @@ RPM_HASH = "cfd3158e313cfddb32652a36cad9991423b8d10003bc1aa87bb7134a8d00f5d00143
 
 RPROVIDES:${PN} += "rsyslog-module-relp \
 rsyslog-module-relp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.32)(64bit) \

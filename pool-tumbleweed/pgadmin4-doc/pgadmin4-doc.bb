@@ -12,6 +12,7 @@ RPM_HASH = "c298c2c9f1680ce90e605bffaee4f48005ef1808b2f97d3b1e0e5bf93ad5f278ea71
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pgadmin4-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

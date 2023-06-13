@@ -10,6 +10,7 @@ RPM_HASH = "098957248c25a80a0770bb6ca935a2ea3f41822c7ab3a0f729cafc9e7d3e8fbf1e9d
 
 RPROVIDES:${PN} += "adlmidi \
 adlmidi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

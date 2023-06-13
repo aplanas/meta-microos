@@ -11,6 +11,7 @@ RPM_HASH = "f059db8dcbc4779a956f77de0ee325ab80639c3001d1970300a55a161b4a32b67121
 RPROVIDES:${PN} += "libply-splash-graphics.so.5()(64bit) \
 libply-splash-graphics5 \
 libply-splash-graphics5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

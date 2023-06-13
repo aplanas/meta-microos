@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(xq.sty) \
 tex(xqlarge.tfm) \
 tex(xqnormal.tfm) \
 texlive-xq"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

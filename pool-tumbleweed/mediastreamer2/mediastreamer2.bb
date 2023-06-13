@@ -11,6 +11,7 @@ RPM_HASH = "f747ecbcc3182d3358a43c984598a995f2bb57dd4ab0fedb41b087631d5132b22ed5
 
 RPROVIDES:${PN} += "mediastreamer2 \
 mediastreamer2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbctoolbox.so.1()(64bit) \

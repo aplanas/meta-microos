@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(ubi-reader) \
 python3dist(ubi-reader) \
 ubi_reader"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-python-lzo"

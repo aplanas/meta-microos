@@ -12,6 +12,7 @@ RPM_HASH = "c40c0b2a9ae21723184710f64a96b74bf37978447836815a728ee6a2f0e9fc2d79e7
 RPROVIDES:${PN} += "setserial \
 setserial(aarch-64) \
 util:/sbin/setserial"
+
 RDEPENDS:${PN} += "/sbin/isserial \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ RPM_HASH = "4c788c0dfb132832d7a7ab4fabb2eae3bba0aacb521961dc173d0065d7a0cb95002a
 RPROVIDES:${PN} += "typelib(GstMpegts) \
 typelib-1_0-GstMpegts-1_0 \
 typelib-1_0-GstMpegts-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstmpegts-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

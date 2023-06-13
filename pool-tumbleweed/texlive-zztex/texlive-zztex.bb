@@ -69,6 +69,7 @@ tex(zzver.tex) \
 tex(zzvmode.tex) \
 tex(zzxref.tex) \
 texlive-zztex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

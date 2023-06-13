@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblatex-bookinarticle.sty) \
 texlive-biblatex-bookinarticle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

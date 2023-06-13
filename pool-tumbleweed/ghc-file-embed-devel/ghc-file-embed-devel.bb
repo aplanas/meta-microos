@@ -10,6 +10,7 @@ RPM_HASH = "1c6fb031ad992f26da9949e5a13fe8c6bbf45bd2450bb8b9b4d19b6ea2d10586b91f
 RPROVIDES:${PN} += "ghc-devel(file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw) \
 ghc-file-embed-devel \
 ghc-file-embed-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

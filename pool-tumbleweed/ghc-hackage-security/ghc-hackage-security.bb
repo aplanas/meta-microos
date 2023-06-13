@@ -24,6 +24,7 @@ RPM_HASH = "227b7498abbc5ece187a0a643780f454dfc59cf09cd06208f2a85779517808b9da9d
 RPROVIDES:${PN} += "ghc-hackage-security \
 ghc-hackage-security(aarch-64) \
 libHShackage-security-0.6.2.3-Km2R5J8alEh3bTkVIJr5Mq-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so()(64bit) \

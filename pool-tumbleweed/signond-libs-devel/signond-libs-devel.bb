@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(SignOnExtension) \
 pkgconfig(signond) \
 signond-libs-devel \
 signond-libs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig(Qt5Core) \
 signond \

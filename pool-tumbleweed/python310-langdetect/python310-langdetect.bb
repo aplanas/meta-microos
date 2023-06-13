@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-langdetect \
 python3.10dist(langdetect) \
 python310-langdetect \
 python3dist(langdetect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

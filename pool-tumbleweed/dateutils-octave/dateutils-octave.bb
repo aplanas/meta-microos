@@ -9,6 +9,7 @@ RPM_HASH = "3b6ba31a64d37d92b880baa20d5d564c80747079a9c99c175905cc58b18d767ea8f8
 
 RPROVIDES:${PN} += "dateutils-octave \
 dateutils-octave(aarch-64)"
+
 RDEPENDS:${PN} += "dateutils \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

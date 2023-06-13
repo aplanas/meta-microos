@@ -42,6 +42,7 @@ locale(libfilezilla:tr) \
 locale(libfilezilla:uk_UA) \
 locale(libfilezilla:zh_CN) \
 locale(libfilezilla:zh_TW)"
+
 RDEPENDS:${PN} += "libfilezilla"
 
 inherit rpm

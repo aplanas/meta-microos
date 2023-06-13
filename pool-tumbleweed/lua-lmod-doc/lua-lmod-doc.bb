@@ -9,6 +9,7 @@ RPM_HASH = "25eab8c6c379460c7e31d90598b23ad8aee6e6847a9e329fe10f15a0887c3d98f0d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-lmod-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

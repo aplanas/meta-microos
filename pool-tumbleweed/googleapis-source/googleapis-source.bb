@@ -12,6 +12,7 @@ RPM_HASH = "bc923643c956cf0abf2ed80624cc53d6dd6d819d2db7e4f00c617a37c2214e256610
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "googleapis-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

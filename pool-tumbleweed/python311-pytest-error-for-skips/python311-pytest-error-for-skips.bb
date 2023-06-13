@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pytest-error-for-skips) \
 python311-pytest-error-for-skips \
 python3dist(pytest-error-for-skips)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pytest"
 

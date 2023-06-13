@@ -15,6 +15,7 @@ RPM_HASH = "4af53ccbfe65a38535f05bdedd0d6f588513125fa9fa948707cd784f8f2580d0fc11
 RPROVIDES:${PN} += "libXft-devel \
 libXft-devel(aarch-64) \
 pkgconfig(xft)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXft2 \
 pkgconfig(fontconfig) \

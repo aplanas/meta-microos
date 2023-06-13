@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(setuptools-scm) \
 python311-setuptools_scm \
 python3dist(setuptools-scm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-packaging \
 python311-setuptools \

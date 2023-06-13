@@ -19,6 +19,7 @@ perl(XML::DOM::ProcessingInstruction) \
 perl(XML::DOM::Text) \
 perl(XML::DOM::XPath) \
 perl-XML-DOM-XPath"
+
 RDEPENDS:${PN} += "perl \
 perl(XML::DOM) \
 perl(XML::XPathEngine)"

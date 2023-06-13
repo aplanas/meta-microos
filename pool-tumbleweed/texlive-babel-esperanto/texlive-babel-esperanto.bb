@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(esperanto.ldf) \
 texlive-babel-esperanto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

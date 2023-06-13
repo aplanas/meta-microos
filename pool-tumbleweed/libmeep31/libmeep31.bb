@@ -12,6 +12,7 @@ RPM_HASH = "84326a37241720402a23f99825b1197f7ca102580f79869785f6e47573c899bc9e8f
 RPROVIDES:${PN} += "libmeep.so.31()(64bit) \
 libmeep31 \
 libmeep31(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

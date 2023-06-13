@@ -13,6 +13,7 @@ RPM_HASH = "b72db8046b15719d621d0495972e6f5dcd7e4b596c6008ecc7fbce6b510a26416f79
 
 RPROVIDES:${PN} += "nut-drivers-net \
 nut-drivers-net(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

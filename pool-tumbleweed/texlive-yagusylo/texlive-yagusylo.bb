@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(yagusylo.cfg) \
 tex(yagusylo.sty) \
 texlive-yagusylo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

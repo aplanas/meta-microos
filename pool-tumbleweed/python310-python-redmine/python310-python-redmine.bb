@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-python-redmine \
 python3.10dist(python-redmine) \
 python310-python-redmine \
 python3dist(python-redmine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

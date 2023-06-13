@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rest-knox \
 python3.10dist(django-rest-knox) \
 python310-django-rest-knox \
 python3dist(django-rest-knox)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-cryptography \

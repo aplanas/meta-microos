@@ -13,6 +13,7 @@ RPM_HASH = "40618e5e2fee44611fcbbd53ec907845d24226c196f0f89133cc2c185d890c9b5e5a
 RPROVIDES:${PN} += "dvdauthor \
 dvdauthor(aarch-64) \
 dvdauthor07"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

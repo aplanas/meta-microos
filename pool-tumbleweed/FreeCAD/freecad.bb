@@ -33,6 +33,7 @@ libarea-native.so()(64bit) \
 metainfo() \
 metainfo(org.freecadweb.FreeCAD.appdata.xml) \
 mimehandler(application/x-extension-fcstd)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

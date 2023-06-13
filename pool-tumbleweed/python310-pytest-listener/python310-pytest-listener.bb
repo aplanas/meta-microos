@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-listener \
 python3.10dist(pytest-listener) \
 python310-pytest-listener \
 python3dist(pytest-listener)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest-server-fixtures"
 

@@ -9,6 +9,7 @@ RPM_HASH = "f23f4b7c108a009ac7e676826b0391cc12b17f8202716657f614dad47ddeb1329493
 
 RPROVIDES:${PN} += "xclass-devel \
 xclass-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libstdc++-devel \
 libxclass-0_9_2 \

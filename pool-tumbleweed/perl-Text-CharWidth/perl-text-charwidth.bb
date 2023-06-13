@@ -16,6 +16,7 @@ RPM_HASH = "5b8e3a6d4f8222d37e4d48e0a66073d7489dca92fbf56e9636c1d0821405ca14f720
 RPROVIDES:${PN} += "perl(Text::CharWidth) \
 perl-Text-CharWidth \
 perl-Text-CharWidth(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

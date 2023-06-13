@@ -13,6 +13,7 @@ RPM_HASH = "4db6cb5a9170abb6c6bba98452c2cbfce0d50dc1eb0c7178f4fb4f768f2740c3d362
 
 RPROVIDES:${PN} += "pfscalibration \
 pfscalibration(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 dcraw \

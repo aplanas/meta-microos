@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "llvm-doc-provider \
 llvm16-doc"
+
 RDEPENDS:${PN} += "llvm16"
 
 inherit rpm

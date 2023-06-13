@@ -9,6 +9,7 @@ RPM_HASH = "da0c75eb641ff32576aa2f7a4de690b20026f57d55bc0ead7d4904a736f17d736b9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-asr-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

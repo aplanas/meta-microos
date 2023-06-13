@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(realhats.sty) \
 texlive-realhats"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

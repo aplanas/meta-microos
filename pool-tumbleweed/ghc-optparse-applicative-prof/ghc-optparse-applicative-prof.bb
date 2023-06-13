@@ -10,6 +10,7 @@ RPM_HASH = "e4545ea53eec06ca09b4d6f605e338b9ec89ffd04299ef49b51f919d3bb867e544f2
 RPROVIDES:${PN} += "ghc-optparse-applicative-prof \
 ghc-optparse-applicative-prof(aarch-64) \
 ghc-prof(optparse-applicative-0.17.0.0-FKlMMFcKpwNJEuIq63gWOB)"
+
 RDEPENDS:${PN} += "ghc-optparse-applicative-devel \
 ghc-prof(ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI) \
 ghc-prof(base-4.17.1.0) \

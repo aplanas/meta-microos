@@ -10,6 +10,7 @@ RPM_HASH = "8465488e79bf2f04dbc31e10024300a31984d9519be71df05279e009c5f6e4d75b58
 RPROVIDES:${PN} += "cmake(embree) \
 embree-devel \
 embree-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libembree3"
 
 inherit rpm

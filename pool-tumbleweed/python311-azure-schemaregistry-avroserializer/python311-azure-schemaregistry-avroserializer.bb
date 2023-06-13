@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-schemaregistry-avroserializer) \
 python311-azure-schemaregistry-avroserializer \
 python3dist(azure-schemaregistry-avroserializer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-avro \
 python311-azure-core \

@@ -9,6 +9,7 @@ RPM_HASH = "dd051de581f3e299c0ab1bc1561c7a4991c22ce43a3c0223fbff5e147bbc2ea69798
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pymod2pkg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

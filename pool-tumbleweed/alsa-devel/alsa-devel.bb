@@ -13,6 +13,7 @@ alsa-devel(aarch-64) \
 alsa-lib-devel \
 alsadev \
 pkgconfig(alsa)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libasound2"

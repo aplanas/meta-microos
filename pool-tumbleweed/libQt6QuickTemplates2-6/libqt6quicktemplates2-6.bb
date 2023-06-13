@@ -18,6 +18,7 @@ libQt6QuickTemplates2.so.6(Qt_6.3)(64bit) \
 libQt6QuickTemplates2.so.6(Qt_6.4)(64bit) \
 libQt6QuickTemplates2.so.6(Qt_6.5)(64bit) \
 libQt6QuickTemplates2.so.6(Qt_6.5.1_PRIVATE_API)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

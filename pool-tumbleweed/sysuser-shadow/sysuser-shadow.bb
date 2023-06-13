@@ -11,6 +11,7 @@ RPM_HASH = "b21a9d7f5fec5ac2d3b8ff492515b3377ccc92e721c17093b496569624ee0298c468
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sysuser-shadow"
+
 RDEPENDS:${PN} += "(/usr/sbin/useradd or busybox) \
 (systemd >= 238 if systemd) \
 /bin/sh"

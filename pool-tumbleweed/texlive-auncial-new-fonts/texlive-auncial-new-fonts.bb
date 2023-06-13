@@ -96,6 +96,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(bookhands) \
 texlive-auncial-new-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

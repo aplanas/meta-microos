@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "tex(bib2gls.jar) \
 tex(convertgls2bib.jar) \
 tex(texparserlib.jar) \
 texlive-bib2gls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

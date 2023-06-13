@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libgarcon-1-0 \
 libgarcon-1-0(aarch-64) \
 libgarcon-1.so.0()(64bit) \
 libgarcon-gtk3-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 exo-tools \
 ld-linux-aarch64.so.1()(64bit) \

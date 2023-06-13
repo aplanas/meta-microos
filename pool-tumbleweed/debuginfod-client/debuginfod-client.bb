@@ -9,6 +9,7 @@ RPM_HASH = "d962f89fdc2610f12db57d0b935a1c02d1d3e987d658b30685e2bc57e010d6f54949
 
 RPROVIDES:${PN} += "debuginfod-client \
 debuginfod-client(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-jirafs \
 python3.10dist(jirafs) \
 python310-jirafs \
 python3dist(jirafs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 git-core \

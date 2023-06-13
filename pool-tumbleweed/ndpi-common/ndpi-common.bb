@@ -13,6 +13,7 @@ RPM_HASH = "232e017de8c3018b9ccb9caf7ad54dce48e04816124fc3702709f9900bbcbc5c0f04
 
 RPROVIDES:${PN} += "ndpi-common \
 ndpi-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

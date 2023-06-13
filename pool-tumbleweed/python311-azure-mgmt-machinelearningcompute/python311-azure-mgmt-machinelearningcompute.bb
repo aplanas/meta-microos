@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-machinelearningcompute) \
 python311-azure-mgmt-machinelearningcompute \
 python3dist(azure-mgmt-machinelearningcompute)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-nspkg \

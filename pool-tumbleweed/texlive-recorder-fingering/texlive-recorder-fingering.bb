@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(recorder-fingering.sty) \
 texlive-recorder-fingering"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

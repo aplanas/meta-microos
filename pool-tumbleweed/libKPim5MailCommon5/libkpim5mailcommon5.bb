@@ -11,6 +11,7 @@ RPM_HASH = "672edf462e9e475f717f98409d213a56b8a99e6c3d1b1102182ff52aaca21cc5fc75
 RPROVIDES:${PN} += "libKPim5MailCommon.so.5()(64bit) \
 libKPim5MailCommon5 \
 libKPim5MailCommon5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

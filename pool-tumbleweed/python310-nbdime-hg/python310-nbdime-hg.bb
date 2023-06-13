@@ -16,6 +16,7 @@ python3-jupyter_nbdime-hg \
 python3-nbdime-hg \
 python310-jupyter_nbdime-hg \
 python310-nbdime-hg"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

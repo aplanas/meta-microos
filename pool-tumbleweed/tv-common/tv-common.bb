@@ -11,6 +11,7 @@ RPM_HASH = "11f24da052c130349fcf3eac109d0b01051fd4ae2bb779fce223a231f0ddd438885d
 RPROVIDES:${PN} += "tv-common \
 tv-common(aarch-64) \
 xawtv:/usr/X11R6/lib/X11/fonts/misc/led-iso8859-1.bdf"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

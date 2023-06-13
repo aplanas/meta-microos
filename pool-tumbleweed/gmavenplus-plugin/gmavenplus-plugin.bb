@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "gmavenplus-plugin \
 mvn(org.codehaus.gmavenplus:gmavenplus-plugin) \
 mvn(org.codehaus.gmavenplus:gmavenplus-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(jline:jline) \

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-olefile \
 python3.10dist(olefile) \
 python310-olefile \
 python3dist(olefile)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

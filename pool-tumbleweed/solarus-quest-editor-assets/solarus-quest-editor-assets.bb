@@ -9,6 +9,7 @@ RPM_HASH = "01c64ae36eb680d80659ba9e346cd7d991f7c37047e06579a2821938b3b3bb149f40
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solarus-quest-editor-assets"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

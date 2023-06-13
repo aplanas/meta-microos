@@ -45,6 +45,7 @@ locale(libshumate:sv) \
 locale(libshumate:tr) \
 locale(libshumate:uk) \
 locale(libshumate:zh_CN)"
+
 RDEPENDS:${PN} += "libshumate"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-bokcolmaps \
 python3.10dist(bokcolmaps) \
 python310-bokcolmaps \
 python3dist(bokcolmaps)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-bokeh \
 python310-numpy"

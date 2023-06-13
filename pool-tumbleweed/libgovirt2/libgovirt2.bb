@@ -21,6 +21,7 @@ libgovirt.so.2(GOVIRT_0.4.0)(64bit) \
 libgovirt.so.2(GOVIRT_0.4.1)(64bit) \
 libgovirt2 \
 libgovirt2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "8c9250c6d14673ea599b402d426caafd10c3a99bd9d0a611b0927b4179327903c3fa
 
 RPROVIDES:${PN} += "libcob-devel \
 libcob-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcob4"
 
 inherit rpm

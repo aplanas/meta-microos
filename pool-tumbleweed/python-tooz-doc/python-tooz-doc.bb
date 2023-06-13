@@ -13,6 +13,7 @@ RPM_HASH = "5552c8a75ba690287cf1f73dcdeca89b369f3ceb36bb9546ad8f845b37b99a4fe434
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-tooz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -18,6 +18,7 @@ pkgconfig(libweston-12-protocols) \
 pkgconfig(weston) \
 weston-devel \
 weston-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libweston-12-0 \
 pkgconfig(libweston-12) \

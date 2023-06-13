@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "deepin-file-manager-devel \
 deepin-file-manager-devel(aarch-64) \
 pkgconfig(dde-file-manager) \
 pkgconfig(dfm-extension)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdde-file-manager5"
 

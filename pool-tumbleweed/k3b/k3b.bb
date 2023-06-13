@@ -29,6 +29,7 @@ mimehandler(x-content/blank-bd) \
 mimehandler(x-content/blank-cd) \
 mimehandler(x-content/blank-dvd) \
 mimehandler(x-content/blank-hddvd)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/cdrdao \
 /usr/bin/cdrecord \

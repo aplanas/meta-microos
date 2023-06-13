@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-marathi-doc:mr) \
 texlive-marathi-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

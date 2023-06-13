@@ -12,6 +12,7 @@ RPM_HASH = "9c9483aec21147fb70992b4717748e5dad9a73c28d309a09ac39183b55c1140b765d
 RPROVIDES:${PN} += "texi2roff \
 texi2roff(aarch-64) \
 texinfo:/usr/bin/texi2roff"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

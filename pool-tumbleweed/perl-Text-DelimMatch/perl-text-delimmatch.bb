@@ -11,6 +11,7 @@ RPM_HASH = "4d27a83b9b858200a75359eeaf5448624597d67bc4dfaf2d6e49a9072b9c3bedc6a7
 RPROVIDES:${PN} += "perl(Text::DelimMatch) \
 perl-Text-DelimMatch \
 perl-Text-DelimMatch(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

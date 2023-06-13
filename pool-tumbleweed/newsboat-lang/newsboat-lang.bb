@@ -27,6 +27,7 @@ locale(newsboat:uk) \
 locale(newsboat:zh_TW) \
 newsboat-lang \
 newsboat-lang-all"
+
 RDEPENDS:${PN} += "newsboat"
 
 inherit rpm

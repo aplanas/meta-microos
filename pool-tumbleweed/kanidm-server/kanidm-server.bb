@@ -10,6 +10,7 @@ RPM_HASH = "3508475b7fb18c739d5f8b3d63f7f165dd25c58d2e067b0001059fbaad1797027bdb
 RPROVIDES:${PN} += "config(kanidm-server) \
 kanidm-server \
 kanidm-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 kanidm-clients \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -70,6 +70,7 @@ libvirt-cim \
 libvirt-cim(aarch-64) \
 libxkutil.so.0()(64bit) \
 xen-cim-cmpi"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 cim-schema \

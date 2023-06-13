@@ -21,6 +21,7 @@ RPM_HASH = "2686b6b2fbcdb3d3c715091541adea32893d79316555e1de939a4a6297a552a68fae
 RPROVIDES:${PN} += "libverto.so.1()(64bit) \
 libverto1 \
 libverto1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

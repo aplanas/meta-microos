@@ -10,6 +10,7 @@ RPM_HASH = "599614e83448f468bdd8f6d714e2bcef518812e9708e6fd0507084b3d492724a128d
 RPROVIDES:${PN} += "ghc-devel(hlint-3.5-HI4GNHTiFqP5IrITiJdtMQ) \
 ghc-hlint-devel \
 ghc-hlint-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

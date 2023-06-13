@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(pykafka) \
 python39-pykafka \
 python39-pykafka(aarch-64) \
 python3dist(pykafka)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

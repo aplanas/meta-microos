@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "cmake(lxqt) \
 liblxqt-devel \
 liblxqt-devel(aarch-64) \
 pkgconfig(lxqt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblxqt1 \
 pkgconfig \

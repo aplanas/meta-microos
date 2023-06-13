@@ -17,6 +17,7 @@ RPM_HASH = "2c0f60d53be554998bbcd37563ae3218f9d94b71393268d1dcde1f4f7f59a9384dc3
 RPROVIDES:${PN} += "ghc-polyparse \
 ghc-polyparse(aarch-64) \
 libHSpolyparse-1.13-E8FdqtcSqxM3P2njDFrYm8-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

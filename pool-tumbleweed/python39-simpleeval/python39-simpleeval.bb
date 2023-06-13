@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(simpleeval) \
 python39-simpleeval \
 python3dist(simpleeval)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

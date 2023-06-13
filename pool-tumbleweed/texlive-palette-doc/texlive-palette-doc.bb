@@ -9,6 +9,7 @@ RPM_HASH = "48de08e97e35b6aee86e84a7449e17ba685c65aaed676258e14931b76b35054fb63c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-palette-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

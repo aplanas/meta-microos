@@ -49,6 +49,7 @@ tex(ghsystem_skull-6.tex) \
 tex(ghsystem_skull.tex) \
 tex(ghsystem_spanish.def) \
 texlive-ghsystem"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "15615dfdca6f42a669e9761b5fa45c268fb07ddc06c4819be610ad673ebfab3d2f6b
 
 RPROVIDES:${PN} += "mpiP_3_5-gnu-openmpi2-hpc-doc \
 mpiP_3_5-gnu-openmpi2-hpc-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

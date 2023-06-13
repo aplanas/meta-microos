@@ -93,6 +93,7 @@ font(mathdesign-us) \
 font(mathdesign-ut) \
 font(utopiastd) \
 texlive-mathdesign-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

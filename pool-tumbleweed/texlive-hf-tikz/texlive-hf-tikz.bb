@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(hf-tikz.sty) \
 texlive-hf-tikz"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-web \
 config(collectd-web)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 apache2 \
 perl \

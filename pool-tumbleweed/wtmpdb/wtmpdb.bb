@@ -9,6 +9,7 @@ RPM_HASH = "d34e31c2de00f370d561ddfa411f859f0d6cfe50efdbdd8787c4c7d9e8b8bbfadd8c
 
 RPROVIDES:${PN} += "wtmpdb \
 wtmpdb(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

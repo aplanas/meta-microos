@@ -9,6 +9,7 @@ RPM_HASH = "f4ea1534912c2d01f7b8fbdcca51198c2a80faf639f58520d9223e1640009d71857a
 
 RPROVIDES:${PN} += "openQA-python-scripts \
 openQA-python-scripts(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 openQA-client \
 python3-base \

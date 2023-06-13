@@ -9,6 +9,7 @@ RPM_HASH = "3740973eb7701fd980fe8f80b71daca00f955217c74ad63cf81bce40528dd23c214c
 
 RPROVIDES:${PN} += "texlive-vpe-bin \
 texlive-vpe-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-vpe"
 
 inherit rpm

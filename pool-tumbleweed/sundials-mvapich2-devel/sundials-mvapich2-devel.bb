@@ -12,6 +12,7 @@ RPM_HASH = "3d953322aa593106731cc7f0170e4e6b3bccdaf088e5cb4de228235916d1b4c9036e
 
 RPROVIDES:${PN} += "sundials-mvapich2-devel \
 sundials-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsundials_arkode5-mvapich2 \
 libsundials_cvode6-mvapich2 \
 libsundials_cvodes6-mvapich2 \

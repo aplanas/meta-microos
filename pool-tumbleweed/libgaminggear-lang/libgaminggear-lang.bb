@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgaminggear-lang \
 libgaminggear-lang-all \
 locale(libgaminggear:de) \
 locale(libgaminggear:en)"
+
 RDEPENDS:${PN} += "libgaminggear"
 
 inherit rpm

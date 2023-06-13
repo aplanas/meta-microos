@@ -10,6 +10,7 @@ RPM_HASH = "c90d69ad4b6b1c28090a2a5d48a934d2399b9671970ad1ca2188dbc587e4fd01e2b0
 RPROVIDES:${PN} += "libxpsdocument.so()(64bit) \
 xreader-plugin-xpsdocument \
 xreader-plugin-xpsdocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

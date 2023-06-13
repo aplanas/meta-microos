@@ -89,6 +89,7 @@ libevas.so.1()(64bit) \
 libevas1 \
 libexactness_play.so.1()(64bit) \
 libexactness_record.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

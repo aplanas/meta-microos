@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(glossaries-spanish-noenc.ldf) \
 tex(glossaries-spanish-utf8.ldf) \
 tex(glossaries-spanish.ldf) \
 texlive-glossaries-spanish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "15bd9682ed64ec1db125e2e62fb2d022289efa361d3650e3001dfee029e58cc828ad
 RPROVIDES:${PN} += "ghc-prof(semigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1) \
 ghc-semigroupoids-prof \
 ghc-semigroupoids-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8) \
 ghc-prof(bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL) \

@@ -11,6 +11,7 @@ RPM_HASH = "db9cf49961af105ef7c252bbf927f3806ebbd71b33506ae06121402ec9fd6d59db90
 RPROVIDES:${PN} += "libpoppler-qt5-devel \
 libpoppler-qt5-devel(aarch-64) \
 pkgconfig(poppler-qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpoppler-devel \
 libpoppler-qt5-1 \

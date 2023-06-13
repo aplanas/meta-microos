@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-itsdangerous \
 python3.10dist(itsdangerous) \
 python310-itsdangerous \
 python3dist(itsdangerous)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "480c023c0d5d82c6972239ab7032794a0ccb6e209f619471eb49d6734ac9159f0000
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-footbib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

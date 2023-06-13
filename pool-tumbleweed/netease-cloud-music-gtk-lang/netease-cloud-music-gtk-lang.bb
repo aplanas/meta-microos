@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "locale(netease-cloud-music-gtk:zh_CN) \
 netease-cloud-music-gtk-lang \
 netease-cloud-music-gtk-lang-all"
+
 RDEPENDS:${PN} += "netease-cloud-music-gtk"
 
 inherit rpm

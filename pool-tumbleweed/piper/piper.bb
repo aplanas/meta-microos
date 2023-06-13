@@ -15,6 +15,7 @@ application(org.freedesktop.Piper.desktop) \
 metainfo() \
 metainfo(org.freedesktop.Piper.appdata.xml) \
 piper"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cairo \

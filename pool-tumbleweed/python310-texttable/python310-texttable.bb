@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-texttable \
 python3.10dist(texttable) \
 python310-texttable \
 python3dist(texttable)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base"
 

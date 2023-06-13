@@ -9,6 +9,7 @@ RPM_HASH = "214fc4c0ae846bb92b28bc77a0f5ada3678179f457bc579bef82be818fde99ac2f0f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kalendarium-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

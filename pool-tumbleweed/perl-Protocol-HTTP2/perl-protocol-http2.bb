@@ -37,6 +37,7 @@ perl(Protocol::HTTP2::Stream) \
 perl(Protocol::HTTP2::Trace) \
 perl(Protocol::HTTP2::Upgrade) \
 perl-Protocol-HTTP2"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(MIME::Base64)"
 

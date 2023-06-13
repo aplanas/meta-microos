@@ -9,6 +9,7 @@ RPM_HASH = "efe078df715565af1c6cbb0fbd6d2dcd17594c6427aec85a2bb52521c86ce4e2cf5f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbusmenu-glib-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

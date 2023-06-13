@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python310-targetcli-fb-common \
 python311-targetcli-fb-common \
 python39-targetcli-fb-common \
 targetcli-fb-common"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

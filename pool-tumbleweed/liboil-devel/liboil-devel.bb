@@ -11,6 +11,7 @@ RPM_HASH = "a7141400ceb61e8556f58bf428b88e17cda193d02d147b00aea7e3c21edbf3e3320d
 RPROVIDES:${PN} += "liboil-devel \
 liboil-devel(aarch-64) \
 pkgconfig(liboil-0.3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libc.so.6(GLIBC_2.34)(64bit) \

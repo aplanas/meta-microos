@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tox-no-internet) \
 python311-tox-no-internet \
 python3dist(tox-no-internet)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-tox"
 

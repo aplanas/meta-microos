@@ -10,6 +10,7 @@ RPM_HASH = "6142a005e508fa33c9c0eddbd453d33c9bae02b53bac5e7b560bb382898c7b30232e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-hppa-linux-glibc-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sat-search \
 python3.10dist(sat-search) \
 python310-sat-search \
 python3dist(sat-search)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

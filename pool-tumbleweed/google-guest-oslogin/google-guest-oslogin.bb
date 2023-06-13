@@ -12,6 +12,7 @@ google-guest-oslogin \
 google-guest-oslogin(aarch-64) \
 libnss_cache_oslogin.so.2()(64bit) \
 libnss_oslogin.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc \
 google-guest-configs \

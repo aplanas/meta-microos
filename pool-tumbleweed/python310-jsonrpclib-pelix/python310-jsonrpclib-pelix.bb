@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsonrpclib-pelix \
 python3.10dist(jsonrpclib-pelix) \
 python310-jsonrpclib-pelix \
 python3dist(jsonrpclib-pelix)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

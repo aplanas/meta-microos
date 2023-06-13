@@ -14,6 +14,7 @@ RPM_HASH = "a5b579dc1a6c6a83fbd4ae39a4c48e50b3f2296dfe17a3825fb55339f508df700277
 RPROVIDES:${PN} += "typelib(GstCuda) \
 typelib-1_0-GstCuda-1_0 \
 typelib-1_0-GstCuda-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstcuda-1.0.so.0()(64bit) \
 typelib(CudaGst) \
 typelib(GLib) \

@@ -11,6 +11,7 @@ RPM_HASH = "0e06bf70b0ff59c2e9d8a24f097db50b11d4139f88711e24304137cef5459bb48db6
 
 RPROVIDES:${PN} += "gtk2-tools \
 gtk2-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgdk_pixbuf-2.0.so.0()(64bit) \

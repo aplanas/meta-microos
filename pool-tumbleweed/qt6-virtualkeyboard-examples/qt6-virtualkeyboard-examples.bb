@@ -9,6 +9,7 @@ RPM_HASH = "6358fa2b6d41707ff4716b7a05d9a30cd256be8a7fd8e034ea92708fff161db7a4be
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-examples \
 qt6-virtualkeyboard-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

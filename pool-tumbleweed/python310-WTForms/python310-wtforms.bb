@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-WTForms \
 python3.10dist(wtforms) \
 python310-WTForms \
 python3dist(wtforms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-MarkupSafe \
 python310-email-validator"

@@ -9,6 +9,7 @@ RPM_HASH = "fda422e90678cac6ff89793eca94ca5e3fa65c9c42ed3ec574b46325c54338b1f29c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-censor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

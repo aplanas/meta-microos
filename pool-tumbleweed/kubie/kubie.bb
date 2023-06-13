@@ -13,6 +13,7 @@ RPM_HASH = "8c09089b5cbbe77065db18fa0ba4afcd370618032926e73888c4b92cf157c9f1d8a6
 
 RPROVIDES:${PN} += "kubie \
 kubie(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

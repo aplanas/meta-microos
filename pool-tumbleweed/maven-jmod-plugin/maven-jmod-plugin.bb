@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-jmod-plugin \
 mvn(org.apache.maven.plugins:maven-jmod-plugin) \
 mvn(org.apache.maven.plugins:maven-jmod-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.commons:commons-lang3) \

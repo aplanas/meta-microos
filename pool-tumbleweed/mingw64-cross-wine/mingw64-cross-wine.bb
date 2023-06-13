@@ -15,6 +15,7 @@ rpm_macro(_mingw64_cross_wine_enable_dns) \
 rpm_macro(_mingw64_cross_wine_init) \
 rpm_macro(_mingw64_cross_wine_run) \
 rpm_macro(_mingw64_cross_wine_start_session)"
+
 RDEPENDS:${PN} += "mingw64-filesystem \
 wget \
 wine-binfmt-standalone \

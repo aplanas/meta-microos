@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(graphicxpsd.sty) \
 texlive-graphicxpsd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

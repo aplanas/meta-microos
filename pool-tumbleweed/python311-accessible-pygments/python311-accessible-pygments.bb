@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(accessible-pygments) \
 python311-accessible-pygments \
 python3dist(accessible-pygments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-pygments"
 

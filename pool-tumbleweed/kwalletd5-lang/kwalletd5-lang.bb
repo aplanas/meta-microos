@@ -85,6 +85,7 @@ locale(kwalletd5:vi) \
 locale(kwalletd5:wa) \
 locale(kwalletd5:zh_CN) \
 locale(kwalletd5:zh_TW)"
+
 RDEPENDS:${PN} += "kwalletd5"
 
 inherit rpm

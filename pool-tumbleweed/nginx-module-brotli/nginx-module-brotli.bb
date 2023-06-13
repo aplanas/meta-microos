@@ -19,6 +19,7 @@ RPM_HASH = "221fdfb6964f9557665b0989c77bc22238a50e248dd49fb6f0b5dea78f9167b52436
 
 RPROVIDES:${PN} += "nginx-module-brotli \
 nginx-module-brotli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlienc.so.1()(64bit) \

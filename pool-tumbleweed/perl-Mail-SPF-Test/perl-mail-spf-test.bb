@@ -14,6 +14,7 @@ perl(Mail::SPF::Test::Base) \
 perl(Mail::SPF::Test::Case) \
 perl(Mail::SPF::Test::Scenario) \
 perl-Mail-SPF-Test"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Net::DNS) \
 perl(NetAddr::IP) \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(nbclient) \
 python39-nbclient \
 python3dist(nbclient)"
+
 RDEPENDS:${PN} += "((python39-jupyter-core >= 4.12 with python39-jupyter-core < 5) or python39-jupyter-core >= 5.1) \
 /bin/sh \
 /usr/bin/python3.9 \

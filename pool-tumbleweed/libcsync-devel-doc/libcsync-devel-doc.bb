@@ -10,6 +10,7 @@ RPM_HASH = "5bf42ca3d54a454351b8da0f0a692fec15d272ba617887e7a49753ad806d2ffca206
 
 RPROVIDES:${PN} += "libcsync-devel-doc \
 libcsync-devel-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

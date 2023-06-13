@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(python-subunit) \
 python39-python-subunit \
 python3dist(python-subunit)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python39-extras \

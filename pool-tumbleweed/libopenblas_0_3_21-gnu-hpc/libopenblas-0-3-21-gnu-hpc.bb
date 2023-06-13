@@ -9,6 +9,7 @@ RPM_HASH = "ddc4b942e8d7a905acc82ad2cfe8c827296153c74f2bda80b24658de677f04fd1c32
 
 RPROVIDES:${PN} += "libopenblas_0_3_21-gnu-hpc \
 libopenblas_0_3_21-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

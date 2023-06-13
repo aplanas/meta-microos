@@ -11,6 +11,7 @@ RPM_HASH = "f8598bce412e3a0501def8da7af9c2728a660d7a0c6e1d4516cf45095a12bef54763
 RPROVIDES:${PN} += "libpciaccess.so.0()(64bit) \
 libpciaccess0 \
 libpciaccess0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

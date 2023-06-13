@@ -13,6 +13,7 @@ mvn(org.apache.maven.plugin-testing:maven-plugin-testing-tools) \
 mvn(org.apache.maven.plugin-testing:maven-plugin-testing-tools:pom:) \
 mvn(org.apache.maven.shared:maven-plugin-testing-tools) \
 mvn(org.apache.maven.shared:maven-plugin-testing-tools:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-invoker)"

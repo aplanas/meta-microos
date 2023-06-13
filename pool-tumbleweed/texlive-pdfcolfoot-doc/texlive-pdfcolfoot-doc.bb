@@ -9,6 +9,7 @@ RPM_HASH = "0c4482321e5450e7fc8716f7e50d48ecbd7d6cbac6c80a2c2cfb9aed5c84f40666fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfcolfoot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

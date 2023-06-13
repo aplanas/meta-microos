@@ -15,6 +15,7 @@ RPM_HASH = "23bed5630acf2dc13eb2603b28a5bdcc3c91fd295c9045b00d37063c6d9a319778e1
 
 RPROVIDES:${PN} += "libsoc-common \
 libsoc-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

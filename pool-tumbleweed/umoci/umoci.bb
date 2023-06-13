@@ -11,6 +11,7 @@ RPM_HASH = "57ff8d28701a868e1a24a14329dc585bf4b93967fa53f32039f9e1097c7883749e32
 
 RPROVIDES:${PN} += "umoci \
 umoci(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

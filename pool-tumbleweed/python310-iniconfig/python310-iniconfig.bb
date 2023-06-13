@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-iniconfig \
 python3.10dist(iniconfig) \
 python310-iniconfig \
 python3dist(iniconfig)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

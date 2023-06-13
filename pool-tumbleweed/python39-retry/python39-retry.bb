@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(retry) \
 python39-retry \
 python3dist(retry)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-decorator \
 python39-py"

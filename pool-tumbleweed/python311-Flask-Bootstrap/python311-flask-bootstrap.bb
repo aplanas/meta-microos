@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flask-bootstrap) \
 python311-Flask-Bootstrap \
 python3dist(flask-bootstrap)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Flask \
 python311-dominate \

@@ -18,6 +18,7 @@ RPM_HASH = "dec0d864cc7ec6ce8b506f866f2084c4ca3d68676ab27393fb0c5bc70f23d2ecac52
 RPROVIDES:${PN} += "Mesa-libEGL1 \
 Mesa-libEGL1(aarch-64) \
 libEGL_mesa.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -22,6 +22,7 @@ mimehandler(application/x-ldlite) \
 mimehandler(application/x-ldraw) \
 mimehandler(application/x-multi-part-ldraw) \
 mimehandler(application/x-multipart-ldraw)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGLESv2.so.2()(64bit) \

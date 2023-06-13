@@ -315,6 +315,7 @@ pkgconfig(upmc-wfs) \
 pkgconfig(upmc-yg1006) \
 upm-devel \
 upm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libupm1 \
 pkgconfig(libjpeg) \

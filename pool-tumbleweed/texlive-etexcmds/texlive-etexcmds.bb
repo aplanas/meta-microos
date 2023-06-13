@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(etexcmds.sty) \
 texlive-etexcmds"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

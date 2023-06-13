@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-barbicanclient \
 python3.10dist(python-barbicanclient) \
 python3dist(python-barbicanclient)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cliff \

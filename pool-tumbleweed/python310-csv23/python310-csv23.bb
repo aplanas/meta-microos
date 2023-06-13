@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-csv23 \
 python3.10dist(csv23) \
 python310-csv23 \
 python3dist(csv23)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

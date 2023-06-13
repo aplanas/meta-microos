@@ -14,6 +14,7 @@ python3.10dist(leglight) \
 python310-leglight \
 python310-leglight(aarch-64) \
 python3dist(leglight)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests \
 python310-zeroconf"

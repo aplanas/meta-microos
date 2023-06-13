@@ -9,6 +9,7 @@ RPM_HASH = "6a4ec60e1a396ef9c83be0ea56fbdfa0a82af3d92064c8952977906113b8e2ee74c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-PyQRCode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

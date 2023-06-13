@@ -10,6 +10,7 @@ RPM_HASH = "cbd1b33801f60aff1f811c8171320ef5f9414935681a2d67f3eddfa954250917462c
 RPROVIDES:${PN} += "typelib(GstRtspServer) \
 typelib-1_0-GstRtspServer-1_0 \
 typelib-1_0-GstRtspServer-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgstrtspserver-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

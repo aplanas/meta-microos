@@ -12,6 +12,7 @@ RPM_HASH = "eaf74b109a60d9c709cec57498982f34aef8330fb41bc6d43d2dd6528648ab792539
 
 RPROVIDES:${PN} += "osmo-fl2k \
 osmo-fl2k(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

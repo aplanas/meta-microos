@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-wurlitzer \
 python3.10dist(wurlitzer) \
 python310-wurlitzer \
 python3dist(wurlitzer)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

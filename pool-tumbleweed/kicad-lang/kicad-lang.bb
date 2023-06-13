@@ -32,6 +32,7 @@ locale(kicad:th) \
 locale(kicad:uk) \
 locale(kicad:zh_CN) \
 locale(kicad:zh_TW)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

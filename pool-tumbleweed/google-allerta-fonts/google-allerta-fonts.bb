@@ -35,6 +35,7 @@ RPM_HASH = "6264c228ef9f64cfefe61a0c2534e136e0529a706c60c2fd9dd8eb7599e064389496
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-allerta-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

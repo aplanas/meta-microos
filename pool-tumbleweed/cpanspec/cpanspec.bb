@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cpanspec \
 perl(CPAN2OBS) \
 perl(PodViewSpec)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \

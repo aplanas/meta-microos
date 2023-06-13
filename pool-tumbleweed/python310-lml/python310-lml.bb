@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-lml \
 python3.10dist(lml) \
 python310-lml \
 python3dist(lml)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "608a968e510ce62c6ab7071c65234e40c2c3035528a8650d5c8d5901c51d38d886fb
 RPROVIDES:${PN} += "libbarvinok.so.23()(64bit) \
 libbarvinok23 \
 libbarvinok23(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

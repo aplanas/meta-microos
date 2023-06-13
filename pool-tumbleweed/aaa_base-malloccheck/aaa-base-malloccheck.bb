@@ -11,6 +11,7 @@ RPM_HASH = "eb2873ab1dde911db7ee78e830b4d03535fedaa0c591adf3a07d75bad725f52b4a08
 
 RPROVIDES:${PN} += "aaa_base-malloccheck \
 aaa_base-malloccheck(aarch-64)"
+
 RDEPENDS:${PN} += "aaa_base"
 
 inherit rpm

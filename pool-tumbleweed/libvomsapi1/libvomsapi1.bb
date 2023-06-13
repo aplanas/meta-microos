@@ -18,6 +18,7 @@ RPM_HASH = "3ed1f33bd39def57e40eff39a2bb91bc0cdd4e7bbf792764aec30d4d4eb45ebc8b43
 RPROVIDES:${PN} += "libvomsapi.so.1()(64bit) \
 libvomsapi1 \
 libvomsapi1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

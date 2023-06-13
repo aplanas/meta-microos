@@ -25,6 +25,7 @@ dunelegacy \
 dunelegacy(aarch-64) \
 metainfo() \
 metainfo(dunelegacy.appdata.xml)"
+
 RDEPENDS:${PN} += "libSDL2-2.0.so.0()(64bit) \
 libSDL2-2.0.so.0(SUSE_2.0.10)(64bit) \
 libSDL2_mixer-2.0.so.0()(64bit) \

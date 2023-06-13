@@ -10,6 +10,7 @@ RPM_HASH = "0e5b9b76d1a6abc466ce567d34a864866b9c2ea3c6518c6ddd69a5f2f0b52e004707
 
 RPROVIDES:${PN} += "ladspa-vocoder \
 ladspa-vocoder(aarch-64)"
+
 RDEPENDS:${PN} += "libm.so.6()(64bit)"
 
 inherit rpm

@@ -55,6 +55,7 @@ libgnucash-guile.so()(64bit) \
 metainfo() \
 metainfo(gnucash.appdata.xml) \
 mimehandler(application/x-gnucash)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

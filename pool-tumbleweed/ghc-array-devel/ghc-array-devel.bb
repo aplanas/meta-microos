@@ -12,6 +12,7 @@ ghc-array-devel(aarch-64) \
 ghc-array-static \
 ghc-array-static(aarch-64) \
 ghc-devel(array-0.5.4.0)"
+
 RDEPENDS:${PN} += "ghc-array(aarch-64) \
 ghc-compiler \
 ghc-devel(base-4.17.1.0)"

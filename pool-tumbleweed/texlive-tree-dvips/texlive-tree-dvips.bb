@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(lingmacros.sty) \
 tex(tree-dvips.sty) \
 texlive-tree-dvips"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

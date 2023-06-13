@@ -60,6 +60,7 @@ locale(encfs:vi) \
 locale(encfs:zh_CN) \
 locale(encfs:zh_HK) \
 locale(encfs:zh_TW)"
+
 RDEPENDS:${PN} += "encfs"
 
 inherit rpm

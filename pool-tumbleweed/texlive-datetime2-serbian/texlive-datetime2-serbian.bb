@@ -25,6 +25,7 @@ tex(datetime2-sr-Latn-ME.ldf) \
 tex(datetime2-sr-Latn-RS.ldf) \
 tex(datetime2-sr-Latn.ldf) \
 texlive-datetime2-serbian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -19,6 +19,7 @@ metainfo(psi-plus.appdata.xml) \
 mimehandler(x-scheme-handler/xmpp) \
 psi+ \
 psi+(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Concurrent.so.5()(64bit) \

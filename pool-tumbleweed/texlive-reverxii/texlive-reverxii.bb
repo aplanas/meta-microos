@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(reverxii.tex) \
 texlive-reverxii"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

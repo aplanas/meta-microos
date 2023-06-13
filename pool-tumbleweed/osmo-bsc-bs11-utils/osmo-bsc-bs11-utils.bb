@@ -11,6 +11,7 @@ RPM_HASH = "fe6d24a3d44d9b8e0ddcfd95b089c98930455fd10db1deb670255cd237ba7cc1dca7
 
 RPROVIDES:${PN} += "osmo-bsc-bs11-utils \
 osmo-bsc-bs11-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

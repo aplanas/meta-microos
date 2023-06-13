@@ -27,6 +27,7 @@ tex(pdata.sty) \
 tex(proposal.cls) \
 tex(reporting.cls) \
 texlive-proposal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

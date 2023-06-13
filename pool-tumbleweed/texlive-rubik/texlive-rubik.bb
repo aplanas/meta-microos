@@ -20,6 +20,7 @@ tex(rubikpatterns.sty) \
 tex(rubikrotation.sty) \
 tex(rubiktwocube.sty) \
 texlive-rubik"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "cmake(glm) \
 glm-devel \
 glm-devel(aarch-64) \
 pkgconfig(glm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake"
 

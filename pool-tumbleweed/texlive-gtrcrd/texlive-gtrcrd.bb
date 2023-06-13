@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gtrcrd.sty) \
 texlive-gtrcrd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

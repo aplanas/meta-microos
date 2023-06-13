@@ -9,6 +9,7 @@ RPM_HASH = "017bb74c23cd7c3ce408baa392c7f40cc3c457bcbfa111a157382979953da49138da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gates-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

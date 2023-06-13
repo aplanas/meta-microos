@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "group(flatpak) \
 system-user-flatpak \
 user(flatpak)"
+
 RDEPENDS:${PN} += "/bin/sh \
 sysuser-shadow"
 

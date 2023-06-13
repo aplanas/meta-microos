@@ -18,6 +18,7 @@ pkgconfig(libgviewaudio) \
 pkgconfig(libgviewencoder) \
 pkgconfig(libgviewrender) \
 pkgconfig(libgviewv4l2core)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 alsa-devel \
 glibc-devel \

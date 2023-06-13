@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(scons) \
 python3dist(scons) \
 scons"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

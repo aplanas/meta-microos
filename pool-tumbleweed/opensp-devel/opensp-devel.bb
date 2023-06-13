@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "OpenSP-devel \
 opensp-devel \
 opensp-devel(aarch-64) \
 sp-devel"
+
 RDEPENDS:${PN} += "glibc-devel \
 libstdc++-devel \
 opensp"

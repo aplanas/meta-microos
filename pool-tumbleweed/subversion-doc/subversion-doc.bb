@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(subversion-doc) \
 subversion-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

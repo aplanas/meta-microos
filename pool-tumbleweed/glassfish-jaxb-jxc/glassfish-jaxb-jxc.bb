@@ -13,6 +13,7 @@ mvn(org.glassfish.jaxb:jaxb-jxc) \
 mvn(org.glassfish.jaxb:jaxb-jxc-jdk9) \
 mvn(org.glassfish.jaxb:jaxb-jxc-jdk9:pom:) \
 mvn(org.glassfish.jaxb:jaxb-jxc:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.sun.istack:istack-commons-runtime) \

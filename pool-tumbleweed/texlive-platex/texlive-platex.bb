@@ -50,6 +50,7 @@ tex(tsize10.clo) \
 tex(tsize11.clo) \
 tex(tsize12.clo) \
 texlive-platex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

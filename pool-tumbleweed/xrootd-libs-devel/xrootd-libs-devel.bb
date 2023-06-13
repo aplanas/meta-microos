@@ -13,6 +13,7 @@ RPM_HASH = "1b9eb9fe8ff36a516e5345685fc9d5e9bf04b2b0a3b9e66e9e2f08af5e3cd3ab0406
 
 RPROVIDES:${PN} += "xrootd-libs-devel \
 xrootd-libs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 xrootd-libs"
 

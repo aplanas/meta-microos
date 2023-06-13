@@ -31,6 +31,7 @@ perl(DateTime::PPExtra) \
 perl(DateTime::Types) \
 perl-DateTime \
 perl-DateTime(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime::Locale) \
 perl(DateTime::TimeZone) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-war-plugin \
 mvn(org.apache.maven.plugins:maven-war-plugin) \
 mvn(org.apache.maven.plugins:maven-war-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.thoughtworks.xstream:xstream) \

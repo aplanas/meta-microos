@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-ai-anomalydetector) \
 python311-azure-ai-anomalydetector \
 python3dist(azure-ai-anomalydetector)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-ai-nspkg \
 python311-azure-common \

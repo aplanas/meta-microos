@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(magicwatermark.sty) \
 texlive-magicwatermark"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

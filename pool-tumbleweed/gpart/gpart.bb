@@ -14,6 +14,7 @@ RPM_HASH = "b2158a19fce56e4651ea180be047a70293f2511ab2dcb7cfb7e954689a1a83e0f192
 
 RPROVIDES:${PN} += "gpart \
 gpart(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

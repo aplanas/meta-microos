@@ -12,6 +12,7 @@ RPM_HASH = "08be185ea791b1d6264f106eeffc3fd6bc1b1754feaf0c8fd2074f71d53e83577177
 RPROVIDES:${PN} += "libzita-resampler.so.1()(64bit) \
 libzita-resampler1 \
 libzita-resampler1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgcc_s.so.1()(64bit) \

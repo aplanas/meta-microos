@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "config(xinetd) \
 inet-daemon \
 xinetd \
 xinetd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

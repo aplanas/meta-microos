@@ -23,6 +23,7 @@ tex(pxftnright.sty) \
 tex(pxmulticol.sty) \
 tex(pxxspace.sty) \
 texlive-platex-tools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

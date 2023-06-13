@@ -13,6 +13,7 @@ pkgconfig(eek-0.90) \
 pkgconfig(eek-gtk-0.90) \
 pkgconfig(eek-xkl-0.90) \
 pkgconfig(eekboard-0.90)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 eekboard \
 pkgconfig(eek-0.90) \

@@ -25,6 +25,7 @@ RPM_HASH = "50427061a79deb732933ea1d14cf705eaf068502f1d932aa38beae9519b8920012f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-busted"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/lua5.3 \
 curl \

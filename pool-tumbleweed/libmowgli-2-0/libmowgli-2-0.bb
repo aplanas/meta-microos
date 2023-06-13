@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libmowgli-2-0 \
 libmowgli-2-0(aarch-64) \
 libmowgli-2.so.0()(64bit) \
 libmowgli-2.so.0(V_2.1.3)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

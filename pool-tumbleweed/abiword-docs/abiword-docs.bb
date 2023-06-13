@@ -12,6 +12,7 @@ RPM_HASH = "5f19c2ee4ddeb1cb4e2a782266c0b42149e0d005bf868c0ad7820bd857ea2ee3a429
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abiword-docs"
+
 RDEPENDS:${PN} += "abiword"
 
 inherit rpm

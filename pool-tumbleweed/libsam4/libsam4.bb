@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libsam.so.4()(64bit) \
 libsam.so.4(COROSYNC_SAM_1.0)(64bit) \
 libsam4 \
 libsam4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

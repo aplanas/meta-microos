@@ -10,6 +10,7 @@ RPM_HASH = "687ed8275a16268efe77d9d99a0c6393c7e8cab7ca18aa53911bc5fae66d4cae6412
 RPROVIDES:${PN} += "libite-devel \
 libite-devel(aarch-64) \
 pkgconfig(libite)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libite5"
 

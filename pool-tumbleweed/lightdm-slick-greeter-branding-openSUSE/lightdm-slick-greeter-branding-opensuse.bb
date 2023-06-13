@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-slick-greeter-branding \
 lightdm-slick-greeter-branding-openSUSE"
+
 RDEPENDS:${PN} += "adwaita-icon-theme \
 cantarell-fonts \
 gtk3-metatheme-adwaita \

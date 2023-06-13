@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-pptx) \
 python311-python-pptx \
 python3dist(python-pptx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Pillow \
 python311-XlsxWriter \

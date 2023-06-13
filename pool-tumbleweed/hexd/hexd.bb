@@ -12,6 +12,7 @@ RPM_HASH = "f37d21e080f3c1bae3119b37950ccf485a78b34267accb490fe4834026d1b954ce23
 
 RPROVIDES:${PN} += "hexd \
 hexd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

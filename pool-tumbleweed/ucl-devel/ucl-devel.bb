@@ -10,6 +10,7 @@ RPM_HASH = "a77bb10925d4cb9204c2841dce873e5a42de3c7b8db55ccc3c3ff9aa88b5af12a8a4
 RPROVIDES:${PN} += "libucl1-devel \
 ucl-devel \
 ucl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libucl1"
 
 inherit rpm

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:tzinfo-data:1) \
 rubygem(ruby:3.2.0:tzinfo-data:1.2022) \
 rubygem(ruby:3.2.0:tzinfo-data:1.2022.7) \
 rubygem(tzinfo-data)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:tzinfo)"
 

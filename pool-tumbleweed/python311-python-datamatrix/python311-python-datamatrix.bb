@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(datamatrix) \
 python311-python-datamatrix \
 python3dist(datamatrix)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPM_HASH = "1067c3bc000c24093edf873fe3b4ea1c8dd638640d272de667acf15c3fe84e9709e3
 
 RPROVIDES:${PN} += "libpinyin-tools \
 libpinyin-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

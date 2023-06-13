@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(zlib) \
 zlib-devel \
 zlib-ng-compat-devel \
 zlib-ng-compat-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libz-ng-compat1"
 

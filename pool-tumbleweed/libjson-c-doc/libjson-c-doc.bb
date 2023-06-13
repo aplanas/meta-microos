@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libjson-c-doc \
 libjson-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

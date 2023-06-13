@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.10dist(trytond-product) \
 python3dist(trytond-product) \
 trytond_product"
+
 RDEPENDS:${PN} += "python(abi) \
 trytond"
 

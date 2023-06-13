@@ -14,6 +14,7 @@ RPM_HASH = "d90e2b16496e110d97cb29f5e3e142eb6046a3f675f0e7e241c22926365663836b51
 
 RPROVIDES:${PN} += "bom \
 bom(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

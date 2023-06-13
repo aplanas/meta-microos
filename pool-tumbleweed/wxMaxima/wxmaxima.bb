@@ -18,6 +18,7 @@ mimehandler(text/x-wxmathml) \
 mimehandler(text/x-wxmaxima-batch) \
 wxMaxima \
 wxMaxima(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnuplot \
 ld-linux-aarch64.so.1()(64bit) \

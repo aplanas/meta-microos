@@ -10,6 +10,7 @@ RPM_HASH = "7727451971162b6f0b095c9fecf40ab0b6547af7cd11e73e4fb505c18ffaa55b6e55
 RPROVIDES:${PN} += "dolphin-part \
 dolphin-part(aarch-64) \
 libdolphinprivate.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kio \
 ld-linux-aarch64.so.1()(64bit) \

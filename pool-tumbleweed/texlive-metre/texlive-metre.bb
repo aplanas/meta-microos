@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(metre.sty) \
 texlive-metre"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

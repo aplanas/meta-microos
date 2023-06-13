@@ -62,6 +62,7 @@ locale(filelight:ug) \
 locale(filelight:uk) \
 locale(filelight:zh_CN) \
 locale(filelight:zh_TW)"
+
 RDEPENDS:${PN} += "filelight"
 
 inherit rpm

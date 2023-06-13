@@ -16,6 +16,7 @@ tex(altfont.sty) \
 tex(psfont.cfg) \
 tex(psfont.sty) \
 texlive-altfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

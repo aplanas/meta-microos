@@ -15,6 +15,7 @@ RPM_HASH = "380499ec1a84be9e5bbf6681495b94222f59f36dac887e62913d4cf07f83f87a42f1
 RPROVIDES:${PN} += "libcmark.so.0.30.3()(64bit) \
 libcmark0_30_3 \
 libcmark0_30_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

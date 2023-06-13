@@ -10,6 +10,7 @@ RPM_HASH = "5f77d95d9ecf55e0199eb6364724a25cbe0e30f429d13a4df2227dd22a91606e20db
 RPROVIDES:${PN} += "libxfdashboard.so.0()(64bit) \
 libxfdashboard0 \
 libxfdashboard0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

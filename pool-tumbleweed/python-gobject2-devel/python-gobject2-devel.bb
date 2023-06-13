@@ -13,6 +13,7 @@ python-gobject2-devel \
 python-gobject2-devel(aarch-64) \
 python-gobject2-doc \
 python2-gobject2-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/pkg-config \

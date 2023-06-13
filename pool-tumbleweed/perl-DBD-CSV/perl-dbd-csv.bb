@@ -25,6 +25,7 @@ perl(DBD::CSV::db) \
 perl(DBD::CSV::dr) \
 perl(DBD::CSV::st) \
 perl-DBD-CSV"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBD::File) \
 perl(DBI) \

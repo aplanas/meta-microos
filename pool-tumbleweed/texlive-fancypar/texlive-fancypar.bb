@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancypar.sty) \
 texlive-fancypar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "4099c226d1521e3a4fd253c728a3b77a8e307f29a2e188915bb534977614368a68e5
 RPROVIDES:${PN} += "libscreenshotplugin.so()(64bit) \
 psi+-plugins-screenshotplugin \
 psi+-plugins-screenshotplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

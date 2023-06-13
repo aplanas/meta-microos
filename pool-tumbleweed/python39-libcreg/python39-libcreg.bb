@@ -10,6 +10,7 @@ RPM_HASH = "5846109ef5416d2ca7183a36612be3bea5bb3cd3ad20a438862274669b9b9b5d2fe4
 
 RPROVIDES:${PN} += "python39-libcreg \
 python39-libcreg(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

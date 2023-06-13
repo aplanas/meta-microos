@@ -10,6 +10,7 @@ RPM_HASH = "59a60008e1ffd290c61a86cee9b86a05159e564623d7976171bdff89e5b0a42cd0ec
 RPROVIDES:${PN} += "libleechcraft-util-svcauth-qt5-0_6_75 \
 libleechcraft-util-svcauth-qt5-0_6_75(aarch-64) \
 libleechcraft-util-svcauth-qt5.so.0.6.75()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

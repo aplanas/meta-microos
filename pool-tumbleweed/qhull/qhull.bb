@@ -18,6 +18,7 @@ RPM_HASH = "5aa30ce4f5f844b4b02c71d72be4854818c9706203614f9382f92efc446f5ed7ae23
 
 RPROVIDES:${PN} += "qhull \
 qhull(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

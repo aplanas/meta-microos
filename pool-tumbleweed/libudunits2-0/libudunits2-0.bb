@@ -10,6 +10,7 @@ RPM_HASH = "ac57931aca8f689eba55b7919b3c8f55813a05bb31616344bd64f69141eb73d8af5e
 RPROVIDES:${PN} += "libudunits2-0 \
 libudunits2-0(aarch-64) \
 libudunits2.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

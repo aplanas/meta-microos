@@ -9,6 +9,7 @@ RPM_HASH = "54133ea8350190cf50cae57e4220301676f217c7803286a810a0b46b6845d31771ad
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flameshot-fish-completion"
+
 RDEPENDS:${PN} += "flameshot"
 
 inherit rpm

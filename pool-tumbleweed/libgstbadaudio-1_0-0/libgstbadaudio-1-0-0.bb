@@ -14,6 +14,7 @@ RPM_HASH = "e8f7e78e20ec2a0eb8ac596d103261a2df7ca8de56adf7900cd042bb9af94096ee60
 RPROVIDES:${PN} += "libgstbadaudio-1.0.so.0()(64bit) \
 libgstbadaudio-1_0-0 \
 libgstbadaudio-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

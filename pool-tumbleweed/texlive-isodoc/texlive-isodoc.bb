@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(isodoc.cls) \
 texlive-isodoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

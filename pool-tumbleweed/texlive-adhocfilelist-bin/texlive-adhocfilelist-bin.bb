@@ -9,6 +9,7 @@ RPM_HASH = "a3dbc477c79c2f5b53c9ff2b48a53a61daa34843b8ca393d54b2f27c0a8fd3a16a89
 
 RPROVIDES:${PN} += "texlive-adhocfilelist-bin \
 texlive-adhocfilelist-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-adhocfilelist"
 
 inherit rpm

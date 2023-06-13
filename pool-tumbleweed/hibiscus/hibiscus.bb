@@ -16,6 +16,7 @@ hibiscus \
 hibiscus(aarch-64) \
 metainfo() \
 metainfo(hibiscus.appdata.xml)"
+
 RDEPENDS:${PN} += "eclipse-swtchart \
 hbci4java \
 itextpdf \

@@ -9,6 +9,7 @@ RPM_HASH = "052aae1e5cea3e3c1d82bdbfe3ddcb00d4a4870290ed6c29469e836c8892b9a91189
 
 RPROVIDES:${PN} += "pcmanfm-devel \
 pcmanfm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gtk2-devel \
 libfm-gtk4 \
 libfm4 \

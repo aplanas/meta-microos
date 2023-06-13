@@ -14,6 +14,7 @@ RPM_HASH = "c66c6c41661933de0bf1abb29338d9b80c0340aab4c72bb3a736bf804219aa0ade64
 RPROVIDES:${PN} += "libyajl-devel \
 libyajl-devel(aarch-64) \
 pkgconfig(yajl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libyajl2"
 

@@ -15,6 +15,7 @@ RPM_HASH = "77358481c9e90c3c32dfe7bf66d776a09e0103f6cee0f83aa2d64ab9c240c3363f6b
 RPROVIDES:${PN} += "libvpx.so.8()(64bit) \
 libvpx8 \
 libvpx8(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

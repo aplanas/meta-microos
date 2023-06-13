@@ -18,6 +18,7 @@ RPM_HASH = "5f6ed258c77923d88f647a3fa2d8127e802b4b0d677810ca32c39b0d933d01b23359
 
 RPROVIDES:${PN} += "setools-console \
 setools-console(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python3-setools"
 

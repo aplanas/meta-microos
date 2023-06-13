@@ -13,6 +13,7 @@ RPM_HASH = "e8ce5773c3b6dd19f7e1072bdb830f29a076dbd0efc33b6225fe42b35193be37dde0
 
 RPROVIDES:${PN} += "gwenhywfar \
 gwenhywfar(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

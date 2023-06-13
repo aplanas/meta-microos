@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "dtb-apm \
 dtb-apm(aarch-64) \
 dtb-apm-mustang \
 multiversion(dtb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils"
 

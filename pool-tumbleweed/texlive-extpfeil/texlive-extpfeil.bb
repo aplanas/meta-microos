@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(extpfeil.sty) \
 texlive-extpfeil"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

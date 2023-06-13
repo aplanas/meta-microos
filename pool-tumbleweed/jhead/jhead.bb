@@ -14,6 +14,7 @@ RPM_HASH = "78c9a6f08d1b399be49fec2d38c5a20ab13c6dd5ea4e9885d10c4fc85445616f503b
 
 RPROVIDES:${PN} += "jhead \
 jhead(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/jpegtran \
 /usr/bin/mogrify \
 ld-linux-aarch64.so.1()(64bit) \

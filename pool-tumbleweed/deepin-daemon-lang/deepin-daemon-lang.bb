@@ -9,6 +9,7 @@ RPM_HASH = "9dbd0b86218b9247111332952b87d7260e78c5128ed931c38f34619cacd23e4e4550
 
 RPROVIDES:${PN} += "deepin-daemon-lang \
 deepin-daemon-lang(aarch-64)"
+
 RDEPENDS:${PN} += "deepin-daemon"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(jurarsp.cfg) \
 tex(jurarsp.sty) \
 texlive-jurarsp"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

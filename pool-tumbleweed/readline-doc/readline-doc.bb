@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "readline-doc \
 readline:/usr/share/info/readline.info.gz"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(listingsutf8.sty) \
 texlive-listingsutf8"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

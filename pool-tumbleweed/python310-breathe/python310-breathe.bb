@@ -15,6 +15,7 @@ python3.10dist(breathe) \
 python310-breathe \
 python310-sphinxcontrib-breathe \
 python3dist(breathe)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

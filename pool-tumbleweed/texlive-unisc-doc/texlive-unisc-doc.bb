@@ -9,6 +9,7 @@ RPM_HASH = "30552a30b7357b651ae16d21a2ef15e25ac8142bc98d63a757b96ad87981861df472
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unisc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

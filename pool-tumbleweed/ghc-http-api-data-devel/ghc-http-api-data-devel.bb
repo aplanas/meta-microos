@@ -10,6 +10,7 @@ RPM_HASH = "8f5548cda9fe1197dee23eaa43590e36403123a90545d5be8b0d6e0c000e1bdc8755
 RPROVIDES:${PN} += "ghc-devel(http-api-data-0.5-Ipkpz3wcjEIJthDto7snfd) \
 ghc-http-api-data-devel \
 ghc-http-api-data-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

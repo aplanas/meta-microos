@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "pkgconfig(libpmemkv) \
 pkgconfig(libpmemkv_json_config) \
 pmemkv-devel \
 pmemkv-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpmemkv1 \
 libpmemkv_json_config1 \

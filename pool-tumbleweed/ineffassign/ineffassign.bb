@@ -11,6 +11,7 @@ RPM_HASH = "143202241d7268a3573cf47eec153e911c4508d30efd405dfbb3941fc2fdac355a50
 
 RPROVIDES:${PN} += "ineffassign \
 ineffassign(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

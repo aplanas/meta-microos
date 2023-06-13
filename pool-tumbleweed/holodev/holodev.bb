@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(holodev) \
 holodev"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash-completion \
 bridge-utils \

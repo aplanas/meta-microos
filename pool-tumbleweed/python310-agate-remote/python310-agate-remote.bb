@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-agate-remote \
 python3.10dist(agate-remote) \
 python310-agate-remote \
 python3dist(agate-remote)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-agate \
 python310-requests"

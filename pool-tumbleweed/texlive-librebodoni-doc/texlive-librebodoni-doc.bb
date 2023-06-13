@@ -9,6 +9,7 @@ RPM_HASH = "746896a9462dcb32bf347c99921ee90af8e5abcc45bc08f36462a266d00066d7c82e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librebodoni-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

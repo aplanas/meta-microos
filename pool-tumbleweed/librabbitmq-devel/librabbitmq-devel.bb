@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(rabbitmq-c) \
 librabbitmq-devel \
 librabbitmq-devel(aarch-64) \
 pkgconfig(librabbitmq)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librabbitmq4 \
 pkgconfig(openssl)"

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(serbian-def-cyr.sty) \
 texlive-serbian-def-cyr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

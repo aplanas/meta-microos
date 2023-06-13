@@ -24,6 +24,7 @@ libsimple.so()(64bit) \
 libxmpp.so()(64bit) \
 libzephyr.so()(64bit) \
 perl(Purple)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 /usr/bin/env \

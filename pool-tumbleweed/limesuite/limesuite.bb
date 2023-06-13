@@ -14,6 +14,7 @@ RPM_HASH = "297b31740a3f399e59a2c22a7a83570606b1f02105791e02fb3db66855771eeb8d4a
 
 RPROVIDES:${PN} += "limesuite \
 limesuite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

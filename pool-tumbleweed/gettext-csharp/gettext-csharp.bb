@@ -30,6 +30,7 @@ gettext-csharp(aarch-64) \
 mono(GNU.Gettext) \
 mono(msgfmt.net) \
 mono(msgunfmt.net)"
+
 RDEPENDS:${PN} += "mono \
 mono(mscorlib)"
 

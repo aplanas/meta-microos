@@ -10,6 +10,7 @@ RPM_HASH = "fe103822704f611cd6921af5dcb86ef7c1452293f7f5bd1c9bb2276026f33a6a59e1
 RPROVIDES:${PN} += "java-10-openjdk-src \
 java-11-openjdk-src \
 java-11-openjdk-src(aarch-64)"
+
 RDEPENDS:${PN} += "java-11-openjdk"
 
 inherit rpm

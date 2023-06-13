@@ -14,6 +14,7 @@ RPM_HASH = "e300d80f3d7c25adc73f89cefa6f9fd8685dab31d528b1c55ebc8558052df56ec371
 RPROVIDES:${PN} += "netcdf-devel \
 netcdf-devel(aarch-64) \
 pkgconfig(netcdf)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 hdf5-devel \

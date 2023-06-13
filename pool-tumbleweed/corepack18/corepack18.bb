@@ -10,6 +10,7 @@ RPM_HASH = "643a36513279dcf830d9489ff97a97653acfa47894692e0c980ea696ae5dea88cf2a
 
 RPROVIDES:${PN} += "corepack18 \
 corepack18(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 nodejs-common"

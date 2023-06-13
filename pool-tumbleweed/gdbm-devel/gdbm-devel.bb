@@ -10,6 +10,7 @@ RPM_HASH = "5f5e019f0025fecb1ab1921c25c046bf8eee761caf8cff694b51761c1983ece84ba6
 
 RPROVIDES:${PN} += "gdbm-devel \
 gdbm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

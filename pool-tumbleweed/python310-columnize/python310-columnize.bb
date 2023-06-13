@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-columnize \
 python3.10dist(columnize) \
 python310-columnize \
 python3dist(columnize)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

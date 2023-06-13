@@ -33,6 +33,7 @@ libQt5Network5(aarch-64) \
 libqconnmanbearer.so()(64bit) \
 libqgenericbearer.so()(64bit) \
 libqnmbearer.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

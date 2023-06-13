@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:jekyll-watch) \
 rubygem(ruby:3.2.0:jekyll-watch:2) \
 rubygem(ruby:3.2.0:jekyll-watch:2.2) \
 rubygem(ruby:3.2.0:jekyll-watch:2.2.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:listen:3)"
 

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "tex(titleps.sty) \
 tex(titlesec.sty) \
 tex(titletoc.sty) \
 texlive-titlesec"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

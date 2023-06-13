@@ -13,6 +13,7 @@ RPM_HASH = "c99dd756c4932bfc3749f661582e0cab24bd4b35a870e572c4f410e6ca2b9bcbf456
 
 RPROVIDES:${PN} += "python3-lldb \
 python3-lldb(aarch-64)"
+
 RDEPENDS:${PN} += "python3-lldb16"
 
 inherit rpm

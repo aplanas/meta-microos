@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libcamera-devel \
 libcamera-devel(aarch-64) \
 pkgconfig(libcamera) \
 pkgconfig(libcamera-base)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcamera-base0_0_4 \
 libcamera0_0_4 \

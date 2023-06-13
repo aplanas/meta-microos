@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dnslib) \
 python311-dnslib \
 python3dist(dnslib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

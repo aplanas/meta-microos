@@ -14,6 +14,7 @@ RPM_HASH = "fe7a4fd4d8cdedece57039567224de2e9b1c84fe805cad3136e91b3036b9272ab786
 
 RPROVIDES:${PN} += "dico-devel \
 dico-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libdico2"
 
 inherit rpm

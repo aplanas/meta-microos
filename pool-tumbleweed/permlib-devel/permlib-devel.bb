@@ -16,6 +16,7 @@ RPM_HASH = "5b7a2515d18ec1688da48230a25ddd895939f59ea626bf4d50cbff61407344b631f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "permlib-devel"
+
 RDEPENDS:${PN} += "libboost_headers-devel"
 
 inherit rpm

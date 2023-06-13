@@ -13,6 +13,7 @@ RPM_HASH = "587d4bda99f235ce153c8bdcbe11cbc567a4221dc952c8bbd8f47f8b7b30def36ac9
 
 RPROVIDES:${PN} += "form \
 form(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "fb68604149def0565903edbbc613ac94f8f475a15595fb2b5c5000128fb87ddeb3b6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-zlib-debug"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

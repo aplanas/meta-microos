@@ -10,6 +10,7 @@ RPM_HASH = "3f2ad6354abb6a8a07be2aea49aed788fda900014445876388076bcfde6b571c56fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unicode-ucd-unihan"
+
 RDEPENDS:${PN} += "unicode-ucd"
 
 inherit rpm

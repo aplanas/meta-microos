@@ -69,6 +69,7 @@ locale(digikam:uk) \
 locale(digikam:vi) \
 locale(digikam:zh_CN) \
 locale(digikam:zh_TW)"
+
 RDEPENDS:${PN} += "digikam"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(Qt6DeclarativeOpcua) \
 pkgconfig(Qt6DeclarativeOpcua) \
 qt6-declarativeopcua-private-devel \
 qt6-declarativeopcua-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6OpcUa) \

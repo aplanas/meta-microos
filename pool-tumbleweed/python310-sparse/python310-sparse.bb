@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-sparse \
 python3.10dist(sparse) \
 python310-sparse \
 python3dist(sparse)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numba \
 python310-numpy \

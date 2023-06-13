@@ -10,6 +10,7 @@ RPM_HASH = "a4af63e0e54d9c3bfddf92f7f1d1a33916b217040909b1a48a73b70589d0ec4d7964
 RPROVIDES:${PN} += "libpowerman.so.0()(64bit) \
 libpowerman0 \
 libpowerman0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

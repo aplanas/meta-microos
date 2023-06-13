@@ -10,6 +10,7 @@ RPM_HASH = "ce070cc31e4307da21ab658a341c5e0b9fdff58c377bacda63e62bfd95953829bf73
 RPROVIDES:${PN} += "apcupsd-cgi \
 apcupsd-cgi(aarch-64) \
 config(apcupsd-cgi)"
+
 RDEPENDS:${PN} += "apcupsd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

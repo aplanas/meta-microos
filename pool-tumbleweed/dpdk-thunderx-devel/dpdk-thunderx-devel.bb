@@ -13,6 +13,7 @@ dpdk-thunderx-devel \
 dpdk-thunderx-devel(aarch-64) \
 pkgconfig(libdpdk) \
 pkgconfig(libdpdk-libs)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 libdpdk-23 \

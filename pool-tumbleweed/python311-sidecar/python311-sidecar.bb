@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(sidecar) \
 python311-sidecar \
 python3dist(sidecar)"
+
 RDEPENDS:${PN} += "(python311-ipywidgets >= 7.6.0 with python311-ipywidgets < 9) \
 jupyter-sidecar-jupyterlab \
 python(abi) \

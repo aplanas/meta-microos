@@ -9,6 +9,7 @@ RPM_HASH = "324f5b5540dfda4d13f5e164bc5fdc30086904a13e3bb059316801801bd6c7c8307c
 
 RPROVIDES:${PN} += "texlive-texdiff-bin \
 texlive-texdiff-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-texdiff"
 
 inherit rpm

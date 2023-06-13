@@ -121,6 +121,7 @@ mimehandler(text/x-xsrc) \
 qt5-creator \
 qt6-creator \
 qt6-creator(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1()(64bit) \

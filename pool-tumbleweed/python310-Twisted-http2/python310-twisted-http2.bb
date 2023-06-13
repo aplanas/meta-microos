@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-http2 \
 python310-Twisted-http2"
+
 RDEPENDS:${PN} += "python310-Twisted \
 python310-h2 \
 python310-priority"

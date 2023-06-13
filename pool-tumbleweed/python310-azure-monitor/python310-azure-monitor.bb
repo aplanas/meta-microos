@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-monitor \
 python3.10dist(azure-monitor) \
 python310-azure-monitor \
 python3dist(azure-monitor)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-armtex-doc:en;hy) \
 texlive-armtex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

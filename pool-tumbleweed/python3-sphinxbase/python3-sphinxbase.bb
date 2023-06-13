@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinxbase \
 python3-sphinxbase(aarch-64) \
 python3.10dist(sphinxbase) \
 python3dist(sphinxbase)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

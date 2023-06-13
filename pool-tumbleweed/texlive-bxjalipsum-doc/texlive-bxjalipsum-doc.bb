@@ -9,6 +9,7 @@ RPM_HASH = "a27c83b985548074604ebd806871c16fb3a0cb1d99fe0de3a1492824a31131bb4eec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxjalipsum-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

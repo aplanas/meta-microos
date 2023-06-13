@@ -11,6 +11,7 @@ RPM_HASH = "a7fdaef7eec1cdb80fd45cc8f48d988eca9c3d3a570f49c2dd0e0a68f2ef0b4e9c09
 RPROVIDES:${PN} += "ghc-data-default-instances-old-locale-devel \
 ghc-data-default-instances-old-locale-devel(aarch-64) \
 ghc-devel(data-default-instances-old-locale-0.0.1-7AZu0A9Np87C6EgyuU2uGo)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-data-default-instances-old-locale \

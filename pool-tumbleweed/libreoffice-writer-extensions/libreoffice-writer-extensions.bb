@@ -11,6 +11,7 @@ RPM_HASH = "1291d351f772a6d52367e66b595efd26446ee349565d18d4086c3be13a9a35ab1900
 
 RPROVIDES:${PN} += "libreoffice-writer-extensions \
 libreoffice-writer-extensions(aarch-64)"
+
 RDEPENDS:${PN} += "jre-64 \
 libreoffice \
 libreoffice-writer"

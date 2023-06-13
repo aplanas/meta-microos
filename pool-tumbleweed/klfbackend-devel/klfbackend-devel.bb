@@ -17,6 +17,7 @@ RPM_HASH = "2932364dbe775b91d4ebc57c832c5b181008af04d77af10b4cb072bde70f38f685de
 RPROVIDES:${PN} += "klfbackend-devel \
 klfbackend-devel(aarch-64) \
 libklfbackend-devel"
+
 RDEPENDS:${PN} += "libklfbackend"
 
 inherit rpm

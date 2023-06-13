@@ -10,6 +10,7 @@ RPM_HASH = "e317e45ff0c510d3f9d79589602821b318da5e7846310f2d413c2ee7e243617c0855
 RPROVIDES:${PN} += "ghc-devel(netlink-1.1.1.0-3cQkQWnXFQnLtl9CehLMU3) \
 ghc-netlink-devel \
 ghc-netlink-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

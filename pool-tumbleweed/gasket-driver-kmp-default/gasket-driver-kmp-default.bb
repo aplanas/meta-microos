@@ -14,6 +14,7 @@ gasket-driver-kmp-default-k6.3.4_1 \
 kmod(apex.ko) \
 kmod(gasket.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 gasket-driver-ueficert \

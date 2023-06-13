@@ -9,6 +9,7 @@ RPM_HASH = "f3016b8001cb69ce39f3c707423c7f06b2b466708054d5bbf926b4f1558b60646bce
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctablestack-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cleo) \
 python39-cleo \
 python3dist(cleo)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-crashtest \
 python39-pylev \

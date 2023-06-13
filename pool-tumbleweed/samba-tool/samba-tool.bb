@@ -9,6 +9,7 @@ RPM_HASH = "2aa3c03c6a72aa398796b93059c78e77812febf7914bcdc230bb9f1742fb17c97706
 
 RPROVIDES:${PN} += "samba-tool \
 samba-tool(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 samba \
 samba-ldb-ldap \

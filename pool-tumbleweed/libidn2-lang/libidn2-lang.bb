@@ -35,6 +35,7 @@ locale(libidn2:sv) \
 locale(libidn2:uk) \
 locale(libidn2:vi) \
 locale(libidn2:zh_CN)"
+
 RDEPENDS:${PN} += "libidn2"
 
 inherit rpm

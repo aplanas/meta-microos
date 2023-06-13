@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-gpstime \
 python3.10dist(gpstime) \
 python310-gpstime \
 python3dist(gpstime)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

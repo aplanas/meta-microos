@@ -10,6 +10,7 @@ RPM_HASH = "1839f722c1816700f9d077976466313d0b84cdb5e149858ad3ed4a0af8c04ad92925
 
 RPROVIDES:${PN} += "erlang-observer-src \
 erlang-observer-src(aarch-64)"
+
 RDEPENDS:${PN} += "erlang-observer"
 
 inherit rpm

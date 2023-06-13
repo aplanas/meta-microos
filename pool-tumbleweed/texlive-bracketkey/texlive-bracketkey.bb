@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bracketkey.sty) \
 texlive-bracketkey"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

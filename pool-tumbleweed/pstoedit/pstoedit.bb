@@ -46,6 +46,7 @@ libp2edrvwmf.so()(64bit) \
 libpstoedit.so.0()(64bit) \
 pstoedit \
 pstoedit(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ghostscript \
 ld-linux-aarch64.so.1()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "d79b0ee871fa22cbf95bb296a66fce4d7e5c902630723e4717bf98c0f23559876dc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-senlinclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

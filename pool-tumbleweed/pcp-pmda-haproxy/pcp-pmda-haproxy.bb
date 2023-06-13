@@ -10,6 +10,7 @@ RPM_HASH = "f5d20535b2fb3e0e2189a20279b9e4e2192890b2d4e5566ab07aadcb6fcb359fa514
 
 RPROVIDES:${PN} += "pcp-pmda-haproxy \
 pcp-pmda-haproxy(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

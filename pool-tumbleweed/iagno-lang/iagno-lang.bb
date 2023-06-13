@@ -93,6 +93,7 @@ locale(iagno:wa) \
 locale(iagno:zh_CN) \
 locale(iagno:zh_HK) \
 locale(iagno:zh_TW)"
+
 RDEPENDS:${PN} += "iagno"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "0cf16d691481e16edf9f67e85c3b532df370a32159bb0ac05c87e44f39a00382fd30
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subversion-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 subversion"
 

@@ -13,6 +13,7 @@ RPM_HASH = "13327bcea23ec7c4b552a9973f3f9df8d71db98262f79cc222b4ec3a537fdcf33538
 RPROVIDES:${PN} += "flxmlrpc-devel \
 flxmlrpc-devel(aarch-64) \
 pkgconfig(flxmlrpc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libflxmlrpc1"
 

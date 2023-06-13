@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-openapi-core \
 python3.10dist(openapi-core) \
 python310-openapi-core \
 python3dist(openapi-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Werkzeug \
 python310-isodate \

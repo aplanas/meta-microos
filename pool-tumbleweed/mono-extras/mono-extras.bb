@@ -29,6 +29,7 @@ mono(mono-service) \
 mono-extras \
 mono-extras(aarch-64) \
 mono-ms-extras"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(Mono.Posix) \
 mono(System) \

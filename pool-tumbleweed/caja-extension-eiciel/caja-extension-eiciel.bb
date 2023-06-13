@@ -10,6 +10,7 @@ RPM_HASH = "8d3201c9dabb707b20449527a8325c665cc2c93df76ee16f86689dcdb6ad9472d39d
 RPROVIDES:${PN} += "caja-extension-eiciel \
 caja-extension-eiciel(aarch-64) \
 libeiciel-caja.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

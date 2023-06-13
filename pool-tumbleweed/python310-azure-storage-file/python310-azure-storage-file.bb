@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-azure-storage-file \
 python3.10dist(azure-storage-file) \
 python310-azure-storage-file \
 python3dist(azure-storage-file)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

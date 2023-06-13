@@ -10,6 +10,7 @@ RPM_HASH = "c75093d8c4b88367254c2ff7042bfd3135f089dad40ff60465a6643b39d0c16da2e5
 RPROVIDES:${PN} += "ghc-devel(zip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn) \
 ghc-zip-archive-devel \
 ghc-zip-archive-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

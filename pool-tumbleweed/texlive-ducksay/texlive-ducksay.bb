@@ -17,6 +17,7 @@ tex(ducksay.code.v1.tex) \
 tex(ducksay.code.v2.tex) \
 tex(ducksay.sty) \
 texlive-ducksay"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -28,6 +28,7 @@ tex(mwbk11.clo) \
 tex(mwbk12.clo) \
 tex(mwrep.cls) \
 texlive-mwcls"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

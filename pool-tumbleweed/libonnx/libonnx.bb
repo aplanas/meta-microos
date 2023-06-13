@@ -11,6 +11,7 @@ RPM_HASH = "5115d8e4cd7ad7a5c939a4b907f5a60650cc60b39de01540ef98c48d71fed911f52f
 RPROVIDES:${PN} += "libonnx \
 libonnx(aarch-64) \
 libonnx.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

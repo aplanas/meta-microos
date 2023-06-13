@@ -19,6 +19,7 @@ tex(initcar.tex) \
 tex(shapecm.tex) \
 tex(shapedc.tex) \
 texlive-codepage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

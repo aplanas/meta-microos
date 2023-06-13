@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-hpc-libraries \
 patterns-hpc-libraries(aarch-64)"
+
 RDEPENDS:${PN} += "iputils \
 lua-lmod \
 mpich-gnu-hpc \

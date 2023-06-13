@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "alternative(gzip) \
 gzip \
 zstd-gzip \
 zstd-gzip(aarch-64)"
+
 RDEPENDS:${PN} += "zstd"
 
 inherit rpm

@@ -14,6 +14,7 @@ libvpl.so.2(LIBVPL_2.0)(64bit) \
 libvpl.so.2(LIBVPL_2.1)(64bit) \
 libvpl2 \
 libvpl2(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

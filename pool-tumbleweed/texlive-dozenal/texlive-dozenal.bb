@@ -48,6 +48,7 @@ tex(dozenal.map) \
 tex(dozenal.sty) \
 tex(gray.tfm) \
 texlive-dozenal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

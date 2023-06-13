@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(scsnowman-normal.def) \
 tex(scsnowman.sty) \
 tex(sctkzsym-base.sty) \
 texlive-scsnowman"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

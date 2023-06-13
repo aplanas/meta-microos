@@ -13,6 +13,7 @@ RPM_HASH = "7d799d892591bd05db8b8ef6075d7caaf1e93bff8f3920eb3858e49a9a5f15b8607a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swtcalendar"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

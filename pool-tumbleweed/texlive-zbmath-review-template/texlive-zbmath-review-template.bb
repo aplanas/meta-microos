@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(zb-basics.sty) \
 tex(zbMATH.cls) \
 texlive-zbmath-review-template"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

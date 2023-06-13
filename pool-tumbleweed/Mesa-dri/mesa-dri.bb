@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "Mesa-dri \
 Mesa-dri(aarch-64) \
 config(Mesa-dri) \
 libgallium_dri.so()(64bit)"
+
 RDEPENDS:${PN} += "Mesa \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

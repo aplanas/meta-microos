@@ -39,6 +39,7 @@ locale(sysprof:uk) \
 locale(sysprof:zh_CN) \
 sysprof-lang \
 sysprof-lang-all"
+
 RDEPENDS:${PN} += "sysprof"
 
 inherit rpm

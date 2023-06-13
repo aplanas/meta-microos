@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-preggy \
 python3.10dist(preggy) \
 python310-preggy \
 python3dist(preggy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Unidecode \
 python310-six"

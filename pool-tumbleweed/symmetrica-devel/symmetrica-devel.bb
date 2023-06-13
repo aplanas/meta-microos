@@ -10,6 +10,7 @@ RPM_HASH = "c8ca3f5d770484009e34aa91bb589ba500551acfa1e532e5e29d594fddcfb17bf525
 
 RPROVIDES:${PN} += "symmetrica-devel \
 symmetrica-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsymmetrica2"
 
 inherit rpm

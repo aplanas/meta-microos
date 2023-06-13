@@ -11,6 +11,7 @@ RPM_HASH = "1745d57ceb65d93b105c1f855d7952740596853756d8f69b23d8ed7e3374fbec7c0d
 RPROVIDES:${PN} += "libfcft.so.4()(64bit) \
 libfcft4 \
 libfcft4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

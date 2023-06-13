@@ -11,6 +11,7 @@ RPM_HASH = "b578958d779d66c22a4ec5ec4ffa25dc5116697be89fff6f8e5ccccf7c31755e4f19
 
 RPROVIDES:${PN} += "lua53-lgi-doc \
 lua53-lgi-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

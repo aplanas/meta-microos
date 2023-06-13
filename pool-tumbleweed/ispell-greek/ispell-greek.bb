@@ -15,6 +15,7 @@ ispell-greek \
 ispell-greek(aarch-64) \
 ispell_dictionary \
 locale(ispell:el)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

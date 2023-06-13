@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(perl-homedir) \
 perl-homedir"
+
 RDEPENDS:${PN} += "/usr/bin/cpan \
 perl-local-lib"
 

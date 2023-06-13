@@ -9,6 +9,7 @@ RPM_HASH = "249e8813052212ae262a039e2460d480423d4ee5c3103cb796b99bff7938bc6f99c5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-docker-ps"
+
 RDEPENDS:${PN} += "bumblebee-status \
 python3-docker"
 

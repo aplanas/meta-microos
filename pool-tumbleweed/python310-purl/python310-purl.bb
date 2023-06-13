@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-purl \
 python3.10dist(purl) \
 python310-purl \
 python3dist(purl)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

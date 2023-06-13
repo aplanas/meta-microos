@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.9dist(fonttools) \
 python39-FontTools \
 python39-fonttools \
 python3dist(fonttools)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

@@ -15,6 +15,7 @@ mvn(ldapjdk:ldapjdk) \
 mvn(ldapjdk:ldapjdk:pom:) \
 mvn(ldapsdk:ldapsdk) \
 mvn(ldapsdk:ldapsdk:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 jpackage-utils \

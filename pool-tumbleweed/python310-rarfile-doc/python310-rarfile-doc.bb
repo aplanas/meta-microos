@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rarfile-doc \
 python310-rarfile-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

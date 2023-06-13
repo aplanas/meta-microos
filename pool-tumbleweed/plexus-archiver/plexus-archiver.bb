@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.plexus:plexus-archiver) \
 mvn(org.codehaus.plexus:plexus-archiver:pom:) \
 plexus-archiver"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.commons:commons-compress) \

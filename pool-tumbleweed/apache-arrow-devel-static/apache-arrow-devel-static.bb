@@ -16,6 +16,7 @@ RPM_HASH = "d20d38a6a3fba245cf7075756794fc1217004633cf15923ef5f90db99d320df5adef
 
 RPROVIDES:${PN} += "apache-arrow-devel-static \
 apache-arrow-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "apache-arrow-devel"
 
 inherit rpm

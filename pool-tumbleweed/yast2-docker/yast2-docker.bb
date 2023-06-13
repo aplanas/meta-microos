@@ -13,6 +13,7 @@ application(org.opensuse.yast.Docker.desktop) \
 metainfo() \
 metainfo(org.opensuse.yast.Docker.metainfo.xml) \
 yast2-docker"
+
 RDEPENDS:${PN} += "docker \
 rubygem(ruby:3.2.0:docker-api) \
 yast2 \

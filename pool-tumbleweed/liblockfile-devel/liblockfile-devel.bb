@@ -14,6 +14,7 @@ RPM_HASH = "32daa92050cf7862fb9df8307c9ba7f3b7fe1efe2ee865987b38b1732a16118206f5
 
 RPROVIDES:${PN} += "liblockfile-devel \
 liblockfile-devel(aarch-64)"
+
 RDEPENDS:${PN} += "liblockfile1"
 
 inherit rpm

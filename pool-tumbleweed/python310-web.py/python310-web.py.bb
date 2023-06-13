@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-web.py \
 python3.10dist(web.py) \
 python310-web.py \
 python3dist(web.py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-cheroot"
 

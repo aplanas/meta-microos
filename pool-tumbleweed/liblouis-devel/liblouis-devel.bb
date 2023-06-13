@@ -15,6 +15,7 @@ RPM_HASH = "3b419cf4802c1610df3bcd5b228dc5cb1b5093f30e7ac06c5558802f1aae65806f0b
 RPROVIDES:${PN} += "liblouis-devel \
 liblouis-devel(aarch-64) \
 pkgconfig(liblouis)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblouis20"
 

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(python-daemon) \
 python311-python-daemon \
 python3dist(python-daemon)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-lockfile"
 

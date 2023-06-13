@@ -10,6 +10,7 @@ RPM_HASH = "f4506a19fe9b42dc49156a30d94d764781e3b81c7a539fea64673ce059562dc9af78
 
 RPROVIDES:${PN} += "qt6-3dlogic-private-devel \
 qt6-3dlogic-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt63DLogic)"
 
 inherit rpm

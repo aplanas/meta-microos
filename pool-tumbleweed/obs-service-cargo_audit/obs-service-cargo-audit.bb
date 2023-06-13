@@ -10,6 +10,7 @@ RPM_HASH = "bb59e187e72db9c596c80694c2314ca610d02c5e4ae3b8af4e18d4478eb1584d77d1
 
 RPROVIDES:${PN} += "obs-service-cargo_audit \
 obs-service-cargo_audit(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 cargo-audit \
 cargo-audit-advisory-db \

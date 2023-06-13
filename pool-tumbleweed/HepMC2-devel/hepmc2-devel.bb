@@ -14,6 +14,7 @@ RPM_HASH = "750d2504a1b1ac930428295103679d671409c9ffb5f40fe050a39a5dcbe8b8f44154
 
 RPROVIDES:${PN} += "HepMC2-devel \
 HepMC2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libHepMC4"
 
 inherit rpm

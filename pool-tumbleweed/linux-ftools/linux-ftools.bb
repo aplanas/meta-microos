@@ -14,6 +14,7 @@ RPM_HASH = "a001775fd06a55420abe02773db128c768a5c1ed6a3dfa31ce516a4a9a3f19d894e6
 
 RPROVIDES:${PN} += "linux-ftools \
 linux-ftools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

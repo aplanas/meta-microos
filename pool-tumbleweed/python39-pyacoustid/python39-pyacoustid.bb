@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyacoustid) \
 python39-pyacoustid \
 python3dist(pyacoustid)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-audioread \
 python39-requests"

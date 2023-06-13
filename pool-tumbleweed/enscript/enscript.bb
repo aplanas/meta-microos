@@ -19,6 +19,7 @@ enscript \
 enscript(aarch-64) \
 genscript \
 nenscrip"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sed \
 /bin/sh \

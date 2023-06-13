@@ -11,6 +11,7 @@ RPM_HASH = "1f00ecae0dc61ee86babd0c443e954c80f9955827c4550230456b66987627b1591cb
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-prociono-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "634a9749905b9ce560f86d026d3618db57f1317cc5b19c80908dbd4830c7655b02b6
 
 RPROVIDES:${PN} += "editres \
 editres(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

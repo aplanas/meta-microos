@@ -12,6 +12,7 @@ RPM_HASH = "92dd7ac325d662643f4d2353d4fdf941851f1ea51fd0a1ecfb71ad19cf0b556000e7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-fonts-common"
+
 RDEPENDS:${PN} += "lilypond-emmentaler-fonts"
 
 inherit rpm

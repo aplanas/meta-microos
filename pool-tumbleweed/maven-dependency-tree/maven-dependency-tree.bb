@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-dependency-tree \
 mvn(org.apache.maven.shared:maven-dependency-tree) \
 mvn(org.apache.maven.shared:maven-dependency-tree:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.codehaus.plexus:plexus-component-annotations) \

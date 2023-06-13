@@ -9,6 +9,7 @@ RPM_HASH = "411c4c777f0caa0ba0f780fcf5c94dc29c2c2557b4c1b28e5a7ba18201bc4774573c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-morenames-doc"
+
 RDEPENDS:${PN} += "/usr/bin/python"
 
 inherit rpm

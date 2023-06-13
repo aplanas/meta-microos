@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-msoffcrypto-tool \
 python3.10dist(msoffcrypto-tool) \
 python310-msoffcrypto-tool \
 python3dist(msoffcrypto-tool)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

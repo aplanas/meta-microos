@@ -17,6 +17,7 @@ RPM_HASH = "13dcc4f28fb321d7e1439a2dcfa48896e9f631b602b55d48684a8b8fdc5d8c2322b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-poi-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

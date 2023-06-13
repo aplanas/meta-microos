@@ -18,6 +18,7 @@ rubygem(ruby:3.2.0:http-cookie) \
 rubygem(ruby:3.2.0:http-cookie:1) \
 rubygem(ruby:3.2.0:http-cookie:1.0) \
 rubygem(ruby:3.2.0:http-cookie:1.0.5)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:domain_name:0)"
 

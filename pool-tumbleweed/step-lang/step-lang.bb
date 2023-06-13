@@ -66,6 +66,7 @@ locale(step:zh_CN) \
 locale(step:zh_TW) \
 step-lang \
 step-lang-all"
+
 RDEPENDS:${PN} += "step"
 
 inherit rpm

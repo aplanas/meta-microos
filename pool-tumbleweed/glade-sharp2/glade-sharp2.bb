@@ -16,6 +16,7 @@ mono(policy.2.4.glade-sharp) \
 mono(policy.2.6.glade-sharp) \
 mono(policy.2.8.glade-sharp) \
 pkgconfig(glade-sharp-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libglade-2_0-0 \
 mono(gdk-sharp) \

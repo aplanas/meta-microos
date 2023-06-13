@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "libgda-6_0-sqlcipher \
 libgda-6_0-sqlcipher(aarch-64) \
 libgda-sqlcipher \
 libgda-sqlcipher-6.0.so()(64bit)"
+
 RDEPENDS:${PN} += "libgda-6.0.so.6.0.0()(64bit) \
 libgda-6_0-6_0_0 \
 libgda-6_0-sqlite \

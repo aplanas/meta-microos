@@ -17,6 +17,7 @@ libartikulatelearnerprofile.so.0()(64bit) \
 libartikulatesound.so.0()(64bit) \
 metainfo() \
 metainfo(org.kde.artikulate.appdata.xml)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kirigami2 \
 knewstuff-imports \

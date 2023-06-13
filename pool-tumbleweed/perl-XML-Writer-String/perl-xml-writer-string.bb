@@ -21,6 +21,7 @@ RPM_HASH = "4d51923a2a4691d2acc33310f00c6c6cf65817af7cfb61623bef188bf2f20aad696e
 RPROVIDES:${PN} += "perl(XML::Writer::String) \
 perl-XML-Writer-String \
 perl-XML-Writer-String(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl-XML-Writer"
 

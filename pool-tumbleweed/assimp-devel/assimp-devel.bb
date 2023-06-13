@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "assimp-devel \
 assimp-devel(aarch-64) \
 cmake(assimp) \
 pkgconfig(assimp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1()(64bit) \

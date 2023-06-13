@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.concurrency \
 python3.10dist(oslo.concurrency) \
 python3dist(oslo.concurrency)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-fasteners \

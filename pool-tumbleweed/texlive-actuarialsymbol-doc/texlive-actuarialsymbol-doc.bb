@@ -9,6 +9,7 @@ RPM_HASH = "a1e76068690829943de8359aae4541559fc2749724ae01d8ef82e4a2791133b38767
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-actuarialsymbol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

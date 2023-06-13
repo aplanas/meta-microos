@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "binwalk \
 python3.10dist(binwalk) \
 python3dist(binwalk)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 file \
 python(abi) \

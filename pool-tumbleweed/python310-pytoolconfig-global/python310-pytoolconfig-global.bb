@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytoolconfig-global \
 python310-pytoolconfig-global"
+
 RDEPENDS:${PN} += "python310-platformdirs \
 python310-pytoolconfig"
 

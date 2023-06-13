@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "application() \
 application(dde-launcher.desktop) \
 deepin-launcher \
 deepin-launcher(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 dbus-1 \
 deepin-daemon \

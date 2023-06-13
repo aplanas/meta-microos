@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mizani \
 python3.10dist(mizani) \
 python310-mizani \
 python3dist(mizani)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

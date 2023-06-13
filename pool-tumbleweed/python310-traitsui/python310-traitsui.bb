@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-traitsui \
 python3.10dist(traitsui) \
 python310-traitsui \
 python3dist(traitsui)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyface \
 python310-traits"

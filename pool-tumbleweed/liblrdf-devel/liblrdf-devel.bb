@@ -11,6 +11,7 @@ RPM_HASH = "05caffae73cad36f9b7e1e3172eb64524e7c066d2d89f02c1ee20c64d3cfd46db10c
 RPROVIDES:${PN} += "liblrdf-devel \
 liblrdf-devel(aarch-64) \
 pkgconfig(lrdf)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblrdf2 \
 libraptor-devel"

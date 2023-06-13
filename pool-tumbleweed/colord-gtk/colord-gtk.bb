@@ -11,6 +11,7 @@ RPM_HASH = "0b94930be8af6477895d537e220533f24148ad3dadfe635e1f89f6cc6d87da322b38
 
 RPROVIDES:${PN} += "colord-gtk \
 colord-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

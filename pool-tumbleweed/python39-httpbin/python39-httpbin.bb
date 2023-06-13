@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(httpbin) \
 python39-httpbin \
 python3dist(httpbin)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Brotli \
 python39-Flask \

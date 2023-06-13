@@ -22,6 +22,7 @@ libpam_wrapper.so.0()(64bit) \
 pam_wrapper \
 pam_wrapper(aarch-64) \
 pkgconfig(pam_wrapper)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

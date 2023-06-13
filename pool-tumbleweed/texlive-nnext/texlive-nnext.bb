@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nnext.sty) \
 texlive-nnext"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

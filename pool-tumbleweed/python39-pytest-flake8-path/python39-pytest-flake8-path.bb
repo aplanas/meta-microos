@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytest-flake8-path) \
 python39-pytest-flake8-path \
 python3dist(pytest-flake8-path)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-flake8 \
 python39-pytest"

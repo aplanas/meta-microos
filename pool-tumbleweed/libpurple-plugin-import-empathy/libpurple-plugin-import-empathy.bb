@@ -9,6 +9,7 @@ RPM_HASH = "e839caab6c6e2c721831b62038da4f815cb8e720077c46b5ef6e907a580787372d7b
 
 RPROVIDES:${PN} += "libpurple-plugin-import-empathy \
 libpurple-plugin-import-empathy(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 libglib-2.0.so.0()(64bit) \
 libpurple.so.0()(64bit)"

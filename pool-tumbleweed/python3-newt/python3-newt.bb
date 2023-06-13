@@ -10,6 +10,7 @@ RPM_HASH = "da4c3c0e5e2d934b7d378489d3212edbdbf706e87d4ccec7afca9f4e64405564c1a3
 
 RPROVIDES:${PN} += "python3-newt \
 python3-newt(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

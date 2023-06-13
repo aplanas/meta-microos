@@ -9,6 +9,7 @@ RPM_HASH = "34ddaae7e7f1e41ab29e777d07ab5f0ddab9a92f20d0fa50b01fdcd9ef6265f320d8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ftcap-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

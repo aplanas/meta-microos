@@ -21,6 +21,7 @@ perl(Gtk3::ImageView::Tool::Dragger) \
 perl(Gtk3::ImageView::Tool::Selector) \
 perl(Gtk3::ImageView::Tool::SelectorDragger) \
 perl-Gtk3-ImageView"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Cairo) \
 perl(Glib) \

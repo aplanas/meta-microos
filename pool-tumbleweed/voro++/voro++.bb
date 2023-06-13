@@ -14,6 +14,7 @@ RPM_HASH = "8558eead56474c6ae66f3353b31b4bb53fe8b5f920e1f58c05480916fa6a4405e467
 
 RPROVIDES:${PN} += "voro++ \
 voro++(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

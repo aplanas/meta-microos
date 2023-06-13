@@ -11,6 +11,7 @@ RPM_HASH = "9e57e64553e3098f50be70189ab7efed827de1e224f8a382b59d371260e2a61d1bc1
 RPROVIDES:${PN} += "config(galene) \
 galene \
 galene(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

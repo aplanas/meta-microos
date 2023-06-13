@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(quantumarticle.cls) \
 tex(quantumview.cls) \
 texlive-quantumarticle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

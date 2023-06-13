@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-gui-lang \
 highlight-gui-lang-all"
+
 RDEPENDS:${PN} += "highlight-gui"
 
 inherit rpm

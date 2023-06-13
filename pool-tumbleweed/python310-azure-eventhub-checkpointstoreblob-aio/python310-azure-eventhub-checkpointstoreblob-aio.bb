@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-azure-eventhub-checkpointstoreblob-aio \
 python3.10dist(azure-eventhub-checkpointstoreblob-aio) \
 python310-azure-eventhub-checkpointstoreblob-aio \
 python3dist(azure-eventhub-checkpointstoreblob-aio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-aiohttp \
 python310-azure-core \

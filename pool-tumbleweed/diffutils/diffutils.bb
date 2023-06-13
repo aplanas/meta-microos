@@ -11,6 +11,7 @@ RPM_HASH = "723bc09c5700c1c4af026fc80958b3ad4bc0432dc8c3ce3ad27b483dbd70afb00325
 RPROVIDES:${PN} += "diff \
 diffutils \
 diffutils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

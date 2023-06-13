@@ -33,6 +33,7 @@ RPROVIDES:${PN} += "python3-azure-security-attestation \
 python3.10dist(azure-security-attestation) \
 python310-azure-security-attestation \
 python3dist(azure-security-attestation)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

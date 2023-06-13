@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "config(golang-github-prometheus-prometheus) \
 golang-github-prometheus-prometheus \
 golang-github-prometheus-prometheus(aarch-64) \
 prometheus"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

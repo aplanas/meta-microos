@@ -10,6 +10,7 @@ RPM_HASH = "b39c0551d16c8e4ee5510c3cf956db9a78321adc0586fc632f666fc8c04b8df29162
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtv-scan-tables-v5"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

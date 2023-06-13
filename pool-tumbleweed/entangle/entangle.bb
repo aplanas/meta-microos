@@ -19,6 +19,7 @@ libentangle_backend.so.0()(64bit) \
 libentangle_frontend.so.0()(64bit) \
 metainfo() \
 metainfo(org.entangle_photo.Manager.metainfo.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -88,6 +88,7 @@ locale(gnome-power-manager:vi) \
 locale(gnome-power-manager:zh_CN) \
 locale(gnome-power-manager:zh_HK) \
 locale(gnome-power-manager:zh_TW)"
+
 RDEPENDS:${PN} += "gnome-power-manager"
 
 inherit rpm

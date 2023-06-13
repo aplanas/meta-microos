@@ -9,6 +9,7 @@ RPM_HASH = "3a3e851e33a5b3c9705a4e71085eefd42bc61b6592aa9b445878da014baf2793f440
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-covington-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

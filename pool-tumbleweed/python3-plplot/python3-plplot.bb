@@ -13,6 +13,7 @@ RPM_HASH = "2ad69a79d398e578477d7ac3b2b6c2becd74b658d9eae9fa116f1c8202d0578191fe
 RPROVIDES:${PN} += "python-plplot \
 python3-plplot \
 python3-plplot(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

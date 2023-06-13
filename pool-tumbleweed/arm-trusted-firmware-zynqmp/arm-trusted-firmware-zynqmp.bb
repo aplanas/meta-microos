@@ -11,6 +11,7 @@ RPM_HASH = "eac879bf0092f25478b9704b96e2e56310f6f9134c06e3783eca5412105eda051f1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-zynqmp"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

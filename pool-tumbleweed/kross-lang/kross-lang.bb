@@ -94,6 +94,7 @@ locale(kross:wa) \
 locale(kross:zh_CN) \
 locale(kross:zh_HK) \
 locale(kross:zh_TW)"
+
 RDEPENDS:${PN} += "kross"
 
 inherit rpm

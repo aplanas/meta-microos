@@ -9,6 +9,7 @@ RPM_HASH = "88020d35b445fbfc6407fc1b9ca7fc13b00e8a5b5ec026c6e4f68cc9546d2d0763f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diagmac2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

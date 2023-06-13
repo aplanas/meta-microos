@@ -13,6 +13,7 @@ RPM_HASH = "a2f31852aac066df267e0630e96257f3e11c514e4e5aac7626d1a928ffa180033125
 RPROVIDES:${PN} += "config(pptpd) \
 pptpd \
 pptpd(aarch-64)"
+
 RDEPENDS:${PN} += "(kmod(ppp_mppe.ko) if kernel) \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

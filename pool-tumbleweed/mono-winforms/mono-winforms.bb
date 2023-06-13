@@ -23,6 +23,7 @@ mono(System.Windows.Forms.DataVisualization) \
 mono-window-forms \
 mono-winforms \
 mono-winforms(aarch-64)"
+
 RDEPENDS:${PN} += "mono(Mono.Posix) \
 mono(System) \
 mono(System.Configuration) \

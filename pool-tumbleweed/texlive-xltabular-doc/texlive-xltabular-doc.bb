@@ -9,6 +9,7 @@ RPM_HASH = "ca65f672cd5dc64f5fc0a2d2c33e32731d0739451db2049deaeb3a63da2934c46933
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xltabular-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

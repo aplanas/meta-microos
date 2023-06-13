@@ -9,6 +9,7 @@ RPM_HASH = "ac0a29c7ef699f6f70be7246af861f91705cb846a28abaf2bd81c2fe4d004fce8dac
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-recipebook-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

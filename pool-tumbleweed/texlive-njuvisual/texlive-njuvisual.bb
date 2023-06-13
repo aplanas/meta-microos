@@ -25,6 +25,7 @@ tex(njuvisual-name-zh-nju.def) \
 tex(njuvisual-spirit-nju.def) \
 tex(njuvisual.sty) \
 texlive-njuvisual"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

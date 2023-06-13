@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "php-pear(XML_Parser) \
 php-pear-XML_Parser \
 php5-pear-XML_Parser \
 php7-pear-XML_Parser"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

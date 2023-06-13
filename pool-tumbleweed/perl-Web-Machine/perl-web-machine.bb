@@ -44,6 +44,7 @@ perl(Web::Machine::Util) \
 perl(Web::Machine::Util::BodyEncoding) \
 perl(Web::Machine::Util::ContentNegotiation) \
 perl-Web-Machine"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(HTTP::Headers::ActionPack) \
 perl(HTTP::Status) \

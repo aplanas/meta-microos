@@ -51,6 +51,7 @@ tex(moderncvstylefancy.sty) \
 tex(moderncvstyleoldstyle.sty) \
 tex(tweaklist.sty) \
 texlive-moderncv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

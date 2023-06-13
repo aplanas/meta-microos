@@ -17,6 +17,7 @@ pkgconfig(vte-2.91-gtk4) \
 vte-devel \
 vte-devel(aarch-64) \
 vte-doc"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvte-2_91-0 \
 pkgconfig(gio-2.0) \

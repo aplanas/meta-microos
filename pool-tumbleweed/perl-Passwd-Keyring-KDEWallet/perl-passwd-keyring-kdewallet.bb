@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Passwd::Keyring::KDEWallet) \
 perl-Passwd-Keyring-KDEWallet"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::ShareDir) \
 perl(Net::DBus) \

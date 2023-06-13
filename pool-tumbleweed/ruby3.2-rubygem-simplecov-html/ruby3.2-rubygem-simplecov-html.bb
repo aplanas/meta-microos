@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:simplecov-html:0) \
 rubygem(ruby:3.2.0:simplecov-html:0.12) \
 rubygem(ruby:3.2.0:simplecov-html:0.12.3) \
 rubygem(simplecov-html)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

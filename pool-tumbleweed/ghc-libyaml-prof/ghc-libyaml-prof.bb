@@ -10,6 +10,7 @@ RPM_HASH = "1cfb8735d275071adf36ced153fe4896f9ca500361a013919d5dd37f41ab941e497a
 RPROVIDES:${PN} += "ghc-libyaml-prof \
 ghc-libyaml-prof(aarch-64) \
 ghc-prof(libyaml-0.1.2-HGo47aMnIYAKZUBwKE0axw)"
+
 RDEPENDS:${PN} += "ghc-libyaml-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

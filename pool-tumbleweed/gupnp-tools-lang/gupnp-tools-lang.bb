@@ -33,6 +33,7 @@ locale(gupnp-tools:sv) \
 locale(gupnp-tools:tr) \
 locale(gupnp-tools:uk) \
 locale(gupnp-tools:zh_CN)"
+
 RDEPENDS:${PN} += "gupnp-tools"
 
 inherit rpm

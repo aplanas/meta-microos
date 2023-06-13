@@ -15,6 +15,7 @@ RPM_HASH = "c11d2d15138b176fce1e38408b5ef2a4e325e699774cc3ff87a3a8c70f55523bd564
 RPROVIDES:${PN} += "libgda-6_0 \
 libgda-6_0-tools \
 libgda-6_0-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

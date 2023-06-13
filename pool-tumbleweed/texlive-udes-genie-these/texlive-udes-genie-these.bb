@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(udes-genie-these.cls) \
 texlive-udes-genie-these"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

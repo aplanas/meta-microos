@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cases.sty) \
 texlive-cases"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "14bf9f15baaf7a796206497b04effd23e11f8c3309e7f165f1b56f4088c9cafd28bb
 
 RPROVIDES:${PN} += "xfd \
 xfd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

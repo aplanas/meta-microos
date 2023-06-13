@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jdependency \
 mvn(org.vafer:jdependency) \
 mvn(org.vafer:jdependency:pom:)"
+
 RDEPENDS:${PN} += "apache-commons-io \
 java-headless \
 javapackages-filesystem \

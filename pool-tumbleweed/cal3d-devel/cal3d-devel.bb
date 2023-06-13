@@ -12,6 +12,7 @@ RPM_HASH = "a294e79fe286a4848b928aac0f8b4a046e9a16b555643f28bd2e9bae2ec8f7a9cb0f
 RPROVIDES:${PN} += "cal3d-devel \
 cal3d-devel(aarch-64) \
 pkgconfig(cal3d)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcal3d12"
 

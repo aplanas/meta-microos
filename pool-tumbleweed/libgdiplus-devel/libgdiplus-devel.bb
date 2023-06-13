@@ -11,6 +11,7 @@ RPM_HASH = "9adb3f0f31e85d345c5d3606d9c159dc8455d05286173038ca23098b42afdc056e86
 RPROVIDES:${PN} += "libgdiplus-devel \
 libgdiplus-devel(aarch-64) \
 pkgconfig(libgdiplus)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgdiplus0 \
 pkgconfig(glib-2.0) \

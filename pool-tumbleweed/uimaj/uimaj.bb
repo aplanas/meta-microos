@@ -42,6 +42,7 @@ mvn(org.apache.uima:uimaj-tools:pom:) \
 mvn(org.apache.uima:uimaj:pom:) \
 uimaj \
 uimaj(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson.core:jackson-core) \

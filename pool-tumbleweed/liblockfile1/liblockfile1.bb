@@ -15,6 +15,7 @@ RPM_HASH = "7f99bda83142c1cabd248977a43e924044b0e22408a857a234489a0db97be65cdfca
 RPROVIDES:${PN} += "liblockfile.so.1()(64bit) \
 liblockfile1 \
 liblockfile1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

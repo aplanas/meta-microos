@@ -13,6 +13,7 @@ RPM_HASH = "37cd70ca429325b61311c4bf398184c163aa2e3a969e49575d66174da27da50a2693
 RPROVIDES:${PN} += "libCgl.so.1()(64bit) \
 libCgl1 \
 libCgl1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

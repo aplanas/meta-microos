@@ -10,6 +10,7 @@ RPM_HASH = "d4862804441b326b281dc8b7c00cdbd0b1cc39d867c7769c8bee49a8c402deaeebb1
 RPROVIDES:${PN} += "akonadi-server-apparmor \
 akonadi-server-apparmor(aarch-64) \
 config(akonadi-server-apparmor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 apparmor-abstractions"
 

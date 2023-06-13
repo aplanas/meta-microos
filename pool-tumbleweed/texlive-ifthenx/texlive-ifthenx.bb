@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ifthenx.sty) \
 texlive-ifthenx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

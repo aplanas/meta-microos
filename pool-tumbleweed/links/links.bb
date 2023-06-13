@@ -13,6 +13,7 @@ RPM_HASH = "771007b2373aaf603c6b3d9bd1e52d2678fee165f2dc271abe6cf6cc0c74fcf1026a
 RPROVIDES:${PN} += "links \
 links(aarch-64) \
 web_browser"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

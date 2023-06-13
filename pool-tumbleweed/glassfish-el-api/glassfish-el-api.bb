@@ -16,6 +16,7 @@ mvn(javax.el:javax.el-api:pom:) \
 mvn(org.glassfish:javax.el-api) \
 mvn(org.glassfish:javax.el-api:pom:) \
 osgi(javax.el-api)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

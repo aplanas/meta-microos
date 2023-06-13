@@ -18,6 +18,7 @@ pkgconfig(Qt5Designer) \
 pkgconfig(Qt5Help) \
 pkgconfig(Qt5UiPlugin) \
 pkgconfig(Qt5UiTools)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Designer5 \
 libQt5DesignerComponents5 \

@@ -9,6 +9,7 @@ RPM_HASH = "826b2f0bde7561605b8a49b98ce4e1d3bec31ae2eee46231f80dd9bc5b046db1c69f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librecaslon-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

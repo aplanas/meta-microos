@@ -14,6 +14,7 @@ RPM_HASH = "baedf075410acd775f70d92c04ef16b3cd6784a607d6522111ee215dd859222b494b
 RPROVIDES:${PN} += "dbus-1-presage \
 python3-dbus-presage \
 python3-dbus-presage(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-dbus-python \

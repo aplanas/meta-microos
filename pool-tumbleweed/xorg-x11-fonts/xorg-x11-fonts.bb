@@ -151,6 +151,7 @@ xorg-x11-fonts \
 xorg-x11-fonts-cyrillic \
 xorg-x11-fonts-scalable \
 xorg-x11-fonts-syriac"
+
 RDEPENDS:${PN} += "/bin/sh \
 fonts-config \
 xorg-x11-fonts-core"

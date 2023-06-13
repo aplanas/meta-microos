@@ -11,6 +11,7 @@ RPM_HASH = "f9c3adf4d6a4167e9b2e07e837ea64f1d7c32378f080f34cc13a9649c5a0e9efa227
 RPROVIDES:${PN} += "cmake(KF5Notifications) \
 knotifications-devel \
 knotifications-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5DBus) \
 cmake(Qt5TextToSpeech) \
 cmake(Qt5Widgets) \

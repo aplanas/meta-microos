@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcmanfm-qt-lang \
 pcmanfm-qt-lang-all"
+
 RDEPENDS:${PN} += "pcmanfm-qt"
 
 inherit rpm

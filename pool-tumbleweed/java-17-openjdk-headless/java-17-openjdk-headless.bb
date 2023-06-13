@@ -60,6 +60,7 @@ libsyslookup.so()(64bit) \
 libsystemconf.so()(64bit) \
 libverify.so()(64bit) \
 libzip.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-ca-certificates \
 jpackage-utils \

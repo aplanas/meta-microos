@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-asteval \
 python3.10dist(asteval) \
 python310-asteval \
 python3dist(asteval)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

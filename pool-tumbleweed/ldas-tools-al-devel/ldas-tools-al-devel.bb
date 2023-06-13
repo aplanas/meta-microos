@@ -10,6 +10,7 @@ RPM_HASH = "0d321c9aa5dc1092bb7b173a0492965d05ed56801dd1ad40e7a8c6724fe71d9a8365
 RPROVIDES:${PN} += "ldas-tools-al-devel \
 ldas-tools-al-devel(aarch-64) \
 pkgconfig(ldastoolsal)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libldastoolsal7"
 

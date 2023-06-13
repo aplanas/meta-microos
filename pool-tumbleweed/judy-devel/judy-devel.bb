@@ -9,6 +9,7 @@ RPM_HASH = "a6f87327f225582d44845aeaa58d16f2fd1f945dce3ab90cacec06bbb183f6eb344d
 
 RPROVIDES:${PN} += "judy-devel \
 judy-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libJudy1"
 
 inherit rpm

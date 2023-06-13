@@ -38,6 +38,7 @@ RPM_HASH = "86cb09e25cd6da1e47c26eda331efa19fad3f60a3fdc1906755bb3df63ffc0e5049c
 RPROVIDES:${PN} += "lv2-devel \
 lv2-devel(aarch-64) \
 pkgconfig(lv2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/python3 \
 lv2"

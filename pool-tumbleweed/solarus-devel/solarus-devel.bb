@@ -9,6 +9,7 @@ RPM_HASH = "70e70ce3d8532ea7389b5ba73dfa9173896e3744cc6c75a941d8bb5165bb4fd0c4e6
 
 RPROVIDES:${PN} += "solarus-devel \
 solarus-devel(aarch-64)"
+
 RDEPENDS:${PN} += "solarus \
 solarus-gui"
 

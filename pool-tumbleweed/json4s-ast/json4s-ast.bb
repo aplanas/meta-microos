@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "json4s-ast \
 mvn(org.json4s:json4s-ast_2.10) \
 mvn(org.json4s:json4s-ast_2.10:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library)"

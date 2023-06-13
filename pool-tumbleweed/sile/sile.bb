@@ -14,6 +14,7 @@ RPM_HASH = "263006ae6c21fd336b3d76bd045996bd92f6726878ef194f55ca14ca667362ba4bec
 
 RPROVIDES:${PN} += "sile \
 sile(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/lua \
 fontconfig \
 freetype2 \

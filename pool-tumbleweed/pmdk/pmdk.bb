@@ -14,6 +14,7 @@ RPM_HASH = "01f0da2e248fe367f2920daaf2429aa0e171398b6b26a40daab34733684597e2754f
 RPROVIDES:${PN} += "nvml \
 pmdk \
 pmdk(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

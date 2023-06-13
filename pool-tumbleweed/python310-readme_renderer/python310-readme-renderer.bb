@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-readme_renderer \
 python3.10dist(readme-renderer) \
 python310-readme_renderer \
 python3dist(readme-renderer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pygments \
 python310-bleach \

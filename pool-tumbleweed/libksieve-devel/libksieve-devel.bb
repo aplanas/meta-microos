@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5LibKSieve) \
 cmake(KPim5LibKSieve) \
 libksieve-devel \
 libksieve-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libksieve5"
 
 inherit rpm

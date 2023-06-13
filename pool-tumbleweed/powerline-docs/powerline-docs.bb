@@ -9,6 +9,7 @@ RPM_HASH = "96979bcbce02efce785d2c997c63a61090683725b6d995a5b9e757eba2dcd8b17c01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powerline-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

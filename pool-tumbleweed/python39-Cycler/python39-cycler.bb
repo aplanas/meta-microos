@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cycler) \
 python39-Cycler \
 python3dist(cycler)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

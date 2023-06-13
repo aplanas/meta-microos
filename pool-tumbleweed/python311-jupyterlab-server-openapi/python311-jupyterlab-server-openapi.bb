@@ -9,6 +9,7 @@ RPM_HASH = "c6f9bd4f68c273ed7573ab1d4ad5bd8d33211d4da40d025b87733b91d12846c8e4ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-jupyterlab-server-openapi"
+
 RDEPENDS:${PN} += "(python311-openapi-core >= 0.16.1 with python311-openapi-core < 0.17) \
 python311-jupyterlab-server \
 python311-ruamel.yaml"

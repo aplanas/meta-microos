@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-communication-phonenumbers \
 python3.10dist(azure-communication-phonenumbers) \
 python310-azure-communication-phonenumbers \
 python3dist(azure-communication-phonenumbers)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-communication-nspkg \
 python310-azure-core \

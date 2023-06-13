@@ -16,6 +16,7 @@ mimehandler(application/pdf) \
 mimehandler(text/x-tex) \
 texworks \
 texworks(aarch-64)"
+
 RDEPENDS:${PN} += "dbus-1 \
 hunspell \
 ld-linux-aarch64.so.1()(64bit) \

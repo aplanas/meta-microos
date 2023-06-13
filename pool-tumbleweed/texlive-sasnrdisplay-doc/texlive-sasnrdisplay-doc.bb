@@ -9,6 +9,7 @@ RPM_HASH = "2bab080cc288321deda86b1435f0d373f7b3ff01a2ab0b8cb6228611b2d2d2e40004
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sasnrdisplay-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

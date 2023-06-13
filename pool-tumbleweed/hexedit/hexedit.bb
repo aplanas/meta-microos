@@ -10,6 +10,7 @@ RPM_HASH = "9dd2639ef78ca425e592bd1d46e9547f1338cd10f66475832bc884f00c5afee2cacc
 
 RPROVIDES:${PN} += "hexedit \
 hexedit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

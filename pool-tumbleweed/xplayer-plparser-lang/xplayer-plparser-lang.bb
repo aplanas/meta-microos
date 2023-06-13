@@ -94,6 +94,7 @@ locale(xplayer-plparser:zh_HK) \
 locale(xplayer-plparser:zh_TW) \
 xplayer-plparser-lang \
 xplayer-plparser-lang-all"
+
 RDEPENDS:${PN} += "xplayer-plparser"
 
 inherit rpm

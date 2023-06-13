@@ -12,6 +12,7 @@ RPM_HASH = "0de4e7176fd5e4b7e832f92c2c086bee22ffb0573149ee0aa029ea79899fe5c3a051
 RPROVIDES:${PN} += "libQCoro5Quick.so.0()(64bit) \
 libQCoro5Quick0 \
 libQCoro5Quick0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

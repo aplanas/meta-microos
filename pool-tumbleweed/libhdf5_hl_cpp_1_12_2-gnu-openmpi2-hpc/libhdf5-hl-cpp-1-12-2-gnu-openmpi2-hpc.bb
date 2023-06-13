@@ -12,6 +12,7 @@ RPM_HASH = "636590d0063d7c12a70ada9dca82627bd807f88d27cae021a6fb63f23cc260c3a65e
 
 RPROVIDES:${PN} += "libhdf5_hl_cpp_1_12_2-gnu-openmpi2-hpc \
 libhdf5_hl_cpp_1_12_2-gnu-openmpi2-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-openmpi2-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \

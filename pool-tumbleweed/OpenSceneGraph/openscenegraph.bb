@@ -15,6 +15,7 @@ RPM_HASH = "6c872de0bcdd2fe742f0fc27279d02744365f276652f599857414db4559c97a5fdd4
 
 RPROVIDES:${PN} += "OpenSceneGraph \
 OpenSceneGraph(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenThreads.so.21()(64bit) \

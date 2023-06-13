@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(clrscode.sty) \
 texlive-clrscode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

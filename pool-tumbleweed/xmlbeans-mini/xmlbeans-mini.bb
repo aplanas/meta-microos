@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlbeans \
 xmlbeans-mini"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

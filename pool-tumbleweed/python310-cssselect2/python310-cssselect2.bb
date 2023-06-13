@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-cssselect2 \
 python3.10dist(cssselect2) \
 python310-cssselect2 \
 python3dist(cssselect2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tinycss2 \
 python310-webencodings"

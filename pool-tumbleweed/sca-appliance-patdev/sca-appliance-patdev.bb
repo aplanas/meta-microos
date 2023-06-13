@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sca-appliance-patdev) \
 sca-appliance-patdev"
+
 RDEPENDS:${PN} += "/bin/bash \
 sca-appliance-common \
 sca-patterns-base"

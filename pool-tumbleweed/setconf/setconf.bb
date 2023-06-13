@@ -10,6 +10,7 @@ RPM_HASH = "16431781da942fab1ac1d9bb4aac3e50f9c08b0a993096ad2a9a02ec4aa9bfd3a0f3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "setconf"
+
 RDEPENDS:${PN} += "/usr/bin/python3"
 
 inherit rpm

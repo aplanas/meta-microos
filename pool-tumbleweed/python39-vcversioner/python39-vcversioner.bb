@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(vcversioner) \
 python39-vcversioner \
 python3dist(vcversioner)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

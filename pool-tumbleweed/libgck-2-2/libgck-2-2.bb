@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "gck \
 libgck-2-2 \
 libgck-2-2(aarch-64) \
 libgck-2.so.2()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ RPM_HASH = "3f1cf20d8bcc2a2958b6fb71166ad2cc2366fb69af2567c6b34fd9786997685c6df9
 RPROVIDES:${PN} += "ghc-hourglass \
 ghc-hourglass(aarch-64) \
 libHShourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so()(64bit) \

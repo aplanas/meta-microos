@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crbox.sty) \
 texlive-crbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

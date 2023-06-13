@@ -14,6 +14,7 @@ RPM_HASH = "3a2c81308bec7f08ea294da9770ec7edbd93f275f6ecf2621e513a15b8ebeab6a65b
 RPROVIDES:${PN} += "libodraw-devel \
 libodraw-devel(aarch-64) \
 pkgconfig(libodraw)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libodraw1"

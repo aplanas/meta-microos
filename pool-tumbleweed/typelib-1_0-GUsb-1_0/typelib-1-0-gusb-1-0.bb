@@ -12,6 +12,7 @@ RPM_HASH = "b3b438896d7b5e4c47b258f6f2a6ce04a861a74e117f90a79f58204be590137eab18
 RPROVIDES:${PN} += "typelib(GUsb) \
 typelib-1_0-GUsb-1_0 \
 typelib-1_0-GUsb-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgusb.so.2()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

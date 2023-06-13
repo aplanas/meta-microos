@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-cognitiveservices-search-customimagesearch \
 python3.10dist(azure-cognitiveservices-search-customimagesearch) \
 python310-azure-cognitiveservices-search-customimagesearch \
 python3dist(azure-cognitiveservices-search-customimagesearch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-msrest"

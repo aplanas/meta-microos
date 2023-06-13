@@ -12,6 +12,7 @@ RPM_HASH = "32e9fde2047ff9a9a5dd029a7dc05690541ae40e6890c457517441e153cb087d4641
 RPROVIDES:${PN} += "libKF5JSApi.so.5()(64bit) \
 libKF5JSApi5 \
 libKF5JSApi5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

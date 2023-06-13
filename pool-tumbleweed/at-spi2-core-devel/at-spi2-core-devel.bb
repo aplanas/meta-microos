@@ -13,6 +13,7 @@ at-spi2-core-devel(aarch-64) \
 pkgconfig(atk) \
 pkgconfig(atk-bridge-2.0) \
 pkgconfig(atspi-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 at-spi2-core \
 libatk-1_0-0 \

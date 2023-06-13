@@ -22,6 +22,7 @@ libcmpiOSBase_UnixProcessProvider.so()(64bit) \
 libdmiinfo.so.0()(64bit) \
 sblim-cmpi-base \
 sblim-cmpi-base(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 cim-schema \

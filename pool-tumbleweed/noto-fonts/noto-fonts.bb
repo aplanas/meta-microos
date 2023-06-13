@@ -11,6 +11,7 @@ RPM_HASH = "1c85555d22b9b8e766fb023cf7812212b4dc795505c0648be76ebb775f01b73bacf7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "noto-fonts"
+
 RDEPENDS:${PN} += "noto-arimo-fonts \
 noto-cousine-fonts \
 noto-kufiarabic-fonts \

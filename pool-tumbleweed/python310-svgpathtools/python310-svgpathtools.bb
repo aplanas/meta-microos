@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-svgpathtools \
 python3.10dist(svgpathtools) \
 python310-svgpathtools \
 python3dist(svgpathtools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-scipy \

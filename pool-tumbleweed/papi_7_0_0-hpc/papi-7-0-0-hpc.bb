@@ -14,6 +14,7 @@ RPM_HASH = "f968edfd24821a2193487726784c5bc8ca28bb44332d505a882950e987b4a8285be7
 
 RPROVIDES:${PN} += "papi_7_0_0-hpc \
 papi_7_0_0-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

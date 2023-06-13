@@ -14,6 +14,7 @@ RPM_HASH = "d2695bc09fd978d9a8157b38c6c3a55cedc385fd651b2543ce2e9a05295350d8e1e9
 RPROVIDES:${PN} += "config(upower) \
 upower \
 upower(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

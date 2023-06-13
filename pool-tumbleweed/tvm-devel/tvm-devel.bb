@@ -12,6 +12,7 @@ RPM_HASH = "3851c761528f9ff9d65684ecf639e56aed9da0876ceb03515b278402882cac1b25bf
 RPROVIDES:${PN} += "cmake(tvm) \
 tvm-devel \
 tvm-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libtvm"
 
 inherit rpm

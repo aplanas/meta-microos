@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(File::RandomAccess) \
 perl-File-RandomAccess"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "7361455e0aeabd02d53760bffd7ae28e4dabb7b6244ba9b75ffebdd5c5318c3195f5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-cuerna-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

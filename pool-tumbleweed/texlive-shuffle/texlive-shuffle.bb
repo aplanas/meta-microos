@@ -15,6 +15,7 @@ tex(shuffle.sty) \
 tex(shuffle10.tfm) \
 tex(shuffle7.tfm) \
 texlive-shuffle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

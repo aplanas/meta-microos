@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "ispell-nswiss \
 ispell-nswiss(aarch-64) \
 ispell_dictionary \
 locale(ispell:de_CH)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

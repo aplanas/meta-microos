@@ -48,6 +48,7 @@ tex(puenc.def) \
 tex(puvnenc.def) \
 tex(xr-hyper.sty) \
 texlive-hyperref"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

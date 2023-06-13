@@ -45,6 +45,7 @@ font(:lang=zu) \
 font(wenquanyiwenquanyibitmapsong) \
 wqy-bitmap-fonts \
 wqy-bitmapfont"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

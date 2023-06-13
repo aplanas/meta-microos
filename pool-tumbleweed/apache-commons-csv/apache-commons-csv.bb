@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "apache-commons-csv \
 mvn(org.apache.commons:commons-csv) \
 mvn(org.apache.commons:commons-csv:pom:) \
 osgi(org.apache.commons.commons-csv)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

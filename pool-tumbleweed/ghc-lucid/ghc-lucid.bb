@@ -20,6 +20,7 @@ RPM_HASH = "275562dce91f7849d9ba52c9a5c9ea438e25222ac86cfab53d89fe74958eff6d98b2
 RPROVIDES:${PN} += "ghc-lucid \
 ghc-lucid(aarch-64) \
 libHSlucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

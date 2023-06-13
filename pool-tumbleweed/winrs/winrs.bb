@@ -10,6 +10,7 @@ RPM_HASH = "1bbfef1d53165c46c40d2f207afa28844230decea673d4b5c57a24029324f32c07d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "winrs"
+
 RDEPENDS:${PN} += "/usr/bin/ruby \
 openwsman-ruby"
 

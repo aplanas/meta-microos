@@ -95,6 +95,7 @@ locale(libKF5JobWidgets5:wa) \
 locale(libKF5JobWidgets5:zh_CN) \
 locale(libKF5JobWidgets5:zh_HK) \
 locale(libKF5JobWidgets5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5JobWidgets5"
 
 inherit rpm

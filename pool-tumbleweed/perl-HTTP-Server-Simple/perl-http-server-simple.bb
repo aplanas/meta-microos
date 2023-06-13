@@ -35,6 +35,7 @@ RPROVIDES:${PN} += "perl(HTTP::Server::Simple) \
 perl(HTTP::Server::Simple::CGI) \
 perl(HTTP::Server::Simple::CGI::Environment) \
 perl-HTTP-Server-Simple"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(CGI) \
 perl(Socket)"

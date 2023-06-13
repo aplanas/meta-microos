@@ -31,6 +31,7 @@ perl(MooseX::Storage::Traits::DisableCycleDetection) \
 perl(MooseX::Storage::Traits::OnlyWhenBuilt) \
 perl(MooseX::Storage::Util) \
 perl-MooseX-Storage"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::AtomicFile) \
 perl(JSON::MaybeXS) \

@@ -42,6 +42,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(phpMyAdmin) \
 phpMyAdmin"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-bz2 \
 php-ctype \

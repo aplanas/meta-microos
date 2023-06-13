@@ -10,6 +10,7 @@ RPM_HASH = "73e0345e2a84c5ab16363c02b25d3a8e6c80b1e088811ca1f47158fdaef3851c0717
 RPROVIDES:${PN} += "ghc-prof(statistics-0.16.2.0-LfIwroNJuQDMt3pStkU86) \
 ghc-statistics-prof \
 ghc-statistics-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF) \
 ghc-prof(base-4.17.1.0) \

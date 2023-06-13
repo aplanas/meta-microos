@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libzypp-devel \
 libzypp-devel(aarch-64) \
 pkgconfig(libzypp) \
 yast2-packagemanager-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 bzip2 \
 glibc-devel \

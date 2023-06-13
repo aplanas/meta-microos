@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(folium) \
 python39-folium \
 python3dist(folium)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Jinja2 \
 python39-branca \

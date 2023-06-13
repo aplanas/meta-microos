@@ -9,6 +9,7 @@ RPM_HASH = "784cadddbdfa58e23a25d2ce01658fc7e092e535e07932a6d6b56d41ee26be98934b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gupnp-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

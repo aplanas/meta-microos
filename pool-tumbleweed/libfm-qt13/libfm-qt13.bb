@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libfm-qt \
 libfm-qt.so.13()(64bit) \
 libfm-qt13 \
 libfm-qt13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

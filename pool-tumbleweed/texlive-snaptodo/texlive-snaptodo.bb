@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(snaptodo.sty) \
 texlive-snaptodo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

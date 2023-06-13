@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-branca \
 python3.10dist(branca) \
 python310-branca \
 python3dist(branca)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2"
 

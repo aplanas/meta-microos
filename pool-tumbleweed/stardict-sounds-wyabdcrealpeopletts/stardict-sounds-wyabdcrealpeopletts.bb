@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(stardict:en) \
 stardict-sounds-wyabdcrealpeopletts"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

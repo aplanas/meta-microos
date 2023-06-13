@@ -10,6 +10,7 @@ RPM_HASH = "cf31040476ffbe020138fb2f33ea27cc7a55d0f72313c0f09287bc21af92a9ecf97c
 
 RPROVIDES:${PN} += "pcp-pmda-nfsclient \
 pcp-pmda-nfsclient(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 python3-pcp"

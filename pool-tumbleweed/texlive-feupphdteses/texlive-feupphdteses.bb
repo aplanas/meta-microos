@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(feupphdteses.sty) \
 texlive-feupphdteses"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

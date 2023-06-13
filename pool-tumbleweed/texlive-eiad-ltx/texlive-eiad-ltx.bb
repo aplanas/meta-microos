@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eiad.sty) \
 texlive-eiad-ltx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

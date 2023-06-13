@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-axes \
 python3.10dist(django-axes) \
 python310-django-axes \
 python3dist(django-axes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-django-ipware"

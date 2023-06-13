@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-ini2toml \
 python3.10dist(ini2toml) \
 python310-ini2toml \
 python3dist(ini2toml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

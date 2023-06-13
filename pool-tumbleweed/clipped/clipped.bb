@@ -13,6 +13,7 @@ clipped \
 clipped(aarch-64) \
 metainfo() \
 metainfo(com.github.davidmhewitt.clipped.appdata.xml)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

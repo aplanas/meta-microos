@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tagging.sty) \
 texlive-tagging"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

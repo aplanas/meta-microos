@@ -11,6 +11,7 @@ RPM_HASH = "90171d40f9163ab7d800648f54300c81f78cae97b3f9dd4d6058d605480f46588e1a
 RPROVIDES:${PN} += "libcelt051-0 \
 libcelt051-0(aarch-64) \
 libcelt051.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

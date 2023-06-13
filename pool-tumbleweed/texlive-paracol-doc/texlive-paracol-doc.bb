@@ -9,6 +9,7 @@ RPM_HASH = "914f60c4f00734ed41c4aa8b709118ca1dec9a5e6668a4bdc1d15f7a813f0cd5e519
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-paracol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

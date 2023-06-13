@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-mwclient \
 python3.10dist(mwclient) \
 python310-mwclient \
 python3dist(mwclient)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests-oauthlib \
 python310-six"

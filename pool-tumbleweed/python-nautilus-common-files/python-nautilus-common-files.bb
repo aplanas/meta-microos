@@ -14,6 +14,7 @@ python-nautilus-common-files(aarch-64) \
 python310-nautilus-common-files \
 python311-nautilus-common-files \
 python39-nautilus-common-files"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

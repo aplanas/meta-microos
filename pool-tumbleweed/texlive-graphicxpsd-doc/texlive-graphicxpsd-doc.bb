@@ -9,6 +9,7 @@ RPM_HASH = "05660dc73546a8288b9bf6b6de4642d03a9fa6b2bbf571261a37980e97b62a8d5794
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphicxpsd-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

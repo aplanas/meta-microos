@@ -18,6 +18,7 @@ RPM_HASH = "242c53d495ebcc46fbc53d61e839ac324127cf3c3aa28e75f7b44430910ac8df433b
 
 RPROVIDES:${PN} += "libkrunfw-devel \
 libkrunfw-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libkrunfw3"
 
 inherit rpm

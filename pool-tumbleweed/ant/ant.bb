@@ -28,6 +28,7 @@ mvn(org.apache.ant:ant-launcher:pom:) \
 mvn(org.apache.ant:ant-nodeps) \
 mvn(org.apache.ant:ant-nodeps:pom:) \
 mvn(org.apache.ant:ant:pom:)"
+
 RDEPENDS:${PN} += "java-devel \
 java-headless \
 javapackages-filesystem \

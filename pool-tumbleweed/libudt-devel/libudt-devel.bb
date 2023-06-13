@@ -18,6 +18,7 @@ RPM_HASH = "266a5bcad202df19c6833081042313020841a83d9cdec7281261c425607ffd1cca56
 RPROVIDES:${PN} += "libudt-devel \
 libudt-devel(aarch-64) \
 udt-devel"
+
 RDEPENDS:${PN} += "libudt0"
 
 inherit rpm

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "pkgconfig(soxr) \
 pkgconfig(soxr-lsr) \
 soxr-devel \
 soxr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoxr-lsr0 \
 libsoxr0"

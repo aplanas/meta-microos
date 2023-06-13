@@ -11,6 +11,7 @@ RPM_HASH = "79be30da56e52c2f1caff4f4b97e56703dcd2d06fade9b8ccbc3f01b9a3b70e8bd53
 RPROVIDES:${PN} += "pkgconfig(telepathy-farstream) \
 telepathy-farstream-devel \
 telepathy-farstream-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtelepathy-farstream3 \
 pkgconfig(dbus-glib-1) \

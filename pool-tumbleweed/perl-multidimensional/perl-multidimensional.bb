@@ -15,6 +15,7 @@ RPM_HASH = "4b3e1171739084abb4330800a4007a3d694abba61281a423ff2b5d86dec32ab9db1a
 RPROVIDES:${PN} += "perl(multidimensional) \
 perl-multidimensional \
 perl-multidimensional(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Hooks::OP::Check)"
 

@@ -13,6 +13,7 @@ RPM_HASH = "620c7cd1d3fb0ba26132b2ba95727497abf8bef770d5de709c0d184d90c28200c0da
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-status-mail"
+
 RDEPENDS:${PN} += "(/usr/sbin/sendmail or mailx) \
 /bin/sh"
 

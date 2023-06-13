@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(django-tastypie) \
 python39-django-tastypie \
 python3dist(django-tastypie)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Django \
 python39-python-dateutil \

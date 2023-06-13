@@ -10,6 +10,7 @@ RPM_HASH = "53c1be15482e5f61226a0209404cfaf485a1050e996fe84c4dbbc69cfa2c42fd9bf0
 RPROVIDES:${PN} += "font-specimen-devel \
 font-specimen-devel(aarch-64) \
 pkgconfig(font-specimen)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libfont-specimen0"

@@ -11,6 +11,7 @@ RPM_HASH = "e62795a713c8c4055121d5345c0a082d0f9b0d8f99f87e1649fe7a72abe39cdd446b
 RPROVIDES:${PN} += "cmake(ZMusic) \
 zmusic-devel \
 zmusic-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzmusic1"
 
 inherit rpm

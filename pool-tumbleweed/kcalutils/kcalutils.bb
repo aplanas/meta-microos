@@ -10,6 +10,7 @@ RPM_HASH = "7ef937578e45ea87d079f34b70bf6e260b42f4ff138623ef36a49633e386a62fa7b0
 
 RPROVIDES:${PN} += "kcalutils \
 kcalutils(aarch-64)"
+
 RDEPENDS:${PN} += "grantlee5 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

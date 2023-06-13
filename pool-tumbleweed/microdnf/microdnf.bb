@@ -14,6 +14,7 @@ RPM_HASH = "d61a534a687dfe2bee0ebacd311f78742e3b6ff927cf35604311de06002e955b65f7
 
 RPROVIDES:${PN} += "microdnf \
 microdnf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

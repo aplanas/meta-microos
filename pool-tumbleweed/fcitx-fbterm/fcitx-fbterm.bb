@@ -10,6 +10,7 @@ RPM_HASH = "37d07e988116cb9b259bc0810d8ec1e05b1c7916f00231a02e3bb097e11abc8033c4
 RPROVIDES:${PN} += "fcitx-fbterm \
 fcitx-fbterm(aarch-64) \
 locale(fbterm:ko;zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libc.so.6(GLIBC_2.34)(64bit) \
 libfcitx-gclient.so.1()(64bit) \

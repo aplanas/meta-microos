@@ -15,6 +15,7 @@ RPM_HASH = "9f857ab946d38ae918d951fbdc6c03c1595f96d7f5d7dec5702093bb07f4e2568add
 RPROVIDES:${PN} += "fec-devel \
 fec-devel(aarch-64) \
 pkgconfig(libfec)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfec3"
 

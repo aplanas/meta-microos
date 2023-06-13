@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-myst-parser \
 python3.10dist(myst-parser) \
 python310-myst-parser \
 python3dist(myst-parser)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

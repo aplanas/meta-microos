@@ -9,6 +9,7 @@ RPM_HASH = "c78f389ee19de9d5aebc31b0b320ae0e7b220e4dbd3441fafbe7bc5c3e9bc471f2c3
 
 RPROVIDES:${PN} += "cryptsetup-doc \
 cryptsetup-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

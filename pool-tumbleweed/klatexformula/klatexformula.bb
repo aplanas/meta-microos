@@ -21,6 +21,7 @@ klatexformula(aarch-64) \
 klatexformula-plugins \
 mimehandler(application/x-klatexformula) \
 mimehandler(application/x-klatexformula-db)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

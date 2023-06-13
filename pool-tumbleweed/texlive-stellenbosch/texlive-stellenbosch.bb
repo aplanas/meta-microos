@@ -30,6 +30,7 @@ tex(usthesis.cls) \
 tex(usthesis.sty) \
 tex(ustitle.sty) \
 texlive-stellenbosch"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

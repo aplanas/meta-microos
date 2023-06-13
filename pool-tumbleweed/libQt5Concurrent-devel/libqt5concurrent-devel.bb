@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt5Concurrent) \
 libQt5Concurrent-devel \
 libQt5Concurrent-devel(aarch-64) \
 pkgconfig(Qt5Concurrent)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt5Concurrent5 \
 libQt5Core-devel \

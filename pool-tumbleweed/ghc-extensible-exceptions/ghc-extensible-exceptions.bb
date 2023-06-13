@@ -11,6 +11,7 @@ RPM_HASH = "c6241bc7594fb706d92ee737fa15e70becb5f8bf066fdb8b94e4767753e45e5d1cbd
 RPROVIDES:${PN} += "ghc-extensible-exceptions \
 ghc-extensible-exceptions(aarch-64) \
 libHSextensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

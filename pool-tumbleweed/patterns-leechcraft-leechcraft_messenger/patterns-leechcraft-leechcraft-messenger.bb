@@ -12,6 +12,7 @@ pattern-icon() \
 pattern-order() \
 patterns-leechcraft-leechcraft_messenger \
 patterns-leechcraft-leechcraft_messenger(aarch-64)"
+
 RDEPENDS:${PN} += "leechcraft-azoth \
 pattern()"
 

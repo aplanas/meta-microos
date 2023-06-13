@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rotpages.sty) \
 texlive-rotpages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

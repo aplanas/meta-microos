@@ -16,6 +16,7 @@ libyui-qt-graph.so.16()(64bit) \
 libyui-qt-graph16 \
 libyui-qt-graph16(aarch-64) \
 yast2-qt-graph"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

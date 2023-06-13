@@ -9,6 +9,7 @@ RPM_HASH = "42eeb739d1e32799dbef806af1509a5111a267891da827498418137de0bf48aedd66
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dyntree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

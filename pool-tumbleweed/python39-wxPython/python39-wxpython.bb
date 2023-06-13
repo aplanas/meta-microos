@@ -17,6 +17,7 @@ python39-wxPython \
 python39-wxPython(aarch-64) \
 python39-wxWidgets \
 python3dist(wxpython)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \

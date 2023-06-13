@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-pytest-attrib \
 python3.10dist(pytest-attrib) \
 python310-pytest-attrib \
 python3dist(pytest-attrib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

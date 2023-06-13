@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-qt-branding \
 yast2-qt-branding-openSUSE"
+
 RDEPENDS:${PN} += "adobe-sourcesans3-fonts \
 distribution-logos \
 google-opensans-fonts"

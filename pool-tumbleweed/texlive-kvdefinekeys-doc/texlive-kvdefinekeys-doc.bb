@@ -9,6 +9,7 @@ RPM_HASH = "f24ac1b18cb6f49b354c9b0f8e3d6bb873ce81d87cffa0c7b8c6b79d946ea97440c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kvdefinekeys-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

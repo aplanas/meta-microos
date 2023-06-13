@@ -13,6 +13,7 @@ pkgconfig(m17n-core) \
 pkgconfig(m17n-flt) \
 pkgconfig(m17n-gui) \
 pkgconfig(m17n-shell)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 m17n-lib"

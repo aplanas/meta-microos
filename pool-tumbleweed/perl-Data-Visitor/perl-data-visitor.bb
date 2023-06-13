@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Data::Visitor) \
 perl(Data::Visitor::Callback) \
 perl-Data-Visitor"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Tie::ToObject) \

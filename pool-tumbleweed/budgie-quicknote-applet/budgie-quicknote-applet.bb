@@ -12,6 +12,7 @@ RPM_HASH = "422b400a321283845e5ea4a9ac34e9313073f765fec3e1d2ba96722b1561cf5d8ede
 RPROVIDES:${PN} += "budgie-quicknote-applet \
 budgie-quicknote-applet(aarch-64) \
 libquicknoteapplet.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

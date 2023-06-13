@@ -11,6 +11,7 @@ RPM_HASH = "5cd131c3b1d8b6b1d2943b869f0212ed7355b9878e6650501bb70bbd1c50f4045c91
 
 RPROVIDES:${PN} += "libiio-daemon \
 libiio-daemon(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

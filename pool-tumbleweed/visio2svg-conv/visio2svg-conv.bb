@@ -9,6 +9,7 @@ RPM_HASH = "6d6afcdd662a3f0e75586de15b424f4124650815283de63e84e5bb11b9b6e1df0019
 
 RPROVIDES:${PN} += "visio2svg-conv \
 visio2svg-conv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libVisio2Svg.so.0()(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "d0d86a62aca0da004c43565bae1a3f345efa8d74232d1b0fe829b8ee90cce100269c
 
 RPROVIDES:${PN} += "gtkdatabox-devel-examples \
 gtkdatabox-devel-examples(aarch-64)"
+
 RDEPENDS:${PN} += "gtkdatabox-devel"
 
 inherit rpm

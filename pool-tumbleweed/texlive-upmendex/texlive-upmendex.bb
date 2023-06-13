@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(upmendex.1) \
 texlive-upmendex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

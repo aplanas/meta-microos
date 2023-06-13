@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "config(xdm) \
 libXdmGreet.so()(64bit) \
 xdm \
 xdm(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/startproc \

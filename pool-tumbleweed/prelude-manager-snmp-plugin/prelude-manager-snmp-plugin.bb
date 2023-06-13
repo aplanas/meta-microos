@@ -9,6 +9,7 @@ RPM_HASH = "7b92c8207a025db847a44c870248a41e2e6117d6260b58642480f2210e8c60979d24
 
 RPROVIDES:${PN} += "prelude-manager-snmp-plugin \
 prelude-manager-snmp-plugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

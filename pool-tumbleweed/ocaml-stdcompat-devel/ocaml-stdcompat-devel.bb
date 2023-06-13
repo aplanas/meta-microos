@@ -207,6 +207,7 @@ ocamlx(Stdcompat__unit) \
 ocamlx(Stdcompat__unit_s) \
 ocamlx(Stdcompat__weak) \
 ocamlx(Stdcompat__weak_s)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(CamlinternalOO) \

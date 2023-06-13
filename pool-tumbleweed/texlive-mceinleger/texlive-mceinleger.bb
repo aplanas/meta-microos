@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mceinleger.sty) \
 texlive-mceinleger"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

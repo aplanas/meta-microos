@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libosdCPU.so.3.4.4()(64bit) \
 libosdCPU3_4_4 \
 libosdCPU3_4_4(aarch-64) \
 libosdGPU.so.3.4.4()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

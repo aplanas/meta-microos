@@ -53,6 +53,7 @@ locale(kio_perldoc:ug) \
 locale(kio_perldoc:uk) \
 locale(kio_perldoc:zh_CN) \
 locale(kio_perldoc:zh_TW)"
+
 RDEPENDS:${PN} += "kio_perldoc"
 
 inherit rpm

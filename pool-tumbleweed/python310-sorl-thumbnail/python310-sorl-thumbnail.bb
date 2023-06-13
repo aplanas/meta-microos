@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-sorl-thumbnail \
 python3.10dist(sorl-thumbnail) \
 python310-sorl-thumbnail \
 python3dist(sorl-thumbnail)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

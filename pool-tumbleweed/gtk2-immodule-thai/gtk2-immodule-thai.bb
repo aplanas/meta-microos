@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "gtk2-immodule-thai \
 gtk2-immodule-thai(aarch-64) \
 locale(gtk2:lo) \
 locale(gtk2:th)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtk2 \
 gtk2-tools \

@@ -12,6 +12,7 @@ cmake(Qt6ScxmlTools) \
 pkgconfig(Qt6Scxml) \
 qt6-scxml-devel \
 qt6-scxml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Core) \
 libQt6Scxml6 \

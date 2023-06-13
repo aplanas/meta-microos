@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "application() \
 application(projectlibre.desktop) \
 mimehandler(application/x-projectlibre) \
 projectlibre"
+
 RDEPENDS:${PN} += "/bin/sh \
 java"
 

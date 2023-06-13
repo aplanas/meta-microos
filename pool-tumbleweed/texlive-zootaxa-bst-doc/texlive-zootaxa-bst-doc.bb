@@ -9,6 +9,7 @@ RPM_HASH = "abedc7f47fe7ea41d7209965b34f6420350c29e65b51c3c8a79199a5ce892757a266
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zootaxa-bst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

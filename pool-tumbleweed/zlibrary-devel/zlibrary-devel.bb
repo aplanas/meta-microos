@@ -10,6 +10,7 @@ RPM_HASH = "200adc52dab4be60d55047f2971f6c2b66b05ff0d4ae513770878e8c88df77fc7a83
 
 RPROVIDES:${PN} += "zlibrary-devel \
 zlibrary-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libzlui0_99 \
 zlibrary0_99"
 

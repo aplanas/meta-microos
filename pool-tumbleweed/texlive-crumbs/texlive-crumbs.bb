@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(crumbs.sty) \
 texlive-crumbs"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

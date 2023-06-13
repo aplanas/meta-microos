@@ -26,6 +26,7 @@ mvn(apache:commons-httpclient:pom:) \
 mvn(commons-httpclient:commons-httpclient) \
 mvn(commons-httpclient:commons-httpclient:pom:) \
 osgi(org.apache.commons.httpclient)"
+
 RDEPENDS:${PN} += "commons-codec \
 commons-logging \
 java-headless \

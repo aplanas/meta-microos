@@ -78,6 +78,7 @@ locale(akregator:uk) \
 locale(akregator:vi) \
 locale(akregator:zh_CN) \
 locale(akregator:zh_TW)"
+
 RDEPENDS:${PN} += "akregator"
 
 inherit rpm

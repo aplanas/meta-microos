@@ -10,6 +10,7 @@ RPM_HASH = "d78e8143a66f077b6fd1387aade398bcba3df7018345ffc02e353bb0b00a02fa2ba5
 RPROVIDES:${PN} += "ghc-data-clist-prof \
 ghc-data-clist-prof(aarch-64) \
 ghc-prof(data-clist-0.2-LT5UCpKeur34zcxFsnpoqW)"
+
 RDEPENDS:${PN} += "ghc-data-clist-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(deepseq-1.4.8.0)"

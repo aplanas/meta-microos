@@ -14,6 +14,7 @@ RPM_HASH = "06e4231aec2183d2e143db5ddbdc2edee86197a0178e71331b891b2df8f4081d8740
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-uca"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/luatex \
 coreutils \

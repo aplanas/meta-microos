@@ -9,6 +9,7 @@ RPM_HASH = "18ac6d76d0cdef207a7ceb0bad7a74d2b7caa1c86e2c977ecd7a2e2c1475c8abd122
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitver-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

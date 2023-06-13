@@ -16,6 +16,7 @@ RPM_HASH = "9acdaf568d28cade415d3d492687b6e792d28d55bab8bd6b785babdf7f9a0d79e092
 RPROVIDES:${PN} += "newt-devel \
 newt-devel(aarch-64) \
 pkgconfig(libnewt)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnewt0_52 \
 pkgconfig(slang) \

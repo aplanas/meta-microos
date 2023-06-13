@@ -9,6 +9,7 @@ RPM_HASH = "58762844c3966f80a8c3f6c8f0a27a6702d1b7c238f135c4f8b28036c4f2faa4307e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "svg-schema-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

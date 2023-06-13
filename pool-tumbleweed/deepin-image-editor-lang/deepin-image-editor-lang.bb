@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-image-editor-lang \
 deepin-image-editor-lang-all"
+
 RDEPENDS:${PN} += "deepin-image-editor"
 
 inherit rpm

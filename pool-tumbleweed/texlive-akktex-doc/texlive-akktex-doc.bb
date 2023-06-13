@@ -9,6 +9,7 @@ RPM_HASH = "c10f7f8bf38b9fa7b9ced747b09eccd727d69efae06308af38e885d0b22d0a8bb260
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-akktex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

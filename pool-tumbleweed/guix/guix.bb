@@ -12,6 +12,7 @@ RPM_HASH = "7be748ac9fd6c31ecfc844134ddded18df2357a40472a3301cec96b3531ecc502cb0
 RPROVIDES:${PN} += "/usr/libexec/guix/guile \
 guix \
 guix(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnutls-guile \
 guile \

@@ -65,6 +65,7 @@ locale(kidentitymanagement:ug) \
 locale(kidentitymanagement:uk) \
 locale(kidentitymanagement:zh_CN) \
 locale(kidentitymanagement:zh_TW)"
+
 RDEPENDS:${PN} += "kidentitymanagement"
 
 inherit rpm

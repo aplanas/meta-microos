@@ -24,6 +24,7 @@ auctex \
 config(emacs-auctex) \
 emacs-auctex \
 ge_auc"
+
 RDEPENDS:${PN} += "/bin/sh \
 emacs \
 texlive-latex \

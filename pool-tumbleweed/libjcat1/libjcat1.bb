@@ -19,6 +19,7 @@ libjcat.so.1(LIBJCAT_0.1.3)(64bit) \
 libjcat.so.1(LIBJCAT_0.1.9)(64bit) \
 libjcat1 \
 libjcat1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

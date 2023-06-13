@@ -15,6 +15,7 @@ RPM_HASH = "bb9e0e3ed536a867e19e28c46e616df40e38a95e169db73292ec8b34c9fe0d0cee57
 RPROVIDES:${PN} += "config(horst) \
 horst \
 horst(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

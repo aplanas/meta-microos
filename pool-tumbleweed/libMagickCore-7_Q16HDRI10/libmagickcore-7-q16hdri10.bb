@@ -18,6 +18,7 @@ RPM_HASH = "9e8c2fd9e938a29eb6b43500d363e168d3c52dbe0642ed871853e9a6eca3b0b4c274
 RPROVIDES:${PN} += "libMagickCore-7.Q16HDRI.so.10()(64bit) \
 libMagickCore-7_Q16HDRI10 \
 libMagickCore-7_Q16HDRI10(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 imagick-config-7 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "96002bfbb0d0057fc61523045213af8a2fd771b6ec838062932f3d5e201bcb08d2e8
 RPROVIDES:${PN} += "ghc-devel(fgl-5.8.0.0-1euDADByC3LGFbnFGelVpn) \
 ghc-fgl-devel \
 ghc-fgl-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(array-0.5.4.0) \

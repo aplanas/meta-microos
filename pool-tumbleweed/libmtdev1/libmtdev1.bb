@@ -10,6 +10,7 @@ RPM_HASH = "45d8db974aecdc696606b38d5270a0dc64a4e580a2779874ca9f031d7d2863b715f5
 RPROVIDES:${PN} += "libmtdev.so.1()(64bit) \
 libmtdev1 \
 libmtdev1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

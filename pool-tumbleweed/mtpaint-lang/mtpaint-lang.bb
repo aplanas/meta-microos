@@ -28,6 +28,7 @@ locale(mtpaint:zh_CN) \
 locale(mtpaint:zh_TW) \
 mtpaint-lang \
 mtpaint-lang-all"
+
 RDEPENDS:${PN} += "mtpaint"
 
 inherit rpm

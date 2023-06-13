@@ -13,6 +13,7 @@ RPM_HASH = "a557c0aa696e9062bceb2a285e63f3dd44fd1c726381dbab5162802ef7c4c5bff40f
 
 RPROVIDES:${PN} += "unzip \
 unzip(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

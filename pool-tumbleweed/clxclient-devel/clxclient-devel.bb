@@ -9,6 +9,7 @@ RPM_HASH = "1869aa0b359e23cf34fec1572ae7bba7bddab24efddfba1b80ed289e4a977be10271
 
 RPROVIDES:${PN} += "clxclient-devel \
 clxclient-devel(aarch-64)"
+
 RDEPENDS:${PN} += "clthreads-devel \
 libclxclient3 \
 pkgconfig(freetype2) \

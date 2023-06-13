@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "tex(pcode.sty) \
 tex(pl.cfg) \
 tex(pl.sty) \
 texlive-plweb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

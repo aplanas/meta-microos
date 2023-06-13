@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cli11-devel \
 cmake(CLI11) \
 pkgconfig(CLI11)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

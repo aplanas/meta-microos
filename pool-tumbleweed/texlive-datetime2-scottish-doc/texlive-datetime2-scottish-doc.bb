@@ -9,6 +9,7 @@ RPM_HASH = "84500dd2e0e85674fef3bf37c3ac8bcf71287f29ee84010ea93418afa20fc59fbf9c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-scottish-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "c4222cbbac97bdc8113fabd1f905733fb46184087b206544cdbd442abc4ca35685c3
 RPROVIDES:${PN} += "libjasper.so.7()(64bit) \
 libjasper7 \
 libjasper7(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

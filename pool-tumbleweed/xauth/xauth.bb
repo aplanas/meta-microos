@@ -11,6 +11,7 @@ RPM_HASH = "7aac9a16e0581d757772ba1e222b1fe73c8b09edd51d9ffe0394f047651c311ee205
 RPROVIDES:${PN} += "xauth \
 xauth(aarch-64) \
 xorg-x11-xauth"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

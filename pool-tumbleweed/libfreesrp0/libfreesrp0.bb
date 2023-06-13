@@ -11,6 +11,7 @@ RPM_HASH = "f87eef5b8a688e3a0b19cd86ab1929a41fef2d17b05bcaca18daa7c44eb096461b27
 RPROVIDES:${PN} += "libfreesrp.so.0()(64bit) \
 libfreesrp0 \
 libfreesrp0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 freesrp-udev \
 ld-linux-aarch64.so.1()(64bit) \

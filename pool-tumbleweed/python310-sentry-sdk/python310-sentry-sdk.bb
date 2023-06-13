@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-sentry-sdk \
 python3.10dist(sentry-sdk) \
 python310-sentry-sdk \
 python3dist(sentry-sdk)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-Flask \

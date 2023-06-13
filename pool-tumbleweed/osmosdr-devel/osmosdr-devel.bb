@@ -11,6 +11,7 @@ RPM_HASH = "a22e83e5a0bf0d1e8bb77edef5284a97d87c2f13305e03f9c2da822b2221332f3f4f
 RPROVIDES:${PN} += "osmosdr-devel \
 osmosdr-devel(aarch-64) \
 pkgconfig(libosmosdr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmosdr0"
 

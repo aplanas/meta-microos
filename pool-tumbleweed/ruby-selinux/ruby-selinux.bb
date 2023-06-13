@@ -13,6 +13,7 @@ RPM_HASH = "90de4f1bd73ca4c6b53618bb34ea5b48e8e1bfa6fa6d3f26ff645684153e1c9d2450
 
 RPROVIDES:${PN} += "ruby-selinux \
 ruby-selinux(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

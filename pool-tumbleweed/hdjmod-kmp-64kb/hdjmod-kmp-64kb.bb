@@ -13,6 +13,7 @@ hdjmod-kmp-64kb(aarch-64) \
 hdjmod-kmp-64kb-k6.3.4_1 \
 kmod(hdj_mod.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

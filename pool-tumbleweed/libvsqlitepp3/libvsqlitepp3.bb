@@ -11,6 +11,7 @@ RPM_HASH = "eb90cf3e0f1c19ba4babec1029a3d1d8a5e84b50cd7fc54b1b1b5b0361eaabfeab01
 RPROVIDES:${PN} += "libvsqlitepp.so.3()(64bit) \
 libvsqlitepp3 \
 libvsqlitepp3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPM_HASH = "b49208905fa7b2ac0be7571c8f7b777bfc812c023b97e5d74d2b970f6b3f42c6f471
 RPROVIDES:${PN} += "config(sscep) \
 sscep \
 sscep(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

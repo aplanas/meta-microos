@@ -10,6 +10,7 @@ RPM_HASH = "4fb1f346ca081f1999d17d2df8f008b92f23d14f5fd93d02ded84fa2e4c14de62cb0
 
 RPROVIDES:${PN} += "tcpdump \
 tcpdump(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

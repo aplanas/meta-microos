@@ -11,6 +11,7 @@ RPM_HASH = "379967f4f3128058647ac9cecfd170fe76aa6bffb1f63c21ec6daf20920570415ec7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-cc-source"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

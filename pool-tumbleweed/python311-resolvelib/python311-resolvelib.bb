@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(resolvelib) \
 python311-resolvelib \
 python3dist(resolvelib)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

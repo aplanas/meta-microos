@@ -11,6 +11,7 @@ RPM_HASH = "a9dc0a50a93a8da7c7a8e14ab7896ca660cf64219a7b4e07fa607cd17d81e40322c0
 RPROVIDES:${PN} += "ghc-cryptonite-conduit-devel \
 ghc-cryptonite-conduit-devel(aarch-64) \
 ghc-devel(cryptonite-conduit-0.2.2-Ic5yZAN3MwnLmQgFse4azZ)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-cryptonite-conduit \

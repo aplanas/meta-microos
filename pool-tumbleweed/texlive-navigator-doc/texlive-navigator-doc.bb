@@ -9,6 +9,7 @@ RPM_HASH = "44d2bce382c29c1df9e9917ffe72728614172004a200417b7cc6ab9261a0b264a97a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-navigator-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

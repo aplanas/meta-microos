@@ -13,6 +13,7 @@ RPM_HASH = "5365c1a3a869c5316ecf85244bc7512a98e432f5c14bbe3a987efd3f9981e4bc3e6c
 
 RPROVIDES:${PN} += "stoken \
 stoken(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

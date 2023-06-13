@@ -12,6 +12,7 @@ RPM_HASH = "07ed1a7bb80471d553d963102831e2939bbb24d87a1233d5a3a89f120215e08fe7b0
 
 RPROVIDES:${PN} += "fcgiwrap \
 fcgiwrap(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(gdm-branding-upstream) \
 gdm-branding \
 gdm-branding-upstream"
+
 RDEPENDS:${PN} += "gdm"
 
 inherit rpm

@@ -19,6 +19,7 @@ RPM_HASH = "8d1ce0f42f0fe50dc024aed5500174b2550b439d5b611125e34d1d502f233d1c13da
 
 RPROVIDES:${PN} += "tsung \
 tsung(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 bash \

@@ -13,6 +13,7 @@ RPM_HASH = "6e445dbc6f974f1baf79e14eb5e6a43e487c416c90a29af651b4ae4922b2d3ce148a
 RPROVIDES:${PN} += "libsoc-devel \
 libsoc-devel(aarch-64) \
 pkgconfig(libsoc)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoc2"
 

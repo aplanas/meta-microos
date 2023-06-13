@@ -14,6 +14,7 @@ lsb-core-aarch64 \
 lsb-core-noarch \
 lsb-graphics-aarch64 \
 lsb-graphics-noarch"
+
 RDEPENDS:${PN} += "/usr/bin/ar \
 /usr/bin/at \
 /usr/bin/awk \

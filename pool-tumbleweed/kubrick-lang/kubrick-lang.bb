@@ -63,6 +63,7 @@ locale(kubrick:ug) \
 locale(kubrick:uk) \
 locale(kubrick:zh_CN) \
 locale(kubrick:zh_TW)"
+
 RDEPENDS:${PN} += "kubrick"
 
 inherit rpm

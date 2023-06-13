@@ -9,6 +9,7 @@ RPM_HASH = "261e14f755457524e9c7b7bcc9226e7c4ac2a9dd21ec02712acf2ac11abb12897bc8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-gson-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

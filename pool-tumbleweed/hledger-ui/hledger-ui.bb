@@ -17,6 +17,7 @@ RPM_HASH = "b3efdd248d9401a86c8dbab32194b477ca03aac877156c0d0fbd974a26ca228146dd
 
 RPROVIDES:${PN} += "hledger-ui \
 hledger-ui(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

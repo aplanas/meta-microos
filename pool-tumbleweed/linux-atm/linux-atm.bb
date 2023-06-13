@@ -13,6 +13,7 @@ firmware(pca200e_ecd.bin2) \
 firmware(sba200e_ecd.bin2) \
 linux-atm \
 linux-atm(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatm.so.1()(64bit) \

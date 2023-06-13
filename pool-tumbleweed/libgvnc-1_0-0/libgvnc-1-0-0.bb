@@ -15,6 +15,7 @@ RPM_HASH = "0e62f817d3a5a1a5415e87607d1009f2e01475a2556a8b4b1140885231127efa3fbb
 RPROVIDES:${PN} += "libgvnc-1.0.so.0()(64bit) \
 libgvnc-1_0-0 \
 libgvnc-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

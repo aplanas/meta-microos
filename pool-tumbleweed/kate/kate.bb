@@ -17,6 +17,7 @@ metainfo() \
 metainfo(org.kde.kate.appdata.xml) \
 mimehandler(inode/directory) \
 mimehandler(text/plain)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kate-plugins \
 ld-linux-aarch64.so.1()(64bit) \

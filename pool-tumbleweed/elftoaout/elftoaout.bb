@@ -12,6 +12,7 @@ RPM_HASH = "087a12a1754f68b8867d56118bca5a8174da43cd4fcd656db718ea431f4648ec58f4
 
 RPROVIDES:${PN} += "elftoaout \
 elftoaout(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

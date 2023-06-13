@@ -92,6 +92,7 @@ font(:lang=zu) \
 font(lbstr) \
 font(lobstertwo) \
 texlive-lobster2-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

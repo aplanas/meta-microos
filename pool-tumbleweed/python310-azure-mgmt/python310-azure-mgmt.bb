@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt \
 python3.10dist(azure-mgmt) \
 python310-azure-mgmt \
 python3dist(azure-mgmt)"
+
 RDEPENDS:${PN} += "python310-azure-mgmt-advisor \
 python310-azure-mgmt-agfood \
 python310-azure-mgmt-agrifood \

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clatd \
 config(clatd)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 iproute2 \

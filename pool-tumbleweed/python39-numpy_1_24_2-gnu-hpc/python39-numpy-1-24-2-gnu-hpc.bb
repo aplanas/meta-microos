@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.9dist(numpy) \
 python39-numpy_1_24_2-gnu-hpc \
 python39-numpy_1_24_2-gnu-hpc(aarch-64) \
 python3dist(numpy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

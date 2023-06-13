@@ -11,6 +11,7 @@ RPM_HASH = "ac76fd4cf71af51d196ee313e91afce162578732b01123ca0de6337f3a6a892c6884
 RPROVIDES:${PN} += "cmake(KQuickImageEditor) \
 kquickimageeditor-devel \
 kquickimageeditor-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 cmake(Qt5Quick) \
 kquickimageeditor-imports"

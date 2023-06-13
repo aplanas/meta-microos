@@ -10,6 +10,7 @@ RPM_HASH = "181b63b7dd9c555eb0eb82b8b22baa220edd5824bdfa4c05ddf00c2cf5067b195fe8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxcfs-hooks-lxc"
+
 RDEPENDS:${PN} += "lxcfs"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "d5c6054d5f6d54750a1616d243e26afb7e5e2a7648cbbe2d74e09a1201dc3dbab06c
 RPROVIDES:${PN} += "ivykis-devel \
 ivykis-devel(aarch-64) \
 pkgconfig(ivykis)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libivykis0"
 

@@ -19,6 +19,7 @@ tex(pdfcolor.tex) \
 tex(pdftex-dvi.tex) \
 tex(pdftexspace.tfm) \
 texlive-pdftex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

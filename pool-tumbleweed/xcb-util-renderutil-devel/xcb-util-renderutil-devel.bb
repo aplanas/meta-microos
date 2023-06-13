@@ -15,6 +15,7 @@ RPM_HASH = "1cdb0dd1468087c02ac4386f0527a5fe1f16d6126ffb43a733444ea2ee949fba9195
 RPROVIDES:${PN} += "pkgconfig(xcb-renderutil) \
 xcb-util-renderutil-devel \
 xcb-util-renderutil-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-render-util0 \
 pkgconfig(xcb) \

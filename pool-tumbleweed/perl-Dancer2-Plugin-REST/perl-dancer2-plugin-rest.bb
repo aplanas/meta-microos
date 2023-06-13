@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Dancer2::Plugin::REST) \
 perl-Dancer2-Plugin-REST"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Dancer2) \
 perl(Dancer2::Core::HTTP) \

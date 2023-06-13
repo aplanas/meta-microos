@@ -9,6 +9,7 @@ RPM_HASH = "81b73c783f7e41ed0fa3d3e9c9ae50e3db04aee4e109cbad95c578700a7e4231efd7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite-doc"
+
 RDEPENDS:${PN} += "ghc-filesystem"
 
 inherit rpm

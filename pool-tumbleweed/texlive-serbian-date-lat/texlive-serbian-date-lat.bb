@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(serbian-date-lat.sty) \
 texlive-serbian-date-lat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

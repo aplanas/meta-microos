@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-logreduce \
 python3.10dist(logreduce) \
 python3dist(logreduce)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-CherryPy \

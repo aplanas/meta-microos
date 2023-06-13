@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jsch-agent-proxy-svnkit-trilead-ssh2 \
 mvn(com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2) \
 mvn(com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.jcraft:jsch.agentproxy.core) \

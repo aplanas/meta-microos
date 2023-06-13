@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(msrest) \
 python311-msrest \
 python3dist(msrest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-core \
 python311-certifi \

@@ -12,6 +12,7 @@ RPM_HASH = "56d3b97caf2f745185e6d7fb24c742457f00c9e026ceac4f583fe652b1e8f56de793
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chem-journal"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

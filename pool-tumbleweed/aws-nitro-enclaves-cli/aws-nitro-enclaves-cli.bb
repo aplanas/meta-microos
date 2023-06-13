@@ -11,6 +11,7 @@ RPM_HASH = "24e8f29c5881fafdeb72812898c67d5661dfa0030803706cd452bce8e499b7578f72
 
 RPROVIDES:${PN} += "aws-nitro-enclaves-cli \
 aws-nitro-enclaves-cli(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 aws-nitro-enclaves-binaryblobs \

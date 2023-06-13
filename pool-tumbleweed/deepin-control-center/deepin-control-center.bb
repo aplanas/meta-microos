@@ -12,6 +12,7 @@ application(dde-control-center.desktop) \
 deepin-control-center \
 deepin-control-center(aarch-64) \
 libdccwidgets.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 deepin-account-faces \
 deepin-api \

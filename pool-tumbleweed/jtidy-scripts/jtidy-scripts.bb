@@ -12,6 +12,7 @@ RPM_HASH = "fd84d4d7e8002011dbebdea40539883ca6ed11fd5c140d186a8ff355fe9703b93d78
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jtidy-scripts"
+
 RDEPENDS:${PN} += "/bin/bash \
 javapackages-tools \
 jtidy"

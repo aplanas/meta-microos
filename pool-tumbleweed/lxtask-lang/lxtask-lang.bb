@@ -66,6 +66,7 @@ locale(lxtask:zh_CN) \
 locale(lxtask:zh_TW) \
 lxtask-lang \
 lxtask-lang-all"
+
 RDEPENDS:${PN} += "lxtask"
 
 inherit rpm

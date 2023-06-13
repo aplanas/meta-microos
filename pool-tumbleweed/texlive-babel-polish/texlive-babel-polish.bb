@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(polish-compat.ldf) \
 tex(polish.ldf) \
 texlive-babel-polish"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

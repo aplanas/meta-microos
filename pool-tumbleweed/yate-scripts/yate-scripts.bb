@@ -10,6 +10,7 @@ RPM_HASH = "14067e3769c72ea8737262c48608280f40787f6c12eac14b39667eec3eb7d2e59c14
 RPROVIDES:${PN} += "perl(Yate) \
 yate-scripts \
 yate-scripts(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/php \

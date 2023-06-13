@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(constants.sty) \
 texlive-constants"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

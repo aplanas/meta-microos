@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(icewm-theme-yast-installation) \
 icewm-theme-yast-installation"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

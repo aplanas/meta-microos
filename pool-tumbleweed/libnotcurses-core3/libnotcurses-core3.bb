@@ -16,6 +16,7 @@ RPM_HASH = "33c75919cd0f9d653183e6fcb8b20f6caadcb41935be238bf9634b4881d0019964b4
 RPROVIDES:${PN} += "libnotcurses-core.so.3()(64bit) \
 libnotcurses-core3 \
 libnotcurses-core3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "0f05160d25fca7e240104b186afd566705beb403978cc9dfa3263575daca2985f5fc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-ja-doc"
+
 RDEPENDS:${PN} += "lxc"
 
 inherit rpm

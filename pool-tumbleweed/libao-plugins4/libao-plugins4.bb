@@ -9,6 +9,7 @@ RPM_HASH = "dfab18634c423615cfab681102af82d8a9ce1326da6806f985f33dc8a152d80e86e1
 
 RPROVIDES:${PN} += "libao-plugins4 \
 libao-plugins4(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

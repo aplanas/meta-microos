@@ -13,6 +13,7 @@ RPM_HASH = "73c9fa058c1db3ab5414387a0f535468c74cb0a339c264dca2e87b65b08bc64b7fe3
 RPROVIDES:${PN} += "libplacebo.so.264()(64bit) \
 libplacebo264 \
 libplacebo264(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

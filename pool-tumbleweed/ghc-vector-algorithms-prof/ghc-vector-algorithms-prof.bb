@@ -10,6 +10,7 @@ RPM_HASH = "3a178a582f5d0df393e874296149b36a30c374b284b0d2807bd9f442565884cca73e
 RPROVIDES:${PN} += "ghc-prof(vector-algorithms-0.9.0.1-BIFHuMvuTIO1lWGrhqtqm6) \
 ghc-vector-algorithms-prof \
 ghc-vector-algorithms-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(bitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy) \
 ghc-prof(bytestring-0.11.4.0) \

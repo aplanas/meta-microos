@@ -92,6 +92,7 @@ locale(translator:zh_HK) \
 locale(translator:zh_TW) \
 translator-lang \
 translator-lang-all"
+
 RDEPENDS:${PN} += "translator"
 
 inherit rpm

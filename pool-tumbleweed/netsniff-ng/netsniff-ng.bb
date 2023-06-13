@@ -26,6 +26,7 @@ RPM_HASH = "fa4ca8c5c867f9c877bef687b310ba3788d13b78acd59e69530aedac3030297267c0
 RPROVIDES:${PN} += "config(netsniff-ng) \
 netsniff-ng \
 netsniff-ng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

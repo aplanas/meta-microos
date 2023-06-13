@@ -11,6 +11,7 @@ RPM_HASH = "51d1670face6e0192f1c151696d57920ed842be44fa7b2222fb3ecd6e68584d8d684
 
 RPROVIDES:${PN} += "ima-inspect \
 ima-inspect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

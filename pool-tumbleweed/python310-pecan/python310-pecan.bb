@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pecan \
 python3.10dist(pecan) \
 python310-pecan \
 python3dist(pecan)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-ai-formrecognizer) \
 python311-azure-ai-formrecognizer \
 python3dist(azure-ai-formrecognizer)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-ai-nspkg \
 python311-azure-common \

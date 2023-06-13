@@ -10,6 +10,7 @@ RPM_HASH = "61ff0d1d2c2725e99de02687a0f3d459b5b65bd410aa4083e414af33308991aaaa5b
 
 RPROVIDES:${PN} += "kpartx \
 kpartx(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 device-mapper \
 ld-linux-aarch64.so.1()(64bit) \

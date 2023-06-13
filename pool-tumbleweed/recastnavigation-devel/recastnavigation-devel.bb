@@ -11,6 +11,7 @@ RPM_HASH = "4f51aae2b3f818b5303697255dd9a28d9ed0744483802bab2379368656d8eb0d28e5
 RPROVIDES:${PN} += "pkgconfig(recastnavigation) \
 recastnavigation-devel \
 recastnavigation-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libDebugUtils1 \
 libDetour1 \

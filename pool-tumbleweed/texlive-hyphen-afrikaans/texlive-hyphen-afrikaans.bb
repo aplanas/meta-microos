@@ -16,6 +16,7 @@ tex(hyph-af.tex) \
 tex(hyph-quote-af.tex) \
 tex(loadhyph-af.tex) \
 texlive-hyphen-afrikaans"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

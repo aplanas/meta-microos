@@ -11,6 +11,7 @@ RPM_HASH = "0ecffc40285efd91c1f5df1520796c53f9e0a9f370b964293d187fa074bb1334a658
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-binextra"
+
 RDEPENDS:${PN} += "texlive-a2ping \
 texlive-adhocfilelist \
 texlive-arara \

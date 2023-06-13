@@ -12,6 +12,7 @@ RPM_HASH = "239e40bdba75e46baefb336a123e32e04383ee903efa1b60da148b49b3c5a5886427
 
 RPROVIDES:${PN} += "myspell-dictionaries \
 myspell-dictionaries(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libqwt_designer_plugin.so()(64bit) \
 qwt-qt5-designer \
 qwt6-qt5-designer \
 qwt6-qt5-designer(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

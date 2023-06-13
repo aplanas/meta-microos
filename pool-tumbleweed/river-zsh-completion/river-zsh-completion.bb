@@ -9,6 +9,7 @@ RPM_HASH = "9b21896717c97d6dc0ddae20fe2c01039760e5e06dc85de3b1283e17d6a4760bfce8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-zsh-completion"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libXau-devel \
 libXau-devel(aarch-64) \
 pkgconfig(xau) \
 xorg-x11-libXau-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXau6 \
 pkgconfig(xproto)"

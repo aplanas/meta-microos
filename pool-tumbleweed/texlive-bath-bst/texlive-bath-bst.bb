@@ -12,6 +12,7 @@ RPM_HASH = "4ab0489f5289ca1dc70fe640a3cdee7a87fdf3df63fbbab356dd88026c47de82e9bd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bath-bst"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

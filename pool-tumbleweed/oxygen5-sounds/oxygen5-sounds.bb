@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oxygen-sounds5 \
 oxygen5-sounds"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

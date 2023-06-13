@@ -9,6 +9,7 @@ RPM_HASH = "8a03d02cf5c91fb024705b8187f0150046eddd1ccc887a2e519c2873b5af605703b0
 
 RPROVIDES:${PN} += "cross-sparcv9-gcc13-icecream-backend \
 cross-sparcv9-gcc13-icecream-backend(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

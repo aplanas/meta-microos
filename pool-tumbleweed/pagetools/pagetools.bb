@@ -13,6 +13,7 @@ RPM_HASH = "a020eb1d08026ef4e750b7519ee883b432b2f55e9633d629d43639af38190de02277
 
 RPROVIDES:${PN} += "pagetools \
 pagetools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

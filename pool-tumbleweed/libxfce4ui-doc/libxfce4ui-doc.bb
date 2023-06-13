@@ -9,6 +9,7 @@ RPM_HASH = "b1ee574e3d7ca88b7c9fd5d99d0f1ecf700994ce5cf877f4c9b733e0252a2dcd284e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxfce4ui-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

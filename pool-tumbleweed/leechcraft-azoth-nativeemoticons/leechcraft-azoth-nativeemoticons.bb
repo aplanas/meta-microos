@@ -12,6 +12,7 @@ RPM_HASH = "add9a09c61d6d0e96711ffe0cca615575f7f7646b4d868acf309946a9c630f358571
 RPROVIDES:${PN} += "leechcraft-azoth-nativeemoticons \
 leechcraft-azoth-nativeemoticons(aarch-64) \
 libleechcraft_azoth_nativeemoticons.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

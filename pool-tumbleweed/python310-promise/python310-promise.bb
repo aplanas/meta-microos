@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-promise \
 python3.10dist(promise) \
 python310-promise \
 python3dist(promise)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

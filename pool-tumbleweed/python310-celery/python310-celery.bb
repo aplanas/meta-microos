@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-celery \
 python3.10dist(celery) \
 python310-celery \
 python3dist(celery)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

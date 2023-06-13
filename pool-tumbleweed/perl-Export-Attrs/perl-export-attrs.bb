@@ -34,6 +34,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Export::Attrs) \
 perl-Export-Attrs"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(PadWalker)"
 

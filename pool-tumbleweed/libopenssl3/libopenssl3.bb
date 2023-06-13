@@ -21,6 +21,7 @@ libopenssl3(aarch-64) \
 libopenssl3-hmac \
 libssl.so.3()(64bit) \
 libssl.so.3(OPENSSL_3.0.0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 crypto-policies \
 ld-linux-aarch64.so.1()(64bit) \

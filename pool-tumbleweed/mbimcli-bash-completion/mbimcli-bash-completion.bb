@@ -9,6 +9,7 @@ RPM_HASH = "1f62b7b2c821acc83081622b04bfeb674ea47551f6f019fa890245deca72957733e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mbimcli-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion"
 
 inherit rpm

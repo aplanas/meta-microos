@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "man(bib2gls.1) \
 man(convertgls2bib.1) \
 texlive-bib2gls-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

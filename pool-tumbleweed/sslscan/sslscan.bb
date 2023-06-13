@@ -11,6 +11,7 @@ RPM_HASH = "b63f8e15e8dafa636489cde2ac8efd7579cf17a982e3b60e6f1c2d9de767387f0174
 
 RPROVIDES:${PN} += "sslscan \
 sslscan(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

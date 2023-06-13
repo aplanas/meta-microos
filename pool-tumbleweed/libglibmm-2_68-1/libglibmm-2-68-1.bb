@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libglibmm-2.68.so.1()(64bit) \
 libglibmm-2_68-1 \
 libglibmm-2_68-1(aarch-64) \
 libglibmm_generate_extra_defs-2.68.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

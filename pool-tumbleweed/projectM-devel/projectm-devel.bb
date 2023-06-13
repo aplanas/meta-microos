@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(libprojectM) \
 projectM-devel \
 projectM-devel(aarch-64) \
 projectM-qt5-devel"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libprojectM3 \
 projectM \

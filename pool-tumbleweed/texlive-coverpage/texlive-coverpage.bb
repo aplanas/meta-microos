@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(CoverPage.cfg) \
 tex(CoverPage.sty) \
 texlive-coverpage"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

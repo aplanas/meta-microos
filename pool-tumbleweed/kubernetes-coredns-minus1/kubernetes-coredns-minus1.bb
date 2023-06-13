@@ -9,6 +9,7 @@ RPM_HASH = "54bdb503de43575be27eb2a1a4e91f5f273d56a6b1a4a61b1361e9c4b69c58e39efc
 
 RPROVIDES:${PN} += "kubernetes-coredns-minus1 \
 kubernetes-coredns-minus1(aarch-64)"
+
 RDEPENDS:${PN} += "coredns-for-k8s1.26"
 
 inherit rpm

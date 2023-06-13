@@ -9,6 +9,7 @@ RPM_HASH = "f1b1cd97cac5b9e6ca2c5a19c6be0b5cab2f44b5dbf313c360fdf4c1927b5f18f238
 
 RPROVIDES:${PN} += "qt6-connectivity-docs-qch \
 qt6-connectivity-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

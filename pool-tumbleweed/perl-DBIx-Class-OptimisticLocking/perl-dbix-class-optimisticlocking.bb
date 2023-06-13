@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(DBIx::Class::OptimisticLocking) \
 perl-DBIx-Class-OptimisticLocking"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DBIx::Class)"
 

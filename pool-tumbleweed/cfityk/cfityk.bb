@@ -13,6 +13,7 @@ RPM_HASH = "c3baa97dd8bf9347413f9b87cdf5fb8288654180fcfbd399eed2fe804a0a91bb78a5
 
 RPROVIDES:${PN} += "cfityk \
 cfityk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

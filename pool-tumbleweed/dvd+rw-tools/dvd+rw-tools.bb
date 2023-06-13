@@ -10,6 +10,7 @@ RPM_HASH = "038e6b26a015bca3e896ece298b62eb18bb59e34633552a5c48b5d2761f8eac7b727
 
 RPROVIDES:${PN} += "dvd+rw-tools \
 dvd+rw-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/mkisofs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

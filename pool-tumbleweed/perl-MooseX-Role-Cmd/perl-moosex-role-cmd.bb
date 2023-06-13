@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(MooseX::Role::Cmd) \
 perl(MooseX::Role::Cmd::Meta::Attribute::Trait) \
 perl-MooseX-Role-Cmd"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IPC::Cmd) \
 perl(Moose)"

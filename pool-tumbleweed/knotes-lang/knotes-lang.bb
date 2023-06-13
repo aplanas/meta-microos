@@ -78,6 +78,7 @@ locale(knotes:ug) \
 locale(knotes:uk) \
 locale(knotes:zh_CN) \
 locale(knotes:zh_TW)"
+
 RDEPENDS:${PN} += "knotes"
 
 inherit rpm

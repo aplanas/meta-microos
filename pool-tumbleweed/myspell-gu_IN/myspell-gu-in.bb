@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:gu_IN) \
 myspell-dictionary \
 myspell-gu_IN \
 myspell-gujarati"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

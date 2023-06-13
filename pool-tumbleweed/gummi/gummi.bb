@@ -13,6 +13,7 @@ application(gummi.desktop) \
 gummi \
 gummi(aarch-64) \
 mimehandler(text/x-tex)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gtkspell \
 ld-linux-aarch64.so.1()(64bit) \

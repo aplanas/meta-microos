@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(BHCexam.cls) \
 texlive-bhcexam"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

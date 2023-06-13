@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libspatialindex-devel \
 pkgconfig(libspatialindex) \
 spatialindex-devel \
 spatialindex-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libspatialindex6"
 

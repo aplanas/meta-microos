@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Nuspell) \
 nuspell-devel \
 nuspell-devel(aarch-64) \
 pkgconfig(nuspell)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnuspell5 \
 pkgconfig(icu-uc)"

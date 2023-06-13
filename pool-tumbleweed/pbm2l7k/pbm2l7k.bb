@@ -18,6 +18,7 @@ RPM_HASH = "fbebd6aea4790618a12d29555370e3594bca128c1aefa5eb3f83b76bf7b675e4510d
 RPROVIDES:${PN} += "lexmark7000linux \
 pbm2l7k \
 pbm2l7k(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -10,6 +10,7 @@ RPM_HASH = "c66d6154b8860629c618a0f3d9ed7f668ec3270407d95a7c24cf46b507f1203d347f
 
 RPROVIDES:${PN} += "git-arch \
 git-arch(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 git-core"
 

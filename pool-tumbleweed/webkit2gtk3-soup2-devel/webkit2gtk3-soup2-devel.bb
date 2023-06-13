@@ -18,6 +18,7 @@ pkgconfig(webkit2gtk-4.0) \
 pkgconfig(webkit2gtk-web-extension-4.0) \
 webkit2gtk3-soup2-devel \
 webkit2gtk3-soup2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjavascriptcoregtk-4_0-18 \
 libwebkit2gtk-4_0-37 \

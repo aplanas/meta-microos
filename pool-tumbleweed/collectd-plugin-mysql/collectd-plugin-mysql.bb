@@ -9,6 +9,7 @@ RPM_HASH = "203eb57ba8f4ceab70d6904449d969b9b6d60072100e2ced505f633ce416a722100f
 
 RPROVIDES:${PN} += "collectd-plugin-mysql \
 collectd-plugin-mysql(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "0c49458eb24c482c1a9b01512d117e08ba9e4534a84c61cdf683651a7b44f3c23d3c
 
 RPROVIDES:${PN} += "openvpn-devel \
 openvpn-devel(aarch-64)"
+
 RDEPENDS:${PN} += "openvpn"
 
 inherit rpm

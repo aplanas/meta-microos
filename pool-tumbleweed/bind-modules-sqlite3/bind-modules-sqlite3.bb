@@ -10,6 +10,7 @@ RPM_HASH = "0a38ceeff9a9568fbacd8765fc96534bfae77320cc7cd677d343362fa172d07b0801
 
 RPROVIDES:${PN} += "bind-modules-sqlite3 \
 bind-modules-sqlite3(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(zc.buildout) \
 python39-zc.buildout \
 python39-zc_buildout \
 python3dist(zc.buildout)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

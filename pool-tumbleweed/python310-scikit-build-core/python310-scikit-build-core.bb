@@ -26,6 +26,7 @@ python3.10dist(scikit-build-core) \
 python310-scikit-build-core \
 python310-scikit_build_core \
 python3dist(scikit-build-core)"
+
 RDEPENDS:${PN} += "(python310-exceptiongroup if python310-base < 3.11) \
 (python310-importlib-resources >= 1.3 if python310-base < 3.9) \
 (python310-tomli >= 1.1 if python310-base < 3.11) \

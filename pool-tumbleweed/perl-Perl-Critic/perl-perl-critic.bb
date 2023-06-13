@@ -227,6 +227,7 @@ perl(Perl::Critic::Utils::Perl) \
 perl(Perl::Critic::Violation) \
 perl(Test::Perl::Critic::Policy) \
 perl-Perl-Critic"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(B::Keywords) \

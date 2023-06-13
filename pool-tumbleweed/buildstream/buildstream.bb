@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "buildstream \
 python3.10dist(buildstream) \
 python3dist(buildstream)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 bubblewrap \
 python(abi) \

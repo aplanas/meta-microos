@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KF5Plasma) \
 cmake(KF5PlasmaQuick) \
 plasma-framework-devel \
 plasma-framework-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5Package) \
 cmake(KF5Service) \
 cmake(KF5WindowSystem) \

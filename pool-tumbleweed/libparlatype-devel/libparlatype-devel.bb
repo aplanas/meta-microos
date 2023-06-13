@@ -10,6 +10,7 @@ RPM_HASH = "0b90ab9f07cf0997e32a24970a3785294fc1ad66ed15aace75353467565b3ac0a71f
 RPROVIDES:${PN} += "libparlatype-devel \
 libparlatype-devel(aarch-64) \
 pkgconfig(parlatype)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libparlatype5 \
 pkgconfig(gstreamer-1.0) \

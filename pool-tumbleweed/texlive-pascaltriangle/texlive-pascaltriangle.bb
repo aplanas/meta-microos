@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pascaltriangle.sty) \
 texlive-pascaltriangle"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

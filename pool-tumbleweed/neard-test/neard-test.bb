@@ -9,6 +9,7 @@ RPM_HASH = "aed7e88d020c09b17e6ddb6a16bfce90d43a616291fe8089c3f3dfcb6578d33b406f
 
 RPROVIDES:${PN} += "neard-test \
 neard-test(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python \
 /usr/bin/python2.7 \
 neard"

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:fast_gettext) \
 rubygem(ruby:3.2.0:fast_gettext:1) \
 rubygem(ruby:3.2.0:fast_gettext:1.1) \
 rubygem(ruby:3.2.0:fast_gettext:1.1.2)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

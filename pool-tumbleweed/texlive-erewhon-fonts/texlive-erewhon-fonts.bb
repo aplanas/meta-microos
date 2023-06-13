@@ -162,6 +162,7 @@ font(erewhon) \
 font(erewmath) \
 font(эвристика) \
 texlive-erewhon-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

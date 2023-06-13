@@ -26,6 +26,7 @@ tex(portuges-abnt.lbx) \
 tex(portuguese-abnt.lbx) \
 tex(spanish-abnt.lbx) \
 texlive-biblatex-abnt"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

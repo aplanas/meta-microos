@@ -11,6 +11,7 @@ RPM_HASH = "a6f7190a945db41c15264d1b6e18eccacbf19160dc47552d31d2c36dc5f0fe08ce86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highway-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

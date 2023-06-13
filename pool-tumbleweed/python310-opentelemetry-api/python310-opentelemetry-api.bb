@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-opentelemetry-api \
 python3.10dist(opentelemetry-api) \
 python310-opentelemetry-api \
 python3dist(opentelemetry-api)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Deprecated \
 python310-importlib-metadata \

@@ -10,6 +10,7 @@ RPM_HASH = "200c558b262baa6217df5477b3a22899ba266427cb72ecdef982d3fefe14781c02d7
 
 RPROVIDES:${PN} += "adcli \
 adcli(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

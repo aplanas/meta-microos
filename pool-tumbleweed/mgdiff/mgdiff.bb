@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "application() \
 application(mgdiff.desktop) \
 mgdiff \
 mgdiff(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

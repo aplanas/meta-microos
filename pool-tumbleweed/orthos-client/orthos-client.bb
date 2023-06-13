@@ -10,6 +10,7 @@ RPM_HASH = "8be6763216cff936591701cef8c986168e0e499b9fbfabfdb7ebbd2bb2ddecbf9836
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orthos-client"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-base \
 python3-pytz"

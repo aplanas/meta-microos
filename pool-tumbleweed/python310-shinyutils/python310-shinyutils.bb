@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-shinyutils \
 python3.10dist(shinyutils) \
 python310-shinyutils \
 python3dist(shinyutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-crayons \
 python310-matplotlib \

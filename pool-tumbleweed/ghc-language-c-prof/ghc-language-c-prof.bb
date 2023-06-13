@@ -10,6 +10,7 @@ RPM_HASH = "1e7ddf097b9a18b9c15ceff0f3f0f0fd8534fb3e90c8b4514284e77e9a569f521dfe
 RPROVIDES:${PN} += "ghc-language-c-prof \
 ghc-language-c-prof(aarch-64) \
 ghc-prof(language-c-0.9.2-5l7vUWhvlwnEvBOKlkChTz)"
+
 RDEPENDS:${PN} += "ghc-language-c-devel \
 ghc-prof(array-0.5.4.0) \
 ghc-prof(base-4.17.1.0) \

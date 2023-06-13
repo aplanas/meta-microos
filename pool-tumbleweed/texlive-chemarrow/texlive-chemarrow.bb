@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(arrow.tfm) \
 tex(chemarrow.map) \
 tex(chemarrow.sty) \
 texlive-chemarrow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

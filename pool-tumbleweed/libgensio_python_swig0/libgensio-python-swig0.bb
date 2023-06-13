@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libgensio0:/usr/lib/libgensio_python_swig.so.0.0.0 \
 libgensio_python_swig.so.0()(64bit) \
 libgensio_python_swig0 \
 libgensio_python_swig0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

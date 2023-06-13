@@ -16,6 +16,7 @@ RPM_HASH = "79b2b744da84255a8915a65d66edf3e0d877cbb236dff1ae30045206d3d0ae2f3334
 
 RPROVIDES:${PN} += "apitrace \
 apitrace(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 apitrace-wrappers \
 ld-linux-aarch64.so.1()(64bit) \

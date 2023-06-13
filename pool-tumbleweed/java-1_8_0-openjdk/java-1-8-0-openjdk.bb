@@ -38,6 +38,7 @@ libjsoundalsa.so()(64bit) \
 libjsoundalsa.so(SUNWprivate_1.1)(64bit) \
 libsplashscreen.so()(64bit) \
 libsplashscreen.so(SUNWprivate_1.1)(64bit)"
+
 RDEPENDS:${PN} += "file \
 fontconfig \
 java-1_8_0-openjdk-headless \

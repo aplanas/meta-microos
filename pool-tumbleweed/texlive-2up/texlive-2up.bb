@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(2up.sty) \
 tex(2up.tex) \
 texlive-2up"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

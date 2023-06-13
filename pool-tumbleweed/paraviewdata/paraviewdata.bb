@@ -15,6 +15,7 @@ RPM_HASH = "96c982baf12439f20b6841f81916542bf96bfeec66fe6ddf0f07f66384fd37dd2e14
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paraviewdata"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

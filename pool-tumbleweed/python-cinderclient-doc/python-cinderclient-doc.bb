@@ -12,6 +12,7 @@ RPM_HASH = "ecf5a000b5c2301d0299f65a010a40e298929ffc58954c9dcb19bccec44712b6fefe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-cinderclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

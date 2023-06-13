@@ -10,6 +10,7 @@ RPM_HASH = "dd508ad89e9922d6caac4ad688601b492954306975d4d60e478e73638dc4f9d0235e
 
 RPROVIDES:${PN} += "libcdada-devel \
 libcdada-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libcdada0 \
 python3"

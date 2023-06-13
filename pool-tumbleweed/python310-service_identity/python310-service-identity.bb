@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-service_identity \
 python3.10dist(service-identity) \
 python310-service_identity \
 python3dist(service-identity)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-cryptography \

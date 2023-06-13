@@ -14,6 +14,7 @@ RPM_HASH = "5b56e843793d4bb76150e0bb290c25d28f0ecbfba28585487de165e93b62ff48de8a
 RPROVIDES:${PN} += "cracklib-dict \
 cracklib-dict-small \
 cracklib-dict-small(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

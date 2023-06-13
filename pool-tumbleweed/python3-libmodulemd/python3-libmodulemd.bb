@@ -9,6 +9,7 @@ RPM_HASH = "e60d39b1ff36f1483607efcd835a61d53e887efc812f831f57455c487b9e0c511ed5
 
 RPROVIDES:${PN} += "python3-libmodulemd \
 python3-libmodulemd(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-gobject \
 python3-six \

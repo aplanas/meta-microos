@@ -11,6 +11,7 @@ RPM_HASH = "6bf57897e3ad5cf3b90b4b48d75516e0266293bf8955a0b4e1c462adffd3cb8572f3
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
 mupen64plus-plugin-video-glide64mk2 \
 mupen64plus-plugin-video-glide64mk2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libGL.so.1()(64bit) \

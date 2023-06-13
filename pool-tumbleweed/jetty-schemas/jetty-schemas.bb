@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "jetty-schemas \
 mvn(org.eclipse.jetty.toolchain:jetty-schemas) \
 mvn(org.eclipse.jetty.toolchain:jetty-schemas:pom:) \
 osgi(org.eclipse.jetty.schemas)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

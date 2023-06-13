@@ -10,6 +10,7 @@ RPM_HASH = "bdcdd1328c93642b4e95f3adb28ed8269b38f195105d7c2e3384ee27646608b5c64b
 RPROVIDES:${PN} += "maxima-exec-sbcl \
 maxima-exec-sbcl(aarch-64) \
 maxima_exec"
+
 RDEPENDS:${PN} += "sbcl"
 
 inherit rpm

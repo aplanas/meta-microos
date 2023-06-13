@@ -16,6 +16,7 @@ RPM_HASH = "e67c3b8ce88df82f251387e0dfc9eabc5db2e3abf96f5791c5d4893e4253e946a14b
 RPROVIDES:${PN} += "SDL_bgi-devel \
 libSDL_bgi-devel \
 libSDL_bgi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL_bgi-suse9"
 
 inherit rpm

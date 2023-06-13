@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-percy \
 python3.10dist(percy) \
 python310-percy \
 python3dist(percy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

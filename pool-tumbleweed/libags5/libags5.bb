@@ -15,6 +15,7 @@ libags_audio.so.5()(64bit) \
 libags_gui.so.5()(64bit) \
 libags_server.so.5()(64bit) \
 libags_thread.so.5()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

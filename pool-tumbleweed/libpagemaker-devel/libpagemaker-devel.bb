@@ -13,6 +13,7 @@ RPM_HASH = "43f6a1e9a549703dc33dc4eeec08bd9201588a349aa07d8f01f3c853b67909a85ba3
 RPROVIDES:${PN} += "libpagemaker-devel \
 libpagemaker-devel(aarch-64) \
 pkgconfig(libpagemaker-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpagemaker-0_0-0 \
 pkgconfig(librevenge-0.0) \

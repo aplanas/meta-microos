@@ -20,6 +20,7 @@ monitoring-plugins-nrpe \
 monitoring-plugins-nrpe(aarch-64) \
 nagios-nrpe-server \
 nagios-plugins-nrpe"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

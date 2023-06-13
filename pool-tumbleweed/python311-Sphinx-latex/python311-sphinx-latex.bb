@@ -13,6 +13,7 @@ RPM_HASH = "a422304a47e28529c9b4b524acafd92ef34d9ac06b2592da2ea78b3ff085ea405875
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-Sphinx-latex"
+
 RDEPENDS:${PN} += "python311-Sphinx \
 tex(8r.enc) \
 tex(alltt.sty) \

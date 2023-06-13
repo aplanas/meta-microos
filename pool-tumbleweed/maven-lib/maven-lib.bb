@@ -40,6 +40,7 @@ mvn(org.apache.maven:maven-settings:pom:) \
 mvn(org.apache.maven:maven-slf4j-provider) \
 mvn(org.apache.maven:maven-slf4j-provider:pom:) \
 mvn(org.apache.maven:maven:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aopalliance \
 apache-commons-cli \

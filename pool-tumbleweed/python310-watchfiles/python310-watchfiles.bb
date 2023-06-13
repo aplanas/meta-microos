@@ -14,6 +14,7 @@ python3.10dist(watchfiles) \
 python310-watchfiles \
 python310-watchfiles(aarch-64) \
 python3dist(watchfiles)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 libc.so.6(GLIBC_2.34)(64bit) \

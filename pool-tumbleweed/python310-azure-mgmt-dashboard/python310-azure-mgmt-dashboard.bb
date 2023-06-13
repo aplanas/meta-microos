@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-dashboard \
 python3.10dist(azure-mgmt-dashboard) \
 python310-azure-mgmt-dashboard \
 python3dist(azure-mgmt-dashboard)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

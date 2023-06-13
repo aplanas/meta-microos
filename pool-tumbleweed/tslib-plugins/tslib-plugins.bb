@@ -14,6 +14,7 @@ RPM_HASH = "fddf4e39ba955f8b624b20196cc3ab5fed3fcf0ba78fb79b5893ccac98d60f2fa473
 
 RPROVIDES:${PN} += "tslib-plugins \
 tslib-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

@@ -17,6 +17,7 @@ drbd-udev \
 drbd-utils \
 drbd-utils(aarch-64) \
 drbdsetup"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -27,6 +27,7 @@ tex(minim-pdfresources.tex) \
 tex(minim-plain.tex) \
 tex(minim.tex) \
 texlive-minim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

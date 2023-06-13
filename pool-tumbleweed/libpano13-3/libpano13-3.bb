@@ -10,6 +10,7 @@ RPM_HASH = "32169e50fd18a79a5be2fb98eca7cd93122e4e69a9147de63f7298e8a6659cc77aa1
 RPROVIDES:${PN} += "libpano13-3 \
 libpano13-3(aarch-64) \
 libpano13.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

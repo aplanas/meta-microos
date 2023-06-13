@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(soundcard) \
 python311-SoundCard \
 python3dist(soundcard)"
+
 RDEPENDS:${PN} += "pulseaudio-daemon \
 python(abi) \
 python311-cffi \

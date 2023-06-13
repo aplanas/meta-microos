@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytesseract) \
 python39-pytesseract \
 python3dist(pytesseract)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 pkgconfig(tesseract) \

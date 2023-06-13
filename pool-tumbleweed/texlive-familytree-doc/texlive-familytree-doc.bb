@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-familytree-doc:ja) \
 texlive-familytree-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

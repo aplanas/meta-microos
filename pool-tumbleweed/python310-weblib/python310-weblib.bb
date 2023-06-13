@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-weblib \
 python3.10dist(weblib) \
 python310-weblib \
 python3dist(weblib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytils \
 python310-six \

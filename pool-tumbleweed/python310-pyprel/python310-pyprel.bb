@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-pyprel \
 python3.10dist(pyprel) \
 python310-pyprel \
 python3dist(pyprel)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pillow \
 python310-numpy \

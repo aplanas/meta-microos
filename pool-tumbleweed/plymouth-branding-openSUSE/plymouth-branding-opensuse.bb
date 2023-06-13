@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-branding \
 plymouth-branding-openSUSE"
+
 RDEPENDS:${PN} += "plymouth-scripts \
 plymouth-theme-bgrt"
 

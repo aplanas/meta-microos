@@ -20,6 +20,7 @@ RPM_HASH = "321796a48a16655546690d168f04920f3ec0a85b672c779bd7f57aa1f049c362b093
 RPROVIDES:${PN} += "postgresql-pltcl-implementation \
 postgresql15-pltcl \
 postgresql15-pltcl(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

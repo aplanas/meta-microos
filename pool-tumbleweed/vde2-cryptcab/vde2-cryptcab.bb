@@ -10,6 +10,7 @@ RPM_HASH = "733ad16ac2d08db5a494371619746a1f30df3eac7ebbcb21ed6084bf39c29a116f5a
 
 RPROVIDES:${PN} += "vde2-cryptcab \
 vde2-cryptcab(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

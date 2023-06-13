@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(tablib) \
 python311-tablib \
 python3dist(tablib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-MarkupPy \
 python311-PyYAML \

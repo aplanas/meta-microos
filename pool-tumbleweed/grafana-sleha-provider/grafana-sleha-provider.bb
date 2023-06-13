@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(grafana-sleha-provider) \
 grafana-sleha-cluster-provider \
 grafana-sleha-provider"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

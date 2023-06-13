@@ -9,6 +9,7 @@ RPM_HASH = "01413e356870fbf274cd6f4d276ce29a62334f438828c6a0d932ae64d4e0be1c39ee
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xtl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

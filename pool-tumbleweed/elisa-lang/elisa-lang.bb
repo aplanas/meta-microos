@@ -53,6 +53,7 @@ locale(elisa:tr) \
 locale(elisa:uk) \
 locale(elisa:zh_CN) \
 locale(elisa:zh_TW)"
+
 RDEPENDS:${PN} += "elisa"
 
 inherit rpm

@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-ipython_genutils \
 python3.10dist(ipython-genutils) \
 python310-ipython_genutils \
 python3dist(ipython-genutils)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310 \
 python310-pytest"

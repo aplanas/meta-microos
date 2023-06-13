@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab \
 jupyter-jupyterlab-discovery"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 jupyter-jupyterlab-filesystem \
 nodejs \

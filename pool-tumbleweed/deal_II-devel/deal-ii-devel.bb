@@ -14,6 +14,7 @@ deal_II-devel \
 deal_II-devel(aarch-64) \
 dealii-devel \
 pkgconfig(deal.II_release)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdeal_II9_4_2"
 

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6PositioningQuick) \
 pkgconfig(Qt6PositioningQuick) \
 qt6-positioningquick-devel \
 qt6-positioningquick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Qml) \
 cmake(Qt6Quick) \

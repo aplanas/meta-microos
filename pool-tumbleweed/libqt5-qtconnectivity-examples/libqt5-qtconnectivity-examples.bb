@@ -9,6 +9,7 @@ RPM_HASH = "4d530a7b24b954dd9e643a90518e502778dcb1dc7a92ab65858e2719b7d81aee7bcd
 
 RPROVIDES:${PN} += "libqt5-qtconnectivity-examples \
 libqt5-qtconnectivity-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Bluetooth.so.5()(64bit) \

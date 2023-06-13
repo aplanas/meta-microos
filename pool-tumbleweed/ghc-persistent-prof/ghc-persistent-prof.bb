@@ -10,6 +10,7 @@ RPM_HASH = "7b5928a739225205070a2a821b973414bc95279c6c7f8ee4765a7f9608eaa65c9814
 RPROVIDES:${PN} += "ghc-persistent-prof \
 ghc-persistent-prof(aarch-64) \
 ghc-prof(persistent-2.14.5.0-52EbT4CA3Ct4CmrnsbaA80)"
+
 RDEPENDS:${PN} += "ghc-persistent-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(weblate-schemas) \
 python39-weblate-schemas \
 python3dist(weblate-schemas)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jsonschema"
 

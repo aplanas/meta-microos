@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-system-hotkey310 \
 python3.10dist(system-hotkey310) \
 python310-system-hotkey310 \
 python3dist(system-hotkey310)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-xcffib \
 python310-xpybutil"

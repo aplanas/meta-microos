@@ -11,6 +11,7 @@ RPM_HASH = "381982caec5799d4b112e2c28b1c42598163b4e83531cc12c4e88b28ddb5a8dcb3b4
 RPROVIDES:${PN} += "libprimecount-devel \
 libprimecount-devel(aarch-64) \
 pkgconfig(primecount)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libprimecount7 \
 pkgconfig(primesieve)"

@@ -21,6 +21,7 @@ RPM_HASH = "f84a9b4500c3122122839126806d0ce7bdb85b4c2f8fcdef56dc118e58aee8d42d2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extratools"
+
 RDEPENDS:${PN} += "psutils \
 texlive-dviasm \
 texlive-dvidvi \

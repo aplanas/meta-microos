@@ -9,6 +9,7 @@ RPM_HASH = "8c891fe1c84a3f3a029a5c3d85004162214f10d6be7a3c6877a0d5c46a188f967888
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex2nemeth-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

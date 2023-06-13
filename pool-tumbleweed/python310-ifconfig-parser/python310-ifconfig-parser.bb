@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ifconfig-parser \
 python3.10dist(ifconfig-parser) \
 python310-ifconfig-parser \
 python3dist(ifconfig-parser)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

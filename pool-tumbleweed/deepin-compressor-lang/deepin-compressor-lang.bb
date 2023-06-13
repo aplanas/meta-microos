@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-compressor-lang \
 deepin-compressor-lang-all"
+
 RDEPENDS:${PN} += "deepin-compressor"
 
 inherit rpm

@@ -556,6 +556,7 @@ tex(ztm-Regular-tosf-sc-ot1.tfm) \
 tex(ztm-Regular-tosf-sc-t1.tfm) \
 tex(ztm-Regular-tosf-t1.tfm) \
 texlive-newpx"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

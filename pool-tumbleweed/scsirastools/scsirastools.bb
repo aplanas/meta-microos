@@ -21,6 +21,7 @@ RPM_HASH = "52d0066abf50c291219927c591735dd4f70a51ab1af4aeb5176403e3b7f590d40b7a
 RPROVIDES:${PN} += "config(scsirastools) \
 scsirastools \
 scsirastools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

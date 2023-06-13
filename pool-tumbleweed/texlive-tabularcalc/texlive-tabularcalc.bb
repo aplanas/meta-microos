@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabularcalc.sty) \
 texlive-tabularcalc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

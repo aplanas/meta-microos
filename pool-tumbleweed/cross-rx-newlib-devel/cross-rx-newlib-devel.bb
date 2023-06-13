@@ -11,6 +11,7 @@ RPM_HASH = "e27dc6d401247341c7f7ff28d071cfc1fcfa783be598f8e99967ed14646de1877e7b
 
 RPROVIDES:${PN} += "cross-rx-newlib-devel \
 cross-rx-newlib-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

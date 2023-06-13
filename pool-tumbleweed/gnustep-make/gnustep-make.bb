@@ -12,6 +12,7 @@ RPM_HASH = "9427ca58a8823ab4fa0c9875e70e40b63697b1a18ccb8a09c962b3da6b7da9a1541c
 RPROVIDES:${PN} += "config(gnustep-make) \
 gnustep-make \
 gnustep-make(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /sbin/ldconfig \

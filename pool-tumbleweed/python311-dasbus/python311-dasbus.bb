@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(dasbus) \
 python311-dasbus \
 python3dist(dasbus)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-gobject \
 typelib(GLib) \

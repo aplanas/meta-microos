@@ -13,6 +13,7 @@ tex(glossaries-portuges-utf8.ldf) \
 tex(glossaries-portuges.ldf) \
 tex(glossaries-pt-BR.ldf) \
 texlive-glossaries-portuges"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

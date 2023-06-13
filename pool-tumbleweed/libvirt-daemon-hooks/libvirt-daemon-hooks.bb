@@ -9,6 +9,7 @@ RPM_HASH = "f431aab09f77cdf7f05e8aa30353c27622738956e5a1b90438f1fc50be1f68474d19
 
 RPROVIDES:${PN} += "libvirt-daemon-hooks \
 libvirt-daemon-hooks(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 libvirt-daemon \
 python3-lxml"

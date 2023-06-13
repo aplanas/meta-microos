@@ -17,6 +17,7 @@ RPM_HASH = "11d5679e9cdc457d2673548116c913e394cdbdde0ead0dc13bbce4188062332a38f8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ply-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

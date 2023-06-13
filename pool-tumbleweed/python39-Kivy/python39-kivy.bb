@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(kivy) \
 python39-Kivy \
 python39-Kivy(aarch-64) \
 python3dist(kivy)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

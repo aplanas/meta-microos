@@ -9,6 +9,7 @@ RPM_HASH = "0a0024012577ca775eca133fe50cfad14f522e1eba68f2d30c6f46a7524127b16dc0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmpica-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

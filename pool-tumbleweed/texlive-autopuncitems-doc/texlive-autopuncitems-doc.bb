@@ -9,6 +9,7 @@ RPM_HASH = "c2dd5ca54e8fe366fa073a9379fdf25d7be437f461b545168f4bf09ad7da68d880fa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autopuncitems-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

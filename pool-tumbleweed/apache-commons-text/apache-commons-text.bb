@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "apache-commons-text \
 mvn(org.apache.commons:commons-text) \
 mvn(org.apache.commons:commons-text:pom:) \
 osgi(org.apache.commons.commons-text)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.commons:commons-lang3)"

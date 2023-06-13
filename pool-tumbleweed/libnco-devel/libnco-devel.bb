@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libnco-devel \
 libnco-devel(aarch-64) \
 libnco_c++-devel \
 nco-devel"
+
 RDEPENDS:${PN} += "libnco-5_1_4 \
 libnco_c++-5_1_4"
 

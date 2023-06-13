@@ -28,6 +28,7 @@ RPM_HASH = "19f7d2b92b7f5d2644e445f2401e82d355c77fd0e508c9135fd96c29f276fd13f040
 RPROVIDES:${PN} += "perl(Params::Classify) \
 perl-Params-Classify \
 perl-Params-Classify(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

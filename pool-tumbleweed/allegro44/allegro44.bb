@@ -13,6 +13,7 @@ RPM_HASH = "bc46b3df3eae08150e345eae0f2ac07be901fd206f0d4c71b090e93d9b656be65cf6
 
 RPROVIDES:${PN} += "allegro44 \
 allegro44(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

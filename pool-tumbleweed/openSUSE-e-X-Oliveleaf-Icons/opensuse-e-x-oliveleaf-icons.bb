@@ -10,6 +10,7 @@ RPM_HASH = "a5965751facb5f42281b0dbe17d6183ca9b514416c1f5b999320242e6bee943803a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-e-X-Oliveleaf-Icons"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

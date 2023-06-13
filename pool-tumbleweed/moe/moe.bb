@@ -16,6 +16,7 @@ RPM_HASH = "7ef387261ebbd17cd56e7a238164bb606d49778be5fbd51c75fb2f66e1a096537da8
 RPROVIDES:${PN} += "config(moe) \
 moe \
 moe(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

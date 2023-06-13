@@ -14,6 +14,7 @@ pattern-icon() \
 pattern-order() \
 patterns-lxde-lxde_office \
 patterns-lxde-lxde_office(aarch-64)"
+
 RDEPENDS:${PN} += "pattern()"
 
 inherit rpm

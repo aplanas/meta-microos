@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(nicefilelist.sty) \
 texlive-nicefilelist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

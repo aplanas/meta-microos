@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "mvn(org.codehaus.mojo:xml-maven-plugin) \
 mvn(org.codehaus.mojo:xml-maven-plugin:pom:) \
 xml-maven-plugin"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-core) \

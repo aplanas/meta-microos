@@ -152,6 +152,7 @@ font(さざなみ明朝) \
 locale(ja) \
 sazanami-fonts \
 scalable-font-ja"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

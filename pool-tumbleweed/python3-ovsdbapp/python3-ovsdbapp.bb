@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-ovsdbapp \
 python3.10dist(ovsdbapp) \
 python3dist(ovsdbapp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-fixtures \
 python3-netaddr \

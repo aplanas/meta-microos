@@ -12,6 +12,7 @@ RPM_HASH = "77990709a64c22227e400f89c2b44c22fcd231f16ed09d299ebb18cce0ac0fbd58d1
 
 RPROVIDES:${PN} += "plplot-driver-psttf \
 plplot-driver-psttf(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libLASi.so.2()(64bit) \

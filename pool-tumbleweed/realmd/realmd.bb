@@ -19,6 +19,7 @@ RPM_HASH = "2ca15960584585b1466a3aacd529b8cb32bc1dc73a381018476df25e9cfb82f226c7
 RPROVIDES:${PN} += "config(realmd) \
 realmd \
 realmd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

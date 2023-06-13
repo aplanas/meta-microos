@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-napalm \
 python3.10dist(napalm) \
 python310-napalm \
 python3dist(napalm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

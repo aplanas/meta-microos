@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "alee-fonts \
 locale(ko) \
 scalable-font-ko \
 ttf-alee"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

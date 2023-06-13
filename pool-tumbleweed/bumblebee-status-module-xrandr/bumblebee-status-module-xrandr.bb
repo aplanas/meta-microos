@@ -9,6 +9,7 @@ RPM_HASH = "312a095d559873c10eb72a00ce46f1f2f67fc085cc84705cd79d39e4b329d84cb39c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-xrandr"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 bumblebee-status \
 xrandr"

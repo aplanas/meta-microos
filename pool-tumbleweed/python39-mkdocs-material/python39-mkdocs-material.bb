@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(mkdocs-material) \
 python39-mkdocs-material \
 python3dist(mkdocs-material)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Markdown \
 python39-colorama \

@@ -12,6 +12,7 @@ RPM_HASH = "bf5f047636826b0c12d93d76d308ec7e8b29733e012b478f7856f8391de33e5bd9f4
 
 RPROVIDES:${PN} += "luit \
 luit(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "994401f7a6b94de94f757464703d97b0d59328de62a086f93ee4fcf44a718b4eab06
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-darkmode-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

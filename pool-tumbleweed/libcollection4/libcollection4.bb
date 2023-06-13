@@ -13,6 +13,7 @@ libcollection.so.4(COLLECTION_0.6.2)(64bit) \
 libcollection.so.4(COLLECTION_0.7)(64bit) \
 libcollection4 \
 libcollection4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

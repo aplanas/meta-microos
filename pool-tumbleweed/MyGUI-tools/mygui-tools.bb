@@ -17,6 +17,7 @@ application(FontEditor.desktop) \
 application(ImageEditor.desktop) \
 application(LayoutEditor.desktop) \
 application(SkinEditor.desktop)"
+
 RDEPENDS:${PN} += "/bin/bash \
 MyGUI \
 ld-linux-aarch64.so.1()(64bit) \

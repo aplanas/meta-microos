@@ -12,6 +12,7 @@ RPM_HASH = "87d0f8b738eb775dcad076b9a60374162ed377af9138cef76c4f37512d006a633923
 
 RPROVIDES:${PN} += "yq \
 yq(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

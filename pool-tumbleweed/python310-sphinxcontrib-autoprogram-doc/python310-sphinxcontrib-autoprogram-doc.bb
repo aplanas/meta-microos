@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-autoprogram-doc \
 python310-sphinxcontrib-autoprogram-doc"
+
 RDEPENDS:${PN} += "python310-Sphinx"
 
 inherit rpm

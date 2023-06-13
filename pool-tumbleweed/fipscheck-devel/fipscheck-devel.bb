@@ -9,6 +9,7 @@ RPM_HASH = "47cac9088373b0e645cea95c1e5fb13c1c34c99ab826d48dcb4696340d8a4141a4ed
 
 RPROVIDES:${PN} += "fipscheck-devel \
 fipscheck-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libfipscheck1"
 
 inherit rpm

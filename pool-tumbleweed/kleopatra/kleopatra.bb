@@ -22,6 +22,7 @@ mimehandler(application/pkcs7-mime) \
 mimehandler(application/vnd.kde.kleopatra.keygroup) \
 mimehandler(application/x-pkcs12) \
 mimehandler(application/x-x509-ca-cert)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

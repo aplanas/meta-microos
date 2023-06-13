@@ -16,6 +16,7 @@ python3.10dist(calysto) \
 python310-calysto \
 python310-jupyter_calysto \
 python3dist(calysto)"
+
 RDEPENDS:${PN} += "jupyter-calysto \
 python(abi) \
 python310-CairoSVG \

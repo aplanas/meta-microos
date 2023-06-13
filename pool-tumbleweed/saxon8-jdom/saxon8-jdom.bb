@@ -11,6 +11,7 @@ RPM_HASH = "8764b8e9077bfca28d076524f4cf672ffad6cece7312c6f027ba666b02844c9a62b3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon8-jdom"
+
 RDEPENDS:${PN} += "jdom \
 saxon8"
 

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(denisbdoc.sty) \
 texlive-denisbdoc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

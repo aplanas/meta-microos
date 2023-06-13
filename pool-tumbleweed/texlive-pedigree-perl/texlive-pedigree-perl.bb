@@ -23,6 +23,7 @@ perl(Pedigree::Parser) \
 perl(Pedigree::PersonNode) \
 perl(Pedigree::TwinsNode) \
 texlive-pedigree-perl"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 coreutils \

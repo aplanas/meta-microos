@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "pkgconfig(commoncpp) \
 pkgconfig(ucommon) \
 ucommon-devel \
 ucommon-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libucommon8 \

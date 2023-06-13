@@ -11,6 +11,7 @@ RPM_HASH = "d2a0965adcb373705af9515d9f968760afee9666d0b8b5e6ebe96cea0a861acdda64
 RPROVIDES:${PN} += "libnpupnp-devel \
 libnpupnp-devel(aarch-64) \
 pkgconfig(libnpupnp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnpupnp9"
 

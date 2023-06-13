@@ -10,6 +10,7 @@ RPM_HASH = "91bcb70cb1cd26b8857afa8cf044a9309874e9145eff5cb9d37af2ac11e5602032e2
 
 RPROVIDES:${PN} += "pcp-export-pcp2influxdb \
 pcp-export-pcp2influxdb(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 python3-pcp \
 python3-requests"

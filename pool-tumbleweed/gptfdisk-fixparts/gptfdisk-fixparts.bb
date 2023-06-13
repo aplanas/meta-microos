@@ -12,6 +12,7 @@ RPM_HASH = "739cf227ea0ef8dbe4ab6ce3ffbc8cd661fc882b5e6e225754fe5100aff9ab08c4eb
 
 RPROVIDES:${PN} += "gptfdisk-fixparts \
 gptfdisk-fixparts(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

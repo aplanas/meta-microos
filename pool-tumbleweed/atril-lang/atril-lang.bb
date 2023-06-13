@@ -112,6 +112,7 @@ locale(atril:wa) \
 locale(atril:zh_CN) \
 locale(atril:zh_HK) \
 locale(atril:zh_TW)"
+
 RDEPENDS:${PN} += "atril"
 
 inherit rpm

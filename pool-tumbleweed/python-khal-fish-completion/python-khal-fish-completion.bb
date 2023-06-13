@@ -9,6 +9,7 @@ RPM_HASH = "755ba27b3ec716aa55130993f9eae961f20d42dd6380f030bb6022f6911beac0bbe7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-khal-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

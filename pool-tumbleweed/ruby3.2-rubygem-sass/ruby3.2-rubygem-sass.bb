@@ -19,6 +19,7 @@ rubygem(ruby:3.2.0:sass:3) \
 rubygem(ruby:3.2.0:sass:3.7) \
 rubygem(ruby:3.2.0:sass:3.7.4) \
 rubygem(sass)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

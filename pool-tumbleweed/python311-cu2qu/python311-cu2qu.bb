@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.11dist(cu2qu) \
 python311-cu2qu \
 python311-cu2qu(aarch-64) \
 python3dist(cu2qu)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

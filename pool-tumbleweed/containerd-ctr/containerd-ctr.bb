@@ -10,6 +10,7 @@ RPM_HASH = "29e882534810ef867065a3eac02c1c8252a2f9491f6febda368385182cedf2bd7145
 
 RPROVIDES:${PN} += "containerd-ctr \
 containerd-ctr(aarch-64)"
+
 RDEPENDS:${PN} += "containerd \
 libc.so.6(GLIBC_2.34)(64bit)"
 

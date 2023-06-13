@@ -10,6 +10,7 @@ RPM_HASH = "307d2a4889de1697e06b787996f968d71759290d611e688e8402e8500f42b62e5a1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2tabu-italian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

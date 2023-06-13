@@ -65,6 +65,7 @@ locale(plasma-framework:zh_CN) \
 locale(plasma-framework:zh_TW) \
 plasma-framework-lang \
 plasma-framework-lang-all"
+
 RDEPENDS:${PN} += "plasma-framework"
 
 inherit rpm

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jdepend \
 mvn(jdepend:jdepend) \
 mvn(jdepend:jdepend:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

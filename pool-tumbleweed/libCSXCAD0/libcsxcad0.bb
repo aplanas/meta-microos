@@ -11,6 +11,7 @@ RPM_HASH = "d9c371d0a67b5266838c6654218f2679fe3c727c7ac5dab4901b3e6af35de97e9aa7
 RPROVIDES:${PN} += "libCSXCAD.so.0()(64bit) \
 libCSXCAD0 \
 libCSXCAD0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

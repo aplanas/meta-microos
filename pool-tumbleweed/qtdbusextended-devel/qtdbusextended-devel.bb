@@ -10,6 +10,7 @@ RPM_HASH = "24b50111f90ff934489a8f36d43c15c87862722d697892be422edcc816e60b7b1ffb
 RPROVIDES:${PN} += "pkgconfig(dbusextended-qt5) \
 qtdbusextended-devel \
 qtdbusextended-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdbusextended-qt5-1 \
 pkgconfig(Qt5Core) \

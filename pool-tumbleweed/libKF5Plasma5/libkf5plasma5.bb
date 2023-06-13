@@ -13,6 +13,7 @@ libKF5Plasma5(aarch-64) \
 libKF5PlasmaQuick.so.5()(64bit) \
 qt5qmlimport(org.kde.plasma.configuration.2) \
 qt5qmlimport(org.kde.plasma.plasmoid.2)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

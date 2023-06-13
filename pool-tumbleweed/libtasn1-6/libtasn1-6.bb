@@ -13,6 +13,7 @@ libtasn1-6(aarch-64) \
 libtasn1.so.6()(64bit) \
 libtasn1.so.6(LIBTASN1_0_3)(64bit) \
 libtasn1.so.6(LIBTASN1_4_16_0)(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-chi_sim_vert \
 tesseract-ocr-traineddata-chinese_simplified_vertical \
 tesseract-traineddata-chinese_simplified_vertical"
+
 RDEPENDS:${PN} += "tesseract-ocr"
 
 inherit rpm

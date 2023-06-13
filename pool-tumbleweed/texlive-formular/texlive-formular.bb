@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(formular.sty) \
 texlive-formular"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

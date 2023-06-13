@@ -13,6 +13,7 @@ RPM_HASH = "1dfda57a4db00a65f74d07cd2c9b6bdef871118796e2d24230645e473d9a16f95100
 
 RPROVIDES:${PN} += "ocr_1_0_1-gnu-mvapich2-hpc-devel \
 ocr_1_0_1-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 mvapich2-gnu-hpc-devel \
 ocr_1_0_1-gnu-mvapich2-hpc"

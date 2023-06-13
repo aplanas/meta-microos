@@ -10,6 +10,7 @@ RPM_HASH = "beebb2a18c6d94190ecd7f29d83c502b2998ea0695d10cdda216c02c725d6cb1c060
 RPROVIDES:${PN} += "ghc-cookie-prof \
 ghc-cookie-prof(aarch-64) \
 ghc-prof(cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE)"
+
 RDEPENDS:${PN} += "ghc-cookie-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

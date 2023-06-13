@@ -9,6 +9,7 @@ RPM_HASH = "28aac845ead6dac0730b5c25c7b6165261cff4a610670a58abf790e85bd435a8ffd1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-transliterator-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

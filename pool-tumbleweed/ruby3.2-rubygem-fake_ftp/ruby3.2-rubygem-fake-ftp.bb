@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:fake_ftp) \
 rubygem(ruby:3.2.0:fake_ftp:0) \
 rubygem(ruby:3.2.0:fake_ftp:0.3) \
 rubygem(ruby:3.2.0:fake_ftp:0.3.0)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

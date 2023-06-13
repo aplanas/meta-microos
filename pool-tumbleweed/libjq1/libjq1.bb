@@ -10,6 +10,7 @@ RPM_HASH = "bd2321bff562c8856101f1d4c18a40cf135f6d98045f2db66c4c591f623f7d2f1a76
 RPROVIDES:${PN} += "libjq.so.1()(64bit) \
 libjq1 \
 libjq1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

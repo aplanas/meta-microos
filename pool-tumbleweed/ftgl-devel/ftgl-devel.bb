@@ -14,6 +14,7 @@ RPM_HASH = "51f66e3e0b6e51a7d1ca87eb52b1a73ef04a33852ceb5d5ea1e7c51efa7b2ba6a2c7
 RPROVIDES:${PN} += "ftgl-devel \
 ftgl-devel(aarch-64) \
 pkgconfig(ftgl)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libftgl2 \
 pkgconfig(freetype2)"

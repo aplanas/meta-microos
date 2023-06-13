@@ -12,6 +12,7 @@ ghc-terminfo-devel \
 ghc-terminfo-devel(aarch-64) \
 ghc-terminfo-static \
 ghc-terminfo-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-terminfo(aarch-64) \

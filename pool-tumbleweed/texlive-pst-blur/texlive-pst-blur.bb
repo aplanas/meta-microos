@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(pst-blur.sty) \
 tex(pst-blur.tex) \
 texlive-pst-blur"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

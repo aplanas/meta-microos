@@ -41,6 +41,7 @@ perl(XML::XPath::Step) \
 perl(XML::XPath::Variable) \
 perl(XML::XPath::XMLParser) \
 perl-XML-XPath"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Scalar::Util) \

@@ -9,6 +9,7 @@ RPM_HASH = "d545a8a4090374bf8cc1212426d1460dfc5c5b4bf10a9cf676cf6167e90fc9a69250
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texpower-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

@@ -20,6 +20,7 @@ application() \
 application(UltimateDailyWallpaper.desktop) \
 libbing-wallpaper-downloader-0.0.4.so()(64bit) \
 libwikimedia-commons-potd-0.0.6.so()(64bit)"
+
 RDEPENDS:${PN} += "curl \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

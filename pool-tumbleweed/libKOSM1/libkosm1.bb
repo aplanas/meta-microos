@@ -10,6 +10,7 @@ RPM_HASH = "3a3dc6344b44fb3911c28b8f7bb7eb3afe6a6c647203e16ed638dc59ae7fe640dee2
 RPROVIDES:${PN} += "libKOSM.so.1()(64bit) \
 libKOSM1 \
 libKOSM1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

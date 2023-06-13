@@ -21,6 +21,7 @@ perl(Exporter::Declare::Export::Variable) \
 perl(Exporter::Declare::Meta) \
 perl(Exporter::Declare::Specs) \
 perl-Exporter-Declare"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Meta::Builder) \
 perl(aliased)"

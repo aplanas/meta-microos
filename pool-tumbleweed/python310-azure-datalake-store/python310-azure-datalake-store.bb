@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-datalake-store \
 python3.10dist(azure-datalake-store) \
 python310-azure-datalake-store \
 python3dist(azure-datalake-store)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-adal \
 python310-azure-nspkg \

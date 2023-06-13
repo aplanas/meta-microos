@@ -11,6 +11,7 @@ RPM_HASH = "ac9a082f4cb16e75c2a59bc49b89c1659681fd7af6b6ae1ebbf1e7ec5dcbd48ccced
 RPROVIDES:${PN} += "ghc-kan-extensions \
 ghc-kan-extensions(aarch-64) \
 libHSkan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \

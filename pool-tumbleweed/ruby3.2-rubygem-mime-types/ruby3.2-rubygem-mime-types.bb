@@ -26,6 +26,7 @@ rubygem(ruby:3.2.0:mime-types) \
 rubygem(ruby:3.2.0:mime-types:3) \
 rubygem(ruby:3.2.0:mime-types:3.4) \
 rubygem(ruby:3.2.0:mime-types:3.4.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:mime-types-data:3)"
 

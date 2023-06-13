@@ -14,6 +14,7 @@ RPM_HASH = "302ed32f1d25183d47cbed1839f8622181a6f47b927453e88421227c8cd47ef5fcd1
 
 RPROVIDES:${PN} += "netgen \
 netgen(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

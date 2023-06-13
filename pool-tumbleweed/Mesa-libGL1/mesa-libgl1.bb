@@ -17,6 +17,7 @@ RPM_HASH = "06156a25b21fd24b89b615e03403e651e0aa13b89074b7ffdadc4bedfe556dd4e705
 RPROVIDES:${PN} += "Mesa-libGL1 \
 Mesa-libGL1(aarch-64) \
 libGLX_mesa.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa \
 ld-linux-aarch64.so.1()(64bit) \

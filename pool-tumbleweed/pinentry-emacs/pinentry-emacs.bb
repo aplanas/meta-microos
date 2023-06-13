@@ -13,6 +13,7 @@ pinentry-emacs \
 pinentry-emacs(aarch-64) \
 pinentry-gui \
 pinentry:/usr/bin/pinentry-emacs"
+
 RDEPENDS:${PN} += "emacs \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

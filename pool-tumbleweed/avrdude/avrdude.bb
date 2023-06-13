@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "avr-programmer \
 avrdude \
 avrdude(aarch-64) \
 config(avrdude)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/modprobe \
 ld-linux-aarch64.so.1()(64bit) \

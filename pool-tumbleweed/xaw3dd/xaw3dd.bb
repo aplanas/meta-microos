@@ -17,6 +17,7 @@ libXaw.so.7()(64bit) \
 libXaw.so.8()(64bit) \
 xaw3dd \
 xaw3dd(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

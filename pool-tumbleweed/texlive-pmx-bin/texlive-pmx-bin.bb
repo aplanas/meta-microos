@@ -9,6 +9,7 @@ RPM_HASH = "1f66564687088a59da67b6b493edf6d589356db2cbf123e389be6a4a18b9a6d30ee2
 
 RPROVIDES:${PN} += "texlive-pmx-bin \
 texlive-pmx-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-guessit \
 python3.10dist(guessit) \
 python310-guessit \
 python3dist(guessit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-config-lang \
 lxqt-config-lang-all"
+
 RDEPENDS:${PN} += "lxqt-config"
 
 inherit rpm

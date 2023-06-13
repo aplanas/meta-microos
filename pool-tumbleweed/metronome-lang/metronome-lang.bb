@@ -14,6 +14,7 @@ locale(metronome:lt) \
 locale(metronome:nl) \
 metronome-lang \
 metronome-lang-all"
+
 RDEPENDS:${PN} += "metronome"
 
 inherit rpm

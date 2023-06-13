@@ -9,6 +9,7 @@ RPM_HASH = "50f80122cf968529d03e83752c5033dca8e4d4574117add27479fc7b36cdb6f41b40
 
 RPROVIDES:${PN} += "avogadrolibs-plugins \
 avogadrolibs-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

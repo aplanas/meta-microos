@@ -32,6 +32,7 @@ locale(nfoview:tr) \
 locale(nfoview:zh_CN) \
 nfoview-lang \
 nfoview-lang-all"
+
 RDEPENDS:${PN} += "nfoview"
 
 inherit rpm

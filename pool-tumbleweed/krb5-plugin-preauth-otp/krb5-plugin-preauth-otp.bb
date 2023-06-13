@@ -11,6 +11,7 @@ RPM_HASH = "45e052da630c6cff4b419b9e4a32d768d2333484d53a6dd65024b460c6f3a6941493
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-otp \
 krb5-plugin-preauth-otp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

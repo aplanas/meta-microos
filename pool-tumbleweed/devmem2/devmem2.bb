@@ -12,6 +12,7 @@ RPM_HASH = "853223979c34bb8b8501c5be05a76bcb063315d2c18086eef898b04ef8e307de4e0a
 
 RPROVIDES:${PN} += "devmem2 \
 devmem2(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

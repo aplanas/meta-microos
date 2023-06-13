@@ -86,6 +86,7 @@ locale(libnma:wa) \
 locale(libnma:zh_CN) \
 locale(libnma:zh_HK) \
 locale(libnma:zh_TW)"
+
 RDEPENDS:${PN} += "libnma"
 
 inherit rpm

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tzplot.sty) \
 texlive-tzplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

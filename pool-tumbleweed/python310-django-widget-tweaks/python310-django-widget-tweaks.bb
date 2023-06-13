@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-widget-tweaks \
 python3.10dist(django-widget-tweaks) \
 python310-django-widget-tweaks \
 python3dist(django-widget-tweaks)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

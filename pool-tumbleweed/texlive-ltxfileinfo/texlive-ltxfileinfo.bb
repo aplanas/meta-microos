@@ -14,6 +14,7 @@ RPM_HASH = "6112b01c9cf6dc9cfe791fd0e274e33cec3aec760eb2b97a5451d0a597e2b5b490c1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltxfileinfo"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

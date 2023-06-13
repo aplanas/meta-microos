@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-jsonref \
 python3.10dist(jsonref) \
 python310-jsonref \
 python3dist(jsonref)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

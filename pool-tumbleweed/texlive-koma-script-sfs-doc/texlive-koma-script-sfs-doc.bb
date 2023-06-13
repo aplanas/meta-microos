@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-koma-script-sfs-doc:fi) \
 texlive-koma-script-sfs-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

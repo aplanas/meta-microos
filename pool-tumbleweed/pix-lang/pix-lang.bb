@@ -81,6 +81,7 @@ locale(pix:zh_HK) \
 locale(pix:zh_TW) \
 pix-lang \
 pix-lang-all"
+
 RDEPENDS:${PN} += "pix"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "30bb785f82e2833828ef4eb05e5b35a5920f66974357a259b3811255a24d98b1e5cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lplfitch-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

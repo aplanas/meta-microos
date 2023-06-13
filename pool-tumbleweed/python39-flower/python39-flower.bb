@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flower) \
 python39-flower \
 python3dist(flower)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Babel \
 python39-celery \

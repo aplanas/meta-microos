@@ -9,6 +9,7 @@ RPM_HASH = "0c55c01456684b9d7e94a4a3cd416d1e81dacae396065603172d1c7e7f39d3b8bcf0
 
 RPROVIDES:${PN} += "collectd-plugin-gps \
 collectd-plugin-gps(aarch-64)"
+
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "e8fb860dab9aacba5cb93daeb64b0063439b4c4e5529639ec758a5613c4dafa93fe9
 RPROVIDES:${PN} += "liblqr-devel \
 liblqr-devel(aarch-64) \
 pkgconfig(lqr-1)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liblqr-1-0 \
 pkgconfig(glib-2.0)"

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Devel::Symdump) \
 perl(Devel::Symdump::Export) \
 perl-Devel-Symdump"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Compress::Zlib)"
 

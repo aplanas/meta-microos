@@ -9,6 +9,7 @@ RPM_HASH = "bdf8fff50be0b585ec39b99e085362a49a31e0976bc8e1754b38157ced46610c271a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tokenizer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

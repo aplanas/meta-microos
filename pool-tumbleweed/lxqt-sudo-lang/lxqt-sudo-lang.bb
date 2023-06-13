@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-sudo-lang \
 lxqt-sudo-lang-all"
+
 RDEPENDS:${PN} += "lxqt-sudo"
 
 inherit rpm

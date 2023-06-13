@@ -16,6 +16,7 @@ libgtk-3-0 \
 libgtk-3-0(aarch-64) \
 libgtk-3.so.0()(64bit) \
 libgtk-3_0-0"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gdk-pixbuf-loader-rsvg \
 gtk3-data \

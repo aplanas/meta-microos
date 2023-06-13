@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(responses) \
 python39-responses \
 python3dist(responses)"
+
 RDEPENDS:${PN} += "(python39-requests >= 2.22.0 with python39-requests < 3) \
 python(abi) \
 python39-PyYAML \

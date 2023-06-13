@@ -11,6 +11,7 @@ RPM_HASH = "470601acb7d92fadabecf64be56b0966c8dde45fcb8ad24e6dbaa92dd928549bf966
 RPROVIDES:${PN} += "libexiv2-27 \
 libexiv2-27(aarch-64) \
 libexiv2.so.27()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

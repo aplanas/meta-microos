@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-jinja2-fsloader \
 python3.10dist(jinja2-fsloader) \
 python310-jinja2-fsloader \
 python3dist(jinja2-fsloader)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Jinja2 \
 python310-fs"

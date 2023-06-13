@@ -49,6 +49,7 @@ perl(XML::RSS::Private::Output::V0_91) \
 perl(XML::RSS::Private::Output::V1_0) \
 perl(XML::RSS::Private::Output::V2_0) \
 perl-XML-RSS"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime::Format::Mail) \
 perl(DateTime::Format::W3CDTF) \

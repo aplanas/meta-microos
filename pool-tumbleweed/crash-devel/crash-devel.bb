@@ -20,6 +20,7 @@ RPM_HASH = "1cd6fc38f21918c009bc7ffe8994fa06b951e5a7abcc2a819a688e10df0b8efa1a38
 
 RPROVIDES:${PN} += "crash-devel \
 crash-devel(aarch-64)"
+
 RDEPENDS:${PN} += "crash \
 zlib-devel"
 

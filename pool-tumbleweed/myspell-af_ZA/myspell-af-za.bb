@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:af_ZA) \
 myspell-af_ZA \
 myspell-african \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

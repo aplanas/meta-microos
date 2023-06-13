@@ -10,6 +10,7 @@ RPM_HASH = "33d6a5acf1dd478158eea90a1ad21f7b244a1c5b6b1642b8d01ccc03da9a5645892f
 RPROVIDES:${PN} += "libvapoursynth-62 \
 libvapoursynth-62(aarch-64) \
 libvapoursynth-62.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

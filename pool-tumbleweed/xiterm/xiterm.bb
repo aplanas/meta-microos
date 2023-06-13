@@ -10,6 +10,7 @@ RPM_HASH = "b9d7360e3cf13c5546e3d538e3a8b07c4dea317f818f2d260c692b464142d5ad04c7
 RPROVIDES:${PN} += "locale(xorg-x11:ja;ko;zh) \
 xiterm \
 xiterm(aarch-64)"
+
 RDEPENDS:${PN} += "group(tty) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

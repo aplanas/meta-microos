@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(tie.1) \
 texlive-tie"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

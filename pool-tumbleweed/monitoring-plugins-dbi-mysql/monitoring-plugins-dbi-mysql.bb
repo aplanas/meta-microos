@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "monitoring-plugins-dbi-mysql \
 monitoring-plugins-dbi-mysql(aarch-64) \
 monitoring-plugins-dbi_backend \
 nagios-plugins-dbi-mysql"
+
 RDEPENDS:${PN} += "libdbi-drivers-dbd-mysql \
 monitoring-plugins-dbi"
 

@@ -11,6 +11,7 @@ RPM_HASH = "a14ce4f1e072eb822ceba2d1bb42808b747ace2ec9eb5485560b92c18d25dade7131
 RPROVIDES:${PN} += "libgweather4-devel \
 libgweather4-devel(aarch-64) \
 pkgconfig(gweather4)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgweather-4-0 \
 pkgconfig(geocode-glib-2.0) \

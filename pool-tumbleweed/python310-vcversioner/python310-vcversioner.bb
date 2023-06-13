@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-vcversioner \
 python3.10dist(vcversioner) \
 python310-vcversioner \
 python3dist(vcversioner)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

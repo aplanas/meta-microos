@@ -10,6 +10,7 @@ RPM_HASH = "df8fffb0624321609292d1efa7860a6f5c158cb54d72adf10897873644dec09c6115
 
 RPROVIDES:${PN} += "obs-service-cdi_containers_meta \
 obs-service-cdi_containers_meta(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

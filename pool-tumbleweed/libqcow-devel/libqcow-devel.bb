@@ -13,6 +13,7 @@ RPM_HASH = "84e7092b4a66179c23050cdbab031cdb1076ae49e4ed8e1e47947c0e6cd5b48d7426
 RPROVIDES:${PN} += "libqcow-devel \
 libqcow-devel(aarch-64) \
 pkgconfig(libqcow)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libqcow1"

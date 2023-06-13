@@ -12,6 +12,7 @@ RPM_HASH = "7e74aaa20fabbeec2dd124411431713c90c3ff8eb57642111b548bada255f86dc60b
 
 RPROVIDES:${PN} += "QCSXCAD-devel \
 QCSXCAD-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libQCSXCAD0"
 
 inherit rpm

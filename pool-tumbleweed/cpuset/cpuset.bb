@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cpuset \
 python3.10dist(cpuset) \
 python3dist(cpuset)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-future"

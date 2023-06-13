@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compton-conf-lang \
 compton-conf-lang-all"
+
 RDEPENDS:${PN} += "compton-conf"
 
 inherit rpm

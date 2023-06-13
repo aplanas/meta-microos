@@ -11,6 +11,7 @@ RPM_HASH = "66e49ca0e131fb472f988edcf3c89a3818c5b59842940772745f97fac6d7703af14a
 RPROVIDES:${PN} += "libmediaart-devel \
 libmediaart-devel(aarch-64) \
 pkgconfig(libmediaart-2.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmediaart-2_0-0 \
 pkgconfig(gdk-pixbuf-2.0) \

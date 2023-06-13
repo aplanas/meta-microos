@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:dry-logic) \
 rubygem(ruby:3.2.0:dry-logic:1) \
 rubygem(ruby:3.2.0:dry-logic:1.5) \
 rubygem(ruby:3.2.0:dry-logic:1.5.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby:1) \
 rubygem(ruby:3.2.0:dry-core) \

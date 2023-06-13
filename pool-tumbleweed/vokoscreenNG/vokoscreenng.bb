@@ -14,6 +14,7 @@ metainfo(vokoscreenNG.appdata.xml) \
 vokoscreen \
 vokoscreenNG \
 vokoscreenNG(aarch-64)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

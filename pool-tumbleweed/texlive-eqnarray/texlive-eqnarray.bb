@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(eqnarray.sty) \
 texlive-eqnarray"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -25,6 +25,7 @@ rpm_macro(vagrant_rb_ruby_suffix) \
 rubygem-vagrant \
 vagrant \
 vagrant(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/ruby.ruby3.2 \

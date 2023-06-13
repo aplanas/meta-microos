@@ -12,6 +12,7 @@ RPM_HASH = "e6126b0abfb9bd3c73fb9dc23f37e25b1c74317970d87b618d85123d565cd96816f5
 RPROVIDES:${PN} += "typelib(Babl) \
 typelib-1_0-Babl-0_1 \
 typelib-1_0-Babl-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libbabl-0.1.so.0()(64bit)"
 
 inherit rpm

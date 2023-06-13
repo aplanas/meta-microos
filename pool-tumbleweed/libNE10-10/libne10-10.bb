@@ -18,6 +18,7 @@ RPM_HASH = "73557a97395115617b06c6e417b56f930aa719d1de1bd979e895ffd5a2ed4f9572fc
 RPROVIDES:${PN} += "libNE10-10 \
 libNE10-10(aarch-64) \
 libNE10.so.10()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

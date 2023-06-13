@@ -17,6 +17,7 @@ metainfo() \
 metainfo(org.kde.kget.appdata.xml) \
 mimehandler(application/metalink+xml) \
 mimehandler(application/x-bittorrent)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

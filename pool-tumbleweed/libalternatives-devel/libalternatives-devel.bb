@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(libalternatives) \
 libalternatives-devel \
 libalternatives-devel(aarch-64) \
 pkgconfig(libalternatives)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libalternatives1"
 

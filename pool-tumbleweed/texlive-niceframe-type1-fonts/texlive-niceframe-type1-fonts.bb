@@ -36,6 +36,7 @@ font(karta) \
 font(umranda) \
 font(umrandb) \
 texlive-niceframe-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

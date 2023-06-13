@@ -9,6 +9,7 @@ RPM_HASH = "ee47e4117121b6295374c6fb7246868b90213695628f25c4693e611b0e853d2dca1c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fdsymbol-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libopensm.so.9()(64bit) \
 libopensm.so.9(OPENSM_1.5)(64bit) \
 libopensm9 \
 libopensm9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

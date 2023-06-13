@@ -11,6 +11,7 @@ RPM_HASH = "b6a591351eb4daa28b0f15065445d316ad66bf532f22edf8d072721e3ec18c147d4e
 RPROVIDES:${PN} += "libKPim5EventViews.so.5()(64bit) \
 libKPim5EventViews5 \
 libKPim5EventViews5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 eventviews \
 ld-linux-aarch64.so.1()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "desktop-file-utils \
 desktop-file-utils(aarch-64) \
 rpm_macro(desktop_database_post) \
 rpm_macro(desktop_database_postun)"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 awk \

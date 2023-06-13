@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(graphene) \
 python39-graphene \
 python3dist(graphene)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-aniso8601 \
 python39-graphql-core \

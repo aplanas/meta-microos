@@ -10,6 +10,7 @@ RPM_HASH = "74674a98758bc21c155f0867a26aa8309f03e9c8f7cc5f44b41b2fae62c6a3499ef9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-nextcloud"
+
 RDEPENDS:${PN} += "nemo \
 nextcloud-desktop \
 python-nemo \

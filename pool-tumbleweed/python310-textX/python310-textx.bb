@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-textX \
 python3.10dist(textx) \
 python310-textX \
 python3dist(textx)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

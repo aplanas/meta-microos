@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(t-bnf.tex) \
 texlive-context-bnf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

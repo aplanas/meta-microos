@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6QmlLocalStorage) \
 pkgconfig(Qt6QmlLocalStorage) \
 qt6-qmllocalstorage-devel \
 qt6-qmllocalstorage-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Sql) \
 libQt6QmlLocalStorage6 \

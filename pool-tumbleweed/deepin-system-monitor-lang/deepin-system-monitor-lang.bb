@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-system-monitor-lang \
 deepin-system-monitor-lang-all"
+
 RDEPENDS:${PN} += "deepin-system-monitor"
 
 inherit rpm

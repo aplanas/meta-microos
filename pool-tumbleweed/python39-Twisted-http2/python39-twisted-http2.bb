@@ -12,6 +12,7 @@ RPM_HASH = "99a73a1f7893c3c22729c8d502c3e01ab40ce1c61f3042c900b42ad67d6a5feadcb1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-http2"
+
 RDEPENDS:${PN} += "python39-Twisted \
 python39-h2 \
 python39-priority"

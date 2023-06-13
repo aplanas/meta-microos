@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3.11dist(distorm3) \
 python311-distorm3 \
 python311-distorm3(aarch-64) \
 python3dist(distorm3)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

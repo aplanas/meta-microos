@@ -10,6 +10,7 @@ RPM_HASH = "c9b1f06594b4fceda3ff9cce2854f2e90a8772e939c7f192ae0ae2d2c302885c1a62
 RPROVIDES:${PN} += "slurm-torque \
 slurm-torque(aarch-64) \
 torque-client"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

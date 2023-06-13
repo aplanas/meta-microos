@@ -12,6 +12,7 @@ RPM_HASH = "7114fe253642c724f160a277828975bbf273ec1388643c5bfa74437c2d5ba6f6fbb6
 RPROVIDES:${PN} += "config(e2fsprogs) \
 e2fsprogs \
 e2fsprogs(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

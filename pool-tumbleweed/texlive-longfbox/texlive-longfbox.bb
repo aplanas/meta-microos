@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(longbox.sty) \
 tex(longfbox.sty) \
 texlive-longfbox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

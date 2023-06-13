@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libixml-devel \
 libupnp-devel \
 libupnp-devel(aarch-64) \
 pkgconfig(libupnp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libixml11 \
 libupnp17"

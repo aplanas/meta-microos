@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:prawn) \
 rubygem(ruby:3.2.0:prawn:2) \
 rubygem(ruby:3.2.0:prawn:2.4) \
 rubygem(ruby:3.2.0:prawn:2.4.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:pdf-core:0.9) \
 rubygem(ruby:3.2.0:ttfunk:1)"

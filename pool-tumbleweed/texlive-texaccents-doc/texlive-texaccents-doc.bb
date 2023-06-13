@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texaccents.1) \
 texlive-texaccents-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

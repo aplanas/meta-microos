@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(finstrut.sty) \
 texlive-finstrut"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

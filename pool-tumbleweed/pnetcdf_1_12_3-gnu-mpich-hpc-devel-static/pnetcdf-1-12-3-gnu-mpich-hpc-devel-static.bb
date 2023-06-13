@@ -15,6 +15,7 @@ RPM_HASH = "c385165cf4e0f5efae9e6e8070e070196c8bbf65d4ccc44533b5dedd2505796dc189
 
 RPROVIDES:${PN} += "pnetcdf_1_12_3-gnu-mpich-hpc-devel-static \
 pnetcdf_1_12_3-gnu-mpich-hpc-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "pnetcdf_1_12_3-gnu-mpich-hpc-devel"
 
 inherit rpm

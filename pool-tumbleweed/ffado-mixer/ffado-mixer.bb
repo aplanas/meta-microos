@@ -23,6 +23,7 @@ application(ffadomixer.desktop) \
 ffado-mixer \
 metainfo() \
 metainfo(ffado-mixer.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffado \
 python(abi)"

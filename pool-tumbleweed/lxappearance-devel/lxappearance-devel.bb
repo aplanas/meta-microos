@@ -10,6 +10,7 @@ RPM_HASH = "5e41a32e0ca7257f9895edf31a5a98f4b0623dda04a46800cab9f588c3eb83c22108
 RPROVIDES:${PN} += "lxappearance-devel \
 lxappearance-devel(aarch-64) \
 pkgconfig(lxappearance)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lxappearance \
 pkgconfig(gthread-2.0) \

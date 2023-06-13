@@ -12,6 +12,7 @@ RPM_HASH = "cf2660f8da802a76acdb3ae84afe62f34552b0ae1f63483af2cc14a0b3ad4bf40cdf
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-nuspell \
 enchant-2-backend-nuspell(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

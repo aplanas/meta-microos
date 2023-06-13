@@ -22,6 +22,7 @@ RPM_HASH = "9b75defaf53ff26ba233e377c7b31e3461cd0a356c96b6d8f2a619cc6b187d9a79e4
 RPROVIDES:${PN} += "libgivaro.so.9()(64bit) \
 libgivaro9 \
 libgivaro9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

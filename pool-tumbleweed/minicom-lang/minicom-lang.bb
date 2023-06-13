@@ -29,6 +29,7 @@ locale(minicom:zh_CN) \
 locale(minicom:zh_TW) \
 minicom-lang \
 minicom-lang-all"
+
 RDEPENDS:${PN} += "minicom"
 
 inherit rpm

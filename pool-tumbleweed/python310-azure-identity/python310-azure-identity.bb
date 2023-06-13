@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-identity \
 python3.10dist(azure-identity) \
 python310-azure-identity \
 python3dist(azure-identity)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-core \
 python310-azure-nspkg \

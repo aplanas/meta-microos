@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-agate-lookup \
 python3.10dist(agate-lookup) \
 python310-agate-lookup \
 python3dist(agate-lookup)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML \
 python310-agate \

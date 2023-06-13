@@ -10,6 +10,7 @@ RPM_HASH = "03694029831a0fa8bd0bc2c4e88c7798c5a99b14bc4e2a12b8c9684e2f55d2a4d19a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-sqlite3-module-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

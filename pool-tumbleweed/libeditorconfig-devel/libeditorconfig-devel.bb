@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "cmake(EditorConfig) \
 libeditorconfig-devel \
 libeditorconfig-devel(aarch-64) \
 pkgconfig(editorconfig)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libeditorconfig0"
 

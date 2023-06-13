@@ -60,6 +60,7 @@ perl(DBIx::Class::DeploymentHandler::VersionStorage::Standard::VersionResultSet)
 perl(DBIx::Class::DeploymentHandler::WithApplicatorDumple) \
 perl(DBIx::Class::DeploymentHandler::WithReasonableDefaults) \
 perl-DBIx-Class-DeploymentHandler"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Carp::Clan) \
 perl(Context::Preserve) \

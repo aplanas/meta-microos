@@ -14,6 +14,7 @@ RPM_HASH = "79f906d0ef8739a9a2966ba7f30de3ac7d47f01cfa8b55a7e999e92582c97581d84b
 RPROVIDES:${PN} += "aaa_base:/usr/share/permissions \
 permissions \
 permissions(aarch-64)"
+
 RDEPENDS:${PN} += "chkstat \
 permissions-config"
 

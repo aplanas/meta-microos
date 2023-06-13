@@ -13,6 +13,7 @@ RPM_HASH = "2e3c92920e61e03d6fdec2cfe02a31035a0028a9c56c6f3ba120489d6d984c2367aa
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-toolchains-source"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env"
 

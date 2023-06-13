@@ -22,6 +22,7 @@ raspberrypi-firmware-config-rpi \
 raspberrypi-firmware-config-rpi0w \
 raspberrypi-firmware-config-rpi2 \
 raspberrypi-firmware-config-rpi3"
+
 RDEPENDS:${PN} += "/bin/sh \
 raspberrypi-firmware"
 

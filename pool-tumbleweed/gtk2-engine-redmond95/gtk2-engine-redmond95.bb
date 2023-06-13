@@ -11,6 +11,7 @@ RPM_HASH = "49b09bad9d1ab4f7ecef923d34d44cdbf4d174d60c153a6d42840ff75ad26e54ca7d
 RPROVIDES:${PN} += "gtk2-engine-redmond95 \
 gtk2-engine-redmond95(aarch-64) \
 libredmond95.so()(64bit)"
+
 RDEPENDS:${PN} += "gtk2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -16,6 +16,7 @@ python310-qtwebengine-qt5-api \
 python310-qtwebengine-qt5-devel \
 python310-qtwebengine-qt5-devel(aarch-64) \
 python310-qtwebengine-qt5-sip"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-qt5-devel"
 

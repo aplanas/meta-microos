@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(xltxtra.sty) \
 texlive-xltxtra"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

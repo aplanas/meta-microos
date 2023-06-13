@@ -42,6 +42,7 @@ locale(qmlkonsole:zh_CN) \
 locale(qmlkonsole:zh_TW) \
 qmlkonsole-lang \
 qmlkonsole-lang-all"
+
 RDEPENDS:${PN} += "qmlkonsole"
 
 inherit rpm

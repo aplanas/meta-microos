@@ -24,6 +24,7 @@ tex(pppdftex.def) \
 tex(ppvtex.def) \
 tex(ppxetex.def) \
 texlive-pdfpages"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

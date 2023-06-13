@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Log::Dispatch::Array) \
 perl-Log-Dispatch-Array"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Log::Dispatch::Output) \
 perl(parent)"

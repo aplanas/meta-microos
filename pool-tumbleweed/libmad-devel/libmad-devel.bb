@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libmad-devel \
 libmad-devel(aarch-64) \
 mad-devel \
 pkgconfig(mad)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmad0"
 

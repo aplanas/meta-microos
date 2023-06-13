@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "PackageKit-backend \
 PackageKit-backend-dnf \
 PackageKit-backend-dnf(aarch-64) \
 libpk_backend_dnf.so()(64bit)"
+
 RDEPENDS:${PN} += "PackageKit \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

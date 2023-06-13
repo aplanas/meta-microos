@@ -9,6 +9,7 @@ RPM_HASH = "0bf6169d45eb934de52dee680c669fedc88c744d6fb71f4e5069aacdf27919243d26
 
 RPROVIDES:${PN} += "python3-deltarpm \
 python3-deltarpm(aarch-64)"
+
 RDEPENDS:${PN} += "deltarpm \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

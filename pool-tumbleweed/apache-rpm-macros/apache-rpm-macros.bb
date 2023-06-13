@@ -26,6 +26,7 @@ rpm_macro(apache_suse_maintenance_mmn) \
 rpm_macro(apache_sysconfdir) \
 rpm_macro(apache_user) \
 rpm_macro(apache_version)"
+
 RDEPENDS:${PN} += "apache-rpm-macros-control"
 
 inherit rpm

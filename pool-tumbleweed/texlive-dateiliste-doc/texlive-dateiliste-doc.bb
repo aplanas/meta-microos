@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-dateiliste-doc:de;en;eo) \
 texlive-dateiliste-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

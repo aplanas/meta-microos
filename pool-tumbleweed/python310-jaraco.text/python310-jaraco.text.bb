@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-jaraco.text \
 python3.10dist(jaraco.text) \
 python310-jaraco.text \
 python3dist(jaraco.text)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-autocommand \
 python310-inflect \

@@ -48,6 +48,7 @@ mono(test-utilities) \
 mono-nunit \
 nunit \
 nunit(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 mono(System) \
 mono(System.Configuration) \

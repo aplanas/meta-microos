@@ -26,6 +26,7 @@ tex(tppstcol.sty) \
 tex(tpsem-a4.sty) \
 tex(tpsettings.cfg) \
 texlive-texpower"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

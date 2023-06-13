@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(kismet-rest) \
 python311-kismet-rest \
 python3dist(kismet-rest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

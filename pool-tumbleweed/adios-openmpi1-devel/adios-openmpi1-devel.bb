@@ -14,6 +14,7 @@ RPM_HASH = "ef1f4b763e66ff070c7b6088644ccf5a9f51e9872859bdc2d270ee0aaca25d2ee133
 
 RPROVIDES:${PN} += "adios-openmpi1-devel \
 adios-openmpi1-devel(aarch-64)"
+
 RDEPENDS:${PN} += "adios-openmpi1 \
 adios-openmpi1-devel-static \
 hdf5-openmpi1-devel \

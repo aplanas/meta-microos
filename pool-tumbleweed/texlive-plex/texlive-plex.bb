@@ -1345,6 +1345,7 @@ tex(plx_wot2a6.enc) \
 tex(plx_x4zmfh.enc) \
 tex(plx_xl2q4z.enc) \
 texlive-plex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

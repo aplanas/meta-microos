@@ -9,6 +9,7 @@ RPM_HASH = "66ffc3977725055444051b9dad128ae3505dcfe7afb7e9b3b742b2af1ee764968b21
 
 RPROVIDES:${PN} += "bridge-utils-devel \
 bridge-utils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "bridge-utils"
 
 inherit rpm

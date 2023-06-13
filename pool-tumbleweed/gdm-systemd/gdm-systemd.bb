@@ -12,6 +12,7 @@ RPM_HASH = "1ae0f503da2049da11c2a1da2e084864dabd3c430c6bf0ba2fb793ff03d434239726
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdm-systemd"
+
 RDEPENDS:${PN} += "gdm"
 
 inherit rpm

@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.11dist(jupyter-ydoc) \
 python311-jupyter-ydoc \
 python311-jupyter_ydoc \
 python3dist(jupyter-ydoc)"
+
 RDEPENDS:${PN} += "(python311-importlib-metadata >= 3.6 if python311-base < 3.10) \
 (python311-y-py >= 0.5.3 with python311-y-py < 0.6.0) \
 python(abi)"

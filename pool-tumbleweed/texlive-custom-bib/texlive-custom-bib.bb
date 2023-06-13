@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(geophys.tex) \
 tex(makebst.tex) \
 tex(shorthnd.tex) \
 texlive-custom-bib"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

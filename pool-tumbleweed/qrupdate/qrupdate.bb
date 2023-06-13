@@ -9,6 +9,7 @@ RPM_HASH = "a38ab2739db1e5626ff82c410f61b517ee55d9e502795d96ed6b2403b5f537b1f9ea
 
 RPROVIDES:${PN} += "qrupdate \
 qrupdate(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

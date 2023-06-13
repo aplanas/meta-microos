@@ -10,6 +10,7 @@ RPM_HASH = "41107bc2c4b61c0a54362aafb6d9b9b505b7d000bd055551cfb4b4401ee0a393eb7f
 
 RPROVIDES:${PN} += "xkbprint \
 xkbprint(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

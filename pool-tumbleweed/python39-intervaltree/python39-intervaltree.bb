@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(intervaltree) \
 python39-intervaltree \
 python3dist(intervaltree)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-sortedcontainers"
 

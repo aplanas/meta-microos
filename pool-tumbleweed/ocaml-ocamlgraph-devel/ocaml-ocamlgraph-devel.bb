@@ -121,6 +121,7 @@ ocamlx(Graph__Util) \
 ocamlx(Graph__WeakTopological) \
 ocamlx(Graph__XDot) \
 ocamlx(Graph__XDotDraw)"
+
 RDEPENDS:${PN} += "ocaml(CamlinternalFormatBasics) \
 ocaml(CamlinternalLazy) \
 ocaml(CamlinternalMod) \

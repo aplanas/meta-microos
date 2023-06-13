@@ -43,6 +43,7 @@ rpm_macro(qt6_install) \
 rpm_macro(qt6_install_docs) \
 rpm_macro(qt6_link_executables) \
 rpm_macro(qt6_use_make)"
+
 RDEPENDS:${PN} += "cmake \
 ninja"
 

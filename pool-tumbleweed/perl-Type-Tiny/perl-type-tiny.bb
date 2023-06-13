@@ -66,6 +66,7 @@ perl(Types::Standard::Tied) \
 perl(Types::Standard::Tuple) \
 perl(Types::TypeTiny) \
 perl-Type-Tiny"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Exporter::Tiny)"
 

@@ -15,6 +15,7 @@ mvn(javax.xml.stream:stax-api) \
 mvn(javax.xml.stream:stax-api:pom:) \
 mvn(stax:stax-api) \
 mvn(stax:stax-api:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-checkstyle-plugin \
 mvn(org.apache.maven.plugins:maven-checkstyle-plugin) \
 mvn(org.apache.maven.plugins:maven-checkstyle-plugin:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.puppycrawl.tools:checkstyle) \

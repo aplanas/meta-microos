@@ -9,6 +9,7 @@ RPM_HASH = "44d93ecc1e148609ca9f8919a8d5461c6f5491fad6c9f8f7bc17104967635f8c1047
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uol-physics-report-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

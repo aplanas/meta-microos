@@ -9,6 +9,7 @@ RPM_HASH = "907cdb0642c9c070dd3caf2434cb7e68e3978444251e9718c5a992a8ad560e07c4f8
 
 RPROVIDES:${PN} += "xf86-video-qxl \
 xf86-video-qxl(aarch-64)"
+
 RDEPENDS:${PN} += "X11_ABI_VIDEODRV \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

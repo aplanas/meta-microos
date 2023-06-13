@@ -10,6 +10,7 @@ RPM_HASH = "a6035b81582bf105963cbe256754b87476ea271f756edd05fc364d2e0414f29c0792
 RPROVIDES:${PN} += "ghc-byteable-devel \
 ghc-byteable-devel(aarch-64) \
 ghc-devel(byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-byteable \
 ghc-compiler \

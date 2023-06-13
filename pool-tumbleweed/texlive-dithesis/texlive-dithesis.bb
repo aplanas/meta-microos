@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dithesis.cls) \
 texlive-dithesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "a0dc16ed125e8b57df847fb2211ca921a4f77acab7c7cb08136c19041acfeb14cc76
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-e17gtk-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

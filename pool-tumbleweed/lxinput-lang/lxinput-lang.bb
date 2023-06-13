@@ -66,6 +66,7 @@ locale(lxinput:zh_CN) \
 locale(lxinput:zh_TW) \
 lxinput-lang \
 lxinput-lang-all"
+
 RDEPENDS:${PN} += "lxinput"
 
 inherit rpm

@@ -22,6 +22,7 @@ RPM_HASH = "f4080c316b4c8f41234b778fe1848fd9aa40e2c01a60102b1c40f8a37333168e3083
 RPROVIDES:${PN} += "libstemmer-tools \
 snowball \
 snowball(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libstemmer.so.0d()(64bit)"
 

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(wrapstuff.sty) \
 texlive-wrapstuff"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

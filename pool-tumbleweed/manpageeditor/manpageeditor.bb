@@ -12,6 +12,7 @@ application(ManPageEditor.desktop) \
 manpageeditor \
 manpageeditor(aarch-64) \
 mimehandler(application/x-maneditdoc)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libaspell.so.15()(64bit) \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(a2ping.1) \
 texlive-a2ping-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

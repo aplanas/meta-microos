@@ -71,6 +71,7 @@ locale(libkmahjongg:uk) \
 locale(libkmahjongg:wa) \
 locale(libkmahjongg:zh_CN) \
 locale(libkmahjongg:zh_TW)"
+
 RDEPENDS:${PN} += "libkmahjongg"
 
 inherit rpm

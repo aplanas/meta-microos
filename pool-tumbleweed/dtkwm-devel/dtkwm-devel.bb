@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(DtkWm) \
 dtkwm-devel \
 dtkwm-devel(aarch-64) \
 pkgconfig(dtkwm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdtkwm5 \
 pkgconfig(dtkcore)"

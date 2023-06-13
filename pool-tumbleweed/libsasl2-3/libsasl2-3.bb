@@ -15,6 +15,7 @@ RPM_HASH = "503bf2704121ab558a307863f15bee64a8ce777f4eed3f7e38fc4c95ec1453565531
 RPROVIDES:${PN} += "libsasl2-3 \
 libsasl2-3(aarch-64) \
 libsasl2.so.3()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

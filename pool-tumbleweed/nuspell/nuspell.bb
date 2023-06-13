@@ -21,6 +21,7 @@ RPM_HASH = "e2c214a571a200030de8606c16d57154ec3a4f32aae8050ef01ad21eab6c19f976df
 
 RPROVIDES:${PN} += "nuspell \
 nuspell(aarch-64)"
+
 RDEPENDS:${PN} += "hunspell \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

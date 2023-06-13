@@ -10,6 +10,7 @@ RPM_HASH = "862f0c980a07522d16dc6108f4c155f148673cd7621c0041d3ed9c7e7b16d482e98e
 
 RPROVIDES:${PN} += "libgxps-tools \
 libgxps-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

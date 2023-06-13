@@ -10,6 +10,7 @@ RPM_HASH = "a94ee580ca04eeda6b9161198d7be6714b3e81df2fa1ec506db614fee6183b182e6f
 RPROVIDES:${PN} += "ghc-prof(split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf) \
 ghc-split-prof \
 ghc-split-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-split-devel"
 

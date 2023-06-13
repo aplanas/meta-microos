@@ -953,6 +953,7 @@ font(gttu2488) \
 font(gttu2986) \
 font(gttu3583) \
 texlive-cbfonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

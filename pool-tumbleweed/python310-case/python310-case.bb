@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-case \
 python3.10dist(case) \
 python310-case \
 python3dist(case)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest \
 python310-setuptools \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "catalan-pos-dict \
 mvn(org.softcatala:catalan-pos-dict) \
 mvn(org.softcatala:catalan-pos-dict:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.carrot2:morfologik-fsa) \

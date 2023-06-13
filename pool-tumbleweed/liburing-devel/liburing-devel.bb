@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "liburing-devel \
 liburing-devel(aarch-64) \
 liburing2-devel \
 pkgconfig(liburing)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 liburing2 \
 pkgconfig"

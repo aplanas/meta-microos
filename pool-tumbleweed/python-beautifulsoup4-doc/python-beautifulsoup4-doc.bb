@@ -9,6 +9,7 @@ RPM_HASH = "14bbb31c78dd01cf372d561aaca61176bce9e4393edfb6824b04c650162ec69e171d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-beautifulsoup4-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

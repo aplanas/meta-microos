@@ -11,6 +11,7 @@ RPM_HASH = "d17d4060730c5749f1ce22ae0d7582b54720b8439ac6ecd011bb1adc83d56b01d877
 RPROVIDES:${PN} += "libreoffice-sdk-doc \
 libreoffice-sdk-doc(aarch-64) \
 libreoffice-ure-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

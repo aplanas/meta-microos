@@ -9,6 +9,7 @@ RPM_HASH = "399a84a19b924ba94318f30cdf94856a09a9b1f9987054cbbe15ff97070551082640
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "okteta-data"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

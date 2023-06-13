@@ -29,6 +29,7 @@ RPM_HASH = "6eb14a93850b3b8bc877a30abac2880b1bc3d96c6fb603ffc2ac1120cada93d40884
 RPROVIDES:${PN} += "perl(PSUtils) \
 psutils \
 psutils(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 libpaper-tools \
 perl \

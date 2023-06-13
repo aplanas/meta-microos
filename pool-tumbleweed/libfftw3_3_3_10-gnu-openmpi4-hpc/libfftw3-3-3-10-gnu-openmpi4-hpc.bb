@@ -12,6 +12,7 @@ RPM_HASH = "6c03a544a9f184bdd943ee1f9c12edb9a281c7d0c5f9ee526e0868320ab04a0ee203
 RPROVIDES:${PN} += "fftw3 \
 libfftw3_3_3_10-gnu-openmpi4-hpc \
 libfftw3_3_3_10-gnu-openmpi4-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

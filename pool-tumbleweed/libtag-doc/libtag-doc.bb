@@ -9,6 +9,7 @@ RPM_HASH = "9837d1e3b635e27ae3b447654766a8c6a06e75318ba1fe2a0450e217630ad46ca198
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libtag-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -30,6 +30,7 @@ RPM_HASH = "0fd4029df7aeadc8d007cdd8f44f20fe63eec1352831790b39ac879a71e5ee68fcb5
 RPROVIDES:${PN} += "config(tor) \
 tor \
 tor(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

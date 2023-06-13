@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(xcomment.sty) \
 tex(xcomment.tex) \
 texlive-xcomment"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

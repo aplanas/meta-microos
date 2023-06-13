@@ -501,6 +501,7 @@ tex(dejavuserif_t2c.enc) \
 tex(dejavuserif_ts1.enc) \
 tex(dejavuserif_x2.enc) \
 texlive-dejavu"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

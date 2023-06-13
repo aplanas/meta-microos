@@ -10,6 +10,7 @@ RPM_HASH = "746a0384d83209934b5efa34151c8751fbb1208ecbd18c9f5f9e47b32f560e8cc4d1
 
 RPROVIDES:${PN} += "ftview \
 ftview(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

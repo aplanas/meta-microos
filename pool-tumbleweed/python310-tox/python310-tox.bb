@@ -26,6 +26,7 @@ python310-detox \
 python310-tox \
 python3dist(tox) \
 tox"
+
 RDEPENDS:${PN} += "(python310-importlib-metadata >= 0.12 if python3-base < 3.8) \
 /bin/sh \
 /usr/bin/python3.10 \

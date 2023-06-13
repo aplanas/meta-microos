@@ -116,6 +116,7 @@ libxpetra-sup.so.14()(64bit) \
 libxpetra.so.14()(64bit) \
 libzoltan.so.14()(64bit) \
 libzoltan2.so.14()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

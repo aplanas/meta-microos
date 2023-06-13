@@ -9,6 +9,7 @@ RPM_HASH = "f8da2c520aa20c116df59790e930b28bd1862290659779f5bf62b2d6d0bd21d84858
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tiscreen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

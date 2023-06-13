@@ -294,6 +294,7 @@ tex(worldflag_ZM.tex) \
 tex(worldflag_ZW.tex) \
 tex(worldflags.sty) \
 texlive-worldflags"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

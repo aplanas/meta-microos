@@ -29,6 +29,7 @@ tex(tkz-tools-print.tex) \
 tex(tkz-tools-text.tex) \
 tex(tkz-tools-utilities.tex) \
 texlive-tkz-base"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

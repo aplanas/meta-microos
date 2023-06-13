@@ -11,6 +11,7 @@ RPM_HASH = "21124e304f4469f9ad1e23f30c1e18ad9ba7b2385939511809224f895d6043d4624f
 RPROVIDES:${PN} += "config(urlview) \
 urlview \
 urlview(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

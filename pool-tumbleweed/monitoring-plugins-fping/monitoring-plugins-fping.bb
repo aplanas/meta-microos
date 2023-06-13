@@ -11,6 +11,7 @@ RPM_HASH = "1f4c09662a17056051305c69bb5c86527b836a9461638a2b2df6bea81610855ed70b
 RPROVIDES:${PN} += "monitoring-plugins-fping \
 monitoring-plugins-fping(aarch-64) \
 nagios-plugins-fping"
+
 RDEPENDS:${PN} += "fping \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

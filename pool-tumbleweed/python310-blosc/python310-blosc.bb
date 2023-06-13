@@ -13,6 +13,7 @@ python3.10dist(blosc) \
 python310-blosc \
 python310-blosc(aarch-64) \
 python3dist(blosc)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblosc.so.1()(64bit) \

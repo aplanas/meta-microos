@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-moto \
 python3.10dist(moto) \
 python310-moto \
 python3dist(moto)"
+
 RDEPENDS:${PN} += "(python310-python-dateutil >= 2.1 with python310-python-dateutil < 3) \
 /bin/sh \
 /usr/bin/python3.10 \

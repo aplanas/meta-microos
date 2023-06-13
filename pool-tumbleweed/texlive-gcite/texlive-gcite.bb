@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gcite.sty) \
 texlive-gcite"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

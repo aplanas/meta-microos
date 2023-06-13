@@ -9,6 +9,7 @@ RPM_HASH = "ebf366eeb477e0ca6dc25bd8302b5c9556a877c56179d0435bf6131695743a0f12f3
 
 RPROVIDES:${PN} += "texlive-tpic2pdftex-bin \
 texlive-tpic2pdftex-bin(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 texlive-tpic2pdftex"
 

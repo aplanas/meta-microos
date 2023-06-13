@@ -18,6 +18,7 @@ RPM_HASH = "196416edf77f33f5ad951c61821685edbea2ca4388dd1f8042494112a53c7ebac67d
 RPROVIDES:${PN} += "config(unbound) \
 unbound \
 unbound(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

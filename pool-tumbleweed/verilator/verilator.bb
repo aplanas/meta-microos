@@ -12,6 +12,7 @@ RPM_HASH = "a90369833635517f9e2159e1add6b1105576cbfff8e978233e3124598e58864846a1
 
 RPROVIDES:${PN} += "verilator \
 verilator(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ RPM_HASH = "82ac7309270dd16effafc1ecdc0cfb4bc605152a9f2772ee32406b0cb40f5c42381f
 RPROVIDES:${PN} += "avfs-devel \
 avfs-devel(aarch-64) \
 pkgconfig(avfs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 libavfs0"

@@ -134,6 +134,7 @@ font(cphwtsemibolditalic) \
 font(cphwtthin) \
 font(cphwtthinitalic) \
 texlive-cooperhewitt-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -11,6 +11,7 @@ RPM_HASH = "ee4e206fec6c0afb4457f33016425814d017dbb806bb25a4a683a8a1bb523f597fb9
 
 RPROVIDES:${PN} += "libvmdk-tools \
 libvmdk-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

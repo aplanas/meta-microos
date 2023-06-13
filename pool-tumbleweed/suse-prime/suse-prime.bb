@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(suse-prime) \
 suse-prime \
 suse-prime-bbswitch"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 coreutils \

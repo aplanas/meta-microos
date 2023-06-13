@@ -103,6 +103,7 @@ locale(mate-menus:zh_HK) \
 locale(mate-menus:zh_TW) \
 mate-menus-lang \
 mate-menus-lang-all"
+
 RDEPENDS:${PN} += "mate-menus"
 
 inherit rpm

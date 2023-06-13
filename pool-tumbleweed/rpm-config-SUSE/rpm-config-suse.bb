@@ -25,6 +25,7 @@ rpm_macro(sbat_distro) \
 rpm_macro(sbat_distro_summary) \
 rpm_macro(sbat_distro_url) \
 rpm_macro(user_group_add)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 rpm"

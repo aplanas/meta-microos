@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pymisp) \
 python39-pymisp \
 python3dist(pymisp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Deprecated \
 python39-jsonschema \

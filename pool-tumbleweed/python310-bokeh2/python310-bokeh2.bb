@@ -20,6 +20,7 @@ python3.10dist(bokeh) \
 python310-bokeh \
 python310-bokeh2 \
 python3dist(bokeh)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

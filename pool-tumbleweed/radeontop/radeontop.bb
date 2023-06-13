@@ -14,6 +14,7 @@ RPM_HASH = "0cae7a39c5920647371415f96995e32e21d9dd9f25f3d09a3c5b3c5318489d912f64
 RPROVIDES:${PN} += "libradeontop_xcb.so()(64bit) \
 radeontop \
 radeontop(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit) \
 libdrm.so.2()(64bit) \
 libdrm_amdgpu.so.1()(64bit) \

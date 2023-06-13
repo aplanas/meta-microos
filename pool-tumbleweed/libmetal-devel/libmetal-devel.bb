@@ -10,6 +10,7 @@ RPM_HASH = "c395fe77a3312f2686820352b12c9de7e9104f0831ee5e7ea9fcf7b9cd5b53ab73d0
 
 RPROVIDES:${PN} += "libmetal-devel \
 libmetal-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libmetal0"
 
 inherit rpm

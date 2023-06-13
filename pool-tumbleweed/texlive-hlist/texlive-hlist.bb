@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(hlist.sty) \
 tex(hlist.tex) \
 texlive-hlist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

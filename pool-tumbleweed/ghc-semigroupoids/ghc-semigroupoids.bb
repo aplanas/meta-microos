@@ -47,6 +47,7 @@ RPM_HASH = "29b8e17842f02518fa84db1e1c35a4284b7bdc38e6c0bc6177382d7f5d2202f7a5ce
 RPROVIDES:${PN} += "ghc-semigroupoids \
 ghc-semigroupoids(aarch-64) \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so()(64bit) \
 libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \

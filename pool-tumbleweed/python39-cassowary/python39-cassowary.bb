@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(cassowary) \
 python39-cassowary \
 python3dist(cassowary)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

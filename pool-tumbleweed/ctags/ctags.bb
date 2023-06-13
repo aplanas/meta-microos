@@ -12,6 +12,7 @@ RPM_HASH = "70877780e1e14155cff09860b813b49c7e4bde2a1f9bfdd98d352f253db0a643a116
 RPROVIDES:${PN} += "arduino-ctags \
 ctags \
 ctags(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1()(64bit) \

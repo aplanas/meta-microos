@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(GFnotation.tex) \
 texlive-gfnotation"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

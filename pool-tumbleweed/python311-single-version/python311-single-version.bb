@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(single-version) \
 python311-single-version \
 python3dist(single-version)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-first \
 python311-importlib-metadata"

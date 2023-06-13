@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-import-export \
 python3.10dist(django-import-export) \
 python310-django-import-export \
 python3dist(django-import-export)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django \
 python310-diff-match-patch \

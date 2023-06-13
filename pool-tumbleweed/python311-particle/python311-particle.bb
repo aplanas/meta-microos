@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(particle) \
 python311-particle \
 python3dist(particle)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-attrs \
 python311-hepunits"

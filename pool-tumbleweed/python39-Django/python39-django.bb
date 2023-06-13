@@ -13,6 +13,7 @@ python39-Django \
 python39-South \
 python39-django \
 python3dist(django)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

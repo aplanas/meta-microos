@@ -14,6 +14,7 @@ RPM_HASH = "a4412c45a4801f29afc287b4e9d9389d071445599f288053fb5613a6772af2d32113
 RPROVIDES:${PN} += "libLLVMSPIRVLib-devel \
 libLLVMSPIRVLib-devel(aarch-64) \
 pkgconfig(LLVMSPIRVLib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

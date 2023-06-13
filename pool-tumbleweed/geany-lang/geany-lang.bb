@@ -53,6 +53,7 @@ locale(geany:uk) \
 locale(geany:vi) \
 locale(geany:zh_CN) \
 locale(geany:zh_TW)"
+
 RDEPENDS:${PN} += "geany"
 
 inherit rpm

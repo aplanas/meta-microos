@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(poetry-plugin-export) \
 python311-poetry-plugin-export \
 python311-poetry_plugin_export \
 python3dist(poetry-plugin-export)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-poetry \
 python311-poetry-core"

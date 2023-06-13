@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "librealsense2-gl.so.2.53()(64bit) \
 librealsense2.so.2.53()(64bit) \
 librealsense2_53 \
 librealsense2_53(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

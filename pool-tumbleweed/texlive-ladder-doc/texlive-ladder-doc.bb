@@ -9,6 +9,7 @@ RPM_HASH = "e0399817f120346c2a95112330804bbc9468570c6c42ffd3c15ccd216bb684d23e38
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ladder-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

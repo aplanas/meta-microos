@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-contourplot-doc:fr) \
 texlive-pst-contourplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

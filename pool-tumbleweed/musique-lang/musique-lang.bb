@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "musique-lang \
 musique-lang-all"
+
 RDEPENDS:${PN} += "musique"
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "rpm-build \
 rpm-build(aarch-64) \
 rpm:/usr/bin/rpmbuild \
 rpmbuild"
+
 RDEPENDS:${PN} += "(rpm-build-perl if perl-base) \
 (rpm-build-python if python3-base) \
 /bin/bash \

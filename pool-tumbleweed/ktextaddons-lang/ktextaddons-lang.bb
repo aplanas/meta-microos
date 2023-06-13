@@ -39,6 +39,7 @@ locale(ktextaddons:sl) \
 locale(ktextaddons:sv) \
 locale(ktextaddons:tr) \
 locale(ktextaddons:uk)"
+
 RDEPENDS:${PN} += "ktextaddons"
 
 inherit rpm

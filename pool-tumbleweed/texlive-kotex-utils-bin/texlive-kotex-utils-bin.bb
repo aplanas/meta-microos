@@ -9,6 +9,7 @@ RPM_HASH = "23dafadcd5cb16d82a5292fbec01e9eba39cc2f8f54bcdcab6400d89d21c89027908
 
 RPROVIDES:${PN} += "texlive-kotex-utils-bin \
 texlive-kotex-utils-bin(aarch-64)"
+
 RDEPENDS:${PN} += "texlive-kotex-utils"
 
 inherit rpm

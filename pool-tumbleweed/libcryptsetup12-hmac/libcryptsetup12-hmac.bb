@@ -10,6 +10,7 @@ RPM_HASH = "bc3d2d77e97cd8f3fc56a4ae57634b6eaca7683aed2eb1ff257cab11902eb57b8931
 
 RPROVIDES:${PN} += "libcryptsetup12-hmac \
 libcryptsetup12-hmac(aarch-64)"
+
 RDEPENDS:${PN} += "libcryptsetup12"
 
 inherit rpm

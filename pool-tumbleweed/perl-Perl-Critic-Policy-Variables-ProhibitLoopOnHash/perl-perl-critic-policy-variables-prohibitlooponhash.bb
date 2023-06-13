@@ -25,6 +25,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Perl::Critic::Policy::Variables::ProhibitLoopOnHash) \
 perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(List::Util) \
 perl(Perl::Critic) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-PyChart \
 python3.10dist(pychart) \
 python310-PyChart \
 python3dist(pychart)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

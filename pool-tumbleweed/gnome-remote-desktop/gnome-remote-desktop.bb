@@ -10,6 +10,7 @@ RPM_HASH = "4994e5990f36d2d9ff59136354955cf8c1fda0cc4134c10c898978d6fc75ae572fba
 
 RPROVIDES:${PN} += "gnome-remote-desktop \
 gnome-remote-desktop(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

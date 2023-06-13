@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "tex(biblatex-spbasic.bbx) \
 tex(biblatex-spbasic.cbx) \
 tex(biblatex-spbasic.lbx) \
 texlive-biblatex-spbasic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

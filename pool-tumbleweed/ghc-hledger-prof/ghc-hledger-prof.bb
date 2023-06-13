@@ -10,6 +10,7 @@ RPM_HASH = "a035be6bc662cb10c232895b0ac6fd1c3ff8d4b950b88132e56f58e4f1a7aacaa912
 RPROVIDES:${PN} += "ghc-hledger-prof \
 ghc-hledger-prof(aarch-64) \
 ghc-prof(hledger-1.28-CMg9iFZMqqfKMlM8sLwqzB)"
+
 RDEPENDS:${PN} += "ghc-hledger-devel \
 ghc-prof(Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX) \
 ghc-prof(Diff-0.4.1-CiDqeLEcsRQOQjfgZOPVP) \

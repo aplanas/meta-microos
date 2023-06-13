@@ -14,6 +14,7 @@ RPM_HASH = "8f16811ef55f8cc44b94e9b3067cb6a47b74f8c0c166036688013ad7711ba228f1f7
 
 RPROVIDES:${PN} += "apache-arrow \
 apache-arrow(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbrotlidec.so.1()(64bit) \

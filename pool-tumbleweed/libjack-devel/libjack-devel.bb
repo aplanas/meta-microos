@@ -14,6 +14,7 @@ libjack-devel \
 libjack-devel(aarch-64) \
 libjack2-devel \
 pkgconfig(jack)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libjack0 \
 libjacknet0 \

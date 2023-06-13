@@ -14,6 +14,7 @@ RPM_HASH = "d20cea335225a5f4a564c4beed766840746097065c36805bf436f4fa6ed5850d4607
 RPROVIDES:${PN} += "libogg.so.0()(64bit) \
 libogg0 \
 libogg0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

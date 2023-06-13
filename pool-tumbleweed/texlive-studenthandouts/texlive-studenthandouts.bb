@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(studenthandouts.sty) \
 texlive-studenthandouts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

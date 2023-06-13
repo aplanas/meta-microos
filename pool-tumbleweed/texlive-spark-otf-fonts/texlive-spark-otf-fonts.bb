@@ -95,6 +95,7 @@ font(sparksdotlarge) \
 font(sparksdotmedium) \
 font(sparksdotsmall) \
 texlive-spark-otf-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

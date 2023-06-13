@@ -11,6 +11,7 @@ RPM_HASH = "7a99c84b35f75c4046df1dcb848f1b3fb21a3e23e0c727926e690d9fbe6703807afa
 RPROVIDES:${PN} += "config(fprintd) \
 fprintd \
 fprintd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

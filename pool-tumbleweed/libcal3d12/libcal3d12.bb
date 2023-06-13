@@ -19,6 +19,7 @@ RPM_HASH = "7de6f8f46dcafbaefc6fcbfe5b3641c6fe929fa302b60cebe26322f1526ac31466b4
 RPROVIDES:${PN} += "libcal3d.so.12()(64bit) \
 libcal3d12 \
 libcal3d12(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "89f970a108b7e237f66fc1e584aecf55405055fa5c02b6e1bb313218037f53c6b0ea
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bguq-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

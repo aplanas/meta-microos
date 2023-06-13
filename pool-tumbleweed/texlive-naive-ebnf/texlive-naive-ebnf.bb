@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(naive-ebnf.sty) \
 texlive-naive-ebnf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

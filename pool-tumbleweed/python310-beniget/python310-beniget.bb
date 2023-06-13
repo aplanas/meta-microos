@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-beniget \
 python3.10dist(beniget) \
 python310-beniget \
 python3dist(beniget)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gast"
 

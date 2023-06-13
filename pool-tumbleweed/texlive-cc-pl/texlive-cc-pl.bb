@@ -24,6 +24,7 @@ tex(pcsl10.tfm) \
 tex(pcslc9.tfm) \
 tex(pcti10.tfm) \
 texlive-cc-pl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

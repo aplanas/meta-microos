@@ -14,6 +14,7 @@ RPM_HASH = "65e0ec4ffcd928dc0ad9f48106a3550b7b1686931736d8b8f30f5d600f8c41eb528b
 RPROVIDES:${PN} += "libmygpo-qt5-1 \
 libmygpo-qt5-1(aarch-64) \
 libmygpo-qt5.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cmdstring.sty) \
 texlive-cmdstring"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

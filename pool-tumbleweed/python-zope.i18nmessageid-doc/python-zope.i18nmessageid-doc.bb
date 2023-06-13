@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-zope.i18nmessageid-doc \
 python310-zope.i18nmessageid-doc \
 python311-zope.i18nmessageid-doc \
 python39-zope.i18nmessageid-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

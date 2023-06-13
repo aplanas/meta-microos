@@ -30,6 +30,7 @@ libipset.so.13(LIBIPSET_4.8)(64bit) \
 libipset.so.13(LIBIPSET_4.9)(64bit) \
 libipset13 \
 libipset13(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

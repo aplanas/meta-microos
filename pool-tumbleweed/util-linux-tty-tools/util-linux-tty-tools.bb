@@ -12,6 +12,7 @@ util-linux-tty-tools(aarch-64) \
 util-linux:/usr/bin/mesg \
 util-linux:/usr/bin/wall \
 util-linux:/usr/bin/write"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(tty) \
 ld-linux-aarch64.so.1()(64bit) \

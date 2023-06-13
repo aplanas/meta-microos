@@ -12,6 +12,7 @@ RPM_HASH = "5a42b92a069bba9f851f82e7aaf0389c2d2043ba797839b2da0afe67141c6a141e32
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-slideshow"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

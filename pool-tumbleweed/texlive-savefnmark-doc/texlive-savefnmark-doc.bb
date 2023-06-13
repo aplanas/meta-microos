@@ -9,6 +9,7 @@ RPM_HASH = "fb96bbed66dae263de4af952446cae8e5cce59aa1d108e9e420716e26f6fefed2ab2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-savefnmark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

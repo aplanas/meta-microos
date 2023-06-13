@@ -13,6 +13,7 @@ RPM_HASH = "fe57224fcb583f2434d79a81b4649331dfe6bf416657e91b9ec05969b5a440a8e7ca
 RPROVIDES:${PN} += "libcmpiCppImpl.so.0()(64bit) \
 libcmpiCppImpl0 \
 libcmpiCppImpl0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(firewall-applet) \
 firewall-applet"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 firewall-config \

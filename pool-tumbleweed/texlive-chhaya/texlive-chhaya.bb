@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(chhaya.sty) \
 tex(sankshep.tex) \
 texlive-chhaya"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

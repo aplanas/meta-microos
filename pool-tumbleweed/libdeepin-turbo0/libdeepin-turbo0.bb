@@ -10,6 +10,7 @@ RPM_HASH = "3a7346afe788ee715189a15e1721de42f40a00a8e06f7d8599571fbd6eceef0acc60
 RPROVIDES:${PN} += "libdeepin-turbo.so.0()(64bit) \
 libdeepin-turbo0 \
 libdeepin-turbo0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -33,6 +33,7 @@ locale(texi2html:zh_CN) \
 locale(texi2html:zh_TW) \
 texi2html-lang \
 texi2html-lang-all"
+
 RDEPENDS:${PN} += "texi2html"
 
 inherit rpm

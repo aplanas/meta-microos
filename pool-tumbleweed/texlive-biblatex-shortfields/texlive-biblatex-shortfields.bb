@@ -22,6 +22,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblatex-shortfields.sty) \
 texlive-biblatex-shortfields"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

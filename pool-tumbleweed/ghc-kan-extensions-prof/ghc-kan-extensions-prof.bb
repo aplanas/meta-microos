@@ -10,6 +10,7 @@ RPM_HASH = "efe42810a28f775833a4d190ffbdd5affa7cad66d0c3e1756ceef7ed7aa55acda526
 RPROVIDES:${PN} += "ghc-kan-extensions-prof \
 ghc-kan-extensions-prof(aarch-64) \
 ghc-prof(kan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO)"
+
 RDEPENDS:${PN} += "ghc-kan-extensions-devel \
 ghc-prof(adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA) \
 ghc-prof(array-0.5.4.0) \

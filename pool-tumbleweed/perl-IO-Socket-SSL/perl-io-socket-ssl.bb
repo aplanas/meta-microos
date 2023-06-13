@@ -55,6 +55,7 @@ perl(IO::Socket::SSL::Session_Cache) \
 perl(IO::Socket::SSL::Trace) \
 perl(IO::Socket::SSL::Utils) \
 perl-IO-Socket-SSL"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Net::SSLeay)"
 

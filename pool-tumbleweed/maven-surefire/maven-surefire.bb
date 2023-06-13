@@ -21,6 +21,7 @@ mvn(org.apache.maven.surefire:surefire-grouper) \
 mvn(org.apache.maven.surefire:surefire-grouper:pom:) \
 mvn(org.apache.maven.surefire:surefire-logger-api) \
 mvn(org.apache.maven.surefire:surefire-logger-api:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.google.code.findbugs:jsr305) \

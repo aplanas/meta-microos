@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libavutil.so.57()(64bit) \
 libavutil.so.57(LIBAVUTIL_57.28_SUSE)(64bit) \
 libavutil57 \
 libavutil57(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

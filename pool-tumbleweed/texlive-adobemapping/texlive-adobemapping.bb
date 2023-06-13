@@ -10,6 +10,7 @@ RPM_HASH = "e673796119b59b47696f687bd2866df78c66b6ba168840707d8c49e34ddb03e45275
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adobemapping"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

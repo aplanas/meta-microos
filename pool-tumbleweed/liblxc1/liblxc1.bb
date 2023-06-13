@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "config(liblxc1) \
 liblxc.so.1()(64bit) \
 liblxc1 \
 liblxc1(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 findutils \

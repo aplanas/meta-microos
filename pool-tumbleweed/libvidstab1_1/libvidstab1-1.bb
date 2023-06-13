@@ -10,6 +10,7 @@ RPM_HASH = "fc17a58586aa6bbcc18fd683e1209eefd6b142e06a6ac19e2271f5af7df273c6067e
 RPROVIDES:${PN} += "libvidstab.so.1.1()(64bit) \
 libvidstab1_1 \
 libvidstab1_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

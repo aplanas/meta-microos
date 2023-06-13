@@ -11,6 +11,7 @@ RPM_HASH = "a1252ed94a224064a1cdbf9310b4ed0a219e10861f769c1f72c9192c24f30d71a51d
 RPROVIDES:${PN} += "libykpiv-devel \
 libykpiv-devel(aarch-64) \
 pkgconfig(ykpiv)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libykpiv2 \
 pkgconfig(libcrypto)"

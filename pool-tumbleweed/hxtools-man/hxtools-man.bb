@@ -10,6 +10,7 @@ RPM_HASH = "ddd0e92b3795b6086edd750eb7e9d430979e6c2b1beddb17e5d8d98f9d8f9db9623f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hxtools-man"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

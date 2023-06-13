@@ -9,6 +9,7 @@ RPM_HASH = "748c646fe07d9ce9b236103b124451245d8a06614ea159c87c7c9ca6a7dd2b922d1a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-zsh-completion"
+
 RDEPENDS:${PN} += "kustomize"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "d1c30c38e6a6b1646608ade965d9aedc07e8b2139d7cf146533493497dae7cf99476
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chezmoi-zsh-completion"
+
 RDEPENDS:${PN} += "chezmoi"
 
 inherit rpm

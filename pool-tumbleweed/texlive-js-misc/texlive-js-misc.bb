@@ -17,6 +17,7 @@ tex(schild.tex) \
 tex(sperr.tex) \
 tex(xfig.tex) \
 texlive-js-misc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

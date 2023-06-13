@@ -15,6 +15,7 @@ application(gnome-genius.desktop) \
 gnome-genius \
 gnome-genius(aarch-64) \
 mimehandler(text/x-genius)"
+
 RDEPENDS:${PN} += "genius \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

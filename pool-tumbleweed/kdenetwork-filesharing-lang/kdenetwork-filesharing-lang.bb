@@ -81,6 +81,7 @@ locale(kdenetwork-filesharing:vi) \
 locale(kdenetwork-filesharing:zh_CN) \
 locale(kdenetwork-filesharing:zh_HK) \
 locale(kdenetwork-filesharing:zh_TW)"
+
 RDEPENDS:${PN} += "kdenetwork-filesharing"
 
 inherit rpm

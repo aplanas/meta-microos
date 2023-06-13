@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(phfparen.sty) \
 texlive-phfparen"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

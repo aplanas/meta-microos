@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-rarfile \
 python3.10dist(rarfile) \
 python310-rarfile \
 python3dist(rarfile)"
+
 RDEPENDS:${PN} += "bsdtar \
 python(abi)"
 

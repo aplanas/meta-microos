@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-say \
 lua54-say"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

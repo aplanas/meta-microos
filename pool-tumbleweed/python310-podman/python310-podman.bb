@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-podman \
 python3.10dist(podman) \
 python310-podman \
 python3dist(podman)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pyxdg \
 python310-requests \

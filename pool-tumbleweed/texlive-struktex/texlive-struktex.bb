@@ -20,6 +20,7 @@ tex(struktex.sty) \
 tex(struktxf.sty) \
 tex(struktxp.sty) \
 texlive-struktex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

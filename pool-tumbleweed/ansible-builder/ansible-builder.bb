@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "ansible-builder \
 python3.10dist(ansible-builder) \
 python3dist(ansible-builder)"
+
 RDEPENDS:${PN} += "(podman or docker) \
 /bin/bash \
 /usr/bin/bash \

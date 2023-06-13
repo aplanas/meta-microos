@@ -45,6 +45,7 @@ tex(tikzpeople.shape.santa.sty) \
 tex(tikzpeople.shape.surgeon.sty) \
 tex(tikzpeople.sty) \
 texlive-tikzpeople"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

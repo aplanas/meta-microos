@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(azure-mgmt-documentdb) \
 python311-azure-mgmt-documentdb \
 python3dist(azure-mgmt-documentdb)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-azure-common \
 python311-azure-mgmt-nspkg \

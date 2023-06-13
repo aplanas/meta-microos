@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(makeplot.sty) \
 texlive-makeplot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPM_HASH = "2bfd620e12e100bdae676494ef12f830af23a3272fafc29c8365f8c42b705febebc3
 RPROVIDES:${PN} += "pkgconfig(stoken) \
 stoken-devel \
 stoken-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libstoken1 \
 pkgconfig(libtomcrypt) \

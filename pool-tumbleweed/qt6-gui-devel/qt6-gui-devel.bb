@@ -12,6 +12,7 @@ cmake(Qt6GuiTools) \
 pkgconfig(Qt6Gui) \
 qt6-gui-devel \
 qt6-gui-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 Mesa-libGLESv3-devel \
 cmake(Qt6Core) \

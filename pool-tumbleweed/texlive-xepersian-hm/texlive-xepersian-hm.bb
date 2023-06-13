@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(xepersian-hm-common-kashida.tex) \
 tex(xepersian-hm-kashida.tex) \
 tex(xepersian-hm.sty) \
 texlive-xepersian-hm"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

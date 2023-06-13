@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ukraineb.ldf) \
 texlive-babel-ukrainian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

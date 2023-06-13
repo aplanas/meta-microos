@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3.9dist(jupyter-ydoc) \
 python39-jupyter-ydoc \
 python39-jupyter_ydoc \
 python3dist(jupyter-ydoc)"
+
 RDEPENDS:${PN} += "(python39-importlib-metadata >= 3.6 if python39-base < 3.10) \
 (python39-y-py >= 0.5.3 with python39-y-py < 0.6.0) \
 python(abi)"

@@ -9,6 +9,7 @@ RPM_HASH = "93e39bd9ce7572608f364e98a3da3e645df4c20836a855a94502c76d360e9acbec44
 
 RPROVIDES:${PN} += "R-graphics \
 R-graphics(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

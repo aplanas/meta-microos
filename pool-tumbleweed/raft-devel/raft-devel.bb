@@ -17,6 +17,7 @@ RPM_HASH = "66bf3869156da979ffdddf997da6e934b30cc00498b730652532c7a408b806ac27c2
 RPROVIDES:${PN} += "pkgconfig(raft) \
 raft-devel \
 raft-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libraft3 \
 pkgconfig(libuv)"

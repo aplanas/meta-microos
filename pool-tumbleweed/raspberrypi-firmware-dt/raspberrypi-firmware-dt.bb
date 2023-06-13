@@ -10,6 +10,7 @@ RPM_HASH = "9b7412bd1fdc608a684a2c16bd24eb1005c25449282696b43e2df0455c844262e3be
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "raspberrypi-firmware-dt"
+
 RDEPENDS:${PN} += "/bin/sh \
 raspberrypi-firmware"
 

@@ -14,6 +14,7 @@ RPM_HASH = "05ddebb997818ae6a1ce86b60d9c92153e5dd5924f3bd2f0085a834412a5803450cd
 RPROVIDES:${PN} += "libntlm-devel \
 libntlm-devel(aarch-64) \
 pkgconfig(libntlm)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libntlm0"
 

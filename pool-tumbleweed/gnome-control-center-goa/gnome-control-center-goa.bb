@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "application() \
 application(gnome-online-accounts-panel.desktop) \
 gnome-control-center-goa"
+
 RDEPENDS:${PN} += "gnome-control-center \
 gnome-online-accounts"
 

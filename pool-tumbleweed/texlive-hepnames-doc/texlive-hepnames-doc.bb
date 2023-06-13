@@ -9,6 +9,7 @@ RPM_HASH = "55408e756e661a0941ecadcb09dd364da589690abe123a1e61887333a17b169096d4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepnames-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

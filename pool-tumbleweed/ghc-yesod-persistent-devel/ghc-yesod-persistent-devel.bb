@@ -11,6 +11,7 @@ RPM_HASH = "03522817ea3346980ab4b824ac6d4c2d0071893701aef77c8fc3a3378285744b98c3
 RPROVIDES:${PN} += "ghc-devel(yesod-persistent-1.6.0.8-DUd8QtbJfktGowTUT2pCEk) \
 ghc-yesod-persistent-devel \
 ghc-yesod-persistent-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

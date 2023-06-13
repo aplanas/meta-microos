@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tap.tex) \
 texlive-tap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

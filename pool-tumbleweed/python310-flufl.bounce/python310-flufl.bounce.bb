@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-flufl.bounce \
 python3.10dist(flufl.bounce) \
 python310-flufl.bounce \
 python3dist(flufl.bounce)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-atpublic \
 python310-zope.interface"

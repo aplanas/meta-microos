@@ -9,6 +9,7 @@ RPM_HASH = "6793a4e638ed24b0e1e55943dca0749a1d403c506b7330d6e2ca43cc2db820068011
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ongres-scram-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

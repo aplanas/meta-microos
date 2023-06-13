@@ -13,6 +13,7 @@ RPM_HASH = "d810b2318e40113edc570970f00d260b5f3564ef71dc62bb4536d0f44750613627db
 RPROVIDES:${PN} += "libgda-ui-6.0.so.6.0.0()(64bit) \
 libgda-ui-6_0-6_0_0 \
 libgda-ui-6_0-6_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(a0poster.cls) \
 tex(a0size.sty) \
 texlive-a0poster"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

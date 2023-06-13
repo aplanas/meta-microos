@@ -20,6 +20,7 @@ rpm_macro(mozilla_seamonkey_appid) \
 rpm_macro(mozilla_sunbird_appid) \
 rpm_macro(mozilla_thunderbird_appid) \
 rpm_macro(mozilla_unlock_addons)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(Archive::Zip) \
 perl(XML::Simple) \

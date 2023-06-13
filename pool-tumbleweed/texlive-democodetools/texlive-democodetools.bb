@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(democodelisting.sty) \
 tex(democodetools.sty) \
 texlive-democodetools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

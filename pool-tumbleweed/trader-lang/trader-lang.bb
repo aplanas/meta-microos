@@ -27,6 +27,7 @@ locale(trader:sr) \
 locale(trader:sv) \
 trader-lang \
 trader-lang-all"
+
 RDEPENDS:${PN} += "trader"
 
 inherit rpm

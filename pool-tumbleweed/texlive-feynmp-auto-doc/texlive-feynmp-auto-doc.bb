@@ -9,6 +9,7 @@ RPM_HASH = "d199a8b5bd3d920e5644980dd815aee9db723bc321d01e7354ad398728116219e39f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-feynmp-auto-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

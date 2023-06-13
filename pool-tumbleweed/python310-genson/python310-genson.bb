@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-genson \
 python3.10dist(genson) \
 python310-genson \
 python3dist(genson)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

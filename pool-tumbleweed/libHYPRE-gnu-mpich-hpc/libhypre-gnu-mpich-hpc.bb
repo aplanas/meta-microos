@@ -11,6 +11,7 @@ RPM_HASH = "f610e8f192cdbf8c09ae962273e8ea08eb2e3f2a561952eb674022b94d0292ecf1a5
 
 RPROVIDES:${PN} += "libHYPRE-gnu-mpich-hpc \
 libHYPRE-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libHYPRE_2_20_0-gnu-mpich-hpc"
 

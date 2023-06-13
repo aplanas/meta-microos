@@ -13,6 +13,7 @@ RPM_HASH = "3a1b428aecfc3869f903cafe4dd78a6d4a6db7e023b5117c3a6cd2ad115e332f70dc
 RPROVIDES:${PN} += "librygel-renderer-2.8.so.0()(64bit) \
 librygel-renderer-2_8-0 \
 librygel-renderer-2_8-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

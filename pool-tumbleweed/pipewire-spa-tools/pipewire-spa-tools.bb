@@ -11,6 +11,7 @@ RPM_HASH = "d191a88edf78963539a641f9feaa3693352ef75792c7cd01be8f1bc76e9e558edf09
 
 RPROVIDES:${PN} += "pipewire-spa-tools \
 pipewire-spa-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libasound.so.2()(64bit) \

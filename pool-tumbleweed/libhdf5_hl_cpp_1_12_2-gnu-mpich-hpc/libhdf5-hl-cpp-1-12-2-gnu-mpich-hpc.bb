@@ -12,6 +12,7 @@ RPM_HASH = "72e5daed2c5bfa50e72f9bac87a49a505b620613c0ec52f42b8f69ea566c74620487
 
 RPROVIDES:${PN} += "libhdf5_hl_cpp_1_12_2-gnu-mpich-hpc \
 libhdf5_hl_cpp_1_12_2-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hdf5_1_12_2-gnu-mpich-hpc-module \
 ld-linux-aarch64.so.1()(64bit) \

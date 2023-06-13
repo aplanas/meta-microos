@@ -15,6 +15,7 @@ RPM_HASH = "4740d4424f08d95d1266080d0e92199a32e43eaff9c4e111cb83405c43d62d9875ac
 
 RPROVIDES:${PN} += "ocaml-cmdliner \
 ocaml-cmdliner(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

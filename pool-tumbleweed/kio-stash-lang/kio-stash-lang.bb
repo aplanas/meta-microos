@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-stash-lang \
 kio-stash-lang-all"
+
 RDEPENDS:${PN} += "kio-stash"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(gradientframe.sty) \
 texlive-gradientframe"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

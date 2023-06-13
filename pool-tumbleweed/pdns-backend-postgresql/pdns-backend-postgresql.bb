@@ -13,6 +13,7 @@ RPM_HASH = "c51c109f5b87f6be8bbf690d0954d6c3c54a5bc12a6c41075812b8bcc9a3cbd51ab9
 RPROVIDES:${PN} += "libgpgsqlbackend.so()(64bit) \
 pdns-backend-postgresql \
 pdns-backend-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

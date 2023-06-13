@@ -15,6 +15,7 @@ RPM_HASH = "c08f01030a9c8a20c5356f7bbf42fd56070357ac66c34052e05e9bd2f2a0b622df42
 RPROVIDES:${PN} += "ip2unix \
 ip2unix(aarch-64) \
 libip2unix.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

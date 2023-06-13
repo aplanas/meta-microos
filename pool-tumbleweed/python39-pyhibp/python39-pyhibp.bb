@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyhibp) \
 python39-pyhibp \
 python3dist(pyhibp)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-requests"
 

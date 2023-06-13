@@ -81,6 +81,7 @@ locale(krfb:uk) \
 locale(krfb:vi) \
 locale(krfb:zh_CN) \
 locale(krfb:zh_TW)"
+
 RDEPENDS:${PN} += "krfb"
 
 inherit rpm

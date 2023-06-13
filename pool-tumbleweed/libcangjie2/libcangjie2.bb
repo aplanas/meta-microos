@@ -13,6 +13,7 @@ RPM_HASH = "903d52928d363460321e7db370ff3bad251033d48fdd8e73d1eff2f53ab1cf30a059
 RPROVIDES:${PN} += "libcangjie.so.2()(64bit) \
 libcangjie2 \
 libcangjie2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

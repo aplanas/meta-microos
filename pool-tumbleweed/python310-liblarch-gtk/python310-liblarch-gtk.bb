@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-liblarch-gtk \
 python310-liblarch-gtk"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-gobject \
 python310-liblarch \

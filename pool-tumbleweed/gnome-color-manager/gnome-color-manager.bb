@@ -17,6 +17,7 @@ gnome-color-manager(aarch-64) \
 metainfo() \
 metainfo(org.gnome.ColorProfileViewer.appdata.xml) \
 mimehandler(application/vnd.iccprofile)"
+
 RDEPENDS:${PN} += "colord \
 colord-color-profiles \
 ld-linux-aarch64.so.1()(64bit) \

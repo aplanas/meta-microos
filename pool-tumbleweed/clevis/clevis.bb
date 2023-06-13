@@ -11,6 +11,7 @@ RPM_HASH = "d5cedbb02366b8a94caf2f59a4a8e119759b195ac8e9dd82bdcb7c605f2f0f88dfbd
 
 RPROVIDES:${PN} += "clevis \
 clevis(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 curl \
 jose \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(image-gallery.cls) \
 texlive-image-gallery"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

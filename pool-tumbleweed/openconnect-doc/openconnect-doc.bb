@@ -12,6 +12,7 @@ RPM_HASH = "96eba23d99e9ef5189b699f52db8b271fcf8260cbc63d24f7df7f04400435cb18129
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openconnect-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

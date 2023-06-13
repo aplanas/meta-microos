@@ -24,6 +24,7 @@ perl(DateTime::Format::Builder::Parser::Regex) \
 perl(DateTime::Format::Builder::Parser::Strptime) \
 perl(DateTime::Format::Builder::Parser::generic) \
 perl-DateTime-Format-Builder"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(DateTime) \
 perl(DateTime::Format::Strptime) \

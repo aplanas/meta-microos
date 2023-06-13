@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(showkerning.sty) \
 texlive-showkerning"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

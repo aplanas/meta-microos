@@ -10,6 +10,7 @@ RPM_HASH = "660b6063eae6341461d8792c8fd5edf53f9a7deeb2541202ea4a91ed5f491be25eea
 
 RPROVIDES:${PN} += "poco-cpspc \
 poco-cpspc(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libPocoFoundation.so.92()(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "94261470c9d6aebef215b2f622ea42d0a361ee4db3a1c3bd3c4c27c328dc5e9daafb
 RPROVIDES:${PN} += "libobjc.so.4()(64bit) \
 libobjc4 \
 libobjc4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

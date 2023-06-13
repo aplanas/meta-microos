@@ -20,6 +20,7 @@ bundled(js-lz4) \
 bundled(js-zlib) \
 config(xpra-html5) \
 xpra-html5"
+
 RDEPENDS:${PN} += "cups-client \
 dejavu-fonts \
 python3-avahi \

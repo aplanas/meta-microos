@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kImageAnnotator-lang \
 kImageAnnotator-lang-all"
+
 RDEPENDS:${PN} += "kImageAnnotator"
 
 inherit rpm

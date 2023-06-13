@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(xfce4-settings-branding-openSUSE) \
 xfce4-settings-branding \
 xfce4-settings-branding-openSUSE"
+
 RDEPENDS:${PN} += "adwaita-xfce-icon-theme \
 desktop-data-openSUSE \
 gtk2-metatheme-adwaita \

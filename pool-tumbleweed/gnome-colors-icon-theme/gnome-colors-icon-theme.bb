@@ -18,6 +18,7 @@ RPM_HASH = "a9790d8371dacf84fed69b284721459ff66ac04c1017c5c864a48a9d421fcd5b0053
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-colors-icon-theme"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnome-icon-theme"
 

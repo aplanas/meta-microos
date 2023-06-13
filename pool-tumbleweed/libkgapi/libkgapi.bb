@@ -10,6 +10,7 @@ RPM_HASH = "5eac968c14a4a3bf998d32ee3ec4e5600c0c8f6a696af7378ee650a79d7de07a8978
 
 RPROVIDES:${PN} += "libkgapi \
 libkgapi(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ansel \
 python3.10dist(ansel) \
 python310-ansel \
 python3dist(ansel)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

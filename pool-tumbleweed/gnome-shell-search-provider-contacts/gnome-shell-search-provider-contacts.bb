@@ -19,6 +19,7 @@ RPM_HASH = "9526972655a5397aba20860c54c5249171d2e5b58f4769cba7fa891877bbc9de4e14
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-contacts \
 gnome-shell-search-provider-contacts(aarch-64)"
+
 RDEPENDS:${PN} += "gnome-contacts \
 gnome-shell \
 ld-linux-aarch64.so.1()(64bit) \

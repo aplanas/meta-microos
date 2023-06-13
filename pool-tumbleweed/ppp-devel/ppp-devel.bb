@@ -10,6 +10,7 @@ RPM_HASH = "a43664fa31826f7a1c6feb54ee37667ea953b9a64b911c86d8708a8926e837f09bfc
 
 RPROVIDES:${PN} += "ppp-devel \
 ppp-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ppp"
 
 inherit rpm

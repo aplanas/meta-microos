@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(termcal-de.sty) \
 texlive-termcal-de"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

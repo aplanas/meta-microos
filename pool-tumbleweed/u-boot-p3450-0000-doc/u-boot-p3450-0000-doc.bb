@@ -10,6 +10,7 @@ RPM_HASH = "4fa43a0ba6d80231cde95a6b32393b8326ba0eb2cd6b53a564a692ad88531de048f5
 
 RPROVIDES:${PN} += "u-boot-p3450-0000-doc \
 u-boot-p3450-0000-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

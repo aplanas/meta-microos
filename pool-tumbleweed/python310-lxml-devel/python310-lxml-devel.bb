@@ -15,6 +15,7 @@ RPM_HASH = "61b7a033489dcb4cca7a705e70bdb5258eeef729bd15135f3a82cae71e9cf436b598
 RPROVIDES:${PN} += "python3-lxml-devel \
 python310-lxml-devel \
 python310-lxml-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-lxml"
 
 inherit rpm

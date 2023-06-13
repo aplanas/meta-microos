@@ -10,6 +10,7 @@ RPM_HASH = "2d3269b467ac8235c98f5cb4232fa90b74f4ad101140fac26ab19533a9978abf6431
 RPROVIDES:${PN} += "libqmlqrotimeexampleplugin.so()(64bit) \
 qt6-remoteobjects-examples \
 qt6-remoteobjects-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Bluetooth.so.6()(64bit) \

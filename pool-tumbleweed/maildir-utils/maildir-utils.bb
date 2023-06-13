@@ -9,6 +9,7 @@ RPM_HASH = "596925d48c7bc1fa45a5a68555a3fdaa8526f62e8084b2d374d57ca5ad71bf0f6a2b
 
 RPROVIDES:${PN} += "maildir-utils \
 maildir-utils(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

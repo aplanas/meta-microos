@@ -55,6 +55,7 @@ locale(deadbeef:uk) \
 locale(deadbeef:vi) \
 locale(deadbeef:zh_CN) \
 locale(deadbeef:zh_TW)"
+
 RDEPENDS:${PN} += "deadbeef"
 
 inherit rpm

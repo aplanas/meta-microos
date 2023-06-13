@@ -9,6 +9,7 @@ RPM_HASH = "2133b2672c69c8c45bea7fbbf32c47927659a568f4a3eae04f0382830dd67c8f8bf6
 
 RPROVIDES:${PN} += "espeak-ng-compat \
 espeak-ng-compat(aarch-64)"
+
 RDEPENDS:${PN} += "espeak-ng"
 
 inherit rpm

@@ -9,6 +9,7 @@ RPM_HASH = "fabd8fba242594673444931b8d240c1b36067db3d0d49cae178b18d27a923d4b3542
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-parskip-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

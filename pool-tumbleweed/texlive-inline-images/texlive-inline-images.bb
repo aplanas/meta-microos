@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(inline-images.sty) \
 texlive-inline-images"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

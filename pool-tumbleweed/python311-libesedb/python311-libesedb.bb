@@ -11,6 +11,7 @@ RPM_HASH = "dfbaab5e7c58e51ea3b2ff117fd31ed81f63b82a74143f36dcadc46cf1f7eff1a0e5
 
 RPROVIDES:${PN} += "python311-libesedb \
 python311-libesedb(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

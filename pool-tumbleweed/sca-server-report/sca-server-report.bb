@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(sca-server-report) \
 sca-server-report"
+
 RDEPENDS:${PN} += "/bin/bash \
 python3-base \
 sca-patterns-base \

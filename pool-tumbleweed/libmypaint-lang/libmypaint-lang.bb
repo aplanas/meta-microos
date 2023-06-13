@@ -82,6 +82,7 @@ locale(libmypaint:wa) \
 locale(libmypaint:zh_CN) \
 locale(libmypaint:zh_HK) \
 locale(libmypaint:zh_TW)"
+
 RDEPENDS:${PN} += "libmypaint"
 
 inherit rpm

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jctools-channels \
 mvn(org.jctools:jctools-channels) \
 mvn(org.jctools:jctools-channels:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.jctools:jctools-core) \

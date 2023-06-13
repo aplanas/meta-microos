@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3.11dist(python-aiml) \
 python311-aiml \
 python311-python-aiml \
 python3dist(python-aiml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

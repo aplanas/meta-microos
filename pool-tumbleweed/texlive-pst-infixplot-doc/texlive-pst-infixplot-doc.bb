@@ -9,6 +9,7 @@ RPM_HASH = "99f5407a54009287622c366ad587a77338e21dc96bde2fa9f3bff7a20cfe2ca0e66a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-infixplot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

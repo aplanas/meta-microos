@@ -9,6 +9,7 @@ RPM_HASH = "c00afe504b79dc7c4958c73a13a1b3944a4f58b5a3ecb46c2a7ff8830f20241feeb0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eurosym-doc"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl"
 

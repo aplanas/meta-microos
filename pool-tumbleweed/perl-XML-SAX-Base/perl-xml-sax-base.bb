@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "perl(XML::SAX::Base) \
 perl(XML::SAX::Base::NoHandler) \
 perl(XML::SAX::Exception) \
 perl-XML-SAX-Base"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

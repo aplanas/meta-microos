@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-noto-coloremoji-fonts \
 noto-coloremoji-fonts \
 noto-emoji-fonts"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

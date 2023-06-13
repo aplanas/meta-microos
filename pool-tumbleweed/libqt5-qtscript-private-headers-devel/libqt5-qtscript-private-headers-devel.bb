@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5Script-private-headers-devel \
 libqt5-qtscript-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libQt5Widgets-private-headers-devel \
 libqt5-qtscript-devel"

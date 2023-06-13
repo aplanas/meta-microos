@@ -11,6 +11,7 @@ RPM_HASH = "daee4382879e20bd74161482dc24bcac6e543c0a4ac80d80bbb90a39f86b41c7c97f
 RPROVIDES:${PN} += "cmake(KF5Plotting) \
 kplotting-devel \
 kplotting-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Widgets) \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

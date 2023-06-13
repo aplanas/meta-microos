@@ -9,6 +9,7 @@ RPM_HASH = "d6b9d2c922db2088c8ecb67e5637a048eee286cd5a80d652ec959f05afa096b33b41
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-enotez-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libXaw.so.6()(64bit) \
 libXaw6 \
 libXaw6(aarch-64) \
 libXaw6.so.6"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

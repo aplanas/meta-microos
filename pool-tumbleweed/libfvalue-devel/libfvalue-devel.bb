@@ -13,6 +13,7 @@ RPM_HASH = "3c0942205f73b9f243330432c2eb5de74abc8a4c616bd41c8a0b863fe7e6edab4679
 RPROVIDES:${PN} += "libfvalue-devel \
 libfvalue-devel(aarch-64) \
 pkgconfig(libfvalue)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfvalue1"
 

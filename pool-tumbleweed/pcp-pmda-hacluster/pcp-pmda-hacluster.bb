@@ -10,6 +10,7 @@ RPM_HASH = "119fe5852906cc483856a47f64931411c6b1a0e78392385a4b84251c0b03cdc429ab
 
 RPROVIDES:${PN} += "pcp-pmda-hacluster \
 pcp-pmda-hacluster(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

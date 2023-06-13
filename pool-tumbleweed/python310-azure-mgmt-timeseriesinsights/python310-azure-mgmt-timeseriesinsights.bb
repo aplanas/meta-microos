@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-azure-mgmt-timeseriesinsights \
 python3.10dist(azure-mgmt-timeseriesinsights) \
 python310-azure-mgmt-timeseriesinsights \
 python3dist(azure-mgmt-timeseriesinsights)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-mgmt-core \

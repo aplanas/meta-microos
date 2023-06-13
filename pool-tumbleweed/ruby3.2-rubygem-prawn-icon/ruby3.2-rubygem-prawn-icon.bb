@@ -16,6 +16,7 @@ rubygem(ruby:3.2.0:prawn-icon) \
 rubygem(ruby:3.2.0:prawn-icon:3) \
 rubygem(ruby:3.2.0:prawn-icon:3.1) \
 rubygem(ruby:3.2.0:prawn-icon:3.1.0)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:prawn)"
 

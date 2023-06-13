@@ -10,6 +10,7 @@ RPM_HASH = "f0e6c7ad3515eb149d781111e1df73acfa2e8ec2ceae5e85ec20fccf96f3f9c3f820
 RPROVIDES:${PN} += "akonadi-server-sqlite \
 akonadi-server-sqlite(aarch-64) \
 libqsqlite3.so()(64bit)"
+
 RDEPENDS:${PN} += "akonadi-server \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -18,6 +18,7 @@ perl(Text::German::Util) \
 perl(Text::German::Verb) \
 perl(Text::German::Vorsilbe) \
 perl-Text-German"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

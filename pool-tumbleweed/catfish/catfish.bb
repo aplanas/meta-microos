@@ -18,6 +18,7 @@ metainfo(catfish.appdata.xml) \
 mimehandler(inode/directory) \
 python3.10dist(catfish) \
 python3dist(catfish)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 findutils-locate \
 gdk-pixbuf-loader-rsvg \

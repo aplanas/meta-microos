@@ -10,6 +10,7 @@ RPM_HASH = "533cbe6d44e185945005f1f844b2e03693a3703da9ed585d92b717b2c4309dd55a89
 RPROVIDES:${PN} += "config(freeipmi-ipmidetectd) \
 freeipmi-ipmidetectd \
 freeipmi-ipmidetectd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 freeipmi \
 ld-linux-aarch64.so.1()(64bit) \

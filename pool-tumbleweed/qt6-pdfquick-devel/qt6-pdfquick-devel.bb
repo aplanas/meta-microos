@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6PdfQuick) \
 pkgconfig(Qt6PdfQuick) \
 qt6-pdfquick-devel \
 qt6-pdfquick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Gui) \
 cmake(Qt6Qml) \

@@ -10,6 +10,7 @@ RPM_HASH = "c7bc1eacc8696c2791cf1bd76ff2d8510018d51c497287636588385b52cd1203b146
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-menu"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/perl \
 desktop-data \

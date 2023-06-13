@@ -18,6 +18,7 @@ perl(ABStructured) \
 perl(ABStructured::saxparser) \
 perl(ABXML) \
 perl(RPMQ)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \

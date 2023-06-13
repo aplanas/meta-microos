@@ -17,6 +17,7 @@ libphyslayer.so.1.0()(64bit) \
 metainfo() \
 metainfo(hedgewars.appdata.xml) \
 mimehandler(x-scheme-handler/hwplay)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hedgewars-data \
 ld-linux-aarch64.so.1()(64bit) \

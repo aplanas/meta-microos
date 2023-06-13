@@ -52,6 +52,7 @@ locale(cups-pk-helper:tr) \
 locale(cups-pk-helper:uk) \
 locale(cups-pk-helper:zh_CN) \
 locale(cups-pk-helper:zh_TW)"
+
 RDEPENDS:${PN} += "cups-pk-helper"
 
 inherit rpm

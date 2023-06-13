@@ -14,6 +14,7 @@ RPM_HASH = "2e5b832eeb7218e3f46a40d3bc7d4c69c1c2f2b7971477cbab7683f1bcba7626d8ef
 
 RPROVIDES:${PN} += "octave-nlopt_optimize \
 octave-nlopt_optimize(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

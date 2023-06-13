@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python-pycurl-doc \
 python310-pycurl-doc \
 python311-pycurl-doc \
 python39-pycurl-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

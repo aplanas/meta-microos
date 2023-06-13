@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(flacards.cls) \
 texlive-flacards"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -16,6 +16,7 @@ metainfo() \
 metainfo(guake.desktop.metainfo.xml) \
 python3.10dist(guake) \
 python3dist(guake)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-cairo \

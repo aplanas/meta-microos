@@ -13,6 +13,7 @@ RPM_HASH = "6814ca3fa3d1e05222b8937f4a4ca8d547abdb9b8b545061e8694ae1a12f8e2c491d
 RPROVIDES:${PN} += "typelib(Gcr) \
 typelib-1_0-Gcr-3 \
 typelib-1_0-Gcr-3(aarch-64)"
+
 RDEPENDS:${PN} += "libgcr-base-3.so.1()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

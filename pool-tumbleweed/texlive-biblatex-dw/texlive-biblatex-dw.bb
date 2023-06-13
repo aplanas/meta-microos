@@ -27,6 +27,7 @@ tex(german-dw.lbx) \
 tex(standard-dw.bbx) \
 tex(standard-dw.cbx) \
 texlive-biblatex-dw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

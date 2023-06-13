@@ -38,6 +38,7 @@ locale(libpurple-plugin-sipe:te) \
 locale(libpurple-plugin-sipe:tr) \
 locale(libpurple-plugin-sipe:zh_CN) \
 locale(libpurple-plugin-sipe:zh_TW)"
+
 RDEPENDS:${PN} += "libpurple-plugin-sipe"
 
 inherit rpm

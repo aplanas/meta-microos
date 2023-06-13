@@ -10,6 +10,7 @@ RPM_HASH = "e8da608e03914c71f07edd5c28a4cc1a427441c71debaf778a0396932cfa2a6090ee
 
 RPROVIDES:${PN} += "qt6-labssettings-private-devel \
 qt6-labssettings-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6LabsSettings)"
 
 inherit rpm

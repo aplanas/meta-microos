@@ -14,6 +14,7 @@ RPM_HASH = "765ea61182e51c71183e0fad2dc202c0db114144b10cfc0ab66422331bc61075708e
 RPROVIDES:${PN} += "libtdb-devel \
 libtdb-devel(aarch-64) \
 pkgconfig(tdb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtdb1 \
 pkgconfig"

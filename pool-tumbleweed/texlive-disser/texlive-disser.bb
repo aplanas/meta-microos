@@ -24,6 +24,7 @@ tex(master.rtx) \
 tex(specialist.rtx) \
 tex(titledefs.rtx) \
 texlive-disser"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

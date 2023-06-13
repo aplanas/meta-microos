@@ -32,6 +32,7 @@ mimehandler(text/xml) \
 mimehandler(x-scheme-handler/http) \
 mimehandler(x-scheme-handler/https) \
 web_browser"
+
 RDEPENDS:${PN} += "/bin/bash \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

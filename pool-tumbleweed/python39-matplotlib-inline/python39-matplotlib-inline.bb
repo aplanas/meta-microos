@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(matplotlib-inline) \
 python39-matplotlib-inline \
 python3dist(matplotlib-inline)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-traitlets"
 

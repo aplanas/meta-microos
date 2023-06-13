@@ -14,6 +14,7 @@ RPM_HASH = "1d5ca6af6004241139b6a11b5b6f136fdefdde7e70cd4f0832ed03a26002f0b14804
 RPROVIDES:${PN} += "typelib(AccountsService) \
 typelib-1_0-AccountsService-1_0 \
 typelib-1_0-AccountsService-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libaccountsservice.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

@@ -12,6 +12,7 @@ RPM_HASH = "9687f000a054f39d4337bd7e3fb03379108622c6b74b9c3000fa3ff38ad6042f101c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

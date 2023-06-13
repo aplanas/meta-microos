@@ -19,6 +19,7 @@ RPM_HASH = "9d359a070828e75895055a738090a9951cf512f12eccb2e018957f78d9d18fc4db3d
 RPROVIDES:${PN} += "config(openssh-helpers) \
 openssh-helpers \
 openssh-helpers(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

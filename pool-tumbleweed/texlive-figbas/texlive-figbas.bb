@@ -17,6 +17,7 @@ tex(cmssj.tfm) \
 tex(figbas.map) \
 tex(plrj.tfm) \
 texlive-figbas"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

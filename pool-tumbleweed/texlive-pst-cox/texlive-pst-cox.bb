@@ -27,6 +27,7 @@ tex(pst-coxcoor.tex) \
 tex(pst-coxeterp.sty) \
 tex(pst-coxeterp.tex) \
 texlive-pst-cox"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

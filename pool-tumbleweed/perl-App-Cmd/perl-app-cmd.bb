@@ -28,6 +28,7 @@ perl(App::Cmd::Tester::CaptureExternal) \
 perl(App::Cmd::Tester::Exited) \
 perl(App::Cmd::Tester::Result) \
 perl-App-Cmd"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \
 perl(Class::Load) \

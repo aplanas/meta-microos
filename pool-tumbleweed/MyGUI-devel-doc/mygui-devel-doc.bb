@@ -12,6 +12,7 @@ RPM_HASH = "2302068070edda82341566858abad99923b3f3d2ac8790e1769753fa5514e21afb4d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MyGUI-devel-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

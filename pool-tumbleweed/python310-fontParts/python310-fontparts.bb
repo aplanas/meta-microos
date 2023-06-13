@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-fontParts \
 python3.10dist(fontparts) \
 python310-fontParts \
 python3dist(fontparts)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-FontTools \
 python310-booleanOperations \

@@ -9,6 +9,7 @@ RPM_HASH = "faf30ddf32d1380632ab4329ea8ace37e03921fdc84f3afe7329575bcf84dbe7abe7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-underscore-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

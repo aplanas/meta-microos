@@ -20,6 +20,7 @@ application() \
 application(accerciser.desktop) \
 metainfo() \
 metainfo(accerciser.appdata.xml)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 py3atspi \
 python(abi) \

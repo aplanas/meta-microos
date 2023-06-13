@@ -10,6 +10,7 @@ RPM_HASH = "b7b7bc0d7c228c6febd888d75fb12af7cef73d5ac8449f9e090d67daaf370fe0d5bb
 
 RPROVIDES:${PN} += "octave-forge-signal \
 octave-forge-signal(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

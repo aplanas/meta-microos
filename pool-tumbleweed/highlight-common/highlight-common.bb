@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(highlight-common) \
 highlight-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

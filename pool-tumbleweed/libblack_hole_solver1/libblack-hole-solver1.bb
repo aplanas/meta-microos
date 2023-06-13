@@ -10,6 +10,7 @@ RPM_HASH = "058efbfb3917f7cd9cae83e2a045561ac6cdce54a8f8bcc4ee75737f516c606ea340
 RPROVIDES:${PN} += "libblack_hole_solver.so.1()(64bit) \
 libblack_hole_solver1 \
 libblack_hole_solver1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

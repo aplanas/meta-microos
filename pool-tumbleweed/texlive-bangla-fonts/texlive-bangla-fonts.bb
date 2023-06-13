@@ -36,6 +36,7 @@ font(:lang=zu) \
 font(kalpurush) \
 font(shimanto) \
 texlive-bangla-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

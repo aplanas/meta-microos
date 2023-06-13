@@ -11,6 +11,7 @@ RPM_HASH = "ebc5d87ff05a8a0db4d4785214ce18029c872f4bc8146344cd8bf2e927b5ca19b3fd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osinfo-db"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

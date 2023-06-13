@@ -10,6 +10,7 @@ RPM_HASH = "8387b0060ccaa302f40f9ca6cdd1fe8fca479e51bb6831e2f63c20baa183e515ff9c
 RPROVIDES:${PN} += "libOgre.so()(64bit) \
 ogre-mono \
 ogre-mono(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOgreBites.so.13.5()(64bit) \

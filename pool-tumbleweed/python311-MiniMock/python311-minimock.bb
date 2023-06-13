@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(minimock) \
 python311-MiniMock \
 python3dist(minimock)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

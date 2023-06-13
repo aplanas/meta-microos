@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(papermill) \
 python311-papermill \
 python3dist(papermill)"
+
 RDEPENDS:${PN} += "(python311-typing_extensions if python311-azure-storage-blob) \
 /bin/sh \
 /usr/bin/python3.11 \

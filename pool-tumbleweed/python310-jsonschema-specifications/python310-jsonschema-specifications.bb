@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-jsonschema-specifications \
 python3.10dist(jsonschema-specifications) \
 python310-jsonschema-specifications \
 python3dist(jsonschema-specifications)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-referencing"
 

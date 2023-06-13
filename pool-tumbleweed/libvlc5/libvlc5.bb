@@ -10,6 +10,7 @@ RPM_HASH = "4633a7c771110a73908d6954d69e40a86109c2db5804fb73e2aba9fca216366445f6
 RPROVIDES:${PN} += "libvlc.so.5()(64bit) \
 libvlc5 \
 libvlc5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(precattl.sty) \
 texlive-precattl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

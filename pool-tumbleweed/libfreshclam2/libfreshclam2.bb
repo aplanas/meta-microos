@@ -13,6 +13,7 @@ libfreshclam.so.2(FRESHCLAM_PRIVATE)(64bit) \
 libfreshclam.so.2(FRESHCLAM_PUBLIC)(64bit) \
 libfreshclam2 \
 libfreshclam2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

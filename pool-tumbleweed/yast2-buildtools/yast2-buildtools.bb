@@ -44,6 +44,7 @@ rpm_macro(yast_ydatadir) \
 rpm_macro(yast_yncludedir) \
 rpm_macro(yast_ystartupdir) \
 yast2-buildtools"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \

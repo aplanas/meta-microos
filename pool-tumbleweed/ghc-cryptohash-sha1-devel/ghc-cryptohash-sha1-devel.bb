@@ -11,6 +11,7 @@ RPM_HASH = "5a4a51436b836a4535bfcad4da8693da94ab5a52c229ebaa31064575f3b151eb8fff
 RPROVIDES:${PN} += "ghc-cryptohash-sha1-devel \
 ghc-cryptohash-sha1-devel(aarch-64) \
 ghc-devel(cryptohash-sha1-0.11.101.0-5MfQC56IvYq9IpSDMpmdHb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-cryptohash-sha1 \

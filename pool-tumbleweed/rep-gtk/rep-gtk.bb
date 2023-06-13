@@ -11,6 +11,7 @@ RPM_HASH = "a330f96bcf0dd7e03a32ca911c515614c5ed6e2abbec641a685c799f9d8a93db276c
 
 RPROVIDES:${PN} += "rep-gtk \
 rep-gtk(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatk-1.0.so.0()(64bit) \

@@ -20,6 +20,7 @@ python311-jupyter-doc-pdf \
 python39-jupyter-doc \
 python39-jupyter-doc-html \
 python39-jupyter-doc-pdf"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

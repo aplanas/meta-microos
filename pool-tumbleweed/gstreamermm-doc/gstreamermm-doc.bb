@@ -11,6 +11,7 @@ RPM_HASH = "520fa5c270e269d6ac51bf8c76931faf9875bfe6101c4665bc1aaaf9fe4c083f81cf
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamermm-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

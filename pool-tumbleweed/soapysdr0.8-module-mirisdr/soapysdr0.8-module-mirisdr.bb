@@ -11,6 +11,7 @@ RPM_HASH = "304bae7b14f1eacf80a32fffc27f487673a6b87679beace7e34a4112093d496ba6ce
 RPROVIDES:${PN} += "libmiriSupport.so()(64bit) \
 soapysdr0.8-module-mirisdr \
 soapysdr0.8-module-mirisdr(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSoapyOsmoSDR.so.0()(64bit) \

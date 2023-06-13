@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-conch_nacl \
 python310-Twisted-conch_nacl"
+
 RDEPENDS:${PN} += "python310-PyNaCl \
 python310-Twisted-conch"
 

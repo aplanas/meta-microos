@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ExifRead \
 python3.10dist(exifread) \
 python310-ExifRead \
 python3dist(exifread)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

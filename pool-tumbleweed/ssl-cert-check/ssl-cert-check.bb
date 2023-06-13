@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-ssl-cert-check \
 ssl-cert-check"
+
 RDEPENDS:${PN} += "/bin/bash \
 bash \
 coreutils \

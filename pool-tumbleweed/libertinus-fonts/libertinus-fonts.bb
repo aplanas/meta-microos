@@ -9,6 +9,7 @@ RPM_HASH = "7f0eb3f0c3a7e9ddd5b9f0faf86d1e68eedde6ef855f606b5377ae21f0f1bf4ac866
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libertinus-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

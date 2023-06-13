@@ -9,6 +9,7 @@ RPM_HASH = "289a39030b0e729f0cd76e503698cb730d762b232967808ea32432812d4f22a56a56
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xsavebox-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

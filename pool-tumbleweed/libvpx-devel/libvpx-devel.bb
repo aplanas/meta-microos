@@ -17,6 +17,7 @@ RPM_HASH = "62995d3e7cd574c078db0a0b4cd52a770894f6ee66e1c8120daf3072c52d278a6522
 RPROVIDES:${PN} += "libvpx-devel \
 libvpx-devel(aarch-64) \
 pkgconfig(vpx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvpx8"
 

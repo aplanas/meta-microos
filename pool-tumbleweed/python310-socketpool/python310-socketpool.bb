@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-socketpool \
 python3.10dist(socketpool) \
 python310-socketpool \
 python3dist(socketpool)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

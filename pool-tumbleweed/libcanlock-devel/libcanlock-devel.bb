@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libcanlock-devel \
 libcanlock-devel(aarch-64) \
 pkgconfig(libcanlock-3) \
 pkgconfig(libcanlock-hp-3)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcanlock3"
 

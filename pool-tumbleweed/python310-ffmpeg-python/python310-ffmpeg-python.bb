@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-ffmpeg-python \
 python3.10dist(ffmpeg-python) \
 python310-ffmpeg-python \
 python3dist(ffmpeg-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-future"
 

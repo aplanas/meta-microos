@@ -16,6 +16,7 @@ tex(fduthesis-en.cls) \
 tex(fduthesis.cls) \
 tex(fduthesis.def) \
 texlive-fduthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

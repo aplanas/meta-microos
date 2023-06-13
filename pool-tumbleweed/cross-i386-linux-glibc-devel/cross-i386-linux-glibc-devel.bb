@@ -10,6 +10,7 @@ RPM_HASH = "01ef865b0ac5cc2d187467bea566ce867a350215cdd0d7a6b68c296c94e5cbbd821b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-i386-linux-glibc-devel"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

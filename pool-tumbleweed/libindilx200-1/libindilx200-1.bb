@@ -15,6 +15,7 @@ RPM_HASH = "244953ab9e671ab9f2373b407d02725d9976a5a3dab8afcbba493856a625aa76cf2c
 RPROVIDES:${PN} += "libindilx200-1 \
 libindilx200-1(aarch-64) \
 libindilx200.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

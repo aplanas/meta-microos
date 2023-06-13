@@ -30,6 +30,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(easyprocess) \
 python311-EasyProcess \
 python3dist(easyprocess)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

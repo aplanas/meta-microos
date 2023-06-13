@@ -69,6 +69,7 @@ locale(ksystemlog:ug) \
 locale(ksystemlog:uk) \
 locale(ksystemlog:zh_CN) \
 locale(ksystemlog:zh_TW)"
+
 RDEPENDS:${PN} += "ksystemlog"
 
 inherit rpm

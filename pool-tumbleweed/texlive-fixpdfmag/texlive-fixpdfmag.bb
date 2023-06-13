@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fixpdfmag.tex) \
 texlive-fixpdfmag"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

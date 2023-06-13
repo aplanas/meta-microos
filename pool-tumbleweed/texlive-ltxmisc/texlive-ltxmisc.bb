@@ -20,6 +20,7 @@ tex(thrmappendix.sty) \
 tex(topcapt.sty) \
 tex(vrbexin.sty) \
 texlive-ltxmisc"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -9,6 +9,7 @@ RPM_HASH = "1ad2b0e5c4cc1aa2178ff1c21f8e3cb80310bee00faf65b68ca285be35d336431a34
 
 RPROVIDES:${PN} += "cinnamon-session \
 cinnamon-session(aarch-64)"
+
 RDEPENDS:${PN} += "cinnamon \
 cinnamon-settings-daemon \
 dbus-1-x11 \

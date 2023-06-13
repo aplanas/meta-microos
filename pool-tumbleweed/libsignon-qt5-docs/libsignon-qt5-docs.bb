@@ -9,6 +9,7 @@ RPM_HASH = "4c52b0ce97c3fb67f88444afc72fea58a89c3dfa427d9e6a5246823f2f1126cabddc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsignon-qt5-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

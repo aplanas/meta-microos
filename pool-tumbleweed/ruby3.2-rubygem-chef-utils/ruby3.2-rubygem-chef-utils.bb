@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:chef-utils) \
 rubygem(ruby:3.2.0:chef-utils:18) \
 rubygem(ruby:3.2.0:chef-utils:18.0) \
 rubygem(ruby:3.2.0:chef-utils:18.0.185)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:concurrent-ruby)"
 

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pythran) \
 python311-pythran \
 python3dist(pythran)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 boost-devel \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(delorean) \
 python311-Delorean \
 python3dist(delorean)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Babel \
 python311-humanize \

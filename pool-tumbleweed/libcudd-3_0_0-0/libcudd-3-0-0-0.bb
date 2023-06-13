@@ -12,6 +12,7 @@ RPM_HASH = "849e23d0189b4a9ac317ccd50addf0740ecdc1284b4139346021f889c860e56edd60
 RPROVIDES:${PN} += "libcudd-3.0.0.so.0()(64bit) \
 libcudd-3_0_0-0 \
 libcudd-3_0_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

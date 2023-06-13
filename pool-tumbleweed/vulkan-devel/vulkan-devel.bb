@@ -15,6 +15,7 @@ RPM_HASH = "e731942085126d3b4e2711c8808187c3825603daabc085f499dc210438d9e52f1bac
 RPROVIDES:${PN} += "pkgconfig(vulkan) \
 vulkan-devel \
 vulkan-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libvulkan1 \
 vulkan-headers"

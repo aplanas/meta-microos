@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(edgegrid-python) \
 python39-edgegrid-python \
 python3dist(edgegrid-python)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-ndg-httpsclient \
 python39-pyOpenSSL \

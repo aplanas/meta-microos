@@ -16,6 +16,7 @@ RPM_HASH = "f8ed2b9d658c56068c1ae4082053ac541ad0f05ef9be555e166fc16c793636d6ab9b
 RPROVIDES:${PN} += "armnn-opencl-devel \
 armnn-opencl-devel(aarch-64) \
 cmake(Armnn)"
+
 RDEPENDS:${PN} += "armnn-opencl \
 libarmnn32-opencl \
 libarmnnBasePipeServer32-opencl \

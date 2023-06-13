@@ -27,6 +27,7 @@ RPM_HASH = "223461c252dacf6cfd5dc3374e7b5978d71b925bd4b5e4d3df3f7fca2f0b8718cbc4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Modules-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

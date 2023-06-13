@@ -12,6 +12,7 @@ cmake(Qt6GrpcTools) \
 pkgconfig(Qt6Grpc) \
 qt6-grpc-devel \
 qt6-grpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake(Qt6Network) \
 cmake(Qt6Protobuf) \

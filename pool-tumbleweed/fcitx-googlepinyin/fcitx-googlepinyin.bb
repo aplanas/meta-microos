@@ -10,6 +10,7 @@ RPM_HASH = "92edb6c54a3c3e2c52a61e27b98f933bf2c94f61c63b85ce62bf0720ef44f8213ba5
 RPROVIDES:${PN} += "fcitx-googlepinyin \
 fcitx-googlepinyin(aarch-64) \
 locale(fcitx:zh_CN;zh_SG)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libgooglepinyin.so.0()(64bit)"

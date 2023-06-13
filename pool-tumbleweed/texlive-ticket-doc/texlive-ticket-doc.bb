@@ -9,6 +9,7 @@ RPM_HASH = "cc0a1ccb33f474fc3bb737d21fc2d99644b7642e8b535ac8c155cb60eec9f07dd2b2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ticket-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

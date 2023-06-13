@@ -14,6 +14,7 @@ metainfo(org.opensuse.yast.Update.metainfo.xml) \
 yast2-update-FACTORY \
 yast2-update-FACTORY(aarch-64) \
 yast2-update:/usr/share/YaST2/clients/update.ycp"
+
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \

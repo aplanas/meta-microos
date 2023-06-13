@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "cfn-lint \
 python3.11dist(cfn-lint) \
 python311-cfn-lint \
 python3dist(cfn-lint)"
+
 RDEPENDS:${PN} += "(python311-jsonschema > 3.0 with python311-jsonschema < 5) \
 /bin/sh \
 /usr/bin/python3.11 \

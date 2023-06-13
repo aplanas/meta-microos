@@ -91,6 +91,7 @@ libutil.so.1(GLIBC_2.17)(64bit) \
 ngpt \
 ngpt-devel \
 rtld(GNU_HASH)"
+
 RDEPENDS:${PN} += "filesystem"
 
 inherit rpm

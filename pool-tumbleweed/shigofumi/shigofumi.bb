@@ -10,6 +10,7 @@ RPM_HASH = "6c250b59fd9fccf4da5a77f4256fadbbdf7a8349443025931483c954358545434d98
 
 RPROVIDES:${PN} += "shigofumi \
 shigofumi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

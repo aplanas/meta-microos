@@ -11,6 +11,7 @@ RPM_HASH = "4d129d51ec3fd7098d8eebb5b7c79e8b67ec93534648c9242f29b71e7a5d87e86d84
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-winpthreads-debug"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-parver \
 python3.10dist(parver) \
 python310-parver \
 python3dist(parver)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Arpeggio \
 python310-attrs \

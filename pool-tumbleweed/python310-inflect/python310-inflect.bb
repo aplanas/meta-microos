@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-inflect \
 python3.10dist(inflect) \
 python310-inflect \
 python3dist(inflect)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pydantic \
 python310-toml"

@@ -9,6 +9,7 @@ RPM_HASH = "14075a44f38a56235ab369f76538e621fcc8e4ae6a35d08fea5913d16b0ed1650850
 
 RPROVIDES:${PN} += "python3-geis \
 python3-geis(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi)"
 

@@ -14,6 +14,7 @@ RPM_HASH = "85badb6125614db40c18badf1d0bd9d7081c2758641419205425a514f74181f16b29
 
 RPROVIDES:${PN} += "sblim-indication_helper-devel \
 sblim-indication_helper-devel(aarch-64)"
+
 RDEPENDS:${PN} += "glibc-devel \
 sblim-cmpi-devel \
 sblim-indication_helper"

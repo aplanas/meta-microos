@@ -9,6 +9,7 @@ RPM_HASH = "aca322675f368535ef342fd5c4265816e49b1710389ca03c77e12e7923ec0b2d7dda
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swww-fish-completion"
+
 RDEPENDS:${PN} += "fish"
 
 inherit rpm

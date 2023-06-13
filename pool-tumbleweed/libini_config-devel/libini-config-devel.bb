@@ -11,6 +11,7 @@ RPM_HASH = "307d76bdd3d6941b674150537713464953e33be15ffb543819d1639d402e9653d915
 RPROVIDES:${PN} += "libini_config-devel \
 libini_config-devel(aarch-64) \
 pkgconfig(ini_config)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libini_config5 \
 pkgconfig(basicobjects) \

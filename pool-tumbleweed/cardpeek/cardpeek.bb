@@ -28,6 +28,7 @@ cardpeek \
 cardpeek(aarch-64) \
 metainfo() \
 metainfo(cardpeek.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "3feea62ea92b1926a01ce2ceb5ef1b2ddddc1a102fd99d27dcc6df63ea96fd1754f3
 
 RPROVIDES:${PN} += "drumstick-mimetypes \
 drumstick-mimetypes(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

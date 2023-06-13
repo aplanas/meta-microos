@@ -21,6 +21,7 @@ mhvtl-kmp-64kb \
 mhvtl-kmp-64kb(aarch-64) \
 mhvtl-kmp-64kb-k6.3.4_1 \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 grep \

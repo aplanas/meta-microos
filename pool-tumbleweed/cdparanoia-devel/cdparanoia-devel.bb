@@ -11,6 +11,7 @@ RPM_HASH = "eea419f1850a586321526d556bc9c9ea7dc3fc02adfb28b5aba64cbbfe8dc02c6bf7
 
 RPROVIDES:${PN} += "cdparanoia-devel \
 cdparanoia-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libcdda_interface0 \
 libcdda_paranoia0"
 

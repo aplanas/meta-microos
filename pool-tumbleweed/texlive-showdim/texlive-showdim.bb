@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(showdim.sty) \
 texlive-showdim"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

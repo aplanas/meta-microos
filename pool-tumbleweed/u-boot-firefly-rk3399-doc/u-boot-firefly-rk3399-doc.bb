@@ -10,6 +10,7 @@ RPM_HASH = "5908963bf6ae923eed9ec756e4c307b14edd92e3c0b4f9939da14f74e091fd471f6b
 
 RPROVIDES:${PN} += "u-boot-firefly-rk3399-doc \
 u-boot-firefly-rk3399-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

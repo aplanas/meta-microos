@@ -19,6 +19,7 @@ tex(Vaucanson-G.tex) \
 tex(vaucanson-g.sty) \
 tex(vaucanson.sty) \
 texlive-vaucanson-g"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

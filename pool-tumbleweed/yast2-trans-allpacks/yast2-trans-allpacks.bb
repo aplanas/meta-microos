@@ -12,6 +12,7 @@ RPM_HASH = "deae288694a96d76cdbf3df0228028505d4a3bcb6aabd040ea75de71356e4306f9bc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-trans-allpacks"
+
 RDEPENDS:${PN} += "yast2-trans-af \
 yast2-trans-ar \
 yast2-trans-ast \

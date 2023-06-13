@@ -9,6 +9,7 @@ RPM_HASH = "5bb1ec540a44249ffd915af1d9409966394287ea040b4435a41711914e319b557fef
 
 RPROVIDES:${PN} += "python39-lalburst \
 python39-lalburst(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

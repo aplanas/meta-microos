@@ -16,6 +16,7 @@ tex(op-letter-en.tex) \
 tex(op-mathalign.tex) \
 tex(op-slides.tex) \
 texlive-optex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

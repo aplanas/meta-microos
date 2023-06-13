@@ -10,6 +10,7 @@ RPM_HASH = "bfa99765220e07583d16e850af0c6fd10e34c9f405d0bc07eb1244aac9558c21f85e
 RPROVIDES:${PN} += "ghc-prof(witherable-0.4.2-3r5H0uqg5SQLafbMfCHwUh) \
 ghc-witherable-prof \
 ghc-witherable-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8) \
 ghc-prof(containers-0.6.7) \

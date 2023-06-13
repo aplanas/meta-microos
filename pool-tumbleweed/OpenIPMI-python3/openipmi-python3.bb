@@ -11,6 +11,7 @@ RPM_HASH = "adf0ee0955fc3c4a6deb4de39410e2462e33aba619488c84c6084113df1b1c2c6d4c
 RPROVIDES:${PN} += "OpenIPMI-python3 \
 OpenIPMI-python3(aarch-64) \
 openipmigui"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 OpenIPMI \
 ld-linux-aarch64.so.1()(64bit) \

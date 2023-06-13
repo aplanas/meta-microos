@@ -15,6 +15,7 @@ RPM_HASH = "1480f0fd5627e685e08178a5de17994582f9b3612b543a96a2509de7a690300b3d3f
 RPROVIDES:${PN} += "libchealpix.so.0()(64bit) \
 libchealpix0 \
 libchealpix0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

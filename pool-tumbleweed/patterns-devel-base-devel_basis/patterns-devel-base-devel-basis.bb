@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-devel-base-devel_basis \
 patterns-devel-base-devel_basis(aarch-64)"
+
 RDEPENDS:${PN} += "autoconf \
 automake \
 binutils \

@@ -9,6 +9,7 @@ RPM_HASH = "eb45388218f868d99b52760ed83e1103397457823783a4b1cd26d44d3d611d10efdd
 
 RPROVIDES:${PN} += "ibutils-devel \
 ibutils-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ibutils \
 libibdm1"
 

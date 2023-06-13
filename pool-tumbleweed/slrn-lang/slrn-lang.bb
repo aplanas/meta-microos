@@ -23,6 +23,7 @@ locale(slrn:sv) \
 locale(slrn:tr) \
 slrn-lang \
 slrn-lang-all"
+
 RDEPENDS:${PN} += "slrn"
 
 inherit rpm

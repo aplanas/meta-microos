@@ -23,6 +23,7 @@ perl(YaST::YCP::Symbol) \
 perl(YaST::YCP::Term) \
 yast2-perl-bindings \
 yast2-perl-bindings(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

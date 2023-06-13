@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(milsymb.sty) \
 texlive-milsymb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

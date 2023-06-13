@@ -20,6 +20,7 @@ libhpx_parcel_coalescing.so.1()(64bit) \
 libhpx_partitioned_vector.so.1()(64bit) \
 libhpx_process.so.1()(64bit) \
 libhpx_unordered.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

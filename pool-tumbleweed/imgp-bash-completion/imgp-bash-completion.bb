@@ -9,6 +9,7 @@ RPM_HASH = "12a745aace95b813937514e17c2d0a442e30a9eb9dd04d760d3afcf6ea4f378b3ba1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imgp-bash-completion"
+
 RDEPENDS:${PN} += "bash-completion \
 imgp"
 

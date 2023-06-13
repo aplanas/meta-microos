@@ -9,6 +9,7 @@ RPM_HASH = "88a4095955f7a21ddc23d82a98a35f18e20540bb01caf3c8afcc67ba74d4e016d73c
 
 RPROVIDES:${PN} += "clevis-luks \
 clevis-luks(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 clevis \
 cryptsetup \

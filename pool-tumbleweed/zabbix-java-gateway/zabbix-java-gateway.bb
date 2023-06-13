@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "config(zabbix-java-gateway) \
 zabbix \
 zabbix-java-gateway \
 zabbix-java-gateway(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 jre \

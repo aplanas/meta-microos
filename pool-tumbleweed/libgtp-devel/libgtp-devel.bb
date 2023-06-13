@@ -13,6 +13,7 @@ RPM_HASH = "0574b6d7d09eb586bcaa9e14955e1f6ebe6654abe8327ab95543d84c826e883f2975
 RPROVIDES:${PN} += "libgtp-devel \
 libgtp-devel(aarch-64) \
 pkgconfig(libgtp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgtp6"
 

@@ -9,6 +9,7 @@ RPM_HASH = "c521bba7c8bd6e2d4d0d41da92aa1b911d6c47ab2f9af1b514ca759f65a81f28af86
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-wanfeng"
+
 RDEPENDS:${PN} += "fcitx-table"
 
 inherit rpm

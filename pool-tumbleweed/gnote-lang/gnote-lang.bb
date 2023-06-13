@@ -64,6 +64,7 @@ locale(gnote:uk) \
 locale(gnote:zh_CN) \
 locale(gnote:zh_HK) \
 locale(gnote:zh_TW)"
+
 RDEPENDS:${PN} += "gnote"
 
 inherit rpm

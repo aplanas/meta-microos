@@ -21,6 +21,7 @@ metainfo() \
 metainfo(org.kde.krdc.appdata.xml) \
 mimehandler(x-scheme-handler/rdp) \
 mimehandler(x-scheme-handler/vnc)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 breeze5-icons \
 freerdp \

@@ -23,6 +23,7 @@ RPM_HASH = "effa79a9166a905795448c9910483fa7c978d26a6a0772d77d40f4899bd0e5df3512
 RPROVIDES:${PN} += "config(net-snmp) \
 net-snmp \
 net-snmp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/perl \

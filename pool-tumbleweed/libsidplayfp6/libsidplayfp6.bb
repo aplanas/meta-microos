@@ -10,6 +10,7 @@ RPM_HASH = "dfe6e83e4ffed37bf4412e597458d772f643742ab9887967f9c7ba269af2a4353574
 RPROVIDES:${PN} += "libsidplayfp.so.6()(64bit) \
 libsidplayfp6 \
 libsidplayfp6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

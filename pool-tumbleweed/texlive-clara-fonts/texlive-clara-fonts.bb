@@ -143,6 +143,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(clara) \
 texlive-clara-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

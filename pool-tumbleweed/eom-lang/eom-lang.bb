@@ -113,6 +113,7 @@ locale(eom:wa) \
 locale(eom:zh_CN) \
 locale(eom:zh_HK) \
 locale(eom:zh_TW)"
+
 RDEPENDS:${PN} += "eom"
 
 inherit rpm

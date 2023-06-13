@@ -9,6 +9,7 @@ RPM_HASH = "ff5eb5753f73b8fb8c3bef45f57f54a51487551172b6fd872e604dd7347538380869
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flabels-doc"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

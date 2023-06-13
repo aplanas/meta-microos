@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:sassc-rails:2) \
 rubygem(ruby:3.2.0:sassc-rails:2.1) \
 rubygem(ruby:3.2.0:sassc-rails:2.1.2) \
 rubygem(sassc-rails)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:railties) \
 rubygem(ruby:3.2.0:sassc) \

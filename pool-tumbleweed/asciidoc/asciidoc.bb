@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "asciidoc \
 python3.10dist(asciidoc) \
 python3dist(asciidoc)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 docbook-xsl-stylesheets \
 python(abi) \

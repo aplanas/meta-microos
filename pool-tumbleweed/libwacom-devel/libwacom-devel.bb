@@ -12,6 +12,7 @@ RPM_HASH = "714a058d02d985d64663bf58eded9d0534e67c3489bb66dae8fb66185bf4e4fc9b64
 RPROVIDES:${PN} += "libwacom-devel \
 libwacom-devel(aarch-64) \
 pkgconfig(libwacom)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libwacom9 \
 pkgconfig(glib-2.0) \

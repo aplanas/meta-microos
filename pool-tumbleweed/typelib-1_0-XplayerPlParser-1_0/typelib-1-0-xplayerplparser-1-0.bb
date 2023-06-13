@@ -14,6 +14,7 @@ RPM_HASH = "407d185d11f995a9a3ac69ef7114017b69e4d360ea328f65de57314f7d2500e236aa
 RPROVIDES:${PN} += "typelib(XplayerPlParser) \
 typelib-1_0-XplayerPlParser-1_0 \
 typelib-1_0-XplayerPlParser-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libxplayer-plparser.so.18()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

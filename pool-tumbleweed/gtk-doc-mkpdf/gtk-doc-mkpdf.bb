@@ -9,6 +9,7 @@ RPM_HASH = "94f77ca9865c52fb7be1e604aa95be83891bac60ca29c9020ea487076ab59a326644
 
 RPROVIDES:${PN} += "gtk-doc-mkpdf \
 gtk-doc-mkpdf(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 dblatex \
 gtk-doc"

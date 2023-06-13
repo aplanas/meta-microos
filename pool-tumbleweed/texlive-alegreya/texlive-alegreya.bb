@@ -4470,6 +4470,7 @@ tex(algr_zgz46n.enc) \
 tex(algr_zsorhr.enc) \
 tex(algr_zt4bhv.enc) \
 texlive-alegreya"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "mvn(org.scalamacros:paradise_2.10.7) \
 mvn(org.scalamacros:paradise_2.10.7:pom:) \
 paradise \
 paradise(aarch-64)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.scala-lang:scala-library) \

@@ -9,6 +9,7 @@ RPM_HASH = "3c73253878ad772b4991b91cec7ee66d3f344c5cebdb2367e8c8e5b59b2ce66a22a8
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabto-ltx-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

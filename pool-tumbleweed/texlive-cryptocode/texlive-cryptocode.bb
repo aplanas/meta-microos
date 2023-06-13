@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(cryptocode-2018-11-11.sty) \
 tex(cryptocode-2020-04-24.sty) \
 tex(cryptocode.sty) \
 texlive-cryptocode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

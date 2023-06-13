@@ -12,6 +12,7 @@ RPM_HASH = "6a4c0a1990159d9b37b18b73e7c4e335f3fe434275359d0115efca6aeda098774b95
 
 RPROVIDES:${PN} += "mkcomposecache \
 mkcomposecache(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

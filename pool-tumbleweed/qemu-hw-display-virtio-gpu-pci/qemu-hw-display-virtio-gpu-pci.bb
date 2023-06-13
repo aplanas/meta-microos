@@ -9,6 +9,7 @@ RPM_HASH = "05d015d64a600b5c9ca3ce8bc5f75906d78a9ae5997e6f3a2e70c255e42d75779fe9
 
 RPROVIDES:${PN} += "qemu-hw-display-virtio-gpu-pci \
 qemu-hw-display-virtio-gpu-pci(aarch-64)"
+
 RDEPENDS:${PN} += "qemu-hw-display-virtio-gpu"
 
 inherit rpm

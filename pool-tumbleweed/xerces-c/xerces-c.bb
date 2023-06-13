@@ -14,6 +14,7 @@ RPM_HASH = "5b8fc50300c723af4c95f4f71efd8780619a23ff7654aaa7cc09a34c32b43ee76ad5
 
 RPROVIDES:${PN} += "xerces-c \
 xerces-c(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

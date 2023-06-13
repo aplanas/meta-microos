@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mpfonts.map) \
 texlive-mpfonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

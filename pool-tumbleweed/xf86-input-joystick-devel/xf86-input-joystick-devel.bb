@@ -11,6 +11,7 @@ RPM_HASH = "50d2ee3f5c8d63a8d2592f9098e4f0a959ae0328f7bb2644c4478621e77a7679fd58
 RPROVIDES:${PN} += "pkgconfig(xorg-joystick) \
 xf86-input-joystick-devel \
 xf86-input-joystick-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 xf86-input-joystick"
 

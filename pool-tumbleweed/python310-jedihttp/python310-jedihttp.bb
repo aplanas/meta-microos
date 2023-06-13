@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jedihttp \
 python3.10dist(jedihttp) \
 python310-jedihttp \
 python3dist(jedihttp)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

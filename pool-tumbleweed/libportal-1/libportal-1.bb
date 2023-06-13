@@ -11,6 +11,7 @@ RPM_HASH = "57c2d2e6e6fff18e00312d60c739d4d52870c2e0ad1df9d48290bb161fef082b970e
 RPROVIDES:${PN} += "libportal-1 \
 libportal-1(aarch-64) \
 libportal.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

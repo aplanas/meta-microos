@@ -12,6 +12,7 @@ RPM_HASH = "bf06c5354aca810e4aab3f7a674a06971d3cbe081a2b5e06873c8e1d5dcb72690777
 
 RPROVIDES:${PN} += "postgresql12-pgsql-ogr-fdw-llvmjit \
 postgresql12-pgsql-ogr-fdw-llvmjit(aarch-64)"
+
 RDEPENDS:${PN} += "postgresql12-llvmjit \
 postgresql12-pgsql-ogr-fdw \
 postgresql12-server"

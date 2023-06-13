@@ -10,6 +10,7 @@ RPM_HASH = "fda3c19ada183ac16074b20ae2b5c501c9260a1fa777d5fd7476e74651bee4a9fd62
 RPROVIDES:${PN} += "pkgconfig(uim) \
 uim-devel \
 uim-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 uim"
 

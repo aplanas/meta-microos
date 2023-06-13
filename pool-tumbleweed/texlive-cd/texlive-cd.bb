@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(cd.cls) \
 texlive-cd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "fe5e510a2d2e104d58f0cc01d9db7b3e6593b26e79e1ac47e3ecf2bce79bed75b065
 RPROVIDES:${PN} += "Mesa-libd3d \
 Mesa-libd3d(aarch-64) \
 d3dadapter9.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

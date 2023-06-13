@@ -59,6 +59,7 @@ locale(baloo5-file:tr) \
 locale(baloo5-file:uk) \
 locale(baloo5-file:zh_CN) \
 locale(baloo5-file:zh_TW)"
+
 RDEPENDS:${PN} += "baloo5-file"
 
 inherit rpm

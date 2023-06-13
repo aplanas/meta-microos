@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(gflags) \
 gflags-devel \
 gflags-devel(aarch-64) \
 pkgconfig(gflags)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgflags2_2"
 

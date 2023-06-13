@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(geolib) \
 python311-geolib \
 python3dist(geolib)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-future"
 

@@ -9,6 +9,7 @@ RPM_HASH = "a7cb93c9aa26903a8d1c51df57615267470ec6962878343f176be056d0b5f72d47d5
 
 RPROVIDES:${PN} += "cmake \
 cmake(aarch-64)"
+
 RDEPENDS:${PN} += "cmake-implementation"
 
 inherit rpm

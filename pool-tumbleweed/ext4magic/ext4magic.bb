@@ -11,6 +11,7 @@ RPM_HASH = "4f4d8293a5925c634bed60df97f406c10773e10448b225a9df3aea05d1c0e58a4a70
 
 RPROVIDES:${PN} += "ext4magic \
 ext4magic(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblkid.so.1()(64bit) \

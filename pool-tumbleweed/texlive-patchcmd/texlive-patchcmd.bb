@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(patchcmd.sty) \
 texlive-patchcmd"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

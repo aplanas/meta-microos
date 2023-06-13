@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(codicefiscaleitaliano.sty) \
 texlive-codicefiscaleitaliano"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

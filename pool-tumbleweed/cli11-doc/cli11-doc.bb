@@ -17,6 +17,7 @@ RPM_HASH = "427cb025acb0aa61b477f23c6328f953c7f6cdef6c7991994cd52d3128d5bebf77ae
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cli11-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

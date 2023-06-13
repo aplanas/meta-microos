@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(anyio) \
 python39-anyio \
 python3dist(anyio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-idna \
 python39-sniffio"

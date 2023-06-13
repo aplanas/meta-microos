@@ -12,6 +12,7 @@ RPM_HASH = "d00d8b88caab00b31e8692593b0e06c40d2de552c40450f91d4eed1755ff5f8bbae9
 RPROVIDES:${PN} += "cmake(gnuradio-osmosdr) \
 gr-osmosdr-devel \
 gr-osmosdr-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gr-osmosdr \
 libgnuradio-osmosdr0_2_0"
 

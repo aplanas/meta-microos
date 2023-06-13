@@ -189,6 +189,7 @@ font(gentiumbookplus) \
 font(gentiumplus) \
 locale(vi) \
 sil-gentium-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

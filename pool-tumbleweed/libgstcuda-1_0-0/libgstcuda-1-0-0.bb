@@ -14,6 +14,7 @@ RPM_HASH = "127d4048e3e23286984589c66084ae21960cd2ed1fd03345f9779026cdb28c11fddf
 RPROVIDES:${PN} += "libgstcuda-1.0.so.0()(64bit) \
 libgstcuda-1_0-0 \
 libgstcuda-1_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

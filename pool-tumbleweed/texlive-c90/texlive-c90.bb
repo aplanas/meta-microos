@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(c90.enc) \
 texlive-c90"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flufl.i18n) \
 python311-flufl.i18n \
 python3dist(flufl.i18n)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-atpublic"
 

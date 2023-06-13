@@ -12,6 +12,7 @@ RPM_HASH = "42f84d64477b2642b3fb49674158505a8d287f6fd0a4e545e8c70b0a14a46f0e9134
 RPROVIDES:${PN} += "mingw32(libquadmath-0.dll) \
 mingw32-libquadmath0 \
 mingw32-libquadmath0(aarch-64)"
+
 RDEPENDS:${PN} += "mingw32(libgcc_s_sjlj-1.dll)"
 
 inherit rpm

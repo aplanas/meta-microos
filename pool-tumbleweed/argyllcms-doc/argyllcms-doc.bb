@@ -13,6 +13,7 @@ RPM_HASH = "49c0d91714d22da83f17bce49fb6420583e5f0b061040db23ce836e712db459b2730
 
 RPROVIDES:${PN} += "argyllcms-doc \
 argyllcms-doc(aarch-64)"
+
 RDEPENDS:${PN} += "argyllcms"
 
 inherit rpm

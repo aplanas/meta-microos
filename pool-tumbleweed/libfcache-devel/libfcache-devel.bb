@@ -13,6 +13,7 @@ RPM_HASH = "dc97643c589b76f7d9a77799a82577b80b36e8d7383bf8ba963778ab852027929806
 RPROVIDES:${PN} += "libfcache-devel \
 libfcache-devel(aarch-64) \
 pkgconfig(libfcache)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libfcache1"
 

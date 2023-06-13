@@ -193,6 +193,7 @@ font(libertinusserifinitials) \
 font(libertinusserifsemibold) \
 font(libertinusserifsemibolditalic) \
 texlive-libertinus-fonts-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

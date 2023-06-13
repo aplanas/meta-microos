@@ -16,6 +16,7 @@ mvn(jwnl:jwnl) \
 mvn(jwnl:jwnl:pom:) \
 mvn(net.sf.jwordnet:jwnl) \
 mvn(net.sf.jwordnet:jwnl:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(commons-logging:commons-logging)"

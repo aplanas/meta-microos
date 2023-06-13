@@ -16,6 +16,7 @@ RPM_HASH = "a240479f6450c2375fc255627694ba0558f7f8d00b5556509d52c9b4a948988cf72f
 RPROVIDES:${PN} += "libtommath-examples \
 libtommath-examples(aarch-64) \
 libtommath0-examples"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

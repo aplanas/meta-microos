@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libtemplate_glib-1.0.so.0()(64bit) \
 libtemplate_glib-1_0-0 \
 libtemplate_glib-1_0-0(aarch-64) \
 template-glib"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

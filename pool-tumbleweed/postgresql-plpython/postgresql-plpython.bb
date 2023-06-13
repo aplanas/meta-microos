@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-plpython \
 postgresql-plpython-noarch"
+
 RDEPENDS:${PN} += "postgresql-plpython-implementation"
 
 inherit rpm

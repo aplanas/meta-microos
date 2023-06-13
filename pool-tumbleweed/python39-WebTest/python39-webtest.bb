@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(webtest) \
 python39-WebTest \
 python3dist(webtest)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-WebOb \
 python39-beautifulsoup4 \

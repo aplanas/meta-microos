@@ -45,6 +45,7 @@ jre1.9.x \
 libawt_xawt.so()(64bit) \
 libjawt.so()(64bit) \
 libsplashscreen.so()(64bit)"
+
 RDEPENDS:${PN} += "file \
 fontconfig \
 java-11-openj9-headless \

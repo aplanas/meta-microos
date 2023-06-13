@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "config(texlive-luatex) \
 tex(luatex-unicode-letters.tex) \
 tex(luatexiniconfig.tex) \
 texlive-luatex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

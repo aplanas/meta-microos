@@ -20,6 +20,7 @@ tex(stabular.sty) \
 tex(stfloats.sty) \
 tex(texsort.sty) \
 texlive-sttools"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

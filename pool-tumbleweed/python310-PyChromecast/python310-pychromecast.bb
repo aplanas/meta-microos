@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-PyChromecast \
 python3.10dist(pychromecast) \
 python310-PyChromecast \
 python3dist(pychromecast)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-casttube \
 python310-protobuf \

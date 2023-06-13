@@ -13,6 +13,7 @@ RPM_HASH = "00a63adfb0439c30addc77afa109b102250027e6ab613a248afa5e67055aceefec72
 RPROVIDES:${PN} += "cld2-devel \
 cld2-devel(aarch-64) \
 pkgconfig(cld2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcld2-0"
 

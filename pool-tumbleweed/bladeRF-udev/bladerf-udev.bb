@@ -9,6 +9,7 @@ RPM_HASH = "57b119995f9439c7a7193221393645192fe65ff70c8e8ff3bbdd99adfdb0f37648f9
 
 RPROVIDES:${PN} += "bladeRF-udev \
 bladeRF-udev(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 shadow"
 

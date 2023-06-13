@@ -11,6 +11,7 @@ RPM_HASH = "2f722b4e274c92449cf3bab32c673c950b88ba3574da9410aedf8d79c2787c153c98
 
 RPROVIDES:${PN} += "openblas_serial-devel-static \
 openblas_serial-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "libopenblas_serial-devel"
 
 inherit rpm

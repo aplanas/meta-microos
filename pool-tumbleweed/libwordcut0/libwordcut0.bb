@@ -10,6 +10,7 @@ RPM_HASH = "da7a018e740ae5d666d5b1f5022026261f73d1d6c91837a17d93db6250adc9f0f67c
 RPROVIDES:${PN} += "libwordcut.so.0()(64bit) \
 libwordcut0 \
 libwordcut0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

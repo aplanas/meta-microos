@@ -13,6 +13,7 @@ RPM_HASH = "d142d6d232e41af9acced4b960b328b54a3db47eb977f324265e58d018b70c51104f
 
 RPROVIDES:${PN} += "picocom \
 picocom(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -11,6 +11,7 @@ RPM_HASH = "35d4922d6745d9c157eb98134fd15469582fb853943c32b23feb93913990d6f4ca27
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvolume"
+
 RDEPENDS:${PN} += "jupyter-ipywebrtc \
 jupyter-ipywidgets \
 jupyter-notebook \

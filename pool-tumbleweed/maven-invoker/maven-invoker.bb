@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "maven-invoker \
 mvn(org.apache.maven.shared:maven-invoker) \
 mvn(org.apache.maven.shared:maven-invoker:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven.shared:maven-shared-utils) \

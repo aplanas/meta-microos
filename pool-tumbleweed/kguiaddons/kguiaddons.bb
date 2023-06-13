@@ -16,6 +16,7 @@ application(wheelmap-geo-handler.desktop) \
 kguiaddons \
 kguiaddons(aarch-64) \
 mimehandler(x-scheme-handler/geo)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libKF5GuiAddons5 \

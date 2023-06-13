@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(macroswap.sty) \
 texlive-macroswap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

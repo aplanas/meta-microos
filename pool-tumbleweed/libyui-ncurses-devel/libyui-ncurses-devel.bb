@@ -14,6 +14,7 @@ RPM_HASH = "dd8ebd0f679b6cfa2df21c31d04c3d3fa11393db6f4187f07532000da5bb4b6942a9
 RPROVIDES:${PN} += "libyui-ncurses-devel \
 libyui-ncurses-devel(aarch-64) \
 pkgconfig(libyui-ncurses)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 boost-devel \
 glibc-devel \

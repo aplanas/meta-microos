@@ -12,6 +12,7 @@ RPM_HASH = "26ae0e4f71fa165ed2406d22e3299253b30f5a14e89c2646ee0d96f0ee25c6c1cf8d
 RPROVIDES:${PN} += "libdvbpsi-devel \
 libdvbpsi-devel(aarch-64) \
 pkgconfig(libdvbpsi)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libdvbpsi10"
 

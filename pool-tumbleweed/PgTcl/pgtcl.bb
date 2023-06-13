@@ -11,6 +11,7 @@ RPM_HASH = "8791ca2acf1604baa57c040066a1c4e33af859d9f02e9903de82b739cb621f524ccc
 RPROVIDES:${PN} += "PgTcl \
 PgTcl(aarch-64) \
 libpgtcl1.7.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

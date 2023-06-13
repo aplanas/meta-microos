@@ -11,6 +11,7 @@ RPM_HASH = "578a42fcce92d48022d15de479321c53aa675a73e4e5557f4e36c6278fc5c2505ea3
 
 RPROVIDES:${PN} += "Mesa-libglapi-devel \
 Mesa-libglapi-devel(aarch-64)"
+
 RDEPENDS:${PN} += "Mesa-libglapi0"
 
 inherit rpm

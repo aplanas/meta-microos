@@ -12,6 +12,7 @@ ghc-hpc-devel \
 ghc-hpc-devel(aarch-64) \
 ghc-hpc-static \
 ghc-hpc-static(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel(base-4.17.1.0) \
 ghc-devel(containers-0.6.7) \

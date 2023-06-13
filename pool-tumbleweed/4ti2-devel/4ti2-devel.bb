@@ -10,6 +10,7 @@ RPM_HASH = "610f2edb0fe5fdc51626c05115ebe14be3bc18f2627f1b76eef19954af398aac24e0
 
 RPROVIDES:${PN} += "4ti2-devel \
 4ti2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "lib4ti2-0 \
 libzsolve0"
 

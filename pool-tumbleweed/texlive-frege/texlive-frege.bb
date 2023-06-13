@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(frege.sty) \
 texlive-frege"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

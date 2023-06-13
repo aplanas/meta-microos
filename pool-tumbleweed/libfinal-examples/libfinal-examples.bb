@@ -15,6 +15,7 @@ RPM_HASH = "e6e224e6b47ccdfc533ef81c6c3b4e8d68f2701c41f82bf45090e06efb31be7d988a
 
 RPROVIDES:${PN} += "libfinal-examples \
 libfinal-examples(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

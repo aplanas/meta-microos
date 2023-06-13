@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-rest-invitations) \
 python311-django-rest-invitations \
 python3dist(django-rest-invitations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-django-invitations \
 python311-djangorestframework"

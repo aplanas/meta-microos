@@ -12,6 +12,7 @@ gedit-plugin-codecomment(aarch-64) \
 gedit-plugins:/usr/lib64/gedit/plugins/codecomment.plugin \
 metainfo() \
 metainfo(gedit-codecomment.metainfo.xml)"
+
 RDEPENDS:${PN} += "gedit-plugins-data \
 typelib(GObject) \
 typelib(Gedit) \

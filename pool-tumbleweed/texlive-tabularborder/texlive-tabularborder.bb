@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tabularborder.sty) \
 texlive-tabularborder"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

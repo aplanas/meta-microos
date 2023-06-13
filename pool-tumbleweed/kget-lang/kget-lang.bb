@@ -83,6 +83,7 @@ locale(kget:wa) \
 locale(kget:zh_CN) \
 locale(kget:zh_HK) \
 locale(kget:zh_TW)"
+
 RDEPENDS:${PN} += "kget"
 
 inherit rpm

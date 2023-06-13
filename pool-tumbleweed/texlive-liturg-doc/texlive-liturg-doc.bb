@@ -9,6 +9,7 @@ RPM_HASH = "175c24c5362a3fd1a13d4a49ec14aef2d27dff58aa7f58dc6a86ac1afc24588d1aa7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-liturg-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

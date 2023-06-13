@@ -9,6 +9,7 @@ RPM_HASH = "9813b938ae9243eac9c86d8c5f09fba1da922e01779435ac072e7d45b169054c7bb5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aomart-doc"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

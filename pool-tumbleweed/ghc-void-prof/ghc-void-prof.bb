@@ -10,6 +10,7 @@ RPM_HASH = "c57da8953226bcfbc251ba642ce87968b743c27ef92f4c139c9893c4fd0676300314
 RPROVIDES:${PN} += "ghc-prof(void-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz) \
 ghc-void-prof \
 ghc-void-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-void-devel"
 

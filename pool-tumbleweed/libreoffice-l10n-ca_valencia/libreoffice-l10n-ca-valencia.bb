@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libreoffice-help-ca-valencia \
 libreoffice-help-ca_valencia \
 libreoffice-l10n-ca_valencia \
 locale(libreoffice:ca_valencia)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libreoffice \
 libreoffice-share-linker \

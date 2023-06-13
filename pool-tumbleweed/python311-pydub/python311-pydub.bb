@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pydub) \
 python311-pydub \
 python3dist(pydub)"
+
 RDEPENDS:${PN} += "ffmpeg \
 python(abi)"
 

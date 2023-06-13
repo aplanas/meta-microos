@@ -14,6 +14,7 @@ RPM_HASH = "87804c2803ced5a950de7642e9c1f70d1effc6bb55dc3dd0b833a3684ad9c34ac8ac
 RPROVIDES:${PN} += "libhibr-devel \
 libhibr-devel(aarch-64) \
 pkgconfig(libhibr)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libhibr1"

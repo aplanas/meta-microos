@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(validators) \
 python311-validators \
 python3dist(validators)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-decorator"
 

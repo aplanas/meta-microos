@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(exam-randomizechoices.sty) \
 texlive-exam-randomizechoices"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "65bcb709aca35e70404502a156a8dd951307b663c23801c310b69f79026a6edcaf51
 RPROVIDES:${PN} += "ghc-gitrev-prof \
 ghc-gitrev-prof(aarch-64) \
 ghc-prof(gitrev-1.3.1-Fh7rxVehK3vCpE8f2RFTGz)"
+
 RDEPENDS:${PN} += "ghc-gitrev-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(base-compat-0.12.2-L1DEOlMQJOdFOKsjHoWYov) \

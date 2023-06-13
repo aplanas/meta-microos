@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aiodataloader) \
 python39-aiodataloader \
 python3dist(aiodataloader)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

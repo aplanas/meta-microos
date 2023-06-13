@@ -11,6 +11,7 @@ RPM_HASH = "b79969b187d7dac76a6c41711ed53e5aa0ea7c87533dc583a3947b7d60e5f6814c29
 
 RPROVIDES:${PN} += "gtkspell-doc \
 gtkspell-doc(aarch-64)"
+
 RDEPENDS:${PN} += "libgtkspell0"
 
 inherit rpm

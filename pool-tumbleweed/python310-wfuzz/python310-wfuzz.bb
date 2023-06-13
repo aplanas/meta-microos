@@ -42,6 +42,7 @@ RPROVIDES:${PN} += "python3-wfuzz \
 python3.10dist(wfuzz) \
 python310-wfuzz \
 python3dist(wfuzz)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

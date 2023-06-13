@@ -9,6 +9,7 @@ RPM_HASH = "682256fae07c0f06bd8c4622c1e544c27fd7a6d70039969138114dd3feaf467c96e4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mednafen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

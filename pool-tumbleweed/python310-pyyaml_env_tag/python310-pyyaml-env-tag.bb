@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pyyaml_env_tag \
 python3.10dist(pyyaml-env-tag) \
 python310-pyyaml_env_tag \
 python3dist(pyyaml-env-tag)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-PyYAML"
 

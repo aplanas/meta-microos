@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(hyph-lv.l7x.tex) \
 tex(hyph-lv.tex) \
 tex(loadhyph-lv.tex) \
 texlive-hyphen-latvian"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

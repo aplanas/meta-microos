@@ -12,6 +12,7 @@ RPM_HASH = "651c75e679c788b9b4d00be446dd6a1cc743fc8d74bb5199ae7ec8164063f15d5ed1
 RPROVIDES:${PN} += "perl(Mail::SPF_XS) \
 perl-Mail-SPF_XS \
 perl-Mail-SPF_XS(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

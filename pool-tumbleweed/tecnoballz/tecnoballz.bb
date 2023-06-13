@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "application() \
 application(tecnoballz.desktop) \
 tecnoballz \
 tecnoballz(aarch-64)"
+
 RDEPENDS:${PN} += "libSDL-1.2.so.0()(64bit) \
 libSDL_image-1.2.so.0()(64bit) \
 libSDL_mixer-1.2.so.0()(64bit) \

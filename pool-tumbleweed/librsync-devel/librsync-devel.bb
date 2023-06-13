@@ -12,6 +12,7 @@ RPM_HASH = "dc08d777712a0437a384226acbc27f5ec0aaa0b28ef6d1c67abdf95b65a42f5c9519
 
 RPROVIDES:${PN} += "librsync-devel \
 librsync-devel(aarch-64)"
+
 RDEPENDS:${PN} += "librsync2"
 
 inherit rpm

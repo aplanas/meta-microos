@@ -12,6 +12,7 @@ RPM_HASH = "c0b8e99a1b1e316866b62a03da2175264502b8d835c97c89c426bdc8ce36c34cd7ab
 RPROVIDES:${PN} += "libosmo-rspro.so.1()(64bit) \
 libosmo-rspro1 \
 libosmo-rspro1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pydbus \
 python3.10dist(pydbus) \
 python310-pydbus \
 python3dist(pydbus)"
+
 RDEPENDS:${PN} += "girepository-1_0 \
 python(abi) \
 python310-gobject"

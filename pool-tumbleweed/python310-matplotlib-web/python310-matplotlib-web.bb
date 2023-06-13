@@ -11,6 +11,7 @@ RPM_HASH = "ecf08606d7075795132ae778a24937f3a7ba5814e585c5b32a07606a1581a315585b
 RPROVIDES:${PN} += "python3-matplotlib-web \
 python310-matplotlib-web \
 python310-matplotlib-web(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-tornado"

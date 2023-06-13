@@ -13,6 +13,7 @@ RPM_HASH = "65fb00dec2dcef0414fd1b9fa26d81bb419892ee940aa86faae3125a926fcb2e6d3b
 RPROVIDES:${PN} += "libt3window.so.0()(64bit) \
 libt3window0 \
 libt3window0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.17)(64bit) \
 libtinfo.so.6()(64bit) \

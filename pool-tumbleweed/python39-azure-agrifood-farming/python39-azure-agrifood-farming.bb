@@ -23,6 +23,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-agrifood-farming) \
 python39-azure-agrifood-farming \
 python3dist(azure-agrifood-farming)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-azure-agrifood-nspkg \
 python39-azure-core \

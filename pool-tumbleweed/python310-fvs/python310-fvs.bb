@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-fvs \
 python3.10dist(fvs) \
 python310-fvs \
 python3dist(fvs)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

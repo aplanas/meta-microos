@@ -9,6 +9,7 @@ RPM_HASH = "a561327f8973a7e24713cafecb14be227e39dafe14b1b1f8bad42343003364296e2f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kluwer-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

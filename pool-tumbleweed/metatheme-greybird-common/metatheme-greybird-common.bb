@@ -14,6 +14,7 @@ RPM_HASH = "8d3347d44c2ec984e1c341f185ac7e35e2c2554df8131948bea7c27ad9a87357e320
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-greybird-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

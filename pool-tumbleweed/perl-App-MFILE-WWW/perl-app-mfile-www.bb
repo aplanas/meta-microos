@@ -31,6 +31,7 @@ RPROVIDES:${PN} += "perl(App::MFILE::WWW) \
 perl(App::MFILE::WWW::Dispatch) \
 perl(App::MFILE::WWW::Resource) \
 perl-App-MFILE-WWW"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(App::CELL) \

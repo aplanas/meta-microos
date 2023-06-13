@@ -9,6 +9,7 @@ RPM_HASH = "b3da055b6698dcd4f6060c91f5c20dd6af45292dd07c4e59e303051717f7a1d125a7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deepin-gtk-theme"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

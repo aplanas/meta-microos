@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(catchfile.sty) \
 texlive-catchfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

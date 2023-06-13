@@ -77,6 +77,7 @@ perl(SQL::Statement::Util) \
 perl(SQL::Statement::Util::Column) \
 perl(SQL::Statement::Util::Function) \
 perl-SQL-Statement"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Clone) \
 perl(Module::Runtime) \

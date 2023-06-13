@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-python-socketio \
 python3.10dist(python-socketio) \
 python310-python-socketio \
 python3dist(python-socketio)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-bidict \
 python310-python-engineio"

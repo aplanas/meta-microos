@@ -14,6 +14,7 @@ RPM_HASH = "0a497b47d666e415cd594308cc6ad00fda7f0450b11d582a4780bea7bb26bbd9de82
 RPROVIDES:${PN} += "budgie-applications-menu-applet \
 budgie-applications-menu-applet(aarch-64) \
 libslingshot.so()(64bit)"
+
 RDEPENDS:${PN} += "budgie-extras-lang \
 gnome-menus \
 ld-linux-aarch64.so.1()(64bit) \

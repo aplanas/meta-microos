@@ -13,6 +13,7 @@ RPM_HASH = "bfc24485eaa0a9e960e8629a46b6911b6da8b6a7d1731553ada82beb44e3035c7378
 RPROVIDES:${PN} += "cross-m68k-gcc7 \
 cross-m68k-gcc7(aarch-64) \
 liblto_plugin.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 cross-m68k-binutils \
 libc.so.6(GLIBC_2.36)(64bit) \

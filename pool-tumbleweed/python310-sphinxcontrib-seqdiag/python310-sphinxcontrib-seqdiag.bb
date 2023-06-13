@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-sphinxcontrib-seqdiag \
 python3.10dist(sphinxcontrib-seqdiag) \
 python310-sphinxcontrib-seqdiag \
 python3dist(sphinxcontrib-seqdiag)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-blockdiag \

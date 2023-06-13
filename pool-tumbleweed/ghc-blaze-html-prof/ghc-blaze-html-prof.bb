@@ -10,6 +10,7 @@ RPM_HASH = "186e45b925a92d366aefc0b2c2b8ac91f5c4987ee3ceffd320a3ed3fea6056d3c5b5
 RPROVIDES:${PN} += "ghc-blaze-html-prof \
 ghc-blaze-html-prof(aarch-64) \
 ghc-prof(blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR)"
+
 RDEPENDS:${PN} += "ghc-blaze-html-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(blaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW) \

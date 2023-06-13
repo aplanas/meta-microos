@@ -10,6 +10,7 @@ RPM_HASH = "a1481bc29037b0d71c061944a1c9dd8b4469be67df702d623dd3678399bfaf83d911
 RPROVIDES:${PN} += "config(pinfo) \
 pinfo \
 pinfo(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

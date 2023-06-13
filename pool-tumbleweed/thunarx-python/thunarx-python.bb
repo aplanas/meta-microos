@@ -10,6 +10,7 @@ RPM_HASH = "7f01e26b01d57e53855e3aca71b69de8e550a7ed76a8f9910cf177df60e03b3574e7
 
 RPROVIDES:${PN} += "thunarx-python \
 thunarx-python(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

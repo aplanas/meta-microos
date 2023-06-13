@@ -9,6 +9,7 @@ RPM_HASH = "d801ad3c2a74a1dee48fcbef0aa76b1a95ad13cb0b132e6924c8b1ff8ee461342ab5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-windycity-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

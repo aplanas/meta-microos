@@ -24,6 +24,7 @@ tex(luatexbase-modutils.sty) \
 tex(luatexbase-regs.sty) \
 tex(luatexbase.sty) \
 texlive-luatexbase"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

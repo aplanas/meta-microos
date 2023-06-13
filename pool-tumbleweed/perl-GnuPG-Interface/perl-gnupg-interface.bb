@@ -26,6 +26,7 @@ perl(GnuPG::SubKey) \
 perl(GnuPG::UserAttribute) \
 perl(GnuPG::UserId) \
 perl-GnuPG-Interface"
+
 RDEPENDS:${PN} += "gpg2 \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Math::BigInt) \

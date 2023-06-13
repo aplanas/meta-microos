@@ -31,6 +31,7 @@ python310-tornado6 \
 python310-tornado6(aarch-64) \
 python310-toro \
 python3dist(tornado)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

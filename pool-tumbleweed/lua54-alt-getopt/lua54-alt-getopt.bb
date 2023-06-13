@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-alt-getopt \
 lua54-alt-getopt"
+
 RDEPENDS:${PN} += "lua54"
 
 inherit rpm

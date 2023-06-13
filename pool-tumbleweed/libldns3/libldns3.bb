@@ -13,6 +13,7 @@ RPM_HASH = "729a15b7604ea80989caed2474ed665b776e78a24e0e9dc69ae11b598e6062383aec
 RPROVIDES:${PN} += "libldns.so.3()(64bit) \
 libldns3 \
 libldns3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

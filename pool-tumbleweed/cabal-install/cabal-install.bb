@@ -11,6 +11,7 @@ RPM_HASH = "e477ce6dc9429b6907350ff1d4affe93eb874738239f6952e5e536645b0d02b3f8ff
 
 RPROVIDES:${PN} += "cabal-install \
 cabal-install(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libatomic.so.1()(64bit) \

@@ -15,6 +15,7 @@ pattern-order() \
 pattern-visible() \
 patterns-kde-devel_qt5 \
 patterns-openSUSE-devel_qt5"
+
 RDEPENDS:${PN} += "libqt5-qtbase-common-devel \
 pattern()"
 

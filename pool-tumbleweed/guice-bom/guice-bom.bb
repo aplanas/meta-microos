@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-bom \
 mvn(com.google.inject:guice-bom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 

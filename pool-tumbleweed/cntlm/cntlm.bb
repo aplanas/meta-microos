@@ -14,6 +14,7 @@ RPM_HASH = "733a7958aad985177ecc19b5d1d66da45e21920cf12bcaa992c91e49a06474455a04
 RPROVIDES:${PN} += "cntlm \
 cntlm(aarch-64) \
 config(cntlm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

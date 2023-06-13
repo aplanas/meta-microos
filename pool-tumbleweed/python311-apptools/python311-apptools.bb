@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(apptools) \
 python311-apptools \
 python3dist(apptools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-configobj \
 python311-traits"

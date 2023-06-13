@@ -19,6 +19,7 @@ metainfo(net.lutris.Lutris.metainfo.xml) \
 mimehandler(x-scheme-handler/lutris) \
 python3.10dist(lutris) \
 python3dist(lutris)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 cabextract \
 curl \

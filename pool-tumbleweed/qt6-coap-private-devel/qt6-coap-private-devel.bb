@@ -10,6 +10,7 @@ RPM_HASH = "95083d398a22511bb7b3660583f645f1e6567bab38eb57ba42a0258e6d0714b0edc6
 
 RPROVIDES:${PN} += "qt6-coap-private-devel \
 qt6-coap-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6Coap)"
 
 inherit rpm

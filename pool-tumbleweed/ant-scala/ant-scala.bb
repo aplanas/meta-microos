@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-scala \
 config(ant-scala)"
+
 RDEPENDS:${PN} += "ant \
 scala"
 

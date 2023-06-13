@@ -11,6 +11,7 @@ RPM_HASH = "1643afa1e66ce8aae28d54ecb1d50fb2a9009094951f672c127f5c84b824cd854654
 RPROVIDES:${PN} += "imobiledevice-tools \
 imobiledevice-tools(aarch-64) \
 libimobiledevice-tools"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

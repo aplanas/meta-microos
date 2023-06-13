@@ -18,6 +18,7 @@ libgnarl-13 \
 libgnarl-13.so()(64bit) \
 libgnat-13 \
 libgnat-13.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

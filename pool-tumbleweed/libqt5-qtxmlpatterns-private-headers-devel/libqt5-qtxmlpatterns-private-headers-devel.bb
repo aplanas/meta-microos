@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5XmlPatterns-private-headers-devel \
 libqt5-qtxmlpatterns-private-headers-devel"
+
 RDEPENDS:${PN} += "libQt5Core-private-headers-devel \
 libqt5-qtxmlpatterns-devel"
 

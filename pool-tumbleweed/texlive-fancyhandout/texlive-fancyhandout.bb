@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(fancyhandout.cls) \
 texlive-fancyhandout"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

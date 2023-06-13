@@ -9,6 +9,7 @@ RPM_HASH = "b0d104a368aa937004074d51fb02aeb4d2c944fda3a86ca9d172f4d4310467c7899d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.cache-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

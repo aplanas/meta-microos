@@ -11,6 +11,7 @@ RPM_HASH = "3d5ae83acac9a39672329a934d99ad4af9af08910d04d73fd316f8a364b58d402ee5
 RPROVIDES:${PN} += "libm4ri-0.0.20200125.so()(64bit) \
 libm4ri-0_0_20200125 \
 libm4ri-0_0_20200125(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

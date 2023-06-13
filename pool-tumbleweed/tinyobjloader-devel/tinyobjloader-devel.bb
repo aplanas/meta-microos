@@ -15,6 +15,7 @@ RPM_HASH = "ca5be87c350a6b20be0307ebad881b72cf2ad49261fbfa57b94c37bdea287c2aac0f
 RPROVIDES:${PN} += "pkgconfig(tinyobjloader) \
 tinyobjloader-devel \
 tinyobjloader-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtinyobjloader2"
 

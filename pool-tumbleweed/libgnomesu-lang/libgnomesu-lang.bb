@@ -58,6 +58,7 @@ locale(libgnomesu:uk) \
 locale(libgnomesu:vi) \
 locale(libgnomesu:zh_CN) \
 locale(libgnomesu:zh_TW)"
+
 RDEPENDS:${PN} += "libgnomesu"
 
 inherit rpm

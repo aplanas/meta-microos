@@ -13,6 +13,7 @@ RPM_HASH = "7859422d16864cf84c45dae4ab00b6aa6ac5d9d9c0d70b52ed1d0cb2e2af4df10cbc
 
 RPROVIDES:${PN} += "adwaita-qt6 \
 adwaita-qt6(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt6Core.so.6()(64bit) \

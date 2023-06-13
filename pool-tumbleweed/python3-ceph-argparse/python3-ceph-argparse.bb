@@ -12,6 +12,7 @@ RPM_HASH = "2a4fa92c5a49764ea7ab7dcc3941d52ee1d27ab4666ff8c93b612d7158f72b686221
 
 RPROVIDES:${PN} += "python3-ceph-argparse \
 python3-ceph-argparse(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(easyformat.sty) \
 texlive-easyformat"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

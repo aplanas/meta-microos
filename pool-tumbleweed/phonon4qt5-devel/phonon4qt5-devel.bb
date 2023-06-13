@@ -15,6 +15,7 @@ cmake(Phonon4Qt5Experimental) \
 phonon4qt5-devel \
 phonon4qt5-devel(aarch-64) \
 pkgconfig(phonon4qt5)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 extra-cmake-modules \
 ld-linux-aarch64.so.1()(64bit) \

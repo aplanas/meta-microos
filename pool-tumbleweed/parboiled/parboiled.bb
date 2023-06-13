@@ -24,6 +24,7 @@ mvn(org.parboiled:parboiled-java:pom:) \
 osgi(org.parboiled.core) \
 osgi(org.parboiled.java) \
 parboiled"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.ow2.asm:asm) \

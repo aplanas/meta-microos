@@ -11,6 +11,7 @@ RPM_HASH = "8df458030c16a3fa0b6c9c8201ba3110b2584ab57ff27f8e422937475241b6d3f97a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-httpjson-transcoding-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

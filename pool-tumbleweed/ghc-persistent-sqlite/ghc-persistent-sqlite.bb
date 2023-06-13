@@ -11,6 +11,7 @@ RPM_HASH = "e5766a324c78fb9f80446adb732b14092de91b9b7c57f5af7f89ba0e21dabdf5ade4
 RPROVIDES:${PN} += "ghc-persistent-sqlite \
 ghc-persistent-sqlite(aarch-64) \
 libHSpersistent-sqlite-2.13.1.1-6m8kOitQFXeAVXzn0JSxB5-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

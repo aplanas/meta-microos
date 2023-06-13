@@ -10,6 +10,7 @@ RPM_HASH = "32a846779146d7249060df64957a7032225d2576fc551593eaf4b28d15a75e039c7a
 RPROVIDES:${PN} += "config(prometheus-blackbox_exporter) \
 prometheus-blackbox_exporter \
 prometheus-blackbox_exporter(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 group(prometheus) \
 libc.so.6(GLIBC_2.34)(64bit) \

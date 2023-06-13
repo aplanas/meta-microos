@@ -14,6 +14,7 @@ RPM_HASH = "c957f67a90a011e70783198deeaf33b089614c3aed9ff2c8e376b3553b9052423869
 RPROVIDES:${PN} += "libunibilium.so.4()(64bit) \
 libunibilium4 \
 libunibilium4(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

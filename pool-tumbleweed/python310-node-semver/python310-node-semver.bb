@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-node-semver \
 python3.10dist(node-semver) \
 python310-node-semver \
 python3dist(node-semver)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

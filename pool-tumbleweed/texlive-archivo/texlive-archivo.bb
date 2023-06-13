@@ -420,6 +420,7 @@ tex(a_utd4ik.enc) \
 tex(a_vgwtwr.enc) \
 tex(a_vqpkf5.enc) \
 texlive-archivo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

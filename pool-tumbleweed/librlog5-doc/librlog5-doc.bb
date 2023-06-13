@@ -10,6 +10,7 @@ RPM_HASH = "4a03f9135ecba1e92e99e04e42545c47314cb290850f5e62192e80ea1758f734ff30
 
 RPROVIDES:${PN} += "librlog5-doc \
 librlog5-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

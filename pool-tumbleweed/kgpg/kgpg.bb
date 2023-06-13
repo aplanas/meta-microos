@@ -17,6 +17,7 @@ metainfo(org.kde.kgpg.appdata.xml) \
 mimehandler(application/pgp-encrypted) \
 mimehandler(application/pgp-keys) \
 mimehandler(application/pgp-signature)"
+
 RDEPENDS:${PN} += "gpg2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -23,6 +23,7 @@ locale(procps4:zh_CN) \
 procps-lang \
 procps4-lang \
 procps4-lang-all"
+
 RDEPENDS:${PN} += "procps4"
 
 inherit rpm

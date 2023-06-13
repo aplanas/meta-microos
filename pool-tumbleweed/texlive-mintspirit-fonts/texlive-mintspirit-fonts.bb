@@ -137,6 +137,7 @@ font(:lang=zu) \
 font(mintspirit) \
 font(mintspiritno2) \
 texlive-mintspirit-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -26,6 +26,7 @@ perl(ReadCurrentSource) \
 perl(TraceFile) \
 perl(TraceInfo) \
 perl(lcovutil)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 findutils \

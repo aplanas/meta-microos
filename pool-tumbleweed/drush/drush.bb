@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drush \
 drush_make"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/env \
 php \

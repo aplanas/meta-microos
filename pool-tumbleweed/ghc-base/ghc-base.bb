@@ -17,6 +17,7 @@ libHSrts-1.0.2-ghc9.4.5.so()(64bit) \
 libHSrts-1.0.2_debug-ghc9.4.5.so()(64bit) \
 libHSrts-1.0.2_thr-ghc9.4.5.so()(64bit) \
 libHSrts-1.0.2_thr_debug-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libffi.so.8()(64bit) \

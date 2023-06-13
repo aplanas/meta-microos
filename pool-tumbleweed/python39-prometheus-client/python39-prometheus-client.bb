@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.9dist(prometheus-client) \
 python39-prometheus-client \
 python39-prometheus_client \
 python3dist(prometheus-client)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

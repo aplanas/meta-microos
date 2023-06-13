@@ -9,6 +9,7 @@ RPM_HASH = "ecb8213b8399181a83cf89a3cd7af72adf74161fae70c8b8725d67ce6376618de653
 
 RPROVIDES:${PN} += "qemu-ui-spice-app \
 qemu-ui-spice-app(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

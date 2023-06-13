@@ -94,6 +94,7 @@ mimehandler(x-content/video-vcd) \
 xine-ui \
 xine-ui(aarch-64) \
 xine:/usr/bin/xine"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

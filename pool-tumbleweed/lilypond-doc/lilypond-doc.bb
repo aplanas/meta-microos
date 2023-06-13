@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc \
 lilypond-documentation"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

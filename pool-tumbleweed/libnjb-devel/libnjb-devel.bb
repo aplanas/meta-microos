@@ -10,6 +10,7 @@ RPM_HASH = "8a7d4fc64b48f57b9267066a79e11ab66c0924804d871350d3404630b9015af732a5
 RPROVIDES:${PN} += "libnjb-devel \
 libnjb-devel(aarch-64) \
 pkgconfig(libnjb)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnjb \
 libusb-devel"

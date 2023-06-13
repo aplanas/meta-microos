@@ -11,6 +11,7 @@ RPM_HASH = "9c62a15af3417842ebe0a24d65f1ef827747d898d956cad26b5287a4ee2e5afa5385
 RPROVIDES:${PN} += "libXdgUtilsBaseDir.so.1.0.1()(64bit) \
 libXdgUtilsBaseDir1_0_1 \
 libXdgUtilsBaseDir1_0_1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

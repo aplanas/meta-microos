@@ -24,6 +24,7 @@ RPROVIDES:${PN} += "python3-pytest-timeout \
 python3.10dist(pytest-timeout) \
 python310-pytest-timeout \
 python3dist(pytest-timeout)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

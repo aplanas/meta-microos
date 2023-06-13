@@ -11,6 +11,7 @@ RPM_HASH = "8ea4fb2234c96bd44ff0f0a3b3627c2a48e2f29fef9d7b133687cf32511a4b01c706
 RPROVIDES:${PN} += "typelib(TimezoneMap) \
 typelib-1_0-TimezoneMap-1_0 \
 typelib-1_0-TimezoneMap-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libtimezonemap.so.1()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

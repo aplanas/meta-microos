@@ -9,6 +9,7 @@ RPM_HASH = "c83d07578df1c6cb37186cd30a6e57e51c279b1ca1f8a7c4206432c4f494181e191e
 
 RPROVIDES:${PN} += "k3b-devel \
 k3b-devel(aarch-64)"
+
 RDEPENDS:${PN} += "k3b"
 
 inherit rpm

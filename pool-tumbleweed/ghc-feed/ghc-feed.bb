@@ -20,6 +20,7 @@ RPM_HASH = "664c2660ab46fbbd512822e17c0dc79c56b414097bc1ccbcc396a7e752eccc4b60e8
 RPROVIDES:${PN} += "ghc-feed \
 ghc-feed(aarch-64) \
 libHSfeed-1.3.2.1-9QdnKoSJqFXKInoiUUJDkf-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so()(64bit) \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so()(64bit) \

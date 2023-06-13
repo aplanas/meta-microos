@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "jackson-bom \
 mvn(com.fasterxml.jackson:jackson-base:pom:) \
 mvn(com.fasterxml.jackson:jackson-bom:pom:)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.fasterxml.jackson:jackson-parent:pom:)"

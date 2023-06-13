@@ -12,6 +12,7 @@ RPM_HASH = "d535130499b08f74b78968b03727a682132c17b1351ade985adae3794456e9d7ff99
 
 RPROVIDES:${PN} += "kismet-capture-linux-wifi \
 kismet-capture-linux-wifi(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

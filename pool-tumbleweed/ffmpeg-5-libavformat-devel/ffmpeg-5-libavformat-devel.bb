@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "ffmpeg-5-libavformat-devel \
 ffmpeg-5-libavformat-devel(aarch-64) \
 libavformat-devel \
 pkgconfig(libavformat)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ffmpeg-5-libavcodec-devel \
 ffmpeg-5-libavutil-devel \

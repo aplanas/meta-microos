@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(elasticsearch) \
 python311-elasticsearch \
 python3dist(elasticsearch)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-elastic-transport"
 

@@ -9,6 +9,7 @@ RPM_HASH = "0ffcf590b08f430cb48d673d773d53646ddcbe884fc0a77b6d4780532b3f5855671a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ckermit-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

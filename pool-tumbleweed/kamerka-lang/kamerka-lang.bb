@@ -24,6 +24,7 @@ locale(kamerka:sr@latin) \
 locale(kamerka:uk) \
 locale(kamerka:zh_CN) \
 locale(kamerka:zh_TW)"
+
 RDEPENDS:${PN} += "kamerka"
 
 inherit rpm

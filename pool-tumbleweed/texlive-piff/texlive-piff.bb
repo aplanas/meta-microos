@@ -17,6 +17,7 @@ tex(newproof.sty) \
 tex(onepagem.sty) \
 tex(time.sty) \
 texlive-piff"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

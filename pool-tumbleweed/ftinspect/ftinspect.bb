@@ -11,6 +11,7 @@ RPM_HASH = "0bc0b0fe4fcde657d9c2ceb4e555256adb5912442611f88b2f6e60615dacbd29cc9e
 
 RPROVIDES:${PN} += "ftinspect \
 ftinspect(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libQt5Core.so.5()(64bit) \

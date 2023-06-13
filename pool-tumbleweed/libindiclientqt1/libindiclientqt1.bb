@@ -15,6 +15,7 @@ RPM_HASH = "697d990b52bb5531c1a9b4383cad9f8e9a44465b5043985dd6dd244c17fc6857ebcd
 RPROVIDES:${PN} += "libindiclientqt.so.1()(64bit) \
 libindiclientqt1 \
 libindiclientqt1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

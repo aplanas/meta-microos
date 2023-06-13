@@ -269,6 +269,7 @@ tex(yessow8t.vf) \
 tex(yessw8t.tfm) \
 tex(yessw8t.vf) \
 texlive-electrum"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

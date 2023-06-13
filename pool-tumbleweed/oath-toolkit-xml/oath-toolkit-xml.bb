@@ -16,6 +16,7 @@ RPM_HASH = "68520a972d9b8f67ab2c5291454b23d9fb48875db352037c14c74c9419d651bc416a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oath-toolkit-xml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ RPM_HASH = "9f4e663a2fbb99379f5fa3083c868ab195b245da00f63e454048c42cc4d20b51849c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metapost-colorbrewer"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

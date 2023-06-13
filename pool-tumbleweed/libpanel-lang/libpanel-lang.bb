@@ -46,6 +46,7 @@ locale(libpanel:sv) \
 locale(libpanel:tr) \
 locale(libpanel:uk) \
 locale(libpanel:zh_CN)"
+
 RDEPENDS:${PN} += "libpanel"
 
 inherit rpm

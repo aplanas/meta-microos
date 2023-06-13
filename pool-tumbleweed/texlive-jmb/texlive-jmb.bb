@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(jmb.sty) \
 texlive-jmb"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "OpenSceneGraph-plugin-pdf \
 OpenSceneGraph-plugin-pdf(aarch-64) \
 OpenSceneGraph-plugins:/usr/lib64/osgPlugins-3.6.5/osgdb_pdf.so \
 OpenSceneGraphPlugin(ext:pdf)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

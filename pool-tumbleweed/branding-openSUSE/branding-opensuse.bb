@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "branding \
 branding-openSUSE"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

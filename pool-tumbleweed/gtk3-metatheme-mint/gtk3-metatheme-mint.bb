@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-mint \
 mint-themes-gtk3"
+
 RDEPENDS:${PN} += "metatheme-mint-common"
 
 inherit rpm

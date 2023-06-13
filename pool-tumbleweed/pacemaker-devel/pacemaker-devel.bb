@@ -23,6 +23,7 @@ pkgconfig(pacemaker-lrmd) \
 pkgconfig(pacemaker-pe_rules) \
 pkgconfig(pacemaker-pe_status) \
 pkgconfig(pacemaker-service)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libtool-ltdl-devel \
 pacemaker-libs \

@@ -20,6 +20,7 @@ hibernate_jdbc_cache \
 jakarta-commons-dbcp2 \
 mvn(org.apache.commons:commons-dbcp2) \
 mvn(org.apache.commons:commons-dbcp2:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 commons-collections \
 commons-pool2 \

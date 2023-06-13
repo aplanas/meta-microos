@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-parsimonious \
 python3.10dist(parsimonious) \
 python310-parsimonious \
 python3dist(parsimonious)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-regex"
 

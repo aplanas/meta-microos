@@ -12,6 +12,7 @@ RPM_HASH = "6101c69e67934cb70b846d3ba19527b1ef7e676788b9f35d413918b53b559e723612
 RPROVIDES:${PN} += "ghc-gridtables \
 ghc-gridtables(aarch-64) \
 libHSgridtables-0.1.0.0-I8M3kz7LaeTJ8iEjDWUjrS-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

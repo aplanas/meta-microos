@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pytest-fixture-config \
 python3.10dist(pytest-fixture-config) \
 python310-pytest-fixture-config \
 python3dist(pytest-fixture-config)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-pytest"
 

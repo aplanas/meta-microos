@@ -19,6 +19,7 @@ libjnidispatch \
 mvn(net.java.dev.jna:jna) \
 mvn(net.java.dev.jna:jna:pom:) \
 osgi(com.sun.jna)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

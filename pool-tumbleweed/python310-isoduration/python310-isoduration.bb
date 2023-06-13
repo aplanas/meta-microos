@@ -25,6 +25,7 @@ RPROVIDES:${PN} += "python3-isoduration \
 python3.10dist(isoduration) \
 python310-isoduration \
 python3dist(isoduration)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-arrow"
 

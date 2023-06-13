@@ -11,6 +11,7 @@ RPM_HASH = "a6da8a66b50cacfb6d24084089f4b5bfef78996351090fbc9ae938c5f8afeac029f8
 RPROVIDES:${PN} += "ghc-devel(skylighting-core-0.13.2.1-6o4V0mA5OWyEHmMDE2dJ63) \
 ghc-skylighting-core-devel \
 ghc-skylighting-core-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \

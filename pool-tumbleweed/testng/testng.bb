@@ -17,6 +17,7 @@ mvn(org.testng:testng:pom:) \
 mvn(org.testng:testng:pom:jdk15:) \
 osgi(org.testng) \
 testng"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(com.beust:jcommander) \

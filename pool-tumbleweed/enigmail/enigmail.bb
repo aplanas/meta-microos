@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "enigmail \
 enigmail(aarch-64) \
 metainfo() \
 metainfo(enigmail.appdata.xml)"
+
 RDEPENDS:${PN} += "MozillaThunderbird \
 gpg2 \
 pinentry-gui"

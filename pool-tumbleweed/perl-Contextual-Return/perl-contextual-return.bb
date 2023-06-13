@@ -59,6 +59,7 @@ perl(Contextual::Return::Lvalue) \
 perl(Contextual::Return::Value) \
 perl(DB) \
 perl-Contextual-Return"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Want) \
 perl(version)"

@@ -42,6 +42,7 @@ perl(File::Comments::Target) \
 perl(PodExtractor) \
 perl-File-Comments \
 perl-File-Comments(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Tar) \
 perl(HTML::TokeParser) \

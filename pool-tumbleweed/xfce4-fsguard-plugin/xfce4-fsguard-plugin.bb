@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "libfsguard.so()(64bit) \
 xfce4-fsguard-plugin \
 xfce4-fsguard-plugin(aarch-64) \
 xfce4-panel-plugin-fsguard"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

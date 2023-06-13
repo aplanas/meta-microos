@@ -9,6 +9,7 @@ RPM_HASH = "f53c3e42fdea5ea5ef7ae929b2ce37c7e5b22e0f8f926f84dabd95063c2221e31ef6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easyeffects-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

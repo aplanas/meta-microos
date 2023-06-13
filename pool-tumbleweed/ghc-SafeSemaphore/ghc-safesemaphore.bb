@@ -12,6 +12,7 @@ RPM_HASH = "8638ae27a31be8a639ad115640cf38f449af9ce92ed295658e6e084977e8794ac722
 RPROVIDES:${PN} += "ghc-SafeSemaphore \
 ghc-SafeSemaphore(aarch-64) \
 libHSSafeSemaphore-0.10.1-4RgR0Mf1NXcDYTDfcuJnia-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHScontainers-0.6.7-ghc9.4.5.so()(64bit) \

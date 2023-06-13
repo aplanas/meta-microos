@@ -10,6 +10,7 @@ RPM_HASH = "196f6a559e081ae8b04d3e485478f4ad38c07557a246fd370057d4cabc73bed1d308
 
 RPROVIDES:${PN} += "xkbcomp \
 xkbcomp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

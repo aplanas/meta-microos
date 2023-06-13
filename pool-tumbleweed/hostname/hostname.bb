@@ -11,6 +11,7 @@ RPM_HASH = "1023f658ff76d9c40048c57578e865be6a26a2b5d6bcfb592cf2f9e8619dcb467f1d
 RPROVIDES:${PN} += "/bin/hostname \
 hostname \
 hostname(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

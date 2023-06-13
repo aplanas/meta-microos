@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "pass-import \
 python3.10dist(pass-import) \
 python3dist(pass-import)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 python(abi) \

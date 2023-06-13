@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-njuvisual-doc:zh) \
 texlive-njuvisual-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

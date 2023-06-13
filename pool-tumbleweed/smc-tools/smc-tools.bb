@@ -16,6 +16,7 @@ RPM_HASH = "9e25bb1f091e50eec90631862b9130aef9f29ac8f902c8b3e126b493bbcbb5196830
 RPROVIDES:${PN} += "libsmc-preload.so.1()(64bit) \
 smc-tools \
 smc-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

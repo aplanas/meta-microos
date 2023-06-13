@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(requests-mock) \
 python39-requests-mock \
 python3dist(requests-mock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-dbm \
 python39-requests \

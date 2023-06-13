@@ -58,6 +58,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Business::ISSN) \
 perl-Business-ISSN"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

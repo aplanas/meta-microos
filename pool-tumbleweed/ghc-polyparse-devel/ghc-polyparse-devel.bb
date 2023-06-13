@@ -10,6 +10,7 @@ RPM_HASH = "48624255f7346de7759f14a6e8ff421019062139a3ea2baa23ebc7fd4fdc26946a27
 RPROVIDES:${PN} += "ghc-devel(polyparse-1.13-E8FdqtcSqxM3P2njDFrYm8) \
 ghc-polyparse-devel \
 ghc-polyparse-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(base-4.17.1.0) \

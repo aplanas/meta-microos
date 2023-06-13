@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(google-resumable-media) \
 python39-google-resumable-media \
 python3dist(google-resumable-media)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-google-crc32c"
 

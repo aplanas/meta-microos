@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-retry_decorator \
 python3.10dist(retry-decorator) \
 python310-retry_decorator \
 python3dist(retry-decorator)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

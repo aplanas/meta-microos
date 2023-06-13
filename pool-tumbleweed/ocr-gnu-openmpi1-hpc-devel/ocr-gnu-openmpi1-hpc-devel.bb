@@ -11,6 +11,7 @@ RPM_HASH = "8c47b8e0daf80ffd57a282c0dc193cd147006e21ba6378f04ba9b1befde340cde35f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ocr-gnu-openmpi1-hpc-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ocr_1_0_1-gnu-openmpi1-hpc-devel"
 

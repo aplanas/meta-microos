@@ -9,6 +9,7 @@ RPM_HASH = "df2251030c0acc81644a4dcccbfd86d85ff2aaf895313e1ebc7dd83e30b4fa78c868
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semaphor-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

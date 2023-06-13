@@ -14,6 +14,7 @@ python311-python-afl \
 python311-python-afl(aarch-64) \
 python311-python_afl \
 python3dist(python-afl)"
+
 RDEPENDS:${PN} += "/bin/sh \
 afl \
 ld-linux-aarch64.so.1()(64bit) \

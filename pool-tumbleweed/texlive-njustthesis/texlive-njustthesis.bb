@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(njustthesis.cls) \
 texlive-njustthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-texshade-doc:en) \
 texlive-texshade-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

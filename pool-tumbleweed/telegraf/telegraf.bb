@@ -13,6 +13,7 @@ RPM_HASH = "22b72da1bca423b92e9598b8293f6d9498f28a1cad2828f251e72c1bcef446588200
 RPROVIDES:${PN} += "config(telegraf) \
 telegraf \
 telegraf(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit)"
 

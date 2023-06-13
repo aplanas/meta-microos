@@ -12,6 +12,7 @@ RPM_HASH = "d79db7e7355b0853e76c15bc5b7d428205890a1c9301d40a1ef8bd8a710356055d4e
 
 RPROVIDES:${PN} += "update-test-trivial \
 update-test-trivial(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

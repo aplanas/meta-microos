@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(altsubsup.sty) \
 texlive-altsubsup"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

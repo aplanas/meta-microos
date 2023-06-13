@@ -11,6 +11,7 @@ RPM_HASH = "20ec5d3e817678ad7de68191e72eded429fc3585d3dd883cf9f1b4c7bf76e7ef7130
 
 RPROVIDES:${PN} += "bazel \
 bazel(aarch-64)"
+
 RDEPENDS:${PN} += "bazel3.7"
 
 inherit rpm

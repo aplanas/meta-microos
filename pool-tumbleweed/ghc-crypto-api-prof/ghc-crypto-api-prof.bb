@@ -10,6 +10,7 @@ RPM_HASH = "3ac4a8b8fa24767db847ca9c413c3aa6f681bdad1f933fd5b97abd0e8acee53c1649
 RPROVIDES:${PN} += "ghc-crypto-api-prof \
 ghc-crypto-api-prof(aarch-64) \
 ghc-prof(crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE)"
+
 RDEPENDS:${PN} += "ghc-crypto-api-devel \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(bytestring-0.11.4.0) \

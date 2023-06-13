@@ -10,6 +10,7 @@ RPM_HASH = "96800bcc83059269f30373c37caeb70059a72a1171751f3a5b46b251ae0affd57546
 RPROVIDES:${PN} += "libvulkan_lvp \
 libvulkan_lvp(aarch-64) \
 libvulkan_lvp.so()(64bit)"
+
 RDEPENDS:${PN} += "Mesa-vulkan-device-select \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

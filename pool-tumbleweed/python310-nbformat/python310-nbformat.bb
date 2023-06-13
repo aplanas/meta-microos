@@ -17,6 +17,7 @@ python3.10dist(nbformat) \
 python310-jupyter_nbformat \
 python310-nbformat \
 python3dist(nbformat)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \

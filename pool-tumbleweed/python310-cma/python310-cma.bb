@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-cma \
 python3.10dist(cma) \
 python310-cma \
 python3dist(cma)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy"
 

@@ -9,6 +9,7 @@ RPM_HASH = "abbc68e7cf1df76a2ae74845fd58c8a5751cc9f7ab9cd4890198749a51b437918d51
 
 RPROVIDES:${PN} += "qt6-svg-docs-qch \
 qt6-svg-docs-qch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

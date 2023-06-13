@@ -79,6 +79,7 @@ tex(Zallman.fd) \
 tex(Zallman.map) \
 tex(Zallman.tfm) \
 texlive-initials"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

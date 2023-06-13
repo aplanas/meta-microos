@@ -13,6 +13,7 @@ python2-pycairo \
 python2-pycairo(aarch-64) \
 python2.7dist(pycairo) \
 python2dist(pycairo)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

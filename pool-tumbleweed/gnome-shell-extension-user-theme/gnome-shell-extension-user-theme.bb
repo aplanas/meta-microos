@@ -10,6 +10,7 @@ RPM_HASH = "8f0619e41049904d26edeb0208c3c4ace98734350f275f98109cd00db02424648128
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-user-theme"
+
 RDEPENDS:${PN} += "typelib(Adw) \
 typelib(GLib) \
 typelib(GObject) \

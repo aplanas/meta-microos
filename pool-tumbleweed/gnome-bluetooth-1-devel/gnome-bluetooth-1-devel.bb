@@ -12,6 +12,7 @@ RPM_HASH = "fb9c1eae0d05dced45f48441438cbe473a10872190fac58332989e1086e92333fa7d
 RPROVIDES:${PN} += "gnome-bluetooth-1-devel \
 gnome-bluetooth-1-devel(aarch-64) \
 pkgconfig(gnome-bluetooth-1.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gnome-bluetooth-1 \
 libgnome-bluetooth13 \

@@ -27,6 +27,7 @@ RPM_HASH = "520df13fd88c1ced49721399ca626946d6feeb4799382b38ef8158901bbf97680930
 
 RPROVIDES:${PN} += "ibutils \
 ibutils(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \

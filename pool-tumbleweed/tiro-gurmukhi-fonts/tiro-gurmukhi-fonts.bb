@@ -12,6 +12,7 @@ RPM_HASH = "c38e56d862dd6ed6f8e443a98f41ca8fdf02056093d9cdda946efcc86f3f86f18b70
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-gurmukhi-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

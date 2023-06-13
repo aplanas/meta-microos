@@ -11,6 +11,7 @@ RPM_HASH = "b326b5f151095b4accb3c760af73378142faea29403b94ef55347a2845f6d9f08b32
 RPROVIDES:${PN} += "libnssckbi.so()(64bit) \
 p11-kit-nss-trust \
 p11-kit-nss-trust(aarch-64)"
+
 RDEPENDS:${PN} += "p11-kit"
 
 inherit rpm

@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(dfvfs) \
 python39-dfVFS \
 python3dist(dfvfs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyYAML \
 python39-construct \

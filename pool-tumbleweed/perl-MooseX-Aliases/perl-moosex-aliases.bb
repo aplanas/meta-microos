@@ -26,6 +26,7 @@ perl(MooseX::Aliases::Meta::Trait::Role::ApplicationToClass) \
 perl(MooseX::Aliases::Meta::Trait::Role::ApplicationToRole) \
 perl(MooseX::Aliases::Meta::Trait::Role::Composite) \
 perl-MooseX-Aliases"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Moose) \
 perl(Moose::Exporter) \

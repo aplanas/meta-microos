@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pulsectl \
 python3.10dist(pulsectl) \
 python310-pulsectl \
 python3dist(pulsectl)"
+
 RDEPENDS:${PN} += "pulseaudio-daemon \
 python(abi) \
 python310-setuptools"

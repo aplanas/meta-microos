@@ -57,6 +57,7 @@ locale(libkgapi:ug) \
 locale(libkgapi:uk) \
 locale(libkgapi:zh_CN) \
 locale(libkgapi:zh_TW)"
+
 RDEPENDS:${PN} += "libkgapi"
 
 inherit rpm

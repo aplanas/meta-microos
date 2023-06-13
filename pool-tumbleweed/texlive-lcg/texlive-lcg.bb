@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(lcg.sty) \
 texlive-lcg"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

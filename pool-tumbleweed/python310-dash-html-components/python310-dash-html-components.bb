@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-dash-html-components \
 python3.10dist(dash-html-components) \
 python310-dash-html-components \
 python3dist(dash-html-components)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

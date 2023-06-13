@@ -12,6 +12,7 @@ RPM_HASH = "f7fe509cf26d2b868a23d1250221bff8976106b4107778f6108842f3d4233c0fb612
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foot-extra-terminfo"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

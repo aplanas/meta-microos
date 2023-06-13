@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "abiword-devel \
 libabiword-3_0-devel \
 libabiword-3_0-devel(aarch-64) \
 pkgconfig(abiword-3.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cairo-devel \
 enchant-devel \

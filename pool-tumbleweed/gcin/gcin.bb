@@ -13,6 +13,7 @@ application(gcin-tools.desktop) \
 gcin \
 gcin(aarch-64) \
 locale(zh_TW;zh_HK;zh_MO)"
+
 RDEPENDS:${PN} += "/bin/bash \
 gcin-branding \
 gcin-gtk2 \

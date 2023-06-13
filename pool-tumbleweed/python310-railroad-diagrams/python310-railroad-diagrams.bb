@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-railroad-diagrams \
 python3.10dist(railroad-diagrams) \
 python310-railroad-diagrams \
 python3dist(railroad-diagrams)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

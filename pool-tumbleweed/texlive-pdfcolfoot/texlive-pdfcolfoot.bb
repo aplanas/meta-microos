@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfcolfoot.sty) \
 texlive-pdfcolfoot"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

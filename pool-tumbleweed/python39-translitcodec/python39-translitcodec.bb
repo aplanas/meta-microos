@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(translitcodec) \
 python39-translitcodec \
 python3dist(translitcodec)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

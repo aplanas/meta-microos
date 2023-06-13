@@ -105,6 +105,7 @@ bundled(rust-crate:version_check) \
 bundled(rust-crate:walkdir) \
 mirrorsorcerer \
 mirrorsorcerer(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 libgcc_s.so.1()(64bit) \

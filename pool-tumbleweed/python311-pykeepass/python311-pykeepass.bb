@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pykeepass) \
 python311-pykeepass \
 python3dist(pykeepass)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-argon2-cffi \
 python311-construct \

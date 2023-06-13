@@ -1031,6 +1031,7 @@ kmod(zstd_decompress.ko) \
 kmod(zswap.ko) \
 kmod(zynqmp_ipi_mailbox.ko) \
 multiversion(kernel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 awk \
 coreutils \

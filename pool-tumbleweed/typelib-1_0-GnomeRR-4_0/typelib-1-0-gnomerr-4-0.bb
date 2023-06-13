@@ -15,6 +15,7 @@ RPM_HASH = "711a295b604ec6aa0b6ecd4edf7c38df9a472ee44ff075397f4606758bdde418fd7d
 RPROVIDES:${PN} += "typelib(GnomeRR) \
 typelib-1_0-GnomeRR-4_0 \
 typelib-1_0-GnomeRR-4_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-rr-4.so.2()(64bit) \
 typelib(GDesktopEnums) \
 typelib(GLib) \

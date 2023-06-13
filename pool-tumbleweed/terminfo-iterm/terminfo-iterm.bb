@@ -13,6 +13,7 @@ RPM_HASH = "9f210c32ef1252c211947f0a05c9b927ea76557f5d92eea745e3ee4eb5d21a1e874b
 RPROVIDES:${PN} += "terminfo-iterm \
 terminfo-iterm(aarch-64) \
 terminfo:/usr/share/terminfo/i/iTerm.app"
+
 RDEPENDS:${PN} += "terminfo-base"
 
 inherit rpm

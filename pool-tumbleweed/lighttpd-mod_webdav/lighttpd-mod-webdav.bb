@@ -22,6 +22,7 @@ RPM_HASH = "52d664b01f58c4764ff6b7a99a7c5dfbb9e8f14b48ee51e381fd7c29692e79220fd4
 RPROVIDES:${PN} += "config(lighttpd-mod_webdav) \
 lighttpd-mod_webdav \
 lighttpd-mod_webdav(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.33)(64bit) \

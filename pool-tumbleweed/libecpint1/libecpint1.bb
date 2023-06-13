@@ -13,6 +13,7 @@ RPM_HASH = "51040cf73e1834f795b8af4fec70d8f420dcc0fbfa215fd7d878642ba2ff3e1d32ce
 RPROVIDES:${PN} += "libecpint.so.1()(64bit) \
 libecpint1 \
 libecpint1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

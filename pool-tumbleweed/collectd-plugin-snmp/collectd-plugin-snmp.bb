@@ -9,6 +9,7 @@ RPM_HASH = "ea8f271e1f41749c606a7b15e5c0ca4b97b76708903195b8c309c1700fe054f01b2d
 
 RPROVIDES:${PN} += "collectd-plugin-snmp \
 collectd-plugin-snmp(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 collectd \
 ld-linux-aarch64.so.1()(64bit) \

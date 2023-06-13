@@ -13,6 +13,7 @@ RPM_HASH = "956d769963c2d790f222df100f00a7cc69b9d078ebaf3dd2d30310c9b551e4369a6c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gsftopk"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

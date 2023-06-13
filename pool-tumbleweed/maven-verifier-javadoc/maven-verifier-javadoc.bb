@@ -9,6 +9,7 @@ RPM_HASH = "70c7c85b6bbb3e7610ad3632d771fffb8da6d16a6c600a9ac473b683c4d7c64947a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-verifier-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -14,6 +14,7 @@ RPM_HASH = "798efc2d640bf91b5f3e1a220cb2595ba4c93a3a76bb29a65c4b929642f3cd515d96
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ultimatestunts-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

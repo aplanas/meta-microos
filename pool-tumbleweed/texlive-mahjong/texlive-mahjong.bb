@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(mahjong.sty) \
 texlive-mahjong"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

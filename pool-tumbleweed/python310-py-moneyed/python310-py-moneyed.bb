@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-py-moneyed \
 python3.10dist(py-moneyed) \
 python310-py-moneyed \
 python3dist(py-moneyed)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Babel \
 python310-typing-extensions"

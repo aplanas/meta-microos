@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-haystack \
 python3.10dist(django-haystack) \
 python310-django-haystack \
 python3dist(django-haystack)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

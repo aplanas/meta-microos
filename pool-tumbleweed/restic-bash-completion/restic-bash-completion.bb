@@ -9,6 +9,7 @@ RPM_HASH = "15551d4a4e39e71c7048b7a31bdb7d23ece06c7a8ac163549913bdb4d1104566a3d9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "restic-bash-completion"
+
 RDEPENDS:${PN} += "restic"
 
 inherit rpm

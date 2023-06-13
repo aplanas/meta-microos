@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tkz-graph.sty) \
 texlive-tkz-graph"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

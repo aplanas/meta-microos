@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-pdm \
 python3.10dist(pdm) \
 python310-pdm \
 python3dist(pdm)"
+
 RDEPENDS:${PN} += "(python310-resolvelib >= 0.8 with python310-resolvelib < 0.9) \
 (python310-tomlkit >= 0.8.0 with python310-tomlkit < 1) \
 /bin/sh \

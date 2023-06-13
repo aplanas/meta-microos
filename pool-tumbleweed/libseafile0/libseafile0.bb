@@ -11,6 +11,7 @@ RPM_HASH = "d2b35dcefef7b71251647f775174487ac13874e1594b05d62de391d68af0787c6518
 RPROVIDES:${PN} += "libseafile.so.0()(64bit) \
 libseafile0 \
 libseafile0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libglib-2.0.so.0()(64bit) \
 libgobject-2.0.so.0()(64bit) \

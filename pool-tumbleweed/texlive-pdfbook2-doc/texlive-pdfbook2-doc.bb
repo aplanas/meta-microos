@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(pdfbook2.1) \
 texlive-pdfbook2-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

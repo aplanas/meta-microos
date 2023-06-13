@@ -12,6 +12,7 @@ RPM_HASH = "03663eace9d771cd32b4db2d8b0d29f9f8c8d406506dcbcbef301d533a07b3d458a1
 
 RPROVIDES:${PN} += "xbacklight \
 xbacklight(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

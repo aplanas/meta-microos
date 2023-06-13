@@ -10,6 +10,7 @@ RPM_HASH = "77a9999c3ef305963cae5f0a2c727c1311dfb354119a15c63517f016d536075489ed
 RPROVIDES:${PN} += "libqrtr-glib-devel \
 libqrtr-glib-devel(aarch-64) \
 pkgconfig(qrtr-glib)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libqrtr-glib0 \
 pkgconfig(gio-2.0) \

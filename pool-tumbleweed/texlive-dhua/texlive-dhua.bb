@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(dhua.cfg) \
 tex(dhua.sty) \
 texlive-dhua"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

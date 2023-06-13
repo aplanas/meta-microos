@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "gnome-keyring-sharp \
 gnome-keyring-sharp(aarch-64) \
 libgnome-keyring-sharp-glue.so()(64bit) \
 mono(Gnome.Keyring)"
+
 RDEPENDS:${PN} += "gnome-keyring \
 libgnome-keyring.so.0()(64bit) \
 mono(glib-sharp) \

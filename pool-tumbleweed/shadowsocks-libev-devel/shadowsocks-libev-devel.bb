@@ -13,6 +13,7 @@ RPM_HASH = "58d9a72ecdaaa0f210bc08efc11e92f5ab908d30d3a1009ca7c358dec100d1dd476d
 RPROVIDES:${PN} += "pkgconfig(shadowsocks-libev) \
 shadowsocks-libev-devel \
 shadowsocks-libev-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libshadowsocks-libev2"
 

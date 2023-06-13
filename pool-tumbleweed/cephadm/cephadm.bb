@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cephadm \
 config(cephadm)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 lvm2 \

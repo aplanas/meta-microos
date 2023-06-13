@@ -9,6 +9,7 @@ RPM_HASH = "335289b90c1cb2ecb5d8337780bd6361ca0a89136647b6237bd4a037d09162f640a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tumbler-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -13,6 +13,7 @@ RPM_HASH = "5b09f10ab0ec7a7fbaef1c507f855e057deba2e4824c784d867c39ee79e9ed01657e
 RPROVIDES:${PN} += "cdrecord:/usr/bin/readcd \
 readcd \
 readcd(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

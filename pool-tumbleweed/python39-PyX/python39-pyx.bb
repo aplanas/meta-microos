@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(pyx) \
 python39-PyX \
 python39-pyx \
 python3dist(pyx)"
+
 RDEPENDS:${PN} += "python(abi) \
 texlive-latex-bin-bin \
 texlive-tex-bin \

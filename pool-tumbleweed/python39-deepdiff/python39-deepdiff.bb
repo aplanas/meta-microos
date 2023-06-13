@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(deepdiff) \
 python39-deepdiff \
 python3dist(deepdiff)"
+
 RDEPENDS:${PN} += "(python39-ordered-set >= 4.1.0 with python39-ordered-set < 4.2) \
 /bin/sh \
 /usr/bin/python3.9 \

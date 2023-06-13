@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config(monitoring-plugins-postgres) \
 monitoring-plugins-postgres \
 nagios-plugins-postgres"
+
 RDEPENDS:${PN} += "check_postgres"
 
 inherit rpm

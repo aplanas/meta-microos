@@ -9,6 +9,7 @@ RPM_HASH = "71fd69deb56ebd93f224e90f39f83bdf42fe9878feddd8aaa88a0d3841d0b196e5d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maze-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

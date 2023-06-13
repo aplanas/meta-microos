@@ -9,6 +9,7 @@ RPM_HASH = "0167fe46b7b6356c5b07ed7e5a02bcf773952ac27d444404ec790c59503ddd418655
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-accessibility-gtk2"
+
 RDEPENDS:${PN} += "gtk2-engine-hcengine"
 
 inherit rpm

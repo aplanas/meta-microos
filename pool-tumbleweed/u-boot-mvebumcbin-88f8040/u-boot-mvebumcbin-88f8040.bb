@@ -11,6 +11,7 @@ RPM_HASH = "66ef73c30330a6cf3e1e777ebf7277bf40f83782b668acb3f2b65c747f972b8d19b1
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-mvebumcbin-88f8040 \
 u-boot-mvebumcbin-88f8040(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -23,6 +23,7 @@ RPROVIDES:${PN} += "jetty-quickstart \
 mvn(org.eclipse.jetty:jetty-quickstart) \
 mvn(org.eclipse.jetty:jetty-quickstart:pom:) \
 osgi(org.eclipse.jetty.quickstart)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(javax.transaction:javax.transaction-api) \

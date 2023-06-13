@@ -10,6 +10,7 @@ RPM_HASH = "4f92b5a4ef3db161017ce13d2eda1ff41bcc2a3becef4af613a6a764098b471a6547
 
 RPROVIDES:${PN} += "python39-PyQt6-Charts-devel \
 python39-PyQt6-Charts-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-PyQt6-devel"
 

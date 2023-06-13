@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-django-rest-invitations \
 python3.10dist(django-rest-invitations) \
 python310-django-rest-invitations \
 python3dist(django-rest-invitations)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-django-invitations \
 python310-djangorestframework"

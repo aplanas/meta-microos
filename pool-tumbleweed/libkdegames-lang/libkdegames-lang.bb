@@ -81,6 +81,7 @@ locale(libkdegames:uk) \
 locale(libkdegames:wa) \
 locale(libkdegames:zh_CN) \
 locale(libkdegames:zh_TW)"
+
 RDEPENDS:${PN} += "libkdegames"
 
 inherit rpm

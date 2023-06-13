@@ -27,6 +27,7 @@ RPM_HASH = "99f5e8b18e7e704d360a5147cf02b940eeaddb454eb18eca03d49589ea51f342ba85
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jython-manual"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

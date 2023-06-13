@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-kismetdb \
 python3.10dist(kismetdb) \
 python310-kismetdb \
 python3dist(kismetdb)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

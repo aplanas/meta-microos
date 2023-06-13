@@ -12,6 +12,7 @@ RPM_HASH = "d6d764eed2d1dd9bf142bfede54071e10784eeaf0eef756f5046e6094af096aa3b0c
 RPROVIDES:${PN} += "ghc-criterion-measurement \
 ghc-criterion-measurement(aarch-64) \
 libHScriterion-measurement-0.2.1.0-87nlGOXoqxrBN5mUt0bPv1-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libHSOneTuple-0.3.1-IKxZBiZNgF5H3QnFEzgDrd-ghc9.4.5.so()(64bit) \

@@ -23,6 +23,7 @@ RPM_HASH = "f2089adf7429dc6f694e43890cc31e53e216ac567c16a9d830e8a4ea652f7d9d5b6d
 
 RPROVIDES:${PN} += "ghc \
 ghc(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel \
 ghc-ghc-boot-devel \

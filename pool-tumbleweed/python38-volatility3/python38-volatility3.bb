@@ -18,6 +18,7 @@ python38-volatility3 \
 python3dist(volatility3) \
 volatility \
 volatility3"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 capstone \
 python(abi) \

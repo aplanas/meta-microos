@@ -16,6 +16,7 @@ ibus-typing-booster(aarch-64) \
 metainfo() \
 metainfo(emoji-picker.appdata.xml) \
 metainfo(typing-booster.appdata.xml)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/sh \
 dbus-1-python3 \

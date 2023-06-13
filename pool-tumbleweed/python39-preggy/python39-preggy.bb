@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(preggy) \
 python39-preggy \
 python3dist(preggy)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-Unidecode \
 python39-six"

@@ -16,6 +16,7 @@ calindori(aarch-64) \
 metainfo() \
 metainfo(org.kde.calindori.appdata.xml) \
 mimehandler(text/calendar)"
+
 RDEPENDS:${PN} += "kirigami2 \
 kpeoplevcard \
 ld-linux-aarch64.so.1()(64bit) \

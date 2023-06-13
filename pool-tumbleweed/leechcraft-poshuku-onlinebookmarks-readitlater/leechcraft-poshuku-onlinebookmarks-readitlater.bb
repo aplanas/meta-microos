@@ -11,6 +11,7 @@ RPM_HASH = "b4fb2bd0dc3ccdacfd747deab58619eb644eb7ceb9212596ed2f0e9c2675b7d85dcd
 RPROVIDES:${PN} += "leechcraft-poshuku-onlinebookmarks-readitlater \
 leechcraft-poshuku-onlinebookmarks-readitlater(aarch-64) \
 libleechcraft_poshuku_onlinebookmarks_readitlater.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-poshuku-onlinebookmarks \

@@ -11,6 +11,7 @@ RPM_HASH = "bbaf2fbcdd0788f42d7a1321b4850b84cba0a512f28a25604a050b878360b74dac05
 RPROVIDES:${PN} += "exo-devel \
 exo-devel(aarch-64) \
 pkgconfig(exo-2)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 exo-tools \
 libexo-2-0 \

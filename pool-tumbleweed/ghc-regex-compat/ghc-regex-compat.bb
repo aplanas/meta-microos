@@ -13,6 +13,7 @@ RPM_HASH = "6288f4d7bd40e306ab170f36ccd5ae137902a238943739ac392d7d431f74c704d2d9
 RPROVIDES:${PN} += "ghc-regex-compat \
 ghc-regex-compat(aarch-64) \
 libHSregex-compat-0.95.2.1-9I4JwtnoxVY9Cu5lIL0XLJ-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbinary-0.8.9.1-ghc9.4.5.so()(64bit) \

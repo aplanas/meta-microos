@@ -10,6 +10,7 @@ RPM_HASH = "e2e839bb616df32fe40986cb82cab2959fa33280c49860974f9ef658a604a590ba41
 RPROVIDES:${PN} += "ghc-pandoc-server-prof \
 ghc-pandoc-server-prof(aarch-64) \
 ghc-prof(pandoc-server-0.1-6D1bWRrxol13l7SXQDdSda)"
+
 RDEPENDS:${PN} += "ghc-pandoc-server-devel \
 ghc-prof(aeson-2.1.2.1-D6AdQzPi657L86q5kYUhvP) \
 ghc-prof(base-4.17.1.0) \

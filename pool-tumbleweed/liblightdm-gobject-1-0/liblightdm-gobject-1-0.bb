@@ -11,6 +11,7 @@ RPM_HASH = "85517ced8f302a0c3da36c6f08174cb27bc64cdccf96c8c5104afe99a771e5cf44c1
 RPROVIDES:${PN} += "liblightdm-gobject-1-0 \
 liblightdm-gobject-1-0(aarch-64) \
 liblightdm-gobject-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

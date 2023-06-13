@@ -11,6 +11,7 @@ RPM_HASH = "fc2038f7fd409e66372e2bf54e248b8717e7f37450516df908055f39b904873baefa
 
 RPROVIDES:${PN} += "ocaml-integers \
 ocaml-integers(aarch-64)"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit)"
 
 inherit rpm

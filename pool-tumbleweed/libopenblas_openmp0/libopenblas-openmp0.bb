@@ -10,6 +10,7 @@ RPM_HASH = "9f2fb535d001ec15391d53bf386932ca0a300662c01fe8829e07d10bff71955d4295
 RPROVIDES:${PN} += "libopenblas.so.0()(64bit) \
 libopenblas_openmp0 \
 libopenblas_openmp0(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -83,6 +83,7 @@ locale(deja-dup:vi) \
 locale(deja-dup:zh_CN) \
 locale(deja-dup:zh_HK) \
 locale(deja-dup:zh_TW)"
+
 RDEPENDS:${PN} += "deja-dup"
 
 inherit rpm

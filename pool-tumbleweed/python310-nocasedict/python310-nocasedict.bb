@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-nocasedict \
 python3.10dist(nocasedict) \
 python310-nocasedict \
 python3dist(nocasedict)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

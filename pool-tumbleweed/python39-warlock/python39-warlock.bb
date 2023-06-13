@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(warlock) \
 python39-warlock \
 python3dist(warlock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-jsonpatch \
 python39-jsonschema"

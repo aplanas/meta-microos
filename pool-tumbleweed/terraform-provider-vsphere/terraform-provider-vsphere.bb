@@ -9,6 +9,7 @@ RPM_HASH = "b06061be2aa13aa54d30bdfe407a0b692e70bc2b294fe42dec14549cec51e09884ba
 
 RPROVIDES:${PN} += "terraform-provider-vsphere \
 terraform-provider-vsphere(aarch-64)"
+
 RDEPENDS:${PN} += "mkisofs \
 terraform"
 

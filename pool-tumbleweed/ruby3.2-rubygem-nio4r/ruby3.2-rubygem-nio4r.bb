@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:nio4r) \
 rubygem(ruby:3.2.0:nio4r:2) \
 rubygem(ruby:3.2.0:nio4r:2.5) \
 rubygem(ruby:3.2.0:nio4r:2.5.8)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ RPM_HASH = "0865dbb9a3215199de2e92a3459d56d43e863e5f06ad7efd0645478723764dbc319e
 
 RPROVIDES:${PN} += "scsh-base \
 scsh-base(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

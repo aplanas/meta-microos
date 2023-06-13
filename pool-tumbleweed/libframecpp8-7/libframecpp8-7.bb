@@ -11,6 +11,7 @@ RPM_HASH = "e6b58905aa2488902e78b7d208cbf7fb6898bdaed1bfd22d6fc058e3adf2d8819f04
 RPROVIDES:${PN} += "libframecpp8-7 \
 libframecpp8-7(aarch-64) \
 libframecpp8.so.7()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

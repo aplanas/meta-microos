@@ -124,6 +124,7 @@ font(texmathx7) \
 font(texmathx8) \
 font(texmathx9) \
 texlive-mathabx-type1-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

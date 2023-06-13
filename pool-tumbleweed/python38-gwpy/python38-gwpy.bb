@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.8dist(gwpy) \
 python38-gwpy \
 python3dist(gwpy)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.8 \
 python(abi) \

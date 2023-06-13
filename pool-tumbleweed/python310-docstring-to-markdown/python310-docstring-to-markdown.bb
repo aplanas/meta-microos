@@ -18,6 +18,7 @@ python3.10dist(docstring-to-markdown) \
 python310-docstring-to-markdown \
 python310-docstring_to_markdown \
 python3dist(docstring-to-markdown)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

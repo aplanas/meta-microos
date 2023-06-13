@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(azure-keyvault) \
 python39-azure-keyvault \
 python3dist(azure-keyvault)"
+
 RDEPENDS:${PN} += "python39-azure-keyvault-certificates \
 python39-azure-keyvault-keys \
 python39-azure-keyvault-nspkg \

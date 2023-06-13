@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(texfot.1) \
 texlive-texfot-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

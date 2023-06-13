@@ -10,6 +10,7 @@ RPM_HASH = "5728306a99b084d2c87a8f1cd05a0da05388d03e1973de327c85203bf1165dad3f61
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-latexrecommended"
+
 RDEPENDS:${PN} += "texlive-anysize \
 texlive-attachfile2 \
 texlive-beamer \

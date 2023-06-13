@@ -11,6 +11,7 @@ RPM_HASH = "7b2affd12699fd1b8421e27d0ec9a23c98d9b104dfebde7bd80a32b552922930a0da
 RPROVIDES:${PN} += "libabiword-3.0.so()(64bit) \
 libabiword-3_0 \
 libabiword-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

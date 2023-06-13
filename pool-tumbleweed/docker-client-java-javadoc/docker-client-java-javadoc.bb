@@ -9,6 +9,7 @@ RPM_HASH = "dd11c648453440887292e3dd22accb6b45789699a990f7a80bede3b43faa9b483702
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-client-java-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

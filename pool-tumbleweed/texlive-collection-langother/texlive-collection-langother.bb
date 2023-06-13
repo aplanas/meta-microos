@@ -13,6 +13,7 @@ RPM_HASH = "c419874b0aa1b8a9e4c158924fc36185fd1ae74a42df015444865c94129aea2e8dc5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langother"
+
 RDEPENDS:${PN} += "texlive-aalok \
 texlive-akshar \
 texlive-amsldoc-vn \

@@ -13,6 +13,7 @@ RPM_HASH = "e84cf2ec7e0dc9c9220ea9e81d315cd6b86ccc21e2caa9bdc5a2d8be3f9f21772789
 
 RPROVIDES:${PN} += "lame-mp3rtp \
 lame-mp3rtp(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

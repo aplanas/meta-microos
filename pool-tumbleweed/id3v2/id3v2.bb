@@ -12,6 +12,7 @@ RPM_HASH = "ec2b669c316d536b2adb78da984b47e0fcc5b92c302904b9b1b36b9841c74185e349
 
 RPROVIDES:${PN} += "id3v2 \
 id3v2(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

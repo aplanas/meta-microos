@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ruamel.yaml.convert) \
 python39-ruamel.yaml.convert \
 python3dist(ruamel.yaml.convert)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-python-dateutil \
 python39-ruamel.base \

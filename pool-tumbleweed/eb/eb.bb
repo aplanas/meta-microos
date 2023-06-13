@@ -15,6 +15,7 @@ RPM_HASH = "5c2b44d57039438b222b6d3e79e13c78eda867a559cd05d79ff0f4d7ce65aa8041c3
 RPROVIDES:${PN} += "config(eb) \
 eb \
 eb(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "libgraphviz6:/usr/lib64/libgvc.so.6 \
 libgvc.so.6()(64bit) \
 libgvc6 \
 libgvc6(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

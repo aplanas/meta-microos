@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(ytableau.sty) \
 texlive-ytableau"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

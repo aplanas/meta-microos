@@ -21,6 +21,7 @@ RPM_HASH = "3c189573ccce736db594dd8411d5b4a5d9a6f12230613d5cd1a6cf4cdbe960a19efc
 RPROVIDES:${PN} += "libColorFull.so.0()(64bit) \
 libColorFull0 \
 libColorFull0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

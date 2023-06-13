@@ -14,6 +14,7 @@ RPM_HASH = "bcaf224da05d1bea60f04022f87b88c6d3c3f5bc7c41724062a848796dbc6c0a320b
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencl-cpp-headers"
+
 RDEPENDS:${PN} += "opencl-headers"
 
 inherit rpm

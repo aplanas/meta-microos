@@ -9,6 +9,7 @@ RPM_HASH = "8b008f7628cb266fbaabf7b4629558a3b1df3f75d4cd86e70c6c07143cd4045525f1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxpgfmark-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

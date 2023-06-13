@@ -12,6 +12,7 @@ caja-extension-sendto-pidgin(aarch-64) \
 caja-sendto-pidgin \
 libnstpidgin.so()(64bit) \
 mate-file-manager-sendto-pidgin"
+
 RDEPENDS:${PN} += "caja-extension-sendto \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

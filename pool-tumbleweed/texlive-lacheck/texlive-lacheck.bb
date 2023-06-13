@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man(lacheck.1) \
 texlive-lacheck"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -36,6 +36,7 @@ libgfapi.so.0(GFAPI_PRIVATE_6.0)(64bit) \
 libgfapi.so.0(GFAPI_PRIVATE_6.1)(64bit) \
 libgfapi0 \
 libgfapi0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

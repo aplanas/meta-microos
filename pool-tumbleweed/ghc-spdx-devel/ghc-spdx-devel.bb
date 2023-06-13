@@ -10,6 +10,7 @@ RPM_HASH = "83ad0f7e8f21332c3f90e796075d7fe37ac4c65ae983cb94dc9f61f89579bb91351f
 RPROVIDES:${PN} += "ghc-devel(spdx-1.0.0.3-JwdNfzEpnM57Bwmw6OiiTp) \
 ghc-spdx-devel \
 ghc-spdx-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ghc-compiler \
 ghc-devel(Cabal-3.8.1.0) \

@@ -9,6 +9,7 @@ RPM_HASH = "6771407ea530fdf95417d369546ef26fc6631bec6685236f7c0116d8162acf78c67a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-check-hyphen-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

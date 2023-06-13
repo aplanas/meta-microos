@@ -15,6 +15,7 @@ mvn(org.mockito:mockito-all:pom:) \
 mvn(org.mockito:mockito-core) \
 mvn(org.mockito:mockito-core:pom:) \
 osgi(org.mockito.mockito-core)"
+
 RDEPENDS:${PN} += "cglib \
 hamcrest \
 java-headless \

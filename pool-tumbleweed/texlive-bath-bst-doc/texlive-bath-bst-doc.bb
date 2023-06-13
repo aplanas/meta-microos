@@ -9,6 +9,7 @@ RPM_HASH = "3db39ea386140b786a5fe1adcc257aab28f4fc7a1404a226efadf5b9c901e504bc0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bath-bst-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

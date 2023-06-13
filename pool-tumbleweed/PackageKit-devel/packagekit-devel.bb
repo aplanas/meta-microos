@@ -16,6 +16,7 @@ libpk_backend_test_nop.so()(64bit) \
 libpk_backend_test_spawn.so()(64bit) \
 libpk_backend_test_succeed.so()(64bit) \
 libpk_backend_test_thread.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 PackageKit \
 ld-linux-aarch64.so.1()(64bit) \

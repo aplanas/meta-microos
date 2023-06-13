@@ -9,6 +9,7 @@ RPM_HASH = "4d8dbcb259e180e6a4e37169047ec6ab5040f25d8d8fcc4e86fee6ada1d67a9e15cc
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-irish-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

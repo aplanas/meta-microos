@@ -13,6 +13,7 @@ RPM_HASH = "9e4e779b503d59eb16c804d4e104e60670c51339ee6976d6f0495884b8d6fb46f3c0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

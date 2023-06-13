@@ -13,6 +13,7 @@ application(azote.desktop) \
 azote \
 python3.10dist(azote) \
 python3dist(azote)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ImageMagick \
 feh \

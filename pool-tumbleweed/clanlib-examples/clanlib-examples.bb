@@ -9,6 +9,7 @@ RPM_HASH = "c79a661612f0984d22b52d32293f7c2f53b78354116fe9df2608d1dadc64ac86a1a0
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clanlib-examples"
+
 RDEPENDS:${PN} += "clanlib \
 clanlib-devel"
 

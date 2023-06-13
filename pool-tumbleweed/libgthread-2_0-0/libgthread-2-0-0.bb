@@ -15,6 +15,7 @@ RPM_HASH = "2133ffbb12fe5cfc619ce759a6a850a9fc148e628c85bf85fdf7abfa7e702cbddc57
 RPROVIDES:${PN} += "libgthread-2.0.so.0()(64bit) \
 libgthread-2_0-0 \
 libgthread-2_0-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libglib-2.0.so.0()(64bit)"
 

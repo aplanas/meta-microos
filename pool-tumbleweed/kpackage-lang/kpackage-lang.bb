@@ -60,6 +60,7 @@ locale(kpackage:ug) \
 locale(kpackage:uk) \
 locale(kpackage:zh_CN) \
 locale(kpackage:zh_TW)"
+
 RDEPENDS:${PN} += "kpackage"
 
 inherit rpm

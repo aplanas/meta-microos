@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-UkPostcodeParser \
 python3.10dist(ukpostcodeparser) \
 python310-UkPostcodeParser \
 python3dist(ukpostcodeparser)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-base"
 

@@ -11,6 +11,7 @@ RPM_HASH = "cbc9895d5218feff376b3d2c6ab7351b539aec7a89663cc9f119785ac30887826867
 RPROVIDES:${PN} += "librvngabw-devel \
 librvngabw-devel(aarch-64) \
 pkgconfig(librvngabw-0.0)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 librvngabw-0_0-0 \
 pkgconfig(librevenge-0.0) \

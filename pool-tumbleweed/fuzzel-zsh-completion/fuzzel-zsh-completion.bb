@@ -9,6 +9,7 @@ RPM_HASH = "40d37f1a6347d183c8edda1464511edb19142a79478fd82b7683bbff4ef93f27d96f
 
 RPROVIDES:${PN} += "fuzzel-zsh-completion \
 fuzzel-zsh-completion(aarch-64)"
+
 RDEPENDS:${PN} += "zsh"
 
 inherit rpm

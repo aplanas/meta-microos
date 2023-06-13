@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bitset.sty) \
 texlive-bitset"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

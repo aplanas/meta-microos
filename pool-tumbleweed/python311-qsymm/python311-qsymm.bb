@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(qsymm) \
 python311-qsymm \
 python3dist(qsymm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-numpy \
 python311-scipy \

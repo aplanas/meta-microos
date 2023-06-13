@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mutt-doc \
 mutt:/usr/share/doc/packages/mutt/COPYRIGHT"
+
 RDEPENDS:${PN} += "/bin/sh \
 mutt"
 

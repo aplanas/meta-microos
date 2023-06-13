@@ -9,6 +9,7 @@ RPM_HASH = "1a02da2d0347befd082461760ab7e696f7ecd2c0584bfa7e5a868e1f784fbe67fef2
 
 RPROVIDES:${PN} += "libdwarf-doc \
 libdwarf-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

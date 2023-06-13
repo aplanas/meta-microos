@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libpostgresql-sdbc-impllo.so()(64bit) \
 libpostgresql-sdbclo.so()(64bit) \
 libreoffice-base-drivers-postgresql \
 libreoffice-base-drivers-postgresql(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

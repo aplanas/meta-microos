@@ -133,6 +133,7 @@ firmware(i915/tgl_huc_7.0.3.bin) \
 firmware(i915/tgl_huc_7.5.0.bin) \
 firmware(i915/tgl_huc_7.9.3.bin) \
 kernel-firmware-i915"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -9,6 +9,7 @@ RPM_HASH = "70ae51f21dd85c34f885f9a5c833b61311ede1433eb9669c4fa5852ab41d780ea1c2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-barracuda-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

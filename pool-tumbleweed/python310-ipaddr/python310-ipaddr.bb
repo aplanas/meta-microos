@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-ipaddr \
 python3.10dist(ipaddr) \
 python310-ipaddr \
 python3dist(ipaddr)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

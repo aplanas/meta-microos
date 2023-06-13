@@ -250,6 +250,7 @@ tex(vnu10.tfm) \
 tex(vnvtt10.tfm) \
 tex(vps.def) \
 texlive-vntex"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

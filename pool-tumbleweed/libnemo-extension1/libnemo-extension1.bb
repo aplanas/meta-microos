@@ -12,6 +12,7 @@ RPM_HASH = "fe0c4495c756dee44576b5c2b3f3e76645121a7a1a91bc08d1b3727ee5c49aeac958
 RPROVIDES:${PN} += "libnemo-extension.so.1()(64bit) \
 libnemo-extension1 \
 libnemo-extension1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

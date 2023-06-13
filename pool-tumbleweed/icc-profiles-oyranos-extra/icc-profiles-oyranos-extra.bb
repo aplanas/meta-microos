@@ -9,6 +9,7 @@ RPM_HASH = "006bd5a2d1727727746974ad448b29efcd8b8d388d8e5af983cc3e80f0ee8fe9e0a6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-oyranos-extra"
+
 RDEPENDS:${PN} += "color-filesystem"
 
 inherit rpm

@@ -15,6 +15,7 @@ RPM_HASH = "229d89aa94a03df7f250b7fffc46aa277f1c07611482b2a9efb869b2b8f86b7c3576
 RPROVIDES:${PN} += "brltty-driver-espeak \
 brltty-driver-espeak(aarch-64) \
 libbrlttyses.so()(64bit)"
+
 RDEPENDS:${PN} += "brltty \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mixlib-authentication) \
 rubygem(ruby:3.2.0:mixlib-authentication:3) \
 rubygem(ruby:3.2.0:mixlib-authentication:3.0) \
 rubygem(ruby:3.2.0:mixlib-authentication:3.0.10)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

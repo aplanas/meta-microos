@@ -13,6 +13,7 @@ RPM_HASH = "9e960b948f9e8f0d0bae9d9e2aa719d397664246a2dd0fe7d9d7f639532698251999
 RPROVIDES:${PN} += "pkgconfig(ptexenc) \
 texlive-ptexenc-devel \
 texlive-ptexenc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libptexenc1 \
 pkgconfig(kpathsea)"

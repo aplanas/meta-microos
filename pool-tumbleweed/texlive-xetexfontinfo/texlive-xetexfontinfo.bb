@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(aat-info.tex) \
 tex(opentype-info.tex) \
 texlive-xetexfontinfo"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

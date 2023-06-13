@@ -14,6 +14,7 @@ python3.10dist(pylibacl) \
 python310-pylibacl \
 python310-pylibacl(aarch-64) \
 python3dist(pylibacl)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libacl.so.1()(64bit) \

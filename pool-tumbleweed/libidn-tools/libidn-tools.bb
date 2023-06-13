@@ -19,6 +19,7 @@ RPM_HASH = "ac3ddd79d3f3bde00b314fe81d475010f2597e2988517f59110221e8abcf059cce80
 
 RPROVIDES:${PN} += "libidn-tools \
 libidn-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

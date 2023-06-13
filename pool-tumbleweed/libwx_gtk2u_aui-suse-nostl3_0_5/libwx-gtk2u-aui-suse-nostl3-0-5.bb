@@ -16,6 +16,7 @@ libwx_gtk2u_aui-suse-nostl.so.3.0.5(WXU_3.0.4)(64bit) \
 libwx_gtk2u_aui-suse-nostl.so.3.0.5(WXU_3.0.5)(64bit) \
 libwx_gtk2u_aui-suse-nostl3_0_5 \
 libwx_gtk2u_aui-suse-nostl3_0_5(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

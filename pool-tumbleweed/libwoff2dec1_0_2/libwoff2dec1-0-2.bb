@@ -16,6 +16,7 @@ RPM_HASH = "718a31520a144c458f96ad759ad72833833cf7b8eb41d813bd5fcfa70fc571588873
 RPROVIDES:${PN} += "libwoff2dec.so.1.0.2()(64bit) \
 libwoff2dec1_0_2 \
 libwoff2dec1_0_2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

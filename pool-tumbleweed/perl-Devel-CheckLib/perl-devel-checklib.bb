@@ -11,6 +11,7 @@ RPM_HASH = "c4395c53dc6132dc18feae3bbf5091d06183cff5a8f5214f0cf59710515c43945458
 RPROVIDES:${PN} += "perl(Devel::CheckLib) \
 perl-Devel-CheckLib \
 perl-Devel-CheckLib(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0)"
 

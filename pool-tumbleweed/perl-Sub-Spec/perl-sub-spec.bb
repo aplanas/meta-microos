@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "perl(Sub::Spec) \
 perl(Sub::Spec::Schema) \
 perl(Sub::Spec::Util) \
 perl-Sub-Spec"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(File::Which) \
 perl(Log::Any) \

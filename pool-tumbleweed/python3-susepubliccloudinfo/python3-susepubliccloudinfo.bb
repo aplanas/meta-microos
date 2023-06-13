@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-susepubliccloudinfo \
 python3-susepubliccloudinfo \
 python3.10dist(susepubliccloudinfo) \
 python3dist(susepubliccloudinfo)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3 \

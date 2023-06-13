@@ -13,6 +13,7 @@ RPM_HASH = "052dca11623d5faf0e7889fd98423dfd088c31bec710870a7b9d406b6b5c25cf153f
 RPROVIDES:${PN} += "libUnitTest++-2.0.0.so()(64bit) \
 libUnitTest++-2_0_0 \
 libUnitTest++-2_0_0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

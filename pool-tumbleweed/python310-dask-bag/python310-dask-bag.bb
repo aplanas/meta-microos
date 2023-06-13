@@ -26,6 +26,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask-bag \
 python310-dask-bag"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dask"
 

@@ -14,6 +14,7 @@ pkgconfig(vapigen-0.56) \
 vala \
 vala(aarch-64) \
 vala-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \

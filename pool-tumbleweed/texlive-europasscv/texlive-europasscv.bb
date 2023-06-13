@@ -33,6 +33,7 @@ tex(europasscv_sl.def) \
 tex(europasscv_sv.def) \
 tex(europasscv_tr.def) \
 texlive-europasscv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

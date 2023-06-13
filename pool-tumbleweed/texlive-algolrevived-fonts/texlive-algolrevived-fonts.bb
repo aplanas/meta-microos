@@ -246,6 +246,7 @@ font(:lang=za) \
 font(:lang=zu) \
 font(algolrevived) \
 texlive-algolrevived-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

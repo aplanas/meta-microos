@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(umthesis.cls) \
 texlive-umthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

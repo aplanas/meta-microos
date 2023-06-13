@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Tie::RefHash::Weak) \
 perl-Tie-RefHash-Weak"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Task::Weaken) \
 perl(Variable::Magic)"

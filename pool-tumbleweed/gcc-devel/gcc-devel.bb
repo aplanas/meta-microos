@@ -9,6 +9,7 @@ RPM_HASH = "2c22ea70b8ccf2bc03df1c28ec0b5ee513b856975849274e6a1f6eb4c464fdee93b1
 
 RPROVIDES:${PN} += "gcc-devel \
 gcc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "gcc \
 gcc13-devel"
 

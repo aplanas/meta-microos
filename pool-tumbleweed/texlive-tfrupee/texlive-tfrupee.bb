@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(tfrupee.map) \
 tex(tfrupee.sty) \
 tex(tfrupee.tfm) \
 texlive-tfrupee"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "6f31ed00a2a546432e84de05262f136bb5e291c59bdee687c12e63cf6c935f1a4eb2
 RPROVIDES:${PN} += "typelib(GnomeAutoar) \
 typelib-1_0-GnomeAutoar-0_1 \
 typelib-1_0-GnomeAutoar-0_1(aarch-64)"
+
 RDEPENDS:${PN} += "libgnome-autoar-0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

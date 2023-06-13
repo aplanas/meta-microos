@@ -11,6 +11,7 @@ RPM_HASH = "06c25b74796cec2e6588cf15cf686ae57d73c4ffca1370ff357d5ac57c8e7333b41c
 RPROVIDES:${PN} += "typelib(GUdev) \
 typelib-1_0-GUdev-1_0 \
 typelib-1_0-GUdev-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgudev-1.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GObject)"

@@ -22,6 +22,7 @@ RPM_HASH = "7219ae44ddf73fdf3d8e80a0c0596448e5547b9618b05708b6e74abbd04d3c5bf99c
 
 RPROVIDES:${PN} += "bstone \
 bstone(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libSDL2-2.0.so.0()(64bit) \

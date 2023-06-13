@@ -36,6 +36,7 @@ librepository_editor.so()(64bit) \
 libsjcd.so()(64bit) \
 libsorttab_display.so()(64bit) \
 libtrack_display.so()(64bit)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/awk \

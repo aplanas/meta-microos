@@ -9,6 +9,7 @@ RPM_HASH = "25aabba04ae6202919fac513c704dac74f7b6623dc37a073c30a37ed1c40f0eaff54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-verbments-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

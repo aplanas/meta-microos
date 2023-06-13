@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "libluajit-devel \
 luajit-devel \
 luajit-devel(aarch-64) \
 pkgconfig(luajit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 luajit \
 luajit-5_1-2"

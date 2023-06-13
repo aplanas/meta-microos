@@ -17,6 +17,7 @@ RPM_HASH = "8b2107a08eb14307791c7a101b5cf7e3795f91552980540c8f9c672937cbc0b8cc23
 
 RPROVIDES:${PN} += "reveng \
 reveng(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit)"

@@ -18,6 +18,7 @@ python311-jupyter_notebook-latex \
 python311-notebook-latex \
 python39-jupyter_notebook-latex \
 python39-notebook-latex"
+
 RDEPENDS:${PN} += "jupyter-nbconvert-latex \
 jupyter-notebook"
 

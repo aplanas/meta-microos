@@ -10,6 +10,7 @@ RPM_HASH = "c58d1d0ac3e8e8995031f84ec22547d7e9df04c13d2574f3bb59a7b115aeffaa41b1
 
 RPROVIDES:${PN} += "ptscotch-parmetis-mvapich2-devel \
 ptscotch-parmetis-mvapich2-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libptscotch0-mvapich2 \
 ptscotch-mvapich2-devel"
 

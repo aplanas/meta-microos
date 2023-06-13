@@ -12,6 +12,7 @@ RPM_HASH = "9744bdb9941e97b20c2e214e2ecce6c318537d4def392c3c8c4cd117e410b40d58d3
 
 RPROVIDES:${PN} += "primesieve \
 primesieve(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

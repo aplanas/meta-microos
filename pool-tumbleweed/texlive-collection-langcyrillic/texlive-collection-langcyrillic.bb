@@ -10,6 +10,7 @@ RPM_HASH = "de4eb9872df6c96df52f6fc46bc2bd84fd4604259ce198cd11124b1a66738590cdb7
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-langcyrillic"
+
 RDEPENDS:${PN} += "texlive-babel-belarusian \
 texlive-babel-bulgarian \
 texlive-babel-russian \

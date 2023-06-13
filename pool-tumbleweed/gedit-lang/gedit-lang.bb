@@ -96,6 +96,7 @@ locale(gedit:wa) \
 locale(gedit:zh_CN) \
 locale(gedit:zh_HK) \
 locale(gedit:zh_TW)"
+
 RDEPENDS:${PN} += "gedit"
 
 inherit rpm

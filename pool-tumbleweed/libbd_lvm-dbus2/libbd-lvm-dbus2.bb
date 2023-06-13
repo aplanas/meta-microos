@@ -13,6 +13,7 @@ libbd_lvm-dbus.so.2()(64bit) \
 libbd_lvm-dbus2 \
 libbd_lvm-dbus2(aarch-64) \
 libblockdev-lvm-dbus"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

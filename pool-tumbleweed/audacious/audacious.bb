@@ -47,6 +47,7 @@ mimehandler(audio/x-wav) \
 mimehandler(audio/x-wavpack) \
 mimehandler(audio/x-xm) \
 mimehandler(x-content/audio-cdda)"
+
 RDEPENDS:${PN} += "audacious-plugins(aarch-64) \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

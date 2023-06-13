@@ -9,6 +9,7 @@ RPM_HASH = "bee27bca7daabf4719b790533e62d472b9306a6c5729164c6011c9c95fa50d98129e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-symbats3-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(scalerel.sty) \
 texlive-scalerel"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

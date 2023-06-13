@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rspec-its) \
 rubygem(ruby:3.2.0:rspec-its:1) \
 rubygem(ruby:3.2.0:rspec-its:1.3) \
 rubygem(ruby:3.2.0:rspec-its:1.3.0)"
+
 RDEPENDS:${PN} += "/bin/bash \
 ruby(abi) \
 rubygem(ruby:3.2.0:rspec-core) \

@@ -11,6 +11,7 @@ RPM_HASH = "aa83bf776df4c5a999cfa28dabfe7481dcd4d57580fde3e66033511c7c93888ffb1b
 RPROVIDES:${PN} += "config(libtirpc-netconfig) \
 libtirpc-netconfig \
 libtirpc-netconfig(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

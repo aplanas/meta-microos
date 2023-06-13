@@ -9,6 +9,7 @@ RPM_HASH = "60b108b74aed1cc1068cf426c9b6b6f5fc1d307550dfee0a2f0dcda34e9551ddd2e5
 
 RPROVIDES:${PN} += "texlive-texware-bin \
 texlive-texware-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

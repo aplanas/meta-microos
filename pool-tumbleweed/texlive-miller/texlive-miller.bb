@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(miller.sty) \
 texlive-miller"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

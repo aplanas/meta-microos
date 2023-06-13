@@ -13,6 +13,7 @@ RPM_HASH = "596ec8257f4af4b50ec40b7b5c58a37a6b8676b0322848a97817262f8e6162670901
 RPROVIDES:${PN} += "typelib(Xkl) \
 typelib-1_0-Xkl-1_0 \
 typelib-1_0-Xkl-1_0(aarch-64)"
+
 RDEPENDS:${PN} += "libxklavier.so.16()(64bit) \
 typelib(GLib) \
 typelib(GObject) \

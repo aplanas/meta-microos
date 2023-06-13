@@ -11,6 +11,7 @@ RPM_HASH = "b15bdcbb09c7416d203862a150a231415e76877d702957f691992ac396a8a87839f6
 
 RPROVIDES:${PN} += "gutenprint-gimpplugin \
 gutenprint-gimpplugin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

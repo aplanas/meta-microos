@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(django-contrib-comments) \
 python311-django-contrib-comments \
 python3dist(django-contrib-comments)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-Django"
 

@@ -9,6 +9,7 @@ RPM_HASH = "4dd5fa8be8ffe75ea8813487851b2e08af825fc49718cf17cb124d8d7b2b6d48d0d1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-k8s-yaml"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

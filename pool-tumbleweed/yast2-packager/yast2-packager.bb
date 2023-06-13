@@ -20,6 +20,7 @@ mimehandler(application/x-redhat-package-manager) \
 mimehandler(application/x-rpm) \
 yast2-packager \
 yast2-packager(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/md5sum \
 /usr/bin/perl \

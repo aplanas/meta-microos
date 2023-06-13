@@ -13,6 +13,7 @@ RPM_HASH = "8704e8816086b44ab94475dd7564ebb42952dd2b7ff9424ac8f4e9ea3f4bc15b0fc0
 RPROVIDES:${PN} += "atlascpp-devel \
 atlascpp-devel(aarch-64) \
 pkgconfig(atlascpp-0.6)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

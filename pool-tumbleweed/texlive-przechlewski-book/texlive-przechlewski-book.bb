@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(upmgr.cls) \
 tex(wkmgr.cls) \
 texlive-przechlewski-book"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

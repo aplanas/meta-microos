@@ -12,6 +12,7 @@ RPM_HASH = "644ff6e87390f6b9649f0d29b80b44d724f878820d6429304c5c577d7d7e1b88b5db
 
 RPROVIDES:${PN} += "atril-thumbnailer \
 atril-thumbnailer(aarch-64)"
+
 RDEPENDS:${PN} += "atril \
 caja"
 

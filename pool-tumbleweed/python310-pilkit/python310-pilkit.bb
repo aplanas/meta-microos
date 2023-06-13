@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-pilkit \
 python3.10dist(pilkit) \
 python310-pilkit \
 python3dist(pilkit)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

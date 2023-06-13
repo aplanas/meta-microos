@@ -15,6 +15,7 @@ libpolkit-qt5-1-1(aarch-64) \
 libpolkit-qt5-agent-1.so.1()(64bit) \
 libpolkit-qt5-core-1.so.1()(64bit) \
 libpolkit-qt5-gui-1.so.1()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

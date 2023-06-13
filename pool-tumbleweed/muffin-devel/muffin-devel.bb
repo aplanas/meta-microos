@@ -19,6 +19,7 @@ pkgconfig(muffin-cogl-0) \
 pkgconfig(muffin-cogl-pango-0) \
 pkgconfig(muffin-cogl-path-0) \
 pkgconfig(muffin-plugins)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

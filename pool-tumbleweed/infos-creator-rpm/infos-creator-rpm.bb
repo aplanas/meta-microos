@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "infos-creator-rpm \
 kiwi_post_run"
+
 RDEPENDS:${PN} += "/bin/sh \
 qemu-tools \
 xz"

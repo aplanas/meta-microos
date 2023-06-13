@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(google-cloud-kms) \
 python311-google-cloud-kms \
 python3dist(google-cloud-kms)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-google-api-core \
 python311-grpc-google-iam-v1 \

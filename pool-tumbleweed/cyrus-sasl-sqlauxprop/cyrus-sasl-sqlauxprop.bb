@@ -10,6 +10,7 @@ RPM_HASH = "7183c756980ace6dd167c3653fc50dfd2585e671131c60d0a0b3d1b191e274e480af
 RPROVIDES:${PN} += "cyrus-sasl-sqlauxprop \
 cyrus-sasl-sqlauxprop(aarch-64) \
 libsql.so.3()(64bit)"
+
 RDEPENDS:${PN} += "cyrus-sasl \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

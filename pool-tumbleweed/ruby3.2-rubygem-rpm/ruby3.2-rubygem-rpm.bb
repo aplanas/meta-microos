@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:rpm) \
 rubygem(ruby:3.2.0:rpm:0) \
 rubygem(ruby:3.2.0:rpm:0.0) \
 rubygem(ruby:3.2.0:rpm:0.0.5)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:ffi)"
 

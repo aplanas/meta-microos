@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(catechis.sty) \
 texlive-catechis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

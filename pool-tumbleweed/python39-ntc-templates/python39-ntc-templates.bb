@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(ntc-templates) \
 python39-ntc-templates \
 python3dist(ntc-templates)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-textfsm"
 

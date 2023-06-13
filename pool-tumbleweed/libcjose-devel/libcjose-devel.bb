@@ -10,6 +10,7 @@ RPM_HASH = "90545f832ca9668454422e638f54ee7e010f67f00e68a50c9a74983542ea12a0b7b2
 RPROVIDES:${PN} += "libcjose-devel \
 libcjose-devel(aarch-64) \
 pkgconfig(cjose)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcjose0 \
 pkgconfig(jansson) \

@@ -52,6 +52,7 @@ locale(compiz:tr) \
 locale(compiz:uk) \
 locale(compiz:zh_CN) \
 locale(compiz:zh_TW)"
+
 RDEPENDS:${PN} += "compiz"
 
 inherit rpm

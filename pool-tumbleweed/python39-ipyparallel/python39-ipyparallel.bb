@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(ipyparallel) \
 python39-ipyparallel \
 python39-jupyter_ipyparallel \
 python3dist(ipyparallel)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

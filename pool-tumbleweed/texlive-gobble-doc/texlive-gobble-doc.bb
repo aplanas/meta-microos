@@ -9,6 +9,7 @@ RPM_HASH = "f3e118c362b2de78ee33ed6403da200085cd0ea0e6592a82db6d282736f394fe17a9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gobble-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

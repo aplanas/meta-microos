@@ -18,6 +18,7 @@ mvn(commons-jxpath:commons-jxpath:pom:) \
 mvn(org.apache.commons:commons-jxpath) \
 mvn(org.apache.commons:commons-jxpath:pom:) \
 osgi(org.apache.commons.jxpath)"
+
 RDEPENDS:${PN} += "java \
 java-headless \
 javapackages-filesystem \

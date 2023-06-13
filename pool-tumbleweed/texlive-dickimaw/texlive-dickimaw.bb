@@ -19,6 +19,7 @@ RPM_HASH = "d730da17691647ea53d821e0d313d67638cc9f385bfdb372040423831392c09664a1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dickimaw"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

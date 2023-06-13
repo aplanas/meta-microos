@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(rrgtrees.sty) \
 texlive-rrgtrees"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

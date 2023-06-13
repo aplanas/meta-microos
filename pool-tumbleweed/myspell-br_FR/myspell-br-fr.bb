@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:br_FR) \
 myspell-br_FR \
 myspell-breton \
 myspell-dictionary"
+
 RDEPENDS:${PN} += "myspell-dictionaries"
 
 inherit rpm

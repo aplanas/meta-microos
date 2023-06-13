@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(romanbar.sty) \
 texlive-romanbar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

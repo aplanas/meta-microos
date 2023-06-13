@@ -19,6 +19,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(colorpalette.sty) \
 tex(symbolpalette.sty) \
 texlive-palette"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

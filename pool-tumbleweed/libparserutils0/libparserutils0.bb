@@ -11,6 +11,7 @@ RPM_HASH = "b380b21aa6dae41f3b576508b6db5f118a5b3e1fa3ff397e2bf9d059f067ca9e1150
 RPROVIDES:${PN} += "libparserutils.so.0()(64bit) \
 libparserutils0 \
 libparserutils0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

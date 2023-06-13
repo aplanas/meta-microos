@@ -20,6 +20,7 @@ tex(plimsoll.map) \
 tex(plimsoll.sty) \
 tex(plimsoll.tfm) \
 texlive-plimsoll"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

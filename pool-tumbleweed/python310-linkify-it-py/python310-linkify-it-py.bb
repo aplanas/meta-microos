@@ -17,6 +17,7 @@ RPROVIDES:${PN} += "python3-linkify-it-py \
 python3.10dist(linkify-it-py) \
 python310-linkify-it-py \
 python3dist(linkify-it-py)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-uc-micro-py"
 

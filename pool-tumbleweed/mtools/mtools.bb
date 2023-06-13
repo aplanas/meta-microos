@@ -14,6 +14,7 @@ RPM_HASH = "a7aaf5c967df31aae435a891a41440942882417181a23faba0675ad22d0600e51bd1
 RPROVIDES:${PN} += "config(mtools) \
 mtools \
 mtools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 glibc-locale-base \
 ld-linux-aarch64.so.1()(64bit) \

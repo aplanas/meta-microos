@@ -19,6 +19,7 @@ commons-dbcp \
 jakarta-commons-dbcp \
 mvn(commons-dbcp:commons-dbcp) \
 mvn(commons-dbcp:commons-dbcp:pom:)"
+
 RDEPENDS:${PN} += "commons-collections \
 commons-pool \
 java-headless \

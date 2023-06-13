@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "SDL2_gfx-devel \
 libSDL2_gfx-devel \
 libSDL2_gfx-devel(aarch-64) \
 pkgconfig(SDL2_gfx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libSDL2_gfx-1_0-0 \
 pkgconfig(sdl2)"

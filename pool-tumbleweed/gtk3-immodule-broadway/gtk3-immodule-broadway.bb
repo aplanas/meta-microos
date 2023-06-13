@@ -13,6 +13,7 @@ RPM_HASH = "f2b3e94a79e177f88d1ba863c140ca183782a151f7990b00c3407c9b500baec70c8c
 
 RPROVIDES:${PN} += "gtk3-immodule-broadway \
 gtk3-immodule-broadway(aarch-64)"
+
 RDEPENDS:${PN} += "gtk3 \
 gtk3-tools \
 ld-linux-aarch64.so.1()(64bit) \

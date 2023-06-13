@@ -12,6 +12,7 @@ RPM_HASH = "7a2a6401d78262273faa05eeac2d8aaa05cd6bdc0205096f471ef8b25feb3ae9cc0f
 
 RPROVIDES:${PN} += "accountsservice-vala \
 accountsservice-vala(aarch-64)"
+
 RDEPENDS:${PN} += "libaccountsservice0 \
 typelib-1_0-AccountsService-1_0"
 

@@ -10,6 +10,7 @@ RPM_HASH = "247030242af6021b94cd918b12f90ca2e49a50fb18574f175bd0c3f7d65e534a8d79
 
 RPROVIDES:${PN} += "clpeak \
 clpeak(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libOpenCL.so.1()(64bit) \

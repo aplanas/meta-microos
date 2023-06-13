@@ -21,6 +21,7 @@ RPM_HASH = "4ac2322d57af96b1929c78cfb99585aa03cab2beed17d58622ca43d9e822e58a04cb
 RPROVIDES:${PN} += "iproxy \
 libusbmuxd-tools \
 libusbmuxd-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

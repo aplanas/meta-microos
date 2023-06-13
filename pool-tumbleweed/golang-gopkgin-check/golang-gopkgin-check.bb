@@ -13,6 +13,7 @@ RPM_HASH = "ab753e4f575eec854ed6a06a2885c88cef289dd28247246cefec78ef6ceed3a4b6ab
 
 RPROVIDES:${PN} += "golang-gopkgin-check \
 golang-gopkgin-check(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

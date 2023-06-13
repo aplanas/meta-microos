@@ -11,6 +11,7 @@ RPM_HASH = "a07f7d6564e3d082f3ac7b40af677ac35e875bcf9db9ed211726f114f241d8dd7d0a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-theme-matcha"
+
 RDEPENDS:${PN} += "gnome-shell \
 metatheme-matcha-common"
 

@@ -10,6 +10,7 @@ RPM_HASH = "87b418892b198a89ddaf1f3ddea454a3a4fa1023e01b12e6148115d88e51a92d98ae
 RPROVIDES:${PN} += "ghc-githash \
 ghc-githash(aarch-64) \
 libHSgithash-0.1.6.3-FrkvdbOWDB4772dnMETpxS-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSbytestring-0.11.4.0-ghc9.4.5.so()(64bit) \

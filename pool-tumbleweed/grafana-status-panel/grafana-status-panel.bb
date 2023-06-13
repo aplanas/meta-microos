@@ -16,6 +16,7 @@ RPM_HASH = "2c204e0398cd5e27ea4c760bffc7b8ac5674e3ce14a72830c0e97bcf51fae7ea1646
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grafana-status-panel"
+
 RDEPENDS:${PN} += "grafana"
 
 inherit rpm

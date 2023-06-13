@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "perl(Business::ISBN) \
 perl(Business::ISBN10) \
 perl(Business::ISBN13) \
 perl-Business-ISBN"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Business::ISBN::Data)"
 

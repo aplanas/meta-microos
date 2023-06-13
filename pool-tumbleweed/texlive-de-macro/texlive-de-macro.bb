@@ -15,6 +15,7 @@ RPM_HASH = "90be85b3a9d078542627d67b860801b4ee1f920fa84bac62bbd8ba5146b9e4194aa9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-de-macro"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 coreutils \

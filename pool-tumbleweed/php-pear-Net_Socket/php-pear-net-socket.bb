@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "php-pear(Net_Socket) \
 php-pear-Net_Socket \
 php5-pear-Net_Socket \
 php7-pear-Net_Socket"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-pear"
 

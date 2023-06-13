@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-QtPy-test \
 python310-QtPy-test"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-QtPy"
 

@@ -9,6 +9,7 @@ RPM_HASH = "7866cc53d0a7c3f340065d4a6b9f97b381b4d12247c0390a27b82f700ff0f0a9af50
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mac-devel"
+
 RDEPENDS:${PN} += "mac"
 
 inherit rpm

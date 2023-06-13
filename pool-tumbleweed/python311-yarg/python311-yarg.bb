@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(yarg) \
 python311-yarg \
 python3dist(yarg)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-requests"
 

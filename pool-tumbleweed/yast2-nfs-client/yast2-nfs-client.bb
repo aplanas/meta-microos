@@ -18,6 +18,7 @@ yast2-config-nfs \
 yast2-config-nfs-devel \
 yast2-nfs-client \
 yast2-trans-nfs"
+
 RDEPENDS:${PN} += "/usr/bin/killall \
 yast2 \
 yast2-nfs-common \

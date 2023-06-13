@@ -9,6 +9,7 @@ RPM_HASH = "d66933248ae787112572b5de2546b1e91c530692a858c24d808088dea7bd2317be80
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quran-ur-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

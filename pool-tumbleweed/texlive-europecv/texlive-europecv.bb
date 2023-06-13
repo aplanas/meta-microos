@@ -44,6 +44,7 @@ tex(ecvsr.def) \
 tex(ecvsv.def) \
 tex(europecv.cls) \
 texlive-europecv"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "48b534afb8213a5aa37158d4b1374401a6c3e2332172d6a406f2e230dccb06ab9e23
 
 RPROVIDES:${PN} += "giac-devel \
 giac-devel(aarch-64)"
+
 RDEPENDS:${PN} += "fltk-devel \
 libgiac0 \
 mpfi-devel \

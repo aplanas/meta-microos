@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-XStatic-Angular-Schema-Form \
 python3.10dist(xstatic-angular-schema-form) \
 python310-XStatic-Angular-Schema-Form \
 python3dist(xstatic-angular-schema-form)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

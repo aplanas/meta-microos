@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-plotly \
 python3.10dist(plotly) \
 python310-plotly \
 python3dist(plotly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-tenacity"
 

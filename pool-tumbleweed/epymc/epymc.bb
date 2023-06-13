@@ -124,6 +124,7 @@ mimehandler(x-content/video-svcd) \
 mimehandler(x-content/video-vcd) \
 python3.10dist(epymc) \
 python3dist(epymc)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/python3 \
 python(abi) \

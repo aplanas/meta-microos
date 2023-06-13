@@ -13,6 +13,7 @@ RPM_HASH = "9594f824d4e9fbc86903171438cc4a6ac352f7b3178f1fbc5d51b5c3f7cf9b006b30
 
 RPROVIDES:${PN} += "fusesmb \
 fusesmb(aarch-64)"
+
 RDEPENDS:${PN} += "fuse \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

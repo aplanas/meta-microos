@@ -12,6 +12,7 @@ RPM_HASH = "22b6d992a874b601552ecc5ee1018680cca06b73a41c343ee0346a2d6859b41fca0a
 
 RPROVIDES:${PN} += "mapserver \
 mapserver(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -22,6 +22,7 @@ libsoup-2_4-1 \
 libsoup-2_4-1(aarch-64) \
 libsoup-gnome-2.4.so.1()(64bit) \
 libsoup2"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 glib-networking \
 ld-linux-aarch64.so.1()(64bit) \

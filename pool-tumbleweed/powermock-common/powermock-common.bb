@@ -16,6 +16,7 @@ RPM_HASH = "c09463cfbbd5538631b8e56e11ff5fac416dd860ed9c67e3590ec2b38c6f3769be2e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "powermock-common"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

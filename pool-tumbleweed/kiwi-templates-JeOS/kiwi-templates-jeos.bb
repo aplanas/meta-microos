@@ -11,6 +11,7 @@ RPM_HASH = "ac0f8cd17e7eccdfd6bcf5631cab6a957811ac743bc16b1d6565977ea09a1a45596f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiwi-templates-JeOS"
+
 RDEPENDS:${PN} += "python3-kiwi"
 
 inherit rpm

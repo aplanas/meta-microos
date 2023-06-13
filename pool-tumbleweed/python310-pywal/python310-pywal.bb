@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pywal \
 python3.10dist(pywal) \
 python310-pywal \
 python3dist(pywal)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi)"

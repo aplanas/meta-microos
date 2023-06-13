@@ -16,6 +16,7 @@ RPM_HASH = "b2d01bd75c28c6db4bd72a2b0653ce59d5a703416d984ac083714b7a8719e2808d77
 
 RPROVIDES:${PN} += "fcitx-pylogger \
 fcitx-pylogger(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 fcitx \
 libc.so.6(GLIBC_2.17)(64bit)"

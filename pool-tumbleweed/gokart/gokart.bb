@@ -16,6 +16,7 @@ RPM_HASH = "c24159ed14e17ebc15e1e0bae256178d8ab0cb2b9bd26302dc4818fc204feb1879f9
 
 RPROVIDES:${PN} += "gokart \
 gokart(aarch-64)"
+
 RDEPENDS:${PN} += "go \
 libc.so.6(GLIBC_2.34)(64bit)"
 

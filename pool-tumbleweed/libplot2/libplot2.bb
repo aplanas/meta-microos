@@ -16,6 +16,7 @@ RPM_HASH = "921266fc07f8da568b7c93cddc9423535cf903c6471f392468ac540d974cf478d80b
 RPROVIDES:${PN} += "libplot.so.2()(64bit) \
 libplot2 \
 libplot2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

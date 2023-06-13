@@ -10,6 +10,7 @@ RPM_HASH = "f505c137ea7610d13fe890badc64a69f4bf7c802b72799e75249a5c61ed700596c88
 RPROVIDES:${PN} += "ghc-prof(xss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW) \
 ghc-xss-sanitize-prof \
 ghc-xss-sanitize-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3) \
 ghc-prof(base-4.17.1.0) \
 ghc-prof(containers-0.6.7) \

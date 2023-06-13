@@ -9,6 +9,7 @@ RPM_HASH = "813f98be8ad4608bf5e0e4cd4ef7154c2a0fb6b5c1384a20b4df682bd083ac133224
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mluexercise-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

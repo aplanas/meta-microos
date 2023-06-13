@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(apreambl.tex) \
 texlive-abstyles"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

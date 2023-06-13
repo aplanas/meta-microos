@@ -31,6 +31,7 @@ perl(Data::Dump::Trace) \
 perl(Data::Dump::Trace::Call) \
 perl(Data::Dump::Trace::Wrapper) \
 perl-Data-Dump"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0)"
 
 inherit rpm

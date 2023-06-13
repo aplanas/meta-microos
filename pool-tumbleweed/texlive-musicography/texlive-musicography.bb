@@ -17,6 +17,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(musicography.sty) \
 texlive-musicography"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

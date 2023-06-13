@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:mini_mime) \
 rubygem(ruby:3.2.0:mini_mime:1) \
 rubygem(ruby:3.2.0:mini_mime:1.1) \
 rubygem(ruby:3.2.0:mini_mime:1.1.2)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/ruby.ruby3.2 \
 ruby(abi)"

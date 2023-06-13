@@ -25,6 +25,7 @@ libpdal_plugin_kernel_fauxplugin.so.13()(64bit) \
 libpdal_plugin_reader_pgpointcloud.so.13()(64bit) \
 libpdal_plugin_writer_pgpointcloud.so.13()(64bit) \
 libpdal_util.so.13()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

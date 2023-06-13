@@ -9,6 +9,7 @@ RPM_HASH = "ad55c1726d90ff4284be88e089ce49d22962e3c124b4c9ecc841f2a057cdd2e74279
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

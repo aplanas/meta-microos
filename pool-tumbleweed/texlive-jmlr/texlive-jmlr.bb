@@ -19,6 +19,7 @@ RPROVIDES:${PN} += "tex(jmlr.cls) \
 tex(jmlrbook.cls) \
 tex(jmlrutils.sty) \
 texlive-jmlr"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

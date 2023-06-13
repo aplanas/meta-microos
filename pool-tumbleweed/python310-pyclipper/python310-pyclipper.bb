@@ -18,6 +18,7 @@ python3.10dist(pyclipper) \
 python310-pyclipper \
 python310-pyclipper(aarch-64) \
 python3dist(pyclipper)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

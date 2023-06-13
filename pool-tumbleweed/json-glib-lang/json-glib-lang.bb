@@ -65,6 +65,7 @@ locale(json-glib:vi) \
 locale(json-glib:zh_CN) \
 locale(json-glib:zh_HK) \
 locale(json-glib:zh_TW)"
+
 RDEPENDS:${PN} += "json-glib"
 
 inherit rpm

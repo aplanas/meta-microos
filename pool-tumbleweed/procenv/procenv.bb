@@ -11,6 +11,7 @@ RPM_HASH = "963ce8cdd9f9cb78d3f0f2f5be526322ed175652ab16160fa834226d71607c1b9d28
 
 RPROVIDES:${PN} += "procenv \
 procenv(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

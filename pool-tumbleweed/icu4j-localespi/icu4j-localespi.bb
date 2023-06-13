@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "icu4j-localespi \
 mvn(com.ibm.icu:icu4j-localespi) \
 mvn(com.ibm.icu:icu4j-localespi:pom:) \
 osgi(com.ibm.icu.localespi)"
+
 RDEPENDS:${PN} += "icu4j \
 java-headless \
 javapackages-filesystem \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "argus-server \
 argus-server(aarch-64) \
 argus:/usr/sbin/argus \
 config(argus-server)"
+
 RDEPENDS:${PN} += "/bin/sh \
 argus \
 ld-linux-aarch64.so.1()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(cpdparse.sty) \
 tex(diagram.sty) \
 texlive-chess-problem-diagrams"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

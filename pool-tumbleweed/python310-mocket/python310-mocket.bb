@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-mocket \
 python3.10dist(mocket) \
 python310-mocket \
 python3dist(mocket)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-decorator \
 python310-httptools \

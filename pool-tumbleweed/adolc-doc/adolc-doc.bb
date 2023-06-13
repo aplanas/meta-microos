@@ -9,6 +9,7 @@ RPM_HASH = "64bca7a4a7148efbe568907af9b87fea129166f32f054ec72cd458510fc3606853de
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adolc-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

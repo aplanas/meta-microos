@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-templates \
 jupyter-jupyterlab_templates"
+
 RDEPENDS:${PN} += "jupyter-jupyterlab \
 python3dist(jupyterlab-templates)"
 

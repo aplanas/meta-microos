@@ -22,6 +22,7 @@ RPROVIDES:${PN} += "python3-alembic \
 python3.10dist(alembic) \
 python310-alembic \
 python3dist(alembic)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

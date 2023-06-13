@@ -62,6 +62,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl(Dist::CheckConflicts) \
 perl-Dist-CheckConflicts"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Module::Runtime)"
 

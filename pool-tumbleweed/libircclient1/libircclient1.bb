@@ -10,6 +10,7 @@ RPM_HASH = "331d88090d9a1571421c5fd9dd5930e0707a0299483ea5203cbd0b624dc668ab04ea
 RPROVIDES:${PN} += "libircclient.so.1()(64bit) \
 libircclient1 \
 libircclient1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

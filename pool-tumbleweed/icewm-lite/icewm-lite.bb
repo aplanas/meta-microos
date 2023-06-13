@@ -14,6 +14,7 @@ RPM_HASH = "a87e1c4897378e3e06646cb58677dbfdbad4edd4487b0ac156db54bf50cc09740952
 RPROVIDES:${PN} += "icewm-bin \
 icewm-lite \
 icewm-lite(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 icewm \
 ld-linux-aarch64.so.1()(64bit) \

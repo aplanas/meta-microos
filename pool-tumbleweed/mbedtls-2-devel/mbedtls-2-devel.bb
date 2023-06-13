@@ -12,6 +12,7 @@ RPM_HASH = "e3ff81233d6f8eb3e800ba67a6550418cba5745b94d8002bccd38e35a58486941e6c
 RPROVIDES:${PN} += "mbedtls-2-devel \
 mbedtls-2-devel(aarch-64) \
 mbedtls-devel"
+
 RDEPENDS:${PN} += "libmbedcrypto7 \
 libmbedtls14 \
 libmbedx509-1"

@@ -14,6 +14,7 @@ pkgconfig(libfreeipmi) \
 pkgconfig(libipmiconsole) \
 pkgconfig(libipmidetect) \
 pkgconfig(libipmimonitoring)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 freeipmi \
 libfreeipmi17 \

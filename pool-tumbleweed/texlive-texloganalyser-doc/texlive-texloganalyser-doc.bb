@@ -9,6 +9,7 @@ RPM_HASH = "ec3e3e67fb0c1861a44731aa049334f4e200683ea2a0b90495ad8c87819e0351acc2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texloganalyser-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

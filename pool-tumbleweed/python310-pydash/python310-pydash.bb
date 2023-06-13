@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-pydash \
 python3.10dist(pydash) \
 python310-pydash \
 python3dist(pydash)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

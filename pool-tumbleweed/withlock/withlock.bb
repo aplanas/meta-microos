@@ -15,6 +15,7 @@ RPM_HASH = "1d4382dbb672b9af5f900a8322582189775f1d0e8e36d518c309689523b6cc8644fe
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "withlock"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3"
 

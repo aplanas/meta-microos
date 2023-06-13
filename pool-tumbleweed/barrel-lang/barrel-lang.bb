@@ -22,6 +22,7 @@ locale(barrel:mk) \
 locale(barrel:pt_BR) \
 locale(barrel:zh_CN) \
 locale(barrel:zh_TW)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

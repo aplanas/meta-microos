@@ -106,6 +106,7 @@ mvn(org.herac.tuxguitar:tuxguitar-viewer:pom:) \
 mvn(org.herac.tuxguitar:tuxguitar:pom:) \
 tuxguitar \
 tuxguitar(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 apache-commons-compress \
 eclipse-swt \

@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "lucene-grouping \
 mvn(org.apache.lucene:lucene-grouping) \
 mvn(org.apache.lucene:lucene-grouping:pom:) \
 osgi(org.apache.lucene.grouping)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.lucene:lucene-core) \

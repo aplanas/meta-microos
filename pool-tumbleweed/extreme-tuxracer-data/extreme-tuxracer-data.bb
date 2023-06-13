@@ -9,6 +9,7 @@ RPM_HASH = "6e2d46e6e3e48a04d2d8f45ec79960c82142a83b525a888118df873b2867f6ca6d73
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extreme-tuxracer-data"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

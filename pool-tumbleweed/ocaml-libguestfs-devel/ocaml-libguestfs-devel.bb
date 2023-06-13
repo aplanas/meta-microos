@@ -10,6 +10,7 @@ RPM_HASH = "b6739ac00b3bba30f87ff12462dd8ff6d9415166a3d14428abcfa3c32b7152626238
 
 RPROVIDES:${PN} += "ocaml-libguestfs-devel \
 ocaml-libguestfs-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ocaml-libguestfs"
 
 inherit rpm

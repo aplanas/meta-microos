@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(aligned-overset.sty) \
 texlive-aligned-overset"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

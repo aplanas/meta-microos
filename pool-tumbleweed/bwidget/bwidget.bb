@@ -15,6 +15,7 @@ RPM_HASH = "02be3e4818b81ebaedc1a67ec278f1757cb76897f070e6cf32b27fc8c8cca0e57ffd
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bwidget"
+
 RDEPENDS:${PN} += "tk"
 
 inherit rpm

@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:jquery-rails) \
 rubygem(ruby:3.2.0:jquery-rails:4) \
 rubygem(ruby:3.2.0:jquery-rails:4.5) \
 rubygem(ruby:3.2.0:jquery-rails:4.5.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:rails-dom-testing) \
 rubygem(ruby:3.2.0:railties) \

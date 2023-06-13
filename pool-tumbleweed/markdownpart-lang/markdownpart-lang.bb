@@ -44,6 +44,7 @@ locale(markdownpart:zh_CN) \
 locale(markdownpart:zh_TW) \
 markdownpart-lang \
 markdownpart-lang-all"
+
 RDEPENDS:${PN} += "markdownpart"
 
 inherit rpm

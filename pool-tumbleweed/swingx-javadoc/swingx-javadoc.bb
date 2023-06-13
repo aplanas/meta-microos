@@ -9,6 +9,7 @@ RPM_HASH = "65260e012a31c6fbfdcaa16c7eefa48edd8811c41534519f5e4d68aebf5263179fa6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swingx-javadoc"
+
 RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

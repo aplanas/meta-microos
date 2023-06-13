@@ -11,6 +11,7 @@ RPM_HASH = "5f83f8f3b6414370bd4b91ca663325926007c04cba7be6148731f926b6c9da00cc8c
 
 RPROVIDES:${PN} += "yaz \
 yaz(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

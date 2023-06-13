@@ -54,6 +54,7 @@ mimehandler(audio/x-ogg) \
 mimehandler(audio/x-vorbis) \
 mimehandler(audio/x-wav) \
 mimehandler(audio/xmf)"
+
 RDEPENDS:${PN} += "libKF5Codecs.so.5()(64bit) \
 libQt5Core.so.5()(64bit) \
 libQt5Core.so.5(Qt_5)(64bit) \

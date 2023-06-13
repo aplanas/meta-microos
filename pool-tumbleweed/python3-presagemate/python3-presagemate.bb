@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-presagemate \
 python3-presagemate"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-atspi \

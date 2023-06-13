@@ -10,6 +10,7 @@ RPM_HASH = "c89c68ad37aabd1179ba76b37b921b834fedfe42507cc0c3860439d7f1e77ea16b55
 RPROVIDES:${PN} += "chromium-uget-integrator \
 chromium-uget-integrator(aarch-64) \
 config(chromium-uget-integrator)"
+
 RDEPENDS:${PN} += "uget-integrator"
 
 inherit rpm

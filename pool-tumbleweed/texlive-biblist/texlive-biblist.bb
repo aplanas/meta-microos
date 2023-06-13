@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(biblist.sty) \
 texlive-biblist"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

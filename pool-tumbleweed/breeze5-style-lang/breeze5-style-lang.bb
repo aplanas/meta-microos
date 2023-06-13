@@ -61,6 +61,7 @@ locale(breeze5-style:tr) \
 locale(breeze5-style:uk) \
 locale(breeze5-style:zh_CN) \
 locale(breeze5-style:zh_TW)"
+
 RDEPENDS:${PN} += "breeze5-style"
 
 inherit rpm

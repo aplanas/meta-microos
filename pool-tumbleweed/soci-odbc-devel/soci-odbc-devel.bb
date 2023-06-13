@@ -15,6 +15,7 @@ RPM_HASH = "98cfd565bd77d5f731d48b662f65b47985ff4b29e66e039e5a60d34370d12d9b7aa5
 
 RPROVIDES:${PN} += "soci-odbc-devel \
 soci-odbc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libsoci_odbc4_0 \
 pkgconfig(odbc) \
 soci-devel"

@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(Mojolicious::Plugin::OAuth2) \
 perl(Mojolicious::Plugin::OAuth2::Mock) \
 perl-Mojolicious-Plugin-OAuth2"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(IO::Socket::SSL) \
 perl(Mojolicious)"

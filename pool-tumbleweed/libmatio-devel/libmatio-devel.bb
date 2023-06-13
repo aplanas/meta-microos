@@ -12,6 +12,7 @@ RPM_HASH = "7b199f9176f9882720ac1327efde6ea1c1acc6046bb0745c21c2613e072f77363d8a
 RPROVIDES:${PN} += "libmatio-devel \
 libmatio-devel(aarch-64) \
 pkgconfig(matio)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 hdf5-devel \
 libmatio11 \

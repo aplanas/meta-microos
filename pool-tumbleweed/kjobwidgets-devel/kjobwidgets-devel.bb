@@ -11,6 +11,7 @@ RPM_HASH = "19c34915a61d05c393d6642c9434148fdb600e8e0b11eb09b67f9ba64996ce8c1581
 RPROVIDES:${PN} += "cmake(KF5JobWidgets) \
 kjobwidgets-devel \
 kjobwidgets-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(KF5CoreAddons) \
 cmake(Qt5Widgets) \
 extra-cmake-modules \

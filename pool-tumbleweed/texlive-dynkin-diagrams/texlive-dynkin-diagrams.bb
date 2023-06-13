@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(dynkin-diagrams.sty) \
 texlive-dynkin-diagrams"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-yast-yast2_basis \
 patterns-yast-yast2_basis(aarch-64)"
+
 RDEPENDS:${PN} += "libyui-ncurses-pkg \
 yast2 \
 yast2-alternatives \

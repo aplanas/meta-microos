@@ -10,6 +10,7 @@ RPM_HASH = "429af9c092bda652e9ee8f2ea0673ba27efda9145d36c8087f49964e2558abbe1c82
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tei-roma"
+
 RDEPENDS:${PN} += "/bin/bash \
 /usr/bin/xsltproc \
 perl \

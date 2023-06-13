@@ -11,6 +11,7 @@ RPM_HASH = "450e363aa6c34fdbea4c558e9a472d5763d11dae6965cbea1643680ba5ea6cb66f44
 RPROVIDES:${PN} += "cmake(KF5PeopleVCard) \
 kpeoplevcard-devel \
 kpeoplevcard-devel(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

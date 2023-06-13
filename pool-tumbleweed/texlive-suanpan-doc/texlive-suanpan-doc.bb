@@ -9,6 +9,7 @@ RPM_HASH = "45ba3b0c92fb4b9b25bf3571007319b32bceed185a852f6e9bd6d0dfa36d2e48929c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-suanpan-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

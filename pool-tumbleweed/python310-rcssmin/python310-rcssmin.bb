@@ -23,6 +23,7 @@ python3.10dist(rcssmin) \
 python310-rcssmin \
 python310-rcssmin(aarch-64) \
 python3dist(rcssmin)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

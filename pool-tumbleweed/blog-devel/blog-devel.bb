@@ -10,6 +10,7 @@ RPM_HASH = "4dbb7063a644519851cec33fb5ac68869d013ca21edea0842c02dbc97c00dccb8d05
 
 RPROVIDES:${PN} += "blog-devel \
 blog-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libblogger2"
 
 inherit rpm

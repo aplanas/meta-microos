@@ -10,6 +10,7 @@ RPM_HASH = "ebc315230bd566169685b48aaad476d77b454ad2619b8a97ee86a6c751769877de54
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jisp2-javadoc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

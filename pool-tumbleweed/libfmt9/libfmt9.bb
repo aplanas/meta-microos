@@ -10,6 +10,7 @@ RPM_HASH = "b6ba4ecabb42cffc4dff68395a7237efd338b48c26362b273e9e1102343c2c81d7f1
 RPROVIDES:${PN} += "libfmt.so.9()(64bit) \
 libfmt9 \
 libfmt9(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

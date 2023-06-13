@@ -16,6 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pdfprivacy.sty) \
 texlive-pdfprivacy"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -12,6 +12,7 @@ RPM_HASH = "2533d13ddecefb0ae970598f4fe706dc449241b02cd05f7acc45f0ea769b63718f7a
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnitrokey-udev"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

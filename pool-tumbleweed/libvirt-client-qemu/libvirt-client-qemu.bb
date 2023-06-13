@@ -10,6 +10,7 @@ RPM_HASH = "361685acfaa8ee3c4de4203b8afb09f58364b32fcd9a5910915b9486e802a24bad53
 
 RPROVIDES:${PN} += "libvirt-client-qemu \
 libvirt-client-qemu(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 libvirt-libs \
 python3-libvirt-python"

@@ -10,6 +10,7 @@ RPM_HASH = "f5330a66d31c18f841e3aa33b036b55d08ebb91d63ecde4894f0a5ef9c534ff66fa6
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solo-udev"
+
 RDEPENDS:${PN} += "udev"
 
 inherit rpm

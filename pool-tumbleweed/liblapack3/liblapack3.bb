@@ -18,6 +18,7 @@ RPM_HASH = "4eb49d6854746a03bfbe2b1a4900a2b4aae005b378f0536ec872930c06a91039dd42
 RPROVIDES:${PN} += "liblapack.so.3()(64bit) \
 liblapack3 \
 liblapack3(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

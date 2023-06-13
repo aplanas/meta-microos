@@ -60,6 +60,7 @@ locale(kajongg:ug) \
 locale(kajongg:uk) \
 locale(kajongg:zh_CN) \
 locale(kajongg:zh_TW)"
+
 RDEPENDS:${PN} += "kajongg"
 
 inherit rpm

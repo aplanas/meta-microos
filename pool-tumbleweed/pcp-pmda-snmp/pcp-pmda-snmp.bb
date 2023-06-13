@@ -10,6 +10,7 @@ RPM_HASH = "7a7215a02367e24fca2cb6f60547a7137e80470a89344ed0c4f60513bb37440402a9
 
 RPROVIDES:${PN} += "pcp-pmda-snmp \
 pcp-pmda-snmp(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 perl(Net::SNMP) \
 perl-PCP-PMDA"

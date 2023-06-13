@@ -9,6 +9,7 @@ RPM_HASH = "fd98cb085e540de65cf60f0c4c23e0759e0e3636435660bac51ef8d2ac9a9e1fd16d
 
 RPROVIDES:${PN} += "AppCSXCAD \
 AppCSXCAD(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 libCSXCAD.so.0()(64bit) \
 libQCSXCAD.so.0()(64bit) \

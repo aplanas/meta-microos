@@ -12,6 +12,7 @@ RPM_HASH = "22a9e4ff6708d5b7e9dd9a64a3cae500e3f2255394e90f8ace316400b76fbf501d00
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-devamarathi-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

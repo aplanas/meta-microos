@@ -73,6 +73,7 @@ locale(kturtle:ug) \
 locale(kturtle:uk) \
 locale(kturtle:zh_CN) \
 locale(kturtle:zh_TW)"
+
 RDEPENDS:${PN} += "kturtle"
 
 inherit rpm

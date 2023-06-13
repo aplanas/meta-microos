@@ -10,6 +10,7 @@ RPM_HASH = "b255501112ee263f7a9c833262e2bb4735c2017e818de49e9940aa513c8d142ae6af
 RPROVIDES:${PN} += "libgtkd-3-0 \
 libgtkd-3-0(aarch-64) \
 libgtkd-3.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libdruntime-ldc-shared.so.102()(64bit) \

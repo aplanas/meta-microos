@@ -14,6 +14,7 @@ RPM_HASH = "ed06539a176e560369ae34098e1cdd3014305b1164e55bcb243b4eaf8d7fe2cce41e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keychain"
+
 RDEPENDS:${PN} += "/bin/sh \
 bash \
 coreutils \

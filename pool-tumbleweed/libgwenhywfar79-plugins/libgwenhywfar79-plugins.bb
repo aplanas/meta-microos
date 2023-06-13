@@ -13,6 +13,7 @@ RPM_HASH = "a1d8ffb2197eadab6f010772e41162ceb463ca987b5695419838fbdf06736b3202f4
 
 RPROVIDES:${PN} += "libgwenhywfar79-plugins \
 libgwenhywfar79-plugins(aarch-64)"
+
 RDEPENDS:${PN} += "gwenhywfar \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

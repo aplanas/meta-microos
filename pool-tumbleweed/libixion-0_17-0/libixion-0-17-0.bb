@@ -11,6 +11,7 @@ RPM_HASH = "241ef9e2e0690ad153115612d5e355edd38001d0865b447aabc4f9241b202d8498ea
 RPROVIDES:${PN} += "libixion-0.17.so.0()(64bit) \
 libixion-0_17-0 \
 libixion-0_17-0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

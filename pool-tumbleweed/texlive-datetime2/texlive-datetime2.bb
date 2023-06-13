@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(datetime2-calc.sty) \
 tex(datetime2.sty) \
 texlive-datetime2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

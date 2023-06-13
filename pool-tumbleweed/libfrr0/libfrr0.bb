@@ -11,6 +11,7 @@ RPM_HASH = "f6da0d22bbdbc3e02eaf3aabcf090fa7041a7fe2a7c29c1a385071bb4bcc752d8d83
 RPROVIDES:${PN} += "libfrr.so.0()(64bit) \
 libfrr0 \
 libfrr0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6(GLIBC_2.34)(64bit) \
 libcap.so.2()(64bit) \

@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-pathspec \
 python3.10dist(pathspec) \
 python310-pathspec \
 python3dist(pathspec)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

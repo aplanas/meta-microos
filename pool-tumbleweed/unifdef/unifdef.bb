@@ -12,6 +12,7 @@ RPM_HASH = "b9a42dd7968104da8510f1f76313ee066f58ab387d9179dfbf7b09c2ac69fd0002b3
 
 RPROVIDES:${PN} += "unifdef \
 unifdef(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

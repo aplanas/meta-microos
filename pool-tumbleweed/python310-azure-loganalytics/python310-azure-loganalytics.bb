@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-azure-loganalytics \
 python3.10dist(azure-loganalytics) \
 python310-azure-loganalytics \
 python3dist(azure-loganalytics)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-azure-common \
 python310-azure-nspkg \

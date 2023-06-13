@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-notify2 \
 python3.10dist(notify2) \
 python310-notify2 \
 python3dist(notify2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-dbus-python"
 

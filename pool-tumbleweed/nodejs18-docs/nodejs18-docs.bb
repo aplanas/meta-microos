@@ -9,6 +9,7 @@ RPM_HASH = "3efae38a4d2d89a67ef78a2a04c956373f77702b917b2d7370c67b41a0293b624ac4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs18-docs"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

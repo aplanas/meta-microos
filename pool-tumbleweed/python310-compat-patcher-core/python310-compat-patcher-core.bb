@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-compat-patcher-core \
 python3.10dist(compat-patcher-core) \
 python310-compat-patcher-core \
 python3dist(compat-patcher-core)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

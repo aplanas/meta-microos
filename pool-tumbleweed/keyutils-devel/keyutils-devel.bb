@@ -10,6 +10,7 @@ RPM_HASH = "f1e46993a1576f5524be1d8cb80af4d603b684349a0e38c581e8c09d043ca32fee9f
 RPROVIDES:${PN} += "keyutils-devel \
 keyutils-devel(aarch-64) \
 pkgconfig(libkeyutils)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libkeyutils1"

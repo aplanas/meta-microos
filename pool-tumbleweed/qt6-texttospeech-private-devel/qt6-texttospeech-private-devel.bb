@@ -10,6 +10,7 @@ RPM_HASH = "32c302ddd83869b78c40d439961ada90d1f87a8098ca0334943496f7ec6379f711b0
 
 RPROVIDES:${PN} += "qt6-texttospeech-private-devel \
 qt6-texttospeech-private-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt6TextToSpeech) \
 qt6-core-private-devel"
 

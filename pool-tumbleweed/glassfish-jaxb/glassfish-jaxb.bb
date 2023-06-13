@@ -9,6 +9,7 @@ RPM_HASH = "d75da5a788dde128b504b23a333fea8a3b827c7527a0aa332b63664a94cdc7912668
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb"
+
 RDEPENDS:${PN} += "glassfish-jaxb-bom \
 glassfish-jaxb-bom-ext \
 glassfish-jaxb-codemodel \

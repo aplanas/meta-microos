@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(simplebnf.sty) \
 texlive-simplebnf"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

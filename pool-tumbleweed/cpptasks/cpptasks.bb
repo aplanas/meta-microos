@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(cpptasks) \
 cpptasks"
+
 RDEPENDS:${PN} += "ant \
 java"
 

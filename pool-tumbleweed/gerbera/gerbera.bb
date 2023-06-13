@@ -12,6 +12,7 @@ RPM_HASH = "3165f58d67d4c9ec69fde7e2014be406b22513d7a23afb92251fdf51e97c8fa2a563
 RPROVIDES:${PN} += "config(gerbera) \
 gerbera \
 gerbera(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

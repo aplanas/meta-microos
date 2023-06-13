@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(aioitertools) \
 python39-aioitertools \
 python3dist(aioitertools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-typing_extensions"
 

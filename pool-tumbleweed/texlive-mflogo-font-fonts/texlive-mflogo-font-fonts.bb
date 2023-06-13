@@ -17,6 +17,7 @@ font(logosl10) \
 font(logosl8) \
 font(logosl9) \
 texlive-mflogo-font-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

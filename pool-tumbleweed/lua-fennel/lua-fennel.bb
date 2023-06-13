@@ -20,6 +20,7 @@ RPM_HASH = "1cc09407b8be7dde65a9c55668d6f6bf0dd6792058809c1ae964d1c2ce92205e0d8e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-fennel"
+
 RDEPENDS:${PN} += "/usr/bin/lua"
 
 inherit rpm

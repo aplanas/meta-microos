@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "python3-argparse-manpage \
 python3.10dist(argparse-manpage) \
 python310-argparse-manpage \
 python3dist(argparse-manpage)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

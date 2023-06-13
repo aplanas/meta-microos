@@ -90,6 +90,7 @@ perl(Test::Alien::Synthetic) \
 perl(alienfile) \
 perl-Alien-Build \
 perl-Alien-Build(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Capture::Tiny) \
 perl(Digest::SHA) \

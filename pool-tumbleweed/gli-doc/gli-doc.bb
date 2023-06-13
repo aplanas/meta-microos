@@ -9,6 +9,7 @@ RPM_HASH = "67452af8e10b80cd52a355315d1e87836c33a0704fd6994a89083c23be7c43463d94
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gli-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

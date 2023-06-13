@@ -10,6 +10,7 @@ RPM_HASH = "6fa08814521ebd7acba5f3b6dbc1ac8fb683311e109b995a22285e63e355134a1166
 RPROVIDES:${PN} += "obexftp-devel \
 obexftp-devel(aarch-64) \
 pkgconfig(obexftp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 obexftp \
 openobex-devel \

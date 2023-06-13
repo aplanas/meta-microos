@@ -13,6 +13,7 @@ python3.10dist(libsass) \
 python310-libsass \
 python310-libsass(aarch-64) \
 python3dist(libsass)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \

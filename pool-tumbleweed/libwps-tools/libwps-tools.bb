@@ -10,6 +10,7 @@ RPM_HASH = "26ac116e900813da3b608039dea43c2f8b95badc3a381b9d032f1a5dd7081534b48d
 
 RPROVIDES:${PN} += "libwps-tools \
 libwps-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

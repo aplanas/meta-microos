@@ -12,6 +12,7 @@ python3.9dist(afdko) \
 python39-afdko \
 python39-afdko(aarch-64) \
 python3dist(afdko)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 libc.so.6(GLIBC_2.34)(64bit) \

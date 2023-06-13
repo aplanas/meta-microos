@@ -13,6 +13,7 @@ pattern-icon() \
 pattern-order() \
 patterns-media-rest_cd_core \
 patterns-media-rest_cd_core(aarch-64)"
+
 RDEPENDS:${PN} += "kernel-default \
 kernel-firmware \
 pattern() \

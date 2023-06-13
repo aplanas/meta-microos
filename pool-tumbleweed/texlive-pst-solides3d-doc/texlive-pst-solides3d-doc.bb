@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-pst-solides3d-doc:en) \
 texlive-pst-solides3d-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

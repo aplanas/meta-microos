@@ -11,6 +11,7 @@ RPM_HASH = "f61201759cafb14f5f3092fdf6facd19fc378d79cb5f29eb2fa827fbb7cf119a1493
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cel-cpp-source"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

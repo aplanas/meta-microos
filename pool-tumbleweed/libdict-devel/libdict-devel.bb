@@ -9,6 +9,7 @@ RPM_HASH = "d289398f52e106bdd653f896233172d2b56b9a85b6a406a44c8fe514129dd459e917
 
 RPROVIDES:${PN} += "libdict-devel \
 libdict-devel(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

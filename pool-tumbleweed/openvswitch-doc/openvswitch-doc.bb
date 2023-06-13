@@ -9,6 +9,7 @@ RPM_HASH = "f7f5c031295d03dd32f97149a3d87e6344c56938ffcbab46f9ba32fd3d41148b5a53
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openvswitch-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

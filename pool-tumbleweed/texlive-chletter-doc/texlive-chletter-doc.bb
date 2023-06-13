@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-chletter-doc:en) \
 texlive-chletter-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

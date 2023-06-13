@@ -10,6 +10,7 @@ RPM_HASH = "b3e3078610468687dce4810fef7e7b1088d51175837a343d5ab43454a58f1cd9d938
 RPROVIDES:${PN} += "libtumbler-1-0 \
 libtumbler-1-0(aarch-64) \
 libtumbler-1.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

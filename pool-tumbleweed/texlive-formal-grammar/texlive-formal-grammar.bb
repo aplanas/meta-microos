@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(formal-grammar.sty) \
 texlive-formal-grammar"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -10,6 +10,7 @@ RPM_HASH = "cb2aac71ea9e7b8837957d7a5f2230558fe43fac25c64b93f14b06ff31f26f383a8f
 RPROVIDES:${PN} += "libdjvudocument.so()(64bit) \
 xreader-plugin-djvudocument \
 xreader-plugin-djvudocument(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

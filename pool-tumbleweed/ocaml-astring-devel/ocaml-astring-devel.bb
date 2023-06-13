@@ -28,6 +28,7 @@ ocamlx(Astring_string) \
 ocamlx(Astring_sub) \
 ocamlx(Astring_top) \
 ocamlx(Astring_unsafe)"
+
 RDEPENDS:${PN} += "ocaml(Asttypes) \
 ocaml(Build_path_prefix_map) \
 ocaml(CamlinternalFormatBasics) \

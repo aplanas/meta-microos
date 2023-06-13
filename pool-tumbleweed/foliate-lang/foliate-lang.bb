@@ -27,6 +27,7 @@ locale(foliate:sv) \
 locale(foliate:uk) \
 locale(foliate:zh_CN) \
 locale(foliate:zh_TW)"
+
 RDEPENDS:${PN} += "foliate"
 
 inherit rpm

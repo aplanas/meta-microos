@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(flake8-blind-except) \
 python311-flake8-blind-except \
 python3dist(flake8-blind-except)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

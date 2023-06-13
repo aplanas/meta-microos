@@ -9,6 +9,7 @@ RPM_HASH = "a44e082d09ea198aa34cc3cb0d32b9e5d2c80449b7e6e1bea0d1049e180375d93b36
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elzcards-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

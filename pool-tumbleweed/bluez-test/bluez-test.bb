@@ -10,6 +10,7 @@ RPM_HASH = "04658850b43ef8fc4c231b76d87c0dd83ccce6e7a2f1b4241a13b32190dbf78573b2
 
 RPROVIDES:${PN} += "bluez-test \
 bluez-test(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

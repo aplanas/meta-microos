@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hicolor-icon-theme-branding \
 hicolor-icon-theme-branding-openSUSE"
+
 RDEPENDS:${PN} += "/bin/sh \
 hicolor-icon-theme"
 

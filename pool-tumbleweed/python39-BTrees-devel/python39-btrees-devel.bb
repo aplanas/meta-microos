@@ -9,6 +9,7 @@ RPM_HASH = "b569244466e56803fab16fce2de92aa220a5ea4ec939692f073aa47cb400a11f56a1
 
 RPROVIDES:${PN} += "python39-BTrees-devel \
 python39-BTrees-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python39-BTrees"
 
 inherit rpm

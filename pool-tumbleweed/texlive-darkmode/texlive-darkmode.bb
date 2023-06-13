@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(darkmode.sty) \
 texlive-darkmode"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

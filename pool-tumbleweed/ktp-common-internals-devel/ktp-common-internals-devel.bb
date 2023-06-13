@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(KTp) \
 ktp-common-internals-devel \
 ktp-common-internals-devel(aarch-64) \
 ktp-common-internals5-devel"
+
 RDEPENDS:${PN} += "cmake(KF5KCMUtils) \
 cmake(KF5Wallet) \
 cmake(Qt5Widgets) \

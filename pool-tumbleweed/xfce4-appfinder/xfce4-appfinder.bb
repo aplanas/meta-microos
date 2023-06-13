@@ -17,6 +17,7 @@ metainfo() \
 metainfo(org.xfce.xfce4-appfinder.appdata.xml) \
 xfce4-appfinder \
 xfce4-appfinder(aarch-64)"
+
 RDEPENDS:${PN} += "exo-tools \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -10,6 +10,7 @@ RPM_HASH = "b87380d2cad586048292834105a8eb127fc6e44ff87d04321da625228ea2259575b3
 
 RPROVIDES:${PN} += "matekbd-common \
 matekbd-common(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "tex(sduthesis-cover.def) \
 tex(sduthesis-statement.def) \
 tex(sduthesis.cls) \
 texlive-sduthesis"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

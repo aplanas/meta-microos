@@ -14,6 +14,7 @@ RPM_HASH = "dc0f90ff60fc16dea8779ba00a8696aaa54c6736caf85d4f310529cd8c4d39797f4a
 RPROVIDES:${PN} += "pkgconfig(unibilium) \
 unibilium-devel \
 unibilium-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libunibilium4"
 

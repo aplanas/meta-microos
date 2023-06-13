@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(attachfile.sty) \
 texlive-attachfile"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

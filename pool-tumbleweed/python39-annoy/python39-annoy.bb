@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3.9dist(annoy) \
 python39-annoy \
 python39-annoy(aarch-64) \
 python3dist(annoy)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

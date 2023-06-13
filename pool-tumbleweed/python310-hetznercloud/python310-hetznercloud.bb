@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-hetznercloud \
 python3.10dist(hetznercloud) \
 python310-hetznercloud \
 python3dist(hetznercloud)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-requests"
 

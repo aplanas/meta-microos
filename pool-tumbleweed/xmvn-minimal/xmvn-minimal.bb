@@ -11,6 +11,7 @@ RPM_HASH = "0a2383e42fbbd36771fae0396c2ac0d1d4af276d0d163aecdfcf3ad6f771edbd1be3
 RPROVIDES:${PN} += "libjansi.so()(64bit) \
 xmvn-minimal \
 xmvn-minimal(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 libc.so.6(GLIBC_2.34)(64bit) \
 maven-lib \

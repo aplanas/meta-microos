@@ -19,6 +19,7 @@ tex(schulma-physik.sty) \
 tex(schulma-praes.cls) \
 tex(schulma.sty) \
 texlive-schulmathematik"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

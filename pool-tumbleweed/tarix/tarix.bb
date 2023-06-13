@@ -12,6 +12,7 @@ RPM_HASH = "80b148a632a939dc1bf30bb6e99e27d251b705c88d777610071c7233432773ff9d45
 
 RPROVIDES:${PN} += "tarix \
 tarix(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

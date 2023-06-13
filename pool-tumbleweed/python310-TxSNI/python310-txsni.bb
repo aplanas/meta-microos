@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-TxSNI \
 python3.10dist(txsni) \
 python310-TxSNI \
 python3dist(txsni)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Twisted-tls \
 python310-pyOpenSSL"

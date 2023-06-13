@@ -10,6 +10,7 @@ RPM_HASH = "a9efc8ca890ddc76e9a11505b6c3b6796b64bc0b301c5bfa20692d2da7c1a53a911c
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liboggz-doc"
+
 RDEPENDS:${PN} += "liboggz2"
 
 inherit rpm

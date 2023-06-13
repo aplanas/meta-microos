@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-test \
 postgresql-test-noarch"
+
 RDEPENDS:${PN} += "postgresql-test-implementation"
 
 inherit rpm

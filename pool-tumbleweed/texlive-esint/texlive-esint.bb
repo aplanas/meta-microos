@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(esint.sty) \
 tex(esint10.tfm) \
 tex(uesint.fd) \
 texlive-esint"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

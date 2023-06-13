@@ -5675,6 +5675,7 @@ tex(noto-serif.sty) \
 tex(noto.map) \
 tex(noto.sty) \
 texlive-noto"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

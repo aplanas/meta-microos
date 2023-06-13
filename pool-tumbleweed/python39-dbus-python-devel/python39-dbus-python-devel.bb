@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "dbus-1-python39-devel \
 pkgconfig(dbus-python-3.9) \
 python39-dbus-python-devel \
 python39-dbus-python-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 dbus-1 \
 dbus-1-devel \

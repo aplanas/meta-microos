@@ -118,6 +118,7 @@ font(texgyrepagellamath) \
 font(texgyrescholamath) \
 font(texgyretermesmath) \
 texlive-tex-gyre-math-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

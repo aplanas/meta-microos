@@ -37,6 +37,7 @@ perl(TheSchwartz::Job) \
 perl(TheSchwartz::JobHandle) \
 perl(TheSchwartz::Worker) \
 perl-TheSchwartz"
+
 RDEPENDS:${PN} += "/usr/bin/perl \
 perl(:MODULE_COMPAT_5.36.0) \
 perl(Class::Accessor::Fast) \

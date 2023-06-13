@@ -23,6 +23,7 @@ synergy \
 synergy(aarch-64) \
 synergy-core \
 synergy-plus"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

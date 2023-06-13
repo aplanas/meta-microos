@@ -19,6 +19,7 @@ rpm_macro(mime_database_postun) \
 shared-mime-info \
 shared-mime-info(aarch-64) \
 shared-mime-info-devel"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

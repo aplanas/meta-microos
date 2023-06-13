@@ -16,6 +16,7 @@ RPM_HASH = "3a4226712bdf7157426e3c6b152bda225fca72ce36cf131d53e71d2b2a98aa4f054e
 
 RPROVIDES:${PN} += "trilinos_14_0_0-gnu-mvapich2-hpc-devel \
 trilinos_14_0_0-gnu-mvapich2-hpc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python \

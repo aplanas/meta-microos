@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(fs) \
 python39-fs \
 python3dist(fs)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-appdirs \
 python39-psutil \

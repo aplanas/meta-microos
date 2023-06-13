@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-transitions \
 python3.10dist(transitions) \
 python310-transitions \
 python3dist(transitions)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-six"
 

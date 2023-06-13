@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-Morfessor \
 python3.10dist(morfessor) \
 python310-Morfessor \
 python3dist(morfessor)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

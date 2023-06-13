@@ -19,6 +19,7 @@ RPM_HASH = "cabdbeefd6e9eb7d6318d576574a78afbdedc262570609902602c0b50dba8ac8936c
 RPROVIDES:${PN} += "pkgconfig(libutf8proc) \
 utf8proc-devel \
 utf8proc-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libutf8proc2"
 

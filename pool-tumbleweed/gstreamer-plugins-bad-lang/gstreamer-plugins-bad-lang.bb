@@ -52,6 +52,7 @@ locale(gstreamer-plugins-bad:uk) \
 locale(gstreamer-plugins-bad:vi) \
 locale(gstreamer-plugins-bad:zh_CN) \
 locale(gstreamer-plugins-bad:zh_TW)"
+
 RDEPENDS:${PN} += "gstreamer-plugins-bad"
 
 inherit rpm

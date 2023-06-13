@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-key \
 suse-build-key"
+
 RDEPENDS:${PN} += "fileutils \
 gpg \
 mktemp \

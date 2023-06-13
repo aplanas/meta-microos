@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kvmap.sty) \
 texlive-kvmap"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

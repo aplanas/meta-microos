@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-tkreadonly \
 python3.10dist(tkreadonly) \
 python310-tkreadonly \
 python3dist(tkreadonly)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Pygments \
 python310-idle \

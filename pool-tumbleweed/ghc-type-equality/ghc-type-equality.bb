@@ -16,6 +16,7 @@ RPM_HASH = "45eca215c44b9dbd54ebe0ec965c4e40b77c7d4ffaf77cc665b8bffb07d64d0e9674
 RPROVIDES:${PN} += "ghc-type-equality \
 ghc-type-equality(aarch-64) \
 libHStype-equality-1-FqVAbwBXnIKCXHvrA6xdY8-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \
 libHSghc-prim-0.9.0-ghc9.4.5.so()(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(poetry-core) \
 python39-poetry-core \
 python3dist(poetry-core)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -10,6 +10,7 @@ RPM_HASH = "e0aadacf610a044046180a95b6023a4e9ce44b956ee95f48d5552109c8c762c95cb5
 RPROVIDES:${PN} += "config(lxc) \
 lxc \
 lxc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 ld-linux-aarch64.so.1()(64bit) \

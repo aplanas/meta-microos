@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-checkdmarc \
 python3.10dist(checkdmarc) \
 python310-checkdmarc \
 python3dist(checkdmarc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

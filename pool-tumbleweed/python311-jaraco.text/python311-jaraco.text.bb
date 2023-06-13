@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.text) \
 python311-jaraco.text \
 python3dist(jaraco.text)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-autocommand \
 python311-inflect \

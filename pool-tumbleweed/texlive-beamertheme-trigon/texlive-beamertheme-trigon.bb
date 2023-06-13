@@ -30,6 +30,7 @@ tex(beamerinnerthemetrigon.sty) \
 tex(beamerouterthemetrigon.sty) \
 tex(beamerthemetrigon.sty) \
 texlive-beamertheme-trigon"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

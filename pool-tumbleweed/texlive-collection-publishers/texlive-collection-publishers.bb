@@ -9,6 +9,7 @@ RPM_HASH = "20408ecc02253ac347cd4d64c3d2f521eedb5b87e85427850b217dfd2590085ccc3f
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-collection-publishers"
+
 RDEPENDS:${PN} += "texlive-aastex \
 texlive-abnt \
 texlive-abntex2 \

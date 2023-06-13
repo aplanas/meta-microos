@@ -10,6 +10,7 @@ RPM_HASH = "02a2580d4868d271355c9c6b3a80ef5b21eef90773bb9acc9829c7812aea00d1aed5
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-barbicanclient-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

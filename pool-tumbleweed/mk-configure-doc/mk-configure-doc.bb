@@ -9,6 +9,7 @@ RPM_HASH = "f6c0b93e16cf61a014629d177637565286362b20674f5917c5d1ddaba2b0bd6e60e2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mk-configure-doc"
+
 RDEPENDS:${PN} += "mk-configure"
 
 inherit rpm

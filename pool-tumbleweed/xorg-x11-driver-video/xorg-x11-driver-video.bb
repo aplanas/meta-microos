@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "xorg-x11-driver-video \
 xorg-x11-driver-video(aarch-64) \
 xorg-x11-driver-video-radeonhd \
 xorg-x11-driver-video-unichrome"
+
 RDEPENDS:${PN} += "xf86-video-fbdev \
 xorg-x11-server"
 

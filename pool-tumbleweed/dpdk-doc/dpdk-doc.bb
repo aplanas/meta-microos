@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dpdk-any-doc \
 dpdk-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

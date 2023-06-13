@@ -20,6 +20,7 @@ mvn(org.apache.geronimo.specs:geronimo-annotation_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-annotation_1.0_spec:pom:) \
 mvn(org.eclipse.jetty.orbit:javax.annotation) \
 mvn(org.eclipse.jetty.orbit:javax.annotation:pom:)"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

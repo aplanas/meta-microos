@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "python3-glean \
 python3.10dist(glean) \
 python310-glean \
 python3dist(glean)"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3.10 \

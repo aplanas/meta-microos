@@ -15,6 +15,7 @@ mvn(org.apache.geronimo.specs:geronimo-servlet_2.4_spec:pom:) \
 servlet \
 servlet_2_4_api \
 servlet_api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

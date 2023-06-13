@@ -16,6 +16,7 @@ mvn(org.apache.geronimo.specs:geronimo-stax-api_1.0_spec) \
 mvn(org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:pom:) \
 stax_1_0_api \
 stax_api"
+
 RDEPENDS:${PN} += "/bin/sh \
 java-headless \
 javapackages-filesystem \

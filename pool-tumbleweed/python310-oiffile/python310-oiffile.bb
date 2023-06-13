@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-oiffile \
 python3.10dist(oiffile) \
 python310-oiffile \
 python3dist(oiffile)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-numpy \
 python310-tifffile"

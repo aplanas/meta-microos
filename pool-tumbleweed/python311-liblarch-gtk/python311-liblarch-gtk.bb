@@ -13,6 +13,7 @@ RPM_HASH = "816267d3cadaed30ce1b2cdc1da0b0ee280a5434da256deb6b8f662e13192be949ec
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-liblarch-gtk"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-gobject \
 python311-liblarch \

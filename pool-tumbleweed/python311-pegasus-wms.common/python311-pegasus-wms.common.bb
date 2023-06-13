@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pegasus-wms.common) \
 python311-pegasus-wms.common \
 python3dist(pegasus-wms.common)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-PyYAML"
 

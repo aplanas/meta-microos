@@ -121,6 +121,7 @@ perl(LaTeXML::Util::WWW) \
 perl(LaTeXML::Version) \
 perl(Parse::RecDescent::LaTeXML::MathGrammar) \
 perl-LaTeXML"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Archive::Zip) \
 perl(DB_File) \

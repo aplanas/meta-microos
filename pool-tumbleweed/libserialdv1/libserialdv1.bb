@@ -11,6 +11,7 @@ RPM_HASH = "5a7d8cf566894d5df274f963f845d58b35211b1055a9f8af0b382a28fbb5cb3aef38
 RPROVIDES:${PN} += "libserialdv.so.1()(64bit) \
 libserialdv1 \
 libserialdv1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

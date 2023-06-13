@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3-autoflake \
 python3.10dist(autoflake) \
 python310-autoflake \
 python3dist(autoflake)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

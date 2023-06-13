@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale(texlive-ctex-doc:zh) \
 texlive-ctex-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

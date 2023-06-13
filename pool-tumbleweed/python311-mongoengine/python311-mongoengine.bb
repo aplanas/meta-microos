@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(mongoengine) \
 python311-mongoengine \
 python3dist(mongoengine)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-blinker \
 python311-pymongo"

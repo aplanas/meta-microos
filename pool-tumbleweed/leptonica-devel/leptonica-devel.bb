@@ -12,6 +12,7 @@ leptonica-devel(aarch-64) \
 liblept-devel \
 libleptonica-devel \
 pkgconfig(lept)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libleptonica6"
 

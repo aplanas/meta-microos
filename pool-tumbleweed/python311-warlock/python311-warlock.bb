@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(warlock) \
 python311-warlock \
 python3dist(warlock)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-jsonpatch \
 python311-jsonschema"

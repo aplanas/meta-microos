@@ -11,6 +11,7 @@ RPM_HASH = "398919161293a61b6000530345454d243d324ade215ebf17f4dd91157adce57fd7c0
 RPROVIDES:${PN} += "leechcraft-azoth-autopaste \
 leechcraft-azoth-autopaste(aarch-64) \
 libleechcraft_azoth_autopaste.so()(64bit)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 leechcraft-azoth \

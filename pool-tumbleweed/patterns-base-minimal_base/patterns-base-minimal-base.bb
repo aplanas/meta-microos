@@ -15,6 +15,7 @@ pattern-visible() \
 patterns-base-minimal_base \
 patterns-base-minimal_base(aarch-64) \
 patterns-openSUSE-minimal_base"
+
 RDEPENDS:${PN} += "branding \
 build-key \
 distribution-release \

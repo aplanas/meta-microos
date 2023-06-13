@@ -46,6 +46,7 @@ mimehandler(application/x-deb) \
 mimehandler(application/x-redhat-package-manager) \
 mimehandler(application/x-rpm) \
 mimehandler(x-scheme-handler/appstream)"
+
 RDEPENDS:${PN} += "fwupd \
 iso-codes \
 ld-linux-aarch64.so.1()(64bit) \

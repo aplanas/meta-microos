@@ -13,6 +13,7 @@ RPM_HASH = "72098aa9adb7ff72ced92f01713040921e8f4088b6eec3d6737afccc97394aa7085b
 
 RPROVIDES:${PN} += "finger-server \
 finger-server(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

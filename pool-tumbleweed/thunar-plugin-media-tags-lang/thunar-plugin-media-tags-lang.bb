@@ -61,6 +61,7 @@ locale(thunar-plugin-media-tags:zh_CN) \
 locale(thunar-plugin-media-tags:zh_TW) \
 thunar-plugin-media-tags-lang \
 thunar-plugin-media-tags-lang-all"
+
 RDEPENDS:${PN} += "thunar-plugin-media-tags"
 
 inherit rpm

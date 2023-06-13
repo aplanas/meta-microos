@@ -11,6 +11,7 @@ RPM_HASH = "edff85fd9e18d1d048635b66a9c5ce5189e8991072ea43bb78caba8558d89c4a0bf1
 RPROVIDES:${PN} += "libmsgpackc.so.2()(64bit) \
 libmsgpackc2 \
 libmsgpackc2(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

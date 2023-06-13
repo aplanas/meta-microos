@@ -12,6 +12,7 @@ RPM_HASH = "31110d03c6169d4ad1536a1abff0e0fcbe9db3235491e03a1e86ef8a67b0f965211e
 RPROVIDES:${PN} += "nkitb:/usr/sbin/tcpd \
 tcpd \
 tcpd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

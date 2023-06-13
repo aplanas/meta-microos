@@ -11,6 +11,7 @@ RPM_HASH = "735de350bfb921beaf0d1fd59206cf8994be63c7e1491303547cb7be8ccc74a13b3b
 RPROVIDES:${PN} += "kuberlr \
 kuberlr(aarch-64) \
 kubernetes-client-provider"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

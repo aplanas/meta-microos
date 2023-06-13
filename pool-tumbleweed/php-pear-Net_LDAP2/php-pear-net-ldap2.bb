@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "php-pear(Net_LDAP2) \
 php-pear-Net_LDAP2 \
 php5-pear-Net_LDAP2 \
 php7-pear-Net_LDAP2"
+
 RDEPENDS:${PN} += "/bin/sh \
 php-ldap \
 php-pear"

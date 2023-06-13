@@ -12,6 +12,7 @@ RPM_HASH = "cf9f71fb23e6be9a2d80333edc8b47bd872ff63d6dd7f5e300f46695e2cb8cde617d
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-terminal"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 caja \
 python-caja \

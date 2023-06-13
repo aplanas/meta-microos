@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(block.sty) \
 texlive-block"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

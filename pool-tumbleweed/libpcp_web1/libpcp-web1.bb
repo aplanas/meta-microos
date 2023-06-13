@@ -26,6 +26,7 @@ libpcp_web.so.1(PCP_WEB_1.8)(64bit) \
 libpcp_web.so.1(PCP_WEB_1.9)(64bit) \
 libpcp_web1 \
 libpcp_web1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -19,6 +19,7 @@ mvn(org.apache.maven:maven-settings:pom:2.0.6) \
 mvn(org.apache.maven:maven-settings:pom:2.0.7) \
 mvn(org.apache.maven:maven-settings:pom:2.0.8) \
 mvn(org.apache.maven:maven-settings:pom:2.2.1)"
+
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn(org.apache.maven:maven-model) \

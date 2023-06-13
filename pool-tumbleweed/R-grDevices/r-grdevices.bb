@@ -9,6 +9,7 @@ RPM_HASH = "7308621e27492b8866048c5a3835412557674bd28e125fa84d5f24c1e481abaa5ae5
 
 RPROVIDES:${PN} += "R-grDevices \
 R-grDevices(aarch-64)"
+
 RDEPENDS:${PN} += "R-base \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

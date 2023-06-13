@@ -10,6 +10,7 @@ RPM_HASH = "58461144707c9263efb2beecd4fa0180a27f2e49df1c951c4be3e5aa6551effa6555
 
 RPROVIDES:${PN} += "u-boot-rock960-rk3399-doc \
 u-boot-rock960-rk3399-doc(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -14,6 +14,7 @@ libnm-gtk4-vpn-plugin-pptp-editor.so()(64bit) \
 libnm-vpn-plugin-pptp-editor.so()(64bit) \
 metainfo() \
 metainfo(network-manager-pptp.metainfo.xml)"
+
 RDEPENDS:${PN} += "NetworkManager-pptp \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

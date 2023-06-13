@@ -29,6 +29,7 @@ tex(ot1omlgc.fd) \
 tex(ot1uctt.fd) \
 tex(ut1enc.def) \
 texlive-lambda"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

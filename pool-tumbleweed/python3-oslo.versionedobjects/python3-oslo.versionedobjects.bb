@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3-oslo.versionedobjects \
 python3.10dist(oslo.versionedobjects) \
 python3dist(oslo.versionedobjects)"
+
 RDEPENDS:${PN} += "python(abi) \
 python3-WebOb \
 python3-iso8601 \

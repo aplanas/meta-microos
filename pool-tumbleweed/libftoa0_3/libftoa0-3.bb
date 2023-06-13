@@ -12,6 +12,7 @@ RPM_HASH = "48542f8f83e67565b7de93dce43729888966e8072b4b349960a64bd67d9aa074bcc4
 RPROVIDES:${PN} += "libftoa.so.0.3()(64bit) \
 libftoa0_3 \
 libftoa0_3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

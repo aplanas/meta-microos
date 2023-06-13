@@ -12,6 +12,7 @@ RPM_HASH = "a8fed812a0900165fb436b957eef62e7f19dfb6f8ea867ded11a20d92e076fa8cc0f
 RPROVIDES:${PN} += "cmake(ownCloud) \
 libowncloudsync-devel \
 libowncloudsync-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libowncloudsync0"
 
 inherit rpm

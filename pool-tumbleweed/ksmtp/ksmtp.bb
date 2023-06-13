@@ -9,6 +9,7 @@ RPM_HASH = "fa0cf8662a979dec93583b4b3162ecd270e5241c33b7cc3a48fb35a6864a547577dc
 
 RPROVIDES:${PN} += "ksmtp \
 ksmtp(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

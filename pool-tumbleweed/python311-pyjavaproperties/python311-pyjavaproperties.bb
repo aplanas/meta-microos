@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(pyjavaproperties) \
 python311-pyjavaproperties \
 python3dist(pyjavaproperties)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-base"
 

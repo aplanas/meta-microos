@@ -20,6 +20,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(sqlglot) \
 python39-sqlglot \
 python3dist(sqlglot)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

@@ -11,6 +11,7 @@ RPM_HASH = "928ad3e20b72f939ad3fd45ed1262c19c9385d075be35d1463cb18c2fd1e012f66a5
 RPROVIDES:${PN} += "appx-util \
 appx-util(aarch-64) \
 fb-util-for-appx"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "cmake(KF5DocTools) \
 kdoctools-devel \
 kdoctools-devel(aarch-64) \
 kdoctools-devel-static"
+
 RDEPENDS:${PN} += "cmake(Qt5Core) \
 docbook-xsl-stylesheets \
 extra-cmake-modules \

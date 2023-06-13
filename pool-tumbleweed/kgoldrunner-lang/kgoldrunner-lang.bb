@@ -76,6 +76,7 @@ locale(kgoldrunner:ug) \
 locale(kgoldrunner:uk) \
 locale(kgoldrunner:zh_CN) \
 locale(kgoldrunner:zh_TW)"
+
 RDEPENDS:${PN} += "kgoldrunner"
 
 inherit rpm

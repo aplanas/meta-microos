@@ -9,6 +9,7 @@ RPM_HASH = "aacdbcee7f57e97195f40f81140a99fae4b36cc56bf14fbffeaa5adee8501efaf4c4
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-kurmanji-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

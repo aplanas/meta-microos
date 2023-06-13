@@ -13,6 +13,7 @@ RPM_HASH = "2924111681ab6a651def4616a34e5ef80fd47d5e2ebb508c0d0a184b3a0c2e7d7393
 RPROVIDES:${PN} += "libmdmp-devel \
 libmdmp-devel(aarch-64) \
 pkgconfig(libmdmp)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libbfio-devel \
 libmdmp1"

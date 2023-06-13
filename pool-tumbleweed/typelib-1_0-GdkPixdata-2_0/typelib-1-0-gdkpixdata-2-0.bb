@@ -14,6 +14,7 @@ RPM_HASH = "7be892960e3edcd2ac407f0a3108943d1f1ca2a0f79f2edc6cdd41f9083f2bf96155
 RPROVIDES:${PN} += "typelib(GdkPixdata) \
 typelib-1_0-GdkPixdata-2_0 \
 typelib-1_0-GdkPixdata-2_0(aarch-64)"
+
 RDEPENDS:${PN} += "libgdk_pixbuf-2.0.so.0()(64bit) \
 typelib(GLib) \
 typelib(GModule) \

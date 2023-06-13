@@ -13,6 +13,7 @@ oxygen-cursors4 \
 oxygen-cursors5 \
 oxygen4-cursors \
 oxygen5-cursors"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

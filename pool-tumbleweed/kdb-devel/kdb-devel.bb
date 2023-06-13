@@ -10,6 +10,7 @@ RPM_HASH = "9fc0a7fa2063be78d1cfeba9d6a36a1135af1e2debeea70d696524873cc438bf6bfe
 RPROVIDES:${PN} += "cmake(KDb) \
 kdb-devel \
 kdb-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libKDb3-4"
 
 inherit rpm

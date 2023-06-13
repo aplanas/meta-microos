@@ -13,6 +13,7 @@ gpick-lang-all \
 locale(gpick:es) \
 locale(gpick:lt) \
 locale(gpick:ru)"
+
 RDEPENDS:${PN} += "gpick"
 
 inherit rpm

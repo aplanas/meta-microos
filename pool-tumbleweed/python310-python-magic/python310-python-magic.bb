@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-python-magic \
 python3.10dist(python-magic) \
 python310-python-magic \
 python3dist(python-magic)"
+
 RDEPENDS:${PN} += "file \
 python(abi)"
 

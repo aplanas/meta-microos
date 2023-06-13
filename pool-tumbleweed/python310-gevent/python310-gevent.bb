@@ -26,6 +26,7 @@ python3.10dist(gevent) \
 python310-gevent \
 python310-gevent(aarch-64) \
 python3dist(gevent)"
+
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

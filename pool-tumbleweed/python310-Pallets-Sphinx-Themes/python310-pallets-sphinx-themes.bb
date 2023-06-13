@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-Pallets-Sphinx-Themes \
 python3.10dist(pallets-sphinx-themes) \
 python310-Pallets-Sphinx-Themes \
 python3dist(pallets-sphinx-themes)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Sphinx \
 python310-packaging"

@@ -11,6 +11,7 @@ RPM_HASH = "d1c0a27b9838f2eff23ee068586fef19965c19ade6b6c8319f3db283fb44d14a5344
 RPROVIDES:${PN} += "libosmo-hnbap.so.0()(64bit) \
 libosmo-hnbap0 \
 libosmo-hnbap0(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -73,6 +73,7 @@ locale(gthumb:vi) \
 locale(gthumb:zh_CN) \
 locale(gthumb:zh_HK) \
 locale(gthumb:zh_TW)"
+
 RDEPENDS:${PN} += "gthumb"
 
 inherit rpm

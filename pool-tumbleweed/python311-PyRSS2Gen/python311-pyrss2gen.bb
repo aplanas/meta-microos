@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python-pyrss2gen \
 python3.11dist(pyrss2gen) \
 python311-PyRSS2Gen \
 python3dist(pyrss2gen)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

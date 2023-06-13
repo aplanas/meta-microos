@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-pdfrw \
 python3.10dist(pdfrw) \
 python310-pdfrw \
 python3dist(pdfrw)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

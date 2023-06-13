@@ -15,6 +15,7 @@ RPM_HASH = "759f9e8f5306d3275efebeb94c0eed093fa8d8571ddebe48806951912ec5c564b666
 
 RPROVIDES:${PN} += "libtrilinos_13_2_0-gnu-mpich-hpc \
 libtrilinos_13_2_0-gnu-mpich-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1()(64bit) \

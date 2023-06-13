@@ -13,6 +13,7 @@ RPROVIDES:${PN} += "python3-jaraco.collections \
 python3.10dist(jaraco.collections) \
 python310-jaraco.collections \
 python3dist(jaraco.collections)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-jaraco.classes \
 python310-jaraco.text"

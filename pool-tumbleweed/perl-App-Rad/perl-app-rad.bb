@@ -20,6 +20,7 @@ perl(App::Rad::Exclude) \
 perl(App::Rad::Help) \
 perl(App::Rad::Include) \
 perl-App-Rad"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Getopt::Long)"
 

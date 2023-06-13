@@ -9,6 +9,7 @@ RPM_HASH = "44b739d3f704913dfc7d69f0712c8217555848addec503c570486ded4fba73d398c9
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-backgrounds"
+
 RDEPENDS:${PN} += "gdk-pixbuf-loader-rsvg \
 webp-pixbuf-loader"
 

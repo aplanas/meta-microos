@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "python3.9dist(linode-cli) \
 python39-linode-cli \
 python39-linode-cli(aarch-64) \
 python3dist(linode-cli)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python(abi) \

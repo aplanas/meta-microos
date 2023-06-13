@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "command-not-found \
 config(scout-command-not-found) \
 scout-command-not-found"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python3 \
 python3-rpm \

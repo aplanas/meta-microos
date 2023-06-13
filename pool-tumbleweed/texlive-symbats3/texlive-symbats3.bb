@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(symbats3.sty) \
 texlive-symbats3"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

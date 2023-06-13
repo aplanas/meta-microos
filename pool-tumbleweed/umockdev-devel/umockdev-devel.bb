@@ -14,6 +14,7 @@ RPM_HASH = "6eb6527c3f217b32ad433a2737343c48333ec4e8e8e31625af44cc73061b265f79a0
 RPROVIDES:${PN} += "pkgconfig(umockdev-1.0) \
 umockdev-devel \
 umockdev-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libumockdev-preload0 \
 libumockdev0 \

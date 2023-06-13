@@ -9,6 +9,7 @@ RPM_HASH = "d3f502c8a09cd2c284e2afc65373afdbd4179fce864099dfacd0b0d2c4941c260cc3
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stunnel-doc"
+
 RDEPENDS:${PN} += "stunnel"
 
 inherit rpm

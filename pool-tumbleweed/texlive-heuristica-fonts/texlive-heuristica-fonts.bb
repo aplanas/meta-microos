@@ -160,6 +160,7 @@ font(:lang=zu) \
 font(heuristica) \
 font(эвристика) \
 texlive-heuristica-fonts"
+
 RDEPENDS:${PN} += "/bin/sh \
 aaa_base \
 coreutils \

@@ -13,6 +13,7 @@ RPM_HASH = "5de51ad49a5f314666bd65e6d0bb3d11c1dfe07544ca09ce87fd650dd937f3ca25c6
 RPROVIDES:${PN} += "typelib(Wnck) \
 typelib-1_0-Wnck-3_0 \
 typelib-1_0-Wnck-3_0(aarch-64)"
+
 RDEPENDS:${PN} += "libwnck-3.so.0()(64bit) \
 typelib(Atk) \
 typelib(GLib) \

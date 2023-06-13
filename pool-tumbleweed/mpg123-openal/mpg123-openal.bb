@@ -13,6 +13,7 @@ RPM_HASH = "16e453d2df1f0511e2335857f6063c71cc14de90769f6d8bc7fc61778bc5afd0cc12
 
 RPROVIDES:${PN} += "mpg123-openal \
 mpg123-openal(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.17)(64bit) \

@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.11dist(jaraco.stream) \
 python311-jaraco.stream \
 python3dist(jaraco.stream)"
+
 RDEPENDS:${PN} += "python(abi) \
 python311-more-itertools"
 

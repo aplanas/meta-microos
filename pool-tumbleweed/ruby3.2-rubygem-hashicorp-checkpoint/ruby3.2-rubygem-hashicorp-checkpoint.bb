@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:hashicorp-checkpoint) \
 rubygem(ruby:3.2.0:hashicorp-checkpoint:0) \
 rubygem(ruby:3.2.0:hashicorp-checkpoint:0.1) \
 rubygem(ruby:3.2.0:hashicorp-checkpoint:0.1.5)"
+
 RDEPENDS:${PN} += "ruby(abi)"
 
 inherit rpm

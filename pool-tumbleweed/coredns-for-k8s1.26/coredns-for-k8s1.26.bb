@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "coredns-for-k8s \
 coredns-for-k8s1.26 \
 coredns-for-k8s1.26(aarch-64) \
 dns_daemon"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.34)(64bit)"
 
 inherit rpm

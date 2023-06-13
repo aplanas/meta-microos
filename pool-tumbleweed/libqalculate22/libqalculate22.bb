@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libqalculate \
 libqalculate.so.22()(64bit) \
 libqalculate22 \
 libqalculate22(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

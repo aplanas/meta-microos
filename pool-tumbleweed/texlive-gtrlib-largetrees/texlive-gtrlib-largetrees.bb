@@ -14,6 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "tex(gtrlib.largetrees.code.tex) \
 tex(gtrlib.largetrees.sty) \
 texlive-gtrlib-largetrees"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

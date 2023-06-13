@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "libtntdb.so.5()(64bit) \
 libtntdb5 \
 libtntdb5(aarch-64) \
 tntdb"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

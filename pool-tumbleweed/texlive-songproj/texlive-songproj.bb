@@ -18,6 +18,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(songproj.sty) \
 texlive-songproj"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "cmake(Qt6LabsAnimation) \
 pkgconfig(Qt6LabsAnimation) \
 qt6-labsanimation-devel \
 qt6-labsanimation-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libQt6LabsAnimation6 \
 pkgconfig(Qt6Qml) \

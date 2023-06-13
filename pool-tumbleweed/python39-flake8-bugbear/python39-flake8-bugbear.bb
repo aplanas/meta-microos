@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(flake8-bugbear) \
 python39-flake8-bugbear \
 python3dist(flake8-bugbear)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-attrs \
 python39-flake8"

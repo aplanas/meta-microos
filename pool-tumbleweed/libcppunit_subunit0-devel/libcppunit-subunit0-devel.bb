@@ -11,6 +11,7 @@ RPM_HASH = "e5f31e1f0379ba52c53ad40fbcad894ddf6dd348bf170edf6665ae1ee59aa68e5529
 RPROVIDES:${PN} += "libcppunit_subunit0-devel \
 libcppunit_subunit0-devel(aarch-64) \
 pkgconfig(libcppunit_subunit)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cppunit-devel(aarch-64) \
 libcppunit_subunit0(aarch-64) \

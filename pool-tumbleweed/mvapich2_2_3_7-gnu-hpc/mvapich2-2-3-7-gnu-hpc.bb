@@ -10,6 +10,7 @@ RPM_HASH = "98cefca805eb900d5753a2a4a1a7329f19aa57c37adc4741b8c27a429fa0c76c0e1c
 
 RPROVIDES:${PN} += "mvapich2_2_3_7-gnu-hpc \
 mvapich2_2_3_7-gnu-hpc(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/bash \
 /usr/bin/perl \

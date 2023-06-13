@@ -17,6 +17,7 @@ perl(Net::OBS::Client::Project) \
 perl(Net::OBS::Client::Roles::BuildStatus) \
 perl(Net::OBS::Client::Roles::Client) \
 perl-Net-OBS-Client"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Config::INI::Reader) \
 perl(Config::Tiny) \

@@ -10,6 +10,7 @@ RPM_HASH = "3a5056e8fff1194bf035035992aca39ddb111738e2264d76d5873a0b4b12957e94b5
 RPROVIDES:${PN} += "ghc-prof(singleton-bool-0.1.6-9MbEj8pBx4EB1jZ66FdPc4) \
 ghc-singleton-bool-prof \
 ghc-singleton-bool-prof(aarch-64)"
+
 RDEPENDS:${PN} += "ghc-prof(base-4.17.1.0) \
 ghc-prof(boring-0.2.1-J8lJX6Vz53r2bssyBwOtpl) \
 ghc-prof(dec-0.0.5-4k85S2UkQTWCpK3j0IuOFm) \

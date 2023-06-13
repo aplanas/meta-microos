@@ -53,6 +53,7 @@ perl(Authen::SASL::Perl::LOGIN) \
 perl(Authen::SASL::Perl::Layer) \
 perl(Authen::SASL::Perl::PLAIN) \
 perl-Authen-SASL"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Digest::HMAC_MD5)"
 

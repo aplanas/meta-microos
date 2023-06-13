@@ -10,6 +10,7 @@ RPM_HASH = "5366f34d00711c205cfb4839aeb5fde3344b78433e393cfba0c9c7ea44a3c1de9c7d
 
 RPROVIDES:${PN} += "ipmiutil-static \
 ipmiutil-static(aarch-64)"
+
 RDEPENDS:${PN} += "ipmiutil"
 
 inherit rpm

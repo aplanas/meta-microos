@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-django-js-asset \
 python3.10dist(django-js-asset) \
 python310-django-js-asset \
 python3dist(django-js-asset)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-Django"
 

@@ -15,6 +15,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(tagpair.sty) \
 texlive-tagpair"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

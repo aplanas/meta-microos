@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(pbsheet.cls) \
 texlive-pbsheet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

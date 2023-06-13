@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-google-cloud-speech \
 python3.10dist(google-cloud-speech) \
 python310-google-cloud-speech \
 python3dist(google-cloud-speech)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-google-api-core \
 python310-proto-plus \

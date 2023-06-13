@@ -49,6 +49,7 @@ libsubid_sss.so(EXPORTED)(64bit) \
 sssd \
 sssd(aarch-64) \
 sssd-client"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 ld-linux-aarch64.so.1()(64bit) \

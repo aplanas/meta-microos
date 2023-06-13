@@ -78,6 +78,7 @@ locale(kmag:uk) \
 locale(kmag:vi) \
 locale(kmag:zh_CN) \
 locale(kmag:zh_TW)"
+
 RDEPENDS:${PN} += "kmag"
 
 inherit rpm

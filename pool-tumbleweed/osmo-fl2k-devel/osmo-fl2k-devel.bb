@@ -10,6 +10,7 @@ RPM_HASH = "86cc19ca80802e778ed0d07b3bf81b0aac47c41e52dcc0a5355657796bc3cd8cfe13
 RPROVIDES:${PN} += "osmo-fl2k-devel \
 osmo-fl2k-devel(aarch-64) \
 pkgconfig(libosmo-fl2k)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 osmo-fl2k"
 

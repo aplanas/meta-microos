@@ -14,6 +14,7 @@ RPM_HASH = "c79c731a26e5524d6e8ebe0bc3e87bde84789a7c613c1a7d322408a38add81534533
 
 RPROVIDES:${PN} += "xsettingsd \
 xsettingsd(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libX11.so.6()(64bit) \

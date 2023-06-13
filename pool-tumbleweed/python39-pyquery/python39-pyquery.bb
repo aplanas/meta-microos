@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pyquery) \
 python39-pyquery \
 python3dist(pyquery)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-cssselect \
 python39-lxml"

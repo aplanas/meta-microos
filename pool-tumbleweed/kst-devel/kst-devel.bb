@@ -10,6 +10,7 @@ RPM_HASH = "26a5bde6927b49fccd9d1bafe57a29f8707bf6f37dab8cb9fd6ffa208f3d65b6f306
 
 RPROVIDES:${PN} += "kst-devel \
 kst-devel(aarch-64)"
+
 RDEPENDS:${PN} += "cmake(Qt5Concurrent) \
 cmake(Qt5Core) \
 cmake(Qt5Network) \

@@ -14,6 +14,7 @@ rubygem(ruby:3.2.0:down) \
 rubygem(ruby:3.2.0:down:5) \
 rubygem(ruby:3.2.0:down:5.3) \
 rubygem(ruby:3.2.0:down:5.3.1)"
+
 RDEPENDS:${PN} += "ruby(abi) \
 rubygem(ruby:3.2.0:addressable:2)"
 

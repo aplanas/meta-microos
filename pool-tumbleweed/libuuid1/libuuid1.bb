@@ -16,6 +16,7 @@ libuuid.so.1(UUID_2.36)(64bit) \
 libuuid1 \
 libuuid1(aarch-64) \
 libuuid__uuid_generate_time_cont"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

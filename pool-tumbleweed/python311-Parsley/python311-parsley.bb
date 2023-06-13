@@ -20,6 +20,7 @@ RPROVIDES:${PN} += "python3.11dist(parsley) \
 python311-Parsley \
 python311-parsley \
 python3dist(parsley)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python(abi) \

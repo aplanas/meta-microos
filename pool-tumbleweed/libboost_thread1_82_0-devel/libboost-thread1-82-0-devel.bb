@@ -10,6 +10,7 @@ RPM_HASH = "02fba5bb447da09c7d34d3ba8dcc2232ae5eaed1e5df29f9bd7cfada858940817088
 RPROVIDES:${PN} += "libboost_thread-devel-impl \
 libboost_thread1_82_0-devel \
 libboost_thread1_82_0-devel(aarch-64)"
+
 RDEPENDS:${PN} += "libboost_chrono1_82_0-devel \
 libboost_date_time1_82_0-devel \
 libboost_headers1_82_0-devel \

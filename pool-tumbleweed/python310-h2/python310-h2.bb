@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "python3-h2 \
 python3.10dist(h2) \
 python310-h2 \
 python3dist(h2)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-hpack \
 python310-hyperframe"

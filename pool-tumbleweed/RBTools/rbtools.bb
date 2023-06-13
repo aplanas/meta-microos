@@ -24,6 +24,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "RBTools \
 python3.10dist(rbtools) \
 python3dist(rbtools)"
+
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python(abi) \
 python3-colorama \

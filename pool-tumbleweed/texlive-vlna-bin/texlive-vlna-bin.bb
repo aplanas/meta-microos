@@ -9,6 +9,7 @@ RPM_HASH = "03cd2a4971f9cfb9eee2e6e9a37b2cba778c3ba44b280497dbb45f25cd4a530a4719
 
 RPROVIDES:${PN} += "texlive-vlna-bin \
 texlive-vlna-bin(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

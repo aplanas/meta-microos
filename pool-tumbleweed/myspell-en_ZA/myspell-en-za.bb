@@ -13,6 +13,7 @@ locale(seamonkey-spellchecker:en_ZA) \
 myspell-dictionary \
 myspell-en_ZA \
 myspell-south-african-english"
+
 RDEPENDS:${PN} += "myspell-dictionaries \
 myspell-en \
 myspell-en_GB \

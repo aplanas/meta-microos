@@ -11,6 +11,7 @@ RPM_HASH = "6b28cd08e40eeee9352bc09b0afc4ae8b766055012932448e89e31ccf2ee5e679a89
 RPROVIDES:${PN} += "python3-PyQt6-NetworkAuth-devel \
 python310-PyQt6-NetworkAuth-devel \
 python310-PyQt6-NetworkAuth-devel(aarch-64)"
+
 RDEPENDS:${PN} += "python310-PyQt6-devel"
 
 inherit rpm

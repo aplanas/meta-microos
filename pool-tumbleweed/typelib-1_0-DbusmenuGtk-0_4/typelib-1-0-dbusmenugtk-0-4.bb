@@ -11,6 +11,7 @@ RPM_HASH = "7601fa0b3899da22a50ba10a3c9b040e0c18a252feda3a84b21cb356c65d0d841ccb
 RPROVIDES:${PN} += "typelib(DbusmenuGtk) \
 typelib-1_0-DbusmenuGtk-0_4 \
 typelib-1_0-DbusmenuGtk-0_4(aarch-64)"
+
 RDEPENDS:${PN} += "libdbusmenu-glib.so.4()(64bit) \
 libdbusmenu-gtk.so.4()(64bit) \
 typelib(Atk) \

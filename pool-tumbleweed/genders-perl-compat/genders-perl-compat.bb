@@ -9,6 +9,7 @@ RPM_HASH = "daca81bf0e32dd1e00eab74cec6c762c1cadfb7d15a13b7be81608f892280e22c5ca
 
 RPROVIDES:${PN} += "genders-perl-compat \
 genders-perl-compat(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/perl"
 
 inherit rpm

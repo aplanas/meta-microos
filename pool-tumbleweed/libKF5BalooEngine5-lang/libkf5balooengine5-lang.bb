@@ -50,6 +50,7 @@ locale(libKF5BalooEngine5:tr) \
 locale(libKF5BalooEngine5:uk) \
 locale(libKF5BalooEngine5:zh_CN) \
 locale(libKF5BalooEngine5:zh_TW)"
+
 RDEPENDS:${PN} += "libKF5BalooEngine5"
 
 inherit rpm

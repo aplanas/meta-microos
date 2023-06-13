@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "libpq.so.5()(64bit) \
 libpq5 \
 libpq5(aarch-64) \
 postgresql-libs:/usr/lib64/libpq.so.5"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -11,6 +11,7 @@ RPROVIDES:${PN} += "perl(Alien::Libxml2) \
 perl(Alien::Libxml2::Install::Files) \
 perl-Alien-Libxml2 \
 perl-Alien-Libxml2(aarch-64)"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Alien::Base)"
 

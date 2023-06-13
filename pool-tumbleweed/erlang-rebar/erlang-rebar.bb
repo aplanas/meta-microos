@@ -21,6 +21,7 @@ rebar \
 rpm_macro(rebar) \
 rpm_macro(rebar_compile) \
 rpm_macro(rebar_set_vsn_cache)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 erlang"

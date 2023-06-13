@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-future \
 python3.10dist(future) \
 python310-future \
 python3dist(future)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python(abi) \

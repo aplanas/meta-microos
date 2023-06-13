@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(bidihl.sty) \
 texlive-bidihl"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

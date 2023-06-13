@@ -14,6 +14,7 @@ RPM_HASH = "1337e5c5384710ba3f43e2cf2c8bced0e9cc186c01a6622739fa767ef85b21c6ca64
 
 RPROVIDES:${PN} += "mathgl-devel-static \
 mathgl-devel-static(aarch-64)"
+
 RDEPENDS:${PN} += "mathgl-devel"
 
 inherit rpm

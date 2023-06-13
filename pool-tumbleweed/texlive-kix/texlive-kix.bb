@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(kix.sty) \
 texlive-kix"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

@@ -11,6 +11,7 @@ RPM_HASH = "e4c1f44fa300f0e3d5251d6fc05a31615150e68d8569a18bc5cc9fc053f8409a3510
 
 RPROVIDES:${PN} += "ceph-mds \
 ceph-mds(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ceph-base \
 ld-linux-aarch64.so.1()(64bit) \

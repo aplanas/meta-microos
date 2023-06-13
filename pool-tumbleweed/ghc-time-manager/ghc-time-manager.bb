@@ -10,6 +10,7 @@ RPM_HASH = "26123f84b4b8b407e4dd2690624788d04c3256867c62c228ce1d7f656f9f996d5af6
 RPROVIDES:${PN} += "ghc-time-manager \
 ghc-time-manager(aarch-64) \
 libHStime-manager-0.0.0-49hD2RcPrUEG8anOiBePCj-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so()(64bit) \
 libHSbase-4.17.1.0-ghc9.4.5.so()(64bit) \
 libHSghc-bignum-1.3-ghc9.4.5.so()(64bit) \

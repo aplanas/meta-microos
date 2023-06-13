@@ -12,6 +12,7 @@ RPM_HASH = "79027ce7f21d878ec9209f5a0bbd37a0f5b6ee1c7ea155c10c4b16050917ad6f62c3
 
 RPROVIDES:${PN} += "xmlstarlet \
 xmlstarlet(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

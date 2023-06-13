@@ -16,6 +16,7 @@ RPROVIDES:${PN} += "libsigrok-devel \
 libsigrok-devel(aarch-64) \
 pkgconfig(libsigrok) \
 pkgconfig(libsigrokcxx)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsigrok4 \
 libsigrokcxx4 \

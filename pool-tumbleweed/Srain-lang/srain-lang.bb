@@ -15,6 +15,7 @@ locale(Srain:nl) \
 locale(Srain:ru) \
 locale(Srain:uk) \
 locale(Srain:zh_CN)"
+
 RDEPENDS:${PN} += "Srain"
 
 inherit rpm

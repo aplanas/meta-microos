@@ -21,6 +21,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(pytools) \
 python39-pytools \
 python3dist(pytools)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-numpy \
 python39-platformdirs \

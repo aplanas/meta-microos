@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "alsa-oss \
 alsa-oss(aarch-64) \
 libalsatoss.so.0()(64bit) \
 libaoss.so.0()(64bit)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \

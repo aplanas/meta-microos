@@ -9,6 +9,7 @@ RPM_HASH = "cdc7d4119bc5ba146bc631535f37375a837a53b485a5ac52f829ee6b4dc7ab10ef34
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chess-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

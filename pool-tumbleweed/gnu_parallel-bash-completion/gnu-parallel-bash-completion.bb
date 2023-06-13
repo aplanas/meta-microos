@@ -11,6 +11,7 @@ RPM_HASH = "caf6ebc94088b423082b46ee130403863957cedb1673341884d8569597072f3f04b1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu_parallel-bash-completion"
+
 RDEPENDS:${PN} += "gnu_parallel"
 
 inherit rpm

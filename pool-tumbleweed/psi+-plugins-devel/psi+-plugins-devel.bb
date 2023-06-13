@@ -9,6 +9,7 @@ RPM_HASH = "eb8e46581fab80db9bbe5e3b94ed81757fb8597a634c07664872c01bdbc4516b8778
 
 RPROVIDES:${PN} += "psi+-plugins-devel \
 psi+-plugins-devel(aarch-64)"
+
 RDEPENDS:${PN} += "psi+"
 
 inherit rpm

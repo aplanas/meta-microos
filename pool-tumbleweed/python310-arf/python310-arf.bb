@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-arf \
 python3.10dist(arf) \
 python310-arf \
 python3dist(arf)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-h5py"
 

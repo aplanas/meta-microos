@@ -13,6 +13,7 @@ pattern-category() \
 pattern-icon() \
 pattern-visible() \
 patterns-wsl-systemd"
+
 RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 systemd"

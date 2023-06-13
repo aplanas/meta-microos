@@ -10,6 +10,7 @@ RPM_HASH = "28fe37cbfa3bc2f82065523c10921b708a7f1a0aab0e8d3eacd7b36d069d84464125
 
 RPROVIDES:${PN} += "csound \
 csound(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

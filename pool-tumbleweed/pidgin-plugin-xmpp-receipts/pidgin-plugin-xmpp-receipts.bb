@@ -10,6 +10,7 @@ RPM_HASH = "287e2dc0b5f342f53d06b119a29ae2f919560df45fd82323e71c927f595cce0d9e9f
 RPROVIDES:${PN} += "pidgin-plugin-xmpp-receipts \
 pidgin-plugin-xmpp-receipts(aarch-64) \
 pidgin-xmpp-receipts"
+
 RDEPENDS:${PN} += "libc.so.6(GLIBC_2.17)(64bit) \
 pidgin"
 

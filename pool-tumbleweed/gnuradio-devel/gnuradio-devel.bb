@@ -60,6 +60,7 @@ pkgconfig(gnuradio-video-sdl) \
 pkgconfig(gnuradio-vocoder) \
 pkgconfig(gnuradio-wavelet) \
 pkgconfig(gnuradio-zeromq)"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gmp-devel \
 gnuradio \

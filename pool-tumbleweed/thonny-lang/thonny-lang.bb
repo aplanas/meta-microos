@@ -44,6 +44,7 @@ locale(thonny:vi_VN) \
 locale(thonny:zh_CN) \
 locale(thonny:zh_TW) \
 thonny-lang"
+
 RDEPENDS:${PN} += "python(abi) \
 thonny"
 

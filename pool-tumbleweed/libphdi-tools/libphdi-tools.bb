@@ -10,6 +10,7 @@ RPM_HASH = "76003add3195655ef42f675ac2be6a2d55b233df73d7aa2c00f0cee808155d914b85
 
 RPROVIDES:${PN} += "libphdi-tools \
 libphdi-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

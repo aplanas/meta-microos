@@ -11,6 +11,7 @@ RPM_HASH = "56f90fb78d8ad4fea2ddfbf54b0b12a24815119d1914c96c37b9d5afa3f738029f33
 RPROVIDES:${PN} += "acct \
 acct(aarch-64) \
 config(acct)"
+
 RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

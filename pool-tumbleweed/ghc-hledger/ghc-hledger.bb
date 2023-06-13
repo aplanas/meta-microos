@@ -10,6 +10,7 @@ RPM_HASH = "e4a72a7a92c07ae5031a007d0a8ccaa60d427e43a49f5fbdbfec554977790f8af0a1
 RPROVIDES:${PN} += "ghc-hledger \
 ghc-hledger(aarch-64) \
 libHShledger-1.28-CMg9iFZMqqfKMlM8sLwqzB-ghc9.4.5.so()(64bit)"
+
 RDEPENDS:${PN} += "libHSDecimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX-ghc9.4.5.so()(64bit) \
 libHSDiff-0.4.1-CiDqeLEcsRQOQjfgZOPVP-ghc9.4.5.so()(64bit) \
 libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so()(64bit) \

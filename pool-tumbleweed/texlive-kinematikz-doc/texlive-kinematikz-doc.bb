@@ -9,6 +9,7 @@ RPM_HASH = "ff5173cd01b44925b1676eaead9cad1d9226d24ced1686f98fd6885d4bf30d8c998e
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kinematikz-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

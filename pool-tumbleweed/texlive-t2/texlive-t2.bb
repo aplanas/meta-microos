@@ -28,6 +28,7 @@ tex(t2b.enc) \
 tex(t2c.enc) \
 tex(x2.enc) \
 texlive-t2"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

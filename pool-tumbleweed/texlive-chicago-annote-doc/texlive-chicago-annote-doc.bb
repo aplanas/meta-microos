@@ -9,6 +9,7 @@ RPM_HASH = "4e03e878fcf763d94fbde776ea3168686d29d13b30337899d73c1dd46ac32e4ef944
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chicago-annote-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

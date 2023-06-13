@@ -13,6 +13,7 @@ RPM_HASH = "1b321984f0e2698ac5408d961b7aa64cec485944d2d702ab48f94692b0ec9ba87940
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua51-messagepack"
+
 RDEPENDS:${PN} += "lua51"
 
 inherit rpm

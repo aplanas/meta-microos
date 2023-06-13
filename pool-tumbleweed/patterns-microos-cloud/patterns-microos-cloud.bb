@@ -14,6 +14,7 @@ pattern-order() \
 pattern-visible() \
 patterns-microos-cloud \
 patterns-microos-cloud(aarch-64)"
+
 RDEPENDS:${PN} += "cloud-init \
 cloud-init-config-MicroOS"
 

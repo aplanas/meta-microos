@@ -15,6 +15,7 @@ RPROVIDES:${PN} += "tex(hyph-zh-latn-pinyin.ec.tex) \
 tex(hyph-zh-latn-pinyin.tex) \
 tex(loadhyph-zh-latn-pinyin.tex) \
 texlive-hyphen-chinese"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

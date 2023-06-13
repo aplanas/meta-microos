@@ -13,6 +13,7 @@ RPM_HASH = "e9ffa279f7647951c405b24b8709bef16cd2b3bd2d866a08acf9eb34c24a6820d9e5
 
 RPROVIDES:${PN} += "presage \
 presage(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libc.so.6(GLIBC_2.34)(64bit) \

@@ -9,6 +9,7 @@ RPM_HASH = "f28e7bf7441b1e8a857a9106783e5869a9dc02ef3b1b41e8b0e81f4671cc75703cd2
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boost-devel"
+
 RDEPENDS:${PN} += "libboost_headers1_82_0-devel"
 
 inherit rpm

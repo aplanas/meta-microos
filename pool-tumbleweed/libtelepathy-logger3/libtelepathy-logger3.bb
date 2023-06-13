@@ -17,6 +17,7 @@ RPM_HASH = "15b92fe20fb633c8363bc772b62fb7c8403afa4e43c9cfd705739f96cfc0395f3925
 RPROVIDES:${PN} += "libtelepathy-logger.so.3()(64bit) \
 libtelepathy-logger3 \
 libtelepathy-logger3(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

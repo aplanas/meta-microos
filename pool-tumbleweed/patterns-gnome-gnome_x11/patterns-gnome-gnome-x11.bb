@@ -18,6 +18,7 @@ pattern-visible() \
 patterns-gnome-gnome_x11 \
 patterns-gnome-gnome_x11(aarch-64) \
 patterns-openSUSE-gnome"
+
 RDEPENDS:${PN} += "gnome-user-share \
 pattern() \
 seahorse \

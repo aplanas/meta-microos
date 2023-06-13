@@ -55,6 +55,7 @@ locale(kwallet-tools:uk) \
 locale(kwallet-tools:vi) \
 locale(kwallet-tools:zh_CN) \
 locale(kwallet-tools:zh_TW)"
+
 RDEPENDS:${PN} += "kwallet-tools"
 
 inherit rpm

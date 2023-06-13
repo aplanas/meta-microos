@@ -19,6 +19,7 @@ RPM_HASH = "f5c8153cd47b5a106e087d195257297f15532337ae8d4a2dd24a9ef726a82d97535c
 RPROVIDES:${PN} += "Rivet-plugins \
 Rivet-plugins(aarch-64) \
 config(Rivet-plugins)"
+
 RDEPENDS:${PN} += "Rivet-devel \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "google-noto-sans-cjk-fonts \
 noto-sans-cjk \
 noto-sans-cjk-fonts"
+
 RDEPENDS:${PN} += "google-noto-sans-jp-fonts \
 google-noto-sans-kr-fonts \
 google-noto-sans-sc-fonts \

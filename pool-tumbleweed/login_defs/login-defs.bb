@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "login_defs \
 login_defs-support-for-pam \
 login_defs-support-for-util-linux"
+
 RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

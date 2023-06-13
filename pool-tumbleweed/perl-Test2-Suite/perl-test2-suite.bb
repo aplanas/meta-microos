@@ -131,6 +131,7 @@ perl(Test2::Workflow::Task) \
 perl(Test2::Workflow::Task::Action) \
 perl(Test2::Workflow::Task::Group) \
 perl-Test2-Suite"
+
 RDEPENDS:${PN} += "perl(:MODULE_COMPAT_5.36.0) \
 perl(Term::Table) \
 perl(Test2::API)"

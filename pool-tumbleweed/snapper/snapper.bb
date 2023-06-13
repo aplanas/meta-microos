@@ -9,6 +9,7 @@ RPM_HASH = "2cd72f3b0fc1044431dba8d435e102db3cf821e6ee1bf66b93477f22f6609f80ca08
 
 RPROVIDES:${PN} += "snapper \
 snapper(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 diffutils \
 ld-linux-aarch64.so.1()(64bit) \

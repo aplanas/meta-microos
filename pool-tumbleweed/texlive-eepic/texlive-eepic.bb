@@ -18,6 +18,7 @@ RPROVIDES:${PN} += "tex(eepic.sty) \
 tex(eepicemu.sty) \
 tex(epic.sty) \
 texlive-eepic"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \

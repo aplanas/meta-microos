@@ -12,6 +12,7 @@ RPM_HASH = "8212b01cbc936be367d4c117fa76d49101124bd0965f33196abf7b8eddb468378030
 
 RPROVIDES:${PN} += "libyui-ncurses-tools \
 libyui-ncurses-tools(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 screen"
 

@@ -13,6 +13,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python3.9dist(scikit-dsp-comm) \
 python39-scikit-dsp-comm \
 python3dist(scikit-dsp-comm)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-matplotlib \
 python39-numpy \

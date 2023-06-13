@@ -12,6 +12,7 @@ RPM_HASH = "edf1d5eb040dc2974b313a8729216ab53f89c41c3c90c6b960385bc8697033974e92
 
 RPROVIDES:${PN} += "python39-gobject-Gdk \
 python39-gobject-Gdk(aarch-64)"
+
 RDEPENDS:${PN} += "python(abi) \
 python39-gobject \
 python39-gobject-cairo \

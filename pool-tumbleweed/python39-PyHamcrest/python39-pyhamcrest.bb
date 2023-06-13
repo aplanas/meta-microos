@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3.9dist(pyhamcrest) \
 python39-PyHamcrest \
 python39-hamcrest \
 python3dist(pyhamcrest)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

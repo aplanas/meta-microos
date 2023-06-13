@@ -15,6 +15,7 @@ RPM_HASH = "272a4ecb1beda0c56cdb0ca9709d3ea9da2ed474aa5f236e6185161469c934bebfa1
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu_parallel"
+
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl"
 

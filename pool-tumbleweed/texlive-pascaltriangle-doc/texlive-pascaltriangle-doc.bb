@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "en) \
 locale(texlive-pascaltriangle-doc:zh \
 texlive-pascaltriangle-doc"
+
 RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

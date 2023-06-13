@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "python3-networkx \
 python3.10dist(networkx) \
 python310-networkx \
 python3dist(networkx)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-matplotlib \
 python310-numpy \

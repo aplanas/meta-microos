@@ -9,6 +9,7 @@ RPM_HASH = "b09b87406fbb0962afdbcc52173e80aa8a1637999a8e67f6e417899dd50ae018fa2d
 
 RPROVIDES:${PN} += "docker-compose-switch \
 docker-compose-switch(aarch-64)"
+
 RDEPENDS:${PN} += "/bin/sh \
 docker \
 docker-compose \

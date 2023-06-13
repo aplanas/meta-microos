@@ -15,6 +15,7 @@ rubygem(ruby:3.2.0:locale) \
 rubygem(ruby:3.2.0:locale:2) \
 rubygem(ruby:3.2.0:locale:2.1) \
 rubygem(ruby:3.2.0:locale:2.1.3)"
+
 RDEPENDS:${PN} += "/usr/bin/ruby.ruby3.2 \
 ruby(abi)"
 

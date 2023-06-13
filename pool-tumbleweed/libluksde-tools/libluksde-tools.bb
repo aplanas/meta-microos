@@ -9,6 +9,7 @@ RPM_HASH = "15cca15ea07cadccf3e3d89e3bea6e9ded2a4b23dc8cc87575c710aef2e1e4b83cb1
 
 RPROVIDES:${PN} += "libluksde-tools \
 libluksde-tools(aarch-64)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libbfio.so.1()(64bit) \

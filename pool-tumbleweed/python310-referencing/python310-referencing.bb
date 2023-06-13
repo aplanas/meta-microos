@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3-referencing \
 python3.10dist(referencing) \
 python310-referencing \
 python3dist(referencing)"
+
 RDEPENDS:${PN} += "python(abi) \
 python310-attrs \
 python310-rpds-py"

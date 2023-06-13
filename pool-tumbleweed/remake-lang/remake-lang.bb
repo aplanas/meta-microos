@@ -39,6 +39,7 @@ locale(remake:zh_CN) \
 locale(remake:zh_TW) \
 remake-lang \
 remake-lang-all"
+
 RDEPENDS:${PN} += "remake"
 
 inherit rpm

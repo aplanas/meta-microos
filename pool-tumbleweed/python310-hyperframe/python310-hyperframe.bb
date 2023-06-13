@@ -14,6 +14,7 @@ RPROVIDES:${PN} += "python3-hyperframe \
 python3.10dist(hyperframe) \
 python310-hyperframe \
 python3dist(hyperframe)"
+
 RDEPENDS:${PN} += "python(abi)"
 
 inherit rpm

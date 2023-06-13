@@ -16,6 +16,7 @@ RPM_HASH = "2ffc3ad70dbe1ca3e9b836b6183fe55af8010a004824938c4c94ba501d8c29f0d416
 
 RPROVIDES:${PN} += "ncompress \
 ncompress(aarch-64)"
+
 RDEPENDS:${PN} += "gzip \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

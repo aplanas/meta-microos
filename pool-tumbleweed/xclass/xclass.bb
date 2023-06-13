@@ -11,6 +11,7 @@ RPM_HASH = "897bf709368f5a171472ce8ec5dd3a5c6813c24bbdea3a6084b112fddeb0acb6fcae
 RPROVIDES:${PN} += "config(xclass) \
 xclass \
 xclass(aarch-64)"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

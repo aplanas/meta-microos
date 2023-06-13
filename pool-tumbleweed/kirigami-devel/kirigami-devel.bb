@@ -11,6 +11,7 @@ RPM_HASH = "737108057cd78a2fe490c0ce28cb50678b1ddd9440cbc3b0edfcec28bc9dcea704a7
 RPROVIDES:${PN} += "cmake(KF5Kirigami) \
 kirigami-devel \
 kirigami-devel(aarch-64)"
+
 RDEPENDS:${PN} += "kirigami"
 
 inherit rpm

@@ -18,6 +18,7 @@ libXvMC-devel(aarch-64) \
 pkgconfig(xvmc) \
 pkgconfig(xvmc-wrapper) \
 xorgproto-devel:/usr/include/X11/extensions/vldXvMC.h"
+
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXvMC1 \
 pkgconfig(videoproto) \

@@ -10,6 +10,7 @@ RPM_HASH = "ef1b97fb00c9a0e4d95f16f726b69479e27b511ea1c1324c7507995e9a31481eb6b0
 RPROVIDES:${PN} += "libzopflipng.so.1()(64bit) \
 libzopflipng1 \
 libzopflipng1(aarch-64)"
+
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \

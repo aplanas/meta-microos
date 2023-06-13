@@ -15,6 +15,7 @@ plplot-fortran-devel \
 plplotf95-devel \
 plplotfortran-devel \
 plplotfortran-devel(aarch-64)"
+
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 gcc-fortran \

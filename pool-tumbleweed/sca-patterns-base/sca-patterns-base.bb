@@ -12,6 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "perl(SDP::Core) \
 perl(SDP::SUSE) \
 sca-patterns-base"
+
 RDEPENDS:${PN} += "bash \
 perl \
 python3-base"

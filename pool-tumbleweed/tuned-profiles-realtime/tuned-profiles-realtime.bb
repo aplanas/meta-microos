@@ -10,6 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config(tuned-profiles-realtime) \
 tuned-profiles-realtime"
+
 RDEPENDS:${PN} += "/bin/bash \
 tuned"
 

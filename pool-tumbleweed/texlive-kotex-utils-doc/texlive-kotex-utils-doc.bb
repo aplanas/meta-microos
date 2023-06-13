@@ -9,6 +9,7 @@ RPM_HASH = "a0b4f4deb8af82ded9a732c3eae8e5f1bdffddd6862824c66ebdf8e4f9694986be01
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kotex-utils-doc"
+
 RDEPENDS:${PN} += ""
 
 inherit rpm

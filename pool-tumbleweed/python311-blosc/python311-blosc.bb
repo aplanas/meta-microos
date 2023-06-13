@@ -12,6 +12,7 @@ RPROVIDES:${PN} += "python3.11dist(blosc) \
 python311-blosc \
 python311-blosc(aarch-64) \
 python3dist(blosc)"
+
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1()(64bit) \
 ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) \
 libblosc.so.1()(64bit) \

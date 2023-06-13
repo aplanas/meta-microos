@@ -16,6 +16,7 @@ portmap \
 rpcbind \
 rpcbind(aarch-64) \
 user(rpc)"
+
 RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/touch \

@@ -11,6 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex(chet.sty) \
 texlive-chet"
+
 RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 ed \
