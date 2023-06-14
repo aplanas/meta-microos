@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Read the MicroOS repository and translate the RPM packages into Yocto packages"""
 import argparse
+import fileinput
 import gzip
 import pathlib
 import re
@@ -158,16 +159,35 @@ def license(lic):
 
 
 def normalize_pkgs(pkgs):
-    prefixes = ["weakremover("]
+    prefixes = [
+        "application(",
+        "metainfo(",
+        "mimehandler(",
+        "weakremover(",
+    ]
 
     def _remove_versioned_symbol(pkg):
-        return re.sub(r"\(.*\..*\)\(", "()(", pkg)
+        return re.sub(r"\(.*\)\(64bit\)", "", pkg)
+
+    def _remove_arch(pkg):
+        return pkg.replace("(aarch-64)", "")
+
+    def _replace_parens(pkg):
+        return re.sub(r"\((.*)\)", r"-\1", pkg)
+
+    def _replace_char(pkg):
+        return pkg.replace("_", "-").replace(":", "-")
+
+    def _normalize(pkg):
+        return _replace_char(
+            _replace_parens(_remove_arch(_remove_versioned_symbol(pkg)))
+        )
 
     def _ignore(pkg):
         return any(pkg.startswith(prefix) for prefix in prefixes)
 
     return " \\\n".join(
-        sorted(set(_remove_versioned_symbol(pkg) for pkg in pkgs if not _ignore(pkg)))
+        sorted(set(_normalize(pkg) for pkg in pkgs if not _ignore(pkg)))
     )
 
 
@@ -228,6 +248,21 @@ def link_recipes(recipes, group_packages, pool):
             (recipes / package).symlink_to(rel_pool / package)
 
 
+def release_version(packages, release_pkg):
+    for pkg in packages:
+        if pkg.name == release_pkg:
+            return pkg.pv
+
+
+def update_distro_version(version):
+    with fileinput.input("./conf/distro/microos.conf", inplace=True) as f:
+        for line in f:
+            if line.startswith("DISTRO_VERSION"):
+                print(f'DISTRO_VERSION = "{version}"')
+            else:
+                print(line, end="")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Syncronize MicroOS repository")
     parser.add_argument(
@@ -242,27 +277,36 @@ if __name__ == "__main__":
         "--pool",
         default="pool-tumbleweed",
         type=pathlib.Path,
-        help="Pool of Yocto packages that represent all Tumbleweed",
+        help="Pool of Yocto packages that represent all Tumbleweed (default: pool-tumbleweed)",
     )
     parser.add_argument(
         "-r",
         "--recipes",
         default="recipes-microos",
         type=pathlib.Path,
-        help="Yocto recipe directory to synchronize",
+        help="Yocto recipe directory to synchronize (default: recipes-microos)",
     )
     parser.add_argument(
         "-g",
         "--group",
         default="recipes-microos/opensuse_microos.group",
         type=pathlib.Path,
-        help="Pool of Yocto packages that represent all Tumbleweed",
+        help=(
+            "Pool of Yocto packages that represent all Tumbleweed "
+            "(default: recipes-microos/opensuse_microos.group"
+        ),
     )
     parser.add_argument(
         "-u",
         "--update-group",
         action="store_true",
         help="Use 'osc' to update the MicroOS group",
+    )
+    parser.add_argument(
+        "-k",
+        "--release-pkg",
+        default="MicroOS-release",
+        help="Package that contains the release version (default: MicroOS-release)",
     )
 
     args = parser.parse_args()
@@ -277,3 +321,9 @@ if __name__ == "__main__":
     group_packages = generate_group_package_list(args.group)
     unlink_recipes(args.recipes)
     link_recipes(args.recipes, group_packages, args.pool)
+
+    version = release_version(packages, args.release_pkg)
+    if version:
+        update_distro_version(version)
+    else:
+        print("Release version not found")
