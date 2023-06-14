@@ -16,8 +16,7 @@ python3.10dist-azure-storage-queue \
 python310-azure-storage-queue \
 python3dist-azure-storage-queue"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-nspkg \

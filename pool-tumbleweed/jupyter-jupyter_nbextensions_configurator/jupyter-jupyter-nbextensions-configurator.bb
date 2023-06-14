@@ -16,8 +16,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-nbextensions-configurator"
 
-RDEPENDS:${PN} += "-python39-jupyter-nbextensions-configurator = 0.6.3 or python311-jupyter-nbextensions-configurator = 0.6.3 or python310-jupyter-nbextensions-configurator = 0.6.3 \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
 jupyter-jupyter-contrib-core \
 jupyter-jupyter-core \
 jupyter-notebook"

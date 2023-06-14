@@ -11,8 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-cargo-vendor"
 
-RDEPENDS:${PN} += "-cargo or rustup \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 gzip \
 python3 \
 python3-zstandard \

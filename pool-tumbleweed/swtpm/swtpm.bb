@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "config-swtpm \
 libswtpm-libtpms.so.0 \
 swtpm"
 
-RDEPENDS:${PN} += "-swtpm-selinux if selinux-policy-base \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
 /usr/bin/env \
 iproute2 \

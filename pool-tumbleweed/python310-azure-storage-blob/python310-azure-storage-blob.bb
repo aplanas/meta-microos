@@ -22,8 +22,7 @@ python3.10dist-azure-storage-blob \
 python310-azure-storage-blob \
 python3dist-azure-storage-blob"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-core \
 python310-azure-nspkg \

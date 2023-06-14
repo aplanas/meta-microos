@@ -13,8 +13,7 @@ python3.10dist-flufl.lock \
 python310-flufl.lock \
 python3dist-flufl.lock"
 
-RDEPENDS:${PN} += "-python310-typing-extensions if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-atpublic \
 python310-psutil"
 

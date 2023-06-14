@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "python3.11dist-libcst \
 python311-libcst \
 python3dist-libcst"
 
-RDEPENDS:${PN} += "-python311-dataclasses if python311-base < 3.7 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
 python-abi \
 python311-PyYAML \

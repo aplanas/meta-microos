@@ -27,8 +27,7 @@ libwireplumber-module-si-standard-link.so \
 pipewire-session-manager \
 wireplumber"
 
-RDEPENDS:${PN} += "-wireplumber-audio if (pipewire-pulseaudio or pipewire-jack) \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

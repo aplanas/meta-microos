@@ -13,8 +13,7 @@ libecryptfs-key-mod-passphrase.so \
 libecryptfs-key-mod-pkcs11-helper.so \
 libecryptfs-key-mod-tspi.so"
 
-RDEPENDS:${PN} += "-kmod(ecryptfs.ko) if kernel \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

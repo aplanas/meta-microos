@@ -49,9 +49,7 @@ perl-Kanku--Cli--stopvm \
 perl-Kanku--Cli--up \
 perl-Kanku--Cli--urlwrapper"
 
-RDEPENDS:${PN} += "-perl(Passwd--Keyring--Gnome) if gnome-keyring \
--perl(Passwd--Keyring--KDEWallet) if kwalletd5 \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/perl \
 kanku-common \

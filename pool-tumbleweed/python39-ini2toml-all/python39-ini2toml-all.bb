@@ -11,7 +11,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "python39-ini2toml-all"
 
 RDEPENDS:${PN} += "-python39-configupdater >= 3.0.1 with python39-configupdater < 4 \
--python39-importlib-metadata if python39-base < 3.8 \
 -python39-tomli-w >= 0.4.0 with python39-tomli-w < 2 \
 -python39-tomlkit >= 0.10 with python39-tomlkit < 2 \
 python39-ini2toml"

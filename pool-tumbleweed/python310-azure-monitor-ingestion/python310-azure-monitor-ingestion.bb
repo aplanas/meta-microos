@@ -17,8 +17,7 @@ python3.10dist-azure-monitor-ingestion \
 python310-azure-monitor-ingestion \
 python3dist-azure-monitor-ingestion"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-monitor-nspkg \
 python310-azure-nspkg \

@@ -14,11 +14,7 @@ pattern-order- \
 pattern-visible- \
 patterns-microos-desktop-kde"
 
-RDEPENDS:${PN} += "-gtk2-metatheme-breeze if gtk2 \
--gtk3-metatheme-breeze if gtk3 \
--gtk4-metatheme-breeze if gtk4 \
--power-profiles-daemon or tlp \
-NetworkManager-openvpn \
+RDEPENDS:${PN} += "NetworkManager-openvpn \
 baloo5-file \
 bluedevil5 \
 breeze5-wallpapers \

@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.9dist-azure-mgmt-policyinsights \
 python39-azure-mgmt-policyinsights \
 python3dist-azure-mgmt-policyinsights"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

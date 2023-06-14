@@ -21,8 +21,7 @@ python3.10dist-azure-core \
 python310-azure-core \
 python3dist-azure-core"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-aiohttp \
 python310-azure-nspkg \
 python310-requests"

@@ -18,9 +18,7 @@ RPROVIDES:${PN} += "python3.9dist-awkward \
 python39-awkward \
 python3dist-awkward"
 
-RDEPENDS:${PN} += "-python39-importlib-resources if python39-base < 3.9 \
--python39-typing-extensions >= 4.1.0 if python39-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-awkward-cpp \
 python39-numpy \
 python39-packaging"

@@ -10,8 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-installation"
 
-RDEPENDS:${PN} += "-yast2-x11 >= 4.5.1 if libyui-qt \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/env \
 /usr/bin/mkdir \

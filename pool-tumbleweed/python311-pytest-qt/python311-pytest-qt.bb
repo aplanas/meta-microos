@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.11dist-pytest-qt \
 python311-pytest-qt \
 python3dist-pytest-qt"
 
-RDEPENDS:${PN} += "-python311-qt5 or python311-PyQt6 \
-bitstream-vera-fonts \
+RDEPENDS:${PN} += "bitstream-vera-fonts \
 python-abi \
 python311-pytest"
 

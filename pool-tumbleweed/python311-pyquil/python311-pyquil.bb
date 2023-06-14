@@ -20,8 +20,7 @@ RPROVIDES:${PN} += "python3.11dist-pyquil \
 python311-pyquil \
 python3dist-pyquil"
 
-RDEPENDS:${PN} += "-python311-importlib-metadata >= 3.7.3 if python311-base < 3.8 \
--python311-qcs-api-client >= 0.21 with python311-qcs-api-client < 0.22.0 \
+RDEPENDS:${PN} += "-python311-qcs-api-client >= 0.21 with python311-qcs-api-client < 0.22.0 \
 python-abi \
 python311-Deprecated \
 python311-lark \

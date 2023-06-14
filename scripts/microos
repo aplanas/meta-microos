@@ -183,8 +183,14 @@ def normalize_pkgs(pkgs):
             _replace_parens(_remove_arch(_remove_versioned_symbol(pkg)))
         )
 
-    def _ignore(pkg):
+    def _ignore_prefix(pkg):
         return any(pkg.startswith(prefix) for prefix in prefixes)
+
+    def _ignore_bool(pkg):
+        return any(f" {cond} " in pkg for cond in ("if", "or"))
+
+    def _ignore(pkg):
+        return _ignore_prefix(pkg) or _ignore_bool(pkg)
 
     return " \\\n".join(
         sorted(set(_normalize(pkg) for pkg in pkgs if not _ignore(pkg)))

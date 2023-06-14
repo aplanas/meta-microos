@@ -20,8 +20,7 @@ python311-sip-impl \
 python311-sip6-devel \
 python3dist-sip"
 
-RDEPENDS:${PN} += "-python311-tomli if python311-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 c++-compiler \
 ld-linux-aarch64.so.1 \

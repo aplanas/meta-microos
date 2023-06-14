@@ -15,10 +15,7 @@ python311-ipdb \
 python311-jupyter-ipdb \
 python3dist-ipdb"
 
-RDEPENDS:${PN} += "-python311-ipython >= 7.16.3 if python311-base < 3.7 \
--python311-ipython >= 7.31.1 if python311-base >= 3.7 \
--python311-tomli if python311-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python-abi \
 python311-decorator \

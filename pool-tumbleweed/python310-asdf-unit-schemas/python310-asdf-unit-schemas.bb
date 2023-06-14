@@ -13,8 +13,7 @@ python3.10dist-asdf-unit-schemas \
 python310-asdf-unit-schemas \
 python3dist-asdf-unit-schemas"
 
-RDEPENDS:${PN} += "-python310-importlib-resources >= 3 if python310-base < 3.9 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-asdf-standard"
 
 inherit rpm

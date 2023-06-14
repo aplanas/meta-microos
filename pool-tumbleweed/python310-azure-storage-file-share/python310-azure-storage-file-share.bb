@@ -25,8 +25,7 @@ python3.10dist-azure-storage-file-share \
 python310-azure-storage-file-share \
 python3dist-azure-storage-file-share"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.0.1 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-storage-nspkg \

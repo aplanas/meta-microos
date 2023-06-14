@@ -24,8 +24,7 @@ raspberrypi-firmware-config-rpi0w \
 raspberrypi-firmware-config-rpi2 \
 raspberrypi-firmware-config-rpi3"
 
-RDEPENDS:${PN} += "-raspberrypi-firmware-extra or raspberrypi-firmware-extra-pi4 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 raspberrypi-firmware"
 
 inherit rpm

@@ -15,8 +15,7 @@ pattern-order- \
 pattern-visible- \
 patterns-microos-base-packagekit"
 
-RDEPENDS:${PN} += "-libdnf-repo-config-zypp or rpm-repos-openSUSE \
-PackageKit \
+RDEPENDS:${PN} += "PackageKit \
 PackageKit-branding-openSUSE \
 libdnf-plugin-txnupd \
 pattern-"

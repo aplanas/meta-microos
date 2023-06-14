@@ -15,8 +15,7 @@ pattern-order- \
 pattern-visible- \
 patterns-microos-cockpit"
 
-RDEPENDS:${PN} += "-cockpit-packagekit if patterns-microos-base-packagekit \
-cockpit-podman \
+RDEPENDS:${PN} += "cockpit-podman \
 cockpit-system"
 
 inherit rpm

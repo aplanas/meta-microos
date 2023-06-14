@@ -23,9 +23,7 @@ python310-pep257 \
 python310-pydocstyle \
 python3dist-pydocstyle"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata >= 2 if python310-base < 3.8 \
--python310-tomli >= 1.2.3 if python310-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python-abi \
 python310-snowballstemmer \

@@ -14,8 +14,7 @@ python311-jupyter-qtconsole \
 python311-qtconsole \
 python3dist-qtconsole"
 
-RDEPENDS:${PN} += "-python311-qt5 or python311-pyside2 or python311-PyQt6 or python311-pyside6 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \
 python-abi \

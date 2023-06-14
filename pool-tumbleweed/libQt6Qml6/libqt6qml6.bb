@@ -10,8 +10,7 @@ RPM_HASH = "089c9019a3ad4182a2a3b82ff6f9370ac7882af46048fce3bf3702a2d4811dd25129
 RPROVIDES:${PN} += "libQt6Qml.so.6 \
 libQt6Qml6"
 
-RDEPENDS:${PN} += "-qml-autoreqprov if rpm-build \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6Network.so.6 \

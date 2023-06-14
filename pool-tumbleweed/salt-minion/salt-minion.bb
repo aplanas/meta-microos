@@ -11,8 +11,7 @@ RPM_HASH = "0221097ebbb79c11dd2e67e189513074e3c789e416f2d53130938a4858387137c280
 RPROVIDES:${PN} += "config-salt-minion \
 salt-minion"
 
-RDEPENDS:${PN} += "-salt-transactional-update = 3006.0-1.1 if read-only-root-fs \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/mkdir \
 /usr/bin/python3 \
 /usr/bin/touch \

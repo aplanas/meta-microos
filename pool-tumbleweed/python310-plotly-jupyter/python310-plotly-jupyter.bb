@@ -21,8 +21,7 @@ python3-plotly-jupyter \
 python310-jupyterlab-plotly \
 python310-plotly-jupyter"
 
-RDEPENDS:${PN} += "-python310-jupyterlab >= 3 or python310-notebook >= 5.3 \
-jupyter-plotly \
+RDEPENDS:${PN} += "jupyter-plotly \
 python-abi \
 python310-ipywidgets \
 python310-plotly"

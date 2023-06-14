@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-mgmt-resourcemover \
 python311-azure-mgmt-resourcemover \
 python3dist-azure-mgmt-resourcemover"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

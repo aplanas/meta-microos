@@ -15,8 +15,7 @@ pattern-visible- \
 patterns-caasp-container-runtime \
 patterns-containers-container-runtime"
 
-RDEPENDS:${PN} += "-distrobox if patterns-microos-desktop-common else toolbox \
-containers-systemd \
+RDEPENDS:${PN} += "containers-systemd \
 pattern- \
 podman \
 podman-cni-config"

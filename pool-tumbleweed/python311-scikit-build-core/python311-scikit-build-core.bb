@@ -24,11 +24,7 @@ RPROVIDES:${PN} += "python3.11dist-scikit-build-core \
 python311-scikit-build-core \
 python3dist-scikit-build-core"
 
-RDEPENDS:${PN} += "-python311-exceptiongroup if python311-base < 3.11 \
--python311-importlib-resources >= 1.3 if python311-base < 3.9 \
--python311-tomli >= 1.1 if python311-base < 3.11 \
--python311-typing-extensions >= 3.10.0 if python311-base < 3.8 \
-cmake \
+RDEPENDS:${PN} += "cmake \
 python-abi \
 python311-packaging"
 

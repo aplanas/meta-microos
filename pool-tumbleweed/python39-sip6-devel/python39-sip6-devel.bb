@@ -20,8 +20,7 @@ python39-sip-impl \
 python39-sip6-devel \
 python3dist-sip"
 
-RDEPENDS:${PN} += "-python39-tomli if python39-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 c++-compiler \
 ld-linux-aarch64.so.1 \

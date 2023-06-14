@@ -21,8 +21,7 @@ python3.11dist-docker-compose \
 python311-docker-compose \
 python3dist-docker-compose"
 
-RDEPENDS:${PN} += "-docker or podman >= 3.0 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python-abi \
 python311-PySocks \

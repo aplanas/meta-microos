@@ -12,9 +12,7 @@ RPROVIDES:${PN} += "rpm-/usr/bin/rpmbuild \
 rpm-build \
 rpmbuild"
 
-RDEPENDS:${PN} += "-rpm-build-perl if perl-base \
--rpm-build-python if python3-base \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/gzip \
 binutils \

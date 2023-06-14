@@ -15,8 +15,7 @@ RPROVIDES:${PN} += "python3.11dist-jupyter-server \
 python311-jupyter-server \
 python3dist-jupyter-server"
 
-RDEPENDS:${PN} += "-(python311-jupyter-core >= 4.12 with python311-jupyter-core < 5.0) or python311-jupyter-core >= 5.1 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 alts \
 python-abi \

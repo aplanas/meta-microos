@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "config-nfs-kernel-server \
 nfs-kernel-server \
 nfs-utils"
 
-RDEPENDS:${PN} += "-kmod(nfsd.ko) if kernel \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \

@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "config-roundcubemail \
 roundcube-framework \
 roundcubemail"
 
-RDEPENDS:${PN} += "-php-mysql or php-pgsql \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/env \
 /usr/bin/php \
 mod-php-any \

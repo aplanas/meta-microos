@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "python3.9dist-libcst \
 python39-libcst \
 python3dist-libcst"
 
-RDEPENDS:${PN} += "-python39-dataclasses if python39-base < 3.7 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
 python-abi \
 python39-PyYAML \

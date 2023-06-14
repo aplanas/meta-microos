@@ -14,9 +14,7 @@ python3.10dist-pyproject-api \
 python310-pyproject-api \
 python3dist-pyproject-api"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata >= 6 if python3-base < 3.8 \
--python310-tomli >= 2.0.1 if python3-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-packaging"
 
 inherit rpm

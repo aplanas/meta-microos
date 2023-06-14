@@ -14,9 +14,7 @@ RPM_HASH = "c29947d66de5b36757be96c087800edb800e38114a7c98fba6cf3923e5bde2ac90b5
 
 RPROVIDES:${PN} += "musescore"
 
-RDEPENDS:${PN} += "-alsa-plugins-pulse if pulseaudio \
--pipewire-alsa if pipewire \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \

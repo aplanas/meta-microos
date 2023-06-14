@@ -21,8 +21,7 @@ RPROVIDES:${PN} += "python3.9dist-azure-storage-blob \
 python39-azure-storage-blob \
 python3dist-azure-storage-blob"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 4.0.1 if python39-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-core \
 python39-azure-nspkg \

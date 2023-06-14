@@ -11,8 +11,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeos-firstboot"
 
-RDEPENDS:${PN} += "-/usr/bin/nmtui if NetworkManager \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 dialog \
 iproute2 \

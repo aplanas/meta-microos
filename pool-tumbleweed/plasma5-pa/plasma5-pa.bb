@@ -12,8 +12,7 @@ plasma5-pa \
 qt5qmlimport-org.kde.plasma.private.volume.0 \
 qt5qmlimport-org.kde.plasma.private.volume.1"
 
-RDEPENDS:${PN} += "-pulseaudio-module-x11 or pipewire-pulseaudio \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 kirigami2 \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

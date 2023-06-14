@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "/sbin/service \
 aaa-base \
 config-aaa-base"
 
-RDEPENDS:${PN} += "-glibc >= 2.30 if glibc \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/mktemp \
 /bin/sh \
 /usr/bin/cat \

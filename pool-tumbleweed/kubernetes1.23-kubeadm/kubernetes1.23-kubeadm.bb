@@ -11,9 +11,7 @@ RPM_HASH = "2fdfb372c81b1827e0a33a41962416e7570ba2395d2b618b3575e7ec303d710e37fc
 RPROVIDES:${PN} += "kubernetes-kubeadm-provider \
 kubernetes1.23-kubeadm"
 
-RDEPENDS:${PN} += "-kmod(br-netfilter.ko) if kernel \
--kubernetes1.23-kubelet or kubernetes1.22-kubelet \
-cri-runtime \
+RDEPENDS:${PN} += "cri-runtime \
 cri-tools \
 ebtables \
 ethtool \

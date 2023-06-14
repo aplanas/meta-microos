@@ -24,8 +24,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-storage-file-share \
 python311-azure-storage-file-share \
 python3dist-azure-storage-file-share"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.0.1 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-nspkg \
 python311-azure-storage-nspkg \

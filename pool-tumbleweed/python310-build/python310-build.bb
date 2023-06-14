@@ -14,9 +14,7 @@ python3.10dist-build \
 python310-build \
 python3dist-build"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata >= 0.22 if python310-base < 3.8 \
--python310-tomli >= 1.1.0 if python310-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python-abi \
 python310-packaging \

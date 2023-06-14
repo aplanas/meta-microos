@@ -10,8 +10,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-ini2toml-lite"
 
-RDEPENDS:${PN} += "-python311-importlib-metadata if python311-base < 3.8 \
--python311-tomli-w >= 0.4.0 with python311-tomli-w < 2 \
+RDEPENDS:${PN} += "-python311-tomli-w >= 0.4.0 with python311-tomli-w < 2 \
 python311-ini2toml"
 
 inherit rpm

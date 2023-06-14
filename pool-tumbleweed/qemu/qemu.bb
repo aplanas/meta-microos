@@ -16,8 +16,7 @@ RPM_HASH = "8fb56aa95c17b6f8f1de1685109671df2d92143d31967def9a8b9136492f362a26ab
 
 RPROVIDES:${PN} += "qemu"
 
-RDEPENDS:${PN} += "-qemu-guest-agent = 8.0.2 if qemu-guest-agent \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 acl \
 coreutils \

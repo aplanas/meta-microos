@@ -27,8 +27,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-weblate \
 weblate"
 
-RDEPENDS:${PN} += "-(apache2 and apache2-mod-wsgi) or (nginx and uwsgi) \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/python3 \
 borgbackup \

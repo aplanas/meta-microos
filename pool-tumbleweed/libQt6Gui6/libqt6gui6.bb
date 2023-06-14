@@ -47,8 +47,7 @@ libqvnc.so \
 libqxcb-egl-integration.so \
 libqxcb.so"
 
-RDEPENDS:${PN} += "-qt6-wayland if xwayland \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGLESv2.so.2 \

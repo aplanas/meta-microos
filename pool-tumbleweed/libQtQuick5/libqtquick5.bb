@@ -47,8 +47,7 @@ libsharedimageplugin.so \
 libwindowplugin.so \
 libworkerscriptplugin.so"
 
-RDEPENDS:${PN} += "-qml-autoreqprov if rpm-build \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

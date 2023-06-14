@@ -19,9 +19,7 @@ python3.10dist-awkward \
 python310-awkward \
 python3dist-awkward"
 
-RDEPENDS:${PN} += "-python310-importlib-resources if python310-base < 3.9 \
--python310-typing-extensions >= 4.1.0 if python310-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-awkward-cpp \
 python310-numpy \
 python310-packaging"

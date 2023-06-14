@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "libsushi-1.0.so \
 sushi \
 typelib-Sushi"
 
-RDEPENDS:${PN} += "-typelib(LOKDocView) if libreoffice \
-/usr/bin/gjs \
+RDEPENDS:${PN} += "/usr/bin/gjs \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \

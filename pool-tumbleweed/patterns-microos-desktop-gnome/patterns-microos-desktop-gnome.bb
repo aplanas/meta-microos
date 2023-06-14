@@ -14,8 +14,7 @@ pattern-order- \
 pattern-visible- \
 patterns-microos-desktop-gnome"
 
-RDEPENDS:${PN} += "-power-profiles-daemon or tlp \
-NetworkManager-openconnect-gnome \
+RDEPENDS:${PN} += "NetworkManager-openconnect-gnome \
 NetworkManager-openvpn-gnome \
 adobe-sourcecodepro-fonts \
 adobe-sourcesanspro-fonts \

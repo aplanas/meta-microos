@@ -19,8 +19,7 @@ RPROVIDES:${PN} += "python3.11dist-osc-tiny \
 python311-osc-tiny \
 python3dist-osc-tiny"
 
-RDEPENDS:${PN} += "-python311-cached-property if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-PyYAML \
 python311-lxml \
 python311-python-dateutil \

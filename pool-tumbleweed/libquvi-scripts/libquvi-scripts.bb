@@ -11,7 +11,6 @@ RPM_HASH = "91a7edc9bfa15193ce5708b15c1449e620409c6ad742c143e6d0d9ab679e21b05824
 
 RPROVIDES:${PN} += "libquvi-scripts"
 
-RDEPENDS:${PN} += "-lua53-luasocket if liblua5-3-5 \
--lua54-luasocket if liblua5-4-5"
+RDEPENDS:${PN} += ""
 
 inherit rpm

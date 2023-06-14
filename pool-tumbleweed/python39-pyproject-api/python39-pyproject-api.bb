@@ -13,9 +13,7 @@ RPROVIDES:${PN} += "python3.9dist-pyproject-api \
 python39-pyproject-api \
 python3dist-pyproject-api"
 
-RDEPENDS:${PN} += "-python39-importlib-metadata >= 6 if python3-base < 3.8 \
--python39-tomli >= 2.0.1 if python3-base < 3.11 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-packaging"
 
 inherit rpm

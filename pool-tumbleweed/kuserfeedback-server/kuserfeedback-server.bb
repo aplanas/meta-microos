@@ -11,7 +11,6 @@ RPM_HASH = "0459bcb525fccdbb90b80e361036ec43245edda9d893933fecf1ecf4944a842d8dd3
 
 RPROVIDES:${PN} += "kuserfeedback-server"
 
-RDEPENDS:${PN} += "-php-sqlite or php-mysql or php-pgsql \
-php"
+RDEPENDS:${PN} += "php"
 
 inherit rpm

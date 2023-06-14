@@ -14,11 +14,7 @@ RPM_HASH = "a964083b6f524ac4fa61170d8b02e492a72b227efc80e790c304cae2909806f577b6
 
 RPROVIDES:${PN} += "multipath-tools"
 
-RDEPENDS:${PN} += "-kmod(dm-multipath.ko) if kernel \
--kmod(scsi-dh-alua.ko) if kernel \
--kmod(scsi-dh-emc.ko) if kernel \
--kmod(scsi-dh-rdac.ko) if kernel \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 coreutils \
 device-mapper \
 grep \

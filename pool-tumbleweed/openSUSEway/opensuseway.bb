@@ -11,8 +11,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-openSUSEway \
 openSUSEway"
 
-RDEPENDS:${PN} += "-gtkgreet or wlgreet \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 NetworkManager \
 aaa-base \
 bzip2 \

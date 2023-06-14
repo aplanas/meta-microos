@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-terminals"
 
-RDEPENDS:${PN} += "-python39-jupyter-server-terminals = 0.4.4 or python311-jupyter-server-terminals = 0.4.4 or python310-jupyter-server-terminals = 0.4.4"
+RDEPENDS:${PN} += ""
 
 inherit rpm

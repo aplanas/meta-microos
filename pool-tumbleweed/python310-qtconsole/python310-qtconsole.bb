@@ -17,8 +17,7 @@ python310-jupyter-qtconsole \
 python310-qtconsole \
 python3dist-qtconsole"
 
-RDEPENDS:${PN} += "-python310-qt5 or python310-pyside2 or python310-PyQt6 or python310-pyside6 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
 python-abi \

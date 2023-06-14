@@ -16,8 +16,7 @@ python3.10dist-jupyter-console \
 python310-jupyter-console \
 python3dist-jupyter-console"
 
-RDEPENDS:${PN} += "-(python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) or python310-jupyter-core >= 5.1 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 jupyter-jupyter-console \
 python-abi \

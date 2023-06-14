@@ -13,8 +13,7 @@ libgcr-3-1 \
 libgcr-base-3.so.1 \
 libgcr-ui-3.so.1"
 
-RDEPENDS:${PN} += "-gcr3-ssh-askpass if gnome-keyring \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 gcr-data \
 gcr-prompter \
 ld-linux-aarch64.so.1 \

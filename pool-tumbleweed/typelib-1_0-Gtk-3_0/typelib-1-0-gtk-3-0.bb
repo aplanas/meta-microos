@@ -16,11 +16,7 @@ typelib-Gdk \
 typelib-GdkX11 \
 typelib-Gtk"
 
-RDEPENDS:${PN} += "-python3-gobject-Gdk if python3-gobject \
--python310-gobject-Gdk if python310-gobject \
--python38-gobject-Gdk if python38-gobject \
--python39-gobject-Gdk if python39-gobject \
-libgdk-3.so.0 \
+RDEPENDS:${PN} += "libgdk-3.so.0 \
 libgtk-3.so.0 \
 typelib-Atk \
 typelib-GLib \

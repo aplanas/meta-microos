@@ -20,8 +20,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-keyvault-keys \
 python311-azure-keyvault-keys \
 python3dist-azure-keyvault-keys"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.0.1 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-core \
 python311-azure-keyvault-nspkg \

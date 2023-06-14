@@ -12,8 +12,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "cepces \
 config-cepces"
 
-RDEPENDS:${PN} += "-cepces-selinux = 0.3.7 if selinux-policy \
-cepces-certmonger \
+RDEPENDS:${PN} += "cepces-certmonger \
 python3-cepces"
 
 inherit rpm

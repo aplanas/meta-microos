@@ -10,7 +10,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "v4l2loopback-autoload"
 
-RDEPENDS:${PN} += "-kmod(v4l2loopback.ko) if kernel \
-systemd"
+RDEPENDS:${PN} += "systemd"
 
 inherit rpm

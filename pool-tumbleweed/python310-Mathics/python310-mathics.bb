@@ -14,8 +14,7 @@ python310-Mathics \
 python310-Mathics3 \
 python3dist-mathics3"
 
-RDEPENDS:${PN} += "-python310-Pillow >= 9.2 if python310-base >= 3.7 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

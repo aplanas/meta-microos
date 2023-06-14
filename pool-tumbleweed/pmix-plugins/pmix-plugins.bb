@@ -9,8 +9,7 @@ RPM_HASH = "4efb42c3022194321f199d5ff1233180d86d8080c316a4e8a0bb18e8e9bd68542eea
 
 RPROVIDES:${PN} += "pmix-plugins"
 
-RDEPENDS:${PN} += "-pmix-plugin-munge = 3.2.3 if munge \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevent-core-2.1.so.7 \
 libmca-common-dstore.so.1 \

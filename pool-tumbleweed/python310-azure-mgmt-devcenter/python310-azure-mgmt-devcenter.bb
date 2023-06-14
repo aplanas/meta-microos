@@ -15,8 +15,7 @@ python3.10dist-azure-mgmt-devcenter \
 python310-azure-mgmt-devcenter \
 python3dist-azure-mgmt-devcenter"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

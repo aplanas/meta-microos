@@ -16,11 +16,8 @@ python39-aiohttp \
 python3dist-aiohttp"
 
 RDEPENDS:${PN} += "-python39-async-timeout >= 4.0 with python39-async-timeout < 5 \
--python39-asynctest = 0.13.0 if python39-base < 3.8 \
 -python39-charset-normalizer >= 2.0 with python39-charset-normalizer < 4 \
--python39-idna-ssl >= 1.0 if python39-base < 3.7 \
 -python39-multidict >= 4.5 with python39-multidict < 7 \
--python39-typing-extensions >= 3.7.4 if python39-base < 3.8 \
 -python39-yarl >= 1.0 with python39-yarl < 2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-purview-sharing \
 python311-azure-purview-sharing \
 python3dist-azure-purview-sharing"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-nspkg \
 python311-azure-purview-nspkg \

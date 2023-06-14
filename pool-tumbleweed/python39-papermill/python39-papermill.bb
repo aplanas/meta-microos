@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "python3.9dist-papermill \
 python39-papermill \
 python3dist-papermill"
 
-RDEPENDS:${PN} += "-python39-typing-extensions if python39-azure-storage-blob \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python-abi \
 python39-PyYAML \

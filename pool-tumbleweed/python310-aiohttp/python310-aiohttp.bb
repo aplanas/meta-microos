@@ -17,11 +17,8 @@ python310-aiohttp \
 python3dist-aiohttp"
 
 RDEPENDS:${PN} += "-python310-async-timeout >= 4.0 with python310-async-timeout < 5 \
--python310-asynctest = 0.13.0 if python310-base < 3.8 \
 -python310-charset-normalizer >= 2.0 with python310-charset-normalizer < 4 \
--python310-idna-ssl >= 1.0 if python310-base < 3.7 \
 -python310-multidict >= 4.5 with python310-multidict < 7 \
--python310-typing-extensions >= 3.7.4 if python310-base < 3.8 \
 -python310-yarl >= 1.0 with python310-yarl < 2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

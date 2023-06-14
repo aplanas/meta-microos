@@ -16,8 +16,7 @@ python3.10dist-azure-data-tables \
 python310-azure-data-tables \
 python3dist-azure-data-tables"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-data-nspkg \
 python310-azure-nspkg \

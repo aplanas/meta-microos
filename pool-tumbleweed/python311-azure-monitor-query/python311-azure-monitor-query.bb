@@ -21,8 +21,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-monitor-query \
 python311-azure-monitor-query \
 python3dist-azure-monitor-query"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-monitor-nspkg \
 python311-azure-nspkg \

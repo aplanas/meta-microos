@@ -19,8 +19,7 @@ python3.10dist-sphinx-theme-builder \
 python310-sphinx-theme-builder \
 python3dist-sphinx-theme-builder"
 
-RDEPENDS:${PN} += "-python310-tomli if python310-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python-abi \
 python310-click \

@@ -17,8 +17,7 @@ python310-azure-synapse \
 python310-azure-synapse-artifacts \
 python3dist-azure-synapse-artifacts"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-synapse-nspkg \

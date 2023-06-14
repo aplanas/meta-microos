@@ -12,9 +12,7 @@ RPM_HASH = "5c2a3638c84653332424bae77b8b4911d99da062417ae2c5cad819e0d32f133a069d
 
 RPROVIDES:${PN} += "cockpit-ws"
 
-RDEPENDS:${PN} += "-policycoreutils if selinux-policy-targeted \
--selinux-policy >= 20230425-1.1 if selinux-policy-targeted \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 distribution-logos \
 glib-networking \

@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "python3.11dist-papermill \
 python311-papermill \
 python3dist-papermill"
 
-RDEPENDS:${PN} += "-python311-typing-extensions if python311-azure-storage-blob \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python-abi \
 python311-PyYAML \

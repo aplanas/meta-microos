@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.9dist-azure-mgmt-datafactory \
 python39-azure-mgmt-datafactory \
 python3dist-azure-mgmt-datafactory"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-mgmt-nspkg \

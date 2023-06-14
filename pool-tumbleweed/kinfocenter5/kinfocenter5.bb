@@ -10,8 +10,7 @@ RPM_HASH = "4d1220e1bd609b5d01f8fc534defbaca61503cd27539ca76108c49829e4ad20b347b
 RPROVIDES:${PN} += "kinfocenter5 \
 libKInfoCenterInternal.so"
 
-RDEPENDS:${PN} += "-/usr/bin/vulkaninfo if libvulkan1 \
-/usr/bin/glxinfo \
+RDEPENDS:${PN} += "/usr/bin/glxinfo \
 /usr/bin/wayland-info \
 /usr/bin/xdpyinfo \
 baloo5-imports \

@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "openblas-common-devel \
 openblas-devel-headers \
 pkgconfig-openblas"
 
-RDEPENDS:${PN} += "-openblas-devel(default) or openblas-devel(other) \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/pkg-config"
 
 inherit rpm

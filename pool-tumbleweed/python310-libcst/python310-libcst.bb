@@ -12,8 +12,7 @@ python3.10dist-libcst \
 python310-libcst \
 python3dist-libcst"
 
-RDEPENDS:${PN} += "-python310-dataclasses if python310-base < 3.7 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
 python-abi \
 python310-PyYAML \

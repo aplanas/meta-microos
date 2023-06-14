@@ -24,22 +24,6 @@ patterns-server-enterprise-fips \
 patterns-server-enterprise-fips-32bit \
 patterns-sles-fips"
 
-RDEPENDS:${PN} += "-dracut-fips if dracut \
--libcryptsetup12-hmac if libcryptsetup12 \
--libcryptsetup12-hmac-32bit if libcryptsetup12-32bit \
--libfreebl3-hmac if libfreebl3 \
--libfreebl3-hmac-32bit if libfreebl3-32bit \
--libgcrypt20-hmac if libgcrypt20 \
--libgnutls30-hmac if libgnutls30 \
--libgnutls30-hmac-32bit if libgnutls30-32bit \
--libopenssl1-0-0-hmac if libopenssl1-0-0 \
--libopenssl1-0-0-hmac-32bit if libopenssl1-0-0-32bit \
--libopenssl1-1-hmac if libopenssl1-1 \
--libopenssl1-1-hmac-32bit if libopenssl1-1-32bit \
--libsoftokn3-hmac if libsoftokn3 \
--libsoftokn3-hmac-32bit if libsoftokn3-32bit \
--openssh-fips if openssh-clients \
--openssh-fips if openssh-server \
--strongswan-hmac if strongswan"
+RDEPENDS:${PN} += ""
 
 inherit rpm

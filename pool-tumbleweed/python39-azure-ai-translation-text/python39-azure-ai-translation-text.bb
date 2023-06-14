@@ -22,8 +22,7 @@ RPROVIDES:${PN} += "python3.9dist-azure-ai-translation-text \
 python39-azure-ai-translation-text \
 python3dist-azure-ai-translation-text"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-ai-nspkg \
 python39-azure-ai-translation-nspkg \
 python39-azure-common \

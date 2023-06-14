@@ -16,7 +16,6 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-toolbox \
 toolbox"
 
-RDEPENDS:${PN} += "-podman or docker \
-/bin/bash"
+RDEPENDS:${PN} += "/bin/bash"
 
 inherit rpm

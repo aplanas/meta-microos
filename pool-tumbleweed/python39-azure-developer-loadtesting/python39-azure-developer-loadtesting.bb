@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.9dist-azure-developer-loadtesting \
 python39-azure-developer-loadtesting \
 python3dist-azure-developer-loadtesting"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-azure-core \
 python39-azure-nspkg \
 python39-isodate"

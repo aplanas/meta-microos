@@ -21,9 +21,7 @@ python39-pep257 \
 python39-pydocstyle \
 python3dist-pydocstyle"
 
-RDEPENDS:${PN} += "-python39-importlib-metadata >= 2 if python39-base < 3.8 \
--python39-tomli >= 1.2.3 if python39-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python-abi \
 python39-snowballstemmer \

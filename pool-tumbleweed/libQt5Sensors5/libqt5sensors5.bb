@@ -18,8 +18,7 @@ libqtsensors-generic.so \
 libqtsensors-iio-sensor-proxy.so \
 libqtsensors-linuxsys.so"
 
-RDEPENDS:${PN} += "-iio-sensor-proxy if systemd \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Core5 \

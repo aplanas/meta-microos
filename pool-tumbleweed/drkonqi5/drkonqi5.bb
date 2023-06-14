@@ -9,10 +9,7 @@ RPM_HASH = "6993ddffc96f85e44fa271f0e3f90cbb18c4ee9a3725ea372ecb32233c52e3e18391
 
 RPROVIDES:${PN} += "drkonqi5"
 
-RDEPENDS:${PN} += "-kdeclarative-components if kirigami2 \
--kitemmodels-imports if kirigami2 \
--syntax-highlighting-imports if kirigami2 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \

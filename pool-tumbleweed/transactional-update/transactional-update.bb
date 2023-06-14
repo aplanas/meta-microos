@@ -10,8 +10,7 @@ RPM_HASH = "8d372e0bad694753594dd4e5c09e2e5e190d5d3283938e06dc6c9e8d29ba4e76668d
 
 RPROVIDES:${PN} += "transactional-update"
 
-RDEPENDS:${PN} += "-compat-usrmerge-tools or rpmlib(X-CheckUnifiedSystemdir) \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/bc \
 dracut-transactional-update \

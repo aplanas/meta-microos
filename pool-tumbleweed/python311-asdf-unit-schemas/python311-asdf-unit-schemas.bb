@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.11dist-asdf-unit-schemas \
 python311-asdf-unit-schemas \
 python3dist-asdf-unit-schemas"
 
-RDEPENDS:${PN} += "-python311-importlib-resources >= 3 if python311-base < 3.9 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-asdf-standard"
 
 inherit rpm

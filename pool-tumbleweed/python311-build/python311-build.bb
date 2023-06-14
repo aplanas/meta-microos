@@ -13,9 +13,7 @@ RPROVIDES:${PN} += "python3.11dist-build \
 python311-build \
 python3dist-build"
 
-RDEPENDS:${PN} += "-python311-importlib-metadata >= 0.22 if python311-base < 3.8 \
--python311-tomli >= 1.1.0 if python311-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 python-abi \
 python311-packaging \

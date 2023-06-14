@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.9dist-flufl.lock \
 python39-flufl.lock \
 python3dist-flufl.lock"
 
-RDEPENDS:${PN} += "-python39-typing-extensions if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-atpublic \
 python39-psutil"
 

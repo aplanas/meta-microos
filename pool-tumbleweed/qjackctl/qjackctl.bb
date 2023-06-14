@@ -15,8 +15,7 @@ RPM_HASH = "0feb1f6026467190f41d8651257f676eb5e8876eaf77037576b5de116b04dd80a101
 
 RPROVIDES:${PN} += "qjackctl"
 
-RDEPENDS:${PN} += "-jack or pipewire-libjack-0-3 \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

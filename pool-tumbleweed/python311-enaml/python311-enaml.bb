@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.11dist-enaml \
 python311-enaml \
 python3dist-enaml"
 
-RDEPENDS:${PN} += "-python311-qt5 or python311-PyQt6 >= 6.3.1 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.11 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

@@ -17,8 +17,7 @@ RPROVIDES:${PN} += "python3.9dist-enaml \
 python39-enaml \
 python3dist-enaml"
 
-RDEPENDS:${PN} += "-python39-qt5 or python39-PyQt6 >= 6.3.1 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

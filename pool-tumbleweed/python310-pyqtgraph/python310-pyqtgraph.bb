@@ -18,8 +18,7 @@ python3.10dist-pyqtgraph \
 python310-pyqtgraph \
 python3dist-pyqtgraph"
 
-RDEPENDS:${PN} += "-python310-qt5 >= 5.12 or python310-PyQt6 >= 6.1 or python3-pyside2 >= 5.12 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-numpy"
 
 inherit rpm

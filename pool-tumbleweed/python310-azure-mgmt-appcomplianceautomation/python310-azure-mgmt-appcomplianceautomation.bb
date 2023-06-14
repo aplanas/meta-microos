@@ -15,8 +15,7 @@ python3.10dist-azure-mgmt-appcomplianceautomation \
 python310-azure-mgmt-appcomplianceautomation \
 python3dist-azure-mgmt-appcomplianceautomation"
 
-RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 if python310-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \

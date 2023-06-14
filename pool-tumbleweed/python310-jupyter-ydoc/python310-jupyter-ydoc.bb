@@ -17,8 +17,7 @@ python3.10dist-jupyter-ydoc \
 python310-jupyter-ydoc \
 python3dist-jupyter-ydoc"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata >= 3.6 if python310-base < 3.10 \
--python310-y-py >= 0.5.3 with python310-y-py < 0.6.0 \
+RDEPENDS:${PN} += "-python310-y-py >= 0.5.3 with python310-y-py < 0.6.0 \
 python-abi"
 
 inherit rpm

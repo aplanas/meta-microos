@@ -11,6 +11,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvantum-themes"
 
-RDEPENDS:${PN} += "-kvantum-qt5 = 1.0.10 or kvantum-qt6 = 1.0.10"
+RDEPENDS:${PN} += ""
 
 inherit rpm

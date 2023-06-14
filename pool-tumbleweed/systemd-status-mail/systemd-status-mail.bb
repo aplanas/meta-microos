@@ -14,7 +14,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-status-mail"
 
-RDEPENDS:${PN} += "-/usr/sbin/sendmail or mailx \
-/bin/sh"
+RDEPENDS:${PN} += "/bin/sh"
 
 inherit rpm

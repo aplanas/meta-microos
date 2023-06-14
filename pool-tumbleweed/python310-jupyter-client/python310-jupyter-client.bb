@@ -19,9 +19,7 @@ python3.10dist-jupyter-client \
 python310-jupyter-client \
 python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata >= 4.8.3 if python310-base < 3.10 \
--python310-jupyter-core >= 5.1 or (python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 python-abi \
 python310-entrypoints \

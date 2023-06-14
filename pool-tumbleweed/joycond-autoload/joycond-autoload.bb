@@ -12,7 +12,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joycond-autoload"
 
-RDEPENDS:${PN} += "-kmod(ledtrig-timer.ko) if kernel \
-joycond"
+RDEPENDS:${PN} += "joycond"
 
 inherit rpm

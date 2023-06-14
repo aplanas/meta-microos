@@ -19,8 +19,7 @@ RPROVIDES:${PN} += "python3.9dist-osc-tiny \
 python39-osc-tiny \
 python3dist-osc-tiny"
 
-RDEPENDS:${PN} += "-python39-cached-property if python39-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-PyYAML \
 python39-lxml \
 python39-python-dateutil \

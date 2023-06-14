@@ -15,8 +15,7 @@ RPM_HASH = "3cb07261dd604dff8299bed53719c28d70a00d11c2737efc6cbfbf185d2fcb1cd275
 
 RPROVIDES:${PN} += "guitarix"
 
-RDEPENDS:${PN} += "-jack or pipewire-libjack-0-3 \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \
 libavahi-common.so.3 \
 libavahi-gobject.so.0 \

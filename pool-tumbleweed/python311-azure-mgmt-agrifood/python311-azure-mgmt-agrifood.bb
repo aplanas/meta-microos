@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-mgmt-agrifood \
 python311-azure-mgmt-agrifood \
 python3dist-azure-mgmt-agrifood"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

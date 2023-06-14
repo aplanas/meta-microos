@@ -18,9 +18,7 @@ python3.9dist-jupyter-client \
 python39-jupyter-client \
 python3dist-jupyter-client"
 
-RDEPENDS:${PN} += "-python39-importlib-metadata >= 4.8.3 if python39-base < 3.10 \
--python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0) \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python-abi \
 python39-entrypoints \

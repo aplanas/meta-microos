@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "python3.9dist-starlette \
 python39-starlette \
 python3dist-starlette"
 
-RDEPENDS:${PN} += "-python39-typing-extensions >= 3.10.0 if python39-base < 3.10 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-anyio"
 
 inherit rpm

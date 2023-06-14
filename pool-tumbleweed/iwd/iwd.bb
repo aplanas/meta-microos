@@ -12,8 +12,7 @@ RPM_HASH = "79de7eae91d4c8c05a47d68e65a1e3d642ad0e7b96b62d4a307628bb8901637fca97
 
 RPROVIDES:${PN} += "iwd"
 
-RDEPENDS:${PN} += "-kmod(pkcs8-key-parser.ko) if kernel \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libell.so.0 \

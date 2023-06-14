@@ -24,8 +24,7 @@ python39-detox \
 python39-tox \
 python3dist-tox"
 
-RDEPENDS:${PN} += "-python39-importlib-metadata >= 0.12 if python3-base < 3.8 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python-abi \
 python39-cachetools \

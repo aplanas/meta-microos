@@ -11,8 +11,7 @@ RPROVIDES:${PN} += "python3.11dist-inflate64 \
 python311-inflate64 \
 python3dist-inflate64"
 
-RDEPENDS:${PN} += "-python311-importlib-metadata if python311-base < 3.8 \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi"
 

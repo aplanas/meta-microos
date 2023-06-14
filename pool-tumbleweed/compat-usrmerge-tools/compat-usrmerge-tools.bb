@@ -10,6 +10,6 @@ RPM_HASH = "6a1a325228ba8fcb5d54ddb7739f519d521de2b7e0e26ea8250dba2babdc00606175
 
 RPROVIDES:${PN} += "compat-usrmerge-tools"
 
-RDEPENDS:${PN} += "-compat-usrmerge if compat-usrmerge"
+RDEPENDS:${PN} += ""
 
 inherit rpm

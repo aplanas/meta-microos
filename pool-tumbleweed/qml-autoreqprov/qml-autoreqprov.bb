@@ -12,11 +12,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qml-autoreqprov"
 
-RDEPENDS:${PN} += "-libqt5-qtdeclarative-tools if libQtQuick5 \
--qmlpluginexports-qt5 if libqt5-qtdeclarative-devel \
--qmlpluginexports-qt6 if qt6-qml-devel \
--qt6-declarative-tools if libQt6Qml6 \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 jq \
 rpm"
 

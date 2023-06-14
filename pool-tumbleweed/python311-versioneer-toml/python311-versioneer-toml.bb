@@ -14,7 +14,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python311-versioneer-toml"
 
-RDEPENDS:${PN} += "-python311-tomli if python311-base < 3.11 \
-python311-versioneer"
+RDEPENDS:${PN} += "python311-versioneer"
 
 inherit rpm

@@ -33,8 +33,7 @@ RPROVIDES:${PN} += "config-xl2tpd \
 l2tpd \
 xl2tpd"
 
-RDEPENDS:${PN} += "-kmod(l2tp-ppp.ko) if kernel \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcap.so.1 \

@@ -17,8 +17,7 @@ python3.10dist-jupyter-server \
 python310-jupyter-server \
 python3dist-jupyter-server"
 
-RDEPENDS:${PN} += "-(python310-jupyter-core >= 4.12 with python310-jupyter-core < 5.0) or python310-jupyter-core >= 5.1 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.10 \
 alts \
 python-abi \

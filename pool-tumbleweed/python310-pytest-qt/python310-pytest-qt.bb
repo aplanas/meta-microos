@@ -18,8 +18,7 @@ python3.10dist-pytest-qt \
 python310-pytest-qt \
 python3dist-pytest-qt"
 
-RDEPENDS:${PN} += "-python310-qt5 or python310-PyQt6 or python3-pyside2 or python3-pyside6 \
-bitstream-vera-fonts \
+RDEPENDS:${PN} += "bitstream-vera-fonts \
 python-abi \
 python310-pytest"
 

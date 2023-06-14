@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.10dist-suseprimeindicator \
 python3dist-suseprimeindicator \
 suseprime-appindicator"
 
-RDEPENDS:${PN} += "-suse-prime or suse-prime-bbswitch \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3 \
 python-abi \
 python3-gobject"

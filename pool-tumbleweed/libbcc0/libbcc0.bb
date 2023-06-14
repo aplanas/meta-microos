@@ -11,12 +11,7 @@ RPROVIDES:${PN} += "libbcc-bpf.so.0 \
 libbcc.so.0 \
 libbcc0"
 
-RDEPENDS:${PN} += "-kernel-debug-devel if kernel-debug \
--kernel-default-devel if (kernel-default or kernel-default-base) \
--kernel-kvmsmall-devel if kernel-kvmsmall \
--kernel-pae-devel if kernel-pae \
--kernel-vanilla-devel if kernel-vanilla \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 kernel \
 kernel-devel \
 ld-linux-aarch64.so.1 \

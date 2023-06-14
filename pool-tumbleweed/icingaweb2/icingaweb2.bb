@@ -14,8 +14,7 @@ REPO_ARCH = "noarch"
 RPROVIDES:${PN} += "config-icingaweb2 \
 icingaweb2"
 
-RDEPENDS:${PN} += "-mod-php-any >= 7.3.0 or php-fpm \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 apache2 \
 icinga-l10n \
 icinga-php-library \

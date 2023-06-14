@@ -14,8 +14,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-mgmt-nginx \
 python311-azure-mgmt-nginx \
 python3dist-azure-mgmt-nginx"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.0.1 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \

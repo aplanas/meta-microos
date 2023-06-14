@@ -13,8 +13,7 @@ RPROVIDES:${PN} += "suse-module-tools \
 system-tuning-common-SUSE \
 udev-extra-rules"
 
-RDEPENDS:${PN} += "-kmod(sg.ko) if kernel \
-/bin/bash \
+RDEPENDS:${PN} += "/bin/bash \
 /bin/sh \
 /usr/bin/grep \
 /usr/bin/gzip \

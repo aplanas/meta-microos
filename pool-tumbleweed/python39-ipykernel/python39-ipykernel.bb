@@ -19,8 +19,7 @@ python39-jupyter-ipykernel \
 python39-jupyter-ipykernel-doc \
 python3dist-ipykernel"
 
-RDEPENDS:${PN} += "-python39-jupyter-core >= 5.1 or (python39-jupyter-core >= 4.12 with python39-jupyter-core < 5.0) \
-jupyter-jupyter-client \
+RDEPENDS:${PN} += "jupyter-jupyter-client \
 python-abi \
 python39-comm \
 python39-debugpy \

@@ -15,8 +15,7 @@ RPROVIDES:${PN} += "python3.11dist-azure-data-tables \
 python311-azure-data-tables \
 python3dist-azure-data-tables"
 
-RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-data-nspkg \
 python311-azure-nspkg \

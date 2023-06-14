@@ -12,8 +12,7 @@ python3.10dist-inflate64 \
 python310-inflate64 \
 python3dist-inflate64"
 
-RDEPENDS:${PN} += "-python310-importlib-metadata if python310-base < 3.8 \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi"
 

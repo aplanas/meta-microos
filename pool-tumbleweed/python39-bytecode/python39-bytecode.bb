@@ -12,7 +12,6 @@ RPROVIDES:${PN} += "python3.9dist-bytecode \
 python39-bytecode \
 python3dist-bytecode"
 
-RDEPENDS:${PN} += "-python39-typing-extensions if python39-base < 3.10 \
-python-abi"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

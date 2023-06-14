@@ -23,8 +23,7 @@ libkexiundo3.2.so.3.2 \
 libkexiutils3.2.so.3.2 \
 libkformdesigner3.2.so.3.2"
 
-RDEPENDS:${PN} += "-breeze5-icons-rcc or breeze5-icons < 5.78.0 \
-/sbin/ldconfig \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libKDb3.so.4 \

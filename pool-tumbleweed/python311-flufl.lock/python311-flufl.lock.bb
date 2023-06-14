@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "python3.11dist-flufl.lock \
 python311-flufl.lock \
 python3dist-flufl.lock"
 
-RDEPENDS:${PN} += "-python311-typing-extensions if python311-base < 3.8 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python311-atpublic \
 python311-psutil"
 

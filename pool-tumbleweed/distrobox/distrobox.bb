@@ -14,9 +14,7 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox"
 
-RDEPENDS:${PN} += "-/usr/bin/podman or /usr/bin/docker \
--distrobox-bash-completion if bash-completion \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/basename \
 /usr/bin/find \
 /usr/bin/grep \

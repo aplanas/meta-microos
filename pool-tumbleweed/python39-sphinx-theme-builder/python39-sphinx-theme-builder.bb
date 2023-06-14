@@ -18,8 +18,7 @@ RPROVIDES:${PN} += "python3.9dist-sphinx-theme-builder \
 python39-sphinx-theme-builder \
 python3dist-sphinx-theme-builder"
 
-RDEPENDS:${PN} += "-python39-tomli if python39-base < 3.11 \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/python3.9 \
 python-abi \
 python39-click \

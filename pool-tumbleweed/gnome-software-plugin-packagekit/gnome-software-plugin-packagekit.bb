@@ -12,8 +12,7 @@ RPROVIDES:${PN} += "gnome-software-plugin-packagekit \
 libgs-plugin-appstream.so \
 libgs-plugin-packagekit.so"
 
-RDEPENDS:${PN} += "-libzypp-plugin-appdata if PackageKit-backend-zypp \
-PackageKit \
+RDEPENDS:${PN} += "PackageKit \
 gnome-software \
 ld-linux-aarch64.so.1 \
 libappstream.so.4 \

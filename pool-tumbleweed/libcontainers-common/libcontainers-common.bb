@@ -14,8 +14,7 @@ libcontainers-common \
 libcontainers-image \
 libcontainers-storage"
 
-RDEPENDS:${PN} += "-libcontainers-sles-mounts if sles-release \
-/bin/sh \
+RDEPENDS:${PN} += "/bin/sh \
 /usr/bin/grep \
 /usr/bin/sed"
 

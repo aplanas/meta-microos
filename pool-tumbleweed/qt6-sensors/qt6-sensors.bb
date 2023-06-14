@@ -14,8 +14,7 @@ libqtsensors-generic.so \
 libqtsensors-iio-sensor-proxy.so \
 qt6-sensors"
 
-RDEPENDS:${PN} += "-iio-sensor-proxy if systemd \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6DBus.so.6 \
 libQt6Sensors.so.6 \

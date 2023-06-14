@@ -11,9 +11,7 @@ RPM_HASH = "61149b455b0da22847c6f9837b2bcddf914b97780ae60666c015c2caaff054cf3899
 RPROVIDES:${PN} += "kubernetes-kubeadm-provider \
 kubernetes1.20-kubeadm"
 
-RDEPENDS:${PN} += "-kmod(br-netfilter.ko) if kernel \
--kubernetes1.20-kubelet or kubernetes1.19-kubelet \
-cri-runtime \
+RDEPENDS:${PN} += "cri-runtime \
 ebtables \
 ethtool \
 kubernetes-kubeadm-criconfig \

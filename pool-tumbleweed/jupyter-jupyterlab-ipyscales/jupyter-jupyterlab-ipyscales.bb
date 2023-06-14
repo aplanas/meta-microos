@@ -15,7 +15,6 @@ REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyscales"
 
-RDEPENDS:${PN} += "-python39-ipyscales = 0.7.0 or python311-ipyscales = 0.7.0 or python310-ipyscales = 0.7.0 \
-jupyter-jupyterlab"
+RDEPENDS:${PN} += "jupyter-jupyterlab"
 
 inherit rpm
